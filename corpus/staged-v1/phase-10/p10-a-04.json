@@ -1,0 +1,153 @@
+{
+  "id": "p10-a-04",
+  "title_zh": "约定社团章程修订的投票安排",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-charter-amendment-ballot-plan",
+    "label_zh": "安排社团章程修改表决",
+    "goal_zh": "明确现行委员任命规则与修改提案，并约定下次会议投票前发送完整修订文字"
+  },
+  "participants": [
+    "Ada",
+    "Jonas"
+  ],
+  "context_zh": "虚构摄影社团的秘书和主席讨论如何让会员决定任命规则。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-04-s01",
+      "speaker": "Ada",
+      "text": "Our charter says the chair can appoint the equipment committee without consulting members."
+    },
+    {
+      "id": "p10-a-04-s02",
+      "speaker": "Jonas",
+      "text": "I know. The last selection felt arbitrary because nobody explained the criteria."
+    },
+    {
+      "id": "p10-a-04-s03",
+      "speaker": "Ada",
+      "text": "I'd like to amend that section so members elect the committee instead."
+    },
+    {
+      "id": "p10-a-04-s04",
+      "speaker": "Jonas",
+      "text": "Then we need the full wording of the amendment before anyone votes."
+    },
+    {
+      "id": "p10-a-04-s05",
+      "speaker": "Ada",
+      "text": "I'll send it with next week's meeting notice. Can we hold a secret ballot at that meeting?"
+    },
+    {
+      "id": "p10-a-04-s06",
+      "speaker": "Jonas",
+      "text": "Yes. Put the proposal on the agenda, but make clear that the current rule still applies until members approve a change."
+    },
+    {
+      "id": "p10-a-04-s07",
+      "speaker": "Ada",
+      "text": "Understood. I'll describe it as a proposal, not an adopted rule."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1c6d71d6203900bb",
+      "lemma": "charter",
+      "pos": "n.",
+      "sense_zh": "章程",
+      "sentence_ids": [
+        "p10-a-04-s01"
+      ],
+      "forms": [
+        "charter"
+      ],
+      "sense_id": "sense-staged-ox-1c6d71d6203900bb-p10-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cc7da0165edb7bea",
+      "lemma": "appoint",
+      "pos": "v.",
+      "sense_zh": "任命",
+      "sentence_ids": [
+        "p10-a-04-s01"
+      ],
+      "forms": [
+        "appoint"
+      ],
+      "sense_id": "sense-staged-ox-cc7da0165edb7bea-p10-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b21f079507ff82a",
+      "lemma": "arbitrary",
+      "pos": "adj.",
+      "sense_zh": "随意的；缺乏明确依据的",
+      "sentence_ids": [
+        "p10-a-04-s02"
+      ],
+      "forms": [
+        "arbitrary"
+      ],
+      "sense_id": "sense-staged-ox-2b21f079507ff82a-p10-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-578d63f2e5adb198",
+      "lemma": "amend",
+      "pos": "v.",
+      "sense_zh": "修订",
+      "sentence_ids": [
+        "p10-a-04-s03"
+      ],
+      "forms": [
+        "amend"
+      ],
+      "sense_id": "sense-staged-ox-578d63f2e5adb198-p10-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9be29427bd993c14",
+      "lemma": "amendment",
+      "pos": "n.",
+      "sense_zh": "修订条文",
+      "sentence_ids": [
+        "p10-a-04-s04"
+      ],
+      "forms": [
+        "amendment"
+      ],
+      "sense_id": "sense-staged-ox-9be29427bd993c14-p10-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc515beb75359f4a",
+      "lemma": "ballot",
+      "pos": "n.",
+      "sense_zh": "投票",
+      "sentence_ids": [
+        "p10-a-04-s05"
+      ],
+      "forms": [
+        "ballot"
+      ],
+      "sense_id": "sense-staged-ox-fc515beb75359f4a-p10-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

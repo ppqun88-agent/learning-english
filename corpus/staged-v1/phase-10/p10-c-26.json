@@ -1,0 +1,105 @@
+{
+  "id": "p10-c-26",
+  "title_zh": "约好陪朋友练习展示开场",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "beginner-presentation-reassurance",
+    "label_zh": "约定陪朋友练习开场以减轻难堪",
+    "goal_zh": "回应朋友对提问和出错的难堪，并约定先练习一分钟开场"
+  },
+  "participants": [
+    "Chloe",
+    "Ravi"
+  ],
+  "context_zh": "两名朋友在一次公开展示前谈论紧张和练习方式。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-26-s01",
+      "speaker": "Chloe",
+      "text": "I did not ask what the instructions meant because I was afraid it was a dumb question."
+    },
+    {
+      "id": "p10-c-26-s02",
+      "speaker": "Ravi",
+      "text": "It was a reasonable question. Several people looked confused."
+    },
+    {
+      "id": "p10-c-26-s03",
+      "speaker": "Chloe",
+      "text": "Now I have to present tomorrow, and the embarrassment of getting stuck is all I can think about."
+    },
+    {
+      "id": "p10-c-26-s04",
+      "speaker": "Ravi",
+      "text": "Would some practice help more than encouragement right now?"
+    },
+    {
+      "id": "p10-c-26-s05",
+      "speaker": "Chloe",
+      "text": "Yes. Could I try just the first minute with you, without an audience?"
+    },
+    {
+      "id": "p10-c-26-s06",
+      "speaker": "Ravi",
+      "text": "Of course. I will listen once without interrupting, and then we can work on anything unclear."
+    },
+    {
+      "id": "p10-c-26-s07",
+      "speaker": "Chloe",
+      "text": "Thanks. Let me get my notes, and we can start with the opening."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c52179673dbf609b",
+      "lemma": "dumb",
+      "pos": "adj.",
+      "sense_zh": "愚蠢的；不明智的（非正式）",
+      "sentence_ids": [
+        "p10-c-26-s01"
+      ],
+      "forms": [
+        "dumb"
+      ],
+      "sense_id": "sense-staged-ox-c52179673dbf609b-p10-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-50d8389ef545bcac",
+      "lemma": "embarrassment",
+      "pos": "n.",
+      "sense_zh": "尴尬；难堪",
+      "sentence_ids": [
+        "p10-c-26-s03"
+      ],
+      "forms": [
+        "embarrassment"
+      ],
+      "sense_id": "sense-staged-ox-50d8389ef545bcac-p10-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b18634025433ea8a",
+      "lemma": "encouragement",
+      "pos": "n.",
+      "sense_zh": "鼓励",
+      "sentence_ids": [
+        "p10-c-26-s04"
+      ],
+      "forms": [
+        "encouragement"
+      ],
+      "sense_id": "sense-staged-ox-b18634025433ea8a-p10-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

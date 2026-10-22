@@ -1,0 +1,105 @@
+{
+  "id": "p10-c-35",
+  "title_zh": "决定拒绝附带独家背书条件的赞助",
+  "topic_id": "work",
+  "scenario": {
+    "id": "sponsor-endorsement-boundary",
+    "label_zh": "决定不接受带独家背书条件的赞助",
+    "goal_zh": "核对赞助要求与活动独立性冲突，并决定拒绝当前条件"
+  },
+  "participants": [
+    "Marcel",
+    "Faye"
+  ],
+  "context_zh": "社区修理工作坊组织者讨论一家工具商提供的赞助草案。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-35-s01",
+      "speaker": "Marcel",
+      "text": "The sponsor wants us to endorse its tools during every repair session."
+    },
+    {
+      "id": "p10-c-35-s02",
+      "speaker": "Faye",
+      "text": "I thought the offer only asked for a logo on the programme."
+    },
+    {
+      "id": "p10-c-35-s03",
+      "speaker": "Marcel",
+      "text": "The latest draft requires an exclusive endorsement. We could not recommend any competing tool."
+    },
+    {
+      "id": "p10-c-35-s04",
+      "speaker": "Faye",
+      "text": "That would stop our instructors from giving independent answers. We should not accept it."
+    },
+    {
+      "id": "p10-c-35-s05",
+      "speaker": "Marcel",
+      "text": "Could we ask for a simple logo acknowledgment instead?"
+    },
+    {
+      "id": "p10-c-35-s06",
+      "speaker": "Faye",
+      "text": "We could, but they have already refused that twice. I would rather decline this offer than keep negotiating."
+    },
+    {
+      "id": "p10-c-35-s07",
+      "speaker": "Marcel",
+      "text": "I agree. I will write back declining the current terms and make clear that we are not promising any endorsement."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2095ef809285f1ca",
+      "lemma": "endorse",
+      "pos": "v.",
+      "sense_zh": "公开支持；推荐",
+      "sentence_ids": [
+        "p10-c-35-s01"
+      ],
+      "forms": [
+        "endorse"
+      ],
+      "sense_id": "sense-staged-ox-2095ef809285f1ca-p10-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac854b8aee37b603",
+      "lemma": "exclusive",
+      "pos": "adj.",
+      "sense_zh": "排他的；独家的",
+      "sentence_ids": [
+        "p10-c-35-s03"
+      ],
+      "forms": [
+        "exclusive"
+      ],
+      "sense_id": "sense-staged-ox-ac854b8aee37b603-p10-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41a3b7325050b72f",
+      "lemma": "endorsement",
+      "pos": "n.",
+      "sense_zh": "公开认可；背书",
+      "sentence_ids": [
+        "p10-c-35-s03"
+      ],
+      "forms": [
+        "endorsement"
+      ],
+      "sense_id": "sense-staged-ox-41a3b7325050b72f-p10-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

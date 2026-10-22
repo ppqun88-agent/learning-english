@@ -1,0 +1,116 @@
+{
+  "id": "p10-b-04",
+  "title_zh": "约定展览合作先核对开幕日期",
+  "topic_id": "work",
+  "scenario": {
+    "id": "joint-exhibition-opening-date",
+    "label_zh": "约定展览合作先核对开幕日期",
+    "goal_zh": "发现拟议开幕与会员晚会撞期，并分工询问能否调整后再决定联合开幕"
+  },
+  "participants": [
+    "Sofia",
+    "Marcus"
+  ],
+  "context_zh": "两家小型美术馆的工作人员讨论尚未确定的合作展览。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-04-s01",
+      "speaker": "Marcus",
+      "text": "Are we still hoping to collaborate with the Riverside Gallery on an opening event?"
+    },
+    {
+      "id": "p10-b-04-s02",
+      "speaker": "Sofia",
+      "text": "Yes, but their proposed date would coincide with our annual members evening."
+    },
+    {
+      "id": "p10-b-04-s03",
+      "speaker": "Marcus",
+      "text": "Could your counterpart there check whether the following Friday is free?"
+    },
+    {
+      "id": "p10-b-04-s04",
+      "speaker": "Sofia",
+      "text": "I'll ask her. Would our director accept a later opening?"
+    },
+    {
+      "id": "p10-b-04-s05",
+      "speaker": "Marcus",
+      "text": "I'll check with him today. The collaboration could work, but we shouldn't announce a date before both galleries agree."
+    },
+    {
+      "id": "p10-b-04-s06",
+      "speaker": "Sofia",
+      "text": "Right. Let's compare their replies tomorrow before choosing the opening night."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f9d3dce06967c235",
+      "lemma": "collaborate",
+      "pos": "v.",
+      "sense_zh": "合作",
+      "sentence_ids": [
+        "p10-b-04-s01"
+      ],
+      "forms": [
+        "collaborate"
+      ],
+      "sense_id": "sense-staged-ox-f9d3dce06967c235-p10-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c62772eb9f12bdd2",
+      "lemma": "coincide",
+      "pos": "v.",
+      "sense_zh": "在同一时间发生",
+      "sentence_ids": [
+        "p10-b-04-s02"
+      ],
+      "forms": [
+        "coincide"
+      ],
+      "sense_id": "sense-staged-ox-c62772eb9f12bdd2-p10-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0568180d44fd6658",
+      "lemma": "counterpart",
+      "pos": "n.",
+      "sense_zh": "另一机构中职务相对应的人",
+      "sentence_ids": [
+        "p10-b-04-s03"
+      ],
+      "forms": [
+        "counterpart"
+      ],
+      "sense_id": "sense-staged-ox-0568180d44fd6658-p10-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9aa148c4ed23d6eb",
+      "lemma": "collaboration",
+      "pos": "n.",
+      "sense_zh": "合作",
+      "sentence_ids": [
+        "p10-b-04-s05"
+      ],
+      "forms": [
+        "collaboration"
+      ],
+      "sense_id": "sense-staged-ox-9aa148c4ed23d6eb-p10-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

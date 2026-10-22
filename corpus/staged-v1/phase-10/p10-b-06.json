@@ -1,0 +1,116 @@
+{
+  "id": "p10-b-06",
+  "title_zh": "确定港口贸易展板的材料范围",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "harbour-trade-display-plan",
+    "label_zh": "确定港口贸易展板的材料范围",
+    "goal_zh": "依据展览资料选择铜贸易实例，并约定注明殖民背景和记录出处"
+  },
+  "participants": [
+    "Jonah",
+    "Aisha"
+  ],
+  "context_zh": "虚构地方史展览：工作人员依据给定的历史资料讨论展板，不声称描述真实港口史。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-06-s01",
+      "speaker": "Aisha",
+      "text": "This colonial shipping ledger is difficult to turn into a display. Where should we start?"
+    },
+    {
+      "id": "p10-b-06-s02",
+      "speaker": "Jonah",
+      "text": "With one commodity rather than every item. Copper appears in several of the entries."
+    },
+    {
+      "id": "p10-b-06-s03",
+      "speaker": "Aisha",
+      "text": "Would that make the panel too narrow?"
+    },
+    {
+      "id": "p10-b-06-s04",
+      "speaker": "Jonah",
+      "text": "Not if we use the copper trade to explain commerce through this port. The ledger gives us destinations and quantities."
+    },
+    {
+      "id": "p10-b-06-s05",
+      "speaker": "Aisha",
+      "text": "We also need to say who kept the ledger and that it comes from the period of colonial rule."
+    },
+    {
+      "id": "p10-b-06-s06",
+      "speaker": "Jonah",
+      "text": "Agreed. I'll build the panel around those copper entries and include the archive reference, without guessing who profited."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a3f15fd4d749cf94",
+      "lemma": "colonial",
+      "pos": "adj.",
+      "sense_zh": "殖民时期的",
+      "sentence_ids": [
+        "p10-b-06-s01"
+      ],
+      "forms": [
+        "colonial"
+      ],
+      "sense_id": "sense-staged-ox-a3f15fd4d749cf94-p10-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-59499a1bd2878c70",
+      "lemma": "commodity",
+      "pos": "n.",
+      "sense_zh": "商品；大宗货物",
+      "sentence_ids": [
+        "p10-b-06-s02"
+      ],
+      "forms": [
+        "commodity"
+      ],
+      "sense_id": "sense-staged-ox-59499a1bd2878c70-p10-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9671e4ead6003ba4",
+      "lemma": "copper",
+      "pos": "n.",
+      "sense_zh": "铜",
+      "sentence_ids": [
+        "p10-b-06-s02"
+      ],
+      "forms": [
+        "copper"
+      ],
+      "sense_id": "sense-staged-ox-9671e4ead6003ba4-p10-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef828db83ffb17cb",
+      "lemma": "commerce",
+      "pos": "n.",
+      "sense_zh": "商业贸易",
+      "sentence_ids": [
+        "p10-b-06-s04"
+      ],
+      "forms": [
+        "commerce"
+      ],
+      "sense_id": "sense-staged-ox-ef828db83ffb17cb-p10-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

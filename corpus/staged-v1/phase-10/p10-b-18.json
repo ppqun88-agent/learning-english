@@ -1,0 +1,153 @@
+{
+  "id": "p10-b-18",
+  "title_zh": "要求会堂通风报价说明范围与标准",
+  "topic_id": "community",
+  "scenario": {
+    "id": "hall-ventilation-quote-scope",
+    "label_zh": "要求会堂通风报价说明范围与标准",
+    "goal_zh": "指出预算限制和报价缺项，并约定先索取逐项说明再决定是否施工"
+  },
+  "participants": [
+    "Gareth",
+    "Inez"
+  ],
+  "context_zh": "虚构社区会堂项目：管理员与项目同事阅读通风改造报价，不提供工程或法规建议。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-18-s01",
+      "speaker": "Inez",
+      "text": "The contractor has sent a single price for the hall ventilation work. It is more costly than we expected."
+    },
+    {
+      "id": "p10-b-18-s02",
+      "speaker": "Gareth",
+      "text": "Does it say what is included?"
+    },
+    {
+      "id": "p10-b-18-s03",
+      "speaker": "Inez",
+      "text": "Not clearly. The note mentions the complexity of working above the stage, but there is no breakdown."
+    },
+    {
+      "id": "p10-b-18-s04",
+      "speaker": "Gareth",
+      "text": "Our budget is a real constraint. We also need a clear statement about which requirements the design must comply with."
+    },
+    {
+      "id": "p10-b-18-s05",
+      "speaker": "Inez",
+      "text": "There is a line saying 'compliance included', but no named standard or inspection step."
+    },
+    {
+      "id": "p10-b-18-s06",
+      "speaker": "Gareth",
+      "text": "Ask for an itemised scope and the standards they are using. We cannot judge the quote from that phrase alone."
+    },
+    {
+      "id": "p10-b-18-s07",
+      "speaker": "Inez",
+      "text": "I'll request those details and a separate price for any optional work. We won't authorise construction until we can compare the complete figures."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-00d40e77ad8cbcb0",
+      "lemma": "contractor",
+      "pos": "n.",
+      "sense_zh": "承包商",
+      "sentence_ids": [
+        "p10-b-18-s01"
+      ],
+      "forms": [
+        "contractor"
+      ],
+      "sense_id": "sense-staged-ox-00d40e77ad8cbcb0-p10-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-68a9b9bc52f867b8",
+      "lemma": "costly",
+      "pos": "adj.",
+      "sense_zh": "昂贵的",
+      "sentence_ids": [
+        "p10-b-18-s01"
+      ],
+      "forms": [
+        "costly"
+      ],
+      "sense_id": "sense-staged-ox-68a9b9bc52f867b8-p10-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-671176ceeb044596",
+      "lemma": "complexity",
+      "pos": "n.",
+      "sense_zh": "复杂性",
+      "sentence_ids": [
+        "p10-b-18-s03"
+      ],
+      "forms": [
+        "complexity"
+      ],
+      "sense_id": "sense-staged-ox-671176ceeb044596-p10-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc00f7d730f17052",
+      "lemma": "constraint",
+      "pos": "n.",
+      "sense_zh": "限制因素",
+      "sentence_ids": [
+        "p10-b-18-s04"
+      ],
+      "forms": [
+        "constraint"
+      ],
+      "sense_id": "sense-staged-ox-fc00f7d730f17052-p10-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-42b9e2a25eab1469",
+      "lemma": "comply",
+      "pos": "v.",
+      "sense_zh": "遵守；符合",
+      "sentence_ids": [
+        "p10-b-18-s04"
+      ],
+      "forms": [
+        "comply"
+      ],
+      "sense_id": "sense-staged-ox-42b9e2a25eab1469-p10-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d2a551222434567",
+      "lemma": "compliance",
+      "pos": "n.",
+      "sense_zh": "合规；符合要求",
+      "sentence_ids": [
+        "p10-b-18-s05"
+      ],
+      "forms": [
+        "compliance"
+      ],
+      "sense_id": "sense-staged-ox-5d2a551222434567-p10-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

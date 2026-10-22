@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-24",
+  "title_zh": "约定与朋友先见收容所的狗",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "shelter-dog-meeting-with-friend",
+    "label_zh": "安排与朋友一起初见收容所的狗",
+    "goal_zh": "明确狗的品种标注只是估计，约定带朋友参加首次见面，并确认不要求当场决定领养"
+  },
+  "participants": [
+    "Caleb",
+    "June"
+  ],
+  "context_zh": "潜在领养者向收容所工作人员询问一只狗的资料与探访。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-24-s01",
+      "speaker": "Caleb",
+      "text": "The card lists her breed as a terrier mix. How certain are you about that?"
+    },
+    {
+      "id": "p10-a-24-s02",
+      "speaker": "June",
+      "text": "It's an estimate based on her appearance. The classification isn't backed by a genetic test."
+    },
+    {
+      "id": "p10-a-24-s03",
+      "speaker": "Caleb",
+      "text": "Thanks for explaining. My buddy Lewis would be helping me care for her. Could we meet her together?"
+    },
+    {
+      "id": "p10-a-24-s04",
+      "speaker": "June",
+      "text": "Yes. We have a quiet introduction slot on Sunday at eleven."
+    },
+    {
+      "id": "p10-a-24-s05",
+      "speaker": "Caleb",
+      "text": "Please put us down for that. We'd like to get to know her before making any adoption decision."
+    },
+    {
+      "id": "p10-a-24-s06",
+      "speaker": "June",
+      "text": "I've booked the visit for you and Lewis. It's just a first meeting, with no decision expected that day."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4cf2662517f360a3",
+      "lemma": "breed",
+      "pos": "n.",
+      "sense_zh": "动物品种",
+      "sentence_ids": [
+        "p10-a-24-s01"
+      ],
+      "forms": [
+        "breed"
+      ],
+      "sense_id": "sense-staged-ox-4cf2662517f360a3-p10-a-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8cc728a4e72fd439",
+      "lemma": "classification",
+      "pos": "n.",
+      "sense_zh": "分类；归类结果",
+      "sentence_ids": [
+        "p10-a-24-s02"
+      ],
+      "forms": [
+        "classification"
+      ],
+      "sense_id": "sense-staged-ox-8cc728a4e72fd439-p10-a-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0345be59eca47eef",
+      "lemma": "buddy",
+      "pos": "n.",
+      "sense_zh": "朋友；伙伴",
+      "sentence_ids": [
+        "p10-a-24-s03"
+      ],
+      "forms": [
+        "buddy"
+      ],
+      "sense_id": "sense-staged-ox-0345be59eca47eef-p10-a-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

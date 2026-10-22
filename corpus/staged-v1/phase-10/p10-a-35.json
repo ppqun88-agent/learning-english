@@ -1,0 +1,84 @@
+{
+  "id": "p10-a-35",
+  "title_zh": "选定围栏外的牛群观察位置",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "farm-cattle-viewing-distance",
+    "label_zh": "选择围栏外观察牛群",
+    "goal_zh": "说明不愿进入牛场的顾虑，并选择围栏外的观察台"
+  },
+  "participants": [
+    "Bea",
+    "Hugo"
+  ],
+  "context_zh": "农场参观者与工作人员讨论如何观察正在放牧的牛群。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-35-s01",
+      "speaker": "Bea",
+      "text": "I'd like to see the cattle, but I'm cautious around animals that large. Do we have to go into their field?"
+    },
+    {
+      "id": "p10-a-35-s02",
+      "speaker": "Hugo",
+      "text": "No. Visitors stay on this side of the fence. There's a viewing platform beside the gate."
+    },
+    {
+      "id": "p10-a-35-s03",
+      "speaker": "Bea",
+      "text": "Can I see the calves from there too?"
+    },
+    {
+      "id": "p10-a-35-s04",
+      "speaker": "Hugo",
+      "text": "Yes. They're resting near the far trough, and the platform gives you a clear view."
+    },
+    {
+      "id": "p10-a-35-s05",
+      "speaker": "Bea",
+      "text": "I'll watch from the platform, then. I won't open the gate."
+    },
+    {
+      "id": "p10-a-35-s06",
+      "speaker": "Hugo",
+      "text": "That's the right choice for the visit. I'll point out the calves when you get there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1da42c5a6fea83ed",
+      "lemma": "cattle",
+      "pos": "n.",
+      "sense_zh": "牛群；牛",
+      "sentence_ids": [
+        "p10-a-35-s01"
+      ],
+      "forms": [
+        "cattle"
+      ],
+      "sense_id": "sense-staged-ox-1da42c5a6fea83ed-p10-a-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eef546b370402328",
+      "lemma": "cautious",
+      "pos": "adj.",
+      "sense_zh": "谨慎的",
+      "sentence_ids": [
+        "p10-a-35-s01"
+      ],
+      "forms": [
+        "cautious"
+      ],
+      "sense_id": "sense-staged-ox-eef546b370402328-p10-a-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

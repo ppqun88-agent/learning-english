@@ -1,0 +1,84 @@
+{
+  "id": "p10-a-31",
+  "title_zh": "确认社区通讯份数并约好分发",
+  "topic_id": "work",
+  "scenario": {
+    "id": "newsletter-circulation-before-distribution",
+    "label_zh": "确认通讯发行范围后约定分发",
+    "goal_zh": "确认社区通讯每期的纸质发行量和分发地点，并约定当天分发本期副本"
+  },
+  "participants": [
+    "Mabel",
+    "Arun"
+  ],
+  "context_zh": "社区通讯编辑与新志愿者安排纸质通讯的分发。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-31-s01",
+      "speaker": "Mabel",
+      "text": "How many copies should I collect for today's newsletter delivery?"
+    },
+    {
+      "id": "p10-a-31-s02",
+      "speaker": "Arun",
+      "text": "Our print circulation is two hundred per issue. This stack is the whole run."
+    },
+    {
+      "id": "p10-a-31-s03",
+      "speaker": "Mabel",
+      "text": "Do I take them all to the library?"
+    },
+    {
+      "id": "p10-a-31-s04",
+      "speaker": "Arun",
+      "text": "Half go there, and half go to the community centre. Could you circulate them this afternoon?"
+    },
+    {
+      "id": "p10-a-31-s05",
+      "speaker": "Mabel",
+      "text": "Yes. I'll take a hundred to each place and leave them at the agreed collection points."
+    },
+    {
+      "id": "p10-a-31-s06",
+      "speaker": "Arun",
+      "text": "Thank you. Both desks are expecting the bundles today."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d7331fe3cdca358a",
+      "lemma": "circulation",
+      "pos": "n.",
+      "sense_zh": "报刊发行量",
+      "sentence_ids": [
+        "p10-a-31-s02"
+      ],
+      "forms": [
+        "circulation"
+      ],
+      "sense_id": "sense-staged-ox-d7331fe3cdca358a-p10-a-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-37515e0239314717",
+      "lemma": "circulate",
+      "pos": "v.",
+      "sense_zh": "分发；传阅",
+      "sentence_ids": [
+        "p10-a-31-s04"
+      ],
+      "forms": [
+        "circulate"
+      ],
+      "sense_id": "sense-staged-ox-37515e0239314717-p10-a-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

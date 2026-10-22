@@ -1,0 +1,89 @@
+{
+  "id": "p10-b-03",
+  "title_zh": "先索取记忆研究的同意说明",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "memory-study-consent-choice",
+    "label_zh": "先索取记忆研究的同意说明",
+    "goal_zh": "核对研究活动和录音选择，并决定先阅读同意说明而不立即报名"
+  },
+  "participants": [
+    "Researcher",
+    "Priya"
+  ],
+  "context_zh": "虚构大学研究招募：成年人询问一项记忆研究，不涉及诊断或治疗。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-03-s01",
+      "speaker": "Priya",
+      "text": "What would I actually do in the memory study?"
+    },
+    {
+      "id": "p10-b-03-s02",
+      "speaker": "Researcher",
+      "text": "You'd complete some cognitive tasks, such as remembering a short list of pictures. This isn't a medical assessment."
+    },
+    {
+      "id": "p10-b-03-s03",
+      "speaker": "Priya",
+      "text": "The poster mentions recording. Is that required?"
+    },
+    {
+      "id": "p10-b-03-s04",
+      "speaker": "Researcher",
+      "text": "Audio recording is optional. The consent form separates that choice from taking part in the tasks."
+    },
+    {
+      "id": "p10-b-03-s05",
+      "speaker": "Priya",
+      "text": "Could you send me the form before I decide?"
+    },
+    {
+      "id": "p10-b-03-s06",
+      "speaker": "Researcher",
+      "text": "Of course. I'll email the information sheet and the blank form. You don't need to sign up today."
+    },
+    {
+      "id": "p10-b-03-s07",
+      "speaker": "Priya",
+      "text": "Thanks. I'll read those first and contact you if I want to take part."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d083d67a4c443141",
+      "lemma": "cognitive",
+      "pos": "adj.",
+      "sense_zh": "与认知过程有关的",
+      "sentence_ids": [
+        "p10-b-03-s02"
+      ],
+      "forms": [
+        "cognitive"
+      ],
+      "sense_id": "sense-staged-ox-d083d67a4c443141-p10-b-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6c45ed57f6c514e",
+      "lemma": "consent",
+      "pos": "n.",
+      "sense_zh": "知情同意；许可",
+      "sentence_ids": [
+        "p10-b-03-s04"
+      ],
+      "forms": [
+        "consent"
+      ],
+      "sense_id": "sense-staged-ox-b6c45ed57f6c514e-p10-b-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

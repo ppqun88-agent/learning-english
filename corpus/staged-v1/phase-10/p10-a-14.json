@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-14",
+  "title_zh": "先查周五场馆空档而不预订",
+  "topic_id": "work",
+  "scenario": {
+    "id": "arena-event-date-availability-check",
+    "label_zh": "询问活动场馆空档并约定核对周五",
+    "goal_zh": "说明预计观众人数和日期冲突，并约定查询周五场馆空档后再回复"
+  },
+  "participants": [
+    "Kofi",
+    "Elena"
+  ],
+  "context_zh": "活动筹办人与体育馆预订员讨论社区表演的可能日期。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-14-s01",
+      "speaker": "Kofi",
+      "text": "We're expecting attendance of about six hundred. Is the arena available on Saturday the twelfth?"
+    },
+    {
+      "id": "p10-a-14-s02",
+      "speaker": "Elena",
+      "text": "It has enough seats, but there's a clash with a basketball tournament on that date."
+    },
+    {
+      "id": "p10-a-14-s03",
+      "speaker": "Kofi",
+      "text": "What about the evening before? Our performers could manage Friday."
+    },
+    {
+      "id": "p10-a-14-s04",
+      "speaker": "Elena",
+      "text": "I'll need to check availability with the event manager. Friday isn't showing as confirmed either way."
+    },
+    {
+      "id": "p10-a-14-s05",
+      "speaker": "Kofi",
+      "text": "Please check that date and email me. Don't reserve anything yet."
+    },
+    {
+      "id": "p10-a-14-s06",
+      "speaker": "Elena",
+      "text": "I will. You'll get an answer about Friday before we discuss a booking."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3c0ea4e0f2f84e34",
+      "lemma": "attendance",
+      "pos": "n.",
+      "sense_zh": "出席人数",
+      "sentence_ids": [
+        "p10-a-14-s01"
+      ],
+      "forms": [
+        "attendance"
+      ],
+      "sense_id": "sense-staged-ox-3c0ea4e0f2f84e34-p10-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f156e1035b1d8649",
+      "lemma": "arena",
+      "pos": "n.",
+      "sense_zh": "大型室内比赛或活动场馆",
+      "sentence_ids": [
+        "p10-a-14-s01"
+      ],
+      "forms": [
+        "arena"
+      ],
+      "sense_id": "sense-staged-ox-f156e1035b1d8649-p10-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ab614099ec756c6f",
+      "lemma": "clash",
+      "pos": "n.",
+      "sense_zh": "时间冲突",
+      "sentence_ids": [
+        "p10-a-14-s02"
+      ],
+      "forms": [
+        "clash"
+      ],
+      "sense_id": "sense-staged-ox-ab614099ec756c6f-p10-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bb25278e01da0186",
+      "lemma": "availability",
+      "pos": "n.",
+      "sense_zh": "可用空档",
+      "sentence_ids": [
+        "p10-a-14-s04"
+      ],
+      "forms": [
+        "availability"
+      ],
+      "sense_id": "sense-staged-ox-bb25278e01da0186-p10-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,84 @@
+{
+  "id": "p10-b-40",
+  "title_zh": "改用站立轻步的舞台入场方式",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "stage-stealth-entrance-rehearsal",
+    "label_zh": "改用站立轻步的舞台入场方式",
+    "goal_zh": "澄清角色偷偷入场的表演目的，并因服装活动限制决定不采用爬行"
+  },
+  "participants": [
+    "Director",
+    "Milo"
+  ],
+  "context_zh": "虚构剧场排练：演员与导演讨论一位躲避舞台守卫的角色如何进场。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-40-s01",
+      "speaker": "Milo",
+      "text": "Do you want me to crawl under the bench when the guard turns away?"
+    },
+    {
+      "id": "p10-b-40-s02",
+      "speaker": "Director",
+      "text": "No, just creep across the stage behind him. The audience should see you trying not to make a sound."
+    },
+    {
+      "id": "p10-b-40-s03",
+      "speaker": "Milo",
+      "text": "This long coat catches when I kneel. Staying on my feet would be much easier."
+    },
+    {
+      "id": "p10-b-40-s04",
+      "speaker": "Director",
+      "text": "Then keep upright and take small, quiet steps. We are showing caution, not an escape through a tunnel."
+    },
+    {
+      "id": "p10-b-40-s05",
+      "speaker": "Milo",
+      "text": "All right. I'll enter after the guard faces the window and stay behind him."
+    },
+    {
+      "id": "p10-b-40-s06",
+      "speaker": "Director",
+      "text": "Yes. Let's rehearse that standing entrance from his turn toward the window."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7433931374d3d9f7",
+      "lemma": "crawl",
+      "pos": "v.",
+      "sense_zh": "爬行",
+      "sentence_ids": [
+        "p10-b-40-s01"
+      ],
+      "forms": [
+        "crawl"
+      ],
+      "sense_id": "sense-staged-ox-7433931374d3d9f7-p10-b-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-950ae3d20149685d",
+      "lemma": "creep",
+      "pos": "v.",
+      "sense_zh": "蹑手蹑脚地移动",
+      "sentence_ids": [
+        "p10-b-40-s02"
+      ],
+      "forms": [
+        "creep"
+      ],
+      "sense_id": "sense-staged-ox-950ae3d20149685d-p10-b-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

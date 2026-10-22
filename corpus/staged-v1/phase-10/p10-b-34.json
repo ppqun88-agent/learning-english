@@ -1,0 +1,100 @@
+{
+  "id": "p10-b-34",
+  "title_zh": "选定影迷会放映导演的首部长片",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "film-club-screening-choice",
+    "label_zh": "选定影迷会放映导演的首部长片",
+    "goal_zh": "比较熟悉影片与导演首作，并选择首作同时约定简介不预设观众看过"
+  },
+  "participants": [
+    "Theo",
+    "June"
+  ],
+  "context_zh": "私人影迷会讨论下一次放映使用的合法可播放影片，影片和导演均为虚构。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-34-s01",
+      "speaker": "June",
+      "text": "We've watched that cult comedy countless times. Could we choose something less familiar?"
+    },
+    {
+      "id": "p10-b-34-s02",
+      "speaker": "Theo",
+      "text": "How about the same director's debut? It is a quiet drama, not another comedy."
+    },
+    {
+      "id": "p10-b-34-s03",
+      "speaker": "June",
+      "text": "Would people need to know the later films to follow it?"
+    },
+    {
+      "id": "p10-b-34-s04",
+      "speaker": "Theo",
+      "text": "No. The story stands on its own. We can say it was her first feature without turning the introduction into a fan quiz."
+    },
+    {
+      "id": "p10-b-34-s05",
+      "speaker": "June",
+      "text": "Then let's show the debut. I'll write a short introduction that welcomes people who have never seen her work."
+    },
+    {
+      "id": "p10-b-34-s06",
+      "speaker": "Theo",
+      "text": "Good. I'll put that title on our next screening list instead of repeating the comedy."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3fa99e7cc934b233",
+      "lemma": "cult",
+      "pos": "adj.",
+      "sense_zh": "受到特定群体狂热喜爱的",
+      "sentence_ids": [
+        "p10-b-34-s01"
+      ],
+      "forms": [
+        "cult"
+      ],
+      "sense_id": "sense-staged-ox-3fa99e7cc934b233-p10-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5aa8b8086fb9f8d2",
+      "lemma": "countless",
+      "pos": "adj.",
+      "sense_zh": "无数的；很多的",
+      "sentence_ids": [
+        "p10-b-34-s01"
+      ],
+      "forms": [
+        "countless"
+      ],
+      "sense_id": "sense-staged-ox-5aa8b8086fb9f8d2-p10-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-753de9dbb59c0c58",
+      "lemma": "debut",
+      "pos": "n.",
+      "sense_zh": "首次推出的作品；处女作",
+      "sentence_ids": [
+        "p10-b-34-s02"
+      ],
+      "forms": [
+        "debut"
+      ],
+      "sense_id": "sense-staged-ox-753de9dbb59c0c58-p10-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

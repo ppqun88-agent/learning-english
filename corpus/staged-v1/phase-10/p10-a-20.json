@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-20",
+  "title_zh": "明确公共服务台的转介范围",
+  "topic_id": "community",
+  "scenario": {
+    "id": "civic-help-desk-service-referral",
+    "label_zh": "确认公共服务台的转介范围",
+    "goal_zh": "区分庇护和公民身份问题的转介渠道，并约定志愿者只提供预约与联系方式"
+  },
+  "participants": [
+    "Amina",
+    "George"
+  ],
+  "context_zh": "虚构公民服务中心培训中，新志愿者核对服务台职责；不解释任何国家的法律资格。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-20-s01",
+      "speaker": "Amina",
+      "text": "At the civic help desk, will I answer questions about asylum as well as citizenship?"
+    },
+    {
+      "id": "p10-a-20-s02",
+      "speaker": "George",
+      "text": "You'll help people reach the right adviser. The two topics have separate appointment lists here."
+    },
+    {
+      "id": "p10-a-20-s03",
+      "speaker": "Amina",
+      "text": "So if someone asks whether they're eligible, I shouldn't try to interpret the rules?"
+    },
+    {
+      "id": "p10-a-20-s04",
+      "speaker": "George",
+      "text": "Exactly. Give them the relevant service's contact details or help arrange an appointment. Let the qualified adviser address their situation."
+    },
+    {
+      "id": "p10-a-20-s05",
+      "speaker": "Amina",
+      "text": "I'll use the referral sheet, then, and keep my explanation to how they can contact the service."
+    },
+    {
+      "id": "p10-a-20-s06",
+      "speaker": "George",
+      "text": "That's right. If you aren't sure which list fits, ask me rather than guess."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b54bba296a3d33c9",
+      "lemma": "civic",
+      "pos": "adj.",
+      "sense_zh": "公民事务的；市民服务的",
+      "sentence_ids": [
+        "p10-a-20-s01"
+      ],
+      "forms": [
+        "civic"
+      ],
+      "sense_id": "sense-staged-ox-b54bba296a3d33c9-p10-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-280a9b6872922ddb",
+      "lemma": "asylum",
+      "pos": "n.",
+      "sense_zh": "政治庇护",
+      "sentence_ids": [
+        "p10-a-20-s01"
+      ],
+      "forms": [
+        "asylum"
+      ],
+      "sense_id": "sense-staged-ox-280a9b6872922ddb-p10-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54805433ead59885",
+      "lemma": "citizenship",
+      "pos": "n.",
+      "sense_zh": "公民身份",
+      "sentence_ids": [
+        "p10-a-20-s01"
+      ],
+      "forms": [
+        "citizenship"
+      ],
+      "sense_id": "sense-staged-ox-54805433ead59885-p10-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

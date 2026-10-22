@@ -1,0 +1,84 @@
+{
+  "id": "p10-c-24",
+  "title_zh": "澄清求导要求并完成首题计算",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "equation-method-feedback",
+    "label_zh": "澄清求导练习的要求并完成一步计算",
+    "goal_zh": "区分解方程与求导，并核对第一题的导数"
+  },
+  "participants": [
+    "Yuki",
+    "Andre"
+  ],
+  "context_zh": "数学学习小组中，学员误把求导练习当作解方程。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-24-s01",
+      "speaker": "Yuki",
+      "text": "This equation says y equals three x squared. Am I supposed to find x?"
+    },
+    {
+      "id": "p10-c-24-s02",
+      "speaker": "Andre",
+      "text": "Look at the instruction: differentiate with respect to x. It asks how y changes, not for a value of x."
+    },
+    {
+      "id": "p10-c-24-s03",
+      "speaker": "Yuki",
+      "text": "So I use the power rule rather than solve the equation?"
+    },
+    {
+      "id": "p10-c-24-s04",
+      "speaker": "Andre",
+      "text": "Yes. What happens to three x squared?"
+    },
+    {
+      "id": "p10-c-24-s05",
+      "speaker": "Yuki",
+      "text": "The two comes down, so I get six x."
+    },
+    {
+      "id": "p10-c-24-s06",
+      "speaker": "Andre",
+      "text": "Correct. Write that as the derivative, and then try the next question yourself."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1061172110e8f3b7",
+      "lemma": "equation",
+      "pos": "n.",
+      "sense_zh": "方程；等式",
+      "sentence_ids": [
+        "p10-c-24-s01"
+      ],
+      "forms": [
+        "equation"
+      ],
+      "sense_id": "sense-staged-ox-1061172110e8f3b7-p10-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6027f1190ffab61b",
+      "lemma": "differentiate",
+      "pos": "v.",
+      "sense_zh": "求导；微分",
+      "sentence_ids": [
+        "p10-c-24-s02"
+      ],
+      "forms": [
+        "differentiate"
+      ],
+      "sense_id": "sense-staged-ox-6027f1190ffab61b-p10-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

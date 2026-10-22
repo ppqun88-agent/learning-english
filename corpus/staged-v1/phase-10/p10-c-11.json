@@ -1,0 +1,153 @@
+{
+  "id": "p10-c-11",
+  "title_zh": "限定帮助网站更新的内部测试安排",
+  "topic_id": "work",
+  "scenario": {
+    "id": "help-site-pilot-deployment-check",
+    "label_zh": "限定帮助网站更新的测试范围",
+    "goal_zh": "确认测试环境与演示内容，并约定先验证内部部署再考虑正式发布"
+  },
+  "participants": [
+    "Priya",
+    "Noel"
+  ],
+  "context_zh": "两名同事准备在隔离的测试环境中更新帮助网站。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-11-s01",
+      "speaker": "Priya",
+      "text": "Can we deploy the new help page today?"
+    },
+    {
+      "id": "p10-c-11-s02",
+      "speaker": "Noel",
+      "text": "To the test site, yes. This deployment must not touch the public site."
+    },
+    {
+      "id": "p10-c-11-s03",
+      "speaker": "Priya",
+      "text": "I have the test domain open on a desktop. Where is the video file?"
+    },
+    {
+      "id": "p10-c-11-s04",
+      "speaker": "Noel",
+      "text": "In the media directory. Can you embed it below the first set of instructions?"
+    },
+    {
+      "id": "p10-c-11-s05",
+      "speaker": "Priya",
+      "text": "Yes. I will use the approved demo clip, not the recording with customer names."
+    },
+    {
+      "id": "p10-c-11-s06",
+      "speaker": "Noel",
+      "text": "Good. After the test upload, check the video and all the links in a separate browser session."
+    },
+    {
+      "id": "p10-c-11-s07",
+      "speaker": "Priya",
+      "text": "Understood. I will send you the test results before we make any decision about a public release."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1c3b956200beafec",
+      "lemma": "deploy",
+      "pos": "v.",
+      "sense_zh": "部署；使系统可供使用",
+      "sentence_ids": [
+        "p10-c-11-s01"
+      ],
+      "forms": [
+        "deploy"
+      ],
+      "sense_id": "sense-staged-ox-1c3b956200beafec-p10-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c4176044a5572bc",
+      "lemma": "deployment",
+      "pos": "n.",
+      "sense_zh": "部署",
+      "sentence_ids": [
+        "p10-c-11-s02"
+      ],
+      "forms": [
+        "deployment"
+      ],
+      "sense_id": "sense-staged-ox-0c4176044a5572bc-p10-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a81c11fa1902128",
+      "lemma": "domain",
+      "pos": "n.",
+      "sense_zh": "互联网域名",
+      "sentence_ids": [
+        "p10-c-11-s03"
+      ],
+      "forms": [
+        "domain"
+      ],
+      "sense_id": "sense-staged-ox-5a81c11fa1902128-p10-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a77bdfb06f4fd826",
+      "lemma": "desktop",
+      "pos": "n.",
+      "sense_zh": "台式电脑",
+      "sentence_ids": [
+        "p10-c-11-s03"
+      ],
+      "forms": [
+        "desktop"
+      ],
+      "sense_id": "sense-staged-ox-a77bdfb06f4fd826-p10-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-250c889037e64120",
+      "lemma": "directory",
+      "pos": "n.",
+      "sense_zh": "计算机文件目录",
+      "sentence_ids": [
+        "p10-c-11-s04"
+      ],
+      "forms": [
+        "directory"
+      ],
+      "sense_id": "sense-staged-ox-250c889037e64120-p10-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-848a03ea44547f41",
+      "lemma": "embed",
+      "pos": "v.",
+      "sense_zh": "嵌入",
+      "sentence_ids": [
+        "p10-c-11-s04"
+      ],
+      "forms": [
+        "embed"
+      ],
+      "sense_id": "sense-staged-ox-848a03ea44547f41-p10-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

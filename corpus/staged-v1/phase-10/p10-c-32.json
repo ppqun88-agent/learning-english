@@ -1,0 +1,121 @@
+{
+  "id": "p10-c-32",
+  "title_zh": "为诗歌朗读选择简洁灯光和无伴乐开场",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "poetry-stage-design-choice",
+    "label_zh": "为诗歌朗读选择简洁舞台安排",
+    "goal_zh": "比较复杂布景与诗歌表达的需要，并决定保留单束暖光、取消开场伴乐"
+  },
+  "participants": [
+    "Iris",
+    "Theo"
+  ],
+  "context_zh": "诗人和舞台设计者为一首回忆家庭生活的诗安排朗读环境。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-32-s01",
+      "speaker": "Iris",
+      "text": "This backdrop is elaborate. Will all those moving images distract from the poem?"
+    },
+    {
+      "id": "p10-c-32-s02",
+      "speaker": "Theo",
+      "text": "They were meant to evoke the kitchen in your childhood home, but perhaps they tell the audience too much."
+    },
+    {
+      "id": "p10-c-32-s03",
+      "speaker": "Iris",
+      "text": "The essence of the poem is the silence after everyone has left. I need room for that."
+    },
+    {
+      "id": "p10-c-32-s04",
+      "speaker": "Theo",
+      "text": "Would one warm light on the empty chair elevate the reading more than the projections?"
+    },
+    {
+      "id": "p10-c-32-s05",
+      "speaker": "Iris",
+      "text": "Yes. The chair and light would be enough. Could we lose the music at the start too?"
+    },
+    {
+      "id": "p10-c-32-s06",
+      "speaker": "Theo",
+      "text": "Certainly. We will use the warm light, leave the backdrop plain, and begin without music."
+    },
+    {
+      "id": "p10-c-32-s07",
+      "speaker": "Iris",
+      "text": "That feels right. Let us rehearse with that arrangement."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3747f24df9e21c2a",
+      "lemma": "elaborate",
+      "pos": "adj.",
+      "sense_zh": "复杂精细的",
+      "sentence_ids": [
+        "p10-c-32-s01"
+      ],
+      "forms": [
+        "elaborate"
+      ],
+      "sense_id": "sense-staged-ox-3747f24df9e21c2a-p10-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-58d37c6592e9ab26",
+      "lemma": "evoke",
+      "pos": "v.",
+      "sense_zh": "唤起；使人联想",
+      "sentence_ids": [
+        "p10-c-32-s02"
+      ],
+      "forms": [
+        "evoke"
+      ],
+      "sense_id": "sense-staged-ox-58d37c6592e9ab26-p10-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1701cc3987ec0153",
+      "lemma": "essence",
+      "pos": "n.",
+      "sense_zh": "本质；精髓",
+      "sentence_ids": [
+        "p10-c-32-s03"
+      ],
+      "forms": [
+        "essence"
+      ],
+      "sense_id": "sense-staged-ox-1701cc3987ec0153-p10-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1bd313c4af66fe67",
+      "lemma": "elevate",
+      "pos": "v.",
+      "sense_zh": "提升；使更出色",
+      "sentence_ids": [
+        "p10-c-32-s04"
+      ],
+      "forms": [
+        "elevate"
+      ],
+      "sense_id": "sense-staged-ox-1bd313c4af66fe67-p10-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

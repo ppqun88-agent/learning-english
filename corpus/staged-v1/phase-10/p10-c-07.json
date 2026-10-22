@@ -1,0 +1,126 @@
+{
+  "id": "p10-c-07",
+  "title_zh": "约定在投诉报道中隐藏未获同意的身份细节",
+  "topic_id": "work",
+  "scenario": {
+    "id": "complaint-report-identity-boundary",
+    "label_zh": "确定投诉报道中的隐私边界",
+    "goal_zh": "区分否认与事实核实，并约定保留回应、删除可能暴露投诉人的细节"
+  },
+  "participants": [
+    "Inez",
+    "Malcolm"
+  ],
+  "context_zh": "虚构社区新闻编辑室讨论一篇尚未发布的投诉报道。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-07-s01",
+      "speaker": "Inez",
+      "text": "The manager sent a denial of the complaint. Does that settle the story?"
+    },
+    {
+      "id": "p10-c-07-s02",
+      "speaker": "Malcolm",
+      "text": "No. We should report the response, but it is not an independent check of what happened."
+    },
+    {
+      "id": "p10-c-07-s03",
+      "speaker": "Inez",
+      "text": "The draft also includes the complainant's job title. That could disclose who she is."
+    },
+    {
+      "id": "p10-c-07-s04",
+      "speaker": "Malcolm",
+      "text": "She agreed to describe the incident, not to have her identity published. We need more discretion here."
+    },
+    {
+      "id": "p10-c-07-s05",
+      "speaker": "Inez",
+      "text": "Would removing her name be enough?"
+    },
+    {
+      "id": "p10-c-07-s06",
+      "speaker": "Malcolm",
+      "text": "Not if her role identifies her. That would still be an unintended disclosure."
+    },
+    {
+      "id": "p10-c-07-s07",
+      "speaker": "Inez",
+      "text": "I will remove the name and the specific job title, keep the manager's response, and mark the disputed details as unverified."
+    },
+    {
+      "id": "p10-c-07-s08",
+      "speaker": "Malcolm",
+      "text": "Good. Send me that version before publication."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2b4022deecaac624",
+      "lemma": "denial",
+      "pos": "n.",
+      "sense_zh": "否认",
+      "sentence_ids": [
+        "p10-c-07-s01"
+      ],
+      "forms": [
+        "denial"
+      ],
+      "sense_id": "sense-staged-ox-2b4022deecaac624-p10-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-34c5844cb3d537ec",
+      "lemma": "disclose",
+      "pos": "v.",
+      "sense_zh": "透露；披露",
+      "sentence_ids": [
+        "p10-c-07-s03"
+      ],
+      "forms": [
+        "disclose"
+      ],
+      "sense_id": "sense-staged-ox-34c5844cb3d537ec-p10-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b13b9cdee199e430",
+      "lemma": "discretion",
+      "pos": "n.",
+      "sense_zh": "谨慎；审慎",
+      "sentence_ids": [
+        "p10-c-07-s04"
+      ],
+      "forms": [
+        "discretion"
+      ],
+      "sense_id": "sense-staged-ox-b13b9cdee199e430-p10-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d22a781ae794a8bf",
+      "lemma": "disclosure",
+      "pos": "n.",
+      "sense_zh": "披露；泄露",
+      "sentence_ids": [
+        "p10-c-07-s06"
+      ],
+      "forms": [
+        "disclosure"
+      ],
+      "sense_id": "sense-staged-ox-d22a781ae794a8bf-p10-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

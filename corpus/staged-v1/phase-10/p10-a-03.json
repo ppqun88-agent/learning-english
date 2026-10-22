@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-03",
+  "title_zh": "商定大使到访时的欢迎致辞",
+  "topic_id": "work",
+  "scenario": {
+    "id": "ambassador-welcome-speech-scope",
+    "label_zh": "限定大使欢迎致辞的代表范围",
+    "goal_zh": "明确致辞代表志愿者，并选定感谢大使到访的简短开场"
+  },
+  "participants": [
+    "Sana",
+    "Owen"
+  ],
+  "context_zh": "文化中心活动前，志愿者代表与协调人核对欢迎辞。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-03-s01",
+      "speaker": "Sana",
+      "text": "The ambassador arrives at six. Would you like me to welcome her before the music starts?"
+    },
+    {
+      "id": "p10-a-03-s02",
+      "speaker": "Owen",
+      "text": "Yes, but speak on behalf of our volunteers, not the whole city."
+    },
+    {
+      "id": "p10-a-03-s03",
+      "speaker": "Sana",
+      "text": "How about: 'Our volunteers would like to express our appreciation for your visit'?"
+    },
+    {
+      "id": "p10-a-03-s04",
+      "speaker": "Owen",
+      "text": "That works. Follow it with a welcome to the centre, and then introduce the musicians."
+    },
+    {
+      "id": "p10-a-03-s05",
+      "speaker": "Sana",
+      "text": "I'll use that opening and keep the whole welcome under a minute."
+    },
+    {
+      "id": "p10-a-03-s06",
+      "speaker": "Owen",
+      "text": "Good. That's the version we'll put on your cue card."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-74e5046d03bdf36a",
+      "lemma": "ambassador",
+      "pos": "n.",
+      "sense_zh": "大使",
+      "sentence_ids": [
+        "p10-a-03-s01"
+      ],
+      "forms": [
+        "ambassador"
+      ],
+      "sense_id": "sense-staged-ox-74e5046d03bdf36a-p10-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-039407bb11a06e45",
+      "lemma": "behalf",
+      "pos": "n.",
+      "sense_zh": "代表某人或群体（on behalf of）",
+      "sentence_ids": [
+        "p10-a-03-s02"
+      ],
+      "forms": [
+        "behalf"
+      ],
+      "sense_id": "sense-staged-ox-039407bb11a06e45-p10-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-37fa3f87632c3059",
+      "lemma": "appreciation",
+      "pos": "n.",
+      "sense_zh": "感谢",
+      "sentence_ids": [
+        "p10-a-03-s03"
+      ],
+      "forms": [
+        "appreciation"
+      ],
+      "sense_id": "sense-staged-ox-37fa3f87632c3059-p10-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p10-c-27",
+  "title_zh": "商定通过用户试用选择展示原型",
+  "topic_id": "work",
+  "scenario": {
+    "id": "cofounder-prototype-choice-process",
+    "label_zh": "在产品分歧中商定比较原型的方法",
+    "goal_zh": "说明两款原型的取舍，并约定不由个人偏好单独决定而先观察试用"
+  },
+  "participants": [
+    "Nell",
+    "Oscar"
+  ],
+  "context_zh": "两位产品合作创始人选择下月演示所用的原型。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-27-s01",
+      "speaker": "Nell",
+      "text": "We have a dilemma: the simple prototype is easy to learn, but the other one shows more of what we can build."
+    },
+    {
+      "id": "p10-c-27-s02",
+      "speaker": "Oscar",
+      "text": "I prefer the second, though I do not want to dictate the choice just because I designed it."
+    },
+    {
+      "id": "p10-c-27-s03",
+      "speaker": "Nell",
+      "text": "I appreciate that. My ego is involved too; I have defended the simple one all week."
+    },
+    {
+      "id": "p10-c-27-s04",
+      "speaker": "Oscar",
+      "text": "Could we watch a few first-time users try both before we decide?"
+    },
+    {
+      "id": "p10-c-27-s05",
+      "speaker": "Nell",
+      "text": "Yes. Give them the same task and do not explain the controls unless they ask."
+    },
+    {
+      "id": "p10-c-27-s06",
+      "speaker": "Oscar",
+      "text": "Then we can compare where they get stuck rather than which design we like more."
+    },
+    {
+      "id": "p10-c-27-s07",
+      "speaker": "Nell",
+      "text": "Agreed. I will arrange the sessions, and we will choose the demo version after reviewing them together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9b2c4b5486f0b6c7",
+      "lemma": "dilemma",
+      "pos": "n.",
+      "sense_zh": "两难选择",
+      "sentence_ids": [
+        "p10-c-27-s01"
+      ],
+      "forms": [
+        "dilemma"
+      ],
+      "sense_id": "sense-staged-ox-9b2c4b5486f0b6c7-p10-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c0cbe5b78722a87",
+      "lemma": "dictate",
+      "pos": "v.",
+      "sense_zh": "强行决定；支配",
+      "sentence_ids": [
+        "p10-c-27-s02"
+      ],
+      "forms": [
+        "dictate"
+      ],
+      "sense_id": "sense-staged-ox-0c0cbe5b78722a87-p10-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b85a3ec74c0223d0",
+      "lemma": "ego",
+      "pos": "n.",
+      "sense_zh": "自我；自尊心",
+      "sentence_ids": [
+        "p10-c-27-s03"
+      ],
+      "forms": [
+        "ego"
+      ],
+      "sense_id": "sense-staged-ox-b85a3ec74c0223d0-p10-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

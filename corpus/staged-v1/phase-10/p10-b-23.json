@@ -1,0 +1,100 @@
+{
+  "id": "p10-b-23",
+  "title_zh": "依社团规则暂缓人数不足的表决",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-quorum-decision-rule",
+    "label_zh": "依社团规则暂缓人数不足的表决",
+    "goal_zh": "核对出席人数与法定人数，并决定先交换意见而等第四名成员到场再表决"
+  },
+  "participants": [
+    "Secretary",
+    "Chair"
+  ],
+  "context_zh": "虚构摄影社委员会开会，秘书拿出社团现行规则核对表决程序。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-23-s01",
+      "speaker": "Chair",
+      "text": "Only three committee members are here. Can we approve the equipment purchase now?"
+    },
+    {
+      "id": "p10-b-23-s02",
+      "speaker": "Secretary",
+      "text": "Our rules say four members constitute a quorum for spending decisions."
+    },
+    {
+      "id": "p10-b-23-s03",
+      "speaker": "Chair",
+      "text": "Could we confer about the options while we wait, without taking a vote?"
+    },
+    {
+      "id": "p10-b-23-s04",
+      "speaker": "Secretary",
+      "text": "Yes. Discussion is allowed, but the decision-making rule still applies to approval."
+    },
+    {
+      "id": "p10-b-23-s05",
+      "speaker": "Chair",
+      "text": "Then we will compare the two quotes now and wait for the fourth member before voting."
+    },
+    {
+      "id": "p10-b-23-s06",
+      "speaker": "Secretary",
+      "text": "I'll record that no purchase has been approved at this point."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a4569f1bf0004a3f",
+      "lemma": "constitute",
+      "pos": "v.",
+      "sense_zh": "构成",
+      "sentence_ids": [
+        "p10-b-23-s02"
+      ],
+      "forms": [
+        "constitute"
+      ],
+      "sense_id": "sense-staged-ox-a4569f1bf0004a3f-p10-b-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9e8be0959c158a72",
+      "lemma": "confer",
+      "pos": "v.",
+      "sense_zh": "商议",
+      "sentence_ids": [
+        "p10-b-23-s03"
+      ],
+      "forms": [
+        "confer"
+      ],
+      "sense_id": "sense-staged-ox-9e8be0959c158a72-p10-b-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fd162b36ed5a3616",
+      "lemma": "decision-making",
+      "pos": "n.",
+      "sense_zh": "决策过程",
+      "sentence_ids": [
+        "p10-b-23-s04"
+      ],
+      "forms": [
+        "decision-making"
+      ],
+      "sense_id": "sense-staged-ox-fd162b36ed5a3616-p10-b-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

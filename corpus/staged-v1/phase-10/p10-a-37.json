@@ -1,0 +1,94 @@
+{
+  "id": "p10-a-37",
+  "title_zh": "把入园行为标签改为具体观察记录",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "child-dropoff-behavioral-observation",
+    "label_zh": "为入园分离记录具体行为",
+    "goal_zh": "将笼统的行为描述限定为送别时拉住家长的观察，并约定记录一周的送别和安定情况后共同回看"
+  },
+  "participants": [
+    "Mira",
+    "Daniel"
+  ],
+  "context_zh": "家长与幼儿园老师讨论孩子入园送别时的表现，不作心理诊断。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-37-s01",
+      "speaker": "Mira",
+      "text": "The note mentions behavioral difficulties. That sounds serious. What exactly have you seen?"
+    },
+    {
+      "id": "p10-a-37-s02",
+      "speaker": "Daniel",
+      "text": "At drop-off, she tends to cling to your coat and ask you to stay. I should have described that rather than used such a broad label."
+    },
+    {
+      "id": "p10-a-37-s03",
+      "speaker": "Mira",
+      "text": "Does it continue after I leave?"
+    },
+    {
+      "id": "p10-a-37-s04",
+      "speaker": "Daniel",
+      "text": "Not usually. Yesterday she joined the painting table within a few minutes."
+    },
+    {
+      "id": "p10-a-37-s05",
+      "speaker": "Mira",
+      "text": "Could we record what happens at the goodbye and how she settles afterward for a week?"
+    },
+    {
+      "id": "p10-a-37-s06",
+      "speaker": "Daniel",
+      "text": "Yes. I'll note those specific observations, and we'll review them together next Friday."
+    },
+    {
+      "id": "p10-a-37-s07",
+      "speaker": "Mira",
+      "text": "That would help. Please replace the broad label in today's note with what you actually observed."
+    },
+    {
+      "id": "p10-a-37-s08",
+      "speaker": "Daniel",
+      "text": "I've changed it to describe the coat-holding and the move to painting. I'll use that approach for the week's record."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-12fa451c5c8a9170",
+      "lemma": "behavioral",
+      "pos": "adj.",
+      "sense_zh": "行为方面的",
+      "sentence_ids": [
+        "p10-a-37-s01"
+      ],
+      "forms": [
+        "behavioral"
+      ],
+      "sense_id": "sense-staged-ox-12fa451c5c8a9170-p10-a-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e6a68d6f5a9f5dc2",
+      "lemma": "cling",
+      "pos": "v.",
+      "sense_zh": "紧紧抓住；依附",
+      "sentence_ids": [
+        "p10-a-37-s02"
+      ],
+      "forms": [
+        "cling"
+      ],
+      "sense_id": "sense-staged-ox-e6a68d6f5a9f5dc2-p10-a-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,158 @@
+{
+  "id": "p10-c-29",
+  "title_zh": "确定公众历史工作坊的参与式结构",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "public-history-workshop-structure",
+    "label_zh": "设计鼓励参与的公众历史工作坊",
+    "goal_zh": "明确工作坊讨论范围，并约定以口述故事、双人交流和开放提问鼓励参与"
+  },
+  "participants": [
+    "June",
+    "Dr Mensah"
+  ],
+  "context_zh": "成人教育负责人和受邀教育工作者筹备社区历史工作坊。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-29-s01",
+      "speaker": "June",
+      "text": "As an educator, how would you make a local-history workshop feel less like a lecture?"
+    },
+    {
+      "id": "p10-c-29-s02",
+      "speaker": "Dr Mensah",
+      "text": "Start with an engaging oral account, then ask people what they noticed before offering an interpretation."
+    },
+    {
+      "id": "p10-c-29-s03",
+      "speaker": "June",
+      "text": "We want the session to enrich public discourse, not just test who knows the most dates."
+    },
+    {
+      "id": "p10-c-29-s04",
+      "speaker": "Dr Mensah",
+      "text": "Then give people time to talk in pairs. Engagement is easier when every contribution does not have to be made to a whole room."
+    },
+    {
+      "id": "p10-c-29-s05",
+      "speaker": "June",
+      "text": "Should the discussion encompass the entire town history?"
+    },
+    {
+      "id": "p10-c-29-s06",
+      "speaker": "Dr Mensah",
+      "text": "Not in one evening. Let us focus on how one street changed, using two residents' accounts and a map."
+    },
+    {
+      "id": "p10-c-29-s07",
+      "speaker": "June",
+      "text": "That gives us a clear structure: a short story, paired discussion, and open questions about that street."
+    },
+    {
+      "id": "p10-c-29-s08",
+      "speaker": "Dr Mensah",
+      "text": "Yes. I will choose the accounts, and you can prepare the paired-discussion prompt."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d2505826c950a792",
+      "lemma": "educator",
+      "pos": "n.",
+      "sense_zh": "教育工作者",
+      "sentence_ids": [
+        "p10-c-29-s01"
+      ],
+      "forms": [
+        "educator"
+      ],
+      "sense_id": "sense-staged-ox-d2505826c950a792-p10-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-38fc359e667be547",
+      "lemma": "engaging",
+      "pos": "adj.",
+      "sense_zh": "有吸引力的",
+      "sentence_ids": [
+        "p10-c-29-s02"
+      ],
+      "forms": [
+        "engaging"
+      ],
+      "sense_id": "sense-staged-ox-38fc359e667be547-p10-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-28cc15657e154333",
+      "lemma": "enrich",
+      "pos": "v.",
+      "sense_zh": "丰富；充实",
+      "sentence_ids": [
+        "p10-c-29-s03"
+      ],
+      "forms": [
+        "enrich"
+      ],
+      "sense_id": "sense-staged-ox-28cc15657e154333-p10-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-83b01f3dce6d74fe",
+      "lemma": "discourse",
+      "pos": "n.",
+      "sense_zh": "公共讨论；话语交流",
+      "sentence_ids": [
+        "p10-c-29-s03"
+      ],
+      "forms": [
+        "discourse"
+      ],
+      "sense_id": "sense-staged-ox-83b01f3dce6d74fe-p10-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ab5718c7e001b4bd",
+      "lemma": "engagement",
+      "pos": "n.",
+      "sense_zh": "参与；投入",
+      "sentence_ids": [
+        "p10-c-29-s04"
+      ],
+      "forms": [
+        "engagement"
+      ],
+      "sense_id": "sense-staged-ox-ab5718c7e001b4bd-p10-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-04367bc47f31d839",
+      "lemma": "encompass",
+      "pos": "v.",
+      "sense_zh": "包括；涵盖",
+      "sentence_ids": [
+        "p10-c-29-s05"
+      ],
+      "forms": [
+        "encompass"
+      ],
+      "sense_id": "sense-staged-ox-04367bc47f31d839-p10-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

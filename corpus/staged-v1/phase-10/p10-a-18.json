@@ -1,0 +1,153 @@
+{
+  "id": "p10-a-18",
+  "title_zh": "战争影片讨论改用文字简介",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fictional-war-film-content-note",
+    "label_zh": "约定以文字简介代替战争影片片段",
+    "goal_zh": "核对虚构影片简介中的暴力内容，并决定不用影像片段而分发简短内容说明"
+  },
+  "participants": [
+    "Priya",
+    "Marcus"
+  ],
+  "context_zh": "影迷读书小组筹办者讨论一部完全虚构的战争影片是否适合周末活动。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-18-s01",
+      "speaker": "Priya",
+      "text": "The programme notes say the film opens with an assassination and then moves to a battlefield. Is that too much for Saturday's discussion?"
+    },
+    {
+      "id": "p10-a-18-s02",
+      "speaker": "Marcus",
+      "text": "Possibly. The review also describes an atrocity against villagers, so it isn't only about soldiers fighting."
+    },
+    {
+      "id": "p10-a-18-s03",
+      "speaker": "Priya",
+      "text": "It calls one central character a civilian casualty. Does the review describe what happened to her?"
+    },
+    {
+      "id": "p10-a-18-s04",
+      "speaker": "Marcus",
+      "text": "Yes. It says she's injured during an attack, and it warns that the scene is brutal."
+    },
+    {
+      "id": "p10-a-18-s05",
+      "speaker": "Priya",
+      "text": "Let's not show a clip. We can discuss the review's argument without asking everyone to watch that."
+    },
+    {
+      "id": "p10-a-18-s06",
+      "speaker": "Marcus",
+      "text": "Agreed. I'll prepare a short written summary with a content note about violence, and people can choose whether to join that discussion."
+    },
+    {
+      "id": "p10-a-18-s07",
+      "speaker": "Priya",
+      "text": "Good. Put the summary on the reading list in place of the clip."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-df4e49d75dcf6e46",
+      "lemma": "assassination",
+      "pos": "n.",
+      "sense_zh": "暗杀",
+      "sentence_ids": [
+        "p10-a-18-s01"
+      ],
+      "forms": [
+        "assassination"
+      ],
+      "sense_id": "sense-staged-ox-df4e49d75dcf6e46-p10-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8131348b2f786a15",
+      "lemma": "battlefield",
+      "pos": "n.",
+      "sense_zh": "战场",
+      "sentence_ids": [
+        "p10-a-18-s01"
+      ],
+      "forms": [
+        "battlefield"
+      ],
+      "sense_id": "sense-staged-ox-8131348b2f786a15-p10-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-513e3337306ff16e",
+      "lemma": "atrocity",
+      "pos": "n.",
+      "sense_zh": "暴行",
+      "sentence_ids": [
+        "p10-a-18-s02"
+      ],
+      "forms": [
+        "atrocity"
+      ],
+      "sense_id": "sense-staged-ox-513e3337306ff16e-p10-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a53ff0140fd3fcb",
+      "lemma": "civilian",
+      "pos": "adj.",
+      "sense_zh": "平民的",
+      "sentence_ids": [
+        "p10-a-18-s03"
+      ],
+      "forms": [
+        "civilian"
+      ],
+      "sense_id": "sense-staged-ox-2a53ff0140fd3fcb-p10-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d1bbd7d58e640cdd",
+      "lemma": "casualty",
+      "pos": "n.",
+      "sense_zh": "伤亡者",
+      "sentence_ids": [
+        "p10-a-18-s03"
+      ],
+      "forms": [
+        "casualty"
+      ],
+      "sense_id": "sense-staged-ox-d1bbd7d58e640cdd-p10-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8e8e3af8ad3172ad",
+      "lemma": "brutal",
+      "pos": "adj.",
+      "sense_zh": "残酷的",
+      "sentence_ids": [
+        "p10-a-18-s04"
+      ],
+      "forms": [
+        "brutal"
+      ],
+      "sense_id": "sense-staged-ox-8e8e3af8ad3172ad-p10-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

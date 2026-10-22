@@ -1,0 +1,100 @@
+{
+  "id": "p10-b-35",
+  "title_zh": "选择舞台王冠的轻质装饰方案",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "stage-crown-prototype-choice",
+    "label_zh": "选择舞台王冠的轻质装饰方案",
+    "goal_zh": "检查王冠粗样与水晶重量，并决定改用轻质仿宝石进行下一次试戴"
+  },
+  "participants": [
+    "Costume maker",
+    "Ada"
+  ],
+  "context_zh": "戏剧服装工作室用粗制纸板王冠测试造型，尚未定稿。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-35-s01",
+      "speaker": "Ada",
+      "text": "Is this crown the one I will wear in the final scene?"
+    },
+    {
+      "id": "p10-b-35-s02",
+      "speaker": "Costume maker",
+      "text": "This is just a crude cardboard model so we can check its height. The finished one will have a lighter frame."
+    },
+    {
+      "id": "p10-b-35-s03",
+      "speaker": "Ada",
+      "text": "What about that large crystal on the table? Is it meant to go in the front?"
+    },
+    {
+      "id": "p10-b-35-s04",
+      "speaker": "Costume maker",
+      "text": "That was the first idea, but it is too heavy for this design. Would you try a clear plastic stone instead?"
+    },
+    {
+      "id": "p10-b-35-s05",
+      "speaker": "Ada",
+      "text": "Yes. I need to turn my head quickly without the whole thing sliding forward."
+    },
+    {
+      "id": "p10-b-35-s06",
+      "speaker": "Costume maker",
+      "text": "Then we'll use the plastic stone for the next fitting and leave the real crystal off the crown."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bea80dae94b4cd56",
+      "lemma": "crown",
+      "pos": "n.",
+      "sense_zh": "王冠",
+      "sentence_ids": [
+        "p10-b-35-s01"
+      ],
+      "forms": [
+        "crown"
+      ],
+      "sense_id": "sense-staged-ox-bea80dae94b4cd56-p10-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ab35f156ec52069",
+      "lemma": "crude",
+      "pos": "adj.",
+      "sense_zh": "粗制的；简陋的",
+      "sentence_ids": [
+        "p10-b-35-s02"
+      ],
+      "forms": [
+        "crude"
+      ],
+      "sense_id": "sense-staged-ox-0ab35f156ec52069-p10-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b88b1df8983422c7",
+      "lemma": "crystal",
+      "pos": "n.",
+      "sense_zh": "水晶",
+      "sentence_ids": [
+        "p10-b-35-s03"
+      ],
+      "forms": [
+        "crystal"
+      ],
+      "sense_id": "sense-staged-ox-b88b1df8983422c7-p10-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

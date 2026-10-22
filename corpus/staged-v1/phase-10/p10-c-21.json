@@ -1,0 +1,105 @@
+{
+  "id": "p10-c-21",
+  "title_zh": "确认学校演练的出口与引导分工",
+  "topic_id": "community",
+  "scenario": {
+    "id": "school-drill-gate-briefing",
+    "label_zh": "确认学校演练出口及临时引导安排",
+    "goal_zh": "依据学校演练图确认离开路线，并约定设置标牌引导行人绕开集合通道"
+  },
+  "participants": [
+    "Dara",
+    "Simon"
+  ],
+  "context_zh": "学校工作人员在一次预定疏散演练前核对校方给出的图示。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-21-s01",
+      "speaker": "Dara",
+      "text": "The drill map says we evacuate through the east gate. Is the west gate out of use?"
+    },
+    {
+      "id": "p10-c-21-s02",
+      "speaker": "Simon",
+      "text": "For this drill, yes. The east route takes every class to the marked assembly area."
+    },
+    {
+      "id": "p10-c-21-s03",
+      "speaker": "Dara",
+      "text": "Parents sometimes wait by that gate. How will we keep the route clear?"
+    },
+    {
+      "id": "p10-c-21-s04",
+      "speaker": "Simon",
+      "text": "We will divert arriving visitors to reception through the side entrance."
+    },
+    {
+      "id": "p10-c-21-s05",
+      "speaker": "Dara",
+      "text": "Shall I erect the temporary signs before the drill starts?"
+    },
+    {
+      "id": "p10-c-21-s06",
+      "speaker": "Simon",
+      "text": "Yes, at the two points marked on the map. I will stand by the gate and direct visitors."
+    },
+    {
+      "id": "p10-c-21-s07",
+      "speaker": "Dara",
+      "text": "All right. I will put up the signs at those points and check with you before the first class comes out."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f41f48940d3d280f",
+      "lemma": "evacuate",
+      "pos": "v.",
+      "sense_zh": "疏散；撤离",
+      "sentence_ids": [
+        "p10-c-21-s01"
+      ],
+      "forms": [
+        "evacuate"
+      ],
+      "sense_id": "sense-staged-ox-f41f48940d3d280f-p10-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-992eaa8ad0efcb4a",
+      "lemma": "divert",
+      "pos": "v.",
+      "sense_zh": "使改道",
+      "sentence_ids": [
+        "p10-c-21-s04"
+      ],
+      "forms": [
+        "divert"
+      ],
+      "sense_id": "sense-staged-ox-992eaa8ad0efcb4a-p10-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d63c46ac2280c37a",
+      "lemma": "erect",
+      "pos": "v.",
+      "sense_zh": "竖立；搭起",
+      "sentence_ids": [
+        "p10-c-21-s05"
+      ],
+      "forms": [
+        "erect"
+      ],
+      "sense_id": "sense-staged-ox-d63c46ac2280c37a-p10-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

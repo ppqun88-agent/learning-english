@@ -1,0 +1,121 @@
+{
+  "id": "p10-b-07",
+  "title_zh": "为虚构国家时间线分开标注三个事件",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-history-timeline-sources",
+    "label_zh": "为虚构国家时间线分开标注三个事件",
+    "goal_zh": "区分政变、执政党变化与宪法通过，并约定删除未经资料证实的先后推论"
+  },
+  "participants": [
+    "Tutor",
+    "Leo"
+  ],
+  "context_zh": "历史写作课堂使用完全虚构的国家材料，材料说明政变、政党及宪法事件的不同时间。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-07-s01",
+      "speaker": "Leo",
+      "text": "My timeline says the coup immediately created a communist government."
+    },
+    {
+      "id": "p10-b-07-s02",
+      "speaker": "Tutor",
+      "text": "Does the source say that? The account of the coup only describes officers removing the president."
+    },
+    {
+      "id": "p10-b-07-s03",
+      "speaker": "Leo",
+      "text": "The next page says the communist party entered government two years later. I joined the events together."
+    },
+    {
+      "id": "p10-b-07-s04",
+      "speaker": "Tutor",
+      "text": "And where does the new constitution fit?"
+    },
+    {
+      "id": "p10-b-07-s05",
+      "speaker": "Leo",
+      "text": "It was approved the following year. A separate note calls that a constitutional change, not another military takeover."
+    },
+    {
+      "id": "p10-b-07-s06",
+      "speaker": "Tutor",
+      "text": "Then give each event its own date. What will you do with the claim about an immediate change of government?"
+    },
+    {
+      "id": "p10-b-07-s07",
+      "speaker": "Leo",
+      "text": "I'll remove that claim and use three separate entries, each linked to the page that supports it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-32dbb5f98669fab1",
+      "lemma": "coup",
+      "pos": "n.",
+      "sense_zh": "政变",
+      "sentence_ids": [
+        "p10-b-07-s01"
+      ],
+      "forms": [
+        "coup"
+      ],
+      "sense_id": "sense-staged-ox-32dbb5f98669fab1-p10-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eecb4d6c1f919efe",
+      "lemma": "communist",
+      "pos": "adj.",
+      "sense_zh": "共产主义的",
+      "sentence_ids": [
+        "p10-b-07-s01"
+      ],
+      "forms": [
+        "communist"
+      ],
+      "sense_id": "sense-staged-ox-eecb4d6c1f919efe-p10-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a3bafd51cb1d51ec",
+      "lemma": "constitution",
+      "pos": "n.",
+      "sense_zh": "宪法",
+      "sentence_ids": [
+        "p10-b-07-s04"
+      ],
+      "forms": [
+        "constitution"
+      ],
+      "sense_id": "sense-staged-ox-a3bafd51cb1d51ec-p10-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f4ffd24b66b070ee",
+      "lemma": "constitutional",
+      "pos": "adj.",
+      "sense_zh": "宪法上的",
+      "sentence_ids": [
+        "p10-b-07-s05"
+      ],
+      "forms": [
+        "constitutional"
+      ],
+      "sense_id": "sense-staged-ox-f4ffd24b66b070ee-p10-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

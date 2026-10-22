@@ -1,0 +1,84 @@
+{
+  "id": "p10-a-19",
+  "title_zh": "写出区分保释与判决的课堂摘要",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-court-bail-summary",
+    "label_zh": "区分课堂案件中的指控与保释",
+    "goal_zh": "根据虚构案件材料区分袭击指控与保释状态，并写出不预断有罪的摘要"
+  },
+  "participants": [
+    "Tessa",
+    "Mr Reed"
+  ],
+  "context_zh": "学生与老师阅读自编法律新闻练习材料，不涉及真实案件或法律建议。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-19-s01",
+      "speaker": "Tessa",
+      "text": "The fictional report says the man was charged with assault and released on bail. Does that mean the court found him innocent?"
+    },
+    {
+      "id": "p10-a-19-s02",
+      "speaker": "Mr Reed",
+      "text": "No. Look at the next line: the trial hasn't taken place. Bail tells you about his release while the case continues, not the verdict."
+    },
+    {
+      "id": "p10-a-19-s03",
+      "speaker": "Tessa",
+      "text": "So I shouldn't write that he committed the attack either?"
+    },
+    {
+      "id": "p10-a-19-s04",
+      "speaker": "Mr Reed",
+      "text": "Correct. Report the charge as a charge, and keep it separate from any finding of guilt."
+    },
+    {
+      "id": "p10-a-19-s05",
+      "speaker": "Tessa",
+      "text": "I've written: 'The man faces an assault charge and has been released on bail ahead of his trial.'"
+    },
+    {
+      "id": "p10-a-19-s06",
+      "speaker": "Mr Reed",
+      "text": "That accurately reflects the information in this exercise."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-873d8e5da44551b2",
+      "lemma": "assault",
+      "pos": "n.",
+      "sense_zh": "袭击罪；人身攻击",
+      "sentence_ids": [
+        "p10-a-19-s01"
+      ],
+      "forms": [
+        "assault"
+      ],
+      "sense_id": "sense-staged-ox-873d8e5da44551b2-p10-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c454310ffcd4e0c",
+      "lemma": "bail",
+      "pos": "n.",
+      "sense_zh": "保释",
+      "sentence_ids": [
+        "p10-a-19-s01"
+      ],
+      "forms": [
+        "bail"
+      ],
+      "sense_id": "sense-staged-ox-0c454310ffcd4e0c-p10-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

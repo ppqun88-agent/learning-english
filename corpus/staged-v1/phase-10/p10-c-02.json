@@ -1,0 +1,126 @@
+{
+  "id": "p10-c-02",
+  "title_zh": "出院前约好私下核对用药文件",
+  "topic_id": "health",
+  "scenario": {
+    "id": "discharge-prescription-clarification",
+    "label_zh": "出院前请医护核对用药文件",
+    "goal_zh": "说明用药文件的疑问，约定私下由护士核对后再办理出院"
+  },
+  "participants": [
+    "Owen",
+    "Nurse Patel"
+  ],
+  "context_zh": "虚构医院中，准备出院的患者在护士台询问文件；不提供实际用药剂量。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-02-s01",
+      "speaker": "Owen",
+      "text": "Are you going to discharge me before someone explains these tablets?"
+    },
+    {
+      "id": "p10-c-02-s02",
+      "speaker": "Nurse Patel",
+      "text": "No. We still need to go through your paperwork. What is unclear?"
+    },
+    {
+      "id": "p10-c-02-s03",
+      "speaker": "Owen",
+      "text": "The label gives a dose, but I cannot tell when I should take it next. Is that in the documentation?"
+    },
+    {
+      "id": "p10-c-02-s04",
+      "speaker": "Nurse Patel",
+      "text": "It should be, but I will check the prescription with your nurse rather than guess."
+    },
+    {
+      "id": "p10-c-02-s05",
+      "speaker": "Owen",
+      "text": "Could we do that somewhere private? I do not want to describe my symptoms in the corridor."
+    },
+    {
+      "id": "p10-c-02-s06",
+      "speaker": "Nurse Patel",
+      "text": "Of course. Your privacy and dignity matter. The consultation room is free."
+    },
+    {
+      "id": "p10-c-02-s07",
+      "speaker": "Owen",
+      "text": "Thank you. I will wait there and keep the paperwork with me."
+    },
+    {
+      "id": "p10-c-02-s08",
+      "speaker": "Nurse Patel",
+      "text": "I will bring your nurse in, and we will clarify the instructions before you leave."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c59c1f4f31a71717",
+      "lemma": "discharge",
+      "pos": "v.",
+      "sense_zh": "准许病人出院",
+      "sentence_ids": [
+        "p10-c-02-s01"
+      ],
+      "forms": [
+        "discharge"
+      ],
+      "sense_id": "sense-staged-ox-c59c1f4f31a71717-p10-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-760cbf30eaf73935",
+      "lemma": "dose",
+      "pos": "n.",
+      "sense_zh": "一次用药的剂量",
+      "sentence_ids": [
+        "p10-c-02-s03"
+      ],
+      "forms": [
+        "dose"
+      ],
+      "sense_id": "sense-staged-ox-760cbf30eaf73935-p10-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7516d61bd041b045",
+      "lemma": "documentation",
+      "pos": "n.",
+      "sense_zh": "相关书面文件",
+      "sentence_ids": [
+        "p10-c-02-s03"
+      ],
+      "forms": [
+        "documentation"
+      ],
+      "sense_id": "sense-staged-ox-7516d61bd041b045-p10-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f4688704a396e95c",
+      "lemma": "dignity",
+      "pos": "n.",
+      "sense_zh": "人的尊严",
+      "sentence_ids": [
+        "p10-c-02-s06"
+      ],
+      "forms": [
+        "dignity"
+      ],
+      "sense_id": "sense-staged-ox-f4688704a396e95c-p10-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

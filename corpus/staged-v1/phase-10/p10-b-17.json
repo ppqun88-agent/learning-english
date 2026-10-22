@@ -1,0 +1,137 @@
+{
+  "id": "p10-b-17",
+  "title_zh": "约定先核对流程版本再合并志愿者手册",
+  "topic_id": "work",
+  "scenario": {
+    "id": "volunteer-handbook-reconcile-versions",
+    "label_zh": "约定先核对流程版本再合并志愿者手册",
+    "goal_zh": "发现两份手册章节对应但内容不同，并分工核对现行流程后整理统一版本"
+  },
+  "participants": [
+    "Idris",
+    "Lena"
+  ],
+  "context_zh": "两位公益机构工作人员整理志愿者手册。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-17-s01",
+      "speaker": "Lena",
+      "text": "Can you compile the desk instructions into one volunteer handbook?"
+    },
+    {
+      "id": "p10-b-17-s02",
+      "speaker": "Idris",
+      "text": "Yes, but these two files are not identical. Section three has a corresponding section in the older file with different opening steps."
+    },
+    {
+      "id": "p10-b-17-s03",
+      "speaker": "Lena",
+      "text": "Do the section numbers still correspond to the same tasks?"
+    },
+    {
+      "id": "p10-b-17-s04",
+      "speaker": "Idris",
+      "text": "They do. The titles match, but one says to use the paper register and the other says to use the tablet."
+    },
+    {
+      "id": "p10-b-17-s05",
+      "speaker": "Lena",
+      "text": "We need consistency, not just a longer document. Please check with the desk lead before you consolidate the files."
+    },
+    {
+      "id": "p10-b-17-s06",
+      "speaker": "Idris",
+      "text": "I'll mark the conflicting steps and ask which process is current. Could you check the contact names?"
+    },
+    {
+      "id": "p10-b-17-s07",
+      "speaker": "Lena",
+      "text": "Yes. Let's merge the material only after both checks are complete."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-57717d9512044aaf",
+      "lemma": "compile",
+      "pos": "v.",
+      "sense_zh": "汇编；编写",
+      "sentence_ids": [
+        "p10-b-17-s01"
+      ],
+      "forms": [
+        "compile"
+      ],
+      "sense_id": "sense-staged-ox-57717d9512044aaf-p10-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b34f2667e5e75628",
+      "lemma": "corresponding",
+      "pos": "adj.",
+      "sense_zh": "相对应的",
+      "sentence_ids": [
+        "p10-b-17-s02"
+      ],
+      "forms": [
+        "corresponding"
+      ],
+      "sense_id": "sense-staged-ox-b34f2667e5e75628-p10-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-263521d34581fcbd",
+      "lemma": "correspond",
+      "pos": "v.",
+      "sense_zh": "对应；相符",
+      "sentence_ids": [
+        "p10-b-17-s03"
+      ],
+      "forms": [
+        "correspond"
+      ],
+      "sense_id": "sense-staged-ox-263521d34581fcbd-p10-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1e063120375168a3",
+      "lemma": "consistency",
+      "pos": "n.",
+      "sense_zh": "一致性",
+      "sentence_ids": [
+        "p10-b-17-s05"
+      ],
+      "forms": [
+        "consistency"
+      ],
+      "sense_id": "sense-staged-ox-1e063120375168a3-p10-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-042f686b4efa3e35",
+      "lemma": "consolidate",
+      "pos": "v.",
+      "sense_zh": "合并整理",
+      "sentence_ids": [
+        "p10-b-17-s05"
+      ],
+      "forms": [
+        "consolidate"
+      ],
+      "sense_id": "sense-staged-ox-042f686b4efa3e35-p10-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

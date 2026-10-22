@@ -1,0 +1,100 @@
+{
+  "id": "p10-c-39",
+  "title_zh": "约定重写虚构疫情图表的标题",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "fictional-epidemic-headline-check",
+    "label_zh": "限定虚构疫情报道标题的证据范围",
+    "goal_zh": "区分新增报告数与现存病例总数，并约定删去夸大疫情已经结束的标题"
+  },
+  "participants": [
+    "Luca",
+    "Nia"
+  ],
+  "context_zh": "媒体分析课堂中，两名学生检查虚构疫情案例的一张每周报告图表。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-39-s01",
+      "speaker": "Luca",
+      "text": "The case study describes an epidemic, but the last point on this chart is much lower. Can our headline say it is over?"
+    },
+    {
+      "id": "p10-c-39-s02",
+      "speaker": "Nia",
+      "text": "No. The chart shows new reports each week, not the total number of people still ill."
+    },
+    {
+      "id": "p10-c-39-s03",
+      "speaker": "Luca",
+      "text": "I do not want to exaggerate the improvement, but we should acknowledge the drop."
+    },
+    {
+      "id": "p10-c-39-s04",
+      "speaker": "Nia",
+      "text": "Of course. Saying there were fewer new reports in the final week would not distort what the chart actually shows."
+    },
+    {
+      "id": "p10-c-39-s05",
+      "speaker": "Luca",
+      "text": "Shall we use that as the headline and add that the chart cannot tell us whether transmission has stopped?"
+    },
+    {
+      "id": "p10-c-39-s06",
+      "speaker": "Nia",
+      "text": "Yes. Replace \"Epidemic over\" with the narrower statement, and keep the dates from the chart."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-33fc950618532314",
+      "lemma": "epidemic",
+      "pos": "n.",
+      "sense_zh": "流行病；疫情",
+      "sentence_ids": [
+        "p10-c-39-s01"
+      ],
+      "forms": [
+        "epidemic"
+      ],
+      "sense_id": "sense-staged-ox-33fc950618532314-p10-c-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bdfa1492d6f78077",
+      "lemma": "exaggerate",
+      "pos": "v.",
+      "sense_zh": "夸大",
+      "sentence_ids": [
+        "p10-c-39-s03"
+      ],
+      "forms": [
+        "exaggerate"
+      ],
+      "sense_id": "sense-staged-ox-bdfa1492d6f78077-p10-c-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ccd44dd335133b1",
+      "lemma": "distort",
+      "pos": "v.",
+      "sense_zh": "歪曲；使失真",
+      "sentence_ids": [
+        "p10-c-39-s04"
+      ],
+      "forms": [
+        "distort"
+      ],
+      "sense_id": "sense-staged-ox-5ccd44dd335133b1-p10-c-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

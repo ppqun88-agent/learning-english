@@ -1,0 +1,121 @@
+{
+  "id": "p10-b-28",
+  "title_zh": "决定先了解校园咨询服务",
+  "topic_id": "health",
+  "scenario": {
+    "id": "us-campus-counseling-inquiry",
+    "label_zh": "决定先了解校园咨询服务",
+    "goal_zh": "表达对公开发言的顾虑，并选择先阅读首次会谈说明而不立即预约"
+  },
+  "participants": [
+    "Dylan",
+    "Maya"
+  ],
+  "context_zh": "虚构美国大学：学生和同学讨论如何了解校园心理咨询服务，不作诊断或治疗建议。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-28-s01",
+      "speaker": "Maya",
+      "text": "Every presentation makes me want to skip class. I'm starting to contemplate dropping the course."
+    },
+    {
+      "id": "p10-b-28-s02",
+      "speaker": "Dylan",
+      "text": "Would you consider talking to a counselor before making that decision?"
+    },
+    {
+      "id": "p10-b-28-s03",
+      "speaker": "Maya",
+      "text": "Maybe. I keep telling myself I should conquer my nerves alone."
+    },
+    {
+      "id": "p10-b-28-s04",
+      "speaker": "Dylan",
+      "text": "You don't have to prove anything by doing it alone. The campus counseling service has a page explaining how the first conversation works."
+    },
+    {
+      "id": "p10-b-28-s05",
+      "speaker": "Maya",
+      "text": "Could we look at that page together? I want to know what I would be agreeing to."
+    },
+    {
+      "id": "p10-b-28-s06",
+      "speaker": "Dylan",
+      "text": "Sure. We can read it now, and you can decide whether to contact them."
+    },
+    {
+      "id": "p10-b-28-s07",
+      "speaker": "Maya",
+      "text": "Let's do that. I'm not ready to book, but I do want to understand the service."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-48d8797ffa4aaadc",
+      "lemma": "contemplate",
+      "pos": "v.",
+      "sense_zh": "认真考虑",
+      "sentence_ids": [
+        "p10-b-28-s01"
+      ],
+      "forms": [
+        "contemplate"
+      ],
+      "sense_id": "sense-staged-ox-48d8797ffa4aaadc-p10-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da6240d59b20fba1",
+      "lemma": "counselor",
+      "pos": "n.",
+      "sense_zh": "咨询师",
+      "sentence_ids": [
+        "p10-b-28-s02"
+      ],
+      "forms": [
+        "counselor"
+      ],
+      "sense_id": "sense-staged-ox-da6240d59b20fba1-p10-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b5a736287e63d039",
+      "lemma": "conquer",
+      "pos": "v.",
+      "sense_zh": "克服",
+      "sentence_ids": [
+        "p10-b-28-s03"
+      ],
+      "forms": [
+        "conquer"
+      ],
+      "sense_id": "sense-staged-ox-b5a736287e63d039-p10-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-33e4ecbea40f5ccf",
+      "lemma": "counseling",
+      "pos": "n.",
+      "sense_zh": "心理咨询服务",
+      "sentence_ids": [
+        "p10-b-28-s04"
+      ],
+      "forms": [
+        "counseling"
+      ],
+      "sense_id": "sense-staged-ox-33e4ecbea40f5ccf-p10-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

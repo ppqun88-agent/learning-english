@@ -1,0 +1,137 @@
+{
+  "id": "p10-b-22",
+  "title_zh": "约定停止贬低朋友的工作",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "friends-comment-boundary-discussion",
+    "label_zh": "约定停止贬低朋友的工作",
+    "goal_zh": "说明贬低言语造成的感受，并在不扩大争执的情况下确认以后不再这样评论"
+  },
+  "participants": [
+    "Seth",
+    "Imani"
+  ],
+  "context_zh": "两位朋友私下谈论聚会时一人嘲笑另一人工作的事情。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-22-s01",
+      "speaker": "Imani",
+      "text": "I wanted to confront you about what you said at dinner. Calling my work pointless was hurtful."
+    },
+    {
+      "id": "p10-b-22-s02",
+      "speaker": "Seth",
+      "text": "I was joking. You don't have to condemn everything I say."
+    },
+    {
+      "id": "p10-b-22-s03",
+      "speaker": "Imani",
+      "text": "I'm talking about that remark, not everything. It sounded as though you felt contempt for work that matters to me."
+    },
+    {
+      "id": "p10-b-22-s04",
+      "speaker": "Seth",
+      "text": "I'm getting defensive. Let me start again. I didn't think about how it would sound."
+    },
+    {
+      "id": "p10-b-22-s05",
+      "speaker": "Imani",
+      "text": "I don't want a confrontation every time we meet. I do want you to stop making my job the joke."
+    },
+    {
+      "id": "p10-b-22-s06",
+      "speaker": "Seth",
+      "text": "You're right. I'm sorry for that comment. I won't make those jokes again."
+    },
+    {
+      "id": "p10-b-22-s07",
+      "speaker": "Imani",
+      "text": "Thank you. That's the change I was asking for."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9b3e4d22fa016ca0",
+      "lemma": "confront",
+      "pos": "v.",
+      "sense_zh": "当面提出问题或质问",
+      "sentence_ids": [
+        "p10-b-22-s01"
+      ],
+      "forms": [
+        "confront"
+      ],
+      "sense_id": "sense-staged-ox-9b3e4d22fa016ca0-p10-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-569ab46d5139d92e",
+      "lemma": "condemn",
+      "pos": "v.",
+      "sense_zh": "强烈谴责；批评",
+      "sentence_ids": [
+        "p10-b-22-s02"
+      ],
+      "forms": [
+        "condemn"
+      ],
+      "sense_id": "sense-staged-ox-569ab46d5139d92e-p10-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4da4515c19af2a8a",
+      "lemma": "contempt",
+      "pos": "n.",
+      "sense_zh": "轻蔑",
+      "sentence_ids": [
+        "p10-b-22-s03"
+      ],
+      "forms": [
+        "contempt"
+      ],
+      "sense_id": "sense-staged-ox-4da4515c19af2a8a-p10-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-544b8a950e730e8b",
+      "lemma": "defensive",
+      "pos": "adj.",
+      "sense_zh": "带有自我辩护态度的",
+      "sentence_ids": [
+        "p10-b-22-s04"
+      ],
+      "forms": [
+        "defensive"
+      ],
+      "sense_id": "sense-staged-ox-544b8a950e730e8b-p10-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cfaf42f730556c46",
+      "lemma": "confrontation",
+      "pos": "n.",
+      "sense_zh": "冲突；对抗",
+      "sentence_ids": [
+        "p10-b-22-s05"
+      ],
+      "forms": [
+        "confrontation"
+      ],
+      "sense_id": "sense-staged-ox-cfaf42f730556c46-p10-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

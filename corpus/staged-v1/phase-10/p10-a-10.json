@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-10",
+  "title_zh": "索取社团服装的批量报价",
+  "topic_id": "services",
+  "scenario": {
+    "id": "club-apparel-bulk-quote-request",
+    "label_zh": "索取社团服装批量报价",
+    "goal_zh": "选定待报价的服装款式和数量，并明确先获取含印字费用的报价而不下单"
+  },
+  "participants": [
+    "Jules",
+    "Harper"
+  ],
+  "context_zh": "跑步社团负责人向服装供应商询价。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-10-s01",
+      "speaker": "Jules",
+      "text": "I'm looking at the club apparel in your catalog. Can you quote for thirty of the blue training shirts?"
+    },
+    {
+      "id": "p10-a-10-s02",
+      "speaker": "Harper",
+      "text": "Certainly. Do you want plain shirts or your club name printed on them?"
+    },
+    {
+      "id": "p10-a-10-s03",
+      "speaker": "Jules",
+      "text": "The name on the front, please. Is there a discount if we order in bulk?"
+    },
+    {
+      "id": "p10-a-10-s04",
+      "speaker": "Harper",
+      "text": "Thirty qualifies for our group price. I'll include that and the printing charge in the quote."
+    },
+    {
+      "id": "p10-a-10-s05",
+      "speaker": "Jules",
+      "text": "Thanks. Please send the full price before we decide. This isn't an order yet."
+    },
+    {
+      "id": "p10-a-10-s06",
+      "speaker": "Harper",
+      "text": "Understood. I'll email a quote for thirty printed blue shirts, with no order placed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6b5deccfe75d365f",
+      "lemma": "apparel",
+      "pos": "n.",
+      "sense_zh": "服装",
+      "sentence_ids": [
+        "p10-a-10-s01"
+      ],
+      "forms": [
+        "apparel"
+      ],
+      "sense_id": "sense-staged-ox-6b5deccfe75d365f-p10-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-29690ffb949a3f47",
+      "lemma": "catalog",
+      "pos": "n.",
+      "sense_zh": "商品目录",
+      "sentence_ids": [
+        "p10-a-10-s01"
+      ],
+      "forms": [
+        "catalog"
+      ],
+      "sense_id": "sense-staged-ox-29690ffb949a3f47-p10-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00094bf279c35add",
+      "lemma": "bulk",
+      "pos": "n.",
+      "sense_zh": "大量；大批量（in bulk）",
+      "sentence_ids": [
+        "p10-a-10-s03"
+      ],
+      "forms": [
+        "bulk"
+      ],
+      "sense_id": "sense-staged-ox-00094bf279c35add-p10-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

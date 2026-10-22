@@ -1,0 +1,110 @@
+{
+  "id": "p10-c-03",
+  "title_zh": "决定先缩减阅览室采购以补预算缺口",
+  "topic_id": "community",
+  "scenario": {
+    "id": "reading-room-budget-gap-plan",
+    "label_zh": "为阅览室经费缺口选择预算方案",
+    "goal_zh": "确认阅览室预算缺口，并决定保留开放时间、推迟家具采购"
+  },
+  "participants": [
+    "Lina",
+    "Tomas"
+  ],
+  "context_zh": "社区阅览室的两名筹备者核对本年度预算。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-03-s01",
+      "speaker": "Lina",
+      "text": "We have a deficit of six hundred pounds in the reading-room budget."
+    },
+    {
+      "id": "p10-c-03-s02",
+      "speaker": "Tomas",
+      "text": "Could our main donor cover it?"
+    },
+    {
+      "id": "p10-c-03-s03",
+      "speaker": "Lina",
+      "text": "Perhaps, but our dependence on one person is already worrying. What could we postpone?"
+    },
+    {
+      "id": "p10-c-03-s04",
+      "speaker": "Tomas",
+      "text": "The new armchairs. The existing chairs are usable, and postponing that purchase would save six hundred."
+    },
+    {
+      "id": "p10-c-03-s05",
+      "speaker": "Lina",
+      "text": "Would we still have enough to keep the room open on Saturdays?"
+    },
+    {
+      "id": "p10-c-03-s06",
+      "speaker": "Tomas",
+      "text": "Yes. The volunteer rota and heating costs are covered."
+    },
+    {
+      "id": "p10-c-03-s07",
+      "speaker": "Lina",
+      "text": "Then let us keep the Saturday opening and delay the armchairs."
+    },
+    {
+      "id": "p10-c-03-s08",
+      "speaker": "Tomas",
+      "text": "Agreed. I will update the budget on that basis."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-62cfcc1e723f0896",
+      "lemma": "deficit",
+      "pos": "n.",
+      "sense_zh": "预算赤字；缺口",
+      "sentence_ids": [
+        "p10-c-03-s01"
+      ],
+      "forms": [
+        "deficit"
+      ],
+      "sense_id": "sense-staged-ox-62cfcc1e723f0896-p10-c-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6fefb6907bcd33d",
+      "lemma": "donor",
+      "pos": "n.",
+      "sense_zh": "捐赠者",
+      "sentence_ids": [
+        "p10-c-03-s02"
+      ],
+      "forms": [
+        "donor"
+      ],
+      "sense_id": "sense-staged-ox-f6fefb6907bcd33d-p10-c-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cf4a2f33c0e8cfa2",
+      "lemma": "dependence",
+      "pos": "n.",
+      "sense_zh": "依赖",
+      "sentence_ids": [
+        "p10-c-03-s03"
+      ],
+      "forms": [
+        "dependence"
+      ],
+      "sense_id": "sense-staged-ox-cf4a2f33c0e8cfa2-p10-c-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

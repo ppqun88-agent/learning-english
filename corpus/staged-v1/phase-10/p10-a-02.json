@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-02",
+  "title_zh": "排练业余音乐会的谢幕提示",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "amateur-concert-ending-rehearsal",
+    "label_zh": "排练业余音乐会谢幕",
+    "goal_zh": "明确贝司最后一音与谢幕动作的衔接，并试做鞠躬"
+  },
+  "participants": [
+    "Rosa",
+    "Dev"
+  ],
+  "context_zh": "社区业余音乐会彩排时，一位乐手与舞台协调人核对结尾。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-02-s01",
+      "speaker": "Rosa",
+      "text": "This is my first amateur concert. What happens after I play the last note on the bass?"
+    },
+    {
+      "id": "p10-a-02-s02",
+      "speaker": "Dev",
+      "text": "Let it fade, then look at me. I'll lower my hand when everyone is ready."
+    },
+    {
+      "id": "p10-a-02-s03",
+      "speaker": "Rosa",
+      "text": "Do we bow together, or does the singer go first?"
+    },
+    {
+      "id": "p10-a-02-s04",
+      "speaker": "Dev",
+      "text": "Together. That gives the audience a clear moment to applaud."
+    },
+    {
+      "id": "p10-a-02-s05",
+      "speaker": "Rosa",
+      "text": "All right, I've finished the note. Your hand is down, so here goes."
+    },
+    {
+      "id": "p10-a-02-s06",
+      "speaker": "Dev",
+      "text": "That bow was well timed. Keep your eyes up until the cue, just as you did then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ffe4808df1b3a21a",
+      "lemma": "amateur",
+      "pos": "adj.",
+      "sense_zh": "业余的",
+      "sentence_ids": [
+        "p10-a-02-s01"
+      ],
+      "forms": [
+        "amateur"
+      ],
+      "sense_id": "sense-staged-ox-ffe4808df1b3a21a-p10-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dd3ea5100e7863ad",
+      "lemma": "bass",
+      "pos": "n.",
+      "sense_zh": "贝司；低音乐器",
+      "sentence_ids": [
+        "p10-a-02-s01"
+      ],
+      "forms": [
+        "bass"
+      ],
+      "sense_id": "sense-staged-ox-dd3ea5100e7863ad-p10-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d519995a72f0833",
+      "lemma": "bow",
+      "pos": "v.",
+      "sense_zh": "鞠躬",
+      "sentence_ids": [
+        "p10-a-02-s03"
+      ],
+      "forms": [
+        "bow"
+      ],
+      "sense_id": "sense-staged-ox-5d519995a72f0833-p10-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ee5d53324b242e21",
+      "lemma": "applaud",
+      "pos": "v.",
+      "sense_zh": "鼓掌",
+      "sentence_ids": [
+        "p10-a-02-s04"
+      ],
+      "forms": [
+        "applaud"
+      ],
+      "sense_id": "sense-staged-ox-ee5d53324b242e21-p10-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

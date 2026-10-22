@@ -1,0 +1,84 @@
+{
+  "id": "p10-c-14",
+  "title_zh": "选定缓坡下山路线并约好同行",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "ridge-descent-route-choice",
+    "label_zh": "选定下山路线并约好同行",
+    "goal_zh": "比较两条下山路线，并决定一起沿有标记的缓坡返回"
+  },
+  "participants": [
+    "Leah",
+    "Ken"
+  ],
+  "context_zh": "两名徒步者在山脊的路线牌前准备返回游客中心。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-14-s01",
+      "speaker": "Leah",
+      "text": "Do we descend by the steps or take the longer path?"
+    },
+    {
+      "id": "p10-c-14-s02",
+      "speaker": "Ken",
+      "text": "The sign says the steps are steep. I would rather take a gentler descent."
+    },
+    {
+      "id": "p10-c-14-s03",
+      "speaker": "Leah",
+      "text": "The longer route follows the blue markers and ends at the visitor centre. Does that suit you?"
+    },
+    {
+      "id": "p10-c-14-s04",
+      "speaker": "Ken",
+      "text": "Yes. I am not in a hurry, but I would prefer not to walk back alone."
+    },
+    {
+      "id": "p10-c-14-s05",
+      "speaker": "Leah",
+      "text": "I will stay with you. Let us take the blue route and keep the same pace."
+    },
+    {
+      "id": "p10-c-14-s06",
+      "speaker": "Ken",
+      "text": "Thanks. I can see the first marker beside that gate."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ff031e4bff3f3d58",
+      "lemma": "descend",
+      "pos": "v.",
+      "sense_zh": "下降；下行",
+      "sentence_ids": [
+        "p10-c-14-s01"
+      ],
+      "forms": [
+        "descend"
+      ],
+      "sense_id": "sense-staged-ox-ff031e4bff3f3d58-p10-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30955a63b337ec25",
+      "lemma": "descent",
+      "pos": "n.",
+      "sense_zh": "下行；下降路段",
+      "sentence_ids": [
+        "p10-c-14-s02"
+      ],
+      "forms": [
+        "descent"
+      ],
+      "sense_id": "sense-staged-ox-30955a63b337ec25-p10-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

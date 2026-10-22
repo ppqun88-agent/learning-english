@@ -1,0 +1,132 @@
+{
+  "id": "p10-b-10",
+  "title_zh": "调整国际象棋决赛直播的开场介绍",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "chess-final-broadcast-opening",
+    "label_zh": "调整国际象棋决赛直播的开场介绍",
+    "goal_zh": "确认开播提示和解说分工，并决定不提前把关键一局说成决定胜负"
+  },
+  "participants": [
+    "Producer",
+    "Evan"
+  ],
+  "context_zh": "虚构俱乐部国际象棋决赛直播前，主持人与解说员核对开场。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-10-s01",
+      "speaker": "Evan",
+      "text": "As the commentator, should I call this the decisive game in my introduction?"
+    },
+    {
+      "id": "p10-b-10-s02",
+      "speaker": "Producer",
+      "text": "Not yet. A draw would mean another game, so the title is still open."
+    },
+    {
+      "id": "p10-b-10-s03",
+      "speaker": "Evan",
+      "text": "Then I'll introduce Mara as a strong contender and explain the possible outcomes."
+    },
+    {
+      "id": "p10-b-10-s04",
+      "speaker": "Producer",
+      "text": "Good. Your commentary can begin after I welcome the audience. The first move is scheduled for two."
+    },
+    {
+      "id": "p10-b-10-s05",
+      "speaker": "Evan",
+      "text": "The announcement says play will commence when the arbiter gives the signal. Shall I wait for that rather than assume the clock time?"
+    },
+    {
+      "id": "p10-b-10-s06",
+      "speaker": "Producer",
+      "text": "Exactly. I'll welcome everyone, you explain the situation, and we wait for the arbiter before saying play has begun."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f782542296c87e79",
+      "lemma": "commentator",
+      "pos": "n.",
+      "sense_zh": "现场解说员",
+      "sentence_ids": [
+        "p10-b-10-s01"
+      ],
+      "forms": [
+        "commentator"
+      ],
+      "sense_id": "sense-staged-ox-f782542296c87e79-p10-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3af6157a6b0bce07",
+      "lemma": "decisive",
+      "pos": "adj.",
+      "sense_zh": "决定胜负的",
+      "sentence_ids": [
+        "p10-b-10-s01"
+      ],
+      "forms": [
+        "decisive"
+      ],
+      "sense_id": "sense-staged-ox-3af6157a6b0bce07-p10-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-02dda46cbdc85e2f",
+      "lemma": "contender",
+      "pos": "n.",
+      "sense_zh": "有望获胜的竞争者",
+      "sentence_ids": [
+        "p10-b-10-s03"
+      ],
+      "forms": [
+        "contender"
+      ],
+      "sense_id": "sense-staged-ox-02dda46cbdc85e2f-p10-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-052ef21c805e0188",
+      "lemma": "commentary",
+      "pos": "n.",
+      "sense_zh": "现场解说",
+      "sentence_ids": [
+        "p10-b-10-s04"
+      ],
+      "forms": [
+        "commentary"
+      ],
+      "sense_id": "sense-staged-ox-052ef21c805e0188-p10-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d18833a4011999bf",
+      "lemma": "commence",
+      "pos": "v.",
+      "sense_zh": "开始",
+      "sentence_ids": [
+        "p10-b-10-s05"
+      ],
+      "forms": [
+        "commence"
+      ],
+      "sense_id": "sense-staged-ox-d18833a4011999bf-p10-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

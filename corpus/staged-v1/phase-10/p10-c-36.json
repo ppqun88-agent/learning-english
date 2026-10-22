@@ -1,0 +1,89 @@
+{
+  "id": "p10-c-36",
+  "title_zh": "决定先参加陶艺体验课再考虑正式报名",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "british-pottery-course-enquiry",
+    "label_zh": "询问陶艺课程并选择先参加体验课",
+    "goal_zh": "询问陶艺课程的入门要求，并约好周六参加体验课"
+  },
+  "participants": [
+    "Imogen",
+    "Stan"
+  ],
+  "context_zh": "英国社区陶艺工作室的前台与首次来访者交谈。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-36-s01",
+      "speaker": "Imogen",
+      "text": "I would like to enquire about your evening pottery course. Is it suitable for a complete beginner?"
+    },
+    {
+      "id": "p10-c-36-s02",
+      "speaker": "Stan",
+      "text": "Yes, but if you are unsure, you can try the Saturday taster before committing to six weeks."
+    },
+    {
+      "id": "p10-c-36-s03",
+      "speaker": "Imogen",
+      "text": "Do I need to enrol on the full course to attend the taster?"
+    },
+    {
+      "id": "p10-c-36-s04",
+      "speaker": "Stan",
+      "text": "No. The taster has its own booking list, and tools are provided."
+    },
+    {
+      "id": "p10-c-36-s05",
+      "speaker": "Imogen",
+      "text": "Then could you put me down for the taster this Saturday?"
+    },
+    {
+      "id": "p10-c-36-s06",
+      "speaker": "Stan",
+      "text": "Certainly. I have reserved a place under Imogen. It starts at eleven."
+    },
+    {
+      "id": "p10-c-36-s07",
+      "speaker": "Imogen",
+      "text": "Thank you. I will come at eleven and decide about the full course afterwards."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0d9291177bd4284c",
+      "lemma": "enquire",
+      "pos": "v.",
+      "sense_zh": "询问",
+      "sentence_ids": [
+        "p10-c-36-s01"
+      ],
+      "forms": [
+        "enquire"
+      ],
+      "sense_id": "sense-staged-ox-0d9291177bd4284c-p10-c-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5dc6bc48674f7e7d",
+      "lemma": "enrol",
+      "pos": "v.",
+      "sense_zh": "报名；注册（英式拼写）",
+      "sentence_ids": [
+        "p10-c-36-s03"
+      ],
+      "forms": [
+        "enrol"
+      ],
+      "sense_id": "sense-staged-ox-5dc6bc48674f7e7d-p10-c-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

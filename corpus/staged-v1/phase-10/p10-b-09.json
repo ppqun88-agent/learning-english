@@ -1,0 +1,137 @@
+{
+  "id": "p10-b-09",
+  "title_zh": "暂缓报道未经核实的腐败指控",
+  "topic_id": "work",
+  "scenario": {
+    "id": "investigation-evidence-publication-hold",
+    "label_zh": "暂缓报道未经核实的腐败指控",
+    "goal_zh": "区分可核查线索与既定结论，并决定先核验原始文件再使用指控性措辞"
+  },
+  "participants": [
+    "Editor",
+    "Tessa"
+  ],
+  "context_zh": "虚构新闻编辑室：记者收到匿名材料，讨论是否足以支持腐败报道。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-09-s01",
+      "speaker": "Tessa",
+      "text": "This anonymous email calls the procurement officer corrupt. Should that be our headline?"
+    },
+    {
+      "id": "p10-b-09-s02",
+      "speaker": "Editor",
+      "text": "No. Do we have credible evidence, or just the accusation?"
+    },
+    {
+      "id": "p10-b-09-s03",
+      "speaker": "Tessa",
+      "text": "There is a payment spreadsheet, but we have not checked where it came from."
+    },
+    {
+      "id": "p10-b-09-s04",
+      "speaker": "Editor",
+      "text": "Then calling it proof of corruption would damage our credibility. We need the original records and a response from the people concerned."
+    },
+    {
+      "id": "p10-b-09-s05",
+      "speaker": "Tessa",
+      "text": "I want the investigation to help combat misuse of public money, not spread a rumour."
+    },
+    {
+      "id": "p10-b-09-s06",
+      "speaker": "Editor",
+      "text": "Then start by checking the spreadsheet against the records. We'll hold the accusatory headline until we have evidence we can stand behind."
+    },
+    {
+      "id": "p10-b-09-s07",
+      "speaker": "Tessa",
+      "text": "Agreed. I'll verify the documents before writing that claim."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d1614deaf7e747e3",
+      "lemma": "corrupt",
+      "pos": "adj.",
+      "sense_zh": "贪污腐败的",
+      "sentence_ids": [
+        "p10-b-09-s01"
+      ],
+      "forms": [
+        "corrupt"
+      ],
+      "sense_id": "sense-staged-ox-d1614deaf7e747e3-p10-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f0b8aed1bb043b6",
+      "lemma": "credible",
+      "pos": "adj.",
+      "sense_zh": "可信的",
+      "sentence_ids": [
+        "p10-b-09-s02"
+      ],
+      "forms": [
+        "credible"
+      ],
+      "sense_id": "sense-staged-ox-4f0b8aed1bb043b6-p10-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74787792db82b53f",
+      "lemma": "corruption",
+      "pos": "n.",
+      "sense_zh": "贪污腐败",
+      "sentence_ids": [
+        "p10-b-09-s04"
+      ],
+      "forms": [
+        "corruption"
+      ],
+      "sense_id": "sense-staged-ox-74787792db82b53f-p10-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5838a4ec4d3f43f6",
+      "lemma": "credibility",
+      "pos": "n.",
+      "sense_zh": "可信度",
+      "sentence_ids": [
+        "p10-b-09-s04"
+      ],
+      "forms": [
+        "credibility"
+      ],
+      "sense_id": "sense-staged-ox-5838a4ec4d3f43f6-p10-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41d8fc52581d0c0c",
+      "lemma": "combat",
+      "pos": "v.",
+      "sense_zh": "打击；努力消除",
+      "sentence_ids": [
+        "p10-b-09-s05"
+      ],
+      "forms": [
+        "combat"
+      ],
+      "sense_id": "sense-staged-ox-41d8fc52581d0c0c-p10-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,132 @@
+{
+  "id": "p10-b-01",
+  "title_zh": "约定就水坝提案提出联合问题",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "river-dam-consultation-plan",
+    "label_zh": "约定就水坝提案提出联合问题",
+    "goal_zh": "明确海岸居民团体对水坝影响的疑问，并约定征询两组意见后再联合提交咨询问题"
+  },
+  "participants": [
+    "Mina",
+    "Owen"
+  ],
+  "context_zh": "虚构环境讨论：两个海岸居民团体准备参加一项水坝提案的咨询会，不预判工程影响。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-01-s01",
+      "speaker": "Owen",
+      "text": "Our coastal residents group wants to join the coalition asking questions about the proposed dam."
+    },
+    {
+      "id": "p10-b-01-s02",
+      "speaker": "Mina",
+      "text": "Good. We want to conserve the river habitat, but we still need to understand what the design would change."
+    },
+    {
+      "id": "p10-b-01-s03",
+      "speaker": "Owen",
+      "text": "Some members want us to demand that the whole project be cancelled."
+    },
+    {
+      "id": "p10-b-01-s04",
+      "speaker": "Mina",
+      "text": "We don't have the impact study yet. Could our collective response ask about fish movement and water levels instead?"
+    },
+    {
+      "id": "p10-b-01-s05",
+      "speaker": "Owen",
+      "text": "Yes. I'll bring those two questions to our group tonight and explain that we aren't endorsing either outcome."
+    },
+    {
+      "id": "p10-b-01-s06",
+      "speaker": "Mina",
+      "text": "I'll do the same. If both groups agree, we'll submit the questions together before the consultation meeting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b764918bf4de9fc2",
+      "lemma": "coastal",
+      "pos": "adj.",
+      "sense_zh": "海岸的",
+      "sentence_ids": [
+        "p10-b-01-s01"
+      ],
+      "forms": [
+        "coastal"
+      ],
+      "sense_id": "sense-staged-ox-b764918bf4de9fc2-p10-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-25274df9edf7877e",
+      "lemma": "coalition",
+      "pos": "n.",
+      "sense_zh": "为共同目标组成的联盟",
+      "sentence_ids": [
+        "p10-b-01-s01"
+      ],
+      "forms": [
+        "coalition"
+      ],
+      "sense_id": "sense-staged-ox-25274df9edf7877e-p10-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9f3ba55ddbb55b5a",
+      "lemma": "dam",
+      "pos": "n.",
+      "sense_zh": "水坝",
+      "sentence_ids": [
+        "p10-b-01-s01"
+      ],
+      "forms": [
+        "dam"
+      ],
+      "sense_id": "sense-staged-ox-9f3ba55ddbb55b5a-p10-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b621b2bb3f3949a",
+      "lemma": "conserve",
+      "pos": "v.",
+      "sense_zh": "保护并保存",
+      "sentence_ids": [
+        "p10-b-01-s02"
+      ],
+      "forms": [
+        "conserve"
+      ],
+      "sense_id": "sense-staged-ox-4b621b2bb3f3949a-p10-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76b711bcb664bd9c",
+      "lemma": "collective",
+      "pos": "adj.",
+      "sense_zh": "集体共同的",
+      "sentence_ids": [
+        "p10-b-01-s04"
+      ],
+      "forms": [
+        "collective"
+      ],
+      "sense_id": "sense-staged-ox-76b711bcb664bd9c-p10-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

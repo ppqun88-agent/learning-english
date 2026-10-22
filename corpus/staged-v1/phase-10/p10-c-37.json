@@ -1,0 +1,89 @@
+{
+  "id": "p10-c-37",
+  "title_zh": "核对写作课程资格并完成报名",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "american-writing-course-eligibility",
+    "label_zh": "核对写作课程资格并完成报名",
+    "goal_zh": "根据课程说明确认资格，提交报名表并收到确认编号"
+  },
+  "participants": [
+    "Devon",
+    "Clerk Ames"
+  ],
+  "context_zh": "美国社区学院的写作课程报名台上，申请者核对课程说明并操作报名网页。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-37-s01",
+      "speaker": "Devon",
+      "text": "I want to enroll in the evening writing course, but I have never studied literature."
+    },
+    {
+      "id": "p10-c-37-s02",
+      "speaker": "Clerk Ames",
+      "text": "That is fine. The course page says anyone eighteen or over is eligible; there is no prior-study requirement."
+    },
+    {
+      "id": "p10-c-37-s03",
+      "speaker": "Devon",
+      "text": "I am twenty-four. I have completed the form and read the course terms. Is this the final submit button?"
+    },
+    {
+      "id": "p10-c-37-s04",
+      "speaker": "Clerk Ames",
+      "text": "Yes. Check that you selected the evening group before you submit."
+    },
+    {
+      "id": "p10-c-37-s05",
+      "speaker": "Devon",
+      "text": "The evening group is selected. I have submitted it now, and the screen shows confirmation W-218."
+    },
+    {
+      "id": "p10-c-37-s06",
+      "speaker": "Clerk Ames",
+      "text": "That means your registration was received. The confirmation lists your first session next Tuesday at six."
+    },
+    {
+      "id": "p10-c-37-s07",
+      "speaker": "Devon",
+      "text": "Great. I have saved it, and I will be here on Tuesday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fe287064fd18ef36",
+      "lemma": "enroll",
+      "pos": "v.",
+      "sense_zh": "报名；注册（美式拼写）",
+      "sentence_ids": [
+        "p10-c-37-s01"
+      ],
+      "forms": [
+        "enroll"
+      ],
+      "sense_id": "sense-staged-ox-fe287064fd18ef36-p10-c-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f57a2e3db249f20",
+      "lemma": "eligible",
+      "pos": "adj.",
+      "sense_zh": "符合资格的",
+      "sentence_ids": [
+        "p10-c-37-s02"
+      ],
+      "forms": [
+        "eligible"
+      ],
+      "sense_id": "sense-staged-ox-8f57a2e3db249f20-p10-c-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

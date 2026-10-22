@@ -1,0 +1,100 @@
+{
+  "id": "p10-b-24",
+  "title_zh": "安排教会志愿者的简短致谢",
+  "topic_id": "community",
+  "scenario": {
+    "id": "church-volunteer-thank-you-plan",
+    "label_zh": "安排教会志愿者的简短致谢",
+    "goal_zh": "选定感谢志愿者的具体工作，并尊重本人不愿上台讲话的意愿"
+  },
+  "participants": [
+    "Noor",
+    "Peter"
+  ],
+  "context_zh": "教会活动负责人询问长期志愿者，希望在周末聚会表达感谢。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-24-s01",
+      "speaker": "Peter",
+      "text": "The congregation would like to thank you for keeping the weekly meal service going."
+    },
+    {
+      "id": "p10-b-24-s02",
+      "speaker": "Noor",
+      "text": "That's kind, but please don't ask me to give a speech."
+    },
+    {
+      "id": "p10-b-24-s03",
+      "speaker": "Peter",
+      "text": "You have been a dedicated volunteer for years. Would a short thank-you from me be comfortable?"
+    },
+    {
+      "id": "p10-b-24-s04",
+      "speaker": "Noor",
+      "text": "Yes, if you mention the whole kitchen team. They do much more than people see."
+    },
+    {
+      "id": "p10-b-24-s05",
+      "speaker": "Peter",
+      "text": "I will. I'll thank the team for their dedication and mention the early starts and the washing-up, not just the cooking."
+    },
+    {
+      "id": "p10-b-24-s06",
+      "speaker": "Noor",
+      "text": "That sounds lovely. A few words while I stay in my seat would be perfect."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4d0ecedcab0b367e",
+      "lemma": "congregation",
+      "pos": "n.",
+      "sense_zh": "教会会众",
+      "sentence_ids": [
+        "p10-b-24-s01"
+      ],
+      "forms": [
+        "congregation"
+      ],
+      "sense_id": "sense-staged-ox-4d0ecedcab0b367e-p10-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-de61210587234ac0",
+      "lemma": "dedicated",
+      "pos": "adj.",
+      "sense_zh": "尽心尽力的",
+      "sentence_ids": [
+        "p10-b-24-s03"
+      ],
+      "forms": [
+        "dedicated"
+      ],
+      "sense_id": "sense-staged-ox-de61210587234ac0-p10-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c1693bbd60e4ac2",
+      "lemma": "dedication",
+      "pos": "n.",
+      "sense_zh": "奉献精神",
+      "sentence_ids": [
+        "p10-b-24-s05"
+      ],
+      "forms": [
+        "dedication"
+      ],
+      "sense_id": "sense-staged-ox-0c1693bbd60e4ac2-p10-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

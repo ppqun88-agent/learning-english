@@ -1,0 +1,121 @@
+{
+  "id": "p10-c-06",
+  "title_zh": "决定弱化奇幻剧中的惊吓场景",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fantasy-play-scene-tone-choice",
+    "label_zh": "调整奇幻剧的惊吓场景",
+    "goal_zh": "核对奇幻剧角色的区别，并约定以影子替代尖叫和突然现身"
+  },
+  "participants": [
+    "Cleo",
+    "Jasper"
+  ],
+  "context_zh": "社区剧团为适合较年轻观众的奇幻剧排练讨论舞台效果。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-06-s01",
+      "speaker": "Cleo",
+      "text": "Is the creature in this scene supposed to be the devil?"
+    },
+    {
+      "id": "p10-c-06-s02",
+      "speaker": "Jasper",
+      "text": "No. In this story it is a demon guarding a bridge, not the ruler of the underworld."
+    },
+    {
+      "id": "p10-c-06-s03",
+      "speaker": "Cleo",
+      "text": "The sudden scream is disturbing. Our younger audience members may find it too much."
+    },
+    {
+      "id": "p10-c-06-s04",
+      "speaker": "Jasper",
+      "text": "How else could we depict the creature without removing the danger from the scene?"
+    },
+    {
+      "id": "p10-c-06-s05",
+      "speaker": "Cleo",
+      "text": "We could show its shadow across the bridge and let the traveller notice it."
+    },
+    {
+      "id": "p10-c-06-s06",
+      "speaker": "Jasper",
+      "text": "I like that. We will cut the scream and the sudden entrance, and use a shadow instead."
+    },
+    {
+      "id": "p10-c-06-s07",
+      "speaker": "Cleo",
+      "text": "Agreed. I will rehearse the traveller's reaction to the shadow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ae292959e8248f6a",
+      "lemma": "devil",
+      "pos": "n.",
+      "sense_zh": "魔鬼；恶魔首领",
+      "sentence_ids": [
+        "p10-c-06-s01"
+      ],
+      "forms": [
+        "devil"
+      ],
+      "sense_id": "sense-staged-ox-ae292959e8248f6a-p10-c-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-707a5aa9a20712f9",
+      "lemma": "demon",
+      "pos": "n.",
+      "sense_zh": "恶魔",
+      "sentence_ids": [
+        "p10-c-06-s02"
+      ],
+      "forms": [
+        "demon"
+      ],
+      "sense_id": "sense-staged-ox-707a5aa9a20712f9-p10-c-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f450ebd778cabc04",
+      "lemma": "disturbing",
+      "pos": "adj.",
+      "sense_zh": "令人不安的",
+      "sentence_ids": [
+        "p10-c-06-s03"
+      ],
+      "forms": [
+        "disturbing"
+      ],
+      "sense_id": "sense-staged-ox-f450ebd778cabc04-p10-c-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4db2144837ab9248",
+      "lemma": "depict",
+      "pos": "v.",
+      "sense_zh": "描绘；表现",
+      "sentence_ids": [
+        "p10-c-06-s04"
+      ],
+      "forms": [
+        "depict"
+      ],
+      "sense_id": "sense-staged-ox-4db2144837ab9248-p10-c-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

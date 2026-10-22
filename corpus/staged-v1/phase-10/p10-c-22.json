@@ -1,0 +1,110 @@
+{
+  "id": "p10-c-22",
+  "title_zh": "约定活动排队拥堵时的联络与候场安排",
+  "topic_id": "work",
+  "scenario": {
+    "id": "festival-queue-response-plan",
+    "label_zh": "约定活动排队拥堵时的处理安排",
+    "goal_zh": "识别排队冲突升级的风险，并约定联系值班经理和使用室内候场区"
+  },
+  "participants": [
+    "Nico",
+    "Beth"
+  ],
+  "context_zh": "两名活动工作人员在开场前检查接待队伍可能拥堵的情况。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-22-s01",
+      "speaker": "Nico",
+      "text": "Last year the queue blocked the pavement. Repeating that would be disastrous for tonight's event."
+    },
+    {
+      "id": "p10-c-22-s02",
+      "speaker": "Beth",
+      "text": "Especially if an argument starts and other people join in. A small complaint can escalate quickly."
+    },
+    {
+      "id": "p10-c-22-s03",
+      "speaker": "Nico",
+      "text": "What should we do if confusion does ensue at the entrance?"
+    },
+    {
+      "id": "p10-c-22-s04",
+      "speaker": "Beth",
+      "text": "Call the duty manager rather than trying to settle a crowd argument alone."
+    },
+    {
+      "id": "p10-c-22-s05",
+      "speaker": "Nico",
+      "text": "And where can people wait without blocking the street?"
+    },
+    {
+      "id": "p10-c-22-s06",
+      "speaker": "Beth",
+      "text": "The venue has approved the indoor waiting area. The manager can open it when the outside queue reaches the marked point."
+    },
+    {
+      "id": "p10-c-22-s07",
+      "speaker": "Nico",
+      "text": "All right. I will watch that point and call the manager before the pavement becomes blocked."
+    },
+    {
+      "id": "p10-c-22-s08",
+      "speaker": "Beth",
+      "text": "Good. I will keep the entrance clear and direct people once the manager opens the waiting area."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7dfb595c14738c8f",
+      "lemma": "disastrous",
+      "pos": "adj.",
+      "sense_zh": "灾难性的；极为糟糕的",
+      "sentence_ids": [
+        "p10-c-22-s01"
+      ],
+      "forms": [
+        "disastrous"
+      ],
+      "sense_id": "sense-staged-ox-7dfb595c14738c8f-p10-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3a54a994d169f83c",
+      "lemma": "escalate",
+      "pos": "v.",
+      "sense_zh": "升级；变得更严重",
+      "sentence_ids": [
+        "p10-c-22-s02"
+      ],
+      "forms": [
+        "escalate"
+      ],
+      "sense_id": "sense-staged-ox-3a54a994d169f83c-p10-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-96d4f97808624d66",
+      "lemma": "ensue",
+      "pos": "v.",
+      "sense_zh": "接着发生",
+      "sentence_ids": [
+        "p10-c-22-s03"
+      ],
+      "forms": [
+        "ensue"
+      ],
+      "sense_id": "sense-staged-ox-96d4f97808624d66-p10-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

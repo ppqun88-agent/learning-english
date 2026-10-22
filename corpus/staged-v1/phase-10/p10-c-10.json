@@ -1,0 +1,121 @@
+{
+  "id": "p10-c-10",
+  "title_zh": "决定先调查林地小径的生态影响",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "woodland-path-survey-request",
+    "label_zh": "决定先调查林地小径方案的生态影响",
+    "goal_zh": "说明开辟小径的观察局限，并约定先取得生态调查再确定路线"
+  },
+  "participants": [
+    "Bea",
+    "Hamish"
+  ],
+  "context_zh": "社区林地小组讨论是否在现有步道旁增加一条小径。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-10-s01",
+      "speaker": "Bea",
+      "text": "The trees are so dense here that people keep asking for a new path."
+    },
+    {
+      "id": "p10-c-10-s02",
+      "speaker": "Hamish",
+      "text": "The tree density is high, but that alone does not tell us where a path should go."
+    },
+    {
+      "id": "p10-c-10-s03",
+      "speaker": "Bea",
+      "text": "Could we clear a narrow strip beside the old fence?"
+    },
+    {
+      "id": "p10-c-10-s04",
+      "speaker": "Hamish",
+      "text": "It might displace animals using that cover. We need an ecological survey before choosing a route."
+    },
+    {
+      "id": "p10-c-10-s05",
+      "speaker": "Bea",
+      "text": "So we should not mark any trees for removal yet?"
+    },
+    {
+      "id": "p10-c-10-s06",
+      "speaker": "Hamish",
+      "text": "Correct. Let us ask the woodland officer to assess the possible routes first."
+    },
+    {
+      "id": "p10-c-10-s07",
+      "speaker": "Bea",
+      "text": "Agreed. I will request the survey and leave the current path signs in place."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-018c28e75f2a8a25",
+      "lemma": "dense",
+      "pos": "adj.",
+      "sense_zh": "稠密的",
+      "sentence_ids": [
+        "p10-c-10-s01"
+      ],
+      "forms": [
+        "dense"
+      ],
+      "sense_id": "sense-staged-ox-018c28e75f2a8a25-p10-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d47740b2117f9b81",
+      "lemma": "density",
+      "pos": "n.",
+      "sense_zh": "密度",
+      "sentence_ids": [
+        "p10-c-10-s02"
+      ],
+      "forms": [
+        "density"
+      ],
+      "sense_id": "sense-staged-ox-d47740b2117f9b81-p10-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1281bc22ab969379",
+      "lemma": "displace",
+      "pos": "v.",
+      "sense_zh": "迫使离开原处",
+      "sentence_ids": [
+        "p10-c-10-s04"
+      ],
+      "forms": [
+        "displace"
+      ],
+      "sense_id": "sense-staged-ox-1281bc22ab969379-p10-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-224021b3d506919a",
+      "lemma": "ecological",
+      "pos": "adj.",
+      "sense_zh": "生态的",
+      "sentence_ids": [
+        "p10-c-10-s04"
+      ],
+      "forms": [
+        "ecological"
+      ],
+      "sense_id": "sense-staged-ox-224021b3d506919a-p10-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

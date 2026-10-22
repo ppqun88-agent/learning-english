@@ -1,0 +1,79 @@
+{
+  "id": "p10-b-02",
+  "title_zh": "选择少压薄荷的鸡尾酒",
+  "topic_id": "food",
+  "scenario": {
+    "id": "bar-cocktail-mint-preference",
+    "label_zh": "选择少压薄荷的鸡尾酒",
+    "goal_zh": "说明薄荷口味偏好并确定鸡尾酒的调制方式"
+  },
+  "participants": [
+    "Bartender",
+    "Elena"
+  ],
+  "context_zh": "两位成年人在酒吧点一杯鸡尾酒。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-02-s01",
+      "speaker": "Elena",
+      "text": "I'd like the lime cocktail, but could you go easy on the mint?"
+    },
+    {
+      "id": "p10-b-02-s02",
+      "speaker": "Bartender",
+      "text": "Certainly. Shall I leave it out completely?"
+    },
+    {
+      "id": "p10-b-02-s03",
+      "speaker": "Elena",
+      "text": "No, a little is nice. It gets too strong when you crush a whole handful of leaves."
+    },
+    {
+      "id": "p10-b-02-s04",
+      "speaker": "Bartender",
+      "text": "Then I'll use two leaves and press them gently rather than crushing them."
+    },
+    {
+      "id": "p10-b-02-s05",
+      "speaker": "Elena",
+      "text": "That sounds right. I'll have it that way, please."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-86c77a98262bda21",
+      "lemma": "cocktail",
+      "pos": "n.",
+      "sense_zh": "鸡尾酒",
+      "sentence_ids": [
+        "p10-b-02-s01"
+      ],
+      "forms": [
+        "cocktail"
+      ],
+      "sense_id": "sense-staged-ox-86c77a98262bda21-p10-b-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8288a6392e3277a2",
+      "lemma": "crush",
+      "pos": "v.",
+      "sense_zh": "压碎",
+      "sentence_ids": [
+        "p10-b-02-s03"
+      ],
+      "forms": [
+        "crush"
+      ],
+      "sense_id": "sense-staged-ox-8288a6392e3277a2-p10-b-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-30",
+  "title_zh": "约好为散页传记申请装订评估",
+  "topic_id": "services",
+  "scenario": {
+    "id": "archive-biography-binding-referral",
+    "label_zh": "为档案馆传记申请装订评估",
+    "goal_zh": "确认档案馆传记的目录身份及散页问题，并约定先申请装订评估而不自行粘补"
+  },
+  "participants": [
+    "Esther",
+    "Leo"
+  ],
+  "context_zh": "档案馆阅览室中，读者向工作人员报告一本传记的书页松脱。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-30-s01",
+      "speaker": "Esther",
+      "text": "The catalogue says this is the town founder's biography, but several pages are loose."
+    },
+    {
+      "id": "p10-a-30-s02",
+      "speaker": "Leo",
+      "text": "Yes, it belongs to our archive. Please leave the pages in their current order."
+    },
+    {
+      "id": "p10-a-30-s03",
+      "speaker": "Esther",
+      "text": "Could someone bind it again? I don't want the next reader to lose a page."
+    },
+    {
+      "id": "p10-a-30-s04",
+      "speaker": "Leo",
+      "text": "I'll ask our conservator to assess it. We shouldn't glue anything ourselves."
+    },
+    {
+      "id": "p10-a-30-s05",
+      "speaker": "Esther",
+      "text": "Here's the book, with the loose pages still between the covers."
+    },
+    {
+      "id": "p10-a-30-s06",
+      "speaker": "Leo",
+      "text": "Thank you. I'll keep it off the reading shelf and send the assessment request today."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-765b2618d1fa3748",
+      "lemma": "catalogue",
+      "pos": "n.",
+      "sense_zh": "目录",
+      "sentence_ids": [
+        "p10-a-30-s01"
+      ],
+      "forms": [
+        "catalogue"
+      ],
+      "sense_id": "sense-staged-ox-765b2618d1fa3748-p10-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-58dd0f6e00f8952f",
+      "lemma": "biography",
+      "pos": "n.",
+      "sense_zh": "传记",
+      "sentence_ids": [
+        "p10-a-30-s01"
+      ],
+      "forms": [
+        "biography"
+      ],
+      "sense_id": "sense-staged-ox-58dd0f6e00f8952f-p10-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-39c1602ce0fd4065",
+      "lemma": "archive",
+      "pos": "n.",
+      "sense_zh": "档案收藏",
+      "sentence_ids": [
+        "p10-a-30-s02"
+      ],
+      "forms": [
+        "archive"
+      ],
+      "sense_id": "sense-staged-ox-39c1602ce0fd4065-p10-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c793ecbae1f7a9c",
+      "lemma": "bind",
+      "pos": "v.",
+      "sense_zh": "装订",
+      "sentence_ids": [
+        "p10-a-30-s03"
+      ],
+      "forms": [
+        "bind"
+      ],
+      "sense_id": "sense-staged-ox-2c793ecbae1f7a9c-p10-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

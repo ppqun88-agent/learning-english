@@ -1,0 +1,105 @@
+{
+  "id": "p10-c-13",
+  "title_zh": "明确活动副负责人的决定范围",
+  "topic_id": "work",
+  "scenario": {
+    "id": "event-deputy-decision-boundaries",
+    "label_zh": "明确活动副负责人可作出的决定",
+    "goal_zh": "指定副负责人，并确认其可调整志愿者安排但不能增加支出"
+  },
+  "participants": [
+    "Victor",
+    "Hana"
+  ],
+  "context_zh": "一场社区讲座的负责人出差前与同事交接组织工作。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-13-s01",
+      "speaker": "Victor",
+      "text": "I need to designate someone to lead the lecture team while I am away. Would you do it?"
+    },
+    {
+      "id": "p10-c-13-s02",
+      "speaker": "Hana",
+      "text": "Yes, but I need to know what decisions I can make."
+    },
+    {
+      "id": "p10-c-13-s03",
+      "speaker": "Victor",
+      "text": "You will be my deputy. I want to empower you to move volunteers between tasks without waiting for me."
+    },
+    {
+      "id": "p10-c-13-s04",
+      "speaker": "Hana",
+      "text": "Can I also order extra equipment if a speaker asks for it?"
+    },
+    {
+      "id": "p10-c-13-s05",
+      "speaker": "Victor",
+      "text": "Not without approval. The budget is fixed, so please send any spending request to the finance lead."
+    },
+    {
+      "id": "p10-c-13-s06",
+      "speaker": "Hana",
+      "text": "That is clear: I can change the rota, but I cannot increase spending."
+    },
+    {
+      "id": "p10-c-13-s07",
+      "speaker": "Victor",
+      "text": "Exactly. I will tell the team that you are their first contact for staffing changes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-689f6fc7ae86d4ea",
+      "lemma": "designate",
+      "pos": "v.",
+      "sense_zh": "指定；指派",
+      "sentence_ids": [
+        "p10-c-13-s01"
+      ],
+      "forms": [
+        "designate"
+      ],
+      "sense_id": "sense-staged-ox-689f6fc7ae86d4ea-p10-c-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5dca9014284e2bde",
+      "lemma": "deputy",
+      "pos": "n.",
+      "sense_zh": "副手；副负责人",
+      "sentence_ids": [
+        "p10-c-13-s03"
+      ],
+      "forms": [
+        "deputy"
+      ],
+      "sense_id": "sense-staged-ox-5dca9014284e2bde-p10-c-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-287956fe32b90199",
+      "lemma": "empower",
+      "pos": "v.",
+      "sense_zh": "授权使能够行动",
+      "sentence_ids": [
+        "p10-c-13-s03"
+      ],
+      "forms": [
+        "empower"
+      ],
+      "sense_id": "sense-staged-ox-287956fe32b90199-p10-c-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

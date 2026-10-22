@@ -1,0 +1,158 @@
+{
+  "id": "p10-a-15",
+  "title_zh": "重写经济学作文中过强的断言",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "economics-essay-claim-revision",
+    "label_zh": "修改经济学作文的绝对化断言",
+    "goal_zh": "区分资本主义制度与单个企业案例，并将普遍化断言改为限定于案例的评价"
+  },
+  "participants": [
+    "Miles",
+    "Dr Chen"
+  ],
+  "context_zh": "虚构课堂作文反馈中，师生仅依据给定案例讨论论证范围。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-15-s01",
+      "speaker": "Miles",
+      "text": "My essay says capitalism always rewards the most useful businesses. Is that too strong?"
+    },
+    {
+      "id": "p10-a-15-s02",
+      "speaker": "Dr Chen",
+      "text": "Yes. You can't characterize an entire economic system from one successful company."
+    },
+    {
+      "id": "p10-a-15-s03",
+      "speaker": "Miles",
+      "text": "But the case study calls its setting a capitalist economy."
+    },
+    {
+      "id": "p10-a-15-s04",
+      "speaker": "Dr Chen",
+      "text": "That describes the setting. It doesn't support your assertion about what always happens there."
+    },
+    {
+      "id": "p10-a-15-s05",
+      "speaker": "Miles",
+      "text": "Could I assert that this particular company served its customers well?"
+    },
+    {
+      "id": "p10-a-15-s06",
+      "speaker": "Dr Chen",
+      "text": "The customer interviews support that, although the survey is small. Keep that limit visible."
+    },
+    {
+      "id": "p10-a-15-s07",
+      "speaker": "Miles",
+      "text": "I've changed it to: 'The company was arguably successful at meeting the needs of the customers interviewed.'"
+    },
+    {
+      "id": "p10-a-15-s08",
+      "speaker": "Dr Chen",
+      "text": "That's a claim the case can support. Keep the next sentence about the small sample too."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8bbcdd3c74cccd23",
+      "lemma": "capitalism",
+      "pos": "n.",
+      "sense_zh": "资本主义",
+      "sentence_ids": [
+        "p10-a-15-s01"
+      ],
+      "forms": [
+        "capitalism"
+      ],
+      "sense_id": "sense-staged-ox-8bbcdd3c74cccd23-p10-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7fefc09388f7e66c",
+      "lemma": "characterize",
+      "pos": "v.",
+      "sense_zh": "描述……的特征",
+      "sentence_ids": [
+        "p10-a-15-s02"
+      ],
+      "forms": [
+        "characterize"
+      ],
+      "sense_id": "sense-staged-ox-7fefc09388f7e66c-p10-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a02ffb26dcfbba5",
+      "lemma": "capitalist",
+      "pos": "adj.",
+      "sense_zh": "资本主义的",
+      "sentence_ids": [
+        "p10-a-15-s03"
+      ],
+      "forms": [
+        "capitalist"
+      ],
+      "sense_id": "sense-staged-ox-8a02ffb26dcfbba5-p10-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1b464571404dbdce",
+      "lemma": "assertion",
+      "pos": "n.",
+      "sense_zh": "断言；主张",
+      "sentence_ids": [
+        "p10-a-15-s04"
+      ],
+      "forms": [
+        "assertion"
+      ],
+      "sense_id": "sense-staged-ox-1b464571404dbdce-p10-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-751e5e54428d50b3",
+      "lemma": "assert",
+      "pos": "v.",
+      "sense_zh": "断言；明确主张",
+      "sentence_ids": [
+        "p10-a-15-s05"
+      ],
+      "forms": [
+        "assert"
+      ],
+      "sense_id": "sense-staged-ox-751e5e54428d50b3-p10-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4303cef7abc40f22",
+      "lemma": "arguably",
+      "pos": "adv.",
+      "sense_zh": "可以认为；有理由认为",
+      "sentence_ids": [
+        "p10-a-15-s07"
+      ],
+      "forms": [
+        "arguably"
+      ],
+      "sense_id": "sense-staged-ox-4303cef7abc40f22-p10-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

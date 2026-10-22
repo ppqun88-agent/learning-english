@@ -1,0 +1,121 @@
+{
+  "id": "p10-b-16",
+  "title_zh": "确认志愿者完成设备示范并约好复习",
+  "topic_id": "work",
+  "scenario": {
+    "id": "volunteer-equipment-training-check",
+    "label_zh": "确认志愿者完成设备示范并约好复习",
+    "goal_zh": "依据实际示范确认指定操作已达要求，并约定下一班前复习检查清单"
+  },
+  "participants": [
+    "Trainer",
+    "Nico"
+  ],
+  "context_zh": "虚构社区活动培训：负责人刚看完志愿者使用不含危险操作的借书扫描设备。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-16-s01",
+      "speaker": "Nico",
+      "text": "Have I finished the scanner check, or is there another test?"
+    },
+    {
+      "id": "p10-b-16-s02",
+      "speaker": "Trainer",
+      "text": "That was the last one. You demonstrated the required competence in checking books in and out."
+    },
+    {
+      "id": "p10-b-16-s03",
+      "speaker": "Nico",
+      "text": "I was worried about the coordination between scanning the card and watching the screen."
+    },
+    {
+      "id": "p10-b-16-s04",
+      "speaker": "Trainer",
+      "text": "You caught the duplicate scan and corrected it. I can sign you off as competent for this task."
+    },
+    {
+      "id": "p10-b-16-s05",
+      "speaker": "Nico",
+      "text": "Thanks. Could I keep the checklist for my first shift?"
+    },
+    {
+      "id": "p10-b-16-s06",
+      "speaker": "Trainer",
+      "text": "Of course. And let me congratulate you on completing the assessment."
+    },
+    {
+      "id": "p10-b-16-s07",
+      "speaker": "Nico",
+      "text": "I'll review the checklist before my shift tomorrow. I know who to ask if the screen shows something unfamiliar."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-69ddb9915043abb9",
+      "lemma": "competence",
+      "pos": "n.",
+      "sense_zh": "完成某项工作的能力",
+      "sentence_ids": [
+        "p10-b-16-s02"
+      ],
+      "forms": [
+        "competence"
+      ],
+      "sense_id": "sense-staged-ox-69ddb9915043abb9-p10-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-34071cb5eb5de909",
+      "lemma": "coordination",
+      "pos": "n.",
+      "sense_zh": "动作配合能力",
+      "sentence_ids": [
+        "p10-b-16-s03"
+      ],
+      "forms": [
+        "coordination"
+      ],
+      "sense_id": "sense-staged-ox-34071cb5eb5de909-p10-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c2e92ec6f41acaef",
+      "lemma": "competent",
+      "pos": "adj.",
+      "sense_zh": "有能力胜任的",
+      "sentence_ids": [
+        "p10-b-16-s04"
+      ],
+      "forms": [
+        "competent"
+      ],
+      "sense_id": "sense-staged-ox-c2e92ec6f41acaef-p10-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d8ef900b277cf69",
+      "lemma": "congratulate",
+      "pos": "v.",
+      "sense_zh": "祝贺",
+      "sentence_ids": [
+        "p10-b-16-s06"
+      ],
+      "forms": [
+        "congratulate"
+      ],
+      "sense_id": "sense-staged-ox-3d8ef900b277cf69-p10-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

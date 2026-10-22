@@ -1,0 +1,105 @@
+{
+  "id": "p10-b-39",
+  "title_zh": "决定以持续志愿工作准备奖项提名",
+  "topic_id": "community",
+  "scenario": {
+    "id": "volunteer-award-nomination-scope",
+    "label_zh": "决定以持续志愿工作准备奖项提名",
+    "goal_zh": "区分单次善举与奖项要求，并决定收集持续服务记录而不猜测参选动机"
+  },
+  "participants": [
+    "Avery",
+    "Nell"
+  ],
+  "context_zh": "社区志愿奖的两位提名人依据该奖项给定标准讨论候选材料，未作评奖决定。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-39-s01",
+      "speaker": "Nell",
+      "text": "Would the panel deem this nomination eligible if it describes only one good deed?"
+    },
+    {
+      "id": "p10-b-39-s02",
+      "speaker": "Avery",
+      "text": "The award notice asks for sustained service. Helping once is kind, but the nomination needs more than that."
+    },
+    {
+      "id": "p10-b-39-s03",
+      "speaker": "Nell",
+      "text": "I'm a little cynical about people who appear only when an award is announced."
+    },
+    {
+      "id": "p10-b-39-s04",
+      "speaker": "Avery",
+      "text": "We don't know anyone's motive. Do we have records of what this volunteer actually did?"
+    },
+    {
+      "id": "p10-b-39-s05",
+      "speaker": "Nell",
+      "text": "Yes, the food bank has attendance records from the past six months."
+    },
+    {
+      "id": "p10-b-39-s06",
+      "speaker": "Avery",
+      "text": "Then let's ask for a summary of that work and base the nomination on it, rather than on our guesses."
+    },
+    {
+      "id": "p10-b-39-s07",
+      "speaker": "Nell",
+      "text": "Agreed. I'll gather the service record and check it against the award criteria before we submit anything."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b4427be4d36c8c3f",
+      "lemma": "deem",
+      "pos": "v.",
+      "sense_zh": "认为；认定",
+      "sentence_ids": [
+        "p10-b-39-s01"
+      ],
+      "forms": [
+        "deem"
+      ],
+      "sense_id": "sense-staged-ox-b4427be4d36c8c3f-p10-b-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-05ea90b2e1a63317",
+      "lemma": "deed",
+      "pos": "n.",
+      "sense_zh": "行为；行动",
+      "sentence_ids": [
+        "p10-b-39-s01"
+      ],
+      "forms": [
+        "deed"
+      ],
+      "sense_id": "sense-staged-ox-05ea90b2e1a63317-p10-b-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e70c83c6a1d3d423",
+      "lemma": "cynical",
+      "pos": "adj.",
+      "sense_zh": "愤世嫉俗的；怀疑动机的",
+      "sentence_ids": [
+        "p10-b-39-s03"
+      ],
+      "forms": [
+        "cynical"
+      ],
+      "sense_id": "sense-staged-ox-e70c83c6a1d3d423-p10-b-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

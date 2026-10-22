@@ -1,0 +1,100 @@
+{
+  "id": "p10-c-20",
+  "title_zh": "约定按时间线重写虚构案件摘要",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-court-case-status-check",
+    "label_zh": "区分虚构案件中的拘留与案件驳回",
+    "goal_zh": "区分拘留事实与后来的案件驳回，并约定不把拘留写成有罪证明"
+  },
+  "participants": [
+    "Farah",
+    "Mr Cole"
+  ],
+  "context_zh": "学生与教师依据虚构法律案例材料修改课堂摘要；不是现实法律咨询。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-20-s01",
+      "speaker": "Farah",
+      "text": "The case summary says officers decided to detain the driver overnight. Does that mean he was found guilty?"
+    },
+    {
+      "id": "p10-c-20-s02",
+      "speaker": "Mr Cole",
+      "text": "No. The file records his detention, but that is not a guilty verdict."
+    },
+    {
+      "id": "p10-c-20-s03",
+      "speaker": "Farah",
+      "text": "There is also a dismissal of the case two weeks later. Should that go in the opening sentence?"
+    },
+    {
+      "id": "p10-c-20-s04",
+      "speaker": "Mr Cole",
+      "text": "It needs to appear clearly. Your current opening leaves readers thinking the accusation was proved."
+    },
+    {
+      "id": "p10-c-20-s05",
+      "speaker": "Farah",
+      "text": "I will put the events in order: detention that night, then dismissal two weeks later."
+    },
+    {
+      "id": "p10-c-20-s06",
+      "speaker": "Mr Cole",
+      "text": "Good. Keep the accusation separate from any finding, and do not invent a conviction."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-70c0e2f461e98570",
+      "lemma": "detain",
+      "pos": "v.",
+      "sense_zh": "拘留",
+      "sentence_ids": [
+        "p10-c-20-s01"
+      ],
+      "forms": [
+        "detain"
+      ],
+      "sense_id": "sense-staged-ox-70c0e2f461e98570-p10-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3aeabd3b3c4fc18",
+      "lemma": "detention",
+      "pos": "n.",
+      "sense_zh": "拘留；羁押",
+      "sentence_ids": [
+        "p10-c-20-s02"
+      ],
+      "forms": [
+        "detention"
+      ],
+      "sense_id": "sense-staged-ox-e3aeabd3b3c4fc18-p10-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8fb115475d5bc6d",
+      "lemma": "dismissal",
+      "pos": "n.",
+      "sense_zh": "案件的驳回；撤销",
+      "sentence_ids": [
+        "p10-c-20-s03"
+      ],
+      "forms": [
+        "dismissal"
+      ],
+      "sense_id": "sense-staged-ox-f8fb115475d5bc6d-p10-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

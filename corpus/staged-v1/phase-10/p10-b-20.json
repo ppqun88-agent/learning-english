@@ -1,0 +1,137 @@
+{
+  "id": "p10-b-20",
+  "title_zh": "就社区花园关门时间达成试行折中",
+  "topic_id": "community",
+  "scenario": {
+    "id": "garden-gate-hours-compromise",
+    "label_zh": "就社区花园关门时间达成试行折中",
+    "goal_zh": "说明分歧并商定本月工作日七点、周末八点关门的试行方案，同时保留月底复核"
+  },
+  "participants": [
+    "Helen",
+    "Ravi"
+  ],
+  "context_zh": "社区花园两位轮值管理员得到各自小组授权，商议本月试行的关门时间。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-20-s01",
+      "speaker": "Ravi",
+      "text": "The point of contention is still the closing time. Your group wants eight every night; ours wants six."
+    },
+    {
+      "id": "p10-b-20-s02",
+      "speaker": "Helen",
+      "text": "Could a compromise be seven on weekdays and eight at weekends?"
+    },
+    {
+      "id": "p10-b-20-s03",
+      "speaker": "Ravi",
+      "text": "I concede that six is too early for people coming from work, but our weekday volunteer leaves at seven."
+    },
+    {
+      "id": "p10-b-20-s04",
+      "speaker": "Helen",
+      "text": "Seven on weekdays is a concession we can accept. Could your group cover eight at weekends?"
+    },
+    {
+      "id": "p10-b-20-s05",
+      "speaker": "Ravi",
+      "text": "We can cover that for this month. We would need to review the workload afterwards."
+    },
+    {
+      "id": "p10-b-20-s06",
+      "speaker": "Helen",
+      "text": "Then do we have a consensus on seven during the week and eight at weekends, with a review at the end of the month?"
+    },
+    {
+      "id": "p10-b-20-s07",
+      "speaker": "Ravi",
+      "text": "Yes. I'll tell our rota organiser those trial hours and the review date."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8d9f060666c2cb66",
+      "lemma": "contention",
+      "pos": "n.",
+      "sense_zh": "争论；争执",
+      "sentence_ids": [
+        "p10-b-20-s01"
+      ],
+      "forms": [
+        "contention"
+      ],
+      "sense_id": "sense-staged-ox-8d9f060666c2cb66-p10-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-205bd05a61243ca8",
+      "lemma": "compromise",
+      "pos": "n.",
+      "sense_zh": "折中方案",
+      "sentence_ids": [
+        "p10-b-20-s02"
+      ],
+      "forms": [
+        "compromise"
+      ],
+      "sense_id": "sense-staged-ox-205bd05a61243ca8-p10-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0fb743f4957b1225",
+      "lemma": "concede",
+      "pos": "v.",
+      "sense_zh": "承认原先未接受的观点",
+      "sentence_ids": [
+        "p10-b-20-s03"
+      ],
+      "forms": [
+        "concede"
+      ],
+      "sense_id": "sense-staged-ox-0fb743f4957b1225-p10-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3a13028e029af38a",
+      "lemma": "concession",
+      "pos": "n.",
+      "sense_zh": "让步",
+      "sentence_ids": [
+        "p10-b-20-s04"
+      ],
+      "forms": [
+        "concession"
+      ],
+      "sense_id": "sense-staged-ox-3a13028e029af38a-p10-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d1fb005ab3a56cdd",
+      "lemma": "consensus",
+      "pos": "n.",
+      "sense_zh": "共识",
+      "sentence_ids": [
+        "p10-b-20-s06"
+      ],
+      "forms": [
+        "consensus"
+      ],
+      "sense_id": "sense-staged-ox-d1fb005ab3a56cdd-p10-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

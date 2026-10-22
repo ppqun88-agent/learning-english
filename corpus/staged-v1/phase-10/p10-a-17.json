@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-17",
+  "title_zh": "把技术职业愿望化成首个练习目标",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "technical-career-aspiration-milestone",
+    "label_zh": "把职业愿望拆成可检查的学习目标",
+    "goal_zh": "说明长远职业愿望，并约定用一份可独立复现的入门项目作为首个学习检查点"
+  },
+  "participants": [
+    "Yara",
+    "Simon"
+  ],
+  "context_zh": "成人学习者与课程导师讨论学习方向，不作就业保证。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-17-s01",
+      "speaker": "Yara",
+      "text": "My long-term aspiration is to design accessible websites, but I don't know where to start."
+    },
+    {
+      "id": "p10-a-17-s02",
+      "speaker": "Simon",
+      "text": "What level of skill do you hope to attain by the end of this introductory course?"
+    },
+    {
+      "id": "p10-a-17-s03",
+      "speaker": "Yara",
+      "text": "I aspire to work professionally one day. For now, I'd like to build a simple page without copying every step."
+    },
+    {
+      "id": "p10-a-17-s04",
+      "speaker": "Simon",
+      "text": "Then let's use one small project as a benchmark: a page you can explain and rebuild on your own."
+    },
+    {
+      "id": "p10-a-17-s05",
+      "speaker": "Yara",
+      "text": "That sounds manageable. I'll make a one-page guide to our local walking group."
+    },
+    {
+      "id": "p10-a-17-s06",
+      "speaker": "Simon",
+      "text": "Bring it to our final tutorial. We'll look at what you can do independently and choose the next step from there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-80d6b694fc9ee1e6",
+      "lemma": "aspiration",
+      "pos": "n.",
+      "sense_zh": "志向；抱负",
+      "sentence_ids": [
+        "p10-a-17-s01"
+      ],
+      "forms": [
+        "aspiration"
+      ],
+      "sense_id": "sense-staged-ox-80d6b694fc9ee1e6-p10-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ae9076640b9489c",
+      "lemma": "attain",
+      "pos": "v.",
+      "sense_zh": "达到",
+      "sentence_ids": [
+        "p10-a-17-s02"
+      ],
+      "forms": [
+        "attain"
+      ],
+      "sense_id": "sense-staged-ox-0ae9076640b9489c-p10-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8178103ebf4c975f",
+      "lemma": "aspire",
+      "pos": "v.",
+      "sense_zh": "渴望；立志",
+      "sentence_ids": [
+        "p10-a-17-s03"
+      ],
+      "forms": [
+        "aspire"
+      ],
+      "sense_id": "sense-staged-ox-8178103ebf4c975f-p10-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb09bb4494e23931",
+      "lemma": "benchmark",
+      "pos": "n.",
+      "sense_zh": "衡量标准",
+      "sentence_ids": [
+        "p10-a-17-s04"
+      ],
+      "forms": [
+        "benchmark"
+      ],
+      "sense_id": "sense-staged-ox-eb09bb4494e23931-p10-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

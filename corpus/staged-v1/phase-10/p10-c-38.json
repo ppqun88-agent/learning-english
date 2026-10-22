@@ -1,0 +1,89 @@
+{
+  "id": "p10-c-38",
+  "title_zh": "因设备维修改约服务时间",
+  "topic_id": "services",
+  "scenario": {
+    "id": "repair-appointment-disruption-choice",
+    "label_zh": "因维修中断调整服务预约",
+    "goal_zh": "核对设备维修造成的服务中断，并把自行车保养预约改到次日"
+  },
+  "participants": [
+    "Penny",
+    "Ash"
+  ],
+  "context_zh": "自行车维修店临时维修车间设备，顾客来电核对原预约。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-38-s01",
+      "speaker": "Penny",
+      "text": "Will the equipment repairs disrupt my bicycle service this afternoon?"
+    },
+    {
+      "id": "p10-c-38-s02",
+      "speaker": "Ash",
+      "text": "I am afraid so. The workshop lift is out of use, and the disruption will last until closing."
+    },
+    {
+      "id": "p10-c-38-s03",
+      "speaker": "Penny",
+      "text": "I need the bike tomorrow evening. Could you do the service tomorrow morning instead?"
+    },
+    {
+      "id": "p10-c-38-s04",
+      "speaker": "Ash",
+      "text": "We have a nine o'clock slot, with collection by three if the service reveals no additional work."
+    },
+    {
+      "id": "p10-c-38-s05",
+      "speaker": "Penny",
+      "text": "Please move my booking to nine. If anything else needs doing, call me before you start it."
+    },
+    {
+      "id": "p10-c-38-s06",
+      "speaker": "Ash",
+      "text": "Done. Your booking is now tomorrow at nine, and I have noted that we need your approval for any extra work."
+    },
+    {
+      "id": "p10-c-38-s07",
+      "speaker": "Penny",
+      "text": "Thanks. I will bring it in at nine."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9a238a67c42f9f21",
+      "lemma": "disrupt",
+      "pos": "v.",
+      "sense_zh": "扰乱；使中断",
+      "sentence_ids": [
+        "p10-c-38-s01"
+      ],
+      "forms": [
+        "disrupt"
+      ],
+      "sense_id": "sense-staged-ox-9a238a67c42f9f21-p10-c-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c5427fe5eda82af",
+      "lemma": "disruption",
+      "pos": "n.",
+      "sense_zh": "中断；扰乱",
+      "sentence_ids": [
+        "p10-c-38-s02"
+      ],
+      "forms": [
+        "disruption"
+      ],
+      "sense_id": "sense-staged-ox-1c5427fe5eda82af-p10-c-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

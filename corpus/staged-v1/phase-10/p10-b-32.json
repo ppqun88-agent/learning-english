@@ -1,0 +1,79 @@
+{
+  "id": "p10-b-32",
+  "title_zh": "约定整理驻外记者的采访往来邮件",
+  "topic_id": "work",
+  "scenario": {
+    "id": "foreign-correspondent-contact-record",
+    "label_zh": "约定整理驻外记者的采访往来邮件",
+    "goal_zh": "明确需要查找的采访确认邮件，并约定按对象和日期整理供记者出发前核对"
+  },
+  "participants": [
+    "Editor",
+    "Salma"
+  ],
+  "context_zh": "新闻编辑室的同事整理一位驻外记者已有的工作邮件副本，不实际发送消息。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-32-s01",
+      "speaker": "Salma",
+      "text": "Our foreign correspondent leaves on Monday. Has the interview with the port manager been confirmed?"
+    },
+    {
+      "id": "p10-b-32-s02",
+      "speaker": "Editor",
+      "text": "I saw a possible time in the correspondence, but I have not found a final acceptance."
+    },
+    {
+      "id": "p10-b-32-s03",
+      "speaker": "Salma",
+      "text": "Could you separate the invitation, the suggested times and any confirmation? I do not want a proposal to appear as a fixed appointment."
+    },
+    {
+      "id": "p10-b-32-s04",
+      "speaker": "Editor",
+      "text": "Yes. I'll organise the emails by contact and date and mark anything still waiting for a reply."
+    },
+    {
+      "id": "p10-b-32-s05",
+      "speaker": "Salma",
+      "text": "Thank you. We'll ask the reporter to check that list before treating any interview as booked."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d2199fc2e90dff6b",
+      "lemma": "correspondent",
+      "pos": "n.",
+      "sense_zh": "驻外记者",
+      "sentence_ids": [
+        "p10-b-32-s01"
+      ],
+      "forms": [
+        "correspondent"
+      ],
+      "sense_id": "sense-staged-ox-d2199fc2e90dff6b-p10-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7ea5fde991f2a290",
+      "lemma": "correspondence",
+      "pos": "n.",
+      "sense_zh": "往来信件或邮件",
+      "sentence_ids": [
+        "p10-b-32-s02"
+      ],
+      "forms": [
+        "correspondence"
+      ],
+      "sense_id": "sense-staged-ox-7ea5fde991f2a290-p10-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

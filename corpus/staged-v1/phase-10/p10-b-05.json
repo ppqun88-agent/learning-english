@@ -1,0 +1,100 @@
+{
+  "id": "p10-b-05",
+  "title_zh": "约定提交自行车碰撞的维修凭据",
+  "topic_id": "services",
+  "scenario": {
+    "id": "courier-bicycle-collision-claim",
+    "label_zh": "约定提交自行车碰撞的维修凭据",
+    "goal_zh": "说明快递车辆碰撞后的赔偿诉求，并明确先交维修估价和照片等待审核"
+  },
+  "participants": [
+    "Agent",
+    "Nadia"
+  ],
+  "context_zh": "虚构服务投诉：一位顾客报告快递车辆碰撞其自行车，公司人员只说明本次处理流程。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-05-s01",
+      "speaker": "Nadia",
+      "text": "Your driver reported a collision with my parked bicycle yesterday. The front wheel is bent."
+    },
+    {
+      "id": "p10-b-05-s02",
+      "speaker": "Agent",
+      "text": "I can see the incident report. Are you asking us to compensate you for the repair?"
+    },
+    {
+      "id": "p10-b-05-s03",
+      "speaker": "Nadia",
+      "text": "Yes. I have a photograph and an estimate from the bicycle shop."
+    },
+    {
+      "id": "p10-b-05-s04",
+      "speaker": "Agent",
+      "text": "Please send both through this claim form. I can submit them for review, but I cannot confirm compensation or an amount today."
+    },
+    {
+      "id": "p10-b-05-s05",
+      "speaker": "Nadia",
+      "text": "All right. I'll attach them this afternoon. When should I ask for an update?"
+    },
+    {
+      "id": "p10-b-05-s06",
+      "speaker": "Agent",
+      "text": "If you haven't heard from the claims team by Friday, reply to the confirmation email with your reference number."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7fce6a80701b2ccf",
+      "lemma": "collision",
+      "pos": "n.",
+      "sense_zh": "碰撞",
+      "sentence_ids": [
+        "p10-b-05-s01"
+      ],
+      "forms": [
+        "collision"
+      ],
+      "sense_id": "sense-staged-ox-7fce6a80701b2ccf-p10-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08f0ed689325e57b",
+      "lemma": "compensate",
+      "pos": "v.",
+      "sense_zh": "赔偿损失",
+      "sentence_ids": [
+        "p10-b-05-s02"
+      ],
+      "forms": [
+        "compensate"
+      ],
+      "sense_id": "sense-staged-ox-08f0ed689325e57b-p10-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3a57ee36ff5c7322",
+      "lemma": "compensation",
+      "pos": "n.",
+      "sense_zh": "赔偿金；补偿",
+      "sentence_ids": [
+        "p10-b-05-s04"
+      ],
+      "forms": [
+        "compensation"
+      ],
+      "sense_id": "sense-staged-ox-3a57ee36ff5c7322-p10-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

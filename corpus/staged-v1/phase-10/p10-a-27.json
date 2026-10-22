@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-27",
+  "title_zh": "查出奖金表漏计月份并约好更正",
+  "topic_id": "work",
+  "scenario": {
+    "id": "sales-bonus-calculation-query",
+    "label_zh": "核对销售增长后的奖金计算",
+    "goal_zh": "核对员工奖金表遗漏的月份，并约定更正计算后再确认应付金额"
+  },
+  "participants": [
+    "Lena",
+    "Victor"
+  ],
+  "context_zh": "虚构公司工资沟通中，员工与工资专员核对奖励计算表。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-27-s01",
+      "speaker": "Lena",
+      "text": "There was a boom in sales in June, but my bonus looks the same as last quarter. Could you explain the calculation?"
+    },
+    {
+      "id": "p10-a-27-s02",
+      "speaker": "Victor",
+      "text": "Let me open the sheet. It should use sales from April through June."
+    },
+    {
+      "id": "p10-a-27-s03",
+      "speaker": "Lena",
+      "text": "This total only includes April and May. June is on the next tab."
+    },
+    {
+      "id": "p10-a-27-s04",
+      "speaker": "Victor",
+      "text": "You're right. The formula stops at May, so the figure on your statement needs checking."
+    },
+    {
+      "id": "p10-a-27-s05",
+      "speaker": "Lena",
+      "text": "Could you correct it and send me the revised breakdown before I rely on that amount?"
+    },
+    {
+      "id": "p10-a-27-s06",
+      "speaker": "Victor",
+      "text": "Yes. I'll include June and send the recalculated figure for you to check. I won't guess the new total now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-48e5f2d9c9f18a48",
+      "lemma": "boom",
+      "pos": "n.",
+      "sense_zh": "迅速增长；繁荣",
+      "sentence_ids": [
+        "p10-a-27-s01"
+      ],
+      "forms": [
+        "boom"
+      ],
+      "sense_id": "sense-staged-ox-48e5f2d9c9f18a48-p10-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b1b6c530ca550fd",
+      "lemma": "bonus",
+      "pos": "n.",
+      "sense_zh": "奖金",
+      "sentence_ids": [
+        "p10-a-27-s01"
+      ],
+      "forms": [
+        "bonus"
+      ],
+      "sense_id": "sense-staged-ox-6b1b6c530ca550fd-p10-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c4e99bcaf57ad44",
+      "lemma": "calculation",
+      "pos": "n.",
+      "sense_zh": "计算",
+      "sentence_ids": [
+        "p10-a-27-s01"
+      ],
+      "forms": [
+        "calculation"
+      ],
+      "sense_id": "sense-staged-ox-1c4e99bcaf57ad44-p10-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

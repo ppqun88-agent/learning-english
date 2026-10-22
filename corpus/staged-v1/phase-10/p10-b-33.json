@@ -1,0 +1,116 @@
+{
+  "id": "p10-b-33",
+  "title_zh": "约定统一食物银行的交接联系人",
+  "topic_id": "community",
+  "scenario": {
+    "id": "food-bank-shift-coordination",
+    "label_zh": "约定统一食物银行的交接联系人",
+    "goal_zh": "指出重复接货通知的问题，并分工通过一位协调员确认周六交接时间"
+  },
+  "participants": [
+    "Luca",
+    "Faye"
+  ],
+  "context_zh": "两个志愿团队为社区食物银行安排周六接货；此处只讨论协调流程。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-33-s01",
+      "speaker": "Faye",
+      "text": "Our teams need to cooperate on Saturday. The driver received two different arrival times."
+    },
+    {
+      "id": "p10-b-33-s02",
+      "speaker": "Luca",
+      "text": "I can coordinate our side. Who is the coordinator for your team?"
+    },
+    {
+      "id": "p10-b-33-s03",
+      "speaker": "Faye",
+      "text": "Nell. She has been very cooperative, but she is getting messages from four different people."
+    },
+    {
+      "id": "p10-b-33-s04",
+      "speaker": "Luca",
+      "text": "Then let us give her one contact from each team and keep the driver out of the back-and-forth."
+    },
+    {
+      "id": "p10-b-33-s05",
+      "speaker": "Faye",
+      "text": "I'll ask everyone on our side to send updates through me. You can send yours to me, and I'll confirm the final time with Nell."
+    },
+    {
+      "id": "p10-b-33-s06",
+      "speaker": "Luca",
+      "text": "Agreed. We won't send the driver another time until Nell confirms it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9af5aaa9109f66be",
+      "lemma": "cooperate",
+      "pos": "v.",
+      "sense_zh": "合作",
+      "sentence_ids": [
+        "p10-b-33-s01"
+      ],
+      "forms": [
+        "cooperate"
+      ],
+      "sense_id": "sense-staged-ox-9af5aaa9109f66be-p10-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9abac47050f2ca6a",
+      "lemma": "coordinate",
+      "pos": "v.",
+      "sense_zh": "协调",
+      "sentence_ids": [
+        "p10-b-33-s02"
+      ],
+      "forms": [
+        "coordinate"
+      ],
+      "sense_id": "sense-staged-ox-9abac47050f2ca6a-p10-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-36935dcba256084c",
+      "lemma": "coordinator",
+      "pos": "n.",
+      "sense_zh": "协调员",
+      "sentence_ids": [
+        "p10-b-33-s02"
+      ],
+      "forms": [
+        "coordinator"
+      ],
+      "sense_id": "sense-staged-ox-36935dcba256084c-p10-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-716b900289693410",
+      "lemma": "cooperative",
+      "pos": "adj.",
+      "sense_zh": "乐于配合的",
+      "sentence_ids": [
+        "p10-b-33-s03"
+      ],
+      "forms": [
+        "cooperative"
+      ],
+      "sense_id": "sense-staged-ox-716b900289693410-p10-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

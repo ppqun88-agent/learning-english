@@ -1,0 +1,121 @@
+{
+  "id": "p10-b-15",
+  "title_zh": "约定试演更简洁的室内乐结尾",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "chamber-piece-ending-feedback",
+    "label_zh": "约定试演更简洁的室内乐结尾",
+    "goal_zh": "针对原创乐曲提出具体反馈，并决定先试用较少声部的结尾"
+  },
+  "participants": [
+    "Zara",
+    "Kit"
+  ],
+  "context_zh": "两位音乐人听完一首原创室内乐作品后讨论结尾。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-15-s01",
+      "speaker": "Kit",
+      "text": "What did you think of the composition, especially the last minute?"
+    },
+    {
+      "id": "p10-b-15-s02",
+      "speaker": "Zara",
+      "text": "The melody is compelling, but the loud ending hides it. Would you like a detailed critique or just a first impression?"
+    },
+    {
+      "id": "p10-b-15-s03",
+      "speaker": "Kit",
+      "text": "Something I can try in rehearsal, please."
+    },
+    {
+      "id": "p10-b-15-s04",
+      "speaker": "Zara",
+      "text": "Let the flute finish the melody alone. A quiet cello line could complement it without competing for attention."
+    },
+    {
+      "id": "p10-b-15-s05",
+      "speaker": "Kit",
+      "text": "That would leave out the final brass chord. I'm attached to that chord."
+    },
+    {
+      "id": "p10-b-15-s06",
+      "speaker": "Zara",
+      "text": "We could play both versions and listen from the back of the room."
+    },
+    {
+      "id": "p10-b-15-s07",
+      "speaker": "Kit",
+      "text": "Let's do that. We'll try the flute and cello ending first, then compare it with the original."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-20d22e7fc58c5d6a",
+      "lemma": "composition",
+      "pos": "n.",
+      "sense_zh": "音乐作品",
+      "sentence_ids": [
+        "p10-b-15-s01"
+      ],
+      "forms": [
+        "composition"
+      ],
+      "sense_id": "sense-staged-ox-20d22e7fc58c5d6a-p10-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-065a0c0a521eaf74",
+      "lemma": "compelling",
+      "pos": "adj.",
+      "sense_zh": "引人入胜的",
+      "sentence_ids": [
+        "p10-b-15-s02"
+      ],
+      "forms": [
+        "compelling"
+      ],
+      "sense_id": "sense-staged-ox-065a0c0a521eaf74-p10-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eac3a42a626f2a7f",
+      "lemma": "critique",
+      "pos": "n.",
+      "sense_zh": "详细的评论或评析",
+      "sentence_ids": [
+        "p10-b-15-s02"
+      ],
+      "forms": [
+        "critique"
+      ],
+      "sense_id": "sense-staged-ox-eac3a42a626f2a7f-p10-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3933f0494afc6fc",
+      "lemma": "complement",
+      "pos": "v.",
+      "sense_zh": "补充并使之相得益彰",
+      "sentence_ids": [
+        "p10-b-15-s04"
+      ],
+      "forms": [
+        "complement"
+      ],
+      "sense_id": "sense-staged-ox-e3933f0494afc6fc-p10-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

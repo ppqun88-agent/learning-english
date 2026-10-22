@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-13",
+  "title_zh": "找到历史会堂导览的集合长凳",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "heritage-hall-bench-meeting-point",
+    "label_zh": "确认历史会堂导览的集合长凳",
+    "goal_zh": "根据会堂内的建筑位置找到指定长凳，并确认在此等候导览"
+  },
+  "participants": [
+    "Cora",
+    "Evan"
+  ],
+  "context_zh": "历史会堂内，游客向接待员核对建筑导览的集合地点。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-13-s01",
+      "speaker": "Cora",
+      "text": "Where should I wait for the architectural tour of this hall?"
+    },
+    {
+      "id": "p10-a-13-s02",
+      "speaker": "Evan",
+      "text": "On the long bench beneath the large wooden beam. Can you see it beyond the doorway?"
+    },
+    {
+      "id": "p10-a-13-s03",
+      "speaker": "Cora",
+      "text": "I see two benches. Do you mean the one against the stone wall?"
+    },
+    {
+      "id": "p10-a-13-s04",
+      "speaker": "Evan",
+      "text": "Yes, directly under that beam, not the one beside the window."
+    },
+    {
+      "id": "p10-a-13-s05",
+      "speaker": "Cora",
+      "text": "I've found it. I'll wait here for the guide."
+    },
+    {
+      "id": "p10-a-13-s06",
+      "speaker": "Evan",
+      "text": "That's the right place. The guide will come to that bench."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4bf654bbbc36f331",
+      "lemma": "architectural",
+      "pos": "adj.",
+      "sense_zh": "建筑方面的",
+      "sentence_ids": [
+        "p10-a-13-s01"
+      ],
+      "forms": [
+        "architectural"
+      ],
+      "sense_id": "sense-staged-ox-4bf654bbbc36f331-p10-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3b55bcf45f3e3229",
+      "lemma": "bench",
+      "pos": "n.",
+      "sense_zh": "长凳",
+      "sentence_ids": [
+        "p10-a-13-s02"
+      ],
+      "forms": [
+        "bench"
+      ],
+      "sense_id": "sense-staged-ox-3b55bcf45f3e3229-p10-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7385f1c731d91d28",
+      "lemma": "beneath",
+      "pos": "prep.",
+      "sense_zh": "在……下方",
+      "sentence_ids": [
+        "p10-a-13-s02"
+      ],
+      "forms": [
+        "beneath"
+      ],
+      "sense_id": "sense-staged-ox-7385f1c731d91d28-p10-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e1967c02a2222545",
+      "lemma": "beam",
+      "pos": "n.",
+      "sense_zh": "梁",
+      "sentence_ids": [
+        "p10-a-13-s02"
+      ],
+      "forms": [
+        "beam"
+      ],
+      "sense_id": "sense-staged-ox-e1967c02a2222545-p10-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

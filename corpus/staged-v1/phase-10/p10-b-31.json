@@ -1,0 +1,121 @@
+{
+  "id": "p10-b-31",
+  "title_zh": "约定更正车站历史作业中的日期冲突表述",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "student-source-conflict-revision",
+    "label_zh": "约定更正车站历史作业中的日期冲突表述",
+    "goal_zh": "核对两份材料分别记录的事件，并约定把首次客运与开幕仪式分开注明"
+  },
+  "participants": [
+    "Teacher",
+    "Elliot"
+  ],
+  "context_zh": "虚构地方史课堂：学生比较给定日记与报纸节录中的车站日期。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-31-s01",
+      "speaker": "Elliot",
+      "text": "There is a contradiction here. The diary says the station opened in 1924, but the newspaper gives 1925."
+    },
+    {
+      "id": "p10-b-31-s02",
+      "speaker": "Teacher",
+      "text": "Look at what each writer was describing. The diary records a first passenger journey; the newspaper reports the official opening ceremony."
+    },
+    {
+      "id": "p10-b-31-s03",
+      "speaker": "Elliot",
+      "text": "So I cannot contend that the diary is wrong simply because the dates differ."
+    },
+    {
+      "id": "p10-b-31-s04",
+      "speaker": "Teacher",
+      "text": "Exactly. What looks like contrary evidence may concern a different event."
+    },
+    {
+      "id": "p10-b-31-s05",
+      "speaker": "Elliot",
+      "text": "My paragraph calls the diary unreliable. That needs a correction."
+    },
+    {
+      "id": "p10-b-31-s06",
+      "speaker": "Teacher",
+      "text": "How will you rewrite it?"
+    },
+    {
+      "id": "p10-b-31-s07",
+      "speaker": "Elliot",
+      "text": "I'll give separate dates for the first passenger service and the official ceremony, with a reference for each."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d87259528539da36",
+      "lemma": "contradiction",
+      "pos": "n.",
+      "sense_zh": "矛盾；不一致",
+      "sentence_ids": [
+        "p10-b-31-s01"
+      ],
+      "forms": [
+        "contradiction"
+      ],
+      "sense_id": "sense-staged-ox-d87259528539da36-p10-b-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d5ce587775a468c1",
+      "lemma": "contend",
+      "pos": "v.",
+      "sense_zh": "主张；声称",
+      "sentence_ids": [
+        "p10-b-31-s03"
+      ],
+      "forms": [
+        "contend"
+      ],
+      "sense_id": "sense-staged-ox-d5ce587775a468c1-p10-b-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7e9fcf12213a1555",
+      "lemma": "contrary",
+      "pos": "adj.",
+      "sense_zh": "相反的",
+      "sentence_ids": [
+        "p10-b-31-s04"
+      ],
+      "forms": [
+        "contrary"
+      ],
+      "sense_id": "sense-staged-ox-7e9fcf12213a1555-p10-b-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f75ac2c334efd18",
+      "lemma": "correction",
+      "pos": "n.",
+      "sense_zh": "更正",
+      "sentence_ids": [
+        "p10-b-31-s05"
+      ],
+      "forms": [
+        "correction"
+      ],
+      "sense_id": "sense-staged-ox-0f75ac2c334efd18-p10-b-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

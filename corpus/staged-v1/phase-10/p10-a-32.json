@@ -1,0 +1,84 @@
+{
+  "id": "p10-a-32",
+  "title_zh": "核对货运范围后索取末段配送报价",
+  "topic_id": "services",
+  "scenario": {
+    "id": "freight-cargo-carriage-quote",
+    "label_zh": "核对货运报价包含的运输范围",
+    "goal_zh": "明确现有运费只包含到仓库的运输，并约定补报送到展馆的费用后再决定"
+  },
+  "participants": [
+    "Alma",
+    "Declan"
+  ],
+  "context_zh": "展览筹办人与货运公司核对木箱货物的报价。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-32-s01",
+      "speaker": "Alma",
+      "text": "The cargo is four wooden crates for an exhibition. Does your price include delivery to the gallery?"
+    },
+    {
+      "id": "p10-a-32-s02",
+      "speaker": "Declan",
+      "text": "No. The carriage charge covers transport to our city warehouse only."
+    },
+    {
+      "id": "p10-a-32-s03",
+      "speaker": "Alma",
+      "text": "I need the crates at the gallery entrance, not waiting at a warehouse. Can you quote for that final leg too?"
+    },
+    {
+      "id": "p10-a-32-s04",
+      "speaker": "Declan",
+      "text": "Yes. I'll add a separate delivery line so you can see the full cost."
+    },
+    {
+      "id": "p10-a-32-s05",
+      "speaker": "Alma",
+      "text": "Please send the revised quote before booking any transport."
+    },
+    {
+      "id": "p10-a-32-s06",
+      "speaker": "Declan",
+      "text": "Understood. I'll send the price for both stages, and wait for your decision."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-028846b6b170809e",
+      "lemma": "cargo",
+      "pos": "n.",
+      "sense_zh": "货物",
+      "sentence_ids": [
+        "p10-a-32-s01"
+      ],
+      "forms": [
+        "cargo"
+      ],
+      "sense_id": "sense-staged-ox-028846b6b170809e-p10-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b98491debacaf51",
+      "lemma": "carriage",
+      "pos": "n.",
+      "sense_zh": "货物运输",
+      "sentence_ids": [
+        "p10-a-32-s02"
+      ],
+      "forms": [
+        "carriage"
+      ],
+      "sense_id": "sense-staged-ox-4b98491debacaf51-p10-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

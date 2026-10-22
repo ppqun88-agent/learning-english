@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-21",
+  "title_zh": "约定按维修记录修正旧汽车广告",
+  "topic_id": "services",
+  "scenario": {
+    "id": "vintage-auto-advert-description",
+    "label_zh": "核对旧汽车广告的原装表述",
+    "goal_zh": "核对汽车原装部件的说法，并决定在广告中保留外观描述及更换发动机的事实"
+  },
+  "participants": [
+    "Wes",
+    "Dalia"
+  ],
+  "context_zh": "私人车主与广告撰稿人核对一辆老汽车的售卖文案。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-21-s01",
+      "speaker": "Wes",
+      "text": "This old auto has plenty of charm, but is 'completely original' an accurate description?"
+    },
+    {
+      "id": "p10-a-21-s02",
+      "speaker": "Dalia",
+      "text": "Not quite. The bodywork is authentic, but the engine was replaced in the nineties."
+    },
+    {
+      "id": "p10-a-21-s03",
+      "speaker": "Wes",
+      "text": "Then we shouldn't boast about every part being original. Do you have the record of the replacement?"
+    },
+    {
+      "id": "p10-a-21-s04",
+      "speaker": "Dalia",
+      "text": "Yes, here it is. It gives the year and the garage that did it."
+    },
+    {
+      "id": "p10-a-21-s05",
+      "speaker": "Wes",
+      "text": "I'll keep the description of the bodywork and state clearly that the engine was replaced."
+    },
+    {
+      "id": "p10-a-21-s06",
+      "speaker": "Dalia",
+      "text": "Please do. I'd rather buyers know that before they come to see it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-91ace3814825e81a",
+      "lemma": "auto",
+      "pos": "n.",
+      "sense_zh": "汽车",
+      "sentence_ids": [
+        "p10-a-21-s01"
+      ],
+      "forms": [
+        "auto"
+      ],
+      "sense_id": "sense-staged-ox-91ace3814825e81a-p10-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-59ee4c613efb0381",
+      "lemma": "charm",
+      "pos": "n.",
+      "sense_zh": "魅力；吸引力",
+      "sentence_ids": [
+        "p10-a-21-s01"
+      ],
+      "forms": [
+        "charm"
+      ],
+      "sense_id": "sense-staged-ox-59ee4c613efb0381-p10-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e5237309d2f61d94",
+      "lemma": "authentic",
+      "pos": "adj.",
+      "sense_zh": "原装真实的",
+      "sentence_ids": [
+        "p10-a-21-s02"
+      ],
+      "forms": [
+        "authentic"
+      ],
+      "sense_id": "sense-staged-ox-e5237309d2f61d94-p10-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9cb73a26b09aaa1b",
+      "lemma": "boast",
+      "pos": "v.",
+      "sense_zh": "自夸；吹嘘",
+      "sentence_ids": [
+        "p10-a-21-s03"
+      ],
+      "forms": [
+        "boast"
+      ],
+      "sense_id": "sense-staged-ox-9cb73a26b09aaa1b-p10-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

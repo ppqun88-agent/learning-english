@@ -1,0 +1,84 @@
+{
+  "id": "p10-b-29",
+  "title_zh": "约好先了解英国咨询服务的会谈安排",
+  "topic_id": "health",
+  "scenario": {
+    "id": "uk-counselling-first-contact",
+    "label_zh": "约好先了解英国咨询服务的会谈安排",
+    "goal_zh": "询问首次咨询是否需要讲述全部经历，并预约一次只了解流程的电话"
+  },
+  "participants": [
+    "Receptionist",
+    "Moira"
+  ],
+  "context_zh": "虚构英国社区机构：成年人向接待员了解心理咨询服务；不提供医疗建议。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-29-s01",
+      "speaker": "Moira",
+      "text": "I saw your notice about counselling. Do I have to explain my whole history in the first appointment?"
+    },
+    {
+      "id": "p10-b-29-s02",
+      "speaker": "Receptionist",
+      "text": "You can ask the counsellor about the process before deciding what you want to discuss."
+    },
+    {
+      "id": "p10-b-29-s03",
+      "speaker": "Moira",
+      "text": "Could I have a short call about the arrangements first, rather than book a full session?"
+    },
+    {
+      "id": "p10-b-29-s04",
+      "speaker": "Receptionist",
+      "text": "Yes. We offer a ten-minute information call. Would Thursday at eleven suit you?"
+    },
+    {
+      "id": "p10-b-29-s05",
+      "speaker": "Moira",
+      "text": "Yes, please. I only want to understand the process on that call."
+    },
+    {
+      "id": "p10-b-29-s06",
+      "speaker": "Receptionist",
+      "text": "I've reserved Thursday at eleven for an information call, not a counselling session. The counsellor will call the number you gave us."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2416c07caf69d58f",
+      "lemma": "counselling",
+      "pos": "n.",
+      "sense_zh": "心理咨询",
+      "sentence_ids": [
+        "p10-b-29-s01"
+      ],
+      "forms": [
+        "counselling"
+      ],
+      "sense_id": "sense-staged-ox-2416c07caf69d58f-p10-b-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41e6671a0481b351",
+      "lemma": "counsellor",
+      "pos": "n.",
+      "sense_zh": "咨询师",
+      "sentence_ids": [
+        "p10-b-29-s02"
+      ],
+      "forms": [
+        "counsellor"
+      ],
+      "sense_id": "sense-staged-ox-41e6671a0481b351-p10-b-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

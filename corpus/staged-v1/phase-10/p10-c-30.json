@@ -1,0 +1,121 @@
+{
+  "id": "p10-c-30",
+  "title_zh": "核对企业申请表的主体和收入栏",
+  "topic_id": "services",
+  "scenario": {
+    "id": "small-business-form-entity-check",
+    "label_zh": "核对小企业申请表的主体与收入栏",
+    "goal_zh": "澄清申请主体和收入栏均应填公司资料而非个人资料，并确认提交申请不等于获得资助"
+  },
+  "participants": [
+    "Paula",
+    "Gareth"
+  ],
+  "context_zh": "虚构小企业资助咨询台依据手头表格说明字段，不提供真实财务或法律建议。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-30-s01",
+      "speaker": "Paula",
+      "text": "Our catering enterprise wants to apply for this grant. Is the applicant me or the company?"
+    },
+    {
+      "id": "p10-c-30-s02",
+      "speaker": "Gareth",
+      "text": "The guide says to name the entity seeking the grant. Since the company would receive it, use the company's details."
+    },
+    {
+      "id": "p10-c-30-s03",
+      "speaker": "Paula",
+      "text": "Then the earnings box is asking for the company's figure, not my personal pay?"
+    },
+    {
+      "id": "p10-c-30-s04",
+      "speaker": "Gareth",
+      "text": "Correct. The form labels that box \"company earnings for the last financial year\"."
+    },
+    {
+      "id": "p10-c-30-s05",
+      "speaker": "Paula",
+      "text": "If we complete all the boxes, does that entitle us to the money?"
+    },
+    {
+      "id": "p10-c-30-s06",
+      "speaker": "Gareth",
+      "text": "No. It allows the application to be assessed; it does not guarantee an award."
+    },
+    {
+      "id": "p10-c-30-s07",
+      "speaker": "Paula",
+      "text": "Thanks. I will check the company records before entering the figure, and I will not treat this as approved funding."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c27e910d4c8d7e97",
+      "lemma": "enterprise",
+      "pos": "n.",
+      "sense_zh": "企业",
+      "sentence_ids": [
+        "p10-c-30-s01"
+      ],
+      "forms": [
+        "enterprise"
+      ],
+      "sense_id": "sense-staged-ox-c27e910d4c8d7e97-p10-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2330ec0f70958263",
+      "lemma": "entity",
+      "pos": "n.",
+      "sense_zh": "独立实体；机构",
+      "sentence_ids": [
+        "p10-c-30-s02"
+      ],
+      "forms": [
+        "entity"
+      ],
+      "sense_id": "sense-staged-ox-2330ec0f70958263-p10-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dd74ef3a1bb73879",
+      "lemma": "earnings",
+      "pos": "n.",
+      "sense_zh": "收入；收益",
+      "sentence_ids": [
+        "p10-c-30-s03"
+      ],
+      "forms": [
+        "earnings"
+      ],
+      "sense_id": "sense-staged-ox-dd74ef3a1bb73879-p10-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0567381b7297e74f",
+      "lemma": "entitle",
+      "pos": "v.",
+      "sense_zh": "使有权获得",
+      "sentence_ids": [
+        "p10-c-30-s05"
+      ],
+      "forms": [
+        "entitle"
+      ],
+      "sense_id": "sense-staged-ox-0567381b7297e74f-p10-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,121 @@
+{
+  "id": "p10-c-33",
+  "title_zh": "确定学生奖项推荐的具体事例",
+  "topic_id": "work",
+  "scenario": {
+    "id": "student-award-reference-evidence",
+    "label_zh": "用具体证据确定学生奖项推荐重点",
+    "goal_zh": "区分团队成果与个人贡献，并决定以记录方法和帮助同学的事例支持推荐"
+  },
+  "participants": [
+    "Ms Brooks",
+    "Mr Chen"
+  ],
+  "context_zh": "美国学校的两名教师讨论一封尚未撰写的学生奖项推荐信。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-33-s01",
+      "speaker": "Ms Brooks",
+      "text": "The science fair results are encouraging. Should we nominate Lila for the student award?"
+    },
+    {
+      "id": "p10-c-33-s02",
+      "speaker": "Mr Chen",
+      "text": "I think so, but the project was a collective endeavor. We should not give her credit for everyone's work."
+    },
+    {
+      "id": "p10-c-33-s03",
+      "speaker": "Ms Brooks",
+      "text": "What evidence of individual excellence can we point to?"
+    },
+    {
+      "id": "p10-c-33-s04",
+      "speaker": "Mr Chen",
+      "text": "Her lab notes were exceptional. Other teams could repeat the experiment from her records without asking for missing steps."
+    },
+    {
+      "id": "p10-c-33-s05",
+      "speaker": "Ms Brooks",
+      "text": "She also helped two younger students set up their own records. I saw that during the practice session."
+    },
+    {
+      "id": "p10-c-33-s06",
+      "speaker": "Mr Chen",
+      "text": "Then those are the examples we should use, rather than just saying she won a prize."
+    },
+    {
+      "id": "p10-c-33-s07",
+      "speaker": "Ms Brooks",
+      "text": "Agreed. I will draft the nomination around her clear records and the help I observed, and name the project as team work."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f8d6c6100220f7eb",
+      "lemma": "encouraging",
+      "pos": "adj.",
+      "sense_zh": "令人鼓舞的",
+      "sentence_ids": [
+        "p10-c-33-s01"
+      ],
+      "forms": [
+        "encouraging"
+      ],
+      "sense_id": "sense-staged-ox-f8d6c6100220f7eb-p10-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d8e4e3d862f403d2",
+      "lemma": "endeavor",
+      "pos": "n.",
+      "sense_zh": "努力；共同事业（美式拼写）",
+      "sentence_ids": [
+        "p10-c-33-s02"
+      ],
+      "forms": [
+        "endeavor"
+      ],
+      "sense_id": "sense-staged-ox-d8e4e3d862f403d2-p10-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2fd3f20e338d08ff",
+      "lemma": "excellence",
+      "pos": "n.",
+      "sense_zh": "优秀；卓越",
+      "sentence_ids": [
+        "p10-c-33-s03"
+      ],
+      "forms": [
+        "excellence"
+      ],
+      "sense_id": "sense-staged-ox-2fd3f20e338d08ff-p10-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f2dc3959a608ba67",
+      "lemma": "exceptional",
+      "pos": "adj.",
+      "sense_zh": "非同寻常地出色的",
+      "sentence_ids": [
+        "p10-c-33-s04"
+      ],
+      "forms": [
+        "exceptional"
+      ],
+      "sense_id": "sense-staged-ox-f2dc3959a608ba67-p10-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

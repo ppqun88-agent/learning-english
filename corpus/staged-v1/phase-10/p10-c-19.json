@@ -1,0 +1,142 @@
+{
+  "id": "p10-c-19",
+  "title_zh": "确定漏水传感器试点的比较指标",
+  "topic_id": "work",
+  "scenario": {
+    "id": "leak-sensor-pilot-measures",
+    "label_zh": "制定漏水传感器试点的比较指标",
+    "goal_zh": "区分检测效果与检查效率，并约定记录漏检、误报及人工时间"
+  },
+  "participants": [
+    "Jae",
+    "Morgan"
+  ],
+  "context_zh": "设施团队准备在训练用水槽中比较两款漏水传感器，不涉及真实紧急情况。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-19-s01",
+      "speaker": "Jae",
+      "text": "The sales sheet promises faster leak detection. How do we test that fairly?"
+    },
+    {
+      "id": "p10-c-19-s02",
+      "speaker": "Morgan",
+      "text": "We need empirical evidence from our own trial, not just a demonstration chosen by the seller."
+    },
+    {
+      "id": "p10-c-19-s03",
+      "speaker": "Jae",
+      "text": "Can we devise a test using the training tanks and the same small leaks for both sensors?"
+    },
+    {
+      "id": "p10-c-19-s04",
+      "speaker": "Morgan",
+      "text": "Yes. To measure effectiveness, record missed leaks and false alarms as well as successful alerts."
+    },
+    {
+      "id": "p10-c-19-s05",
+      "speaker": "Jae",
+      "text": "And efficiency would include how much staff time the checks take?"
+    },
+    {
+      "id": "p10-c-19-s06",
+      "speaker": "Morgan",
+      "text": "Exactly. A sensor can detect leaks well and still take too much work to maintain."
+    },
+    {
+      "id": "p10-c-19-s07",
+      "speaker": "Jae",
+      "text": "Then I will prepare a sheet with those three results and staff time, and we will test both sensors under the same conditions."
+    },
+    {
+      "id": "p10-c-19-s08",
+      "speaker": "Morgan",
+      "text": "Agreed. Let me check the sheet before the trial starts."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f69ece99ed4e0303",
+      "lemma": "detection",
+      "pos": "n.",
+      "sense_zh": "发现；探测",
+      "sentence_ids": [
+        "p10-c-19-s01"
+      ],
+      "forms": [
+        "detection"
+      ],
+      "sense_id": "sense-staged-ox-f69ece99ed4e0303-p10-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bdc593318d964c77",
+      "lemma": "empirical",
+      "pos": "adj.",
+      "sense_zh": "以观察或实验为依据的",
+      "sentence_ids": [
+        "p10-c-19-s02"
+      ],
+      "forms": [
+        "empirical"
+      ],
+      "sense_id": "sense-staged-ox-bdc593318d964c77-p10-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9acf97b291a4f9c8",
+      "lemma": "devise",
+      "pos": "v.",
+      "sense_zh": "设计；想出",
+      "sentence_ids": [
+        "p10-c-19-s03"
+      ],
+      "forms": [
+        "devise"
+      ],
+      "sense_id": "sense-staged-ox-9acf97b291a4f9c8-p10-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8bdb5803efa9c871",
+      "lemma": "effectiveness",
+      "pos": "n.",
+      "sense_zh": "有效性",
+      "sentence_ids": [
+        "p10-c-19-s04"
+      ],
+      "forms": [
+        "effectiveness"
+      ],
+      "sense_id": "sense-staged-ox-8bdb5803efa9c871-p10-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-83794eac52f6300b",
+      "lemma": "efficiency",
+      "pos": "n.",
+      "sense_zh": "效率",
+      "sentence_ids": [
+        "p10-c-19-s05"
+      ],
+      "forms": [
+        "efficiency"
+      ],
+      "sense_id": "sense-staged-ox-83794eac52f6300b-p10-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

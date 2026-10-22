@@ -1,0 +1,100 @@
+{
+  "id": "p10-c-25",
+  "title_zh": "约定限定进化海报中的趋势结论",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "evolution-poster-scope-revision",
+    "label_zh": "限定进化海报中的趋势解释",
+    "goal_zh": "区分图表呈现的变化与原因解释，并约定删除未经支持的普遍优势说法"
+  },
+  "participants": [
+    "Sofia",
+    "Benji"
+  ],
+  "context_zh": "学生依据课堂提供的虚构鸟类群体图表制作进化主题海报。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-25-s01",
+      "speaker": "Sofia",
+      "text": "Our poster calls this an evolutionary success story. Is that too strong?"
+    },
+    {
+      "id": "p10-c-25-s02",
+      "speaker": "Benji",
+      "text": "The chart shows the emergence of a new beak shape over many generations. It does not tell us why the change happened."
+    },
+    {
+      "id": "p10-c-25-s03",
+      "speaker": "Sofia",
+      "text": "But the later panel shows the dominance of that shape in the sampled population."
+    },
+    {
+      "id": "p10-c-25-s04",
+      "speaker": "Benji",
+      "text": "Yes, it became the most common shape there. That does not mean it would be best in every environment."
+    },
+    {
+      "id": "p10-c-25-s05",
+      "speaker": "Sofia",
+      "text": "I will keep the change in frequency and remove the claim that it is universally superior."
+    },
+    {
+      "id": "p10-c-25-s06",
+      "speaker": "Benji",
+      "text": "Good. Add that the chart alone does not establish the cause of the change."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3c8eba387b2b734f",
+      "lemma": "evolutionary",
+      "pos": "adj.",
+      "sense_zh": "进化的",
+      "sentence_ids": [
+        "p10-c-25-s01"
+      ],
+      "forms": [
+        "evolutionary"
+      ],
+      "sense_id": "sense-staged-ox-3c8eba387b2b734f-p10-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-031017e9e11bc1e3",
+      "lemma": "emergence",
+      "pos": "n.",
+      "sense_zh": "出现",
+      "sentence_ids": [
+        "p10-c-25-s02"
+      ],
+      "forms": [
+        "emergence"
+      ],
+      "sense_id": "sense-staged-ox-031017e9e11bc1e3-p10-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db1dbe2b03668ded",
+      "lemma": "dominance",
+      "pos": "n.",
+      "sense_zh": "占优势；占主导地位",
+      "sentence_ids": [
+        "p10-c-25-s03"
+      ],
+      "forms": [
+        "dominance"
+      ],
+      "sense_id": "sense-staged-ox-db1dbe2b03668ded-p10-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

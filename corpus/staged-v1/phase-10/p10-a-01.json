@@ -1,0 +1,148 @@
+{
+  "id": "p10-a-01",
+  "title_zh": "商定摄影背景架的组装顺序",
+  "topic_id": "work",
+  "scenario": {
+    "id": "photo-booth-frame-assembly-plan",
+    "label_zh": "确定摄影背景架的组装方案",
+    "goal_zh": "确认摄影背景架的材料和部件，约定先组架再挂背景布"
+  },
+  "participants": [
+    "Mina",
+    "Felix"
+  ],
+  "context_zh": "摄影活动开始前，两位工作人员查看待组装的背景架及布料。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-01-s01",
+      "speaker": "Mina",
+      "text": "Can you help me assemble the frame for the photo booth?"
+    },
+    {
+      "id": "p10-a-01-s02",
+      "speaker": "Felix",
+      "text": "Sure. These poles are made of aluminum. Are they all the parts we need?"
+    },
+    {
+      "id": "p10-a-01-s03",
+      "speaker": "Mina",
+      "text": "Yes, along with the feet in that box. The assembly instructions show where each pole goes."
+    },
+    {
+      "id": "p10-a-01-s04",
+      "speaker": "Felix",
+      "text": "And this canvas is the backdrop, right?"
+    },
+    {
+      "id": "p10-a-01-s05",
+      "speaker": "Mina",
+      "text": "Right. Let's put the frame together while it's still bare, then hang the fabric."
+    },
+    {
+      "id": "p10-a-01-s06",
+      "speaker": "Felix",
+      "text": "Agreed. I'll unpack the feet, and we'll check the diagram before joining anything."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2fea91ab67518513",
+      "lemma": "assemble",
+      "pos": "v.",
+      "sense_zh": "组装",
+      "sentence_ids": [
+        "p10-a-01-s01"
+      ],
+      "forms": [
+        "assemble"
+      ],
+      "sense_id": "sense-staged-ox-2fea91ab67518513-p10-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cfbe65f41762f057",
+      "lemma": "aluminum",
+      "pos": "n.",
+      "sense_zh": "铝",
+      "sentence_ids": [
+        "p10-a-01-s02"
+      ],
+      "forms": [
+        "aluminum"
+      ],
+      "sense_id": "sense-staged-ox-cfbe65f41762f057-p10-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5b7d8cf820c2af0d",
+      "lemma": "assembly",
+      "pos": "n.",
+      "sense_zh": "组装",
+      "sentence_ids": [
+        "p10-a-01-s03"
+      ],
+      "forms": [
+        "assembly"
+      ],
+      "sense_id": "sense-staged-ox-5b7d8cf820c2af0d-p10-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bca5d6dcc0e3860e",
+      "lemma": "canvas",
+      "pos": "n.",
+      "sense_zh": "帆布",
+      "sentence_ids": [
+        "p10-a-01-s04"
+      ],
+      "forms": [
+        "canvas"
+      ],
+      "sense_id": "sense-staged-ox-bca5d6dcc0e3860e-p10-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c3e6fa1308e9a336",
+      "lemma": "backdrop",
+      "pos": "n.",
+      "sense_zh": "摄影背景幕布",
+      "sentence_ids": [
+        "p10-a-01-s04"
+      ],
+      "forms": [
+        "backdrop"
+      ],
+      "sense_id": "sense-staged-ox-c3e6fa1308e9a336-p10-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c7f645e6ddfca5a",
+      "lemma": "bare",
+      "pos": "adj.",
+      "sense_zh": "未覆盖的",
+      "sentence_ids": [
+        "p10-a-01-s05"
+      ],
+      "forms": [
+        "bare"
+      ],
+      "sense_id": "sense-staged-ox-0c7f645e6ddfca5a-p10-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

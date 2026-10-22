@@ -1,0 +1,89 @@
+{
+  "id": "p10-a-36",
+  "title_zh": "请诊所转交慢性疼痛咨询的回电请求",
+  "topic_id": "health",
+  "scenario": {
+    "id": "chronic-pain-clinical-call-request",
+    "label_zh": "转交慢性疼痛临床咨询回电请求",
+    "goal_zh": "说明慢性疼痛咨询需求，并确认接待员已将下午回电请求转交临床团队"
+  },
+  "participants": [
+    "Hazel",
+    "Receptionist Amir"
+  ],
+  "context_zh": "虚构诊所电话沟通中，患者询问专业咨询渠道；不作诊断或治疗建议。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-36-s01",
+      "speaker": "Hazel",
+      "text": "I'd like to speak to someone about chronic pain. My doctor suggested I contact your service."
+    },
+    {
+      "id": "p10-a-36-s02",
+      "speaker": "Receptionist Amir",
+      "text": "I can send a callback request to the clinical team. I can't advise on treatment myself."
+    },
+    {
+      "id": "p10-a-36-s03",
+      "speaker": "Hazel",
+      "text": "That's fine. I mainly want to ask how an initial consultation works."
+    },
+    {
+      "id": "p10-a-36-s04",
+      "speaker": "Receptionist Amir",
+      "text": "When can you take a call?"
+    },
+    {
+      "id": "p10-a-36-s05",
+      "speaker": "Hazel",
+      "text": "Any time after two this afternoon. You can use the number on my record."
+    },
+    {
+      "id": "p10-a-36-s06",
+      "speaker": "Receptionist Amir",
+      "text": "I've sent that request with your preferred time. The team will confirm when they can call; I haven't booked a consultation."
+    },
+    {
+      "id": "p10-a-36-s07",
+      "speaker": "Hazel",
+      "text": "Thank you. I'll wait for their call before making an appointment."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ef174ec815524fc2",
+      "lemma": "chronic",
+      "pos": "adj.",
+      "sense_zh": "慢性的",
+      "sentence_ids": [
+        "p10-a-36-s01"
+      ],
+      "forms": [
+        "chronic"
+      ],
+      "sense_id": "sense-staged-ox-ef174ec815524fc2-p10-a-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a256199bd113ab7",
+      "lemma": "clinical",
+      "pos": "adj.",
+      "sense_zh": "临床的",
+      "sentence_ids": [
+        "p10-a-36-s02"
+      ],
+      "forms": [
+        "clinical"
+      ],
+      "sense_id": "sense-staged-ox-2a256199bd113ab7-p10-a-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

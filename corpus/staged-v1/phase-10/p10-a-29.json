@@ -1,0 +1,137 @@
+{
+  "id": "p10-a-29",
+  "title_zh": "暂不把缓存改进称为整机突破",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "prototype-buffer-test-claim-scope",
+    "label_zh": "限定原型缓存测试的结论",
+    "goal_zh": "区分原型缓存暂存更多读数的表现与整机长期可靠性，并约定补做对照及长时间测试"
+  },
+  "participants": [
+    "Iris",
+    "Omar"
+  ],
+  "context_zh": "设备研发同事核对原型的一次短时测试报告。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-29-s01",
+      "speaker": "Iris",
+      "text": "The larger buffer held more readings before transmission. Can we call that a breakthrough?"
+    },
+    {
+      "id": "p10-a-29-s02",
+      "speaker": "Omar",
+      "text": "Not yet. It shows a useful capability, but it was only a ten-minute run."
+    },
+    {
+      "id": "p10-a-29-s03",
+      "speaker": "Iris",
+      "text": "There was no breakdown during the run, though."
+    },
+    {
+      "id": "p10-a-29-s04",
+      "speaker": "Omar",
+      "text": "True, but that doesn't establish long-term reliability. We also changed the connection settings."
+    },
+    {
+      "id": "p10-a-29-s05",
+      "speaker": "Iris",
+      "text": "So we can't attribute the whole improvement to the buffer alone."
+    },
+    {
+      "id": "p10-a-29-s06",
+      "speaker": "Omar",
+      "text": "Exactly. Let's compare the two buffer sizes with the same settings, then run the better version for longer."
+    },
+    {
+      "id": "p10-a-29-s07",
+      "speaker": "Iris",
+      "text": "Agreed. I'll describe this as an initial result and add those tests to the plan."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4a3cf075deb2bdd9",
+      "lemma": "buffer",
+      "pos": "n.",
+      "sense_zh": "缓冲存储区",
+      "sentence_ids": [
+        "p10-a-29-s01"
+      ],
+      "forms": [
+        "buffer"
+      ],
+      "sense_id": "sense-staged-ox-4a3cf075deb2bdd9-p10-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f886227b6487669f",
+      "lemma": "breakthrough",
+      "pos": "n.",
+      "sense_zh": "突破性进展",
+      "sentence_ids": [
+        "p10-a-29-s01"
+      ],
+      "forms": [
+        "breakthrough"
+      ],
+      "sense_id": "sense-staged-ox-f886227b6487669f-p10-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d92f5b65ea6c8c40",
+      "lemma": "capability",
+      "pos": "n.",
+      "sense_zh": "能力；功能",
+      "sentence_ids": [
+        "p10-a-29-s02"
+      ],
+      "forms": [
+        "capability"
+      ],
+      "sense_id": "sense-staged-ox-d92f5b65ea6c8c40-p10-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcd4270e773a530f",
+      "lemma": "breakdown",
+      "pos": "n.",
+      "sense_zh": "故障",
+      "sentence_ids": [
+        "p10-a-29-s03"
+      ],
+      "forms": [
+        "breakdown"
+      ],
+      "sense_id": "sense-staged-ox-bcd4270e773a530f-p10-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-06f5764a7708c07b",
+      "lemma": "attribute",
+      "pos": "v.",
+      "sense_zh": "把……归因于",
+      "sentence_ids": [
+        "p10-a-29-s05"
+      ],
+      "forms": [
+        "attribute"
+      ],
+      "sense_id": "sense-staged-ox-06f5764a7708c07b-p10-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

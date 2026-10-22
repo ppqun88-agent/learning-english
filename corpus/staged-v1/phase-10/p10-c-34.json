@@ -1,0 +1,105 @@
+{
+  "id": "p10-c-34",
+  "title_zh": "把志愿档案项目首轮缩小为一箱照片",
+  "topic_id": "community",
+  "scenario": {
+    "id": "volunteer-archive-pilot-scope",
+    "label_zh": "缩小志愿档案项目的首轮范围",
+    "goal_zh": "说明现有志愿能力不足以整理全部档案，并约定先为一箱照片做简要目录"
+  },
+  "participants": [
+    "Harriet",
+    "Duncan"
+  ],
+  "context_zh": "英国地方历史志愿小组讨论居民捐来的多箱材料。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-34-s01",
+      "speaker": "Harriet",
+      "text": "Cataloguing the whole collection would be a huge endeavour for three volunteers."
+    },
+    {
+      "id": "p10-c-34-s02",
+      "speaker": "Duncan",
+      "text": "I know. These boxes seem endless, and we have not even opened the cupboard."
+    },
+    {
+      "id": "p10-c-34-s03",
+      "speaker": "Harriet",
+      "text": "As a local-history enthusiast, I want to read everything, but that will not get us a usable catalogue."
+    },
+    {
+      "id": "p10-c-34-s04",
+      "speaker": "Duncan",
+      "text": "Could we start with the single box of street photographs and record only the basic details?"
+    },
+    {
+      "id": "p10-c-34-s05",
+      "speaker": "Harriet",
+      "text": "Yes: a reference number, any date written on the back, and a short description. Unknown dates can stay unknown."
+    },
+    {
+      "id": "p10-c-34-s06",
+      "speaker": "Duncan",
+      "text": "Agreed. We will finish that box before deciding whether to expand the project."
+    },
+    {
+      "id": "p10-c-34-s07",
+      "speaker": "Harriet",
+      "text": "I will bring the blank record sheets on Saturday. Let us leave the other boxes closed for now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b6d763c6ac3ba2a3",
+      "lemma": "endeavour",
+      "pos": "n.",
+      "sense_zh": "努力；事业（英式拼写）",
+      "sentence_ids": [
+        "p10-c-34-s01"
+      ],
+      "forms": [
+        "endeavour"
+      ],
+      "sense_id": "sense-staged-ox-b6d763c6ac3ba2a3-p10-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bf643454eafbf1ee",
+      "lemma": "endless",
+      "pos": "adj.",
+      "sense_zh": "无穷无尽的；似乎没完没了的",
+      "sentence_ids": [
+        "p10-c-34-s02"
+      ],
+      "forms": [
+        "endless"
+      ],
+      "sense_id": "sense-staged-ox-bf643454eafbf1ee-p10-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1dd168bae01940c4",
+      "lemma": "enthusiast",
+      "pos": "n.",
+      "sense_zh": "爱好者；热衷者",
+      "sentence_ids": [
+        "p10-c-34-s03"
+      ],
+      "forms": [
+        "enthusiast"
+      ],
+      "sense_id": "sense-staged-ox-1dd168bae01940c4-p10-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-12",
+  "title_zh": "约好报销审批前补齐逐项收据",
+  "topic_id": "work",
+  "scenario": {
+    "id": "expense-approval-audit-check",
+    "label_zh": "核对报销规则与审批责任",
+    "goal_zh": "确认本次报销适用的费用上限及审批责任，并约定补齐明细后再审批"
+  },
+  "participants": [
+    "Leah",
+    "Tomas"
+  ],
+  "context_zh": "公司员工向财务同事询问一笔出租车报销。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-12-s01",
+      "speaker": "Leah",
+      "text": "Is the forty-pound limit applicable to this taxi trip, or only to journeys inside the city?"
+    },
+    {
+      "id": "p10-a-12-s02",
+      "speaker": "Tomas",
+      "text": "It applies to this trip too. But the card statement doesn't show the individual charges."
+    },
+    {
+      "id": "p10-a-12-s03",
+      "speaker": "Leah",
+      "text": "I've got the total here. Can't you authorize the payment on that basis?"
+    },
+    {
+      "id": "p10-a-12-s04",
+      "speaker": "Tomas",
+      "text": "I handle approval, but I need an itemized receipt. The audit team must be able to trace each expense."
+    },
+    {
+      "id": "p10-a-12-s05",
+      "speaker": "Leah",
+      "text": "All right. I'll request one from the taxi company and attach it to the claim."
+    },
+    {
+      "id": "p10-a-12-s06",
+      "speaker": "Tomas",
+      "text": "Once it's there, I'll review it against the limit. I haven't approved the claim yet."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-234d5d5d9165025e",
+      "lemma": "applicable",
+      "pos": "adj.",
+      "sense_zh": "适用的",
+      "sentence_ids": [
+        "p10-a-12-s01"
+      ],
+      "forms": [
+        "applicable"
+      ],
+      "sense_id": "sense-staged-ox-234d5d5d9165025e-p10-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7e11c0ced070b480",
+      "lemma": "authorize",
+      "pos": "v.",
+      "sense_zh": "批准",
+      "sentence_ids": [
+        "p10-a-12-s03"
+      ],
+      "forms": [
+        "authorize"
+      ],
+      "sense_id": "sense-staged-ox-7e11c0ced070b480-p10-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d8415319d85050a8",
+      "lemma": "audit",
+      "pos": "n.",
+      "sense_zh": "审计",
+      "sentence_ids": [
+        "p10-a-12-s04"
+      ],
+      "forms": [
+        "audit"
+      ],
+      "sense_id": "sense-staged-ox-d8415319d85050a8-p10-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

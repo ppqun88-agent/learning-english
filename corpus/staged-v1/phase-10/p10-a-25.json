@@ -1,0 +1,132 @@
+{
+  "id": "p10-a-25",
+  "title_zh": "约定墓地安葬前的简短祝祷",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "funeral-blessing-arrangement",
+    "label_zh": "约定墓地安葬仪式的简短祝祷",
+    "goal_zh": "确认主教能够出席，并约定在墓地安葬前作简短祝祷"
+  },
+  "participants": [
+    "Helena",
+    "Martin"
+  ],
+  "context_zh": "虚构丧葬安排中，家属向教会协调人确认已讨论的仪式细节。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-25-s01",
+      "speaker": "Helena",
+      "text": "Has the bishop confirmed that she can come to the cemetery on Thursday?"
+    },
+    {
+      "id": "p10-a-25-s02",
+      "speaker": "Martin",
+      "text": "Yes. She has agreed to lead a short prayer before the burial."
+    },
+    {
+      "id": "p10-a-25-s03",
+      "speaker": "Helena",
+      "text": "My father wanted a simple service. Could she bless the grave without adding a long address?"
+    },
+    {
+      "id": "p10-a-25-s04",
+      "speaker": "Martin",
+      "text": "I've spoken to her about that. A brief blessing and a moment of silence are fine."
+    },
+    {
+      "id": "p10-a-25-s05",
+      "speaker": "Helena",
+      "text": "That's what we'd like. Please keep the prayer just before the burial, as planned."
+    },
+    {
+      "id": "p10-a-25-s06",
+      "speaker": "Martin",
+      "text": "I will. I'll put that order in the service notes and send them for you to check."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9634af4eabc44cde",
+      "lemma": "bishop",
+      "pos": "n.",
+      "sense_zh": "主教",
+      "sentence_ids": [
+        "p10-a-25-s01"
+      ],
+      "forms": [
+        "bishop"
+      ],
+      "sense_id": "sense-staged-ox-9634af4eabc44cde-p10-a-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80f1a8a32919facf",
+      "lemma": "cemetery",
+      "pos": "n.",
+      "sense_zh": "墓地；公墓",
+      "sentence_ids": [
+        "p10-a-25-s01"
+      ],
+      "forms": [
+        "cemetery"
+      ],
+      "sense_id": "sense-staged-ox-80f1a8a32919facf-p10-a-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a37f25303f1fd73",
+      "lemma": "burial",
+      "pos": "n.",
+      "sense_zh": "埋葬；安葬",
+      "sentence_ids": [
+        "p10-a-25-s02"
+      ],
+      "forms": [
+        "burial"
+      ],
+      "sense_id": "sense-staged-ox-8a37f25303f1fd73-p10-a-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7e60bf23a5198d8f",
+      "lemma": "bless",
+      "pos": "v.",
+      "sense_zh": "为……祝祷",
+      "sentence_ids": [
+        "p10-a-25-s03"
+      ],
+      "forms": [
+        "bless"
+      ],
+      "sense_id": "sense-staged-ox-7e60bf23a5198d8f-p10-a-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d544d8a2bb5d40a0",
+      "lemma": "blessing",
+      "pos": "n.",
+      "sense_zh": "祝祷",
+      "sentence_ids": [
+        "p10-a-25-s04"
+      ],
+      "forms": [
+        "blessing"
+      ],
+      "sense_id": "sense-staged-ox-d544d8a2bb5d40a0-p10-a-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

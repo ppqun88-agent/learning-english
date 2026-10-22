@@ -1,0 +1,105 @@
+{
+  "id": "p10-b-19",
+  "title_zh": "列出医疗操作咨询时要问的问题",
+  "topic_id": "health",
+  "scenario": {
+    "id": "procedure-consultation-question-list",
+    "label_zh": "列出医疗操作咨询时要问的问题",
+    "goal_zh": "说明对意识状态和潜在并发症的疑问，并约定带书面问题向临床人员核实"
+  },
+  "participants": [
+    "Paula",
+    "Omar"
+  ],
+  "context_zh": "虚构就医准备：成年人请朋友帮忙整理将向医生提出的问题，不提供诊疗判断。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-19-s01",
+      "speaker": "Omar",
+      "text": "My consultation about the procedure is tomorrow, and I keep forgetting what I want to ask."
+    },
+    {
+      "id": "p10-b-19-s02",
+      "speaker": "Paula",
+      "text": "What is your main concern?"
+    },
+    {
+      "id": "p10-b-19-s03",
+      "speaker": "Omar",
+      "text": "Whether I'll lose consciousness at any point. The leaflet names several options, but I don't know which one they mean for me."
+    },
+    {
+      "id": "p10-b-19-s04",
+      "speaker": "Paula",
+      "text": "Write that down first. What else?"
+    },
+    {
+      "id": "p10-b-19-s05",
+      "speaker": "Omar",
+      "text": "It mentions a possible complication without explaining how likely it is in my situation."
+    },
+    {
+      "id": "p10-b-19-s06",
+      "speaker": "Paula",
+      "text": "Then ask the clinician to explain that risk and the alternatives. I cannot tell from the leaflet either."
+    },
+    {
+      "id": "p10-b-19-s07",
+      "speaker": "Omar",
+      "text": "I've written both questions here. I'll take this list and ask before making a decision."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3db93d41699f4386",
+      "lemma": "consultation",
+      "pos": "n.",
+      "sense_zh": "专业咨询；诊疗咨询",
+      "sentence_ids": [
+        "p10-b-19-s01"
+      ],
+      "forms": [
+        "consultation"
+      ],
+      "sense_id": "sense-staged-ox-3db93d41699f4386-p10-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a984e5d182f9612",
+      "lemma": "consciousness",
+      "pos": "n.",
+      "sense_zh": "清醒意识状态",
+      "sentence_ids": [
+        "p10-b-19-s03"
+      ],
+      "forms": [
+        "consciousness"
+      ],
+      "sense_id": "sense-staged-ox-8a984e5d182f9612-p10-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0069444adf6bda40",
+      "lemma": "complication",
+      "pos": "n.",
+      "sense_zh": "并发症",
+      "sentence_ids": [
+        "p10-b-19-s05"
+      ],
+      "forms": [
+        "complication"
+      ],
+      "sense_id": "sense-staged-ox-0069444adf6bda40-p10-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,121 @@
+{
+  "id": "p10-b-08",
+  "title_zh": "约定向插画作者询问转载许可",
+  "topic_id": "work",
+  "scenario": {
+    "id": "magazine-artwork-permission-plan",
+    "label_zh": "约定向插画作者询问转载许可",
+    "goal_zh": "确认署名不能替代版权许可，并分工索取杂志转载所需的明确授权"
+  },
+  "participants": [
+    "Editor",
+    "Rowan"
+  ],
+  "context_zh": "社区杂志编辑和专栏作者准备一篇文章，还未获得插画转载许可。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-08-s01",
+      "speaker": "Rowan",
+      "text": "As the gardening columnist, I'd love to use that drawing beside my next article."
+    },
+    {
+      "id": "p10-b-08-s02",
+      "speaker": "Editor",
+      "text": "Do you know who the creator is?"
+    },
+    {
+      "id": "p10-b-08-s03",
+      "speaker": "Rowan",
+      "text": "Yes, Lin, a regular contributor to the local arts newsletter. I'd put her name under it."
+    },
+    {
+      "id": "p10-b-08-s04",
+      "speaker": "Editor",
+      "text": "Credit is important, but it does not itself give us permission. Who owns the copyright?"
+    },
+    {
+      "id": "p10-b-08-s05",
+      "speaker": "Rowan",
+      "text": "I don't know. I'll ask Lin whether she holds it and whether she can license this use."
+    },
+    {
+      "id": "p10-b-08-s06",
+      "speaker": "Editor",
+      "text": "Please specify our printed magazine and online edition. I'll send you the image size and the planned publication date to include in the request."
+    },
+    {
+      "id": "p10-b-08-s07",
+      "speaker": "Rowan",
+      "text": "Good. We won't place the drawing in either edition until that is clear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ac892ccf2190f829",
+      "lemma": "columnist",
+      "pos": "n.",
+      "sense_zh": "专栏作者",
+      "sentence_ids": [
+        "p10-b-08-s01"
+      ],
+      "forms": [
+        "columnist"
+      ],
+      "sense_id": "sense-staged-ox-ac892ccf2190f829-p10-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8551e9e6758be28b",
+      "lemma": "creator",
+      "pos": "n.",
+      "sense_zh": "创作者",
+      "sentence_ids": [
+        "p10-b-08-s02"
+      ],
+      "forms": [
+        "creator"
+      ],
+      "sense_id": "sense-staged-ox-8551e9e6758be28b-p10-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-245d948467dde1b1",
+      "lemma": "contributor",
+      "pos": "n.",
+      "sense_zh": "供稿者",
+      "sentence_ids": [
+        "p10-b-08-s03"
+      ],
+      "forms": [
+        "contributor"
+      ],
+      "sense_id": "sense-staged-ox-245d948467dde1b1-p10-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b99719b5479dc4f9",
+      "lemma": "copyright",
+      "pos": "n.",
+      "sense_zh": "版权",
+      "sentence_ids": [
+        "p10-b-08-s04"
+      ],
+      "forms": [
+        "copyright"
+      ],
+      "sense_id": "sense-staged-ox-b99719b5479dc4f9-p10-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

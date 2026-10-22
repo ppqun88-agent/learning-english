@@ -1,0 +1,105 @@
+{
+  "id": "p10-c-05",
+  "title_zh": "约好先检查旧刺绣布料再决定清洁",
+  "topic_id": "services",
+  "scenario": {
+    "id": "embroidered-cloth-conservation-enquiry",
+    "label_zh": "询问旧刺绣布料的保护与检查安排",
+    "goal_zh": "说明旧刺绣布料的脆弱情况，并约定保持原状等待专业检查"
+  },
+  "participants": [
+    "Rosa",
+    "Eli"
+  ],
+  "context_zh": "顾客带着家传刺绣布料到纺织品保护工作室咨询。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-05-s01",
+      "speaker": "Rosa",
+      "text": "This embroidered cloth belonged to my grandmother. Can you remove the stain?"
+    },
+    {
+      "id": "p10-c-05-s02",
+      "speaker": "Eli",
+      "text": "Possibly, but the fabric is very delicate. May I look at it without unfolding it further?"
+    },
+    {
+      "id": "p10-c-05-s03",
+      "speaker": "Rosa",
+      "text": "Yes. I was tempted to try a strong stain remover."
+    },
+    {
+      "id": "p10-c-05-s04",
+      "speaker": "Eli",
+      "text": "Please do not. An unsuitable chemical can be destructive, especially when we do not know the dye."
+    },
+    {
+      "id": "p10-c-05-s05",
+      "speaker": "Rosa",
+      "text": "I am worried it will deteriorate while I decide what to do."
+    },
+    {
+      "id": "p10-c-05-s06",
+      "speaker": "Eli",
+      "text": "Let us first arrange a condition assessment. I have an opening on Thursday; until then, leave it as it is in this box."
+    },
+    {
+      "id": "p10-c-05-s07",
+      "speaker": "Rosa",
+      "text": "Thursday is fine. I will keep it in the box and wait for your assessment before choosing any cleaning treatment."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a4a8ab5c431d0ea4",
+      "lemma": "delicate",
+      "pos": "adj.",
+      "sense_zh": "脆弱的；易损的",
+      "sentence_ids": [
+        "p10-c-05-s02"
+      ],
+      "forms": [
+        "delicate"
+      ],
+      "sense_id": "sense-staged-ox-a4a8ab5c431d0ea4-p10-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f80c261e48653bc",
+      "lemma": "destructive",
+      "pos": "adj.",
+      "sense_zh": "具有破坏性的",
+      "sentence_ids": [
+        "p10-c-05-s04"
+      ],
+      "forms": [
+        "destructive"
+      ],
+      "sense_id": "sense-staged-ox-5f80c261e48653bc-p10-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fb7d33d4244f3d6c",
+      "lemma": "deteriorate",
+      "pos": "v.",
+      "sense_zh": "恶化；变坏",
+      "sentence_ids": [
+        "p10-c-05-s05"
+      ],
+      "forms": [
+        "deteriorate"
+      ],
+      "sense_id": "sense-staged-ox-fb7d33d4244f3d6c-p10-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

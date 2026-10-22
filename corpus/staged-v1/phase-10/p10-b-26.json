@@ -1,0 +1,84 @@
+{
+  "id": "p10-b-26",
+  "title_zh": "确认街道排水口堵塞的报修联系渠道",
+  "topic_id": "society",
+  "scenario": {
+    "id": "resident-representative-referral",
+    "label_zh": "确认街道排水口堵塞的报修联系渠道",
+    "goal_zh": "区分国会议员选区办公室与地方议会职责，并决定先使用报修表、必要时再联系本区地方议员"
+  },
+  "participants": [
+    "Office assistant",
+    "Wendy"
+  ],
+  "context_zh": "虚构英国社区咨询，居民误向国会议员选区办公室询问道路排水维修。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-26-s01",
+      "speaker": "Wendy",
+      "text": "I live in this constituency. Can your MP arrange repairs to the blocked street drain outside my house?"
+    },
+    {
+      "id": "p10-b-26-s02",
+      "speaker": "Office assistant",
+      "text": "Our office can point you to the local council service, but we do not schedule its repairs."
+    },
+    {
+      "id": "p10-b-26-s03",
+      "speaker": "Wendy",
+      "text": "Would a councillor be a more appropriate person to ask about the repeated delays?"
+    },
+    {
+      "id": "p10-b-26-s04",
+      "speaker": "Office assistant",
+      "text": "Yes. Your ward councillor has a public surgery on Friday. The council website lists the contact details and the maintenance reporting form."
+    },
+    {
+      "id": "p10-b-26-s05",
+      "speaker": "Wendy",
+      "text": "I'll use the reporting form first and take the reference number to the surgery if the delay continues."
+    },
+    {
+      "id": "p10-b-26-s06",
+      "speaker": "Office assistant",
+      "text": "That gives you a clear record. Please check the surgery notice for any appointment requirement before going."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6f165f6ef26ee52f",
+      "lemma": "constituency",
+      "pos": "n.",
+      "sense_zh": "国会议员的选区",
+      "sentence_ids": [
+        "p10-b-26-s01"
+      ],
+      "forms": [
+        "constituency"
+      ],
+      "sense_id": "sense-staged-ox-6f165f6ef26ee52f-p10-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bebf87bb0621bd1b",
+      "lemma": "councillor",
+      "pos": "n.",
+      "sense_zh": "地方议会议员",
+      "sentence_ids": [
+        "p10-b-26-s03"
+      ],
+      "forms": [
+        "councillor"
+      ],
+      "sense_id": "sense-staged-ox-bebf87bb0621bd1b-p10-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

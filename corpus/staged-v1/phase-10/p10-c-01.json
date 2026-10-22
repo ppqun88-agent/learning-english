@@ -1,0 +1,100 @@
+{
+  "id": "p10-c-01",
+  "title_zh": "约好由医生解释完整检验报告",
+  "topic_id": "health",
+  "scenario": {
+    "id": "test-result-followup-questions",
+    "label_zh": "了解检验结果与后续诊断安排",
+    "goal_zh": "澄清检验备注并非确诊，并约定当天与医生讨论完整报告"
+  },
+  "participants": [
+    "Mara",
+    "Nurse Bell"
+  ],
+  "context_zh": "虚构诊所中，患者向接待护士询问检验报告上的备注。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-01-s01",
+      "speaker": "Mara",
+      "text": "The report mentions a possible iron deficiency. Is that my diagnosis?"
+    },
+    {
+      "id": "p10-c-01-s02",
+      "speaker": "Nurse Bell",
+      "text": "Not yet. That note needs to be considered alongside the rest of your results."
+    },
+    {
+      "id": "p10-c-01-s03",
+      "speaker": "Mara",
+      "text": "Could you diagnose the problem from this page?"
+    },
+    {
+      "id": "p10-c-01-s04",
+      "speaker": "Nurse Bell",
+      "text": "No. The doctor needs to review the full report and talk to you. I can arrange a call for this afternoon."
+    },
+    {
+      "id": "p10-c-01-s05",
+      "speaker": "Mara",
+      "text": "Yes, please. Could the doctor explain what the note means before we discuss treatment?"
+    },
+    {
+      "id": "p10-c-01-s06",
+      "speaker": "Nurse Bell",
+      "text": "Certainly. I have booked the call and added that question."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-087283a713ca5204",
+      "lemma": "deficiency",
+      "pos": "n.",
+      "sense_zh": "缺乏；不足",
+      "sentence_ids": [
+        "p10-c-01-s01"
+      ],
+      "forms": [
+        "deficiency"
+      ],
+      "sense_id": "sense-staged-ox-087283a713ca5204-p10-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44e46338209d4ae2",
+      "lemma": "diagnosis",
+      "pos": "n.",
+      "sense_zh": "诊断结论",
+      "sentence_ids": [
+        "p10-c-01-s01"
+      ],
+      "forms": [
+        "diagnosis"
+      ],
+      "sense_id": "sense-staged-ox-44e46338209d4ae2-p10-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-342e1c08c8d0a90b",
+      "lemma": "diagnose",
+      "pos": "v.",
+      "sense_zh": "诊断",
+      "sentence_ids": [
+        "p10-c-01-s03"
+      ],
+      "forms": [
+        "diagnose"
+      ],
+      "sense_id": "sense-staged-ox-342e1c08c8d0a90b-p10-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

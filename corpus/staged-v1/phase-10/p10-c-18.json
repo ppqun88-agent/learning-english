@@ -1,0 +1,110 @@
+{
+  "id": "p10-c-18",
+  "title_zh": "在染布工作坊完成浸染并确认沥干位置",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fabric-dye-workshop-sequence",
+    "label_zh": "按工作坊说明完成布料浸染步骤",
+    "goal_zh": "按教师说明溶解染料、浸入布料，并将布料放在指定托盘上方的架子上沥干"
+  },
+  "participants": [
+    "Tess",
+    "Rowan"
+  ],
+  "context_zh": "使用教师提供材料的入门染布工作坊中，学员核对操作顺序。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-18-s01",
+      "speaker": "Tess",
+      "text": "Shall I dip the cloth in now?"
+    },
+    {
+      "id": "p10-c-18-s02",
+      "speaker": "Rowan",
+      "text": "Not yet. Keep your gloves on and stir gently until the dye crystals dissolve. Use only the mixture I prepared."
+    },
+    {
+      "id": "p10-c-18-s03",
+      "speaker": "Tess",
+      "text": "They have dissolved now. I cannot see any crystals at the bottom."
+    },
+    {
+      "id": "p10-c-18-s04",
+      "speaker": "Rowan",
+      "text": "Good. Lower this small cloth into the mixture and hold it there while I count."
+    },
+    {
+      "id": "p10-c-18-s05",
+      "speaker": "Tess",
+      "text": "It is in. Tell me when to lift it."
+    },
+    {
+      "id": "p10-c-18-s06",
+      "speaker": "Rowan",
+      "text": "Now. Let it drain over this tray, not over the clean cloths."
+    },
+    {
+      "id": "p10-c-18-s07",
+      "speaker": "Tess",
+      "text": "I have put it on the rack above the tray. Is that the right place?"
+    },
+    {
+      "id": "p10-c-18-s08",
+      "speaker": "Rowan",
+      "text": "Yes. Leave it there; we will check the colour once it has finished draining."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1d9ae9fe5cdb8ee0",
+      "lemma": "dip",
+      "pos": "v.",
+      "sense_zh": "短暂浸入",
+      "sentence_ids": [
+        "p10-c-18-s01"
+      ],
+      "forms": [
+        "dip"
+      ],
+      "sense_id": "sense-staged-ox-1d9ae9fe5cdb8ee0-p10-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b616d8f4f2f5b64b",
+      "lemma": "dissolve",
+      "pos": "v.",
+      "sense_zh": "溶解",
+      "sentence_ids": [
+        "p10-c-18-s02"
+      ],
+      "forms": [
+        "dissolve"
+      ],
+      "sense_id": "sense-staged-ox-b616d8f4f2f5b64b-p10-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-967082b79e6280a5",
+      "lemma": "drain",
+      "pos": "v.",
+      "sense_zh": "沥水；排出液体",
+      "sentence_ids": [
+        "p10-c-18-s06"
+      ],
+      "forms": [
+        "drain"
+      ],
+      "sense_id": "sense-staged-ox-967082b79e6280a5-p10-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

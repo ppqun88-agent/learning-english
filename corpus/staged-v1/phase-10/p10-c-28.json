@@ -1,0 +1,121 @@
+{
+  "id": "p10-c-28",
+  "title_zh": "确定双人组合录音的补录与标注安排",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "acoustic-duo-recording-edit",
+    "label_zh": "确定双人组合录音的修正方式",
+    "goal_zh": "指出人声回声问题，并约定补录人声且将成品标为录音室版本"
+  },
+  "participants": [
+    "Kit",
+    "Maya"
+  ],
+  "context_zh": "一个原声双人组合的成员与录音师检查为宣传制作的录音。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-28-s01",
+      "speaker": "Kit",
+      "text": "The guitar has our duo's distinctive sound, but my voice seems to repeat behind itself."
+    },
+    {
+      "id": "p10-c-28-s02",
+      "speaker": "Maya",
+      "text": "That is an echo from the room. We can reduce it, but the vocal track may still sound muddy."
+    },
+    {
+      "id": "p10-c-28-s03",
+      "speaker": "Kit",
+      "text": "Could we dub a new vocal over the guitar track?"
+    },
+    {
+      "id": "p10-c-28-s04",
+      "speaker": "Maya",
+      "text": "Yes, if you can match the timing. We should not describe the result as an unedited live performance."
+    },
+    {
+      "id": "p10-c-28-s05",
+      "speaker": "Kit",
+      "text": "Agreed. It is for a studio promo, not a concert record."
+    },
+    {
+      "id": "p10-c-28-s06",
+      "speaker": "Maya",
+      "text": "Then let us record the vocal again and label the finished track as the studio version."
+    },
+    {
+      "id": "p10-c-28-s07",
+      "speaker": "Kit",
+      "text": "Fine. I will keep the original tempo and leave the guitar as it is."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-69c15ca137debf41",
+      "lemma": "duo",
+      "pos": "n.",
+      "sense_zh": "二人组合",
+      "sentence_ids": [
+        "p10-c-28-s01"
+      ],
+      "forms": [
+        "duo"
+      ],
+      "sense_id": "sense-staged-ox-69c15ca137debf41-p10-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3302571f78f98958",
+      "lemma": "distinctive",
+      "pos": "adj.",
+      "sense_zh": "独特的；有辨识度的",
+      "sentence_ids": [
+        "p10-c-28-s01"
+      ],
+      "forms": [
+        "distinctive"
+      ],
+      "sense_id": "sense-staged-ox-3302571f78f98958-p10-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4bad1a050c9e8052",
+      "lemma": "echo",
+      "pos": "n.",
+      "sense_zh": "回声",
+      "sentence_ids": [
+        "p10-c-28-s02"
+      ],
+      "forms": [
+        "echo"
+      ],
+      "sense_id": "sense-staged-ox-4bad1a050c9e8052-p10-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a48235add74db1d1",
+      "lemma": "dub",
+      "pos": "v.",
+      "sense_zh": "为已有录音配录新的声音",
+      "sentence_ids": [
+        "p10-c-28-s03"
+      ],
+      "forms": [
+        "dub"
+      ],
+      "sense_id": "sense-staged-ox-a48235add74db1d1-p10-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

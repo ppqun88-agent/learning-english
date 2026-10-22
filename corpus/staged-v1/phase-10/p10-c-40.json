@@ -1,0 +1,94 @@
+{
+  "id": "p10-c-40",
+  "title_zh": "把合作咖啡馆理念落实为开业接待安排",
+  "topic_id": "community",
+  "scenario": {
+    "id": "cooperative-cafe-opening-values",
+    "label_zh": "把合作咖啡馆理念落实为开业接待安排",
+    "goal_zh": "讨论合作咖啡馆希望体现的平等交流，并约定设置共用桌和轮流迎宾"
+  },
+  "participants": [
+    "Lottie",
+    "Mo"
+  ],
+  "context_zh": "一家由员工共同经营的咖啡馆开业前，两名成员安排迎宾。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-40-s01",
+      "speaker": "Lottie",
+      "text": "People keep asking whether this will be a formal establishment with reserved tables and a host at the door."
+    },
+    {
+      "id": "p10-c-40-s02",
+      "speaker": "Mo",
+      "text": "I hope not. We want the cafe to embody the idea that neighbours can sit down and talk as equals."
+    },
+    {
+      "id": "p10-c-40-s03",
+      "speaker": "Lottie",
+      "text": "Then let us use the long shared table rather than setting every table for separate groups."
+    },
+    {
+      "id": "p10-c-40-s04",
+      "speaker": "Mo",
+      "text": "Agreed, but leave the small tables too. Not everyone will want company."
+    },
+    {
+      "id": "p10-c-40-s05",
+      "speaker": "Lottie",
+      "text": "Who should welcome people on opening day?"
+    },
+    {
+      "id": "p10-c-40-s06",
+      "speaker": "Mo",
+      "text": "We can take turns instead of having one person act as the owner. That reflects how we run the place together."
+    },
+    {
+      "id": "p10-c-40-s07",
+      "speaker": "Lottie",
+      "text": "Good. I will set up the shared table and keep the smaller ones. You take the first welcome shift, and I will take the second."
+    },
+    {
+      "id": "p10-c-40-s08",
+      "speaker": "Mo",
+      "text": "That works. Let us put those two shifts on the rota."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2302716b0fe29548",
+      "lemma": "establishment",
+      "pos": "n.",
+      "sense_zh": "营业场所；机构",
+      "sentence_ids": [
+        "p10-c-40-s01"
+      ],
+      "forms": [
+        "establishment"
+      ],
+      "sense_id": "sense-staged-ox-2302716b0fe29548-p10-c-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5be62b90e3ba134b",
+      "lemma": "embody",
+      "pos": "v.",
+      "sense_zh": "体现；使具体化",
+      "sentence_ids": [
+        "p10-c-40-s02"
+      ],
+      "forms": [
+        "embody"
+      ],
+      "sense_id": "sense-staged-ox-5be62b90e3ba134b-p10-c-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

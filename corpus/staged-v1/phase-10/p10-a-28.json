@@ -1,0 +1,84 @@
+{
+  "id": "p10-a-28",
+  "title_zh": "调整篮球运球后将球留在界内",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "basketball-bounce-boundary-drill",
+    "label_zh": "调整篮球练习避免球出界",
+    "goal_zh": "按教练提示降低运球高度，并在重试后确认球未越过边线"
+  },
+  "participants": [
+    "Noah",
+    "Coach Aziz"
+  ],
+  "context_zh": "篮球入门练习中，学员针对球总弹出边线的问题重试。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-28-s01",
+      "speaker": "Noah",
+      "text": "The ball keeps going over the boundary when I turn. Am I pushing it too far ahead?"
+    },
+    {
+      "id": "p10-a-28-s02",
+      "speaker": "Coach Aziz",
+      "text": "Yes. Try to bounce it closer to your side and a little lower."
+    },
+    {
+      "id": "p10-a-28-s03",
+      "speaker": "Noah",
+      "text": "Like this? I've slowed down and kept the bounce lower so the ball stays next to me."
+    },
+    {
+      "id": "p10-a-28-s04",
+      "speaker": "Coach Aziz",
+      "text": "Better. Turn at the cone again and watch where it lands."
+    },
+    {
+      "id": "p10-a-28-s05",
+      "speaker": "Noah",
+      "text": "That time it stayed inside the line."
+    },
+    {
+      "id": "p10-a-28-s06",
+      "speaker": "Coach Aziz",
+      "text": "It did. Use that slower pace for the next few turns."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9e23d40b0b872c86",
+      "lemma": "boundary",
+      "pos": "n.",
+      "sense_zh": "界线；边界",
+      "sentence_ids": [
+        "p10-a-28-s01"
+      ],
+      "forms": [
+        "boundary"
+      ],
+      "sense_id": "sense-staged-ox-9e23d40b0b872c86-p10-a-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e62e0e51a9debfea",
+      "lemma": "bounce",
+      "pos": "v.",
+      "sense_zh": "使弹起；拍球",
+      "sentence_ids": [
+        "p10-a-28-s02"
+      ],
+      "forms": [
+        "bounce"
+      ],
+      "sense_id": "sense-staged-ox-e62e0e51a9debfea-p10-a-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

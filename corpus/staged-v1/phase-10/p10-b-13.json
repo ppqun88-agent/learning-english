@@ -1,0 +1,121 @@
+{
+  "id": "p10-b-13",
+  "title_zh": "限定课堂调查的相关性表述",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "class-survey-correlation-wording",
+    "label_zh": "限定课堂调查的相关性表述",
+    "goal_zh": "核对两组记录是否可比，并约定重新计算后只描述相关而不宣称因果"
+  },
+  "participants": [
+    "Hugo",
+    "Mei"
+  ],
+  "context_zh": "虚构数据课：学生检查自己对睡眠时长与记忆测验成绩的分析。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-13-s01",
+      "speaker": "Mei",
+      "text": "These scores seem to correlate with the hours of sleep people reported. Can I say sleep improved memory?"
+    },
+    {
+      "id": "p10-b-13-s02",
+      "speaker": "Hugo",
+      "text": "Not from this class survey alone. Were the two groups given comparable tests?"
+    },
+    {
+      "id": "p10-b-13-s03",
+      "speaker": "Mei",
+      "text": "Actually, one group had twenty pictures and the other had thirty. I used the raw number remembered."
+    },
+    {
+      "id": "p10-b-13-s04",
+      "speaker": "Hugo",
+      "text": "Then compute the proportion remembered before comparing them. Even that won't remove every difference between the tests."
+    },
+    {
+      "id": "p10-b-13-s05",
+      "speaker": "Mei",
+      "text": "Right. If the pattern remains, I'll describe a correlation in our sample, not a cause."
+    },
+    {
+      "id": "p10-b-13-s06",
+      "speaker": "Hugo",
+      "text": "And include the different test lengths as a limitation."
+    },
+    {
+      "id": "p10-b-13-s07",
+      "speaker": "Mei",
+      "text": "I will. I'll redo the calculation before writing the conclusion."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1477dd90d2f60d41",
+      "lemma": "correlate",
+      "pos": "v.",
+      "sense_zh": "相互关联",
+      "sentence_ids": [
+        "p10-b-13-s01"
+      ],
+      "forms": [
+        "correlate"
+      ],
+      "sense_id": "sense-staged-ox-1477dd90d2f60d41-p10-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60a9c86df6404f2f",
+      "lemma": "comparable",
+      "pos": "adj.",
+      "sense_zh": "可比较的",
+      "sentence_ids": [
+        "p10-b-13-s02"
+      ],
+      "forms": [
+        "comparable"
+      ],
+      "sense_id": "sense-staged-ox-60a9c86df6404f2f-p10-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a565bd695d52c3a8",
+      "lemma": "compute",
+      "pos": "v.",
+      "sense_zh": "计算",
+      "sentence_ids": [
+        "p10-b-13-s04"
+      ],
+      "forms": [
+        "compute"
+      ],
+      "sense_id": "sense-staged-ox-a565bd695d52c3a8-p10-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4b366f990ab55fa",
+      "lemma": "correlation",
+      "pos": "n.",
+      "sense_zh": "相关关系",
+      "sentence_ids": [
+        "p10-b-13-s05"
+      ],
+      "forms": [
+        "correlation"
+      ],
+      "sense_id": "sense-staged-ox-b4b366f990ab55fa-p10-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

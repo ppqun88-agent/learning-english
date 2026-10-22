@@ -1,0 +1,137 @@
+{
+  "id": "p10-c-31",
+  "title_zh": "明确虚构选举案例中的规则职责",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-electoral-rules-roles",
+    "label_zh": "明确虚构选举规则中的制定和执行职责",
+    "goal_zh": "区分立法与执行职责，并决定在课堂图示中把选民意见渠道单独标出"
+  },
+  "participants": [
+    "Amal",
+    "Finn"
+  ],
+  "context_zh": "公民课学生依据虚构国家案例讨论选举制度示意图。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-31-s01",
+      "speaker": "Amal",
+      "text": "The case says a small elite used to control who could stand for election. How should our diagram show the reform?"
+    },
+    {
+      "id": "p10-c-31-s02",
+      "speaker": "Finn",
+      "text": "Start with the new electoral rules. According to the case notes, parliament must enact them."
+    },
+    {
+      "id": "p10-c-31-s03",
+      "speaker": "Amal",
+      "text": "Does parliament also enforce every rule at the polling stations?"
+    },
+    {
+      "id": "p10-c-31-s04",
+      "speaker": "Finn",
+      "text": "Not in this example. The independent election office handles enforcement, while the courts hear challenges."
+    },
+    {
+      "id": "p10-c-31-s05",
+      "speaker": "Amal",
+      "text": "Where do ordinary voters fit? We have drawn only institutions."
+    },
+    {
+      "id": "p10-c-31-s06",
+      "speaker": "Finn",
+      "text": "The notes give voters a public consultation stage before the law is passed. Let us add that as a separate route into the process."
+    },
+    {
+      "id": "p10-c-31-s07",
+      "speaker": "Amal",
+      "text": "Agreed. I will draw three institutional roles and a separate arrow for voters' comments, rather than putting every task under parliament."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bf01bc15660068ec",
+      "lemma": "elite",
+      "pos": "n.",
+      "sense_zh": "掌握权力的少数人；精英集团",
+      "sentence_ids": [
+        "p10-c-31-s01"
+      ],
+      "forms": [
+        "elite"
+      ],
+      "sense_id": "sense-staged-ox-bf01bc15660068ec-p10-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a817e94154fbc9ad",
+      "lemma": "electoral",
+      "pos": "adj.",
+      "sense_zh": "选举的",
+      "sentence_ids": [
+        "p10-c-31-s02"
+      ],
+      "forms": [
+        "electoral"
+      ],
+      "sense_id": "sense-staged-ox-a817e94154fbc9ad-p10-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9d8245413545414d",
+      "lemma": "enact",
+      "pos": "v.",
+      "sense_zh": "制定；通过法律",
+      "sentence_ids": [
+        "p10-c-31-s02"
+      ],
+      "forms": [
+        "enact"
+      ],
+      "sense_id": "sense-staged-ox-9d8245413545414d-p10-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5b14254c1bc6736e",
+      "lemma": "enforce",
+      "pos": "v.",
+      "sense_zh": "执行；强制实施",
+      "sentence_ids": [
+        "p10-c-31-s03"
+      ],
+      "forms": [
+        "enforce"
+      ],
+      "sense_id": "sense-staged-ox-5b14254c1bc6736e-p10-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9894a57d8df75826",
+      "lemma": "enforcement",
+      "pos": "n.",
+      "sense_zh": "实施；执行",
+      "sentence_ids": [
+        "p10-c-31-s04"
+      ],
+      "forms": [
+        "enforcement"
+      ],
+      "sense_id": "sense-staged-ox-9894a57d8df75826-p10-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

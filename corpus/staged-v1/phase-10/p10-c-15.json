@@ -1,0 +1,105 @@
+{
+  "id": "p10-c-15",
+  "title_zh": "上船前决定先完成安全讲解",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "sailing-lesson-boarding-briefing",
+    "label_zh": "上船前确认帆船课安全讲解",
+    "goal_zh": "表达初学者的落水担忧，并约定先核对救生衣及听完教练讲解再上船"
+  },
+  "participants": [
+    "Milo",
+    "Captain Shaw"
+  ],
+  "context_zh": "初学帆船的学员在码头入口与课程教练交谈；这是虚构课程。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-15-s01",
+      "speaker": "Milo",
+      "text": "Are we ready to embark, or is there another briefing?"
+    },
+    {
+      "id": "p10-c-15-s02",
+      "speaker": "Captain Shaw",
+      "text": "We have a safety briefing first. Have you sailed before?"
+    },
+    {
+      "id": "p10-c-15-s03",
+      "speaker": "Milo",
+      "text": "No. I am worried that the boat could drift away if I fall in."
+    },
+    {
+      "id": "p10-c-15-s04",
+      "speaker": "Captain Shaw",
+      "text": "We will cover that situation before anyone boards. You will not be left to work it out yourself."
+    },
+    {
+      "id": "p10-c-15-s05",
+      "speaker": "Milo",
+      "text": "I know people can drown even close to shore. Could you check my life jacket as well?"
+    },
+    {
+      "id": "p10-c-15-s06",
+      "speaker": "Captain Shaw",
+      "text": "Of course. Come over to the fitting area, and then stay with me for the full briefing."
+    },
+    {
+      "id": "p10-c-15-s07",
+      "speaker": "Milo",
+      "text": "All right. I will do both before I get on the boat."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b2a50f25ec42b1b8",
+      "lemma": "embark",
+      "pos": "v.",
+      "sense_zh": "上船",
+      "sentence_ids": [
+        "p10-c-15-s01"
+      ],
+      "forms": [
+        "embark"
+      ],
+      "sense_id": "sense-staged-ox-b2a50f25ec42b1b8-p10-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5e5084fb8bd9102a",
+      "lemma": "drift",
+      "pos": "v.",
+      "sense_zh": "漂流；随水流漂移",
+      "sentence_ids": [
+        "p10-c-15-s03"
+      ],
+      "forms": [
+        "drift"
+      ],
+      "sense_id": "sense-staged-ox-5e5084fb8bd9102a-p10-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-71bafa63e0425c2a",
+      "lemma": "drown",
+      "pos": "v.",
+      "sense_zh": "溺水身亡",
+      "sentence_ids": [
+        "p10-c-15-s05"
+      ],
+      "forms": [
+        "drown"
+      ],
+      "sense_id": "sense-staged-ox-71bafa63e0425c2a-p10-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

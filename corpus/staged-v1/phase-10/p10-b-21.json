@@ -1,0 +1,84 @@
+{
+  "id": "p10-b-21",
+  "title_zh": "约定先画出轮椅可参与的游乐区草图",
+  "topic_id": "work",
+  "scenario": {
+    "id": "accessible-playground-first-sketch",
+    "label_zh": "约定先画出轮椅可参与的游乐区草图",
+    "goal_zh": "澄清游乐区的初步构想，并约定把一起玩的需求画入草图后再向家庭征求意见"
+  },
+  "participants": [
+    "Mabel",
+    "Arun"
+  ],
+  "context_zh": "社区设计工作坊，两位成员准备一个尚未通过的游乐区概念方案。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-21-s01",
+      "speaker": "Arun",
+      "text": "Can we conceive of a playground where children using wheelchairs can join the same games rather than stay in a separate area?"
+    },
+    {
+      "id": "p10-b-21-s02",
+      "speaker": "Mabel",
+      "text": "Yes. My initial conception was a central play table with space to approach from different sides."
+    },
+    {
+      "id": "p10-b-21-s03",
+      "speaker": "Arun",
+      "text": "That could work, but the table alone would not meet every need. We should ask families what activities they want to share."
+    },
+    {
+      "id": "p10-b-21-s04",
+      "speaker": "Mabel",
+      "text": "Would a rough drawing help them respond, or would it look as though we had already decided?"
+    },
+    {
+      "id": "p10-b-21-s05",
+      "speaker": "Arun",
+      "text": "Let's label it as an idea for discussion. I'll sketch several approach spaces and leave room for their suggestions."
+    },
+    {
+      "id": "p10-b-21-s06",
+      "speaker": "Mabel",
+      "text": "Good. We'll take that draft to the next workshop, not present it as a finished design."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d698aa5caf172bb2",
+      "lemma": "conceive",
+      "pos": "v.",
+      "sense_zh": "设想；构想",
+      "sentence_ids": [
+        "p10-b-21-s01"
+      ],
+      "forms": [
+        "conceive"
+      ],
+      "sense_id": "sense-staged-ox-d698aa5caf172bb2-p10-b-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-545a85f8a400b24c",
+      "lemma": "conception",
+      "pos": "n.",
+      "sense_zh": "初步构想",
+      "sentence_ids": [
+        "p10-b-21-s02"
+      ],
+      "forms": [
+        "conception"
+      ],
+      "sense_id": "sense-staged-ox-545a85f8a400b24c-p10-b-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

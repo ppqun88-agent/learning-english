@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-07",
+  "title_zh": "选定奇幻故事封面的双角色画面",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fantasy-book-cover-character-choice",
+    "label_zh": "选定奇幻故事封面角色",
+    "goal_zh": "依据故事角色关系，选择天使与野兽友好相处的封面草图"
+  },
+  "participants": [
+    "Lucia",
+    "Pavel"
+  ],
+  "context_zh": "儿童奇幻故事作者与插画师挑选封面，不涉及宗教事实说明。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-07-s01",
+      "speaker": "Lucia",
+      "text": "The winged figure is an angel, and the enormous creature beside her is the beast from chapter one."
+    },
+    {
+      "id": "p10-a-07-s02",
+      "speaker": "Pavel",
+      "text": "Readers may expect a fight. Isn't the creature actually her beloved companion?"
+    },
+    {
+      "id": "p10-a-07-s03",
+      "speaker": "Lucia",
+      "text": "Exactly. In the story she rescues him, and they become friends."
+    },
+    {
+      "id": "p10-a-07-s04",
+      "speaker": "Pavel",
+      "text": "Then the sketch where he's breathing fire at her gives a bizarre impression of their relationship."
+    },
+    {
+      "id": "p10-a-07-s05",
+      "speaker": "Lucia",
+      "text": "Let's use the other one, where she's sitting beside him and he's asleep."
+    },
+    {
+      "id": "p10-a-07-s06",
+      "speaker": "Pavel",
+      "text": "Agreed. I'll develop that quiet scene for the cover."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e3f6e4b3a72068da",
+      "lemma": "angel",
+      "pos": "n.",
+      "sense_zh": "天使",
+      "sentence_ids": [
+        "p10-a-07-s01"
+      ],
+      "forms": [
+        "angel"
+      ],
+      "sense_id": "sense-staged-ox-e3f6e4b3a72068da-p10-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c2f2b785231e937e",
+      "lemma": "beast",
+      "pos": "n.",
+      "sense_zh": "大型野兽",
+      "sentence_ids": [
+        "p10-a-07-s01"
+      ],
+      "forms": [
+        "beast"
+      ],
+      "sense_id": "sense-staged-ox-c2f2b785231e937e-p10-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08ded6e7cac04567",
+      "lemma": "beloved",
+      "pos": "adj.",
+      "sense_zh": "深爱的；心爱的",
+      "sentence_ids": [
+        "p10-a-07-s02"
+      ],
+      "forms": [
+        "beloved"
+      ],
+      "sense_id": "sense-staged-ox-08ded6e7cac04567-p10-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f80b6d70174b214",
+      "lemma": "bizarre",
+      "pos": "adj.",
+      "sense_zh": "怪异的",
+      "sentence_ids": [
+        "p10-a-07-s04"
+      ],
+      "forms": [
+        "bizarre"
+      ],
+      "sense_id": "sense-staged-ox-4f80b6d70174b214-p10-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

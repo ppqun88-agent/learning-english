@@ -1,0 +1,84 @@
+{
+  "id": "p10-b-38",
+  "title_zh": "约定继续封闭风暴后的游乐场",
+  "topic_id": "community",
+  "scenario": {
+    "id": "storm-debris-play-area-closure",
+    "label_zh": "约定继续封闭风暴后的游乐场",
+    "goal_zh": "说明风暴碎片尚未清除，并确定等待维护人员检查后再考虑重新开放"
+  },
+  "participants": [
+    "Park manager",
+    "Luis"
+  ],
+  "context_zh": "虚构社区公园场景：风暴后游乐场已有围栏，志愿者向管理员核对开放状态。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-38-s01",
+      "speaker": "Luis",
+      "text": "The storm was damaging, but the play equipment looks all right from here. Can we open the gate?"
+    },
+    {
+      "id": "p10-b-38-s02",
+      "speaker": "Park manager",
+      "text": "Not yet. There is debris around the slide, and we have not had an inspection."
+    },
+    {
+      "id": "p10-b-38-s03",
+      "speaker": "Luis",
+      "text": "I can see a broken branch beyond the barrier. I will keep visitors outside."
+    },
+    {
+      "id": "p10-b-38-s04",
+      "speaker": "Park manager",
+      "text": "Thank you. The maintenance team is due this afternoon; they will clear the area and assess the equipment."
+    },
+    {
+      "id": "p10-b-38-s05",
+      "speaker": "Luis",
+      "text": "So the gate stays closed until you tell us the inspection and cleanup are complete?"
+    },
+    {
+      "id": "p10-b-38-s06",
+      "speaker": "Park manager",
+      "text": "Exactly. I'll update you when we have that confirmation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-71492b9179e46065",
+      "lemma": "damaging",
+      "pos": "adj.",
+      "sense_zh": "造成破坏的",
+      "sentence_ids": [
+        "p10-b-38-s01"
+      ],
+      "forms": [
+        "damaging"
+      ],
+      "sense_id": "sense-staged-ox-71492b9179e46065-p10-b-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6d5377f8ebdf6434",
+      "lemma": "debris",
+      "pos": "n.",
+      "sense_zh": "残骸；碎片",
+      "sentence_ids": [
+        "p10-b-38-s02"
+      ],
+      "forms": [
+        "debris"
+      ],
+      "sense_id": "sense-staged-ox-6d5377f8ebdf6434-p10-b-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

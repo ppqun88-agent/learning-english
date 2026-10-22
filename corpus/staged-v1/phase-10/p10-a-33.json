@@ -1,0 +1,132 @@
+{
+  "id": "p10-a-33",
+  "title_zh": "确认封路期间通往酒店的人行路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "hotel-road-closure-route",
+    "label_zh": "确认封路期间通往酒店的步行路线",
+    "goal_zh": "辨认赌场对面的酒店，并确认沿开放人行道到临时过街点的路线"
+  },
+  "participants": [
+    "Nolan",
+    "Grace"
+  ],
+  "context_zh": "虚构城市中，游客在道路施工与街头音乐声中向酒店接待员电话问路。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-33-s01",
+      "speaker": "Nolan",
+      "text": "I'm outside the casino opposite your hotel. I missed your directions amid all this chaos, and that blast of music didn't help."
+    },
+    {
+      "id": "p10-a-33-s02",
+      "speaker": "Grace",
+      "text": "No problem. The road closure is for vehicles. The pavement on your side is still open."
+    },
+    {
+      "id": "p10-a-33-s03",
+      "speaker": "Nolan",
+      "text": "Can I cross straight in front of the hotel?"
+    },
+    {
+      "id": "p10-a-33-s04",
+      "speaker": "Grace",
+      "text": "Not there. Walk along the open pavement to the marked temporary crossing, then come back on the hotel side."
+    },
+    {
+      "id": "p10-a-33-s05",
+      "speaker": "Nolan",
+      "text": "I can see the crossing sign now. So I follow this pavement, cross at the sign, and walk back to your entrance."
+    },
+    {
+      "id": "p10-a-33-s06",
+      "speaker": "Grace",
+      "text": "Exactly. Stay on the marked pedestrian route; you don't need to enter the work area."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8cd485aa6d94ee0e",
+      "lemma": "casino",
+      "pos": "n.",
+      "sense_zh": "赌场",
+      "sentence_ids": [
+        "p10-a-33-s01"
+      ],
+      "forms": [
+        "casino"
+      ],
+      "sense_id": "sense-staged-ox-8cd485aa6d94ee0e-p10-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3992a7da53fe3499",
+      "lemma": "amid",
+      "pos": "prep.",
+      "sense_zh": "在……之中",
+      "sentence_ids": [
+        "p10-a-33-s01"
+      ],
+      "forms": [
+        "amid"
+      ],
+      "sense_id": "sense-staged-ox-3992a7da53fe3499-p10-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6493d70c4d7fb7df",
+      "lemma": "chaos",
+      "pos": "n.",
+      "sense_zh": "混乱",
+      "sentence_ids": [
+        "p10-a-33-s01"
+      ],
+      "forms": [
+        "chaos"
+      ],
+      "sense_id": "sense-staged-ox-6493d70c4d7fb7df-p10-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-572d5fafe89e50c8",
+      "lemma": "blast",
+      "pos": "n.",
+      "sense_zh": "突然传来的强烈声音",
+      "sentence_ids": [
+        "p10-a-33-s01"
+      ],
+      "forms": [
+        "blast"
+      ],
+      "sense_id": "sense-staged-ox-572d5fafe89e50c8-p10-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ee8a10041e5c24f2",
+      "lemma": "closure",
+      "pos": "n.",
+      "sense_zh": "关闭；封闭",
+      "sentence_ids": [
+        "p10-a-33-s02"
+      ],
+      "forms": [
+        "closure"
+      ],
+      "sense_id": "sense-staged-ox-ee8a10041e5c24f2-p10-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

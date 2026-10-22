@@ -1,0 +1,126 @@
+{
+  "id": "p10-c-04",
+  "title_zh": "确定使馆代表团的到场接待联系人",
+  "topic_id": "work",
+  "scenario": {
+    "id": "embassy-delegation-arrival-contact",
+    "label_zh": "确定使馆代表团到访的接待联系人",
+    "goal_zh": "核对代表团人数及发言代表，并约定在正门接待"
+  },
+  "participants": [
+    "Nadia",
+    "Felix"
+  ],
+  "context_zh": "文化中心工作人员与虚构使馆的活动联络员电话沟通到访安排。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-04-s01",
+      "speaker": "Nadia",
+      "text": "I am calling from the embassy about tomorrow's visit to your cultural centre."
+    },
+    {
+      "id": "p10-c-04-s02",
+      "speaker": "Felix",
+      "text": "Welcome. How many people are in the delegation?"
+    },
+    {
+      "id": "p10-c-04-s03",
+      "speaker": "Nadia",
+      "text": "Three. One delegate, Ms Varga, will speak on behalf of the group."
+    },
+    {
+      "id": "p10-c-04-s04",
+      "speaker": "Felix",
+      "text": "Is she the diplomat who wrote to us about the exhibition?"
+    },
+    {
+      "id": "p10-c-04-s05",
+      "speaker": "Nadia",
+      "text": "Yes. She would appreciate meeting the host before the tour begins."
+    },
+    {
+      "id": "p10-c-04-s06",
+      "speaker": "Felix",
+      "text": "I can greet all three of you at the main entrance at ten and introduce her to the host."
+    },
+    {
+      "id": "p10-c-04-s07",
+      "speaker": "Nadia",
+      "text": "That works. I will be the contact if we are delayed."
+    },
+    {
+      "id": "p10-c-04-s08",
+      "speaker": "Felix",
+      "text": "Good. I have your number, and I will put my name, Felix, on the reception note."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7c99870cc57ccd42",
+      "lemma": "embassy",
+      "pos": "n.",
+      "sense_zh": "大使馆",
+      "sentence_ids": [
+        "p10-c-04-s01"
+      ],
+      "forms": [
+        "embassy"
+      ],
+      "sense_id": "sense-staged-ox-7c99870cc57ccd42-p10-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73bdb58945d7189d",
+      "lemma": "delegation",
+      "pos": "n.",
+      "sense_zh": "代表团",
+      "sentence_ids": [
+        "p10-c-04-s02"
+      ],
+      "forms": [
+        "delegation"
+      ],
+      "sense_id": "sense-staged-ox-73bdb58945d7189d-p10-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e8c24adc7e19d8c2",
+      "lemma": "delegate",
+      "pos": "n.",
+      "sense_zh": "代表",
+      "sentence_ids": [
+        "p10-c-04-s03"
+      ],
+      "forms": [
+        "delegate"
+      ],
+      "sense_id": "sense-staged-ox-e8c24adc7e19d8c2-p10-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-15fc9d29a322ede1",
+      "lemma": "diplomat",
+      "pos": "n.",
+      "sense_zh": "外交官",
+      "sentence_ids": [
+        "p10-c-04-s04"
+      ],
+      "forms": [
+        "diplomat"
+      ],
+      "sense_id": "sense-staged-ox-15fc9d29a322ede1-p10-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

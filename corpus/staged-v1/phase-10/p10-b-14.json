@@ -1,0 +1,121 @@
+{
+  "id": "p10-b-14",
+  "title_zh": "承认打破花瓶并约定归还碎片",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "friend-vase-damage-admission",
+    "label_zh": "承认打破花瓶并约定归还碎片",
+    "goal_zh": "向朋友坦白损坏花瓶，听取物主要求并约定保留碎片等待共同处理"
+  },
+  "participants": [
+    "Alma",
+    "Felix"
+  ],
+  "context_zh": "朋友之间谈论借用房间时意外打破花瓶的事情。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-14-s01",
+      "speaker": "Felix",
+      "text": "I have a confession to make. I knocked over your blue vase yesterday, and it broke."
+    },
+    {
+      "id": "p10-b-14-s02",
+      "speaker": "Alma",
+      "text": "You were here when I asked what had happened. Why did you say nothing?"
+    },
+    {
+      "id": "p10-b-14-s03",
+      "speaker": "Felix",
+      "text": "I was embarrassed. I tried to conceal the damage by moving the pieces into a box, but my conscience wouldn't let me leave it there."
+    },
+    {
+      "id": "p10-b-14-s04",
+      "speaker": "Alma",
+      "text": "I can't compel you to be honest with me. I do need you to tell me when something of mine gets damaged."
+    },
+    {
+      "id": "p10-b-14-s05",
+      "speaker": "Felix",
+      "text": "You're right. I'm sorry. I kept all the pieces. Would you like me to bring the box back?"
+    },
+    {
+      "id": "p10-b-14-s06",
+      "speaker": "Alma",
+      "text": "Yes. Please don't throw anything away or try to glue it. We'll look at it together."
+    },
+    {
+      "id": "p10-b-14-s07",
+      "speaker": "Felix",
+      "text": "I'll bring the box this evening and leave it as it is."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-351a2397467d2632",
+      "lemma": "confession",
+      "pos": "n.",
+      "sense_zh": "对过错的坦白",
+      "sentence_ids": [
+        "p10-b-14-s01"
+      ],
+      "forms": [
+        "confession"
+      ],
+      "sense_id": "sense-staged-ox-351a2397467d2632-p10-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f9608bcbd05643ef",
+      "lemma": "conceal",
+      "pos": "v.",
+      "sense_zh": "隐瞒；遮掩",
+      "sentence_ids": [
+        "p10-b-14-s03"
+      ],
+      "forms": [
+        "conceal"
+      ],
+      "sense_id": "sense-staged-ox-f9608bcbd05643ef-p10-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f22ac786b3f4b8c",
+      "lemma": "conscience",
+      "pos": "n.",
+      "sense_zh": "良心",
+      "sentence_ids": [
+        "p10-b-14-s03"
+      ],
+      "forms": [
+        "conscience"
+      ],
+      "sense_id": "sense-staged-ox-4f22ac786b3f4b8c-p10-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d12746269a0e86b8",
+      "lemma": "compel",
+      "pos": "v.",
+      "sense_zh": "强迫",
+      "sentence_ids": [
+        "p10-b-14-s04"
+      ],
+      "forms": [
+        "compel"
+      ],
+      "sense_id": "sense-staged-ox-d12746269a0e86b8-p10-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

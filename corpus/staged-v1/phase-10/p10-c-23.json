@@ -1,0 +1,142 @@
+{
+  "id": "p10-c-23",
+  "title_zh": "约好陪朋友整理洪灾援助文件",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "flood-friend-practical-support",
+    "label_zh": "洪灾后约定陪朋友整理救援文件",
+    "goal_zh": "倾听洪灾后的难过与压力，并约定次日上午一起整理援助文件"
+  },
+  "participants": [
+    "Eva",
+    "Samir"
+  ],
+  "context_zh": "洪灾后暂住安全住处的朋友谈论损失和眼下需要的实际帮助。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-23-s01",
+      "speaker": "Eva",
+      "text": "I never thought one night of flooding could devastate our whole street."
+    },
+    {
+      "id": "p10-c-23-s02",
+      "speaker": "Samir",
+      "text": "I am so sorry. What would be useful today?"
+    },
+    {
+      "id": "p10-c-23-s03",
+      "speaker": "Eva",
+      "text": "People keep saying I was lucky. I know they mean well, but I cannot endure another cheerful speech."
+    },
+    {
+      "id": "p10-c-23-s04",
+      "speaker": "Samir",
+      "text": "I do not want to diminish what you lost. You do not have to make it sound smaller for me."
+    },
+    {
+      "id": "p10-c-23-s05",
+      "speaker": "Eva",
+      "text": "The distress comes in waves. Then I look at the relief forms and cannot face them."
+    },
+    {
+      "id": "p10-c-23-s06",
+      "speaker": "Samir",
+      "text": "Would it ease the pressure if I sat with you while you sorted the papers? I would not fill anything in without you."
+    },
+    {
+      "id": "p10-c-23-s07",
+      "speaker": "Eva",
+      "text": "Yes. Could you come tomorrow at ten? I want company, not someone to take over."
+    },
+    {
+      "id": "p10-c-23-s08",
+      "speaker": "Samir",
+      "text": "I will be there at ten. We can put the papers in order and stop whenever you want."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ef2fc0affe2e7d26",
+      "lemma": "devastate",
+      "pos": "v.",
+      "sense_zh": "严重破坏",
+      "sentence_ids": [
+        "p10-c-23-s01"
+      ],
+      "forms": [
+        "devastate"
+      ],
+      "sense_id": "sense-staged-ox-ef2fc0affe2e7d26-p10-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-866acfd5d86ed1f0",
+      "lemma": "endure",
+      "pos": "v.",
+      "sense_zh": "忍受",
+      "sentence_ids": [
+        "p10-c-23-s03"
+      ],
+      "forms": [
+        "endure"
+      ],
+      "sense_id": "sense-staged-ox-866acfd5d86ed1f0-p10-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-690ca63aefab669e",
+      "lemma": "diminish",
+      "pos": "v.",
+      "sense_zh": "贬低；淡化重要性",
+      "sentence_ids": [
+        "p10-c-23-s04"
+      ],
+      "forms": [
+        "diminish"
+      ],
+      "sense_id": "sense-staged-ox-690ca63aefab669e-p10-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-52e73927ad4c3944",
+      "lemma": "distress",
+      "pos": "n.",
+      "sense_zh": "痛苦；悲伤",
+      "sentence_ids": [
+        "p10-c-23-s05"
+      ],
+      "forms": [
+        "distress"
+      ],
+      "sense_id": "sense-staged-ox-52e73927ad4c3944-p10-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a41106deb07070e",
+      "lemma": "ease",
+      "pos": "v.",
+      "sense_zh": "减轻；缓解",
+      "sentence_ids": [
+        "p10-c-23-s06"
+      ],
+      "forms": [
+        "ease"
+      ],
+      "sense_id": "sense-staged-ox-2a41106deb07070e-p10-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

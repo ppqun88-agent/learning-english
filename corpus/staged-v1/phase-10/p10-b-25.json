@@ -1,0 +1,89 @@
+{
+  "id": "p10-b-25",
+  "title_zh": "选择连续两天的清晨观鸟记录班次",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "bird-survey-morning-slot",
+    "label_zh": "选择连续两天的清晨观鸟记录班次",
+    "goal_zh": "核对观鸟记录所需日期和集合时间，并约好领取记录表"
+  },
+  "participants": [
+    "Coordinator",
+    "Jules"
+  ],
+  "context_zh": "自然观察小组分配公园观鸟记录班次，只做常规步道观察。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-25-s01",
+      "speaker": "Jules",
+      "text": "For the bird count, do you need me on two consecutive mornings, or can I do Monday and Thursday?"
+    },
+    {
+      "id": "p10-b-25-s02",
+      "speaker": "Coordinator",
+      "text": "The team needs the same observer on Monday and Tuesday for this comparison. We meet at the park gate at dawn."
+    },
+    {
+      "id": "p10-b-25-s03",
+      "speaker": "Jules",
+      "text": "What time does that mean on the schedule?"
+    },
+    {
+      "id": "p10-b-25-s04",
+      "speaker": "Coordinator",
+      "text": "The meeting time is six fifteen on both days. The gate will be open for our group."
+    },
+    {
+      "id": "p10-b-25-s05",
+      "speaker": "Jules",
+      "text": "I can do those two mornings. Where do I get the recording sheet?"
+    },
+    {
+      "id": "p10-b-25-s06",
+      "speaker": "Coordinator",
+      "text": "I'll bring it to Sunday's briefing. Come to that, and we'll go through the route before the first count."
+    },
+    {
+      "id": "p10-b-25-s07",
+      "speaker": "Jules",
+      "text": "Sunday works for me. I'll collect the sheet at the briefing and go over the route with you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a3125e7bddc9eef3",
+      "lemma": "consecutive",
+      "pos": "adj.",
+      "sense_zh": "连续的",
+      "sentence_ids": [
+        "p10-b-25-s01"
+      ],
+      "forms": [
+        "consecutive"
+      ],
+      "sense_id": "sense-staged-ox-a3125e7bddc9eef3-p10-b-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-72bb7da861b13c30",
+      "lemma": "dawn",
+      "pos": "n.",
+      "sense_zh": "黎明",
+      "sentence_ids": [
+        "p10-b-25-s02"
+      ],
+      "forms": [
+        "dawn"
+      ],
+      "sense_id": "sense-staged-ox-72bb7da861b13c30-p10-b-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

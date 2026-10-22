@@ -1,0 +1,84 @@
+{
+  "id": "p10-a-38",
+  "title_zh": "调整望远镜视野后看清星团",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "star-cluster-telescope-view",
+    "label_zh": "调整望远镜并找到星团",
+    "goal_zh": "在观星活动中选择已对准目标的望远镜，并调整视野看到整个星团"
+  },
+  "participants": [
+    "Avery",
+    "Lin"
+  ],
+  "context_zh": "公共观星活动中，访客在主持人帮助下使用已架好的望远镜。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-38-s01",
+      "speaker": "Avery",
+      "text": "There's quite an array of telescopes here. Which one is looking at the group of stars you mentioned?"
+    },
+    {
+      "id": "p10-a-38-s02",
+      "speaker": "Lin",
+      "text": "This one is aimed at a star cluster. Have a look through the eyepiece."
+    },
+    {
+      "id": "p10-a-38-s03",
+      "speaker": "Avery",
+      "text": "I can see some bright points, but they're crowded against the edge."
+    },
+    {
+      "id": "p10-a-38-s04",
+      "speaker": "Lin",
+      "text": "Let me centre the view. Try again now, without moving the tube."
+    },
+    {
+      "id": "p10-a-38-s05",
+      "speaker": "Avery",
+      "text": "That's much clearer. I can see the whole group against the darker sky."
+    },
+    {
+      "id": "p10-a-38-s06",
+      "speaker": "Lin",
+      "text": "Good. That's the cluster I was describing, not a single star enlarged by the lens."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a2d32c285b675f5a",
+      "lemma": "array",
+      "pos": "n.",
+      "sense_zh": "一大批；一系列",
+      "sentence_ids": [
+        "p10-a-38-s01"
+      ],
+      "forms": [
+        "array"
+      ],
+      "sense_id": "sense-staged-ox-a2d32c285b675f5a-p10-a-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b9dd2492a6afe07",
+      "lemma": "cluster",
+      "pos": "n.",
+      "sense_zh": "簇；群（此处为星团）",
+      "sentence_ids": [
+        "p10-a-38-s02"
+      ],
+      "forms": [
+        "cluster"
+      ],
+      "sense_id": "sense-staged-ox-4b9dd2492a6afe07-p10-a-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

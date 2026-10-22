@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-05",
+  "title_zh": "用排队类比重新说明任务处理",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "presentation-analogy-clarity-practice",
+    "label_zh": "练习用类比说明排队机制",
+    "goal_zh": "把含糊的技术说明改为排队类比，并确认听者理解其局限"
+  },
+  "participants": [
+    "Theo",
+    "Mei"
+  ],
+  "context_zh": "学生练习面向非技术听众介绍电脑的任务队列。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-05-s01",
+      "speaker": "Theo",
+      "text": "I know what the program does, but I can't articulate it without using technical terms."
+    },
+    {
+      "id": "p10-a-05-s02",
+      "speaker": "Mei",
+      "text": "Try an analogy. Could you compare the waiting tasks to people in a queue?"
+    },
+    {
+      "id": "p10-a-05-s03",
+      "speaker": "Theo",
+      "text": "All right. Each task takes a number and waits until a worker is free to handle it."
+    },
+    {
+      "id": "p10-a-05-s04",
+      "speaker": "Mei",
+      "text": "That helps with clarity. Does a big task always take the same time as a small one?"
+    },
+    {
+      "id": "p10-a-05-s05",
+      "speaker": "Theo",
+      "text": "No. The queue explains the order, not how long each task takes."
+    },
+    {
+      "id": "p10-a-05-s06",
+      "speaker": "Mei",
+      "text": "Now I understand. Keep the queue example and that final warning in your presentation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-38038943bbcfb635",
+      "lemma": "articulate",
+      "pos": "v.",
+      "sense_zh": "清楚表达",
+      "sentence_ids": [
+        "p10-a-05-s01"
+      ],
+      "forms": [
+        "articulate"
+      ],
+      "sense_id": "sense-staged-ox-38038943bbcfb635-p10-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e86f1f7796ab6569",
+      "lemma": "analogy",
+      "pos": "n.",
+      "sense_zh": "类比",
+      "sentence_ids": [
+        "p10-a-05-s02"
+      ],
+      "forms": [
+        "analogy"
+      ],
+      "sense_id": "sense-staged-ox-e86f1f7796ab6569-p10-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9316b1c38d0377e8",
+      "lemma": "clarity",
+      "pos": "n.",
+      "sense_zh": "清晰；易懂",
+      "sentence_ids": [
+        "p10-a-05-s04"
+      ],
+      "forms": [
+        "clarity"
+      ],
+      "sense_id": "sense-staged-ox-9316b1c38d0377e8-p10-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

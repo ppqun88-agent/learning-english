@@ -1,0 +1,121 @@
+{
+  "id": "p10-a-08",
+  "title_zh": "约定口述采访的匿名和审读边界",
+  "topic_id": "work",
+  "scenario": {
+    "id": "oral-history-anonymity-boundary",
+    "label_zh": "约定口述采访匿名边界",
+    "goal_zh": "明确不披露受访者姓名及可辨认工作地点，并约定发表前交其审读"
+  },
+  "participants": [
+    "Noor",
+    "Graham"
+  ],
+  "context_zh": "地方口述历史项目的采访者与受访者商定使用访谈的范围。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-08-s01",
+      "speaker": "Noor",
+      "text": "I'll talk about my old job, but I need to remain anonymous in the published interview."
+    },
+    {
+      "id": "p10-a-08-s02",
+      "speaker": "Graham",
+      "text": "I can give you that assurance. We won't print your name."
+    },
+    {
+      "id": "p10-a-08-s03",
+      "speaker": "Noor",
+      "text": "My exact job title and the tiny branch I worked at would identify me too. I don't want to betray my colleagues' trust."
+    },
+    {
+      "id": "p10-a-08-s04",
+      "speaker": "Graham",
+      "text": "Understood. I'll remove those details as well. Publishing them after this agreement would be a breach of our terms."
+    },
+    {
+      "id": "p10-a-08-s05",
+      "speaker": "Noor",
+      "text": "Can I read the edited version before you use it?"
+    },
+    {
+      "id": "p10-a-08-s06",
+      "speaker": "Graham",
+      "text": "Yes. I'll send it for your approval and won't publish it before you agree."
+    },
+    {
+      "id": "p10-a-08-s07",
+      "speaker": "Noor",
+      "text": "Then I'm comfortable proceeding on that basis."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c67345deb951499e",
+      "lemma": "anonymous",
+      "pos": "adj.",
+      "sense_zh": "匿名的",
+      "sentence_ids": [
+        "p10-a-08-s01"
+      ],
+      "forms": [
+        "anonymous"
+      ],
+      "sense_id": "sense-staged-ox-c67345deb951499e-p10-a-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f287675024d94954",
+      "lemma": "assurance",
+      "pos": "n.",
+      "sense_zh": "保证",
+      "sentence_ids": [
+        "p10-a-08-s02"
+      ],
+      "forms": [
+        "assurance"
+      ],
+      "sense_id": "sense-staged-ox-f287675024d94954-p10-a-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef13d4fe9f28d911",
+      "lemma": "betray",
+      "pos": "v.",
+      "sense_zh": "辜负；背叛",
+      "sentence_ids": [
+        "p10-a-08-s03"
+      ],
+      "forms": [
+        "betray"
+      ],
+      "sense_id": "sense-staged-ox-ef13d4fe9f28d911-p10-a-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14987f54709d2d7c",
+      "lemma": "breach",
+      "pos": "n.",
+      "sense_zh": "违背；违反",
+      "sentence_ids": [
+        "p10-a-08-s04"
+      ],
+      "forms": [
+        "breach"
+      ],
+      "sense_id": "sense-staged-ox-14987f54709d2d7c-p10-a-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

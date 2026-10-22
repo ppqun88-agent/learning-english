@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-23",
+  "title_zh": "断网时打开备份并约好本地改稿",
+  "topic_id": "work",
+  "scenario": {
+    "id": "offline-backup-while-awaiting-service",
+    "label_zh": "断网期间改用本地备份",
+    "goal_zh": "确认重新打开浏览器未恢复连接，打开本地备份并约定网络恢复前不上传"
+  },
+  "participants": [
+    "Pia",
+    "Nathan"
+  ],
+  "context_zh": "办公室同事遇到宽带中断，改用已保存的本地文件继续工作。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-23-s01",
+      "speaker": "Pia",
+      "text": "The broadband is down again. I've reopened the browser, but the shared report still won't load."
+    },
+    {
+      "id": "p10-a-23-s02",
+      "speaker": "Nathan",
+      "text": "There's a backup on this laptop from yesterday afternoon. We can work on that while we await the provider's update."
+    },
+    {
+      "id": "p10-a-23-s03",
+      "speaker": "Pia",
+      "text": "Will that have the table we added after lunch?"
+    },
+    {
+      "id": "p10-a-23-s04",
+      "speaker": "Nathan",
+      "text": "Let's check. I've opened the local copy, and the table is here on page three."
+    },
+    {
+      "id": "p10-a-23-s05",
+      "speaker": "Pia",
+      "text": "Good. I'll make my edits in this copy and leave the upload until the connection returns."
+    },
+    {
+      "id": "p10-a-23-s06",
+      "speaker": "Nathan",
+      "text": "Agreed. We'll compare versions before replacing anything online."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bccbe62baecf7a6d",
+      "lemma": "broadband",
+      "pos": "n.",
+      "sense_zh": "宽带连接",
+      "sentence_ids": [
+        "p10-a-23-s01"
+      ],
+      "forms": [
+        "broadband"
+      ],
+      "sense_id": "sense-staged-ox-bccbe62baecf7a6d-p10-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6f362b51e3fcc5b7",
+      "lemma": "browser",
+      "pos": "n.",
+      "sense_zh": "浏览器",
+      "sentence_ids": [
+        "p10-a-23-s01"
+      ],
+      "forms": [
+        "browser"
+      ],
+      "sense_id": "sense-staged-ox-6f362b51e3fcc5b7-p10-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e2bbc0572b8a80d",
+      "lemma": "backup",
+      "pos": "n.",
+      "sense_zh": "备份",
+      "sentence_ids": [
+        "p10-a-23-s02"
+      ],
+      "forms": [
+        "backup"
+      ],
+      "sense_id": "sense-staged-ox-3e2bbc0572b8a80d-p10-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2e115337f7c993db",
+      "lemma": "await",
+      "pos": "v.",
+      "sense_zh": "等待",
+      "sentence_ids": [
+        "p10-a-23-s02"
+      ],
+      "forms": [
+        "await"
+      ],
+      "sense_id": "sense-staged-ox-2e115337f7c993db-p10-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

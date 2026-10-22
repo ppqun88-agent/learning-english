@@ -1,0 +1,126 @@
+{
+  "id": "p10-b-30",
+  "title_zh": "约定先测试打印设置再判断故障",
+  "topic_id": "services",
+  "scenario": {
+    "id": "printer-settings-fault-isolation",
+    "label_zh": "约定先测试打印设置再判断故障",
+    "goal_zh": "说明打印机反复恢复彩色设置，并约定核对默认配置、测试后回报结果，若问题仍出现则进一步调查"
+  },
+  "participants": [
+    "Support agent",
+    "Anika"
+  ],
+  "context_zh": "虚构设备支持电话：用户询问共享办公室打印机的设置问题。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-30-s01",
+      "speaker": "Anika",
+      "text": "The printer continually switches back to colour even after I select black and white."
+    },
+    {
+      "id": "p10-b-30-s02",
+      "speaker": "Support agent",
+      "text": "Is colour still the default in your saved printer profile?"
+    },
+    {
+      "id": "p10-b-30-s03",
+      "speaker": "Anika",
+      "text": "I don't know. I only change the setting in the print window."
+    },
+    {
+      "id": "p10-b-30-s04",
+      "speaker": "Support agent",
+      "text": "That may explain it, but it could also be a software defect. Let us check the saved configuration before deciding."
+    },
+    {
+      "id": "p10-b-30-s05",
+      "speaker": "Anika",
+      "text": "I can open the profile after this call. What result do you need?"
+    },
+    {
+      "id": "p10-b-30-s06",
+      "speaker": "Support agent",
+      "text": "Set black and white as the saved choice, print one test page, then reopen the print window. Tell us whether the choice has stayed the same."
+    },
+    {
+      "id": "p10-b-30-s07",
+      "speaker": "Anika",
+      "text": "I'll try that with a blank test document and send you the result. If it reverts again, please investigate further."
+    },
+    {
+      "id": "p10-b-30-s08",
+      "speaker": "Support agent",
+      "text": "We will. I have added those test steps to your support ticket."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-da98bd392a6535b2",
+      "lemma": "continually",
+      "pos": "adv.",
+      "sense_zh": "反复地",
+      "sentence_ids": [
+        "p10-b-30-s01"
+      ],
+      "forms": [
+        "continually"
+      ],
+      "sense_id": "sense-staged-ox-da98bd392a6535b2-p10-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4658ca6ba821e88",
+      "lemma": "default",
+      "pos": "n.",
+      "sense_zh": "默认设置",
+      "sentence_ids": [
+        "p10-b-30-s02"
+      ],
+      "forms": [
+        "default"
+      ],
+      "sense_id": "sense-staged-ox-c4658ca6ba821e88-p10-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12e1e7664ce49163",
+      "lemma": "defect",
+      "pos": "n.",
+      "sense_zh": "缺陷",
+      "sentence_ids": [
+        "p10-b-30-s04"
+      ],
+      "forms": [
+        "defect"
+      ],
+      "sense_id": "sense-staged-ox-12e1e7664ce49163-p10-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d147fc4dca9a9c0c",
+      "lemma": "configuration",
+      "pos": "n.",
+      "sense_zh": "配置",
+      "sentence_ids": [
+        "p10-b-30-s04"
+      ],
+      "forms": [
+        "configuration"
+      ],
+      "sense_id": "sense-staged-ox-d147fc4dca9a9c0c-p10-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

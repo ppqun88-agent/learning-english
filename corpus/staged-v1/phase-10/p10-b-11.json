@@ -1,0 +1,116 @@
+{
+  "id": "p10-b-11",
+  "title_zh": "限定虚构听证会摘要的结论",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-hearing-summary-scope",
+    "label_zh": "限定虚构听证会摘要的结论",
+    "goal_zh": "区分官员声明与委员会决定，并约定摘要只保留材料中已有的听证内容"
+  },
+  "participants": [
+    "Tutor",
+    "Beth"
+  ],
+  "context_zh": "公民教育课堂使用虚构的国会听证会节录，学生修改摘要。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-11-s01",
+      "speaker": "Beth",
+      "text": "My summary says the congressional committee approved the new transport plan."
+    },
+    {
+      "id": "p10-b-11-s02",
+      "speaker": "Tutor",
+      "text": "Which passage establishes approval?"
+    },
+    {
+      "id": "p10-b-11-s03",
+      "speaker": "Beth",
+      "text": "The commissioner makes a declaration that her department supports it. I assumed the committee agreed."
+    },
+    {
+      "id": "p10-b-11-s04",
+      "speaker": "Tutor",
+      "text": "That is her statement, not a committee vote. Does the extract include a vote?"
+    },
+    {
+      "id": "p10-b-11-s05",
+      "speaker": "Beth",
+      "text": "No. I'll confine the summary to the commissioner's position and the questions that members asked."
+    },
+    {
+      "id": "p10-b-11-s06",
+      "speaker": "Tutor",
+      "text": "Good. Keep the plan's status open rather than adding an outcome the extract doesn't provide."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-489edbffadb73044",
+      "lemma": "congressional",
+      "pos": "adj.",
+      "sense_zh": "国会的",
+      "sentence_ids": [
+        "p10-b-11-s01"
+      ],
+      "forms": [
+        "congressional"
+      ],
+      "sense_id": "sense-staged-ox-489edbffadb73044-p10-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-022473781926d6f8",
+      "lemma": "commissioner",
+      "pos": "n.",
+      "sense_zh": "政府部门的专员或负责人",
+      "sentence_ids": [
+        "p10-b-11-s03"
+      ],
+      "forms": [
+        "commissioner"
+      ],
+      "sense_id": "sense-staged-ox-022473781926d6f8-p10-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a9fa9bc6aeab71b3",
+      "lemma": "declaration",
+      "pos": "n.",
+      "sense_zh": "正式声明",
+      "sentence_ids": [
+        "p10-b-11-s03"
+      ],
+      "forms": [
+        "declaration"
+      ],
+      "sense_id": "sense-staged-ox-a9fa9bc6aeab71b3-p10-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f4d1e145dafe4316",
+      "lemma": "confine",
+      "pos": "v.",
+      "sense_zh": "把……限制于",
+      "sentence_ids": [
+        "p10-b-11-s05"
+      ],
+      "forms": [
+        "confine"
+      ],
+      "sense_id": "sense-staged-ox-f4d1e145dafe4316-p10-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

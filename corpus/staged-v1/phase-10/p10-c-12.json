@@ -1,0 +1,121 @@
+{
+  "id": "p10-c-12",
+  "title_zh": "约定增设社团的非线上报名方式",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-access-rule-revision",
+    "label_zh": "调整社团报名规则以减少排斥",
+    "goal_zh": "指出仅限线上报名造成的排斥，并约定增设同等条件的电话报名"
+  },
+  "participants": [
+    "Grace",
+    "Idris"
+  ],
+  "context_zh": "社区活动社团的两名组织者检查拟发布的报名规则。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-12-s01",
+      "speaker": "Grace",
+      "text": "Our new form is online only. Will that deprive some members of a chance to take part?"
+    },
+    {
+      "id": "p10-c-12-s02",
+      "speaker": "Idris",
+      "text": "Yes. Several people have no internet access. That kind of exclusion is avoidable."
+    },
+    {
+      "id": "p10-c-12-s03",
+      "speaker": "Grace",
+      "text": "I wanted one process for everyone because equality matters."
+    },
+    {
+      "id": "p10-c-12-s04",
+      "speaker": "Idris",
+      "text": "The same process does not always give everyone the same chance. We should also check the rules for any other discrimination."
+    },
+    {
+      "id": "p10-c-12-s05",
+      "speaker": "Grace",
+      "text": "Could we accept telephone registrations using exactly the same questions and deadline?"
+    },
+    {
+      "id": "p10-c-12-s06",
+      "speaker": "Idris",
+      "text": "Yes, and the same places and prices must be available through both routes."
+    },
+    {
+      "id": "p10-c-12-s07",
+      "speaker": "Grace",
+      "text": "Agreed. I will add the telephone option and those conditions to the notice."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5b53268709db4d97",
+      "lemma": "deprive",
+      "pos": "v.",
+      "sense_zh": "剥夺；使丧失",
+      "sentence_ids": [
+        "p10-c-12-s01"
+      ],
+      "forms": [
+        "deprive"
+      ],
+      "sense_id": "sense-staged-ox-5b53268709db4d97-p10-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e37a87c17c1b3ecd",
+      "lemma": "exclusion",
+      "pos": "n.",
+      "sense_zh": "排斥；排除在外",
+      "sentence_ids": [
+        "p10-c-12-s02"
+      ],
+      "forms": [
+        "exclusion"
+      ],
+      "sense_id": "sense-staged-ox-e37a87c17c1b3ecd-p10-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0439cb65ce954e46",
+      "lemma": "equality",
+      "pos": "n.",
+      "sense_zh": "平等",
+      "sentence_ids": [
+        "p10-c-12-s03"
+      ],
+      "forms": [
+        "equality"
+      ],
+      "sense_id": "sense-staged-ox-0439cb65ce954e46-p10-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da606f53c1bd2fce",
+      "lemma": "discrimination",
+      "pos": "n.",
+      "sense_zh": "歧视；不公平区别对待",
+      "sentence_ids": [
+        "p10-c-12-s04"
+      ],
+      "forms": [
+        "discrimination"
+      ],
+      "sense_id": "sense-staged-ox-da606f53c1bd2fce-p10-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

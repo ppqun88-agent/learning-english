@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-39",
+  "title_zh": "约好债务咨询前的材料梳理",
+  "topic_id": "services",
+  "scenario": {
+    "id": "debt-advice-paperwork-appointment",
+    "label_zh": "约好债务咨询前的材料梳理",
+    "goal_zh": "说明债务手续造成的负担，并约定先与支持人员整理咨询材料而不代替专业判断"
+  },
+  "participants": [
+    "Gareth",
+    "Salma"
+  ],
+  "context_zh": "虚构债务咨询服务电话场景中，接待员帮助来访者安排材料整理，不提供财务或法律建议。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-39-s01",
+      "speaker": "Gareth",
+      "text": "I need advice about bankruptcy, but the forms are becoming a burden. I don't know which papers to bring."
+    },
+    {
+      "id": "p10-a-39-s02",
+      "speaker": "Salma",
+      "text": "Our adviser can discuss the options with you. Would a separate session to organize your paperwork help first?"
+    },
+    {
+      "id": "p10-a-39-s03",
+      "speaker": "Gareth",
+      "text": "Yes. I get lost in the bureaucracy before I even reach the person who can answer my questions."
+    },
+    {
+      "id": "p10-a-39-s04",
+      "speaker": "Salma",
+      "text": "A support worker has a slot on Monday at ten. They'll go through the document checklist, not recommend a financial decision."
+    },
+    {
+      "id": "p10-a-39-s05",
+      "speaker": "Gareth",
+      "text": "Please book that. I'd like to sort the papers before the advice appointment."
+    },
+    {
+      "id": "p10-a-39-s06",
+      "speaker": "Salma",
+      "text": "I've booked the preparation session for Monday at ten. I'll send the checklist, and the adviser will handle the questions about your options later."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d1aed116bfc123e4",
+      "lemma": "bankruptcy",
+      "pos": "n.",
+      "sense_zh": "破产",
+      "sentence_ids": [
+        "p10-a-39-s01"
+      ],
+      "forms": [
+        "bankruptcy"
+      ],
+      "sense_id": "sense-staged-ox-d1aed116bfc123e4-p10-a-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70aaa4dcc06d5e10",
+      "lemma": "burden",
+      "pos": "n.",
+      "sense_zh": "负担",
+      "sentence_ids": [
+        "p10-a-39-s01"
+      ],
+      "forms": [
+        "burden"
+      ],
+      "sense_id": "sense-staged-ox-70aaa4dcc06d5e10-p10-a-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5bcf18c9dd27bbe3",
+      "lemma": "bureaucracy",
+      "pos": "n.",
+      "sense_zh": "繁琐手续；官僚程序",
+      "sentence_ids": [
+        "p10-a-39-s03"
+      ],
+      "forms": [
+        "bureaucracy"
+      ],
+      "sense_id": "sense-staged-ox-5bcf18c9dd27bbe3-p10-a-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

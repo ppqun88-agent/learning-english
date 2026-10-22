@@ -1,0 +1,100 @@
+{
+  "id": "p10-b-37",
+  "title_zh": "约定修正虚构案件摘要中的定罪状态",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-custody-conviction-summary",
+    "label_zh": "约定修正虚构案件摘要中的定罪状态",
+    "goal_zh": "区分羁押与定罪，并依给定记录保留尚无判决结果的状态"
+  },
+  "participants": [
+    "Tutor",
+    "Dara"
+  ],
+  "context_zh": "新闻写作课堂使用虚构案件资料。材料包含证据描述，并说明嫌疑人仍被羁押、审判尚未开始；课堂重点是区分这些信息与有罪判决。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-37-s01",
+      "speaker": "Dara",
+      "text": "The case sheet says the suspect remains in custody. Can I write that there has been a conviction?"
+    },
+    {
+      "id": "p10-b-37-s02",
+      "speaker": "Tutor",
+      "text": "No. In this exercise, the trial has not begun. The sheet does not say a court has found the person guilty."
+    },
+    {
+      "id": "p10-b-37-s03",
+      "speaker": "Dara",
+      "text": "But the evidence section sounds very serious."
+    },
+    {
+      "id": "p10-b-37-s04",
+      "speaker": "Tutor",
+      "text": "That is not enough for us to write that a court will convict the suspect. Our summary must reflect the recorded status."
+    },
+    {
+      "id": "p10-b-37-s05",
+      "speaker": "Dara",
+      "text": "Then I'll remove the sentence about a conviction and say that the suspect is in custody awaiting trial."
+    },
+    {
+      "id": "p10-b-37-s06",
+      "speaker": "Tutor",
+      "text": "Yes. Keep that distinction clear and do not predict the result."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-78f2a938d069304d",
+      "lemma": "custody",
+      "pos": "n.",
+      "sense_zh": "羁押",
+      "sentence_ids": [
+        "p10-b-37-s01"
+      ],
+      "forms": [
+        "custody"
+      ],
+      "sense_id": "sense-staged-ox-78f2a938d069304d-p10-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-053a6b312502581e",
+      "lemma": "conviction",
+      "pos": "n.",
+      "sense_zh": "定罪；有罪判决",
+      "sentence_ids": [
+        "p10-b-37-s01"
+      ],
+      "forms": [
+        "conviction"
+      ],
+      "sense_id": "sense-staged-ox-053a6b312502581e-p10-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10f939a8c607bb3a",
+      "lemma": "convict",
+      "pos": "v.",
+      "sense_zh": "判定有罪",
+      "sentence_ids": [
+        "p10-b-37-s04"
+      ],
+      "forms": [
+        "convict"
+      ],
+      "sense_id": "sense-staged-ox-10f939a8c607bb3a-p10-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

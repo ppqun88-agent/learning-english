@@ -1,0 +1,100 @@
+{
+  "id": "p10-a-22",
+  "title_zh": "索取社区阅读项目资助的书面条件",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-grant-autonomy-conditions",
+    "label_zh": "明确社区资助方案的受益人与自主范围",
+    "goal_zh": "明确资助受益对象和活动安排的自主范围，并约定收到书面条件后再决定是否接受"
+  },
+  "participants": [
+    "Imogen",
+    "Ravi"
+  ],
+  "context_zh": "社区阅读项目负责人向资助方询问一项尚未接受的支持方案。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-22-s01",
+      "speaker": "Imogen",
+      "text": "Your financial backing could keep our reading sessions running. Who do you regard as the main beneficiary?"
+    },
+    {
+      "id": "p10-a-22-s02",
+      "speaker": "Ravi",
+      "text": "The local residents who use the sessions, particularly people who can't afford paid classes."
+    },
+    {
+      "id": "p10-a-22-s03",
+      "speaker": "Imogen",
+      "text": "Would our volunteers retain autonomy over the books and activities? We don't want a sponsor choosing the reading list."
+    },
+    {
+      "id": "p10-a-22-s04",
+      "speaker": "Ravi",
+      "text": "Yes. The offer requires a short spending report, but it doesn't give us control over the programme."
+    },
+    {
+      "id": "p10-a-22-s05",
+      "speaker": "Imogen",
+      "text": "Please put those conditions in writing. We'll review them before deciding whether to accept."
+    },
+    {
+      "id": "p10-a-22-s06",
+      "speaker": "Ravi",
+      "text": "Of course. I'll send the written offer, including that limit on our role."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e73badc653b63ab2",
+      "lemma": "backing",
+      "pos": "n.",
+      "sense_zh": "支持；资金支持",
+      "sentence_ids": [
+        "p10-a-22-s01"
+      ],
+      "forms": [
+        "backing"
+      ],
+      "sense_id": "sense-staged-ox-e73badc653b63ab2-p10-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da455a8bf60e722c",
+      "lemma": "beneficiary",
+      "pos": "n.",
+      "sense_zh": "受益者",
+      "sentence_ids": [
+        "p10-a-22-s01"
+      ],
+      "forms": [
+        "beneficiary"
+      ],
+      "sense_id": "sense-staged-ox-da455a8bf60e722c-p10-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-edbbfca93c7ac53b",
+      "lemma": "autonomy",
+      "pos": "n.",
+      "sense_zh": "自主权",
+      "sentence_ids": [
+        "p10-a-22-s03"
+      ],
+      "forms": [
+        "autonomy"
+      ],
+      "sense_id": "sense-staged-ox-edbbfca93c7ac53b-p10-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

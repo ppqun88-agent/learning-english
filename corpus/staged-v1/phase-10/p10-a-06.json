@@ -1,0 +1,84 @@
+{
+  "id": "p10-a-06",
+  "title_zh": "选定海湾内停泊的游船路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "sailing-anchor-bay-route-choice",
+    "label_zh": "确定海湾停泊的游船路线",
+    "goal_zh": "确认短程游船的停泊地点，并选择留在海湾内的路线"
+  },
+  "participants": [
+    "Imani",
+    "Captain Ellis"
+  ],
+  "context_zh": "游客在出发前向游船船长询问两条当日可选路线。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-06-s01",
+      "speaker": "Imani",
+      "text": "Does the short boat trip leave the bay?"
+    },
+    {
+      "id": "p10-a-06-s02",
+      "speaker": "Captain Ellis",
+      "text": "No. We stay inside it and stop near the sheltered eastern shore."
+    },
+    {
+      "id": "p10-a-06-s03",
+      "speaker": "Imani",
+      "text": "Will we keep moving while we have lunch?"
+    },
+    {
+      "id": "p10-a-06-s04",
+      "speaker": "Captain Ellis",
+      "text": "We'll drop the anchor at the lunch stop, if conditions remain suitable. I'll make that decision on the water."
+    },
+    {
+      "id": "p10-a-06-s05",
+      "speaker": "Imani",
+      "text": "Then I'll choose the short route. I don't want the trip out along the coast."
+    },
+    {
+      "id": "p10-a-06-s06",
+      "speaker": "Captain Ellis",
+      "text": "The bay route it is. Please join the safety briefing before we board."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c58567f40e93bcbb",
+      "lemma": "bay",
+      "pos": "n.",
+      "sense_zh": "海湾",
+      "sentence_ids": [
+        "p10-a-06-s01"
+      ],
+      "forms": [
+        "bay"
+      ],
+      "sense_id": "sense-staged-ox-c58567f40e93bcbb-p10-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10194da2bd9d6834",
+      "lemma": "anchor",
+      "pos": "n.",
+      "sense_zh": "锚",
+      "sentence_ids": [
+        "p10-a-06-s04"
+      ],
+      "forms": [
+        "anchor"
+      ],
+      "sense_id": "sense-staged-ox-10194da2bd9d6834-p10-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

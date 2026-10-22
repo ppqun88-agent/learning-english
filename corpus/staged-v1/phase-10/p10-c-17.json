@@ -1,0 +1,121 @@
+{
+  "id": "p10-c-17",
+  "title_zh": "约好按收集点要求处理剩余涂料",
+  "topic_id": "home",
+  "scenario": {
+    "id": "paint-leftovers-collection-enquiry",
+    "label_zh": "询问剩余涂料的分类与收集",
+    "goal_zh": "询问剩余涂料与空罐的处理方式，并约定先保留原罐查清接收要求"
+  },
+  "participants": [
+    "Mina",
+    "Arthur"
+  ],
+  "context_zh": "居民向社区废物收集点询问一次家庭刷漆后的剩余材料。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-17-s01",
+      "speaker": "Mina",
+      "text": "I have some excess paint left after decorating. How should I dispose of it?"
+    },
+    {
+      "id": "p10-c-17-s02",
+      "speaker": "Arthur",
+      "text": "Our paint disposal point accepts some products, but I need the label details before I can tell you whether yours is included."
+    },
+    {
+      "id": "p10-c-17-s03",
+      "speaker": "Mina",
+      "text": "Can I discard the cans once I have poured the paint into a smaller container?"
+    },
+    {
+      "id": "p10-c-17-s04",
+      "speaker": "Arthur",
+      "text": "Please keep it in the original cans for now. We need those labels to check the collection rules."
+    },
+    {
+      "id": "p10-c-17-s05",
+      "speaker": "Mina",
+      "text": "One can is empty and two still contain paint. Should I send details of all three?"
+    },
+    {
+      "id": "p10-c-17-s06",
+      "speaker": "Arthur",
+      "text": "Yes. Send the product names and tell us which can is empty; I will check the requirements for each."
+    },
+    {
+      "id": "p10-c-17-s07",
+      "speaker": "Mina",
+      "text": "I will do that and wait for your reply before moving or throwing anything away."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e28ba5a4b99d0d15",
+      "lemma": "excess",
+      "pos": "adj.",
+      "sense_zh": "多余的；过量的",
+      "sentence_ids": [
+        "p10-c-17-s01"
+      ],
+      "forms": [
+        "excess"
+      ],
+      "sense_id": "sense-staged-ox-e28ba5a4b99d0d15-p10-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-721b1fcc2f98db99",
+      "lemma": "dispose",
+      "pos": "v.",
+      "sense_zh": "处置；处理",
+      "sentence_ids": [
+        "p10-c-17-s01"
+      ],
+      "forms": [
+        "dispose"
+      ],
+      "sense_id": "sense-staged-ox-721b1fcc2f98db99-p10-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b7da7b0e858366a4",
+      "lemma": "disposal",
+      "pos": "n.",
+      "sense_zh": "废物处理",
+      "sentence_ids": [
+        "p10-c-17-s02"
+      ],
+      "forms": [
+        "disposal"
+      ],
+      "sense_id": "sense-staged-ox-b7da7b0e858366a4-p10-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cceabc8ae91f1c21",
+      "lemma": "discard",
+      "pos": "v.",
+      "sense_zh": "丢弃",
+      "sentence_ids": [
+        "p10-c-17-s03"
+      ],
+      "forms": [
+        "discard"
+      ],
+      "sense_id": "sense-staged-ox-cceabc8ae91f1c21-p10-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

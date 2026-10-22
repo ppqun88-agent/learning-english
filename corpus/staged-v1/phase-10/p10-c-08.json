@@ -1,0 +1,100 @@
+{
+  "id": "p10-c-08",
+  "title_zh": "约定修订虚构政权展板的抗议表述",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-regime-source-caption",
+    "label_zh": "区分虚构政权材料中的批评与反抗",
+    "goal_zh": "根据材料区分公开谴责与违抗禁令，并约定在展板中分别说明"
+  },
+  "participants": [
+    "Sana",
+    "Peter"
+  ],
+  "context_zh": "两名学生依据虚构历史案例中的报纸与剧院记录制作课堂展板。",
+  "author": "author-phase10-c",
+  "sentences": [
+    {
+      "id": "p10-c-08-s01",
+      "speaker": "Sana",
+      "text": "Our caption says the newspaper tried to overthrow the dictator. Is that in the case file?"
+    },
+    {
+      "id": "p10-c-08-s02",
+      "speaker": "Peter",
+      "text": "No. The editorial does denounce his censorship, but it does not call for his removal."
+    },
+    {
+      "id": "p10-c-08-s03",
+      "speaker": "Sana",
+      "text": "What about the actors? The file says they performed the banned play."
+    },
+    {
+      "id": "p10-c-08-s04",
+      "speaker": "Peter",
+      "text": "That means they chose to defy the ban. It does not prove they shared every view in the editorial."
+    },
+    {
+      "id": "p10-c-08-s05",
+      "speaker": "Sana",
+      "text": "Then we need two separate descriptions: public criticism in the newspaper, and a prohibited performance at the theatre."
+    },
+    {
+      "id": "p10-c-08-s06",
+      "speaker": "Peter",
+      "text": "Exactly. I will replace the overthrow claim with those two descriptions and cite each record separately."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7765ed82c3955ec6",
+      "lemma": "dictator",
+      "pos": "n.",
+      "sense_zh": "独裁者",
+      "sentence_ids": [
+        "p10-c-08-s01"
+      ],
+      "forms": [
+        "dictator"
+      ],
+      "sense_id": "sense-staged-ox-7765ed82c3955ec6-p10-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73e7f5691bebf5f9",
+      "lemma": "denounce",
+      "pos": "v.",
+      "sense_zh": "公开谴责",
+      "sentence_ids": [
+        "p10-c-08-s02"
+      ],
+      "forms": [
+        "denounce"
+      ],
+      "sense_id": "sense-staged-ox-73e7f5691bebf5f9-p10-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f5950a4760d3e057",
+      "lemma": "defy",
+      "pos": "v.",
+      "sense_zh": "违抗；公然反抗",
+      "sentence_ids": [
+        "p10-c-08-s04"
+      ],
+      "forms": [
+        "defy"
+      ],
+      "sense_id": "sense-staged-ox-f5950a4760d3e057-p10-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

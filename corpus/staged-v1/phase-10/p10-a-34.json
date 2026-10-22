@@ -1,0 +1,84 @@
+{
+  "id": "p10-a-34",
+  "title_zh": "确认社区午餐的供餐与横幅分工",
+  "topic_id": "food",
+  "scenario": {
+    "id": "kitchen-catering-banner-details",
+    "label_zh": "确认社区午餐供餐与指示横幅分工",
+    "goal_zh": "确认厨房可为四十人提供午餐，并约定活动方制作指向侧门的横幅"
+  },
+  "participants": [
+    "Etta",
+    "Malik"
+  ],
+  "context_zh": "社区午餐筹办人与活动中心厨房负责人协调当天安排。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-34-s01",
+      "speaker": "Etta",
+      "text": "Can your kitchen cater for forty people at our community lunch next Tuesday?"
+    },
+    {
+      "id": "p10-a-34-s02",
+      "speaker": "Malik",
+      "text": "Yes, if we use the soup-and-roll menu we discussed. Lunch will be served through the side door."
+    },
+    {
+      "id": "p10-a-34-s03",
+      "speaker": "Etta",
+      "text": "People usually go to the front entrance. We'll need a banner directing them to the lunch."
+    },
+    {
+      "id": "p10-a-34-s04",
+      "speaker": "Malik",
+      "text": "Could your volunteers make that? My team can handle the food, but not the signs."
+    },
+    {
+      "id": "p10-a-34-s05",
+      "speaker": "Etta",
+      "text": "Certainly. We'll put 'Community lunch: side entrance' on it and hang it beside the front gate."
+    },
+    {
+      "id": "p10-a-34-s06",
+      "speaker": "Malik",
+      "text": "Then we're set: the kitchen prepares forty lunches, and your team handles the banner."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dc6fe553165a589c",
+      "lemma": "cater",
+      "pos": "v.",
+      "sense_zh": "提供餐饮服务",
+      "sentence_ids": [
+        "p10-a-34-s01"
+      ],
+      "forms": [
+        "cater"
+      ],
+      "sense_id": "sense-staged-ox-dc6fe553165a589c-p10-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c649b53b7c18c3d",
+      "lemma": "banner",
+      "pos": "n.",
+      "sense_zh": "横幅",
+      "sentence_ids": [
+        "p10-a-34-s03"
+      ],
+      "forms": [
+        "banner"
+      ],
+      "sense_id": "sense-staged-ox-0c649b53b7c18c3d-p10-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

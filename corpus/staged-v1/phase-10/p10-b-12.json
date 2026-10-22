@@ -1,0 +1,100 @@
+{
+  "id": "p10-b-12",
+  "title_zh": "约定住院朋友希望的陪伴方式",
+  "topic_id": "health",
+  "scenario": {
+    "id": "hospital-companion-visit-boundaries",
+    "label_zh": "约定住院朋友希望的陪伴方式",
+    "goal_zh": "询问朋友是否希望有人陪伴，并约定简短探视而不追问病情"
+  },
+  "participants": [
+    "Ruth",
+    "Ben"
+  ],
+  "context_zh": "虚构医院探视前的电话：朋友讨论希望怎样获得陪伴，不涉及医疗建议。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-12-s01",
+      "speaker": "Ben",
+      "text": "Would you like a companion for your first afternoon back on the ward, or would you rather rest?"
+    },
+    {
+      "id": "p10-b-12-s02",
+      "speaker": "Ruth",
+      "text": "Company would be nice. I just don't want to spend the whole visit explaining my condition."
+    },
+    {
+      "id": "p10-b-12-s03",
+      "speaker": "Ben",
+      "text": "I understand. I can bring a book, and we can talk about something else or simply sit together."
+    },
+    {
+      "id": "p10-b-12-s04",
+      "speaker": "Ruth",
+      "text": "Thank you. People mean to show compassion, but answering the same questions is exhausting."
+    },
+    {
+      "id": "p10-b-12-s05",
+      "speaker": "Ben",
+      "text": "I'll check with you before I come, as a courtesy, and keep the visit short."
+    },
+    {
+      "id": "p10-b-12-s06",
+      "speaker": "Ruth",
+      "text": "Please do. Half an hour of ordinary conversation sounds lovely."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fc5b010eb99144e4",
+      "lemma": "companion",
+      "pos": "n.",
+      "sense_zh": "陪伴者",
+      "sentence_ids": [
+        "p10-b-12-s01"
+      ],
+      "forms": [
+        "companion"
+      ],
+      "sense_id": "sense-staged-ox-fc5b010eb99144e4-p10-b-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6457687d2da218f",
+      "lemma": "compassion",
+      "pos": "n.",
+      "sense_zh": "同情；关怀",
+      "sentence_ids": [
+        "p10-b-12-s04"
+      ],
+      "forms": [
+        "compassion"
+      ],
+      "sense_id": "sense-staged-ox-f6457687d2da218f-p10-b-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a64e705754421f04",
+      "lemma": "courtesy",
+      "pos": "n.",
+      "sense_zh": "礼貌的举动",
+      "sentence_ids": [
+        "p10-b-12-s05"
+      ],
+      "forms": [
+        "courtesy"
+      ],
+      "sense_id": "sense-staged-ox-a64e705754421f04-p10-b-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

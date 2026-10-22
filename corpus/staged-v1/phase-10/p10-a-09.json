@@ -1,0 +1,138 @@
+{
+  "id": "p10-a-09",
+  "title_zh": "停用破损实验装置并约定交技术员处理",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "lab-apparatus-stop-and-store",
+    "label_zh": "停止使用损坏实验装置并安排存放",
+    "goal_zh": "说明昨日管道破裂情况，停止本次演示并约定将装置标注后交技术员检查"
+  },
+  "participants": [
+    "Professor Hall",
+    "Anika"
+  ],
+  "context_zh": "虚构教学实验室场景中，老师与助手准备演示时核对设备状态。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-09-s01",
+      "speaker": "Professor Hall",
+      "text": "Why is the apparatus still on the bench instead of in the equipment cabinet?"
+    },
+    {
+      "id": "p10-a-09-s02",
+      "speaker": "Anika",
+      "text": "A tube burst during yesterday's test. I left everything disconnected for the technician."
+    },
+    {
+      "id": "p10-a-09-s03",
+      "speaker": "Professor Hall",
+      "text": "Was the chamber damaged as well?"
+    },
+    {
+      "id": "p10-a-09-s04",
+      "speaker": "Anika",
+      "text": "I don't know. I haven't opened it or tried another test."
+    },
+    {
+      "id": "p10-a-09-s05",
+      "speaker": "Professor Hall",
+      "text": "Then all use must cease until the technician has checked it. We won't run today's demonstration."
+    },
+    {
+      "id": "p10-a-09-s06",
+      "speaker": "Anika",
+      "text": "I'll label it as out of use and ask the technician where it should be stored."
+    },
+    {
+      "id": "p10-a-09-s07",
+      "speaker": "Professor Hall",
+      "text": "Good. Leave it disconnected here until they take over."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e3ef327585f5edd4",
+      "lemma": "apparatus",
+      "pos": "n.",
+      "sense_zh": "实验装置",
+      "sentence_ids": [
+        "p10-a-09-s01"
+      ],
+      "forms": [
+        "apparatus"
+      ],
+      "sense_id": "sense-staged-ox-e3ef327585f5edd4-p10-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da1f3cbf2538b716",
+      "lemma": "cabinet",
+      "pos": "n.",
+      "sense_zh": "储物柜",
+      "sentence_ids": [
+        "p10-a-09-s01"
+      ],
+      "forms": [
+        "cabinet"
+      ],
+      "sense_id": "sense-staged-ox-da1f3cbf2538b716-p10-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-783bda34ca11e26d",
+      "lemma": "burst",
+      "pos": "v.",
+      "sense_zh": "爆裂",
+      "sentence_ids": [
+        "p10-a-09-s02"
+      ],
+      "forms": [
+        "burst"
+      ],
+      "forms_rationale_zh": "burst 为动词 burst 的过去式，与原形同形。",
+      "sense_id": "sense-staged-ox-783bda34ca11e26d-p10-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da5e345ac8b07876",
+      "lemma": "chamber",
+      "pos": "n.",
+      "sense_zh": "装置中的密闭室",
+      "sentence_ids": [
+        "p10-a-09-s03"
+      ],
+      "forms": [
+        "chamber"
+      ],
+      "sense_id": "sense-staged-ox-da5e345ac8b07876-p10-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70dae26146d5afaf",
+      "lemma": "cease",
+      "pos": "v.",
+      "sense_zh": "停止",
+      "sentence_ids": [
+        "p10-a-09-s05"
+      ],
+      "forms": [
+        "cease"
+      ],
+      "sense_id": "sense-staged-ox-70dae26146d5afaf-p10-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

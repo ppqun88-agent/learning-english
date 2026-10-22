@@ -1,0 +1,116 @@
+{
+  "id": "p10-a-26",
+  "title_zh": "雕刻时受伤后停下并等候现场帮助",
+  "topic_id": "health",
+  "scenario": {
+    "id": "carving-workshop-injury-pause",
+    "label_zh": "雕刻练习中受伤后请求现场帮助",
+    "goal_zh": "说明雕刻时刀片打滑造成的出血，停止操作并请现场急救人员前来"
+  },
+  "participants": [
+    "Finn",
+    "Marta"
+  ],
+  "context_zh": "虚构手工课场景中，学员受伤后立即向老师求助；对话不提供治疗步骤。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-26-s01",
+      "speaker": "Finn",
+      "text": "I was trying to carve this chunk of wood, and the blade slipped against my finger."
+    },
+    {
+      "id": "p10-a-26-s02",
+      "speaker": "Marta",
+      "text": "Put the tool down and stay with me. Is your finger bleeding?"
+    },
+    {
+      "id": "p10-a-26-s03",
+      "speaker": "Finn",
+      "text": "Yes. It started to bleed a moment ago, and I'm feeling shaky."
+    },
+    {
+      "id": "p10-a-26-s04",
+      "speaker": "Marta",
+      "text": "I've called the workshop's first-aid person. She's coming over now."
+    },
+    {
+      "id": "p10-a-26-s05",
+      "speaker": "Finn",
+      "text": "All right. The tool is down. I'm not going to continue."
+    },
+    {
+      "id": "p10-a-26-s06",
+      "speaker": "Marta",
+      "text": "Good. We'll stop the activity and let her assess what help you need."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6a4216eedad9b071",
+      "lemma": "carve",
+      "pos": "v.",
+      "sense_zh": "雕刻",
+      "sentence_ids": [
+        "p10-a-26-s01"
+      ],
+      "forms": [
+        "carve"
+      ],
+      "sense_id": "sense-staged-ox-6a4216eedad9b071-p10-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5604b2cad31f1b6a",
+      "lemma": "chunk",
+      "pos": "n.",
+      "sense_zh": "厚块；大块",
+      "sentence_ids": [
+        "p10-a-26-s01"
+      ],
+      "forms": [
+        "chunk"
+      ],
+      "sense_id": "sense-staged-ox-5604b2cad31f1b6a-p10-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a297750bc05a2d4",
+      "lemma": "blade",
+      "pos": "n.",
+      "sense_zh": "刀片；刀刃",
+      "sentence_ids": [
+        "p10-a-26-s01"
+      ],
+      "forms": [
+        "blade"
+      ],
+      "sense_id": "sense-staged-ox-2a297750bc05a2d4-p10-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c1e9511e5c634a85",
+      "lemma": "bleed",
+      "pos": "v.",
+      "sense_zh": "流血",
+      "sentence_ids": [
+        "p10-a-26-s03"
+      ],
+      "forms": [
+        "bleed"
+      ],
+      "sense_id": "sense-staged-ox-c1e9511e5c634a85-p10-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

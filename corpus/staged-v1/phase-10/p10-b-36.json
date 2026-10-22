@@ -1,0 +1,100 @@
+{
+  "id": "p10-b-36",
+  "title_zh": "选择从香草插枝开始参加种植课",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "herb-cutting-workshop-choice",
+    "label_zh": "选择从香草插枝开始参加种植课",
+    "goal_zh": "表达对繁殖香草的好奇，并选定小组课程中的插枝练习"
+  },
+  "participants": [
+    "Tutor",
+    "Jenna"
+  ],
+  "context_zh": "社区花园课程报名处，初学者询问当日香草繁殖示范。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-36-s01",
+      "speaker": "Jenna",
+      "text": "I've always wanted to cultivate herbs, but I only have a windowsill."
+    },
+    {
+      "id": "p10-b-36-s02",
+      "speaker": "Tutor",
+      "text": "You can start with one small pot. In today's session, would you like to start from seed or take a cutting from the mint plant?"
+    },
+    {
+      "id": "p10-b-36-s03",
+      "speaker": "Jenna",
+      "text": "A piece of the existing plant can grow into a new one? Now you've really sparked my curiosity."
+    },
+    {
+      "id": "p10-b-36-s04",
+      "speaker": "Tutor",
+      "text": "It can, and I will demonstrate our method in the session. You do not need to bring any equipment."
+    },
+    {
+      "id": "p10-b-36-s05",
+      "speaker": "Jenna",
+      "text": "I'll join the cutting group, then. I would rather learn with one small plant than start a whole tray of seeds."
+    },
+    {
+      "id": "p10-b-36-s06",
+      "speaker": "Tutor",
+      "text": "Come to the potting table at two. We will label your pot so you can keep track of it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0844635fbd05e8b0",
+      "lemma": "cultivate",
+      "pos": "v.",
+      "sense_zh": "种植；栽培",
+      "sentence_ids": [
+        "p10-b-36-s01"
+      ],
+      "forms": [
+        "cultivate"
+      ],
+      "sense_id": "sense-staged-ox-0844635fbd05e8b0-p10-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae199350d4331ed6",
+      "lemma": "cutting",
+      "pos": "n.",
+      "sense_zh": "用于扦插的枝条",
+      "sentence_ids": [
+        "p10-b-36-s02"
+      ],
+      "forms": [
+        "cutting"
+      ],
+      "sense_id": "sense-staged-ox-ae199350d4331ed6-p10-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f7dd5a8518673a9d",
+      "lemma": "curiosity",
+      "pos": "n.",
+      "sense_zh": "好奇心",
+      "sentence_ids": [
+        "p10-b-36-s03"
+      ],
+      "forms": [
+        "curiosity"
+      ],
+      "sense_id": "sense-staged-ox-f7dd5a8518673a9d-p10-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

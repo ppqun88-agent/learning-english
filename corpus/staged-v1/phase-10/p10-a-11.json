@@ -1,0 +1,121 @@
+{
+  "id": "p10-a-11",
+  "title_zh": "点购半份三明治与薄荷茶",
+  "topic_id": "food",
+  "scenario": {
+    "id": "cafe-small-meal-drink-choice",
+    "label_zh": "点购小份午餐与饮料",
+    "goal_zh": "说明食量较小，选择半份三明治及一杯不加糖的薄荷茶"
+  },
+  "participants": [
+    "Nia",
+    "Marco"
+  ],
+  "context_zh": "咖啡馆顾客根据胃口选择午餐份量及饮品。",
+  "author": "author-phase10-a",
+  "sentences": [
+    {
+      "id": "p10-a-11-s01",
+      "speaker": "Nia",
+      "text": "The sandwiches look appealing, but I don't have much of an appetite today. Can I get a half portion?"
+    },
+    {
+      "id": "p10-a-11-s02",
+      "speaker": "Marco",
+      "text": "Yes. Half a cheese sandwich comes with a small salad."
+    },
+    {
+      "id": "p10-a-11-s03",
+      "speaker": "Nia",
+      "text": "I'll have that. What hot beverage would you suggest without milk?"
+    },
+    {
+      "id": "p10-a-11-s04",
+      "speaker": "Marco",
+      "text": "Our mint blend is popular. It's a mixture of two kinds of mint, with no milk added."
+    },
+    {
+      "id": "p10-a-11-s05",
+      "speaker": "Nia",
+      "text": "A cup of that, please, and no sugar."
+    },
+    {
+      "id": "p10-a-11-s06",
+      "speaker": "Marco",
+      "text": "So that's half a cheese sandwich with salad and an unsweetened mint tea."
+    },
+    {
+      "id": "p10-a-11-s07",
+      "speaker": "Nia",
+      "text": "That's right, thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1ce3d4113d86dc88",
+      "lemma": "appealing",
+      "pos": "adj.",
+      "sense_zh": "有吸引力的",
+      "sentence_ids": [
+        "p10-a-11-s01"
+      ],
+      "forms": [
+        "appealing"
+      ],
+      "sense_id": "sense-staged-ox-1ce3d4113d86dc88-p10-a-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9b18a5026d785ddb",
+      "lemma": "appetite",
+      "pos": "n.",
+      "sense_zh": "食欲",
+      "sentence_ids": [
+        "p10-a-11-s01"
+      ],
+      "forms": [
+        "appetite"
+      ],
+      "sense_id": "sense-staged-ox-9b18a5026d785ddb-p10-a-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54b62671ba12c5fc",
+      "lemma": "beverage",
+      "pos": "n.",
+      "sense_zh": "饮料",
+      "sentence_ids": [
+        "p10-a-11-s03"
+      ],
+      "forms": [
+        "beverage"
+      ],
+      "sense_id": "sense-staged-ox-54b62671ba12c5fc-p10-a-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ddb6f493b08d18e",
+      "lemma": "blend",
+      "pos": "n.",
+      "sense_zh": "混合饮品；混合物",
+      "sentence_ids": [
+        "p10-a-11-s04"
+      ],
+      "forms": [
+        "blend"
+      ],
+      "sense_id": "sense-staged-ox-5ddb6f493b08d18e-p10-a-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

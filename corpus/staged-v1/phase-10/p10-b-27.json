@@ -1,0 +1,84 @@
+{
+  "id": "p10-b-27",
+  "title_zh": "询问旧商店改图书馆提案的意见提交方式",
+  "topic_id": "community",
+  "scenario": {
+    "id": "us-library-conversion-inquiry",
+    "label_zh": "询问旧商店改图书馆提案的意见提交方式",
+    "goal_zh": "确认美国市议员办公室只在收集提案意见，并决定按公告提交出入口问题"
+  },
+  "participants": [
+    "Aide",
+    "Grace"
+  ],
+  "context_zh": "虚构美国城镇场景，居民询问把空置商店改为图书馆的提案。",
+  "author": "author-phase10-b",
+  "sentences": [
+    {
+      "id": "p10-b-27-s01",
+      "speaker": "Grace",
+      "text": "Is the councilor supporting the conversion of the old grocery store into a library?"
+    },
+    {
+      "id": "p10-b-27-s02",
+      "speaker": "Aide",
+      "text": "She has not taken a position yet. Her office is collecting comments before the public meeting."
+    },
+    {
+      "id": "p10-b-27-s03",
+      "speaker": "Grace",
+      "text": "I like the idea, but the proposed entrance is far from the bus stop. Where can I raise that?"
+    },
+    {
+      "id": "p10-b-27-s04",
+      "speaker": "Aide",
+      "text": "The meeting notice links to a comment form. You can describe the entrance concern there without taking a position on every part of the proposal."
+    },
+    {
+      "id": "p10-b-27-s05",
+      "speaker": "Grace",
+      "text": "I'll submit that question through the form and ask where the accessible entrance would be."
+    },
+    {
+      "id": "p10-b-27-s06",
+      "speaker": "Aide",
+      "text": "Please include the proposal number from the notice so your comment reaches the right file."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-486e875dc3bb796b",
+      "lemma": "councilor",
+      "pos": "n.",
+      "sense_zh": "美国地方议会议员",
+      "sentence_ids": [
+        "p10-b-27-s01"
+      ],
+      "forms": [
+        "councilor"
+      ],
+      "sense_id": "sense-staged-ox-486e875dc3bb796b-p10-b-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cbecfd79e899738a",
+      "lemma": "conversion",
+      "pos": "n.",
+      "sense_zh": "用途改建；改造",
+      "sentence_ids": [
+        "p10-b-27-s01"
+      ],
+      "forms": [
+        "conversion"
+      ],
+      "sense_id": "sense-staged-ox-cbecfd79e899738a-p10-b-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
