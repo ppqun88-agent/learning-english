@@ -1,0 +1,100 @@
+{
+  "id": "p11-c-33",
+  "title_zh": "约定限定发明展签的首创说法",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "invention-display-origin-scope",
+    "label_zh": "约定限定发明展签的首创说法",
+    "goal_zh": "区分专利记录与发明起源的证据，并约定保留有依据的先驱描述而不宣称最早首创"
+  },
+  "participants": [
+    "Cora",
+    "Isaac"
+  ],
+  "context_zh": "博物馆教育项目的两位成人学员讨论虚构工程师的档案展签。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-33-s01",
+      "speaker": "Cora",
+      "text": "Did this water-saving valve originate with Ellis? Our label calls her the first person ever to make one."
+    },
+    {
+      "id": "p11-c-33-s02",
+      "speaker": "Isaac",
+      "text": "The archive shows a patent in her name from 1924, but it also includes a sketch of a similar valve by another engineer in 1918."
+    },
+    {
+      "id": "p11-c-33-s03",
+      "speaker": "Cora",
+      "text": "So the patent doesn’t settle who had the idea first."
+    },
+    {
+      "id": "p11-c-33-s04",
+      "speaker": "Isaac",
+      "text": "Right. The local engineering journal calls her a pioneer in bringing the design into everyday use, and gives examples from several buildings."
+    },
+    {
+      "id": "p11-c-33-s05",
+      "speaker": "Cora",
+      "text": "Let’s describe that work and its source, but remove the claim that she invented the first valve of its kind."
+    },
+    {
+      "id": "p11-c-33-s06",
+      "speaker": "Isaac",
+      "text": "Agreed. I’ll keep the patent date as a separate fact, not proof of priority."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bcbc8ed4cd7284bb",
+      "lemma": "originate",
+      "pos": "v.",
+      "sense_zh": "起源；始创",
+      "sentence_ids": [
+        "p11-c-33-s01"
+      ],
+      "forms": [
+        "originate"
+      ],
+      "sense_id": "sense-staged-ox-bcbc8ed4cd7284bb-p11-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08c2cc6cd0c57033",
+      "lemma": "patent",
+      "pos": "n.",
+      "sense_zh": "专利",
+      "sentence_ids": [
+        "p11-c-33-s02"
+      ],
+      "forms": [
+        "patent"
+      ],
+      "sense_id": "sense-staged-ox-08c2cc6cd0c57033-p11-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fceb80f8d637ff83",
+      "lemma": "pioneer",
+      "pos": "n.",
+      "sense_zh": "先驱；开拓者",
+      "sentence_ids": [
+        "p11-c-33-s04"
+      ],
+      "forms": [
+        "pioneer"
+      ],
+      "sense_id": "sense-staged-ox-fceb80f8d637ff83-p11-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

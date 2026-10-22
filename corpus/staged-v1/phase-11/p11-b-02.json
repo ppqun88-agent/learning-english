@@ -1,0 +1,105 @@
+{
+  "id": "p11-b-02",
+  "title_zh": "把婴儿探视改为视频通话",
+  "topic_id": "health",
+  "scenario": {
+    "id": "fictional-infant-visit-video-alternative",
+    "label_zh": "把婴儿探视改为视频通话",
+    "goal_zh": "说明访客担心咳嗽带来的感染风险，并约定改用视频探视"
+  },
+  "participants": [
+    "Owen",
+    "Mina"
+  ],
+  "context_zh": "虚构病房探视沟通。访客向接待员说明自己的顾虑，选择不进入病房；不提供诊断或个人治疗建议。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-02-s01",
+      "speaker": "Owen",
+      "text": "I've come to visit my sister and her infant, but I've developed a cough."
+    },
+    {
+      "id": "p11-b-02-s02",
+      "speaker": "Mina",
+      "text": "Thank you for telling me before going into the ward."
+    },
+    {
+      "id": "p11-b-02-s03",
+      "speaker": "Owen",
+      "text": "I brought a mask, but I'm still worried I could infect the baby. Can I speak to my sister another way?"
+    },
+    {
+      "id": "p11-b-02-s04",
+      "speaker": "Mina",
+      "text": "We can help her set up a video call if she'd like one. Shall I ask her?"
+    },
+    {
+      "id": "p11-b-02-s05",
+      "speaker": "Owen",
+      "text": "Please do. I'll wait outside rather than go in."
+    },
+    {
+      "id": "p11-b-02-s06",
+      "speaker": "Mina",
+      "text": "I've just spoken to her. She'd like to call you on your phone in ten minutes."
+    },
+    {
+      "id": "p11-b-02-s07",
+      "speaker": "Owen",
+      "text": "That works. We'll have our visit by video today."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-50d6cd720d6cc975",
+      "lemma": "infant",
+      "pos": "n.",
+      "sense_zh": "婴儿",
+      "sentence_ids": [
+        "p11-b-02-s01"
+      ],
+      "forms": [
+        "infant"
+      ],
+      "sense_id": "sense-staged-ox-50d6cd720d6cc975-p11-b-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea9050fb043e24f9",
+      "lemma": "infect",
+      "pos": "v.",
+      "sense_zh": "使感染",
+      "sentence_ids": [
+        "p11-b-02-s03"
+      ],
+      "forms": [
+        "infect"
+      ],
+      "sense_id": "sense-staged-ox-ea9050fb043e24f9-p11-b-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-67dcc3d1c9d93723",
+      "lemma": "mask",
+      "pos": "n.",
+      "sense_zh": "口罩",
+      "sentence_ids": [
+        "p11-b-02-s03"
+      ],
+      "forms": [
+        "mask"
+      ],
+      "sense_id": "sense-staged-ox-67dcc3d1c9d93723-p11-b-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

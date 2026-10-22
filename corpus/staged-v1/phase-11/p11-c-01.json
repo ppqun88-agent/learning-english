@@ -1,0 +1,95 @@
+{
+  "id": "p11-c-01",
+  "title_zh": "约好用点头提示旋律交接",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "music-duo-entry-cue",
+    "label_zh": "约好用点头提示旋律交接",
+    "goal_zh": "指出双人排练中的进入时机问题，并约定先用点头提示慢速练习"
+  },
+  "participants": [
+    "Elena",
+    "Kit"
+  ],
+  "context_zh": "两位业余乐手正在排练一首双人乐曲。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-01-s01",
+      "speaker": "Elena",
+      "text": "When you take over the melody, I keep coming in a beat too early."
+    },
+    {
+      "id": "p11-c-01-s02",
+      "speaker": "Kit",
+      "text": "I can hear that. We need a little more precision at the handover, not a faster tempo."
+    },
+    {
+      "id": "p11-c-01-s03",
+      "speaker": "Elena",
+      "text": "Could you nod just before my entry? I lose track when I look down at the music."
+    },
+    {
+      "id": "p11-c-01-s04",
+      "speaker": "Kit",
+      "text": "Yes. Watch me at the end of that phrase, and I’ll give you a small nod."
+    },
+    {
+      "id": "p11-c-01-s05",
+      "speaker": "Elena",
+      "text": "Great. Let’s try that section slowly before we play the whole piece."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6be870f182a943cf",
+      "lemma": "melody",
+      "pos": "n.",
+      "sense_zh": "旋律",
+      "sentence_ids": [
+        "p11-c-01-s01"
+      ],
+      "forms": [
+        "melody"
+      ],
+      "sense_id": "sense-staged-ox-6be870f182a943cf-p11-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8c22ae3c29b0848c",
+      "lemma": "precision",
+      "pos": "n.",
+      "sense_zh": "准确性；精确程度",
+      "sentence_ids": [
+        "p11-c-01-s02"
+      ],
+      "forms": [
+        "precision"
+      ],
+      "sense_id": "sense-staged-ox-8c22ae3c29b0848c-p11-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f9e213353811932",
+      "lemma": "nod",
+      "pos": "v.",
+      "sense_zh": "点头",
+      "sentence_ids": [
+        "p11-c-01-s03"
+      ],
+      "forms": [
+        "nod"
+      ],
+      "sense_id": "sense-staged-ox-5f9e213353811932-p11-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

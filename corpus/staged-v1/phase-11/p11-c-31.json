@@ -1,0 +1,132 @@
+{
+  "id": "p11-c-31",
+  "title_zh": "决定推迟未成年人俱乐部的户外出游",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "youth-outing-consent-weather",
+    "label_zh": "决定推迟未成年人俱乐部的户外出游",
+    "goal_zh": "确认仍缺家长同意且天气存在不确定性，并决定推迟出游、另行征求新日期"
+  },
+  "participants": [
+    "Gemma",
+    "Louis"
+  ],
+  "context_zh": "虚构青少年俱乐部的两位成人组织者讨论一次未满十八岁成员的出游，不涉及真实天气预报。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-31-s01",
+      "speaker": "Gemma",
+      "text": "We’re still missing parental consent for three of the under-eighteen members on tomorrow’s outdoor outing."
+    },
+    {
+      "id": "p11-c-31-s02",
+      "speaker": "Louis",
+      "text": "And the forecast in our planning sheet gives high odds of heavy rain. Could we switch to an indoor visit?"
+    },
+    {
+      "id": "p11-c-31-s03",
+      "speaker": "Gemma",
+      "text": "That would be a different activity from the one the families were asked to approve."
+    },
+    {
+      "id": "p11-c-31-s04",
+      "speaker": "Louis",
+      "text": "Then I’d opt to postpone rather than rush a new plan through tonight."
+    },
+    {
+      "id": "p11-c-31-s05",
+      "speaker": "Gemma",
+      "text": "I agree. Let’s tell everyone tomorrow’s trip is off and ask which dates would work instead."
+    },
+    {
+      "id": "p11-c-31-s06",
+      "speaker": "Louis",
+      "text": "Yes. Once we choose a new date, we’ll send the full plan and request consent again."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ec2354c00f4d79c0",
+      "lemma": "parental",
+      "pos": "adj.",
+      "sense_zh": "家长的；父母的",
+      "sentence_ids": [
+        "p11-c-31-s01"
+      ],
+      "forms": [
+        "parental"
+      ],
+      "sense_id": "sense-staged-ox-ec2354c00f4d79c0-p11-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c707d8061b8a0685",
+      "lemma": "outing",
+      "pos": "n.",
+      "sense_zh": "短途集体出游",
+      "sentence_ids": [
+        "p11-c-31-s01"
+      ],
+      "forms": [
+        "outing"
+      ],
+      "sense_id": "sense-staged-ox-c707d8061b8a0685-p11-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8bf69081262a4962",
+      "lemma": "odds",
+      "pos": "n.",
+      "sense_zh": "可能性；概率",
+      "sentence_ids": [
+        "p11-c-31-s02"
+      ],
+      "forms": [
+        "odds"
+      ],
+      "sense_id": "sense-staged-ox-8bf69081262a4962-p11-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-83e3f5e257561713",
+      "lemma": "opt",
+      "pos": "v.",
+      "sense_zh": "选择",
+      "sentence_ids": [
+        "p11-c-31-s04"
+      ],
+      "forms": [
+        "opt"
+      ],
+      "sense_id": "sense-staged-ox-83e3f5e257561713-p11-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ae2ba22af17698e",
+      "lemma": "postpone",
+      "pos": "v.",
+      "sense_zh": "推迟",
+      "sentence_ids": [
+        "p11-c-31-s04"
+      ],
+      "forms": [
+        "postpone"
+      ],
+      "sense_id": "sense-staged-ox-2ae2ba22af17698e-p11-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

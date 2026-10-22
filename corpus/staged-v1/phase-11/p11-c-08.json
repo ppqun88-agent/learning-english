@@ -1,0 +1,121 @@
+{
+  "id": "p11-c-08",
+  "title_zh": "商定为试办保留两小时准备时间",
+  "topic_id": "work",
+  "scenario": {
+    "id": "trial-proposal-protected-hours",
+    "label_zh": "商定为试办保留两小时准备时间",
+    "goal_zh": "澄清试办准备不能挤入已满日程或要求加班，并同意调整任务保留两小时"
+  },
+  "participants": [
+    "Hana",
+    "Ben"
+  ],
+  "context_zh": "两位同事评估一个小型客户接待试办方案。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-08-s01",
+      "speaker": "Hana",
+      "text": "There’s merit in trying a shorter welcome session, but who will prepare it?"
+    },
+    {
+      "id": "p11-c-08-s02",
+      "speaker": "Ben",
+      "text": "I was hoping you could. It’s a mere two hours of preparation."
+    },
+    {
+      "id": "p11-c-08-s03",
+      "speaker": "Hana",
+      "text": "Two hours still have to come from somewhere. My objection is to fitting it around a full schedule, not to the idea itself."
+    },
+    {
+      "id": "p11-c-08-s04",
+      "speaker": "Ben",
+      "text": "Fair point. I was merely assuming you could fit those two hours in. I should have checked your schedule. You shouldn’t have to work late."
+    },
+    {
+      "id": "p11-c-08-s05",
+      "speaker": "Hana",
+      "text": "Could we move Tuesday’s filing task and protect those two hours?"
+    },
+    {
+      "id": "p11-c-08-s06",
+      "speaker": "Ben",
+      "text": "Yes. I’ll move that task to my list and block Tuesday morning for your preparation."
+    },
+    {
+      "id": "p11-c-08-s07",
+      "speaker": "Hana",
+      "text": "Then I’m happy to run the trial session."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9d5744d5c139d03b",
+      "lemma": "merit",
+      "pos": "n.",
+      "sense_zh": "优点；价值",
+      "sentence_ids": [
+        "p11-c-08-s01"
+      ],
+      "forms": [
+        "merit"
+      ],
+      "sense_id": "sense-staged-ox-9d5744d5c139d03b-p11-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d50ae5dccab4a824",
+      "lemma": "mere",
+      "pos": "adj.",
+      "sense_zh": "仅仅的；只不过的",
+      "sentence_ids": [
+        "p11-c-08-s02"
+      ],
+      "forms": [
+        "mere"
+      ],
+      "sense_id": "sense-staged-ox-d50ae5dccab4a824-p11-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84fb0e69884b89e6",
+      "lemma": "objection",
+      "pos": "n.",
+      "sense_zh": "反对意见；异议",
+      "sentence_ids": [
+        "p11-c-08-s03"
+      ],
+      "forms": [
+        "objection"
+      ],
+      "sense_id": "sense-staged-ox-84fb0e69884b89e6-p11-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9a29d3a63bfee987",
+      "lemma": "merely",
+      "pos": "adv.",
+      "sense_zh": "仅仅；只是",
+      "sentence_ids": [
+        "p11-c-08-s04"
+      ],
+      "forms": [
+        "merely"
+      ],
+      "sense_id": "sense-staged-ox-9a29d3a63bfee987-p11-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

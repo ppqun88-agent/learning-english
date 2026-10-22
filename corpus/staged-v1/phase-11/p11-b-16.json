@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-16",
+  "title_zh": "为小型故事活动选房间并留出提问时间",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "storytelling-room-aftertalk-plan",
+    "label_zh": "为小型故事活动选房间并留出提问时间",
+    "goal_zh": "根据亲密交流的氛围选择小房间，并约定活动结束后保留二十分钟交流"
+  },
+  "participants": [
+    "Mabel",
+    "Theo"
+  ],
+  "context_zh": "两名活动组织者安排一位长期收藏老明信片的讲述者分享故事。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-16-s01",
+      "speaker": "Mabel",
+      "text": "Our speaker is a long-time collector of local postcards. The story about the missing bridge is especially intriguing."
+    },
+    {
+      "id": "p11-b-16-s02",
+      "speaker": "Theo",
+      "text": "Are we putting her in the main hall?"
+    },
+    {
+      "id": "p11-b-16-s03",
+      "speaker": "Mabel",
+      "text": "I'd prefer the reading room. There are only eighteen guests, and it would feel more intimate."
+    },
+    {
+      "id": "p11-b-16-s04",
+      "speaker": "Theo",
+      "text": "That makes sense. People may want to linger afterwards and ask about their own postcards."
+    },
+    {
+      "id": "p11-b-16-s05",
+      "speaker": "Mabel",
+      "text": "Can we keep the room for twenty minutes after the talk instead of clearing it straight away?"
+    },
+    {
+      "id": "p11-b-16-s06",
+      "speaker": "Theo",
+      "text": "Yes, our booking allows that. I'll tell the room volunteer not to start packing up until then."
+    },
+    {
+      "id": "p11-b-16-s07",
+      "speaker": "Mabel",
+      "text": "Great. Reading room, with twenty minutes for conversation at the end."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-35b2772ce118120f",
+      "lemma": "intimate",
+      "pos": "adj.",
+      "sense_zh": "亲切私密的、便于近距离交流的",
+      "sentence_ids": [
+        "p11-b-16-s03"
+      ],
+      "forms": [
+        "intimate"
+      ],
+      "sense_id": "sense-staged-ox-35b2772ce118120f-p11-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7828643d6e51c18c",
+      "lemma": "intriguing",
+      "pos": "adj.",
+      "sense_zh": "引人好奇的",
+      "sentence_ids": [
+        "p11-b-16-s01"
+      ],
+      "forms": [
+        "intriguing"
+      ],
+      "sense_id": "sense-staged-ox-7828643d6e51c18c-p11-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9f920e2a4c0d5095",
+      "lemma": "linger",
+      "pos": "v.",
+      "sense_zh": "逗留、迟迟不离开",
+      "sentence_ids": [
+        "p11-b-16-s04"
+      ],
+      "forms": [
+        "linger"
+      ],
+      "sense_id": "sense-staged-ox-9f920e2a4c0d5095-p11-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dfc81efdf5e96925",
+      "lemma": "long-time",
+      "pos": "adj.",
+      "sense_zh": "长期的、由来已久的",
+      "sentence_ids": [
+        "p11-b-16-s01"
+      ],
+      "forms": [
+        "long-time"
+      ],
+      "sense_id": "sense-staged-ox-dfc81efdf5e96925-p11-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

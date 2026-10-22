@@ -1,0 +1,121 @@
+{
+  "id": "p11-a-26",
+  "title_zh": "约定提供文件丢失问题的截图",
+  "topic_id": "services",
+  "scenario": {
+    "id": "lost-file-helpdesk-note",
+    "label_zh": "约定提供文件丢失问题的截图",
+    "goal_zh": "澄清文件并未被用户主动删除，并约定提供截图与出错时间供客服排查"
+  },
+  "participants": [
+    "Kira",
+    "Max"
+  ],
+  "context_zh": "用户向应用客服描述文件从列表中消失的问题，客服尚未找到原因。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-26-s01",
+      "speaker": "Kira",
+      "text": "This is so frustrating. My file disappeared just as I finished editing it."
+    },
+    {
+      "id": "p11-a-26-s02",
+      "speaker": "Max",
+      "text": "I understand the frustration. Did you delete it, or did it vanish from the list on its own?"
+    },
+    {
+      "id": "p11-a-26-s03",
+      "speaker": "Kira",
+      "text": "It vanished. I feel like an idiot for not saving a separate copy."
+    },
+    {
+      "id": "p11-a-26-s04",
+      "speaker": "Max",
+      "text": "You are not an idiot. Let's establish what happened before blaming anyone. Do you have a screenshot handy?"
+    },
+    {
+      "id": "p11-a-26-s05",
+      "speaker": "Kira",
+      "text": "Yes, one of the empty file list. I can send it with the time the problem started."
+    },
+    {
+      "id": "p11-a-26-s06",
+      "speaker": "Max",
+      "text": "Please do. I will check those details against the error records before suggesting a recovery step."
+    },
+    {
+      "id": "p11-a-26-s07",
+      "speaker": "Kira",
+      "text": "I'll send both now. I won't change anything else in the app while you check."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1847fd4e05a61486",
+      "lemma": "frustrating",
+      "pos": "adj.",
+      "sense_zh": "令人沮丧的",
+      "sentence_ids": [
+        "p11-a-26-s01"
+      ],
+      "forms": [
+        "frustrating"
+      ],
+      "sense_id": "sense-staged-ox-1847fd4e05a61486-p11-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5db93d0d60d3591f",
+      "lemma": "frustration",
+      "pos": "n.",
+      "sense_zh": "沮丧",
+      "sentence_ids": [
+        "p11-a-26-s02"
+      ],
+      "forms": [
+        "frustration"
+      ],
+      "sense_id": "sense-staged-ox-5db93d0d60d3591f-p11-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9443c2deb7cfa610",
+      "lemma": "idiot",
+      "pos": "n.",
+      "sense_zh": "笨蛋；傻瓜（不礼貌用语）",
+      "sentence_ids": [
+        "p11-a-26-s03"
+      ],
+      "forms": [
+        "idiot"
+      ],
+      "sense_id": "sense-staged-ox-9443c2deb7cfa610-p11-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5669e54d2c204a69",
+      "lemma": "handy",
+      "pos": "adj.",
+      "sense_zh": "手边的；方便取得的",
+      "sentence_ids": [
+        "p11-a-26-s04"
+      ],
+      "forms": [
+        "handy"
+      ],
+      "sense_id": "sense-staged-ox-5669e54d2c204a69-p11-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

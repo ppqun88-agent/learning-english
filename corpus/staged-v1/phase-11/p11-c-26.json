@@ -1,0 +1,100 @@
+{
+  "id": "p11-c-26",
+  "title_zh": "约好先核实邻店的耐阴植物存货",
+  "topic_id": "services",
+  "scenario": {
+    "id": "nursery-neighbouring-stock-check",
+    "label_zh": "约好先核实邻店的耐阴植物存货",
+    "goal_zh": "说明植物的摆放条件，并约定店员查询邻近苗圃后再告知是否有货"
+  },
+  "participants": [
+    "Eileen",
+    "Callum"
+  ],
+  "context_zh": "在采用英式拼写的虚构园艺商店中，顾客询问适合遮阴阳台的植物。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-26-s01",
+      "speaker": "Eileen",
+      "text": "I need a plant for a balcony that gets only occasional sunshine. Everything on this shelf says full sun."
+    },
+    {
+      "id": "p11-c-26-s02",
+      "speaker": "Callum",
+      "text": "We’re low on shade plants today. The neighbouring nursery may have a better choice."
+    },
+    {
+      "id": "p11-c-26-s03",
+      "speaker": "Eileen",
+      "text": "Could you check before I go there? I don’t drive, so it’s quite a trip."
+    },
+    {
+      "id": "p11-c-26-s04",
+      "speaker": "Callum",
+      "text": "Of course. I’ll call them and ask what they have for a mostly shaded balcony."
+    },
+    {
+      "id": "p11-c-26-s05",
+      "speaker": "Eileen",
+      "text": "Thank you. I’ll look at the pots while you make the call."
+    },
+    {
+      "id": "p11-c-26-s06",
+      "speaker": "Callum",
+      "text": "I’ll come and find you when I have an answer."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ee50467a607f76f3",
+      "lemma": "occasional",
+      "pos": "adj.",
+      "sense_zh": "偶尔的",
+      "sentence_ids": [
+        "p11-c-26-s01"
+      ],
+      "forms": [
+        "occasional"
+      ],
+      "sense_id": "sense-staged-ox-ee50467a607f76f3-p11-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-86a8535cc70e53d3",
+      "lemma": "neighbouring",
+      "pos": "adj.",
+      "sense_zh": "邻近的（英式拼写）",
+      "sentence_ids": [
+        "p11-c-26-s02"
+      ],
+      "forms": [
+        "neighbouring"
+      ],
+      "sense_id": "sense-staged-ox-86a8535cc70e53d3-p11-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-58e00f9c2b86029b",
+      "lemma": "nursery",
+      "pos": "n.",
+      "sense_zh": "苗圃",
+      "sentence_ids": [
+        "p11-c-26-s02"
+      ],
+      "forms": [
+        "nursery"
+      ],
+      "sense_id": "sense-staged-ox-58e00f9c2b86029b-p11-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

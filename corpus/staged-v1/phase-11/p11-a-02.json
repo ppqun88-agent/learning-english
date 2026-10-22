@@ -1,0 +1,132 @@
+{
+  "id": "p11-a-02",
+  "title_zh": "约定暂停科学展台并请负责人检查",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "science-display-safety-pause",
+    "label_zh": "约定暂停科学展台并请负责人检查",
+    "goal_zh": "指出模型异常及展台安全边界，并约定暂停演示、请负责人检查"
+  },
+  "participants": [
+    "Inez",
+    "Colin"
+  ],
+  "context_zh": "虚构科学馆的工作人员检查一个氢能模型展台；展台不储存氢气，安全要求来自本场景给定的展台说明。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-02-s01",
+      "speaker": "Inez",
+      "text": "Is this the experimental display about hydrogen?"
+    },
+    {
+      "id": "p11-a-02-s02",
+      "speaker": "Colin",
+      "text": "Yes. It uses a model, not real gas. The sign explains that hydrogen can form an explosive mixture with air."
+    },
+    {
+      "id": "p11-a-02-s03",
+      "speaker": "Inez",
+      "text": "The model's cover has come loose. Could that be a hazard for visitors?"
+    },
+    {
+      "id": "p11-a-02-s04",
+      "speaker": "Colin",
+      "text": "It could. The display instructions say to halt the demonstration if any cover is loose."
+    },
+    {
+      "id": "p11-a-02-s05",
+      "speaker": "Inez",
+      "text": "Then let's leave it off and ask the supervisor to inspect it before anyone uses it."
+    },
+    {
+      "id": "p11-a-02-s06",
+      "speaker": "Colin",
+      "text": "Agreed. I'll contact her now and keep visitors away from this table."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f813b9b872b1eb61",
+      "lemma": "experimental",
+      "pos": "adj.",
+      "sense_zh": "试验性的",
+      "sentence_ids": [
+        "p11-a-02-s01"
+      ],
+      "forms": [
+        "experimental"
+      ],
+      "sense_id": "sense-staged-ox-f813b9b872b1eb61-p11-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-287451bce21782bc",
+      "lemma": "hydrogen",
+      "pos": "n.",
+      "sense_zh": "氢",
+      "sentence_ids": [
+        "p11-a-02-s01"
+      ],
+      "forms": [
+        "hydrogen"
+      ],
+      "sense_id": "sense-staged-ox-287451bce21782bc-p11-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-48c61b97fe963400",
+      "lemma": "explosive",
+      "pos": "adj.",
+      "sense_zh": "易爆炸的",
+      "sentence_ids": [
+        "p11-a-02-s02"
+      ],
+      "forms": [
+        "explosive"
+      ],
+      "sense_id": "sense-staged-ox-48c61b97fe963400-p11-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-773b77440b049e7b",
+      "lemma": "hazard",
+      "pos": "n.",
+      "sense_zh": "危险隐患",
+      "sentence_ids": [
+        "p11-a-02-s03"
+      ],
+      "forms": [
+        "hazard"
+      ],
+      "sense_id": "sense-staged-ox-773b77440b049e7b-p11-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-61a630c3e0943bd0",
+      "lemma": "halt",
+      "pos": "v.",
+      "sense_zh": "停止",
+      "sentence_ids": [
+        "p11-a-02-s04"
+      ],
+      "forms": [
+        "halt"
+      ],
+      "sense_id": "sense-staged-ox-61a630c3e0943bd0-p11-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

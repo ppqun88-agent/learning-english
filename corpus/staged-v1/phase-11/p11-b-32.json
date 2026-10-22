@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-32",
+  "title_zh": "将虚构法案流程图标为等待表决",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-legislature-bill-stage-chart",
+    "label_zh": "将虚构法案流程图标为等待表决",
+    "goal_zh": "区分议员提案、委员会审议与立法机构通过法律，并修正流程图上的通过状态"
+  },
+  "participants": [
+    "Sana",
+    "Peter"
+  ],
+  "context_zh": "学生依据架空城邦的课堂案例制作立法流程图，流程仅用于虚构沟通练习。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-32-s01",
+      "speaker": "Sana",
+      "text": "Our chart says the new park law is in force. Where did that come from?"
+    },
+    {
+      "id": "p11-b-32-s02",
+      "speaker": "Peter",
+      "text": "The lawmaker presented the bill to the legislative committee, and the committee discussed it."
+    },
+    {
+      "id": "p11-b-32-s03",
+      "speaker": "Sana",
+      "text": "But the case card says the legislature hasn't voted yet."
+    },
+    {
+      "id": "p11-b-32-s04",
+      "speaker": "Peter",
+      "text": "You're right. The bill would replace the existing legislation on park access, but it hasn't done that yet."
+    },
+    {
+      "id": "p11-b-32-s05",
+      "speaker": "Sana",
+      "text": "Then move the marker back to 'Awaiting a vote'. The discussion and the final decision are different stages."
+    },
+    {
+      "id": "p11-b-32-s06",
+      "speaker": "Peter",
+      "text": "Done. I've moved it back and changed 'new law' to 'proposed bill'."
+    },
+    {
+      "id": "p11-b-32-s07",
+      "speaker": "Sana",
+      "text": "That now matches the card."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e77b8ccd64824d50",
+      "lemma": "legislative",
+      "pos": "adj.",
+      "sense_zh": "立法的",
+      "sentence_ids": [
+        "p11-b-32-s02"
+      ],
+      "forms": [
+        "legislative"
+      ],
+      "sense_id": "sense-staged-ox-e77b8ccd64824d50-p11-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ad2b8d1664e97183",
+      "lemma": "legislature",
+      "pos": "n.",
+      "sense_zh": "立法机关",
+      "sentence_ids": [
+        "p11-b-32-s03"
+      ],
+      "forms": [
+        "legislature"
+      ],
+      "sense_id": "sense-staged-ox-ad2b8d1664e97183-p11-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-18bedff69608d593",
+      "lemma": "legislation",
+      "pos": "n.",
+      "sense_zh": "法律、法规",
+      "sentence_ids": [
+        "p11-b-32-s04"
+      ],
+      "forms": [
+        "legislation"
+      ],
+      "sense_id": "sense-staged-ox-18bedff69608d593-p11-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e8e9cf3a5004abb",
+      "lemma": "lawmaker",
+      "pos": "n.",
+      "sense_zh": "立法者、议员",
+      "sentence_ids": [
+        "p11-b-32-s02"
+      ],
+      "forms": [
+        "lawmaker"
+      ],
+      "sense_id": "sense-staged-ox-3e8e9cf3a5004abb-p11-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

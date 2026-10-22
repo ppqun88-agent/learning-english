@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-04",
+  "title_zh": "试行先匿名写意见再自愿讨论",
+  "topic_id": "work",
+  "scenario": {
+    "id": "quiet-team-feedback-channel-trial",
+    "label_zh": "试行先匿名写意见再自愿讨论",
+    "goal_zh": "指出公开排名可能妨碍发言，并约定用匿名意见和自愿讨论试行新的反馈方式"
+  },
+  "participants": [
+    "Ada",
+    "Marcus"
+  ],
+  "context_zh": "团队复盘会上，两位项目负责人商量让较少发言的同事也能表达具体意见。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-04-s01",
+      "speaker": "Ada",
+      "text": "Only three people spoke in yesterday's review. Did the public ranking put everyone else off?"
+    },
+    {
+      "id": "p11-b-04-s02",
+      "speaker": "Marcus",
+      "text": "It might have. Being asked to defend your score in front of the team can inhibit honest feedback."
+    },
+    {
+      "id": "p11-b-04-s03",
+      "speaker": "Ada",
+      "text": "I don't think silence is an inherent feature of this team. People send me useful comments afterwards."
+    },
+    {
+      "id": "p11-b-04-s04",
+      "speaker": "Marcus",
+      "text": "Then let's give everyone a private way to contribute before we meet. Their involvement shouldn't depend on enjoying a debate."
+    },
+    {
+      "id": "p11-b-04-s05",
+      "speaker": "Ada",
+      "text": "Would anonymous written comments followed by an optional discussion work?"
+    },
+    {
+      "id": "p11-b-04-s06",
+      "speaker": "Marcus",
+      "text": "Yes. Ask for one specific problem and one possible change, so the feedback is meaningful rather than just a score."
+    },
+    {
+      "id": "p11-b-04-s07",
+      "speaker": "Ada",
+      "text": "Let's try that next week, without the public ranking, and ask people how the format felt."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d1655ba9cb2b105b",
+      "lemma": "inhibit",
+      "pos": "v.",
+      "sense_zh": "抑制、阻碍",
+      "sentence_ids": [
+        "p11-b-04-s02"
+      ],
+      "forms": [
+        "inhibit"
+      ],
+      "sense_id": "sense-staged-ox-d1655ba9cb2b105b-p11-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4b0816243eb31c0",
+      "lemma": "inherent",
+      "pos": "adj.",
+      "sense_zh": "固有的",
+      "sentence_ids": [
+        "p11-b-04-s03"
+      ],
+      "forms": [
+        "inherent"
+      ],
+      "sense_id": "sense-staged-ox-c4b0816243eb31c0-p11-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-20328c9abb926f10",
+      "lemma": "involvement",
+      "pos": "n.",
+      "sense_zh": "参与",
+      "sentence_ids": [
+        "p11-b-04-s04"
+      ],
+      "forms": [
+        "involvement"
+      ],
+      "sense_id": "sense-staged-ox-20328c9abb926f10-p11-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80694d2496c92712",
+      "lemma": "meaningful",
+      "pos": "adj.",
+      "sense_zh": "有实际意义的",
+      "sentence_ids": [
+        "p11-b-04-s06"
+      ],
+      "forms": [
+        "meaningful"
+      ],
+      "sense_id": "sense-staged-ox-80694d2496c92712-p11-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

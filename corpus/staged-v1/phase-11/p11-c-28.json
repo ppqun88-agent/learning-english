@@ -1,0 +1,105 @@
+{
+  "id": "p11-c-28",
+  "title_zh": "约定先征求志愿者同意再准备提名",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-award-nominee-consent",
+    "label_zh": "约定先征求志愿者同意再准备提名",
+    "goal_zh": "确认奖项需要被提名者同意，并分工先询问意愿、获准后整理提名材料"
+  },
+  "participants": [
+    "Bruno",
+    "Hazel"
+  ],
+  "context_zh": "社区中心的两名志愿者讨论为同伴申请志愿服务奖。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-28-s01",
+      "speaker": "Bruno",
+      "text": "I’d like to nominate Jo for the community service award. She’s kept the evening sessions running all year."
+    },
+    {
+      "id": "p11-c-28-s02",
+      "speaker": "Hazel",
+      "text": "Does the nominee have to agree first? Jo doesn’t always like being in the spotlight."
+    },
+    {
+      "id": "p11-c-28-s03",
+      "speaker": "Bruno",
+      "text": "Yes. The nomination form asks for her consent, so we can’t just surprise her with it."
+    },
+    {
+      "id": "p11-c-28-s04",
+      "speaker": "Hazel",
+      "text": "I know her well. I can ask privately whether she’d be comfortable with it."
+    },
+    {
+      "id": "p11-c-28-s05",
+      "speaker": "Bruno",
+      "text": "Please do. If she agrees, I’ll collect the session records and write the explanation."
+    },
+    {
+      "id": "p11-c-28-s06",
+      "speaker": "Hazel",
+      "text": "And if she says no, we’ll leave it there."
+    },
+    {
+      "id": "p11-c-28-s07",
+      "speaker": "Bruno",
+      "text": "Absolutely. Let’s ask her before we prepare the application."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-61396f4d41eb5418",
+      "lemma": "nominate",
+      "pos": "v.",
+      "sense_zh": "提名",
+      "sentence_ids": [
+        "p11-c-28-s01"
+      ],
+      "forms": [
+        "nominate"
+      ],
+      "sense_id": "sense-staged-ox-61396f4d41eb5418-p11-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-253c943f0250a790",
+      "lemma": "nominee",
+      "pos": "n.",
+      "sense_zh": "被提名者",
+      "sentence_ids": [
+        "p11-c-28-s02"
+      ],
+      "forms": [
+        "nominee"
+      ],
+      "sense_id": "sense-staged-ox-253c943f0250a790-p11-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6ba47c3031786e11",
+      "lemma": "nomination",
+      "pos": "n.",
+      "sense_zh": "提名",
+      "sentence_ids": [
+        "p11-c-28-s03"
+      ],
+      "forms": [
+        "nomination"
+      ],
+      "sense_id": "sense-staged-ox-6ba47c3031786e11-p11-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

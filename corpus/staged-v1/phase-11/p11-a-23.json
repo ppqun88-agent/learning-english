@@ -1,0 +1,121 @@
+{
+  "id": "p11-a-23",
+  "title_zh": "帮助新生明确校园求助问题",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "freshman-campus-help-question",
+    "label_zh": "帮助新生明确校园求助问题",
+    "goal_zh": "回应新生对不了解校园流程的顾虑，并确定向服务台询问辅导课预约方式"
+  },
+  "participants": [
+    "Mateo",
+    "Wendy"
+  ],
+  "context_zh": "大学新生与学生导师谈话；新生刚从另一国家来到学校，还不了解校园预约系统。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-23-s01",
+      "speaker": "Mateo",
+      "text": "I'm a freshman, and I still can't work out how to book a tutoring session."
+    },
+    {
+      "id": "p11-a-23-s02",
+      "speaker": "Wendy",
+      "text": "The student help desk can give you guidance. Have you tried them?"
+    },
+    {
+      "id": "p11-a-23-s03",
+      "speaker": "Mateo",
+      "text": "No. I'm worried that my ignorance of the system will make me look unprepared."
+    },
+    {
+      "id": "p11-a-23-s04",
+      "speaker": "Wendy",
+      "text": "Not knowing a new system is normal. What exactly would you like to ask?"
+    },
+    {
+      "id": "p11-a-23-s05",
+      "speaker": "Mateo",
+      "text": "Where the booking page is, and whether I can choose a time. Will it be different because I am a foreigner?"
+    },
+    {
+      "id": "p11-a-23-s06",
+      "speaker": "Wendy",
+      "text": "The desk can check your access, but being from another country is not a reason to avoid asking."
+    },
+    {
+      "id": "p11-a-23-s07",
+      "speaker": "Mateo",
+      "text": "All right. I'll ask them to show me the booking page and explain the available times."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-be41791ff04bc494",
+      "lemma": "freshman",
+      "pos": "n.",
+      "sense_zh": "大学一年级学生",
+      "sentence_ids": [
+        "p11-a-23-s01"
+      ],
+      "forms": [
+        "freshman"
+      ],
+      "sense_id": "sense-staged-ox-be41791ff04bc494-p11-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6d5bdec342417861",
+      "lemma": "guidance",
+      "pos": "n.",
+      "sense_zh": "指导",
+      "sentence_ids": [
+        "p11-a-23-s02"
+      ],
+      "forms": [
+        "guidance"
+      ],
+      "sense_id": "sense-staged-ox-6d5bdec342417861-p11-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-86e35429e8306f0b",
+      "lemma": "ignorance",
+      "pos": "n.",
+      "sense_zh": "不了解；无知",
+      "sentence_ids": [
+        "p11-a-23-s03"
+      ],
+      "forms": [
+        "ignorance"
+      ],
+      "sense_id": "sense-staged-ox-86e35429e8306f0b-p11-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1add3a2677ac3851",
+      "lemma": "foreigner",
+      "pos": "n.",
+      "sense_zh": "外国人",
+      "sentence_ids": [
+        "p11-a-23-s05"
+      ],
+      "forms": [
+        "foreigner"
+      ],
+      "sense_id": "sense-staged-ox-1add3a2677ac3851-p11-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

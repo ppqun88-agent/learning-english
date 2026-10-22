@@ -1,0 +1,105 @@
+{
+  "id": "p11-a-07",
+  "title_zh": "商定先私下了解工作投诉流程",
+  "topic_id": "work",
+  "scenario": {
+    "id": "fictional-worker-concern-route",
+    "label_zh": "商定先私下了解工作投诉流程",
+    "goal_zh": "说明虚构员工遭遇，并约定先获取保密投诉流程、暂不对外转述"
+  },
+  "participants": [
+    "Noor",
+    "Evan"
+  ],
+  "context_zh": "虚构职场沟通练习：同事谈及工作待遇及不受欢迎的个人评论，不作法律定性。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-07-s01",
+      "speaker": "Noor",
+      "text": "They keep asking me to work unpaid after my shift. It feels like exploitation."
+    },
+    {
+      "id": "p11-a-07-s02",
+      "speaker": "Evan",
+      "text": "Have you spoken to the staff adviser?"
+    },
+    {
+      "id": "p11-a-07-s03",
+      "speaker": "Noor",
+      "text": "Not yet. My supervisor also keeps making comments about my body, even after I asked him to stop."
+    },
+    {
+      "id": "p11-a-07-s04",
+      "speaker": "Evan",
+      "text": "Those comments are inappropriate. The adviser handles concerns about harassment as well as pay."
+    },
+    {
+      "id": "p11-a-07-s05",
+      "speaker": "Noor",
+      "text": "I'd like to understand the confidential reporting process before I make a formal complaint."
+    },
+    {
+      "id": "p11-a-07-s06",
+      "speaker": "Evan",
+      "text": "I can send you the adviser's contact details. I won't repeat what you've told me."
+    },
+    {
+      "id": "p11-a-07-s07",
+      "speaker": "Noor",
+      "text": "Thank you. Please send the details, and I will contact her myself."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fcc00969be0b06e9",
+      "lemma": "exploitation",
+      "pos": "n.",
+      "sense_zh": "剥削",
+      "sentence_ids": [
+        "p11-a-07-s01"
+      ],
+      "forms": [
+        "exploitation"
+      ],
+      "sense_id": "sense-staged-ox-fcc00969be0b06e9-p11-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7e2784e892aa2342",
+      "lemma": "inappropriate",
+      "pos": "adj.",
+      "sense_zh": "不合适的",
+      "sentence_ids": [
+        "p11-a-07-s04"
+      ],
+      "forms": [
+        "inappropriate"
+      ],
+      "sense_id": "sense-staged-ox-7e2784e892aa2342-p11-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26c80af712a3643b",
+      "lemma": "harassment",
+      "pos": "n.",
+      "sense_zh": "骚扰",
+      "sentence_ids": [
+        "p11-a-07-s04"
+      ],
+      "forms": [
+        "harassment"
+      ],
+      "sense_id": "sense-staged-ox-26c80af712a3643b-p11-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

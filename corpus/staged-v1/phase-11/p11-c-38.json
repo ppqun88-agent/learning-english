@@ -1,0 +1,84 @@
+{
+  "id": "p11-c-38",
+  "title_zh": "按材料分开战争爆发与战后重建的经历",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "oral-history-war-period-separation",
+    "label_zh": "按材料分开战争爆发与战后重建的经历",
+    "goal_zh": "核对口述史中两次迁居属于不同时期，并约定在时间线上分开标注"
+  },
+  "participants": [
+    "Nell",
+    "Kofi"
+  ],
+  "context_zh": "两位成人学员根据教师提供的虚构口述史制作时间线，不声称讲述真实历史人物。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-38-s01",
+      "speaker": "Nell",
+      "text": "I put the family’s move beside the outbreak of war, but the next paragraph describes postwar rebuilding. Have I mixed two events together?"
+    },
+    {
+      "id": "p11-c-38-s02",
+      "speaker": "Kofi",
+      "text": "Yes. The interview says they left the village when war began, then moved back to the city after it ended."
+    },
+    {
+      "id": "p11-c-38-s03",
+      "speaker": "Nell",
+      "text": "So the first move was away from the fighting, and the second was part of starting again afterward."
+    },
+    {
+      "id": "p11-c-38-s04",
+      "speaker": "Kofi",
+      "text": "That’s how the speaker describes it. We should keep those two reasons and periods separate."
+    },
+    {
+      "id": "p11-c-38-s05",
+      "speaker": "Nell",
+      "text": "I’ll put them on different lines and use the dates given in the interview."
+    },
+    {
+      "id": "p11-c-38-s06",
+      "speaker": "Kofi",
+      "text": "Good. Then readers won’t mistake the return for the original departure."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8b25f8f46c538be2",
+      "lemma": "outbreak",
+      "pos": "n.",
+      "sense_zh": "爆发",
+      "sentence_ids": [
+        "p11-c-38-s01"
+      ],
+      "forms": [
+        "outbreak"
+      ],
+      "sense_id": "sense-staged-ox-8b25f8f46c538be2-p11-c-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6e00d6dd31f2445",
+      "lemma": "postwar",
+      "pos": "adj.",
+      "sense_zh": "战后的（无连字符拼写）",
+      "sentence_ids": [
+        "p11-c-38-s01"
+      ],
+      "forms": [
+        "postwar"
+      ],
+      "sense_id": "sense-staged-ox-d6e00d6dd31f2445-p11-c-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

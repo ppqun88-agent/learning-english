@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-14",
+  "title_zh": "先索取更新平面图再决定看房",
+  "topic_id": "home",
+  "scenario": {
+    "id": "rental-listing-layout-correction",
+    "label_zh": "先索取更新平面图再决定看房",
+    "goal_zh": "指出租房广告平面图与室内照片不符，并约定由房东发送更新图后再讨论看房"
+  },
+  "participants": [
+    "Clara",
+    "Yusuf"
+  ],
+  "context_zh": "租客通过电话询问一套公寓广告中平面图与照片的差异。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-14-s01",
+      "speaker": "Clara",
+      "text": "Are you the landlord for the flat on Willow Road? I'm looking at your listing."
+    },
+    {
+      "id": "p11-b-14-s02",
+      "speaker": "Yusuf",
+      "text": "Yes. What would you like to know?"
+    },
+    {
+      "id": "p11-b-14-s03",
+      "speaker": "Clara",
+      "text": "The layout in the plan shows one big living space, but the photos show an interior wall between the kitchen and sitting room."
+    },
+    {
+      "id": "p11-b-14-s04",
+      "speaker": "Yusuf",
+      "text": "You're right. That plan is from before the wall was added. The photos show the current rooms."
+    },
+    {
+      "id": "p11-b-14-s05",
+      "speaker": "Clara",
+      "text": "Could you send an updated plan? I need to check whether my dining table would fit before arranging a viewing."
+    },
+    {
+      "id": "p11-b-14-s06",
+      "speaker": "Yusuf",
+      "text": "I'll send you the current plan this afternoon, with the room measurements."
+    },
+    {
+      "id": "p11-b-14-s07",
+      "speaker": "Clara",
+      "text": "Thanks. Let's discuss a viewing after I've looked at it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3f21d73f2684f7cc",
+      "lemma": "interior",
+      "pos": "adj.",
+      "sense_zh": "内部的、室内的",
+      "sentence_ids": [
+        "p11-b-14-s03"
+      ],
+      "forms": [
+        "interior"
+      ],
+      "sense_id": "sense-staged-ox-3f21d73f2684f7cc-p11-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3058c49e4b455d39",
+      "lemma": "landlord",
+      "pos": "n.",
+      "sense_zh": "房东",
+      "sentence_ids": [
+        "p11-b-14-s01"
+      ],
+      "forms": [
+        "landlord"
+      ],
+      "sense_id": "sense-staged-ox-3058c49e4b455d39-p11-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ad8c6e705dbbe9a",
+      "lemma": "listing",
+      "pos": "n.",
+      "sense_zh": "刊登的房产信息",
+      "sentence_ids": [
+        "p11-b-14-s01"
+      ],
+      "forms": [
+        "listing"
+      ],
+      "sense_id": "sense-staged-ox-5ad8c6e705dbbe9a-p11-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0428a3add1e6eb43",
+      "lemma": "layout",
+      "pos": "n.",
+      "sense_zh": "布局",
+      "sentence_ids": [
+        "p11-b-14-s03"
+      ],
+      "forms": [
+        "layout"
+      ],
+      "sense_id": "sense-staged-ox-0428a3add1e6eb43-p11-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-17",
+  "title_zh": "约定修正咖啡馆介绍中的免排队宣传",
+  "topic_id": "work",
+  "scenario": {
+    "id": "cafe-guide-queue-claim-correction",
+    "label_zh": "约定修正咖啡馆介绍中的免排队宣传",
+    "goal_zh": "核对咖啡馆改善与高峰排队的区别，并约定删去绝不等待的表述"
+  },
+  "participants": [
+    "Sana",
+    "Drew"
+  ],
+  "context_zh": "社区生活指南的编辑与撰稿人讨论一间虚构咖啡馆的介绍稿。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-17-s01",
+      "speaker": "Sana",
+      "text": "Your piece says there’s never a wait, but this café is notorious for its Saturday queues."
+    },
+    {
+      "id": "p11-c-17-s02",
+      "speaker": "Drew",
+      "text": "There have been some notable improvements, notably a second till and more seats."
+    },
+    {
+      "id": "p11-c-17-s03",
+      "speaker": "Sana",
+      "text": "Those are useful changes. Do they mean nobody queues anymore?"
+    },
+    {
+      "id": "p11-c-17-s04",
+      "speaker": "Drew",
+      "text": "No. I was there on Saturday and waited fifteen minutes. The sentence is misleading."
+    },
+    {
+      "id": "p11-c-17-s05",
+      "speaker": "Sana",
+      "text": "Let’s keep the details about the extra till and seats, but take out the guarantee."
+    },
+    {
+      "id": "p11-c-17-s06",
+      "speaker": "Drew",
+      "text": "Agreed. I’ll say the changes may help, while busy periods can still mean a wait."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-df1752f2f92e749d",
+      "lemma": "notorious",
+      "pos": "adj.",
+      "sense_zh": "因坏事而出名的",
+      "sentence_ids": [
+        "p11-c-17-s01"
+      ],
+      "forms": [
+        "notorious"
+      ],
+      "sense_id": "sense-staged-ox-df1752f2f92e749d-p11-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c2ac17619ef880a9",
+      "lemma": "notable",
+      "pos": "adj.",
+      "sense_zh": "显著的；值得注意的",
+      "sentence_ids": [
+        "p11-c-17-s02"
+      ],
+      "forms": [
+        "notable"
+      ],
+      "sense_id": "sense-staged-ox-c2ac17619ef880a9-p11-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-327cb4a9fcb9f98f",
+      "lemma": "notably",
+      "pos": "adv.",
+      "sense_zh": "尤其；特别是",
+      "sentence_ids": [
+        "p11-c-17-s02"
+      ],
+      "forms": [
+        "notably"
+      ],
+      "sense_id": "sense-staged-ox-327cb4a9fcb9f98f-p11-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-19f76b6862089dcb",
+      "lemma": "misleading",
+      "pos": "adj.",
+      "sense_zh": "误导的",
+      "sentence_ids": [
+        "p11-c-17-s04"
+      ],
+      "forms": [
+        "misleading"
+      ],
+      "sense_id": "sense-staged-ox-19f76b6862089dcb-p11-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

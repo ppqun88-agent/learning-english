@@ -1,0 +1,100 @@
+{
+  "id": "p11-a-31",
+  "title_zh": "约定修正课堂水力发电模型的说明",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "water-power-model-label",
+    "label_zh": "约定修正课堂水力发电模型的说明",
+    "goal_zh": "明确水在模型中的作用与模型未接入电网的边界，并商定说明牌用语"
+  },
+  "participants": [
+    "Quinn",
+    "Sofia"
+  ],
+  "context_zh": "科学课上的小型水轮模型由封闭水槽供水，只能点亮一颗模型灯；学员修订其展示说明。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-31-s01",
+      "speaker": "Quinn",
+      "text": "Our label says this model supplies power to the national grid. That cannot be right, can it?"
+    },
+    {
+      "id": "p11-a-31-s02",
+      "speaker": "Sofia",
+      "text": "No. It only lights this tiny lamp. There is no connection to the grid."
+    },
+    {
+      "id": "p11-a-31-s03",
+      "speaker": "Quinn",
+      "text": "And the water is the fluid that turns the wheel, rather than a fuel that gets burned?"
+    },
+    {
+      "id": "p11-a-31-s04",
+      "speaker": "Sofia",
+      "text": "Correct. A real dam may be immense, but this is only a small model of one part of the process."
+    },
+    {
+      "id": "p11-a-31-s05",
+      "speaker": "Quinn",
+      "text": "Then the label should say: flowing water turns the wheel to power the model lamp."
+    },
+    {
+      "id": "p11-a-31-s06",
+      "speaker": "Sofia",
+      "text": "Yes. Remove the national-grid claim and keep that description."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7bd0c8258744ca0e",
+      "lemma": "grid",
+      "pos": "n.",
+      "sense_zh": "输电网",
+      "sentence_ids": [
+        "p11-a-31-s01"
+      ],
+      "forms": [
+        "grid"
+      ],
+      "sense_id": "sense-staged-ox-7bd0c8258744ca0e-p11-a-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-06116e942e31ec5d",
+      "lemma": "fluid",
+      "pos": "n.",
+      "sense_zh": "流体；液体",
+      "sentence_ids": [
+        "p11-a-31-s03"
+      ],
+      "forms": [
+        "fluid"
+      ],
+      "sense_id": "sense-staged-ox-06116e942e31ec5d-p11-a-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c3b19552a0486f4a",
+      "lemma": "immense",
+      "pos": "adj.",
+      "sense_zh": "巨大的",
+      "sentence_ids": [
+        "p11-a-31-s04"
+      ],
+      "forms": [
+        "immense"
+      ],
+      "sense_id": "sense-staged-ox-c3b19552a0486f4a-p11-a-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-07",
+  "title_zh": "暂缓采用虚构播客中的未证实指控",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "fictional-podcast-source-corroboration",
+    "label_zh": "暂缓采用虚构播客中的未证实指控",
+    "goal_zh": "区分匿名内部人士说法与调查记录，并约定核对文件后再决定是否采用指控"
+  },
+  "participants": [
+    "Noor",
+    "Caleb"
+  ],
+  "context_zh": "虚构调查播客的编剧会议。人物、公司及调查材料均为创作练习设定，不涉及真实指控。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-07-s01",
+      "speaker": "Noor",
+      "text": "In our fictional podcast, the factory is already infamous for the river spill. Can we add the claim about destroyed records?"
+    },
+    {
+      "id": "p11-b-07-s02",
+      "speaker": "Caleb",
+      "text": "Who supports that claim in the story notes?"
+    },
+    {
+      "id": "p11-b-07-s03",
+      "speaker": "Noor",
+      "text": "An unnamed insider says a manager ordered the files to be shredded."
+    },
+    {
+      "id": "p11-b-07-s04",
+      "speaker": "Caleb",
+      "text": "But the investigator's report says the files haven't been located. It doesn't say who removed them or why."
+    },
+    {
+      "id": "p11-b-07-s05",
+      "speaker": "Noor",
+      "text": "Then the insider gives us a lead, not proof."
+    },
+    {
+      "id": "p11-b-07-s06",
+      "speaker": "Caleb",
+      "text": "Right. The integrity of the episode depends on keeping that distinction. Let's check whether any document supports the order before we use the accusation."
+    },
+    {
+      "id": "p11-b-07-s07",
+      "speaker": "Noor",
+      "text": "Agreed. I'll leave it out of this draft and check the source packet."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8990db2a87928934",
+      "lemma": "infamous",
+      "pos": "adj.",
+      "sense_zh": "因坏事而臭名昭著的",
+      "sentence_ids": [
+        "p11-b-07-s01"
+      ],
+      "forms": [
+        "infamous"
+      ],
+      "sense_id": "sense-staged-ox-8990db2a87928934-p11-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9150859adfbe4f85",
+      "lemma": "insider",
+      "pos": "n.",
+      "sense_zh": "内部知情人士",
+      "sentence_ids": [
+        "p11-b-07-s03"
+      ],
+      "forms": [
+        "insider"
+      ],
+      "sense_id": "sense-staged-ox-9150859adfbe4f85-p11-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dadcdf5b3b0ab80a",
+      "lemma": "investigator",
+      "pos": "n.",
+      "sense_zh": "调查人员",
+      "sentence_ids": [
+        "p11-b-07-s04"
+      ],
+      "forms": [
+        "investigator"
+      ],
+      "sense_id": "sense-staged-ox-dadcdf5b3b0ab80a-p11-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e92fc0bcfe53fd3f",
+      "lemma": "integrity",
+      "pos": "n.",
+      "sense_zh": "诚实可靠性、诚信",
+      "sentence_ids": [
+        "p11-b-07-s06"
+      ],
+      "forms": [
+        "integrity"
+      ],
+      "sense_id": "sense-staged-ox-e92fc0bcfe53fd3f-p11-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

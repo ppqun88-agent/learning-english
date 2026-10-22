@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-07",
+  "title_zh": "选定规则与宽恕冲突的哲学讨论题",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "philosophy-mercy-discussion-question",
+    "label_zh": "选定规则与宽恕冲突的哲学讨论题",
+    "goal_zh": "围绕人物是否应被宽恕提出道德问题，并选定不预设答案的讨论题"
+  },
+  "participants": [
+    "Theo",
+    "Amal"
+  ],
+  "context_zh": "成人哲学读书课的两位学员为虚构故事准备小组讨论问题。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-07-s01",
+      "speaker": "Theo",
+      "text": "The philosopher in this chapter argues that rules should apply equally to everyone."
+    },
+    {
+      "id": "p11-c-07-s02",
+      "speaker": "Amal",
+      "text": "But the story ends with the judge showing mercy to someone who broke the rule. That seems worth discussing."
+    },
+    {
+      "id": "p11-c-07-s03",
+      "speaker": "Theo",
+      "text": "Should our question simply be whether the judge was right?"
+    },
+    {
+      "id": "p11-c-07-s04",
+      "speaker": "Amal",
+      "text": "That could work, but I’d like to connect it to morality: when, if ever, should compassion outweigh a rule?"
+    },
+    {
+      "id": "p11-c-07-s05",
+      "speaker": "Theo",
+      "text": "That gives us a philosophical question rather than a vote on whether we like the character."
+    },
+    {
+      "id": "p11-c-07-s06",
+      "speaker": "Amal",
+      "text": "Let’s use it, and ask people to explain their reasons before we discuss our own views."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7e1c72c3ef3ec47c",
+      "lemma": "philosopher",
+      "pos": "n.",
+      "sense_zh": "哲学家",
+      "sentence_ids": [
+        "p11-c-07-s01"
+      ],
+      "forms": [
+        "philosopher"
+      ],
+      "sense_id": "sense-staged-ox-7e1c72c3ef3ec47c-p11-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6d2873dce83c0e4b",
+      "lemma": "mercy",
+      "pos": "n.",
+      "sense_zh": "宽恕；仁慈",
+      "sentence_ids": [
+        "p11-c-07-s02"
+      ],
+      "forms": [
+        "mercy"
+      ],
+      "sense_id": "sense-staged-ox-6d2873dce83c0e4b-p11-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9866f96c27d5461c",
+      "lemma": "morality",
+      "pos": "n.",
+      "sense_zh": "道德；道德准则",
+      "sentence_ids": [
+        "p11-c-07-s04"
+      ],
+      "forms": [
+        "morality"
+      ],
+      "sense_id": "sense-staged-ox-9866f96c27d5461c-p11-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6bc45d92a309e49",
+      "lemma": "philosophical",
+      "pos": "adj.",
+      "sense_zh": "哲学的",
+      "sentence_ids": [
+        "p11-c-07-s05"
+      ],
+      "forms": [
+        "philosophical"
+      ],
+      "sense_id": "sense-staged-ox-b6bc45d92a309e49-p11-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p11-b-21",
+  "title_zh": "修正虚构庭审记录中的裁决状态",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-court-record-role-check",
+    "label_zh": "修正虚构庭审记录中的裁决状态",
+    "goal_zh": "区分囚犯陈述、法官索取记录与裁决，并写出保留投诉未决状态的摘要"
+  },
+  "participants": [
+    "Helena",
+    "Isaac"
+  ],
+  "context_zh": "学生根据虚构法院案例卡编辑课堂摘要；案例、司法职位及流程均为练习设定，不提供法律意见。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-21-s01",
+      "speaker": "Helena",
+      "text": "Your summary says the inmate proved that his letters were being withheld. Is that on the case card?"
+    },
+    {
+      "id": "p11-b-21-s02",
+      "speaker": "Isaac",
+      "text": "The card says he told the magistrate that three letters hadn't reached his family."
+    },
+    {
+      "id": "p11-b-21-s03",
+      "speaker": "Helena",
+      "text": "And what did the magistrate do?"
+    },
+    {
+      "id": "p11-b-21-s04",
+      "speaker": "Isaac",
+      "text": "Requested the delivery records. The card says there's no ruling on the complaint yet."
+    },
+    {
+      "id": "p11-b-21-s05",
+      "speaker": "Helena",
+      "text": "Then the judicial hearing hasn't settled whether his account is correct. We need to separate his statement from the court's response."
+    },
+    {
+      "id": "p11-b-21-s06",
+      "speaker": "Isaac",
+      "text": "I've changed the sentence: 'After hearing the inmate's complaint about undelivered letters, the magistrate requested records; no ruling on the complaint is recorded.'"
+    },
+    {
+      "id": "p11-b-21-s07",
+      "speaker": "Helena",
+      "text": "That matches the card. Keep that version."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-83c1c4a12e79c18d",
+      "lemma": "inmate",
+      "pos": "n.",
+      "sense_zh": "被关押者、囚犯",
+      "sentence_ids": [
+        "p11-b-21-s01"
+      ],
+      "forms": [
+        "inmate"
+      ],
+      "sense_id": "sense-staged-ox-83c1c4a12e79c18d-p11-b-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6c6f43b2e99e0cc6",
+      "lemma": "judicial",
+      "pos": "adj.",
+      "sense_zh": "司法的、法院的",
+      "sentence_ids": [
+        "p11-b-21-s05"
+      ],
+      "forms": [
+        "judicial"
+      ],
+      "sense_id": "sense-staged-ox-6c6f43b2e99e0cc6-p11-b-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-774443170ac5f3ee",
+      "lemma": "magistrate",
+      "pos": "n.",
+      "sense_zh": "地方法官",
+      "sentence_ids": [
+        "p11-b-21-s02"
+      ],
+      "forms": [
+        "magistrate"
+      ],
+      "sense_id": "sense-staged-ox-774443170ac5f3ee-p11-b-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

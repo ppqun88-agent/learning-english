@@ -1,0 +1,84 @@
+{
+  "id": "p11-b-37",
+  "title_zh": "了解冥想课形式并选定靠门座位",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "meditation-class-format-query",
+    "label_zh": "了解冥想课形式并选定靠门座位",
+    "goal_zh": "说明静坐时的紧张表现，确认课程允许换姿势或离席，并选择靠门开始体验"
+  },
+  "participants": [
+    "Dina",
+    "Rowan"
+  ],
+  "context_zh": "虚构休闲课程场景。首次参加者在冥想体验课开始前询问教师，不涉及诊断或疗效承诺。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-37-s01",
+      "speaker": "Dina",
+      "text": "This is my first meditation class. Do we have to sit completely still for the whole hour?"
+    },
+    {
+      "id": "p11-b-37-s02",
+      "speaker": "Rowan",
+      "text": "No. There are short seated periods with breaks, and you can change position or step outside."
+    },
+    {
+      "id": "p11-b-37-s03",
+      "speaker": "Dina",
+      "text": "My nerves tend to manifest as a need to keep moving. I don't want to distract everyone."
+    },
+    {
+      "id": "p11-b-37-s04",
+      "speaker": "Rowan",
+      "text": "You're welcome to sit near the door. You don't have to explain if you need a break."
+    },
+    {
+      "id": "p11-b-37-s05",
+      "speaker": "Dina",
+      "text": "I'll start there, then. Knowing I can step out makes it easier to give the class a try."
+    },
+    {
+      "id": "p11-b-37-s06",
+      "speaker": "Rowan",
+      "text": "That seat is free. Take your time getting settled."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-52c803d006f909e5",
+      "lemma": "meditation",
+      "pos": "n.",
+      "sense_zh": "冥想、静思练习",
+      "sentence_ids": [
+        "p11-b-37-s01"
+      ],
+      "forms": [
+        "meditation"
+      ],
+      "sense_id": "sense-staged-ox-52c803d006f909e5-p11-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcbfe9538bb2b15f",
+      "lemma": "manifest",
+      "pos": "v.",
+      "sense_zh": "表现、显现",
+      "sentence_ids": [
+        "p11-b-37-s03"
+      ],
+      "forms": [
+        "manifest"
+      ],
+      "sense_id": "sense-staged-ox-bcbfe9538bb2b15f-p11-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

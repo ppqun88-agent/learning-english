@@ -1,0 +1,100 @@
+{
+  "id": "p11-b-27",
+  "title_zh": "约定公布已确认阵容而不承诺曲目",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "concert-returning-singer-announcement",
+    "label_zh": "约定公布已确认阵容而不承诺曲目",
+    "goal_zh": "确认歌手回归但曲目未定，并约定公告说明阵容、感谢歌迷而不承诺特定歌曲"
+  },
+  "participants": [
+    "Dana",
+    "Wes"
+  ],
+  "context_zh": "虚构社区音乐会的两位组织者准备公告，尚未发布任何内容。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-27-s01",
+      "speaker": "Dana",
+      "text": "Is Mara definitely back in the lineup, or are we still waiting for her answer?"
+    },
+    {
+      "id": "p11-b-27-s02",
+      "speaker": "Wes",
+      "text": "She's confirmed she'll sing. Her longtime fans will be delighted."
+    },
+    {
+      "id": "p11-b-27-s03",
+      "speaker": "Dana",
+      "text": "Can we promise she'll perform River Road? People keep asking."
+    },
+    {
+      "id": "p11-b-27-s04",
+      "speaker": "Wes",
+      "text": "No. She hasn't chosen her songs yet. Returning to the concert isn't a promise about the set list."
+    },
+    {
+      "id": "p11-b-27-s05",
+      "speaker": "Dana",
+      "text": "Then the announcement should name her and thank the audience for their loyalty, without naming songs."
+    },
+    {
+      "id": "p11-b-27-s06",
+      "speaker": "Wes",
+      "text": "Exactly. I'll draft it that way, and we'll add the set list only if she confirms it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5d7d47156b351191",
+      "lemma": "lineup",
+      "pos": "n.",
+      "sense_zh": "演出阵容",
+      "sentence_ids": [
+        "p11-b-27-s01"
+      ],
+      "forms": [
+        "lineup"
+      ],
+      "sense_id": "sense-staged-ox-5d7d47156b351191-p11-b-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6a790af149ab1d9",
+      "lemma": "longtime",
+      "pos": "adj.",
+      "sense_zh": "长期以来的",
+      "sentence_ids": [
+        "p11-b-27-s02"
+      ],
+      "forms": [
+        "longtime"
+      ],
+      "sense_id": "sense-staged-ox-d6a790af149ab1d9-p11-b-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b000a8805c2b9b3a",
+      "lemma": "loyalty",
+      "pos": "n.",
+      "sense_zh": "忠诚、长期支持",
+      "sentence_ids": [
+        "p11-b-27-s05"
+      ],
+      "forms": [
+        "loyalty"
+      ],
+      "sense_id": "sense-staged-ox-b000a8805c2b9b3a-p11-b-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

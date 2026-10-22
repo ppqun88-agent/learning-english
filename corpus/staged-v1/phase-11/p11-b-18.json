@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-18",
+  "title_zh": "虚构委员会先补书面依据再表决例外",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-committee-exception-record",
+    "label_zh": "虚构委员会先补书面依据再表决例外",
+    "goal_zh": "区分合理担忧与启用紧急条款的依据，并约定补齐资料后再表决"
+  },
+  "participants": [
+    "Aisha",
+    "Tom"
+  ],
+  "context_zh": "学生扮演虚构社区委员会成员，按课堂角色卡讨论场地分配规则；不描述真实法律或机构。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-18-s01",
+      "speaker": "Aisha",
+      "text": "Our role card gives the committee a mandate to allocate rooms, not to rewrite the building rules."
+    },
+    {
+      "id": "p11-b-18-s02",
+      "speaker": "Tom",
+      "text": "Could we invoke the emergency clause to give the youth group the hall tonight?"
+    },
+    {
+      "id": "p11-b-18-s03",
+      "speaker": "Aisha",
+      "text": "What is the emergency?"
+    },
+    {
+      "id": "p11-b-18-s04",
+      "speaker": "Tom",
+      "text": "Their usual room may be unavailable. That's a legitimate concern, but we haven't heard from the building manager."
+    },
+    {
+      "id": "p11-b-18-s05",
+      "speaker": "Aisha",
+      "text": "Then we don't yet have a justification for an exception. We need the room status and the reason it can't be used."
+    },
+    {
+      "id": "p11-b-18-s06",
+      "speaker": "Tom",
+      "text": "Agreed. Let's request that in writing before the vote."
+    },
+    {
+      "id": "p11-b-18-s07",
+      "speaker": "Aisha",
+      "text": "Yes. We'll keep the exception pending until that information is available."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-75c27b552dae4617",
+      "lemma": "invoke",
+      "pos": "v.",
+      "sense_zh": "援引、启用（规则或条款）",
+      "sentence_ids": [
+        "p11-b-18-s02"
+      ],
+      "forms": [
+        "invoke"
+      ],
+      "sense_id": "sense-staged-ox-75c27b552dae4617-p11-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8d8c14d1ca2d8bab",
+      "lemma": "legitimate",
+      "pos": "adj.",
+      "sense_zh": "合理正当的",
+      "sentence_ids": [
+        "p11-b-18-s04"
+      ],
+      "forms": [
+        "legitimate"
+      ],
+      "sense_id": "sense-staged-ox-8d8c14d1ca2d8bab-p11-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-34111dd349cc050b",
+      "lemma": "justification",
+      "pos": "n.",
+      "sense_zh": "正当理由、依据",
+      "sentence_ids": [
+        "p11-b-18-s05"
+      ],
+      "forms": [
+        "justification"
+      ],
+      "sense_id": "sense-staged-ox-34111dd349cc050b-p11-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea767ec155476c4c",
+      "lemma": "mandate",
+      "pos": "n.",
+      "sense_zh": "授权、职权",
+      "sentence_ids": [
+        "p11-b-18-s01"
+      ],
+      "forms": [
+        "mandate"
+      ],
+      "sense_id": "sense-staged-ox-ea767ec155476c4c-p11-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

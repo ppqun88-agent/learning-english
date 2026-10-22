@@ -1,0 +1,126 @@
+{
+  "id": "p11-b-28",
+  "title_zh": "把出席人数预测标为待验证的估计",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "attendance-model-limit-wording",
+    "label_zh": "把出席人数预测标为待验证的估计",
+    "goal_zh": "指出线性模型不能直接支持给定概率，并约定说明样本有限、在后续活动检验预测"
+  },
+  "participants": [
+    "Mira",
+    "Anton"
+  ],
+  "context_zh": "活动团队讨论只用三场历史活动数据建立的出席人数估计，不涉及真实投资或高风险决策。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-28-s01",
+      "speaker": "Mira",
+      "text": "Your mathematical model predicts eighty attendees from a hundred registrations. Can we put that in the planning note?"
+    },
+    {
+      "id": "p11-b-28-s02",
+      "speaker": "Anton",
+      "text": "As a rough estimate, yes. It's a linear model fitted to just three past events."
+    },
+    {
+      "id": "p11-b-28-s03",
+      "speaker": "Mira",
+      "text": "What's the logic behind using registrations?"
+    },
+    {
+      "id": "p11-b-28-s04",
+      "speaker": "Anton",
+      "text": "More registrations went with higher attendance in those events. But that pattern may not hold for a different kind of event."
+    },
+    {
+      "id": "p11-b-28-s05",
+      "speaker": "Mira",
+      "text": "Could we say there's a ninety percent likelihood that at least eighty people will come?"
+    },
+    {
+      "id": "p11-b-28-s06",
+      "speaker": "Anton",
+      "text": "No. We haven't estimated that probability. The line gives a prediction, not that level of certainty."
+    },
+    {
+      "id": "p11-b-28-s07",
+      "speaker": "Mira",
+      "text": "Then I'll label eighty as a rough estimate based on three events, and we'll compare it with actual attendance afterwards."
+    },
+    {
+      "id": "p11-b-28-s08",
+      "speaker": "Anton",
+      "text": "Good. That makes the limitation visible instead of hiding it in the model."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c2bd33d450538b0f",
+      "lemma": "mathematical",
+      "pos": "adj.",
+      "sense_zh": "数学的",
+      "sentence_ids": [
+        "p11-b-28-s01"
+      ],
+      "forms": [
+        "mathematical"
+      ],
+      "sense_id": "sense-staged-ox-c2bd33d450538b0f-p11-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-180f81815bb42bbd",
+      "lemma": "linear",
+      "pos": "adj.",
+      "sense_zh": "线性的",
+      "sentence_ids": [
+        "p11-b-28-s02"
+      ],
+      "forms": [
+        "linear"
+      ],
+      "sense_id": "sense-staged-ox-180f81815bb42bbd-p11-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f0a8cc3500ecce4",
+      "lemma": "logic",
+      "pos": "n.",
+      "sense_zh": "逻辑、推理依据",
+      "sentence_ids": [
+        "p11-b-28-s03"
+      ],
+      "forms": [
+        "logic"
+      ],
+      "sense_id": "sense-staged-ox-2f0a8cc3500ecce4-p11-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-55ab0734612d9252",
+      "lemma": "likelihood",
+      "pos": "n.",
+      "sense_zh": "可能性、概率",
+      "sentence_ids": [
+        "p11-b-28-s05"
+      ],
+      "forms": [
+        "likelihood"
+      ],
+      "sense_id": "sense-staged-ox-55ab0734612d9252-p11-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

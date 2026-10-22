@@ -1,0 +1,100 @@
+{
+  "id": "p11-c-23",
+  "title_zh": "约好先核对志愿服务所需时间",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "volunteer-motive-time-boundary",
+    "label_zh": "约好先核对志愿服务所需时间",
+    "goal_zh": "听取参与志愿服务的个人动机，并约定确认班次要求后再作承诺"
+  },
+  "participants": [
+    "Asha",
+    "Tom"
+  ],
+  "context_zh": "两个朋友商量是否参加周末社区陪伴活动。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-23-s01",
+      "speaker": "Asha",
+      "text": "I’m thinking of volunteering at the community lunch, but my motive is partly selfish. I’d like to meet people."
+    },
+    {
+      "id": "p11-c-23-s02",
+      "speaker": "Tom",
+      "text": "You don’t need a perfectly noble reason to help. Wanting company doesn’t make the help worthless."
+    },
+    {
+      "id": "p11-c-23-s03",
+      "speaker": "Asha",
+      "text": "I work some weekends, though. I don’t want to promise a regular shift and keep cancelling."
+    },
+    {
+      "id": "p11-c-23-s04",
+      "speaker": "Tom",
+      "text": "That’s a real concern. Nonetheless, there may be occasional shifts that fit your schedule."
+    },
+    {
+      "id": "p11-c-23-s05",
+      "speaker": "Asha",
+      "text": "I’ll ask how often they need someone before I sign up."
+    },
+    {
+      "id": "p11-c-23-s06",
+      "speaker": "Tom",
+      "text": "Good idea. Find out the commitment first, then decide whether it works for you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-99d42bc3bb7c3be9",
+      "lemma": "motive",
+      "pos": "n.",
+      "sense_zh": "动机",
+      "sentence_ids": [
+        "p11-c-23-s01"
+      ],
+      "forms": [
+        "motive"
+      ],
+      "sense_id": "sense-staged-ox-99d42bc3bb7c3be9-p11-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f17bd3e8bd5dd18c",
+      "lemma": "noble",
+      "pos": "adj.",
+      "sense_zh": "高尚的",
+      "sentence_ids": [
+        "p11-c-23-s02"
+      ],
+      "forms": [
+        "noble"
+      ],
+      "sense_id": "sense-staged-ox-f17bd3e8bd5dd18c-p11-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-52472c88450446aa",
+      "lemma": "nonetheless",
+      "pos": "adv.",
+      "sense_zh": "尽管如此；不过",
+      "sentence_ids": [
+        "p11-c-23-s04"
+      ],
+      "forms": [
+        "nonetheless"
+      ],
+      "sense_id": "sense-staged-ox-52472c88450446aa-p11-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

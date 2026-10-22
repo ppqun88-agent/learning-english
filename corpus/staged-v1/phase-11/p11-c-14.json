@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-14",
+  "title_zh": "约定缩小虚构民调结论并核查部门回应",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "fictional-poll-national-scope",
+    "label_zh": "约定缩小虚构民调结论并核查部门回应",
+    "goal_zh": "区分两城样本与全国结论，并约定另查议会记录中的部门回应"
+  },
+  "participants": [
+    "Clara",
+    "Jules"
+  ],
+  "context_zh": "研究课中，两位成人学员审核一份虚构交通政策民调简报。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-14-s01",
+      "speaker": "Clara",
+      "text": "Our headline calls this a nationwide poll, but all the responses came from two cities."
+    },
+    {
+      "id": "p11-c-14-s02",
+      "speaker": "Jules",
+      "text": "You’re right. We can describe what those respondents said, not what the whole country thinks."
+    },
+    {
+      "id": "p11-c-14-s03",
+      "speaker": "Clara",
+      "text": "The draft also says the transport ministry rejected the proposal. Where did that come from?"
+    },
+    {
+      "id": "p11-c-14-s04",
+      "speaker": "Jules",
+      "text": "I saw a reference to a parliamentary debate, but I haven’t checked what the minister actually said."
+    },
+    {
+      "id": "p11-c-14-s05",
+      "speaker": "Clara",
+      "text": "Then let’s remove that claim for now. Can you check the debate record while I change the headline?"
+    },
+    {
+      "id": "p11-c-14-s06",
+      "speaker": "Jules",
+      "text": "Yes. I’ll look for the response itself, not just a mention of the debate."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-366a787c310bc896",
+      "lemma": "nationwide",
+      "pos": "adj.",
+      "sense_zh": "全国范围的",
+      "sentence_ids": [
+        "p11-c-14-s01"
+      ],
+      "forms": [
+        "nationwide"
+      ],
+      "sense_id": "sense-staged-ox-366a787c310bc896-p11-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ceebdba0d506065e",
+      "lemma": "poll",
+      "pos": "n.",
+      "sense_zh": "民意调查",
+      "sentence_ids": [
+        "p11-c-14-s01"
+      ],
+      "forms": [
+        "poll"
+      ],
+      "sense_id": "sense-staged-ox-ceebdba0d506065e-p11-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0fde17a0603fe060",
+      "lemma": "ministry",
+      "pos": "n.",
+      "sense_zh": "政府部",
+      "sentence_ids": [
+        "p11-c-14-s03"
+      ],
+      "forms": [
+        "ministry"
+      ],
+      "sense_id": "sense-staged-ox-0fde17a0603fe060-p11-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c642db75fc71279",
+      "lemma": "parliamentary",
+      "pos": "adj.",
+      "sense_zh": "议会的",
+      "sentence_ids": [
+        "p11-c-14-s04"
+      ],
+      "forms": [
+        "parliamentary"
+      ],
+      "sense_id": "sense-staged-ox-0c642db75fc71279-p11-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

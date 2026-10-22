@@ -1,0 +1,142 @@
+{
+  "id": "p11-b-09",
+  "title_zh": "因检查记录缺失暂停使用工作坊机器",
+  "topic_id": "work",
+  "scenario": {
+    "id": "workshop-machine-preuse-inspection",
+    "label_zh": "因检查记录缺失暂停使用工作坊机器",
+    "goal_zh": "核对机器使用前的检查要求，并约定先停用、再请指定人员检查"
+  },
+  "participants": [
+    "Tessa",
+    "Amir"
+  ],
+  "context_zh": "工作坊负责人和新任值班人员在开门前核对机器记录，不涉及机器维修操作。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-09-s01",
+      "speaker": "Tessa",
+      "text": "The guard looks intact. Does that mean the machine is ready for this morning?"
+    },
+    {
+      "id": "p11-b-09-s02",
+      "speaker": "Amir",
+      "text": "No. A visual glance isn't our required inspection. Where's the signed check sheet?"
+    },
+    {
+      "id": "p11-b-09-s03",
+      "speaker": "Tessa",
+      "text": "Yesterday's is here, but there's nothing for today."
+    },
+    {
+      "id": "p11-b-09-s04",
+      "speaker": "Amir",
+      "text": "The pre-use check is mandatory under our workshop rules. We can't make this machinery available to students without it."
+    },
+    {
+      "id": "p11-b-09-s05",
+      "speaker": "Tessa",
+      "text": "Who is authorized to inspect it?"
+    },
+    {
+      "id": "p11-b-09-s06",
+      "speaker": "Amir",
+      "text": "Helen is on the duty list. I'll ask her to come over and complete the check."
+    },
+    {
+      "id": "p11-b-09-s07",
+      "speaker": "Tessa",
+      "text": "I'll keep the machine marked unavailable until she confirms it's ready."
+    },
+    {
+      "id": "p11-b-09-s08",
+      "speaker": "Amir",
+      "text": "Good. We'll direct the first group to the drawing tables meanwhile."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-246e30972478a145",
+      "lemma": "inspect",
+      "pos": "v.",
+      "sense_zh": "检查、检验",
+      "sentence_ids": [
+        "p11-b-09-s05"
+      ],
+      "forms": [
+        "inspect"
+      ],
+      "sense_id": "sense-staged-ox-246e30972478a145-p11-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8c66cc99846af0a",
+      "lemma": "inspection",
+      "pos": "n.",
+      "sense_zh": "检查、检验",
+      "sentence_ids": [
+        "p11-b-09-s02"
+      ],
+      "forms": [
+        "inspection"
+      ],
+      "sense_id": "sense-staged-ox-f8c66cc99846af0a-p11-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d02149507238722c",
+      "lemma": "intact",
+      "pos": "adj.",
+      "sense_zh": "完好无损的",
+      "sentence_ids": [
+        "p11-b-09-s01"
+      ],
+      "forms": [
+        "intact"
+      ],
+      "sense_id": "sense-staged-ox-d02149507238722c-p11-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30d7450e3f0985b0",
+      "lemma": "machinery",
+      "pos": "n.",
+      "sense_zh": "机器、机械设备",
+      "sentence_ids": [
+        "p11-b-09-s04"
+      ],
+      "forms": [
+        "machinery"
+      ],
+      "sense_id": "sense-staged-ox-30d7450e3f0985b0-p11-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fa95fa4124f0f2be",
+      "lemma": "mandatory",
+      "pos": "adj.",
+      "sense_zh": "强制要求的",
+      "sentence_ids": [
+        "p11-b-09-s04"
+      ],
+      "forms": [
+        "mandatory"
+      ],
+      "sense_id": "sense-staged-ox-fa95fa4124f0f2be-p11-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

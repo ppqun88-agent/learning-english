@@ -1,0 +1,79 @@
+{
+  "id": "p11-a-40",
+  "title_zh": "确定社区义卖宣传不含博彩活动",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-fair-no-gambling-plan",
+    "label_zh": "确定社区义卖宣传不含博彩活动",
+    "goal_zh": "发现通用海报与活动安排不符，并约定删除博彩内容、改列实际摊位"
+  },
+  "participants": [
+    "Bryn",
+    "Sal"
+  ],
+  "context_zh": "社区义卖组织者使用设计模板制作海报；本次活动已决定只有手工作品与二手书摊位，没有博彩活动。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-40-s01",
+      "speaker": "Bryn",
+      "text": "This generic poster template advertises gambling, but we are not running any games for money."
+    },
+    {
+      "id": "p11-a-40-s02",
+      "speaker": "Sal",
+      "text": "That must be left over from the template. Our fair is just craft stalls and second-hand books."
+    },
+    {
+      "id": "p11-a-40-s03",
+      "speaker": "Bryn",
+      "text": "Then we should remove the casino-night line, not merely hide it in small print."
+    },
+    {
+      "id": "p11-a-40-s04",
+      "speaker": "Sal",
+      "text": "Absolutely. I'll replace it with the two types of stall and send you a proof."
+    },
+    {
+      "id": "p11-a-40-s05",
+      "speaker": "Bryn",
+      "text": "Thanks. We should check the whole poster before printing, in case any other template text remains."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4fda188c83c20c70",
+      "lemma": "generic",
+      "pos": "adj.",
+      "sense_zh": "通用的；不特定的",
+      "sentence_ids": [
+        "p11-a-40-s01"
+      ],
+      "forms": [
+        "generic"
+      ],
+      "sense_id": "sense-staged-ox-4fda188c83c20c70-p11-a-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bd901866d64bcd21",
+      "lemma": "gambling",
+      "pos": "n.",
+      "sense_zh": "赌博；博彩活动",
+      "sentence_ids": [
+        "p11-a-40-s01"
+      ],
+      "forms": [
+        "gambling"
+      ],
+      "sense_id": "sense-staged-ox-bd901866d64bcd21-p11-a-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

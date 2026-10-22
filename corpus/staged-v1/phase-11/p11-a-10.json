@@ -1,0 +1,132 @@
+{
+  "id": "p11-a-10",
+  "title_zh": "区分虚构案件报道中的指控与定罪",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-court-report-charge-boundary",
+    "label_zh": "区分虚构案件报道中的指控与定罪",
+    "goal_zh": "核对案例材料中的伤亡、武器及起诉信息，并商定避免预断有罪的报道表述"
+  },
+  "participants": [
+    "Darius",
+    "Mae"
+  ],
+  "context_zh": "虚构法律报道课堂：学员审阅一份教师编造的案件摘要，所有法律类别均只属于本练习设定。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-10-s01",
+      "speaker": "Darius",
+      "text": "Our case sheet describes a fatal shooting with a stolen firearm. Can my headline call the accused a killer?"
+    },
+    {
+      "id": "p11-a-10-s02",
+      "speaker": "Mae",
+      "text": "No. It says the prosecutor has obtained an indictment, not a conviction."
+    },
+    {
+      "id": "p11-a-10-s03",
+      "speaker": "Darius",
+      "text": "It also lists a felony charge. I thought that settled the question of guilt."
+    },
+    {
+      "id": "p11-a-10-s04",
+      "speaker": "Mae",
+      "text": "In this exercise, a charge is an accusation. The trial has not taken place."
+    },
+    {
+      "id": "p11-a-10-s05",
+      "speaker": "Darius",
+      "text": "Then I'll say the person has been charged in connection with the shooting and leave the verdict open."
+    },
+    {
+      "id": "p11-a-10-s06",
+      "speaker": "Mae",
+      "text": "Yes. Keep the death in the report, but make the status of the case clear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d6580988a2910c70",
+      "lemma": "fatal",
+      "pos": "adj.",
+      "sense_zh": "致命的",
+      "sentence_ids": [
+        "p11-a-10-s01"
+      ],
+      "forms": [
+        "fatal"
+      ],
+      "sense_id": "sense-staged-ox-d6580988a2910c70-p11-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a48281af84c6d24",
+      "lemma": "firearm",
+      "pos": "n.",
+      "sense_zh": "枪支",
+      "sentence_ids": [
+        "p11-a-10-s01"
+      ],
+      "forms": [
+        "firearm"
+      ],
+      "sense_id": "sense-staged-ox-8a48281af84c6d24-p11-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b2a9bbdea7b61221",
+      "lemma": "indictment",
+      "pos": "n.",
+      "sense_zh": "正式起诉书；正式起诉",
+      "sentence_ids": [
+        "p11-a-10-s02"
+      ],
+      "forms": [
+        "indictment"
+      ],
+      "sense_id": "sense-staged-ox-b2a9bbdea7b61221-p11-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9e74cfc192a593d7",
+      "lemma": "felony",
+      "pos": "n.",
+      "sense_zh": "重罪",
+      "sentence_ids": [
+        "p11-a-10-s03"
+      ],
+      "forms": [
+        "felony"
+      ],
+      "sense_id": "sense-staged-ox-9e74cfc192a593d7-p11-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b69dd0a2791c29f1",
+      "lemma": "guilt",
+      "pos": "n.",
+      "sense_zh": "有罪",
+      "sentence_ids": [
+        "p11-a-10-s03"
+      ],
+      "forms": [
+        "guilt"
+      ],
+      "sense_id": "sense-staged-ox-b69dd0a2791c29f1-p11-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

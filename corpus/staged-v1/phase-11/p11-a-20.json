@@ -1,0 +1,121 @@
+{
+  "id": "p11-a-20",
+  "title_zh": "约定复查租住房间的松动灯具",
+  "topic_id": "home",
+  "scenario": {
+    "id": "rental-light-fixture-snag",
+    "label_zh": "约定复查租住房间的松动灯具",
+    "goal_zh": "指出灯具缺陷与验收遗漏，并约定由电工检查后再决定处理"
+  },
+  "participants": [
+    "Dina",
+    "Leo"
+  ],
+  "context_zh": "租客和房屋管理员在入住验收时发现灯具问题；他们只安排专业检查，不进行电气维修。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-20-s01",
+      "speaker": "Dina",
+      "text": "This light fixture moves when the door closes. There seems to be a flaw in the bracket."
+    },
+    {
+      "id": "p11-a-20-s02",
+      "speaker": "Leo",
+      "text": "The inspection report says everything was checked."
+    },
+    {
+      "id": "p11-a-20-s03",
+      "speaker": "Dina",
+      "text": "Then the inspection was flawed. It missed something we can see without touching the fitting."
+    },
+    {
+      "id": "p11-a-20-s04",
+      "speaker": "Leo",
+      "text": "I could add a note saying we will watch it."
+    },
+    {
+      "id": "p11-a-20-s05",
+      "speaker": "Dina",
+      "text": "That would be inadequate. I want an electrician to inspect it before we decide it is safe to use."
+    },
+    {
+      "id": "p11-a-20-s06",
+      "speaker": "Leo",
+      "text": "You're right. I'll arrange that and ask you not to use this light in the meantime."
+    },
+    {
+      "id": "p11-a-20-s07",
+      "speaker": "Dina",
+      "text": "Thank you. Please let me know the inspection time once you have it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-027cff9641742fd7",
+      "lemma": "fixture",
+      "pos": "n.",
+      "sense_zh": "固定装置；灯具",
+      "sentence_ids": [
+        "p11-a-20-s01"
+      ],
+      "forms": [
+        "fixture"
+      ],
+      "sense_id": "sense-staged-ox-027cff9641742fd7-p11-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-85c422b0ce76d48f",
+      "lemma": "flaw",
+      "pos": "n.",
+      "sense_zh": "缺陷",
+      "sentence_ids": [
+        "p11-a-20-s01"
+      ],
+      "forms": [
+        "flaw"
+      ],
+      "sense_id": "sense-staged-ox-85c422b0ce76d48f-p11-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b3dd1252325982ee",
+      "lemma": "flawed",
+      "pos": "adj.",
+      "sense_zh": "有缺陷的",
+      "sentence_ids": [
+        "p11-a-20-s03"
+      ],
+      "forms": [
+        "flawed"
+      ],
+      "sense_id": "sense-staged-ox-b3dd1252325982ee-p11-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63d259a366dab9d8",
+      "lemma": "inadequate",
+      "pos": "adj.",
+      "sense_zh": "不足够的；不充分的",
+      "sentence_ids": [
+        "p11-a-20-s05"
+      ],
+      "forms": [
+        "inadequate"
+      ],
+      "sense_id": "sense-staged-ox-63d259a366dab9d8-p11-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

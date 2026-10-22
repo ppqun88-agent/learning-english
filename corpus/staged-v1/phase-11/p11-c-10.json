@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-10",
+  "title_zh": "商定试办中途只改一处表单",
+  "topic_id": "work",
+  "scenario": {
+    "id": "project-midpoint-change-boundary",
+    "label_zh": "商定试办中途只改一处表单",
+    "goal_zh": "区分不中断试办的小幅修改与整体重做，并同意仅增加回电号码一栏"
+  },
+  "participants": [
+    "Oscar",
+    "Mei"
+  ],
+  "context_zh": "两个同事正在进行服务预约表单的试办。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-10-s01",
+      "speaker": "Oscar",
+      "text": "We’re in the midst of the trial, and I’m worried a new form will confuse everyone."
+    },
+    {
+      "id": "p11-c-10-s02",
+      "speaker": "Mei",
+      "text": "I’m not proposing a new form. We just need one modification: a box for a callback number."
+    },
+    {
+      "id": "p11-c-10-s03",
+      "speaker": "Oscar",
+      "text": "So the change would be minimal? People have only just learned the current version."
+    },
+    {
+      "id": "p11-c-10-s04",
+      "speaker": "Mei",
+      "text": "Exactly. We’d keep the layout and every existing question."
+    },
+    {
+      "id": "p11-c-10-s05",
+      "speaker": "Oscar",
+      "text": "That should let us keep our momentum without restarting the trial. Let’s add the box, but save the redesign ideas for the review."
+    },
+    {
+      "id": "p11-c-10-s06",
+      "speaker": "Mei",
+      "text": "Agreed. I’ll update just that field and show the team what changed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7857b64a18878e7c",
+      "lemma": "midst",
+      "pos": "n.",
+      "sense_zh": "中间；进行当中",
+      "sentence_ids": [
+        "p11-c-10-s01"
+      ],
+      "forms": [
+        "midst"
+      ],
+      "sense_id": "sense-staged-ox-7857b64a18878e7c-p11-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3eb668997184d12",
+      "lemma": "modification",
+      "pos": "n.",
+      "sense_zh": "修改",
+      "sentence_ids": [
+        "p11-c-10-s02"
+      ],
+      "forms": [
+        "modification"
+      ],
+      "sense_id": "sense-staged-ox-e3eb668997184d12-p11-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f3350e9e75eb0aae",
+      "lemma": "minimal",
+      "pos": "adj.",
+      "sense_zh": "极小的；最少的",
+      "sentence_ids": [
+        "p11-c-10-s03"
+      ],
+      "forms": [
+        "minimal"
+      ],
+      "sense_id": "sense-staged-ox-f3350e9e75eb0aae-p11-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f01da3cecf2fd8d",
+      "lemma": "momentum",
+      "pos": "n.",
+      "sense_zh": "持续发展的势头",
+      "sentence_ids": [
+        "p11-c-10-s05"
+      ],
+      "forms": [
+        "momentum"
+      ],
+      "sense_id": "sense-staged-ox-0f01da3cecf2fd8d-p11-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

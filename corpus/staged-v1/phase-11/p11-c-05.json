@@ -1,0 +1,137 @@
+{
+  "id": "p11-c-05",
+  "title_zh": "约好围绕实际设计过程修改作品集",
+  "topic_id": "work",
+  "scenario": {
+    "id": "design-portfolio-mentoring-focus",
+    "label_zh": "约好围绕实际设计过程修改作品集",
+    "goal_zh": "与导师明确作品集的目标领域，并约定补充过程说明后再次讨论"
+  },
+  "participants": [
+    "Noor",
+    "Adrian"
+  ],
+  "context_zh": "一位初入设计行业的成人学员向职业导师寻求作品集反馈。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-05-s01",
+      "speaker": "Noor",
+      "text": "Would you be my mentor for this portfolio project? I still feel like an outsider in the design world."
+    },
+    {
+      "id": "p11-c-05-s02",
+      "speaker": "Adrian",
+      "text": "I’d be glad to help. What kind of work do you want people to hire you for?"
+    },
+    {
+      "id": "p11-c-05-s03",
+      "speaker": "Noor",
+      "text": "Small museum displays. That feels like a niche where my teaching experience might be useful."
+    },
+    {
+      "id": "p11-c-05-s04",
+      "speaker": "Adrian",
+      "text": "Then show how you explain difficult ideas. These pages look overly polished; I can’t see the choices behind the finished designs."
+    },
+    {
+      "id": "p11-c-05-s05",
+      "speaker": "Noor",
+      "text": "I could add the first sketch and a note about what confused the test visitors."
+    },
+    {
+      "id": "p11-c-05-s06",
+      "speaker": "Adrian",
+      "text": "Exactly. Send me those two pages next week, and we’ll talk through them."
+    },
+    {
+      "id": "p11-c-05-s07",
+      "speaker": "Noor",
+      "text": "Thanks. I’ll keep the museum focus and add those process notes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f790d1947b078077",
+      "lemma": "mentor",
+      "pos": "n.",
+      "sense_zh": "导师；指导者",
+      "sentence_ids": [
+        "p11-c-05-s01"
+      ],
+      "forms": [
+        "mentor"
+      ],
+      "sense_id": "sense-staged-ox-f790d1947b078077-p11-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-42e473e2203bbb9b",
+      "lemma": "portfolio",
+      "pos": "n.",
+      "sense_zh": "作品集",
+      "sentence_ids": [
+        "p11-c-05-s01"
+      ],
+      "forms": [
+        "portfolio"
+      ],
+      "sense_id": "sense-staged-ox-42e473e2203bbb9b-p11-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2d697cf4dd95abc",
+      "lemma": "outsider",
+      "pos": "n.",
+      "sense_zh": "局外人",
+      "sentence_ids": [
+        "p11-c-05-s01"
+      ],
+      "forms": [
+        "outsider"
+      ],
+      "sense_id": "sense-staged-ox-d2d697cf4dd95abc-p11-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08f2865aacee442a",
+      "lemma": "niche",
+      "pos": "n.",
+      "sense_zh": "适合自己的专门领域",
+      "sentence_ids": [
+        "p11-c-05-s03"
+      ],
+      "forms": [
+        "niche"
+      ],
+      "sense_id": "sense-staged-ox-08f2865aacee442a-p11-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8475b9dc7e53d4ea",
+      "lemma": "overly",
+      "pos": "adv.",
+      "sense_zh": "过分地；过于",
+      "sentence_ids": [
+        "p11-c-05-s04"
+      ],
+      "forms": [
+        "overly"
+      ],
+      "sense_id": "sense-staged-ox-8475b9dc7e53d4ea-p11-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

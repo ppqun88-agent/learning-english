@@ -1,0 +1,121 @@
+{
+  "id": "p11-c-16",
+  "title_zh": "约定暂放反复修改的照片",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "perfectionist-photo-editing-break",
+    "label_zh": "约定暂放反复修改的照片",
+    "goal_zh": "听取反复修图带来的烦恼，并约定先停止编辑、出去散步"
+  },
+  "participants": [
+    "Felix",
+    "Nia"
+  ],
+  "context_zh": "两个朋友讨论一张业余摄影作品；对话不作心理诊断。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-16-s01",
+      "speaker": "Felix",
+      "text": "I’ve changed the colors in this photo twelve times. It’s becoming an obsession, and I’m not enjoying it anymore."
+    },
+    {
+      "id": "p11-c-16-s02",
+      "speaker": "Nia",
+      "text": "What happens when you leave it alone for a while?"
+    },
+    {
+      "id": "p11-c-16-s03",
+      "speaker": "Felix",
+      "text": "I start to obsess over the tiny details again. I keep thinking one bad photo means I’m no good at this."
+    },
+    {
+      "id": "p11-c-16-s04",
+      "speaker": "Nia",
+      "text": "That last part is nonsense. You’ve made plenty of pictures you like, and this one doesn’t decide anything about you."
+    },
+    {
+      "id": "p11-c-16-s05",
+      "speaker": "Felix",
+      "text": "I know. I’m making myself miserable over a hobby that used to help me unwind."
+    },
+    {
+      "id": "p11-c-16-s06",
+      "speaker": "Nia",
+      "text": "Then let’s stop the misery for tonight. Save a copy, close the editor, and come for a walk with me."
+    },
+    {
+      "id": "p11-c-16-s07",
+      "speaker": "Felix",
+      "text": "All right. I’ll leave the photo as it is tonight and get my coat."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-da8c335506d49189",
+      "lemma": "obsession",
+      "pos": "n.",
+      "sense_zh": "挥之不去的执念",
+      "sentence_ids": [
+        "p11-c-16-s01"
+      ],
+      "forms": [
+        "obsession"
+      ],
+      "sense_id": "sense-staged-ox-da8c335506d49189-p11-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea4b4563c7c475da",
+      "lemma": "obsess",
+      "pos": "v.",
+      "sense_zh": "反复困扰自己；过分挂心",
+      "sentence_ids": [
+        "p11-c-16-s03"
+      ],
+      "forms": [
+        "obsess"
+      ],
+      "sense_id": "sense-staged-ox-ea4b4563c7c475da-p11-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-016539cd641f5aef",
+      "lemma": "nonsense",
+      "pos": "n.",
+      "sense_zh": "荒唐的说法",
+      "sentence_ids": [
+        "p11-c-16-s04"
+      ],
+      "forms": [
+        "nonsense"
+      ],
+      "sense_id": "sense-staged-ox-016539cd641f5aef-p11-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c93f5bfbfaa4ecd",
+      "lemma": "misery",
+      "pos": "n.",
+      "sense_zh": "苦恼；不快",
+      "sentence_ids": [
+        "p11-c-16-s06"
+      ],
+      "forms": [
+        "misery"
+      ],
+      "sense_id": "sense-staged-ox-1c93f5bfbfaa4ecd-p11-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,84 @@
+{
+  "id": "p11-a-36",
+  "title_zh": "核对虚构戏剧中的监禁时间线",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fictional-prison-drama-timeline",
+    "label_zh": "核对虚构戏剧中的监禁时间线",
+    "goal_zh": "依据剧情确定角色仍未获释，并商定修正场景转换字幕"
+  },
+  "participants": [
+    "Oscar",
+    "Mina"
+  ],
+  "context_zh": "编剧与剧本编辑审阅一部完全虚构的宫廷戏；其中的监禁命令仅为剧情设定。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-36-s01",
+      "speaker": "Oscar",
+      "text": "In scene two, the king orders the guards to imprison Lio for a year. Why is Lio free in the next scene?"
+    },
+    {
+      "id": "p11-a-36-s02",
+      "speaker": "Mina",
+      "text": "He is not. That scene takes place in the prison courtyard, six months into his imprisonment."
+    },
+    {
+      "id": "p11-a-36-s03",
+      "speaker": "Oscar",
+      "text": "The transition card says he is back at home. That is what confused me."
+    },
+    {
+      "id": "p11-a-36-s04",
+      "speaker": "Mina",
+      "text": "Then the card is wrong. The release happens in the final act, after the year has passed."
+    },
+    {
+      "id": "p11-a-36-s05",
+      "speaker": "Oscar",
+      "text": "I'll change this card to: prison courtyard, six months later."
+    },
+    {
+      "id": "p11-a-36-s06",
+      "speaker": "Mina",
+      "text": "Yes. That preserves the sequence without changing the scenes themselves."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-35defa38d5974406",
+      "lemma": "imprison",
+      "pos": "v.",
+      "sense_zh": "监禁",
+      "sentence_ids": [
+        "p11-a-36-s01"
+      ],
+      "forms": [
+        "imprison"
+      ],
+      "sense_id": "sense-staged-ox-35defa38d5974406-p11-a-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e5fc38687705b49a",
+      "lemma": "imprisonment",
+      "pos": "n.",
+      "sense_zh": "监禁；服刑",
+      "sentence_ids": [
+        "p11-a-36-s02"
+      ],
+      "forms": [
+        "imprisonment"
+      ],
+      "sense_id": "sense-staged-ox-e5fc38687705b49a-p11-a-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

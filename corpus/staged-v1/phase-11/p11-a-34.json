@@ -1,0 +1,121 @@
+{
+  "id": "p11-a-34",
+  "title_zh": "商定观日出后的出租车返程",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "sunrise-return-taxi-plan",
+    "label_zh": "商定观日出后的出租车返程",
+    "goal_zh": "确认观景结束后的交通需要，并决定步行到出租车站等车"
+  },
+  "participants": [
+    "Paula",
+    "Jin"
+  ],
+  "context_zh": "两位朋友在城市海滨看完日出，讨论如何返回住处；没有预订车辆。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-34-s01",
+      "speaker": "Paula",
+      "text": "That was a glorious sunrise. The whole horizon turned pink."
+    },
+    {
+      "id": "p11-a-34-s02",
+      "speaker": "Jin",
+      "text": "Worth getting up early for. My feet are cold now, though. Shall we head back?"
+    },
+    {
+      "id": "p11-a-34-s03",
+      "speaker": "Paula",
+      "text": "Can we hail a taxi from this path?"
+    },
+    {
+      "id": "p11-a-34-s04",
+      "speaker": "Jin",
+      "text": "I would rather use the taxi stand by the road. Cars cannot stop here."
+    },
+    {
+      "id": "p11-a-34-s05",
+      "speaker": "Paula",
+      "text": "I hear a horn. Is that a taxi calling us?"
+    },
+    {
+      "id": "p11-a-34-s06",
+      "speaker": "Jin",
+      "text": "I can't tell. We have not booked one, so let's not assume it is for us."
+    },
+    {
+      "id": "p11-a-34-s07",
+      "speaker": "Paula",
+      "text": "Right. We will walk to the stand and wait there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fd93ce185be9fbb6",
+      "lemma": "glorious",
+      "pos": "adj.",
+      "sense_zh": "壮丽的；令人愉快的",
+      "sentence_ids": [
+        "p11-a-34-s01"
+      ],
+      "forms": [
+        "glorious"
+      ],
+      "sense_id": "sense-staged-ox-fd93ce185be9fbb6-p11-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c600150dbf1e4dc",
+      "lemma": "horizon",
+      "pos": "n.",
+      "sense_zh": "地平线",
+      "sentence_ids": [
+        "p11-a-34-s01"
+      ],
+      "forms": [
+        "horizon"
+      ],
+      "sense_id": "sense-staged-ox-5c600150dbf1e4dc-p11-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-005d353737e4cced",
+      "lemma": "hail",
+      "pos": "v.",
+      "sense_zh": "招呼停下；招手叫车",
+      "sentence_ids": [
+        "p11-a-34-s03"
+      ],
+      "forms": [
+        "hail"
+      ],
+      "sense_id": "sense-staged-ox-005d353737e4cced-p11-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-803b630dbaab8bad",
+      "lemma": "horn",
+      "pos": "n.",
+      "sense_zh": "汽车喇叭",
+      "sentence_ids": [
+        "p11-a-34-s05"
+      ],
+      "forms": [
+        "horn"
+      ],
+      "sense_id": "sense-staged-ox-803b630dbaab8bad-p11-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

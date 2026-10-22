@@ -1,0 +1,89 @@
+{
+  "id": "p11-c-37",
+  "title_zh": "约好补发缺少的一节帐篷杆",
+  "topic_id": "services",
+  "scenario": {
+    "id": "camping-pad-pole-replacement",
+    "label_zh": "约好补发缺少的一节帐篷杆",
+    "goal_zh": "核对露营用品中的缺件，并确认店方将补发缺少的一节帐篷杆而无需退回睡垫"
+  },
+  "participants": [
+    "Penny",
+    "Darius"
+  ],
+  "context_zh": "顾客在户外用品店展示露营套装内的部件和收据。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-37-s01",
+      "speaker": "Penny",
+      "text": "The sleeping pad is fine, but the tent won’t stand properly. I think one pole is missing a section."
+    },
+    {
+      "id": "p11-c-37-s02",
+      "speaker": "Darius",
+      "text": "Let’s compare it with the parts diagram. You should have four sections on this side, and I can see only three."
+    },
+    {
+      "id": "p11-c-37-s03",
+      "speaker": "Penny",
+      "text": "Do I need to return the whole camping set?"
+    },
+    {
+      "id": "p11-c-37-s04",
+      "speaker": "Darius",
+      "text": "No. I can order the missing section for you. Keep the pad and the rest of the tent."
+    },
+    {
+      "id": "p11-c-37-s05",
+      "speaker": "Penny",
+      "text": "That’s better. Can the section come to this shop so we can check the fit?"
+    },
+    {
+      "id": "p11-c-37-s06",
+      "speaker": "Darius",
+      "text": "Yes. I’ll order it for collection here and contact you when it arrives."
+    },
+    {
+      "id": "p11-c-37-s07",
+      "speaker": "Penny",
+      "text": "Thank you. I’ll keep the other parts together and wait for your call."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7176f209d7298f3d",
+      "lemma": "pad",
+      "pos": "n.",
+      "sense_zh": "垫子；睡垫",
+      "sentence_ids": [
+        "p11-c-37-s01"
+      ],
+      "forms": [
+        "pad"
+      ],
+      "sense_id": "sense-staged-ox-7176f209d7298f3d-p11-c-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16eaef919ce5b2a0",
+      "lemma": "pole",
+      "pos": "n.",
+      "sense_zh": "帐篷杆；支杆",
+      "sentence_ids": [
+        "p11-c-37-s01"
+      ],
+      "forms": [
+        "pole"
+      ],
+      "sense_id": "sense-staged-ox-16eaef919ce5b2a0-p11-c-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

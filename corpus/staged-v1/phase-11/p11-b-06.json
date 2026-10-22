@@ -1,0 +1,116 @@
+{
+  "id": "p11-b-06",
+  "title_zh": "约定用具体教学贡献致谢导师",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "artist-mentor-exhibition-credit",
+    "label_zh": "约定用具体教学贡献致谢导师",
+    "goal_zh": "核对导师对艺术家的影响，并约定用具体教学经历说明其贡献而不混淆作品作者"
+  },
+  "participants": [
+    "Imani",
+    "Ellis"
+  ],
+  "context_zh": "艺术家为个人展览撰写致谢文字，与策展人核对导师的贡献。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-06-s01",
+      "speaker": "Imani",
+      "text": "You've called your teacher the inspiration for this exhibition. Did she suggest its subject?"
+    },
+    {
+      "id": "p11-b-06-s02",
+      "speaker": "Ellis",
+      "text": "Not the subject. She taught me to sketch the same street every day. That habit is her legacy in my work."
+    },
+    {
+      "id": "p11-b-06-s03",
+      "speaker": "Imani",
+      "text": "So she was influential in how you observe, rather than in choosing these particular paintings?"
+    },
+    {
+      "id": "p11-b-06-s04",
+      "speaker": "Ellis",
+      "text": "Exactly. She was also instrumental in getting me my first shared studio, but the paintings and their themes are mine."
+    },
+    {
+      "id": "p11-b-06-s05",
+      "speaker": "Imani",
+      "text": "Then let's thank her for the daily sketching habit and the studio introduction. That's more precise than calling her a co-creator."
+    },
+    {
+      "id": "p11-b-06-s06",
+      "speaker": "Ellis",
+      "text": "Agreed. I'll write those two contributions into the acknowledgement."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e6974345c005723c",
+      "lemma": "inspiration",
+      "pos": "n.",
+      "sense_zh": "带来创作灵感的人或事物",
+      "sentence_ids": [
+        "p11-b-06-s01"
+      ],
+      "forms": [
+        "inspiration"
+      ],
+      "sense_id": "sense-staged-ox-e6974345c005723c-p11-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f92ec7e1ea609657",
+      "lemma": "influential",
+      "pos": "adj.",
+      "sense_zh": "有影响力的",
+      "sentence_ids": [
+        "p11-b-06-s03"
+      ],
+      "forms": [
+        "influential"
+      ],
+      "sense_id": "sense-staged-ox-f92ec7e1ea609657-p11-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8369d719fc9e82b7",
+      "lemma": "instrumental",
+      "pos": "adj.",
+      "sense_zh": "起重要作用的",
+      "sentence_ids": [
+        "p11-b-06-s04"
+      ],
+      "forms": [
+        "instrumental"
+      ],
+      "sense_id": "sense-staged-ox-8369d719fc9e82b7-p11-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-238fa1e6ea853bf6",
+      "lemma": "legacy",
+      "pos": "n.",
+      "sense_zh": "留下的持久影响",
+      "sentence_ids": [
+        "p11-b-06-s02"
+      ],
+      "forms": [
+        "legacy"
+      ],
+      "sense_id": "sense-staged-ox-238fa1e6ea853bf6-p11-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

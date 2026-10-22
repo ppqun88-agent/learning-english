@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-11",
+  "title_zh": "约定测试柔和渐变的幻想短片结尾",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fantasy-film-brightness-edit-test",
+    "label_zh": "约定测试柔和渐变的幻想短片结尾",
+    "goal_zh": "说明试看片时对强光片段的不适感受，并约定不再增强闪光、改试柔和渐变"
+  },
+  "participants": [
+    "Silas",
+    "Mei"
+  ],
+  "context_zh": "两名剪辑师在虚构幻想短片试看片后讨论视觉效果；健康感受只是角色反馈，不构成诊疗建议。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-11-s01",
+      "speaker": "Silas",
+      "text": "The forest looks magical, but I felt sick during the rapid flashes at the end."
+    },
+    {
+      "id": "p11-b-11-s02",
+      "speaker": "Mei",
+      "text": "I was going to intensify the flashes as the door opened. That may be the wrong direction."
+    },
+    {
+      "id": "p11-b-11-s03",
+      "speaker": "Silas",
+      "text": "I'd rather not use an effect that could induce nausea. Can we keep the colour without the flashing?"
+    },
+    {
+      "id": "p11-b-11-s04",
+      "speaker": "Mei",
+      "text": "We could lower the intensity of the light and use a slow fade from blue to gold."
+    },
+    {
+      "id": "p11-b-11-s05",
+      "speaker": "Silas",
+      "text": "That sounds worth trying. The door can still feel surprising without the screen pulsing."
+    },
+    {
+      "id": "p11-b-11-s06",
+      "speaker": "Mei",
+      "text": "I'll make that version, without the flashes, and we'll watch it before choosing the final ending."
+    },
+    {
+      "id": "p11-b-11-s07",
+      "speaker": "Silas",
+      "text": "Agreed. Let's test the gentler fade first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a583fbe21a93911b",
+      "lemma": "induce",
+      "pos": "v.",
+      "sense_zh": "引起、诱发",
+      "sentence_ids": [
+        "p11-b-11-s03"
+      ],
+      "forms": [
+        "induce"
+      ],
+      "sense_id": "sense-staged-ox-a583fbe21a93911b-p11-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f76df5f46c5a920",
+      "lemma": "intensify",
+      "pos": "v.",
+      "sense_zh": "增强、加剧",
+      "sentence_ids": [
+        "p11-b-11-s02"
+      ],
+      "forms": [
+        "intensify"
+      ],
+      "sense_id": "sense-staged-ox-5f76df5f46c5a920-p11-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c76b5828e2835fd7",
+      "lemma": "intensity",
+      "pos": "n.",
+      "sense_zh": "强度",
+      "sentence_ids": [
+        "p11-b-11-s04"
+      ],
+      "forms": [
+        "intensity"
+      ],
+      "sense_id": "sense-staged-ox-c76b5828e2835fd7-p11-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-55497d107f7aa4c0",
+      "lemma": "magical",
+      "pos": "adj.",
+      "sense_zh": "奇妙迷人的、具有魔幻感的",
+      "sentence_ids": [
+        "p11-b-11-s01"
+      ],
+      "forms": [
+        "magical"
+      ],
+      "sense_id": "sense-staged-ox-55497d107f7aa4c0-p11-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

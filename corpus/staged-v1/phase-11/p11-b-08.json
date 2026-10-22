@@ -1,0 +1,137 @@
+{
+  "id": "p11-b-08",
+  "title_zh": "约定先核对图书修补活动审批，暂不公布日期",
+  "topic_id": "community",
+  "scenario": {
+    "id": "library-project-contact-before-launch",
+    "label_zh": "约定先核对图书修补活动审批，暂不公布日期",
+    "goal_zh": "确认现有资料不足以公布图书修补活动开始日期，并分工询问审批与收集志愿者可用时段"
+  },
+  "participants": [
+    "Ruth",
+    "Ben"
+  ],
+  "context_zh": "两名图书馆志愿者想组织周末维修书籍活动，但尚未获准使用房间。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-08-s01",
+      "speaker": "Ruth",
+      "text": "Can we initiate the approval process for the book-repair sessions this week?"
+    },
+    {
+      "id": "p11-b-08-s02",
+      "speaker": "Ben",
+      "text": "Yes, but the library has an interim manager. We should find out who can authorize room use."
+    },
+    {
+      "id": "p11-b-08-s03",
+      "speaker": "Ruth",
+      "text": "I'll inquire at the office tomorrow. Could we advertise a start date now?"
+    },
+    {
+      "id": "p11-b-08-s04",
+      "speaker": "Ben",
+      "text": "We have insufficient information for that. We don't even know whether the room is available on Saturdays."
+    },
+    {
+      "id": "p11-b-08-s05",
+      "speaker": "Ruth",
+      "text": "Fair point. In the meantime, could you collect the volunteers' available times?"
+    },
+    {
+      "id": "p11-b-08-s06",
+      "speaker": "Ben",
+      "text": "Certainly. I'll collect those without promising a date."
+    },
+    {
+      "id": "p11-b-08-s07",
+      "speaker": "Ruth",
+      "text": "Good. I'll ask about the approval steps and room availability, then we'll compare what we've learned."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b9c6744353c373c2",
+      "lemma": "initiate",
+      "pos": "v.",
+      "sense_zh": "启动、发起",
+      "sentence_ids": [
+        "p11-b-08-s01"
+      ],
+      "forms": [
+        "initiate"
+      ],
+      "sense_id": "sense-staged-ox-b9c6744353c373c2-p11-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e75af049bad223c9",
+      "lemma": "inquire",
+      "pos": "v.",
+      "sense_zh": "询问、打听",
+      "sentence_ids": [
+        "p11-b-08-s03"
+      ],
+      "forms": [
+        "inquire"
+      ],
+      "sense_id": "sense-staged-ox-e75af049bad223c9-p11-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0ad30de652bee34",
+      "lemma": "interim",
+      "pos": "adj.",
+      "sense_zh": "临时的、过渡期间的",
+      "sentence_ids": [
+        "p11-b-08-s02"
+      ],
+      "forms": [
+        "interim"
+      ],
+      "sense_id": "sense-staged-ox-a0ad30de652bee34-p11-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb14338bfdb653d6",
+      "lemma": "insufficient",
+      "pos": "adj.",
+      "sense_zh": "不足的",
+      "sentence_ids": [
+        "p11-b-08-s04"
+      ],
+      "forms": [
+        "insufficient"
+      ],
+      "sense_id": "sense-staged-ox-cb14338bfdb653d6-p11-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8c4e7d12d8451d92",
+      "lemma": "meantime",
+      "pos": "n.",
+      "sense_zh": "期间（用于in the meantime）",
+      "sentence_ids": [
+        "p11-b-08-s05"
+      ],
+      "forms": [
+        "meantime"
+      ],
+      "sense_id": "sense-staged-ox-8c4e7d12d8451d92-p11-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

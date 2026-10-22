@@ -1,0 +1,79 @@
+{
+  "id": "p11-a-29",
+  "title_zh": "决定分开处理咖啡豆与点心坚果",
+  "topic_id": "food",
+  "scenario": {
+    "id": "coffee-and-nut-preparation",
+    "label_zh": "决定分开处理咖啡豆与点心坚果",
+    "goal_zh": "识别共用研磨机的食材残留问题，并决定用独立工具处理坚果"
+  },
+  "participants": [
+    "Will",
+    "Esme"
+  ],
+  "context_zh": "两人在家中准备咖啡和含杏仁的饼干，希望避免杏仁碎留在咖啡研磨机里。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-29-s01",
+      "speaker": "Will",
+      "text": "Can I grind a handful of almonds in your coffee grinder for the biscuits?"
+    },
+    {
+      "id": "p11-a-29-s02",
+      "speaker": "Esme",
+      "text": "Please use the small food processor instead. I do not want bits of almond left in the coffee grinder."
+    },
+    {
+      "id": "p11-a-29-s03",
+      "speaker": "Will",
+      "text": "Of course. Is this the processor on the shelf?"
+    },
+    {
+      "id": "p11-a-29-s04",
+      "speaker": "Esme",
+      "text": "Yes, that one. The clean bowl is beside it."
+    },
+    {
+      "id": "p11-a-29-s05",
+      "speaker": "Will",
+      "text": "Found it. I'll use this for the almonds and leave the grinder for the coffee beans."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-56c08ca1792528ff",
+      "lemma": "grind",
+      "pos": "v.",
+      "sense_zh": "磨碎",
+      "sentence_ids": [
+        "p11-a-29-s01"
+      ],
+      "forms": [
+        "grind"
+      ],
+      "sense_id": "sense-staged-ox-56c08ca1792528ff-p11-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b83d79aa068af20",
+      "lemma": "handful",
+      "pos": "n.",
+      "sense_zh": "一把的量",
+      "sentence_ids": [
+        "p11-a-29-s01"
+      ],
+      "forms": [
+        "handful"
+      ],
+      "sense_id": "sense-staged-ox-4b83d79aa068af20-p11-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

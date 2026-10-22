@@ -1,0 +1,100 @@
+{
+  "id": "p11-a-27",
+  "title_zh": "决定先索取咖啡店加盟费用明细",
+  "topic_id": "services",
+  "scenario": {
+    "id": "fictional-cafe-franchise-questions",
+    "label_zh": "决定先索取咖啡店加盟费用明细",
+    "goal_zh": "说明对虚构加盟方案的顾虑，并决定在了解费用前不签署文件"
+  },
+  "participants": [
+    "Rafael",
+    "June"
+  ],
+  "context_zh": "虚构商业沟通练习：两位角色讨论一家编造的咖啡店加盟提案，不构成投资或法律建议。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-27-s01",
+      "speaker": "Rafael",
+      "text": "Are you ready to sign for the coffee franchise?"
+    },
+    {
+      "id": "p11-a-27-s02",
+      "speaker": "June",
+      "text": "Frankly, no. The brochure shows the entry fee but says little about the ongoing costs."
+    },
+    {
+      "id": "p11-a-27-s03",
+      "speaker": "Rafael",
+      "text": "The representative wants an answer today."
+    },
+    {
+      "id": "p11-a-27-s04",
+      "speaker": "June",
+      "text": "I am inclined to wait. I want a written breakdown of the monthly charges before I decide."
+    },
+    {
+      "id": "p11-a-27-s05",
+      "speaker": "Rafael",
+      "text": "Then I will tell her you are not signing today and ask for that breakdown."
+    },
+    {
+      "id": "p11-a-27-s06",
+      "speaker": "June",
+      "text": "Yes, please. Asking for details is not an agreement to join."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ee1e2af0adc2356a",
+      "lemma": "franchise",
+      "pos": "n.",
+      "sense_zh": "特许经营权；加盟业务",
+      "sentence_ids": [
+        "p11-a-27-s01"
+      ],
+      "forms": [
+        "franchise"
+      ],
+      "sense_id": "sense-staged-ox-ee1e2af0adc2356a-p11-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c073bc2fda3187e1",
+      "lemma": "frankly",
+      "pos": "adv.",
+      "sense_zh": "坦率地说",
+      "sentence_ids": [
+        "p11-a-27-s02"
+      ],
+      "forms": [
+        "frankly"
+      ],
+      "sense_id": "sense-staged-ox-c073bc2fda3187e1-p11-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51cffcbdd80df5b7",
+      "lemma": "inclined",
+      "pos": "adj.",
+      "sense_zh": "倾向于的",
+      "sentence_ids": [
+        "p11-a-27-s04"
+      ],
+      "forms": [
+        "inclined"
+      ],
+      "sense_id": "sense-staged-ox-51cffcbdd80df5b7-p11-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

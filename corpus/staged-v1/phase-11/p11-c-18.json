@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-18",
+  "title_zh": "商定以请愿要求复议图书馆关闭决定",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-library-closure-petition",
+    "label_zh": "商定以请愿要求复议图书馆关闭决定",
+    "goal_zh": "拒绝把愤怒居民一概称为暴民，并确定请愿目标是要求复议而非宣称决定已推翻"
+  },
+  "participants": [
+    "Leah",
+    "Samir"
+  ],
+  "context_zh": "公民沟通课的两位成人学员模拟讨论虚构市议会的图书馆关闭决定。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-18-s01",
+      "speaker": "Leah",
+      "text": "There’s real outrage about the library closure. I want our petition to ask the council to overturn the decision."
+    },
+    {
+      "id": "p11-c-18-s02",
+      "speaker": "Samir",
+      "text": "So do I, but this draft calls everyone at last night’s meeting a mob. Most people just asked questions."
+    },
+    {
+      "id": "p11-c-18-s03",
+      "speaker": "Leah",
+      "text": "You’re right. Anger doesn’t mean the whole room was violent. I’ll remove that description."
+    },
+    {
+      "id": "p11-c-18-s04",
+      "speaker": "Samir",
+      "text": "And signing a petition won’t itself reverse the decision. Let’s say we’re requesting a fresh vote."
+    },
+    {
+      "id": "p11-c-18-s05",
+      "speaker": "Leah",
+      "text": "Yes. We’ll explain why residents need the library and ask the council to reconsider."
+    },
+    {
+      "id": "p11-c-18-s06",
+      "speaker": "Samir",
+      "text": "That gives people a clear request to support without pretending we’ve already won."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-22a63df4c1ea8f91",
+      "lemma": "outrage",
+      "pos": "n.",
+      "sense_zh": "愤慨",
+      "sentence_ids": [
+        "p11-c-18-s01"
+      ],
+      "forms": [
+        "outrage"
+      ],
+      "sense_id": "sense-staged-ox-22a63df4c1ea8f91-p11-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ac1a70012c498c5",
+      "lemma": "petition",
+      "pos": "n.",
+      "sense_zh": "请愿书",
+      "sentence_ids": [
+        "p11-c-18-s01"
+      ],
+      "forms": [
+        "petition"
+      ],
+      "sense_id": "sense-staged-ox-0ac1a70012c498c5-p11-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b3a7a3119136f2e",
+      "lemma": "overturn",
+      "pos": "v.",
+      "sense_zh": "推翻；撤销",
+      "sentence_ids": [
+        "p11-c-18-s01"
+      ],
+      "forms": [
+        "overturn"
+      ],
+      "sense_id": "sense-staged-ox-4b3a7a3119136f2e-p11-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6f428ca090ab6d72",
+      "lemma": "mob",
+      "pos": "n.",
+      "sense_zh": "暴民；闹事人群",
+      "sentence_ids": [
+        "p11-c-18-s02"
+      ],
+      "forms": [
+        "mob"
+      ],
+      "sense_id": "sense-staged-ox-6f428ca090ab6d72-p11-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

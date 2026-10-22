@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-03",
+  "title_zh": "明确志愿评委独立打分的边界",
+  "topic_id": "community",
+  "scenario": {
+    "id": "volunteer-scoring-pressure-boundary",
+    "label_zh": "明确志愿评委独立打分的边界",
+    "goal_zh": "说明评分公平要求，并约定在评委说明中写明不得施压"
+  },
+  "participants": [
+    "Tessa",
+    "Malik"
+  ],
+  "context_zh": "社区故事比赛的组织者审阅志愿评委说明。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-03-s01",
+      "speaker": "Tessa",
+      "text": "A sponsor wants us to tell the judges which entrant she supports."
+    },
+    {
+      "id": "p11-a-03-s02",
+      "speaker": "Malik",
+      "text": "That would undermine fairness. We can't exert pressure on volunteers to favor a particular entrant."
+    },
+    {
+      "id": "p11-a-03-s03",
+      "speaker": "Tessa",
+      "text": "The current guide just says to be respectful. We need something more explicit."
+    },
+    {
+      "id": "p11-a-03-s04",
+      "speaker": "Malik",
+      "text": "How about: judges must score independently, and sponsors must not contact them about scores?"
+    },
+    {
+      "id": "p11-a-03-s05",
+      "speaker": "Tessa",
+      "text": "Yes. Please state explicitly that this applies to the organizing team too."
+    },
+    {
+      "id": "p11-a-03-s06",
+      "speaker": "Malik",
+      "text": "I will. I'll add both points to the next version and send it to you for a check."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-25f72f238a3a6dd8",
+      "lemma": "fairness",
+      "pos": "n.",
+      "sense_zh": "公正",
+      "sentence_ids": [
+        "p11-a-03-s02"
+      ],
+      "forms": [
+        "fairness"
+      ],
+      "sense_id": "sense-staged-ox-25f72f238a3a6dd8-p11-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-edf0dc66639d3c52",
+      "lemma": "exert",
+      "pos": "v.",
+      "sense_zh": "施加",
+      "sentence_ids": [
+        "p11-a-03-s02"
+      ],
+      "forms": [
+        "exert"
+      ],
+      "sense_id": "sense-staged-ox-edf0dc66639d3c52-p11-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6754b930179302af",
+      "lemma": "explicit",
+      "pos": "adj.",
+      "sense_zh": "明确的",
+      "sentence_ids": [
+        "p11-a-03-s03"
+      ],
+      "forms": [
+        "explicit"
+      ],
+      "sense_id": "sense-staged-ox-6754b930179302af-p11-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d15ffba90a81aa42",
+      "lemma": "explicitly",
+      "pos": "adv.",
+      "sense_zh": "明确地",
+      "sentence_ids": [
+        "p11-a-03-s05"
+      ],
+      "forms": [
+        "explicitly"
+      ],
+      "sense_id": "sense-staged-ox-d15ffba90a81aa42-p11-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

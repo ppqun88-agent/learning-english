@@ -1,0 +1,137 @@
+{
+  "id": "p11-b-10",
+  "title_zh": "把博物馆应用演示限定为导览功能",
+  "topic_id": "work",
+  "scenario": {
+    "id": "museum-app-integration-demo-scope",
+    "label_zh": "把博物馆应用演示限定为导览功能",
+    "goal_zh": "区分现有导览界面与未完成的票务整合，并约定演示时明确标示票务尚未接通"
+  },
+  "participants": [
+    "Lina",
+    "Hugo"
+  ],
+  "context_zh": "博物馆产品团队准备展示应用原型，核对开发状态与演示范围。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-10-s01",
+      "speaker": "Lina",
+      "text": "Is this the integrated version of the museum app, with tickets and the audio tour together?"
+    },
+    {
+      "id": "p11-b-10-s02",
+      "speaker": "Hugo",
+      "text": "Not yet. The tour interface works, but the ticketing integration is still being tested."
+    },
+    {
+      "id": "p11-b-10-s03",
+      "speaker": "Lina",
+      "text": "The booking button looks active. Visitors might assume they can buy tickets through it."
+    },
+    {
+      "id": "p11-b-10-s04",
+      "speaker": "Hugo",
+      "text": "Good catch. I'll disable it for the demo and label it 'Ticketing not connected'."
+    },
+    {
+      "id": "p11-b-10-s05",
+      "speaker": "Lina",
+      "text": "Can we still show the interactive map? It's an integral part of how visitors find each stop."
+    },
+    {
+      "id": "p11-b-10-s06",
+      "speaker": "Hugo",
+      "text": "Yes. The map and audio work together. We can demonstrate those without opening the booking screen."
+    },
+    {
+      "id": "p11-b-10-s07",
+      "speaker": "Lina",
+      "text": "Then let's make this a tour-only demo and say clearly that ticketing isn't connected yet."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9c20bcc6192b84b6",
+      "lemma": "integral",
+      "pos": "adj.",
+      "sense_zh": "必不可少的、组成整体的重要部分的",
+      "sentence_ids": [
+        "p11-b-10-s05"
+      ],
+      "forms": [
+        "integral"
+      ],
+      "sense_id": "sense-staged-ox-9c20bcc6192b84b6-p11-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66590cf6d741f48f",
+      "lemma": "integrated",
+      "pos": "adj.",
+      "sense_zh": "整合的",
+      "sentence_ids": [
+        "p11-b-10-s01"
+      ],
+      "forms": [
+        "integrated"
+      ],
+      "sense_id": "sense-staged-ox-66590cf6d741f48f-p11-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-22d26bde15490141",
+      "lemma": "integration",
+      "pos": "n.",
+      "sense_zh": "整合、接通",
+      "sentence_ids": [
+        "p11-b-10-s02"
+      ],
+      "forms": [
+        "integration"
+      ],
+      "sense_id": "sense-staged-ox-22d26bde15490141-p11-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d51e0019e4c492e1",
+      "lemma": "interactive",
+      "pos": "adj.",
+      "sense_zh": "交互式的",
+      "sentence_ids": [
+        "p11-b-10-s05"
+      ],
+      "forms": [
+        "interactive"
+      ],
+      "sense_id": "sense-staged-ox-d51e0019e4c492e1-p11-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d1f23302a9c58c7",
+      "lemma": "interface",
+      "pos": "n.",
+      "sense_zh": "用户界面",
+      "sentence_ids": [
+        "p11-b-10-s02"
+      ],
+      "forms": [
+        "interface"
+      ],
+      "sense_id": "sense-staged-ox-1d1f23302a9c58c7-p11-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

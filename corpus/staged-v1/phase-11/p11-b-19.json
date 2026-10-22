@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-19",
+  "title_zh": "保留短剧的讽刺结尾并删去无关段落",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "play-irony-ending-edit",
+    "label_zh": "保留短剧的讽刺结尾并删去无关段落",
+    "goal_zh": "解释人物结局与主张的反差，并约定保留该结尾、删除无关家族背景"
+  },
+  "participants": [
+    "Petra",
+    "Miles"
+  ],
+  "context_zh": "学生向写作教师征求原创短剧结尾的修改意见，人物和事件均为虚构。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-19-s01",
+      "speaker": "Petra",
+      "text": "Is it too obvious that the mayor, who bans all music, ends up asking the band for help?"
+    },
+    {
+      "id": "p11-b-19-s02",
+      "speaker": "Miles",
+      "text": "No. It's ironic that the person who wanted silence needs the musicians to bring people together."
+    },
+    {
+      "id": "p11-b-19-s03",
+      "speaker": "Petra",
+      "text": "Ironically, the ban also made the band more popular. I was thinking of adding a speech explaining that."
+    },
+    {
+      "id": "p11-b-19-s04",
+      "speaker": "Miles",
+      "text": "The audience can see the irony already. Let the mayor quietly ask for one song instead."
+    },
+    {
+      "id": "p11-b-19-s05",
+      "speaker": "Petra",
+      "text": "What about the page describing his grandfather's bakery?"
+    },
+    {
+      "id": "p11-b-19-s06",
+      "speaker": "Miles",
+      "text": "It's irrelevant to this ending. Nothing in the scene depends on the bakery."
+    },
+    {
+      "id": "p11-b-19-s07",
+      "speaker": "Petra",
+      "text": "Then I'll cut that page and keep the request for a song. The audience can make the connection."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2333df0a2ac26e17",
+      "lemma": "ironic",
+      "pos": "adj.",
+      "sense_zh": "具有讽刺意味的",
+      "sentence_ids": [
+        "p11-b-19-s02"
+      ],
+      "forms": [
+        "ironic"
+      ],
+      "sense_id": "sense-staged-ox-2333df0a2ac26e17-p11-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7740a26ec2a985e2",
+      "lemma": "ironically",
+      "pos": "adv.",
+      "sense_zh": "讽刺的是、出乎意料地",
+      "sentence_ids": [
+        "p11-b-19-s03"
+      ],
+      "forms": [
+        "ironically"
+      ],
+      "sense_id": "sense-staged-ox-7740a26ec2a985e2-p11-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a729f30f43b995e3",
+      "lemma": "irony",
+      "pos": "n.",
+      "sense_zh": "反讽、讽刺性的反差",
+      "sentence_ids": [
+        "p11-b-19-s04"
+      ],
+      "forms": [
+        "irony"
+      ],
+      "sense_id": "sense-staged-ox-a729f30f43b995e3-p11-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16f76a95db017715",
+      "lemma": "irrelevant",
+      "pos": "adj.",
+      "sense_zh": "无关的",
+      "sentence_ids": [
+        "p11-b-19-s06"
+      ],
+      "forms": [
+        "irrelevant"
+      ],
+      "sense_id": "sense-staged-ox-16f76a95db017715-p11-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

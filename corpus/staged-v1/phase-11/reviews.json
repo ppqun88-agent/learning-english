@@ -1,0 +1,5591 @@
+[
+  {
+    "dialogue_id": "p11-a-01",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "23caab9dc524ee84f13d6e6b1528882fed2db954e997893b040913e98aaab5dc",
+    "status": "accepted",
+    "rationale": "完整对话从恢复文件漏查转向测试环境补演；Mara 与 Dev 的分工在 s05–s06 明确接受。标题、情景标签与两项结果证据均只声称约定演练，不称已发布。",
+    "targets": [
+      {
+        "target_id": "ox-b1469952870620f8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-01-s01"
+        ],
+        "forms": [
+          "imminent"
+        ],
+        "rationale": "s01 用形容词 imminent 说明软件发布迫近，给最后一次演练提供动机。"
+      },
+      {
+        "target_id": "ox-9a21945b7538693b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-01-s02"
+        ],
+        "forms": [
+          "execute"
+        ],
+        "rationale": "s02 的 execute the checklist 是按清单执行步骤的动词搭配，并明确限定测试环境。"
+      },
+      {
+        "target_id": "ox-2b6e6c8ac328e4c6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-01-s03"
+        ],
+        "forms": [
+          "execution"
+        ],
+        "rationale": "s03 的 a gap in our execution 指清单实施过程中的漏检，不是死刑或代码执行的混淆。"
+      },
+      {
+        "target_id": "ox-46ef57772916e90b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-01-s04"
+        ],
+        "forms": [
+          "implementation"
+        ],
+        "rationale": "s04 名词 implementation of the new backup step 指落实新增步骤，需要明确负责人。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-02",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "117517e4387a1f994f63ea5099e2bef491bc1489eff896df241288e49d8855d8",
+    "status": "accepted",
+    "rationale": "氢能模型不含真实气体，松动盖板而非氢气是当前风险；双方按场景给定说明约定停演并请主管检查。标题、标签和主张没有把联系或检查写成已经完成。",
+    "targets": [
+      {
+        "target_id": "ox-f813b9b872b1eb61",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-02-s01"
+        ],
+        "forms": [
+          "experimental"
+        ],
+        "rationale": "s01 experimental 修饰该科学展台，采用试验性模型展示的形容词用法。"
+      },
+      {
+        "target_id": "ox-287451bce21782bc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-02-s01"
+        ],
+        "forms": [
+          "hydrogen"
+        ],
+        "rationale": "s01 名词 hydrogen 是展台讨论的物质主题；s02 随即排除现场真实气体。"
+      },
+      {
+        "target_id": "ox-48c61b97fe963400",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-02-s02"
+        ],
+        "forms": [
+          "explosive"
+        ],
+        "rationale": "s02 explosive mixture 形容可爆炸混合物，作为标牌背景说明而非操作指令。"
+      },
+      {
+        "target_id": "ox-773b77440b049e7b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-02-s03"
+        ],
+        "forms": [
+          "hazard"
+        ],
+        "rationale": "s03 a hazard for visitors 指松盖给参观者带来的危险隐患，名词与语境一致。"
+      },
+      {
+        "target_id": "ox-61a630c3e0943bd0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-02-s04"
+        ],
+        "forms": [
+          "halt"
+        ],
+        "rationale": "s04 halt the demonstration 是说明中停止演示的动词要求。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-03",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "fbae8feba630693e80dce15478a18d63cb9187c748410809e195c8cd79f76bfd",
+    "status": "accepted",
+    "rationale": "赞助者干预引出独立评分边界，组织者同样受约束；s05–s06 约定写入下一版供检查。明确边界已完成与文稿尚待修改在私有主张中区分准确。",
+    "targets": [
+      {
+        "target_id": "ox-25f72f238a3a6dd8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-03-s02"
+        ],
+        "forms": [
+          "fairness"
+        ],
+        "rationale": "s02 undermine fairness 将评分公正作为不能受干预的原则，抽象名词自然。"
+      },
+      {
+        "target_id": "ox-edf0dc66639d3c52",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-03-s02"
+        ],
+        "forms": [
+          "exert"
+        ],
+        "rationale": "s02 exert pressure on volunteers 是对志愿评委施压的标准动词搭配。"
+      },
+      {
+        "target_id": "ox-6754b930179302af",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-03-s03"
+        ],
+        "forms": [
+          "explicit"
+        ],
+        "rationale": "s03 something more explicit 要求比笼统尊重更明确的规则，形容词用法成立。"
+      },
+      {
+        "target_id": "ox-d15ffba90a81aa42",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-03-s05"
+        ],
+        "forms": [
+          "explicitly"
+        ],
+        "rationale": "s05 state explicitly 修饰写明规则的方式，副词与义项吻合。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-04",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "82ab4551f028513aced5a0ef04cc10755cfdcd63fe788cacff35622136ba7d84",
+    "status": "accepted",
+    "rationale": "读者纠正简介把希望返乡误写为已返乡的错误，并保留兄弟结局未知。s05–s06 接受新的简介方向；所有标题及目标主张支持充分，未把将修改当成已改。",
+    "targets": [
+      {
+        "target_id": "ox-6fcc061fc024a435",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-04-s01"
+        ],
+        "forms": [
+          "homeland"
+        ],
+        "rationale": "s01 return to her homeland 中名词指小说人物的故乡；被纠正的是返乡事实，不是词义。"
+      },
+      {
+        "target_id": "ox-8e5625d238b724e7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-04-s02"
+        ],
+        "forms": [
+          "exile"
+        ],
+        "rationale": "s02 living in exile 明确指离乡流亡状态，名词自然。"
+      },
+      {
+        "target_id": "ox-1feae6573ede0721",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-04-s03"
+        ],
+        "forms": [
+          "flee"
+        ],
+        "rationale": "s03 had to flee 指因边防搜寻而逃离，动词原因由上下文交代。"
+      },
+      {
+        "target_id": "ox-09a6675455cb466f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-04-s04"
+        ],
+        "forms": [
+          "fate"
+        ],
+        "rationale": "s04 her brother’s fate 是尚不明确的最终遭遇，与最后信件的有限消息相对。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-05",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "0966d071f86b9dbf0f3e1f2fcb83ec15aec12f1f449870dcda754c745e94b3eb",
+    "status": "accepted",
+    "rationale": "虚构博物馆预算中八万减六万八余一万二，十五千采购缺三千；另有仓储费用风险。双方已决定延期但仅承诺改预算，标题、目标和结果状态一致。",
+    "targets": [
+      {
+        "target_id": "ox-d3dffaaafdec2edd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-05-s01"
+        ],
+        "forms": [
+          "gross"
+        ],
+        "rationale": "s01 gross income 表示未扣除成本的总收入，s02 明确解释了该形容词义。"
+      },
+      {
+        "target_id": "ox-c1243be6adb2f616",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-05-s01"
+        ],
+        "forms": [
+          "fiscal"
+        ],
+        "rationale": "s01 fiscal year 指财务计量年度，形容词修饰 year 自然。"
+      },
+      {
+        "target_id": "ox-1053aa278c835744",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-05-s02"
+        ],
+        "forms": [
+          "expenditure"
+        ],
+        "rationale": "s02 expenditure so far 是目前累计支出的名词用法，数额与后文一致。"
+      },
+      {
+        "target_id": "ox-02c47e9f9d9bf37a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-05-s04"
+        ],
+        "forms": [
+          "incur"
+        ],
+        "rationale": "s04 incur a storage charge 指采购将产生额外仓储费，动词搭配自然且保留条件性。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-06",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "58d1e4573b0def2d7d857bc5c30953f07e2294a9e8d291645e7353f958313439",
+    "status": "accepted",
+    "rationale": "通行证仅供档案阅览室，周五到期，需要照片身份证明；工作人员接受访客明天带证回来。所述完成的是要求核对，续期办理仍是未来安排，证据没有过度承诺。",
+    "targets": [
+      {
+        "target_id": "ox-70459e742fa24bdb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-06-s02"
+        ],
+        "forms": [
+          "exclusively"
+        ],
+        "rationale": "s02 exclusively for the archive reading room 限定用途，副词排除隔壁博物馆。"
+      },
+      {
+        "target_id": "ox-dfd567ae6ec19c21",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-06-s03"
+        ],
+        "forms": [
+          "expire"
+        ],
+        "rationale": "s03 will expire on Friday 是通行证将到期的动词用法。"
+      },
+      {
+        "target_id": "ox-615dd0a6f6095152",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-06-s04"
+        ],
+        "forms": [
+          "identification"
+        ],
+        "rationale": "s04 photo identification 是需核对姓名的身份证明材料，非识别过程的混用。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-07",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "58ffc7b7d2928bcb0ad9da500f2f39b4ac4b2f32c3018147ab72a253af1bf826",
+    "status": "accepted",
+    "rationale": "虚构员工描述无偿加班与持续身体评论，随后选择先了解流程；同事提供联系方式并承诺不转述。标题和目标只称约定了解与保密，没有虚构已投诉或法律认定。",
+    "targets": [
+      {
+        "target_id": "ox-fcc00969be0b06e9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-07-s01"
+        ],
+        "forms": [
+          "exploitation"
+        ],
+        "rationale": "s01 feels like exploitation 表达员工对被要求无偿加班的感受，名词剥削义明确而非法院定性。"
+      },
+      {
+        "target_id": "ox-7e2784e892aa2342",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-07-s04"
+        ],
+        "forms": [
+          "inappropriate"
+        ],
+        "rationale": "s04 inappropriate 评价不受欢迎且要求停止后的身体评论，形容词恰当。"
+      },
+      {
+        "target_id": "ox-26c80af712a3643b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-07-s04"
+        ],
+        "forms": [
+          "harassment"
+        ],
+        "rationale": "s04 concerns about harassment 指顾问处理的骚扰类顾虑，与 s03 持续行为相接。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-08",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "cc44bf1d6117406bab1c27a1fdc5195edbc0745d4ab8fc3ca94a8cffc2571136",
+    "status": "accepted",
+    "rationale": "虚构小说的共同自治理念与暴力方法被分开讨论，读者同意避免给整个团体贴极端标签，并具体写 Varo 与反对意见。修改是未来约定；标签、目标及证据均保留小说范围。",
+    "targets": [
+      {
+        "target_id": "ox-357c6271c4e88cab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-08-s01"
+        ],
+        "forms": [
+          "extremist"
+        ],
+        "rationale": "s01 an extremist 是被读者纠正的过度概括中的可数名词，词本身用法正确。"
+      },
+      {
+        "target_id": "ox-5bb7ba258f77ba74",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-08-s02"
+        ],
+        "forms": [
+          "faction"
+        ],
+        "rationale": "s02 one faction 指大团体内支持暴力的一派，与其余反对者相区分。"
+      },
+      {
+        "target_id": "ox-e0e57fab1d1968dc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-08-s03"
+        ],
+        "forms": [
+          "ideology"
+        ],
+        "rationale": "s03 same ideology about local self-rule 指共同思想体系，名词搭配可理解且自然。"
+      },
+      {
+        "target_id": "ox-1becc835056e97e7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-08-s04"
+        ],
+        "forms": [
+          "ideological"
+        ],
+        "rationale": "s04 ideological agreement 指理念上的共同点，不等于行动手段一致，形容词义准确。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-09",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "23a17d6e9d2ecfda43852556caec18adc1a3a7aa5e68d032c0cb9c76de6184d5",
+    "status": "accepted",
+    "rationale": "祖母留下的水彩已有破角，强光与过多搬动构成保存顾虑；双方选复制品在厨房、原作在阴凉书房，并先请装裱师评估。标题和目标中的处理安排仅为未来评估，不声称已装框或复制。",
+    "targets": [
+      {
+        "target_id": "ox-ea628fb228983307",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-09-s02"
+        ],
+        "forms": [
+          "fade"
+        ],
+        "rationale": "s02 colours could fade 指颜料可能褪色，动词与光照条件相连。"
+      },
+      {
+        "target_id": "ox-fccbb2d01d6b8f88",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-09-s02"
+        ],
+        "forms": [
+          "harsh"
+        ],
+        "rationale": "s02 light is quite harsh 描写强烈刺眼的午后光线，形容词贴合情境。"
+      },
+      {
+        "target_id": "ox-ced2b079f7a3321c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-09-s03"
+        ],
+        "forms": [
+          "fragile"
+        ],
+        "rationale": "s03 paper looks fragile 后接已有撕角的具体表现，形容词易损义有支持。"
+      },
+      {
+        "target_id": "ox-0b820ba4dc2de85e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-09-s04"
+        ],
+        "forms": [
+          "handling"
+        ],
+        "rationale": "s04 unnecessary handling 指避免多余拿取搬动原画的名词用法。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-10",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "26a4f4b7e261ba2ef8c5fb1f883a573e061047705e518596d73c34c7e981c302",
+    "status": "accepted",
+    "rationale": "完整复读当前六轮、五项目标、所有标题/目标证据及情景定义。标题与标签已准确改为虚构案件报道，不再暗示发生庭审；s04 明说未开庭，s05–s06 约定报道起诉事实而保留判决未知。核对事实已经完成、未来报道尚未改成最终稿的状态清楚，人物与材料范围一致。",
+    "targets": [
+      {
+        "target_id": "ox-d6580988a2910c70",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-10-s01"
+        ],
+        "forms": [
+          "fatal"
+        ],
+        "rationale": "复读 s01 及 s06：fatal 修饰 shooting，死亡被明确保留为案例事实，因此致命的形容词义成立。"
+      },
+      {
+        "target_id": "ox-8a48281af84c6d24",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-10-s01"
+        ],
+        "forms": [
+          "firearm"
+        ],
+        "rationale": "复读 s01：a stolen firearm 指虚构案件中的被盗枪支；名词和不定冠词搭配正确，并未把武器存在当成被告有罪。"
+      },
+      {
+        "target_id": "ox-b2a9bbdea7b61221",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-10-s02"
+        ],
+        "forms": [
+          "indictment"
+        ],
+        "rationale": "复读 s02–s04：obtained an indictment 指正式起诉，明确与 conviction 分开；选定名词义和案例尚未开庭的状态相容。"
+      },
+      {
+        "target_id": "ox-9e74cfc192a593d7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-10-s03"
+        ],
+        "forms": [
+          "felony"
+        ],
+        "rationale": "复读 s03–s04：a felony charge 是重罪指控，felony 作名词修饰 charge；后文准确纠正指控等于有罪的误解。"
+      },
+      {
+        "target_id": "ox-b69dd0a2791c29f1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-10-s03"
+        ],
+        "forms": [
+          "guilt"
+        ],
+        "rationale": "复读 s03–s06：question of guilt 指是否有罪的问题，随后保持判决开放；抽象名词而非悔恨感的选义清楚。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-11",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "762cf3c0a818b4f0a5be3ba36cfe5ae1d42285b5f49d0cb1cd865813ec2fbd44",
+    "status": "accepted",
+    "rationale": "场景给定当天强风及船队留港，教练明确不出航，学员接受码头装备检查。标题、标签及选择已完成的证据准确；检查本身和重新联系日期仍未完成。",
+    "targets": [
+      {
+        "target_id": "ox-0231498258be38a1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-11-s01"
+        ],
+        "forms": [
+          "favourable"
+        ],
+        "rationale": "s01 conditions favourable for our first lesson 用英式形容词询问条件是否适宜，回答有针对性。"
+      },
+      {
+        "target_id": "ox-e28a1159125b3919",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-11-s02"
+        ],
+        "forms": [
+          "fierce"
+        ],
+        "rationale": "s02 wind is fierce 描述猛烈风力，与停航决定相连。"
+      },
+      {
+        "target_id": "ox-9c88f14afc393ba8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-11-s02"
+        ],
+        "forms": [
+          "fleet"
+        ],
+        "rationale": "s02 training fleet 指留港的训练船队，可数集合名词自然。"
+      },
+      {
+        "target_id": "ox-2404c8d027de7c2a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-11-s03"
+        ],
+        "forms": [
+          "gear"
+        ],
+        "rationale": "s03 my gear 指学员带来的运动装备，不是齿轮或挡位，名词义明确。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-12",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "5b4e6e0bb2b9ff50c195c5806cf64ddd065fd2b8b8352e80772fbcdd1a7bed54",
+    "status": "accepted",
+    "rationale": "积极邮件尚非落实捐款，预算限制下双方选择二十人的图书馆读书活动；免费入场并不等于已筹得款项。所有主张只确认小规模方案和后续拟稿，不声称捐款、订场或活动已完成。",
+    "targets": [
+      {
+        "target_id": "ox-1e1804164203a39e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-12-s01"
+        ],
+        "forms": [
+          "fundraising"
+        ],
+        "rationale": "s01 fundraising idea 指筹集资金的活动想法，名词作定语自然。"
+      },
+      {
+        "target_id": "ox-88102cf30f6e3d1a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-12-s01"
+        ],
+        "forms": [
+          "favorable"
+        ],
+        "rationale": "s01 favorable 描写初步反馈赞同，使用美式拼写且 s02 限定为鼓励性邮件。"
+      },
+      {
+        "target_id": "ox-54dff7ded5c70775",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-12-s01"
+        ],
+        "forms": [
+          "hopeful"
+        ],
+        "rationale": "s01 feeling hopeful 问对方是否抱希望的心理状态，形容词用法成立。"
+      },
+      {
+        "target_id": "ox-8412d361a2d85a58",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-12-s03"
+        ],
+        "forms": [
+          "high-profile"
+        ],
+        "rationale": "s03 a high-profile guest 指可能吸引公众关注的嘉宾，形容词搭配自然且仅为提议。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-13",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "296962116c6813f92fc2d22f12435e1888e8881e45299f19804fccee46093cab",
+    "status": "accepted",
+    "rationale": "攀岩成就、感谢保护员及接受扣分均给颁奖介绍提供真实内容；双方同意加团队致谢，最后具体建议点名 Sol。证据没有把未来改稿写成已交稿。",
+    "targets": [
+      {
+        "target_id": "ox-067c0c84ec6f6113",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-13-s01"
+        ],
+        "forms": [
+          "feat"
+        ],
+        "rationale": "s01 extraordinary feat 将完成难线路径视作非凡成就，可数名词自然。"
+      },
+      {
+        "target_id": "ox-1d8f736ec6b872db",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-13-s02"
+        ],
+        "forms": [
+          "glory"
+        ],
+        "rationale": "s02 claim all the glory 指独占荣誉，否定句体现团队归功。"
+      },
+      {
+        "target_id": "ox-79511d7ea0473212",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-13-s03"
+        ],
+        "forms": [
+          "humble"
+        ],
+        "rationale": "s03 humble afterward 由赛后采访感谢保护员支持，形容词谦逊义准确。"
+      },
+      {
+        "target_id": "ox-fbe4c4a98c72a014",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-13-s04"
+        ],
+        "forms": [
+          "grace"
+        ],
+        "rationale": "s04 accepted the correction with grace 描写面对不利改分的得体风度，名词搭配自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-14",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "2bc2e3e6ffd90982dda8684d01bca769313f802ae0c8c6047614d8a79d5b4f9c",
+    "status": "accepted",
+    "rationale": "读书小组两名成员从固定主持造成参与不均转向自愿轮值提案；最终仅同意列入议程，不冒充全组采纳。标题的拟定及目标的讨论、提出方案各自有准确证据。",
+    "targets": [
+      {
+        "target_id": "ox-f1de25d660f2daab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-14-s01"
+        ],
+        "forms": [
+          "feminist"
+        ],
+        "rationale": "s01 feminist reading group 用形容词明确读书小组主题，不将现实团体归类。"
+      },
+      {
+        "target_id": "ox-a8190c3beb4a9985",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-14-s01"
+        ],
+        "forms": [
+          "inclusion"
+        ],
+        "rationale": "s01 inclusion 指成员获得参与机会，s02 的新成员少有选书机会使名词义具体。"
+      },
+      {
+        "target_id": "ox-6111447faf2622ce",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-14-s02"
+        ],
+        "forms": [
+          "hierarchy"
+        ],
+        "rationale": "s02 a hierarchy 指固定主持形成的层级结构，名词与前后发言相符。"
+      },
+      {
+        "target_id": "ox-acdcd49f188495d0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-14-s03"
+        ],
+        "forms": [
+          "governance"
+        ],
+        "rationale": "s03 governance of the group 指小组内部管理机制，轮值主持是该抽象名词的具体化。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-15",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "d200f53b1d3563c6b7853e552ec8d4f98d2f97eee04a965d1924e66677c7cf13",
+    "status": "accepted",
+    "rationale": "首句过度治愈承诺立即受到质疑和纠正，材料范围被限于一般知识而非个体症状解释；双方同意删承诺并待讲师复核。标题、目标及主张均未将修订或复核当成已经完成。",
+    "targets": [
+      {
+        "target_id": "ox-98ed90160a19dac1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-15-s01"
+        ],
+        "forms": [
+          "fiber"
+        ],
+        "rationale": "s01 fiber 指膳食纤维，后文用 varied diet 限定背景；被否定的是万能治愈断言而非词义。"
+      },
+      {
+        "target_id": "ox-73182ec5cab785c9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-15-s01"
+        ],
+        "forms": [
+          "gut"
+        ],
+        "rationale": "s01 gut problem 指肠道问题，s03 digestive system 与其语境一致；名词作定语自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-16",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "1a1af6948dcb79d62346ec4e0baebc583c7efdafd114800ae36a7863facd360b",
+    "status": "accepted",
+    "rationale": "收获梨子的品尝准备包含去皮与否、切片还是果泥两项选择；双方决定洗净带皮切片。果园活动、食材特点、配方卡来源与标题目标一致，未虚构点心已经做完。",
+    "targets": [
+      {
+        "target_id": "ox-7d26fc8a40103d8f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-16-s01"
+        ],
+        "forms": [
+          "harvest"
+        ],
+        "rationale": "s01 this harvest 指本次果园收成，from this harvest 与梨的来源相接。"
+      },
+      {
+        "target_id": "ox-d2b53bae936c7a20",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-16-s02"
+        ],
+        "forms": [
+          "flesh"
+        ],
+        "rationale": "s02 flesh 指梨的果肉，与 skins 明确对照，不是动物肉义。"
+      },
+      {
+        "target_id": "ox-95dbb26152ce7594",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-16-s03"
+        ],
+        "forms": [
+          "fibre"
+        ],
+        "rationale": "s03 fibre 指食谱卡谈及的膳食纤维，英式拼写和食材语境自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-17",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "3e5ea0f1b6b25802ccbfa0ae113aa94fb221f9b79162e399fe0ffdd39cea1bb6",
+    "status": "accepted",
+    "rationale": "导演选清晰河面作为开场，模糊水獭仅保留为后续短暂遭遇；明确不推断水獭始终在场。完整文本支持素材比较与开场选择，未称剪辑已经执行。",
+    "targets": [
+      {
+        "target_id": "ox-e0a82eb7846eb989",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-17-s01"
+        ],
+        "forms": [
+          "film-maker"
+        ],
+        "rationale": "s01 film-maker 指被询问影片意图的导演，连字符形式符合目标拼写。"
+      },
+      {
+        "target_id": "ox-4cca8ef3877422d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-17-s02"
+        ],
+        "forms": [
+          "footage"
+        ],
+        "rationale": "s02 footage of the water 指已拍摄的河面素材，不可数名词自然。"
+      },
+      {
+        "target_id": "ox-10e5cff5e2453f57",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-17-s03"
+        ],
+        "forms": [
+          "glimpse"
+        ],
+        "rationale": "s03 a brief glimpse of an otter 指镜头短暂看到水獭的情形，名词义有 brief 支持。"
+      },
+      {
+        "target_id": "ox-5c1007c8ec5eb0f2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-17-s04"
+        ],
+        "forms": [
+          "imagery"
+        ],
+        "rationale": "s04 imagery of light moving across the water 指影片中河面光影的视觉表达，名词适合剪辑讨论。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-18",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "ee5cd061720e06881e744614d132ae62705c4ddefc88c6ee6f3557b4df42cf1f",
+    "status": "accepted",
+    "rationale": "完整复读六轮、四项目标及修订后的三项 goal claims。s02 比较低头与看向窗户的视线，s03–s04 仅核实第二张脸部清晰度，新 goal 精确区分这两步；s05–s06 实际选定 window portrait，准备排版文件仍属未来。标题、情景定义、说话人及每项主张现均得到全文支持。",
+    "targets": [
+      {
+        "target_id": "ox-eb23f06cc8c36f2f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-18-s01"
+        ],
+        "forms": [
+          "glance"
+        ],
+        "rationale": "复读 s01 的 have a quick glance at the photos：glance 是快速查看的可数名词，选中 n. 来源而非另一 v. 候选正确。"
+      },
+      {
+        "target_id": "ox-125f5e7a883e7ed6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-18-s01"
+        ],
+        "forms": [
+          "forthcoming"
+        ],
+        "rationale": "复读杂志背景、s01 和 s06：forthcoming interview 指即将刊出的访谈，配图仍待准备排版，形容词义准确。"
+      },
+      {
+        "target_id": "ox-54becfc6ea398084",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-18-s02"
+        ],
+        "forms": [
+          "filmmaker"
+        ],
+        "rationale": "复读 s02 及后续 her face：filmmaker 是两张照片中同一位电影制作者，名词人物指称一致。"
+      },
+      {
+        "target_id": "ox-9a2323b85b509b96",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-18-s02"
+        ],
+        "forms": [
+          "gaze"
+        ],
+        "rationale": "复读 s02：her gaze is directed toward the window 用名词表示视线方向，与第一张低头比较；选 n. 来源而非 v. 候选正确。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-19",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "ec1084c84c5cbbc168bfc18fa75ec0c53d1e29b14afe344631a6d06b31ac638f",
+    "status": "accepted",
+    "rationale": "扫描仪预览正常却保存失败，技术人员不武断定为硬件问题，而索取筛选日志再安排检查。双方同意的未来日志发送与检修流程和标题目标一致；没有声称已收到日志或修好。",
+    "targets": [
+      {
+        "target_id": "ox-adf0568cb31e4ce1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-19-s01"
+        ],
+        "forms": [
+          "inability"
+        ],
+        "rationale": "s01 inability to save files 把无法保存这一故障名词化，结构和义项自然。"
+      },
+      {
+        "target_id": "ox-db4b6225d783482b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-19-s02"
+        ],
+        "forms": [
+          "functional"
+        ],
+        "rationale": "s02 preview is functional 专指预览功能正常，并不把整台扫描仪说成可正常使用。"
+      },
+      {
+        "target_id": "ox-46349e1fdb5a95f5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-19-s02"
+        ],
+        "forms": [
+          "indicator"
+        ],
+        "rationale": "s02 warning indicator 指设备警示器，s03 闪红灯提供具体回应。"
+      },
+      {
+        "target_id": "ox-554d2a26411b2d6d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-19-s03"
+        ],
+        "forms": [
+          "hardware"
+        ],
+        "rationale": "s03 hardware fault 询问是否物理设备故障，s04 保留未知，没有误把猜测变成结论。"
+      },
+      {
+        "target_id": "ox-13d38de50cfc405c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-19-s04"
+        ],
+        "forms": [
+          "filter"
+        ],
+        "rationale": "s04 filter the error log by the scanner’s device name 用动词表达按设备筛选日志条目，技术沟通自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-20",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "a3d95403d22a48d92c092baf12617db974a42d3402bf9ade31bfd444b0f5a3a8",
+    "status": "accepted",
+    "rationale": "灯具晃动与验收报告的遗漏构成具体矛盾，租客拒绝仅观察的处理并得到电工检查承诺。标题与目标的复查安排及私有主张准确，未杜撰确定时间、维修或安全结论。",
+    "targets": [
+      {
+        "target_id": "ox-027cff9641742fd7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-20-s01"
+        ],
+        "forms": [
+          "fixture"
+        ],
+        "rationale": "s01 light fixture 指安装在房间内的灯具，名词使用具体。"
+      },
+      {
+        "target_id": "ox-85c422b0ce76d48f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-20-s01"
+        ],
+        "forms": [
+          "flaw"
+        ],
+        "rationale": "s01 a flaw in the bracket 指疑似支架缺陷，seems 保留观察不确定性。"
+      },
+      {
+        "target_id": "ox-b3dd1252325982ee",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-20-s03"
+        ],
+        "forms": [
+          "flawed"
+        ],
+        "rationale": "s03 inspection was flawed 指检查过程存在遗漏，形容词评价由可见问题支持。"
+      },
+      {
+        "target_id": "ox-63d259a366dab9d8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-20-s05"
+        ],
+        "forms": [
+          "inadequate"
+        ],
+        "rationale": "s05 inadequate 评价仅记下观察的处理不充分，形容词与后续专业检查要求相衔接。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-21",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "170ce2e630c9127f9e309cf5d8d20022ed6fec973a9941d5603a5c51291c5951",
+    "status": "accepted",
+    "rationale": "负责人和主持人均反对强迫一致或让大声者主导，最后接受先写、自愿说或只交纸条的具体方式。工作坊尚未举行，标题及目标只确认方案与边界，私有结果状态准确。",
+    "targets": [
+      {
+        "target_id": "ox-f77c61788695a45d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-21-s01"
+        ],
+        "forms": [
+          "facilitate"
+        ],
+        "rationale": "s01 facilitate the workshop 指主持和引导参与过程，动词选义明确。"
+      },
+      {
+        "target_id": "ox-c624678cdd800a16",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-21-s02"
+        ],
+        "forms": [
+          "flexibility"
+        ],
+        "rationale": "s02 flexibility in the format 指形式可调整，后文两种参与渠道具体实现这一名词。"
+      },
+      {
+        "target_id": "ox-bcedc9f87ca71a5f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-21-s03"
+        ],
+        "forms": [
+          "foster"
+        ],
+        "rationale": "s03 foster a sense that everyone can contribute 指培养参与感，动词搭配自然。"
+      },
+      {
+        "target_id": "ox-12a35cf06c97f8ae",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-21-s04"
+        ],
+        "forms": [
+          "harmony"
+        ],
+        "rationale": "s04 harmony 与不回避问题并置，名词和谐义并未被等同于强制沉默。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-22",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "3995b7c73ec245bf3a2f16a2a1607ed8e9260b50179a0c49f3b0ce0de3be06ec",
+    "status": "accepted",
+    "rationale": "植物目录支持三种本土植物与后引入玫瑰的区分；茂盛不代表原生，传统介绍需咨询文化中心。双方只约定核实并暂不展示，所有证据都未虚构社群已认可。",
+    "targets": [
+      {
+        "target_id": "ox-ec61040e5a1e547e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-22-s01"
+        ],
+        "forms": [
+          "indigenous"
+        ],
+        "rationale": "s01 indigenous to the valley 用形容词说明植物原生地，后文纠正的是全部植物这一范围而非词义。"
+      },
+      {
+        "target_id": "ox-45fedc0411daaadd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-22-s03"
+        ],
+        "forms": [
+          "flourish"
+        ],
+        "rationale": "s03 roses flourish here 指植物在当地茂盛生长，动词语义与原产地判断被明确分开。"
+      },
+      {
+        "target_id": "ox-9c35f786198c2644",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-22-s04"
+        ],
+        "forms": [
+          "heritage"
+        ],
+        "rationale": "s04 cultural heritage 指拟介绍的文化传统，s05 traditional uses 使名词范围具体。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-23",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "7cedf70296894e2b6cc485f16ecef497b1a9c32fb09d6218f020df6a12da2701",
+    "status": "accepted",
+    "rationale": "新生对系统不熟和外国身份感到顾虑，导师回应后他明确求助问题与下一步。没有保证预约成功或系统权限；新生、导师、校园服务台均由文本或上下文支持，标题目标准确。",
+    "targets": [
+      {
+        "target_id": "ox-be41791ff04bc494",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-23-s01"
+        ],
+        "forms": [
+          "freshman"
+        ],
+        "rationale": "s01 a freshman 表明大学一年级学生身份，可数名词和校园辅导背景一致。"
+      },
+      {
+        "target_id": "ox-6d5bdec342417861",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-23-s02"
+        ],
+        "forms": [
+          "guidance"
+        ],
+        "rationale": "s02 give you guidance 指服务台可以提供办理指导，不可数名词自然。"
+      },
+      {
+        "target_id": "ox-86e35429e8306f0b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-23-s03"
+        ],
+        "forms": [
+          "ignorance"
+        ],
+        "rationale": "s03 ignorance of the system 指对系统缺乏了解而非贬低人格，名词搭配成立。"
+      },
+      {
+        "target_id": "ox-1add3a2677ac3851",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-23-s05"
+        ],
+        "forms": [
+          "foreigner"
+        ],
+        "rationale": "s05 a foreigner 是来校者自述外国人身份，s06 from another country 提供语义呼应。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-24",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "50165ad92f9852dd7e9cc4cabd20361f5f6b6eb5c8ce26644234ee0b18b27639",
+    "status": "accepted",
+    "rationale": "Lotte 以图书馆方谈接待能力，Imran 以学校方回应六个班级；每周两班、三周各访一次形成试行提案。未来问教师与未确认预订的边界明确，标题及结果证据不越界。",
+    "targets": [
+      {
+        "target_id": "ox-08028fb2c245bc2f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-24-s01"
+        ],
+        "forms": [
+          "forge"
+        ],
+        "rationale": "s01 forge a partnership 指建立持续合作关系，不是锻造或伪造义。"
+      },
+      {
+        "target_id": "ox-695baa797ed1077c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-24-s02"
+        ],
+        "forms": [
+          "formulate"
+        ],
+        "rationale": "s02 formulate a plan 指制订教师能使用的计划，动词搭配自然。"
+      },
+      {
+        "target_id": "ox-06b071b7e32f6bed",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-24-s03"
+        ],
+        "forms": [
+          "formula"
+        ],
+        "rationale": "s03 a simple formula 指每班一次的固定分配办法，冒号后给出规则，名词义充分。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-25",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "c02e5cf68a0d696682ab98ca6be5165b5f623ded33899389e7b5bc74491f3099",
+    "status": "accepted",
+    "rationale": "三位审稿人反复重开已定设计造成困扰，负责人承诺统一清单并共同审核，设计师接受等待而不逐条反应。标题目标准确描述集中处理安排，未把清单、审核或修改说成已完成。",
+    "targets": [
+      {
+        "target_id": "ox-171cbf067e886d1d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-25-s01"
+        ],
+        "forms": [
+          "frustrated"
+        ],
+        "rationale": "s01 I am frustrated 是设计师主观沮丧的形容词，不与令人沮丧混淆。"
+      },
+      {
+        "target_id": "ox-e4b9ee6bbc3dec0a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-25-s01"
+        ],
+        "forms": [
+          "forth"
+        ],
+        "rationale": "s01 back and forth 在稿件反复流转的整体短语中作副词成分，不是孤立词表提及。"
+      },
+      {
+        "target_id": "ox-61cfef0aac047830",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-25-s02"
+        ],
+        "forms": [
+          "halfway"
+        ],
+        "rationale": "s02 halfway through the project 表示项目进展到一半的副词位置，语法自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-26",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "2bea7627e06e2d554d314e8aab13e22754b03a087355449efe827960a5993b70",
+    "status": "accepted",
+    "rationale": "客服先区分用户主动删除与列表自行消失，再约定截图和时间核查；用户接受但未称文件已恢复。对话中的自责被温和纠正，标题、目标和所有证据准确限定为信息交换安排。",
+    "targets": [
+      {
+        "target_id": "ox-1847fd4e05a61486",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-26-s01"
+        ],
+        "forms": [
+          "frustrating"
+        ],
+        "rationale": "s01 this is so frustrating 形容故障令人沮丧，与用户感受有明确因果。"
+      },
+      {
+        "target_id": "ox-5db93d0d60d3591f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-26-s02"
+        ],
+        "forms": [
+          "frustration"
+        ],
+        "rationale": "s02 understand the frustration 使用情绪名词回应用户困扰，搭配自然。"
+      },
+      {
+        "target_id": "ox-9443c2deb7cfa610",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-26-s03"
+        ],
+        "forms": [
+          "idiot"
+        ],
+        "rationale": "s03 an idiot 是用户自责中的不礼貌名词，s04 明确拒绝这种自责且中文标注语域。"
+      },
+      {
+        "target_id": "ox-5669e54d2c204a69",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-26-s04"
+        ],
+        "forms": [
+          "handy"
+        ],
+        "rationale": "s04 a screenshot handy 指截图是否在手边可取得，形容词后置用法自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-27",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "e2cd2dadbcd0a743b114f6e74ec705d11532a3872c1ea6709bef635e1b2b1e0d",
+    "status": "accepted",
+    "rationale": "虽然公开文件字节未变，仍完整复读六轮、三项目标和全部当前 outcome evidence。第一项目标解释现为资料列出初始费、对持续费用介绍很少，准确对应 s02 的 says little，不再改写成完全没有信息。s04–s06 支持先索取书面明细、当天不签且询问不等于加盟；决定已作出，而请求发送和签约均未被虚构完成。",
+    "targets": [
+      {
+        "target_id": "ox-ee1e2af0adc2356a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-27-s01"
+        ],
+        "forms": [
+          "franchise"
+        ],
+        "rationale": "完整复读 s01–s06：coffee franchise 指拟加入的咖啡特许经营业务，入门费和月度收费均与该名词义相连，未构成现实签约。"
+      },
+      {
+        "target_id": "ox-c073bc2fda3187e1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-27-s02"
+        ],
+        "forms": [
+          "frankly"
+        ],
+        "rationale": "完整复读 s02：Frankly, no 以句子副词坦率拒绝立即签署，后接资料不充分的理由；语法、语用及中文义一致。"
+      },
+      {
+        "target_id": "ox-51cffcbdd80df5b7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-27-s04"
+        ],
+        "forms": [
+          "inclined"
+        ],
+        "rationale": "完整复读 s04 及随后选择：I am inclined to wait 表达倾向等待的形容词结构，索取明细与不当天签署使该态度具体。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-28",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "1d39fabef9132d05588dce5ce608923061776d7c010d17cc6e8a2131ef98bba8",
+    "status": "accepted",
+    "rationale": "两位成年亲属商量姨妈葬礼后的安排，Dan 表达悲痛及疲惫，Alice 接受小范围喝茶与独处需求，墓地探访保留自愿。标题、目标和主张只称安排达成，未将悲痛等同必须参加活动。",
+    "targets": [
+      {
+        "target_id": "ox-ad30c5eff532f724",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-28-s01"
+        ],
+        "forms": [
+          "funeral"
+        ],
+        "rationale": "s01 Aunt Nora’s funeral 指已故姨妈的葬礼，名词与后续家庭安排相连。"
+      },
+      {
+        "target_id": "ox-62f56425bddd0571",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-28-s01"
+        ],
+        "forms": [
+          "gathering"
+        ],
+        "rationale": "s01 a large gathering 指大型家庭聚会，后文改为近亲小聚，名词清楚。"
+      },
+      {
+        "target_id": "ox-2665ee2dc2c41598",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-28-s02"
+        ],
+        "forms": [
+          "grief"
+        ],
+        "rationale": "s02 Grief makes conversation exhausting 用悲痛这一不可数名词解释交流疲惫。"
+      },
+      {
+        "target_id": "ox-06bb2ec4531a264a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-28-s04"
+        ],
+        "forms": [
+          "grave"
+        ],
+        "rationale": "s04 her grave 指姨妈的坟墓，名词与 visit 搭配自然，不是形容词严重义。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-29",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "3f8f799382514d01505263000771a832451d08bef340225e6e3c7050e4a56f1a",
+    "status": "accepted",
+    "rationale": "为避免杏仁碎留在咖啡研磨机，双方明确另用料理机并确认工具所在；没有引入未说明的过敏或医疗保证。标题和目标的工具选择已达成，研磨本身仍为未来动作。",
+    "targets": [
+      {
+        "target_id": "ox-56c08ca1792528ff",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-29-s01"
+        ],
+        "forms": [
+          "grind"
+        ],
+        "rationale": "s01 grind a handful of almonds 指把杏仁磨碎的动词，与机器用途问题直接相接。"
+      },
+      {
+        "target_id": "ox-4b83d79aa068af20",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-29-s01"
+        ],
+        "forms": [
+          "handful"
+        ],
+        "rationale": "s01 a handful of almonds 是一把杏仁的量词性名词短语，不是难管的人或少数人的转义。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-30",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "dda2c8bae9e14f2eca9ee808069adfff934f14ede0e58fdd8c7d9f6f341891ab",
+    "status": "accepted",
+    "rationale": "低矮桌面的软球摆锤给基础解释提供指称，老师说明重力与下摆增速，并区分释放和额外推动。学习者复述方法后双方约定观察，证据没有虚构摆动已执行；标题的解释任务成立。",
+    "targets": [
+      {
+        "target_id": "ox-3d4455b58f90851f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-30-s01"
+        ],
+        "forms": [
+          "grasp"
+        ],
+        "rationale": "s01 cannot grasp why 指尚未理解原因的动词，与后续解释相连而非抓住实体。"
+      },
+      {
+        "target_id": "ox-1ffc968402a5f6e8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-30-s02"
+        ],
+        "forms": [
+          "gravity"
+        ],
+        "rationale": "s02 Gravity pulls the ball downward 明确指重力，基础模型中下摆增速的解释一致。"
+      },
+      {
+        "target_id": "ox-dcb86bbc4725455c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-30-s04"
+        ],
+        "forms": [
+          "grip"
+        ],
+        "rationale": "s04 a light grip on the soft ball 是轻握的名词用法，与随后张手释放形成自然动作对照。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-31",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "bd725c3d9b6350ee85e372919a1660eea22ff72acf8a0b71b8361d625918726e",
+    "status": "accepted",
+    "rationale": "模型只亮小灯且未接电网，水的推动作用与燃料燃烧被明确区别；双方同意改说明牌但未声称已改。桌面水轮与课堂背景支持题目、情景及所有主张。",
+    "targets": [
+      {
+        "target_id": "ox-7bd0c8258744ca0e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-31-s01"
+        ],
+        "forms": [
+          "grid"
+        ],
+        "rationale": "s01 national grid 指国家输电网络；后两句纠正连接事实，名词电网义清楚。"
+      },
+      {
+        "target_id": "ox-06116e942e31ec5d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-31-s03"
+        ],
+        "forms": [
+          "fluid"
+        ],
+        "rationale": "s03 the fluid that turns the wheel 指水这种推动水轮的液体，名词用法自然。"
+      },
+      {
+        "target_id": "ox-c3b19552a0486f4a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-31-s04"
+        ],
+        "forms": [
+          "immense"
+        ],
+        "rationale": "s04 a real dam may be immense 用形容词对比真实大坝与小模型的尺度，may 保留非全称范围。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-32",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "65ca71af28abce906e76498ed0e0035b684e9d318eff357e989841179196d697",
+    "status": "accepted",
+    "rationale": "小说中给食物并未解除监禁、恢复联系或建立信任；读者据此纠正成为朋友的概括，约定写成紧张关系中的帮助。角色关系、反应及元数据均受完整情节支持。",
+    "targets": [
+      {
+        "target_id": "ox-857d822b12d212a4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-32-s01"
+        ],
+        "forms": [
+          "guerrilla"
+        ],
+        "rationale": "s01 the guerrilla 是看守人质的游击队员，名词用法由虚构背景明确。"
+      },
+      {
+        "target_id": "ox-2a54b8862c685d56",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-32-s01"
+        ],
+        "forms": [
+          "hostage"
+        ],
+        "rationale": "s01 the hostage 指受拘束的人质，s02 不准联系家人与后文不能离开支持名词义。"
+      },
+      {
+        "target_id": "ox-63341c866c0efebc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-32-s03"
+        ],
+        "forms": [
+          "hostile"
+        ],
+        "rationale": "s03 sounds hostile 形容人质询问离开时的敌对语气，不表示行动已暴力化。"
+      },
+      {
+        "target_id": "ox-3971fcb46654318a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-32-s04"
+        ],
+        "forms": [
+          "hostility"
+        ],
+        "rationale": "s04 the hostility 指先前敌对态度的持续状态，抽象名词与互不信任相连。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-33",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "9ff7673838051591e04a79648f31a50f0ed649c4b1bd2732dd7cf54c7df463c4",
+    "status": "accepted",
+    "rationale": "完全虚构档案中杀戮证言和后续援助并存；以幸存者自述组织下一稿，不把援助冲淡暴行。标题、目标及证据均保留未来拟稿、日期和叙述者区分，未作现实事件断言。",
+    "targets": [
+      {
+        "target_id": "ox-df16e6cc580895af",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-33-s01"
+        ],
+        "forms": [
+          "genocide"
+        ],
+        "rationale": "s01 a genocide 是虚构档案所记录的种族灭绝，名词使用明确且无现实归因。"
+      },
+      {
+        "target_id": "ox-cd9a8ac95c207c6b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-33-s02"
+        ],
+        "forms": [
+          "humanitarian"
+        ],
+        "rationale": "s02 humanitarian work in the camps 用形容词修饰营地人道援助工作，后文共享食物使范围具体。"
+      },
+      {
+        "target_id": "ox-4a5f9b99026d69a4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-33-s03"
+        ],
+        "forms": [
+          "humanity"
+        ],
+        "rationale": "s03 humanity of the people sharing food 指仁慈、人道品质，而非全人类的另一名词义。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-34",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "f8ddc2a8f6ccf4ad9e3f4f416f1767de957efece1c07577f6b4c3f771be688b9",
+    "status": "accepted",
+    "rationale": "日出观赏已结束，朋友选择路边出租车站返程；喇叭不被当成已预订车辆的证据。交通场景、选择已完成与等车尚未开始在标题目标及主张中区分正确。",
+    "targets": [
+      {
+        "target_id": "ox-fd93ce185be9fbb6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-34-s01"
+        ],
+        "forms": [
+          "glorious"
+        ],
+        "rationale": "s01 glorious sunrise 描写壮丽悦目的日出，粉红地平线提供感官背景。"
+      },
+      {
+        "target_id": "ox-5c600150dbf1e4dc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-34-s01"
+        ],
+        "forms": [
+          "horizon"
+        ],
+        "rationale": "s01 whole horizon turned pink 指视野中天地相接的地平线，名词自然。"
+      },
+      {
+        "target_id": "ox-005d353737e4cced",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-34-s03"
+        ],
+        "forms": [
+          "hail"
+        ],
+        "rationale": "s03 hail a taxi 是招手叫停出租车的动词搭配，提问后被车站等候方案替代。"
+      },
+      {
+        "target_id": "ox-803b630dbaab8bad",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-34-s05"
+        ],
+        "forms": [
+          "horn"
+        ],
+        "rationale": "s05 hear a horn 在路边叫车语境中指车辆喇叭声；问句并未把它确定为来接人的出租车。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-35",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "c4d224b50fe0646b6ccc777b38f67e5c0058ea12f1371c0a375c462d208cb89d",
+    "status": "accepted",
+    "rationale": "户外可用是唯一已透露的物品线索，双方接受等周六生日再打开包装。生日与周六由上下文对应，标题与目标没有泄露未给出的礼物内容或声称已经拆封。",
+    "targets": [
+      {
+        "target_id": "ox-2df88ad88279e1b5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-35-s01"
+        ],
+        "forms": [
+          "grin"
+        ],
+        "rationale": "s01 That grin 指对方面部咧嘴笑的表情，可数名词自然。"
+      },
+      {
+        "target_id": "ox-16ad25e6f3a088db",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-35-s02"
+        ],
+        "forms": [
+          "hint"
+        ],
+        "rationale": "s02 a hint 指不揭底的礼物提示，s04 户外可用具体实现这一名词。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-36",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "d950e532db55444ded12569eb6a8aa3fa006626ab64aa9a49af521d920e90977",
+    "status": "accepted",
+    "rationale": "一年监禁、六个月后的监狱庭院与末幕获释形成一致时间线；错误在转换字幕而不在人物突然获释。双方约定改字幕，未称修改已执行，所有元数据及证据相符。",
+    "targets": [
+      {
+        "target_id": "ox-35defa38d5974406",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-36-s01"
+        ],
+        "forms": [
+          "imprison"
+        ],
+        "rationale": "s01 orders the guards to imprison Lio for a year 用动词表示国王虚构命令的监禁行为。"
+      },
+      {
+        "target_id": "ox-e5fc38687705b49a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-36-s02"
+        ],
+        "forms": [
+          "imprisonment"
+        ],
+        "rationale": "s02 six months into his imprisonment 指监禁期间已过六个月，名词与一年期限对应。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-37",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "b507696e40acd7e0f3451ad6bba3483472762414506f5e4e94d198b247a7d46d",
+    "status": "accepted",
+    "rationale": "学生先误把单一议员的监禁提案写成将实行，随后当场重新表述并获同伴核对。现行警告罚款与未通过提案的区别准确，目标称口头摘要修订已完成有 s05 支持。",
+    "targets": [
+      {
+        "target_id": "ox-c5f3f2c262a15a9c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-37-s01"
+        ],
+        "forms": [
+          "incarcerate"
+        ],
+        "rationale": "s01 incarcerate everyone who breaks the curfew 是被纠正摘要中的监禁动词；纠正的是政策状态，不是词义。"
+      },
+      {
+        "target_id": "ox-fb37d14ea6cc0b47",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-37-s03"
+        ],
+        "forms": [
+          "incarceration"
+        ],
+        "rationale": "s03 not incarceration 把监禁作为现行措施所排除的名词，与 warnings and fines 对比自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-38",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "6c2a1fbe08ac62d4317def6cbe82086ce8852d9ea7d4ea8939b7c075bcb43b8b",
+    "status": "accepted",
+    "rationale": "练习问卷只能显示噪声班次的头痛报告差异，工时及睡眠因素未控制，末句要求注明缺失信息。双方同意谨慎报告而非作健康因果断言，标题、目标和主张均保留不确定性。",
+    "targets": [
+      {
+        "target_id": "ox-aa6301231b22a97a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-38-s01"
+        ],
+        "forms": [
+          "incidence"
+        ],
+        "rationale": "s01 incidence of reported headaches 指报告的发生率，明确限定 reported，非临床诊断率。"
+      },
+      {
+        "target_id": "ox-5ee131d83b050ed1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-38-s04"
+        ],
+        "forms": [
+          "heighten"
+        ],
+        "rationale": "s04 heighten concern 指夸大的因果表述会加剧担忧，动词搭配及条件语气自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-39",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "e1c4a13529d03aceb96bd47a1416a08bb1aef493d4d19c4253f5d0fe8db381af",
+    "status": "accepted",
+    "rationale": "朗读介绍的纯粹仇恨判断因温情童年回忆而被修正，双方接受复杂情感方向。对话只承诺改介绍，不虚构稿件已更新；题目、目标和叙述者指称一致。",
+    "targets": [
+      {
+        "target_id": "ox-f8c4503499a02c13",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-39-s01"
+        ],
+        "forms": [
+          "hatred"
+        ],
+        "rationale": "s01 nothing but hatred toward his brother 用不可数名词表示仇恨，后文质疑的是排他性概括。"
+      },
+      {
+        "target_id": "ox-82b3ae18150aa45a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-39-s02"
+        ],
+        "forms": [
+          "haunt"
+        ],
+        "rationale": "s02 argument continuing to haunt him 指争执记忆长期困扰人物，动词非鬼魂出没义由 s03 明确解释。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-a-40",
+    "reviewer": "reviewer-phase11-a",
+    "dialogue_sha256": "a4be700af275eac13473e74f02841a4ad2395e87cd47f62583a30285eacb2844",
+    "status": "accepted",
+    "rationale": "模板误带博彩宣传与已确定的手工、旧书摊位冲突，组织者同意删除并发校样，之后还需印前检查。标题的确定是确定宣传范围而非声称已清除内容；goal 和私有说明准确保留未来修改。",
+    "targets": [
+      {
+        "target_id": "ox-4fda188c83c20c70",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-40-s01"
+        ],
+        "forms": [
+          "generic"
+        ],
+        "rationale": "s01 generic poster template 指未针对本次活动定制的通用海报模板，形容词义与残留文字吻合。"
+      },
+      {
+        "target_id": "ox-bd901866d64bcd21",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-a-40-s01"
+        ],
+        "forms": [
+          "gambling"
+        ],
+        "rationale": "s01 advertises gambling 指模板中博彩活动的名词，games for money 和 casino-night 提供明确语境，实际活动不包含它。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-01",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "1e801aa774769042d065acb91a9862a02ef7500d98250583da2ec286056cadba",
+    "status": "accepted",
+    "rationale": "The simulated classroom consistently distinguishes the training arm from a person. Nadia confirms observation before guided practice and accepts Felix’s sequence in s05–s07; title, scene and outcome claims describe that agreement, not a completed injection.",
+    "targets": [
+      {
+        "target_id": "ox-3d790011fecfdc95",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-01-s02"
+        ],
+        "forms": [
+          "inject"
+        ],
+        "rationale": "s02 uses the base verb after will not, with something injected into a person; the negative practice boundary still clearly demonstrates the injection sense."
+      },
+      {
+        "target_id": "ox-e2379442bbf28bf3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-01-s01"
+        ],
+        "forms": [
+          "injection"
+        ],
+        "rationale": "s01 uses the noun attributively in injection practice, matching the model-based nursing lesson."
+      },
+      {
+        "target_id": "ox-c376e69f24b6d6c6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-01-s03"
+        ],
+        "forms": [
+          "insertion"
+        ],
+        "rationale": "s03 refers to the point where the needle enters the model; point of insertion naturally supplies the insertion noun sense."
+      },
+      {
+        "target_id": "ox-c21c5b746d8e6da3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-01-s06"
+        ],
+        "forms": [
+          "instruct"
+        ],
+        "rationale": "s06 uses the transitive verb with each student individually, describing the teacher’s promised hands-on guidance."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-02",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "684c6a4bd9783776e8ec7cc5a647b734f6c146a6511a571bc4aa038c4c16edcc",
+    "status": "accepted",
+    "rationale": "Full reread of all seven turns, all metadata, all three lexical targets and the repaired outcome evidence: the sister is now consistently age-neutral, with no claim she is younger or older. Owen states his cough and infection concern; Mina reports the sister’s agreement to call, and Owen accepts a future video visit. The unchanged public dialogue remains coherent, and the corrected private evidence now supports every title/goal claim without implying the call has occurred.",
+    "targets": [
+      {
+        "target_id": "ox-50d6cd720d6cc975",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-02-s01"
+        ],
+        "forms": [
+          "infant"
+        ],
+        "rationale": "On full-context reread, s01 names the sister’s infant as a count noun, and s03’s the baby confirms the same referent without adding an age relationship between the adults."
+      },
+      {
+        "target_id": "ox-ea9050fb043e24f9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-02-s03"
+        ],
+        "forms": [
+          "infect"
+        ],
+        "rationale": "On reread, s03’s could infect the baby uses the transitive verb for a feared possibility of transmission; the dialogue neither diagnoses Owen nor asserts actual infection."
+      },
+      {
+        "target_id": "ox-67dcc3d1c9d93723",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-02-s03"
+        ],
+        "forms": [
+          "mask"
+        ],
+        "rationale": "On reread, s03’s a mask denotes the face covering Owen brought for the contemplated ward visit, a clear noun use in this context."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-03",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "d7ea32c0b718e1d8191a1d0451c2c43c5f172e2d640d68fcc888cf22d9f59f1b",
+    "status": "accepted",
+    "rationale": "Priya identifies two appointment-name questions and uncertainty converting mug quantities to liters. Jonah agrees to relay both to the clinical team without prescribing intake or claiming answers have arrived; every title/goal clause and its action status matches the exchange.",
+    "targets": [
+      {
+        "target_id": "ox-e2f37a4dd9482999",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-03-s01"
+        ],
+        "forms": [
+          "kidney"
+        ],
+        "rationale": "s01 uses the organ noun attributively in kidney test, naturally identifying the first test label rather than inventing a diagnosis."
+      },
+      {
+        "target_id": "ox-b2c4bd395349189e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-03-s01"
+        ],
+        "forms": [
+          "liver"
+        ],
+        "rationale": "s01 pairs liver test with kidney test to ask whether the appointments are separate; the organ noun sense is clear."
+      },
+      {
+        "target_id": "ox-c437319d7d98ca2c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-03-s03"
+        ],
+        "forms": [
+          "intake"
+        ],
+        "rationale": "s03 uses fluid intake for the quantity consumed and recorded, reinforced by the mugs-of-water details."
+      },
+      {
+        "target_id": "ox-9016a7bc49ba79bc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-03-s05"
+        ],
+        "forms": [
+          "liter"
+        ],
+        "rationale": "s05 uses a liter as a singular capacity unit when distinguishing an unknown mug volume from the requested measurement."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-04",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "0f84b06a67cc874023d8be4987351b79ee13c61220be62682faf3f21912278ef",
+    "status": "accepted",
+    "rationale": "The managers treat ranking as a possible inhibitor rather than proven causation. Marcus accepts anonymous written feedback and optional discussion in s06, and Ada schedules a trial, so the title and goal accurately describe an agreed experiment, not measured improvement.",
+    "targets": [
+      {
+        "target_id": "ox-d1655ba9cb2b105b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-04-s02"
+        ],
+        "forms": [
+          "inhibit"
+        ],
+        "rationale": "s02 uses the verb for suppressing honest feedback; can appropriately marks a possible effect of public score defense."
+      },
+      {
+        "target_id": "ox-c4b0816243eb31c0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-04-s03"
+        ],
+        "forms": [
+          "inherent"
+        ],
+        "rationale": "s03 modifies feature to deny that silence is a built-in team trait; later private comments support the contrast."
+      },
+      {
+        "target_id": "ox-20328c9abb926f10",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-04-s04"
+        ],
+        "forms": [
+          "involvement"
+        ],
+        "rationale": "s04 names participation in the feedback process and contrasts it with liking public debate."
+      },
+      {
+        "target_id": "ox-80694d2496c92712",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-04-s06"
+        ],
+        "forms": [
+          "meaningful"
+        ],
+        "rationale": "s06 contrasts specific problems and possible changes with a bare score, supporting the adjective’s substantive-value sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-05",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "adbab9ac66ac522ea02046d8b9b5eb24cc104f72666688499dad59b62f20dd72",
+    "status": "accepted",
+    "rationale": "Leah separates the personal insult’s impact from Chris’s stated intent. Dario is explicitly the chair and promises the requested pause and redirection, which Leah accepts; the metadata and evidence preserve future intervention rather than claiming Chris has changed.",
+    "targets": [
+      {
+        "target_id": "ox-a3de29712c45306e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-05-s03"
+        ],
+        "forms": [
+          "inflict"
+        ],
+        "rationale": "s03 uses inflict real harm on someone’s confidence, a natural transitive harm collocation describing possible impact."
+      },
+      {
+        "target_id": "ox-302bbe8979a74c1c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-05-s01"
+        ],
+        "forms": [
+          "insult"
+        ],
+        "rationale": "s01 uses a count noun after an to classify the personal remark as an affront rather than feedback; the selected noun source fits."
+      },
+      {
+        "target_id": "ox-5464b688f51bcba9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-05-s03"
+        ],
+        "forms": [
+          "intent"
+        ],
+        "rationale": "s03 uses his intent as the purpose Chris claims for his remark; it does not validate that excuse."
+      },
+      {
+        "target_id": "ox-e84751fd01b64c6c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-05-s04"
+        ],
+        "forms": [
+          "intervene"
+        ],
+        "rationale": "s04 uses the base verb for the chair stepping into a recurring meeting problem."
+      },
+      {
+        "target_id": "ox-26d9ba10b203e056",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-05-s05"
+        ],
+        "forms": [
+          "intervention"
+        ],
+        "rationale": "s05 uses the noun for a short, specific act of pausing and redirecting the discussion."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-06",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "3f4077951e6d869bb7c9a4f847e5ff41126c2822f2c8b90c0078e4934c92cfd4",
+    "status": "accepted",
+    "rationale": "The curator checks exactly how the teacher influenced Ellis. Daily sketching and help obtaining a studio are credited while Ellis retains authorship of paintings and themes; the final acknowledgement is agreed for later writing, matching the title/goal evidence.",
+    "targets": [
+      {
+        "target_id": "ox-e6974345c005723c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-06-s01"
+        ],
+        "forms": [
+          "inspiration"
+        ],
+        "rationale": "s01 treats the teacher as the source of artistic inspiration and asks what that influence involved; the following clarification narrows rather than erases the sense."
+      },
+      {
+        "target_id": "ox-f92ec7e1ea609657",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-06-s03"
+        ],
+        "forms": [
+          "influential"
+        ],
+        "rationale": "s03 describes the teacher’s effect on how Ellis observes, confirmed by the daily sketching habit."
+      },
+      {
+        "target_id": "ox-8369d719fc9e82b7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-06-s04"
+        ],
+        "forms": [
+          "instrumental"
+        ],
+        "rationale": "s04 uses instrumental in getting for an important facilitating role in obtaining a studio, not a musical sense."
+      },
+      {
+        "target_id": "ox-238fa1e6ea853bf6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-06-s02"
+        ],
+        "forms": [
+          "legacy"
+        ],
+        "rationale": "s02 identifies the continuing sketching habit as the teacher’s lasting influence in Ellis’s work."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-07",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "7eb7196c43be19e112b4ea86572e9d53024d67b8c465ec2316f20bdd1a830195",
+    "status": "accepted",
+    "rationale": "The explicitly fictional writers distinguish an insider’s allegation from a report of missing files. They agree to omit the accusation pending document checks; titles, metadata and evidence do not upgrade a lead into proof or assert a real-world allegation.",
+    "targets": [
+      {
+        "target_id": "ox-8990db2a87928934",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-07-s01"
+        ],
+        "forms": [
+          "infamous"
+        ],
+        "rationale": "s01 uses the adjective with for the river spill to identify the fictional factory’s bad reputation."
+      },
+      {
+        "target_id": "ox-9150859adfbe4f85",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-07-s03"
+        ],
+        "forms": [
+          "insider"
+        ],
+        "rationale": "s03 uses an unnamed insider for a person with internal knowledge, without treating the statement as established truth."
+      },
+      {
+        "target_id": "ox-dadcdf5b3b0ab80a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-07-s04"
+        ],
+        "forms": [
+          "investigator"
+        ],
+        "rationale": "s04 uses the possessive investigator’s report for the investigator’s written findings; the declared base form correctly matches the noun."
+      },
+      {
+        "target_id": "ox-e92fc0bcfe53fd3f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-07-s06"
+        ],
+        "forms": [
+          "integrity"
+        ],
+        "rationale": "s06 ties the episode’s integrity to honest separation of evidence and accusation, supporting the ethical reliability sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-08",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "10a56aec9d4d15b231cdf279c63d4e6c1e7fe9342de2b3492dbf3a235808e4ea",
+    "status": "accepted",
+    "rationale": "Full reread of all seven turns, all five targets, the current scenario definition and every repaired outcome claim: title/label/goal now accurately identify a book-repair activity rather than a teaching class. Ruth and Ben agree to seek approval/room information first, withhold a start date and divide the information-gathering tasks. The dialogue only establishes those commitments, not approval, a room booking or collected availability; the current evidence preserves those distinctions.",
+    "targets": [
+      {
+        "target_id": "ox-b9c6744353c373c2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-08-s01"
+        ],
+        "forms": [
+          "initiate"
+        ],
+        "rationale": "On full reread, s01 uses initiate the approval process for proposing the start of the authorization procedure; subsequent uncertainty makes clear that permission is not already granted."
+      },
+      {
+        "target_id": "ox-e75af049bad223c9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-08-s03"
+        ],
+        "forms": [
+          "inquire"
+        ],
+        "rationale": "On reread, s03’s inquire at the office is the natural verb for Ruth’s promised information request, later specified as approval steps and room availability."
+      },
+      {
+        "target_id": "ox-a0ad30de652bee34",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-08-s02"
+        ],
+        "forms": [
+          "interim"
+        ],
+        "rationale": "On reread, s02’s interim manager uses the adjective for temporary leadership and motivates checking who may authorize room use."
+      },
+      {
+        "target_id": "ox-cb14338bfdb653d6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-08-s04"
+        ],
+        "forms": [
+          "insufficient"
+        ],
+        "rationale": "On reread, s04’s insufficient information is concretely supported by unknown Saturday room availability and explains withholding the event date."
+      },
+      {
+        "target_id": "ox-8c4e7d12d8451d92",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-08-s05"
+        ],
+        "forms": [
+          "meantime"
+        ],
+        "rationale": "On reread, s05 uses the noun within in the meantime to assign volunteer-availability collection while approval information is still being sought."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-09",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "1707ff9d43f23522ffab14498c70f1e9fb735a246892d157ace7334092325aa1",
+    "status": "accepted",
+    "rationale": "The guard’s intact appearance is explicitly distinguished from the missing current check record. Helen is named as authorized, and the colleagues agree to keep the machine unavailable pending her confirmation; the scene makes no claim that inspection or repair has occurred.",
+    "targets": [
+      {
+        "target_id": "ox-246e30972478a145",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-09-s05"
+        ],
+        "forms": [
+          "inspect"
+        ],
+        "rationale": "s05 uses the transitive inspection verb with the machine pronoun it and asks who is authorized to perform it."
+      },
+      {
+        "target_id": "ox-f8c66cc99846af0a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-09-s02"
+        ],
+        "forms": [
+          "inspection"
+        ],
+        "rationale": "s02 uses the noun for the formal required check, contrasted with a glance."
+      },
+      {
+        "target_id": "ox-d02149507238722c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-09-s01"
+        ],
+        "forms": [
+          "intact"
+        ],
+        "rationale": "s01 is a predicative adjective describing the guard’s apparently undamaged condition, not certifying the whole machine."
+      },
+      {
+        "target_id": "ox-30d7450e3f0985b0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-09-s04"
+        ],
+        "forms": [
+          "machinery"
+        ],
+        "rationale": "s04 uses the mass noun for the workshop equipment under discussion; it is not incorrectly counted as a machinery."
+      },
+      {
+        "target_id": "ox-fa95fa4124f0f2be",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-09-s04"
+        ],
+        "forms": [
+          "mandatory"
+        ],
+        "rationale": "s04 identifies the pre-use check as compulsory under these explicitly local workshop rules."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-10",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "56e818222bd3a13f9a9f020f3547627e3d31b4b329f81fe7a13a56e320582795",
+    "status": "accepted",
+    "rationale": "The product team distinguishes working audio/map features from unconnected ticketing and agrees a tour-only demonstration with a warning label. Hugo promises changes but nobody claims they are already implemented; title/goal claims and supporting turns preserve that scope.",
+    "targets": [
+      {
+        "target_id": "ox-9c20bcc6192b84b6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-10-s05"
+        ],
+        "forms": [
+          "integral"
+        ],
+        "rationale": "s05 uses integral part of for the map’s essential role in finding stops."
+      },
+      {
+        "target_id": "ox-66590cf6d741f48f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-10-s01"
+        ],
+        "forms": [
+          "integrated"
+        ],
+        "rationale": "s01 modifies version and immediately specifies bringing tickets and the tour together; the question’s negative answer does not undermine the adjective sense."
+      },
+      {
+        "target_id": "ox-22d26bde15490141",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-10-s02"
+        ],
+        "forms": [
+          "integration"
+        ],
+        "rationale": "s02 uses ticketing integration as a noun for the connection still under testing."
+      },
+      {
+        "target_id": "ox-d51e0019e4c492e1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-10-s05"
+        ],
+        "forms": [
+          "interactive"
+        ],
+        "rationale": "s05 modifies map for a user-operated app feature, coherent with navigating tour stops."
+      },
+      {
+        "target_id": "ox-1d1f23302a9c58c7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-10-s02"
+        ],
+        "forms": [
+          "interface"
+        ],
+        "rationale": "s02 names the tour’s working user interface rather than a physical interface or a completed ticketing connection."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-11",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "cd23049054c42639efcfd8a4e88da19f08cfcd574c50f9a557420b1798df1a24",
+    "status": "accepted",
+    "rationale": "The editors respond to a reported unpleasant viewing experience by agreeing to test a gentler, flash-free fade. They do not diagnose the viewer or claim a final edit has already been selected; the title/goal and evidence accurately distinguish this test agreement.",
+    "targets": [
+      {
+        "target_id": "ox-a583fbe21a93911b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-11-s03"
+        ],
+        "forms": [
+          "induce"
+        ],
+        "rationale": "s03 uses induce nausea for an effect that might cause sickness; could preserves the hypothetical causal concern."
+      },
+      {
+        "target_id": "ox-5f76df5f46c5a920",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-11-s02"
+        ],
+        "forms": [
+          "intensify"
+        ],
+        "rationale": "s02 uses the transitive verb for increasing the flashes, a proposal Mei then reconsiders."
+      },
+      {
+        "target_id": "ox-c76b5828e2835fd7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-11-s04"
+        ],
+        "forms": [
+          "intensity"
+        ],
+        "rationale": "s04 uses intensity of the light for brightness strength to be reduced in the proposed edit."
+      },
+      {
+        "target_id": "ox-55497d107f7aa4c0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-11-s01"
+        ],
+        "forms": [
+          "magical"
+        ],
+        "rationale": "s01 describes the fantasy forest’s enchanting appearance, separate from the unpleasant rapid flashes."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-12",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "1a18370ab1e5caa1810c22a5d284818b74f78a3973caf1e56a2889054eef9f2c",
+    "status": "accepted",
+    "rationale": "The coordinator explains the intensive course schedule and intermediate entry level, then confirms a short original dialogue excerpt is sufficient. Gabriel selects an argument scene and Suki accepts it; preparation is agreed, not reported as completed attendance.",
+    "targets": [
+      {
+        "target_id": "ox-f609660c5c8f0b92",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-12-s01"
+        ],
+        "forms": [
+          "intensive"
+        ],
+        "rationale": "s01 uses intensive to describe a concentrated writing course and asks what that workload means; s02 supplies its schedule."
+      },
+      {
+        "target_id": "ox-5a827fd5fd408fb1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-12-s02"
+        ],
+        "forms": [
+          "intermediate"
+        ],
+        "rationale": "s02 modifies writers and expressly contrasts their level with complete beginners."
+      },
+      {
+        "target_id": "ox-1c376c56e821cb0c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-12-s03"
+        ],
+        "forms": [
+          "manuscript"
+        ],
+        "rationale": "s03 identifies the learner’s unfinished story draft, not a published finished book."
+      },
+      {
+        "target_id": "ox-e04c8fd7d125b7fd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-12-s05"
+        ],
+        "forms": [
+          "lengthy"
+        ],
+        "rationale": "s05 modifies account to describe a long village description, naturally contrasting it with the more useful dialogue scene."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-13",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "94055a0ed4e54298cd9236a8abe49fe910eba59247e971b25a4ff92661e31a6b",
+    "status": "accepted",
+    "rationale": "The studio discussion avoids treating simultaneous printer activity as proven cause. They agree to change one variable, log settings and compare fresh recordings before deciding the next test; metadata and evidence correctly mark those future operations as agreed.",
+    "targets": [
+      {
+        "target_id": "ox-4187012ba4e12622",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-13-s06"
+        ],
+        "forms": [
+          "interfere"
+        ],
+        "rationale": "s06 uses interfere with the comparison for confounding the experiment by moving the microphone too."
+      },
+      {
+        "target_id": "ox-1aa08cdf28b02f08",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-13-s02"
+        ],
+        "forms": [
+          "interference"
+        ],
+        "rationale": "s02 proposes unwanted signal interference as one possible explanation for the recorded hum, without certifying its source."
+      },
+      {
+        "target_id": "ox-133afd243ad290f4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-13-s03"
+        ],
+        "forms": [
+          "loop"
+        ],
+        "rationale": "s03 uses on a loop for repeated playback of the eight-second section; the repeated audio segment sense fits the noun phrase."
+      },
+      {
+        "target_id": "ox-48633d32a327aac6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-13-s07"
+        ],
+        "forms": [
+          "log"
+        ],
+        "rationale": "s07 uses the verb transitively with equipment settings and result, meaning record those observations systematically."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-14",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "6daa98fff47d7e668f9f9995141736599a4cd320e4194c7093e2b4758ea5537d",
+    "status": "accepted",
+    "rationale": "The caller identifies a specific plan/photo discrepancy, and Yusuf explicitly confirms he is the landlord and that the plan predates the wall. He promises an updated measured plan before any viewing discussion; no viewing or document receipt is fabricated.",
+    "targets": [
+      {
+        "target_id": "ox-3f21d73f2684f7cc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-14-s03"
+        ],
+        "forms": [
+          "interior"
+        ],
+        "rationale": "s03 modifies wall to specify an inside partition between the kitchen and sitting room."
+      },
+      {
+        "target_id": "ox-3058c49e4b455d39",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-14-s01"
+        ],
+        "forms": [
+          "landlord"
+        ],
+        "rationale": "s01 names the property owner/lessor role, directly confirmed by Yusuf’s yes in s02."
+      },
+      {
+        "target_id": "ox-5ad8c6e705dbbe9a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-14-s01"
+        ],
+        "forms": [
+          "listing"
+        ],
+        "rationale": "s01 names the advertised flat entry that contains the plan and photographs."
+      },
+      {
+        "target_id": "ox-0428a3add1e6eb43",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-14-s03"
+        ],
+        "forms": [
+          "layout"
+        ],
+        "rationale": "s03 uses the noun for the room arrangement depicted by the plan, the very arrangement disputed by the photos."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-15",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "863ee632fae9793d65e75cd80d4ab95e121d77883a9457f44b25fce2637753be",
+    "status": "accepted",
+    "rationale": "The fictional route consistently separates the Pier/King intersection from the King/Coast junction. Elena accurately repeats left then right at the tower, so the claimed clarification is completed while the journey itself remains future.",
+    "targets": [
+      {
+        "target_id": "ox-3d04a08457d0aa07",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-15-s02"
+        ],
+        "forms": [
+          "intersection"
+        ],
+        "rationale": "s02 names the crossing of Pier Street and King Street, where the first turn is left."
+      },
+      {
+        "target_id": "ox-2324d30d625238bb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-15-s04"
+        ],
+        "forms": [
+          "junction"
+        ],
+        "rationale": "s04 identifies the next meeting of King Street and Coast Road, distinct from the first crossing."
+      },
+      {
+        "target_id": "ox-8f9833d4b8fd135c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-15-s04"
+        ],
+        "forms": [
+          "landmark"
+        ],
+        "rationale": "s04 calls the clock tower a recognizable reference for the second turn, which is then confirmed."
+      },
+      {
+        "target_id": "ox-28ba26586837bf59",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-15-s01"
+        ],
+        "forms": [
+          "mainland"
+        ],
+        "rationale": "s01 contrasts the ferry’s destination landmass with the island setting explicitly provided in context."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-16",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "4a6e6ab41e3d9b54588e334f13b97a116492bb67311837f9f4f3a6e9ac495877",
+    "status": "accepted",
+    "rationale": "For eighteen guests, the organizers choose the reading room rather than the main hall and use the existing booking to preserve twenty minutes of questions. The promised volunteer instruction is future; title/goal evidence accurately represents the room/time agreement.",
+    "targets": [
+      {
+        "target_id": "ox-35b2772ce118120f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-16-s03"
+        ],
+        "forms": [
+          "intimate"
+        ],
+        "rationale": "s03 describes the closer, personal atmosphere of a small gathering in the reading room, not a sexual relationship."
+      },
+      {
+        "target_id": "ox-7828643d6e51c18c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-16-s01"
+        ],
+        "forms": [
+          "intriguing"
+        ],
+        "rationale": "s01 describes the missing-bridge story as arousing curiosity in this postcard talk."
+      },
+      {
+        "target_id": "ox-9f920e2a4c0d5095",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-16-s04"
+        ],
+        "forms": [
+          "linger"
+        ],
+        "rationale": "s04 means remain after the talk to ask questions, motivating the additional room time."
+      },
+      {
+        "target_id": "ox-dfc81efdf5e96925",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-16-s01"
+        ],
+        "forms": [
+          "long-time"
+        ],
+        "rationale": "s01 is a hyphenated adjective modifying collector and indicating the speaker has collected postcards for many years."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-17",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "2ccbb08541246555b4531cf9e245ff11129977978c8a75b018afb42f92e81b0f",
+    "status": "accepted",
+    "rationale": "The completed stocktake motivates reconsideration of a disruptive full rearrangement. Both agree to test one shelf row and assess usable space and order picking first; metadata and evidence do not claim the rearrangement or measurements are completed.",
+    "targets": [
+      {
+        "target_id": "ox-ae5db037a1c7100c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-17-s01"
+        ],
+        "forms": [
+          "inventory"
+        ],
+        "rationale": "s01 refers to the completed stocktaking exercise, whose finding is that many boxes contain empty packaging."
+      },
+      {
+        "target_id": "ox-1b1fbe632c49f2fe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-17-s02"
+        ],
+        "forms": [
+          "large-scale"
+        ],
+        "rationale": "s02 modifies move and is clarified as moving every shelf, not merely one row."
+      },
+      {
+        "target_id": "ox-45af8bbf0e48e9c0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-17-s04"
+        ],
+        "forms": [
+          "maximize"
+        ],
+        "rationale": "s04 uses the transitive verb with usable space for seeking the greatest practical use of the storage area."
+      },
+      {
+        "target_id": "ox-05acb4a6da5a6a99",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-17-s03"
+        ],
+        "forms": [
+          "marginal"
+        ],
+        "rationale": "s03 modifies gain to describe only a small additional benefit beyond removing empty packaging."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-18",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "130f49e2d57a7155f860dc8bba326f0d7af33c1c2aa5a0d58a6f29a29effe06a",
+    "status": "accepted",
+    "rationale": "The classroom committee’s authority and emergency clause are explicitly fictional. The participants separate a reasonable concern from substantiated grounds and agree to obtain written room information before a vote, without claiming approval or universal legal rules.",
+    "targets": [
+      {
+        "target_id": "ox-75c27b552dae4617",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-18-s02"
+        ],
+        "forms": [
+          "invoke"
+        ],
+        "rationale": "s02 uses invoke the emergency clause for proposing reliance on a particular rule."
+      },
+      {
+        "target_id": "ox-8d8c14d1ca2d8bab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-18-s04"
+        ],
+        "forms": [
+          "legitimate"
+        ],
+        "rationale": "s04 describes the possible room problem as a reasonable concern while expressly acknowledging missing confirmation."
+      },
+      {
+        "target_id": "ox-34111dd349cc050b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-18-s05"
+        ],
+        "forms": [
+          "justification"
+        ],
+        "rationale": "s05 uses the noun for sufficient grounds for an exception, which the speakers say they do not yet have."
+      },
+      {
+        "target_id": "ox-ea767ec155476c4c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-18-s01"
+        ],
+        "forms": [
+          "mandate"
+        ],
+        "rationale": "s01 names the committee’s granted authority to allocate rooms, expressly limited by the role card."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-19",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "f085281c2429a9917ef1b8320651b7ef06dad8105d83fa20047040a59612f332",
+    "status": "accepted",
+    "rationale": "The student and teacher discuss a concrete reversal: a music-banning mayor needs musicians and the ban boosts their popularity. Petra accepts the quiet ending and plans to remove unrelated bakery background; the evidence records an edit agreement, not an already changed manuscript.",
+    "targets": [
+      {
+        "target_id": "ox-2333df0a2ac26e17",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-19-s02"
+        ],
+        "forms": [
+          "ironic"
+        ],
+        "rationale": "s02 predicates ironic of the contrast between the mayor’s ban and his need for musicians."
+      },
+      {
+        "target_id": "ox-7740a26ec2a985e2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-19-s03"
+        ],
+        "forms": [
+          "ironically"
+        ],
+        "rationale": "s03 is a sentence adverb marking the contrary-to-purpose result that the ban made the band more popular; initial capitalization is ordinary."
+      },
+      {
+        "target_id": "ox-a729f30f43b995e3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-19-s04"
+        ],
+        "forms": [
+          "irony"
+        ],
+        "rationale": "s04 names the already visible situational contrast, rather than treating all humor as irony."
+      },
+      {
+        "target_id": "ox-16f76a95db017715",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-19-s06"
+        ],
+        "forms": [
+          "irrelevant"
+        ],
+        "rationale": "s06 describes the bakery history as unrelated to the ending and explicitly explains that no scene event depends on it."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-20",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "954c9a8ed84f0dac8beaff207bfc67f7098ef35d895320faa1c735cb4c01f9ee",
+    "status": "accepted",
+    "rationale": "Walter’s reading and social goals lead to a specific Thursday-ten desk conversation, not automatic enrollment. Farah explains the library’s room/tutor support and low-pressure introduction; the title/goal clauses and statuses match the information exchanged and appointment agreed.",
+    "targets": [
+      {
+        "target_id": "ox-76f12139218415b0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-20-s03"
+        ],
+        "forms": [
+          "isolation"
+        ],
+        "rationale": "s03 names difficult social separation after stopping work, answered by the group’s informal conversation time."
+      },
+      {
+        "target_id": "ox-b36c772dd070d8db",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-20-s06"
+        ],
+        "forms": [
+          "institutional"
+        ],
+        "rationale": "s06 modifies support and refers concretely to resources supplied by the library, not merely one individual volunteer."
+      },
+      {
+        "target_id": "ox-b720758c78ffac58",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-20-s01"
+        ],
+        "forms": [
+          "literacy"
+        ],
+        "rationale": "s01 names reading-and-writing ability as the adult learner’s long-term goal."
+      },
+      {
+        "target_id": "ox-fe26f971de9fb067",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-20-s01"
+        ],
+        "forms": [
+          "lifelong"
+        ],
+        "rationale": "s01 modifies goal to indicate a wish extending throughout the speaker’s life, not a course of lifelong duration."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-21",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "5a270f649bd145b9ec19bb56aa912831f947fe79df6a1be8ea3aaa5eb21f48c1",
+    "status": "accepted",
+    "rationale": "The students explicitly distinguish an inmate’s claim, the magistrate’s records request and the absence of a ruling. Isaac actually supplies a replacement sentence and Helena approves it, supporting completed correction rather than a mere promise; all legal facts stay within the fictional case card.",
+    "targets": [
+      {
+        "target_id": "ox-83c1c4a12e79c18d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-21-s01"
+        ],
+        "forms": [
+          "inmate"
+        ],
+        "rationale": "s01 names the detained person whose letters are the subject of the complaint, supported by the case context."
+      },
+      {
+        "target_id": "ox-6c6f43b2e99e0cc6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-21-s05"
+        ],
+        "forms": [
+          "judicial"
+        ],
+        "rationale": "s05 modifies hearing to identify the court proceeding without implying its complaint has been adjudicated."
+      },
+      {
+        "target_id": "ox-774443170ac5f3ee",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-21-s02"
+        ],
+        "forms": [
+          "magistrate"
+        ],
+        "rationale": "s02 names the judicial officer receiving the statement; s04 supplies that officer’s response and does not assert a universal court procedure."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-22",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "2382c462b7ec14f4374e4d51f83f8fcffd3bf6b1c61cdf4bddd6474a7d872761",
+    "status": "accepted",
+    "rationale": "The fictional case sheet separately leaves jurisdiction and liability unresolved. The speakers agree how to revise the summary, but Nell only promises the deletion, as the title and outcome evidence correctly indicate; no actual legal advice or decided responsibility is claimed.",
+    "targets": [
+      {
+        "target_id": "ox-1b9fda439a838b96",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-22-s03"
+        ],
+        "forms": [
+          "jurisdiction"
+        ],
+        "rationale": "s03 uses the court’s jurisdiction for its authority to hear the dispute, challenged but not yet resolved."
+      },
+      {
+        "target_id": "ox-da95213037e5caee",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-22-s01"
+        ],
+        "forms": [
+          "lawsuit"
+        ],
+        "rationale": "s01 refers to the filed legal case, and s02 explicitly separates filing from deciding it."
+      },
+      {
+        "target_id": "ox-60eecf68c430253c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-22-s01"
+        ],
+        "forms": [
+          "liable"
+        ],
+        "rationale": "s01 is a predicative adjective for legal responsibility, posed as a question and rejected as an unsupported conclusion."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-23",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "0d03936bd124219631b6dbcef9b35796e836f36b3d7dc568fee364d2e40ed1cd",
+    "status": "accepted",
+    "rationale": "The adult reading organizers compare two explicitly fictional books using concrete content notes and agree the less graphic option. The metadata preserves the off-page kidnapping rather than calling the book violence-free, and the promised announcement includes a content note.",
+    "targets": [
+      {
+        "target_id": "ox-72d1661609c33d96",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-23-s02"
+        ],
+        "forms": [
+          "kidnap"
+        ],
+        "rationale": "s02 uses the finite plural-subject verb for criminals abducting a witness within the fictional plot; no procedural detail is given."
+      },
+      {
+        "target_id": "ox-99b0a56bc871dca5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-23-s04"
+        ],
+        "forms": [
+          "lethal"
+        ],
+        "rationale": "s04 modifies attack to specify fatal violence in the second book’s opening."
+      },
+      {
+        "target_id": "ox-76714c5019602aba",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-23-s05"
+        ],
+        "forms": [
+          "lesser"
+        ],
+        "rationale": "s05 modifies degree of violence to request comparatively reduced graphic content, matching the subsequent book choice."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-24",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "930c3c87be3f365285901dd4eaad10162b4a3c05291016f5b30a7fb2cca293d9",
+    "status": "accepted",
+    "rationale": "The game map distinguishes known visitable towns from a castle whose location remains unconfirmed. Zoya promises a dotted outline and key note and Finn accepts, so the title/goal evidence accurately describes an agreed cartographic change, not an already drawn map or a proven castle.",
+    "targets": [
+      {
+        "target_id": "ox-62dab8ddecee47b1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-24-s01"
+        ],
+        "forms": [
+          "kingdom"
+        ],
+        "rationale": "s01 names the game’s invented realm and consistently locates the map discussion inside that fictional setting."
+      },
+      {
+        "target_id": "ox-6ce3d88d42d2c527",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-24-s01"
+        ],
+        "forms": [
+          "medieval"
+        ],
+        "rationale": "s01 modifies kingdom to establish the game world’s Middle Ages setting, not a modern real country."
+      },
+      {
+        "target_id": "ox-d7723926fc2b214d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-24-s03"
+        ],
+        "forms": [
+          "legendary"
+        ],
+        "rationale": "s03 is predicative and immediately explained as a castle people talk about but no living character has found, selecting the legend-based rather than famous sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-25",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "7b95d4bbc862979cc540145d45b8a365ef9603be46efb0f20af60dc62ae24dcf",
+    "status": "accepted",
+    "rationale": "Samir directly witnessed the branch fall from the mature tree beside the fence; Olive identifies its place on the lawn. They agree to keep the visitors indoors and seek a tree-care inspection, without claiming the rest of the tree is safe or the inspection has happened.",
+    "targets": [
+      {
+        "target_id": "ox-a0ac4921018ca5ca",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-25-s01"
+        ],
+        "forms": [
+          "lawn"
+        ],
+        "rationale": "s01 names the grassed garden area where the fallen branch lies and where tea had been planned."
+      },
+      {
+        "target_id": "ox-c59bebdf92c5d587",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-25-s02"
+        ],
+        "forms": [
+          "mature"
+        ],
+        "rationale": "s02 modifies tree to describe a fully grown specimen, not a person’s emotional maturity."
+      },
+      {
+        "target_id": "ox-78bfe3041d59fffa",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-25-s01"
+        ],
+        "forms": [
+          "limb"
+        ],
+        "rationale": "s01 uses a large limb for a substantial tree branch, explicitly tied to the tree by s02."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-26",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "e099091ce5acf5f93091892f8003e51186280006cbeea3093fe07786f349e376",
+    "status": "accepted",
+    "rationale": "The planners choose the independent fictional film to complement the comedy and identify a concrete synopsis error: the women are partners, not sisters. Esther agrees to rewrite the synopsis; metadata identifies their relationship from the fictional film itself rather than inferring a real person’s identity.",
+    "targets": [
+      {
+        "target_id": "ox-ec2ec629299a5460",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-26-s01"
+        ],
+        "forms": [
+          "line-up"
+        ],
+        "rationale": "s01 uses the hyphenated noun for the festival’s selection of films across Saturday and Sunday."
+      },
+      {
+        "target_id": "ox-66dbd823d62e51c3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-26-s02"
+        ],
+        "forms": [
+          "lesbian"
+        ],
+        "rationale": "s02 modifies couple adjectivally and explicitly describes the fictional central relationship; the selected adjective POS fits."
+      },
+      {
+        "target_id": "ox-7d40a0b3f058f724",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-26-s01"
+        ],
+        "forms": [
+          "mainstream"
+        ],
+        "rationale": "s01 modifies comedy for the broadly accessible/popular film contrasted with the independent production."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-27",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "80b5178198b971b8f3828afd65f1edbf10a483d66409cb6bb931e2151b73ddeb",
+    "status": "accepted",
+    "rationale": "Wes explicitly confirms Mara’s participation but denies that any song is settled. The organizers agree to name her and thank supporters without promising River Road; the title/goal and evidence preserve an announcement plan rather than a published notice or a confirmed set list.",
+    "targets": [
+      {
+        "target_id": "ox-5d7d47156b351191",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-27-s01"
+        ],
+        "forms": [
+          "lineup"
+        ],
+        "rationale": "s01 uses the unhyphenated noun for the concert’s performing roster, consistent with the separate American-style target."
+      },
+      {
+        "target_id": "ox-d6a790af149ab1d9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-27-s02"
+        ],
+        "forms": [
+          "longtime"
+        ],
+        "rationale": "s02 is an attributive adjective describing fans who have followed Mara for a long period."
+      },
+      {
+        "target_id": "ox-b000a8805c2b9b3a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-27-s05"
+        ],
+        "forms": [
+          "loyalty"
+        ],
+        "rationale": "s05 names the audience’s continuing support as the reason for thanks, not an obligation to attend."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-28",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "d5a48f7e23daca45518ceb386a241fa8d5ac852527f2a74197eaf8f0d9158e07",
+    "status": "accepted",
+    "rationale": "The team correctly distinguishes a point prediction based on three events from an unestimated ninety-percent probability. They agree to label the estimate and compare it with later attendance; the goal’s claim concerns this model’s unsupported certainty, not a universal ban on probabilistic linear models.",
+    "targets": [
+      {
+        "target_id": "ox-c2bd33d450538b0f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-28-s01"
+        ],
+        "forms": [
+          "mathematical"
+        ],
+        "rationale": "s01 modifies model to characterize the numerical attendance model being discussed."
+      },
+      {
+        "target_id": "ox-180f81815bb42bbd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-28-s02"
+        ],
+        "forms": [
+          "linear"
+        ],
+        "rationale": "s02 specifies the fitted line’s form and the small historical sample, making the technical adjective contextual rather than ornamental."
+      },
+      {
+        "target_id": "ox-2f0a8cc3500ecce4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-28-s03"
+        ],
+        "forms": [
+          "logic"
+        ],
+        "rationale": "s03 asks for the reasoning behind using registrations, answered by the observed association and its limits."
+      },
+      {
+        "target_id": "ox-55ab0734612d9252",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-28-s05"
+        ],
+        "forms": [
+          "likelihood"
+        ],
+        "rationale": "s05 uses a ninety percent likelihood for an event probability in an explicitly rejected proposed claim; the everyday probability noun sense fits."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-29",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "4cfb38bcb88a5cccee42e1a4481fb39b30544e993ff49199aa4ca8014baa4911",
+    "status": "accepted",
+    "rationale": "The fictional marketplace agent separates repeated review text from a finding of manipulation and specifies observable evidence. Hassan promises submission and Iris says assessment follows submission; the title and evidence correctly mark agreement, not a completed report or a proven accusation.",
+    "targets": [
+      {
+        "target_id": "ox-b8e0587461ac115a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-29-s02"
+        ],
+        "forms": [
+          "marketplace"
+        ],
+        "rationale": "s02 refers to the online platform hosting the review links, supported by the stated customer-service context."
+      },
+      {
+        "target_id": "ox-124ab5d2428a4861",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-29-s01"
+        ],
+        "forms": [
+          "long-standing"
+        ],
+        "rationale": "s01 modifies customer to describe an established, long-duration relationship with the seller."
+      },
+      {
+        "target_id": "ox-46ce80a7ff3ffa8f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-29-s03"
+        ],
+        "forms": [
+          "manipulation"
+        ],
+        "rationale": "s03 names deliberate distortion of reviews as a possibility under investigation, and s04 expressly withholds that finding."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-30",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "3cdaf6f6764253c3e24d6812b57b68445360914ec1d86bc17ace31983c4108a8",
+    "status": "accepted",
+    "rationale": "The hall planners treat the caretaker’s figure as provisional and will seek an itemized contractor quote, separating required work from optional improvements. They defer the event-scale decision rather than assume repairs can wait or cancel on a guess; the goal and evidence preserve those limits.",
+    "targets": [
+      {
+        "target_id": "ox-5919bf7475b27cdd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-30-s01"
+        ],
+        "forms": [
+          "loom"
+        ],
+        "rationale": "s01 uses loom over metaphorically for repair costs overshadowing planning with worry, a natural nonliteral verb construction."
+      },
+      {
+        "target_id": "ox-47066d0f34eba32a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-30-s02"
+        ],
+        "forms": [
+          "magnitude"
+        ],
+        "rationale": "s02 uses magnitude of the bill for the as-yet unknown size of the cost, contrasting a rough figure with a written quote."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-31",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "edb20277a3c0dc96410a1564ca202e7db5caf9273f3e45a89810537faa0a7432",
+    "status": "accepted",
+    "rationale": "The friends explicitly agree to share, Poppy places the order with the third speaker, and Celia confirms one slice and two forks. The metadata and outcome evidence properly treat ordering as completed without claiming cake delivery, consumption or payment.",
+    "targets": [
+      {
+        "target_id": "ox-ae9ee44430d11c97",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-31-s01"
+        ],
+        "forms": [
+          "indulge"
+        ],
+        "rationale": "s01 uses indulge in a slice of cake for allowing oneself a pleasant treat; the following sharing discussion keeps the invitation natural."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-32",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "39343fa33c1057ed8431eabd539ea0d99832620ed5afede73f65c24dc45afdac",
+    "status": "accepted",
+    "rationale": "The students work only from an invented legislative case, distinguish committee discussion from a pending vote and actually change the chart marker and wording. Peter’s Done and Sana’s check support completed correction in the evidence, without asserting the bill passed.",
+    "targets": [
+      {
+        "target_id": "ox-e77b8ccd64824d50",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-32-s02"
+        ],
+        "forms": [
+          "legislative"
+        ],
+        "rationale": "s02 modifies committee to identify its law-making function within the invented process."
+      },
+      {
+        "target_id": "ox-ad2b8d1664e97183",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-32-s03"
+        ],
+        "forms": [
+          "legislature"
+        ],
+        "rationale": "s03 names the law-making body whose vote has not yet occurred, distinct from the individual lawmaker."
+      },
+      {
+        "target_id": "ox-18bedff69608d593",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-32-s04"
+        ],
+        "forms": [
+          "legislation"
+        ],
+        "rationale": "s04 is the mass noun for existing park-access law that the proposed bill has not replaced."
+      },
+      {
+        "target_id": "ox-3e8e9cf3a5004abb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-32-s02"
+        ],
+        "forms": [
+          "lawmaker"
+        ],
+        "rationale": "s02 is a count noun for the person who presented the bill, not the committee or the law itself."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-33",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "38be84648edd2bfb99436ee9a52d6cc64c73cf398499cc0dd2d5c4778f2a5298",
+    "status": "accepted",
+    "rationale": "The entirely fictional organizers agree a nonparty accessibility message and a repair-schedule request. Dev promises to collect access needs and check routes before announcement; the metadata describes that planning agreement, not a finalized accessible route or an actual political campaign.",
+    "targets": [
+      {
+        "target_id": "ox-6d1a9053968d4b2c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-33-s04"
+        ],
+        "forms": [
+          "lobby"
+        ],
+        "rationale": "s04 uses the transitive verb with the council and for a published schedule, meaning seek a decision-maker’s support."
+      },
+      {
+        "target_id": "ox-fc086c61c7a9d7b9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-33-s01"
+        ],
+        "forms": [
+          "march"
+        ],
+        "rationale": "s01 uses a count noun for the planned public demonstration, not a walking verb or the month."
+      },
+      {
+        "target_id": "ox-7251e9d8e4f9c444",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-33-s01"
+        ],
+        "forms": [
+          "inequality"
+        ],
+        "rationale": "s01 identifies unequal access to public buildings, concretized by the library entrance in s02."
+      },
+      {
+        "target_id": "ox-5d0b157e1f943548",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-33-s03"
+        ],
+        "forms": [
+          "injustice"
+        ],
+        "rationale": "s03 names residents’ stated judgment about years of delay, not an adjudicated legal finding."
+      },
+      {
+        "target_id": "ox-5c72a9cd54e131b1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-33-s02"
+        ],
+        "forms": [
+          "liberal"
+        ],
+        "rationale": "s02 is a predicative political adjective explicitly contrasted with conservative among fictional members."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-34",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "6e8c7c47d165898c0f65fd14b90281a87f8a72474e4e7cc964879fb82d3e1253",
+    "status": "accepted",
+    "rationale": "The invented timeline distinguishes liberation on May third from civilian killings on May tenth. Both agree to separate the panels while retaining the freedom theme; neither the title nor the evidence claims the exhibition is already constructed or presents these events as actual history.",
+    "targets": [
+      {
+        "target_id": "ox-f543295abc9cf421",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-34-s01"
+        ],
+        "forms": [
+          "liberation"
+        ],
+        "rationale": "s01 names release from occupation, made explicit in the planned first-panel description in s05."
+      },
+      {
+        "target_id": "ox-2007e8e027a3b746",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-34-s02"
+        ],
+        "forms": [
+          "massacre"
+        ],
+        "rationale": "s02 names the large-scale killing of civilians in the fictional timeline, discussed without graphic detail."
+      },
+      {
+        "target_id": "ox-f68582d7befa5a70",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-34-s03"
+        ],
+        "forms": [
+          "liberty"
+        ],
+        "rationale": "s03 names freedom as the exhibition’s intended theme and contrasts it with the victims’ inability to enjoy it."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-35",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "aed373cdc4898288d011c6aa94a6c1ce4867dc44fa8e15cba6e04198c0fcf3c2",
+    "status": "accepted",
+    "rationale": "The back-row teacher distinguishes seeing a pointer from reading tiny numbers. Kenji actually places the large magnetic pieces and Bea confirms visibility; the goal’s completed test is supported, while the demonstration itself remains an agreed future choice.",
+    "targets": [
+      {
+        "target_id": "ox-c0517d1f65829880",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-35-s04"
+        ],
+        "forms": [
+          "magnetic"
+        ],
+        "rationale": "s04 modifies pieces that can be placed and moved on the board, giving the physical magnetism sense."
+      },
+      {
+        "target_id": "ox-6c13b0ec76243bc3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-35-s02"
+        ],
+        "forms": [
+          "laser"
+        ],
+        "rationale": "s02 uses the noun attributively in laser pointer, a proposed pointing device rather than a claim it solves legibility."
+      },
+      {
+        "target_id": "ox-fe6b9b70bd0a81fd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-35-s04"
+        ],
+        "forms": [
+          "manipulate"
+        ],
+        "rationale": "s04 uses the verb for physically moving the pieces on a board, not dishonest influence over people."
+      },
+      {
+        "target_id": "ox-1991865933becc75",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-35-s01"
+        ],
+        "forms": [
+          "invisible"
+        ],
+        "rationale": "s01 uses almost invisible for numbers that are nearly impossible to see from the back row; the degree modifier preserves the practical rather than absolute claim."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-36",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "d9dc9fdc531b49257328ed040fce571fa0c52527bf510383450c1a3642b762c9",
+    "status": "accepted",
+    "rationale": "The explicitly British club introduction uses a casual young-man address and responds to Evan’s wish to begin gently. Both agree to one walking lap, leaving later jogging to Evan; the metadata and evidence do not convert the choice into a blanket prohibition or a completed exercise.",
+    "targets": [
+      {
+        "target_id": "ox-779e56cac04b9e69",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-36-s01"
+        ],
+        "forms": [
+          "lad"
+        ],
+        "rationale": "s01 uses the informal British noun for the adult young man who emailed, fitting the given regional setting."
+      },
+      {
+        "target_id": "ox-640460238b99f634",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-36-s05"
+        ],
+        "forms": [
+          "lap"
+        ],
+        "rationale": "s05 names one circuit of the track, which the following line repeats as a walking lap."
+      },
+      {
+        "target_id": "ox-b2664cc0a41e55be",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-36-s04"
+        ],
+        "forms": [
+          "leap"
+        ],
+        "rationale": "s04 uses leap over puddles for jumping over obstacles, in Evan’s stated preference not to do so."
+      },
+      {
+        "target_id": "ox-7796816daebcedb1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-36-s03"
+        ],
+        "forms": [
+          "instinct"
+        ],
+        "rationale": "s03 uses my first instinct for the coach’s immediate initial inclination, then revises it because of mud."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-37",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "facaa19ac1ef1ffe4fae1babd5af8b64601b8e3ae13e5103009651f698f4599f",
+    "status": "accepted",
+    "rationale": "The newcomer asks about the actual class format and describes her own restlessness without diagnosis. The teacher explains breaks and movement permission, offers an available door-side seat, and Dina accepts; the title/goal accurately describe this choice, not completed treatment or class participation.",
+    "targets": [
+      {
+        "target_id": "ox-52c803d006f909e5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-37-s01"
+        ],
+        "forms": [
+          "meditation"
+        ],
+        "rationale": "s01 uses the noun attributively to identify the contemplative-practice class whose format is being queried."
+      },
+      {
+        "target_id": "ox-bcbfe9538bb2b15f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-37-s03"
+        ],
+        "forms": [
+          "manifest"
+        ],
+        "rationale": "s03 uses the intransitive verb with as to describe how the speaker’s nerves become apparent as a desire to move."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-b-38",
+    "reviewer": "reviewer-phase11-b",
+    "dialogue_sha256": "b72e1fb2b72985d04fa4a4a3d15254c179be482367b75536bf34a98e53fe2ce1",
+    "status": "accepted",
+    "rationale": "Both staff have already heard the two audio versions, compare information load and pauses, and agree the short version for the marine exhibit with fuller text available separately. Preparation is promised but installation is not claimed, matching the title/goal and private action statuses.",
+    "targets": [
+      {
+        "target_id": "ox-e568a5a95ee581ec",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-38-s01"
+        ],
+        "forms": [
+          "marine"
+        ],
+        "rationale": "s01 modifies exhibition to identify its sea-life subject, reinforced by animals and tanks."
+      },
+      {
+        "target_id": "ox-167c1e4f1bc0cf24",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-b-38-s02"
+        ],
+        "forms": [
+          "latter"
+        ],
+        "rationale": "s02 uses the latter nominally to select the second of the two options just named, the short highlights version; later turns confirm that referent and the source noun POS fits this substantival use."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-01",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "c742a12d3ff5a7b1df5f7ff8b55714106a1cd979a0f4777baea90fb16f1898a4",
+    "status": "accepted",
+    "rationale": "Full rehearsal exchange identifies Elena's early entry and agrees a visible nod before trying the passage slowly. Title, label and both outcome claims describe a prospective rehearsal arrangement, not a successful performance. Speaker roles and melody handover are coherent.",
+    "targets": [
+      {
+        "target_id": "ox-6be870f182a943cf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-01-s01"
+        ],
+        "forms": [
+          "melody"
+        ],
+        "rationale": "s01 uses the noun melody as the musical line Kit takes over; the timing problem establishes the intended sense."
+      },
+      {
+        "target_id": "ox-8c22ae3c29b0848c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-01-s02"
+        ],
+        "forms": [
+          "precision"
+        ],
+        "rationale": "s02 more precision at the handover naturally names accuracy of musical timing, not speed."
+      },
+      {
+        "target_id": "ox-5f9e213353811932",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-01-s03"
+        ],
+        "forms": [
+          "nod"
+        ],
+        "rationale": "s03 Could you nod is the selected verb requesting a head movement; the later noun a nod is not the mapped evidence."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-02",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "9c0badf39f0cfa8bef7cb63e8b12d7cbebd89568cf531eba173ccffcce83ba82",
+    "status": "accepted",
+    "rationale": "The fictional colleagues distinguish the announced January merger from undecided staffing and location details, reject speculation, and agree to ask HR before updating others. The title's future verification and goal do not assert that staffing has been settled; private claims preserve that limit.",
+    "targets": [
+      {
+        "target_id": "ox-e2a3dbe366defeab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-02-s01"
+        ],
+        "forms": [
+          "memo"
+        ],
+        "rationale": "s01 the memo names the internal written announcement they are reading."
+      },
+      {
+        "target_id": "ox-7a0d3460882dece5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-02-s01"
+        ],
+        "forms": [
+          "merger"
+        ],
+        "rationale": "s01 about the merger uses the noun for the combination of the two companies."
+      },
+      {
+        "target_id": "ox-8aca1b43b99efc8a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-02-s01"
+        ],
+        "forms": [
+          "merge"
+        ],
+        "rationale": "s01 will merge uses the verb for the companies' announced future combination."
+      },
+      {
+        "target_id": "ox-204e04481987e752",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-02-s03"
+        ],
+        "forms": [
+          "personnel"
+        ],
+        "rationale": "s03 changes to personnel refers to employees, explained by the following question about their jobs."
+      },
+      {
+        "target_id": "ox-eb4da62a9eda9219",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-02-s02"
+        ],
+        "forms": [
+          "predecessor"
+        ],
+        "rationale": "s02 My predecessor names Evan's previous role holder, whose old office-move folder may not apply now."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-03",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "8bff94fa292fa389ed58910cdf1ff829ef8453a8f84960f5248202c8f1afc0fb",
+    "status": "accepted",
+    "rationale": "The book-review discussion consistently narrows a fictional memoir from a city-wide claim to the author's own family. Ruth identifies the evidence boundary and Dev explicitly agrees to revise later. Title, goal and evidence correctly distinguish agreed revision from a finished edit.",
+    "targets": [
+      {
+        "target_id": "ox-5ff379a233a8e2b0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-03-s01"
+        ],
+        "forms": [
+          "memoir"
+        ],
+        "rationale": "s01 the memoir denotes the personal-life narrative under review, supported by the author's family story in s03."
+      },
+      {
+        "target_id": "ox-059b0e5db56e93a4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-03-s02"
+        ],
+        "forms": [
+          "post-war"
+        ],
+        "rationale": "s02 post-war modifies life and locates the described uncertainty after a war; the hyphenated source form is preserved."
+      },
+      {
+        "target_id": "ox-42812e9845f8877e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-03-s02"
+        ],
+        "forms": [
+          "portray"
+        ],
+        "rationale": "s02 to portray the uncertainty is a natural transitive verb for describing that experience in the review."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-04",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "be8c073cc60854d8fcc8399802415926c5d7dfa315159681dfa429c4c897cba7",
+    "status": "accepted",
+    "rationale": "The parish setting, deceased aunt, garden memorial, family consent and pastor's role are all explicitly supported. The speakers choose the thank-you letter and exclude illness details; choosing content is completed, whereas the reading remains future, exactly as the outcome evidence explains.",
+    "targets": [
+      {
+        "target_id": "ox-0168972a991305ba",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-04-s01"
+        ],
+        "forms": [
+          "passing"
+        ],
+        "rationale": "s01 my aunt's passing is the euphemistic noun for her death, supported by the memorial gathering."
+      },
+      {
+        "target_id": "ox-be4daed796c0a604",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-04-s01"
+        ],
+        "forms": [
+          "parish"
+        ],
+        "rationale": "s01 people in the parish naturally names the local church community providing condolences."
+      },
+      {
+        "target_id": "ox-3e4bf20ee0831ac0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-04-s02"
+        ],
+        "forms": [
+          "memorial"
+        ],
+        "rationale": "s02 beside her memorial in the church garden clearly uses a noun for a commemorative object or structure, not an adjective modifying a service."
+      },
+      {
+        "target_id": "ox-0cdc95a6a613d0dd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-04-s04"
+        ],
+        "forms": [
+          "pastor"
+        ],
+        "rationale": "s04 As the pastor leading the gathering uses the noun for the clergy member who offers to read the letter."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-05",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "be5ab795fdfaadc42f9b783c73e0e2dbb82351d0b0fc2ca6243bb9a3747aa60c",
+    "status": "accepted",
+    "rationale": "Noor requests mentorship, Adrian accepts, and the museum-design focus leads naturally to adding sketches and visitor-feedback notes. Their final turns agree a future two-page exchange and discussion. Every title/goal claim is supported without treating the notes as already sent.",
+    "targets": [
+      {
+        "target_id": "ox-f790d1947b078077",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-05-s01"
+        ],
+        "forms": [
+          "mentor"
+        ],
+        "rationale": "s01 be my mentor requests the noun role of an experienced guide; s02 accepts that role."
+      },
+      {
+        "target_id": "ox-42e473e2203bbb9b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-05-s01"
+        ],
+        "forms": [
+          "portfolio"
+        ],
+        "rationale": "s01 portfolio project uses the noun attributively for the design-work collection being reviewed."
+      },
+      {
+        "target_id": "ox-d2d697cf4dd95abc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-05-s01"
+        ],
+        "forms": [
+          "outsider"
+        ],
+        "rationale": "s01 feel like an outsider in the design world naturally expresses not yet belonging to the profession."
+      },
+      {
+        "target_id": "ox-08f2865aacee442a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-05-s03"
+        ],
+        "forms": [
+          "niche"
+        ],
+        "rationale": "s03 a niche where my teaching experience might be useful identifies a suitable specialized field, small museum displays."
+      },
+      {
+        "target_id": "ox-8475b9dc7e53d4ea",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-05-s04"
+        ],
+        "forms": [
+          "overly"
+        ],
+        "rationale": "s04 overly polished is an adverb modifying the adjective to criticize excessive finish that hides the process."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-06",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "51311a540a076faedca2839fe4b26f73ec3c265425459ccbe3476bd7f53efd81",
+    "status": "accepted",
+    "rationale": "The customer explains an unusual filter size, learns of a second selling outlet, and chooses to call before travelling. The title identifies a sales channel, not confirmed stock; the goal and every private claim retain the explicit inventory uncertainty. Merchant is slightly formal but valid and natural enough here.",
+    "targets": [
+      {
+        "target_id": "ox-c59369636bc7bca7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-06-s01"
+        ],
+        "forms": [
+          "peculiar"
+        ],
+        "rationale": "s01 a peculiar size describes an unusual size, immediately explained by ordinary filters not fitting."
+      },
+      {
+        "target_id": "ox-dce42c556a7436ff",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-06-s02"
+        ],
+        "forms": [
+          "merchant"
+        ],
+        "rationale": "s02 the merchant at the indoor market names a trader who sells old-machine parts, matching the noun sense."
+      },
+      {
+        "target_id": "ox-9f216f572452f4e5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-06-s03"
+        ],
+        "forms": [
+          "monopoly"
+        ],
+        "rationale": "s03 had a monopoly on these filters expresses the customer's belief in exclusive supply; s04 naturally corrects that belief."
+      },
+      {
+        "target_id": "ox-f5ad05dade8167b1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-06-s04"
+        ],
+        "forms": [
+          "outlet"
+        ],
+        "rationale": "s04 another outlet denotes the market shop as a sales location, explicitly distinguished from stock availability."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-07",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "fb75f003586cb02c260be690620e897bfaa1d8c8d0c3fdfff047f08e46a59739",
+    "status": "accepted",
+    "rationale": "The learners develop an open moral question from a fictional judge's mercy. The formulation when, if ever does not predetermine an answer; their final exchange selects it for discussion. Title, label and completed question-selection claims are justified, without giving real legal advice.",
+    "targets": [
+      {
+        "target_id": "ox-7e1c72c3ef3ec47c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-07-s01"
+        ],
+        "forms": [
+          "philosopher"
+        ],
+        "rationale": "s01 The philosopher names the thinker advancing the equal-rules argument in the chapter."
+      },
+      {
+        "target_id": "ox-6d2873dce83c0e4b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-07-s02"
+        ],
+        "forms": [
+          "mercy"
+        ],
+        "rationale": "s02 showing mercy to someone who broke the rule uses the noun in its established leniency/compassion collocation."
+      },
+      {
+        "target_id": "ox-9866f96c27d5461c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-07-s04"
+        ],
+        "forms": [
+          "morality"
+        ],
+        "rationale": "s04 connect it to morality introduces the ethical issue of compassion versus rules."
+      },
+      {
+        "target_id": "ox-b6bc45d92a309e49",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-07-s05"
+        ],
+        "forms": [
+          "philosophical"
+        ],
+        "rationale": "s05 a philosophical question correctly modifies question to distinguish reasoning about principles from personal liking."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-08",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "0c38701e29777d7557ac6c9a3ffca2ea9b5493a1bbcee2f5f0eaa90eab75abbe",
+    "status": "accepted",
+    "rationale": "Fresh full reread of all seven turns, four targets, scenario and current outcome evidence: Ben now admits assuming the already-estimated two preparation hours would fit Hana's schedule, so s04 no longer contradicts s02. Hana's concern is the full schedule, not opposition to the trial; Ben takes the filing task and reserves Tuesday morning, and she accepts. Title/label/goal and every evidence clause correctly distinguish this agreement from actual calendar changes.",
+    "targets": [
+      {
+        "target_id": "ox-9d5744d5c139d03b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-08-s01"
+        ],
+        "forms": [
+          "merit"
+        ],
+        "rationale": "On full reread, s01 There's merit in trying uses the uncountable noun for value in a shorter welcome session; the subsequent concern is preparation capacity, not denial of that value."
+      },
+      {
+        "target_id": "ox-d50ae5dccab4a824",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-08-s02"
+        ],
+        "forms": [
+          "mere"
+        ],
+        "rationale": "On full reread, s02 a mere two hours is idiomatic adjective use minimizing the estimated amount; Hana challenges that minimization without changing its lexical meaning."
+      },
+      {
+        "target_id": "ox-84fb0e69884b89e6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-08-s03"
+        ],
+        "forms": [
+          "objection"
+        ],
+        "rationale": "On full reread, s03 My objection is to fitting it around a full schedule correctly names her specific reason for opposition to the scheduling approach."
+      },
+      {
+        "target_id": "ox-9a29d3a63bfee987",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-08-s04"
+        ],
+        "forms": [
+          "merely"
+        ],
+        "rationale": "Revised s04 I was merely assuming uses the adverb for only, limiting Ben's earlier reasoning to an unchecked assumption. Its new complement coheres with the two hours already estimated in s02 and realizes the declared sense naturally."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-09",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "7606b60a404614112ee9947711823f024794801dd5a9ca0bbf596f8b16b7cdf0",
+    "status": "accepted",
+    "rationale": "The fictional survey discussion preserves per-item evidence boundaries rather than discarding all incomplete responses or treating blanks as answers. Both speakers agree to document inclusion rules and separate partial from complete responses. Title, goal and private claims correctly describe future reporting, not completed analysis.",
+    "targets": [
+      {
+        "target_id": "ox-b01e0f4a63c8cb38",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-09-s01"
+        ],
+        "forms": [
+          "partially"
+        ],
+        "rationale": "s01 partially completed uses the adverb to specify that only part of each survey was finished."
+      },
+      {
+        "target_id": "ox-73f89c459148e55e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-09-s02"
+        ],
+        "forms": [
+          "partial"
+        ],
+        "rationale": "s02 A partial response uses the adjective for an incomplete answer set, illustrated by answered versus unanswered items."
+      },
+      {
+        "target_id": "ox-626aec5db243ded0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-09-s03"
+        ],
+        "forms": [
+          "overlook"
+        ],
+        "rationale": "s03 shouldn't overlook means must not ignore differing per-question response counts."
+      },
+      {
+        "target_id": "ox-17e28e26ebb09a76",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-09-s04"
+        ],
+        "forms": [
+          "parameter"
+        ],
+        "rationale": "s04 One parameter of our analysis names a limiting condition, actual completion of the item, rather than claiming a numerical statistical estimate."
+      },
+      {
+        "target_id": "ox-a0862097cfb70805",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-09-s05"
+        ],
+        "forms": [
+          "methodology"
+        ],
+        "rationale": "s05 methodology section naturally names the section describing the research's analysis rules; the target noun is attributive."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-10",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "5ac0cbc64a3dc307ce3506c630be5a60415b861577eec77faac58ca6b30edb03",
+    "status": "accepted",
+    "rationale": "The colleagues resolve a worry about disrupting an ongoing trial by agreeing only one callback-number field, retaining layout and existing questions. All metadata and outcome claims distinguish the agreed small change from a complete redesign and from an already implemented update.",
+    "targets": [
+      {
+        "target_id": "ox-7857b64a18878e7c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-10-s01"
+        ],
+        "forms": [
+          "midst"
+        ],
+        "rationale": "s01 in the midst of the trial is the idiomatic noun phrase meaning during an ongoing activity."
+      },
+      {
+        "target_id": "ox-e3eb668997184d12",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-10-s02"
+        ],
+        "forms": [
+          "modification"
+        ],
+        "rationale": "s02 one modification names the specific addition of a callback-number box."
+      },
+      {
+        "target_id": "ox-f3350e9e75eb0aae",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-10-s03"
+        ],
+        "forms": [
+          "minimal"
+        ],
+        "rationale": "s03 the change would be minimal is a predicate adjective for a very small alteration."
+      },
+      {
+        "target_id": "ox-0f01da3cecf2fd8d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-10-s05"
+        ],
+        "forms": [
+          "momentum"
+        ],
+        "rationale": "s05 keep our momentum uses the figurative noun for sustained progress of the trial, not physical motion."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-11",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "f17da49430066839b40ad8e8f81086354c40202df404be95cfa2d86766611b83",
+    "status": "accepted",
+    "rationale": "The pond, nest, viewing screen and rope boundary are explicitly established. The volunteer refuses to infer predation from unseen offspring, and Sylvia agrees to record only an adult bird. The selected observation location and future recording agreement support all title/goal clauses without claiming the nest is empty.",
+    "targets": [
+      {
+        "target_id": "ox-1ecfcf32d5f52c1f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-11-s01"
+        ],
+        "forms": [
+          "pond"
+        ],
+        "rationale": "s01 this pond is the small body of water being considered as a birdwatching location."
+      },
+      {
+        "target_id": "ox-ffa6aaf03606efc8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-11-s01"
+        ],
+        "forms": [
+          "migration"
+        ],
+        "rationale": "s01 spring migration names seasonal bird movement, directly linked to the observation task."
+      },
+      {
+        "target_id": "ox-1d1a34281887871e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-11-s02"
+        ],
+        "forms": [
+          "nest"
+        ],
+        "rationale": "s02 a nest in the reeds identifies the birds' nesting place and motivates the boundary."
+      },
+      {
+        "target_id": "ox-4bf9ff7ce6e32647",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-11-s03"
+        ],
+        "forms": [
+          "offspring"
+        ],
+        "rationale": "s03 none of its offspring refers to the adult bird's young; the form works with plural reference without an added s."
+      },
+      {
+        "target_id": "ox-c1e6ef7c7dec70fb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-11-s03"
+        ],
+        "forms": [
+          "predator"
+        ],
+        "rationale": "s03 Could a predator have taken them uses the noun for an animal that preys on others, as an explicitly unconfirmed hypothesis."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-12",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "4038fb881ffbcbd0bccc25005354e2599fde2c8ebe8d3e877c0fb41196feb35c",
+    "status": "accepted",
+    "rationale": "The adult classroom exercise is explicitly fictional. It separates supported naval-base and militia labels from an unsupported missile symbol, and agrees corrections without claiming they are finished. Metadata and evidence preserve the distinction between a source identifying a group and establishing regular-army membership.",
+    "targets": [
+      {
+        "target_id": "ox-a85f33a301912623",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-12-s01"
+        ],
+        "forms": [
+          "naval"
+        ],
+        "rationale": "s01 a naval base uses the adjective for a navy facility; s02 supplies the briefing's explicit support."
+      },
+      {
+        "target_id": "ox-ba023b8966b560b9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-12-s03"
+        ],
+        "forms": [
+          "militant"
+        ],
+        "rationale": "s03 a militant from the eastern militia is the selected noun for a member of an armed group, not the alternative adjective source record."
+      },
+      {
+        "target_id": "ox-ccb02181d2eac36b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-12-s03"
+        ],
+        "forms": [
+          "militia"
+        ],
+        "rationale": "s03 the eastern militia names the organized armed group from the fictional caption."
+      },
+      {
+        "target_id": "ox-6a70041853f6501c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-12-s05"
+        ],
+        "forms": [
+          "missile"
+        ],
+        "rationale": "s05 the missile symbol uses the noun attributively for the weapon represented on the map; the ensuing discussion rejects unsupported identification, not the word's sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-13",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "0cb2cdc3ba3f0550d047ed6ebd1d18995ecc8b415f07578a1e3b65496b06265a",
+    "status": "accepted",
+    "rationale": "The grain mill and mining gallery are differentiated explicitly, the pit itself remains closed, and Alice chooses the marked route from mill to gallery. The title and completed route-selection claims do not imply a finished visit or permission to enter the pit. All entities and visitor/staff roles are supported.",
+    "targets": [
+      {
+        "target_id": "ox-0aee180f1e33ed6f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-13-s01",
+          "p11-c-13-s02"
+        ],
+        "forms": [
+          "mill"
+        ],
+        "rationale": "s01-s02 the old mill is clarified as the place that ground grain, precisely the selected flour/grain-mill noun sense."
+      },
+      {
+        "target_id": "ox-f8f1ea891de14fd6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-13-s01",
+          "p11-c-13-s04"
+        ],
+        "forms": [
+          "mining"
+        ],
+        "rationale": "s01 and s04 use mining attributively in exhibition/gallery for the industry of extracting underground resources."
+      },
+      {
+        "target_id": "ox-376b841dfa34bb5a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-13-s02"
+        ],
+        "forms": [
+          "peasant"
+        ],
+        "rationale": "s02 a peasant family uses the historical social-role noun attributively, supported by the harvest brought to the heritage mill."
+      },
+      {
+        "target_id": "ox-f12f9a58f7300df5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-13-s04"
+        ],
+        "forms": [
+          "pit"
+        ],
+        "rationale": "s04 the old pit names the mine shaft/site beside the mining gallery, explicitly closed to visitors."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-14",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "5681e067b7e897c2b19507e6e12c26b6e7274cc2afdede38138fce09cd1eb531",
+    "status": "accepted",
+    "rationale": "The learners identify a two-city sample as inadequate for the draft's nationwide claim and separate a debate reference from the minister's actual response. Their division of revision and source-checking work supports both agreed title clauses and goal claims. No real political event or verified governmental stance is asserted.",
+    "targets": [
+      {
+        "target_id": "ox-366a787c310bc896",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-14-s01"
+        ],
+        "forms": [
+          "nationwide"
+        ],
+        "rationale": "s01 a nationwide poll uses the adjective for country-wide scope; the speakers challenge that scope rather than misuse the word."
+      },
+      {
+        "target_id": "ox-ceebdba0d506065e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-14-s01"
+        ],
+        "forms": [
+          "poll"
+        ],
+        "rationale": "s01 poll denotes the opinion survey whose responses came from two cities."
+      },
+      {
+        "target_id": "ox-0fde17a0603fe060",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-14-s03"
+        ],
+        "forms": [
+          "ministry"
+        ],
+        "rationale": "s03 the transport ministry names a government department in the fictional draft, not religious ministry."
+      },
+      {
+        "target_id": "ox-0c642db75fc71279",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-14-s04"
+        ],
+        "forms": [
+          "parliamentary"
+        ],
+        "rationale": "s04 a parliamentary debate uses the adjective for debate in the legislature, the proposed verification source."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-15",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "14335e27370fb0dde1bd41c4652cfa591108e57166c946d98a005434e70a8870",
+    "status": "accepted",
+    "rationale": "Fresh full reread of the unchanged six-turn dialogue and all three targets, together with the revised private evidence: Marco proposes listening to a copy this evening and Dina accepts; seven o'clock appears only in his final invitation. The evidence now explicitly preserves that distinction instead of claiming agreement to seven. Public title, label and goal require only the accepted listening/checking arrangement and do not guarantee a complete playable recording. The public-file hash is unchanged; acceptance follows the actual evidence-only repair and full reread.",
+    "targets": [
+      {
+        "target_id": "ox-c01c00f5f78db8ac",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-15-s01"
+        ],
+        "forms": [
+          "miracle"
+        ],
+        "rationale": "On full reread, s01 feels like a miracle uses the count noun figuratively for finding a welcome file after a long search; later caution makes clear this is not proof of complete recovery."
+      },
+      {
+        "target_id": "ox-e96a6df7c25a4b1c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-15-s02"
+        ],
+        "forms": [
+          "optimism"
+        ],
+        "rationale": "On full reread, s02 a reason for optimism names hope prompted by the discovery, while the rest of the turn explicitly withholds certainty that the recording plays."
+      },
+      {
+        "target_id": "ox-e23ae4311d6d4ef1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-15-s03"
+        ],
+        "forms": [
+          "persist"
+        ],
+        "rationale": "On full reread, s03 persist with the search is the natural verb construction for continuing the search despite discouragement; it fits Dina's preceding long search and relief."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-16",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "7990e18bf867171d5d6acb32e2cb8e0c7060ea6388ca7c125284092bfa4b2e93",
+    "status": "accepted",
+    "rationale": "The friends discuss a frustrating hobby, not a clinical diagnosis. Nia challenges the inference from one photo to Felix's ability, then proposes a break and walk that he accepts. All title/goal claims describe a future break, not relief already achieved; speaker identities and actions are consistent.",
+    "targets": [
+      {
+        "target_id": "ox-da8c335506d49189",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-16-s01"
+        ],
+        "forms": [
+          "obsession"
+        ],
+        "rationale": "s01 becoming an obsession uses the noun informally for a preoccupation that has crowded out enjoyment, supported by twelve edits."
+      },
+      {
+        "target_id": "ox-ea4b4563c7c475da",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-16-s03"
+        ],
+        "forms": [
+          "obsess"
+        ],
+        "rationale": "s03 obsess over the tiny details is an idiomatic intransitive verb use for excessive attention."
+      },
+      {
+        "target_id": "ox-016539cd641f5aef",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-16-s04"
+        ],
+        "forms": [
+          "nonsense"
+        ],
+        "rationale": "s04 That last part is nonsense names the unreasonable claim that one bad photo proves general inability, not the friend's feelings themselves."
+      },
+      {
+        "target_id": "ox-1c93f5bfbfaa4ecd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-16-s06"
+        ],
+        "forms": [
+          "misery"
+        ],
+        "rationale": "s06 stop the misery for tonight names the unhappiness from repeated editing, in a colloquial invitation to take a break."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-17",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "7c972675545070695ca7ae1cec599ecb6e3d79487ca8294c81b680f3b2e264c9",
+    "status": "accepted",
+    "rationale": "The writer's own fifteen-minute Saturday wait contradicts a no-wait guarantee, while the extra till and seats remain real improvements within the fictional scene. The speakers agree a qualified revision. All title/goal and private evidence claims retain that distinction and do not invent completed editing.",
+    "targets": [
+      {
+        "target_id": "ox-df1752f2f92e749d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-17-s01"
+        ],
+        "forms": [
+          "notorious"
+        ],
+        "rationale": "s01 notorious for its Saturday queues uses the adjective in its negative-reputation collocation, not simple neutral fame."
+      },
+      {
+        "target_id": "ox-c2ac17619ef880a9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-17-s02"
+        ],
+        "forms": [
+          "notable"
+        ],
+        "rationale": "s02 notable improvements identifies changes worth attention, concretely the extra till and seats."
+      },
+      {
+        "target_id": "ox-327cb4a9fcb9f98f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-17-s02"
+        ],
+        "forms": [
+          "notably"
+        ],
+        "rationale": "s02 notably introduces prominent examples of those improvements, matching especially/in particular."
+      },
+      {
+        "target_id": "ox-19f76b6862089dcb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-17-s04"
+        ],
+        "forms": [
+          "misleading"
+        ],
+        "rationale": "s04 The sentence is misleading is a predicate adjective judging the false impression of no waits, supported by the writer's experience."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-18",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "a0c023d2986938c7cb1973fa9b5f8588a74ab568497a8329b24fe45ba9d6a7a1",
+    "status": "accepted",
+    "rationale": "The civic classroom simulation distinguishes angry questioners from a violent crowd and a petition's request from an accomplished reversal. The speakers settle on asking for reconsideration and a fresh vote, not claiming victory. Metadata and private claims faithfully describe this agreed communicative aim.",
+    "targets": [
+      {
+        "target_id": "ox-22a63df4c1ea8f91",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-18-s01"
+        ],
+        "forms": [
+          "outrage"
+        ],
+        "rationale": "s01 There's real outrage uses the noun for strong indignation about the closure, not the alternative verb record."
+      },
+      {
+        "target_id": "ox-0ac1a70012c498c5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-18-s01"
+        ],
+        "forms": [
+          "petition"
+        ],
+        "rationale": "s01 our petition refers to the written request to the council, clarified by signing it in s04."
+      },
+      {
+        "target_id": "ox-4b3a7a3119136f2e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-18-s01"
+        ],
+        "forms": [
+          "overturn"
+        ],
+        "rationale": "s01 ask the council to overturn the decision uses the verb naturally for reversing a decision, explicitly as a requested result."
+      },
+      {
+        "target_id": "ox-6f428ca090ab6d72",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-18-s02"
+        ],
+        "forms": [
+          "mob"
+        ],
+        "rationale": "s02 calls everyone ... a mob uses the noun for a disorderly or violent crowd; the speakers challenge applying that label to mostly question-asking residents."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-19",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "7182d1a7b9aa670d8264a7c1436b2e869dc3e928f7a4cdd1ea16fff017d4cb79",
+    "status": "accepted",
+    "rationale": "City ownership, neglected paths and a non-profit volunteer group are all explicit. Rob conditions mobilization on approved tasks and waste collection, and Tessa agrees to obtain the parks-office reply first. Title, goal and evidence correctly report an agreement to seek permission, not permission already granted.",
+    "targets": [
+      {
+        "target_id": "ox-0c493f1e38294627",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-19-s01"
+        ],
+        "forms": [
+          "municipal"
+        ],
+        "rationale": "s01 The municipal garden uses the adjective for city-owned space, confirmed by belongs to the city in s02."
+      },
+      {
+        "target_id": "ox-d63801e153615fca",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-19-s01"
+        ],
+        "forms": [
+          "neglect"
+        ],
+        "rationale": "s01 months of neglect is the selected noun for lack of maintenance, grounded in weeds and rubbish and framed as an impression."
+      },
+      {
+        "target_id": "ox-2ffaa40bf6f4af03",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-19-s02"
+        ],
+        "forms": [
+          "non-profit"
+        ],
+        "rationale": "s02 Our non-profit group uses the hyphenated adjective to identify the community organization's noncommercial purpose."
+      },
+      {
+        "target_id": "ox-8a513c043252ae5c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-19-s03"
+        ],
+        "forms": [
+          "mobilize"
+        ],
+        "rationale": "s03 mobilize volunteers naturally means organize people for action; the conditional timing is developed in s04."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-20",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "f5e4baf193e81f24ac7222899609609a3cd7428d5f47a17a7fda8a237c3a01e9",
+    "status": "accepted",
+    "rationale": "The fictional chart discussion compares 200 with 180 units, notes the truncated axis, and challenges an unsupported gloomy forecast. The title is a task description rather than an explicit completed edit; the goal and evidence correctly mark the later wording change as agreed. No investment recommendation is made.",
+    "targets": [
+      {
+        "target_id": "ox-3a0147976f0c8a94",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-20-s01"
+        ],
+        "forms": [
+          "peak"
+        ],
+        "rationale": "s01 a peak of two hundred units uses the noun for the maximum sales level stated in the chart."
+      },
+      {
+        "target_id": "ox-6cd6670ec171a8c3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-20-s02"
+        ],
+        "forms": [
+          "plunge"
+        ],
+        "rationale": "s02 says sales plunge uses plunge as a finite plural-subject verb inside the reported draft claim, not a noun or isolated vocabulary mention; the speakers then challenge its fit to the data."
+      },
+      {
+        "target_id": "ox-f207d26b16965ed2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-20-s02"
+        ],
+        "forms": [
+          "moderate"
+        ],
+        "rationale": "s02 a fairly moderate fall uses the adjective for a limited drop compared with the earlier rise, contrasting the dramatic wording."
+      },
+      {
+        "target_id": "ox-76f70d6b693ec9b0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-20-s04"
+        ],
+        "forms": [
+          "outlook"
+        ],
+        "rationale": "s04 the gloomy outlook names the draft's pessimistic forecast, which the speakers recognize lacks sufficient support."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-21",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "5575901ae3d21e6a6fcb23783d0088e740d2a03ade811ff6b99bc4844325ebeb",
+    "status": "accepted",
+    "rationale": "The teacher clarifies that Willa must participate rather than only observe, then accepts a manageable first step of a thirty-second introduction with a partner. The Thursday preparation request and Willa's acceptance support the staged-work agreement. All entity, participation and outcome claims are justified without saying the presentation is finished.",
+    "targets": [
+      {
+        "target_id": "ox-09a6b99af9b5b6ad",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-21-s01"
+        ],
+        "forms": [
+          "orientation"
+        ],
+        "rationale": "s01 After orientation names the course's introductory event, supported by the new-module question."
+      },
+      {
+        "target_id": "ox-6e372a2b958b608f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-21-s01"
+        ],
+        "forms": [
+          "module"
+        ],
+        "rationale": "s01 the first module refers to a course unit, not a software component."
+      },
+      {
+        "target_id": "ox-455887ce3349e135",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-21-s01"
+        ],
+        "forms": [
+          "oral"
+        ],
+        "rationale": "s01 oral presentation uses the adjective to specify spoken rather than written work."
+      },
+      {
+        "target_id": "ox-4e238e8ea6043d69",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-21-s01"
+        ],
+        "forms": [
+          "overwhelming"
+        ],
+        "rationale": "s01 seems overwhelming is a predicate adjective expressing how unmanageable the task feels to Willa."
+      },
+      {
+        "target_id": "ox-6180bf874923ca93",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-21-s03"
+        ],
+        "forms": [
+          "passive"
+        ],
+        "rationale": "s03 a passive observer describes watching without presenting, the participation alternative the teacher declines."
+      },
+      {
+        "target_id": "ox-3db0ea4f4a7ac23e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-21-s04"
+        ],
+        "forms": [
+          "overwhelm"
+        ],
+        "rationale": "s04 overwhelm you with the whole task is the verb for burdening someone beyond their capacity, naturally motivating the smaller first step."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-22",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "a9c680be20c430db02f79c00585c65aba04da72d9339ef160d695dfcf27e6a94",
+    "status": "accepted",
+    "rationale": "The stated monastery visitor setting, monk's announced preaching, voluntary offering and permitted rear-row seating support the whole scene. Rafael expressly chooses to listen without joining the collection. The title and completed decision/permission claims do not imply the event has already occurred.",
+    "targets": [
+      {
+        "target_id": "ox-a223a8d0315b140b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-22-s01"
+        ],
+        "forms": [
+          "monk"
+        ],
+        "rationale": "s01 a monk names the male monastic community member identified on the notice, fitting the monastery context."
+      },
+      {
+        "target_id": "ox-e6c34842122a3971",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-22-s01"
+        ],
+        "forms": [
+          "preach"
+        ],
+        "rationale": "s01 will preach uses the verb for delivering a religious address, not its figurative moralizing sense."
+      },
+      {
+        "target_id": "ox-e51a8e03701aac6a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-22-s02"
+        ],
+        "forms": [
+          "offering"
+        ],
+        "rationale": "s02 leave an offering denotes a voluntary religious donation, clarified by giving is entirely optional."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-23",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "28c400530b5880af28a6b40d2271b769bfe46b80d44c71b63dba4252487ef6b6",
+    "status": "accepted",
+    "rationale": "Asha's wish for company and uncertain weekend availability are both acknowledged without shaming her motives. She agrees to check the actual commitment before signing up; occasional shifts remain only a possibility. All title/goal clauses and private claims maintain that prospective, conditional status.",
+    "targets": [
+      {
+        "target_id": "ox-99d42bc3bb7c3be9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-23-s01"
+        ],
+        "forms": [
+          "motive"
+        ],
+        "rationale": "s01 my motive identifies the personal reason for volunteering, immediately explained as wanting to meet people."
+      },
+      {
+        "target_id": "ox-f17bd3e8bd5dd18c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-23-s02"
+        ],
+        "forms": [
+          "noble"
+        ],
+        "rationale": "s02 a perfectly noble reason uses the adjective for morally admirable or selfless motivation, not social rank."
+      },
+      {
+        "target_id": "ox-52472c88450446aa",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-23-s04"
+        ],
+        "forms": [
+          "nonetheless"
+        ],
+        "rationale": "s04 Nonetheless links the real scheduling concern with the remaining possibility of occasional shifts; sentence-initial capitalization is ordinary adverb usage."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-24",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "58866b0b0bd9fce19b02d0a792ea076f275ff817f8c36d55c1422dd31ae3b7f4",
+    "status": "accepted",
+    "rationale": "Fresh full reread of all seven turns, four targets, integrated scenario and evidence: the title and label now accurately say a path leading to the lake, not a path beside it. Carmen independently saw the branch and identifies its location before the wooden bridge. The ranger promises inspection, tells her not to move it, and she accepts staying to point it out. All metadata/evidence claims preserve those roles, location limits and future actions without implying removal or inspection has occurred.",
+    "targets": [
+      {
+        "target_id": "ox-62bbfc42597a87ef",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-24-s01"
+        ],
+        "forms": [
+          "motorist"
+        ],
+        "rationale": "On full reread, s01 A motorist ... told me names the driver who supplied the original report; Carmen's following firsthand confirmation does not merge the two people."
+      },
+      {
+        "target_id": "ox-f6241ba7d8abcd71",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-24-s01"
+        ],
+        "forms": [
+          "neighboring"
+        ],
+        "rationale": "On full reread, s01 neighboring modifies parking lot to mean nearby, using the declared US spelling consistently with the scene."
+      },
+      {
+        "target_id": "ox-4f28519d2e665dde",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-24-s01"
+        ],
+        "forms": [
+          "pathway"
+        ],
+        "rationale": "On full reread, s01 pathway to the lake names a physical walking route whose destination is the lake. The repaired labels now preserve this distinction from a lakeside location."
+      },
+      {
+        "target_id": "ox-946ff6a6040a6af7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-24-s02"
+        ],
+        "forms": [
+          "patrol"
+        ],
+        "rationale": "On full reread, s02 I patrol that section uses the verb for the ranger's routine inspection duty; the later promise to check the obstacle is a separate prospective action."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-25",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "437d785b985ba1e78023dcbbf664f96216f9c30f746e49a25f4ba6fb708da88a",
+    "status": "accepted",
+    "rationale": "The fictional training date has changed to Friday; Rowan takes customers and Imani trainers, and both accept the noon messaging deadline and later reply comparison. The title describes agreed division of future work, not notifications already sent. Every private outcome claim matches the roles, timing and shared purpose.",
+    "targets": [
+      {
+        "target_id": "ox-daf167e169f673fd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-25-s01"
+        ],
+        "forms": [
+          "mutual"
+        ],
+        "rationale": "s01 Our mutual aim uses the adjective for the goal shared by both colleagues, confirmed by Right in s02."
+      },
+      {
+        "target_id": "ox-7202c2deae35c7ee",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-25-s02"
+        ],
+        "forms": [
+          "namely"
+        ],
+        "rationale": "s02 namely introduces the exact two groups previously mentioned, customers and trainers."
+      },
+      {
+        "target_id": "ox-897d6fa3b3cd6736",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-25-s03"
+        ],
+        "forms": [
+          "notify"
+        ],
+        "rationale": "s03 notify the customers is the transitive verb for informing them of the changed date."
+      },
+      {
+        "target_id": "ox-246f1771ddafdc44",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-25-s05"
+        ],
+        "forms": [
+          "noon"
+        ],
+        "rationale": "s05 by noon uses the noun for midday as the agreed deadline for sending both sets of messages."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-26",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "991ba96cd25226d9c11ec795ceb668565e8b72cdaa581513dc5312365dafc46c",
+    "status": "accepted",
+    "rationale": "The shaded balcony and lack of suitable stock motivate a call to the nearby nursery rather than a wasted journey. The clerk promises to check and report back, and the customer accepts waiting. Title, goal and private evidence do not upgrade possible stock into confirmed availability; British neighbouring is consistent.",
+    "targets": [
+      {
+        "target_id": "ox-ee50467a607f76f3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-26-s01"
+        ],
+        "forms": [
+          "occasional"
+        ],
+        "rationale": "s01 occasional sunshine describes sunlight arriving only sometimes, the relevant plant-placement condition."
+      },
+      {
+        "target_id": "ox-86a8535cc70e53d3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-26-s02"
+        ],
+        "forms": [
+          "neighbouring"
+        ],
+        "rationale": "s02 The neighbouring nursery uses the British adjective spelling to identify a nearby nursery, without claiming it is next door."
+      },
+      {
+        "target_id": "ox-58e00f9c2b86029b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-26-s02"
+        ],
+        "forms": [
+          "nursery"
+        ],
+        "rationale": "s02 nursery clearly denotes a plant-growing/selling establishment, supported by shade-plant availability, not childcare."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-27",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "ccb09b63d16bb20be571c82da337d3f0de9e9a4f5d9da670171991e149ba7f9d",
+    "status": "accepted",
+    "rationale": "Fresh full reread of the complete six-turn handover and all three targets: revised s02 At our nonprofit organization now realizes the assigned adjective, naturally identifying the institution. Dana checks facts and Luis photo permission; the tenth is a stated draft date, not an asserted monthly recurrence. Current private evidence removes that unsupported recurrence. The requested checklist and Marisol's promise support title, goal and agreement status without claiming approvals or document handover are complete.",
+    "targets": [
+      {
+        "target_id": "ox-8bd5eef2df322af2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-27-s01"
+        ],
+        "forms": [
+          "newsletter"
+        ],
+        "rationale": "On full reread, s01 write the newsletter uses the noun for the institution's publication, with later draft/issue distinctions supporting that sense."
+      },
+      {
+        "target_id": "ox-ced359afbb0a9236",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-27-s01"
+        ],
+        "forms": [
+          "organizational"
+        ],
+        "rationale": "On full reread, s01 the organizational side modifies side to refer to coordinating review and release responsibilities, which the following turns specify."
+      },
+      {
+        "target_id": "ox-ae84d2242bfcd348",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-27-s02"
+        ],
+        "forms": [
+          "nonprofit"
+        ],
+        "rationale": "Revised s02 At our nonprofit organization uses nonprofit as an attributive adjective modifying organization, matching the fixed adj. source and 非营利的 sense. This resolves the initial standalone-noun mismatch without changing the source target."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-28",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "a08491a5c11f805097a0ac7bdaef51f313cdd79ccae6c7dbd9a9bd605b704b3b",
+    "status": "accepted",
+    "rationale": "The application form supplies the consent requirement, Hazel agrees to ask Jo privately, and Bruno will prepare records only if she consents. The participants also accept stopping if she refuses. Title, label and every outcome claim accurately describe this conditional plan, not consent or nomination already secured.",
+    "targets": [
+      {
+        "target_id": "ox-61396f4d41eb5418",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-28-s01"
+        ],
+        "forms": [
+          "nominate"
+        ],
+        "rationale": "s01 nominate Jo for the community service award uses the verb for putting someone forward for an award, stated as an intention."
+      },
+      {
+        "target_id": "ox-253c943f0250a790",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-28-s02"
+        ],
+        "forms": [
+          "nominee"
+        ],
+        "rationale": "s02 the nominee names the person proposed for the award in a general consent question; it does not assert that Jo has already been formally entered."
+      },
+      {
+        "target_id": "ox-6ba47c3031786e11",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-28-s03"
+        ],
+        "forms": [
+          "nomination"
+        ],
+        "rationale": "s03 nomination form uses the noun attributively for the form used to make the proposal, whose consent rule is discussed."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-29",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "1a7df43a4799e4334dc41cab34f5acdb6f0e099ce0b4b46f14ad55129340fd34",
+    "status": "accepted",
+    "rationale": "The object is explicitly a borrowed display case, not the exhibit itself. Friday remains binding within this fictional agreement; a Saturday extension is conditional on availability and written confirmation. The title's agreement about exception conditions and the goal's unchanged return arrangements are fully supported without granting an extension prematurely.",
+    "targets": [
+      {
+        "target_id": "ox-173718aecd0a6a75",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-29-s01"
+        ],
+        "forms": [
+          "oblige"
+        ],
+        "rationale": "s01 oblige us to return is the verb construction expressing an obligation under the stated fictional loan agreement, not general legal advice."
+      },
+      {
+        "target_id": "ox-a081d38f91942e0d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-29-s03"
+        ],
+        "forms": [
+          "precedent"
+        ],
+        "rationale": "s03 set a precedent for future exhibitions naturally names a decision that could be treated as a model for later cases; s04 limits the exception to this loan."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-30",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "49d85e300086553d76d0e72dcd00edc980072a35973471f4fd35c2dab12d3563",
+    "status": "accepted",
+    "rationale": "Fresh full reread of all six turns, three targets, revised integrated goal and complete evidence: Zoe states first occurrence, daily recurrence and current left-ear ringing. The receptionist only promises to convey the information and request a clinician's call, not to diagnose or guarantee that call. Title, label and repaired goal now agree on forwarding the callback request; the evidence explicitly says no clinician has confirmed a callback. The fictional communication task remains coherent and no completed contact is claimed.",
+    "targets": [
+      {
+        "target_id": "ox-39e38197294c7039",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-30-s01"
+        ],
+        "forms": [
+          "practitioner"
+        ],
+        "rationale": "On full reread, s01 a general practitioner uses the noun in the conventional physician term and is the professional Zoe asks to speak with, not the receptionist's role."
+      },
+      {
+        "target_id": "ox-d6ba8d06e3446403",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-30-s01"
+        ],
+        "forms": [
+          "persistent"
+        ],
+        "rationale": "On full reread, s01 persistent ringing uses the adjective for a symptom continuing or recurring; s03 supplies daily return and current presence, matching the declared sense."
+      },
+      {
+        "target_id": "ox-42321612058692fd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-30-s03"
+        ],
+        "forms": [
+          "occurrence"
+        ],
+        "rationale": "On full reread, s03 The first occurrence uses the noun for the initial episode on Monday evening and distinguishes it from subsequent daily episodes."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-31",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "7135dc8d8c319f6ef728bc9b1dcee7d4fb31e499bc5c357843200d77b1c29940",
+    "status": "accepted",
+    "rationale": "The fictional planning exercise explicitly involves under-eighteen members, three missing consents and a forecast in the supplied sheet, not real weather. Both organizers choose postponement rather than an unapproved substitute activity. The decision is complete while notifications, a new date and renewed consent remain future, matching the metadata and evidence.",
+    "targets": [
+      {
+        "target_id": "ox-ec2354c00f4d79c0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-31-s01"
+        ],
+        "forms": [
+          "parental"
+        ],
+        "rationale": "s01 parental consent uses the adjective for parents' authorization concerning the under-eighteen members."
+      },
+      {
+        "target_id": "ox-c707d8061b8a0685",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-31-s01"
+        ],
+        "forms": [
+          "outing"
+        ],
+        "rationale": "s01 tomorrow's outdoor outing names the planned group leisure trip, later contrasted with a different indoor visit."
+      },
+      {
+        "target_id": "ox-8bf69081262a4962",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-31-s02"
+        ],
+        "forms": [
+          "odds"
+        ],
+        "rationale": "s02 high odds of heavy rain uses the plural noun for likelihood, not gambling or observed rainfall."
+      },
+      {
+        "target_id": "ox-83e3f5e257561713",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-31-s04"
+        ],
+        "forms": [
+          "opt"
+        ],
+        "rationale": "s04 opt to postpone is the natural verb-plus-infinitive construction for choosing an option."
+      },
+      {
+        "target_id": "ox-2ae2ba22af17698e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-31-s04"
+        ],
+        "forms": [
+          "postpone"
+        ],
+        "rationale": "s04 postpone means defer the planned outing to a later date, supported by the subsequent plan to ask about alternatives rather than permanently abandon it."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-32",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "927c240d56b65054f980579744e42d9b62f9f09a317c479005a2ee7dfab971db",
+    "status": "accepted",
+    "rationale": "The staff member confirms repair and testing of the optical exhibit. The adult volunteer's request to connect it is redirected to trained staff, and he accepts gathering visitors behind the line. Title, goal and private claims correctly distinguish volunteer from visitor and confirmed operational status from the future demonstration.",
+    "targets": [
+      {
+        "target_id": "ox-eeaa8d3fe521ea5d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-32-s01"
+        ],
+        "forms": [
+          "optical"
+        ],
+        "rationale": "s01 optical display uses the adjective for a light-based exhibit, confirmed by the light pattern mentioned in the same turn."
+      },
+      {
+        "target_id": "ox-3c2b9e5289ba6ebd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-32-s01"
+        ],
+        "forms": [
+          "operational"
+        ],
+        "rationale": "s01 operational again is a predicate adjective asking whether the display works; s02 explicitly confirms repair and testing."
+      },
+      {
+        "target_id": "ox-51664974cf985f18",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-32-s02"
+        ],
+        "forms": [
+          "plug"
+        ],
+        "rationale": "s02 replaced the damaged plug uses the selected noun for an electrical connector, not the alternative verb; connection in s03 reinforces this sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-33",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "ab669359438aa11e6269a3285de8b828b2668531004de2a3fe3f3ff351af8c2a",
+    "status": "accepted",
+    "rationale": "The fictional archive contains both the 1924 patent and a 1918 similar sketch, while a journal supports practical pioneering work. The learners agree to remove absolute priority, retain supported contribution with its source and keep the patent date separately. All metadata clauses are supported; the private contribution explanation is read within that limited contribution claim, not as deleting the separately retained patent fact.",
+    "targets": [
+      {
+        "target_id": "ox-bcbc8ed4cd7284bb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-33-s01"
+        ],
+        "forms": [
+          "originate"
+        ],
+        "rationale": "s01 Did this ... originate with Ellis uses the verb with with to ask whether she was its source or inventor, without asserting that answer."
+      },
+      {
+        "target_id": "ox-08c2cc6cd0c57033",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-33-s02"
+        ],
+        "forms": [
+          "patent"
+        ],
+        "rationale": "s02 a patent in her name denotes the recorded intellectual-property grant; the dialogue carefully avoids treating its date as proof of first invention."
+      },
+      {
+        "target_id": "ox-fceb80f8d637ff83",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-33-s04"
+        ],
+        "forms": [
+          "pioneer"
+        ],
+        "rationale": "s04 a pioneer in bringing the design into everyday use is the selected noun for an early practical innovator, distinguished from absolute first inventor."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-34",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "06eb07979b326195c9493ad548119bc651334e77856cd1254c1772216e9889af",
+    "status": "accepted",
+    "rationale": "The water pipeline, resident-communication coordinator and specific number-twenty-six entrance are explicit. Rina agrees to check that doorway with the supervisor and provide a marked plan and contact number before work reaches the block. The title establishes the contact person now; the goal and evidence do not claim the access plan has already arrived or access is guaranteed.",
+    "targets": [
+      {
+        "target_id": "ox-3aaf03feff183ee1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-34-s01"
+        ],
+        "forms": [
+          "pipeline"
+        ],
+        "rationale": "s01 the water pipeline names a physical water-carrying conduit along the street, not a figurative project pipeline."
+      },
+      {
+        "target_id": "ox-632d20a0cfbf87bf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-34-s02"
+        ],
+        "forms": [
+          "oversee"
+        ],
+        "rationale": "s02 oversee communication with residents uses the verb for supervising/coordinating that defined responsibility, not claiming control of all construction."
+      },
+      {
+        "target_id": "ox-d7363c08139ec619",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-34-s02"
+        ],
+        "forms": [
+          "minimize"
+        ],
+        "rationale": "s02 to minimize disruption naturally states the crew's aim of reducing interference, without promising no disruption."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-35",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "ce1d4b4ef5d196f80ffc3b06b670479127a92bd86013ba7499f3e4eb5e12dc5b",
+    "status": "accepted",
+    "rationale": "The actor and director clarify that the pirate fears separation from his brother and should plead rather than threaten the captain. Their final exchange agrees the restart point and quieter approach, not a completed improved performance. Role references, title and all outcome claims remain inside the fictional rehearsal.",
+    "targets": [
+      {
+        "target_id": "ox-1b3ad3fc1f1b6efc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-35-s01"
+        ],
+        "forms": [
+          "pirate"
+        ],
+        "rationale": "s01 play this pirate names the sea-raider character in the stage piece, supported by captain, port and ship context."
+      },
+      {
+        "target_id": "ox-303f02cc7cc5ffc9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-35-s02"
+        ],
+        "forms": [
+          "plea"
+        ],
+        "rationale": "s02 His plea is for one more voyage names an earnest request to remain with his brother, not a legal plea."
+      },
+      {
+        "target_id": "ox-ce3665e82286e790",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-35-s03"
+        ],
+        "forms": [
+          "plead"
+        ],
+        "rationale": "s03 plead with her is the verb-preposition construction for earnestly asking the captain, explicitly contrasted with threatening takeover."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-36",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "4fca08f1ed2845159908473a49d27a9db58dc2f2c64b03ebed8d315f1a5ae161",
+    "status": "accepted",
+    "rationale": "The fictional theatre volunteers explicitly distinguish a two-hundred-pound promise from a received payment. They agree to record it only in pledges and leave available funds unchanged; future transfer of the entry is conditional on payment. Title and evidence describe that recording arrangement without claiming the donation or bookkeeping is complete.",
+    "targets": [
+      {
+        "target_id": "ox-3163286a3777e0b6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-36-s01"
+        ],
+        "forms": [
+          "patron"
+        ],
+        "rationale": "s01 A patron of the theatre names a supporter who offers funding, not merely a customer in this context."
+      },
+      {
+        "target_id": "ox-6b7ab6c65da0e6c9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-36-s01"
+        ],
+        "forms": [
+          "pledge"
+        ],
+        "rationale": "s01 a pledge of two hundred pounds uses the selected noun for a donation promise, and s03 explicitly confirms no payment has arrived."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-37",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "55cbe26ecf010201b4e729dac841980c257f77c3a91a08fbcf57cb7e55e05d3b",
+    "status": "accepted",
+    "rationale": "The diagram establishes one missing section of a tent pole, while the sleeping pad is intact. The clerk agrees to order that section for shop collection and contact the customer, who accepts. Metadata and private evidence preserve the part-versus-whole distinction and do not claim arrival, fit checking or replacement delivery has occurred.",
+    "targets": [
+      {
+        "target_id": "ox-7176f209d7298f3d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-37-s01"
+        ],
+        "forms": [
+          "pad"
+        ],
+        "rationale": "s01 The sleeping pad clearly denotes the camping mat/cushion, explicitly reported as intact."
+      },
+      {
+        "target_id": "ox-16eaef919ce5b2a0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-37-s01"
+        ],
+        "forms": [
+          "pole"
+        ],
+        "rationale": "s01 one pole is missing a section uses the noun for a tent support rod and accurately distinguishes the full pole from its missing segment."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p11-c-38",
+    "reviewer": "reviewer-phase11-c",
+    "dialogue_sha256": "5b84ac4a30a4960ff3d4616f39d9be46458adc52cf96cca3021d09a959f16dca",
+    "status": "accepted",
+    "rationale": "The fictional oral-history exercise separates departure when war began from return to the city after it ended. The source is said to supply distinct reasons and dates; Nell agrees to place the two events separately and Kofi accepts. The title is the editing task, while the goal/evidence correctly mark the timeline work as agreed rather than finished.",
+    "targets": [
+      {
+        "target_id": "ox-8b25f8f46c538be2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-38-s01"
+        ],
+        "forms": [
+          "outbreak"
+        ],
+        "rationale": "s01 the outbreak of war uses the noun in the established collocation for war's beginning, restated when war began in s02."
+      },
+      {
+        "target_id": "ox-d6e00d6dd31f2445",
+        "status": "accepted",
+        "sentence_ids": [
+          "p11-c-38-s01"
+        ],
+        "forms": [
+          "postwar"
+        ],
+        "rationale": "s01 postwar rebuilding uses the unhyphenated adjective source form to locate reconstruction after the war, contrasted with its outbreak."
+      }
+    ]
+  }
+]

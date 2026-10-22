@@ -1,0 +1,100 @@
+{
+  "id": "p11-b-34",
+  "title_zh": "把虚构解放事件与平民遇害分开展示",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-memorial-panel-separation",
+    "label_zh": "把虚构解放事件与平民遇害分开展示",
+    "goal_zh": "核对虚构时间线中的两个事件，并约定保留自由主题同时单列平民受害情况"
+  },
+  "participants": [
+    "Luca",
+    "Yara"
+  ],
+  "context_zh": "学生制作架空国家的纪念展板，练习在叙述中兼顾不同经历；事件不对应真实历史。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-34-s01",
+      "speaker": "Luca",
+      "text": "The first panel celebrates liberation on the third of May. Where should we put the events of the tenth?"
+    },
+    {
+      "id": "p11-b-34-s02",
+      "speaker": "Yara",
+      "text": "The fictional timeline records a massacre of civilians on the tenth. That shouldn't disappear into a general story of victory."
+    },
+    {
+      "id": "p11-b-34-s03",
+      "speaker": "Luca",
+      "text": "I wanted the exhibition to be about liberty, but you're right that the people killed didn't get to enjoy it."
+    },
+    {
+      "id": "p11-b-34-s04",
+      "speaker": "Yara",
+      "text": "We can keep that theme while giving the civilian victims a separate panel. The dates need to remain distinct."
+    },
+    {
+      "id": "p11-b-34-s05",
+      "speaker": "Luca",
+      "text": "Then the first panel can explain the end of occupation, and the second can describe the killings a week later."
+    },
+    {
+      "id": "p11-b-34-s06",
+      "speaker": "Yara",
+      "text": "Yes. Let's give the second panel its own space rather than reduce it to a note under the celebration."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f543295abc9cf421",
+      "lemma": "liberation",
+      "pos": "n.",
+      "sense_zh": "解放、摆脱占领",
+      "sentence_ids": [
+        "p11-b-34-s01"
+      ],
+      "forms": [
+        "liberation"
+      ],
+      "sense_id": "sense-staged-ox-f543295abc9cf421-p11-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2007e8e027a3b746",
+      "lemma": "massacre",
+      "pos": "n.",
+      "sense_zh": "大规模屠杀",
+      "sentence_ids": [
+        "p11-b-34-s02"
+      ],
+      "forms": [
+        "massacre"
+      ],
+      "sense_id": "sense-staged-ox-2007e8e027a3b746-p11-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f68582d7befa5a70",
+      "lemma": "liberty",
+      "pos": "n.",
+      "sense_zh": "自由",
+      "sentence_ids": [
+        "p11-b-34-s03"
+      ],
+      "forms": [
+        "liberty"
+      ],
+      "sense_id": "sense-staged-ox-f68582d7befa5a70-p11-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

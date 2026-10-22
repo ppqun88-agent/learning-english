@@ -1,0 +1,105 @@
+{
+  "id": "p11-b-24",
+  "title_zh": "给架空王国地图中的传说城堡加专门标识",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fantasy-map-realm-labels",
+    "label_zh": "给架空王国地图中的传说城堡加专门标识",
+    "goal_zh": "区分游戏中确有其地的城镇与未经证实的传说城堡，并约定用虚线和图例标出后者"
+  },
+  "participants": [
+    "Finn",
+    "Zoya"
+  ],
+  "context_zh": "桌游设计者与地图画师讨论架空中世纪王国地图，所有地点均为虚构。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-24-s01",
+      "speaker": "Finn",
+      "text": "The game takes place in a medieval kingdom, but this map makes every castle look equally certain."
+    },
+    {
+      "id": "p11-b-24-s02",
+      "speaker": "Zoya",
+      "text": "Which one is different?"
+    },
+    {
+      "id": "p11-b-24-s03",
+      "speaker": "Finn",
+      "text": "The northern castle is legendary. In the story, people talk about it, but no living character has found it."
+    },
+    {
+      "id": "p11-b-24-s04",
+      "speaker": "Zoya",
+      "text": "Whereas the southern towns are places the players can actually visit?"
+    },
+    {
+      "id": "p11-b-24-s05",
+      "speaker": "Finn",
+      "text": "Exactly. I don't want the map to settle the northern mystery before the game starts."
+    },
+    {
+      "id": "p11-b-24-s06",
+      "speaker": "Zoya",
+      "text": "I'll draw that castle with a dotted outline and add 'Location unconfirmed' to the key."
+    },
+    {
+      "id": "p11-b-24-s07",
+      "speaker": "Finn",
+      "text": "Perfect. Keep the solid symbols for the known towns."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-62dab8ddecee47b1",
+      "lemma": "kingdom",
+      "pos": "n.",
+      "sense_zh": "王国",
+      "sentence_ids": [
+        "p11-b-24-s01"
+      ],
+      "forms": [
+        "kingdom"
+      ],
+      "sense_id": "sense-staged-ox-62dab8ddecee47b1-p11-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6ce3d88d42d2c527",
+      "lemma": "medieval",
+      "pos": "adj.",
+      "sense_zh": "中世纪的",
+      "sentence_ids": [
+        "p11-b-24-s01"
+      ],
+      "forms": [
+        "medieval"
+      ],
+      "sense_id": "sense-staged-ox-6ce3d88d42d2c527-p11-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d7723926fc2b214d",
+      "lemma": "legendary",
+      "pos": "adj.",
+      "sense_zh": "传说中的",
+      "sentence_ids": [
+        "p11-b-24-s03"
+      ],
+      "forms": [
+        "legendary"
+      ],
+      "sense_id": "sense-staged-ox-d7723926fc2b214d-p11-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

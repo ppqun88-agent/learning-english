@@ -1,0 +1,121 @@
+{
+  "id": "p11-c-12",
+  "title_zh": "约定按材料修订虚构冲突地图",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-conflict-map-evidence",
+    "label_zh": "约定按材料修订虚构冲突地图",
+    "goal_zh": "核对港口与武装人员的材料依据，并约定删去未经确认的导弹标记"
+  },
+  "participants": [
+    "Jonah",
+    "Farah"
+  ],
+  "context_zh": "两位成人学员整理教师提供的虚构冲突报道包，练习地图标注与来源核查。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-12-s01",
+      "speaker": "Jonah",
+      "text": "We’ve marked the harbor as a naval base. Does the briefing actually say the navy uses it?"
+    },
+    {
+      "id": "p11-c-12-s02",
+      "speaker": "Farah",
+      "text": "Yes, the first paragraph identifies it as the navy’s main base in this fictional country."
+    },
+    {
+      "id": "p11-c-12-s03",
+      "speaker": "Jonah",
+      "text": "And this person? The caption calls him a militant from the eastern militia, but our key says regular army."
+    },
+    {
+      "id": "p11-c-12-s04",
+      "speaker": "Farah",
+      "text": "That needs changing. The caption identifies his group; it doesn’t make him a member of the national army."
+    },
+    {
+      "id": "p11-c-12-s05",
+      "speaker": "Jonah",
+      "text": "What about the missile symbol over the warehouse? The witness reports a flash but says she couldn’t identify the weapon."
+    },
+    {
+      "id": "p11-c-12-s06",
+      "speaker": "Farah",
+      "text": "Then we don’t have support for that symbol. I’ll remove it and correct the group label."
+    },
+    {
+      "id": "p11-c-12-s07",
+      "speaker": "Jonah",
+      "text": "Good. Keep the naval base marker, since that part has a clear source."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a85f33a301912623",
+      "lemma": "naval",
+      "pos": "adj.",
+      "sense_zh": "海军的",
+      "sentence_ids": [
+        "p11-c-12-s01"
+      ],
+      "forms": [
+        "naval"
+      ],
+      "sense_id": "sense-staged-ox-a85f33a301912623-p11-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ba023b8966b560b9",
+      "lemma": "militant",
+      "pos": "n.",
+      "sense_zh": "武装分子",
+      "sentence_ids": [
+        "p11-c-12-s03"
+      ],
+      "forms": [
+        "militant"
+      ],
+      "sense_id": "sense-staged-ox-ba023b8966b560b9-p11-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ccb02181d2eac36b",
+      "lemma": "militia",
+      "pos": "n.",
+      "sense_zh": "民兵组织",
+      "sentence_ids": [
+        "p11-c-12-s03"
+      ],
+      "forms": [
+        "militia"
+      ],
+      "sense_id": "sense-staged-ox-ccb02181d2eac36b-p11-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6a70041853f6501c",
+      "lemma": "missile",
+      "pos": "n.",
+      "sense_zh": "导弹",
+      "sentence_ids": [
+        "p11-c-12-s05"
+      ],
+      "forms": [
+        "missile"
+      ],
+      "sense_id": "sense-staged-ox-6a70041853f6501c-p11-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

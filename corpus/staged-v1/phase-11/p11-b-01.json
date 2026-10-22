@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-01",
+  "title_zh": "确认模型注射课先观察再练习",
+  "topic_id": "health",
+  "scenario": {
+    "id": "mannequin-injection-demonstration-order",
+    "label_zh": "确认模型注射课先观察再练习",
+    "goal_zh": "明确示范对象是训练模型，并约定先看示范再接受教师指导"
+  },
+  "participants": [
+    "Nadia",
+    "Felix"
+  ],
+  "context_zh": "虚构护理模拟课堂。学生和教师确认课程顺序，不涉及对真人进行注射或具体操作方法。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-01-s01",
+      "speaker": "Nadia",
+      "text": "Is the injection practice happening today? I haven't used this training arm before."
+    },
+    {
+      "id": "p11-b-01-s02",
+      "speaker": "Felix",
+      "text": "Yes, but this first session is a demonstration. We won't inject anything into a person."
+    },
+    {
+      "id": "p11-b-01-s03",
+      "speaker": "Nadia",
+      "text": "Will we be able to see the point of insertion from the back row?"
+    },
+    {
+      "id": "p11-b-01-s04",
+      "speaker": "Felix",
+      "text": "There's a camera above the model, and the image will appear on that screen."
+    },
+    {
+      "id": "p11-b-01-s05",
+      "speaker": "Nadia",
+      "text": "So I should watch first rather than try to copy you at the same time?"
+    },
+    {
+      "id": "p11-b-01-s06",
+      "speaker": "Felix",
+      "text": "Exactly. After the demonstration, I'll instruct each student individually using the model."
+    },
+    {
+      "id": "p11-b-01-s07",
+      "speaker": "Nadia",
+      "text": "All right. I'll leave the practice kit closed until it's my turn with you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3d790011fecfdc95",
+      "lemma": "inject",
+      "pos": "v.",
+      "sense_zh": "给……注射",
+      "sentence_ids": [
+        "p11-b-01-s02"
+      ],
+      "forms": [
+        "inject"
+      ],
+      "sense_id": "sense-staged-ox-3d790011fecfdc95-p11-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e2379442bbf28bf3",
+      "lemma": "injection",
+      "pos": "n.",
+      "sense_zh": "注射",
+      "sentence_ids": [
+        "p11-b-01-s01"
+      ],
+      "forms": [
+        "injection"
+      ],
+      "sense_id": "sense-staged-ox-e2379442bbf28bf3-p11-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c376e69f24b6d6c6",
+      "lemma": "insertion",
+      "pos": "n.",
+      "sense_zh": "插入",
+      "sentence_ids": [
+        "p11-b-01-s03"
+      ],
+      "forms": [
+        "insertion"
+      ],
+      "sense_id": "sense-staged-ox-c376e69f24b6d6c6-p11-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c21c5b746d8e6da3",
+      "lemma": "instruct",
+      "pos": "v.",
+      "sense_zh": "指导、教授操作",
+      "sentence_ids": [
+        "p11-b-01-s06"
+      ],
+      "forms": [
+        "instruct"
+      ],
+      "sense_id": "sense-staged-ox-c21c5b746d8e6da3-p11-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

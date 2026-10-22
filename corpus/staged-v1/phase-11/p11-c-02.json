@@ -1,0 +1,132 @@
+{
+  "id": "p11-c-02",
+  "title_zh": "约好核实公司合并后的人员安排",
+  "topic_id": "work",
+  "scenario": {
+    "id": "company-merger-staff-memo",
+    "label_zh": "约好核实公司合并后的人员安排",
+    "goal_zh": "区分已公布的公司合并与尚未确认的人员变化，并约定向人事团队询问"
+  },
+  "participants": [
+    "Priya",
+    "Evan"
+  ],
+  "context_zh": "虚构公司的两位同事阅读内部合并备忘录；并非真实企业消息。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-02-s01",
+      "speaker": "Priya",
+      "text": "Have you read the memo about the merger? It says the two companies will merge in January."
+    },
+    {
+      "id": "p11-c-02-s02",
+      "speaker": "Evan",
+      "text": "Yes, but it doesn’t say whether our office will move. My predecessor left a folder about an earlier move, but that may not apply."
+    },
+    {
+      "id": "p11-c-02-s03",
+      "speaker": "Priya",
+      "text": "Does the memo mention changes to personnel? People are asking whether their jobs will stay the same."
+    },
+    {
+      "id": "p11-c-02-s04",
+      "speaker": "Evan",
+      "text": "It says those details haven’t been decided. We shouldn’t fill the gaps with guesses."
+    },
+    {
+      "id": "p11-c-02-s05",
+      "speaker": "Priya",
+      "text": "I’ll ask the HR team when they expect to explain the staffing plans and the office location."
+    },
+    {
+      "id": "p11-c-02-s06",
+      "speaker": "Evan",
+      "text": "Thanks. Let’s wait for that reply before we update our team."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e2a3dbe366defeab",
+      "lemma": "memo",
+      "pos": "n.",
+      "sense_zh": "备忘录",
+      "sentence_ids": [
+        "p11-c-02-s01"
+      ],
+      "forms": [
+        "memo"
+      ],
+      "sense_id": "sense-staged-ox-e2a3dbe366defeab-p11-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a0d3460882dece5",
+      "lemma": "merger",
+      "pos": "n.",
+      "sense_zh": "公司合并",
+      "sentence_ids": [
+        "p11-c-02-s01"
+      ],
+      "forms": [
+        "merger"
+      ],
+      "sense_id": "sense-staged-ox-7a0d3460882dece5-p11-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8aca1b43b99efc8a",
+      "lemma": "merge",
+      "pos": "v.",
+      "sense_zh": "合并",
+      "sentence_ids": [
+        "p11-c-02-s01"
+      ],
+      "forms": [
+        "merge"
+      ],
+      "sense_id": "sense-staged-ox-8aca1b43b99efc8a-p11-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-204e04481987e752",
+      "lemma": "personnel",
+      "pos": "n.",
+      "sense_zh": "人员；职员",
+      "sentence_ids": [
+        "p11-c-02-s03"
+      ],
+      "forms": [
+        "personnel"
+      ],
+      "sense_id": "sense-staged-ox-204e04481987e752-p11-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb4da62a9eda9219",
+      "lemma": "predecessor",
+      "pos": "n.",
+      "sense_zh": "前任",
+      "sentence_ids": [
+        "p11-c-02-s02"
+      ],
+      "forms": [
+        "predecessor"
+      ],
+      "sense_id": "sense-staged-ox-eb4da62a9eda9219-p11-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

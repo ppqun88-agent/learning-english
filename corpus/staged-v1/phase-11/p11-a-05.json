@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-05",
+  "title_zh": "商定虚构博物馆预算中的采购延期",
+  "topic_id": "work",
+  "scenario": {
+    "id": "fictional-museum-budget-gap",
+    "label_zh": "商定虚构博物馆预算中的采购延期",
+    "goal_zh": "区分总收入与可用余额，核对预算缺口并决定推迟展柜采购"
+  },
+  "participants": [
+    "Priya",
+    "Ben"
+  ],
+  "context_zh": "财务沟通练习：两名学员扮演虚构博物馆的项目人员，使用给定的预算数字，不提供现实财务建议。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-05-s01",
+      "speaker": "Priya",
+      "text": "The gross income for this fiscal year is eighty thousand. Why do we have only twelve thousand left?"
+    },
+    {
+      "id": "p11-a-05-s02",
+      "speaker": "Ben",
+      "text": "Because gross income is before costs. Our expenditure so far is sixty-eight thousand."
+    },
+    {
+      "id": "p11-a-05-s03",
+      "speaker": "Priya",
+      "text": "The new display cases would cost fifteen thousand, so we are three thousand short."
+    },
+    {
+      "id": "p11-a-05-s04",
+      "speaker": "Ben",
+      "text": "And ordering them now would incur a storage charge, because the gallery is still closed."
+    },
+    {
+      "id": "p11-a-05-s05",
+      "speaker": "Priya",
+      "text": "Let's postpone that purchase and keep using the existing cases."
+    },
+    {
+      "id": "p11-a-05-s06",
+      "speaker": "Ben",
+      "text": "Agreed. I will revise the draft budget on that basis."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d3dffaaafdec2edd",
+      "lemma": "gross",
+      "pos": "adj.",
+      "sense_zh": "未扣除费用的；总的",
+      "sentence_ids": [
+        "p11-a-05-s01"
+      ],
+      "forms": [
+        "gross"
+      ],
+      "sense_id": "sense-staged-ox-d3dffaaafdec2edd-p11-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c1243be6adb2f616",
+      "lemma": "fiscal",
+      "pos": "adj.",
+      "sense_zh": "财政年度的",
+      "sentence_ids": [
+        "p11-a-05-s01"
+      ],
+      "forms": [
+        "fiscal"
+      ],
+      "sense_id": "sense-staged-ox-c1243be6adb2f616-p11-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1053aa278c835744",
+      "lemma": "expenditure",
+      "pos": "n.",
+      "sense_zh": "支出",
+      "sentence_ids": [
+        "p11-a-05-s02"
+      ],
+      "forms": [
+        "expenditure"
+      ],
+      "sense_id": "sense-staged-ox-1053aa278c835744-p11-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-02c47e9f9d9bf37a",
+      "lemma": "incur",
+      "pos": "v.",
+      "sense_zh": "招致；产生费用",
+      "sentence_ids": [
+        "p11-a-05-s04"
+      ],
+      "forms": [
+        "incur"
+      ],
+      "sense_id": "sense-staged-ox-02c47e9f9d9bf37a-p11-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

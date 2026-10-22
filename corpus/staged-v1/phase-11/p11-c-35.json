@@ -1,0 +1,100 @@
+{
+  "id": "p11-c-35",
+  "title_zh": "约定让海盗角色以恳求而非威胁争取留船",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "pirate-play-mercy-scene",
+    "label_zh": "约定让海盗角色以恳求而非威胁争取留船",
+    "goal_zh": "明确海盗角色请求留船的原因，并约定用更克制的方式重新排演"
+  },
+  "participants": [
+    "Arlo",
+    "Director Quinn"
+  ],
+  "context_zh": "业余剧团的演员与导演排练一段虚构海盗短剧。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-35-s01",
+      "speaker": "Arlo",
+      "text": "I’m not sure how to play this pirate. The captain wants to leave him at the next port, but he suddenly starts shouting."
+    },
+    {
+      "id": "p11-c-35-s02",
+      "speaker": "Director Quinn",
+      "text": "His plea is for one more voyage with his brother, who is still on the ship. It’s fear of being separated, not a challenge to the captain."
+    },
+    {
+      "id": "p11-c-35-s03",
+      "speaker": "Arlo",
+      "text": "So I need to plead with her, not threaten to take over?"
+    },
+    {
+      "id": "p11-c-35-s04",
+      "speaker": "Director Quinn",
+      "text": "Exactly. Try speaking more quietly and looking toward your brother when you ask to stay."
+    },
+    {
+      "id": "p11-c-35-s05",
+      "speaker": "Arlo",
+      "text": "That gives the request a reason. Shall we go back to the captain’s decision?"
+    },
+    {
+      "id": "p11-c-35-s06",
+      "speaker": "Director Quinn",
+      "text": "Yes. Start there, and let the desperation build without turning it into a threat."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1b3ad3fc1f1b6efc",
+      "lemma": "pirate",
+      "pos": "n.",
+      "sense_zh": "海盗",
+      "sentence_ids": [
+        "p11-c-35-s01"
+      ],
+      "forms": [
+        "pirate"
+      ],
+      "sense_id": "sense-staged-ox-1b3ad3fc1f1b6efc-p11-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-303f02cc7cc5ffc9",
+      "lemma": "plea",
+      "pos": "n.",
+      "sense_zh": "恳求；请求",
+      "sentence_ids": [
+        "p11-c-35-s02"
+      ],
+      "forms": [
+        "plea"
+      ],
+      "sense_id": "sense-staged-ox-303f02cc7cc5ffc9-p11-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce3665e82286e790",
+      "lemma": "plead",
+      "pos": "v.",
+      "sense_zh": "恳求",
+      "sentence_ids": [
+        "p11-c-35-s03"
+      ],
+      "forms": [
+        "plead"
+      ],
+      "sense_id": "sense-staged-ox-ce3665e82286e790-p11-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

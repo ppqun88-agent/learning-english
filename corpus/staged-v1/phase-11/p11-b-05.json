@@ -1,0 +1,137 @@
+{
+  "id": "p11-b-05",
+  "title_zh": "约定制止会议中的人身评论",
+  "topic_id": "work",
+  "scenario": {
+    "id": "meeting-personal-remark-intervention",
+    "label_zh": "约定制止会议中的人身评论",
+    "goal_zh": "说明人身评论造成的影响，并约定再次出现时由主持人暂停讨论、引导回任务"
+  },
+  "participants": [
+    "Leah",
+    "Dario"
+  ],
+  "context_zh": "两名同事私下讨论一次会议中的人身评论，并明确下次会议主持人的处理方式。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-05-s01",
+      "speaker": "Leah",
+      "text": "When Chris called me stupid for making that suggestion, it felt like an insult, not feedback."
+    },
+    {
+      "id": "p11-b-05-s02",
+      "speaker": "Dario",
+      "text": "I heard it. As chair, I should have stopped the personal comment."
+    },
+    {
+      "id": "p11-b-05-s03",
+      "speaker": "Leah",
+      "text": "He says his intent was to make everyone laugh, but remarks like that can inflict real harm on someone's confidence."
+    },
+    {
+      "id": "p11-b-05-s04",
+      "speaker": "Dario",
+      "text": "Would you like me to intervene if it happens again?"
+    },
+    {
+      "id": "p11-b-05-s05",
+      "speaker": "Leah",
+      "text": "Yes. A short intervention would help. Pause the discussion and ask him to explain the problem with the suggestion, not with me."
+    },
+    {
+      "id": "p11-b-05-s06",
+      "speaker": "Dario",
+      "text": "I'll do that. I'll also state that expectation at the start of our next meeting."
+    },
+    {
+      "id": "p11-b-05-s07",
+      "speaker": "Leah",
+      "text": "Thanks. That's the support I'm asking for."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a3de29712c45306e",
+      "lemma": "inflict",
+      "pos": "v.",
+      "sense_zh": "造成（伤害）",
+      "sentence_ids": [
+        "p11-b-05-s03"
+      ],
+      "forms": [
+        "inflict"
+      ],
+      "sense_id": "sense-staged-ox-a3de29712c45306e-p11-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-302bbe8979a74c1c",
+      "lemma": "insult",
+      "pos": "n.",
+      "sense_zh": "侮辱、冒犯",
+      "sentence_ids": [
+        "p11-b-05-s01"
+      ],
+      "forms": [
+        "insult"
+      ],
+      "sense_id": "sense-staged-ox-302bbe8979a74c1c-p11-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5464b688f51bcba9",
+      "lemma": "intent",
+      "pos": "n.",
+      "sense_zh": "意图",
+      "sentence_ids": [
+        "p11-b-05-s03"
+      ],
+      "forms": [
+        "intent"
+      ],
+      "sense_id": "sense-staged-ox-5464b688f51bcba9-p11-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e84751fd01b64c6c",
+      "lemma": "intervene",
+      "pos": "v.",
+      "sense_zh": "介入、干预",
+      "sentence_ids": [
+        "p11-b-05-s04"
+      ],
+      "forms": [
+        "intervene"
+      ],
+      "sense_id": "sense-staged-ox-e84751fd01b64c6c-p11-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26d9ba10b203e056",
+      "lemma": "intervention",
+      "pos": "n.",
+      "sense_zh": "介入、干预",
+      "sentence_ids": [
+        "p11-b-05-s05"
+      ],
+      "forms": [
+        "intervention"
+      ],
+      "sense_id": "sense-staged-ox-26d9ba10b203e056-p11-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,121 @@
+{
+  "id": "p11-c-24",
+  "title_zh": "约好巡查员查看通往湖泊的步道上的倒枝",
+  "topic_id": "community",
+  "scenario": {
+    "id": "trail-blockage-ranger-message",
+    "label_zh": "约好巡查员查看通往湖泊的步道上的倒枝",
+    "goal_zh": "向巡查员说明步道障碍的位置，并约定由其查看而不由报告者搬动"
+  },
+  "participants": [
+    "Carmen",
+    "Ranger Ellis"
+  ],
+  "context_zh": "在采用美式拼写的虚构公园场景中，一名步行者向公园巡查员报告倒枝。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-24-s01",
+      "speaker": "Carmen",
+      "text": "A motorist in the neighboring parking lot told me a branch was blocking the pathway to the lake. I walked over and saw it too."
+    },
+    {
+      "id": "p11-c-24-s02",
+      "speaker": "Ranger Ellis",
+      "text": "I patrol that section. Is it near the wooden bridge or farther down the slope?"
+    },
+    {
+      "id": "p11-c-24-s03",
+      "speaker": "Carmen",
+      "text": "Just before the bridge, across most of the path. I came back rather than climb over it."
+    },
+    {
+      "id": "p11-c-24-s04",
+      "speaker": "Ranger Ellis",
+      "text": "Thanks. I’ll check it now and contact the maintenance team if we need help."
+    },
+    {
+      "id": "p11-c-24-s05",
+      "speaker": "Carmen",
+      "text": "Should I try moving the smaller end while you’re on your way?"
+    },
+    {
+      "id": "p11-c-24-s06",
+      "speaker": "Ranger Ellis",
+      "text": "No, leave it where it is. I’ll assess it when I arrive."
+    },
+    {
+      "id": "p11-c-24-s07",
+      "speaker": "Carmen",
+      "text": "All right. I’ll stay here and point you toward the spot."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-62bbfc42597a87ef",
+      "lemma": "motorist",
+      "pos": "n.",
+      "sense_zh": "驾车者",
+      "sentence_ids": [
+        "p11-c-24-s01"
+      ],
+      "forms": [
+        "motorist"
+      ],
+      "sense_id": "sense-staged-ox-62bbfc42597a87ef-p11-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6241ba7d8abcd71",
+      "lemma": "neighboring",
+      "pos": "adj.",
+      "sense_zh": "邻近的（美式拼写）",
+      "sentence_ids": [
+        "p11-c-24-s01"
+      ],
+      "forms": [
+        "neighboring"
+      ],
+      "sense_id": "sense-staged-ox-f6241ba7d8abcd71-p11-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f28519d2e665dde",
+      "lemma": "pathway",
+      "pos": "n.",
+      "sense_zh": "小路；步道",
+      "sentence_ids": [
+        "p11-c-24-s01"
+      ],
+      "forms": [
+        "pathway"
+      ],
+      "sense_id": "sense-staged-ox-4f28519d2e665dde-p11-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-946ff6a6040a6af7",
+      "lemma": "patrol",
+      "pos": "v.",
+      "sense_zh": "巡查；巡逻",
+      "sentence_ids": [
+        "p11-c-24-s02"
+      ],
+      "forms": [
+        "patrol"
+      ],
+      "sense_id": "sense-staged-ox-946ff6a6040a6af7-p11-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,131 @@
+{
+  "id": "p11-b-20",
+  "title_zh": "了解成人阅读小组并约好首次接待",
+  "topic_id": "community",
+  "scenario": {
+    "id": "adult-reading-group-support-request",
+    "label_zh": "了解成人阅读小组并约好首次接待",
+    "goal_zh": "说明学习读写与减少孤立感的需要，核对图书馆支持，并约定先到接待台了解小组"
+  },
+  "participants": [
+    "Walter",
+    "Farah"
+  ],
+  "context_zh": "虚构社区图书馆接待对话。成年访客希望改善读写能力，也想认识其他学习者。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-20-s01",
+      "speaker": "Walter",
+      "text": "Improving my literacy has been a lifelong goal, but I've always been embarrassed to join a class."
+    },
+    {
+      "id": "p11-b-20-s02",
+      "speaker": "Farah",
+      "text": "Our reading group is small, and no one has to read aloud on their first visit."
+    },
+    {
+      "id": "p11-b-20-s03",
+      "speaker": "Walter",
+      "text": "That helps. Since I stopped working, the isolation has been hard as well."
+    },
+    {
+      "id": "p11-b-20-s04",
+      "speaker": "Farah",
+      "text": "There's time to talk over tea before each session. You can get to know people without having to perform."
+    },
+    {
+      "id": "p11-b-20-s05",
+      "speaker": "Walter",
+      "text": "Is the group part of the library, or does someone just rent a room here?"
+    },
+    {
+      "id": "p11-b-20-s06",
+      "speaker": "Farah",
+      "text": "The library provides the room and trained tutors. That institutional support means the group doesn't depend on one volunteer being available."
+    },
+    {
+      "id": "p11-b-20-s07",
+      "speaker": "Walter",
+      "text": "Could I come to the desk first and ask a few questions before joining the session?"
+    },
+    {
+      "id": "p11-b-20-s08",
+      "speaker": "Farah",
+      "text": "Of course. Come at ten on Thursday and ask for me."
+    },
+    {
+      "id": "p11-b-20-s09",
+      "speaker": "Walter",
+      "text": "Thursday at ten. I'll start with that conversation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-76f12139218415b0",
+      "lemma": "isolation",
+      "pos": "n.",
+      "sense_zh": "孤立、与人隔绝的状态",
+      "sentence_ids": [
+        "p11-b-20-s03"
+      ],
+      "forms": [
+        "isolation"
+      ],
+      "sense_id": "sense-staged-ox-76f12139218415b0-p11-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b36c772dd070d8db",
+      "lemma": "institutional",
+      "pos": "adj.",
+      "sense_zh": "机构提供的、机构层面的",
+      "sentence_ids": [
+        "p11-b-20-s06"
+      ],
+      "forms": [
+        "institutional"
+      ],
+      "sense_id": "sense-staged-ox-b36c772dd070d8db-p11-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b720758c78ffac58",
+      "lemma": "literacy",
+      "pos": "n.",
+      "sense_zh": "读写能力",
+      "sentence_ids": [
+        "p11-b-20-s01"
+      ],
+      "forms": [
+        "literacy"
+      ],
+      "sense_id": "sense-staged-ox-b720758c78ffac58-p11-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe26f971de9fb067",
+      "lemma": "lifelong",
+      "pos": "adj.",
+      "sense_zh": "终身的、一生持续的",
+      "sentence_ids": [
+        "p11-b-20-s01"
+      ],
+      "forms": [
+        "lifelong"
+      ],
+      "sense_id": "sense-staged-ox-fe26f971de9fb067-p11-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

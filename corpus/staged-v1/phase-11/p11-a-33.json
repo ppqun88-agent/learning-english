@@ -1,0 +1,100 @@
+{
+  "id": "p11-a-33",
+  "title_zh": "商定虚构档案展的幸存者叙事重点",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-archive-exhibit-framing",
+    "label_zh": "商定虚构档案展的幸存者叙事重点",
+    "goal_zh": "区分暴行记录与援助经历，并约定以幸存者自己的叙述组织展览"
+  },
+  "participants": [
+    "Moses",
+    "Elin"
+  ],
+  "context_zh": "策展课程使用完全虚构的地区和历史档案，档案设定记录一次种族灭绝及其后的援助；不描述现实事件。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-33-s01",
+      "speaker": "Moses",
+      "text": "The fictional archive documents a genocide, but our draft exhibition is almost entirely about the officials responsible."
+    },
+    {
+      "id": "p11-a-33-s02",
+      "speaker": "Elin",
+      "text": "The survivors need more space. There are accounts of humanitarian work in the camps as well as testimony about the killings."
+    },
+    {
+      "id": "p11-a-33-s03",
+      "speaker": "Moses",
+      "text": "What stayed with me was the humanity of the people sharing their food with strangers."
+    },
+    {
+      "id": "p11-a-33-s04",
+      "speaker": "Elin",
+      "text": "We can include that without making the suffering seem less serious."
+    },
+    {
+      "id": "p11-a-33-s05",
+      "speaker": "Moses",
+      "text": "Let's organize the next draft around the survivors' own accounts, with separate sections for persecution and later assistance."
+    },
+    {
+      "id": "p11-a-33-s06",
+      "speaker": "Elin",
+      "text": "Agreed. We should keep the dates and speakers clear so those different experiences do not get blurred together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-df16e6cc580895af",
+      "lemma": "genocide",
+      "pos": "n.",
+      "sense_zh": "种族灭绝",
+      "sentence_ids": [
+        "p11-a-33-s01"
+      ],
+      "forms": [
+        "genocide"
+      ],
+      "sense_id": "sense-staged-ox-df16e6cc580895af-p11-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cd9a8ac95c207c6b",
+      "lemma": "humanitarian",
+      "pos": "adj.",
+      "sense_zh": "人道主义援助的",
+      "sentence_ids": [
+        "p11-a-33-s02"
+      ],
+      "forms": [
+        "humanitarian"
+      ],
+      "sense_id": "sense-staged-ox-cd9a8ac95c207c6b-p11-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a5f9b99026d69a4",
+      "lemma": "humanity",
+      "pos": "n.",
+      "sense_zh": "人道；仁慈",
+      "sentence_ids": [
+        "p11-a-33-s03"
+      ],
+      "forms": [
+        "humanity"
+      ],
+      "sense_id": "sense-staged-ox-4a5f9b99026d69a4-p11-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

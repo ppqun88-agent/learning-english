@@ -1,0 +1,84 @@
+{
+  "id": "p11-b-38",
+  "title_zh": "选用海洋展的简短版语音导览",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "marine-exhibit-audio-refresh",
+    "label_zh": "选用海洋展的简短版语音导览",
+    "goal_zh": "通过试听比较两个版本的语速和信息量，并选定简短版用于展览"
+  },
+  "participants": [
+    "Holly",
+    "Luis"
+  ],
+  "context_zh": "海洋展览的工作人员在展厅听完两版语音导览后决定采用哪一版。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-38-s01",
+      "speaker": "Holly",
+      "text": "We've heard the full commentary and the short highlights version. Which would you use for this marine exhibition?"
+    },
+    {
+      "id": "p11-b-38-s02",
+      "speaker": "Luis",
+      "text": "The latter. It covers fewer animals, but the speaker has time to pause between them."
+    },
+    {
+      "id": "p11-b-38-s03",
+      "speaker": "Holly",
+      "text": "The full version gives more names and facts. I struggled to keep up with it in this room."
+    },
+    {
+      "id": "p11-b-38-s04",
+      "speaker": "Luis",
+      "text": "So did I. The shorter one is easier to follow, especially while looking at the tanks."
+    },
+    {
+      "id": "p11-b-38-s05",
+      "speaker": "Holly",
+      "text": "Let's use the short version in the exhibition and make the fuller text available to anyone who wants the detail."
+    },
+    {
+      "id": "p11-b-38-s06",
+      "speaker": "Luis",
+      "text": "Agreed. I'll prepare the short audio for the listening stations."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e568a5a95ee581ec",
+      "lemma": "marine",
+      "pos": "adj.",
+      "sense_zh": "海洋的",
+      "sentence_ids": [
+        "p11-b-38-s01"
+      ],
+      "forms": [
+        "marine"
+      ],
+      "sense_id": "sense-staged-ox-e568a5a95ee581ec-p11-b-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-167c1e4f1bc0cf24",
+      "lemma": "latter",
+      "pos": "n.",
+      "sense_zh": "后者",
+      "sentence_ids": [
+        "p11-b-38-s02"
+      ],
+      "forms": [
+        "latter"
+      ],
+      "sense_id": "sense-staged-ox-167c1e4f1bc0cf24-p11-b-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

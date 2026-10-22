@@ -1,0 +1,84 @@
+{
+  "id": "p11-c-36",
+  "title_zh": "把剧院筹款承诺与到账款项分开记录",
+  "topic_id": "community",
+  "scenario": {
+    "id": "fundraiser-pledge-record",
+    "label_zh": "把剧院筹款承诺与到账款项分开记录",
+    "goal_zh": "核对支持者的捐款承诺尚未到账，并约定只在承诺栏记录而不计入可用资金"
+  },
+  "participants": [
+    "Val",
+    "Andre"
+  ],
+  "context_zh": "虚构社区剧院的两位志愿者核对筹款记录，纯属财务沟通练习。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-36-s01",
+      "speaker": "Val",
+      "text": "A patron of the theatre has sent a pledge of two hundred pounds. Can I add it to the money available for the new curtains?"
+    },
+    {
+      "id": "p11-c-36-s02",
+      "speaker": "Andre",
+      "text": "Has the payment arrived, or have we only received the promise?"
+    },
+    {
+      "id": "p11-c-36-s03",
+      "speaker": "Val",
+      "text": "Only the promise. Her message says she plans to pay next month."
+    },
+    {
+      "id": "p11-c-36-s04",
+      "speaker": "Andre",
+      "text": "Then put it in the pledges column, not the amount received. We can’t spend it yet."
+    },
+    {
+      "id": "p11-c-36-s05",
+      "speaker": "Val",
+      "text": "Understood. I’ll record the two hundred as promised and leave our available total unchanged."
+    },
+    {
+      "id": "p11-c-36-s06",
+      "speaker": "Andre",
+      "text": "Good. We’ll move it across if the payment comes in."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3163286a3777e0b6",
+      "lemma": "patron",
+      "pos": "n.",
+      "sense_zh": "资助者；赞助人",
+      "sentence_ids": [
+        "p11-c-36-s01"
+      ],
+      "forms": [
+        "patron"
+      ],
+      "sense_id": "sense-staged-ox-3163286a3777e0b6-p11-c-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b7ab6c65da0e6c9",
+      "lemma": "pledge",
+      "pos": "n.",
+      "sense_zh": "承诺；捐款承诺",
+      "sentence_ids": [
+        "p11-c-36-s01"
+      ],
+      "forms": [
+        "pledge"
+      ],
+      "sense_id": "sense-staged-ox-6b7ab6c65da0e6c9-p11-c-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

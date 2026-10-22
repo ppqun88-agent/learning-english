@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-36",
+  "title_zh": "为跑步体验选择先绕跑道走一圈",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "running-club-newcomer-pace",
+    "label_zh": "为跑步体验选择先绕跑道走一圈",
+    "goal_zh": "了解新参加者希望平缓开始的意愿，并约定先走一圈再由本人决定是否慢跑"
+  },
+  "participants": [
+    "Gareth",
+    "Evan"
+  ],
+  "context_zh": "英式英语场景。社区跑步社团教练接待一位成年新参加者，双方讨论当日体验路线。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-36-s01",
+      "speaker": "Gareth",
+      "text": "Are you the lad who emailed about our beginner session? I'm Gareth."
+    },
+    {
+      "id": "p11-b-36-s02",
+      "speaker": "Evan",
+      "text": "Yes, I'm Evan. I've brought trainers, but I'd like to start gently."
+    },
+    {
+      "id": "p11-b-36-s03",
+      "speaker": "Gareth",
+      "text": "My first instinct was to show you the woodland path, but it's muddy today."
+    },
+    {
+      "id": "p11-b-36-s04",
+      "speaker": "Evan",
+      "text": "I'd rather not leap over puddles on my first morning. Could we use the track?"
+    },
+    {
+      "id": "p11-b-36-s05",
+      "speaker": "Gareth",
+      "text": "Certainly. We can walk one lap together, then you can decide whether you want to try a little jogging."
+    },
+    {
+      "id": "p11-b-36-s06",
+      "speaker": "Evan",
+      "text": "That suits me. One walking lap first, and I'll see how I feel."
+    },
+    {
+      "id": "p11-b-36-s07",
+      "speaker": "Gareth",
+      "text": "Good. There's no need to match anyone else's pace."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-779e56cac04b9e69",
+      "lemma": "lad",
+      "pos": "n.",
+      "sense_zh": "年轻男子、小伙子",
+      "sentence_ids": [
+        "p11-b-36-s01"
+      ],
+      "forms": [
+        "lad"
+      ],
+      "sense_id": "sense-staged-ox-779e56cac04b9e69-p11-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-640460238b99f634",
+      "lemma": "lap",
+      "pos": "n.",
+      "sense_zh": "绕跑道的一圈",
+      "sentence_ids": [
+        "p11-b-36-s05"
+      ],
+      "forms": [
+        "lap"
+      ],
+      "sense_id": "sense-staged-ox-640460238b99f634-p11-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b2664cc0a41e55be",
+      "lemma": "leap",
+      "pos": "v.",
+      "sense_zh": "跳跃、跃过",
+      "sentence_ids": [
+        "p11-b-36-s04"
+      ],
+      "forms": [
+        "leap"
+      ],
+      "sense_id": "sense-staged-ox-b2664cc0a41e55be-p11-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7796816daebcedb1",
+      "lemma": "instinct",
+      "pos": "n.",
+      "sense_zh": "本能反应、直觉",
+      "sentence_ids": [
+        "p11-b-36-s03"
+      ],
+      "forms": [
+        "instinct"
+      ],
+      "sense_id": "sense-staged-ox-7796816daebcedb1-p11-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

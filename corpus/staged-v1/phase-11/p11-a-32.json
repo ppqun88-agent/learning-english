@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-32",
+  "title_zh": "约定修正小说中人质场景的人物关系概括",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fictional-hostage-scene-tone",
+    "label_zh": "约定修正小说中人质场景的人物关系概括",
+    "goal_zh": "根据虚构场景区分敌对态度与友谊，并商定不把食物援助写成和解"
+  },
+  "participants": [
+    "Yasmin",
+    "Theo"
+  ],
+  "context_zh": "读书会成员讨论完全虚构的战争小说一段：一名游击队员看守一名人质，二人的关系仍然紧张。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-32-s01",
+      "speaker": "Yasmin",
+      "text": "I wrote that the guerrilla and the hostage become friends in this scene."
+    },
+    {
+      "id": "p11-a-32-s02",
+      "speaker": "Theo",
+      "text": "Friends? The guard gives him food, but he still refuses to let him contact his family."
+    },
+    {
+      "id": "p11-a-32-s03",
+      "speaker": "Yasmin",
+      "text": "True. The hostage sounds hostile when he asks when he can leave."
+    },
+    {
+      "id": "p11-a-32-s04",
+      "speaker": "Theo",
+      "text": "And the hostility does not disappear when the meal arrives. Neither of them trusts the other."
+    },
+    {
+      "id": "p11-a-32-s05",
+      "speaker": "Yasmin",
+      "text": "I'll say there is a moment of practical help within a relationship that remains tense."
+    },
+    {
+      "id": "p11-a-32-s06",
+      "speaker": "Theo",
+      "text": "That is closer. Giving someone food is not the same as releasing them or winning their trust."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-857d822b12d212a4",
+      "lemma": "guerrilla",
+      "pos": "n.",
+      "sense_zh": "游击队员",
+      "sentence_ids": [
+        "p11-a-32-s01"
+      ],
+      "forms": [
+        "guerrilla"
+      ],
+      "sense_id": "sense-staged-ox-857d822b12d212a4-p11-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a54b8862c685d56",
+      "lemma": "hostage",
+      "pos": "n.",
+      "sense_zh": "人质",
+      "sentence_ids": [
+        "p11-a-32-s01"
+      ],
+      "forms": [
+        "hostage"
+      ],
+      "sense_id": "sense-staged-ox-2a54b8862c685d56-p11-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63341c866c0efebc",
+      "lemma": "hostile",
+      "pos": "adj.",
+      "sense_zh": "敌对的；不友善的",
+      "sentence_ids": [
+        "p11-a-32-s03"
+      ],
+      "forms": [
+        "hostile"
+      ],
+      "sense_id": "sense-staged-ox-63341c866c0efebc-p11-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3971fcb46654318a",
+      "lemma": "hostility",
+      "pos": "n.",
+      "sense_zh": "敌意",
+      "sentence_ids": [
+        "p11-a-32-s04"
+      ],
+      "forms": [
+        "hostility"
+      ],
+      "sense_id": "sense-staged-ox-3971fcb46654318a-p11-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,95 @@
+{
+  "id": "p11-c-22",
+  "title_zh": "选择旁听修道院讲道而不捐献",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "monastery-visitor-service-boundary",
+    "label_zh": "选择旁听修道院讲道而不捐献",
+    "goal_zh": "询问修道院开放活动的讲道与捐献安排，并确认可以坐在后排旁听"
+  },
+  "participants": [
+    "Rafael",
+    "Beatrice"
+  ],
+  "context_zh": "游客向虚构修道院的访客接待员询问当日对外开放的活动。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-22-s01",
+      "speaker": "Rafael",
+      "text": "The notice says a monk will preach at eleven. May visitors sit in, or is it only for the community here?"
+    },
+    {
+      "id": "p11-c-22-s02",
+      "speaker": "Beatrice",
+      "text": "Visitors are welcome. People can leave an offering afterward, but giving is entirely optional."
+    },
+    {
+      "id": "p11-c-22-s03",
+      "speaker": "Rafael",
+      "text": "I’d like to listen without taking part in the collection. Is that all right?"
+    },
+    {
+      "id": "p11-c-22-s04",
+      "speaker": "Beatrice",
+      "text": "Certainly. You can sit in the back row, and no one will expect you to give anything."
+    },
+    {
+      "id": "p11-c-22-s05",
+      "speaker": "Rafael",
+      "text": "Thank you. I’ll sit there and listen."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a223a8d0315b140b",
+      "lemma": "monk",
+      "pos": "n.",
+      "sense_zh": "修士；僧侣",
+      "sentence_ids": [
+        "p11-c-22-s01"
+      ],
+      "forms": [
+        "monk"
+      ],
+      "sense_id": "sense-staged-ox-a223a8d0315b140b-p11-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e6c34842122a3971",
+      "lemma": "preach",
+      "pos": "v.",
+      "sense_zh": "讲道；布道",
+      "sentence_ids": [
+        "p11-c-22-s01"
+      ],
+      "forms": [
+        "preach"
+      ],
+      "sense_id": "sense-staged-ox-e6c34842122a3971-p11-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e51a8e03701aac6a",
+      "lemma": "offering",
+      "pos": "n.",
+      "sense_zh": "奉献的款物；捐献",
+      "sentence_ids": [
+        "p11-c-22-s02"
+      ],
+      "forms": [
+        "offering"
+      ],
+      "sense_id": "sense-staged-ox-e51a8e03701aac6a-p11-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

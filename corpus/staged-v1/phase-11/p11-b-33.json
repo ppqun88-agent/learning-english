@@ -1,0 +1,137 @@
+{
+  "id": "p11-b-33",
+  "title_zh": "约定无障碍游行聚焦设施诉求并先询问参与需求",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-access-march-message-scope",
+    "label_zh": "约定无障碍游行聚焦设施诉求并先询问参与需求",
+    "goal_zh": "说明虚构城镇公共设施的不平等问题，并约定围绕不支持特定政党的共同诉求筹备游行、先询问无障碍需求"
+  },
+  "participants": [
+    "Marta",
+    "Dev"
+  ],
+  "context_zh": "虚构城镇的社区组织者筹备公共设施无障碍主题游行。人物、政策和事件均为课堂创作，不面向真实选民。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-33-s01",
+      "speaker": "Marta",
+      "text": "The march is meant to highlight inequality in access to public buildings, not support a political party."
+    },
+    {
+      "id": "p11-b-33-s02",
+      "speaker": "Dev",
+      "text": "Agreed. Some of our members are liberal and others conservative. They all want the library entrance to be usable."
+    },
+    {
+      "id": "p11-b-33-s03",
+      "speaker": "Marta",
+      "text": "Residents have called the years of delay an injustice. How do we turn that frustration into a clear request?"
+    },
+    {
+      "id": "p11-b-33-s04",
+      "speaker": "Dev",
+      "text": "We can lobby the town council for a published repair schedule and a way to report access problems."
+    },
+    {
+      "id": "p11-b-33-s05",
+      "speaker": "Marta",
+      "text": "Before we announce a route, we should ask participants what access arrangements they need."
+    },
+    {
+      "id": "p11-b-33-s06",
+      "speaker": "Dev",
+      "text": "Yes. I'll collect those requests and check possible routes with the organizers."
+    },
+    {
+      "id": "p11-b-33-s07",
+      "speaker": "Marta",
+      "text": "Then let's keep the message about usable buildings and a clear repair schedule, and settle the route after that check."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6d1a9053968d4b2c",
+      "lemma": "lobby",
+      "pos": "v.",
+      "sense_zh": "游说、向决策者争取支持",
+      "sentence_ids": [
+        "p11-b-33-s04"
+      ],
+      "forms": [
+        "lobby"
+      ],
+      "sense_id": "sense-staged-ox-6d1a9053968d4b2c-p11-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc086c61c7a9d7b9",
+      "lemma": "march",
+      "pos": "n.",
+      "sense_zh": "示威游行",
+      "sentence_ids": [
+        "p11-b-33-s01"
+      ],
+      "forms": [
+        "march"
+      ],
+      "sense_id": "sense-staged-ox-fc086c61c7a9d7b9-p11-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7251e9d8e4f9c444",
+      "lemma": "inequality",
+      "pos": "n.",
+      "sense_zh": "不平等",
+      "sentence_ids": [
+        "p11-b-33-s01"
+      ],
+      "forms": [
+        "inequality"
+      ],
+      "sense_id": "sense-staged-ox-7251e9d8e4f9c444-p11-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d0b157e1f943548",
+      "lemma": "injustice",
+      "pos": "n.",
+      "sense_zh": "不公正",
+      "sentence_ids": [
+        "p11-b-33-s03"
+      ],
+      "forms": [
+        "injustice"
+      ],
+      "sense_id": "sense-staged-ox-5d0b157e1f943548-p11-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c72a9cd54e131b1",
+      "lemma": "liberal",
+      "pos": "adj.",
+      "sense_zh": "自由派的",
+      "sentence_ids": [
+        "p11-b-33-s02"
+      ],
+      "forms": [
+        "liberal"
+      ],
+      "sense_id": "sense-staged-ox-5c72a9cd54e131b1-p11-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

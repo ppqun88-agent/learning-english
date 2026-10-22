@@ -1,0 +1,64 @@
+{
+  "id": "p11-b-31",
+  "title_zh": "点一份柠檬蛋糕与朋友分享",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-dessert-order-choice",
+    "label_zh": "点一份柠檬蛋糕与朋友分享",
+    "goal_zh": "商定两人共享一份甜点，并向店员点单"
+  },
+  "participants": [
+    "Poppy",
+    "Andre",
+    "Celia"
+  ],
+  "context_zh": "两位朋友在咖啡馆用餐后决定是否点甜点。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-31-s01",
+      "speaker": "Poppy",
+      "text": "Shall we indulge in a slice of lemon cake? It looks lovely."
+    },
+    {
+      "id": "p11-b-31-s02",
+      "speaker": "Andre",
+      "text": "I'd like some, but not a whole slice. Would you share one?"
+    },
+    {
+      "id": "p11-b-31-s03",
+      "speaker": "Poppy",
+      "text": "Gladly. Excuse me, could we have one slice of lemon cake and two forks?"
+    },
+    {
+      "id": "p11-b-31-s04",
+      "speaker": "Celia",
+      "text": "Of course. One slice to share. Anything else?"
+    },
+    {
+      "id": "p11-b-31-s05",
+      "speaker": "Andre",
+      "text": "No, that's all, thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ae9ee44430d11c97",
+      "lemma": "indulge",
+      "pos": "v.",
+      "sense_zh": "尽情享用、让自己享受",
+      "sentence_ids": [
+        "p11-b-31-s01"
+      ],
+      "forms": [
+        "indulge"
+      ],
+      "sense_id": "sense-staged-ox-ae9ee44430d11c97-p11-b-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

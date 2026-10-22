@@ -1,0 +1,79 @@
+{
+  "id": "p11-a-35",
+  "title_zh": "约定暂不揭晓生日礼物",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "birthday-clue-photo-boundary",
+    "label_zh": "约定暂不揭晓生日礼物",
+    "goal_zh": "给出不揭晓礼物内容的线索，并约定等到生日再拆封"
+  },
+  "participants": [
+    "Ada",
+    "Finn"
+  ],
+  "context_zh": "两位朋友谈论一个已包装的生日礼物；收礼人的生日是周六。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-35-s01",
+      "speaker": "Ada",
+      "text": "That grin tells me you have bought something ridiculous."
+    },
+    {
+      "id": "p11-a-35-s02",
+      "speaker": "Finn",
+      "text": "Not ridiculous. Would you like a hint?"
+    },
+    {
+      "id": "p11-a-35-s03",
+      "speaker": "Ada",
+      "text": "Only if it will not spoil the surprise."
+    },
+    {
+      "id": "p11-a-35-s04",
+      "speaker": "Finn",
+      "text": "It is something you can use outdoors. That is all you are getting before Saturday."
+    },
+    {
+      "id": "p11-a-35-s05",
+      "speaker": "Ada",
+      "text": "Fair enough. I'll leave it wrapped until my birthday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2df88ad88279e1b5",
+      "lemma": "grin",
+      "pos": "n.",
+      "sense_zh": "咧嘴笑",
+      "sentence_ids": [
+        "p11-a-35-s01"
+      ],
+      "forms": [
+        "grin"
+      ],
+      "sense_id": "sense-staged-ox-2df88ad88279e1b5-p11-a-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16ad25e6f3a088db",
+      "lemma": "hint",
+      "pos": "n.",
+      "sense_zh": "提示；线索",
+      "sentence_ids": [
+        "p11-a-35-s02"
+      ],
+      "forms": [
+        "hint"
+      ],
+      "sense_id": "sense-staged-ox-16ad25e6f3a088db-p11-a-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

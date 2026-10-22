@@ -1,0 +1,84 @@
+{
+  "id": "p11-b-30",
+  "title_zh": "先索取会堂维修分项报价再决定活动规模",
+  "topic_id": "community",
+  "scenario": {
+    "id": "hall-repair-budget-risk-query",
+    "label_zh": "先索取会堂维修分项报价再决定活动规模",
+    "goal_zh": "说明维修费用可能影响活动预算，并约定先取得分项报价再作缩减决定"
+  },
+  "participants": [
+    "Greta",
+    "Leon"
+  ],
+  "context_zh": "社区会堂筹备人员面对尚未正式报价的维修事项，讨论活动预算安排。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-30-s01",
+      "speaker": "Greta",
+      "text": "The repair costs loom over every decision about the autumn event. Are we going to have to cancel it?"
+    },
+    {
+      "id": "p11-b-30-s02",
+      "speaker": "Leon",
+      "text": "We don't know the magnitude of the bill yet. The caretaker gave us a rough figure, not a written quote."
+    },
+    {
+      "id": "p11-b-30-s03",
+      "speaker": "Greta",
+      "text": "Could some of the work wait until after the event?"
+    },
+    {
+      "id": "p11-b-30-s04",
+      "speaker": "Leon",
+      "text": "We need the contractor to identify what's required before the hall can be used. Let's not assume any of it can wait."
+    },
+    {
+      "id": "p11-b-30-s05",
+      "speaker": "Greta",
+      "text": "I'll ask for an itemized quote and a clear distinction between work needed for use and optional improvements."
+    },
+    {
+      "id": "p11-b-30-s06",
+      "speaker": "Leon",
+      "text": "Good. Then we can decide whether a smaller event is possible, rather than canceling on the basis of a guess."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5919bf7475b27cdd",
+      "lemma": "loom",
+      "pos": "v.",
+      "sense_zh": "令人担忧地逼近或笼罩",
+      "sentence_ids": [
+        "p11-b-30-s01"
+      ],
+      "forms": [
+        "loom"
+      ],
+      "sense_id": "sense-staged-ox-5919bf7475b27cdd-p11-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-47066d0f34eba32a",
+      "lemma": "magnitude",
+      "pos": "n.",
+      "sense_zh": "规模、程度",
+      "sentence_ids": [
+        "p11-b-30-s02"
+      ],
+      "forms": [
+        "magnitude"
+      ],
+      "sense_id": "sense-staged-ox-47066d0f34eba32a-p11-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

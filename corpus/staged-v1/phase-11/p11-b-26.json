@@ -1,0 +1,100 @@
+{
+  "id": "p11-b-26",
+  "title_zh": "为影展选定两片搭配并核对人物简介",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "film-festival-programme-balance",
+    "label_zh": "为影展选定两片搭配并核对人物简介",
+    "goal_zh": "选择独立剧情片与主流喜剧搭配，并约定准确介绍剧情片中的女同性恋伴侣"
+  },
+  "participants": [
+    "Jules",
+    "Esther"
+  ],
+  "context_zh": "小型影展策划者讨论两部虚构影片及节目简介，人物身份来自影片情节。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-26-s01",
+      "speaker": "Jules",
+      "text": "We have a mainstream comedy for Saturday. What would give the line-up a different pace on Sunday?"
+    },
+    {
+      "id": "p11-b-26-s02",
+      "speaker": "Esther",
+      "text": "The independent film Second Opening. It's a quieter story about a lesbian couple reopening a bicycle shop."
+    },
+    {
+      "id": "p11-b-26-s03",
+      "speaker": "Jules",
+      "text": "I liked how the repairs bring their neighbours into the story. Does the programme call them sisters?"
+    },
+    {
+      "id": "p11-b-26-s04",
+      "speaker": "Esther",
+      "text": "It does, and that's wrong. The film clearly introduces them as partners."
+    },
+    {
+      "id": "p11-b-26-s05",
+      "speaker": "Jules",
+      "text": "Let's pair it with the comedy and fix that description. We should mention both their relationship and the shop."
+    },
+    {
+      "id": "p11-b-26-s06",
+      "speaker": "Esther",
+      "text": "Agreed. I'll write a short synopsis that reflects the actual story."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ec2ec629299a5460",
+      "lemma": "line-up",
+      "pos": "n.",
+      "sense_zh": "活动节目阵容",
+      "sentence_ids": [
+        "p11-b-26-s01"
+      ],
+      "forms": [
+        "line-up"
+      ],
+      "sense_id": "sense-staged-ox-ec2ec629299a5460-p11-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66dbd823d62e51c3",
+      "lemma": "lesbian",
+      "pos": "adj.",
+      "sense_zh": "女同性恋的",
+      "sentence_ids": [
+        "p11-b-26-s02"
+      ],
+      "forms": [
+        "lesbian"
+      ],
+      "sense_id": "sense-staged-ox-66dbd823d62e51c3-p11-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7d40a0b3f058f724",
+      "lemma": "mainstream",
+      "pos": "adj.",
+      "sense_zh": "主流的",
+      "sentence_ids": [
+        "p11-b-26-s01"
+      ],
+      "forms": [
+        "mainstream"
+      ],
+      "sense_id": "sense-staged-ox-7d40a0b3f058f724-p11-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p11-a-30",
+  "title_zh": "用桌面摆锤模型解释重力",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-pendulum-demonstration",
+    "label_zh": "用桌面摆锤模型解释重力",
+    "goal_zh": "澄清摆锤下降与重力的关系，并约定先放手观察而不是用力推动"
+  },
+  "participants": [
+    "Nadia",
+    "Felix"
+  ],
+  "context_zh": "科学老师与成年学习者使用低矮桌面上的软球摆锤模型，不使用大型或危险装置。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-30-s01",
+      "speaker": "Nadia",
+      "text": "I still cannot grasp why the ball speeds up as it swings downward."
+    },
+    {
+      "id": "p11-a-30-s02",
+      "speaker": "Felix",
+      "text": "Gravity pulls the ball downward, so it gains speed as it moves toward the bottom of its swing. We can watch that on this little model."
+    },
+    {
+      "id": "p11-a-30-s03",
+      "speaker": "Nadia",
+      "text": "Should I give it a push?"
+    },
+    {
+      "id": "p11-a-30-s04",
+      "speaker": "Felix",
+      "text": "Not for this comparison. Keep a light grip on the soft ball, then open your hand without pushing."
+    },
+    {
+      "id": "p11-a-30-s05",
+      "speaker": "Nadia",
+      "text": "So we are observing what happens from a release, not adding an extra shove."
+    },
+    {
+      "id": "p11-a-30-s06",
+      "speaker": "Felix",
+      "text": "Exactly. Let us watch one swing first, then talk about the change in speed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3d4455b58f90851f",
+      "lemma": "grasp",
+      "pos": "v.",
+      "sense_zh": "理解",
+      "sentence_ids": [
+        "p11-a-30-s01"
+      ],
+      "forms": [
+        "grasp"
+      ],
+      "sense_id": "sense-staged-ox-3d4455b58f90851f-p11-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1ffc968402a5f6e8",
+      "lemma": "gravity",
+      "pos": "n.",
+      "sense_zh": "重力",
+      "sentence_ids": [
+        "p11-a-30-s02"
+      ],
+      "forms": [
+        "gravity"
+      ],
+      "sense_id": "sense-staged-ox-1ffc968402a5f6e8-p11-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dcb86bbc4725455c",
+      "lemma": "grip",
+      "pos": "n.",
+      "sense_zh": "抓握",
+      "sentence_ids": [
+        "p11-a-30-s04"
+      ],
+      "forms": [
+        "grip"
+      ],
+      "sense_id": "sense-staged-ox-dcb86bbc4725455c-p11-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

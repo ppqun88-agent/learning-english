@@ -1,0 +1,126 @@
+{
+  "id": "p11-a-21",
+  "title_zh": "商定容许不同表达方式的团队工作坊",
+  "topic_id": "work",
+  "scenario": {
+    "id": "team-workshop-speaking-format",
+    "label_zh": "商定容许不同表达方式的团队工作坊",
+    "goal_zh": "明确工作坊不以消除分歧为目标，并选择口头与书面并行的参与方式"
+  },
+  "participants": [
+    "Hana",
+    "Russ"
+  ],
+  "context_zh": "团队负责人和主持人筹备一次关于工作流程的内部工作坊。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-21-s01",
+      "speaker": "Hana",
+      "text": "Can you facilitate the workshop without letting the loudest voices take over?"
+    },
+    {
+      "id": "p11-a-21-s02",
+      "speaker": "Russ",
+      "text": "Yes. I would like some flexibility in the format, especially for people who need time to think."
+    },
+    {
+      "id": "p11-a-21-s03",
+      "speaker": "Hana",
+      "text": "I want to foster a sense that everyone can contribute, not force everyone to agree."
+    },
+    {
+      "id": "p11-a-21-s04",
+      "speaker": "Russ",
+      "text": "Exactly. Harmony does not have to mean silence about problems."
+    },
+    {
+      "id": "p11-a-21-s05",
+      "speaker": "Hana",
+      "text": "What would you change?"
+    },
+    {
+      "id": "p11-a-21-s06",
+      "speaker": "Russ",
+      "text": "Let people write down a concern first, then offer a chance to discuss it aloud."
+    },
+    {
+      "id": "p11-a-21-s07",
+      "speaker": "Hana",
+      "text": "Let's do that, and let them hand in the note without speaking if they prefer."
+    },
+    {
+      "id": "p11-a-21-s08",
+      "speaker": "Russ",
+      "text": "That works. I'll build both options into the session."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f77c61788695a45d",
+      "lemma": "facilitate",
+      "pos": "v.",
+      "sense_zh": "引导；促成",
+      "sentence_ids": [
+        "p11-a-21-s01"
+      ],
+      "forms": [
+        "facilitate"
+      ],
+      "sense_id": "sense-staged-ox-f77c61788695a45d-p11-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c624678cdd800a16",
+      "lemma": "flexibility",
+      "pos": "n.",
+      "sense_zh": "灵活性",
+      "sentence_ids": [
+        "p11-a-21-s02"
+      ],
+      "forms": [
+        "flexibility"
+      ],
+      "sense_id": "sense-staged-ox-c624678cdd800a16-p11-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcedc9f87ca71a5f",
+      "lemma": "foster",
+      "pos": "v.",
+      "sense_zh": "促进；培养",
+      "sentence_ids": [
+        "p11-a-21-s03"
+      ],
+      "forms": [
+        "foster"
+      ],
+      "sense_id": "sense-staged-ox-bcedc9f87ca71a5f-p11-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12a35cf06c97f8ae",
+      "lemma": "harmony",
+      "pos": "n.",
+      "sense_zh": "和谐",
+      "sentence_ids": [
+        "p11-a-21-s04"
+      ],
+      "forms": [
+        "harmony"
+      ],
+      "sense_id": "sense-staged-ox-12a35cf06c97f8ae-p11-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

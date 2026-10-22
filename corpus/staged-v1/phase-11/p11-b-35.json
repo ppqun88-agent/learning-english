@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-35",
+  "title_zh": "改用大号磁性图形演示模型",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "magnetic-model-demo-without-laser",
+    "label_zh": "改用大号磁性图形演示模型",
+    "goal_zh": "发现后排看不清模型上的数字，并改用大号磁性图形完成可见性检查"
+  },
+  "participants": [
+    "Bea",
+    "Kenji"
+  ],
+  "context_zh": "两位教师在空教室中准备模型演示，一位站在前面，一位到后排检查视觉效果。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-35-s01",
+      "speaker": "Bea",
+      "text": "From the back row, those tiny numbers are almost invisible."
+    },
+    {
+      "id": "p11-b-35-s02",
+      "speaker": "Kenji",
+      "text": "Would a laser pointer help you follow the model?"
+    },
+    {
+      "id": "p11-b-35-s03",
+      "speaker": "Bea",
+      "text": "It would show me where you're pointing, but I still couldn't read the numbers. Could we use larger shapes instead?"
+    },
+    {
+      "id": "p11-b-35-s04",
+      "speaker": "Kenji",
+      "text": "I have these magnetic pieces. I can manipulate them on the board without covering the whole diagram with my hand."
+    },
+    {
+      "id": "p11-b-35-s05",
+      "speaker": "Bea",
+      "text": "Try the large red circle and the blue square."
+    },
+    {
+      "id": "p11-b-35-s06",
+      "speaker": "Kenji",
+      "text": "They're on the board now. Can you tell them apart from there?"
+    },
+    {
+      "id": "p11-b-35-s07",
+      "speaker": "Bea",
+      "text": "Clearly. We don't need the pointer. Let's use those for the demonstration and leave the small-number version in the handout."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c0517d1f65829880",
+      "lemma": "magnetic",
+      "pos": "adj.",
+      "sense_zh": "带磁性的",
+      "sentence_ids": [
+        "p11-b-35-s04"
+      ],
+      "forms": [
+        "magnetic"
+      ],
+      "sense_id": "sense-staged-ox-c0517d1f65829880-p11-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6c13b0ec76243bc3",
+      "lemma": "laser",
+      "pos": "n.",
+      "sense_zh": "激光",
+      "sentence_ids": [
+        "p11-b-35-s02"
+      ],
+      "forms": [
+        "laser"
+      ],
+      "sense_id": "sense-staged-ox-6c13b0ec76243bc3-p11-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe6b9b70bd0a81fd",
+      "lemma": "manipulate",
+      "pos": "v.",
+      "sense_zh": "操纵、摆弄物体",
+      "sentence_ids": [
+        "p11-b-35-s04"
+      ],
+      "forms": [
+        "manipulate"
+      ],
+      "sense_id": "sense-staged-ox-fe6b9b70bd0a81fd-p11-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1991865933becc75",
+      "lemma": "invisible",
+      "pos": "adj.",
+      "sense_zh": "看不见的",
+      "sentence_ids": [
+        "p11-b-35-s01"
+      ],
+      "forms": [
+        "invisible"
+      ],
+      "sense_id": "sense-staged-ox-1991865933becc75-p11-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

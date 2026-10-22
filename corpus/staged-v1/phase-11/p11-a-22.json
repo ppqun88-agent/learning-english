@@ -1,0 +1,100 @@
+{
+  "id": "p11-a-22",
+  "title_zh": "约定核实花园展板的植物与传统信息",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "garden-heritage-panel-review",
+    "label_zh": "约定核实花园展板的植物与传统信息",
+    "goal_zh": "区分原生植物与后引入植物，并约定请相关社群核对传统知识的介绍"
+  },
+  "participants": [
+    "Ari",
+    "Helen"
+  ],
+  "context_zh": "花园工作人员依据地方植物目录审阅展板，拟在公开前向当地原住民文化中心核实传统知识说明。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-22-s01",
+      "speaker": "Ari",
+      "text": "This panel says all the plants here are indigenous to the valley. Is that right?"
+    },
+    {
+      "id": "p11-a-22-s02",
+      "speaker": "Helen",
+      "text": "No. The local plant catalogue lists these three as native, but the roses were introduced later."
+    },
+    {
+      "id": "p11-a-22-s03",
+      "speaker": "Ari",
+      "text": "The roses certainly flourish here. I suppose that does not prove they came from here."
+    },
+    {
+      "id": "p11-a-22-s04",
+      "speaker": "Helen",
+      "text": "Exactly. And the paragraph about cultural heritage needs another check; we wrote it without input from the local Indigenous cultural centre."
+    },
+    {
+      "id": "p11-a-22-s05",
+      "speaker": "Ari",
+      "text": "I'll separate the plant origins, then ask the centre whether and how the traditional uses should be described."
+    },
+    {
+      "id": "p11-a-22-s06",
+      "speaker": "Helen",
+      "text": "Good. Keep that paragraph off the display until we have their response."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ec61040e5a1e547e",
+      "lemma": "indigenous",
+      "pos": "adj.",
+      "sense_zh": "原生的；本土的",
+      "sentence_ids": [
+        "p11-a-22-s01"
+      ],
+      "forms": [
+        "indigenous"
+      ],
+      "sense_id": "sense-staged-ox-ec61040e5a1e547e-p11-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45fedc0411daaadd",
+      "lemma": "flourish",
+      "pos": "v.",
+      "sense_zh": "茂盛生长",
+      "sentence_ids": [
+        "p11-a-22-s03"
+      ],
+      "forms": [
+        "flourish"
+      ],
+      "sense_id": "sense-staged-ox-45fedc0411daaadd-p11-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9c35f786198c2644",
+      "lemma": "heritage",
+      "pos": "n.",
+      "sense_zh": "文化遗产；传统",
+      "sentence_ids": [
+        "p11-a-22-s04"
+      ],
+      "forms": [
+        "heritage"
+      ],
+      "sense_id": "sense-staged-ox-9c35f786198c2644-p11-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

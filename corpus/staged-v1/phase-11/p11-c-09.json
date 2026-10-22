@@ -1,0 +1,132 @@
+{
+  "id": "p11-c-09",
+  "title_zh": "约定分开记录部分答卷与完整答卷",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "survey-partial-response-method",
+    "label_zh": "约定分开记录部分答卷与完整答卷",
+    "goal_zh": "说明未完成答卷的统计边界，并约定在方法说明中写明纳入条件"
+  },
+  "participants": [
+    "Iris",
+    "Malik"
+  ],
+  "context_zh": "研究方法课的两位学员讨论虚构问卷练习的数据处理。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-09-s01",
+      "speaker": "Iris",
+      "text": "Twenty people only partially completed the survey. Should we discard those responses?"
+    },
+    {
+      "id": "p11-c-09-s02",
+      "speaker": "Malik",
+      "text": "Not automatically. A partial response may still answer our first question, but it can’t tell us about the unanswered items."
+    },
+    {
+      "id": "p11-c-09-s03",
+      "speaker": "Iris",
+      "text": "Then we shouldn’t overlook the different number of answers to each question."
+    },
+    {
+      "id": "p11-c-09-s04",
+      "speaker": "Malik",
+      "text": "Right. One parameter of our analysis is whether the question was actually answered. We’ll report the count for every item."
+    },
+    {
+      "id": "p11-c-09-s05",
+      "speaker": "Iris",
+      "text": "I’ll describe that rule in the methodology section and keep partial and complete responses separate in the summary."
+    },
+    {
+      "id": "p11-c-09-s06",
+      "speaker": "Malik",
+      "text": "Good. That will make it clear which results use which answers."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b01e0f4a63c8cb38",
+      "lemma": "partially",
+      "pos": "adv.",
+      "sense_zh": "部分地",
+      "sentence_ids": [
+        "p11-c-09-s01"
+      ],
+      "forms": [
+        "partially"
+      ],
+      "sense_id": "sense-staged-ox-b01e0f4a63c8cb38-p11-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73f89c459148e55e",
+      "lemma": "partial",
+      "pos": "adj.",
+      "sense_zh": "不完整的；部分的",
+      "sentence_ids": [
+        "p11-c-09-s02"
+      ],
+      "forms": [
+        "partial"
+      ],
+      "sense_id": "sense-staged-ox-73f89c459148e55e-p11-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-626aec5db243ded0",
+      "lemma": "overlook",
+      "pos": "v.",
+      "sense_zh": "忽略",
+      "sentence_ids": [
+        "p11-c-09-s03"
+      ],
+      "forms": [
+        "overlook"
+      ],
+      "sense_id": "sense-staged-ox-626aec5db243ded0-p11-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17e28e26ebb09a76",
+      "lemma": "parameter",
+      "pos": "n.",
+      "sense_zh": "限定条件；界限",
+      "sentence_ids": [
+        "p11-c-09-s04"
+      ],
+      "forms": [
+        "parameter"
+      ],
+      "sense_id": "sense-staged-ox-17e28e26ebb09a76-p11-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0862097cfb70805",
+      "lemma": "methodology",
+      "pos": "n.",
+      "sense_zh": "研究方法体系",
+      "sentence_ids": [
+        "p11-c-09-s05"
+      ],
+      "forms": [
+        "methodology"
+      ],
+      "sense_id": "sense-staged-ox-a0862097cfb70805-p11-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

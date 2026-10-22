@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-19",
+  "title_zh": "约好先确认市属花园清理许可",
+  "topic_id": "community",
+  "scenario": {
+    "id": "municipal-garden-cleanup-request",
+    "label_zh": "约好先确认市属花园清理许可",
+    "goal_zh": "指出花园失于维护的情况，并约定先向市方确认志愿清理范围再组织人手"
+  },
+  "participants": [
+    "Tessa",
+    "Rob"
+  ],
+  "context_zh": "一位居民与社区非营利机构协调员商量清理市属花园。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-19-s01",
+      "speaker": "Tessa",
+      "text": "The municipal garden has weeds across the path and rubbish around the benches. It looks like months of neglect."
+    },
+    {
+      "id": "p11-c-19-s02",
+      "speaker": "Rob",
+      "text": "Our non-profit group could help, but the garden belongs to the city. We need to ask what we’re allowed to do."
+    },
+    {
+      "id": "p11-c-19-s03",
+      "speaker": "Tessa",
+      "text": "Could you mobilize volunteers once the city confirms the work?"
+    },
+    {
+      "id": "p11-c-19-s04",
+      "speaker": "Rob",
+      "text": "Yes. I can organize a small team, but I won’t invite anyone until we know the approved tasks and how the rubbish will be collected."
+    },
+    {
+      "id": "p11-c-19-s05",
+      "speaker": "Tessa",
+      "text": "I’ll contact the parks office about both points and bring you their reply."
+    },
+    {
+      "id": "p11-c-19-s06",
+      "speaker": "Rob",
+      "text": "Thanks. Then we can arrange a cleanup that fits their instructions."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0c493f1e38294627",
+      "lemma": "municipal",
+      "pos": "adj.",
+      "sense_zh": "市属的；市政的",
+      "sentence_ids": [
+        "p11-c-19-s01"
+      ],
+      "forms": [
+        "municipal"
+      ],
+      "sense_id": "sense-staged-ox-0c493f1e38294627-p11-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d63801e153615fca",
+      "lemma": "neglect",
+      "pos": "n.",
+      "sense_zh": "疏于照管；失修",
+      "sentence_ids": [
+        "p11-c-19-s01"
+      ],
+      "forms": [
+        "neglect"
+      ],
+      "sense_id": "sense-staged-ox-d63801e153615fca-p11-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ffaa40bf6f4af03",
+      "lemma": "non-profit",
+      "pos": "adj.",
+      "sense_zh": "非营利的",
+      "sentence_ids": [
+        "p11-c-19-s02"
+      ],
+      "forms": [
+        "non-profit"
+      ],
+      "sense_id": "sense-staged-ox-2ffaa40bf6f4af03-p11-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a513c043252ae5c",
+      "lemma": "mobilize",
+      "pos": "v.",
+      "sense_zh": "组织动员",
+      "sentence_ids": [
+        "p11-c-19-s03"
+      ],
+      "forms": [
+        "mobilize"
+      ],
+      "sense_id": "sense-staged-ox-8a513c043252ae5c-p11-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

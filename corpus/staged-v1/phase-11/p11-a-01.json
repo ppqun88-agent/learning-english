@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-01",
+  "title_zh": "商定软件发布前的补充演练",
+  "topic_id": "work",
+  "scenario": {
+    "id": "release-rehearsal-checkpoint",
+    "label_zh": "商定软件发布前的补充演练",
+    "goal_zh": "明确上次演练漏查的环节，并约定在测试环境演练新的检查步骤"
+  },
+  "participants": [
+    "Mara",
+    "Dev"
+  ],
+  "context_zh": "软件团队在发布前复核演练清单；本段只讨论测试安排，不执行真实发布。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-01-s01",
+      "speaker": "Mara",
+      "text": "With the release imminent, can we fit in one last rehearsal?"
+    },
+    {
+      "id": "p11-a-01-s02",
+      "speaker": "Dev",
+      "text": "Yes, but let's execute the checklist in the test environment, not on the live service."
+    },
+    {
+      "id": "p11-a-01-s03",
+      "speaker": "Mara",
+      "text": "The last rehearsal showed a gap in our execution: nobody checked the restored files."
+    },
+    {
+      "id": "p11-a-01-s04",
+      "speaker": "Dev",
+      "text": "Then implementation of the new backup step needs an owner."
+    },
+    {
+      "id": "p11-a-01-s05",
+      "speaker": "Mara",
+      "text": "I'll check the restored files. Can you watch the error log while I do that?"
+    },
+    {
+      "id": "p11-a-01-s06",
+      "speaker": "Dev",
+      "text": "Of course. We'll rehearse those steps together before we decide whether we're ready."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b1469952870620f8",
+      "lemma": "imminent",
+      "pos": "adj.",
+      "sense_zh": "即将发生的",
+      "sentence_ids": [
+        "p11-a-01-s01"
+      ],
+      "forms": [
+        "imminent"
+      ],
+      "sense_id": "sense-staged-ox-b1469952870620f8-p11-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9a21945b7538693b",
+      "lemma": "execute",
+      "pos": "v.",
+      "sense_zh": "执行",
+      "sentence_ids": [
+        "p11-a-01-s02"
+      ],
+      "forms": [
+        "execute"
+      ],
+      "sense_id": "sense-staged-ox-9a21945b7538693b-p11-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b6e6c8ac328e4c6",
+      "lemma": "execution",
+      "pos": "n.",
+      "sense_zh": "执行过程",
+      "sentence_ids": [
+        "p11-a-01-s03"
+      ],
+      "forms": [
+        "execution"
+      ],
+      "sense_id": "sense-staged-ox-2b6e6c8ac328e4c6-p11-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-46ef57772916e90b",
+      "lemma": "implementation",
+      "pos": "n.",
+      "sense_zh": "实施",
+      "sentence_ids": [
+        "p11-a-01-s04"
+      ],
+      "forms": [
+        "implementation"
+      ],
+      "sense_id": "sense-staged-ox-46ef57772916e90b-p11-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

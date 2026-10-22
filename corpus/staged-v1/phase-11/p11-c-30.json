@@ -1,0 +1,100 @@
+{
+  "id": "p11-c-30",
+  "title_zh": "约好转交反复耳鸣的回电请求",
+  "topic_id": "health",
+  "scenario": {
+    "id": "clinic-recurring-symptom-message",
+    "label_zh": "约好转交反复耳鸣的回电请求",
+    "goal_zh": "向诊所说明耳鸣反复出现的时间情况，并约定由接待员转交请临床人员回电的请求"
+  },
+  "participants": [
+    "Zoe",
+    "Receptionist Patel"
+  ],
+  "context_zh": "虚构诊所电话场景，成人患者向接待员描述情况并请求专业人员联系；不提供诊断或治疗建议。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-30-s01",
+      "speaker": "Zoe",
+      "text": "Could I speak to a general practitioner about a persistent ringing in my left ear?"
+    },
+    {
+      "id": "p11-c-30-s02",
+      "speaker": "Receptionist Patel",
+      "text": "I can pass on a message. When did you first notice it, and is it happening now?"
+    },
+    {
+      "id": "p11-c-30-s03",
+      "speaker": "Zoe",
+      "text": "The first occurrence was on Monday evening. It has come back each day, and I can hear it now."
+    },
+    {
+      "id": "p11-c-30-s04",
+      "speaker": "Receptionist Patel",
+      "text": "I’ll include that in the message and ask a clinician to call you today. I can’t assess the cause myself."
+    },
+    {
+      "id": "p11-c-30-s05",
+      "speaker": "Zoe",
+      "text": "Thank you. I’ll keep my phone with me so I can explain it directly."
+    },
+    {
+      "id": "p11-c-30-s06",
+      "speaker": "Receptionist Patel",
+      "text": "I have your current number here. I’ll send the callback request now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-39e38197294c7039",
+      "lemma": "practitioner",
+      "pos": "n.",
+      "sense_zh": "执业医师",
+      "sentence_ids": [
+        "p11-c-30-s01"
+      ],
+      "forms": [
+        "practitioner"
+      ],
+      "sense_id": "sense-staged-ox-39e38197294c7039-p11-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6ba8d06e3446403",
+      "lemma": "persistent",
+      "pos": "adj.",
+      "sense_zh": "持续存在或反复出现的",
+      "sentence_ids": [
+        "p11-c-30-s01"
+      ],
+      "forms": [
+        "persistent"
+      ],
+      "sense_id": "sense-staged-ox-d6ba8d06e3446403-p11-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-42321612058692fd",
+      "lemma": "occurrence",
+      "pos": "n.",
+      "sense_zh": "发生；出现的一次事件",
+      "sentence_ids": [
+        "p11-c-30-s03"
+      ],
+      "forms": [
+        "occurrence"
+      ],
+      "sense_id": "sense-staged-ox-42321612058692fd-p11-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

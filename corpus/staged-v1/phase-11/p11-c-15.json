@@ -1,0 +1,100 @@
+{
+  "id": "p11-c-15",
+  "title_zh": "约好试听找回的录音副本",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "recovered-recording-playback-plan",
+    "label_zh": "约好试听找回的录音副本",
+    "goal_zh": "回应朋友对录音恢复的期待，并约定试听副本后再判断内容是否完整"
+  },
+  "participants": [
+    "Dina",
+    "Marco"
+  ],
+  "context_zh": "朋友找到一份以为丢失的家庭录音备份，邀请另一人一起检查。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-15-s01",
+      "speaker": "Dina",
+      "text": "The backup folder has a file with my grandfather’s name on it. It feels like a miracle after all that searching."
+    },
+    {
+      "id": "p11-c-15-s02",
+      "speaker": "Marco",
+      "text": "That’s a reason for optimism, but the file name doesn’t tell us whether the recording still plays."
+    },
+    {
+      "id": "p11-c-15-s03",
+      "speaker": "Dina",
+      "text": "You’re right. I wanted to persist with the search, but I was starting to give up."
+    },
+    {
+      "id": "p11-c-15-s04",
+      "speaker": "Marco",
+      "text": "Let’s play a copy, so we leave the backup untouched. We can listen together this evening."
+    },
+    {
+      "id": "p11-c-15-s05",
+      "speaker": "Dina",
+      "text": "I’d like that. If it’s only a few minutes of his voice, I still want to hear it."
+    },
+    {
+      "id": "p11-c-15-s06",
+      "speaker": "Marco",
+      "text": "Come over at seven. We’ll find out what’s actually there before we celebrate the whole recording."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c01c00f5f78db8ac",
+      "lemma": "miracle",
+      "pos": "n.",
+      "sense_zh": "令人惊喜的奇迹般事件",
+      "sentence_ids": [
+        "p11-c-15-s01"
+      ],
+      "forms": [
+        "miracle"
+      ],
+      "sense_id": "sense-staged-ox-c01c00f5f78db8ac-p11-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e96a6df7c25a4b1c",
+      "lemma": "optimism",
+      "pos": "n.",
+      "sense_zh": "乐观；希望",
+      "sentence_ids": [
+        "p11-c-15-s02"
+      ],
+      "forms": [
+        "optimism"
+      ],
+      "sense_id": "sense-staged-ox-e96a6df7c25a4b1c-p11-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e23ae4311d6d4ef1",
+      "lemma": "persist",
+      "pos": "v.",
+      "sense_zh": "坚持",
+      "sentence_ids": [
+        "p11-c-15-s03"
+      ],
+      "forms": [
+        "persist"
+      ],
+      "sense_id": "sense-staged-ox-e23ae4311d6d4ef1-p11-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

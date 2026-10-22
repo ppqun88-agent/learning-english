@@ -1,0 +1,79 @@
+{
+  "id": "p11-a-39",
+  "title_zh": "约定修订诗歌朗读介绍中的情感概括",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "poetry-reading-emotional-tone",
+    "label_zh": "约定修订诗歌朗读介绍中的情感概括",
+    "goal_zh": "根据诗句区分仇恨与复杂回忆，并商定更贴合文本的朗读介绍"
+  },
+  "participants": [
+    "Nell",
+    "Hugo"
+  ],
+  "context_zh": "朗读会的两位参与者讨论一首虚构诗，诗中叙述者回忆与兄弟的争执及共同生活。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-39-s01",
+      "speaker": "Nell",
+      "text": "Your introduction says the speaker feels nothing but hatred toward his brother."
+    },
+    {
+      "id": "p11-a-39-s02",
+      "speaker": "Hugo",
+      "text": "I took that from the line about their last argument continuing to haunt him."
+    },
+    {
+      "id": "p11-a-39-s03",
+      "speaker": "Nell",
+      "text": "But later he remembers their childhood with affection. Being troubled by a memory is not the same as hating someone."
+    },
+    {
+      "id": "p11-a-39-s04",
+      "speaker": "Hugo",
+      "text": "You are right. I will introduce it as a poem about anger mixed with affection and regret."
+    },
+    {
+      "id": "p11-a-39-s05",
+      "speaker": "Nell",
+      "text": "That gives the audience room to hear the different feelings in the poem."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f8c4503499a02c13",
+      "lemma": "hatred",
+      "pos": "n.",
+      "sense_zh": "仇恨",
+      "sentence_ids": [
+        "p11-a-39-s01"
+      ],
+      "forms": [
+        "hatred"
+      ],
+      "sense_id": "sense-staged-ox-f8c4503499a02c13-p11-a-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-82b3ae18150aa45a",
+      "lemma": "haunt",
+      "pos": "v.",
+      "sense_zh": "长久困扰；萦绕心头",
+      "sentence_ids": [
+        "p11-a-39-s02"
+      ],
+      "forms": [
+        "haunt"
+      ],
+      "sense_id": "sense-staged-ox-82b3ae18150aa45a-p11-a-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

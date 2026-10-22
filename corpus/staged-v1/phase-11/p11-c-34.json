@@ -1,0 +1,100 @@
+{
+  "id": "p11-c-34",
+  "title_zh": "明确管线施工通行安排的联系人",
+  "topic_id": "community",
+  "scenario": {
+    "id": "pipeline-works-update-owner",
+    "label_zh": "明确管线施工通行安排的联系人",
+    "goal_zh": "询问水管施工期间的通行影响，并约定由协调员核实二十六号门口通行方案后提供图示及联络号码"
+  },
+  "participants": [
+    "Paul",
+    "Rina"
+  ],
+  "context_zh": "居民向虚构城市供水工程的现场协调员询问步行通道安排。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-34-s01",
+      "speaker": "Paul",
+      "text": "The notice says the water pipeline will be replaced along this street. Who can explain how we’ll reach our front doors?"
+    },
+    {
+      "id": "p11-c-34-s02",
+      "speaker": "Rina",
+      "text": "I oversee communication with residents. The crew plans to work in short sections to minimize disruption, but I need to check the arrangement for your entrance."
+    },
+    {
+      "id": "p11-c-34-s03",
+      "speaker": "Paul",
+      "text": "It’s number twenty-six. My mother uses a walking frame, so a general notice won’t tell us enough."
+    },
+    {
+      "id": "p11-c-34-s04",
+      "speaker": "Rina",
+      "text": "I’ll ask the site supervisor about that doorway and bring you the marked access plan before work reaches this block."
+    },
+    {
+      "id": "p11-c-34-s05",
+      "speaker": "Paul",
+      "text": "Could you also put your contact number on it in case the arrangement changes?"
+    },
+    {
+      "id": "p11-c-34-s06",
+      "speaker": "Rina",
+      "text": "Yes. I’ll be your contact for updates, and I’ll include the number on the plan."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3aaf03feff183ee1",
+      "lemma": "pipeline",
+      "pos": "n.",
+      "sense_zh": "管线；管道",
+      "sentence_ids": [
+        "p11-c-34-s01"
+      ],
+      "forms": [
+        "pipeline"
+      ],
+      "sense_id": "sense-staged-ox-3aaf03feff183ee1-p11-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-632d20a0cfbf87bf",
+      "lemma": "oversee",
+      "pos": "v.",
+      "sense_zh": "监督；负责协调",
+      "sentence_ids": [
+        "p11-c-34-s02"
+      ],
+      "forms": [
+        "oversee"
+      ],
+      "sense_id": "sense-staged-ox-632d20a0cfbf87bf-p11-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d7363c08139ec619",
+      "lemma": "minimize",
+      "pos": "v.",
+      "sense_zh": "尽量减少",
+      "sentence_ids": [
+        "p11-c-34-s02"
+      ],
+      "forms": [
+        "minimize"
+      ],
+      "sense_id": "sense-staged-ox-d7363c08139ec619-p11-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

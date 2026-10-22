@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-12",
+  "title_zh": "选择小规模的图书馆筹款活动",
+  "topic_id": "community",
+  "scenario": {
+    "id": "library-fundraising-scale-choice",
+    "label_zh": "选择小规模的图书馆筹款活动",
+    "goal_zh": "区分初步积极反馈与落实的资助，并商定先办小型读书活动"
+  },
+  "participants": [
+    "Alana",
+    "Luis"
+  ],
+  "context_zh": "虚构社区图书馆筹款讨论，所述捐款和反馈仅用于英语交流练习。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-12-s01",
+      "speaker": "Alana",
+      "text": "The early response to our fundraising idea has been favorable. Are you feeling hopeful?"
+    },
+    {
+      "id": "p11-a-12-s02",
+      "speaker": "Luis",
+      "text": "I am, but those are encouraging emails, not confirmed donations."
+    },
+    {
+      "id": "p11-a-12-s03",
+      "speaker": "Alana",
+      "text": "Would a high-profile guest help us launch with a big event?"
+    },
+    {
+      "id": "p11-a-12-s04",
+      "speaker": "Luis",
+      "text": "Possibly, but we do not have the money to book a large venue. Why not start with a small reading here?"
+    },
+    {
+      "id": "p11-a-12-s05",
+      "speaker": "Alana",
+      "text": "That makes sense. Let's plan for twenty people in the library, with no ticket charge."
+    },
+    {
+      "id": "p11-a-12-s06",
+      "speaker": "Luis",
+      "text": "Agreed. I'll draft that smaller plan before we ask anyone for support."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1e1804164203a39e",
+      "lemma": "fundraising",
+      "pos": "n.",
+      "sense_zh": "筹款",
+      "sentence_ids": [
+        "p11-a-12-s01"
+      ],
+      "forms": [
+        "fundraising"
+      ],
+      "sense_id": "sense-staged-ox-1e1804164203a39e-p11-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88102cf30f6e3d1a",
+      "lemma": "favorable",
+      "pos": "adj.",
+      "sense_zh": "积极赞同的；有利的",
+      "sentence_ids": [
+        "p11-a-12-s01"
+      ],
+      "forms": [
+        "favorable"
+      ],
+      "sense_id": "sense-staged-ox-88102cf30f6e3d1a-p11-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54dff7ded5c70775",
+      "lemma": "hopeful",
+      "pos": "adj.",
+      "sense_zh": "抱有希望的",
+      "sentence_ids": [
+        "p11-a-12-s01"
+      ],
+      "forms": [
+        "hopeful"
+      ],
+      "sense_id": "sense-staged-ox-54dff7ded5c70775-p11-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8412d361a2d85a58",
+      "lemma": "high-profile",
+      "pos": "adj.",
+      "sense_zh": "备受公众关注的",
+      "sentence_ids": [
+        "p11-a-12-s03"
+      ],
+      "forms": [
+        "high-profile"
+      ],
+      "sense_id": "sense-staged-ox-8412d361a2d85a58-p11-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

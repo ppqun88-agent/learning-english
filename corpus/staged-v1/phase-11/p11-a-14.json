@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-14",
+  "title_zh": "拟定读书小组轮值主持提案",
+  "topic_id": "community",
+  "scenario": {
+    "id": "fictional-reading-group-governance",
+    "label_zh": "拟定读书小组轮值主持提案",
+    "goal_zh": "讨论主持层级对参与的影响，并约定向全组提出轮值主持试行方案"
+  },
+  "participants": [
+    "Mira",
+    "Jo"
+  ],
+  "context_zh": "虚构的女性主义读书小组成员讨论小组内部组织方式，不代表现实政治组织或政策建议。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-14-s01",
+      "speaker": "Mira",
+      "text": "Our feminist reading group talks about inclusion, but the same two people lead every meeting."
+    },
+    {
+      "id": "p11-a-14-s02",
+      "speaker": "Jo",
+      "text": "That creates a hierarchy, even if nobody intended it. New members rarely get to choose a book."
+    },
+    {
+      "id": "p11-a-14-s03",
+      "speaker": "Mira",
+      "text": "Could we change the governance of the group so that the host rotates?"
+    },
+    {
+      "id": "p11-a-14-s04",
+      "speaker": "Jo",
+      "text": "We should ask everyone first. Some people may prefer not to host."
+    },
+    {
+      "id": "p11-a-14-s05",
+      "speaker": "Mira",
+      "text": "Then let's propose a voluntary rotation for three meetings and review it afterward."
+    },
+    {
+      "id": "p11-a-14-s06",
+      "speaker": "Jo",
+      "text": "Agreed. I'll put that proposal on the agenda, not announce it as an adopted rule."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f1de25d660f2daab",
+      "lemma": "feminist",
+      "pos": "adj.",
+      "sense_zh": "女性主义的",
+      "sentence_ids": [
+        "p11-a-14-s01"
+      ],
+      "forms": [
+        "feminist"
+      ],
+      "sense_id": "sense-staged-ox-f1de25d660f2daab-p11-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a8190c3beb4a9985",
+      "lemma": "inclusion",
+      "pos": "n.",
+      "sense_zh": "包容；参与机会",
+      "sentence_ids": [
+        "p11-a-14-s01"
+      ],
+      "forms": [
+        "inclusion"
+      ],
+      "sense_id": "sense-staged-ox-a8190c3beb4a9985-p11-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6111447faf2622ce",
+      "lemma": "hierarchy",
+      "pos": "n.",
+      "sense_zh": "等级结构",
+      "sentence_ids": [
+        "p11-a-14-s02"
+      ],
+      "forms": [
+        "hierarchy"
+      ],
+      "sense_id": "sense-staged-ox-6111447faf2622ce-p11-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-acdcd49f188495d0",
+      "lemma": "governance",
+      "pos": "n.",
+      "sense_zh": "管理方式；治理",
+      "sentence_ids": [
+        "p11-a-14-s03"
+      ],
+      "forms": [
+        "governance"
+      ],
+      "sense_id": "sense-staged-ox-acdcd49f188495d0-p11-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

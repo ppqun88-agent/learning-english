@@ -1,0 +1,132 @@
+{
+  "id": "p11-c-11",
+  "title_zh": "选定不靠近鸟巢的池塘观察点",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "pond-migration-observation-boundary",
+    "label_zh": "选定不靠近鸟巢的池塘观察点",
+    "goal_zh": "确认观察范围，并约定从远处记录鸟类而不把未见雏鸟解释为捕食结果"
+  },
+  "participants": [
+    "Sylvia",
+    "Owen"
+  ],
+  "context_zh": "自然观察小组的成人新成员向带队志愿者询问池塘观察位置。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-11-s01",
+      "speaker": "Sylvia",
+      "text": "Is this pond a good place to watch the spring migration?"
+    },
+    {
+      "id": "p11-c-11-s02",
+      "speaker": "Owen",
+      "text": "Yes, from the viewing screen. There’s also a nest in the reeds, so we stay on this side of the rope."
+    },
+    {
+      "id": "p11-c-11-s03",
+      "speaker": "Sylvia",
+      "text": "I can see one adult bird, but none of its offspring. Could a predator have taken them?"
+    },
+    {
+      "id": "p11-c-11-s04",
+      "speaker": "Owen",
+      "text": "We can’t tell from here. They may simply be out of sight; let’s record what we actually see."
+    },
+    {
+      "id": "p11-c-11-s05",
+      "speaker": "Sylvia",
+      "text": "All right. I’ll note one adult by the reeds, not an empty nest."
+    },
+    {
+      "id": "p11-c-11-s06",
+      "speaker": "Owen",
+      "text": "Good. We’ll use the screen and leave the birds undisturbed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1ecfcf32d5f52c1f",
+      "lemma": "pond",
+      "pos": "n.",
+      "sense_zh": "池塘",
+      "sentence_ids": [
+        "p11-c-11-s01"
+      ],
+      "forms": [
+        "pond"
+      ],
+      "sense_id": "sense-staged-ox-1ecfcf32d5f52c1f-p11-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ffa6aaf03606efc8",
+      "lemma": "migration",
+      "pos": "n.",
+      "sense_zh": "迁徙",
+      "sentence_ids": [
+        "p11-c-11-s01"
+      ],
+      "forms": [
+        "migration"
+      ],
+      "sense_id": "sense-staged-ox-ffa6aaf03606efc8-p11-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d1a34281887871e",
+      "lemma": "nest",
+      "pos": "n.",
+      "sense_zh": "鸟巢",
+      "sentence_ids": [
+        "p11-c-11-s02"
+      ],
+      "forms": [
+        "nest"
+      ],
+      "sense_id": "sense-staged-ox-1d1a34281887871e-p11-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4bf9ff7ce6e32647",
+      "lemma": "offspring",
+      "pos": "n.",
+      "sense_zh": "幼崽；后代",
+      "sentence_ids": [
+        "p11-c-11-s03"
+      ],
+      "forms": [
+        "offspring"
+      ],
+      "sense_id": "sense-staged-ox-4bf9ff7ce6e32647-p11-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c1e6ef7c7dec70fb",
+      "lemma": "predator",
+      "pos": "n.",
+      "sense_zh": "捕食性动物",
+      "sentence_ids": [
+        "p11-c-11-s03"
+      ],
+      "forms": [
+        "predator"
+      ],
+      "sense_id": "sense-staged-ox-c1e6ef7c7dec70fb-p11-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p11-b-23",
+  "title_zh": "为成人读书会选择暴力描写较少的悬疑小说",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "mystery-reading-content-choice",
+    "label_zh": "为成人读书会选择暴力描写较少的悬疑小说",
+    "goal_zh": "比较两本虚构小说的暴力内容，并选定绑架发生在场外且不描写伤害的一本"
+  },
+  "participants": [
+    "Cora",
+    "Malik"
+  ],
+  "context_zh": "成人读书会组织者比较两本原创虚构悬疑小说的内容简介，不涉及真实犯罪。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-23-s01",
+      "speaker": "Cora",
+      "text": "We're choosing between The Empty Platform and Last Witness. Have you read the content notes?"
+    },
+    {
+      "id": "p11-b-23-s02",
+      "speaker": "Malik",
+      "text": "Yes. In The Empty Platform, criminals kidnap a witness, but it happens off the page and no injuries are described."
+    },
+    {
+      "id": "p11-b-23-s03",
+      "speaker": "Cora",
+      "text": "And Last Witness?"
+    },
+    {
+      "id": "p11-b-23-s04",
+      "speaker": "Malik",
+      "text": "It opens with a lethal attack described in detail. The rest of the plot keeps returning to it."
+    },
+    {
+      "id": "p11-b-23-s05",
+      "speaker": "Cora",
+      "text": "Our members asked for a lesser degree of violence this month, not another graphic opening."
+    },
+    {
+      "id": "p11-b-23-s06",
+      "speaker": "Malik",
+      "text": "Then The Empty Platform seems the better fit. We should still mention the kidnapping in our introduction."
+    },
+    {
+      "id": "p11-b-23-s07",
+      "speaker": "Cora",
+      "text": "Let's choose that one and include the content note when we announce it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-72d1661609c33d96",
+      "lemma": "kidnap",
+      "pos": "v.",
+      "sense_zh": "绑架",
+      "sentence_ids": [
+        "p11-b-23-s02"
+      ],
+      "forms": [
+        "kidnap"
+      ],
+      "sense_id": "sense-staged-ox-72d1661609c33d96-p11-b-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-99b0a56bc871dca5",
+      "lemma": "lethal",
+      "pos": "adj.",
+      "sense_zh": "致命的",
+      "sentence_ids": [
+        "p11-b-23-s04"
+      ],
+      "forms": [
+        "lethal"
+      ],
+      "sense_id": "sense-staged-ox-99b0a56bc871dca5-p11-b-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76714c5019602aba",
+      "lemma": "lesser",
+      "pos": "adj.",
+      "sense_zh": "较小的、较少的",
+      "sentence_ids": [
+        "p11-b-23-s05"
+      ],
+      "forms": [
+        "lesser"
+      ],
+      "sense_id": "sense-staged-ox-76714c5019602aba-p11-b-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

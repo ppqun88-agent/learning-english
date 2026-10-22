@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-04",
+  "title_zh": "核对小说人物的流亡经历与未知结局",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fictional-exile-plot-summary",
+    "label_zh": "核对小说人物的流亡经历与未知结局",
+    "goal_zh": "区分小说已交代的离乡经历和未交代的结局，并商定简介的表述"
+  },
+  "participants": [
+    "Lena",
+    "Owen"
+  ],
+  "context_zh": "读书会成员依据虚构小说《河的另一端》前四章修订无剧透简介。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-04-s01",
+      "speaker": "Lena",
+      "text": "My summary says that Sora returns to her homeland at the end of chapter four."
+    },
+    {
+      "id": "p11-a-04-s02",
+      "speaker": "Owen",
+      "text": "She only hopes to. She's still living in exile when that chapter ends."
+    },
+    {
+      "id": "p11-a-04-s03",
+      "speaker": "Lena",
+      "text": "Right. She had to flee after the border guards came looking for her brother."
+    },
+    {
+      "id": "p11-a-04-s04",
+      "speaker": "Owen",
+      "text": "And we don't know her brother's fate. The last letter just says he left the village."
+    },
+    {
+      "id": "p11-a-04-s05",
+      "speaker": "Lena",
+      "text": "Then I'll write: Sora longs to return home while waiting for news of her brother."
+    },
+    {
+      "id": "p11-a-04-s06",
+      "speaker": "Owen",
+      "text": "That fits the chapters we have read. Keep the return out of the summary."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6fcc061fc024a435",
+      "lemma": "homeland",
+      "pos": "n.",
+      "sense_zh": "祖国；故乡",
+      "sentence_ids": [
+        "p11-a-04-s01"
+      ],
+      "forms": [
+        "homeland"
+      ],
+      "sense_id": "sense-staged-ox-6fcc061fc024a435-p11-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8e5625d238b724e7",
+      "lemma": "exile",
+      "pos": "n.",
+      "sense_zh": "流亡",
+      "sentence_ids": [
+        "p11-a-04-s02"
+      ],
+      "forms": [
+        "exile"
+      ],
+      "sense_id": "sense-staged-ox-8e5625d238b724e7-p11-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1feae6573ede0721",
+      "lemma": "flee",
+      "pos": "v.",
+      "sense_zh": "逃离",
+      "sentence_ids": [
+        "p11-a-04-s03"
+      ],
+      "forms": [
+        "flee"
+      ],
+      "sense_id": "sense-staged-ox-1feae6573ede0721-p11-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-09a6675455cb466f",
+      "lemma": "fate",
+      "pos": "n.",
+      "sense_zh": "命运；最终遭遇",
+      "sentence_ids": [
+        "p11-a-04-s04"
+      ],
+      "forms": [
+        "fate"
+      ],
+      "sense_id": "sense-staged-ox-09a6675455cb466f-p11-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-20",
+  "title_zh": "按销售曲线修正下降幅度的表述",
+  "topic_id": "work",
+  "scenario": {
+    "id": "fictional-sales-outlook-wording",
+    "label_zh": "按销售曲线修正下降幅度的表述",
+    "goal_zh": "区分峰值后的小幅回落与暴跌，并约定不凭一周数据预测后续走势"
+  },
+  "participants": [
+    "Milo",
+    "June"
+  ],
+  "context_zh": "同事练习解读一份虚构商店月度销售图，不涉及真实投资建议。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-20-s01",
+      "speaker": "Milo",
+      "text": "Sales reached a peak of two hundred units in week three, then fell to a hundred and eighty."
+    },
+    {
+      "id": "p11-c-20-s02",
+      "speaker": "June",
+      "text": "The draft says sales plunge after week three. Isn’t that a fairly moderate fall compared with the earlier rise?"
+    },
+    {
+      "id": "p11-c-20-s03",
+      "speaker": "Milo",
+      "text": "Yes. The line looks dramatic because the vertical scale starts at a hundred and seventy."
+    },
+    {
+      "id": "p11-c-20-s04",
+      "speaker": "June",
+      "text": "And what supports the gloomy outlook in the final sentence?"
+    },
+    {
+      "id": "p11-c-20-s05",
+      "speaker": "Milo",
+      "text": "Nothing beyond that one week. I’ll describe the fall without predicting what happens next."
+    },
+    {
+      "id": "p11-c-20-s06",
+      "speaker": "June",
+      "text": "Good. Keep the actual numbers so readers can judge the size of the change."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3a0147976f0c8a94",
+      "lemma": "peak",
+      "pos": "n.",
+      "sense_zh": "最高点；峰值",
+      "sentence_ids": [
+        "p11-c-20-s01"
+      ],
+      "forms": [
+        "peak"
+      ],
+      "sense_id": "sense-staged-ox-3a0147976f0c8a94-p11-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6cd6670ec171a8c3",
+      "lemma": "plunge",
+      "pos": "v.",
+      "sense_zh": "骤降；暴跌",
+      "sentence_ids": [
+        "p11-c-20-s02"
+      ],
+      "forms": [
+        "plunge"
+      ],
+      "sense_id": "sense-staged-ox-6cd6670ec171a8c3-p11-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f207d26b16965ed2",
+      "lemma": "moderate",
+      "pos": "adj.",
+      "sense_zh": "适度的；不大的",
+      "sentence_ids": [
+        "p11-c-20-s02"
+      ],
+      "forms": [
+        "moderate"
+      ],
+      "sense_id": "sense-staged-ox-f207d26b16965ed2-p11-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76f70d6b693ec9b0",
+      "lemma": "outlook",
+      "pos": "n.",
+      "sense_zh": "前景；展望",
+      "sentence_ids": [
+        "p11-c-20-s04"
+      ],
+      "forms": [
+        "outlook"
+      ],
+      "sense_id": "sense-staged-ox-76f70d6b693ec9b0-p11-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

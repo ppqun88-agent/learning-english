@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-25",
+  "title_zh": "分工通知客户与培训人员改期",
+  "topic_id": "work",
+  "scenario": {
+    "id": "team-launch-notification-split",
+    "label_zh": "分工通知客户与培训人员改期",
+    "goal_zh": "确认双方都希望避免无谓到场，并约定在中午前分别通知两类受影响人员"
+  },
+  "participants": [
+    "Rowan",
+    "Imani"
+  ],
+  "context_zh": "两个项目同事为一次已改到周五的产品培训协调通知工作。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-25-s01",
+      "speaker": "Rowan",
+      "text": "Our mutual aim is to stop people arriving for a session that isn’t happening tomorrow."
+    },
+    {
+      "id": "p11-c-25-s02",
+      "speaker": "Imani",
+      "text": "Right. The new date is Friday, but two groups still need to know, namely the customers and the trainers."
+    },
+    {
+      "id": "p11-c-25-s03",
+      "speaker": "Rowan",
+      "text": "I can notify the customers. Can you contact the trainers?"
+    },
+    {
+      "id": "p11-c-25-s04",
+      "speaker": "Imani",
+      "text": "Yes. I’ll explain the change and ask each trainer to confirm they’ve seen it."
+    },
+    {
+      "id": "p11-c-25-s05",
+      "speaker": "Rowan",
+      "text": "Let’s get both sets of messages out by noon, then compare who has replied."
+    },
+    {
+      "id": "p11-c-25-s06",
+      "speaker": "Imani",
+      "text": "Agreed. I’ll send you my reply list after lunch."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-daf167e169f673fd",
+      "lemma": "mutual",
+      "pos": "adj.",
+      "sense_zh": "共同的",
+      "sentence_ids": [
+        "p11-c-25-s01"
+      ],
+      "forms": [
+        "mutual"
+      ],
+      "sense_id": "sense-staged-ox-daf167e169f673fd-p11-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7202c2deae35c7ee",
+      "lemma": "namely",
+      "pos": "adv.",
+      "sense_zh": "即；也就是",
+      "sentence_ids": [
+        "p11-c-25-s02"
+      ],
+      "forms": [
+        "namely"
+      ],
+      "sense_id": "sense-staged-ox-7202c2deae35c7ee-p11-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-897d6fa3b3cd6736",
+      "lemma": "notify",
+      "pos": "v.",
+      "sense_zh": "通知",
+      "sentence_ids": [
+        "p11-c-25-s03"
+      ],
+      "forms": [
+        "notify"
+      ],
+      "sense_id": "sense-staged-ox-897d6fa3b3cd6736-p11-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-246f1771ddafdc44",
+      "lemma": "noon",
+      "pos": "n.",
+      "sense_zh": "中午",
+      "sentence_ids": [
+        "p11-c-25-s05"
+      ],
+      "forms": [
+        "noon"
+      ],
+      "sense_id": "sense-staged-ox-246f1771ddafdc44-p11-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

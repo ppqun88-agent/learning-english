@@ -1,0 +1,126 @@
+{
+  "id": "p11-b-13",
+  "title_zh": "逐项测试并记录录音背景噪声",
+  "topic_id": "work",
+  "scenario": {
+    "id": "studio-hum-isolation-test",
+    "label_zh": "逐项测试并记录录音背景噪声",
+    "goal_zh": "区分观察到的噪声与尚未确定的原因，并约定单独改变设备状态后记录比较结果"
+  },
+  "participants": [
+    "Ren",
+    "Paula"
+  ],
+  "context_zh": "录音室工作人员检查一段八秒试录中的嗡嗡声，尚未确定原因。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-13-s01",
+      "speaker": "Ren",
+      "text": "There's a hum in this test recording. It starts just as the printer begins running."
+    },
+    {
+      "id": "p11-b-13-s02",
+      "speaker": "Paula",
+      "text": "It could be interference, but the timing alone doesn't prove where it's coming from."
+    },
+    {
+      "id": "p11-b-13-s03",
+      "speaker": "Ren",
+      "text": "I'll play the eight-second section on a loop so we can hear the change."
+    },
+    {
+      "id": "p11-b-13-s04",
+      "speaker": "Paula",
+      "text": "Then let's make a fresh recording with the printer switched off and everything else unchanged."
+    },
+    {
+      "id": "p11-b-13-s05",
+      "speaker": "Ren",
+      "text": "Should I also move the microphone?"
+    },
+    {
+      "id": "p11-b-13-s06",
+      "speaker": "Paula",
+      "text": "Not in the same test. That would interfere with the comparison. Let's change one thing at a time."
+    },
+    {
+      "id": "p11-b-13-s07",
+      "speaker": "Ren",
+      "text": "Understood. I'll log the equipment settings and the result for each recording."
+    },
+    {
+      "id": "p11-b-13-s08",
+      "speaker": "Paula",
+      "text": "Good. We'll compare the first pair before deciding what to test next."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4187012ba4e12622",
+      "lemma": "interfere",
+      "pos": "v.",
+      "sense_zh": "干扰、妨碍",
+      "sentence_ids": [
+        "p11-b-13-s06"
+      ],
+      "forms": [
+        "interfere"
+      ],
+      "sense_id": "sense-staged-ox-4187012ba4e12622-p11-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1aa08cdf28b02f08",
+      "lemma": "interference",
+      "pos": "n.",
+      "sense_zh": "电磁或信号干扰",
+      "sentence_ids": [
+        "p11-b-13-s02"
+      ],
+      "forms": [
+        "interference"
+      ],
+      "sense_id": "sense-staged-ox-1aa08cdf28b02f08-p11-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-133afd243ad290f4",
+      "lemma": "loop",
+      "pos": "n.",
+      "sense_zh": "循环播放的片段",
+      "sentence_ids": [
+        "p11-b-13-s03"
+      ],
+      "forms": [
+        "loop"
+      ],
+      "sense_id": "sense-staged-ox-133afd243ad290f4-p11-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-48633d32a327aac6",
+      "lemma": "log",
+      "pos": "v.",
+      "sense_zh": "记录",
+      "sentence_ids": [
+        "p11-b-13-s07"
+      ],
+      "forms": [
+        "log"
+      ],
+      "sense_id": "sense-staged-ox-48633d32a327aac6-p11-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

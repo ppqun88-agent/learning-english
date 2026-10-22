@@ -1,0 +1,110 @@
+{
+  "id": "p11-b-29",
+  "title_zh": "约定向平台提交重复评论线索供核查",
+  "topic_id": "services",
+  "scenario": {
+    "id": "marketplace-review-evidence-report",
+    "label_zh": "约定向平台提交重复评论线索供核查",
+    "goal_zh": "区分重复文本与操纵评论结论，并约定提交评论链接、重复文本及日期而不猜测作者"
+  },
+  "participants": [
+    "Hassan",
+    "Iris"
+  ],
+  "context_zh": "虚构网上交易平台客服对话。顾客发现评论文本重复，希望平台核查，没有交易或真实商家指控。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-29-s01",
+      "speaker": "Hassan",
+      "text": "I'm a long-standing customer of this seller, but five recent reviews use exactly the same unusual paragraph."
+    },
+    {
+      "id": "p11-b-29-s02",
+      "speaker": "Iris",
+      "text": "Have you saved the review links on our marketplace?"
+    },
+    {
+      "id": "p11-b-29-s03",
+      "speaker": "Hassan",
+      "text": "Yes. Is that proof of review manipulation?"
+    },
+    {
+      "id": "p11-b-29-s04",
+      "speaker": "Iris",
+      "text": "It's a reason to investigate, not enough for me to make that finding. We would need to check how those reviews were submitted."
+    },
+    {
+      "id": "p11-b-29-s05",
+      "speaker": "Hassan",
+      "text": "What should I include in the report?"
+    },
+    {
+      "id": "p11-b-29-s06",
+      "speaker": "Iris",
+      "text": "The links, the repeated text, and the dates you can see. Please separate those observations from any guess about who wrote them."
+    },
+    {
+      "id": "p11-b-29-s07",
+      "speaker": "Hassan",
+      "text": "I'll submit that evidence without claiming I know who is responsible."
+    },
+    {
+      "id": "p11-b-29-s08",
+      "speaker": "Iris",
+      "text": "Thank you. Our review team can assess it once you've submitted it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b8e0587461ac115a",
+      "lemma": "marketplace",
+      "pos": "n.",
+      "sense_zh": "网上交易平台",
+      "sentence_ids": [
+        "p11-b-29-s02"
+      ],
+      "forms": [
+        "marketplace"
+      ],
+      "sense_id": "sense-staged-ox-b8e0587461ac115a-p11-b-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-124ab5d2428a4861",
+      "lemma": "long-standing",
+      "pos": "adj.",
+      "sense_zh": "长期的、存在已久的",
+      "sentence_ids": [
+        "p11-b-29-s01"
+      ],
+      "forms": [
+        "long-standing"
+      ],
+      "sense_id": "sense-staged-ox-124ab5d2428a4861-p11-b-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-46ce80a7ff3ffa8f",
+      "lemma": "manipulation",
+      "pos": "n.",
+      "sense_zh": "操纵、蓄意控制",
+      "sentence_ids": [
+        "p11-b-29-s03"
+      ],
+      "forms": [
+        "manipulation"
+      ],
+      "sense_id": "sense-staged-ox-46ce80a7ff3ffa8f-p11-b-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

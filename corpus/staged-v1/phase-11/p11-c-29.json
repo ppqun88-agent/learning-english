@@ -1,0 +1,84 @@
+{
+  "id": "p11-c-29",
+  "title_zh": "约定书面确认展示柜借期延长的例外条件",
+  "topic_id": "services",
+  "scenario": {
+    "id": "display-case-loan-extension-conditions",
+    "label_zh": "约定书面确认展示柜借期延长的例外条件",
+    "goal_zh": "核对借用展示柜的归还期限，并约定在书面延期确认前仍按原期限安排归还"
+  },
+  "participants": [
+    "Gareth",
+    "Anika"
+  ],
+  "context_zh": "虚构地方展览的组织者向器材出借员询问能否多借一天展示柜，纯属服务沟通练习。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-29-s01",
+      "speaker": "Gareth",
+      "text": "Does our loan agreement oblige us to return the display case on Friday, even if the exhibition runs late?"
+    },
+    {
+      "id": "p11-c-29-s02",
+      "speaker": "Anika",
+      "text": "Yes. That’s the agreed date. I may be able to allow one extra day, but I need to check the next booking."
+    },
+    {
+      "id": "p11-c-29-s03",
+      "speaker": "Gareth",
+      "text": "Would that set a precedent for future exhibitions? We don’t want anyone to assume extensions are automatic."
+    },
+    {
+      "id": "p11-c-29-s04",
+      "speaker": "Anika",
+      "text": "No. If Saturday is free, I’ll send a written exception for this loan only, with a new return time."
+    },
+    {
+      "id": "p11-c-29-s05",
+      "speaker": "Gareth",
+      "text": "Then we’ll keep Friday’s return arrangements unless we receive that confirmation."
+    },
+    {
+      "id": "p11-c-29-s06",
+      "speaker": "Anika",
+      "text": "That’s right. I’ll check the booking now, but please don’t change your transport yet."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-173718aecd0a6a75",
+      "lemma": "oblige",
+      "pos": "v.",
+      "sense_zh": "使负有义务；要求",
+      "sentence_ids": [
+        "p11-c-29-s01"
+      ],
+      "forms": [
+        "oblige"
+      ],
+      "sense_id": "sense-staged-ox-173718aecd0a6a75-p11-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a081d38f91942e0d",
+      "lemma": "precedent",
+      "pos": "n.",
+      "sense_zh": "先例",
+      "sentence_ids": [
+        "p11-c-29-s03"
+      ],
+      "forms": [
+        "precedent"
+      ],
+      "sense_id": "sense-staged-ox-a081d38f91942e0d-p11-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

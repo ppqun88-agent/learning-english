@@ -1,0 +1,132 @@
+{
+  "id": "p11-a-19",
+  "title_zh": "约定收集扫描仪错误记录后检修",
+  "topic_id": "services",
+  "scenario": {
+    "id": "scanner-fault-service-plan",
+    "label_zh": "约定收集扫描仪错误记录后检修",
+    "goal_zh": "说明扫描仪预览正常但无法保存的故障，并约定发送筛选后的日志供检修"
+  },
+  "participants": [
+    "Ellis",
+    "Farah"
+  ],
+  "context_zh": "办公室员工与设备服务人员通过电话排查扫描仪问题；尚未确定硬件或软件原因。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-19-s01",
+      "speaker": "Ellis",
+      "text": "The scanner's inability to save files is holding up our work. The preview still looks normal."
+    },
+    {
+      "id": "p11-a-19-s02",
+      "speaker": "Farah",
+      "text": "So the preview is functional, but saving fails. Is any warning indicator showing?"
+    },
+    {
+      "id": "p11-a-19-s03",
+      "speaker": "Ellis",
+      "text": "A red light flashes when I press Save. Is that a hardware fault?"
+    },
+    {
+      "id": "p11-a-19-s04",
+      "speaker": "Farah",
+      "text": "I can't tell yet. Can you filter the error log by the scanner's device name and send me those entries?"
+    },
+    {
+      "id": "p11-a-19-s05",
+      "speaker": "Ellis",
+      "text": "Yes. I can send the relevant entries without including the scanned documents."
+    },
+    {
+      "id": "p11-a-19-s06",
+      "speaker": "Farah",
+      "text": "Thank you. I'll review them and arrange an inspection; please leave the scanner out of use until then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-adf0568cb31e4ce1",
+      "lemma": "inability",
+      "pos": "n.",
+      "sense_zh": "无能力；无法做到",
+      "sentence_ids": [
+        "p11-a-19-s01"
+      ],
+      "forms": [
+        "inability"
+      ],
+      "sense_id": "sense-staged-ox-adf0568cb31e4ce1-p11-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db4b6225d783482b",
+      "lemma": "functional",
+      "pos": "adj.",
+      "sense_zh": "能正常工作的",
+      "sentence_ids": [
+        "p11-a-19-s02"
+      ],
+      "forms": [
+        "functional"
+      ],
+      "sense_id": "sense-staged-ox-db4b6225d783482b-p11-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-46349e1fdb5a95f5",
+      "lemma": "indicator",
+      "pos": "n.",
+      "sense_zh": "指示灯；指示器",
+      "sentence_ids": [
+        "p11-a-19-s02"
+      ],
+      "forms": [
+        "indicator"
+      ],
+      "sense_id": "sense-staged-ox-46349e1fdb5a95f5-p11-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-554d2a26411b2d6d",
+      "lemma": "hardware",
+      "pos": "n.",
+      "sense_zh": "硬件",
+      "sentence_ids": [
+        "p11-a-19-s03"
+      ],
+      "forms": [
+        "hardware"
+      ],
+      "sense_id": "sense-staged-ox-554d2a26411b2d6d-p11-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-13d38de50cfc405c",
+      "lemma": "filter",
+      "pos": "v.",
+      "sense_zh": "筛选",
+      "sentence_ids": [
+        "p11-a-19-s04"
+      ],
+      "forms": [
+        "filter"
+      ],
+      "sense_id": "sense-staged-ox-13d38de50cfc405c-p11-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-13",
+  "title_zh": "商定攀岩颁奖介绍中的团队致谢",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "climbing-award-team-credit",
+    "label_zh": "商定攀岩颁奖介绍中的团队致谢",
+    "goal_zh": "肯定攀岩成就与谦逊表现，并商定在介绍中具体提及队友贡献"
+  },
+  "participants": [
+    "Nico",
+    "Beth"
+  ],
+  "context_zh": "攀岩俱乐部成员为队友写简短颁奖介绍，讨论已经发生的比赛表现。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-13-s01",
+      "speaker": "Nico",
+      "text": "Finishing that route was an extraordinary feat. I want the introduction to capture that."
+    },
+    {
+      "id": "p11-a-13-s02",
+      "speaker": "Beth",
+      "text": "Then mention the team too. Ava never tries to claim all the glory."
+    },
+    {
+      "id": "p11-a-13-s03",
+      "speaker": "Nico",
+      "text": "She was very humble afterward. She spent most of the interview thanking her belayer."
+    },
+    {
+      "id": "p11-a-13-s04",
+      "speaker": "Beth",
+      "text": "And she accepted the scoring correction with grace, even though it cost her a place."
+    },
+    {
+      "id": "p11-a-13-s05",
+      "speaker": "Nico",
+      "text": "I'll keep the line about the climb and add a thank-you to the people who trained with her."
+    },
+    {
+      "id": "p11-a-13-s06",
+      "speaker": "Beth",
+      "text": "Yes, and name her belayer, Sol. That will make the credit specific."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-067c0c84ec6f6113",
+      "lemma": "feat",
+      "pos": "n.",
+      "sense_zh": "非凡成就",
+      "sentence_ids": [
+        "p11-a-13-s01"
+      ],
+      "forms": [
+        "feat"
+      ],
+      "sense_id": "sense-staged-ox-067c0c84ec6f6113-p11-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d8f736ec6b872db",
+      "lemma": "glory",
+      "pos": "n.",
+      "sense_zh": "荣誉",
+      "sentence_ids": [
+        "p11-a-13-s02"
+      ],
+      "forms": [
+        "glory"
+      ],
+      "sense_id": "sense-staged-ox-1d8f736ec6b872db-p11-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-79511d7ea0473212",
+      "lemma": "humble",
+      "pos": "adj.",
+      "sense_zh": "谦逊的",
+      "sentence_ids": [
+        "p11-a-13-s03"
+      ],
+      "forms": [
+        "humble"
+      ],
+      "sense_id": "sense-staged-ox-79511d7ea0473212-p11-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fbe4c4a98c72a014",
+      "lemma": "grace",
+      "pos": "n.",
+      "sense_zh": "风度；得体",
+      "sentence_ids": [
+        "p11-a-13-s04"
+      ],
+      "forms": [
+        "grace"
+      ],
+      "sense_id": "sense-staged-ox-fbe4c4a98c72a014-p11-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

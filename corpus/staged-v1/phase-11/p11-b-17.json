@@ -1,0 +1,116 @@
+{
+  "id": "p11-b-17",
+  "title_zh": "先试调一排货架再考虑全面搬动",
+  "topic_id": "work",
+  "scenario": {
+    "id": "stockroom-layout-small-pilot",
+    "label_zh": "先试调一排货架再考虑全面搬动",
+    "goal_zh": "根据盘点结果讨论空间收益，并约定先用一排货架测试新布局"
+  },
+  "participants": [
+    "Anika",
+    "Ross"
+  ],
+  "context_zh": "仓库负责人和同事在盘点后讨论是否值得大规模重排货架。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-17-s01",
+      "speaker": "Anika",
+      "text": "The inventory is finished. Half the boxes on this side are empty packaging."
+    },
+    {
+      "id": "p11-b-17-s02",
+      "speaker": "Ross",
+      "text": "Then do we need the large-scale move we discussed?"
+    },
+    {
+      "id": "p11-b-17-s03",
+      "speaker": "Anika",
+      "text": "Perhaps not. Removing the packaging frees most of the space we wanted. Moving every shelf would give us only a marginal gain."
+    },
+    {
+      "id": "p11-b-17-s04",
+      "speaker": "Ross",
+      "text": "I still want to maximize the usable space, but not if it takes the team away from orders all week."
+    },
+    {
+      "id": "p11-b-17-s05",
+      "speaker": "Anika",
+      "text": "Let's try the new arrangement on one row. We can measure the space and see whether picking orders becomes awkward."
+    },
+    {
+      "id": "p11-b-17-s06",
+      "speaker": "Ross",
+      "text": "Agreed. One row first, then we'll decide whether the rest is worth moving."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ae5db037a1c7100c",
+      "lemma": "inventory",
+      "pos": "n.",
+      "sense_zh": "存货清点、盘点",
+      "sentence_ids": [
+        "p11-b-17-s01"
+      ],
+      "forms": [
+        "inventory"
+      ],
+      "sense_id": "sense-staged-ox-ae5db037a1c7100c-p11-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1b1fbe632c49f2fe",
+      "lemma": "large-scale",
+      "pos": "adj.",
+      "sense_zh": "大规模的",
+      "sentence_ids": [
+        "p11-b-17-s02"
+      ],
+      "forms": [
+        "large-scale"
+      ],
+      "sense_id": "sense-staged-ox-1b1fbe632c49f2fe-p11-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45af8bbf0e48e9c0",
+      "lemma": "maximize",
+      "pos": "v.",
+      "sense_zh": "最大化、尽量增加",
+      "sentence_ids": [
+        "p11-b-17-s04"
+      ],
+      "forms": [
+        "maximize"
+      ],
+      "sense_id": "sense-staged-ox-45af8bbf0e48e9c0-p11-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-05acb4a6da5a6a99",
+      "lemma": "marginal",
+      "pos": "adj.",
+      "sense_zh": "微小的、有限的",
+      "sentence_ids": [
+        "p11-b-17-s03"
+      ],
+      "forms": [
+        "marginal"
+      ],
+      "sense_id": "sense-staged-ox-05acb4a6da5a6a99-p11-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

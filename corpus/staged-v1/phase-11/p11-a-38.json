@@ -1,0 +1,84 @@
+{
+  "id": "p11-a-38",
+  "title_zh": "商定虚构噪声数据的谨慎因果表述",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "classroom-noise-data-caution",
+    "label_zh": "商定虚构噪声数据的谨慎因果表述",
+    "goal_zh": "区分头痛报告发生率与因果结论，并商定保留不确定性的报告表述"
+  },
+  "participants": [
+    "Freya",
+    "Anton"
+  ],
+  "context_zh": "数据素养课堂使用教师编造的噪声与头痛问卷结果，只练习证据表达，不构成健康判断。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-38-s01",
+      "speaker": "Freya",
+      "text": "In this practice dataset, the incidence of reported headaches is higher on noisy shifts."
+    },
+    {
+      "id": "p11-a-38-s02",
+      "speaker": "Anton",
+      "text": "Does that prove noise caused the headaches?"
+    },
+    {
+      "id": "p11-a-38-s03",
+      "speaker": "Freya",
+      "text": "No. The questionnaire does not control for hours worked or lack of sleep."
+    },
+    {
+      "id": "p11-a-38-s04",
+      "speaker": "Anton",
+      "text": "Then saying it proves harm would heighten concern beyond what these data support."
+    },
+    {
+      "id": "p11-a-38-s05",
+      "speaker": "Freya",
+      "text": "I will write that the reports occur more often on noisy shifts, but the reason is not established."
+    },
+    {
+      "id": "p11-a-38-s06",
+      "speaker": "Anton",
+      "text": "Good. Include the missing information about working hours and sleep too."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-aa6301231b22a97a",
+      "lemma": "incidence",
+      "pos": "n.",
+      "sense_zh": "发生率",
+      "sentence_ids": [
+        "p11-a-38-s01"
+      ],
+      "forms": [
+        "incidence"
+      ],
+      "sense_id": "sense-staged-ox-aa6301231b22a97a-p11-a-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ee131d83b050ed1",
+      "lemma": "heighten",
+      "pos": "v.",
+      "sense_zh": "加剧；增强",
+      "sentence_ids": [
+        "p11-a-38-s04"
+      ],
+      "forms": [
+        "heighten"
+      ],
+      "sense_id": "sense-staged-ox-5ee131d83b050ed1-p11-a-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

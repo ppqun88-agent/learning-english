@@ -1,0 +1,116 @@
+{
+  "id": "p11-c-04",
+  "title_zh": "选定教区追思活动的朗读内容",
+  "topic_id": "community",
+  "scenario": {
+    "id": "parish-memorial-reading-choice",
+    "label_zh": "选定教区追思活动的朗读内容",
+    "goal_zh": "确认追思活动的家庭意愿，并选定朗读逝者写给花园志愿者的感谢信"
+  },
+  "participants": [
+    "Miriam",
+    "Pastor Cole"
+  ],
+  "context_zh": "虚构教区中，家属与主持追思活动的牧师商量朗读内容。",
+  "author": "author-phase11-c",
+  "sentences": [
+    {
+      "id": "p11-c-04-s01",
+      "speaker": "Miriam",
+      "text": "Since my aunt’s passing, people in the parish have sent us such kind messages."
+    },
+    {
+      "id": "p11-c-04-s02",
+      "speaker": "Pastor Cole",
+      "text": "She meant a great deal to this community. We’re holding the gathering beside her memorial in the church garden. Is there anything you would like read aloud?"
+    },
+    {
+      "id": "p11-c-04-s03",
+      "speaker": "Miriam",
+      "text": "We don’t want a long account of her illness. Could someone read her letter thanking the garden volunteers?"
+    },
+    {
+      "id": "p11-c-04-s04",
+      "speaker": "Pastor Cole",
+      "text": "Of course. As the pastor leading the gathering, I can read it if that would help."
+    },
+    {
+      "id": "p11-c-04-s05",
+      "speaker": "Miriam",
+      "text": "Yes, please. That letter sounds like her, and the family is happy for you to read it."
+    },
+    {
+      "id": "p11-c-04-s06",
+      "speaker": "Pastor Cole",
+      "text": "Then we’ll use the letter and leave out the details of her illness."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0168972a991305ba",
+      "lemma": "passing",
+      "pos": "n.",
+      "sense_zh": "去世",
+      "sentence_ids": [
+        "p11-c-04-s01"
+      ],
+      "forms": [
+        "passing"
+      ],
+      "sense_id": "sense-staged-ox-0168972a991305ba-p11-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-be4daed796c0a604",
+      "lemma": "parish",
+      "pos": "n.",
+      "sense_zh": "教区",
+      "sentence_ids": [
+        "p11-c-04-s01"
+      ],
+      "forms": [
+        "parish"
+      ],
+      "sense_id": "sense-staged-ox-be4daed796c0a604-p11-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e4bf20ee0831ac0",
+      "lemma": "memorial",
+      "pos": "n.",
+      "sense_zh": "纪念碑；纪念物",
+      "sentence_ids": [
+        "p11-c-04-s02"
+      ],
+      "forms": [
+        "memorial"
+      ],
+      "sense_id": "sense-staged-ox-3e4bf20ee0831ac0-p11-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0cdc95a6a613d0dd",
+      "lemma": "pastor",
+      "pos": "n.",
+      "sense_zh": "牧师",
+      "sentence_ids": [
+        "p11-c-04-s04"
+      ],
+      "forms": [
+        "pastor"
+      ],
+      "sense_id": "sense-staged-ox-0cdc95a6a613d0dd-p11-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

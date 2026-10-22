@@ -1,0 +1,105 @@
+{
+  "id": "p11-b-22",
+  "title_zh": "约定保留虚构诉讼的两项未决问题",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-lawsuit-unresolved-scope",
+    "label_zh": "约定保留虚构诉讼的两项未决问题",
+    "goal_zh": "区分法院管辖争议与责任认定，并约定摘要分别说明两者尚未解决"
+  },
+  "participants": [
+    "Nell",
+    "Arun"
+  ],
+  "context_zh": "两位学生讨论虚构民事案件练习材料，只核对给定信息，不推断真实法律结论。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-22-s01",
+      "speaker": "Nell",
+      "text": "Can I say the company is liable now that the lawsuit has been filed?"
+    },
+    {
+      "id": "p11-b-22-s02",
+      "speaker": "Arun",
+      "text": "No. Filing the case isn't the same as deciding it. What else does our fictional case sheet say?"
+    },
+    {
+      "id": "p11-b-22-s03",
+      "speaker": "Nell",
+      "text": "The company disputes the court's jurisdiction, and the court hasn't answered that challenge."
+    },
+    {
+      "id": "p11-b-22-s04",
+      "speaker": "Arun",
+      "text": "Does it record any decision about responsibility for the damage?"
+    },
+    {
+      "id": "p11-b-22-s05",
+      "speaker": "Nell",
+      "text": "No, it says that question is still unresolved too."
+    },
+    {
+      "id": "p11-b-22-s06",
+      "speaker": "Arun",
+      "text": "Then give them separate lines: jurisdiction disputed, and liability not decided."
+    },
+    {
+      "id": "p11-b-22-s07",
+      "speaker": "Nell",
+      "text": "Agreed. I'll remove the sentence saying the company has already been found responsible."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1b9fda439a838b96",
+      "lemma": "jurisdiction",
+      "pos": "n.",
+      "sense_zh": "司法管辖权",
+      "sentence_ids": [
+        "p11-b-22-s03"
+      ],
+      "forms": [
+        "jurisdiction"
+      ],
+      "sense_id": "sense-staged-ox-1b9fda439a838b96-p11-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da95213037e5caee",
+      "lemma": "lawsuit",
+      "pos": "n.",
+      "sense_zh": "诉讼",
+      "sentence_ids": [
+        "p11-b-22-s01"
+      ],
+      "forms": [
+        "lawsuit"
+      ],
+      "sense_id": "sense-staged-ox-da95213037e5caee-p11-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60eecf68c430253c",
+      "lemma": "liable",
+      "pos": "adj.",
+      "sense_zh": "负有法律责任的",
+      "sentence_ids": [
+        "p11-b-22-s01"
+      ],
+      "forms": [
+        "liable"
+      ],
+      "sense_id": "sense-staged-ox-60eecf68c430253c-p11-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p11-a-24",
+  "title_zh": "拟定学校与图书馆合作的名额方案",
+  "topic_id": "community",
+  "scenario": {
+    "id": "library-school-partnership-plan",
+    "label_zh": "拟定学校与图书馆合作的名额方案",
+    "goal_zh": "明确合作与接待容量需求，并约定提出每班一次访问的试行方案"
+  },
+  "participants": [
+    "Lotte",
+    "Imran"
+  ],
+  "context_zh": "学校联络员与公共图书馆工作人员讨论初次合作，当前每周只能接待两个班级。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-24-s01",
+      "speaker": "Lotte",
+      "text": "We want to forge a partnership with your school, rather than offer one visit and disappear."
+    },
+    {
+      "id": "p11-a-24-s02",
+      "speaker": "Imran",
+      "text": "Then we need to formulate a plan the teachers can actually use. How many classes could you host?"
+    },
+    {
+      "id": "p11-a-24-s03",
+      "speaker": "Lotte",
+      "text": "Two a week. Could we use a simple formula: one visit for each class, spread across the term?"
+    },
+    {
+      "id": "p11-a-24-s04",
+      "speaker": "Imran",
+      "text": "That would work for our six classes. We could spread them over three weeks to start."
+    },
+    {
+      "id": "p11-a-24-s05",
+      "speaker": "Lotte",
+      "text": "Let's put that forward as a trial, then ask teachers whether the timing works."
+    },
+    {
+      "id": "p11-a-24-s06",
+      "speaker": "Imran",
+      "text": "Yes. I'll draft the class list for the proposal, without treating those weeks as confirmed bookings."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-08028fb2c245bc2f",
+      "lemma": "forge",
+      "pos": "v.",
+      "sense_zh": "建立；形成关系",
+      "sentence_ids": [
+        "p11-a-24-s01"
+      ],
+      "forms": [
+        "forge"
+      ],
+      "sense_id": "sense-staged-ox-08028fb2c245bc2f-p11-a-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-695baa797ed1077c",
+      "lemma": "formulate",
+      "pos": "v.",
+      "sense_zh": "制订",
+      "sentence_ids": [
+        "p11-a-24-s02"
+      ],
+      "forms": [
+        "formulate"
+      ],
+      "sense_id": "sense-staged-ox-695baa797ed1077c-p11-a-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-06b071b7e32f6bed",
+      "lemma": "formula",
+      "pos": "n.",
+      "sense_zh": "方案；固定办法",
+      "sentence_ids": [
+        "p11-a-24-s03"
+      ],
+      "forms": [
+        "formula"
+      ],
+      "sense_id": "sense-staged-ox-06b071b7e32f6bed-p11-a-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-09",
+  "title_zh": "商定家庭水彩画的展示与搬运安排",
+  "topic_id": "home",
+  "scenario": {
+    "id": "family-watercolour-display-plan",
+    "label_zh": "商定家庭水彩画的展示与搬运安排",
+    "goal_zh": "根据水彩画的脆弱状态选择避光展示位置，并约定请装裱师处理原作"
+  },
+  "participants": [
+    "Elsa",
+    "Tom"
+  ],
+  "context_zh": "家人查看祖母留下的一幅水彩画，决定如何在家中展示；对话讨论保存需求而不自行修复。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-09-s01",
+      "speaker": "Elsa",
+      "text": "I wanted to hang Grandma’s watercolour beside the sunny kitchen window."
+    },
+    {
+      "id": "p11-a-09-s02",
+      "speaker": "Tom",
+      "text": "The colours could fade there. That light is quite harsh in the afternoon."
+    },
+    {
+      "id": "p11-a-09-s03",
+      "speaker": "Elsa",
+      "text": "The paper looks fragile too. One corner is already torn."
+    },
+    {
+      "id": "p11-a-09-s04",
+      "speaker": "Tom",
+      "text": "Then we should avoid unnecessary handling. Could we show a copy in the kitchen and keep the original in the shaded study?"
+    },
+    {
+      "id": "p11-a-09-s05",
+      "speaker": "Elsa",
+      "text": "Yes. I'll ask a framer to assess the original before we move it into a new frame."
+    },
+    {
+      "id": "p11-a-09-s06",
+      "speaker": "Tom",
+      "text": "Good. The copy can go by the window once we have it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ea628fb228983307",
+      "lemma": "fade",
+      "pos": "v.",
+      "sense_zh": "褪色",
+      "sentence_ids": [
+        "p11-a-09-s02"
+      ],
+      "forms": [
+        "fade"
+      ],
+      "sense_id": "sense-staged-ox-ea628fb228983307-p11-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fccbb2d01d6b8f88",
+      "lemma": "harsh",
+      "pos": "adj.",
+      "sense_zh": "刺眼的；强烈的",
+      "sentence_ids": [
+        "p11-a-09-s02"
+      ],
+      "forms": [
+        "harsh"
+      ],
+      "sense_id": "sense-staged-ox-fccbb2d01d6b8f88-p11-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ced2b079f7a3321c",
+      "lemma": "fragile",
+      "pos": "adj.",
+      "sense_zh": "易损的",
+      "sentence_ids": [
+        "p11-a-09-s03"
+      ],
+      "forms": [
+        "fragile"
+      ],
+      "sense_id": "sense-staged-ox-ced2b079f7a3321c-p11-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b820ba4dc2de85e",
+      "lemma": "handling",
+      "pos": "n.",
+      "sense_zh": "拿取；搬动",
+      "sentence_ids": [
+        "p11-a-09-s04"
+      ],
+      "forms": [
+        "handling"
+      ],
+      "sense_id": "sense-staged-ox-0b820ba4dc2de85e-p11-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

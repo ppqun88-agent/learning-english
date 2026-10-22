@@ -1,0 +1,95 @@
+{
+  "id": "p11-a-16",
+  "title_zh": "确定梨子收获活动的点心做法",
+  "topic_id": "food",
+  "scenario": {
+    "id": "pear-harvest-snack-preparation",
+    "label_zh": "确定梨子收获活动的点心做法",
+    "goal_zh": "比较梨的果肉与果皮处理方式，并决定把洗净带皮的梨切片供活动品尝"
+  },
+  "participants": [
+    "Poppy",
+    "Hugh"
+  ],
+  "context_zh": "社区果园收获活动的两位志愿者准备简单的梨子点心；谈论食材特征而非健康治疗。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-16-s01",
+      "speaker": "Poppy",
+      "text": "We have plenty of pears from this harvest. Shall we peel them for the tasting table?"
+    },
+    {
+      "id": "p11-a-16-s02",
+      "speaker": "Hugh",
+      "text": "The flesh is soft, and the skins are thin. I would leave the skins on."
+    },
+    {
+      "id": "p11-a-16-s03",
+      "speaker": "Poppy",
+      "text": "The recipe card says that keeps more of the fibre in the snack too."
+    },
+    {
+      "id": "p11-a-16-s04",
+      "speaker": "Hugh",
+      "text": "Fine, as long as we wash the pears first. Shall we slice them rather than make a puree?"
+    },
+    {
+      "id": "p11-a-16-s05",
+      "speaker": "Poppy",
+      "text": "Yes. Let's serve washed slices with the skin on, and keep the recipe card beside them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7d26fc8a40103d8f",
+      "lemma": "harvest",
+      "pos": "n.",
+      "sense_zh": "收获；收成",
+      "sentence_ids": [
+        "p11-a-16-s01"
+      ],
+      "forms": [
+        "harvest"
+      ],
+      "sense_id": "sense-staged-ox-7d26fc8a40103d8f-p11-a-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2b53bae936c7a20",
+      "lemma": "flesh",
+      "pos": "n.",
+      "sense_zh": "果肉",
+      "sentence_ids": [
+        "p11-a-16-s02"
+      ],
+      "forms": [
+        "flesh"
+      ],
+      "sense_id": "sense-staged-ox-d2b53bae936c7a20-p11-a-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-95dbb26152ce7594",
+      "lemma": "fibre",
+      "pos": "n.",
+      "sense_zh": "膳食纤维",
+      "sentence_ids": [
+        "p11-a-16-s03"
+      ],
+      "forms": [
+        "fibre"
+      ],
+      "sense_id": "sense-staged-ox-95dbb26152ce7594-p11-a-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

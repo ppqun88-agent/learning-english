@@ -1,0 +1,100 @@
+{
+  "id": "p11-a-06",
+  "title_zh": "核对档案室通行证续期要求",
+  "topic_id": "services",
+  "scenario": {
+    "id": "archive-pass-renewal-choice",
+    "label_zh": "核对档案室通行证续期要求",
+    "goal_zh": "确认通行证用途、到期日及证件要求，并约定携证回来办理"
+  },
+  "participants": [
+    "Ruth",
+    "Amir"
+  ],
+  "context_zh": "访客在地方档案室服务台询问通行证；本场景的证件要求由工作人员明确给出。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-06-s01",
+      "speaker": "Ruth",
+      "text": "Does this pass also let me into the museum next door?"
+    },
+    {
+      "id": "p11-a-06-s02",
+      "speaker": "Amir",
+      "text": "No, it is exclusively for the archive reading room."
+    },
+    {
+      "id": "p11-a-06-s03",
+      "speaker": "Ruth",
+      "text": "I see that it will expire on Friday. Can I renew it today?"
+    },
+    {
+      "id": "p11-a-06-s04",
+      "speaker": "Amir",
+      "text": "Yes, if you have photo identification. We need to check the name against your record."
+    },
+    {
+      "id": "p11-a-06-s05",
+      "speaker": "Ruth",
+      "text": "Mine is at home. I'll bring it tomorrow, then."
+    },
+    {
+      "id": "p11-a-06-s06",
+      "speaker": "Amir",
+      "text": "That works. We'll check it at this desk and deal with the renewal then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-70459e742fa24bdb",
+      "lemma": "exclusively",
+      "pos": "adv.",
+      "sense_zh": "专门地；仅限于",
+      "sentence_ids": [
+        "p11-a-06-s02"
+      ],
+      "forms": [
+        "exclusively"
+      ],
+      "sense_id": "sense-staged-ox-70459e742fa24bdb-p11-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dfd567ae6ec19c21",
+      "lemma": "expire",
+      "pos": "v.",
+      "sense_zh": "到期",
+      "sentence_ids": [
+        "p11-a-06-s03"
+      ],
+      "forms": [
+        "expire"
+      ],
+      "sense_id": "sense-staged-ox-dfd567ae6ec19c21-p11-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-615dd0a6f6095152",
+      "lemma": "identification",
+      "pos": "n.",
+      "sense_zh": "身份证明",
+      "sentence_ids": [
+        "p11-a-06-s04"
+      ],
+      "forms": [
+        "identification"
+      ],
+      "sense_id": "sense-staged-ox-615dd0a6f6095152-p11-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

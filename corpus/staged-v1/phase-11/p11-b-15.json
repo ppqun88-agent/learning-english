@@ -1,0 +1,121 @@
+{
+  "id": "p11-b-15",
+  "title_zh": "确认渡轮到大陆后的步行路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "mainland-ferry-walking-route",
+    "label_zh": "确认渡轮到大陆后的步行路线",
+    "goal_zh": "辨认去游客中心途中两个不同路口，并用钟楼作为第二次转弯的地标"
+  },
+  "participants": [
+    "Elena",
+    "Scott"
+  ],
+  "context_zh": "旅客在虚构海岛渡轮的服务台询问抵达大陆码头后步行去游客中心的路线。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-15-s01",
+      "speaker": "Elena",
+      "text": "When the ferry reaches the mainland, can I walk from the pier to the visitor centre?"
+    },
+    {
+      "id": "p11-b-15-s02",
+      "speaker": "Scott",
+      "text": "Yes. Follow Pier Street to the intersection with King Street and turn left."
+    },
+    {
+      "id": "p11-b-15-s03",
+      "speaker": "Elena",
+      "text": "Is that where the clock tower is? I can see it on this map."
+    },
+    {
+      "id": "p11-b-15-s04",
+      "speaker": "Scott",
+      "text": "No, the tower is at the next junction, where King Street meets Coast Road. It's a useful landmark for your second turn."
+    },
+    {
+      "id": "p11-b-15-s05",
+      "speaker": "Elena",
+      "text": "So I turn left onto King Street first, then head towards the tower?"
+    },
+    {
+      "id": "p11-b-15-s06",
+      "speaker": "Scott",
+      "text": "Exactly. Turn right at the tower. The visitor centre is the first building on that side."
+    },
+    {
+      "id": "p11-b-15-s07",
+      "speaker": "Elena",
+      "text": "Got it: left at King Street, right at the clock tower. I'll keep this map with me."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3d04a08457d0aa07",
+      "lemma": "intersection",
+      "pos": "n.",
+      "sense_zh": "道路交叉口",
+      "sentence_ids": [
+        "p11-b-15-s02"
+      ],
+      "forms": [
+        "intersection"
+      ],
+      "sense_id": "sense-staged-ox-3d04a08457d0aa07-p11-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2324d30d625238bb",
+      "lemma": "junction",
+      "pos": "n.",
+      "sense_zh": "道路交汇处",
+      "sentence_ids": [
+        "p11-b-15-s04"
+      ],
+      "forms": [
+        "junction"
+      ],
+      "sense_id": "sense-staged-ox-2324d30d625238bb-p11-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f9833d4b8fd135c",
+      "lemma": "landmark",
+      "pos": "n.",
+      "sense_zh": "地标",
+      "sentence_ids": [
+        "p11-b-15-s04"
+      ],
+      "forms": [
+        "landmark"
+      ],
+      "sense_id": "sense-staged-ox-8f9833d4b8fd135c-p11-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-28ba26586837bf59",
+      "lemma": "mainland",
+      "pos": "n.",
+      "sense_zh": "大陆、本土",
+      "sentence_ids": [
+        "p11-b-15-s01"
+      ],
+      "forms": [
+        "mainland"
+      ],
+      "sense_id": "sense-staged-ox-28ba26586837bf59-p11-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

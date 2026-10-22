@@ -1,0 +1,105 @@
+{
+  "id": "p11-b-25",
+  "title_zh": "暂不使用草坪并约定检查掉枝的树",
+  "topic_id": "home",
+  "scenario": {
+    "id": "garden-fallen-limb-report",
+    "label_zh": "暂不使用草坪并约定检查掉枝的树",
+    "goal_zh": "确认成熟树木掉落枝杈的位置，并约定让访客留在室内、请养护人员检查"
+  },
+  "participants": [
+    "Olive",
+    "Samir"
+  ],
+  "context_zh": "两位邻居在室内看见共用花园草坪上有掉落的粗树枝，讨论接待访客前的安排。",
+  "author": "author-phase11-b",
+  "sentences": [
+    {
+      "id": "p11-b-25-s01",
+      "speaker": "Olive",
+      "text": "There's a large limb on the lawn. Did it come from the tree beside the fence?"
+    },
+    {
+      "id": "p11-b-25-s02",
+      "speaker": "Samir",
+      "text": "Yes. I saw it fall from that mature tree a few minutes ago."
+    },
+    {
+      "id": "p11-b-25-s03",
+      "speaker": "Olive",
+      "text": "We were going to have tea out there with the neighbours."
+    },
+    {
+      "id": "p11-b-25-s04",
+      "speaker": "Samir",
+      "text": "Let's keep everyone inside for now. I don't know whether any other branches are loose."
+    },
+    {
+      "id": "p11-b-25-s05",
+      "speaker": "Olive",
+      "text": "I'll tell the visitors we're using the sitting room, not the lawn."
+    },
+    {
+      "id": "p11-b-25-s06",
+      "speaker": "Samir",
+      "text": "And I'll contact the tree-care team to inspect the tree. We shouldn't assume the rest of it is fine just because only one branch fell."
+    },
+    {
+      "id": "p11-b-25-s07",
+      "speaker": "Olive",
+      "text": "Agreed. The garden can wait until we've had it checked."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a0ac4921018ca5ca",
+      "lemma": "lawn",
+      "pos": "n.",
+      "sense_zh": "草坪",
+      "sentence_ids": [
+        "p11-b-25-s01"
+      ],
+      "forms": [
+        "lawn"
+      ],
+      "sense_id": "sense-staged-ox-a0ac4921018ca5ca-p11-b-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c59bebdf92c5d587",
+      "lemma": "mature",
+      "pos": "adj.",
+      "sense_zh": "发育成熟的、长成的",
+      "sentence_ids": [
+        "p11-b-25-s02"
+      ],
+      "forms": [
+        "mature"
+      ],
+      "sense_id": "sense-staged-ox-c59bebdf92c5d587-p11-b-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-78bfe3041d59fffa",
+      "lemma": "limb",
+      "pos": "n.",
+      "sense_zh": "树木的大枝杈",
+      "sentence_ids": [
+        "p11-b-25-s01"
+      ],
+      "forms": [
+        "limb"
+      ],
+      "sense_id": "sense-staged-ox-78bfe3041d59fffa-p11-b-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

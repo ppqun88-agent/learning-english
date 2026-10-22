@@ -1,0 +1,116 @@
+{
+  "id": "p11-a-17",
+  "title_zh": "选择河流纪录片的开场画面",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "river-documentary-opening-choice",
+    "label_zh": "选择河流纪录片的开场画面",
+    "goal_zh": "比较河流素材所呈现的信息，并选定不夸大野生动物活动的开场"
+  },
+  "participants": [
+    "Zoe",
+    "Arun"
+  ],
+  "context_zh": "纪录片剪辑师与导演为一部本地河流短片选择开场素材。",
+  "author": "author-phase11-a",
+  "sentences": [
+    {
+      "id": "p11-a-17-s01",
+      "speaker": "Zoe",
+      "text": "As the film-maker, what do you want viewers to notice first?"
+    },
+    {
+      "id": "p11-a-17-s02",
+      "speaker": "Arun",
+      "text": "The river itself. Do we have footage of the water before the boats arrive?"
+    },
+    {
+      "id": "p11-a-17-s03",
+      "speaker": "Zoe",
+      "text": "Yes. There is also a brief glimpse of an otter near the bank, but the image is blurred."
+    },
+    {
+      "id": "p11-a-17-s04",
+      "speaker": "Arun",
+      "text": "I like the imagery of light moving across the water. We do not need the otter to carry the opening."
+    },
+    {
+      "id": "p11-a-17-s05",
+      "speaker": "Zoe",
+      "text": "Shall I use the clear river shot and save the otter clip for later, with no claim that otters are always there?"
+    },
+    {
+      "id": "p11-a-17-s06",
+      "speaker": "Arun",
+      "text": "Exactly. Start with the river and let the animal appear as the brief encounter it was."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e0a82eb7846eb989",
+      "lemma": "film-maker",
+      "pos": "n.",
+      "sense_zh": "电影制作者；导演",
+      "sentence_ids": [
+        "p11-a-17-s01"
+      ],
+      "forms": [
+        "film-maker"
+      ],
+      "sense_id": "sense-staged-ox-e0a82eb7846eb989-p11-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4cca8ef3877422d1",
+      "lemma": "footage",
+      "pos": "n.",
+      "sense_zh": "影片素材",
+      "sentence_ids": [
+        "p11-a-17-s02"
+      ],
+      "forms": [
+        "footage"
+      ],
+      "sense_id": "sense-staged-ox-4cca8ef3877422d1-p11-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10e5cff5e2453f57",
+      "lemma": "glimpse",
+      "pos": "n.",
+      "sense_zh": "短暂的一瞥",
+      "sentence_ids": [
+        "p11-a-17-s03"
+      ],
+      "forms": [
+        "glimpse"
+      ],
+      "sense_id": "sense-staged-ox-10e5cff5e2453f57-p11-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c1007c8ec5eb0f2",
+      "lemma": "imagery",
+      "pos": "n.",
+      "sense_zh": "意象；影像表达",
+      "sentence_ids": [
+        "p11-a-17-s04"
+      ],
+      "forms": [
+        "imagery"
+      ],
+      "sense_id": "sense-staged-ox-5c1007c8ec5eb0f2-p11-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
