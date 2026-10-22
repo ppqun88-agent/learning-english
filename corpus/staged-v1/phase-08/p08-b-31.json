@@ -1,0 +1,110 @@
+{
+  "id": "p08-b-31",
+  "title_zh": "约定修改健康活动传单并交讲者核对",
+  "topic_id": "community",
+  "scenario": {
+    "id": "health-event-leaflet-respectful-draft-review",
+    "label_zh": "商定健康活动传单修订及复核安排",
+    "goal_zh": "商定修改传单的责备性措辞并补正讲者称谓和免费信息，约定由讲者复核健康内容后再印刷"
+  },
+  "participants": [
+    "Sarah",
+    "Toby"
+  ],
+  "context_zh": "社区健康活动编辑萨拉与志愿者托比核对一份虚构活动宣传传单，不提供个人健康建议。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-31-s01",
+      "speaker": "Sarah",
+      "text": "The leaflet says, 'Bad choices cause obesity.' I don't think we should print that."
+    },
+    {
+      "id": "p08-b-31-s02",
+      "speaker": "Toby",
+      "text": "Agreed. It blames people and turns a complex topic into a slogan."
+    },
+    {
+      "id": "p08-b-31-s03",
+      "speaker": "Sarah",
+      "text": "Could the title be 'Nutrition questions: an open conversation' instead?"
+    },
+    {
+      "id": "p08-b-31-s04",
+      "speaker": "Toby",
+      "text": "Yes. We can say the event welcomes adults living with obesity, without making promises about results."
+    },
+    {
+      "id": "p08-b-31-s05",
+      "speaker": "Sarah",
+      "text": "The speaker's title should be 'registered dietitian', not 'doctor'. And the session is free; that needs to be visible."
+    },
+    {
+      "id": "p08-b-31-s06",
+      "speaker": "Toby",
+      "text": "I'll correct those details and remove the sentence about bad choices."
+    },
+    {
+      "id": "p08-b-31-s07",
+      "speaker": "Sarah",
+      "text": "Then please send the health information to the speaker for review before anything goes to print."
+    },
+    {
+      "id": "p08-b-31-s08",
+      "speaker": "Toby",
+      "text": "I will. I'll mark this as a draft until we've had that review."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5f1c5dde6a341109",
+      "lemma": "nutrition",
+      "pos": "n.",
+      "sense_zh": "营养；饮食与营养的关系",
+      "sentence_ids": [
+        "p08-b-31-s03"
+      ],
+      "forms": [
+        "nutrition"
+      ],
+      "sense_id": "sense-staged-ox-5f1c5dde6a341109-p08-b-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a0afd82485deb56",
+      "lemma": "obesity",
+      "pos": "n.",
+      "sense_zh": "肥胖症；肥胖状况",
+      "sentence_ids": [
+        "p08-b-31-s01"
+      ],
+      "forms": [
+        "obesity"
+      ],
+      "sense_id": "sense-staged-ox-7a0afd82485deb56-p08-b-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bf538ea461cc479e",
+      "lemma": "leaflet",
+      "pos": "n.",
+      "sense_zh": "传单；宣传单页",
+      "sentence_ids": [
+        "p08-b-31-s01"
+      ],
+      "forms": [
+        "leaflet"
+      ],
+      "sense_id": "sense-staged-ox-bf538ea461cc479e-p08-b-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

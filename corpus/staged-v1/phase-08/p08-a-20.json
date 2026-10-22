@@ -1,0 +1,126 @@
+{
+  "id": "p08-a-20",
+  "title_zh": "澄清住房援助表格栏目并索取材料清单",
+  "topic_id": "services",
+  "scenario": {
+    "id": "housing-support-form-clarification",
+    "label_zh": "澄清住房援助申请的信息要求",
+    "goal_zh": "向接待员确认家庭成员与不固定收入的填写方法，并索取材料清单后再完成申请"
+  },
+  "participants": [
+    "Dina",
+    "Chris"
+  ],
+  "context_zh": "来访者在一家虚构的住房援助服务处询问申请表，不涉及现实资格判断。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-20-s01",
+      "speaker": "Dina",
+      "text": "I'm homeless at the moment and staying with a friend. Can I ask about this housing form?"
+    },
+    {
+      "id": "p08-a-20-s02",
+      "speaker": "Chris",
+      "text": "Of course. Which part is unclear?"
+    },
+    {
+      "id": "p08-a-20-s03",
+      "speaker": "Dina",
+      "text": "It asks for everyone in my household. Do I include the friend I'm staying with?"
+    },
+    {
+      "id": "p08-a-20-s04",
+      "speaker": "Chris",
+      "text": "For this form, list the people who would move into the new home with you. We record temporary hosts separately."
+    },
+    {
+      "id": "p08-a-20-s05",
+      "speaker": "Dina",
+      "text": "And my income changes each week because my working hours vary."
+    },
+    {
+      "id": "p08-a-20-s06",
+      "speaker": "Chris",
+      "text": "The adviser will need the recent records listed on this sheet. You don't have to invent a fixed weekly figure."
+    },
+    {
+      "id": "p08-a-20-s07",
+      "speaker": "Dina",
+      "text": "Could I take the sheet and bring the records back before I finish the form?"
+    },
+    {
+      "id": "p08-a-20-s08",
+      "speaker": "Chris",
+      "text": "Yes. I'll mark the two sections we discussed so the adviser can go through them with you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7f9a657db58da9c5",
+      "lemma": "homeless",
+      "pos": "adj.",
+      "sense_zh": "没有固定住所的",
+      "sentence_ids": [
+        "p08-a-20-s01"
+      ],
+      "forms": [
+        "homeless"
+      ],
+      "sense_id": "sense-staged-ox-7f9a657db58da9c5-p08-a-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-110da161ee200311",
+      "lemma": "housing",
+      "pos": "n.",
+      "sense_zh": "供人居住的住房",
+      "sentence_ids": [
+        "p08-a-20-s01"
+      ],
+      "forms": [
+        "housing"
+      ],
+      "sense_id": "sense-staged-ox-110da161ee200311-p08-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ea3fc3e2eb7cffc",
+      "lemma": "household",
+      "pos": "n.",
+      "sense_zh": "共同居住的家庭成员群体",
+      "sentence_ids": [
+        "p08-a-20-s03"
+      ],
+      "forms": [
+        "household"
+      ],
+      "sense_id": "sense-staged-ox-0ea3fc3e2eb7cffc-p08-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c3f6962951e5f372",
+      "lemma": "income",
+      "pos": "n.",
+      "sense_zh": "工作等带来的收入",
+      "sentence_ids": [
+        "p08-a-20-s05"
+      ],
+      "forms": [
+        "income"
+      ],
+      "sense_id": "sense-staged-ox-c3f6962951e5f372-p08-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

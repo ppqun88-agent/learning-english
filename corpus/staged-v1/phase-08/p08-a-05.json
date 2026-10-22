@@ -1,0 +1,121 @@
+{
+  "id": "p08-a-05",
+  "title_zh": "继续记录温室香草的生长变化",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "greenhouse-herb-observation-plan",
+    "label_zh": "安排温室香草的观察记录",
+    "goal_zh": "区分初步观察与确定结论，约定在同一时间拍摄并继续记录香草生长"
+  },
+  "participants": [
+    "Mei",
+    "Arthur"
+  ],
+  "context_zh": "社区花园的两名志愿者查看新种下的罗勒。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-05-s01",
+      "speaker": "Mei",
+      "text": "The basil in the greenhouse looks taller than it did last week."
+    },
+    {
+      "id": "p08-a-05-s02",
+      "speaker": "Arthur",
+      "text": "It's the first herb I've tried growing, so I keep checking it."
+    },
+    {
+      "id": "p08-a-05-s03",
+      "speaker": "Mei",
+      "text": "Our initial measurements are in this notebook. These plants were six centimetres tall."
+    },
+    {
+      "id": "p08-a-05-s04",
+      "speaker": "Arthur",
+      "text": "They seem to be growing gradually, rather than shooting up overnight."
+    },
+    {
+      "id": "p08-a-05-s05",
+      "speaker": "Mei",
+      "text": "Let's measure them again before we decide how much they've grown. The photo angle can be misleading."
+    },
+    {
+      "id": "p08-a-05-s06",
+      "speaker": "Arthur",
+      "text": "I'll take a picture from this same spot every Sunday morning."
+    },
+    {
+      "id": "p08-a-05-s07",
+      "speaker": "Mei",
+      "text": "And I'll write down the height beside each date. We can compare them next month."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-32ef9d39c862fab0",
+      "lemma": "greenhouse",
+      "pos": "n.",
+      "sense_zh": "温室",
+      "sentence_ids": [
+        "p08-a-05-s01"
+      ],
+      "forms": [
+        "greenhouse"
+      ],
+      "sense_id": "sense-staged-ox-32ef9d39c862fab0-p08-a-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e09683124960d651",
+      "lemma": "herb",
+      "pos": "n.",
+      "sense_zh": "供调味等用途的香草植物",
+      "sentence_ids": [
+        "p08-a-05-s02"
+      ],
+      "forms": [
+        "herb"
+      ],
+      "sense_id": "sense-staged-ox-e09683124960d651-p08-a-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4c70f62cc613ce5c",
+      "lemma": "initial",
+      "pos": "adj.",
+      "sense_zh": "最初的",
+      "sentence_ids": [
+        "p08-a-05-s03"
+      ],
+      "forms": [
+        "initial"
+      ],
+      "sense_id": "sense-staged-ox-4c70f62cc613ce5c-p08-a-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12fd37d03997e255",
+      "lemma": "gradually",
+      "pos": "adv.",
+      "sense_zh": "逐渐地",
+      "sentence_ids": [
+        "p08-a-05-s04"
+      ],
+      "forms": [
+        "gradually"
+      ],
+      "sense_id": "sense-staged-ox-12fd37d03997e255-p08-a-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

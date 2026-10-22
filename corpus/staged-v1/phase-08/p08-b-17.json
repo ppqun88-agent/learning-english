@@ -1,0 +1,126 @@
+{
+  "id": "p08-b-17",
+  "title_zh": "约定先测量入口与装卸平台再规划搬运",
+  "topic_id": "work",
+  "scenario": {
+    "id": "display-case-delivery-access-check",
+    "label_zh": "核对大型展柜的搬运通道",
+    "goal_zh": "发现入口尺寸未核实，决定暂不装车并先测量通道后再安排专业搬运"
+  },
+  "participants": [
+    "Grace",
+    "Tomas"
+  ],
+  "context_zh": "展馆员工格蕾丝与专业搬运联络人托马斯在电话中核对展柜运输条件。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-17-s01",
+      "speaker": "Grace",
+      "text": "The new display case is massive. Will your team be able to load it without taking it apart?"
+    },
+    {
+      "id": "p08-b-17-s02",
+      "speaker": "Tomas",
+      "text": "Possibly, but I need its weight and the doorway dimensions before I can plan the move."
+    },
+    {
+      "id": "p08-b-17-s03",
+      "speaker": "Grace",
+      "text": "I have the weight. The measurement on this drawing might be the door height rather than its width."
+    },
+    {
+      "id": "p08-b-17-s04",
+      "speaker": "Tomas",
+      "text": "Then we shouldn't rely on it. Is there a level entrance at the back?"
+    },
+    {
+      "id": "p08-b-17-s05",
+      "speaker": "Grace",
+      "text": "There's a loading platform. The building manager can lower it, but I haven't checked its size."
+    },
+    {
+      "id": "p08-b-17-s06",
+      "speaker": "Tomas",
+      "text": "Please ask the manager for those details as well. We need a suitable route, not just a large truck."
+    },
+    {
+      "id": "p08-b-17-s07",
+      "speaker": "Grace",
+      "text": "I'll arrange measurements of the doorway and platform today. Don't collect the case yet."
+    },
+    {
+      "id": "p08-b-17-s08",
+      "speaker": "Tomas",
+      "text": "Agreed. Once we have the figures, I'll confirm whether the route works and propose a delivery time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-26ff40badeb0f571",
+      "lemma": "load",
+      "pos": "v.",
+      "sense_zh": "将货物装上车辆",
+      "sentence_ids": [
+        "p08-b-17-s01"
+      ],
+      "forms": [
+        "load"
+      ],
+      "sense_id": "sense-staged-ox-26ff40badeb0f571-p08-b-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6d60b7b39bef711",
+      "lemma": "measurement",
+      "pos": "n.",
+      "sense_zh": "测量得到的尺寸",
+      "sentence_ids": [
+        "p08-b-17-s03"
+      ],
+      "forms": [
+        "measurement"
+      ],
+      "sense_id": "sense-staged-ox-b6d60b7b39bef711-p08-b-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8566aca8d6e7e98a",
+      "lemma": "lower",
+      "pos": "v.",
+      "sense_zh": "使降低；放低",
+      "sentence_ids": [
+        "p08-b-17-s05"
+      ],
+      "forms": [
+        "lower"
+      ],
+      "sense_id": "sense-staged-ox-8566aca8d6e7e98a-p08-b-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-093d58cdda14f1cd",
+      "lemma": "massive",
+      "pos": "adj.",
+      "sense_zh": "非常大的；巨大的",
+      "sentence_ids": [
+        "p08-b-17-s01"
+      ],
+      "forms": [
+        "massive"
+      ],
+      "sense_id": "sense-staged-ox-093d58cdda14f1cd-p08-b-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

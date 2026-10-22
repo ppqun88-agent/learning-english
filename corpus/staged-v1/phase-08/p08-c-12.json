@@ -1,0 +1,174 @@
+{
+  "id": "p08-c-12",
+  "title_zh": "暂缓扩展工作坊并先解决场地障碍",
+  "topic_id": "work",
+  "scenario": {
+    "id": "workshop-pilot-expansion-check",
+    "label_zh": "根据尚未结束的试办确定扩展条件",
+    "goal_zh": "区分初步反馈与最终结果，决定先联系无障碍场地并在本阶段结束后复核扩展计划"
+  },
+  "participants": [
+    "Amira",
+    "Kit"
+  ],
+  "context_zh": "工作坊协调者讨论仍在进行的试办。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-12-s01",
+      "speaker": "Amira",
+      "text": "The first two sessions look promising. Can we announce more workshops?"
+    },
+    {
+      "id": "p08-c-12-s02",
+      "speaker": "Kit",
+      "text": "Not yet. The trial is ongoing, and we haven't heard from the people who stopped attending."
+    },
+    {
+      "id": "p08-c-12-s03",
+      "speaker": "Amira",
+      "text": "Overall, the feedback we do have is positive."
+    },
+    {
+      "id": "p08-c-12-s04",
+      "speaker": "Kit",
+      "text": "True, but the stairs are still an obstacle for several people. More sessions in the same room won't solve that."
+    },
+    {
+      "id": "p08-c-12-s05",
+      "speaker": "Amira",
+      "text": "I'm optimistic about the library room. They have step-free access."
+    },
+    {
+      "id": "p08-c-12-s06",
+      "speaker": "Kit",
+      "text": "Let's ask about availability. The outcome of this trial should guide expansion, not just the first week's excitement."
+    },
+    {
+      "id": "p08-c-12-s07",
+      "speaker": "Amira",
+      "text": "I'll contact the library and collect the missing feedback."
+    },
+    {
+      "id": "p08-c-12-s08",
+      "speaker": "Kit",
+      "text": "Then we'll review the plan when this phase ends next Friday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f85d9ba07cd32a7e",
+      "lemma": "promising",
+      "pos": "adj.",
+      "sense_zh": "有希望取得好结果的",
+      "sentence_ids": [
+        "p08-c-12-s01"
+      ],
+      "forms": [
+        "promising"
+      ],
+      "sense_id": "sense-staged-ox-f85d9ba07cd32a7e-p08-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6e26dc30c57683ea",
+      "lemma": "ongoing",
+      "pos": "adj.",
+      "sense_zh": "仍在进行的",
+      "sentence_ids": [
+        "p08-c-12-s02"
+      ],
+      "forms": [
+        "ongoing"
+      ],
+      "sense_id": "sense-staged-ox-6e26dc30c57683ea-p08-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-594358a91e605fd7",
+      "lemma": "overall",
+      "pos": "adv.",
+      "sense_zh": "总体上",
+      "sentence_ids": [
+        "p08-c-12-s03"
+      ],
+      "forms": [
+        "overall"
+      ],
+      "sense_id": "sense-staged-ox-594358a91e605fd7-p08-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4ba88e272d8c25ee",
+      "lemma": "obstacle",
+      "pos": "n.",
+      "sense_zh": "障碍",
+      "sentence_ids": [
+        "p08-c-12-s04"
+      ],
+      "forms": [
+        "obstacle"
+      ],
+      "sense_id": "sense-staged-ox-4ba88e272d8c25ee-p08-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-91f199467e769b8c",
+      "lemma": "optimistic",
+      "pos": "adj.",
+      "sense_zh": "乐观的",
+      "sentence_ids": [
+        "p08-c-12-s05"
+      ],
+      "forms": [
+        "optimistic"
+      ],
+      "sense_id": "sense-staged-ox-91f199467e769b8c-p08-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f7e70ee3c2db0144",
+      "lemma": "outcome",
+      "pos": "n.",
+      "sense_zh": "结果",
+      "sentence_ids": [
+        "p08-c-12-s06"
+      ],
+      "forms": [
+        "outcome"
+      ],
+      "sense_id": "sense-staged-ox-f7e70ee3c2db0144-p08-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-707c54a4e9e28751",
+      "lemma": "phase",
+      "pos": "n.",
+      "sense_zh": "阶段",
+      "sentence_ids": [
+        "p08-c-12-s08"
+      ],
+      "forms": [
+        "phase"
+      ],
+      "sense_id": "sense-staged-ox-707c54a4e9e28751-p08-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

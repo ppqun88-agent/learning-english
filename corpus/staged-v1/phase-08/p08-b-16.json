@@ -1,0 +1,158 @@
+{
+  "id": "p08-b-16",
+  "title_zh": "划分湿地观察记录与垃圾报告任务",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "wetland-observation-task-split",
+    "label_zh": "分工进行湿地观察及垃圾记录",
+    "goal_zh": "区分观察和推断，约定在步道上分工记录鸟类、待辨昆虫与垃圾位置"
+  },
+  "participants": [
+    "Li",
+    "Nora"
+  ],
+  "context_zh": "湿地志愿观察负责人诺拉与首次参加的李在步道入口分配任务。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-16-s01",
+      "speaker": "Li",
+      "text": "As a new observer, am I supposed to identify everything I see?"
+    },
+    {
+      "id": "p08-b-16-s02",
+      "speaker": "Nora",
+      "text": "No. A careful observation can simply describe what happened. Leave uncertain names blank."
+    },
+    {
+      "id": "p08-b-16-s03",
+      "speaker": "Li",
+      "text": "There's a tiny insect on the sign. It might be a mosquito, but I'm not sure."
+    },
+    {
+      "id": "p08-b-16-s04",
+      "speaker": "Nora",
+      "text": "Write 'unidentified insect' in your notebook and note the location. Don't guess just to fill the box."
+    },
+    {
+      "id": "p08-b-16-s05",
+      "speaker": "Li",
+      "text": "Should we also record the litter beside the water?"
+    },
+    {
+      "id": "p08-b-16-s06",
+      "speaker": "Nora",
+      "text": "Yes, but don't leave the path to collect it. I'll report the location to the site team."
+    },
+    {
+      "id": "p08-b-16-s07",
+      "speaker": "Li",
+      "text": "Then I'll observe the birds from this point and keep a separate page for insects."
+    },
+    {
+      "id": "p08-b-16-s08",
+      "speaker": "Nora",
+      "text": "Good. I'll record the rubbish locations, and we'll compare our notes at the gate in half an hour."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c45ded8dc5ad55cf",
+      "lemma": "litter",
+      "pos": "n.",
+      "sense_zh": "散落在公共场所的垃圾",
+      "sentence_ids": [
+        "p08-b-16-s05"
+      ],
+      "forms": [
+        "litter"
+      ],
+      "sense_id": "sense-staged-ox-c45ded8dc5ad55cf-p08-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9769ce24fa236de1",
+      "lemma": "mosquito",
+      "pos": "n.",
+      "sense_zh": "蚊子",
+      "sentence_ids": [
+        "p08-b-16-s03"
+      ],
+      "forms": [
+        "mosquito"
+      ],
+      "sense_id": "sense-staged-ox-9769ce24fa236de1-p08-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c4bb9e88cd1a2a1",
+      "lemma": "observation",
+      "pos": "n.",
+      "sense_zh": "观察所得的记录",
+      "sentence_ids": [
+        "p08-b-16-s02"
+      ],
+      "forms": [
+        "observation"
+      ],
+      "sense_id": "sense-staged-ox-3c4bb9e88cd1a2a1-p08-b-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-55d9aed14a2766d9",
+      "lemma": "observe",
+      "pos": "v.",
+      "sense_zh": "仔细观察",
+      "sentence_ids": [
+        "p08-b-16-s07"
+      ],
+      "forms": [
+        "observe"
+      ],
+      "sense_id": "sense-staged-ox-55d9aed14a2766d9-p08-b-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57428290e8d05d18",
+      "lemma": "observer",
+      "pos": "n.",
+      "sense_zh": "观察者",
+      "sentence_ids": [
+        "p08-b-16-s01"
+      ],
+      "forms": [
+        "observer"
+      ],
+      "sense_id": "sense-staged-ox-57428290e8d05d18-p08-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-adfba4e28a6f86ca",
+      "lemma": "notebook",
+      "pos": "n.",
+      "sense_zh": "笔记本",
+      "sentence_ids": [
+        "p08-b-16-s04"
+      ],
+      "forms": [
+        "notebook"
+      ],
+      "sense_id": "sense-staged-ox-adfba4e28a6f86ca-p08-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

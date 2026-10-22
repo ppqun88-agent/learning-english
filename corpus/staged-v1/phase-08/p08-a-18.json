@@ -1,0 +1,142 @@
+{
+  "id": "p08-a-18",
+  "title_zh": "向调查人员说明亲眼所见并约定补充材料",
+  "topic_id": "community",
+  "scenario": {
+    "id": "cycling-incident-witness-contact",
+    "label_zh": "记录骑行事件的证人信息",
+    "goal_zh": "区分证人亲眼所见与不确定部分，并约定通过已提供的正式渠道补充原始照片"
+  },
+  "participants": [
+    "Ruth",
+    "Inspector Bell"
+  ],
+  "context_zh": "一名目击者在警局向负责调查骑行碰撞事件的警官提供信息。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-18-s01",
+      "speaker": "Ruth",
+      "text": "Are you the inspector handling yesterday's cycling incident?"
+    },
+    {
+      "id": "p08-a-18-s02",
+      "speaker": "Inspector Bell",
+      "text": "Yes. Did you see the collision itself?"
+    },
+    {
+      "id": "p08-a-18-s03",
+      "speaker": "Ruth",
+      "text": "No. I arrived just afterwards. I saw a helmet beside the bicycle and a car stopped further along."
+    },
+    {
+      "id": "p08-a-18-s04",
+      "speaker": "Inspector Bell",
+      "text": "That's useful to know. Please don't guess about anything you didn't see."
+    },
+    {
+      "id": "p08-a-18-s05",
+      "speaker": "Ruth",
+      "text": "I took a photograph of the blocked road. Could that help the investigation?"
+    },
+    {
+      "id": "p08-a-18-s06",
+      "speaker": "Inspector Bell",
+      "text": "It may. Here's the official address and the case number to use if you send the original image."
+    },
+    {
+      "id": "p08-a-18-s07",
+      "speaker": "Ruth",
+      "text": "I can do that tonight. Should I inform you if I remember anything else?"
+    },
+    {
+      "id": "p08-a-18-s08",
+      "speaker": "Inspector Bell",
+      "text": "Yes, using the contact details on this card. Keep the original photograph unchanged."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d1ed1e97415e769c",
+      "lemma": "inspector",
+      "pos": "n.",
+      "sense_zh": "督察职级的警官",
+      "sentence_ids": [
+        "p08-a-18-s01"
+      ],
+      "forms": [
+        "inspector"
+      ],
+      "sense_id": "sense-staged-ox-d1ed1e97415e769c-p08-a-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c38e2922e77d4251",
+      "lemma": "incident",
+      "pos": "n.",
+      "sense_zh": "发生的事件",
+      "sentence_ids": [
+        "p08-a-18-s01"
+      ],
+      "forms": [
+        "incident"
+      ],
+      "sense_id": "sense-staged-ox-c38e2922e77d4251-p08-a-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-022c869b3306f7da",
+      "lemma": "helmet",
+      "pos": "n.",
+      "sense_zh": "头盔",
+      "sentence_ids": [
+        "p08-a-18-s03"
+      ],
+      "forms": [
+        "helmet"
+      ],
+      "sense_id": "sense-staged-ox-022c869b3306f7da-p08-a-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-06832c7a40635592",
+      "lemma": "investigation",
+      "pos": "n.",
+      "sense_zh": "为查明事件经过而进行的调查",
+      "sentence_ids": [
+        "p08-a-18-s05"
+      ],
+      "forms": [
+        "investigation"
+      ],
+      "sense_id": "sense-staged-ox-06832c7a40635592-p08-a-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-32ea8f951ee6bd6d",
+      "lemma": "inform",
+      "pos": "v.",
+      "sense_zh": "告知相关情况",
+      "sentence_ids": [
+        "p08-a-18-s07"
+      ],
+      "forms": [
+        "inform"
+      ],
+      "sense_id": "sense-staged-ox-32ea8f951ee6bd6d-p08-a-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

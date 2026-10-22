@@ -1,0 +1,121 @@
+{
+  "id": "p08-b-13",
+  "title_zh": "重写歌词比喻后试唱",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "song-lyric-image-revision",
+    "label_zh": "澄清并修改歌曲中的比喻",
+    "goal_zh": "找出歌词意象不清之处，选定更具体的新句子并约定试唱"
+  },
+  "participants": [
+    "Priya",
+    "Joe"
+  ],
+  "context_zh": "业余词作者普里娅与歌手乔讨论他们自己创作的歌曲；所引歌词为原创。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-13-s01",
+      "speaker": "Priya",
+      "text": "Does the lyric in verse two work? I wrote, 'Your silence fills the station.'"
+    },
+    {
+      "id": "p08-b-13-s02",
+      "speaker": "Joe",
+      "text": "It's a moving image, but I'm not sure who is waiting for whom."
+    },
+    {
+      "id": "p08-b-13-s03",
+      "speaker": "Priya",
+      "text": "The singer is waiting for a friend who has left town."
+    },
+    {
+      "id": "p08-b-13-s04",
+      "speaker": "Joe",
+      "text": "So the silence doesn't literally fill the building. It's a metaphor for feeling alone."
+    },
+    {
+      "id": "p08-b-13-s05",
+      "speaker": "Priya",
+      "text": "Exactly. Would 'I wait beside your empty seat' make that clearer?"
+    },
+    {
+      "id": "p08-b-13-s06",
+      "speaker": "Joe",
+      "text": "Yes, and it fits the same part of the tune. We can lose the station image rather than explain it."
+    },
+    {
+      "id": "p08-b-13-s07",
+      "speaker": "Priya",
+      "text": "I'll use the empty-seat line. Let's sing that verse once and hear how it leads into the chorus."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bfd04c3c291dd4fd",
+      "lemma": "literally",
+      "pos": "adv.",
+      "sense_zh": "按字面意义；真正地",
+      "sentence_ids": [
+        "p08-b-13-s04"
+      ],
+      "forms": [
+        "literally"
+      ],
+      "sense_id": "sense-staged-ox-bfd04c3c291dd4fd-p08-b-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-518a06e91eb1cb05",
+      "lemma": "metaphor",
+      "pos": "n.",
+      "sense_zh": "隐喻；比喻",
+      "sentence_ids": [
+        "p08-b-13-s04"
+      ],
+      "forms": [
+        "metaphor"
+      ],
+      "sense_id": "sense-staged-ox-518a06e91eb1cb05-p08-b-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6f96e2415eab7f1a",
+      "lemma": "lyric",
+      "pos": "n.",
+      "sense_zh": "歌曲的一句歌词",
+      "sentence_ids": [
+        "p08-b-13-s01"
+      ],
+      "forms": [
+        "lyric"
+      ],
+      "sense_id": "sense-staged-ox-6f96e2415eab7f1a-p08-b-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b7d0f5d778847db",
+      "lemma": "moving",
+      "pos": "adj.",
+      "sense_zh": "感人的",
+      "sentence_ids": [
+        "p08-b-13-s02"
+      ],
+      "forms": [
+        "moving"
+      ],
+      "sense_id": "sense-staged-ox-0b7d0f5d778847db-p08-b-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

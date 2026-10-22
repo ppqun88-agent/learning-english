@@ -1,0 +1,121 @@
+{
+  "id": "p08-c-28",
+  "title_zh": "因引语授权未明而推迟通讯发布",
+  "topic_id": "work",
+  "scenario": {
+    "id": "newsletter-publication-consent-delay",
+    "label_zh": "暂停未获引语授权的通讯发布",
+    "goal_zh": "识别匿名引语仍可能暴露身份的风险，约定先取得本人同意再发布并暂缓宣传"
+  },
+  "participants": [
+    "Sol",
+    "Priya"
+  ],
+  "context_zh": "社区通讯编辑在发布前核对一段受访者引语的许可。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-28-s01",
+      "speaker": "Sol",
+      "text": "Is the newsletter ready for publication? The publicity team wants a link this afternoon."
+    },
+    {
+      "id": "p08-c-28-s02",
+      "speaker": "Priya",
+      "text": "There's one problem. We haven't confirmed whether Ruth agreed to have her story included."
+    },
+    {
+      "id": "p08-c-28-s03",
+      "speaker": "Sol",
+      "text": "Could we just remove her surname?"
+    },
+    {
+      "id": "p08-c-28-s04",
+      "speaker": "Priya",
+      "text": "The details could still identify her. Publishing it now could pose a problem for her at work."
+    },
+    {
+      "id": "p08-c-28-s05",
+      "speaker": "Sol",
+      "text": "Then I propose we hold the issue and ask her to approve the exact passage."
+    },
+    {
+      "id": "p08-c-28-s06",
+      "speaker": "Priya",
+      "text": "Agreed. I'll send her the passage, and you can tell the team not to promote the issue yet."
+    },
+    {
+      "id": "p08-c-28-s07",
+      "speaker": "Sol",
+      "text": "I'll do that. We won't publish it until we've resolved this."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2f92e266930ca609",
+      "lemma": "publication",
+      "pos": "n.",
+      "sense_zh": "出版或发布",
+      "sentence_ids": [
+        "p08-c-28-s01"
+      ],
+      "forms": [
+        "publication"
+      ],
+      "sense_id": "sense-staged-ox-2f92e266930ca609-p08-c-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b311e893b4f3d1e3",
+      "lemma": "publicity",
+      "pos": "n.",
+      "sense_zh": "宣传",
+      "sentence_ids": [
+        "p08-c-28-s01"
+      ],
+      "forms": [
+        "publicity"
+      ],
+      "sense_id": "sense-staged-ox-b311e893b4f3d1e3-p08-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6ab74c35cc02d2d5",
+      "lemma": "pose",
+      "pos": "v.",
+      "sense_zh": "造成或构成",
+      "sentence_ids": [
+        "p08-c-28-s04"
+      ],
+      "forms": [
+        "pose"
+      ],
+      "sense_id": "sense-staged-ox-6ab74c35cc02d2d5-p08-c-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6b0d9b2af8ffec6",
+      "lemma": "propose",
+      "pos": "v.",
+      "sense_zh": "提议",
+      "sentence_ids": [
+        "p08-c-28-s05"
+      ],
+      "forms": [
+        "propose"
+      ],
+      "sense_id": "sense-staged-ox-b6b0d9b2af8ffec6-p08-c-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

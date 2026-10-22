@@ -1,0 +1,116 @@
+{
+  "id": "p08-a-22",
+  "title_zh": "保留温暖的志愿者致辞故事并删去尴尬笑话",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "volunteer-tribute-humor-boundary",
+    "label_zh": "确定志愿者致辞的幽默边界",
+    "goal_zh": "选择不伤害当事人的轻松故事，删去失误笑话并以真实贡献结束致辞"
+  },
+  "participants": [
+    "Vera",
+    "Noah"
+  ],
+  "context_zh": "美国社区活动的主持人向同事试读致敬退休志愿者的短致辞。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-22-s01",
+      "speaker": "Vera",
+      "text": "We're here to honor Pat's years of work, so I don't want the speech to sound like a roast."
+    },
+    {
+      "id": "p08-a-22-s02",
+      "speaker": "Noah",
+      "text": "It can still have some humor. What about the time her dog joined the video meeting?"
+    },
+    {
+      "id": "p08-a-22-s03",
+      "speaker": "Vera",
+      "text": "That was hilarious, and Pat tells the story herself. I'm less sure about the joke about her missing the bus."
+    },
+    {
+      "id": "p08-a-22-s04",
+      "speaker": "Noah",
+      "text": "Leave that out. A humorous story should make her feel included, not embarrassed."
+    },
+    {
+      "id": "p08-a-22-s05",
+      "speaker": "Vera",
+      "text": "I'll keep the dog story, then finish with what she did for the reading group."
+    },
+    {
+      "id": "p08-a-22-s06",
+      "speaker": "Noah",
+      "text": "Good. That gives people a smile and brings it back to why we're thanking her."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cd79991413906ba5",
+      "lemma": "honor",
+      "pos": "v.",
+      "sense_zh": "向某人致敬并表彰其贡献（美式拼写）",
+      "sentence_ids": [
+        "p08-a-22-s01"
+      ],
+      "forms": [
+        "honor"
+      ],
+      "sense_id": "sense-staged-ox-cd79991413906ba5-p08-a-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-460e5940912879cc",
+      "lemma": "humor",
+      "pos": "n.",
+      "sense_zh": "幽默的成分（美式拼写）",
+      "sentence_ids": [
+        "p08-a-22-s02"
+      ],
+      "forms": [
+        "humor"
+      ],
+      "sense_id": "sense-staged-ox-460e5940912879cc-p08-a-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a1eeb8c1da8c7d2",
+      "lemma": "hilarious",
+      "pos": "adj.",
+      "sense_zh": "极其好笑的",
+      "sentence_ids": [
+        "p08-a-22-s03"
+      ],
+      "forms": [
+        "hilarious"
+      ],
+      "sense_id": "sense-staged-ox-2a1eeb8c1da8c7d2-p08-a-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21ce92fba31cd760",
+      "lemma": "humorous",
+      "pos": "adj.",
+      "sense_zh": "幽默有趣的",
+      "sentence_ids": [
+        "p08-a-22-s04"
+      ],
+      "forms": [
+        "humorous"
+      ],
+      "sense_id": "sense-staged-ox-21ce92fba31cd760-p08-a-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p08-c-01",
+  "title_zh": "询问博物馆兼职并索取岗位与养老金条款",
+  "topic_id": "work",
+  "scenario": {
+    "id": "museum-part-time-role-inquiry",
+    "label_zh": "核对博物馆兼职岗位及待遇资料",
+    "goal_zh": "确认兼职岗位基本职责，约定先阅读岗位说明及养老金条款再决定申请"
+  },
+  "participants": [
+    "Ellen",
+    "Rafi"
+  ],
+  "context_zh": "退休后想重新工作的来访者向博物馆招聘人员询问职位。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-01-s01",
+      "speaker": "Ellen",
+      "text": "Your form asks for my occupation. Should I write 'retired teacher'?"
+    },
+    {
+      "id": "p08-c-01-s02",
+      "speaker": "Rafi",
+      "text": "Yes, that's fine. Are you interested in the opening at our information desk?"
+    },
+    {
+      "id": "p08-c-01-s03",
+      "speaker": "Ellen",
+      "text": "I am, provided it's a part-time job. I can work two days a week."
+    },
+    {
+      "id": "p08-c-01-s04",
+      "speaker": "Rafi",
+      "text": "That's the schedule we're offering. The work involves welcoming visitors and answering questions."
+    },
+    {
+      "id": "p08-c-01-s05",
+      "speaker": "Ellen",
+      "text": "The prospect of using my teaching experience again appeals to me. Does the role include a pension?"
+    },
+    {
+      "id": "p08-c-01-s06",
+      "speaker": "Rafi",
+      "text": "I'll give you the benefits sheet rather than guess how the terms would apply to you."
+    },
+    {
+      "id": "p08-c-01-s07",
+      "speaker": "Ellen",
+      "text": "Thank you. I'll read that and the job description before I apply."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1d3c6b3b3eacf13a",
+      "lemma": "occupation",
+      "pos": "n.",
+      "sense_zh": "职业",
+      "sentence_ids": [
+        "p08-c-01-s01"
+      ],
+      "forms": [
+        "occupation"
+      ],
+      "sense_id": "sense-staged-ox-1d3c6b3b3eacf13a-p08-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a23f4bd228fb75ec",
+      "lemma": "opening",
+      "pos": "n.",
+      "sense_zh": "职位空缺",
+      "sentence_ids": [
+        "p08-c-01-s02"
+      ],
+      "forms": [
+        "opening"
+      ],
+      "sense_id": "sense-staged-ox-a23f4bd228fb75ec-p08-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d082d363a15d6481",
+      "lemma": "part-time",
+      "pos": "adj.",
+      "sense_zh": "兼职的",
+      "sentence_ids": [
+        "p08-c-01-s03"
+      ],
+      "forms": [
+        "part-time"
+      ],
+      "sense_id": "sense-staged-ox-d082d363a15d6481-p08-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b33384553ddd270b",
+      "lemma": "pension",
+      "pos": "n.",
+      "sense_zh": "养老金",
+      "sentence_ids": [
+        "p08-c-01-s05"
+      ],
+      "forms": [
+        "pension"
+      ],
+      "sense_id": "sense-staged-ox-b33384553ddd270b-p08-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-be350665f37ddb2c",
+      "lemma": "prospect",
+      "pos": "n.",
+      "sense_zh": "未来可能发生的事或前景",
+      "sentence_ids": [
+        "p08-c-01-s05"
+      ],
+      "forms": [
+        "prospect"
+      ],
+      "sense_id": "sense-staged-ox-be350665f37ddb2c-p08-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

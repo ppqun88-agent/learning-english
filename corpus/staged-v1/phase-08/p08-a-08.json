@@ -1,0 +1,158 @@
+{
+  "id": "p08-a-08",
+  "title_zh": "按初次使用者需要修改传单图文",
+  "topic_id": "work",
+  "scenario": {
+    "id": "illustrated-leaflet-reader-revision",
+    "label_zh": "修订操作传单的图文说明",
+    "goal_zh": "按初次使用者需求补充逐步图示并纳入反馈，约定印刷前测试"
+  },
+  "participants": [
+    "Sofia",
+    "Marcus"
+  ],
+  "context_zh": "设计师和项目负责人检查共享工具柜的操作传单。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-08-s01",
+      "speaker": "Sofia",
+      "text": "The graphic designer sent two versions. Which one is clearer to you?"
+    },
+    {
+      "id": "p08-a-08-s02",
+      "speaker": "Marcus",
+      "text": "The one on the left. The graphics are simpler, but I still can't tell which button opens the drawer."
+    },
+    {
+      "id": "p08-a-08-s03",
+      "speaker": "Sofia",
+      "text": "I'll ask her to illustrate the three steps separately."
+    },
+    {
+      "id": "p08-a-08-s04",
+      "speaker": "Marcus",
+      "text": "Good. One large illustration of the whole cabinet doesn't show the sequence."
+    },
+    {
+      "id": "p08-a-08-s05",
+      "speaker": "Sofia",
+      "text": "The intended audience is people using it for the first time, so we shouldn't assume they know the controls."
+    },
+    {
+      "id": "p08-a-08-s06",
+      "speaker": "Marcus",
+      "text": "Can we incorporate the volunteers' comments as well? They keep being asked where to return things."
+    },
+    {
+      "id": "p08-a-08-s07",
+      "speaker": "Sofia",
+      "text": "Yes. I'll add a return step and remove the paragraph about our history."
+    },
+    {
+      "id": "p08-a-08-s08",
+      "speaker": "Marcus",
+      "text": "Let's try the new version with two first-time users before we print it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-eb440f72ef2ed320",
+      "lemma": "graphic",
+      "pos": "adj.",
+      "sense_zh": "与图像设计有关的",
+      "sentence_ids": [
+        "p08-a-08-s01"
+      ],
+      "forms": [
+        "graphic"
+      ],
+      "sense_id": "sense-staged-ox-eb440f72ef2ed320-p08-a-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fbaae54dd926d0df",
+      "lemma": "graphics",
+      "pos": "n.",
+      "sense_zh": "视觉图像或图形",
+      "sentence_ids": [
+        "p08-a-08-s02"
+      ],
+      "forms": [
+        "graphics"
+      ],
+      "sense_id": "sense-staged-ox-fbaae54dd926d0df-p08-a-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f4045a7346d28bd",
+      "lemma": "illustrate",
+      "pos": "v.",
+      "sense_zh": "用图示解释",
+      "sentence_ids": [
+        "p08-a-08-s03"
+      ],
+      "forms": [
+        "illustrate"
+      ],
+      "sense_id": "sense-staged-ox-2f4045a7346d28bd-p08-a-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cfd0a8195319d1d5",
+      "lemma": "illustration",
+      "pos": "n.",
+      "sense_zh": "说明用的图画",
+      "sentence_ids": [
+        "p08-a-08-s04"
+      ],
+      "forms": [
+        "illustration"
+      ],
+      "sense_id": "sense-staged-ox-cfd0a8195319d1d5-p08-a-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41cb54f79e163953",
+      "lemma": "intended",
+      "pos": "adj.",
+      "sense_zh": "预期面向的",
+      "sentence_ids": [
+        "p08-a-08-s05"
+      ],
+      "forms": [
+        "intended"
+      ],
+      "sense_id": "sense-staged-ox-41cb54f79e163953-p08-a-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5e2bef3940fd2960",
+      "lemma": "incorporate",
+      "pos": "v.",
+      "sense_zh": "纳入并结合",
+      "sentence_ids": [
+        "p08-a-08-s06"
+      ],
+      "forms": [
+        "incorporate"
+      ],
+      "sense_id": "sense-staged-ox-5e2bef3940fd2960-p08-a-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

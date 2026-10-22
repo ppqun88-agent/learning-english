@@ -1,0 +1,121 @@
+{
+  "id": "p08-c-19",
+  "title_zh": "请教师暂停示范并调整掌心托泥姿势",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "first-pottery-palm-demonstration",
+    "label_zh": "根据初学者需要放慢手部示范",
+    "goal_zh": "学生指出跟不上示范的步骤，教师同意暂停并让学生模仿掌心托泥动作"
+  },
+  "participants": [
+    "Poppy",
+    "Mr Shah"
+  ],
+  "context_zh": "一对一陶艺课中，学生请老师解释一个手部动作。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-19-s01",
+      "speaker": "Poppy",
+      "text": "Could you pause there? I lost track of where your other hand goes."
+    },
+    {
+      "id": "p08-c-19-s02",
+      "speaker": "Mr Shah",
+      "text": "Of course. Rest the clay in your palm, like this, rather than gripping it with your fingers."
+    },
+    {
+      "id": "p08-c-19-s03",
+      "speaker": "Poppy",
+      "text": "I think I may be your slowest pupil."
+    },
+    {
+      "id": "p08-c-19-s04",
+      "speaker": "Mr Shah",
+      "text": "You're learning a new movement. It takes patience, not speed."
+    },
+    {
+      "id": "p08-c-19-s05",
+      "speaker": "Poppy",
+      "text": "Could you hold that position while I copy it?"
+    },
+    {
+      "id": "p08-c-19-s06",
+      "speaker": "Mr Shah",
+      "text": "Yes. Start again with this piece of clay. I'll wait while you find a comfortable position."
+    },
+    {
+      "id": "p08-c-19-s07",
+      "speaker": "Poppy",
+      "text": "That's easier. I'm ready to shape the edge now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1c109c1939b1a647",
+      "lemma": "pause",
+      "pos": "v.",
+      "sense_zh": "暂停",
+      "sentence_ids": [
+        "p08-c-19-s01"
+      ],
+      "forms": [
+        "pause"
+      ],
+      "sense_id": "sense-staged-ox-1c109c1939b1a647-p08-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bff36ffd8eb7c9bd",
+      "lemma": "palm",
+      "pos": "n.",
+      "sense_zh": "手掌心",
+      "sentence_ids": [
+        "p08-c-19-s02"
+      ],
+      "forms": [
+        "palm"
+      ],
+      "sense_id": "sense-staged-ox-bff36ffd8eb7c9bd-p08-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5048fbab9441ac1e",
+      "lemma": "pupil",
+      "pos": "n.",
+      "sense_zh": "学生",
+      "sentence_ids": [
+        "p08-c-19-s03"
+      ],
+      "forms": [
+        "pupil"
+      ],
+      "sense_id": "sense-staged-ox-5048fbab9441ac1e-p08-c-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea62d0af33b408d5",
+      "lemma": "patience",
+      "pos": "n.",
+      "sense_zh": "耐心",
+      "sentence_ids": [
+        "p08-c-19-s04"
+      ],
+      "forms": [
+        "patience"
+      ],
+      "sense_id": "sense-staged-ox-ea62d0af33b408d5-p08-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

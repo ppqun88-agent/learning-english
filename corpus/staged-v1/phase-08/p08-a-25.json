@@ -1,0 +1,163 @@
+{
+  "id": "p08-a-25",
+  "title_zh": "限制种子试验结论并计划增加重复试验",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "seed-trial-conclusion-limits",
+    "label_zh": "核对种子试验的推论边界",
+    "goal_zh": "把一次观察结果限定为支持假设的初步迹象，约定重复试验而不声称已证明因果"
+  },
+  "participants": [
+    "Sana",
+    "Oliver"
+  ],
+  "context_zh": "学生与辅导员检查一份种子发芽试验的课堂报告。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-25-s01",
+      "speaker": "Sana",
+      "text": "My hypothesis was that the seeds would sprout sooner in the warmer room."
+    },
+    {
+      "id": "p08-a-25-s02",
+      "speaker": "Oliver",
+      "text": "Were the containers identical apart from where you put them?"
+    },
+    {
+      "id": "p08-a-25-s03",
+      "speaker": "Sana",
+      "text": "Yes. Same size, soil, and amount of water. But I only used one container in each room."
+    },
+    {
+      "id": "p08-a-25-s04",
+      "speaker": "Oliver",
+      "text": "Then what can you infer from the result?"
+    },
+    {
+      "id": "p08-a-25-s05",
+      "speaker": "Sana",
+      "text": "The warmer room's seeds sprouted first. That's an indication that temperature may matter."
+    },
+    {
+      "id": "p08-a-25-s06",
+      "speaker": "Oliver",
+      "text": "Does it imply that temperature was definitely the cause?"
+    },
+    {
+      "id": "p08-a-25-s07",
+      "speaker": "Sana",
+      "text": "No. The seeds could have differed, and we haven't repeated the test."
+    },
+    {
+      "id": "p08-a-25-s08",
+      "speaker": "Oliver",
+      "text": "So the practical implication is that we need more trials, not that growers should change their methods."
+    },
+    {
+      "id": "p08-a-25-s09",
+      "speaker": "Sana",
+      "text": "I'll revise the conclusion and plan several containers for each room next time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0e6d85198f0d5a2f",
+      "lemma": "hypothesis",
+      "pos": "n.",
+      "sense_zh": "有待检验的假设",
+      "sentence_ids": [
+        "p08-a-25-s01"
+      ],
+      "forms": [
+        "hypothesis"
+      ],
+      "sense_id": "sense-staged-ox-0e6d85198f0d5a2f-p08-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-48aa12ce1285b742",
+      "lemma": "identical",
+      "pos": "adj.",
+      "sense_zh": "完全相同的",
+      "sentence_ids": [
+        "p08-a-25-s02"
+      ],
+      "forms": [
+        "identical"
+      ],
+      "sense_id": "sense-staged-ox-48aa12ce1285b742-p08-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b175917fe657115",
+      "lemma": "infer",
+      "pos": "v.",
+      "sense_zh": "根据证据推断",
+      "sentence_ids": [
+        "p08-a-25-s04"
+      ],
+      "forms": [
+        "infer"
+      ],
+      "sense_id": "sense-staged-ox-0b175917fe657115-p08-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ab4927038fbf5b7e",
+      "lemma": "indication",
+      "pos": "n.",
+      "sense_zh": "提示某种情况的迹象",
+      "sentence_ids": [
+        "p08-a-25-s05"
+      ],
+      "forms": [
+        "indication"
+      ],
+      "sense_id": "sense-staged-ox-ab4927038fbf5b7e-p08-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2297e456e9a97c08",
+      "lemma": "imply",
+      "pos": "v.",
+      "sense_zh": "意味着或暗示某种结论",
+      "sentence_ids": [
+        "p08-a-25-s06"
+      ],
+      "forms": [
+        "imply"
+      ],
+      "sense_id": "sense-staged-ox-2297e456e9a97c08-p08-a-25",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a9c8a330a0ec9dd",
+      "lemma": "implication",
+      "pos": "n.",
+      "sense_zh": "某情况所带来的实际含义或影响",
+      "sentence_ids": [
+        "p08-a-25-s08"
+      ],
+      "forms": [
+        "implication"
+      ],
+      "sense_id": "sense-staged-ox-5a9c8a330a0ec9dd-p08-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

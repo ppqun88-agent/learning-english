@@ -1,0 +1,147 @@
+{
+  "id": "p08-b-06",
+  "title_zh": "核对落地后的取车时间和出口路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "arrival-rental-car-route-check",
+    "label_zh": "确认航班后取车及机场出口路线",
+    "goal_zh": "核对取车所需驾照、柜台开放时间和车道，并约定停车后再设置导航"
+  },
+  "participants": [
+    "Ivan",
+    "Ruth"
+  ],
+  "context_zh": "英国机场租车柜台工作人员露丝与即将到达的旅客伊万通电话；不实际预订车辆。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-06-s01",
+      "speaker": "Ivan",
+      "text": "My flight is due in at six. How long after landing should I allow before collecting the car?"
+    },
+    {
+      "id": "p08-b-06-s02",
+      "speaker": "Ruth",
+      "text": "You need time for baggage collection. Our desk stays open until ten, so there's no need to rush."
+    },
+    {
+      "id": "p08-b-06-s03",
+      "speaker": "Ivan",
+      "text": "I'll bring the booking confirmation. Do you need my driving licence as well?"
+    },
+    {
+      "id": "p08-b-06-s04",
+      "speaker": "Ruth",
+      "text": "Yes, the original, please. We'll check the other documents listed in your confirmation when you arrive."
+    },
+    {
+      "id": "p08-b-06-s05",
+      "speaker": "Ivan",
+      "text": "Is the road out of the car park difficult? I won't know the navigation system yet."
+    },
+    {
+      "id": "p08-b-06-s06",
+      "speaker": "Ruth",
+      "text": "Stay in the left lane for the airport exit. There's a marked stopping area just beyond the barrier."
+    },
+    {
+      "id": "p08-b-06-s07",
+      "speaker": "Ivan",
+      "text": "Can I park nearby while I set the route? I'd rather not work it out while driving."
+    },
+    {
+      "id": "p08-b-06-s08",
+      "speaker": "Ruth",
+      "text": "Use that marked area. Set everything up there before you join the main road."
+    },
+    {
+      "id": "p08-b-06-s09",
+      "speaker": "Ivan",
+      "text": "Right. I'll collect my bags, come to your desk, and set the route before leaving the airport."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a950f5176760cc46",
+      "lemma": "landing",
+      "pos": "n.",
+      "sense_zh": "飞机着陆",
+      "sentence_ids": [
+        "p08-b-06-s01"
+      ],
+      "forms": [
+        "landing"
+      ],
+      "sense_id": "sense-staged-ox-a950f5176760cc46-p08-b-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a1d27489a2b9454e",
+      "lemma": "lane",
+      "pos": "n.",
+      "sense_zh": "车道",
+      "sentence_ids": [
+        "p08-b-06-s06"
+      ],
+      "forms": [
+        "lane"
+      ],
+      "sense_id": "sense-staged-ox-a1d27489a2b9454e-p08-b-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e5217d06599ab3d2",
+      "lemma": "licence",
+      "pos": "n.",
+      "sense_zh": "驾驶执照",
+      "sentence_ids": [
+        "p08-b-06-s03"
+      ],
+      "forms": [
+        "licence"
+      ],
+      "sense_id": "sense-staged-ox-e5217d06599ab3d2-p08-b-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76e15ca50da27686",
+      "lemma": "navigation",
+      "pos": "n.",
+      "sense_zh": "导航；确定行进路线",
+      "sentence_ids": [
+        "p08-b-06-s05"
+      ],
+      "forms": [
+        "navigation"
+      ],
+      "sense_id": "sense-staged-ox-76e15ca50da27686-p08-b-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-89c56d0e7b3de68b",
+      "lemma": "nearby",
+      "pos": "adv.",
+      "sense_zh": "在附近",
+      "sentence_ids": [
+        "p08-b-06-s07"
+      ],
+      "forms": [
+        "nearby"
+      ],
+      "sense_id": "sense-staged-ox-89c56d0e7b3de68b-p08-b-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

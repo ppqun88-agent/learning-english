@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-03",
+  "title_zh": "拟定阅读试办计划并约定向园方确认",
+  "topic_id": "community",
+  "scenario": {
+    "id": "kindergarten-reading-pilot-roles",
+    "label_zh": "拟定幼儿园阅读试办及确认安排",
+    "goal_zh": "明确阅读试办的目标和单班范围，约定向教师确认带队、场地与方案后再启动"
+  },
+  "participants": [
+    "Bella",
+    "Chen"
+  ],
+  "context_zh": "社区图书馆的贝拉与幼儿园联络人陈讨论联合阅读活动的试办。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-03-s01",
+      "speaker": "Bella",
+      "text": "Would the kindergarten be interested in a joint reading project with the library?"
+    },
+    {
+      "id": "p08-b-03-s02",
+      "speaker": "Chen",
+      "text": "Possibly. What would the children actually do?"
+    },
+    {
+      "id": "p08-b-03-s03",
+      "speaker": "Bella",
+      "text": "Listen to one short story and choose a book to look at with an adult. Our mission is to make books feel welcoming, not to test anyone."
+    },
+    {
+      "id": "p08-b-03-s04",
+      "speaker": "Chen",
+      "text": "That fits. Who would take responsibility for the volunteers?"
+    },
+    {
+      "id": "p08-b-03-s05",
+      "speaker": "Bella",
+      "text": "I can provide leadership on the library side, but a teacher should stay with the group."
+    },
+    {
+      "id": "p08-b-03-s06",
+      "speaker": "Chen",
+      "text": "I'll ask Ms Patel to lead the first session. Could we start with one class rather than the whole school?"
+    },
+    {
+      "id": "p08-b-03-s07",
+      "speaker": "Bella",
+      "text": "Yes. Let's launch the pilot only after she confirms the room and agrees to the plan."
+    },
+    {
+      "id": "p08-b-03-s08",
+      "speaker": "Chen",
+      "text": "I'll take that plan to her tomorrow and let you know before we invite families."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e304649e5cd11fa0",
+      "lemma": "joint",
+      "pos": "adj.",
+      "sense_zh": "由双方共同进行的",
+      "sentence_ids": [
+        "p08-b-03-s01"
+      ],
+      "forms": [
+        "joint"
+      ],
+      "sense_id": "sense-staged-ox-e304649e5cd11fa0-p08-b-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8512f54ef10c6ff0",
+      "lemma": "kindergarten",
+      "pos": "n.",
+      "sense_zh": "幼儿园",
+      "sentence_ids": [
+        "p08-b-03-s01"
+      ],
+      "forms": [
+        "kindergarten"
+      ],
+      "sense_id": "sense-staged-ox-8512f54ef10c6ff0-p08-b-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cedb797a98d351e5",
+      "lemma": "leadership",
+      "pos": "n.",
+      "sense_zh": "领导与组织工作",
+      "sentence_ids": [
+        "p08-b-03-s05"
+      ],
+      "forms": [
+        "leadership"
+      ],
+      "sense_id": "sense-staged-ox-cedb797a98d351e5-p08-b-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9632523a566e1409",
+      "lemma": "launch",
+      "pos": "v.",
+      "sense_zh": "启动；开始开展",
+      "sentence_ids": [
+        "p08-b-03-s07"
+      ],
+      "forms": [
+        "launch"
+      ],
+      "sense_id": "sense-staged-ox-9632523a566e1409-p08-b-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-faced9c6e00ee068",
+      "lemma": "mission",
+      "pos": "n.",
+      "sense_zh": "组织或项目的使命",
+      "sentence_ids": [
+        "p08-b-03-s03"
+      ],
+      "forms": [
+        "mission"
+      ],
+      "sense_id": "sense-staged-ox-faced9c6e00ee068-p08-b-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

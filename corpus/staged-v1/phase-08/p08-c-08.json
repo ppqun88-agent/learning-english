@@ -1,0 +1,158 @@
+{
+  "id": "p08-c-08",
+  "title_zh": "在操作员监督下完成单页打印测试",
+  "topic_id": "work",
+  "scenario": {
+    "id": "print-room-supervised-test-run",
+    "label_zh": "按流程进行受监督的打印测试",
+    "goal_zh": "核对控制面板与停机流程，在操作员监督下打印一页并检查输出"
+  },
+  "participants": [
+    "Hana",
+    "Owen"
+  ],
+  "context_zh": "新员工在印刷室接受设备操作员的首次指导。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-08-s01",
+      "speaker": "Hana",
+      "text": "May I operate this printer on my own today?"
+    },
+    {
+      "id": "p08-c-08-s02",
+      "speaker": "Owen",
+      "text": "Not yet. I'm the trained operator, so I'll stay with you for this test."
+    },
+    {
+      "id": "p08-c-08-s03",
+      "speaker": "Hana",
+      "text": "Is this the control panel for selecting the paper tray?"
+    },
+    {
+      "id": "p08-c-08-s04",
+      "speaker": "Owen",
+      "text": "Yes. Choose tray two. Before we start, tell me the procedure if the paper jams."
+    },
+    {
+      "id": "p08-c-08-s05",
+      "speaker": "Hana",
+      "text": "Stop the job and call you. I shouldn't open the covers while it's running."
+    },
+    {
+      "id": "p08-c-08-s06",
+      "speaker": "Owen",
+      "text": "Correct. We can proceed with a single test page now."
+    },
+    {
+      "id": "p08-c-08-s07",
+      "speaker": "Hana",
+      "text": "Here it is. The output looks sharp, but could you check the colour?"
+    },
+    {
+      "id": "p08-c-08-s08",
+      "speaker": "Owen",
+      "text": "The colour is right. Leave the larger job paused until we check its settings together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6c0272d80205715e",
+      "lemma": "operate",
+      "pos": "v.",
+      "sense_zh": "操作机器",
+      "sentence_ids": [
+        "p08-c-08-s01"
+      ],
+      "forms": [
+        "operate"
+      ],
+      "sense_id": "sense-staged-ox-6c0272d80205715e-p08-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2466606e8b44bc78",
+      "lemma": "operator",
+      "pos": "n.",
+      "sense_zh": "机器操作员",
+      "sentence_ids": [
+        "p08-c-08-s02"
+      ],
+      "forms": [
+        "operator"
+      ],
+      "sense_id": "sense-staged-ox-2466606e8b44bc78-p08-c-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-36e8788eed79dfc8",
+      "lemma": "panel",
+      "pos": "n.",
+      "sense_zh": "控制面板",
+      "sentence_ids": [
+        "p08-c-08-s03"
+      ],
+      "forms": [
+        "panel"
+      ],
+      "sense_id": "sense-staged-ox-36e8788eed79dfc8-p08-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2fd15421c7d355e",
+      "lemma": "procedure",
+      "pos": "n.",
+      "sense_zh": "操作程序",
+      "sentence_ids": [
+        "p08-c-08-s04"
+      ],
+      "forms": [
+        "procedure"
+      ],
+      "sense_id": "sense-staged-ox-d2fd15421c7d355e-p08-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43ad88b253117b7e",
+      "lemma": "proceed",
+      "pos": "v.",
+      "sense_zh": "继续进行",
+      "sentence_ids": [
+        "p08-c-08-s06"
+      ],
+      "forms": [
+        "proceed"
+      ],
+      "sense_id": "sense-staged-ox-43ad88b253117b7e-p08-c-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-96036c5f73aa9dab",
+      "lemma": "output",
+      "pos": "n.",
+      "sense_zh": "设备输出的成品",
+      "sentence_ids": [
+        "p08-c-08-s07"
+      ],
+      "forms": [
+        "output"
+      ],
+      "sense_id": "sense-staged-ox-96036c5f73aa9dab-p08-c-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

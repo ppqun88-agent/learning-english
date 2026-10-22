@@ -1,0 +1,121 @@
+{
+  "id": "p08-a-16",
+  "title_zh": "转达脚跟伤口与免疫状况并等候回电",
+  "topic_id": "health",
+  "scenario": {
+    "id": "heel-wound-clinic-callback",
+    "label_zh": "请求诊所回电脚跟伤口问题",
+    "goal_zh": "向接待员描述脚跟伤口未愈合及担忧，要求将免疫状况一并转交护士并确认回电安排"
+  },
+  "participants": [
+    "Aaron",
+    "Jo"
+  ],
+  "context_zh": "患者给诊所打电话转达症状，接待员不作诊断。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-16-s01",
+      "speaker": "Aaron",
+      "text": "I have a sore on my heel, and it doesn't seem to heal. Could I speak to a nurse?"
+    },
+    {
+      "id": "p08-a-16-s02",
+      "speaker": "Jo",
+      "text": "I'll pass on a message. How long has it been there?"
+    },
+    {
+      "id": "p08-a-16-s03",
+      "speaker": "Aaron",
+      "text": "About a week. I'm worried about an infection, but I don't know if that's what it is."
+    },
+    {
+      "id": "p08-a-16-s04",
+      "speaker": "Jo",
+      "text": "I'll include that concern. Is there anything else you want the nurse to know?"
+    },
+    {
+      "id": "p08-a-16-s05",
+      "speaker": "Aaron",
+      "text": "Yes. My doctor says my treatment affects my immune system. Please put that in the message too."
+    },
+    {
+      "id": "p08-a-16-s06",
+      "speaker": "Jo",
+      "text": "I will. I'll ask the nurse to review your message and call you today. Can you answer on this number?"
+    },
+    {
+      "id": "p08-a-16-s07",
+      "speaker": "Aaron",
+      "text": "Yes, I'll keep the phone with me. Thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6e85dd7989a26d8b",
+      "lemma": "heel",
+      "pos": "n.",
+      "sense_zh": "脚跟",
+      "sentence_ids": [
+        "p08-a-16-s01"
+      ],
+      "forms": [
+        "heel"
+      ],
+      "sense_id": "sense-staged-ox-6e85dd7989a26d8b-p08-a-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ab26673a5974344",
+      "lemma": "heal",
+      "pos": "v.",
+      "sense_zh": "伤口愈合",
+      "sentence_ids": [
+        "p08-a-16-s01"
+      ],
+      "forms": [
+        "heal"
+      ],
+      "sense_id": "sense-staged-ox-3ab26673a5974344-p08-a-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc6cef69332e8068",
+      "lemma": "infection",
+      "pos": "n.",
+      "sense_zh": "感染",
+      "sentence_ids": [
+        "p08-a-16-s03"
+      ],
+      "forms": [
+        "infection"
+      ],
+      "sense_id": "sense-staged-ox-fc6cef69332e8068-p08-a-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7e539159b079e5e3",
+      "lemma": "immune",
+      "pos": "adj.",
+      "sense_zh": "与身体免疫防御有关的",
+      "sentence_ids": [
+        "p08-a-16-s05"
+      ],
+      "forms": [
+        "immune"
+      ],
+      "sense_id": "sense-staged-ox-7e539159b079e5e3-p08-a-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

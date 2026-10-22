@@ -1,0 +1,105 @@
+{
+  "id": "p08-c-17",
+  "title_zh": "确认跨夜寄存费用并留下行李",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "hotel-luggage-overnight-storage",
+    "label_zh": "办理酒店跨夜行李寄存",
+    "goal_zh": "核对跨夜寄存费用和次日领取期限，支付费用并取得领取凭据"
+  },
+  "participants": [
+    "Theo",
+    "Mina"
+  ],
+  "context_zh": "退房旅客因第二天才继续旅行而询问酒店行李寄存。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-17-s01",
+      "speaker": "Theo",
+      "text": "Can my bag stay here overnight? I won't be back until tomorrow afternoon."
+    },
+    {
+      "id": "p08-c-17-s02",
+      "speaker": "Mina",
+      "text": "Yes. Overnight storage costs six pounds, and you must collect it before six tomorrow."
+    },
+    {
+      "id": "p08-c-17-s03",
+      "speaker": "Theo",
+      "text": "Do I owe you anything else from my room bill?"
+    },
+    {
+      "id": "p08-c-17-s04",
+      "speaker": "Mina",
+      "text": "No, that's settled. This is just the storage charge."
+    },
+    {
+      "id": "p08-c-17-s05",
+      "speaker": "Theo",
+      "text": "I'll pay that now. I'll collect the bag around four."
+    },
+    {
+      "id": "p08-c-17-s06",
+      "speaker": "Mina",
+      "text": "Here's your claim ticket. Keep it safe; otherwise, we'll need extra checks before we can release the bag."
+    },
+    {
+      "id": "p08-c-17-s07",
+      "speaker": "Theo",
+      "text": "Thank you. I've put it in my wallet."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-457301af13dafbc7",
+      "lemma": "overnight",
+      "pos": "adv.",
+      "sense_zh": "过夜地",
+      "sentence_ids": [
+        "p08-c-17-s01"
+      ],
+      "forms": [
+        "overnight"
+      ],
+      "sense_id": "sense-staged-ox-457301af13dafbc7-p08-c-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1a126130f342df44",
+      "lemma": "owe",
+      "pos": "v.",
+      "sense_zh": "欠款",
+      "sentence_ids": [
+        "p08-c-17-s03"
+      ],
+      "forms": [
+        "owe"
+      ],
+      "sense_id": "sense-staged-ox-1a126130f342df44-p08-c-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cd14a53bd58e2d41",
+      "lemma": "otherwise",
+      "pos": "adv.",
+      "sense_zh": "否则",
+      "sentence_ids": [
+        "p08-c-17-s06"
+      ],
+      "forms": [
+        "otherwise"
+      ],
+      "sense_id": "sense-staged-ox-cd14a53bd58e2d41-p08-c-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

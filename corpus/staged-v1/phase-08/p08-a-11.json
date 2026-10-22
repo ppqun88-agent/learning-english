@@ -1,0 +1,121 @@
+{
+  "id": "p08-a-11",
+  "title_zh": "修订保护区告示以明确步道限制",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "reserve-path-protection-notice",
+    "label_zh": "明确保护区步道告示",
+    "goal_zh": "依据已张贴规则说明不进入鸟类栖息地及禁止狩猎，并约定使用易懂文字"
+  },
+  "participants": [
+    "Anika",
+    "George"
+  ],
+  "context_zh": "保护区工作人员检查一张待放在步道入口的新告示。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-11-s01",
+      "speaker": "Anika",
+      "text": "Our new sign says, 'Respect the habitat.' Will visitors know what that asks them to do?"
+    },
+    {
+      "id": "p08-a-11-s02",
+      "speaker": "George",
+      "text": "Probably not. We should tell them to stay on the path and leave the reed beds alone."
+    },
+    {
+      "id": "p08-a-11-s03",
+      "speaker": "Anika",
+      "text": "Could we explain that repeated disturbance can harm the nesting birds?"
+    },
+    {
+      "id": "p08-a-11-s04",
+      "speaker": "George",
+      "text": "Yes. That's clearer than just calling human activity harmful."
+    },
+    {
+      "id": "p08-a-11-s05",
+      "speaker": "Anika",
+      "text": "The rules also prohibit hunting anywhere in the reserve. That needs its own line."
+    },
+    {
+      "id": "p08-a-11-s06",
+      "speaker": "George",
+      "text": "I'll put that underneath, with the ranger's contact number for questions."
+    },
+    {
+      "id": "p08-a-11-s07",
+      "speaker": "Anika",
+      "text": "Good. Let's use short sentences, so people can read the sign before entering."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-df190562bf0a67dc",
+      "lemma": "habitat",
+      "pos": "n.",
+      "sense_zh": "动植物生活的自然栖息地",
+      "sentence_ids": [
+        "p08-a-11-s01"
+      ],
+      "forms": [
+        "habitat"
+      ],
+      "sense_id": "sense-staged-ox-df190562bf0a67dc-p08-a-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3650a0f7c84e22a0",
+      "lemma": "harm",
+      "pos": "v.",
+      "sense_zh": "伤害或损害",
+      "sentence_ids": [
+        "p08-a-11-s03"
+      ],
+      "forms": [
+        "harm"
+      ],
+      "sense_id": "sense-staged-ox-3650a0f7c84e22a0-p08-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df23a30b57b2c9d7",
+      "lemma": "harmful",
+      "pos": "adj.",
+      "sense_zh": "有害的",
+      "sentence_ids": [
+        "p08-a-11-s04"
+      ],
+      "forms": [
+        "harmful"
+      ],
+      "sense_id": "sense-staged-ox-df23a30b57b2c9d7-p08-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cbadba84194315e4",
+      "lemma": "hunting",
+      "pos": "n.",
+      "sense_zh": "狩猎活动",
+      "sentence_ids": [
+        "p08-a-11-s05"
+      ],
+      "forms": [
+        "hunting"
+      ],
+      "sense_id": "sense-staged-ox-cbadba84194315e4-p08-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

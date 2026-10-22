@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-01",
+  "title_zh": "先补充采访再修改校报报道",
+  "topic_id": "work",
+  "scenario": {
+    "id": "student-news-fairness-revision",
+    "label_zh": "修订校报报道的证据与评价",
+    "goal_zh": "区分记者评价与已核实事实，约定补充采访并把指责改为可回答的问题"
+  },
+  "participants": [
+    "Imogen",
+    "Khalid"
+  ],
+  "context_zh": "英国一所学校的初级记者伊莫金与编辑哈立德核对一篇关于社团取消活动的报道。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-01-s01",
+      "speaker": "Imogen",
+      "text": "This is my first piece of journalism. Could you check the opening before I send it?"
+    },
+    {
+      "id": "p08-b-01-s02",
+      "speaker": "Khalid",
+      "text": "Of course. Being a junior reporter doesn't mean you have to get everything right alone."
+    },
+    {
+      "id": "p08-b-01-s03",
+      "speaker": "Imogen",
+      "text": "I wrote that the club leader doesn't care about the members. She cancelled their trip."
+    },
+    {
+      "id": "p08-b-01-s04",
+      "speaker": "Khalid",
+      "text": "That's a judgement about her motives. Have you asked why she cancelled it?"
+    },
+    {
+      "id": "p08-b-01-s05",
+      "speaker": "Imogen",
+      "text": "No. I only spoke to two disappointed members. Should I make the whole article neutral?"
+    },
+    {
+      "id": "p08-b-01-s06",
+      "speaker": "Khalid",
+      "text": "Keep their concerns, but be objective about what we know. The cancellation is a fact; her reasons aren't clear yet."
+    },
+    {
+      "id": "p08-b-01-s07",
+      "speaker": "Imogen",
+      "text": "I'll ask her what happened and change that accusation into a question about the decision."
+    },
+    {
+      "id": "p08-b-01-s08",
+      "speaker": "Khalid",
+      "text": "Good. Send me the revised opening after you've included her response, or said clearly that we're still waiting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c8cd5da5f61f8e92",
+      "lemma": "journalism",
+      "pos": "n.",
+      "sense_zh": "新闻报道工作",
+      "sentence_ids": [
+        "p08-b-01-s01"
+      ],
+      "forms": [
+        "journalism"
+      ],
+      "sense_id": "sense-staged-ox-c8cd5da5f61f8e92-p08-b-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-187b76d59cedcfac",
+      "lemma": "junior",
+      "pos": "adj.",
+      "sense_zh": "职位较低的；初级的",
+      "sentence_ids": [
+        "p08-b-01-s02"
+      ],
+      "forms": [
+        "junior"
+      ],
+      "sense_id": "sense-staged-ox-187b76d59cedcfac-p08-b-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d74dd5f45699e039",
+      "lemma": "judgement",
+      "pos": "n.",
+      "sense_zh": "对某事或某人的判断",
+      "sentence_ids": [
+        "p08-b-01-s04"
+      ],
+      "forms": [
+        "judgement"
+      ],
+      "sense_id": "sense-staged-ox-d74dd5f45699e039-p08-b-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d35769dd7fda1a8e",
+      "lemma": "neutral",
+      "pos": "adj.",
+      "sense_zh": "不偏向任何一方的",
+      "sentence_ids": [
+        "p08-b-01-s05"
+      ],
+      "forms": [
+        "neutral"
+      ],
+      "sense_id": "sense-staged-ox-d35769dd7fda1a8e-p08-b-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-de53e24a4877fd69",
+      "lemma": "objective",
+      "pos": "adj.",
+      "sense_zh": "客观的；依据事实的",
+      "sentence_ids": [
+        "p08-b-01-s06"
+      ],
+      "forms": [
+        "objective"
+      ],
+      "sense_id": "sense-staged-ox-de53e24a4877fd69-p08-b-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

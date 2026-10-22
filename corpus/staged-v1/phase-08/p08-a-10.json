@@ -1,0 +1,147 @@
+{
+  "id": "p08-a-10",
+  "title_zh": "商定维修项目投资会谈的准备分工",
+  "topic_id": "work",
+  "scenario": {
+    "id": "repair-startup-investor-questions",
+    "label_zh": "澄清维修项目的创新与投资问题",
+    "goal_zh": "区分可展示的创新与尚缺比较证据的折扣效果，分工准备成本、样品和现有评论，并暂不承诺投资回报"
+  },
+  "participants": [
+    "Jules",
+    "Farah"
+  ],
+  "context_zh": "一家小型维修企业的创办人和同事准备与潜在投资人见面。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-10-s01",
+      "speaker": "Jules",
+      "text": "An investor has agreed to hear about our repair service next week."
+    },
+    {
+      "id": "p08-a-10-s02",
+      "speaker": "Farah",
+      "text": "How much investment are we asking for, and what would it pay for?"
+    },
+    {
+      "id": "p08-a-10-s03",
+      "speaker": "Jules",
+      "text": "Enough for a second workbench and a booking system. The figures are still rough."
+    },
+    {
+      "id": "p08-a-10-s04",
+      "speaker": "Farah",
+      "text": "Then let's get those costs right before calling the whole business innovative."
+    },
+    {
+      "id": "p08-a-10-s05",
+      "speaker": "Jules",
+      "text": "The main innovation is our reusable replacement panel. Customers don't have to replace the whole case."
+    },
+    {
+      "id": "p08-a-10-s06",
+      "speaker": "Farah",
+      "text": "That's something we can demonstrate. What evidence do we have that the discount is an incentive to return?"
+    },
+    {
+      "id": "p08-a-10-s07",
+      "speaker": "Jules",
+      "text": "Only three customer comments, not a proper comparison."
+    },
+    {
+      "id": "p08-a-10-s08",
+      "speaker": "Farah",
+      "text": "Let's say that plainly. I'll prepare the costs, and you can bring the panel and those comments."
+    },
+    {
+      "id": "p08-a-10-s09",
+      "speaker": "Jules",
+      "text": "Agreed. No promises about returns until we've worked through the numbers."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0c5e2abc001a6cab",
+      "lemma": "investor",
+      "pos": "n.",
+      "sense_zh": "出资以期获得回报的投资人",
+      "sentence_ids": [
+        "p08-a-10-s01"
+      ],
+      "forms": [
+        "investor"
+      ],
+      "sense_id": "sense-staged-ox-0c5e2abc001a6cab-p08-a-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-46432ad9e87aa00e",
+      "lemma": "investment",
+      "pos": "n.",
+      "sense_zh": "投入企业的资金",
+      "sentence_ids": [
+        "p08-a-10-s02"
+      ],
+      "forms": [
+        "investment"
+      ],
+      "sense_id": "sense-staged-ox-46432ad9e87aa00e-p08-a-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb5aae0a78e2358a",
+      "lemma": "innovative",
+      "pos": "adj.",
+      "sense_zh": "采用新方法或创意的",
+      "sentence_ids": [
+        "p08-a-10-s04"
+      ],
+      "forms": [
+        "innovative"
+      ],
+      "sense_id": "sense-staged-ox-cb5aae0a78e2358a-p08-a-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ec1f9b29409fa1e8",
+      "lemma": "innovation",
+      "pos": "n.",
+      "sense_zh": "新的设计或方法",
+      "sentence_ids": [
+        "p08-a-10-s05"
+      ],
+      "forms": [
+        "innovation"
+      ],
+      "sense_id": "sense-staged-ox-ec1f9b29409fa1e8-p08-a-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-723e415537f77505",
+      "lemma": "incentive",
+      "pos": "n.",
+      "sense_zh": "促使采取行动的激励因素",
+      "sentence_ids": [
+        "p08-a-10-s06"
+      ],
+      "forms": [
+        "incentive"
+      ],
+      "sense_id": "sense-staged-ox-723e415537f77505-p08-a-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

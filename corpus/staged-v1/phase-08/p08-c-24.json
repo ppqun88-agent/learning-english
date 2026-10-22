@@ -1,0 +1,84 @@
+{
+  "id": "p08-c-24",
+  "title_zh": "先整理儿童读物并分开放待检查书籍",
+  "topic_id": "community",
+  "scenario": {
+    "id": "donated-book-sorting-first-pass",
+    "label_zh": "分拣捐赠图书的首轮工作",
+    "goal_zh": "确定先整理儿童读物，把有松页的书单独留待检查"
+  },
+  "participants": [
+    "Chloe",
+    "Arun"
+  ],
+  "context_zh": "图书义卖前，两位志愿者处理刚收到的捐赠书。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-24-s01",
+      "speaker": "Chloe",
+      "text": "Shall I put this whole pile on the sale table?"
+    },
+    {
+      "id": "p08-c-24-s02",
+      "speaker": "Arun",
+      "text": "Not yet. We're sorting children's books first because the morning visitors are primarily families."
+    },
+    {
+      "id": "p08-c-24-s03",
+      "speaker": "Chloe",
+      "text": "Some of these have loose pages. Should I put them aside?"
+    },
+    {
+      "id": "p08-c-24-s04",
+      "speaker": "Arun",
+      "text": "Yes, in the box marked 'check'. Don't put a price on them until someone has looked through them."
+    },
+    {
+      "id": "p08-c-24-s05",
+      "speaker": "Chloe",
+      "text": "I'll separate those and start arranging the children's books by age."
+    },
+    {
+      "id": "p08-c-24-s06",
+      "speaker": "Arun",
+      "text": "Thanks. I'll clear a table so you have room."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c33f52dd5cce7ddb",
+      "lemma": "pile",
+      "pos": "n.",
+      "sense_zh": "一堆物品",
+      "sentence_ids": [
+        "p08-c-24-s01"
+      ],
+      "forms": [
+        "pile"
+      ],
+      "sense_id": "sense-staged-ox-c33f52dd5cce7ddb-p08-c-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08951c909b6f3b55",
+      "lemma": "primarily",
+      "pos": "adv.",
+      "sense_zh": "主要地",
+      "sentence_ids": [
+        "p08-c-24-s02"
+      ],
+      "forms": [
+        "primarily"
+      ],
+      "sense_id": "sense-staged-ox-08951c909b6f3b55-p08-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

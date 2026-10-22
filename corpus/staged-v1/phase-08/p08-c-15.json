@@ -1,0 +1,84 @@
+{
+  "id": "p08-c-15",
+  "title_zh": "核对产地标签后选购胡萝卜",
+  "topic_id": "food",
+  "scenario": {
+    "id": "market-vegetable-origin-check",
+    "label_zh": "核对市集蔬菜的产地与有机标识",
+    "goal_zh": "区分产地信息与种植方式，查看包装标识后选定胡萝卜"
+  },
+  "participants": [
+    "Sofia",
+    "Cal"
+  ],
+  "context_zh": "顾客在市集询问两个摊箱里的胡萝卜。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-15-s01",
+      "speaker": "Sofia",
+      "text": "Are these organic carrots, or does the sign only mean they're grown nearby?"
+    },
+    {
+      "id": "p08-c-15-s02",
+      "speaker": "Cal",
+      "text": "The sign gives their origin. It doesn't describe the farming method."
+    },
+    {
+      "id": "p08-c-15-s03",
+      "speaker": "Sofia",
+      "text": "I see. Do you have any with an organic label?"
+    },
+    {
+      "id": "p08-c-15-s04",
+      "speaker": "Cal",
+      "text": "These sealed bags do. The producer's details and certification mark are on the back."
+    },
+    {
+      "id": "p08-c-15-s05",
+      "speaker": "Sofia",
+      "text": "Let me check that. Yes, these are the ones I want. I'll take one bag."
+    },
+    {
+      "id": "p08-c-15-s06",
+      "speaker": "Cal",
+      "text": "Certainly. I'll leave the label on so you have the details."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9be14000ed5b50b3",
+      "lemma": "organic",
+      "pos": "adj.",
+      "sense_zh": "有机种植的",
+      "sentence_ids": [
+        "p08-c-15-s01"
+      ],
+      "forms": [
+        "organic"
+      ],
+      "sense_id": "sense-staged-ox-9be14000ed5b50b3-p08-c-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a086ac12189a3933",
+      "lemma": "origin",
+      "pos": "n.",
+      "sense_zh": "产地或来源",
+      "sentence_ids": [
+        "p08-c-15-s02"
+      ],
+      "forms": [
+        "origin"
+      ],
+      "sense_id": "sense-staged-ox-a086ac12189a3933-p08-c-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

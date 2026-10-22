@@ -1,0 +1,100 @@
+{
+  "id": "p08-c-10",
+  "title_zh": "更正虚构国家制度图并分开政策立场",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-government-chart-revision",
+    "label_zh": "区分总统制结构与进步政策立场",
+    "goal_zh": "根据课堂案例补画议会，并把政策立场说明从政府结构图移到单独栏"
+  },
+  "participants": [
+    "Yuki",
+    "Leo"
+  ],
+  "context_zh": "学生核对关于虚构国家的公民课图示。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-10-s01",
+      "speaker": "Yuki",
+      "text": "My chart shows the president making every law. The case says this is a presidential system."
+    },
+    {
+      "id": "p08-c-10-s02",
+      "speaker": "Leo",
+      "text": "But it also says parliament debates and passes laws. You've left that branch out."
+    },
+    {
+      "id": "p08-c-10-s03",
+      "speaker": "Yuki",
+      "text": "I thought the description of the president as progressive meant the office had extra powers."
+    },
+    {
+      "id": "p08-c-10-s04",
+      "speaker": "Leo",
+      "text": "That describes her support for social reform, not the structure of the government."
+    },
+    {
+      "id": "p08-c-10-s05",
+      "speaker": "Yuki",
+      "text": "Then I'll add parliament and put her policy views in a separate box."
+    },
+    {
+      "id": "p08-c-10-s06",
+      "speaker": "Leo",
+      "text": "Let's check the arrows against the case notes before we hand it in."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e36cc709314f1efa",
+      "lemma": "presidential",
+      "pos": "adj.",
+      "sense_zh": "总统制的",
+      "sentence_ids": [
+        "p08-c-10-s01"
+      ],
+      "forms": [
+        "presidential"
+      ],
+      "sense_id": "sense-staged-ox-e36cc709314f1efa-p08-c-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ebc305d465a7d565",
+      "lemma": "parliament",
+      "pos": "n.",
+      "sense_zh": "议会",
+      "sentence_ids": [
+        "p08-c-10-s02"
+      ],
+      "forms": [
+        "parliament"
+      ],
+      "sense_id": "sense-staged-ox-ebc305d465a7d565-p08-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-22612369b04d2e48",
+      "lemma": "progressive",
+      "pos": "adj.",
+      "sense_zh": "支持社会改革的",
+      "sentence_ids": [
+        "p08-c-10-s03"
+      ],
+      "forms": [
+        "progressive"
+      ],
+      "sense_id": "sense-staged-ox-22612369b04d2e48-p08-c-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

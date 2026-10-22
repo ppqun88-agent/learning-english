@@ -1,0 +1,105 @@
+{
+  "id": "p08-c-06",
+  "title_zh": "选定歌剧午场的后排座位",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "opera-matinee-seat-choice",
+    "label_zh": "在歌剧午场与晚场之间选择座位",
+    "goal_zh": "核对现场乐队及可售座位，选定周六午场的两张后排票"
+  },
+  "participants": [
+    "Clara",
+    "Jon"
+  ],
+  "context_zh": "观众在剧院售票处比较同一部歌剧的场次。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-06-s01",
+      "speaker": "Clara",
+      "text": "Is Saturday's opera performed with a live orchestra, or a recording?"
+    },
+    {
+      "id": "p08-c-06-s02",
+      "speaker": "Jon",
+      "text": "A live orchestra at both performances. The afternoon and evening casts are different."
+    },
+    {
+      "id": "p08-c-06-s03",
+      "speaker": "Clara",
+      "text": "I hoped to book the evening, but the website showed very few seats."
+    },
+    {
+      "id": "p08-c-06-s04",
+      "speaker": "Jon",
+      "text": "The lead singer's popularity has made that performance almost sell out. There are two seats together at the back for the afternoon."
+    },
+    {
+      "id": "p08-c-06-s05",
+      "speaker": "Clara",
+      "text": "Can we see the whole stage from there?"
+    },
+    {
+      "id": "p08-c-06-s06",
+      "speaker": "Jon",
+      "text": "Yes. The view is clear, though you're farther from the singers."
+    },
+    {
+      "id": "p08-c-06-s07",
+      "speaker": "Clara",
+      "text": "Then I'll take those two seats for the afternoon, please."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-96f2a74554553608",
+      "lemma": "opera",
+      "pos": "n.",
+      "sense_zh": "歌剧",
+      "sentence_ids": [
+        "p08-c-06-s01"
+      ],
+      "forms": [
+        "opera"
+      ],
+      "sense_id": "sense-staged-ox-96f2a74554553608-p08-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54beffd8cde18dfb",
+      "lemma": "orchestra",
+      "pos": "n.",
+      "sense_zh": "管弦乐队",
+      "sentence_ids": [
+        "p08-c-06-s01"
+      ],
+      "forms": [
+        "orchestra"
+      ],
+      "sense_id": "sense-staged-ox-54beffd8cde18dfb-p08-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eec8c8b2e562dd8c",
+      "lemma": "popularity",
+      "pos": "n.",
+      "sense_zh": "受欢迎程度",
+      "sentence_ids": [
+        "p08-c-06-s04"
+      ],
+      "forms": [
+        "popularity"
+      ],
+      "sense_id": "sense-staged-ox-eec8c8b2e562dd8c-p08-c-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

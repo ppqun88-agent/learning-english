@@ -1,0 +1,121 @@
+{
+  "id": "p08-c-26",
+  "title_zh": "核对舞台提示并标记换场时刻",
+  "topic_id": "work",
+  "scenario": {
+    "id": "stage-cue-time-confirmation",
+    "label_zh": "确认节目概要中的准确换场提示",
+    "goal_zh": "区分整场概述与具体提示，确认掌声结束后用灯光信号提示主持人上场"
+  },
+  "participants": [
+    "Mae",
+    "Victor"
+  ],
+  "context_zh": "舞台经理与灯光员在演出前核对提示表。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-26-s01",
+      "speaker": "Mae",
+      "text": "This outline gives me the order of the acts, but I need a more precise cue for the host's return."
+    },
+    {
+      "id": "p08-c-26-s02",
+      "speaker": "Victor",
+      "text": "The final chord isn't the cue. Wait until the applause has finished."
+    },
+    {
+      "id": "p08-c-26-s03",
+      "speaker": "Mae",
+      "text": "What will prompt the host to walk back on?"
+    },
+    {
+      "id": "p08-c-26-s04",
+      "speaker": "Victor",
+      "text": "Your small blue light beside the curtain. The host can see it from the wings."
+    },
+    {
+      "id": "p08-c-26-s05",
+      "speaker": "Mae",
+      "text": "So precisely when the applause ends, I switch on that light?"
+    },
+    {
+      "id": "p08-c-26-s06",
+      "speaker": "Victor",
+      "text": "Yes. Don't bring up the main stage lights until the host has reached the microphone."
+    },
+    {
+      "id": "p08-c-26-s07",
+      "speaker": "Mae",
+      "text": "I've marked both cues separately. Let's try that transition once."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c7e535ba819cb76c",
+      "lemma": "outline",
+      "pos": "n.",
+      "sense_zh": "概要",
+      "sentence_ids": [
+        "p08-c-26-s01"
+      ],
+      "forms": [
+        "outline"
+      ],
+      "sense_id": "sense-staged-ox-c7e535ba819cb76c-p08-c-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-91381e177e6d3726",
+      "lemma": "precise",
+      "pos": "adj.",
+      "sense_zh": "准确而具体的",
+      "sentence_ids": [
+        "p08-c-26-s01"
+      ],
+      "forms": [
+        "precise"
+      ],
+      "sense_id": "sense-staged-ox-91381e177e6d3726-p08-c-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7cbe89fab16c8d08",
+      "lemma": "prompt",
+      "pos": "v.",
+      "sense_zh": "促使或提示某人行动",
+      "sentence_ids": [
+        "p08-c-26-s03"
+      ],
+      "forms": [
+        "prompt"
+      ],
+      "sense_id": "sense-staged-ox-7cbe89fab16c8d08-p08-c-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-47f223590774153c",
+      "lemma": "precisely",
+      "pos": "adv.",
+      "sense_zh": "恰好或准确地",
+      "sentence_ids": [
+        "p08-c-26-s05"
+      ],
+      "forms": [
+        "precisely"
+      ],
+      "sense_id": "sense-staged-ox-47f223590774153c-p08-c-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-10",
+  "title_zh": "选定奇幻小说并确定讨论问题",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fantasy-reading-group-choice",
+    "label_zh": "选择奇幻共读作品及讨论问题",
+    "goal_zh": "区分传奇背景与小说虚构，选定共读作品并围绕角色改变看法提出讨论问题"
+  },
+  "participants": [
+    "Yuna",
+    "Felix"
+  ],
+  "context_zh": "读书小组成员优娜与菲利克斯讨论是否选择一本虚构奇幻小说作为共读作品。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-10-s01",
+      "speaker": "Yuna",
+      "text": "Shall we read The Glass Valley? Its story grows out of a local legend about a hidden lake."
+    },
+    {
+      "id": "p08-b-10-s02",
+      "speaker": "Felix",
+      "text": "Is it a history book? The cover shows a lord in a castle."
+    },
+    {
+      "id": "p08-b-10-s03",
+      "speaker": "Yuna",
+      "text": "No, it's a novel. A mysterious visitor arrives and warns him about a monster in the valley."
+    },
+    {
+      "id": "p08-b-10-s04",
+      "speaker": "Felix",
+      "text": "That sounds darker than our usual choice."
+    },
+    {
+      "id": "p08-b-10-s05",
+      "speaker": "Yuna",
+      "text": "The monster turns out not to be the enemy. The writer uses the old myth to question why the villagers are so afraid."
+    },
+    {
+      "id": "p08-b-10-s06",
+      "speaker": "Felix",
+      "text": "That gives us something to discuss beyond the plot. How long is it?"
+    },
+    {
+      "id": "p08-b-10-s07",
+      "speaker": "Yuna",
+      "text": "Two hundred pages. We could read it before next month's meeting."
+    },
+    {
+      "id": "p08-b-10-s08",
+      "speaker": "Felix",
+      "text": "Let's choose it, then. I'll ask everyone to notice when the villagers first change their minds."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1e8ad9e8567b362a",
+      "lemma": "legend",
+      "pos": "n.",
+      "sense_zh": "流传的传奇故事",
+      "sentence_ids": [
+        "p08-b-10-s01"
+      ],
+      "forms": [
+        "legend"
+      ],
+      "sense_id": "sense-staged-ox-1e8ad9e8567b362a-p08-b-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f009ecc065337f3d",
+      "lemma": "lord",
+      "pos": "n.",
+      "sense_zh": "领主；贵族",
+      "sentence_ids": [
+        "p08-b-10-s02"
+      ],
+      "forms": [
+        "lord"
+      ],
+      "sense_id": "sense-staged-ox-f009ecc065337f3d-p08-b-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed6903c814daa22a",
+      "lemma": "monster",
+      "pos": "n.",
+      "sense_zh": "故事中的怪物",
+      "sentence_ids": [
+        "p08-b-10-s03"
+      ],
+      "forms": [
+        "monster"
+      ],
+      "sense_id": "sense-staged-ox-ed6903c814daa22a-p08-b-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-daf6565ae2409e45",
+      "lemma": "mysterious",
+      "pos": "adj.",
+      "sense_zh": "神秘的；来历不明的",
+      "sentence_ids": [
+        "p08-b-10-s03"
+      ],
+      "forms": [
+        "mysterious"
+      ],
+      "sense_id": "sense-staged-ox-daf6565ae2409e45-p08-b-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-405caa5a915b62ea",
+      "lemma": "myth",
+      "pos": "n.",
+      "sense_zh": "古老的神话或传说",
+      "sentence_ids": [
+        "p08-b-10-s05"
+      ],
+      "forms": [
+        "myth"
+      ],
+      "sense_id": "sense-staged-ox-405caa5a915b62ea-p08-b-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

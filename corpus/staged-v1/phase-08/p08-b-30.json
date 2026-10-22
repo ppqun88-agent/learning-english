@@ -1,0 +1,68 @@
+{
+  "id": "p08-b-30",
+  "title_zh": "先核对规则再筹备慈善抽奖",
+  "topic_id": "community",
+  "scenario": {
+    "id": "charity-raffle-planning",
+    "label_zh": "分工筹备慈善抽奖",
+    "goal_zh": "确定筹款用途、奖品和筹备分工，并约定售票前核对活动规则"
+  },
+  "participants": [
+    "Eve",
+    "Khalil"
+  ],
+  "context_zh": "社区志愿者伊芙与哈立尔讨论一项尚未启动的虚构小型慈善抽奖。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-30-s01",
+      "speaker": "Eve",
+      "text": "Could a small lottery help us raise money for the reading room?"
+    },
+    {
+      "id": "p08-b-30-s02",
+      "speaker": "Khalil",
+      "text": "Perhaps, but we need to check the rules before we sell any tickets."
+    },
+    {
+      "id": "p08-b-30-s03",
+      "speaker": "Eve",
+      "text": "The bookshop has offered a book hamper as a prize. I'd like all the proceeds to go towards new reading lamps."
+    },
+    {
+      "id": "p08-b-30-s04",
+      "speaker": "Khalil",
+      "text": "That gives us a clear purpose. I'll ask the community centre which rules apply and who needs to approve the event."
+    },
+    {
+      "id": "p08-b-30-s05",
+      "speaker": "Eve",
+      "text": "I'll confirm the donated prize and draft a notice, but I won't print tickets yet."
+    },
+    {
+      "id": "p08-b-30-s06",
+      "speaker": "Khalil",
+      "text": "Good. Once we have the guidance, we can decide whether to go ahead and set a date."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5db6049f08768940",
+      "lemma": "lottery",
+      "pos": "n.",
+      "sense_zh": "通过随机抽取决定中奖者的筹款抽奖",
+      "sentence_ids": [
+        "p08-b-30-s01"
+      ],
+      "forms": [
+        "lottery"
+      ],
+      "sense_id": "sense-staged-ox-5db6049f08768940-p08-b-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

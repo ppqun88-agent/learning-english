@@ -1,0 +1,126 @@
+{
+  "id": "p08-b-04",
+  "title_zh": "向工厂索取小批量制作报价",
+  "topic_id": "work",
+  "scenario": {
+    "id": "factory-small-order-tour-inquiry",
+    "label_zh": "询问小批量制造及人工费用",
+    "goal_zh": "确认工厂可做小批量产品，并约定提供尺寸后分别报价材料与人工"
+  },
+  "participants": [
+    "Rosa",
+    "Dean"
+  ],
+  "context_zh": "虚构美国工厂参观中，创作者罗莎询问生产主管迪恩能否制作少量展示架。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-04-s01",
+      "speaker": "Rosa",
+      "text": "Do you manufacture these stands here, or do you bring them in from another company?"
+    },
+    {
+      "id": "p08-b-04-s02",
+      "speaker": "Dean",
+      "text": "We make the frames here. The wooden shelves come from a local supplier."
+    },
+    {
+      "id": "p08-b-04-s03",
+      "speaker": "Rosa",
+      "text": "I only need twelve. Is your manufacturing process set up for orders that small?"
+    },
+    {
+      "id": "p08-b-04-s04",
+      "speaker": "Dean",
+      "text": "We can do twelve, but the labor cost per stand will be higher than for a large order."
+    },
+    {
+      "id": "p08-b-04-s05",
+      "speaker": "Rosa",
+      "text": "I see. The catalogue price is based on mass production, then?"
+    },
+    {
+      "id": "p08-b-04-s06",
+      "speaker": "Dean",
+      "text": "Yes, several hundred identical units. Your order would involve a separate setup."
+    },
+    {
+      "id": "p08-b-04-s07",
+      "speaker": "Rosa",
+      "text": "Please quote for twelve and show materials and labor separately. I'll send the exact dimensions this afternoon."
+    },
+    {
+      "id": "p08-b-04-s08",
+      "speaker": "Dean",
+      "text": "Once those arrive, I'll prepare the quote. We won't start making anything until you've approved it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dc34601167ebaddd",
+      "lemma": "labor",
+      "pos": "n.",
+      "sense_zh": "生产中所需的人工劳动",
+      "sentence_ids": [
+        "p08-b-04-s04"
+      ],
+      "forms": [
+        "labor"
+      ],
+      "sense_id": "sense-staged-ox-dc34601167ebaddd-p08-b-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2834e9b584c9867a",
+      "lemma": "manufacturing",
+      "pos": "n.",
+      "sense_zh": "制造业中的生产过程",
+      "sentence_ids": [
+        "p08-b-04-s03"
+      ],
+      "forms": [
+        "manufacturing"
+      ],
+      "sense_id": "sense-staged-ox-2834e9b584c9867a-p08-b-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df0ff6bd368252c0",
+      "lemma": "manufacture",
+      "pos": "v.",
+      "sense_zh": "制造产品",
+      "sentence_ids": [
+        "p08-b-04-s01"
+      ],
+      "forms": [
+        "manufacture"
+      ],
+      "sense_id": "sense-staged-ox-df0ff6bd368252c0-p08-b-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2d4b598f77cf6c79",
+      "lemma": "mass",
+      "pos": "adj.",
+      "sense_zh": "大批量的；大规模的",
+      "sentence_ids": [
+        "p08-b-04-s05"
+      ],
+      "forms": [
+        "mass"
+      ],
+      "sense_id": "sense-staged-ox-2d4b598f77cf6c79-p08-b-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

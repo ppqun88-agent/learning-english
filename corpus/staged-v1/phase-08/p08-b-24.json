@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-24",
+  "title_zh": "缩小对部长的采访问题并保留不同意见",
+  "topic_id": "society",
+  "scenario": {
+    "id": "minister-interview-question-scope",
+    "label_zh": "明确虚构公共项目采访问题的范围",
+    "goal_zh": "依据给定公告拟定关于车辆用途的具体问题，并限定来信统计的适用范围"
+  },
+  "participants": [
+    "Alice",
+    "Sami"
+  ],
+  "context_zh": "校报编辑萨米与记者爱丽丝讨论一份完全虚构的公共救援项目公告；不涉及现实政治人物或选民。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-24-s01",
+      "speaker": "Alice",
+      "text": "The minister has agreed to answer one question about the new emergency centre. What should we ask?"
+    },
+    {
+      "id": "p08-b-24-s02",
+      "speaker": "Sami",
+      "text": "The announcement mentions military vehicles. I'd ask what role those vehicles will have and who will manage them."
+    },
+    {
+      "id": "p08-b-24-s03",
+      "speaker": "Alice",
+      "text": "We've received numerous letters about that. A majority support the project, so can I say the town supports it?"
+    },
+    {
+      "id": "p08-b-24-s04",
+      "speaker": "Sami",
+      "text": "No. A majority of our letters isn't the same as a majority of residents."
+    },
+    {
+      "id": "p08-b-24-s05",
+      "speaker": "Alice",
+      "text": "And a minority of the writers want more information about noise and traffic."
+    },
+    {
+      "id": "p08-b-24-s06",
+      "speaker": "Sami",
+      "text": "Those concerns belong in the introduction too. We don't know how representative either group is."
+    },
+    {
+      "id": "p08-b-24-s07",
+      "speaker": "Alice",
+      "text": "I'll state the numbers as letters received, then ask about the vehicles' purpose and management."
+    },
+    {
+      "id": "p08-b-24-s08",
+      "speaker": "Sami",
+      "text": "That's a clear question. Keep any claim about the whole town out of the draft."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-07a9de56a1803656",
+      "lemma": "minister",
+      "pos": "n.",
+      "sense_zh": "政府部长",
+      "sentence_ids": [
+        "p08-b-24-s01"
+      ],
+      "forms": [
+        "minister"
+      ],
+      "sense_id": "sense-staged-ox-07a9de56a1803656-p08-b-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0fce19f92eb9bc2b",
+      "lemma": "military",
+      "pos": "adj.",
+      "sense_zh": "军用的；军队的",
+      "sentence_ids": [
+        "p08-b-24-s02"
+      ],
+      "forms": [
+        "military"
+      ],
+      "sense_id": "sense-staged-ox-0fce19f92eb9bc2b-p08-b-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-19dae3a15684b18a",
+      "lemma": "majority",
+      "pos": "n.",
+      "sense_zh": "多数；大多数",
+      "sentence_ids": [
+        "p08-b-24-s03"
+      ],
+      "forms": [
+        "majority"
+      ],
+      "sense_id": "sense-staged-ox-19dae3a15684b18a-p08-b-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6a45a120fad18641",
+      "lemma": "minority",
+      "pos": "n.",
+      "sense_zh": "少数",
+      "sentence_ids": [
+        "p08-b-24-s05"
+      ],
+      "forms": [
+        "minority"
+      ],
+      "sense_id": "sense-staged-ox-6a45a120fad18641-p08-b-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e65bf19a43d8d54",
+      "lemma": "numerous",
+      "pos": "adj.",
+      "sense_zh": "众多的；许多的",
+      "sentence_ids": [
+        "p08-b-24-s03"
+      ],
+      "forms": [
+        "numerous"
+      ],
+      "sense_id": "sense-staged-ox-3e65bf19a43d8d54-p08-b-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

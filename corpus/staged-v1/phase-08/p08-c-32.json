@@ -1,0 +1,89 @@
+{
+  "id": "p08-c-32",
+  "title_zh": "更正人体模型的心肺标签和血流图说明",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "anatomy-model-labels",
+    "label_zh": "核对人体模型标签",
+    "goal_zh": "为生物课展示核实模型部位及图片标签。"
+  },
+  "participants": [
+    "Ruby",
+    "Anton"
+  ],
+  "context_zh": "学生为生物课整理人体模型和配套示意图。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-32-s01",
+      "speaker": "Ruby",
+      "text": "I've put the heart label on this organ, but the shape looks wrong."
+    },
+    {
+      "id": "p08-c-32-s02",
+      "speaker": "Anton",
+      "text": "That's one of the lungs. The heart sits between the lungs, slightly to the left."
+    },
+    {
+      "id": "p08-c-32-s03",
+      "speaker": "Ruby",
+      "text": "Then the label on this diagram is wrong too. It says the heart makes oxygen."
+    },
+    {
+      "id": "p08-c-32-s04",
+      "speaker": "Anton",
+      "text": "It pumps blood. The lungs take oxygen from the air into the blood."
+    },
+    {
+      "id": "p08-c-32-s05",
+      "speaker": "Ruby",
+      "text": "I'll swap the model labels and change the diagram to show the heart pumping blood."
+    },
+    {
+      "id": "p08-c-32-s06",
+      "speaker": "Anton",
+      "text": "Let's check the finished labels against the textbook illustration."
+    },
+    {
+      "id": "p08-c-32-s07",
+      "speaker": "Ruby",
+      "text": "They match now. I'll put the model and diagram together on the display table."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a26231da2323ed4b",
+      "lemma": "organ",
+      "pos": "n.",
+      "sense_zh": "身体器官",
+      "sentence_ids": [
+        "p08-c-32-s01"
+      ],
+      "forms": [
+        "organ"
+      ],
+      "sense_id": "sense-staged-ox-a26231da2323ed4b-p08-c-32",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d7d7bdb48da4821f",
+      "lemma": "oxygen",
+      "pos": "n.",
+      "sense_zh": "氧气",
+      "sentence_ids": [
+        "p08-c-32-s03"
+      ],
+      "forms": [
+        "oxygen"
+      ],
+      "sense_id": "sense-staged-ox-d7d7bdb48da4821f-p08-c-32",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

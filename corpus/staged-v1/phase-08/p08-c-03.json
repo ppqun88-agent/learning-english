@@ -1,0 +1,137 @@
+{
+  "id": "p08-c-03",
+  "title_zh": "修改游行地图以保留通道后再申请许可",
+  "topic_id": "community",
+  "scenario": {
+    "id": "parade-route-permit-preparation",
+    "label_zh": "按通行限制准备游行许可申请",
+    "goal_zh": "发现摊位阻挡通道后同意修改场地图，再向市政部门申请许可"
+  },
+  "participants": [
+    "Ivo",
+    "Maya"
+  ],
+  "context_zh": "社区活动组织者向场地协调员核对虚构游行的申请材料。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-03-s01",
+      "speaker": "Ivo",
+      "text": "What do we need to obtain permission for the parade?"
+    },
+    {
+      "id": "p08-c-03-s02",
+      "speaker": "Maya",
+      "text": "The council needs a route map before it can issue a permit."
+    },
+    {
+      "id": "p08-c-03-s03",
+      "speaker": "Ivo",
+      "text": "This map shows the musicians here and the food stalls beside the gate."
+    },
+    {
+      "id": "p08-c-03-s04",
+      "speaker": "Maya",
+      "text": "The stalls would occupy the whole entrance. That would leave no passage for people entering the square."
+    },
+    {
+      "id": "p08-c-03-s05",
+      "speaker": "Ivo",
+      "text": "Could we put them along the far wall instead?"
+    },
+    {
+      "id": "p08-c-03-s06",
+      "speaker": "Maya",
+      "text": "Yes, if the marked emergency route stays clear. Show both on the revised map."
+    },
+    {
+      "id": "p08-c-03-s07",
+      "speaker": "Ivo",
+      "text": "I'll move the stalls on the plan and send the new map with the application."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5e79de6fad4c2df4",
+      "lemma": "obtain",
+      "pos": "v.",
+      "sense_zh": "获得",
+      "sentence_ids": [
+        "p08-c-03-s01"
+      ],
+      "forms": [
+        "obtain"
+      ],
+      "sense_id": "sense-staged-ox-5e79de6fad4c2df4-p08-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f3d8d16d3e80d07d",
+      "lemma": "parade",
+      "pos": "n.",
+      "sense_zh": "游行",
+      "sentence_ids": [
+        "p08-c-03-s01"
+      ],
+      "forms": [
+        "parade"
+      ],
+      "sense_id": "sense-staged-ox-f3d8d16d3e80d07d-p08-c-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcc802e5130b8ebc",
+      "lemma": "permit",
+      "pos": "n.",
+      "sense_zh": "许可证",
+      "sentence_ids": [
+        "p08-c-03-s02"
+      ],
+      "forms": [
+        "permit"
+      ],
+      "sense_id": "sense-staged-ox-bcc802e5130b8ebc-p08-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4d81c5f257a159c",
+      "lemma": "occupy",
+      "pos": "v.",
+      "sense_zh": "占据空间",
+      "sentence_ids": [
+        "p08-c-03-s04"
+      ],
+      "forms": [
+        "occupy"
+      ],
+      "sense_id": "sense-staged-ox-b4d81c5f257a159c-p08-c-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-427fade98879fec3",
+      "lemma": "passage",
+      "pos": "n.",
+      "sense_zh": "通道",
+      "sentence_ids": [
+        "p08-c-03-s04"
+      ],
+      "forms": [
+        "passage"
+      ],
+      "sense_id": "sense-staged-ox-427fade98879fec3-p08-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

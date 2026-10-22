@@ -1,0 +1,163 @@
+{
+  "id": "p08-a-24",
+  "title_zh": "根据试演反馈简化魔术展示",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "magic-prop-rehearsal-feedback",
+    "label_zh": "调整魔术道具展示的节奏",
+    "goal_zh": "核对道具功能并根据观众视角反馈，约定去掉过长解释后重新试演"
+  },
+  "participants": [
+    "Luca",
+    "Grace"
+  ],
+  "context_zh": "魔术爱好者请朋友试看一个儿童活动用的小节目。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-24-s01",
+      "speaker": "Luca",
+      "text": "Did the illusion work, or could you tell where the ball went?"
+    },
+    {
+      "id": "p08-a-24-s02",
+      "speaker": "Grace",
+      "text": "I guessed instantly because you kept looking at the same corner."
+    },
+    {
+      "id": "p08-a-24-s03",
+      "speaker": "Luca",
+      "text": "The box is hollow, but the audience shouldn't see the opening from your seat."
+    },
+    {
+      "id": "p08-a-24-s04",
+      "speaker": "Grace",
+      "text": "I couldn't see it. Your eyes gave it away."
+    },
+    {
+      "id": "p08-a-24-s05",
+      "speaker": "Luca",
+      "text": "I was trying to impress everyone with a long story about an invisible bird."
+    },
+    {
+      "id": "p08-a-24-s06",
+      "speaker": "Grace",
+      "text": "The story leaves room for imagination, but it went on after the trick was already over."
+    },
+    {
+      "id": "p08-a-24-s07",
+      "speaker": "Luca",
+      "text": "So you weren't very impressed?"
+    },
+    {
+      "id": "p08-a-24-s08",
+      "speaker": "Grace",
+      "text": "I liked the moment the ball vanished. Just let that happen without explaining every movement."
+    },
+    {
+      "id": "p08-a-24-s09",
+      "speaker": "Luca",
+      "text": "All right. I'll shorten the story and try it again from the start."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d986a4d00c2a8163",
+      "lemma": "illusion",
+      "pos": "n.",
+      "sense_zh": "使人对所见产生错误印象的魔术效果",
+      "sentence_ids": [
+        "p08-a-24-s01"
+      ],
+      "forms": [
+        "illusion"
+      ],
+      "sense_id": "sense-staged-ox-d986a4d00c2a8163-p08-a-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ecfba7c8fb1976a9",
+      "lemma": "instantly",
+      "pos": "adv.",
+      "sense_zh": "立刻",
+      "sentence_ids": [
+        "p08-a-24-s02"
+      ],
+      "forms": [
+        "instantly"
+      ],
+      "sense_id": "sense-staged-ox-ecfba7c8fb1976a9-p08-a-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-653e6ba3e6f36d43",
+      "lemma": "hollow",
+      "pos": "adj.",
+      "sense_zh": "内部中空的",
+      "sentence_ids": [
+        "p08-a-24-s03"
+      ],
+      "forms": [
+        "hollow"
+      ],
+      "sense_id": "sense-staged-ox-653e6ba3e6f36d43-p08-a-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b2571445c24f398",
+      "lemma": "impress",
+      "pos": "v.",
+      "sense_zh": "使人赞赏或留下深刻印象",
+      "sentence_ids": [
+        "p08-a-24-s05"
+      ],
+      "forms": [
+        "impress"
+      ],
+      "sense_id": "sense-staged-ox-6b2571445c24f398-p08-a-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f77a473aba333ef",
+      "lemma": "imagination",
+      "pos": "n.",
+      "sense_zh": "想象力",
+      "sentence_ids": [
+        "p08-a-24-s06"
+      ],
+      "forms": [
+        "imagination"
+      ],
+      "sense_id": "sense-staged-ox-2f77a473aba333ef-p08-a-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac139ee9b8f1087b",
+      "lemma": "impressed",
+      "pos": "adj.",
+      "sense_zh": "感到赞赏或印象深刻的",
+      "sentence_ids": [
+        "p08-a-24-s07"
+      ],
+      "forms": [
+        "impressed"
+      ],
+      "sense_id": "sense-staged-ox-ac139ee9b8f1087b-p08-a-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

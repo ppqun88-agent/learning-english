@@ -1,0 +1,89 @@
+{
+  "id": "p08-b-34",
+  "title_zh": "选择先观看武术慢动作示范",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "martial-arts-demonstration-choice",
+    "label_zh": "询问武术体验并选择先观察",
+    "goal_zh": "了解体验课可先旁观，约定观看慢动作示范后再决定是否参加练习"
+  },
+  "participants": [
+    "Lin",
+    "Mark"
+  ],
+  "context_zh": "社区武术体验课接待处，新来者林向教练马克询问参与方式。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-34-s01",
+      "speaker": "Lin",
+      "text": "I've never tried a martial art. Do beginners have to practise with a partner straight away?"
+    },
+    {
+      "id": "p08-b-34-s02",
+      "speaker": "Mark",
+      "text": "Not in this session. You can watch the opening demonstration before deciding to join in."
+    },
+    {
+      "id": "p08-b-34-s03",
+      "speaker": "Lin",
+      "text": "The movements looked too fast in the video."
+    },
+    {
+      "id": "p08-b-34-s04",
+      "speaker": "Mark",
+      "text": "We'll show the first sequence in slow motion and explain where each movement begins and ends."
+    },
+    {
+      "id": "p08-b-34-s05",
+      "speaker": "Lin",
+      "text": "Could I sit near the front and just watch that part?"
+    },
+    {
+      "id": "p08-b-34-s06",
+      "speaker": "Mark",
+      "text": "Certainly. Take the chair by the entrance, and let me know afterwards whether you'd like to try the introductory exercise."
+    },
+    {
+      "id": "p08-b-34-s07",
+      "speaker": "Lin",
+      "text": "Thank you. I'll watch the demonstration first and decide then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-610858e4afa7907d",
+      "lemma": "martial",
+      "pos": "adj.",
+      "sense_zh": "武术的；用于 martial art",
+      "sentence_ids": [
+        "p08-b-34-s01"
+      ],
+      "forms": [
+        "martial"
+      ],
+      "sense_id": "sense-staged-ox-610858e4afa7907d-p08-b-34",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b95899435aa45bd8",
+      "lemma": "motion",
+      "pos": "n.",
+      "sense_zh": "运动；动作",
+      "sentence_ids": [
+        "p08-b-34-s04"
+      ],
+      "forms": [
+        "motion"
+      ],
+      "sense_id": "sense-staged-ox-b95899435aa45bd8-p08-b-34",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

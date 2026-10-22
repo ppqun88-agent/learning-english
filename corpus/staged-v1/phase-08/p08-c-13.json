@@ -1,0 +1,100 @@
+{
+  "id": "p08-c-13",
+  "title_zh": "选定低调补片以保留纪念外套",
+  "topic_id": "services",
+  "scenario": {
+    "id": "keepsake-coat-patch-repair",
+    "label_zh": "修补有纪念意义的外套外层",
+    "goal_zh": "确认破损仅在外层，选定内侧缝补片的方法并约好取衣"
+  },
+  "participants": [
+    "Faye",
+    "Imran"
+  ],
+  "context_zh": "顾客带来有纪念意义的旧外套咨询修补。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-13-s01",
+      "speaker": "Faye",
+      "text": "Can you preserve the original fabric? This was my father's coat."
+    },
+    {
+      "id": "p08-c-13-s02",
+      "speaker": "Imran",
+      "text": "I'll keep as much as I can. Only the outer layer is torn; the lining is intact."
+    },
+    {
+      "id": "p08-c-13-s03",
+      "speaker": "Faye",
+      "text": "Would a patch be very noticeable?"
+    },
+    {
+      "id": "p08-c-13-s04",
+      "speaker": "Imran",
+      "text": "I can sew a dark one underneath the tear. The stitching will show a little, but it won't cover the whole pocket."
+    },
+    {
+      "id": "p08-c-13-s05",
+      "speaker": "Faye",
+      "text": "That's fine. I'd rather see a small repair than replace the fabric."
+    },
+    {
+      "id": "p08-c-13-s06",
+      "speaker": "Imran",
+      "text": "Then I'll repair it that way. You can collect it on Thursday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f20e5c3e700ef11f",
+      "lemma": "preserve",
+      "pos": "v.",
+      "sense_zh": "保留或保护原有事物",
+      "sentence_ids": [
+        "p08-c-13-s01"
+      ],
+      "forms": [
+        "preserve"
+      ],
+      "sense_id": "sense-staged-ox-f20e5c3e700ef11f-p08-c-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4e2a2aefdf98aa7f",
+      "lemma": "outer",
+      "pos": "adj.",
+      "sense_zh": "外层的",
+      "sentence_ids": [
+        "p08-c-13-s02"
+      ],
+      "forms": [
+        "outer"
+      ],
+      "sense_id": "sense-staged-ox-4e2a2aefdf98aa7f-p08-c-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-694aca97ed6a5a6b",
+      "lemma": "patch",
+      "pos": "n.",
+      "sense_zh": "补衣物的布片",
+      "sentence_ids": [
+        "p08-c-13-s03"
+      ],
+      "forms": [
+        "patch"
+      ],
+      "sense_id": "sense-staged-ox-694aca97ed6a5a6b-p08-c-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

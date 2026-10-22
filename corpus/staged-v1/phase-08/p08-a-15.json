@@ -1,0 +1,89 @@
+{
+  "id": "p08-a-15",
+  "title_zh": "约定获取诊所收费资料后自行核实保险",
+  "topic_id": "health",
+  "scenario": {
+    "id": "clinic-insurance-coverage-inquiry",
+    "label_zh": "询问诊所保险与费用核对渠道",
+    "goal_zh": "约定由诊所发送收费单及账单名称、咨询代码和联系方式，决定向保险方核实覆盖范围后再预约"
+  },
+  "participants": [
+    "Leah",
+    "Martin"
+  ],
+  "context_zh": "来电者向诊所接待员询问一项非紧急咨询的收费信息。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-15-s01",
+      "speaker": "Leah",
+      "text": "I'm comparing local healthcare services. Can you tell me the price of a first consultation?"
+    },
+    {
+      "id": "p08-a-15-s02",
+      "speaker": "Martin",
+      "text": "It's listed on our fee sheet. I can email that to you."
+    },
+    {
+      "id": "p08-a-15-s03",
+      "speaker": "Leah",
+      "text": "Would my insurance cover it?"
+    },
+    {
+      "id": "p08-a-15-s04",
+      "speaker": "Martin",
+      "text": "I can't confirm your cover. You'll need to ask your insurer about the service and this clinic."
+    },
+    {
+      "id": "p08-a-15-s05",
+      "speaker": "Leah",
+      "text": "Could you include the clinic's billing name and the consultation code?"
+    },
+    {
+      "id": "p08-a-15-s06",
+      "speaker": "Martin",
+      "text": "Of course. They'll be on the sheet, along with our contact details."
+    },
+    {
+      "id": "p08-a-15-s07",
+      "speaker": "Leah",
+      "text": "Thank you. I'll check with the insurer before I make an appointment."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8b7a7e4288e01bfd",
+      "lemma": "healthcare",
+      "pos": "n.",
+      "sense_zh": "医疗保健服务",
+      "sentence_ids": [
+        "p08-a-15-s01"
+      ],
+      "forms": [
+        "healthcare"
+      ],
+      "sense_id": "sense-staged-ox-8b7a7e4288e01bfd-p08-a-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f1e68531d3faf780",
+      "lemma": "insurance",
+      "pos": "n.",
+      "sense_zh": "承担约定医疗费用风险的保险",
+      "sentence_ids": [
+        "p08-a-15-s03"
+      ],
+      "forms": [
+        "insurance"
+      ],
+      "sense_id": "sense-staged-ox-f1e68531d3faf780-p08-a-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

@@ -1,0 +1,110 @@
+{
+  "id": "p08-b-19",
+  "title_zh": "约定不再拿朋友的面试失利开玩笑",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "friend-hurtful-joke-boundary",
+    "label_zh": "承认伤人玩笑并约定停止",
+    "goal_zh": "听取朋友对公开玩笑的不满，承认伤害并约定不再提起且先询问所需支持"
+  },
+  "participants": [
+    "Kit",
+    "Ash"
+  ],
+  "context_zh": "两位英国朋友基特与阿什私下谈到聚会上的一句玩笑。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-19-s01",
+      "speaker": "Kit",
+      "text": "Can we talk about what you said at dinner? The joke about my failed interview felt nasty."
+    },
+    {
+      "id": "p08-b-19-s02",
+      "speaker": "Ash",
+      "text": "I thought we were laughing about it together. I didn't realise you were upset."
+    },
+    {
+      "id": "p08-b-19-s03",
+      "speaker": "Kit",
+      "text": "I told you because you're my mate, not because I wanted everyone else to hear it."
+    },
+    {
+      "id": "p08-b-19-s04",
+      "speaker": "Ash",
+      "text": "You're right. I should have kept it private. I'm sorry."
+    },
+    {
+      "id": "p08-b-19-s05",
+      "speaker": "Kit",
+      "text": "I know you've been a loyal friend. That's why I wanted to tell you rather than just avoid you."
+    },
+    {
+      "id": "p08-b-19-s06",
+      "speaker": "Ash",
+      "text": "I won't bring it up again. Would it help if I checked in about the next interview, or would you prefer not to discuss it?"
+    },
+    {
+      "id": "p08-b-19-s07",
+      "speaker": "Kit",
+      "text": "Ask me privately first. Some days I want to talk; other days I don't."
+    },
+    {
+      "id": "p08-b-19-s08",
+      "speaker": "Ash",
+      "text": "Understood. I'll ask, and I'll respect it if the answer is no."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d69bea2361f159a9",
+      "lemma": "loyal",
+      "pos": "adj.",
+      "sense_zh": "忠诚可靠的；始终支持的",
+      "sentence_ids": [
+        "p08-b-19-s05"
+      ],
+      "forms": [
+        "loyal"
+      ],
+      "sense_id": "sense-staged-ox-d69bea2361f159a9-p08-b-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80bcce0037647efc",
+      "lemma": "mate",
+      "pos": "n.",
+      "sense_zh": "朋友；伙伴",
+      "sentence_ids": [
+        "p08-b-19-s03"
+      ],
+      "forms": [
+        "mate"
+      ],
+      "sense_id": "sense-staged-ox-80bcce0037647efc-p08-b-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c7162b05decb97f",
+      "lemma": "nasty",
+      "pos": "adj.",
+      "sense_zh": "恶意的；伤人的",
+      "sentence_ids": [
+        "p08-b-19-s01"
+      ],
+      "forms": [
+        "nasty"
+      ],
+      "sense_id": "sense-staged-ox-2c7162b05decb97f-p08-b-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

@@ -1,0 +1,121 @@
+{
+  "id": "p08-c-23",
+  "title_zh": "请药师联系医生核实妊娠期间的处方问题",
+  "topic_id": "health",
+  "scenario": {
+    "id": "pharmacy-pregnancy-medicine-referral",
+    "label_zh": "向药房说明妊娠与处方疑问",
+    "goal_zh": "顾客说明妊娠及药品疑问，药师安排联系处方医生核实并请顾客留下等待"
+  },
+  "participants": [
+    "Naomi",
+    "Pharmacist"
+  ],
+  "context_zh": "虚构药房内的沟通练习，不提供具体药品或剂量建议。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-23-s01",
+      "speaker": "Naomi",
+      "text": "Is there somewhere private in the pharmacy where I can ask about this prescription?"
+    },
+    {
+      "id": "p08-c-23-s02",
+      "speaker": "Pharmacist",
+      "text": "Yes, we can use the consultation room. What's your concern?"
+    },
+    {
+      "id": "p08-c-23-s03",
+      "speaker": "Naomi",
+      "text": "I've just found out I'm pregnant. I don't know whether the physician who wrote this was aware."
+    },
+    {
+      "id": "p08-c-23-s04",
+      "speaker": "Pharmacist",
+      "text": "Thank you for telling me. I'll contact the prescriber to check the instructions."
+    },
+    {
+      "id": "p08-c-23-s05",
+      "speaker": "Naomi",
+      "text": "I brought the box because I wasn't sure whether this pill was the one mentioned in the letter."
+    },
+    {
+      "id": "p08-c-23-s06",
+      "speaker": "Pharmacist",
+      "text": "That will help us identify it. I won't guess from its appearance. Would you wait here while I make the call?"
+    },
+    {
+      "id": "p08-c-23-s07",
+      "speaker": "Naomi",
+      "text": "Yes, I'll wait. Please let them know about the pregnancy."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0742c64a98e3a2c4",
+      "lemma": "pharmacy",
+      "pos": "n.",
+      "sense_zh": "药房",
+      "sentence_ids": [
+        "p08-c-23-s01"
+      ],
+      "forms": [
+        "pharmacy"
+      ],
+      "sense_id": "sense-staged-ox-0742c64a98e3a2c4-p08-c-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2dbf0a62885efa3e",
+      "lemma": "pregnant",
+      "pos": "adj.",
+      "sense_zh": "怀孕的",
+      "sentence_ids": [
+        "p08-c-23-s03"
+      ],
+      "forms": [
+        "pregnant"
+      ],
+      "sense_id": "sense-staged-ox-2dbf0a62885efa3e-p08-c-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-98adae745daab202",
+      "lemma": "physician",
+      "pos": "n.",
+      "sense_zh": "医生",
+      "sentence_ids": [
+        "p08-c-23-s03"
+      ],
+      "forms": [
+        "physician"
+      ],
+      "sense_id": "sense-staged-ox-98adae745daab202-p08-c-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9845885b9b3561d7",
+      "lemma": "pill",
+      "pos": "n.",
+      "sense_zh": "药片或药丸",
+      "sentence_ids": [
+        "p08-c-23-s05"
+      ],
+      "forms": [
+        "pill"
+      ],
+      "sense_id": "sense-staged-ox-9845885b9b3561d7-p08-c-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

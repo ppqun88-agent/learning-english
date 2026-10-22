@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-09",
+  "title_zh": "选定首次马拉松完赛的家庭纪念照",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "first-marathon-photo-choice",
+    "label_zh": "挑选首次马拉松完赛纪念照片",
+    "goal_zh": "比较奖牌清晰的照片与家人拥抱的照片，选定拥抱照片并将简短配文加入打印预览"
+  },
+  "participants": [
+    "Sophie",
+    "Adam"
+  ],
+  "context_zh": "首次跑完马拉松的索菲与弟弟亚当为家庭相册挑选一张照片。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-09-s01",
+      "speaker": "Sophie",
+      "text": "Can you help me choose a photo from the marathon? I only want to print one."
+    },
+    {
+      "id": "p08-b-09-s02",
+      "speaker": "Adam",
+      "text": "This one shows the medal clearly, but the one with Mum has much more joy in it."
+    },
+    {
+      "id": "p08-b-09-s03",
+      "speaker": "Sophie",
+      "text": "I look exhausted in that one."
+    },
+    {
+      "id": "p08-b-09-s04",
+      "speaker": "Adam",
+      "text": "You'd just run all that way. The hug is what made the day memorable for me."
+    },
+    {
+      "id": "p08-b-09-s05",
+      "speaker": "Sophie",
+      "text": "You're right. I may never run another, but I'll remember that moment for a lifetime."
+    },
+    {
+      "id": "p08-b-09-s06",
+      "speaker": "Adam",
+      "text": "Then let's use the hug. What should I write underneath?"
+    },
+    {
+      "id": "p08-b-09-s07",
+      "speaker": "Sophie",
+      "text": "Just 'My first finish, with Mum waiting.' No finishing time."
+    },
+    {
+      "id": "p08-b-09-s08",
+      "speaker": "Adam",
+      "text": "Done. I've selected that photo and added your words to the print order preview."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-93145f995a694495",
+      "lemma": "marathon",
+      "pos": "n.",
+      "sense_zh": "马拉松赛跑",
+      "sentence_ids": [
+        "p08-b-09-s01"
+      ],
+      "forms": [
+        "marathon"
+      ],
+      "sense_id": "sense-staged-ox-93145f995a694495-p08-b-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cf028f5095bea4cd",
+      "lemma": "medal",
+      "pos": "n.",
+      "sense_zh": "奖牌",
+      "sentence_ids": [
+        "p08-b-09-s02"
+      ],
+      "forms": [
+        "medal"
+      ],
+      "sense_id": "sense-staged-ox-cf028f5095bea4cd-p08-b-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1bf04ea7a47eaece",
+      "lemma": "joy",
+      "pos": "n.",
+      "sense_zh": "喜悦",
+      "sentence_ids": [
+        "p08-b-09-s02"
+      ],
+      "forms": [
+        "joy"
+      ],
+      "sense_id": "sense-staged-ox-1bf04ea7a47eaece-p08-b-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1680a7ffeeddfb60",
+      "lemma": "memorable",
+      "pos": "adj.",
+      "sense_zh": "令人难忘的",
+      "sentence_ids": [
+        "p08-b-09-s04"
+      ],
+      "forms": [
+        "memorable"
+      ],
+      "sense_id": "sense-staged-ox-1680a7ffeeddfb60-p08-b-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-13ddf22858b83c6d",
+      "lemma": "lifetime",
+      "pos": "n.",
+      "sense_zh": "一生",
+      "sentence_ids": [
+        "p08-b-09-s05"
+      ],
+      "forms": [
+        "lifetime"
+      ],
+      "sense_id": "sense-staged-ox-13ddf22858b83c6d-p08-b-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

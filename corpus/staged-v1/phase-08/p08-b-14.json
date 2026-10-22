@@ -1,0 +1,126 @@
+{
+  "id": "p08-b-14",
+  "title_zh": "为作家工作坊准备具体提问",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "novelist-workshop-question-plan",
+    "label_zh": "拟定关于小说创作过程的问题",
+    "goal_zh": "将宽泛的灵感问题改为关于人物与情节修改的具体问题，并确认提问者"
+  },
+  "participants": [
+    "Hana",
+    "Omar"
+  ],
+  "context_zh": "写作课学员哈娜与奥马尔准备在一场作家工作坊上提问。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-14-s01",
+      "speaker": "Hana",
+      "text": "The novelist visiting our class has offered to answer questions about her first book."
+    },
+    {
+      "id": "p08-b-14-s02",
+      "speaker": "Omar",
+      "text": "I'd like to ask where she gets her ideas, but she'll probably hear that all evening."
+    },
+    {
+      "id": "p08-b-14-s03",
+      "speaker": "Hana",
+      "text": "What interests me is the making of the novel, especially the chapters she decided to cut."
+    },
+    {
+      "id": "p08-b-14-s04",
+      "speaker": "Omar",
+      "text": "We could ask whether cutting a chapter changed how she understood the main character."
+    },
+    {
+      "id": "p08-b-14-s05",
+      "speaker": "Hana",
+      "text": "That's better. It could start a lively discussion rather than produce a one-word answer."
+    },
+    {
+      "id": "p08-b-14-s06",
+      "speaker": "Omar",
+      "text": "And we don't need to use complicated literary terms to ask it."
+    },
+    {
+      "id": "p08-b-14-s07",
+      "speaker": "Hana",
+      "text": "I'll ask about the deleted chapter. Could you follow up about whether she changed the ending too?"
+    },
+    {
+      "id": "p08-b-14-s08",
+      "speaker": "Omar",
+      "text": "Yes. I'll write both questions down so we don't repeat each other."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-efd1d8e10ffa49f7",
+      "lemma": "literary",
+      "pos": "adj.",
+      "sense_zh": "文学的；与文学作品有关的",
+      "sentence_ids": [
+        "p08-b-14-s06"
+      ],
+      "forms": [
+        "literary"
+      ],
+      "sense_id": "sense-staged-ox-efd1d8e10ffa49f7-p08-b-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6af64f0a17318a1",
+      "lemma": "novelist",
+      "pos": "n.",
+      "sense_zh": "小说家",
+      "sentence_ids": [
+        "p08-b-14-s01"
+      ],
+      "forms": [
+        "novelist"
+      ],
+      "sense_id": "sense-staged-ox-f6af64f0a17318a1-p08-b-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fab6d92e4aa39225",
+      "lemma": "making",
+      "pos": "n.",
+      "sense_zh": "创作或制作的过程",
+      "sentence_ids": [
+        "p08-b-14-s03"
+      ],
+      "forms": [
+        "making"
+      ],
+      "sense_id": "sense-staged-ox-fab6d92e4aa39225-p08-b-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7708901d58092b01",
+      "lemma": "lively",
+      "pos": "adj.",
+      "sense_zh": "活跃的；热烈的",
+      "sentence_ids": [
+        "p08-b-14-s05"
+      ],
+      "forms": [
+        "lively"
+      ],
+      "sense_id": "sense-staged-ox-7708901d58092b01-p08-b-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

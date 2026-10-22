@@ -1,0 +1,147 @@
+{
+  "id": "p08-a-26",
+  "title_zh": "完成自助机读卡并转到柜台核验补卡",
+  "topic_id": "services",
+  "scenario": {
+    "id": "library-kiosk-card-assistance",
+    "label_zh": "处理图书馆自助机的补卡限制",
+    "goal_zh": "协助读者读取旧卡并查明补卡需柜台核验，指明携带身份证明前往的地点"
+  },
+  "participants": [
+    "Eva",
+    "Malik"
+  ],
+  "context_zh": "图书馆读者想用自助机更换破损借书卡，工作人员提供帮助。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-26-s01",
+      "speaker": "Eva",
+      "text": "Sorry if I sound impatient. I've tried this three times, and the machine keeps sending me back."
+    },
+    {
+      "id": "p08-a-26-s02",
+      "speaker": "Malik",
+      "text": "Let's start with the blue icon showing a card. Touch that once."
+    },
+    {
+      "id": "p08-a-26-s03",
+      "speaker": "Eva",
+      "text": "Now it says to insert the old card. Like this?"
+    },
+    {
+      "id": "p08-a-26-s04",
+      "speaker": "Malik",
+      "text": "Yes. It's read the number, so we know the card still works."
+    },
+    {
+      "id": "p08-a-26-s05",
+      "speaker": "Eva",
+      "text": "Can I get an instant replacement here? The edge is cracked."
+    },
+    {
+      "id": "p08-a-26-s06",
+      "speaker": "Malik",
+      "text": "Not from this machine. The desk staff need to check your photo ID before issuing a new one."
+    },
+    {
+      "id": "p08-a-26-s07",
+      "speaker": "Eva",
+      "text": "I have my driving licence with me. Is that the desk by the stairs?"
+    },
+    {
+      "id": "p08-a-26-s08",
+      "speaker": "Malik",
+      "text": "That's right. Take your old card with you, and they'll explain the replacement process."
+    },
+    {
+      "id": "p08-a-26-s09",
+      "speaker": "Eva",
+      "text": "Thanks. At least I know why the machine wouldn't finish it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2f96b389597ef0b2",
+      "lemma": "impatient",
+      "pos": "adj.",
+      "sense_zh": "因等待或受阻而不耐烦的",
+      "sentence_ids": [
+        "p08-a-26-s01"
+      ],
+      "forms": [
+        "impatient"
+      ],
+      "sense_id": "sense-staged-ox-2f96b389597ef0b2-p08-a-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b908d8c1be13cbdd",
+      "lemma": "icon",
+      "pos": "n.",
+      "sense_zh": "屏幕上代表功能的小图标",
+      "sentence_ids": [
+        "p08-a-26-s02"
+      ],
+      "forms": [
+        "icon"
+      ],
+      "sense_id": "sense-staged-ox-b908d8c1be13cbdd-p08-a-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0161132be3959e33",
+      "lemma": "insert",
+      "pos": "v.",
+      "sense_zh": "插入",
+      "sentence_ids": [
+        "p08-a-26-s03"
+      ],
+      "forms": [
+        "insert"
+      ],
+      "sense_id": "sense-staged-ox-0161132be3959e33-p08-a-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a6bac46bed237564",
+      "lemma": "instant",
+      "pos": "adj.",
+      "sense_zh": "即时提供的",
+      "sentence_ids": [
+        "p08-a-26-s05"
+      ],
+      "forms": [
+        "instant"
+      ],
+      "sense_id": "sense-staged-ox-a6bac46bed237564-p08-a-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1550c80e31ea8130",
+      "lemma": "ID",
+      "pos": "n.",
+      "sense_zh": "身份证明文件",
+      "sentence_ids": [
+        "p08-a-26-s06"
+      ],
+      "forms": [
+        "ID"
+      ],
+      "sense_id": "sense-staged-ox-1550c80e31ea8130-p08-a-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

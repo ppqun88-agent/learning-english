@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-28",
+  "title_zh": "核对海报方格数量后标出留白",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "poster-grid-math-check",
+    "label_zh": "核算海报方格与打印数量",
+    "goal_zh": "纠正方格总数的计算，确认多张海报的材料数量并约定标出边缘留白"
+  },
+  "participants": [
+    "Oscar",
+    "Mai"
+  ],
+  "context_zh": "学生奥斯卡与麦准备三张有相同布局的班级展示海报。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-28-s01",
+      "speaker": "Oscar",
+      "text": "There are four columns and three rows, so I wrote seven spaces on each poster."
+    },
+    {
+      "id": "p08-b-28-s02",
+      "speaker": "Mai",
+      "text": "You need to multiply four by three, not add them. Each poster has twelve spaces."
+    },
+    {
+      "id": "p08-b-28-s03",
+      "speaker": "Oscar",
+      "text": "Right. We need multiple copies of the poster, one for each of the three classrooms."
+    },
+    {
+      "id": "p08-b-28-s04",
+      "speaker": "Mai",
+      "text": "Then twelve spaces on each of three posters means thirty-six small cards altogether."
+    },
+    {
+      "id": "p08-b-28-s05",
+      "speaker": "Oscar",
+      "text": "That's logical. I'll count out thirty-six blank cards before we start writing."
+    },
+    {
+      "id": "p08-b-28-s06",
+      "speaker": "Mai",
+      "text": "Leave a margin around the outside, though. The first layout went right to the edge."
+    },
+    {
+      "id": "p08-b-28-s07",
+      "speaker": "Oscar",
+      "text": "Could you use a pencil to mark that? The marker makes a line we can't rub out."
+    },
+    {
+      "id": "p08-b-28-s08",
+      "speaker": "Mai",
+      "text": "Yes. I'll mark the border in pencil on the first poster, and we can check it before copying the layout."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-50cfc672cb33dd96",
+      "lemma": "multiply",
+      "pos": "v.",
+      "sense_zh": "做乘法；相乘",
+      "sentence_ids": [
+        "p08-b-28-s02"
+      ],
+      "forms": [
+        "multiply"
+      ],
+      "sense_id": "sense-staged-ox-50cfc672cb33dd96-p08-b-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73141bb24e2d23e4",
+      "lemma": "multiple",
+      "pos": "adj.",
+      "sense_zh": "多个的；多份的",
+      "sentence_ids": [
+        "p08-b-28-s03"
+      ],
+      "forms": [
+        "multiple"
+      ],
+      "sense_id": "sense-staged-ox-73141bb24e2d23e4-p08-b-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ae85bc3080f1974",
+      "lemma": "logical",
+      "pos": "adj.",
+      "sense_zh": "合乎逻辑的",
+      "sentence_ids": [
+        "p08-b-28-s05"
+      ],
+      "forms": [
+        "logical"
+      ],
+      "sense_id": "sense-staged-ox-0ae85bc3080f1974-p08-b-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-856f5bec12183d2b",
+      "lemma": "margin",
+      "pos": "n.",
+      "sense_zh": "页面或版面边缘的留白",
+      "sentence_ids": [
+        "p08-b-28-s06"
+      ],
+      "forms": [
+        "margin"
+      ],
+      "sense_id": "sense-staged-ox-856f5bec12183d2b-p08-b-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51ed4f5977697546",
+      "lemma": "marker",
+      "pos": "n.",
+      "sense_zh": "记号笔",
+      "sentence_ids": [
+        "p08-b-28-s07"
+      ],
+      "forms": [
+        "marker"
+      ],
+      "sense_id": "sense-staged-ox-51ed4f5977697546-p08-b-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

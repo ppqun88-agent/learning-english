@@ -1,0 +1,137 @@
+{
+  "id": "p08-c-11",
+  "title_zh": "改练变速跑位以突破对手预判",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "football-attacking-practice-adjustment",
+    "label_zh": "调整足球进攻训练的节奏与跑位",
+    "goal_zh": "根据对手容易预判跑位的问题，同意先在半场练习变速和不同跑动路线"
+  },
+  "participants": [
+    "Milo",
+    "Tessa"
+  ],
+  "context_zh": "训练结束后，队员与教练讨论下一段练习。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-11-s01",
+      "speaker": "Milo",
+      "text": "My opponent seems to know where I'll run before I move."
+    },
+    {
+      "id": "p08-c-11-s02",
+      "speaker": "Tessa",
+      "text": "Your runs have become predictable. You always head straight down the right side of the pitch."
+    },
+    {
+      "id": "p08-c-11-s03",
+      "speaker": "Milo",
+      "text": "Should I just try to run faster?"
+    },
+    {
+      "id": "p08-c-11-s04",
+      "speaker": "Tessa",
+      "text": "Not all the time. A change of pace can help, especially if you move inside first."
+    },
+    {
+      "id": "p08-c-11-s05",
+      "speaker": "Milo",
+      "text": "I'd like to overcome that habit, but I need a chance to try without a full match going on."
+    },
+    {
+      "id": "p08-c-11-s06",
+      "speaker": "Tessa",
+      "text": "Then we'll use half the field and practise two different runs. I'll defend at first."
+    },
+    {
+      "id": "p08-c-11-s07",
+      "speaker": "Milo",
+      "text": "All right. I'll start slowly and change speed after the first pass."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7dd584d71450bcb7",
+      "lemma": "opponent",
+      "pos": "n.",
+      "sense_zh": "对手",
+      "sentence_ids": [
+        "p08-c-11-s01"
+      ],
+      "forms": [
+        "opponent"
+      ],
+      "sense_id": "sense-staged-ox-7dd584d71450bcb7-p08-c-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ff4687ff10d5b7c3",
+      "lemma": "predictable",
+      "pos": "adj.",
+      "sense_zh": "可预料的",
+      "sentence_ids": [
+        "p08-c-11-s02"
+      ],
+      "forms": [
+        "predictable"
+      ],
+      "sense_id": "sense-staged-ox-ff4687ff10d5b7c3-p08-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-caa78821ed8d8fec",
+      "lemma": "pitch",
+      "pos": "n.",
+      "sense_zh": "足球场",
+      "sentence_ids": [
+        "p08-c-11-s02"
+      ],
+      "forms": [
+        "pitch"
+      ],
+      "sense_id": "sense-staged-ox-caa78821ed8d8fec-p08-c-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17f0a98219be8463",
+      "lemma": "pace",
+      "pos": "n.",
+      "sense_zh": "速度或节奏",
+      "sentence_ids": [
+        "p08-c-11-s04"
+      ],
+      "forms": [
+        "pace"
+      ],
+      "sense_id": "sense-staged-ox-17f0a98219be8463-p08-c-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1edacd9f44cc1758",
+      "lemma": "overcome",
+      "pos": "v.",
+      "sense_zh": "克服",
+      "sentence_ids": [
+        "p08-c-11-s05"
+      ],
+      "forms": [
+        "overcome"
+      ],
+      "sense_id": "sense-staged-ox-1edacd9f44cc1758-p08-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-02",
+  "title_zh": "修改模拟审判日志中的道德判断",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "mock-trial-journal-revision",
+    "label_zh": "区分模拟审判的证据与道德评价",
+    "goal_zh": "依据虚构课堂材料区分证据判断和道德评价，约定重写学习日志的结论"
+  },
+  "participants": [
+    "Alicia",
+    "Mr Brooks"
+  ],
+  "context_zh": "美国公民课上，艾丽西亚与老师讨论完全虚构的模拟审判任务；对话不提供法律意见。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-02-s01",
+      "speaker": "Alicia",
+      "text": "Our jury couldn't agree about the witness. Does that mean the exercise failed?"
+    },
+    {
+      "id": "p08-b-02-s02",
+      "speaker": "Mr Brooks",
+      "text": "No. The task was to explain which evidence you trusted, not to reach a quick decision."
+    },
+    {
+      "id": "p08-b-02-s03",
+      "speaker": "Alicia",
+      "text": "In my journal, I said the witness was a bad person because he changed his story."
+    },
+    {
+      "id": "p08-b-02-s04",
+      "speaker": "Mr Brooks",
+      "text": "Can the evidence justify that judgment? A changed story may need explaining, but it doesn't tell us everything about a person."
+    },
+    {
+      "id": "p08-b-02-s05",
+      "speaker": "Alicia",
+      "text": "So I've turned a question about accuracy into a moral judgment."
+    },
+    {
+      "id": "p08-b-02-s06",
+      "speaker": "Mr Brooks",
+      "text": "Exactly. We can discuss justice without pretending that one classroom case gives us all the answers."
+    },
+    {
+      "id": "p08-b-02-s07",
+      "speaker": "Alicia",
+      "text": "I'll replace the last paragraph with the two contradictions we noticed and the questions we'd still need answered."
+    },
+    {
+      "id": "p08-b-02-s08",
+      "speaker": "Mr Brooks",
+      "text": "That will show your reasoning much more clearly."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d4b1bcb0a53ca7f0",
+      "lemma": "jury",
+      "pos": "n.",
+      "sense_zh": "陪审团",
+      "sentence_ids": [
+        "p08-b-02-s01"
+      ],
+      "forms": [
+        "jury"
+      ],
+      "sense_id": "sense-staged-ox-d4b1bcb0a53ca7f0-p08-b-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-96557415b2d236e8",
+      "lemma": "justice",
+      "pos": "n.",
+      "sense_zh": "公正；正义",
+      "sentence_ids": [
+        "p08-b-02-s06"
+      ],
+      "forms": [
+        "justice"
+      ],
+      "sense_id": "sense-staged-ox-96557415b2d236e8-p08-b-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14c15153d5f73c18",
+      "lemma": "judgment",
+      "pos": "n.",
+      "sense_zh": "判断；看法",
+      "sentence_ids": [
+        "p08-b-02-s04"
+      ],
+      "forms": [
+        "judgment"
+      ],
+      "sense_id": "sense-staged-ox-14c15153d5f73c18-p08-b-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74bb0a8c5aeb1f97",
+      "lemma": "moral",
+      "pos": "adj.",
+      "sense_zh": "关于道德或是非的",
+      "sentence_ids": [
+        "p08-b-02-s05"
+      ],
+      "forms": [
+        "moral"
+      ],
+      "sense_id": "sense-staged-ox-74bb0a8c5aeb1f97-p08-b-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dddaf20eac38e295",
+      "lemma": "justify",
+      "pos": "v.",
+      "sense_zh": "为判断提供正当理由",
+      "sentence_ids": [
+        "p08-b-02-s04"
+      ],
+      "forms": [
+        "justify"
+      ],
+      "sense_id": "sense-staged-ox-dddaf20eac38e295-p08-b-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

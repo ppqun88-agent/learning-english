@@ -1,0 +1,89 @@
+{
+  "id": "p08-a-31",
+  "title_zh": "限定总部访谈对象与问题范围",
+  "topic_id": "work",
+  "scenario": {
+    "id": "headquarters-staff-interview-plan",
+    "label_zh": "准备总部员工访谈",
+    "goal_zh": "选定直接接触流程的访谈对象和具体问题，并约定报告仅反映所访团队"
+  },
+  "participants": [
+    "Paula",
+    "Jin"
+  ],
+  "context_zh": "一名新员工向同事请教如何了解客户投诉的内部处理流程。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-31-s01",
+      "speaker": "Paula",
+      "text": "I'm visiting headquarters on Tuesday. Who could explain how complaints reach the product team?"
+    },
+    {
+      "id": "p08-a-31-s02",
+      "speaker": "Jin",
+      "text": "Talk to Mara in customer support. She can give you insight into where the handover gets delayed."
+    },
+    {
+      "id": "p08-a-31-s03",
+      "speaker": "Paula",
+      "text": "Should I ask what everyone in the company thinks about the process?"
+    },
+    {
+      "id": "p08-a-31-s04",
+      "speaker": "Jin",
+      "text": "That's too broad for one person. Ask her to walk you through a recent case without sharing customer details."
+    },
+    {
+      "id": "p08-a-31-s05",
+      "speaker": "Paula",
+      "text": "I'll ask where it arrived, who handled it next, and where she had to wait."
+    },
+    {
+      "id": "p08-a-31-s06",
+      "speaker": "Jin",
+      "text": "Good. Then label your notes as one team's experience, not a verdict on the whole company."
+    },
+    {
+      "id": "p08-a-31-s07",
+      "speaker": "Paula",
+      "text": "Understood. I'll send her those questions before the visit."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4541eb66a5ed8b2e",
+      "lemma": "headquarters",
+      "pos": "n.",
+      "sense_zh": "机构或公司的总部",
+      "sentence_ids": [
+        "p08-a-31-s01"
+      ],
+      "forms": [
+        "headquarters"
+      ],
+      "sense_id": "sense-staged-ox-4541eb66a5ed8b2e-p08-a-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0fbb99848751685d",
+      "lemma": "insight",
+      "pos": "n.",
+      "sense_zh": "对情况的深入理解",
+      "sentence_ids": [
+        "p08-a-31-s02"
+      ],
+      "forms": [
+        "insight"
+      ],
+      "sense_id": "sense-staged-ox-0fbb99848751685d-p08-a-31",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

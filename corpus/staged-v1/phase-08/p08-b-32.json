@@ -1,0 +1,68 @@
+{
+  "id": "p08-b-32",
+  "title_zh": "约定自带舞台化妆品供负责人看效果",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "stage-makeup-own-product-plan",
+    "label_zh": "确认舞台化妆用品与效果核对安排",
+    "goal_zh": "尊重演员不共用化妆品的选择，约定自带用品并在排练时让负责人核对效果"
+  },
+  "participants": [
+    "Flora",
+    "Joan"
+  ],
+  "context_zh": "英国业余剧团演员弗洛拉与服装负责人乔安讨论排练用品。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-32-s01",
+      "speaker": "Flora",
+      "text": "Do we all have to use the same make-up for the show? I'd rather bring my own."
+    },
+    {
+      "id": "p08-b-32-s02",
+      "speaker": "Joan",
+      "text": "That's fine. We need a similar appearance, not shared products."
+    },
+    {
+      "id": "p08-b-32-s03",
+      "speaker": "Flora",
+      "text": "My usual foundation is lighter than the one in the costume box. Will that be a problem under the lights?"
+    },
+    {
+      "id": "p08-b-32-s04",
+      "speaker": "Joan",
+      "text": "Let's look at it during the lighting rehearsal rather than guess now."
+    },
+    {
+      "id": "p08-b-32-s05",
+      "speaker": "Flora",
+      "text": "I'll bring my own products on Wednesday and arrive a little early."
+    },
+    {
+      "id": "p08-b-32-s06",
+      "speaker": "Joan",
+      "text": "Good. I'll check the effect with you before the rehearsal starts; you don't need to use anything from the shared box."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2204a1fd163e0d9a",
+      "lemma": "make-up",
+      "pos": "n.",
+      "sense_zh": "化妆品",
+      "sentence_ids": [
+        "p08-b-32-s01"
+      ],
+      "forms": [
+        "make-up"
+      ],
+      "sense_id": "sense-staged-ox-2204a1fd163e0d9a-p08-b-32",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,89 @@
+{
+  "id": "p08-a-17",
+  "title_zh": "约定康复期间只提供需要的家务帮助",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "hip-recovery-help-boundaries",
+    "label_zh": "协商髋部手术后的家务帮助",
+    "goal_zh": "听取康复者对独立生活的重视，约定先帮忙采购而不擅自接管全部家务"
+  },
+  "participants": [
+    "Marion",
+    "Sam"
+  ],
+  "context_zh": "成年子女探望做过髋部手术的母亲，讨论日常帮助的边界。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-17-s01",
+      "speaker": "Marion",
+      "text": "My hip is improving, but carrying groceries is still difficult."
+    },
+    {
+      "id": "p08-a-17-s02",
+      "speaker": "Sam",
+      "text": "I could move in for a few weeks and do everything."
+    },
+    {
+      "id": "p08-a-17-s03",
+      "speaker": "Marion",
+      "text": "That's kind, but my independence matters to me. I don't want you taking over jobs I can manage."
+    },
+    {
+      "id": "p08-a-17-s04",
+      "speaker": "Sam",
+      "text": "Understood. What would actually help?"
+    },
+    {
+      "id": "p08-a-17-s05",
+      "speaker": "Marion",
+      "text": "A food shop on Saturday. I can write a list, and we can put the heavy things away together."
+    },
+    {
+      "id": "p08-a-17-s06",
+      "speaker": "Sam",
+      "text": "Let's do that. I'll come at eleven, and you can tell me if you need anything else."
+    },
+    {
+      "id": "p08-a-17-s07",
+      "speaker": "Marion",
+      "text": "Thank you. That feels like help rather than a takeover."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cd996fc1e104d98c",
+      "lemma": "hip",
+      "pos": "n.",
+      "sense_zh": "髋部",
+      "sentence_ids": [
+        "p08-a-17-s01"
+      ],
+      "forms": [
+        "hip"
+      ],
+      "sense_id": "sense-staged-ox-cd996fc1e104d98c-p08-a-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-812bd1e835677ed8",
+      "lemma": "independence",
+      "pos": "n.",
+      "sense_zh": "独立生活和自主安排的能力",
+      "sentence_ids": [
+        "p08-a-17-s03"
+      ],
+      "forms": [
+        "independence"
+      ],
+      "sense_id": "sense-staged-ox-812bd1e835677ed8-p08-a-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

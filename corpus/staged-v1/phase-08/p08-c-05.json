@@ -1,0 +1,100 @@
+{
+  "id": "p08-c-05",
+  "title_zh": "更正虚构案件表格中的行为人及处罚栏",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-sentencing-case-comparison",
+    "label_zh": "区分虚构案例中的违法行为和处罚",
+    "goal_zh": "根据美国英语课堂案例更正表格，把违法行为、行为人和处罚分别列入正确栏"
+  },
+  "participants": [
+    "Luis",
+    "Ms Carter"
+  ],
+  "context_zh": "美国英语课堂使用虚构案件练习阅读，不讨论现实法律适用。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-05-s01",
+      "speaker": "Luis",
+      "text": "I put 'shoplifting' in the offender column. Is that right?"
+    },
+    {
+      "id": "p08-c-05-s02",
+      "speaker": "Ms Carter",
+      "text": "No. The offender is the person who committed the offense. In this case, that person is Alex."
+    },
+    {
+      "id": "p08-c-05-s03",
+      "speaker": "Luis",
+      "text": "So shoplifting belongs under 'offense', and Alex belongs under 'offender'."
+    },
+    {
+      "id": "p08-c-05-s04",
+      "speaker": "Ms Carter",
+      "text": "Exactly. What penalty does this fictional case say the court imposed?"
+    },
+    {
+      "id": "p08-c-05-s05",
+      "speaker": "Luis",
+      "text": "A fine. I'll put that in the last column, not the person's name."
+    },
+    {
+      "id": "p08-c-05-s06",
+      "speaker": "Ms Carter",
+      "text": "Good. Keep your answer to the facts given in the case."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7e240b8008dd0bfd",
+      "lemma": "offender",
+      "pos": "n.",
+      "sense_zh": "违法者",
+      "sentence_ids": [
+        "p08-c-05-s02"
+      ],
+      "forms": [
+        "offender"
+      ],
+      "sense_id": "sense-staged-ox-7e240b8008dd0bfd-p08-c-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-106ba8d16cbcedbf",
+      "lemma": "offense",
+      "pos": "n.",
+      "sense_zh": "违法行为",
+      "sentence_ids": [
+        "p08-c-05-s02"
+      ],
+      "forms": [
+        "offense"
+      ],
+      "sense_id": "sense-staged-ox-106ba8d16cbcedbf-p08-c-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c898322874c9559e",
+      "lemma": "penalty",
+      "pos": "n.",
+      "sense_zh": "处罚",
+      "sentence_ids": [
+        "p08-c-05-s04"
+      ],
+      "forms": [
+        "penalty"
+      ],
+      "sense_id": "sense-staged-ox-c898322874c9559e-p08-c-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

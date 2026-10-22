@@ -1,0 +1,105 @@
+{
+  "id": "p08-b-33",
+  "title_zh": "比较色号后选择带走色卡而不购买",
+  "topic_id": "services",
+  "scenario": {
+    "id": "makeup-shade-comparison-choice",
+    "label_zh": "比较化妆品色号并选择带走色卡",
+    "goal_zh": "说明对两种色号的犹豫，比较后选择带走色卡而暂不购买"
+  },
+  "participants": [
+    "Erin",
+    "Naomi"
+  ],
+  "context_zh": "美国化妆品店顾客艾琳与店员娜奥米比较口红色号。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-33-s01",
+      "speaker": "Erin",
+      "text": "I'm replacing some of my makeup, but I have mixed feelings about this bright lipstick."
+    },
+    {
+      "id": "p08-b-33-s02",
+      "speaker": "Naomi",
+      "text": "What do you like about it, and what worries you?"
+    },
+    {
+      "id": "p08-b-33-s03",
+      "speaker": "Erin",
+      "text": "I like the color in the tube. On this sample card, though, it looks much stronger."
+    },
+    {
+      "id": "p08-b-33-s04",
+      "speaker": "Naomi",
+      "text": "Here's the softer shade beside it. The difference is minor in this light, so it may help to compare the cards near the window."
+    },
+    {
+      "id": "p08-b-33-s05",
+      "speaker": "Erin",
+      "text": "I can see the difference there, but I'm still not ready to choose."
+    },
+    {
+      "id": "p08-b-33-s06",
+      "speaker": "Naomi",
+      "text": "You can take these printed shade cards home. There's no need to buy today."
+    },
+    {
+      "id": "p08-b-33-s07",
+      "speaker": "Erin",
+      "text": "I'll do that, thanks. I'd rather look at them beside the clothes I actually wear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c9558c71603c687b",
+      "lemma": "makeup",
+      "pos": "n.",
+      "sense_zh": "化妆品",
+      "sentence_ids": [
+        "p08-b-33-s01"
+      ],
+      "forms": [
+        "makeup"
+      ],
+      "sense_id": "sense-staged-ox-c9558c71603c687b-p08-b-33",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0eb2173a9f3c4408",
+      "lemma": "minor",
+      "pos": "adj.",
+      "sense_zh": "较小的；轻微的",
+      "sentence_ids": [
+        "p08-b-33-s04"
+      ],
+      "forms": [
+        "minor"
+      ],
+      "sense_id": "sense-staged-ox-0eb2173a9f3c4408-p08-b-33",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b97114dacf5ad0fe",
+      "lemma": "mixed",
+      "pos": "adj.",
+      "sense_zh": "相互矛盾的；褒贬不一的",
+      "sentence_ids": [
+        "p08-b-33-s01"
+      ],
+      "forms": [
+        "mixed"
+      ],
+      "sense_id": "sense-staged-ox-b97114dacf5ad0fe-p08-b-33",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

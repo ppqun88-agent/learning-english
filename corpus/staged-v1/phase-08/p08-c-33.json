@@ -1,0 +1,100 @@
+{
+  "id": "p08-c-33",
+  "title_zh": "把哲学读书讨论聚焦于分配机会的公平原则",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "philosophy-reading-group-focus",
+    "label_zh": "确定哲学读书组的具体讨论问题",
+    "goal_zh": "将宽泛的求知主题缩小为公平分配活动名额的原则，并约定携带实例参与讨论"
+  },
+  "participants": [
+    "Oona",
+    "Felix"
+  ],
+  "context_zh": "新成立的读书组在选择第一次哲学讨论的切入点。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-33-s01",
+      "speaker": "Oona",
+      "text": "I joined because I'm interested in philosophy, but 'the pursuit of truth' feels too broad for one evening."
+    },
+    {
+      "id": "p08-c-33-s02",
+      "speaker": "Felix",
+      "text": "What about a practical question: how should a club divide limited places on a trip?"
+    },
+    {
+      "id": "p08-c-33-s03",
+      "speaker": "Oona",
+      "text": "We could examine the principle that everyone should have an equal chance."
+    },
+    {
+      "id": "p08-c-33-s04",
+      "speaker": "Felix",
+      "text": "And ask whether drawing names is fairer than giving places to whoever pays first."
+    },
+    {
+      "id": "p08-c-33-s05",
+      "speaker": "Oona",
+      "text": "That's specific enough. I'll bring the example from our walking club."
+    },
+    {
+      "id": "p08-c-33-s06",
+      "speaker": "Felix",
+      "text": "I'll find a short reading on fairness. Let's use that question for our first meeting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-490e940a619b5a07",
+      "lemma": "philosophy",
+      "pos": "n.",
+      "sense_zh": "哲学",
+      "sentence_ids": [
+        "p08-c-33-s01"
+      ],
+      "forms": [
+        "philosophy"
+      ],
+      "sense_id": "sense-staged-ox-490e940a619b5a07-p08-c-33",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8290575df8486ac5",
+      "lemma": "pursuit",
+      "pos": "n.",
+      "sense_zh": "追求",
+      "sentence_ids": [
+        "p08-c-33-s01"
+      ],
+      "forms": [
+        "pursuit"
+      ],
+      "sense_id": "sense-staged-ox-8290575df8486ac5-p08-c-33",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e39469009d0e35a0",
+      "lemma": "principle",
+      "pos": "n.",
+      "sense_zh": "原则",
+      "sentence_ids": [
+        "p08-c-33-s03"
+      ],
+      "forms": [
+        "principle"
+      ],
+      "sense_id": "sense-staged-ox-e39469009d0e35a0-p08-c-33",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

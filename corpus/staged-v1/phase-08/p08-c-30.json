@@ -1,0 +1,105 @@
+{
+  "id": "p08-c-30",
+  "title_zh": "把拼图研究结论限定为本任务表现",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "puzzle-intelligence-claim-review",
+    "label_zh": "审视拼图成绩的推论边界",
+    "goal_zh": "区分特定任务表现与整体智力，并依据练习影响修订课堂研究结论"
+  },
+  "participants": [
+    "Tariq",
+    "Jo"
+  ],
+  "context_zh": "心理学课学生检查一项课堂拼图练习的结论。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-30-s01",
+      "speaker": "Tariq",
+      "text": "Our psychology report says the fastest person on the puzzle was the most intelligent. Is that justified?"
+    },
+    {
+      "id": "p08-c-30-s02",
+      "speaker": "Jo",
+      "text": "No. Some people had already done that type of puzzle, and others had never seen one."
+    },
+    {
+      "id": "p08-c-30-s03",
+      "speaker": "Tariq",
+      "text": "So speed wasn't purely a measure of the ability we wanted to test."
+    },
+    {
+      "id": "p08-c-30-s04",
+      "speaker": "Jo",
+      "text": "Right. Practice could affect the result, and one task doesn't measure someone's overall intelligence."
+    },
+    {
+      "id": "p08-c-30-s05",
+      "speaker": "Tariq",
+      "text": "I'll change the conclusion to say who completed this task fastest under these conditions."
+    },
+    {
+      "id": "p08-c-30-s06",
+      "speaker": "Jo",
+      "text": "And note the difference in previous practice as a limitation."
+    },
+    {
+      "id": "p08-c-30-s07",
+      "speaker": "Tariq",
+      "text": "Done. The revised conclusion no longer ranks people's intelligence."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d395a4a953af5d5f",
+      "lemma": "psychology",
+      "pos": "n.",
+      "sense_zh": "心理学",
+      "sentence_ids": [
+        "p08-c-30-s01"
+      ],
+      "forms": [
+        "psychology"
+      ],
+      "sense_id": "sense-staged-ox-d395a4a953af5d5f-p08-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ee7fc829d2ed3d91",
+      "lemma": "puzzle",
+      "pos": "n.",
+      "sense_zh": "拼图或益智题",
+      "sentence_ids": [
+        "p08-c-30-s01"
+      ],
+      "forms": [
+        "puzzle"
+      ],
+      "sense_id": "sense-staged-ox-ee7fc829d2ed3d91-p08-c-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8863b881dec38d71",
+      "lemma": "purely",
+      "pos": "adv.",
+      "sense_zh": "完全地或仅仅",
+      "sentence_ids": [
+        "p08-c-30-s03"
+      ],
+      "forms": [
+        "purely"
+      ],
+      "sense_id": "sense-staged-ox-8863b881dec38d71-p08-c-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

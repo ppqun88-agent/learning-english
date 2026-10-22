@@ -1,0 +1,63 @@
+{
+  "id": "p08-c-37",
+  "title_zh": "核对晋升反馈并约定准备项目计划",
+  "topic_id": "work",
+  "scenario": {
+    "id": "promotion-feedback-next-step",
+    "label_zh": "根据晋升反馈约定准备项目计划",
+    "goal_zh": "明确本轮未获晋升的反馈，约定先起草带领小项目的计划再与经理讨论"
+  },
+  "participants": [
+    "Cora",
+    "Manager"
+  ],
+  "context_zh": "员工向经理澄清一次晋升评估后的反馈。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-37-s01",
+      "speaker": "Cora",
+      "text": "I didn't get the promotion, but the feedback doesn't tell me what to work on next."
+    },
+    {
+      "id": "p08-c-37-s02",
+      "speaker": "Manager",
+      "text": "Your technical work is strong. The panel wanted more evidence that you can guide a project involving other people."
+    },
+    {
+      "id": "p08-c-37-s03",
+      "speaker": "Cora",
+      "text": "Could I lead the small website update rather than wait for a much larger project?"
+    },
+    {
+      "id": "p08-c-37-s04",
+      "speaker": "Manager",
+      "text": "That could give you relevant experience. Draft a plan showing the work and who you'd need, and we'll discuss it."
+    },
+    {
+      "id": "p08-c-37-s05",
+      "speaker": "Cora",
+      "text": "I'll bring a plan to our next meeting. I understand that doing the project wouldn't guarantee a new role."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e11280541c44f9d0",
+      "lemma": "promotion",
+      "pos": "n.",
+      "sense_zh": "晋升",
+      "sentence_ids": [
+        "p08-c-37-s01"
+      ],
+      "forms": [
+        "promotion"
+      ],
+      "sense_id": "sense-staged-ox-e11280541c44f9d0-p08-c-37",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

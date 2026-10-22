@@ -1,0 +1,84 @@
+{
+  "id": "p08-c-35",
+  "title_zh": "删除未经证实的纯水说明并保留冻结观察",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "freezing-demo-observation-limits",
+    "label_zh": "限定冻结实验记录中的材料断言",
+    "goal_zh": "发现未核实水的纯度，决定记录实际容器标签和冻结现象而不声称是纯水实验"
+  },
+  "participants": [
+    "Hugo",
+    "Seren"
+  ],
+  "context_zh": "学生查看老师提供的冻结演示记录。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-35-s01",
+      "speaker": "Hugo",
+      "text": "I've described this as a test using pure water. Do we know that's what was in the bottle?"
+    },
+    {
+      "id": "p08-c-35-s02",
+      "speaker": "Seren",
+      "text": "The label just says tap water. We didn't measure what else was in it."
+    },
+    {
+      "id": "p08-c-35-s03",
+      "speaker": "Hugo",
+      "text": "Then I can't use the result to make a precise claim about pure water."
+    },
+    {
+      "id": "p08-c-35-s04",
+      "speaker": "Seren",
+      "text": "No. We can describe the phenomenon we observed: ice formed first around the edge."
+    },
+    {
+      "id": "p08-c-35-s05",
+      "speaker": "Hugo",
+      "text": "I'll keep that observation and replace the material description with what the label actually says."
+    },
+    {
+      "id": "p08-c-35-s06",
+      "speaker": "Seren",
+      "text": "And add that we didn't check the contents independently. That makes the limit clear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c2eda3b6c792baf0",
+      "lemma": "pure",
+      "pos": "adj.",
+      "sense_zh": "纯净的",
+      "sentence_ids": [
+        "p08-c-35-s01"
+      ],
+      "forms": [
+        "pure"
+      ],
+      "sense_id": "sense-staged-ox-c2eda3b6c792baf0-p08-c-35",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a04371ee23bc1bd7",
+      "lemma": "phenomenon",
+      "pos": "n.",
+      "sense_zh": "可观察的现象",
+      "sentence_ids": [
+        "p08-c-35-s04"
+      ],
+      "forms": [
+        "phenomenon"
+      ],
+      "sense_id": "sense-staged-ox-a04371ee23bc1bd7-p08-c-35",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

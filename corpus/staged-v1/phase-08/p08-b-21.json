@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-21",
+  "title_zh": "就近期睡眠困扰请求诊所回电",
+  "topic_id": "health",
+  "scenario": {
+    "id": "sleep-concern-clinic-callback",
+    "label_zh": "向护理团队转达睡眠及用药疑问",
+    "goal_zh": "说明近期睡眠困扰及用药问题，确认可接听时段并请求专业人员回电"
+  },
+  "participants": [
+    "Maya",
+    "James"
+  ],
+  "context_zh": "虚构诊所来电者马娅向护理团队接待员詹姆斯求助；对话不判断病因或建议调整药物。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-21-s01",
+      "speaker": "Maya",
+      "text": "Could someone from the nursing team call me? I've been sleeping badly lately."
+    },
+    {
+      "id": "p08-b-21-s02",
+      "speaker": "James",
+      "text": "I'll pass on a message. What would you like them to know?"
+    },
+    {
+      "id": "p08-b-21-s03",
+      "speaker": "Maya",
+      "text": "I keep waking after a nightmare, and I feel miserable the next morning. It's been happening several nights a week."
+    },
+    {
+      "id": "p08-b-21-s04",
+      "speaker": "James",
+      "text": "Is there anything else you want included?"
+    },
+    {
+      "id": "p08-b-21-s05",
+      "speaker": "Maya",
+      "text": "I have a question about my medication, but I don't know whether it's related to the sleep problem."
+    },
+    {
+      "id": "p08-b-21-s06",
+      "speaker": "James",
+      "text": "I'll include that question without suggesting a cause. Please discuss any changes with the clinician rather than relying on reception advice."
+    },
+    {
+      "id": "p08-b-21-s07",
+      "speaker": "Maya",
+      "text": "Yes. I'm available this afternoon after two."
+    },
+    {
+      "id": "p08-b-21-s08",
+      "speaker": "James",
+      "text": "I've recorded that time and your message. I'll ask the team to contact you about the sleep problem and the medication question."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2b343233bbb3391a",
+      "lemma": "medication",
+      "pos": "n.",
+      "sense_zh": "药物；用药",
+      "sentence_ids": [
+        "p08-b-21-s05"
+      ],
+      "forms": [
+        "medication"
+      ],
+      "sense_id": "sense-staged-ox-2b343233bbb3391a-p08-b-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9410a16de79e35a1",
+      "lemma": "nursing",
+      "pos": "adj.",
+      "sense_zh": "护理的",
+      "sentence_ids": [
+        "p08-b-21-s01"
+      ],
+      "forms": [
+        "nursing"
+      ],
+      "sense_id": "sense-staged-ox-9410a16de79e35a1-p08-b-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a9e1530be97d3a03",
+      "lemma": "lately",
+      "pos": "adv.",
+      "sense_zh": "最近；近来",
+      "sentence_ids": [
+        "p08-b-21-s01"
+      ],
+      "forms": [
+        "lately"
+      ],
+      "sense_id": "sense-staged-ox-a9e1530be97d3a03-p08-b-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-216bc24f68450c87",
+      "lemma": "miserable",
+      "pos": "adj.",
+      "sense_zh": "难受的；非常不愉快的",
+      "sentence_ids": [
+        "p08-b-21-s03"
+      ],
+      "forms": [
+        "miserable"
+      ],
+      "sense_id": "sense-staged-ox-216bc24f68450c87-p08-b-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bf029649c4734921",
+      "lemma": "nightmare",
+      "pos": "n.",
+      "sense_zh": "噩梦",
+      "sentence_ids": [
+        "p08-b-21-s03"
+      ],
+      "forms": [
+        "nightmare"
+      ],
+      "sense_id": "sense-staged-ox-bf029649c4734921-p08-b-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

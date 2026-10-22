@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-26",
+  "title_zh": "明确无障碍底线后询问场租报价",
+  "topic_id": "community",
+  "scenario": {
+    "id": "room-hire-negotiation-boundary",
+    "label_zh": "确定活动场租谈判的边界",
+    "goal_zh": "确认无障碍入口不可取消，约定以缩短时段换取报价而不作租用承诺"
+  },
+  "participants": [
+    "Milo",
+    "Debbie"
+  ],
+  "context_zh": "社区活动组织者米洛与黛比商量如何向场馆询问更合适的租用条件。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-26-s01",
+      "speaker": "Milo",
+      "text": "Could you negotiate a lower room price? The quote is beyond our budget."
+    },
+    {
+      "id": "p08-b-26-s02",
+      "speaker": "Debbie",
+      "text": "I can ask. Would a shorter booking give us a useful starting point for the negotiation?"
+    },
+    {
+      "id": "p08-b-26-s03",
+      "speaker": "Milo",
+      "text": "Yes, but we can't move upstairs. A step-free entrance is a necessity for several participants."
+    },
+    {
+      "id": "p08-b-26-s04",
+      "speaker": "Debbie",
+      "text": "Agreed. Saving money isn't a reason to exclude them."
+    },
+    {
+      "id": "p08-b-26-s05",
+      "speaker": "Milo",
+      "text": "The manager sounded firm about the price. Nevertheless, asking about two hours instead of three seems reasonable."
+    },
+    {
+      "id": "p08-b-26-s06",
+      "speaker": "Debbie",
+      "text": "Email is the simplest means of getting a clear written answer. I'll explain the shorter session and the access requirement."
+    },
+    {
+      "id": "p08-b-26-s07",
+      "speaker": "Milo",
+      "text": "Please ask for a revised quote, not a confirmed booking. We still need to check the total."
+    },
+    {
+      "id": "p08-b-26-s08",
+      "speaker": "Debbie",
+      "text": "Understood. I'll bring the reply back to you before we make any commitment."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ce419b34ccb22181",
+      "lemma": "negotiate",
+      "pos": "v.",
+      "sense_zh": "协商；谈判以达成条件",
+      "sentence_ids": [
+        "p08-b-26-s01"
+      ],
+      "forms": [
+        "negotiate"
+      ],
+      "sense_id": "sense-staged-ox-ce419b34ccb22181-p08-b-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54677334af9f994b",
+      "lemma": "negotiation",
+      "pos": "n.",
+      "sense_zh": "协商；谈判",
+      "sentence_ids": [
+        "p08-b-26-s02"
+      ],
+      "forms": [
+        "negotiation"
+      ],
+      "sense_id": "sense-staged-ox-54677334af9f994b-p08-b-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ac75adb65b425bd",
+      "lemma": "means",
+      "pos": "n.",
+      "sense_zh": "方式；手段",
+      "sentence_ids": [
+        "p08-b-26-s06"
+      ],
+      "forms": [
+        "means"
+      ],
+      "sense_id": "sense-staged-ox-3ac75adb65b425bd-p08-b-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-71db5340cfa518f9",
+      "lemma": "necessity",
+      "pos": "n.",
+      "sense_zh": "必不可少的事物或条件",
+      "sentence_ids": [
+        "p08-b-26-s03"
+      ],
+      "forms": [
+        "necessity"
+      ],
+      "sense_id": "sense-staged-ox-71db5340cfa518f9-p08-b-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12013a108e08e899",
+      "lemma": "nevertheless",
+      "pos": "adv.",
+      "sense_zh": "尽管如此；然而",
+      "sentence_ids": [
+        "p08-b-26-s05"
+      ],
+      "forms": [
+        "nevertheless"
+      ],
+      "sense_id": "sense-staged-ox-12013a108e08e899-p08-b-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

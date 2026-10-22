@@ -1,0 +1,84 @@
+{
+  "id": "p08-a-21",
+  "title_zh": "约定先联系维修店检查继承的小提琴",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "inherited-violin-memorial-plan",
+    "label_zh": "讨论继承乐器的纪念用途与检查",
+    "goal_zh": "根据祖母信中的心愿讨论家庭聚会演奏，约定先联系维修店检查乐器，暂不作出演奏承诺"
+  },
+  "participants": [
+    "Alice",
+    "Peter"
+  ],
+  "context_zh": "姐弟整理祖母留下的小提琴，谈论怎样纪念她。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-21-s01",
+      "speaker": "Alice",
+      "text": "Did you inherit the violin, or is it going to the music school?"
+    },
+    {
+      "id": "p08-a-21-s02",
+      "speaker": "Peter",
+      "text": "She left it to me. Her letter says she'd like it to be played, not just displayed."
+    },
+    {
+      "id": "p08-a-21-s03",
+      "speaker": "Alice",
+      "text": "A short piece at the family gathering could honour that wish."
+    },
+    {
+      "id": "p08-a-21-s04",
+      "speaker": "Peter",
+      "text": "I'd like that, but it hasn't been used for years. I don't even know whether the strings are sound."
+    },
+    {
+      "id": "p08-a-21-s05",
+      "speaker": "Alice",
+      "text": "Then let's ask the repair shop to check it first. We don't need to promise a performance yet."
+    },
+    {
+      "id": "p08-a-21-s06",
+      "speaker": "Peter",
+      "text": "I'll call them tomorrow. Once it's ready, we can choose something she loved."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7faf737323257726",
+      "lemma": "inherit",
+      "pos": "v.",
+      "sense_zh": "继承遗留下来的财物",
+      "sentence_ids": [
+        "p08-a-21-s01"
+      ],
+      "forms": [
+        "inherit"
+      ],
+      "sense_id": "sense-staged-ox-7faf737323257726-p08-a-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-46b08cc10b5d48ee",
+      "lemma": "honour",
+      "pos": "v.",
+      "sense_zh": "以行动尊重或实现他人的意愿（英式拼写）",
+      "sentence_ids": [
+        "p08-a-21-s03"
+      ],
+      "forms": [
+        "honour"
+      ],
+      "sense_id": "sense-staged-ox-46b08cc10b5d48ee-p08-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

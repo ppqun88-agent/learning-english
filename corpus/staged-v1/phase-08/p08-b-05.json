@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-05",
+  "title_zh": "改约带合适器材检查松动雨槽",
+  "topic_id": "home",
+  "scenario": {
+    "id": "loose-gutter-inspection-arrangement",
+    "label_zh": "因器材不合适改约雨槽检查",
+    "goal_zh": "发现现有梯子不适用后停止登高，约定维修人员携合适设备检查并先提供费用说明"
+  },
+  "participants": [
+    "Ollie",
+    "Sana"
+  ],
+  "context_zh": "英国住户奥利与维修人员萨娜在地面上查看雨槽；不提供登高维修操作指导。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-05-s01",
+      "speaker": "Ollie",
+      "text": "That section of gutter looks loose. Could you use the ladder in my shed to have a look?"
+    },
+    {
+      "id": "p08-b-05-s02",
+      "speaker": "Sana",
+      "text": "Not that one; its side is bent. And please don't lean it against the gutter."
+    },
+    {
+      "id": "p08-b-05-s03",
+      "speaker": "Ollie",
+      "text": "I thought the job would only take a minute. Is there anything in your kit that could hold it in place?"
+    },
+    {
+      "id": "p08-b-05-s04",
+      "speaker": "Sana",
+      "text": "I can't judge the repair from the ground, and I haven't brought the right access equipment today."
+    },
+    {
+      "id": "p08-b-05-s05",
+      "speaker": "Ollie",
+      "text": "Then let's leave it alone. Can you return with what you need?"
+    },
+    {
+      "id": "p08-b-05-s06",
+      "speaker": "Sana",
+      "text": "Yes, on Thursday morning. I'll explain the inspection charge and any labour costs before you agree to further work."
+    },
+    {
+      "id": "p08-b-05-s07",
+      "speaker": "Ollie",
+      "text": "Thursday suits me. I'll keep the area below it clear until you've inspected it."
+    },
+    {
+      "id": "p08-b-05-s08",
+      "speaker": "Sana",
+      "text": "Thank you. I'll send the appointment details and inspection price this evening."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e060e5065370df47",
+      "lemma": "labour",
+      "pos": "n.",
+      "sense_zh": "维修工作中的人工劳动",
+      "sentence_ids": [
+        "p08-b-05-s06"
+      ],
+      "forms": [
+        "labour"
+      ],
+      "sense_id": "sense-staged-ox-e060e5065370df47-p08-b-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5833840557224efd",
+      "lemma": "ladder",
+      "pos": "n.",
+      "sense_zh": "梯子",
+      "sentence_ids": [
+        "p08-b-05-s01"
+      ],
+      "forms": [
+        "ladder"
+      ],
+      "sense_id": "sense-staged-ox-5833840557224efd-p08-b-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-505c5220e0c6fe7b",
+      "lemma": "lean",
+      "pos": "v.",
+      "sense_zh": "使物体斜靠",
+      "sentence_ids": [
+        "p08-b-05-s02"
+      ],
+      "forms": [
+        "lean"
+      ],
+      "sense_id": "sense-staged-ox-505c5220e0c6fe7b-p08-b-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ca4b739e8ffcc36b",
+      "lemma": "loose",
+      "pos": "adj.",
+      "sense_zh": "松动的；固定不牢的",
+      "sentence_ids": [
+        "p08-b-05-s01"
+      ],
+      "forms": [
+        "loose"
+      ],
+      "sense_id": "sense-staged-ox-ca4b739e8ffcc36b-p08-b-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-82aa6f60e8d6bd60",
+      "lemma": "kit",
+      "pos": "n.",
+      "sense_zh": "一套工具或装备",
+      "sentence_ids": [
+        "p08-b-05-s03"
+      ],
+      "forms": [
+        "kit"
+      ],
+      "sense_id": "sense-staged-ox-82aa6f60e8d6bd60-p08-b-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

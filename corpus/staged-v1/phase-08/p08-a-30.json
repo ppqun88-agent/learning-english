@@ -1,0 +1,158 @@
+{
+  "id": "p08-a-30",
+  "title_zh": "限制断网原因结论并安排隔离测试",
+  "topic_id": "work",
+  "scenario": {
+    "id": "network-fault-investigation-boundary",
+    "label_zh": "核对断网调查的证据范围",
+    "goal_zh": "区分内部故障假设与已确认事实，约定单独测试更新并向同事说明当前未知原因"
+  },
+  "participants": [
+    "Dev",
+    "Lena"
+  ],
+  "context_zh": "技术支持同事讨论一次办公室网络中断后的测试记录。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-30-s01",
+      "speaker": "Dev",
+      "text": "Initially, I thought it was an internal network fault because only our team reported it."
+    },
+    {
+      "id": "p08-a-30-s02",
+      "speaker": "Lena",
+      "text": "But we haven't asked the other teams yet. We should isolate the problem before naming a cause."
+    },
+    {
+      "id": "p08-a-30-s03",
+      "speaker": "Dev",
+      "text": "It happened just after the update, hence my suspicion that the update was involved."
+    },
+    {
+      "id": "p08-a-30-s04",
+      "speaker": "Lena",
+      "text": "The timing is a clue, not proof. Can we test the update on a spare machine?"
+    },
+    {
+      "id": "p08-a-30-s05",
+      "speaker": "Dev",
+      "text": "Yes. Does the fact that it happened twice make another outage inevitable?"
+    },
+    {
+      "id": "p08-a-30-s06",
+      "speaker": "Lena",
+      "text": "No. Repeating a fault doesn't mean it will inevitably happen every time, especially when the conditions differ."
+    },
+    {
+      "id": "p08-a-30-s07",
+      "speaker": "Dev",
+      "text": "I'll test one machine separately and record the network settings as well."
+    },
+    {
+      "id": "p08-a-30-s08",
+      "speaker": "Lena",
+      "text": "And I'll ask the other teams what they saw. For now, let's tell people the cause is still under investigation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-22d91deac54b8776",
+      "lemma": "initially",
+      "pos": "adv.",
+      "sense_zh": "起初",
+      "sentence_ids": [
+        "p08-a-30-s01"
+      ],
+      "forms": [
+        "initially"
+      ],
+      "sense_id": "sense-staged-ox-22d91deac54b8776-p08-a-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b3199b65943903a",
+      "lemma": "internal",
+      "pos": "adj.",
+      "sense_zh": "组织或系统内部的",
+      "sentence_ids": [
+        "p08-a-30-s01"
+      ],
+      "forms": [
+        "internal"
+      ],
+      "sense_id": "sense-staged-ox-4b3199b65943903a-p08-a-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-99d49dbbb20ff794",
+      "lemma": "isolate",
+      "pos": "v.",
+      "sense_zh": "将问题单独辨别或定位",
+      "sentence_ids": [
+        "p08-a-30-s02"
+      ],
+      "forms": [
+        "isolate"
+      ],
+      "sense_id": "sense-staged-ox-99d49dbbb20ff794-p08-a-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73af83c9d5a8d255",
+      "lemma": "hence",
+      "pos": "adv.",
+      "sense_zh": "因此或由此",
+      "sentence_ids": [
+        "p08-a-30-s03"
+      ],
+      "forms": [
+        "hence"
+      ],
+      "sense_id": "sense-staged-ox-73af83c9d5a8d255-p08-a-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5eb9d254e3c91738",
+      "lemma": "inevitable",
+      "pos": "adj.",
+      "sense_zh": "不可避免的",
+      "sentence_ids": [
+        "p08-a-30-s05"
+      ],
+      "forms": [
+        "inevitable"
+      ],
+      "sense_id": "sense-staged-ox-5eb9d254e3c91738-p08-a-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1fee1fefe11d09fa",
+      "lemma": "inevitably",
+      "pos": "adv.",
+      "sense_zh": "必然地",
+      "sentence_ids": [
+        "p08-a-30-s06"
+      ],
+      "forms": [
+        "inevitably"
+      ],
+      "sense_id": "sense-staged-ox-1fee1fefe11d09fa-p08-a-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

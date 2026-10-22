@@ -1,0 +1,106 @@
+{
+  "id": "p08-a-27",
+  "title_zh": "索取迁移史研究机构的档案访问指南",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "migration-institute-record-access",
+    "label_zh": "查询迁移史口述档案的访问方式",
+    "goal_zh": "确认研究机构有相关口述档案并请求访问指南，决定阅读使用条件后再预约"
+  },
+  "participants": [
+    "Hugo",
+    "Tess"
+  ],
+  "context_zh": "学生联系虚构的海事研究机构，为迁移史课程查找口述史材料。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-27-s01",
+      "speaker": "Hugo",
+      "text": "Is this the Maritime Institute? I'm looking for interviews about immigration through the old port."
+    },
+    {
+      "id": "p08-a-27-s02",
+      "speaker": "Tess",
+      "text": "Yes. We have a recorded-history collection, but it isn't available for casual browsing in the lobby."
+    },
+    {
+      "id": "p08-a-27-s03",
+      "speaker": "Hugo",
+      "text": "I thought the building was a museum. Is it a different kind of institution?"
+    },
+    {
+      "id": "p08-a-27-s04",
+      "speaker": "Tess",
+      "text": "We're a research centre. Students can request access, subject to the conditions for each recording."
+    },
+    {
+      "id": "p08-a-27-s05",
+      "speaker": "Hugo",
+      "text": "Could you send me the access guide? I need to know whether I can quote the interviews in a class presentation."
+    },
+    {
+      "id": "p08-a-27-s06",
+      "speaker": "Tess",
+      "text": "Certainly. It explains the appointment process and which uses require permission."
+    },
+    {
+      "id": "p08-a-27-s07",
+      "speaker": "Hugo",
+      "text": "I'll read that first and then ask about a visit. I won't assume every recording can be quoted."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7ea4968ff202751e",
+      "lemma": "institute",
+      "pos": "n.",
+      "sense_zh": "从事研究或教育的机构",
+      "sentence_ids": [
+        "p08-a-27-s01"
+      ],
+      "forms": [
+        "Institute"
+      ],
+      "sense_id": "sense-staged-ox-7ea4968ff202751e-p08-a-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "forms_rationale_zh": "机构名称中的首字母大写形式，与词条相同。"
+    },
+    {
+      "target_id": "ox-a090d98955092d08",
+      "lemma": "immigration",
+      "pos": "n.",
+      "sense_zh": "迁入另一国家生活的过程",
+      "sentence_ids": [
+        "p08-a-27-s01"
+      ],
+      "forms": [
+        "immigration"
+      ],
+      "sense_id": "sense-staged-ox-a090d98955092d08-p08-a-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e57b4974f4963efd",
+      "lemma": "institution",
+      "pos": "n.",
+      "sense_zh": "具有特定公共或教育目的的机构",
+      "sentence_ids": [
+        "p08-a-27-s03"
+      ],
+      "forms": [
+        "institution"
+      ],
+      "sense_id": "sense-staged-ox-e57b4974f4963efd-p08-a-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

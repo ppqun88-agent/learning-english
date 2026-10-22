@@ -1,0 +1,137 @@
+{
+  "id": "p08-c-22",
+  "title_zh": "在永久删除账户前先保存所需副本",
+  "topic_id": "services",
+  "scenario": {
+    "id": "archive-account-deletion-check",
+    "label_zh": "核对档案账户删除前的保留限制",
+    "goal_zh": "了解账户删除的不可逆影响和受限文件规则，决定先下载可保存的个人副本而暂不删除"
+  },
+  "participants": [
+    "Evan",
+    "Helpdesk"
+  ],
+  "context_zh": "虚构档案网站的使用者向客服询问账户删除流程。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-22-s01",
+      "speaker": "Evan",
+      "text": "I reset my password so I could close this account. Is deletion permanent?"
+    },
+    {
+      "id": "p08-c-22-s02",
+      "speaker": "Helpdesk",
+      "text": "Yes. The notice says your saved reading lists will be removed permanently."
+    },
+    {
+      "id": "p08-c-22-s03",
+      "speaker": "Evan",
+      "text": "Can I download everything first?"
+    },
+    {
+      "id": "p08-c-22-s04",
+      "speaker": "Helpdesk",
+      "text": "You can export your lists. The archive rules prohibit downloading some restricted documents without prior permission."
+    },
+    {
+      "id": "p08-c-22-s05",
+      "speaker": "Evan",
+      "text": "I only need my own notes and lists. I don't want copies of the restricted documents."
+    },
+    {
+      "id": "p08-c-22-s06",
+      "speaker": "Helpdesk",
+      "text": "Use the export option for those, then check that the files open before you decide about deletion."
+    },
+    {
+      "id": "p08-c-22-s07",
+      "speaker": "Evan",
+      "text": "I'll save and check them first. Please leave the account open for now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f6618e36f1389b11",
+      "lemma": "password",
+      "pos": "n.",
+      "sense_zh": "账户密码",
+      "sentence_ids": [
+        "p08-c-22-s01"
+      ],
+      "forms": [
+        "password"
+      ],
+      "sense_id": "sense-staged-ox-f6618e36f1389b11-p08-c-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea8a809cb1ebbad8",
+      "lemma": "permanent",
+      "pos": "adj.",
+      "sense_zh": "永久的",
+      "sentence_ids": [
+        "p08-c-22-s01"
+      ],
+      "forms": [
+        "permanent"
+      ],
+      "sense_id": "sense-staged-ox-ea8a809cb1ebbad8-p08-c-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e99d3bd581aaacc1",
+      "lemma": "permanently",
+      "pos": "adv.",
+      "sense_zh": "永久地",
+      "sentence_ids": [
+        "p08-c-22-s02"
+      ],
+      "forms": [
+        "permanently"
+      ],
+      "sense_id": "sense-staged-ox-e99d3bd581aaacc1-p08-c-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4eae0c1385d1074e",
+      "lemma": "prohibit",
+      "pos": "v.",
+      "sense_zh": "禁止",
+      "sentence_ids": [
+        "p08-c-22-s04"
+      ],
+      "forms": [
+        "prohibit"
+      ],
+      "sense_id": "sense-staged-ox-4eae0c1385d1074e-p08-c-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-995c5bffd60bb4af",
+      "lemma": "prior",
+      "pos": "adj.",
+      "sense_zh": "事先的",
+      "sentence_ids": [
+        "p08-c-22-s04"
+      ],
+      "forms": [
+        "prior"
+      ],
+      "sense_id": "sense-staged-ox-995c5bffd60bb4af-p08-c-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

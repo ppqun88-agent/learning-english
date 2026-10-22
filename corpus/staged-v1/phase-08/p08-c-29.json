@@ -1,0 +1,105 @@
+{
+  "id": "p08-c-29",
+  "title_zh": "放弃吵闹演出并约好周日听安静的音乐",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "punk-gig-alternative-evening",
+    "label_zh": "按音乐喜好更换相约听演出的日期",
+    "goal_zh": "说明对朋克演出音量的顾虑，改约周日听较安静的原声演出"
+  },
+  "participants": [
+    "Callum",
+    "Zoe"
+  ],
+  "context_zh": "朋友比较同一家小场地周末的演出。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-29-s01",
+      "speaker": "Callum",
+      "text": "Do you fancy the punk gig on Friday? My cousin's band is playing."
+    },
+    {
+      "id": "p08-c-29-s02",
+      "speaker": "Zoe",
+      "text": "I listen to punk occasionally, but I'm not in the mood for a loud evening."
+    },
+    {
+      "id": "p08-c-29-s03",
+      "speaker": "Callum",
+      "text": "That's a pity. I was hoping we could go together."
+    },
+    {
+      "id": "p08-c-29-s04",
+      "speaker": "Zoe",
+      "text": "Is there anything quieter another night? I'd still like to spend some time with you."
+    },
+    {
+      "id": "p08-c-29-s05",
+      "speaker": "Callum",
+      "text": "There's an acoustic duo on Sunday. I've heard them, and the room stays fairly relaxed."
+    },
+    {
+      "id": "p08-c-29-s06",
+      "speaker": "Zoe",
+      "text": "Sunday sounds better. Shall we meet outside at seven?"
+    },
+    {
+      "id": "p08-c-29-s07",
+      "speaker": "Callum",
+      "text": "Yes, seven on Sunday. I'll tell my cousin I'm coming to see them another time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6f557c7fe240df33",
+      "lemma": "punk",
+      "pos": "n.",
+      "sense_zh": "朋克摇滚乐",
+      "sentence_ids": [
+        "p08-c-29-s01"
+      ],
+      "forms": [
+        "punk"
+      ],
+      "sense_id": "sense-staged-ox-6f557c7fe240df33-p08-c-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9cfd22789d62492b",
+      "lemma": "occasionally",
+      "pos": "adv.",
+      "sense_zh": "偶尔",
+      "sentence_ids": [
+        "p08-c-29-s02"
+      ],
+      "forms": [
+        "occasionally"
+      ],
+      "sense_id": "sense-staged-ox-9cfd22789d62492b-p08-c-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-39c2dc16b72b4e22",
+      "lemma": "pity",
+      "pos": "n.",
+      "sense_zh": "令人遗憾的事",
+      "sentence_ids": [
+        "p08-c-29-s03"
+      ],
+      "forms": [
+        "pity"
+      ],
+      "sense_id": "sense-staged-ox-39c2dc16b72b4e22-p08-c-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

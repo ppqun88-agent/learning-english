@@ -1,0 +1,158 @@
+{
+  "id": "p08-b-12",
+  "title_zh": "确定工作坊单次试办的预算与筹备分工",
+  "topic_id": "work",
+  "scenario": {
+    "id": "workshop-pilot-budget-scope-agreement",
+    "label_zh": "按预算缩小工作坊试办范围",
+    "goal_zh": "因经费和场地印刷成本限制选择单次小型试办，确定预算上限、人数及筹备分工"
+  },
+  "participants": [
+    "Ezra",
+    "Ines"
+  ],
+  "context_zh": "社区工作坊组织者埃兹拉与伊妮丝比较试办成本并确定筹备分工。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-12-s01",
+      "speaker": "Ezra",
+      "text": "The long-term plan is a weekly workshop, but our funding is limited. Could we start with one Saturday?"
+    },
+    {
+      "id": "p08-b-12-s02",
+      "speaker": "Ines",
+      "text": "Yes. The costs are largely for the room and printed materials, not equipment."
+    },
+    {
+      "id": "p08-b-12-s03",
+      "speaker": "Ezra",
+      "text": "The large hall has become more expensive. Likewise, the full-colour booklet costs more than we expected."
+    },
+    {
+      "id": "p08-b-12-s04",
+      "speaker": "Ines",
+      "text": "Then use the small room and a single-page handout. A modest first session would tell us whether people want another."
+    },
+    {
+      "id": "p08-b-12-s05",
+      "speaker": "Ezra",
+      "text": "Moreover, the small room already has the tables we need. We wouldn't have to hire any."
+    },
+    {
+      "id": "p08-b-12-s06",
+      "speaker": "Ines",
+      "text": "Let's set a total budget of one hundred pounds and limit the session to twelve people."
+    },
+    {
+      "id": "p08-b-12-s07",
+      "speaker": "Ezra",
+      "text": "I'll reserve the room within that limit. Can you prepare the handout and check volunteer availability?"
+    },
+    {
+      "id": "p08-b-12-s08",
+      "speaker": "Ines",
+      "text": "Yes. I'll confirm both by Friday, and we won't promise a weekly programme yet."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5e52bdc7026245ba",
+      "lemma": "long-term",
+      "pos": "adj.",
+      "sense_zh": "长期的",
+      "sentence_ids": [
+        "p08-b-12-s01"
+      ],
+      "forms": [
+        "long-term"
+      ],
+      "sense_id": "sense-staged-ox-5e52bdc7026245ba-p08-b-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1049c7c35fc602a6",
+      "lemma": "limited",
+      "pos": "adj.",
+      "sense_zh": "有限的",
+      "sentence_ids": [
+        "p08-b-12-s01"
+      ],
+      "forms": [
+        "limited"
+      ],
+      "sense_id": "sense-staged-ox-1049c7c35fc602a6-p08-b-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14f4ece6a72ae3ed",
+      "lemma": "modest",
+      "pos": "adj.",
+      "sense_zh": "规模不大的；适度的",
+      "sentence_ids": [
+        "p08-b-12-s04"
+      ],
+      "forms": [
+        "modest"
+      ],
+      "sense_id": "sense-staged-ox-14f4ece6a72ae3ed-p08-b-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-223c0de5bf0623a7",
+      "lemma": "largely",
+      "pos": "adv.",
+      "sense_zh": "主要地；大部分地",
+      "sentence_ids": [
+        "p08-b-12-s02"
+      ],
+      "forms": [
+        "largely"
+      ],
+      "sense_id": "sense-staged-ox-223c0de5bf0623a7-p08-b-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-710593d1921e67bc",
+      "lemma": "moreover",
+      "pos": "adv.",
+      "sense_zh": "而且；此外",
+      "sentence_ids": [
+        "p08-b-12-s05"
+      ],
+      "forms": [
+        "moreover"
+      ],
+      "sense_id": "sense-staged-ox-710593d1921e67bc-p08-b-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7bc35ec72cc08de3",
+      "lemma": "likewise",
+      "pos": "adv.",
+      "sense_zh": "同样地",
+      "sentence_ids": [
+        "p08-b-12-s03"
+      ],
+      "forms": [
+        "likewise"
+      ],
+      "sense_id": "sense-staged-ox-7bc35ec72cc08de3-p08-b-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

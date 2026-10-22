@@ -1,0 +1,84 @@
+{
+  "id": "p08-c-34",
+  "title_zh": "补拍道路侧面照片以澄清透视效果",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "parallel-street-photo-perspective",
+    "label_zh": "比较街道照片中的透视与平行关系",
+    "goal_zh": "区分照片中的视觉会聚和实际道路布局，决定保留原图并补拍侧面照片作对照"
+  },
+  "participants": [
+    "Jin",
+    "Marta"
+  ],
+  "context_zh": "摄影同伴为街道展览选择说明道路布局的照片。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-34-s01",
+      "speaker": "Jin",
+      "text": "These two roads look as if they meet in my photograph."
+    },
+    {
+      "id": "p08-c-34-s02",
+      "speaker": "Marta",
+      "text": "That's the effect of perspective. On the map, the roads are parallel."
+    },
+    {
+      "id": "p08-c-34-s03",
+      "speaker": "Jin",
+      "text": "I want the exhibition to show the actual layout, not leave people thinking there's a junction there."
+    },
+    {
+      "id": "p08-c-34-s04",
+      "speaker": "Marta",
+      "text": "We could take another photograph from the side, where the gap is easier to see."
+    },
+    {
+      "id": "p08-c-34-s05",
+      "speaker": "Jin",
+      "text": "Let's keep this view for its depth and add the side view as a comparison."
+    },
+    {
+      "id": "p08-c-34-s06",
+      "speaker": "Marta",
+      "text": "Good idea. We'll take the second photograph from the public viewing platform."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-34f2f6ce3174e2a2",
+      "lemma": "perspective",
+      "pos": "n.",
+      "sense_zh": "透视效果",
+      "sentence_ids": [
+        "p08-c-34-s02"
+      ],
+      "forms": [
+        "perspective"
+      ],
+      "sense_id": "sense-staged-ox-34f2f6ce3174e2a2-p08-c-34",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17baafc720c48c1b",
+      "lemma": "parallel",
+      "pos": "adj.",
+      "sense_zh": "平行的",
+      "sentence_ids": [
+        "p08-c-34-s02"
+      ],
+      "forms": [
+        "parallel"
+      ],
+      "sense_id": "sense-staged-ox-17baafc720c48c1b-p08-c-34",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

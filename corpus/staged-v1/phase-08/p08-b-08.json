@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-08",
+  "title_zh": "核对联赛会员条件后选择先试训",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "community-league-membership-inquiry",
+    "label_zh": "了解社区联赛会员及人数要求",
+    "goal_zh": "确认会员费和队伍人数限制，决定先参加免费试训再考虑入会"
+  },
+  "participants": [
+    "Matt",
+    "Anya"
+  ],
+  "context_zh": "社区排球联赛接待员安雅向新来者马特介绍这个虚构俱乐部自己的规则。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-08-s01",
+      "speaker": "Matt",
+      "text": "Does membership include a place in the weekend league?"
+    },
+    {
+      "id": "p08-b-08-s02",
+      "speaker": "Anya",
+      "text": "It includes training. A place on a match team depends on available spaces."
+    },
+    {
+      "id": "p08-b-08-s03",
+      "speaker": "Matt",
+      "text": "What's the monthly fee? I can't commit to a whole season yet."
+    },
+    {
+      "id": "p08-b-08-s04",
+      "speaker": "Anya",
+      "text": "Twenty pounds, paid one month at a time. You can try one training session for free first."
+    },
+    {
+      "id": "p08-b-08-s05",
+      "speaker": "Matt",
+      "text": "How many people do you need on a team? My friends might join too."
+    },
+    {
+      "id": "p08-b-08-s06",
+      "speaker": "Anya",
+      "text": "For our small-court league, the minimum number is four and the maximum is six, including substitutes."
+    },
+    {
+      "id": "p08-b-08-s07",
+      "speaker": "Matt",
+      "text": "I'll come to the free session before deciding about membership. Is Tuesday suitable?"
+    },
+    {
+      "id": "p08-b-08-s08",
+      "speaker": "Anya",
+      "text": "Yes. Arrive at six fifteen and ask for me. You don't need to pay anything for that visit."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f96ba243dc81acca",
+      "lemma": "league",
+      "pos": "n.",
+      "sense_zh": "体育联赛",
+      "sentence_ids": [
+        "p08-b-08-s01"
+      ],
+      "forms": [
+        "league"
+      ],
+      "sense_id": "sense-staged-ox-f96ba243dc81acca-p08-b-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c5873be5371fd941",
+      "lemma": "membership",
+      "pos": "n.",
+      "sense_zh": "会员资格",
+      "sentence_ids": [
+        "p08-b-08-s01"
+      ],
+      "forms": [
+        "membership"
+      ],
+      "sense_id": "sense-staged-ox-c5873be5371fd941-p08-b-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6a36ace91fd62332",
+      "lemma": "monthly",
+      "pos": "adj.",
+      "sense_zh": "每月的",
+      "sentence_ids": [
+        "p08-b-08-s03"
+      ],
+      "forms": [
+        "monthly"
+      ],
+      "sense_id": "sense-staged-ox-6a36ace91fd62332-p08-b-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-31e3c4a0bddee57f",
+      "lemma": "minimum",
+      "pos": "adj.",
+      "sense_zh": "最低的；最少的",
+      "sentence_ids": [
+        "p08-b-08-s06"
+      ],
+      "forms": [
+        "minimum"
+      ],
+      "sense_id": "sense-staged-ox-31e3c4a0bddee57f-p08-b-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3b959e596dd13eee",
+      "lemma": "maximum",
+      "pos": "n.",
+      "sense_zh": "最大数量；上限",
+      "sentence_ids": [
+        "p08-b-08-s06"
+      ],
+      "forms": [
+        "maximum"
+      ],
+      "sense_id": "sense-staged-ox-3b959e596dd13eee-p08-b-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,153 @@
+{
+  "id": "p08-a-12",
+  "title_zh": "约定检查柜门五金后再决定安装",
+  "topic_id": "home",
+  "scenario": {
+    "id": "cabinet-hardware-installation-scope",
+    "label_zh": "核对柜门五金安装范围",
+    "goal_zh": "确认现场检查包含在安装费内，约好次日两点核对柜门尺寸与五金位置，条件合适才安装"
+  },
+  "participants": [
+    "Idris",
+    "Clare"
+  ],
+  "context_zh": "住户向木工说明柜门上的新五金件需要安装在哪里。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-12-s01",
+      "speaker": "Idris",
+      "text": "I'd like the new handle here, but will it hit the wall when the door opens?"
+    },
+    {
+      "id": "p08-a-12-s02",
+      "speaker": "Clare",
+      "text": "It might. There's only an inch between the door and the wall at that point."
+    },
+    {
+      "id": "p08-a-12-s03",
+      "speaker": "Idris",
+      "text": "Could the hook go on the inner side instead? It's only for a light tea towel."
+    },
+    {
+      "id": "p08-a-12-s04",
+      "speaker": "Clare",
+      "text": "Possibly, but I need to check the thickness of the door before I install anything."
+    },
+    {
+      "id": "p08-a-12-s05",
+      "speaker": "Idris",
+      "text": "Is that check included in the installation fee?"
+    },
+    {
+      "id": "p08-a-12-s06",
+      "speaker": "Clare",
+      "text": "Yes. I can come at two tomorrow, check the positions with you, and then fit the pieces if they work."
+    },
+    {
+      "id": "p08-a-12-s07",
+      "speaker": "Idris",
+      "text": "Two is fine. Let's leave both pieces loose until you've had a look."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e401868092a0aeb1",
+      "lemma": "handle",
+      "pos": "n.",
+      "sense_zh": "供手握持开关柜门的把手",
+      "sentence_ids": [
+        "p08-a-12-s01"
+      ],
+      "forms": [
+        "handle"
+      ],
+      "sense_id": "sense-staged-ox-e401868092a0aeb1-p08-a-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1b17c98ca4cd99af",
+      "lemma": "inch",
+      "pos": "n.",
+      "sense_zh": "英寸",
+      "sentence_ids": [
+        "p08-a-12-s02"
+      ],
+      "forms": [
+        "inch"
+      ],
+      "sense_id": "sense-staged-ox-1b17c98ca4cd99af-p08-a-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d460455cf842ec8e",
+      "lemma": "hook",
+      "pos": "n.",
+      "sense_zh": "用来悬挂物品的钩子",
+      "sentence_ids": [
+        "p08-a-12-s03"
+      ],
+      "forms": [
+        "hook"
+      ],
+      "sense_id": "sense-staged-ox-d460455cf842ec8e-p08-a-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e414bb21d9ba8b63",
+      "lemma": "inner",
+      "pos": "adj.",
+      "sense_zh": "内侧的",
+      "sentence_ids": [
+        "p08-a-12-s03"
+      ],
+      "forms": [
+        "inner"
+      ],
+      "sense_id": "sense-staged-ox-e414bb21d9ba8b63-p08-a-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6363f053aec54d05",
+      "lemma": "install",
+      "pos": "v.",
+      "sense_zh": "安装设备或部件",
+      "sentence_ids": [
+        "p08-a-12-s04"
+      ],
+      "forms": [
+        "install"
+      ],
+      "sense_id": "sense-staged-ox-6363f053aec54d05-p08-a-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73134b036014d41b",
+      "lemma": "installation",
+      "pos": "n.",
+      "sense_zh": "安装工作",
+      "sentence_ids": [
+        "p08-a-12-s05"
+      ],
+      "forms": [
+        "installation"
+      ],
+      "sense_id": "sense-staged-ox-73134b036014d41b-p08-a-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

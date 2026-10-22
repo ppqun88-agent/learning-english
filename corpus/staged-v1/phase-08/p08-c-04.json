@@ -1,0 +1,116 @@
+{
+  "id": "p08-c-04",
+  "title_zh": "承认口音笑话的冒犯并约定停止",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "accent-joke-apology-boundary",
+    "label_zh": "为取笑口音道歉并确认边界",
+    "goal_zh": "听取朋友对口音笑话的感受，承认影响并同意不再这样开玩笑"
+  },
+  "participants": [
+    "Ben",
+    "Asha"
+  ],
+  "context_zh": "两位朋友私下谈论聚会时的一句笑话。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-04-s01",
+      "speaker": "Ben",
+      "text": "I could tell you were upset last night. Can we talk openly about what happened?"
+    },
+    {
+      "id": "p08-c-04-s02",
+      "speaker": "Asha",
+      "text": "You copied my accent while everyone was listening. I found that offensive."
+    },
+    {
+      "id": "p08-c-04-s03",
+      "speaker": "Ben",
+      "text": "I didn't mean to offend you, but I can see that I did."
+    },
+    {
+      "id": "p08-c-04-s04",
+      "speaker": "Asha",
+      "text": "Saying it was a joke doesn't take away the offence. I felt singled out."
+    },
+    {
+      "id": "p08-c-04-s05",
+      "speaker": "Ben",
+      "text": "You're right. I'm sorry, and I won't make jokes about your accent again."
+    },
+    {
+      "id": "p08-c-04-s06",
+      "speaker": "Asha",
+      "text": "Thank you. That's what I needed you to understand."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8f2d5ca1c306dce0",
+      "lemma": "openly",
+      "pos": "adv.",
+      "sense_zh": "坦诚地",
+      "sentence_ids": [
+        "p08-c-04-s01"
+      ],
+      "forms": [
+        "openly"
+      ],
+      "sense_id": "sense-staged-ox-8f2d5ca1c306dce0-p08-c-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f2df1df77df41a6",
+      "lemma": "offensive",
+      "pos": "adj.",
+      "sense_zh": "冒犯人的",
+      "sentence_ids": [
+        "p08-c-04-s02"
+      ],
+      "forms": [
+        "offensive"
+      ],
+      "sense_id": "sense-staged-ox-5f2df1df77df41a6-p08-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7170603ffc61ffad",
+      "lemma": "offend",
+      "pos": "v.",
+      "sense_zh": "冒犯",
+      "sentence_ids": [
+        "p08-c-04-s03"
+      ],
+      "forms": [
+        "offend"
+      ],
+      "sense_id": "sense-staged-ox-7170603ffc61ffad-p08-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7f6de919064a6973",
+      "lemma": "offence",
+      "pos": "n.",
+      "sense_zh": "冒犯造成的伤害或不快",
+      "sentence_ids": [
+        "p08-c-04-s04"
+      ],
+      "forms": [
+        "offence"
+      ],
+      "sense_id": "sense-staged-ox-7f6de919064a6973-p08-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

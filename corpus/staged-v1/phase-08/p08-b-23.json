@@ -1,0 +1,126 @@
+{
+  "id": "p08-b-23",
+  "title_zh": "依据展品卡更正矿物与金属标签",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "mining-museum-sample-label-check",
+    "label_zh": "核对矿业展品标签的证据",
+    "goal_zh": "根据展品卡区分矿物样本与金属样本，删除肉眼鉴定的断言并补充来源编号"
+  },
+  "participants": [
+    "Dina",
+    "Arthur"
+  ],
+  "context_zh": "地方博物馆学习活动中，学生迪娜与馆员阿瑟核对虚构的展品卡。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-23-s01",
+      "speaker": "Dina",
+      "text": "My draft says a miner brought back this piece of nickel. Is that right?"
+    },
+    {
+      "id": "p08-b-23-s02",
+      "speaker": "Arthur",
+      "text": "Look at the card numbers. The diary mentions a miner, but the nickel sample belongs to the next case."
+    },
+    {
+      "id": "p08-b-23-s03",
+      "speaker": "Dina",
+      "text": "Then what is the mineral in this case?"
+    },
+    {
+      "id": "p08-b-23-s04",
+      "speaker": "Arthur",
+      "text": "The catalogue identifies it as calcite. Use that entry rather than the diary caption."
+    },
+    {
+      "id": "p08-b-23-s05",
+      "speaker": "Dina",
+      "text": "I also wrote that you can tell what a sample contains with the naked eye."
+    },
+    {
+      "id": "p08-b-23-s06",
+      "speaker": "Arthur",
+      "text": "That's too strong. Appearance can give clues, but our display card doesn't support identifying every substance that way."
+    },
+    {
+      "id": "p08-b-23-s07",
+      "speaker": "Dina",
+      "text": "I'll remove that claim, label this sample as calcite according to the catalogue, and add its card number."
+    },
+    {
+      "id": "p08-b-23-s08",
+      "speaker": "Arthur",
+      "text": "Good. Keep the diary quotation with the other case, where its connection is documented."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2d90a39801974d63",
+      "lemma": "miner",
+      "pos": "n.",
+      "sense_zh": "矿工",
+      "sentence_ids": [
+        "p08-b-23-s01"
+      ],
+      "forms": [
+        "miner"
+      ],
+      "sense_id": "sense-staged-ox-2d90a39801974d63-p08-b-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-837e4c99840e0747",
+      "lemma": "mineral",
+      "pos": "n.",
+      "sense_zh": "矿物",
+      "sentence_ids": [
+        "p08-b-23-s03"
+      ],
+      "forms": [
+        "mineral"
+      ],
+      "sense_id": "sense-staged-ox-837e4c99840e0747-p08-b-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-386bb72eab0805c8",
+      "lemma": "nickel",
+      "pos": "n.",
+      "sense_zh": "镍；一种金属",
+      "sentence_ids": [
+        "p08-b-23-s01"
+      ],
+      "forms": [
+        "nickel"
+      ],
+      "sense_id": "sense-staged-ox-386bb72eab0805c8-p08-b-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f2869c316f627547",
+      "lemma": "naked",
+      "pos": "adj.",
+      "sense_zh": "不借助光学仪器的；用于 naked eye",
+      "sentence_ids": [
+        "p08-b-23-s05"
+      ],
+      "forms": [
+        "naked"
+      ],
+      "sense_id": "sense-staged-ox-f2869c316f627547-p08-b-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

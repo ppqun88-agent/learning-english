@@ -1,0 +1,84 @@
+{
+  "id": "p08-b-20",
+  "title_zh": "更正人体模型中贴错的标签",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "anatomy-model-labels",
+    "label_zh": "核对人体模型标签",
+    "goal_zh": "为生物课展示核实模型部位及图片标签。"
+  },
+  "participants": [
+    "Ella",
+    "Ms Perez"
+  ],
+  "context_zh": "生物课上，学生埃拉与老师佩雷斯核对供展示的模型及图片标签。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-20-s01",
+      "speaker": "Ella",
+      "text": "I put this label on the lung, but the worksheet says it belongs to a nerve."
+    },
+    {
+      "id": "p08-b-20-s02",
+      "speaker": "Ms Perez",
+      "text": "You're looking at two different pictures. The large chest model goes with page one; the detail of the arm goes with page two."
+    },
+    {
+      "id": "p08-b-20-s03",
+      "speaker": "Ella",
+      "text": "So the thin yellow line in the arm picture is the part the label refers to?"
+    },
+    {
+      "id": "p08-b-20-s04",
+      "speaker": "Ms Perez",
+      "text": "Yes, according to the key on that worksheet. Keep the lung label with the chest model."
+    },
+    {
+      "id": "p08-b-20-s05",
+      "speaker": "Ella",
+      "text": "I've moved the label to the arm picture and put the page numbers underneath both images."
+    },
+    {
+      "id": "p08-b-20-s06",
+      "speaker": "Ms Perez",
+      "text": "That makes the display much clearer. Now each label points to the intended part."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8b025350eb4faf48",
+      "lemma": "lung",
+      "pos": "n.",
+      "sense_zh": "肺",
+      "sentence_ids": [
+        "p08-b-20-s01"
+      ],
+      "forms": [
+        "lung"
+      ],
+      "sense_id": "sense-staged-ox-8b025350eb4faf48-p08-b-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a3322d1fa0d65b0",
+      "lemma": "nerve",
+      "pos": "n.",
+      "sense_zh": "神经",
+      "sentence_ids": [
+        "p08-b-20-s01"
+      ],
+      "forms": [
+        "nerve"
+      ],
+      "sense_id": "sense-staged-ox-7a3322d1fa0d65b0-p08-b-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

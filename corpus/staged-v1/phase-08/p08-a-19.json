@@ -1,0 +1,158 @@
+{
+  "id": "p08-a-19",
+  "title_zh": "约定先核实宗教画中的书本再改说明",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "religious-painting-label-check",
+    "label_zh": "核对宗教画展品说明",
+    "goal_zh": "区分目录记载的画作主题、书本性质的推测与光线的象征解释，约定先向历史研究者核实书本后再修订说明"
+  },
+  "participants": [
+    "Elena",
+    "Yusuf"
+  ],
+  "context_zh": "博物馆志愿者检查一幅宗教画的说明草稿，讨论的是画作内容而非宗教真伪。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-19-s01",
+      "speaker": "Elena",
+      "text": "The catalogue describes this as a vision of heaven and hell. Our label only says 'a strange landscape'."
+    },
+    {
+      "id": "p08-a-19-s02",
+      "speaker": "Yusuf",
+      "text": "Then we're leaving out the subject of the painting. We should use the catalogue's description."
+    },
+    {
+      "id": "p08-a-19-s03",
+      "speaker": "Elena",
+      "text": "What about the woman holding the book? Is it a holy text?"
+    },
+    {
+      "id": "p08-a-19-s04",
+      "speaker": "Yusuf",
+      "text": "Possibly, but I can't read the cover. We shouldn't identify it just from the light around it."
+    },
+    {
+      "id": "p08-a-19-s05",
+      "speaker": "Elena",
+      "text": "A historian who studies this period is visiting tomorrow. I'll ask her."
+    },
+    {
+      "id": "p08-a-19-s06",
+      "speaker": "Yusuf",
+      "text": "Good. Different viewers might interpret the light as hope or protection."
+    },
+    {
+      "id": "p08-a-19-s07",
+      "speaker": "Elena",
+      "text": "So that part is an interpretation, not a confirmed fact about the object."
+    },
+    {
+      "id": "p08-a-19-s08",
+      "speaker": "Yusuf",
+      "text": "Exactly. Let's keep the documented subject and check the book before revising that sentence."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-967ea63cab077179",
+      "lemma": "heaven",
+      "pos": "n.",
+      "sense_zh": "宗教信仰中的天堂",
+      "sentence_ids": [
+        "p08-a-19-s01"
+      ],
+      "forms": [
+        "heaven"
+      ],
+      "sense_id": "sense-staged-ox-967ea63cab077179-p08-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ffd1497a61f1994d",
+      "lemma": "hell",
+      "pos": "n.",
+      "sense_zh": "宗教信仰中的地狱",
+      "sentence_ids": [
+        "p08-a-19-s01"
+      ],
+      "forms": [
+        "hell"
+      ],
+      "sense_id": "sense-staged-ox-ffd1497a61f1994d-p08-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-37df499dc2df070d",
+      "lemma": "holy",
+      "pos": "adj.",
+      "sense_zh": "被宗教视为神圣的",
+      "sentence_ids": [
+        "p08-a-19-s03"
+      ],
+      "forms": [
+        "holy"
+      ],
+      "sense_id": "sense-staged-ox-37df499dc2df070d-p08-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-04e469200c691d5e",
+      "lemma": "historian",
+      "pos": "n.",
+      "sense_zh": "历史研究者",
+      "sentence_ids": [
+        "p08-a-19-s05"
+      ],
+      "forms": [
+        "historian"
+      ],
+      "sense_id": "sense-staged-ox-04e469200c691d5e-p08-a-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-638a526a3c7d0e0d",
+      "lemma": "interpret",
+      "pos": "v.",
+      "sense_zh": "理解或解释象征的含义",
+      "sentence_ids": [
+        "p08-a-19-s06"
+      ],
+      "forms": [
+        "interpret"
+      ],
+      "sense_id": "sense-staged-ox-638a526a3c7d0e0d-p08-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fb615bf9839877fd",
+      "lemma": "interpretation",
+      "pos": "n.",
+      "sense_zh": "对意义所作的解释",
+      "sentence_ids": [
+        "p08-a-19-s07"
+      ],
+      "forms": [
+        "interpretation"
+      ],
+      "sense_id": "sense-staged-ox-fb615bf9839877fd-p08-a-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

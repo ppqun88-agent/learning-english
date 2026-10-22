@@ -1,0 +1,126 @@
+{
+  "id": "p08-b-11",
+  "title_zh": "预约房贷咨询并核对携带材料",
+  "topic_id": "services",
+  "scenario": {
+    "id": "mortgage-appointment-document-check",
+    "label_zh": "核对房贷咨询材料且不作申请承诺",
+    "goal_zh": "区分咨询与贷款申请，确认所需材料并预约咨询而不承诺借款"
+  },
+  "participants": [
+    "Lena",
+    "Kyle"
+  ],
+  "context_zh": "虚构美国住房咨询机构的接待员凯尔与来电者蕾娜核对初次咨询安排；不提供个体化金融建议。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-11-s01",
+      "speaker": "Lena",
+      "text": "I'd like to understand how a mortgage works before I start looking at houses."
+    },
+    {
+      "id": "p08-b-11-s02",
+      "speaker": "Kyle",
+      "text": "We can arrange an introductory appointment. Have you already applied for a loan anywhere?"
+    },
+    {
+      "id": "p08-b-11-s03",
+      "speaker": "Lena",
+      "text": "No, and I don't want this call to start an application."
+    },
+    {
+      "id": "p08-b-11-s04",
+      "speaker": "Kyle",
+      "text": "It won't. There's no obligation to borrow or use a particular lender after the appointment."
+    },
+    {
+      "id": "p08-b-11-s05",
+      "speaker": "Lena",
+      "text": "What should I bring? I have a driver's license, but I haven't gathered any financial papers."
+    },
+    {
+      "id": "p08-b-11-s06",
+      "speaker": "Kyle",
+      "text": "The license is enough for identification at this first information session. The adviser will explain any documents needed for a later step."
+    },
+    {
+      "id": "p08-b-11-s07",
+      "speaker": "Lena",
+      "text": "Then I'd like the Thursday appointment at two, please."
+    },
+    {
+      "id": "p08-b-11-s08",
+      "speaker": "Kyle",
+      "text": "I've reserved it. I'll send the address and mark the booking as an information session, not a loan application."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-663708d410645d37",
+      "lemma": "license",
+      "pos": "n.",
+      "sense_zh": "驾驶执照",
+      "sentence_ids": [
+        "p08-b-11-s05"
+      ],
+      "forms": [
+        "license"
+      ],
+      "sense_id": "sense-staged-ox-663708d410645d37-p08-b-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-715c1c70d8751e5d",
+      "lemma": "loan",
+      "pos": "n.",
+      "sense_zh": "贷款",
+      "sentence_ids": [
+        "p08-b-11-s02"
+      ],
+      "forms": [
+        "loan"
+      ],
+      "sense_id": "sense-staged-ox-715c1c70d8751e5d-p08-b-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b9cf858a4f86fcc",
+      "lemma": "mortgage",
+      "pos": "n.",
+      "sense_zh": "以房产作抵押的贷款",
+      "sentence_ids": [
+        "p08-b-11-s01"
+      ],
+      "forms": [
+        "mortgage"
+      ],
+      "sense_id": "sense-staged-ox-2b9cf858a4f86fcc-p08-b-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcd8ea2aebe76c2f",
+      "lemma": "obligation",
+      "pos": "n.",
+      "sense_zh": "必须履行的义务",
+      "sentence_ids": [
+        "p08-b-11-s04"
+      ],
+      "forms": [
+        "obligation"
+      ],
+      "sense_id": "sense-staged-ox-bcd8ea2aebe76c2f-p08-b-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

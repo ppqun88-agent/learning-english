@@ -1,0 +1,94 @@
+{
+  "id": "p08-b-25",
+  "title_zh": "选定只到开放庭院的历史步行路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "heritage-walk-visit-boundaries",
+    "label_zh": "核对历史步行的参观边界",
+    "goal_zh": "确认纪念碑与清真寺庭院路线及室内限制，选定不进入祈祷区的参观安排"
+  },
+  "participants": [
+    "Farah",
+    "Daniel"
+  ],
+  "context_zh": "游客法拉向虚构小镇旅游处工作人员丹尼尔询问下午的历史步行路线。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-25-s01",
+      "speaker": "Farah",
+      "text": "Can we see the riverside monument and the old mosque on the same walk?"
+    },
+    {
+      "id": "p08-b-25-s02",
+      "speaker": "Daniel",
+      "text": "Yes. The public path passes the monument first, then leads to the mosque's outer courtyard."
+    },
+    {
+      "id": "p08-b-25-s03",
+      "speaker": "Farah",
+      "text": "Are visitors allowed inside this afternoon? We don't want to interrupt anything."
+    },
+    {
+      "id": "p08-b-25-s04",
+      "speaker": "Daniel",
+      "text": "The notice from the hosts says the prayer area is closed to tours today. The courtyard remains open until four."
+    },
+    {
+      "id": "p08-b-25-s05",
+      "speaker": "Farah",
+      "text": "That's fine. We're interested in the outside of the building. Is there a sign showing where visitors should stop?"
+    },
+    {
+      "id": "p08-b-25-s06",
+      "speaker": "Daniel",
+      "text": "There is, at the inner gate. Please follow it, and ask the host there if anything is unclear."
+    },
+    {
+      "id": "p08-b-25-s07",
+      "speaker": "Farah",
+      "text": "We'll take that route and stay in the open courtyard. Could you mark the public path on our map?"
+    },
+    {
+      "id": "p08-b-25-s08",
+      "speaker": "Daniel",
+      "text": "Certainly. I've marked the turn after the monument and the return path to the square."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-133caa4549ec8762",
+      "lemma": "monument",
+      "pos": "n.",
+      "sense_zh": "纪念碑",
+      "sentence_ids": [
+        "p08-b-25-s01"
+      ],
+      "forms": [
+        "monument"
+      ],
+      "sense_id": "sense-staged-ox-133caa4549ec8762-p08-b-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3751d78c1d929f5f",
+      "lemma": "mosque",
+      "pos": "n.",
+      "sense_zh": "清真寺",
+      "sentence_ids": [
+        "p08-b-25-s01"
+      ],
+      "forms": [
+        "mosque"
+      ],
+      "sense_id": "sense-staged-ox-3751d78c1d929f5f-p08-b-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

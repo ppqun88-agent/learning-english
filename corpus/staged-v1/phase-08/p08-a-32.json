@@ -1,0 +1,105 @@
+{
+  "id": "p08-a-32",
+  "title_zh": "澄清虚构战争短剧的时间顺序并分段排练",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "historical-play-capture-rehearsal",
+    "label_zh": "排练虚构战争短剧的被囚场景",
+    "goal_zh": "区分入侵消息与后续被囚场景的时间，约定先排练信使段落再换景"
+  },
+  "participants": [
+    "Oscar",
+    "Ivy"
+  ],
+  "context_zh": "学校剧团排练虚构历史短剧，讨论的是故事中的角色和场景。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-32-s01",
+      "speaker": "Oscar",
+      "text": "Does the army invade the city in this scene, or has that already happened?"
+    },
+    {
+      "id": "p08-a-32-s02",
+      "speaker": "Ivy",
+      "text": "The invasion begins offstage. Your messenger brings the news to the council."
+    },
+    {
+      "id": "p08-a-32-s03",
+      "speaker": "Oscar",
+      "text": "Then why does my next line say the mayor is in jail? That seems too soon."
+    },
+    {
+      "id": "p08-a-32-s04",
+      "speaker": "Ivy",
+      "text": "That line belongs to the following scene, which is set a week later. You've turned two pages."
+    },
+    {
+      "id": "p08-a-32-s05",
+      "speaker": "Oscar",
+      "text": "Ah, I see. So I leave after warning the council, and we change the set before the prison scene."
+    },
+    {
+      "id": "p08-a-32-s06",
+      "speaker": "Ivy",
+      "text": "Exactly. Let's rehearse the message first, stop at your exit, and then work on the scene change."
+    },
+    {
+      "id": "p08-a-32-s07",
+      "speaker": "Oscar",
+      "text": "Ready. I'll start from the knock at the door."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5fc059ee52896d49",
+      "lemma": "invade",
+      "pos": "v.",
+      "sense_zh": "以军队侵入某地",
+      "sentence_ids": [
+        "p08-a-32-s01"
+      ],
+      "forms": [
+        "invade"
+      ],
+      "sense_id": "sense-staged-ox-5fc059ee52896d49-p08-a-32",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c074c5af6bc9e834",
+      "lemma": "invasion",
+      "pos": "n.",
+      "sense_zh": "军事入侵",
+      "sentence_ids": [
+        "p08-a-32-s02"
+      ],
+      "forms": [
+        "invasion"
+      ],
+      "sense_id": "sense-staged-ox-c074c5af6bc9e834-p08-a-32",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9c283c929390b17",
+      "lemma": "jail",
+      "pos": "n.",
+      "sense_zh": "监狱或拘留处",
+      "sentence_ids": [
+        "p08-a-32-s03"
+      ],
+      "forms": [
+        "jail"
+      ],
+      "sense_id": "sense-staged-ox-b9c283c929390b17-p08-a-32",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

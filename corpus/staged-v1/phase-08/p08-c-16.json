@@ -1,0 +1,121 @@
+{
+  "id": "p08-c-16",
+  "title_zh": "分工准备四份豆类午餐",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-lunch-protein-preparation",
+    "label_zh": "分配共享午餐的食材与准备工作",
+    "goal_zh": "确定四人午餐使用豆类和米饭，约定按包装说明准备并均分份量"
+  },
+  "participants": [
+    "Ada",
+    "Finn"
+  ],
+  "context_zh": "同住者为四个人准备第二天的午餐。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-16-s01",
+      "speaker": "Ada",
+      "text": "Could you help with the preparation for tomorrow's lunch? I've washed the vegetables."
+    },
+    {
+      "id": "p08-c-16-s02",
+      "speaker": "Finn",
+      "text": "Sure. What are we using for protein?"
+    },
+    {
+      "id": "p08-c-16-s03",
+      "speaker": "Ada",
+      "text": "Beans. There's a packet in the cupboard; please check the cooking instructions before you start."
+    },
+    {
+      "id": "p08-c-16-s04",
+      "speaker": "Finn",
+      "text": "These are ready to eat, so I'll drain them. Are we making enough for four?"
+    },
+    {
+      "id": "p08-c-16-s05",
+      "speaker": "Ada",
+      "text": "Yes. Each portion should have rice, beans, and vegetables, rather than giving someone all the rice."
+    },
+    {
+      "id": "p08-c-16-s06",
+      "speaker": "Finn",
+      "text": "I'll handle the beans and divide them between the four boxes. You can add the rice and vegetables."
+    },
+    {
+      "id": "p08-c-16-s07",
+      "speaker": "Ada",
+      "text": "Perfect. I'll leave the boxes beside you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2eef8b5a3b47c6e4",
+      "lemma": "preparation",
+      "pos": "n.",
+      "sense_zh": "准备工作",
+      "sentence_ids": [
+        "p08-c-16-s01"
+      ],
+      "forms": [
+        "preparation"
+      ],
+      "sense_id": "sense-staged-ox-2eef8b5a3b47c6e4-p08-c-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-31a2b6b0901b6913",
+      "lemma": "protein",
+      "pos": "n.",
+      "sense_zh": "蛋白质",
+      "sentence_ids": [
+        "p08-c-16-s02"
+      ],
+      "forms": [
+        "protein"
+      ],
+      "sense_id": "sense-staged-ox-31a2b6b0901b6913-p08-c-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6f2eca6836153a7c",
+      "lemma": "packet",
+      "pos": "n.",
+      "sense_zh": "小包装或袋装物",
+      "sentence_ids": [
+        "p08-c-16-s03"
+      ],
+      "forms": [
+        "packet"
+      ],
+      "sense_id": "sense-staged-ox-6f2eca6836153a7c-p08-c-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-600dbdcd4cd7087e",
+      "lemma": "portion",
+      "pos": "n.",
+      "sense_zh": "一份食物",
+      "sentence_ids": [
+        "p08-c-16-s05"
+      ],
+      "forms": [
+        "portion"
+      ],
+      "sense_id": "sense-staged-ox-600dbdcd4cd7087e-p08-c-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

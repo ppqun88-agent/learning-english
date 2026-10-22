@@ -1,0 +1,163 @@
+{
+  "id": "p08-a-04",
+  "title_zh": "缩小贸易课程项目的范围并区分解释因素",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "trade-project-evidence-scope",
+    "label_zh": "限定贸易项目的证据范围",
+    "goal_zh": "选定两座城市的货运案例，分开核对基础设施和物价资料而不把变化全部归因于全球化"
+  },
+  "participants": [
+    "Priya",
+    "Dan"
+  ],
+  "context_zh": "两名学生为经济地理课程缩小研究项目的范围。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-04-s01",
+      "speaker": "Priya",
+      "text": "Our title is 'How globalization changed the world'. That's far too much for ten minutes."
+    },
+    {
+      "id": "p08-a-04-s02",
+      "speaker": "Dan",
+      "text": "Could we follow one product as it's shipped around the globe instead?"
+    },
+    {
+      "id": "p08-a-04-s03",
+      "speaker": "Priya",
+      "text": "Yes. We have records from two industrial cities that make bicycle parts."
+    },
+    {
+      "id": "p08-a-04-s04",
+      "speaker": "Dan",
+      "text": "The report says deliveries became increasingly reliable after the new railway opened."
+    },
+    {
+      "id": "p08-a-04-s05",
+      "speaker": "Priya",
+      "text": "Then transport infrastructure should be one part of our explanation, not just international trade."
+    },
+    {
+      "id": "p08-a-04-s06",
+      "speaker": "Dan",
+      "text": "What about the higher prices? Shall we say they prove the trade links were a mistake?"
+    },
+    {
+      "id": "p08-a-04-s07",
+      "speaker": "Priya",
+      "text": "No. We haven't separated the effect of inflation from changes in shipping costs."
+    },
+    {
+      "id": "p08-a-04-s08",
+      "speaker": "Dan",
+      "text": "I'll check those price figures. You can trace the route and the railway dates."
+    },
+    {
+      "id": "p08-a-04-s09",
+      "speaker": "Priya",
+      "text": "Agreed. We'll compare these two cities and make the limits clear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8a46e4219174b1bd",
+      "lemma": "globalization",
+      "pos": "n.",
+      "sense_zh": "经济活动跨国联系日益增强的过程",
+      "sentence_ids": [
+        "p08-a-04-s01"
+      ],
+      "forms": [
+        "globalization"
+      ],
+      "sense_id": "sense-staged-ox-8a46e4219174b1bd-p08-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-337a47a7056d91a3",
+      "lemma": "globe",
+      "pos": "n.",
+      "sense_zh": "整个世界",
+      "sentence_ids": [
+        "p08-a-04-s02"
+      ],
+      "forms": [
+        "globe"
+      ],
+      "sense_id": "sense-staged-ox-337a47a7056d91a3-p08-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa34cc919b983a40",
+      "lemma": "industrial",
+      "pos": "adj.",
+      "sense_zh": "以工业生产为主的",
+      "sentence_ids": [
+        "p08-a-04-s03"
+      ],
+      "forms": [
+        "industrial"
+      ],
+      "sense_id": "sense-staged-ox-aa34cc919b983a40-p08-a-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21cb0b941114c0cd",
+      "lemma": "increasingly",
+      "pos": "adv.",
+      "sense_zh": "越来越",
+      "sentence_ids": [
+        "p08-a-04-s04"
+      ],
+      "forms": [
+        "increasingly"
+      ],
+      "sense_id": "sense-staged-ox-21cb0b941114c0cd-p08-a-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ba5a69f7aabf1086",
+      "lemma": "infrastructure",
+      "pos": "n.",
+      "sense_zh": "交通等基础设施",
+      "sentence_ids": [
+        "p08-a-04-s05"
+      ],
+      "forms": [
+        "infrastructure"
+      ],
+      "sense_id": "sense-staged-ox-ba5a69f7aabf1086-p08-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c6ea674ab289e789",
+      "lemma": "inflation",
+      "pos": "n.",
+      "sense_zh": "整体物价上涨",
+      "sentence_ids": [
+        "p08-a-04-s07"
+      ],
+      "forms": [
+        "inflation"
+      ],
+      "sense_id": "sense-staged-ox-c6ea674ab289e789-p08-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

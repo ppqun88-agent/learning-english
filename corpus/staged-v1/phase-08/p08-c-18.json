@@ -1,0 +1,121 @@
+{
+  "id": "p08-c-18",
+  "title_zh": "凭刻字和照片核实手表归属并领取",
+  "topic_id": "services",
+  "scenario": {
+    "id": "lost-watch-ownership-verification",
+    "label_zh": "核验遗失手表的所有权",
+    "goal_zh": "核对收据替代材料与手表独特刻字，确认所有权并办理领取"
+  },
+  "participants": [
+    "Graham",
+    "Elise"
+  ],
+  "context_zh": "失物招领处工作人员核实来访者是否为手表主人。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-18-s01",
+      "speaker": "Graham",
+      "text": "That watch is precious to me. My sister gave it to me when I graduated."
+    },
+    {
+      "id": "p08-c-18-s02",
+      "speaker": "Elise",
+      "text": "We'll need proof of ownership before I can hand it over. Do you still possess the receipt or the original box?"
+    },
+    {
+      "id": "p08-c-18-s03",
+      "speaker": "Graham",
+      "text": "No, but I have a photograph of the back. It has my initials and the date engraved on it."
+    },
+    {
+      "id": "p08-c-18-s04",
+      "speaker": "Elise",
+      "text": "Please tell me those details without looking at the watch."
+    },
+    {
+      "id": "p08-c-18-s05",
+      "speaker": "Graham",
+      "text": "G. W., followed by 18 June 2018."
+    },
+    {
+      "id": "p08-c-18-s06",
+      "speaker": "Elise",
+      "text": "That matches the engraving and your photograph. Please sign the collection form, and it's yours."
+    },
+    {
+      "id": "p08-c-18-s07",
+      "speaker": "Graham",
+      "text": "There you are. Thank you for keeping it safe."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c8c760b38349a99a",
+      "lemma": "precious",
+      "pos": "adj.",
+      "sense_zh": "珍贵的",
+      "sentence_ids": [
+        "p08-c-18-s01"
+      ],
+      "forms": [
+        "precious"
+      ],
+      "sense_id": "sense-staged-ox-c8c760b38349a99a-p08-c-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6ac5513714d6d52e",
+      "lemma": "proof",
+      "pos": "n.",
+      "sense_zh": "证明材料",
+      "sentence_ids": [
+        "p08-c-18-s02"
+      ],
+      "forms": [
+        "proof"
+      ],
+      "sense_id": "sense-staged-ox-6ac5513714d6d52e-p08-c-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ecf3a4e2ebf3237",
+      "lemma": "ownership",
+      "pos": "n.",
+      "sense_zh": "所有权",
+      "sentence_ids": [
+        "p08-c-18-s02"
+      ],
+      "forms": [
+        "ownership"
+      ],
+      "sense_id": "sense-staged-ox-5ecf3a4e2ebf3237-p08-c-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-378c6293eeb6ce5c",
+      "lemma": "possess",
+      "pos": "v.",
+      "sense_zh": "拥有或持有",
+      "sentence_ids": [
+        "p08-c-18-s02"
+      ],
+      "forms": [
+        "possess"
+      ],
+      "sense_id": "sense-staged-ox-378c6293eeb6ce5c-p08-c-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

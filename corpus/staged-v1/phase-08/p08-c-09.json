@@ -1,0 +1,137 @@
+{
+  "id": "p08-c-09",
+  "title_zh": "将道路反对意见聚焦于儿童通行",
+  "topic_id": "community",
+  "scenario": {
+    "id": "playground-road-objection-submission",
+    "label_zh": "起草游乐场旁道路方案的具体反对意见",
+    "goal_zh": "澄清反对新增道路而非所有改善工程，决定提交儿童通行风险与替代方案"
+  },
+  "participants": [
+    "Nell",
+    "Samir"
+  ],
+  "context_zh": "居民讨论如何就虚构的游乐场旁道路提案提交意见。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-09-s01",
+      "speaker": "Nell",
+      "text": "I saw you outside the meeting. Were you there as a protester?"
+    },
+    {
+      "id": "p08-c-09-s02",
+      "speaker": "Samir",
+      "text": "Yes. I oppose the new access road beside the playground."
+    },
+    {
+      "id": "p08-c-09-s03",
+      "speaker": "Nell",
+      "text": "Are you opposed to any changes to the park?"
+    },
+    {
+      "id": "p08-c-09-s04",
+      "speaker": "Samir",
+      "text": "No. My prime concern is children crossing between the gate and the play area."
+    },
+    {
+      "id": "p08-c-09-s05",
+      "speaker": "Nell",
+      "text": "Then let's make that clear. Otherwise, the council may think the opposition is to the whole improvement plan."
+    },
+    {
+      "id": "p08-c-09-s06",
+      "speaker": "Samir",
+      "text": "I'll mark the crossing point on the map and suggest using the existing service entrance."
+    },
+    {
+      "id": "p08-c-09-s07",
+      "speaker": "Nell",
+      "text": "Good. We can submit those specific concerns instead of just saying no."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-99984089bdc11160",
+      "lemma": "protester",
+      "pos": "n.",
+      "sense_zh": "抗议者",
+      "sentence_ids": [
+        "p08-c-09-s01"
+      ],
+      "forms": [
+        "protester"
+      ],
+      "sense_id": "sense-staged-ox-99984089bdc11160-p08-c-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77bdb50029cf6656",
+      "lemma": "oppose",
+      "pos": "v.",
+      "sense_zh": "反对",
+      "sentence_ids": [
+        "p08-c-09-s02"
+      ],
+      "forms": [
+        "oppose"
+      ],
+      "sense_id": "sense-staged-ox-77bdb50029cf6656-p08-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-36e7be23cd7c6823",
+      "lemma": "opposed",
+      "pos": "adj.",
+      "sense_zh": "持反对态度的",
+      "sentence_ids": [
+        "p08-c-09-s03"
+      ],
+      "forms": [
+        "opposed"
+      ],
+      "sense_id": "sense-staged-ox-36e7be23cd7c6823-p08-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-327ea481005724b8",
+      "lemma": "prime",
+      "pos": "adj.",
+      "sense_zh": "首要的",
+      "sentence_ids": [
+        "p08-c-09-s04"
+      ],
+      "forms": [
+        "prime"
+      ],
+      "sense_id": "sense-staged-ox-327ea481005724b8-p08-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-027f240270d5d383",
+      "lemma": "opposition",
+      "pos": "n.",
+      "sense_zh": "反对意见或反对力量",
+      "sentence_ids": [
+        "p08-c-09-s05"
+      ],
+      "forms": [
+        "opposition"
+      ],
+      "sense_id": "sense-staged-ox-027f240270d5d383-p08-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

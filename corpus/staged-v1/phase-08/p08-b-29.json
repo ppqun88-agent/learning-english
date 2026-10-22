@@ -1,0 +1,142 @@
+{
+  "id": "p08-b-29",
+  "title_zh": "让新同事先澄清不明要求",
+  "topic_id": "work",
+  "scenario": {
+    "id": "new-starter-questioning-norm",
+    "label_zh": "澄清新员工提问与执行的边界",
+    "goal_zh": "说明团队允许质疑不清楚的流程，同时区分必须遵守的安全要求，并确定求助对象"
+  },
+  "participants": [
+    "Simon",
+    "Ada"
+  ],
+  "context_zh": "新入职的西蒙向团队负责人艾达询问内部工作习惯。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-29-s01",
+      "speaker": "Simon",
+      "text": "As someone newly appointed to the team, I'm not sure when it's acceptable to question a process."
+    },
+    {
+      "id": "p08-b-29-s02",
+      "speaker": "Ada",
+      "text": "Asking why is the norm here, especially if a request isn't clear."
+    },
+    {
+      "id": "p08-b-29-s03",
+      "speaker": "Simon",
+      "text": "I had the notion that new staff should just obey instructions until they'd been here for a while."
+    },
+    {
+      "id": "p08-b-29-s04",
+      "speaker": "Ada",
+      "text": "You must follow the safety rules, of course. But you shouldn't pretend to understand an unclear task."
+    },
+    {
+      "id": "p08-b-29-s05",
+      "speaker": "Simon",
+      "text": "My old office rarely discussed procedures. Do teams handle that differently nowadays?"
+    },
+    {
+      "id": "p08-b-29-s06",
+      "speaker": "Ada",
+      "text": "Some do, but I can only speak for this one. We would rather answer a question than discover a preventable mistake later."
+    },
+    {
+      "id": "p08-b-29-s07",
+      "speaker": "Simon",
+      "text": "Then I'll bring the unclear delivery form to you before I complete it."
+    },
+    {
+      "id": "p08-b-29-s08",
+      "speaker": "Ada",
+      "text": "Please do. We'll check the requirement together, and I can show you who owns that process."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-afb1b0a84f579297",
+      "lemma": "norm",
+      "pos": "n.",
+      "sense_zh": "通常的做法；惯例",
+      "sentence_ids": [
+        "p08-b-29-s02"
+      ],
+      "forms": [
+        "norm"
+      ],
+      "sense_id": "sense-staged-ox-afb1b0a84f579297-p08-b-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d35053b00101114c",
+      "lemma": "notion",
+      "pos": "n.",
+      "sense_zh": "想法；观念",
+      "sentence_ids": [
+        "p08-b-29-s03"
+      ],
+      "forms": [
+        "notion"
+      ],
+      "sense_id": "sense-staged-ox-d35053b00101114c-p08-b-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-540173b8d23423a8",
+      "lemma": "nowadays",
+      "pos": "adv.",
+      "sense_zh": "如今；现今",
+      "sentence_ids": [
+        "p08-b-29-s05"
+      ],
+      "forms": [
+        "nowadays"
+      ],
+      "sense_id": "sense-staged-ox-540173b8d23423a8-p08-b-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-09ec5df18d771cab",
+      "lemma": "newly",
+      "pos": "adv.",
+      "sense_zh": "新近地；最近",
+      "sentence_ids": [
+        "p08-b-29-s01"
+      ],
+      "forms": [
+        "newly"
+      ],
+      "sense_id": "sense-staged-ox-09ec5df18d771cab-p08-b-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9e82c00420828c21",
+      "lemma": "obey",
+      "pos": "v.",
+      "sense_zh": "服从；遵守",
+      "sentence_ids": [
+        "p08-b-29-s03"
+      ],
+      "forms": [
+        "obey"
+      ],
+      "sense_id": "sense-staged-ox-9e82c00420828c21-p08-b-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

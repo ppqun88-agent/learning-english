@@ -1,0 +1,121 @@
+{
+  "id": "p08-a-01",
+  "title_zh": "核对旧碗真伪后决定暂不购买",
+  "topic_id": "services",
+  "scenario": {
+    "id": "secondhand-bowl-authenticity-check",
+    "label_zh": "核对二手碗真伪与损伤",
+    "goal_zh": "了解卖方无法保证年代及现有磨损情况，决定先查看来源资料而不购买"
+  },
+  "participants": [
+    "Celia",
+    "Owen"
+  ],
+  "context_zh": "顾客在二手商店询问一个被标为老物件的陶碗。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-01-s01",
+      "speaker": "Celia",
+      "text": "Is this a genuine antique, or a modern copy?"
+    },
+    {
+      "id": "p08-a-01-s02",
+      "speaker": "Owen",
+      "text": "I don't know its age. It came from a house clearance, without any documents."
+    },
+    {
+      "id": "p08-a-01-s03",
+      "speaker": "Celia",
+      "text": "Can you give me a guarantee that it's at least a hundred years old?"
+    },
+    {
+      "id": "p08-a-01-s04",
+      "speaker": "Owen",
+      "text": "No, I can't. There's also a chip under the base. I can show you that, but I can't rule out hidden damage."
+    },
+    {
+      "id": "p08-a-01-s05",
+      "speaker": "Celia",
+      "text": "I appreciate your honesty. I like it, but the age matters because it's for a collector."
+    },
+    {
+      "id": "p08-a-01-s06",
+      "speaker": "Owen",
+      "text": "The owner may still have the purchase receipt. I can ask."
+    },
+    {
+      "id": "p08-a-01-s07",
+      "speaker": "Celia",
+      "text": "Please do. I'll leave it for now and come back if there's more information."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-532f7b98b579d9de",
+      "lemma": "genuine",
+      "pos": "adj.",
+      "sense_zh": "真正的而非仿制的",
+      "sentence_ids": [
+        "p08-a-01-s01"
+      ],
+      "forms": [
+        "genuine"
+      ],
+      "sense_id": "sense-staged-ox-532f7b98b579d9de-p08-a-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-334063747279a7ed",
+      "lemma": "guarantee",
+      "pos": "n.",
+      "sense_zh": "明确的保证",
+      "sentence_ids": [
+        "p08-a-01-s03"
+      ],
+      "forms": [
+        "guarantee"
+      ],
+      "sense_id": "sense-staged-ox-334063747279a7ed-p08-a-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c54e33de8b117b82",
+      "lemma": "hidden",
+      "pos": "adj.",
+      "sense_zh": "不易察觉的；隐藏的",
+      "sentence_ids": [
+        "p08-a-01-s04"
+      ],
+      "forms": [
+        "hidden"
+      ],
+      "sense_id": "sense-staged-ox-c54e33de8b117b82-p08-a-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-09d62ce2cc890905",
+      "lemma": "honesty",
+      "pos": "n.",
+      "sense_zh": "诚实坦率",
+      "sentence_ids": [
+        "p08-a-01-s05"
+      ],
+      "forms": [
+        "honesty"
+      ],
+      "sense_id": "sense-staged-ox-09d62ce2cc890905-p08-a-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

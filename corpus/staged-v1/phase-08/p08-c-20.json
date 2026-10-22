@@ -1,0 +1,105 @@
+{
+  "id": "p08-c-20",
+  "title_zh": "询问演讲焦虑支持并请求首次咨询",
+  "topic_id": "health",
+  "scenario": {
+    "id": "presentation-anxiety-support-inquiry",
+    "label_zh": "咨询公开发言焦虑的支持服务",
+    "goal_zh": "说明演讲时的惊慌感，了解心理支持的初次会面方式并请求预约"
+  },
+  "participants": [
+    "Lena",
+    "Receptionist"
+  ],
+  "context_zh": "学生向大学支持中心询问服务，不在对话中作诊断或治疗建议。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-20-s01",
+      "speaker": "Lena",
+      "text": "I feel a wave of panic before class presentations. Is this somewhere I can talk about it?"
+    },
+    {
+      "id": "p08-c-20-s02",
+      "speaker": "Receptionist",
+      "text": "Yes. We offer psychological support, and the first meeting is a chance to explain what's happening."
+    },
+    {
+      "id": "p08-c-20-s03",
+      "speaker": "Lena",
+      "text": "Would I meet a psychologist? I don't want someone to label me after one conversation."
+    },
+    {
+      "id": "p08-c-20-s04",
+      "speaker": "Receptionist",
+      "text": "You can request one. You can also ask how they work before deciding what to discuss."
+    },
+    {
+      "id": "p08-c-20-s05",
+      "speaker": "Lena",
+      "text": "That helps. Could you arrange an initial appointment?"
+    },
+    {
+      "id": "p08-c-20-s06",
+      "speaker": "Receptionist",
+      "text": "I can take your request and send you the available times through the student portal."
+    },
+    {
+      "id": "p08-c-20-s07",
+      "speaker": "Lena",
+      "text": "Please do. I'll choose a time once I receive them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-304c71309ab1de01",
+      "lemma": "panic",
+      "pos": "n.",
+      "sense_zh": "惊慌感",
+      "sentence_ids": [
+        "p08-c-20-s01"
+      ],
+      "forms": [
+        "panic"
+      ],
+      "sense_id": "sense-staged-ox-304c71309ab1de01-p08-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea0e4ceb239a6efa",
+      "lemma": "psychological",
+      "pos": "adj.",
+      "sense_zh": "心理方面的",
+      "sentence_ids": [
+        "p08-c-20-s02"
+      ],
+      "forms": [
+        "psychological"
+      ],
+      "sense_id": "sense-staged-ox-ea0e4ceb239a6efa-p08-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-966b60f90a48fe8e",
+      "lemma": "psychologist",
+      "pos": "n.",
+      "sense_zh": "心理学专业人员",
+      "sentence_ids": [
+        "p08-c-20-s03"
+      ],
+      "forms": [
+        "psychologist"
+      ],
+      "sense_id": "sense-staged-ox-966b60f90a48fe8e-p08-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

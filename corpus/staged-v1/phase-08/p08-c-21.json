@@ -1,0 +1,179 @@
+{
+  "id": "p08-c-21",
+  "title_zh": "删去调查身份栏并澄清感受指标与分母",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "community-survey-privacy-revision",
+    "label_zh": "修订社区调查的隐私与结果表述",
+    "goal_zh": "删除非必要姓名地址栏，明确参与自愿，并将结论限定为回答者的安全感比例"
+  },
+  "participants": [
+    "Omar",
+    "Beth"
+  ],
+  "context_zh": "社区研究小组在发放问卷前检查问题和报告模板。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-21-s01",
+      "speaker": "Omar",
+      "text": "Does every participant need to write a full name and address on this questionnaire?"
+    },
+    {
+      "id": "p08-c-21-s02",
+      "speaker": "Beth",
+      "text": "No. We don't need those details, and collecting them would create a privacy concern."
+    },
+    {
+      "id": "p08-c-21-s03",
+      "speaker": "Omar",
+      "text": "I'll remove those boxes and state that participation is voluntary."
+    },
+    {
+      "id": "p08-c-21-s04",
+      "speaker": "Beth",
+      "text": "Good. What exactly are we asking about safety?"
+    },
+    {
+      "id": "p08-c-21-s05",
+      "speaker": "Omar",
+      "text": "How people perceive the park after dark, not how many crimes actually happen there."
+    },
+    {
+      "id": "p08-c-21-s06",
+      "speaker": "Beth",
+      "text": "Then the report must call it a perception of safety. It can't present those answers as crime figures."
+    },
+    {
+      "id": "p08-c-21-s07",
+      "speaker": "Omar",
+      "text": "For the summary, I'll show the proportion who report feeling safe."
+    },
+    {
+      "id": "p08-c-21-s08",
+      "speaker": "Beth",
+      "text": "Say 'the proportion of people who answered that question'. Some may skip it."
+    },
+    {
+      "id": "p08-c-21-s09",
+      "speaker": "Omar",
+      "text": "Agreed. I'll correct the form and that heading before we share them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1ff12c9c87f0652b",
+      "lemma": "participant",
+      "pos": "n.",
+      "sense_zh": "调查参与者",
+      "sentence_ids": [
+        "p08-c-21-s01"
+      ],
+      "forms": [
+        "participant"
+      ],
+      "sense_id": "sense-staged-ox-1ff12c9c87f0652b-p08-c-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8ea265001d517dee",
+      "lemma": "questionnaire",
+      "pos": "n.",
+      "sense_zh": "问卷",
+      "sentence_ids": [
+        "p08-c-21-s01"
+      ],
+      "forms": [
+        "questionnaire"
+      ],
+      "sense_id": "sense-staged-ox-8ea265001d517dee-p08-c-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bc97c572c7c9ec14",
+      "lemma": "privacy",
+      "pos": "n.",
+      "sense_zh": "隐私",
+      "sentence_ids": [
+        "p08-c-21-s02"
+      ],
+      "forms": [
+        "privacy"
+      ],
+      "sense_id": "sense-staged-ox-bc97c572c7c9ec14-p08-c-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c5b50db5a7bbad0c",
+      "lemma": "participation",
+      "pos": "n.",
+      "sense_zh": "参与",
+      "sentence_ids": [
+        "p08-c-21-s03"
+      ],
+      "forms": [
+        "participation"
+      ],
+      "sense_id": "sense-staged-ox-c5b50db5a7bbad0c-p08-c-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8c24562fb28d1a6b",
+      "lemma": "perceive",
+      "pos": "v.",
+      "sense_zh": "看待或感受",
+      "sentence_ids": [
+        "p08-c-21-s05"
+      ],
+      "forms": [
+        "perceive"
+      ],
+      "sense_id": "sense-staged-ox-8c24562fb28d1a6b-p08-c-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f95a2c510de73618",
+      "lemma": "perception",
+      "pos": "n.",
+      "sense_zh": "感知或看法",
+      "sentence_ids": [
+        "p08-c-21-s06"
+      ],
+      "forms": [
+        "perception"
+      ],
+      "sense_id": "sense-staged-ox-f95a2c510de73618-p08-c-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-04372e3a4d07c613",
+      "lemma": "proportion",
+      "pos": "n.",
+      "sense_zh": "比例",
+      "sentence_ids": [
+        "p08-c-21-s07"
+      ],
+      "forms": [
+        "proportion"
+      ],
+      "sense_id": "sense-staged-ox-04372e3a4d07c613-p08-c-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

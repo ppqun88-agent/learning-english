@@ -1,0 +1,84 @@
+{
+  "id": "p08-c-27",
+  "title_zh": "把天气活动说明从必然下雨改为可能下雨",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "weather-workshop-risk-language",
+    "label_zh": "区分天气概率与确定结果",
+    "goal_zh": "依据课堂给定预报修订必然下雨的说法，并保留室内备用活动说明"
+  },
+  "participants": [
+    "Iris",
+    "Dan"
+  ],
+  "context_zh": "学生依据题目提供的虚构预报准备活动公告。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-27-s01",
+      "speaker": "Iris",
+      "text": "The exercise gives an eighty percent probability of rain. I've written that rain is certain."
+    },
+    {
+      "id": "p08-c-27-s02",
+      "speaker": "Dan",
+      "text": "That's too strong. It makes rain probable, not guaranteed."
+    },
+    {
+      "id": "p08-c-27-s03",
+      "speaker": "Iris",
+      "text": "Could I say that rain is likely and mention our indoor backup?"
+    },
+    {
+      "id": "p08-c-27-s04",
+      "speaker": "Dan",
+      "text": "Yes. The forecast doesn't tell us exactly when or how much it will rain either."
+    },
+    {
+      "id": "p08-c-27-s05",
+      "speaker": "Iris",
+      "text": "Then I'll remove the sentence saying it will pour at noon."
+    },
+    {
+      "id": "p08-c-27-s06",
+      "speaker": "Dan",
+      "text": "Good. Keep the backup-room details so people know what to do if the outdoor session moves."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3910802a67b10dac",
+      "lemma": "probability",
+      "pos": "n.",
+      "sense_zh": "概率",
+      "sentence_ids": [
+        "p08-c-27-s01"
+      ],
+      "forms": [
+        "probability"
+      ],
+      "sense_id": "sense-staged-ox-3910802a67b10dac-p08-c-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9d96d5d5ce16ba61",
+      "lemma": "probable",
+      "pos": "adj.",
+      "sense_zh": "很可能的",
+      "sentence_ids": [
+        "p08-c-27-s02"
+      ],
+      "forms": [
+        "probable"
+      ],
+      "sense_id": "sense-staged-ox-9d96d5d5ce16ba61-p08-c-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

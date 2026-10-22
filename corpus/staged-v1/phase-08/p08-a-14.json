@@ -1,0 +1,110 @@
+{
+  "id": "p08-a-14",
+  "title_zh": "确认小岛旅馆抵达及停航联络安排",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "island-harbour-arrival-confirmation",
+    "label_zh": "核对小岛旅馆的抵达与停航联络",
+    "goal_zh": "确认码头会合地点，并约定旅客先核对班次、遇停航时致电旅馆"
+  },
+  "participants": [
+    "Tom",
+    "Fiona"
+  ],
+  "context_zh": "旅客给英国离岛上的小旅馆打电话，确认第二天的抵达安排。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-14-s01",
+      "speaker": "Tom",
+      "text": "Your directions say to meet you at the harbour. Is there more than one landing place?"
+    },
+    {
+      "id": "p08-a-14-s02",
+      "speaker": "Fiona",
+      "text": "There's just one passenger pier. I'll meet the afternoon boat beside the small shelter."
+    },
+    {
+      "id": "p08-a-14-s03",
+      "speaker": "Tom",
+      "text": "The island looks quite isolated. What happens if that boat is cancelled?"
+    },
+    {
+      "id": "p08-a-14-s04",
+      "speaker": "Fiona",
+      "text": "Call us before you leave the mainland. Don't book another crossing without checking where it arrives."
+    },
+    {
+      "id": "p08-a-14-s05",
+      "speaker": "Tom",
+      "text": "A former inhabitant of the island told me there used to be a second ferry."
+    },
+    {
+      "id": "p08-a-14-s06",
+      "speaker": "Fiona",
+      "text": "There was, but it doesn't run now. Use the service named in your booking email."
+    },
+    {
+      "id": "p08-a-14-s07",
+      "speaker": "Tom",
+      "text": "All right. I'll check the operator's update in the morning and call if anything changes."
+    },
+    {
+      "id": "p08-a-14-s08",
+      "speaker": "Fiona",
+      "text": "And if it runs as planned, I'll see you at the pier."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-390a05ecdfb3bbc2",
+      "lemma": "harbour",
+      "pos": "n.",
+      "sense_zh": "供船只停泊的港口（英式拼写）",
+      "sentence_ids": [
+        "p08-a-14-s01"
+      ],
+      "forms": [
+        "harbour"
+      ],
+      "sense_id": "sense-staged-ox-390a05ecdfb3bbc2-p08-a-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cd756571598ff305",
+      "lemma": "isolated",
+      "pos": "adj.",
+      "sense_zh": "地理上偏远隔绝的",
+      "sentence_ids": [
+        "p08-a-14-s03"
+      ],
+      "forms": [
+        "isolated"
+      ],
+      "sense_id": "sense-staged-ox-cd756571598ff305-p08-a-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cac5f441fa86e0e5",
+      "lemma": "inhabitant",
+      "pos": "n.",
+      "sense_zh": "某地的居民",
+      "sentence_ids": [
+        "p08-a-14-s05"
+      ],
+      "forms": [
+        "inhabitant"
+      ],
+      "sense_id": "sense-staged-ox-cac5f441fa86e0e5-p08-a-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

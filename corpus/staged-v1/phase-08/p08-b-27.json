@@ -1,0 +1,126 @@
+{
+  "id": "p08-b-27",
+  "title_zh": "约定先恢复短时间钢琴练习",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "piano-practice-restart-plan",
+    "label_zh": "商定恢复钢琴练习的一小步",
+    "goal_zh": "讨论挫败感并约定一段可坚持的练习及分享安排"
+  },
+  "participants": [
+    "Petra",
+    "Josef"
+  ],
+  "context_zh": "成年人佩特拉因停练许久而沮丧，与朋友约瑟夫讨论恢复钢琴练习。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-27-s01",
+      "speaker": "Petra",
+      "text": "I sit at the piano and expect to master the whole piece again. Then I stop after the first mistake."
+    },
+    {
+      "id": "p08-b-27-s02",
+      "speaker": "Josef",
+      "text": "Would working on just four bars make it easier to begin?"
+    },
+    {
+      "id": "p08-b-27-s03",
+      "speaker": "Petra",
+      "text": "Maybe. I don't have much motivation after work."
+    },
+    {
+      "id": "p08-b-27-s04",
+      "speaker": "Josef",
+      "text": "What used to motivate you: playing for someone, or hearing your own progress?"
+    },
+    {
+      "id": "p08-b-27-s05",
+      "speaker": "Petra",
+      "text": "Hearing a phrase become smoother. I could spend ten minutes on those four bars instead of struggling through everything."
+    },
+    {
+      "id": "p08-b-27-s06",
+      "speaker": "Josef",
+      "text": "That sounds easier to maintain than an hour you never have time for."
+    },
+    {
+      "id": "p08-b-27-s07",
+      "speaker": "Petra",
+      "text": "I'll try ten minutes after dinner on Monday and Wednesday. Could I play the phrase for you next weekend?"
+    },
+    {
+      "id": "p08-b-27-s08",
+      "speaker": "Josef",
+      "text": "I'd like that. We can listen for what feels easier, not count mistakes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5a4c294079b51364",
+      "lemma": "motivate",
+      "pos": "v.",
+      "sense_zh": "激励；使愿意行动",
+      "sentence_ids": [
+        "p08-b-27-s04"
+      ],
+      "forms": [
+        "motivate"
+      ],
+      "sense_id": "sense-staged-ox-5a4c294079b51364-p08-b-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-967cf77042e48187",
+      "lemma": "motivation",
+      "pos": "n.",
+      "sense_zh": "动力；积极性",
+      "sentence_ids": [
+        "p08-b-27-s03"
+      ],
+      "forms": [
+        "motivation"
+      ],
+      "sense_id": "sense-staged-ox-967cf77042e48187-p08-b-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-79670c12f78c7ace",
+      "lemma": "master",
+      "pos": "v.",
+      "sense_zh": "熟练掌握",
+      "sentence_ids": [
+        "p08-b-27-s01"
+      ],
+      "forms": [
+        "master"
+      ],
+      "sense_id": "sense-staged-ox-79670c12f78c7ace-p08-b-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c90cfbfbf2176ecd",
+      "lemma": "maintain",
+      "pos": "v.",
+      "sense_zh": "维持；坚持",
+      "sentence_ids": [
+        "p08-b-27-s06"
+      ],
+      "forms": [
+        "maintain"
+      ],
+      "sense_id": "sense-staged-ox-c90cfbfbf2176ecd-p08-b-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

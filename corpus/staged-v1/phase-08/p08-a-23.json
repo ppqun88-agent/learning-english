@@ -1,0 +1,100 @@
+{
+  "id": "p08-a-23",
+  "title_zh": "选定兼具幽默与思考的共读作品",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "book-group-discussion-balance",
+    "label_zh": "安排有思考空间的轻松读书讨论",
+    "goal_zh": "选定读书小组作品并约定以开放问题开始讨论而非考查知识"
+  },
+  "participants": [
+    "Gareth",
+    "Niamh"
+  ],
+  "context_zh": "英国读书小组的两名成员挑选下个月的书。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-23-s01",
+      "speaker": "Gareth",
+      "text": "I'd like something with a bit of humour after last month's rather bleak novel."
+    },
+    {
+      "id": "p08-a-23-s02",
+      "speaker": "Niamh",
+      "text": "How about this one? It's funny, but it still offers an intellectual challenge."
+    },
+    {
+      "id": "p08-a-23-s03",
+      "speaker": "Gareth",
+      "text": "Will we need to know a lot of philosophy to follow it?"
+    },
+    {
+      "id": "p08-a-23-s04",
+      "speaker": "Niamh",
+      "text": "No. The ideas come through the characters' choices. That could inspire a good discussion about friendship."
+    },
+    {
+      "id": "p08-a-23-s05",
+      "speaker": "Gareth",
+      "text": "Then let's choose it, but avoid starting the meeting with a test of who understood the ideas."
+    },
+    {
+      "id": "p08-a-23-s06",
+      "speaker": "Niamh",
+      "text": "Agreed. We'll ask which character people would trust and let the conversation grow from there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6c3df9d045a75459",
+      "lemma": "humour",
+      "pos": "n.",
+      "sense_zh": "幽默或诙谐成分（英式拼写）",
+      "sentence_ids": [
+        "p08-a-23-s01"
+      ],
+      "forms": [
+        "humour"
+      ],
+      "sense_id": "sense-staged-ox-6c3df9d045a75459-p08-a-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14b3b8051ae3392a",
+      "lemma": "intellectual",
+      "pos": "adj.",
+      "sense_zh": "需要或涉及思考理解的",
+      "sentence_ids": [
+        "p08-a-23-s02"
+      ],
+      "forms": [
+        "intellectual"
+      ],
+      "sense_id": "sense-staged-ox-14b3b8051ae3392a-p08-a-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63f0693e71ed651e",
+      "lemma": "inspire",
+      "pos": "v.",
+      "sense_zh": "激发某种活动或想法",
+      "sentence_ids": [
+        "p08-a-23-s04"
+      ],
+      "forms": [
+        "inspire"
+      ],
+      "sense_id": "sense-staged-ox-63f0693e71ed651e-p08-a-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

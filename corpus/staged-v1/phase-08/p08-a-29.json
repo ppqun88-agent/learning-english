@@ -1,0 +1,105 @@
+{
+  "id": "p08-a-29",
+  "title_zh": "暂停手册印刷并修正索引错页",
+  "topic_id": "work",
+  "scenario": {
+    "id": "printed-handbook-index-correction",
+    "label_zh": "核对手册索引的印刷错误",
+    "goal_zh": "确认索引页码错误并暂停印刷，约定修改后由另一人逐项核对再开印"
+  },
+  "participants": [
+    "Zoe",
+    "Nathan"
+  ],
+  "context_zh": "同事检查即将批量印刷的志愿者手册样张。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-29-s01",
+      "speaker": "Zoe",
+      "text": "The index sends readers to page twelve for emergency contacts, but they're on page fourteen."
+    },
+    {
+      "id": "p08-a-29-s02",
+      "speaker": "Nathan",
+      "text": "You're right. Those page numbers are incorrect. We added two pages after making the index."
+    },
+    {
+      "id": "p08-a-29-s03",
+      "speaker": "Zoe",
+      "text": "Has the full print run started?"
+    },
+    {
+      "id": "p08-a-29-s04",
+      "speaker": "Nathan",
+      "text": "No, this is just the proof. The ink is still wet on the test sheet."
+    },
+    {
+      "id": "p08-a-29-s05",
+      "speaker": "Zoe",
+      "text": "Please hold the rest. I'll update the references in the file."
+    },
+    {
+      "id": "p08-a-29-s06",
+      "speaker": "Nathan",
+      "text": "And I'll check each entry against the new proof before we print any more."
+    },
+    {
+      "id": "p08-a-29-s07",
+      "speaker": "Zoe",
+      "text": "Good. Let's leave the printer paused until we've both signed off on that version."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d1b5d828f7a338a4",
+      "lemma": "index",
+      "pos": "n.",
+      "sense_zh": "书末按主题列出的索引",
+      "sentence_ids": [
+        "p08-a-29-s01"
+      ],
+      "forms": [
+        "index"
+      ],
+      "sense_id": "sense-staged-ox-d1b5d828f7a338a4-p08-a-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4055086863174cb8",
+      "lemma": "incorrect",
+      "pos": "adj.",
+      "sense_zh": "不正确的",
+      "sentence_ids": [
+        "p08-a-29-s02"
+      ],
+      "forms": [
+        "incorrect"
+      ],
+      "sense_id": "sense-staged-ox-4055086863174cb8-p08-a-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e900fcb549a523e0",
+      "lemma": "ink",
+      "pos": "n.",
+      "sense_zh": "印刷使用的油墨",
+      "sentence_ids": [
+        "p08-a-29-s04"
+      ],
+      "forms": [
+        "ink"
+      ],
+      "sense_id": "sense-staged-ox-e900fcb549a523e0-p08-a-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p08-c-38",
+  "title_zh": "约定私下了解种族偏见报告的处理流程",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-racism-report-private-meeting",
+    "label_zh": "约定私下了解种族偏见报告流程",
+    "goal_zh": "说明种族偏见言论及隐私顾虑，约定私下了解处理流程与信息使用方式后再决定分享内容"
+  },
+  "participants": [
+    "Amina",
+    "Gareth"
+  ],
+  "context_zh": "社团成员向负责人报告上次活动中发生的不当言论。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-38-s01",
+      "speaker": "Amina",
+      "text": "Someone made a racist remark about my family at the last meeting. I don't want to repeat it in front of the whole group."
+    },
+    {
+      "id": "p08-c-38-s02",
+      "speaker": "Gareth",
+      "text": "You don't have to. We can talk privately and record what happened in your own words."
+    },
+    {
+      "id": "p08-c-38-s03",
+      "speaker": "Amina",
+      "text": "They said I shouldn't be so sensitive about my racial background."
+    },
+    {
+      "id": "p08-c-38-s04",
+      "speaker": "Gareth",
+      "text": "That doesn't make the comment acceptable. Our rules against racism apply to how members treat each other, not just to public posts."
+    },
+    {
+      "id": "p08-c-38-s05",
+      "speaker": "Amina",
+      "text": "I'm willing to explain what happened, but I want to know who will see the report."
+    },
+    {
+      "id": "p08-c-38-s06",
+      "speaker": "Gareth",
+      "text": "Let's meet in the office after this session. I'll explain the process and how the information would be used before you decide what to share."
+    },
+    {
+      "id": "p08-c-38-s07",
+      "speaker": "Amina",
+      "text": "All right. I'll come then, and we can start with that explanation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e95b6138c41c6bd2",
+      "lemma": "racist",
+      "pos": "adj.",
+      "sense_zh": "种族主义的或带有种族偏见的",
+      "sentence_ids": [
+        "p08-c-38-s01"
+      ],
+      "forms": [
+        "racist"
+      ],
+      "sense_id": "sense-staged-ox-e95b6138c41c6bd2-p08-c-38",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e692ed701c63004f",
+      "lemma": "racial",
+      "pos": "adj.",
+      "sense_zh": "种族方面的",
+      "sentence_ids": [
+        "p08-c-38-s03"
+      ],
+      "forms": [
+        "racial"
+      ],
+      "sense_id": "sense-staged-ox-e692ed701c63004f-p08-c-38",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f725e45364ac4241",
+      "lemma": "racism",
+      "pos": "n.",
+      "sense_zh": "种族主义或种族歧视",
+      "sentence_ids": [
+        "p08-c-38-s04"
+      ],
+      "forms": [
+        "racism"
+      ],
+      "sense_id": "sense-staged-ox-f725e45364ac4241-p08-c-38",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

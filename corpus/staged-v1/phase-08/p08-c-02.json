@@ -1,0 +1,121 @@
+{
+  "id": "p08-c-02",
+  "title_zh": "确定出版实习申请的作品样本",
+  "topic_id": "work",
+  "scenario": {
+    "id": "publishing-placement-application-plan",
+    "label_zh": "准备出版实习申请材料",
+    "goal_zh": "选定出版实习申请使用的已编辑文章，并约定补写修改说明"
+  },
+  "participants": [
+    "Nina",
+    "Marcus"
+  ],
+  "context_zh": "学生向职业指导老师咨询出版社实习申请。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-02-s01",
+      "speaker": "Nina",
+      "text": "I'd like to pursue a career in publishing, but all my experience is with the student magazine."
+    },
+    {
+      "id": "p08-c-02-s02",
+      "speaker": "Marcus",
+      "text": "That could be relevant. Have you looked at the summer placement with Bell Street Books?"
+    },
+    {
+      "id": "p08-c-02-s03",
+      "speaker": "Nina",
+      "text": "Yes. I'm passionate about children's stories, and they publish picture books."
+    },
+    {
+      "id": "p08-c-02-s04",
+      "speaker": "Marcus",
+      "text": "Then show them what you've actually done. Do you have an article you edited?"
+    },
+    {
+      "id": "p08-c-02-s05",
+      "speaker": "Nina",
+      "text": "I have the first draft and the final version, with the writer's permission to use both."
+    },
+    {
+      "id": "p08-c-02-s06",
+      "speaker": "Marcus",
+      "text": "Good. Add a short explanation of your changes and check the application instructions."
+    },
+    {
+      "id": "p08-c-02-s07",
+      "speaker": "Nina",
+      "text": "I'll use that article and prepare the explanation tonight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-47131d264d7c929a",
+      "lemma": "pursue",
+      "pos": "v.",
+      "sense_zh": "追求或从事",
+      "sentence_ids": [
+        "p08-c-02-s01"
+      ],
+      "forms": [
+        "pursue"
+      ],
+      "sense_id": "sense-staged-ox-47131d264d7c929a-p08-c-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fdde1cbbde19a4c3",
+      "lemma": "publishing",
+      "pos": "n.",
+      "sense_zh": "出版业",
+      "sentence_ids": [
+        "p08-c-02-s01"
+      ],
+      "forms": [
+        "publishing"
+      ],
+      "sense_id": "sense-staged-ox-fdde1cbbde19a4c3-p08-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a23a89a6a8a48b8",
+      "lemma": "placement",
+      "pos": "n.",
+      "sense_zh": "实习岗位或实习安排",
+      "sentence_ids": [
+        "p08-c-02-s02"
+      ],
+      "forms": [
+        "placement"
+      ],
+      "sense_id": "sense-staged-ox-4a23a89a6a8a48b8-p08-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6142558be6fb2c3d",
+      "lemma": "passionate",
+      "pos": "adj.",
+      "sense_zh": "热衷的",
+      "sentence_ids": [
+        "p08-c-02-s03"
+      ],
+      "forms": [
+        "passionate"
+      ],
+      "sense_id": "sense-staged-ox-6142558be6fb2c3d-p08-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

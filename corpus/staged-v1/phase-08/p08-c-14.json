@@ -1,0 +1,137 @@
+{
+  "id": "p08-c-14",
+  "title_zh": "选定与戏服搭配的平底鞋",
+  "topic_id": "services",
+  "scenario": {
+    "id": "play-costume-shoe-choice",
+    "label_zh": "为舞台戏服选择合脚的平底鞋",
+    "goal_zh": "根据着装偏好与台阶走动需要，放弃尖头款并选定预算内的平底鞋"
+  },
+  "participants": [
+    "Jules",
+    "Rina"
+  ],
+  "context_zh": "演员在商店寻找可与现有戏服搭配的鞋。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-14-s01",
+      "speaker": "Jules",
+      "text": "This is the outfit I'll wear in the play. I need shoes that won't distract from it."
+    },
+    {
+      "id": "p08-c-14-s02",
+      "speaker": "Rina",
+      "text": "Do you have a preference for a particular colour?"
+    },
+    {
+      "id": "p08-c-14-s03",
+      "speaker": "Jules",
+      "text": "Black, and something plain. No shiny buckles."
+    },
+    {
+      "id": "p08-c-14-s04",
+      "speaker": "Rina",
+      "text": "These pointed shoes suit the period, but try walking in them before you decide."
+    },
+    {
+      "id": "p08-c-14-s05",
+      "speaker": "Jules",
+      "text": "My toes feel squeezed, and I have to climb steps on stage. Could I try the round-toed pair?"
+    },
+    {
+      "id": "p08-c-14-s06",
+      "speaker": "Rina",
+      "text": "Of course. Those are flat and cost forty pounds."
+    },
+    {
+      "id": "p08-c-14-s07",
+      "speaker": "Jules",
+      "text": "They feel much better, and they're within my budget. I'll purchase this pair."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-81397705f08235c5",
+      "lemma": "outfit",
+      "pos": "n.",
+      "sense_zh": "一套服装",
+      "sentence_ids": [
+        "p08-c-14-s01"
+      ],
+      "forms": [
+        "outfit"
+      ],
+      "sense_id": "sense-staged-ox-81397705f08235c5-p08-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66e7434ff86d6c66",
+      "lemma": "preference",
+      "pos": "n.",
+      "sense_zh": "偏好",
+      "sentence_ids": [
+        "p08-c-14-s02"
+      ],
+      "forms": [
+        "preference"
+      ],
+      "sense_id": "sense-staged-ox-66e7434ff86d6c66-p08-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-008565bc8247b53e",
+      "lemma": "plain",
+      "pos": "adj.",
+      "sense_zh": "无装饰的或朴素的",
+      "sentence_ids": [
+        "p08-c-14-s03"
+      ],
+      "forms": [
+        "plain"
+      ],
+      "sense_id": "sense-staged-ox-008565bc8247b53e-p08-c-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a59e64f47f65fcf7",
+      "lemma": "pointed",
+      "pos": "adj.",
+      "sense_zh": "尖头的",
+      "sentence_ids": [
+        "p08-c-14-s04"
+      ],
+      "forms": [
+        "pointed"
+      ],
+      "sense_id": "sense-staged-ox-a59e64f47f65fcf7-p08-c-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-061100d8f9b378a3",
+      "lemma": "purchase",
+      "pos": "v.",
+      "sense_zh": "购买",
+      "sentence_ids": [
+        "p08-c-14-s07"
+      ],
+      "forms": [
+        "purchase"
+      ],
+      "sense_id": "sense-staged-ox-061100d8f9b378a3-p08-c-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

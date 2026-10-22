@@ -1,0 +1,89 @@
+{
+  "id": "p08-a-13",
+  "title_zh": "先去售票处核对港口渡船登船信息",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "harbor-ferry-information-check",
+    "label_zh": "查询港口渡船的当日信息",
+    "goal_zh": "确认手头旅行博客信息发表于去年，问清售票处位置并决定先核实当日班次再购票"
+  },
+  "participants": [
+    "Wendy",
+    "Caleb"
+  ],
+  "context_zh": "游客在美国港口向工作人员询问渡船信息。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-13-s01",
+      "speaker": "Wendy",
+      "text": "Does the ferry leave from this side of the harbor?"
+    },
+    {
+      "id": "p08-a-13-s02",
+      "speaker": "Caleb",
+      "text": "Usually, yes. Are you heading to Pine Island?"
+    },
+    {
+      "id": "p08-a-13-s03",
+      "speaker": "Wendy",
+      "text": "I am. I've got some info from a travel blog, but it was posted last year."
+    },
+    {
+      "id": "p08-a-13-s04",
+      "speaker": "Caleb",
+      "text": "The boarding point can change. The ticket office has today's departures."
+    },
+    {
+      "id": "p08-a-13-s05",
+      "speaker": "Wendy",
+      "text": "Is that the blue building beside the water?"
+    },
+    {
+      "id": "p08-a-13-s06",
+      "speaker": "Caleb",
+      "text": "That's it. Check the board inside before you buy a ticket."
+    },
+    {
+      "id": "p08-a-13-s07",
+      "speaker": "Wendy",
+      "text": "Thanks. I'll go there first rather than wait at the wrong dock."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6e1ded37371786ed",
+      "lemma": "harbor",
+      "pos": "n.",
+      "sense_zh": "供船只停泊的港口（美式拼写）",
+      "sentence_ids": [
+        "p08-a-13-s01"
+      ],
+      "forms": [
+        "harbor"
+      ],
+      "sense_id": "sense-staged-ox-6e1ded37371786ed-p08-a-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c7a23799ebf67be",
+      "lemma": "info",
+      "pos": "n.",
+      "sense_zh": "信息（非正式说法）",
+      "sentence_ids": [
+        "p08-a-13-s03"
+      ],
+      "forms": [
+        "info"
+      ],
+      "sense_id": "sense-staged-ox-0c7a23799ebf67be-p08-a-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

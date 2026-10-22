@@ -1,0 +1,68 @@
+{
+  "id": "p08-a-33",
+  "title_zh": "选定航空展厅的短参观路线",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "aviation-museum-route",
+    "label_zh": "确定航空展参观路线",
+    "goal_zh": "根据展品位置和可用时间选定航空展厅的参观路线"
+  },
+  "participants": [
+    "Finn",
+    "Ada"
+  ],
+  "context_zh": "游客在航空博物馆入口向工作人员咨询剩余四十分钟的参观路线。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-33-s01",
+      "speaker": "Finn",
+      "text": "We only have forty minutes. Is there time to see the old passenger jet?"
+    },
+    {
+      "id": "p08-a-33-s02",
+      "speaker": "Ada",
+      "text": "Yes. It's in the far hall, about five minutes from here. The early aircraft are in this nearer room."
+    },
+    {
+      "id": "p08-a-33-s03",
+      "speaker": "Finn",
+      "text": "The large plane is what my daughter most wants to see. Should we go straight there?"
+    },
+    {
+      "id": "p08-a-33-s04",
+      "speaker": "Ada",
+      "text": "I would. You can look at the smaller exhibits on the way back if you have time."
+    },
+    {
+      "id": "p08-a-33-s05",
+      "speaker": "Finn",
+      "text": "Then we'll take the corridor to the far hall first. Is that the entrance under the blue sign?"
+    },
+    {
+      "id": "p08-a-33-s06",
+      "speaker": "Ada",
+      "text": "That's right. Follow it to the end, then turn left."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3e325c2075cae794",
+      "lemma": "jet",
+      "pos": "n.",
+      "sense_zh": "喷气式飞机",
+      "sentence_ids": [
+        "p08-a-33-s01"
+      ],
+      "forms": [
+        "jet"
+      ],
+      "sense_id": "sense-staged-ox-3e325c2075cae794-p08-a-33",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

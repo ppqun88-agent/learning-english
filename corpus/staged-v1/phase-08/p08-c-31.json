@@ -1,0 +1,100 @@
+{
+  "id": "p08-c-31",
+  "title_zh": "更正紫外线展台告示并保留防护屏障",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "uv-exhibit-safety-labels",
+    "label_zh": "修订紫外线展台的操作与防护说明",
+    "goal_zh": "依据展台安全说明删去观众可打开屏障的指示，改为由工作人员演示并保持防护"
+  },
+  "participants": [
+    "Rose",
+    "Alex"
+  ],
+  "context_zh": "学生布置由工作人员操作的科学展台，并核对现成的安全说明。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-31-s01",
+      "speaker": "Rose",
+      "text": "My sign says visitors can open this cover to see the lamp more clearly."
+    },
+    {
+      "id": "p08-c-31-s02",
+      "speaker": "Alex",
+      "text": "That conflicts with the exhibit instructions. The cover provides protection from the radiation produced by the lamp."
+    },
+    {
+      "id": "p08-c-31-s03",
+      "speaker": "Rose",
+      "text": "Even when it doesn't look very bright?"
+    },
+    {
+      "id": "p08-c-31-s04",
+      "speaker": "Alex",
+      "text": "Yes. The instructions describe direct exposure as potentially harmful. We shouldn't judge safety by brightness."
+    },
+    {
+      "id": "p08-c-31-s05",
+      "speaker": "Rose",
+      "text": "I'll replace the sign with 'Please ask a member of staff for a demonstration'."
+    },
+    {
+      "id": "p08-c-31-s06",
+      "speaker": "Alex",
+      "text": "Good. Keep the cover closed, and ask the supervisor to check the new sign before we open."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0dfe1a0916792ec1",
+      "lemma": "protection",
+      "pos": "n.",
+      "sense_zh": "防护",
+      "sentence_ids": [
+        "p08-c-31-s02"
+      ],
+      "forms": [
+        "protection"
+      ],
+      "sense_id": "sense-staged-ox-0dfe1a0916792ec1-p08-c-31",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4991a5a959716ee6",
+      "lemma": "radiation",
+      "pos": "n.",
+      "sense_zh": "辐射",
+      "sentence_ids": [
+        "p08-c-31-s02"
+      ],
+      "forms": [
+        "radiation"
+      ],
+      "sense_id": "sense-staged-ox-4991a5a959716ee6-p08-c-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cefedd952f1a8469",
+      "lemma": "potentially",
+      "pos": "adv.",
+      "sense_zh": "潜在地或可能地",
+      "sentence_ids": [
+        "p08-c-31-s04"
+      ],
+      "forms": [
+        "potentially"
+      ],
+      "sense_id": "sense-staged-ox-cefedd952f1a8469-p08-c-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

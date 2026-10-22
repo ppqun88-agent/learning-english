@@ -1,0 +1,116 @@
+{
+  "id": "p08-c-25",
+  "title_zh": "把同伴作品的赞美写得具体",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "peer-feedback-specific-praise",
+    "label_zh": "用作品证据完善同伴反馈",
+    "goal_zh": "把笼统好评改为对清楚步骤图的具体赞赏，并确认保留诚实的改进意见"
+  },
+  "participants": [
+    "Ellis",
+    "Noor"
+  ],
+  "context_zh": "学生在提交同伴评价前检查措辞。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-25-s01",
+      "speaker": "Ellis",
+      "text": "Our teacher asked for feedback from a peer. I just wrote that your whole project was outstanding."
+    },
+    {
+      "id": "p08-c-25-s02",
+      "speaker": "Noor",
+      "text": "That's kind, but which part actually helped you understand the idea?"
+    },
+    {
+      "id": "p08-c-25-s03",
+      "speaker": "Ellis",
+      "text": "The diagram showing the steps. I want to praise the way you made a complicated process easy to follow."
+    },
+    {
+      "id": "p08-c-25-s04",
+      "speaker": "Noor",
+      "text": "That means more to me. I took a lot of pride in getting those arrows right."
+    },
+    {
+      "id": "p08-c-25-s05",
+      "speaker": "Ellis",
+      "text": "I'll write that specific point, and mention that the final label was hard to read."
+    },
+    {
+      "id": "p08-c-25-s06",
+      "speaker": "Noor",
+      "text": "Please do. I can use that when I revise it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-32d9abbaec8acea5",
+      "lemma": "peer",
+      "pos": "n.",
+      "sense_zh": "同龄或同等身份的同伴",
+      "sentence_ids": [
+        "p08-c-25-s01"
+      ],
+      "forms": [
+        "peer"
+      ],
+      "sense_id": "sense-staged-ox-32d9abbaec8acea5-p08-c-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc8c07430c97128d",
+      "lemma": "outstanding",
+      "pos": "adj.",
+      "sense_zh": "非常出色的",
+      "sentence_ids": [
+        "p08-c-25-s01"
+      ],
+      "forms": [
+        "outstanding"
+      ],
+      "sense_id": "sense-staged-ox-fc8c07430c97128d-p08-c-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9c43eabb9ecac925",
+      "lemma": "praise",
+      "pos": "v.",
+      "sense_zh": "赞扬",
+      "sentence_ids": [
+        "p08-c-25-s03"
+      ],
+      "forms": [
+        "praise"
+      ],
+      "sense_id": "sense-staged-ox-9c43eabb9ecac925-p08-c-25",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ccc89159b23578e3",
+      "lemma": "pride",
+      "pos": "n.",
+      "sense_zh": "自豪感",
+      "sentence_ids": [
+        "p08-c-25-s04"
+      ],
+      "forms": [
+        "pride"
+      ],
+      "sense_id": "sense-staged-ox-ccc89159b23578e3-p08-c-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

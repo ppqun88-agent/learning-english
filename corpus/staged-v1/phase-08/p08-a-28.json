@@ -1,0 +1,179 @@
+{
+  "id": "p08-a-28",
+  "title_zh": "试行轮流发言的工作坊规则",
+  "topic_id": "work",
+  "scenario": {
+    "id": "workshop-participation-guideline",
+    "label_zh": "修订工作坊的参与规则",
+    "goal_zh": "把参与者反馈转化为轮流发言和允许澄清的规则，约定下一次试行后回顾效果"
+  },
+  "participants": [
+    "Beth",
+    "Imran"
+  ],
+  "context_zh": "两名培训组织者根据参与者反馈调整工作坊活动。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-28-s01",
+      "speaker": "Beth",
+      "text": "People liked the group work, but some said they barely got a chance to interact."
+    },
+    {
+      "id": "p08-a-28-s02",
+      "speaker": "Imran",
+      "text": "Let's integrate that feedback into the next session rather than just thanking them for it."
+    },
+    {
+      "id": "p08-a-28-s03",
+      "speaker": "Beth",
+      "text": "What would you change? We can't force lively interaction by telling everyone to talk more."
+    },
+    {
+      "id": "p08-a-28-s04",
+      "speaker": "Imran",
+      "text": "One guideline could be that everyone gets a turn before anyone takes a second one."
+    },
+    {
+      "id": "p08-a-28-s05",
+      "speaker": "Beth",
+      "text": "Would that mean nobody can interrupt to ask a question?"
+    },
+    {
+      "id": "p08-a-28-s06",
+      "speaker": "Imran",
+      "text": "Not quite. For instance, a quick request to explain an unfamiliar term should still be welcome."
+    },
+    {
+      "id": "p08-a-28-s07",
+      "speaker": "Beth",
+      "text": "Then let's distinguish clarification from taking over the discussion."
+    },
+    {
+      "id": "p08-a-28-s08",
+      "speaker": "Imran",
+      "text": "Agreed. We can implement the rule in the next workshop and ask whether it helped."
+    },
+    {
+      "id": "p08-a-28-s09",
+      "speaker": "Beth",
+      "text": "I'll explain it at the start, and we'll compare the feedback afterwards."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-304c372a70b28cf7",
+      "lemma": "interact",
+      "pos": "v.",
+      "sense_zh": "相互交流或参与互动",
+      "sentence_ids": [
+        "p08-a-28-s01"
+      ],
+      "forms": [
+        "interact"
+      ],
+      "sense_id": "sense-staged-ox-304c372a70b28cf7-p08-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3407be674d7e086b",
+      "lemma": "integrate",
+      "pos": "v.",
+      "sense_zh": "将某事纳入并融为整体",
+      "sentence_ids": [
+        "p08-a-28-s02"
+      ],
+      "forms": [
+        "integrate"
+      ],
+      "sense_id": "sense-staged-ox-3407be674d7e086b-p08-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e42f5537d82f1ad1",
+      "lemma": "interaction",
+      "pos": "n.",
+      "sense_zh": "人与人之间的互动",
+      "sentence_ids": [
+        "p08-a-28-s03"
+      ],
+      "forms": [
+        "interaction"
+      ],
+      "sense_id": "sense-staged-ox-e42f5537d82f1ad1-p08-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aed647e7f3c8c62a",
+      "lemma": "guideline",
+      "pos": "n.",
+      "sense_zh": "指导行为的原则",
+      "sentence_ids": [
+        "p08-a-28-s04"
+      ],
+      "forms": [
+        "guideline"
+      ],
+      "sense_id": "sense-staged-ox-aed647e7f3c8c62a-p08-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a87eba55e110b544",
+      "lemma": "interrupt",
+      "pos": "v.",
+      "sense_zh": "打断他人的发言",
+      "sentence_ids": [
+        "p08-a-28-s05"
+      ],
+      "forms": [
+        "interrupt"
+      ],
+      "sense_id": "sense-staged-ox-a87eba55e110b544-p08-a-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-645e2e9fa7616b87",
+      "lemma": "instance",
+      "pos": "n.",
+      "sense_zh": "用于举例的事例",
+      "sentence_ids": [
+        "p08-a-28-s06"
+      ],
+      "forms": [
+        "instance"
+      ],
+      "sense_id": "sense-staged-ox-645e2e9fa7616b87-p08-a-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a998597c2b9ebc17",
+      "lemma": "implement",
+      "pos": "v.",
+      "sense_zh": "实施计划或规则",
+      "sentence_ids": [
+        "p08-a-28-s08"
+      ],
+      "forms": [
+        "implement"
+      ],
+      "sense_id": "sense-staged-ox-a998597c2b9ebc17-p08-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

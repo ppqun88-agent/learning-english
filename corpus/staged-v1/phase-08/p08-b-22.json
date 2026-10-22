@@ -1,0 +1,158 @@
+{
+  "id": "p08-b-22",
+  "title_zh": "安排展示电机停机检查后再试运行",
+  "topic_id": "services",
+  "scenario": {
+    "id": "display-motor-repair-inspection",
+    "label_zh": "预约展示设备的停机检查",
+    "goal_zh": "描述电机与模式切换异常，约定保持设备关闭并由维修人员检查后再监测测试"
+  },
+  "participants": [
+    "Vic",
+    "Luna"
+  ],
+  "context_zh": "虚构科学馆的展览管理员维克与设备维修师露娜讨论一台已经关闭的演示机器。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-22-s01",
+      "speaker": "Vic",
+      "text": "Are you the mechanic who looks after the moving displays? Our model stopped halfway through a demonstration."
+    },
+    {
+      "id": "p08-b-22-s02",
+      "speaker": "Luna",
+      "text": "Yes. Is it switched off now?"
+    },
+    {
+      "id": "p08-b-22-s03",
+      "speaker": "Vic",
+      "text": "It is. The motor made a new clicking sound, and the machine wouldn't leave automatic mode."
+    },
+    {
+      "id": "p08-b-22-s04",
+      "speaker": "Luna",
+      "text": "That could be a mechanical problem, but I need to inspect it before saying what's wrong."
+    },
+    {
+      "id": "p08-b-22-s05",
+      "speaker": "Vic",
+      "text": "Could the switching mechanism be stuck?"
+    },
+    {
+      "id": "p08-b-22-s06",
+      "speaker": "Luna",
+      "text": "Possibly. I'll check it with the power isolated. Please keep visitors away from the display until then."
+    },
+    {
+      "id": "p08-b-22-s07",
+      "speaker": "Vic",
+      "text": "Of course. Once it's ready for a test, could you monitor it through a full cycle?"
+    },
+    {
+      "id": "p08-b-22-s08",
+      "speaker": "Luna",
+      "text": "Yes. I'll inspect it tomorrow morning, and we'll only arrange a test after I've confirmed it's suitable."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6edc34dd1b77fa5d",
+      "lemma": "mechanic",
+      "pos": "n.",
+      "sense_zh": "机器维修技师",
+      "sentence_ids": [
+        "p08-b-22-s01"
+      ],
+      "forms": [
+        "mechanic"
+      ],
+      "sense_id": "sense-staged-ox-6edc34dd1b77fa5d-p08-b-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8e98c64ef8e107e1",
+      "lemma": "mechanical",
+      "pos": "adj.",
+      "sense_zh": "机械的；涉及机器部件的",
+      "sentence_ids": [
+        "p08-b-22-s04"
+      ],
+      "forms": [
+        "mechanical"
+      ],
+      "sense_id": "sense-staged-ox-8e98c64ef8e107e1-p08-b-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c17dbdf3c6c8733",
+      "lemma": "mechanism",
+      "pos": "n.",
+      "sense_zh": "机械装置；机构",
+      "sentence_ids": [
+        "p08-b-22-s05"
+      ],
+      "forms": [
+        "mechanism"
+      ],
+      "sense_id": "sense-staged-ox-3c17dbdf3c6c8733-p08-b-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2e66e2ebdfa38ef5",
+      "lemma": "motor",
+      "pos": "n.",
+      "sense_zh": "电动机",
+      "sentence_ids": [
+        "p08-b-22-s03"
+      ],
+      "forms": [
+        "motor"
+      ],
+      "sense_id": "sense-staged-ox-2e66e2ebdfa38ef5-p08-b-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-335d5e207870f263",
+      "lemma": "mode",
+      "pos": "n.",
+      "sense_zh": "机器的运行模式",
+      "sentence_ids": [
+        "p08-b-22-s03"
+      ],
+      "forms": [
+        "mode"
+      ],
+      "sense_id": "sense-staged-ox-335d5e207870f263-p08-b-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a4cc3010289770c",
+      "lemma": "monitor",
+      "pos": "v.",
+      "sense_zh": "持续观察或监测",
+      "sentence_ids": [
+        "p08-b-22-s07"
+      ],
+      "forms": [
+        "monitor"
+      ],
+      "sense_id": "sense-staged-ox-0a4cc3010289770c-p08-b-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

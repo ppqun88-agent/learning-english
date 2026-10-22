@@ -1,0 +1,105 @@
+{
+  "id": "p08-b-18",
+  "title_zh": "约定提供两套标志配色草图",
+  "topic_id": "work",
+  "scenario": {
+    "id": "small-company-logo-revision",
+    "label_zh": "修改小公司标志",
+    "goal_zh": "澄清图案和颜色需求并约定提供可比较的草图"
+  },
+  "participants": [
+    "Emil",
+    "Tara"
+  ],
+  "context_zh": "新开维修店的店主埃米尔与设计师塔拉讨论店铺标志。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-18-s01",
+      "speaker": "Emil",
+      "text": "The logo is easy to read, but the bright orange makes us look like a sports shop."
+    },
+    {
+      "id": "p08-b-18-s02",
+      "speaker": "Tara",
+      "text": "Would you prefer a quieter colour? The blue on your work van could be a starting point."
+    },
+    {
+      "id": "p08-b-18-s03",
+      "speaker": "Emil",
+      "text": "Yes. Could the sign and the invoices use matching colours?"
+    },
+    {
+      "id": "p08-b-18-s04",
+      "speaker": "Tara",
+      "text": "Certainly. Do you want me to modify the tool symbol as well?"
+    },
+    {
+      "id": "p08-b-18-s05",
+      "speaker": "Emil",
+      "text": "Keep the symbol. Please show me one blue version and one dark green version, both on a white background."
+    },
+    {
+      "id": "p08-b-18-s06",
+      "speaker": "Tara",
+      "text": "I'll prepare those two sketches and include a small invoice example so you can compare them."
+    },
+    {
+      "id": "p08-b-18-s07",
+      "speaker": "Emil",
+      "text": "That would help. I'll choose after I see them side by side."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-90c8f7c96a46fd06",
+      "lemma": "logo",
+      "pos": "n.",
+      "sense_zh": "组织或企业的标志",
+      "sentence_ids": [
+        "p08-b-18-s01"
+      ],
+      "forms": [
+        "logo"
+      ],
+      "sense_id": "sense-staged-ox-90c8f7c96a46fd06-p08-b-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb4087e7b55fbade",
+      "lemma": "matching",
+      "pos": "adj.",
+      "sense_zh": "相配的；一致的",
+      "sentence_ids": [
+        "p08-b-18-s03"
+      ],
+      "forms": [
+        "matching"
+      ],
+      "sense_id": "sense-staged-ox-cb4087e7b55fbade-p08-b-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c784220711a6ffe",
+      "lemma": "modify",
+      "pos": "v.",
+      "sense_zh": "稍作修改",
+      "sentence_ids": [
+        "p08-b-18-s04"
+      ],
+      "forms": [
+        "modify"
+      ],
+      "sense_id": "sense-staged-ox-2c784220711a6ffe-p08-b-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p08-c-36",
+  "title_zh": "缩小编程社团合作试办并先核对人手",
+  "topic_id": "work",
+  "scenario": {
+    "id": "coding-club-partnership-trial",
+    "label_zh": "商定编程社团合作的小规模试办",
+    "goal_zh": "考虑志愿者不足的问题，决定向潜在合作机构提出单次入门活动并先确认导师安排"
+  },
+  "participants": [
+    "Mei",
+    "Dylan"
+  ],
+  "context_zh": "图书馆职员与志愿者讨论尚未确定的教育合作。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-36-s01",
+      "speaker": "Mei",
+      "text": "The college looks like a potential partner for our programming club."
+    },
+    {
+      "id": "p08-c-36-s02",
+      "speaker": "Dylan",
+      "text": "What would the partnership involve? We can't promise a weekly course yet."
+    },
+    {
+      "id": "p08-c-36-s03",
+      "speaker": "Mei",
+      "text": "That's partly why I want their help. We have computers, but only one volunteer who can teach coding."
+    },
+    {
+      "id": "p08-c-36-s04",
+      "speaker": "Dylan",
+      "text": "Let's suggest one beginner session first, with their tutor and our volunteer working together."
+    },
+    {
+      "id": "p08-c-36-s05",
+      "speaker": "Mei",
+      "text": "I'll ask whether a tutor is available before we offer a date to the public."
+    },
+    {
+      "id": "p08-c-36-s06",
+      "speaker": "Dylan",
+      "text": "Good. Once we know who's teaching, we can agree on the lesson and decide whether to continue."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0ad9686dcddbf991",
+      "lemma": "potential",
+      "pos": "adj.",
+      "sense_zh": "可能成为的或潜在的",
+      "sentence_ids": [
+        "p08-c-36-s01"
+      ],
+      "forms": [
+        "potential"
+      ],
+      "sense_id": "sense-staged-ox-0ad9686dcddbf991-p08-c-36",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-730ba28963fd95a6",
+      "lemma": "programming",
+      "pos": "n.",
+      "sense_zh": "计算机编程",
+      "sentence_ids": [
+        "p08-c-36-s01"
+      ],
+      "forms": [
+        "programming"
+      ],
+      "sense_id": "sense-staged-ox-730ba28963fd95a6-p08-c-36",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae2998839dfd67fb",
+      "lemma": "partnership",
+      "pos": "n.",
+      "sense_zh": "合作关系",
+      "sentence_ids": [
+        "p08-c-36-s02"
+      ],
+      "forms": [
+        "partnership"
+      ],
+      "sense_id": "sense-staged-ox-ae2998839dfd67fb-p08-c-36",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4fde402a3d1a05a8",
+      "lemma": "partly",
+      "pos": "adv.",
+      "sense_zh": "部分地",
+      "sentence_ids": [
+        "p08-c-36-s03"
+      ],
+      "forms": [
+        "partly"
+      ],
+      "sense_id": "sense-staged-ox-4fde402a3d1a05a8-p08-c-36",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

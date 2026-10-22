@@ -1,0 +1,121 @@
+{
+  "id": "p08-a-09",
+  "title_zh": "商定资助范围内的园艺试办与征求意见",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-garden-grant-pilot",
+    "label_zh": "确定社区园艺资助试办",
+    "goal_zh": "核对资助可用于工具和两次活动，约定先征求居民意见再排定试办安排"
+  },
+  "participants": [
+    "Helen",
+    "Kwame"
+  ],
+  "context_zh": "社区花园组织者阅读已批准的小额资助通知。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-09-s01",
+      "speaker": "Helen",
+      "text": "The grant is approved, but it only covers shared tools and two weekend sessions."
+    },
+    {
+      "id": "p08-a-09-s02",
+      "speaker": "Kwame",
+      "text": "That's enough to start the initiative. We don't need to promise a year of classes."
+    },
+    {
+      "id": "p08-a-09-s03",
+      "speaker": "Helen",
+      "text": "Agreed. The new tools will greatly reduce what volunteers have to bring from home."
+    },
+    {
+      "id": "p08-a-09-s04",
+      "speaker": "Kwame",
+      "text": "Have the residents had any input into the dates?"
+    },
+    {
+      "id": "p08-a-09-s05",
+      "speaker": "Helen",
+      "text": "Not yet. We suggested Saturdays, but some people work then."
+    },
+    {
+      "id": "p08-a-09-s06",
+      "speaker": "Kwame",
+      "text": "I'll ask which weekend times they can manage and bring the answers to our next meeting."
+    },
+    {
+      "id": "p08-a-09-s07",
+      "speaker": "Helen",
+      "text": "Then we'll choose the two sessions and keep the spending within the approved categories."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c58b69f5ff86a2aa",
+      "lemma": "grant",
+      "pos": "n.",
+      "sense_zh": "机构提供的专项资助",
+      "sentence_ids": [
+        "p08-a-09-s01"
+      ],
+      "forms": [
+        "grant"
+      ],
+      "sense_id": "sense-staged-ox-c58b69f5ff86a2aa-p08-a-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b0d71b87f65b68c",
+      "lemma": "initiative",
+      "pos": "n.",
+      "sense_zh": "旨在改善某事的新举措",
+      "sentence_ids": [
+        "p08-a-09-s02"
+      ],
+      "forms": [
+        "initiative"
+      ],
+      "sense_id": "sense-staged-ox-0b0d71b87f65b68c-p08-a-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9b5c2f329c52fd27",
+      "lemma": "greatly",
+      "pos": "adv.",
+      "sense_zh": "大大地",
+      "sentence_ids": [
+        "p08-a-09-s03"
+      ],
+      "forms": [
+        "greatly"
+      ],
+      "sense_id": "sense-staged-ox-9b5c2f329c52fd27-p08-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16eb1e3fdc15ed81",
+      "lemma": "input",
+      "pos": "n.",
+      "sense_zh": "提供的意见或建议",
+      "sentence_ids": [
+        "p08-a-09-s04"
+      ],
+      "forms": [
+        "input"
+      ],
+      "sense_id": "sense-staged-ox-16eb1e3fdc15ed81-p08-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,147 @@
+{
+  "id": "p08-b-07",
+  "title_zh": "试拍后保留包含河岸的横向构图",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "landscape-photo-tripod-test",
+    "label_zh": "试拍并选定风景照片构图",
+    "goal_zh": "先试拍并比较横竖构图，选择包含河岸的横向画面并再次拍摄"
+  },
+  "participants": [
+    "Leo",
+    "Mina"
+  ],
+  "context_zh": "摄影学员莱奥与老师米娜在有护栏的观景台上练习风景摄影。",
+  "author": "author-phase08-b",
+  "sentences": [
+    {
+      "id": "p08-b-07-s01",
+      "speaker": "Leo",
+      "text": "The landscape is magnificent, but my photo makes the river look tiny."
+    },
+    {
+      "id": "p08-b-07-s02",
+      "speaker": "Mina",
+      "text": "Which lens are you using?"
+    },
+    {
+      "id": "p08-b-07-s03",
+      "speaker": "Leo",
+      "text": "The wide one. I wanted both mountains in the frame."
+    },
+    {
+      "id": "p08-b-07-s04",
+      "speaker": "Mina",
+      "text": "Keep that lens for now. Try including less sky so the river has more space."
+    },
+    {
+      "id": "p08-b-07-s05",
+      "speaker": "Leo",
+      "text": "The lighting keeps changing. Should I wait for the cloud to move?"
+    },
+    {
+      "id": "p08-b-07-s06",
+      "speaker": "Mina",
+      "text": "Let's take a test first. You can mount the camera on the tripod without moving closer to the edge."
+    },
+    {
+      "id": "p08-b-07-s07",
+      "speaker": "Leo",
+      "text": "Here's the test. I like the riverbank across the bottom; it leads into the picture."
+    },
+    {
+      "id": "p08-b-07-s08",
+      "speaker": "Mina",
+      "text": "So do I. The portrait version cuts it off."
+    },
+    {
+      "id": "p08-b-07-s09",
+      "speaker": "Leo",
+      "text": "I'll keep the horizontal composition. There, I've taken another with the same framing."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0b8e5e19dc31cff9",
+      "lemma": "landscape",
+      "pos": "n.",
+      "sense_zh": "自然风景；地貌景观",
+      "sentence_ids": [
+        "p08-b-07-s01"
+      ],
+      "forms": [
+        "landscape"
+      ],
+      "sense_id": "sense-staged-ox-0b8e5e19dc31cff9-p08-b-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88d4073a9668adcc",
+      "lemma": "lens",
+      "pos": "n.",
+      "sense_zh": "照相机镜头",
+      "sentence_ids": [
+        "p08-b-07-s02"
+      ],
+      "forms": [
+        "lens"
+      ],
+      "sense_id": "sense-staged-ox-88d4073a9668adcc-p08-b-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b928f3f9235ef3c",
+      "lemma": "lighting",
+      "pos": "n.",
+      "sense_zh": "拍摄时的光线条件",
+      "sentence_ids": [
+        "p08-b-07-s05"
+      ],
+      "forms": [
+        "lighting"
+      ],
+      "sense_id": "sense-staged-ox-7b928f3f9235ef3c-p08-b-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e50a77c6c0043000",
+      "lemma": "magnificent",
+      "pos": "adj.",
+      "sense_zh": "壮丽的；极其美的",
+      "sentence_ids": [
+        "p08-b-07-s01"
+      ],
+      "forms": [
+        "magnificent"
+      ],
+      "sense_id": "sense-staged-ox-e50a77c6c0043000-p08-b-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1083928127570b7d",
+      "lemma": "mount",
+      "pos": "v.",
+      "sense_zh": "将设备安装在支架上",
+      "sentence_ids": [
+        "p08-b-07-s06"
+      ],
+      "forms": [
+        "mount"
+      ],
+      "sense_id": "sense-staged-ox-1083928127570b7d-p08-b-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

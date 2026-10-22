@@ -1,0 +1,163 @@
+{
+  "id": "p08-a-02",
+  "title_zh": "放弃隆重补偿并约好短暂见面",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "friend-apology-small-next-step",
+    "label_zh": "道歉后约定简单见面",
+    "goal_zh": "承认失约造成的影响，尊重朋友不需要隆重道歉安排的意愿并约好周六喝咖啡"
+  },
+  "participants": [
+    "Nadia",
+    "Luis"
+  ],
+  "context_zh": "朋友因未提前告知就取消原先的见面安排而道歉。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-02-s01",
+      "speaker": "Nadia",
+      "text": "I'm genuinely sorry I cancelled without telling you. You waited for me, and that wasn't fair."
+    },
+    {
+      "id": "p08-a-02-s02",
+      "speaker": "Luis",
+      "text": "I thought something had happened to you. Then I felt rather foolish."
+    },
+    {
+      "id": "p08-a-02-s03",
+      "speaker": "Nadia",
+      "text": "I was going to book a big dinner as a gesture of apology."
+    },
+    {
+      "id": "p08-a-02-s04",
+      "speaker": "Luis",
+      "text": "I don't need anything grand. I'd rather know you'll send a message next time."
+    },
+    {
+      "id": "p08-a-02-s05",
+      "speaker": "Nadia",
+      "text": "I will. And I won't insist on dinner if that's not what you want."
+    },
+    {
+      "id": "p08-a-02-s06",
+      "speaker": "Luis",
+      "text": "A coffee on Saturday would be nice. Just half an hour, though."
+    },
+    {
+      "id": "p08-a-02-s07",
+      "speaker": "Nadia",
+      "text": "Saturday at ten, then. Don't hesitate to tell me if you need to change it."
+    },
+    {
+      "id": "p08-a-02-s08",
+      "speaker": "Luis",
+      "text": "Ten works. Hopefully, we can put this behind us."
+    },
+    {
+      "id": "p08-a-02-s09",
+      "speaker": "Nadia",
+      "text": "Thanks. I'll meet you outside the station café."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bcb27a23b0177e96",
+      "lemma": "genuinely",
+      "pos": "adv.",
+      "sense_zh": "真诚地",
+      "sentence_ids": [
+        "p08-a-02-s01"
+      ],
+      "forms": [
+        "genuinely"
+      ],
+      "sense_id": "sense-staged-ox-bcb27a23b0177e96-p08-a-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c6bff428871859f8",
+      "lemma": "gesture",
+      "pos": "n.",
+      "sense_zh": "表达歉意的举动",
+      "sentence_ids": [
+        "p08-a-02-s03"
+      ],
+      "forms": [
+        "gesture"
+      ],
+      "sense_id": "sense-staged-ox-c6bff428871859f8-p08-a-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed04b4cee5168ee4",
+      "lemma": "grand",
+      "pos": "adj.",
+      "sense_zh": "隆重铺张的",
+      "sentence_ids": [
+        "p08-a-02-s04"
+      ],
+      "forms": [
+        "grand"
+      ],
+      "sense_id": "sense-staged-ox-ed04b4cee5168ee4-p08-a-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0d845b540861cd3",
+      "lemma": "insist",
+      "pos": "v.",
+      "sense_zh": "坚持要求",
+      "sentence_ids": [
+        "p08-a-02-s05"
+      ],
+      "forms": [
+        "insist"
+      ],
+      "sense_id": "sense-staged-ox-b0d845b540861cd3-p08-a-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ff968e3d94b8e00c",
+      "lemma": "hesitate",
+      "pos": "v.",
+      "sense_zh": "犹豫而不愿做某事",
+      "sentence_ids": [
+        "p08-a-02-s07"
+      ],
+      "forms": [
+        "hesitate"
+      ],
+      "sense_id": "sense-staged-ox-ff968e3d94b8e00c-p08-a-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-31b08e0e6fe40c29",
+      "lemma": "hopefully",
+      "pos": "adv.",
+      "sense_zh": "希望事情能如此",
+      "sentence_ids": [
+        "p08-a-02-s08"
+      ],
+      "forms": [
+        "hopefully"
+      ],
+      "sense_id": "sense-staged-ox-31b08e0e6fe40c29-p08-a-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

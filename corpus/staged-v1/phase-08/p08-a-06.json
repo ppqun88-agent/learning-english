@@ -1,0 +1,147 @@
+{
+  "id": "p08-a-06",
+  "title_zh": "依据虚构案例拟定听证提问",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-governor-hearing-question",
+    "label_zh": "准备虚构州长听证会的问题",
+    "goal_zh": "根据课堂材料区分治理责任与单独定价权限，并写出询问收费决定依据的问题"
+  },
+  "participants": [
+    "Amina",
+    "Theo"
+  ],
+  "context_zh": "学生讨论公民教育课提供的虚构州政府案例，不涉及现实地区的法律。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-06-s01",
+      "speaker": "Amina",
+      "text": "In this case study, the governor wants to charge a fee for using the park."
+    },
+    {
+      "id": "p08-a-06-s02",
+      "speaker": "Theo",
+      "text": "Does being elected to govern the state mean she can set any fee she likes?"
+    },
+    {
+      "id": "p08-a-06-s03",
+      "speaker": "Amina",
+      "text": "No. The case notes say the assembly must approve new charges."
+    },
+    {
+      "id": "p08-a-06-s04",
+      "speaker": "Theo",
+      "text": "Then our question at the mock hearing should be about that approval."
+    },
+    {
+      "id": "p08-a-06-s05",
+      "speaker": "Amina",
+      "text": "Yes. Ask whether she intends to impose the fee before the vote."
+    },
+    {
+      "id": "p08-a-06-s06",
+      "speaker": "Theo",
+      "text": "Should we describe our inquiry as an accusation?"
+    },
+    {
+      "id": "p08-a-06-s07",
+      "speaker": "Amina",
+      "text": "Not yet. We only know she proposed it, not that anyone has been charged."
+    },
+    {
+      "id": "p08-a-06-s08",
+      "speaker": "Theo",
+      "text": "I'll write, 'What approval would be needed before visitors had to pay?'"
+    },
+    {
+      "id": "p08-a-06-s09",
+      "speaker": "Amina",
+      "text": "That asks for the missing information without assuming she's broken the rules."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2c10aa9664e4e5e6",
+      "lemma": "governor",
+      "pos": "n.",
+      "sense_zh": "州长",
+      "sentence_ids": [
+        "p08-a-06-s01"
+      ],
+      "forms": [
+        "governor"
+      ],
+      "sense_id": "sense-staged-ox-2c10aa9664e4e5e6-p08-a-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ddfcf67c12e302ac",
+      "lemma": "govern",
+      "pos": "v.",
+      "sense_zh": "治理州或国家",
+      "sentence_ids": [
+        "p08-a-06-s02"
+      ],
+      "forms": [
+        "govern"
+      ],
+      "sense_id": "sense-staged-ox-ddfcf67c12e302ac-p08-a-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3b01fbbdf13e3542",
+      "lemma": "hearing",
+      "pos": "n.",
+      "sense_zh": "听取意见或证据的正式听证会",
+      "sentence_ids": [
+        "p08-a-06-s04"
+      ],
+      "forms": [
+        "hearing"
+      ],
+      "sense_id": "sense-staged-ox-3b01fbbdf13e3542-p08-a-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21b1b3ce05e6f51f",
+      "lemma": "impose",
+      "pos": "v.",
+      "sense_zh": "强制实行收费等措施",
+      "sentence_ids": [
+        "p08-a-06-s05"
+      ],
+      "forms": [
+        "impose"
+      ],
+      "sense_id": "sense-staged-ox-21b1b3ce05e6f51f-p08-a-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4bb6ea4aad1cafe5",
+      "lemma": "inquiry",
+      "pos": "n.",
+      "sense_zh": "为查明情况而作的询问",
+      "sentence_ids": [
+        "p08-a-06-s06"
+      ],
+      "forms": [
+        "inquiry"
+      ],
+      "sense_id": "sense-staged-ox-4bb6ea4aad1cafe5-p08-a-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

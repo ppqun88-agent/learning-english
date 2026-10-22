@@ -1,0 +1,89 @@
+{
+  "id": "p08-c-07",
+  "title_zh": "确认嘉宾先致辞并提前到场",
+  "topic_id": "community",
+  "scenario": {
+    "id": "ceremony-opening-order-confirmation",
+    "label_zh": "核对开幕致辞顺序与嘉宾到场",
+    "goal_zh": "确认欢迎致辞在合唱前进行，并约定嘉宾提前到门厅与主持人会合"
+  },
+  "participants": [
+    "Dev",
+    "Rosa"
+  ],
+  "context_zh": "社区中心开幕式前，主持人与受邀嘉宾核对流程。",
+  "author": "author-phase08-c",
+  "sentences": [
+    {
+      "id": "p08-c-07-s01",
+      "speaker": "Dev",
+      "text": "Will my welcome speech come before or after the choir?"
+    },
+    {
+      "id": "p08-c-07-s02",
+      "speaker": "Rosa",
+      "text": "It will precede the first song. I'd like to introduce you while everyone is seated."
+    },
+    {
+      "id": "p08-c-07-s03",
+      "speaker": "Dev",
+      "text": "Then I'll arrive early rather than slip in just before the performance."
+    },
+    {
+      "id": "p08-c-07-s04",
+      "speaker": "Rosa",
+      "text": "Thank you. Your presence means a lot to the volunteers who restored this place."
+    },
+    {
+      "id": "p08-c-07-s05",
+      "speaker": "Dev",
+      "text": "Where should I meet you?"
+    },
+    {
+      "id": "p08-c-07-s06",
+      "speaker": "Rosa",
+      "text": "In the foyer at half past six. I'll walk you to the front row."
+    },
+    {
+      "id": "p08-c-07-s07",
+      "speaker": "Dev",
+      "text": "Half past six in the foyer. I'll be there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ea286abf284560a3",
+      "lemma": "precede",
+      "pos": "v.",
+      "sense_zh": "在……之前发生",
+      "sentence_ids": [
+        "p08-c-07-s02"
+      ],
+      "forms": [
+        "precede"
+      ],
+      "sense_id": "sense-staged-ox-ea286abf284560a3-p08-c-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-94adc5241815bcae",
+      "lemma": "presence",
+      "pos": "n.",
+      "sense_zh": "出席或在场",
+      "sentence_ids": [
+        "p08-c-07-s04"
+      ],
+      "forms": [
+        "presence"
+      ],
+      "sense_id": "sense-staged-ox-94adc5241815bcae-p08-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

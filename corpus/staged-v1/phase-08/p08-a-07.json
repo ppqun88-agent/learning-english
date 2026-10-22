@@ -1,0 +1,158 @@
+{
+  "id": "p08-a-07",
+  "title_zh": "分享野餐点心并装好剩余部分",
+  "topic_id": "food",
+  "scenario": {
+    "id": "picnic-pastry-sharing",
+    "label_zh": "分配野餐点心",
+    "goal_zh": "品尝点心并按食量分配，约定把剩余部分带走"
+  },
+  "participants": [
+    "Rosa",
+    "Eli"
+  ],
+  "context_zh": "朋友在公园摊开各自带来的野餐食物。",
+  "author": "author-phase08-a",
+  "sentences": [
+    {
+      "id": "p08-a-07-s01",
+      "speaker": "Rosa",
+      "text": "Those pastries look gorgeous. Did you make them?"
+    },
+    {
+      "id": "p08-a-07-s02",
+      "speaker": "Eli",
+      "text": "Yes. I took them out when the tops were golden, so they should still be soft inside."
+    },
+    {
+      "id": "p08-a-07-s03",
+      "speaker": "Rosa",
+      "text": "My goodness, you brought enough for a party!"
+    },
+    {
+      "id": "p08-a-07-s04",
+      "speaker": "Eli",
+      "text": "I got carried away. Grab a plate before I open the honey; the lid is sticky."
+    },
+    {
+      "id": "p08-a-07-s05",
+      "speaker": "Rosa",
+      "text": "Here you go. I'll have one now. That should take the edge off my hunger."
+    },
+    {
+      "id": "p08-a-07-s06",
+      "speaker": "Eli",
+      "text": "Would you like a little honey on it?"
+    },
+    {
+      "id": "p08-a-07-s07",
+      "speaker": "Rosa",
+      "text": "Just a little, thanks. Let's put the rest in your box rather than leave them out."
+    },
+    {
+      "id": "p08-a-07-s08",
+      "speaker": "Eli",
+      "text": "Good idea. We can each take a few home."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5ed93af0763f9d13",
+      "lemma": "gorgeous",
+      "pos": "adj.",
+      "sense_zh": "非常诱人或漂亮的",
+      "sentence_ids": [
+        "p08-a-07-s01"
+      ],
+      "forms": [
+        "gorgeous"
+      ],
+      "sense_id": "sense-staged-ox-5ed93af0763f9d13-p08-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-87d8301472cf1baf",
+      "lemma": "golden",
+      "pos": "adj.",
+      "sense_zh": "金黄色的",
+      "sentence_ids": [
+        "p08-a-07-s02"
+      ],
+      "forms": [
+        "golden"
+      ],
+      "sense_id": "sense-staged-ox-87d8301472cf1baf-p08-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7bf7e3c37ed8e383",
+      "lemma": "goodness",
+      "pos": "n.",
+      "sense_zh": "用于表示惊讶的感叹语",
+      "sentence_ids": [
+        "p08-a-07-s03"
+      ],
+      "forms": [
+        "goodness"
+      ],
+      "sense_id": "sense-staged-ox-7bf7e3c37ed8e383-p08-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f577ac9b6b2568df",
+      "lemma": "grab",
+      "pos": "v.",
+      "sense_zh": "迅速拿取",
+      "sentence_ids": [
+        "p08-a-07-s04"
+      ],
+      "forms": [
+        "grab"
+      ],
+      "sense_id": "sense-staged-ox-f577ac9b6b2568df-p08-a-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9416f15384766afe",
+      "lemma": "honey",
+      "pos": "n.",
+      "sense_zh": "蜂蜜",
+      "sentence_ids": [
+        "p08-a-07-s04"
+      ],
+      "forms": [
+        "honey"
+      ],
+      "sense_id": "sense-staged-ox-9416f15384766afe-p08-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6a3ff2c7c0aac899",
+      "lemma": "hunger",
+      "pos": "n.",
+      "sense_zh": "饥饿感",
+      "sentence_ids": [
+        "p08-a-07-s05"
+      ],
+      "forms": [
+        "hunger"
+      ],
+      "sense_id": "sense-staged-ox-6a3ff2c7c0aac899-p08-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
