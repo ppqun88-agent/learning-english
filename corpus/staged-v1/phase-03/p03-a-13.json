@@ -1,0 +1,142 @@
+{
+  "id": "p03-a-13",
+  "title_zh": "在公园找到小鸟后求助",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "injured-bird-help",
+    "label_zh": "联系动物救助人员",
+    "goal_zh": "路人发现受伤小鸟，安全求助并与救助者协调。"
+  },
+  "participants": [
+    "Anika",
+    "Rob"
+  ],
+  "context_zh": "路人发现一只不能飞走的小鸟，打电话联系公园动物救助人员并描述现场。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-13-s01",
+      "speaker": "Anika",
+      "text": "Is anybody available to help with a young bird near the east gate?"
+    },
+    {
+      "id": "p03-a-13-s02",
+      "speaker": "Rob",
+      "text": "I am the park wildlife volunteer. What can you see?"
+    },
+    {
+      "id": "p03-a-13-s03",
+      "speaker": "Anika",
+      "text": "It is alive, but it has not moved from the path. I think it needs attention."
+    },
+    {
+      "id": "p03-a-13-s04",
+      "speaker": "Rob",
+      "text": "Thank you for calling. I will come and check it. Which side of the gate are you on?"
+    },
+    {
+      "id": "p03-a-13-s05",
+      "speaker": "Anika",
+      "text": "Inside, beside the bench. There is a crowd near the other entrance."
+    },
+    {
+      "id": "p03-a-13-s06",
+      "speaker": "Rob",
+      "text": "I will avoid that entrance and come directly to the east gate."
+    },
+    {
+      "id": "p03-a-13-s07",
+      "speaker": "Anika",
+      "text": "I am wearing a red coat. I will point out the spot when you arrive."
+    },
+    {
+      "id": "p03-a-13-s08",
+      "speaker": "Rob",
+      "text": "Thanks. I am on my way."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c9f84583db8577e2",
+      "lemma": "anybody",
+      "pos": "pron.",
+      "sense_zh": "任何人，用于询问是否有人",
+      "sentence_ids": [
+        "p03-a-13-s01"
+      ],
+      "forms": [
+        "anybody"
+      ],
+      "sense_id": "sense-staged-ox-c9f84583db8577e2-p03-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8ac7932cc75f7cb1",
+      "lemma": "young",
+      "pos": "adj.",
+      "sense_zh": "幼小的",
+      "sentence_ids": [
+        "p03-a-13-s01"
+      ],
+      "forms": [
+        "young"
+      ],
+      "sense_id": "sense-staged-ox-8ac7932cc75f7cb1-p03-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a75b698815b2818c",
+      "lemma": "alive",
+      "pos": "adj.",
+      "sense_zh": "活着的",
+      "sentence_ids": [
+        "p03-a-13-s03"
+      ],
+      "forms": [
+        "alive"
+      ],
+      "sense_id": "sense-staged-ox-a75b698815b2818c-p03-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7d0479602a96c54d",
+      "lemma": "attention",
+      "pos": "n.",
+      "sense_zh": "照看，处理",
+      "sentence_ids": [
+        "p03-a-13-s03"
+      ],
+      "forms": [
+        "attention"
+      ],
+      "sense_id": "sense-staged-ox-7d0479602a96c54d-p03-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57b0cc3b5e26c184",
+      "lemma": "avoid",
+      "pos": "v.",
+      "sense_zh": "避开某个地方",
+      "sentence_ids": [
+        "p03-a-13-s06"
+      ],
+      "forms": [
+        "avoid"
+      ],
+      "sense_id": "sense-staged-ox-57b0cc3b5e26c184-p03-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,174 @@
+{
+  "id": "p03-a-05",
+  "title_zh": "在前台接待预约访客",
+  "topic_id": "work",
+  "scenario": {
+    "id": "office-visitor-reception",
+    "label_zh": "接待办公访客",
+    "goal_zh": "核对预约并安排访客等候和前往会议室"
+  },
+  "participants": [
+    "Amal",
+    "Ben"
+  ],
+  "context_zh": "两名有预约的访客到达办公室前台，接待员确认会面安排。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-05-s01",
+      "speaker": "Amal",
+      "text": "Welcome! Are you here to see Ms Cole?"
+    },
+    {
+      "id": "p03-a-05-s02",
+      "speaker": "Ben",
+      "text": "Yes. I am her ten o'clock visitor, and this is my colleague."
+    },
+    {
+      "id": "p03-a-05-s03",
+      "speaker": "Amal",
+      "text": "She is finishing a call. Please wait here until she comes down."
+    },
+    {
+      "id": "p03-a-05-s04",
+      "speaker": "Ben",
+      "text": "That is fine. Is the meeting room upstairs?"
+    },
+    {
+      "id": "p03-a-05-s05",
+      "speaker": "Amal",
+      "text": "Yes. She will take you up the stairs beside reception."
+    },
+    {
+      "id": "p03-a-05-s06",
+      "speaker": "Ben",
+      "text": "Could you let her know that both of us are here?"
+    },
+    {
+      "id": "p03-a-05-s07",
+      "speaker": "Amal",
+      "text": "Of course. I have sent her a message."
+    },
+    {
+      "id": "p03-a-05-s08",
+      "speaker": "Ben",
+      "text": "Thanks. We will take a seat."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-96e8f34c7a9a2ca9",
+      "lemma": "welcome",
+      "pos": "exclam.",
+      "sense_zh": "欢迎",
+      "sentence_ids": [
+        "p03-a-05-s01"
+      ],
+      "forms": [
+        "welcome"
+      ],
+      "sense_id": "sense-staged-ox-96e8f34c7a9a2ca9-p03-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-56c2eeb4b9a13ebc",
+      "lemma": "visitor",
+      "pos": "n.",
+      "sense_zh": "来访者",
+      "sentence_ids": [
+        "p03-a-05-s02"
+      ],
+      "forms": [
+        "visitor"
+      ],
+      "sense_id": "sense-staged-ox-56c2eeb4b9a13ebc-p03-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-49ac866c1673b6f5",
+      "lemma": "wait",
+      "pos": "v.",
+      "sense_zh": "等候",
+      "sentence_ids": [
+        "p03-a-05-s03"
+      ],
+      "forms": [
+        "wait"
+      ],
+      "sense_id": "sense-staged-ox-49ac866c1673b6f5-p03-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5275fb53f375faa8",
+      "lemma": "until",
+      "pos": "conj.",
+      "sense_zh": "直到某事发生",
+      "sentence_ids": [
+        "p03-a-05-s03"
+      ],
+      "forms": [
+        "until"
+      ],
+      "sense_id": "sense-staged-ox-5275fb53f375faa8-p03-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c15b428bba5170f",
+      "lemma": "upstairs",
+      "pos": "adv.",
+      "sense_zh": "在楼上",
+      "sentence_ids": [
+        "p03-a-05-s04"
+      ],
+      "forms": [
+        "upstairs"
+      ],
+      "sense_id": "sense-staged-ox-7c15b428bba5170f-p03-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b5f62e167849cbbb",
+      "lemma": "up",
+      "pos": "prep.",
+      "sense_zh": "沿着向上",
+      "sentence_ids": [
+        "p03-a-05-s05"
+      ],
+      "forms": [
+        "up"
+      ],
+      "sense_id": "sense-staged-ox-b5f62e167849cbbb-p03-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8fd8cb19d167f794",
+      "lemma": "us",
+      "pos": "pron.",
+      "sense_zh": "我们，作宾语",
+      "sentence_ids": [
+        "p03-a-05-s06"
+      ],
+      "forms": [
+        "us"
+      ],
+      "sense_id": "sense-staged-ox-8fd8cb19d167f794-p03-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

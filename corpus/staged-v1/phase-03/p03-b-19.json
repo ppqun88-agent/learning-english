@@ -1,0 +1,142 @@
+{
+  "id": "p03-b-19",
+  "title_zh": "周五电影夜选喜剧",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "friends-film-night",
+    "label_zh": "商定朋友电影之夜",
+    "goal_zh": "兼顾时间与喜好选定影片"
+  },
+  "participants": [
+    "Ravi",
+    "Elise"
+  ],
+  "context_zh": "两位朋友确认可用时间，并从两部电影中选定一部。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-19-s01",
+      "speaker": "Ravi",
+      "text": "Are you still free for our film night on Friday?"
+    },
+    {
+      "id": "p03-b-19-s02",
+      "speaker": "Elise",
+      "text": "Yes, but I need to leave by ten. What shall we watch?"
+    },
+    {
+      "id": "p03-b-19-s03",
+      "speaker": "Ravi",
+      "text": "I was thinking of that long space drama."
+    },
+    {
+      "id": "p03-b-19-s04",
+      "speaker": "Elise",
+      "text": "I disagree with that choice. We would not have time to finish it. How about a comedy?"
+    },
+    {
+      "id": "p03-b-19-s05",
+      "speaker": "Ravi",
+      "text": "There is a new one by the director who made our favourite film last year."
+    },
+    {
+      "id": "p03-b-19-s06",
+      "speaker": "Elise",
+      "text": "I have not seen it. Let us give it a chance."
+    },
+    {
+      "id": "p03-b-19-s07",
+      "speaker": "Ravi",
+      "text": "It is only ninety minutes, so a seven o'clock start would work."
+    },
+    {
+      "id": "p03-b-19-s08",
+      "speaker": "Elise",
+      "text": "Then I can definitely stay for the whole film. See you at seven."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5d6ed72e90de0b3b",
+      "lemma": "disagree",
+      "pos": "v.",
+      "sense_zh": "不同意",
+      "sentence_ids": [
+        "p03-b-19-s04"
+      ],
+      "forms": [
+        "disagree"
+      ],
+      "sense_id": "sense-staged-ox-5d6ed72e90de0b3b-p03-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-777728429489cea7",
+      "lemma": "comedy",
+      "pos": "n.",
+      "sense_zh": "喜剧电影",
+      "sentence_ids": [
+        "p03-b-19-s04"
+      ],
+      "forms": [
+        "comedy"
+      ],
+      "sense_id": "sense-staged-ox-777728429489cea7-p03-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f08062d9c3cf631c",
+      "lemma": "director",
+      "pos": "n.",
+      "sense_zh": "电影导演",
+      "sentence_ids": [
+        "p03-b-19-s05"
+      ],
+      "forms": [
+        "director"
+      ],
+      "sense_id": "sense-staged-ox-f08062d9c3cf631c-p03-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d16ba384fcc1704a",
+      "lemma": "chance",
+      "pos": "n.",
+      "sense_zh": "尝试或表现的机会",
+      "sentence_ids": [
+        "p03-b-19-s06"
+      ],
+      "forms": [
+        "chance"
+      ],
+      "sense_id": "sense-staged-ox-d16ba384fcc1704a-p03-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-acf41c36f5f214c5",
+      "lemma": "definitely",
+      "pos": "adv.",
+      "sense_zh": "肯定地；确实地",
+      "sentence_ids": [
+        "p03-b-19-s08"
+      ],
+      "forms": [
+        "definitely"
+      ],
+      "sense_id": "sense-staged-ox-acf41c36f5f214c5-p03-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

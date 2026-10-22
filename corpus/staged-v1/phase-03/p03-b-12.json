@@ -1,0 +1,137 @@
+{
+  "id": "p03-b-12",
+  "title_zh": "先看数量单位再核对数据",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "spreadsheet-number-units",
+    "label_zh": "核对练习表格的数量单位",
+    "goal_zh": "辨认数据列的数量单位并核实计数结果。"
+  },
+  "participants": [
+    "Lucia",
+    "Kenji"
+  ],
+  "context_zh": "学生练习核对一份虚构游戏数据表，数字并非现实世界统计。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-12-s01",
+      "speaker": "Lucia",
+      "text": "These data are from our made-up game, not from real players, right?"
+    },
+    {
+      "id": "p03-b-12-s02",
+      "speaker": "Kenji",
+      "text": "Right. We are only practising how to read the table."
+    },
+    {
+      "id": "p03-b-12-s03",
+      "speaker": "Lucia",
+      "text": "This column says \"billions\". Does the number two mean two billion coins?"
+    },
+    {
+      "id": "p03-b-12-s04",
+      "speaker": "Kenji",
+      "text": "Yes. The other column gives the number of players, so do not mix the units."
+    },
+    {
+      "id": "p03-b-12-s05",
+      "speaker": "Lucia",
+      "text": "That is clear now. I will count the rows with more than one billion coins."
+    },
+    {
+      "id": "p03-b-12-s06",
+      "speaker": "Kenji",
+      "text": "I found three. What did you get?"
+    },
+    {
+      "id": "p03-b-12-s07",
+      "speaker": "Lucia",
+      "text": "Three as well. I will write the unit beside our answer so nobody mistakes it for three coins."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d271f175054f7628",
+      "lemma": "data",
+      "pos": "n.",
+      "sense_zh": "供分析的数据",
+      "sentence_ids": [
+        "p03-b-12-s01"
+      ],
+      "forms": [
+        "data"
+      ],
+      "sense_id": "sense-staged-ox-d271f175054f7628-p03-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0340ae544b9d6ddf",
+      "lemma": "column",
+      "pos": "n.",
+      "sense_zh": "表格的列",
+      "sentence_ids": [
+        "p03-b-12-s03"
+      ],
+      "forms": [
+        "column"
+      ],
+      "sense_id": "sense-staged-ox-0340ae544b9d6ddf-p03-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30ab66610f5c8a3b",
+      "lemma": "billion",
+      "pos": "number",
+      "sense_zh": "十亿",
+      "sentence_ids": [
+        "p03-b-12-s03"
+      ],
+      "forms": [
+        "billion"
+      ],
+      "sense_id": "sense-staged-ox-30ab66610f5c8a3b-p03-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8e5b306f25cbeab",
+      "lemma": "clear",
+      "pos": "adj.",
+      "sense_zh": "清楚易懂的",
+      "sentence_ids": [
+        "p03-b-12-s05"
+      ],
+      "forms": [
+        "clear"
+      ],
+      "sense_id": "sense-staged-ox-f8e5b306f25cbeab-p03-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-972cfba34c906e7c",
+      "lemma": "count",
+      "pos": "v.",
+      "sense_zh": "计数",
+      "sentence_ids": [
+        "p03-b-12-s05"
+      ],
+      "forms": [
+        "count"
+      ],
+      "sense_id": "sense-staged-ox-972cfba34c906e7c-p03-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

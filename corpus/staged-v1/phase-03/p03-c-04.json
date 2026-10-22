@@ -1,0 +1,179 @@
+{
+  "id": "p03-c-04",
+  "title_zh": "找回下载后看不见的文件",
+  "topic_id": "services",
+  "scenario": {
+    "id": "missing-pdf-download",
+    "label_zh": "排查电子文件下载失败",
+    "goal_zh": "重现文件消失问题并确认正确的保存方法"
+  },
+  "participants": [
+    "Zoe",
+    "Malik"
+  ],
+  "context_zh": "图书馆的电脑帮助台协助读者保存一份电子报名表。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-04-s01",
+      "speaker": "Zoe",
+      "text": "I can open the electronic form, but it seems to disappear when I close the browser."
+    },
+    {
+      "id": "p03-c-04-s02",
+      "speaker": "Malik",
+      "text": "Did you download it, or just open the preview?"
+    },
+    {
+      "id": "p03-c-04-s03",
+      "speaker": "Zoe",
+      "text": "Just the preview. When I try to save it, I get an error."
+    },
+    {
+      "id": "p03-c-04-s04",
+      "speaker": "Malik",
+      "text": "What's the exact message?"
+    },
+    {
+      "id": "p03-c-04-s05",
+      "speaker": "Zoe",
+      "text": "It says, 'Choose a file name.'"
+    },
+    {
+      "id": "p03-c-04-s06",
+      "speaker": "Malik",
+      "text": "That helps. We can fix this by giving the file a name before saving it."
+    },
+    {
+      "id": "p03-c-04-s07",
+      "speaker": "Zoe",
+      "text": "Should I type the name exactly as it appears at the top of the form?"
+    },
+    {
+      "id": "p03-c-04-s08",
+      "speaker": "Malik",
+      "text": "You can use a shorter name. Try 'Course form' and save it in Documents."
+    },
+    {
+      "id": "p03-c-04-s09",
+      "speaker": "Zoe",
+      "text": "There it is. I've closed the browser and can still open the file. Thanks!"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-397ee88905d6374d",
+      "lemma": "disappear",
+      "pos": "v.",
+      "sense_zh": "消失；不再看得见",
+      "sentence_ids": [
+        "p03-c-04-s01"
+      ],
+      "forms": [
+        "disappear"
+      ],
+      "sense_id": "sense-staged-ox-397ee88905d6374d-p03-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30c1ac24803b748a",
+      "lemma": "download",
+      "pos": "v.",
+      "sense_zh": "下载",
+      "sentence_ids": [
+        "p03-c-04-s02"
+      ],
+      "forms": [
+        "download"
+      ],
+      "sense_id": "sense-staged-ox-30c1ac24803b748a-p03-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ee83a162310f7597",
+      "lemma": "electronic",
+      "pos": "adj.",
+      "sense_zh": "电子的",
+      "sentence_ids": [
+        "p03-c-04-s01"
+      ],
+      "forms": [
+        "electronic"
+      ],
+      "sense_id": "sense-staged-ox-ee83a162310f7597-p03-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7368ff9a48ca1382",
+      "lemma": "error",
+      "pos": "n.",
+      "sense_zh": "错误；报错",
+      "sentence_ids": [
+        "p03-c-04-s03"
+      ],
+      "forms": [
+        "error"
+      ],
+      "sense_id": "sense-staged-ox-7368ff9a48ca1382-p03-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-577e800adc23a514",
+      "lemma": "exact",
+      "pos": "adj.",
+      "sense_zh": "准确的；原样的",
+      "sentence_ids": [
+        "p03-c-04-s04"
+      ],
+      "forms": [
+        "exact"
+      ],
+      "sense_id": "sense-staged-ox-577e800adc23a514-p03-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57bc6ceda632ebf7",
+      "lemma": "exactly",
+      "pos": "adv.",
+      "sense_zh": "完全按照；一模一样地",
+      "sentence_ids": [
+        "p03-c-04-s07"
+      ],
+      "forms": [
+        "exactly"
+      ],
+      "sense_id": "sense-staged-ox-57bc6ceda632ebf7-p03-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17cdec4e0f5e0412",
+      "lemma": "fix",
+      "pos": "v.",
+      "sense_zh": "解决问题",
+      "sentence_ids": [
+        "p03-c-04-s06"
+      ],
+      "forms": [
+        "fix"
+      ],
+      "sense_id": "sense-staged-ox-17cdec4e0f5e0412-p03-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

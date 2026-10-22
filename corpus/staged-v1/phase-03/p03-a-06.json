@@ -1,0 +1,201 @@
+{
+  "id": "p03-a-06",
+  "title_zh": "点汤并说明配餐偏好",
+  "topic_id": "food",
+  "scenario": {
+    "id": "restaurant-soup-and-wine-order",
+    "label_zh": "点汤及配餐饮料",
+    "goal_zh": "询问汤的配料并确定面包与饮料需求"
+  },
+  "participants": [
+    "Clara",
+    "Jon",
+    "Mateo"
+  ],
+  "context_zh": "顾客在餐厅向服务员询问当天汤品后完成点单。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-06-s01",
+      "speaker": "Clara",
+      "text": "Could we ask our waiter about the soup before we order?"
+    },
+    {
+      "id": "p03-a-06-s02",
+      "speaker": "Jon",
+      "text": "Here he is."
+    },
+    {
+      "id": "p03-a-06-s03",
+      "speaker": "Mateo",
+      "text": "Hello. What would you like to know?"
+    },
+    {
+      "id": "p03-a-06-s04",
+      "speaker": "Clara",
+      "text": "Do you have a vegetable soup today?"
+    },
+    {
+      "id": "p03-a-06-s05",
+      "speaker": "Mateo",
+      "text": "Yes, a white bean soup with carrot and celery."
+    },
+    {
+      "id": "p03-a-06-s06",
+      "speaker": "Clara",
+      "text": "That sounds good. Could I have it without the cream on top?"
+    },
+    {
+      "id": "p03-a-06-s07",
+      "speaker": "Mateo",
+      "text": "Certainly. Would you like some warm bread with it?"
+    },
+    {
+      "id": "p03-a-06-s08",
+      "speaker": "Clara",
+      "text": "Yes, please, and a small glass of red wine."
+    },
+    {
+      "id": "p03-a-06-s09",
+      "speaker": "Jon",
+      "text": "The same soup for me, but just water to drink."
+    },
+    {
+      "id": "p03-a-06-s10",
+      "speaker": "Mateo",
+      "text": "Two soups, one without cream, bread, one wine, and water. Thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6addcc236ed31729",
+      "lemma": "waiter",
+      "pos": "n.",
+      "sense_zh": "餐厅服务员",
+      "sentence_ids": [
+        "p03-a-06-s01"
+      ],
+      "forms": [
+        "waiter"
+      ],
+      "sense_id": "sense-staged-ox-6addcc236ed31729-p03-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-81a2bac80cdf0340",
+      "lemma": "what",
+      "pos": "pron.",
+      "sense_zh": "什么",
+      "sentence_ids": [
+        "p03-a-06-s03"
+      ],
+      "forms": [
+        "what"
+      ],
+      "sense_id": "sense-staged-ox-81a2bac80cdf0340-p03-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4a27dbd161cde03",
+      "lemma": "vegetable",
+      "pos": "n.",
+      "sense_zh": "蔬菜，用作名词修饰语",
+      "sentence_ids": [
+        "p03-a-06-s04"
+      ],
+      "forms": [
+        "vegetable"
+      ],
+      "sense_id": "sense-staged-ox-c4a27dbd161cde03-p03-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a32400833d1ab5f",
+      "lemma": "bean",
+      "pos": "n.",
+      "sense_zh": "豆，用作名词修饰语",
+      "sentence_ids": [
+        "p03-a-06-s05"
+      ],
+      "forms": [
+        "bean"
+      ],
+      "sense_id": "sense-staged-ox-5a32400833d1ab5f-p03-a-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3f29bcbb3088951e",
+      "lemma": "without",
+      "pos": "prep.",
+      "sense_zh": "没有，不加",
+      "sentence_ids": [
+        "p03-a-06-s06"
+      ],
+      "forms": [
+        "without"
+      ],
+      "sense_id": "sense-staged-ox-3f29bcbb3088951e-p03-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a802275a2496c32b",
+      "lemma": "would",
+      "pos": "modal v.",
+      "sense_zh": "用于礼貌询问意愿",
+      "sentence_ids": [
+        "p03-a-06-s07"
+      ],
+      "forms": [
+        "would"
+      ],
+      "sense_id": "sense-staged-ox-a802275a2496c32b-p03-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e86cfb7827cc476c",
+      "lemma": "warm",
+      "pos": "adj.",
+      "sense_zh": "温热的",
+      "sentence_ids": [
+        "p03-a-06-s07"
+      ],
+      "forms": [
+        "warm"
+      ],
+      "sense_id": "sense-staged-ox-e86cfb7827cc476c-p03-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-253b0e3208ec2c26",
+      "lemma": "wine",
+      "pos": "n.",
+      "sense_zh": "葡萄酒",
+      "sentence_ids": [
+        "p03-a-06-s08"
+      ],
+      "forms": [
+        "wine"
+      ],
+      "sense_id": "sense-staged-ox-253b0e3208ec2c26-p03-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

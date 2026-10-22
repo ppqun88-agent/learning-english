@@ -1,0 +1,105 @@
+{
+  "id": "p03-c-25",
+  "title_zh": "找到钥匙后换个存放地方",
+  "topic_id": "home",
+  "scenario": {
+    "id": "missing-keys-habit",
+    "label_zh": "寻找钥匙并调整放置习惯",
+    "goal_zh": "根据最后使用情况找到钥匙并商定固定存放位置"
+  },
+  "participants": [
+    "Willa",
+    "Devon"
+  ],
+  "context_zh": "室友在家寻找遗失的钥匙，并商定以后放置钥匙的位置。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-25-s01",
+      "speaker": "Willa",
+      "text": "I've looked everywhere for my keys. Have you seen them?"
+    },
+    {
+      "id": "p03-c-25-s02",
+      "speaker": "Devon",
+      "text": "You were carrying the washing when you came in. Did you put them on the basket?"
+    },
+    {
+      "id": "p03-c-25-s03",
+      "speaker": "Willa",
+      "text": "No, but I might have left them under the towel on this chair."
+    },
+    {
+      "id": "p03-c-25-s04",
+      "speaker": "Devon",
+      "text": "There they are. You have a habit of putting things down while your hands are full."
+    },
+    {
+      "id": "p03-c-25-s05",
+      "speaker": "Willa",
+      "text": "I know. I seem to hide them from myself without meaning to."
+    },
+    {
+      "id": "p03-c-25-s06",
+      "speaker": "Devon",
+      "text": "Would a small bowl by the door help?"
+    },
+    {
+      "id": "p03-c-25-s07",
+      "speaker": "Willa",
+      "text": "Yes. Let's use the blue one. I'll put the keys there as soon as I come in."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fb5bf75353a9035f",
+      "lemma": "everywhere",
+      "pos": "adv.",
+      "sense_zh": "到处；所有地方",
+      "sentence_ids": [
+        "p03-c-25-s01"
+      ],
+      "forms": [
+        "everywhere"
+      ],
+      "sense_id": "sense-staged-ox-fb5bf75353a9035f-p03-c-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-32fa6199b111e37f",
+      "lemma": "habit",
+      "pos": "n.",
+      "sense_zh": "习惯",
+      "sentence_ids": [
+        "p03-c-25-s04"
+      ],
+      "forms": [
+        "habit"
+      ],
+      "sense_id": "sense-staged-ox-32fa6199b111e37f-p03-c-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a8b9a0709e11b745",
+      "lemma": "hide",
+      "pos": "v.",
+      "sense_zh": "把……藏起来；使不易看到",
+      "sentence_ids": [
+        "p03-c-25-s05"
+      ],
+      "forms": [
+        "hide"
+      ],
+      "sense_id": "sense-staged-ox-a8b9a0709e11b745-p03-c-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

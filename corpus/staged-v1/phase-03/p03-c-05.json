@@ -1,0 +1,195 @@
+{
+  "id": "p03-c-05",
+  "title_zh": "了解工厂学徒岗位",
+  "topic_id": "work",
+  "scenario": {
+    "id": "factory-apprentice-job-inquiry",
+    "label_zh": "询问工厂学徒岗位",
+    "goal_zh": "核实岗位经验要求、培训机会和报酬"
+  },
+  "participants": [
+    "Nadia",
+    "Mr Cole"
+  ],
+  "context_zh": "求职者参加一家虚构制造厂的公开招聘咨询，询问培训岗位。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-05-s01",
+      "speaker": "Nadia",
+      "text": "Do you employ people who haven't worked in a factory before?"
+    },
+    {
+      "id": "p03-c-05-s02",
+      "speaker": "Mr Cole",
+      "text": "Yes. Our apprentice roles don't require previous experience."
+    },
+    {
+      "id": "p03-c-05-s03",
+      "speaker": "Nadia",
+      "text": "I'd like to become an engineer, but I can't afford to stop working."
+    },
+    {
+      "id": "p03-c-05-s04",
+      "speaker": "Mr Cole",
+      "text": "You'd earn a wage while you train. Part of the week is spent at college."
+    },
+    {
+      "id": "p03-c-05-s05",
+      "speaker": "Nadia",
+      "text": "So I could continue my education and still be an employee?"
+    },
+    {
+      "id": "p03-c-05-s06",
+      "speaker": "Mr Cole",
+      "text": "Exactly. The job and the college course run together."
+    },
+    {
+      "id": "p03-c-05-s07",
+      "speaker": "Nadia",
+      "text": "My current employer needs four weeks' notice. Would that be a problem?"
+    },
+    {
+      "id": "p03-c-05-s08",
+      "speaker": "Mr Cole",
+      "text": "No. The next group starts in January. Here's the application page."
+    },
+    {
+      "id": "p03-c-05-s09",
+      "speaker": "Nadia",
+      "text": "Thanks. I'll read the course details before I apply."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4e82e295979724fe",
+      "lemma": "earn",
+      "pos": "v.",
+      "sense_zh": "通过工作赚取",
+      "sentence_ids": [
+        "p03-c-05-s04"
+      ],
+      "forms": [
+        "earn"
+      ],
+      "sense_id": "sense-staged-ox-4e82e295979724fe-p03-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9b72f1602894a26c",
+      "lemma": "education",
+      "pos": "n.",
+      "sense_zh": "教育；受教育经历",
+      "sentence_ids": [
+        "p03-c-05-s05"
+      ],
+      "forms": [
+        "education"
+      ],
+      "sense_id": "sense-staged-ox-9b72f1602894a26c-p03-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4b95003e84cbd13",
+      "lemma": "employ",
+      "pos": "v.",
+      "sense_zh": "雇用",
+      "sentence_ids": [
+        "p03-c-05-s01"
+      ],
+      "forms": [
+        "employ"
+      ],
+      "sense_id": "sense-staged-ox-c4b95003e84cbd13-p03-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a9c64af0455c7f4",
+      "lemma": "employee",
+      "pos": "n.",
+      "sense_zh": "雇员",
+      "sentence_ids": [
+        "p03-c-05-s05"
+      ],
+      "forms": [
+        "employee"
+      ],
+      "sense_id": "sense-staged-ox-8a9c64af0455c7f4-p03-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3794a8758ab28e02",
+      "lemma": "employer",
+      "pos": "n.",
+      "sense_zh": "雇主",
+      "sentence_ids": [
+        "p03-c-05-s07"
+      ],
+      "forms": [
+        "employer"
+      ],
+      "sense_id": "sense-staged-ox-3794a8758ab28e02-p03-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d038b3f58cb28030",
+      "lemma": "experience",
+      "pos": "n.",
+      "sense_zh": "工作经验",
+      "sentence_ids": [
+        "p03-c-05-s02"
+      ],
+      "forms": [
+        "experience"
+      ],
+      "sense_id": "sense-staged-ox-d038b3f58cb28030-p03-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-047cbc586ba412d1",
+      "lemma": "factory",
+      "pos": "n.",
+      "sense_zh": "工厂",
+      "sentence_ids": [
+        "p03-c-05-s01"
+      ],
+      "forms": [
+        "factory"
+      ],
+      "sense_id": "sense-staged-ox-047cbc586ba412d1-p03-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0edcb355613dae78",
+      "lemma": "engineer",
+      "pos": "n.",
+      "sense_zh": "工程师",
+      "sentence_ids": [
+        "p03-c-05-s03"
+      ],
+      "forms": [
+        "engineer"
+      ],
+      "sense_id": "sense-staged-ox-0edcb355613dae78-p03-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

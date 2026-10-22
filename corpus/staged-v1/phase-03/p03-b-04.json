@@ -1,0 +1,158 @@
+{
+  "id": "p03-b-04",
+  "title_zh": "向朋友借一件面试外套",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "borrow-clothes-for-interview",
+    "label_zh": "借用面试服装",
+    "goal_zh": "确认可借用的衣物、腰带及归还安排。"
+  },
+  "participants": [
+    "Leila",
+    "Marcus"
+  ],
+  "context_zh": "莱拉准备参加面试，朋友邀请她从衣柜中借用合适的衣服。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-04-s01",
+      "speaker": "Leila",
+      "text": "Could I borrow your grey jacket for my interview on Thursday?"
+    },
+    {
+      "id": "p03-b-04-s02",
+      "speaker": "Marcus",
+      "text": "Of course. It is in the closet, with my work clothing."
+    },
+    {
+      "id": "p03-b-04-s03",
+      "speaker": "Leila",
+      "text": "Does the brown belt belong to you as well?"
+    },
+    {
+      "id": "p03-b-04-s04",
+      "speaker": "Marcus",
+      "text": "Yes. Take that too if it fits."
+    },
+    {
+      "id": "p03-b-04-s05",
+      "speaker": "Leila",
+      "text": "There is a glasses case in the jacket pocket. Shall I leave it here?"
+    },
+    {
+      "id": "p03-b-04-s06",
+      "speaker": "Marcus",
+      "text": "Please do. I was looking for that."
+    },
+    {
+      "id": "p03-b-04-s07",
+      "speaker": "Leila",
+      "text": "I will bring the jacket and belt back on Friday, after I have had them cleaned."
+    },
+    {
+      "id": "p03-b-04-s08",
+      "speaker": "Marcus",
+      "text": "Friday is fine. Good luck with the interview."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-68882fe5926cf71d",
+      "lemma": "borrow",
+      "pos": "v.",
+      "sense_zh": "借用",
+      "sentence_ids": [
+        "p03-b-04-s01"
+      ],
+      "forms": [
+        "borrow"
+      ],
+      "sense_id": "sense-staged-ox-68882fe5926cf71d-p03-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-acfaec37dc7bb115",
+      "lemma": "closet",
+      "pos": "n.",
+      "sense_zh": "衣柜",
+      "sentence_ids": [
+        "p03-b-04-s02"
+      ],
+      "forms": [
+        "closet"
+      ],
+      "sense_id": "sense-staged-ox-acfaec37dc7bb115-p03-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ffb47fd9c221ebf1",
+      "lemma": "clothing",
+      "pos": "n.",
+      "sense_zh": "衣物",
+      "sentence_ids": [
+        "p03-b-04-s02"
+      ],
+      "forms": [
+        "clothing"
+      ],
+      "sense_id": "sense-staged-ox-ffb47fd9c221ebf1-p03-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5616acf7401a0f9b",
+      "lemma": "belt",
+      "pos": "n.",
+      "sense_zh": "腰带",
+      "sentence_ids": [
+        "p03-b-04-s03"
+      ],
+      "forms": [
+        "belt"
+      ],
+      "sense_id": "sense-staged-ox-5616acf7401a0f9b-p03-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70a3c48a8f80edcd",
+      "lemma": "belong",
+      "pos": "v.",
+      "sense_zh": "属于某人",
+      "sentence_ids": [
+        "p03-b-04-s03"
+      ],
+      "forms": [
+        "belong"
+      ],
+      "sense_id": "sense-staged-ox-70a3c48a8f80edcd-p03-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7225a6a4057eb4c6",
+      "lemma": "case",
+      "pos": "n.",
+      "sense_zh": "保护或存放物品的盒子",
+      "sentence_ids": [
+        "p03-b-04-s05"
+      ],
+      "forms": [
+        "case"
+      ],
+      "sense_id": "sense-staged-ox-7225a6a4057eb4c6-p03-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

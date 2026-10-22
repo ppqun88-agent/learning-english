@@ -1,0 +1,190 @@
+{
+  "id": "p03-a-07",
+  "title_zh": "约好周末晨间散步",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "morning-walk-meeting-plan",
+    "label_zh": "安排晨间散步",
+    "goal_zh": "商定周末散步的时间与集合地点并考虑天气和穿着"
+  },
+  "participants": [
+    "Luis",
+    "Bea"
+  ],
+  "context_zh": "朋友相约在周末到运河边散步。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-07-s01",
+      "speaker": "Luis",
+      "text": "Shall we go for a walk this weekend?"
+    },
+    {
+      "id": "p03-a-07-s02",
+      "speaker": "Bea",
+      "text": "Yes, but not too early. What time do you usually wake up?"
+    },
+    {
+      "id": "p03-a-07-s03",
+      "speaker": "Luis",
+      "text": "Around seven. We could meet at nine instead."
+    },
+    {
+      "id": "p03-a-07-s04",
+      "speaker": "Bea",
+      "text": "Nine suits me. What is the weather supposed to be like?"
+    },
+    {
+      "id": "p03-a-07-s05",
+      "speaker": "Luis",
+      "text": "Cool and dry, according to the forecast I saw."
+    },
+    {
+      "id": "p03-a-07-s06",
+      "speaker": "Bea",
+      "text": "Then I will wear my light jacket."
+    },
+    {
+      "id": "p03-a-07-s07",
+      "speaker": "Luis",
+      "text": "Great. I will meet you by the canal entrance."
+    },
+    {
+      "id": "p03-a-07-s08",
+      "speaker": "Bea",
+      "text": "See you there at nine."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b688aa2420af67a7",
+      "lemma": "walk",
+      "pos": "n.",
+      "sense_zh": "散步",
+      "sentence_ids": [
+        "p03-a-07-s01"
+      ],
+      "forms": [
+        "walk"
+      ],
+      "sense_id": "sense-staged-ox-b688aa2420af67a7-p03-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f17c186f473712b",
+      "lemma": "weekend",
+      "pos": "n.",
+      "sense_zh": "周末",
+      "sentence_ids": [
+        "p03-a-07-s01"
+      ],
+      "forms": [
+        "weekend"
+      ],
+      "sense_id": "sense-staged-ox-0f17c186f473712b-p03-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-439f07e4bf4fbc31",
+      "lemma": "usually",
+      "pos": "adv.",
+      "sense_zh": "通常",
+      "sentence_ids": [
+        "p03-a-07-s02"
+      ],
+      "forms": [
+        "usually"
+      ],
+      "sense_id": "sense-staged-ox-439f07e4bf4fbc31-p03-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-02d14791eccc7934",
+      "lemma": "wake",
+      "pos": "v.",
+      "sense_zh": "醒来",
+      "sentence_ids": [
+        "p03-a-07-s02"
+      ],
+      "forms": [
+        "wake"
+      ],
+      "sense_id": "sense-staged-ox-02d14791eccc7934-p03-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3111f586dd06b36b",
+      "lemma": "we",
+      "pos": "pron.",
+      "sense_zh": "我们，作主语",
+      "sentence_ids": [
+        "p03-a-07-s03"
+      ],
+      "forms": [
+        "we"
+      ],
+      "sense_id": "sense-staged-ox-3111f586dd06b36b-p03-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e11b26de0d915ef8",
+      "lemma": "weather",
+      "pos": "n.",
+      "sense_zh": "天气",
+      "sentence_ids": [
+        "p03-a-07-s04"
+      ],
+      "forms": [
+        "weather"
+      ],
+      "sense_id": "sense-staged-ox-e11b26de0d915ef8-p03-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-105260485d0e77ec",
+      "lemma": "wear",
+      "pos": "v.",
+      "sense_zh": "穿着",
+      "sentence_ids": [
+        "p03-a-07-s06"
+      ],
+      "forms": [
+        "wear"
+      ],
+      "sense_id": "sense-staged-ox-105260485d0e77ec-p03-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14a8ac0b7da05b65",
+      "lemma": "will",
+      "pos": "modal v.",
+      "sense_zh": "表示将来的安排或意愿",
+      "sentence_ids": [
+        "p03-a-07-s07"
+      ],
+      "forms": [
+        "will"
+      ],
+      "sense_id": "sense-staged-ox-14a8ac0b7da05b65-p03-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

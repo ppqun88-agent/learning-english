@@ -1,0 +1,174 @@
+{
+  "id": "p03-a-12",
+  "title_zh": "为业余跑者设定训练目标",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "athlete-training-goal",
+    "label_zh": "设定跑步训练目标",
+    "goal_zh": "根据以往成绩选定具体目标而不只关注名次"
+  },
+  "participants": [
+    "Zoe",
+    "Finn"
+  ],
+  "context_zh": "业余跑者和俱乐部教练讨论下次五公里活动的个人目标；不涉及医疗或个体化健康建议。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-12-s01",
+      "speaker": "Zoe",
+      "text": "I want to stay active, but I am not trying to become a professional athlete."
+    },
+    {
+      "id": "p03-a-12-s02",
+      "speaker": "Finn",
+      "text": "That is fine. What would you like to achieve at the next club run?"
+    },
+    {
+      "id": "p03-a-12-s03",
+      "speaker": "Zoe",
+      "text": "I keep thinking I need to win, even though most people are faster than me."
+    },
+    {
+      "id": "p03-a-12-s04",
+      "speaker": "Finn",
+      "text": "You do not have to compete against everyone. You can try to beat your own best time."
+    },
+    {
+      "id": "p03-a-12-s05",
+      "speaker": "Zoe",
+      "text": "My average over the last three runs is thirty-two minutes. My best is thirty-one."
+    },
+    {
+      "id": "p03-a-12-s06",
+      "speaker": "Finn",
+      "text": "Would finishing under thirty-one be a goal you care about?"
+    },
+    {
+      "id": "p03-a-12-s07",
+      "speaker": "Zoe",
+      "text": "Yes. That would feel more useful than worrying about my place."
+    },
+    {
+      "id": "p03-a-12-s08",
+      "speaker": "Finn",
+      "text": "Then let us write that down and review your progress after the next run."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e25bd0b754ad9502",
+      "lemma": "active",
+      "pos": "adj.",
+      "sense_zh": "经常运动的，活跃的",
+      "sentence_ids": [
+        "p03-a-12-s01"
+      ],
+      "forms": [
+        "active"
+      ],
+      "sense_id": "sense-staged-ox-e25bd0b754ad9502-p03-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-865b03bf2ef00a87",
+      "lemma": "athlete",
+      "pos": "n.",
+      "sense_zh": "运动员",
+      "sentence_ids": [
+        "p03-a-12-s01"
+      ],
+      "forms": [
+        "athlete"
+      ],
+      "sense_id": "sense-staged-ox-865b03bf2ef00a87-p03-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aeb2dcb1ffc671ff",
+      "lemma": "achieve",
+      "pos": "v.",
+      "sense_zh": "达到目标",
+      "sentence_ids": [
+        "p03-a-12-s02"
+      ],
+      "forms": [
+        "achieve"
+      ],
+      "sense_id": "sense-staged-ox-aeb2dcb1ffc671ff-p03-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6959c5156b0878f",
+      "lemma": "win",
+      "pos": "v.",
+      "sense_zh": "获胜",
+      "sentence_ids": [
+        "p03-a-12-s03"
+      ],
+      "forms": [
+        "win"
+      ],
+      "sense_id": "sense-staged-ox-f6959c5156b0878f-p03-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92f794b9aebe9196",
+      "lemma": "against",
+      "pos": "prep.",
+      "sense_zh": "与某人竞争",
+      "sentence_ids": [
+        "p03-a-12-s04"
+      ],
+      "forms": [
+        "against"
+      ],
+      "sense_id": "sense-staged-ox-92f794b9aebe9196-p03-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d671ba2108bdc519",
+      "lemma": "beat",
+      "pos": "v.",
+      "sense_zh": "打破或超过个人纪录",
+      "sentence_ids": [
+        "p03-a-12-s04"
+      ],
+      "forms": [
+        "beat"
+      ],
+      "sense_id": "sense-staged-ox-d671ba2108bdc519-p03-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3cb3a01fae71be36",
+      "lemma": "average",
+      "pos": "n.",
+      "sense_zh": "平均值",
+      "sentence_ids": [
+        "p03-a-12-s05"
+      ],
+      "forms": [
+        "average"
+      ],
+      "sense_id": "sense-staged-ox-3cb3a01fae71be36-p03-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

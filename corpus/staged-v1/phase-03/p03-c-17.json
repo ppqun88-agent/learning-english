@@ -1,0 +1,163 @@
+{
+  "id": "p03-c-17",
+  "title_zh": "核对晚饭还缺什么",
+  "topic_id": "food",
+  "scenario": {
+    "id": "meal-preparation-sharing",
+    "label_zh": "分工采购并准备晚餐",
+    "goal_zh": "核对现有食材与餐具并分配缺少物品的采购"
+  },
+  "participants": [
+    "Anika",
+    "Paul"
+  ],
+  "context_zh": "合住的朋友准备晚饭，核对食材和缺少的餐具。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-17-s01",
+      "speaker": "Anika",
+      "text": "I'm going to the grocery. Do we need anything for tonight?"
+    },
+    {
+      "id": "p03-c-17-s02",
+      "speaker": "Paul",
+      "text": "Some fresh tomatoes. There's pasta in the cupboard and cheese in the fridge."
+    },
+    {
+      "id": "p03-c-17-s03",
+      "speaker": "Anika",
+      "text": "Large tomatoes or the small ones?"
+    },
+    {
+      "id": "p03-c-17-s04",
+      "speaker": "Paul",
+      "text": "Either type is fine. We're cutting them up anyway."
+    },
+    {
+      "id": "p03-c-17-s05",
+      "speaker": "Anika",
+      "text": "Anything else?"
+    },
+    {
+      "id": "p03-c-17-s06",
+      "speaker": "Paul",
+      "text": "A fork for Jo, if you pass the kitchen shop. We only have two."
+    },
+    {
+      "id": "p03-c-17-s07",
+      "speaker": "Anika",
+      "text": "I can borrow one from next door instead."
+    },
+    {
+      "id": "p03-c-17-s08",
+      "speaker": "Paul",
+      "text": "That would help, especially since the kitchen shop closes early."
+    },
+    {
+      "id": "p03-c-17-s09",
+      "speaker": "Anika",
+      "text": "All right. I'll get the tomatoes and borrow the fork. You can start the pasta."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6545ed7dedd1c5bf",
+      "lemma": "fresh",
+      "pos": "adj.",
+      "sense_zh": "新鲜的",
+      "sentence_ids": [
+        "p03-c-17-s02"
+      ],
+      "forms": [
+        "fresh"
+      ],
+      "sense_id": "sense-staged-ox-6545ed7dedd1c5bf-p03-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a7e0a7f62d699af8",
+      "lemma": "fridge",
+      "pos": "n.",
+      "sense_zh": "冰箱",
+      "sentence_ids": [
+        "p03-c-17-s02"
+      ],
+      "forms": [
+        "fridge"
+      ],
+      "sense_id": "sense-staged-ox-a7e0a7f62d699af8-p03-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7017a05e8cd20566",
+      "lemma": "fork",
+      "pos": "n.",
+      "sense_zh": "叉子；餐叉",
+      "sentence_ids": [
+        "p03-c-17-s06"
+      ],
+      "forms": [
+        "fork"
+      ],
+      "sense_id": "sense-staged-ox-7017a05e8cd20566-p03-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b0f46231a1ab62a",
+      "lemma": "grocery",
+      "pos": "n.",
+      "sense_zh": "食品杂货店",
+      "sentence_ids": [
+        "p03-c-17-s01"
+      ],
+      "forms": [
+        "grocery"
+      ],
+      "sense_id": "sense-staged-ox-6b0f46231a1ab62a-p03-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4c569732695f2c40",
+      "lemma": "either",
+      "pos": "det.",
+      "sense_zh": "两者中任一的",
+      "sentence_ids": [
+        "p03-c-17-s04"
+      ],
+      "forms": [
+        "either"
+      ],
+      "sense_id": "sense-staged-ox-4c569732695f2c40-p03-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-191b8fa832074816",
+      "lemma": "especially",
+      "pos": "adv.",
+      "sense_zh": "尤其；特别是",
+      "sentence_ids": [
+        "p03-c-17-s08"
+      ],
+      "forms": [
+        "especially"
+      ],
+      "sense_id": "sense-staged-ox-191b8fa832074816-p03-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

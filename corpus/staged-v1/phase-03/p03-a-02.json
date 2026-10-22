@@ -1,0 +1,195 @@
+{
+  "id": "p03-a-02",
+  "title_zh": "把听不懂的视频片段听清楚",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "language-practice-clarification",
+    "label_zh": "澄清语言练习内容",
+    "goal_zh": "弄清听力练习的意思并确定重听的方法。"
+  },
+  "participants": [
+    "Kai",
+    "Lena"
+  ],
+  "context_zh": "学习者请老师帮助理解一段日常对话视频，而不是逐字翻译整段内容。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-02-s01",
+      "speaker": "Kai",
+      "text": "I do not understand the last part of this video."
+    },
+    {
+      "id": "p03-a-02-s02",
+      "speaker": "Lena",
+      "text": "Which part is difficult?"
+    },
+    {
+      "id": "p03-a-02-s03",
+      "speaker": "Kai",
+      "text": "The woman says one word so quickly that I cannot hear it."
+    },
+    {
+      "id": "p03-a-02-s04",
+      "speaker": "Lena",
+      "text": "Let us watch that bit again at a slower speed."
+    },
+    {
+      "id": "p03-a-02-s05",
+      "speaker": "Kai",
+      "text": "Can I use this app to slow it down?"
+    },
+    {
+      "id": "p03-a-02-s06",
+      "speaker": "Lena",
+      "text": "Yes. That button is useful for listening practice."
+    },
+    {
+      "id": "p03-a-02-s07",
+      "speaker": "Kai",
+      "text": "Oh, she says the shop closes at six. I thought she said seven."
+    },
+    {
+      "id": "p03-a-02-s08",
+      "speaker": "Lena",
+      "text": "Exactly. Now try the next line by yourself."
+    },
+    {
+      "id": "p03-a-02-s09",
+      "speaker": "Kai",
+      "text": "All right. I will listen once before I turn on the subtitles."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ec39efbbf15f57a9",
+      "lemma": "understand",
+      "pos": "v.",
+      "sense_zh": "理解听到的内容",
+      "sentence_ids": [
+        "p03-a-02-s01"
+      ],
+      "forms": [
+        "understand"
+      ],
+      "sense_id": "sense-staged-ox-ec39efbbf15f57a9-p03-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-699990865d78a568",
+      "lemma": "video",
+      "pos": "n.",
+      "sense_zh": "视频",
+      "sentence_ids": [
+        "p03-a-02-s01"
+      ],
+      "forms": [
+        "video"
+      ],
+      "sense_id": "sense-staged-ox-699990865d78a568-p03-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16d5ab7dbea42f7e",
+      "lemma": "word",
+      "pos": "n.",
+      "sense_zh": "单词",
+      "sentence_ids": [
+        "p03-a-02-s03"
+      ],
+      "forms": [
+        "word"
+      ],
+      "sense_id": "sense-staged-ox-16d5ab7dbea42f7e-p03-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a0a750b2eca0286",
+      "lemma": "watch",
+      "pos": "v.",
+      "sense_zh": "观看",
+      "sentence_ids": [
+        "p03-a-02-s04"
+      ],
+      "forms": [
+        "watch"
+      ],
+      "sense_id": "sense-staged-ox-2a0a750b2eca0286-p03-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0e4b4a5cbb4b14d1",
+      "lemma": "use",
+      "pos": "v.",
+      "sense_zh": "使用",
+      "sentence_ids": [
+        "p03-a-02-s05"
+      ],
+      "forms": [
+        "use"
+      ],
+      "sense_id": "sense-staged-ox-0e4b4a5cbb4b14d1-p03-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-099f244f60cefdf1",
+      "lemma": "app",
+      "pos": "n.",
+      "sense_zh": "应用程序",
+      "sentence_ids": [
+        "p03-a-02-s05"
+      ],
+      "forms": [
+        "app"
+      ],
+      "sense_id": "sense-staged-ox-099f244f60cefdf1-p03-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c0aa61a2b78cb742",
+      "lemma": "useful",
+      "pos": "adj.",
+      "sense_zh": "有用的",
+      "sentence_ids": [
+        "p03-a-02-s06"
+      ],
+      "forms": [
+        "useful"
+      ],
+      "sense_id": "sense-staged-ox-c0aa61a2b78cb742-p03-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-606b8d24359e9510",
+      "lemma": "yourself",
+      "pos": "pron.",
+      "sense_zh": "你自己",
+      "sentence_ids": [
+        "p03-a-02-s08"
+      ],
+      "forms": [
+        "yourself"
+      ],
+      "sense_id": "sense-staged-ox-606b8d24359e9510-p03-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

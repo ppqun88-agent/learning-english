@@ -1,0 +1,189 @@
+{
+  "id": "p03-c-14",
+  "title_zh": "给柜子找一个合适的位置",
+  "topic_id": "home",
+  "scenario": {
+    "id": "cabinet-moving-plan",
+    "label_zh": "协作搬动柜子",
+    "goal_zh": "核对通道尺寸并协调柜子移动和暂放位置"
+  },
+  "participants": [
+    "Otis",
+    "Nell"
+  ],
+  "context_zh": "两位室友测量新柜子的安放空间，协调短距离移动。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-14-s01",
+      "speaker": "Otis",
+      "text": "Have you checked the height of the cabinet? It looks taller than the old one."
+    },
+    {
+      "id": "p03-c-14-s02",
+      "speaker": "Nell",
+      "text": "Yes, it fits under the shelf. I'm more worried about the gap beside the door."
+    },
+    {
+      "id": "p03-c-14-s03",
+      "speaker": "Otis",
+      "text": "You're right. I can barely get one finger between the handle and the wall."
+    },
+    {
+      "id": "p03-c-14-s04",
+      "speaker": "Nell",
+      "text": "Let's put it against the opposite wall instead."
+    },
+    {
+      "id": "p03-c-14-s05",
+      "speaker": "Otis",
+      "text": "It's heavy. Should we take the drawers out first?"
+    },
+    {
+      "id": "p03-c-14-s06",
+      "speaker": "Nell",
+      "text": "Yes. Hold this one while I make space on the table."
+    },
+    {
+      "id": "p03-c-14-s07",
+      "speaker": "Otis",
+      "text": "I've got it. Don't drop the loose handle; it's sitting inside."
+    },
+    {
+      "id": "p03-c-14-s08",
+      "speaker": "Nell",
+      "text": "Thanks for spotting that. I'll put it in the tray."
+    },
+    {
+      "id": "p03-c-14-s09",
+      "speaker": "Otis",
+      "text": "The cabinet is much lighter now. Shall we move it forward a little?"
+    },
+    {
+      "id": "p03-c-14-s10",
+      "speaker": "Nell",
+      "text": "Just to the tape mark. Then we'll have room to turn it."
+    },
+    {
+      "id": "p03-c-14-s11",
+      "speaker": "Otis",
+      "text": "There. The door opens properly in this position. Let's leave it here."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5648b81d47dbf514",
+      "lemma": "height",
+      "pos": "n.",
+      "sense_zh": "高度",
+      "sentence_ids": [
+        "p03-c-14-s01"
+      ],
+      "forms": [
+        "height"
+      ],
+      "sense_id": "sense-staged-ox-5648b81d47dbf514-p03-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-39b3ab9317b47ff0",
+      "lemma": "gap",
+      "pos": "n.",
+      "sense_zh": "间隙；空隙",
+      "sentence_ids": [
+        "p03-c-14-s02"
+      ],
+      "forms": [
+        "gap"
+      ],
+      "sense_id": "sense-staged-ox-39b3ab9317b47ff0-p03-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f394382668f4d36b",
+      "lemma": "hold",
+      "pos": "v.",
+      "sense_zh": "拿住；托住",
+      "sentence_ids": [
+        "p03-c-14-s06"
+      ],
+      "forms": [
+        "hold"
+      ],
+      "sense_id": "sense-staged-ox-f394382668f4d36b-p03-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1064dd8de6ce61d5",
+      "lemma": "heavy",
+      "pos": "adj.",
+      "sense_zh": "重的",
+      "sentence_ids": [
+        "p03-c-14-s05"
+      ],
+      "forms": [
+        "heavy"
+      ],
+      "sense_id": "sense-staged-ox-1064dd8de6ce61d5-p03-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6455c2d745e35c32",
+      "lemma": "forward",
+      "pos": "adv.",
+      "sense_zh": "向前",
+      "sentence_ids": [
+        "p03-c-14-s09"
+      ],
+      "forms": [
+        "forward"
+      ],
+      "sense_id": "sense-staged-ox-6455c2d745e35c32-p03-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9eab8a90e343c462",
+      "lemma": "drop",
+      "pos": "v.",
+      "sense_zh": "使掉落",
+      "sentence_ids": [
+        "p03-c-14-s07"
+      ],
+      "forms": [
+        "drop"
+      ],
+      "sense_id": "sense-staged-ox-9eab8a90e343c462-p03-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a13a6e22ecddc528",
+      "lemma": "finger",
+      "pos": "n.",
+      "sense_zh": "手指",
+      "sentence_ids": [
+        "p03-c-14-s03"
+      ],
+      "forms": [
+        "finger"
+      ],
+      "sense_id": "sense-staged-ox-a13a6e22ecddc528-p03-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

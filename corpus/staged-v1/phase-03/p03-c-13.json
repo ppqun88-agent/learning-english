@@ -1,0 +1,200 @@
+{
+  "id": "p03-c-13",
+  "title_zh": "天黑前改走短路",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "hill-walk-route-choice",
+    "label_zh": "调整山间步行路线",
+    "goal_zh": "考虑天色和路面条件后改走短路线"
+  },
+  "participants": [
+    "Petra",
+    "Sam"
+  ],
+  "context_zh": "两名朋友看见天色和山路条件变化，重新选择短途步行路线。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-13-s01",
+      "speaker": "Petra",
+      "text": "What's the distance from here to the top of the hill?"
+    },
+    {
+      "id": "p03-c-13-s02",
+      "speaker": "Sam",
+      "text": "About six kilometres, and it's getting dark already."
+    },
+    {
+      "id": "p03-c-13-s03",
+      "speaker": "Petra",
+      "text": "It's extremely windy, too. We haven't brought equipment for extreme weather."
+    },
+    {
+      "id": "p03-c-13-s04",
+      "speaker": "Sam",
+      "text": "Then let's stay off the ridge. There's a lower path beside the river."
+    },
+    {
+      "id": "p03-c-13-s05",
+      "speaker": "Petra",
+      "text": "That suits me. My fear of heights would make the ridge unpleasant anyway."
+    },
+    {
+      "id": "p03-c-13-s06",
+      "speaker": "Sam",
+      "text": "The guide at the visitor centre recommended the short riverside loop for an evening walk."
+    },
+    {
+      "id": "p03-c-13-s07",
+      "speaker": "Petra",
+      "text": "Does it start beside that huge rock?"
+    },
+    {
+      "id": "p03-c-13-s08",
+      "speaker": "Sam",
+      "text": "Yes, but look at the mud beyond it. Let's check whether the paved path loops back instead."
+    },
+    {
+      "id": "p03-c-13-s09",
+      "speaker": "Petra",
+      "text": "The map says it does. Twenty minutes back to the car park."
+    },
+    {
+      "id": "p03-c-13-s10",
+      "speaker": "Sam",
+      "text": "Let's take that one. I'd rather finish before dark."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5c35d05618683b32",
+      "lemma": "distance",
+      "pos": "n.",
+      "sense_zh": "距离",
+      "sentence_ids": [
+        "p03-c-13-s01"
+      ],
+      "forms": [
+        "distance"
+      ],
+      "sense_id": "sense-staged-ox-5c35d05618683b32-p03-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-13cf57d869f2c9e3",
+      "lemma": "extreme",
+      "pos": "adj.",
+      "sense_zh": "极端的；严酷的",
+      "sentence_ids": [
+        "p03-c-13-s03"
+      ],
+      "forms": [
+        "extreme"
+      ],
+      "sense_id": "sense-staged-ox-13cf57d869f2c9e3-p03-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74256b41acc4fd57",
+      "lemma": "extremely",
+      "pos": "adv.",
+      "sense_zh": "极其；非常",
+      "sentence_ids": [
+        "p03-c-13-s03"
+      ],
+      "forms": [
+        "extremely"
+      ],
+      "sense_id": "sense-staged-ox-74256b41acc4fd57-p03-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4d40a6c1f4fdd660",
+      "lemma": "hill",
+      "pos": "n.",
+      "sense_zh": "小山；山丘",
+      "sentence_ids": [
+        "p03-c-13-s01"
+      ],
+      "forms": [
+        "hill"
+      ],
+      "sense_id": "sense-staged-ox-4d40a6c1f4fdd660-p03-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2810f9528f64622e",
+      "lemma": "equipment",
+      "pos": "n.",
+      "sense_zh": "装备",
+      "sentence_ids": [
+        "p03-c-13-s03"
+      ],
+      "forms": [
+        "equipment"
+      ],
+      "sense_id": "sense-staged-ox-2810f9528f64622e-p03-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6d249d93154db2fe",
+      "lemma": "fear",
+      "pos": "n.",
+      "sense_zh": "恐惧",
+      "sentence_ids": [
+        "p03-c-13-s05"
+      ],
+      "forms": [
+        "fear"
+      ],
+      "sense_id": "sense-staged-ox-6d249d93154db2fe-p03-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-873da864146aee37",
+      "lemma": "guide",
+      "pos": "n.",
+      "sense_zh": "导游；向导",
+      "sentence_ids": [
+        "p03-c-13-s06"
+      ],
+      "forms": [
+        "guide"
+      ],
+      "sense_id": "sense-staged-ox-873da864146aee37-p03-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ca36b33cdb4fe3dc",
+      "lemma": "huge",
+      "pos": "adj.",
+      "sense_zh": "巨大的",
+      "sentence_ids": [
+        "p03-c-13-s07"
+      ],
+      "forms": [
+        "huge"
+      ],
+      "sense_id": "sense-staged-ox-ca36b33cdb4fe3dc-p03-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

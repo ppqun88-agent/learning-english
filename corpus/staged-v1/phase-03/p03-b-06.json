@@ -1,0 +1,121 @@
+{
+  "id": "p03-b-06",
+  "title_zh": "给生物课展示补上标签",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "anatomy-model-labels",
+    "label_zh": "核对人体模型标签",
+    "goal_zh": "为生物课展示核实模型部位及图片标签。"
+  },
+  "participants": [
+    "Yara",
+    "Felix"
+  ],
+  "context_zh": "两名学生准备人体模型展示，讨论缺失的标签和插图。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-06-s01",
+      "speaker": "Yara",
+      "text": "Our biology presentation is tomorrow, and two labels are still missing."
+    },
+    {
+      "id": "p03-b-06-s02",
+      "speaker": "Felix",
+      "text": "I can make them. Which parts do we need?"
+    },
+    {
+      "id": "p03-b-06-s03",
+      "speaker": "Yara",
+      "text": "The brain at the top, and this long bone in the leg."
+    },
+    {
+      "id": "p03-b-06-s04",
+      "speaker": "Felix",
+      "text": "Shall I use the names from our textbook diagram?"
+    },
+    {
+      "id": "p03-b-06-s05",
+      "speaker": "Yara",
+      "text": "Yes. We also need one picture of a cell, but not on the model itself."
+    },
+    {
+      "id": "p03-b-06-s06",
+      "speaker": "Felix",
+      "text": "I will put that picture on a separate card beside the model."
+    },
+    {
+      "id": "p03-b-06-s07",
+      "speaker": "Yara",
+      "text": "Good. Bring the cards to class, and I will bring the model."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f79838e8d756aa9d",
+      "lemma": "biology",
+      "pos": "n.",
+      "sense_zh": "生物学",
+      "sentence_ids": [
+        "p03-b-06-s01"
+      ],
+      "forms": [
+        "biology"
+      ],
+      "sense_id": "sense-staged-ox-f79838e8d756aa9d-p03-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-152c578b58f9f3d9",
+      "lemma": "brain",
+      "pos": "n.",
+      "sense_zh": "大脑",
+      "sentence_ids": [
+        "p03-b-06-s03"
+      ],
+      "forms": [
+        "brain"
+      ],
+      "sense_id": "sense-staged-ox-152c578b58f9f3d9-p03-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fb107daa1aae44b2",
+      "lemma": "bone",
+      "pos": "n.",
+      "sense_zh": "骨头",
+      "sentence_ids": [
+        "p03-b-06-s03"
+      ],
+      "forms": [
+        "bone"
+      ],
+      "sense_id": "sense-staged-ox-fb107daa1aae44b2-p03-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa4c029c23ff07e3",
+      "lemma": "cell",
+      "pos": "n.",
+      "sense_zh": "生物体的细胞",
+      "sentence_ids": [
+        "p03-b-06-s05"
+      ],
+      "forms": [
+        "cell"
+      ],
+      "sense_id": "sense-staged-ox-aa4c029c23ff07e3-p03-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

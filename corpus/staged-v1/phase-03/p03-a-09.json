@@ -1,0 +1,174 @@
+{
+  "id": "p03-a-09",
+  "title_zh": "安排亲人周中来访",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "family-weekday-visit-arrangement",
+    "label_zh": "协调亲人周中探访",
+    "goal_zh": "确认短暂来访期间的会面时间和参加人员"
+  },
+  "participants": [
+    "Owen",
+    "Leah"
+  ],
+  "context_zh": "亲人结束异地工作后短暂回城，双方通过电话安排见面。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-09-s01",
+      "speaker": "Owen",
+      "text": "My wife and I will be in town next week. Could we come over?"
+    },
+    {
+      "id": "p03-a-09-s02",
+      "speaker": "Leah",
+      "text": "Of course. I have not seen you for a year. When do you arrive?"
+    },
+    {
+      "id": "p03-a-09-s03",
+      "speaker": "Owen",
+      "text": "Tuesday evening. Would Wednesday afternoon work for you?"
+    },
+    {
+      "id": "p03-a-09-s04",
+      "speaker": "Leah",
+      "text": "Yes. Who else is coming?"
+    },
+    {
+      "id": "p03-a-09-s05",
+      "speaker": "Owen",
+      "text": "Just the two of us. Our son is staying with his grandparents."
+    },
+    {
+      "id": "p03-a-09-s06",
+      "speaker": "Leah",
+      "text": "Then come at three. I can finish work before you arrive."
+    },
+    {
+      "id": "p03-a-09-s07",
+      "speaker": "Owen",
+      "text": "That arrangement suits us. Shall we bring something for tea?"
+    },
+    {
+      "id": "p03-a-09-s08",
+      "speaker": "Leah",
+      "text": "No need. I will have everything ready."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c9d07868fd3240cf",
+      "lemma": "wife",
+      "pos": "n.",
+      "sense_zh": "妻子",
+      "sentence_ids": [
+        "p03-a-09-s01"
+      ],
+      "forms": [
+        "wife"
+      ],
+      "sense_id": "sense-staged-ox-c9d07868fd3240cf-p03-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1653acb4c1a32c2a",
+      "lemma": "year",
+      "pos": "n.",
+      "sense_zh": "一年",
+      "sentence_ids": [
+        "p03-a-09-s02"
+      ],
+      "forms": [
+        "year"
+      ],
+      "sense_id": "sense-staged-ox-1653acb4c1a32c2a-p03-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c79b692faed9fc5",
+      "lemma": "when",
+      "pos": "adv.",
+      "sense_zh": "什么时候",
+      "sentence_ids": [
+        "p03-a-09-s02"
+      ],
+      "forms": [
+        "when"
+      ],
+      "sense_id": "sense-staged-ox-7c79b692faed9fc5-p03-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b59faa4473e5c32",
+      "lemma": "Wednesday",
+      "pos": "n.",
+      "sense_zh": "星期三",
+      "sentence_ids": [
+        "p03-a-09-s03"
+      ],
+      "forms": [
+        "Wednesday"
+      ],
+      "sense_id": "sense-staged-ox-4b59faa4473e5c32-p03-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc200edfb86708de",
+      "lemma": "who",
+      "pos": "pron.",
+      "sense_zh": "谁",
+      "sentence_ids": [
+        "p03-a-09-s04"
+      ],
+      "forms": [
+        "who"
+      ],
+      "sense_id": "sense-staged-ox-fc200edfb86708de-p03-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4934092d7d3335c6",
+      "lemma": "with",
+      "pos": "prep.",
+      "sense_zh": "和某人在一起",
+      "sentence_ids": [
+        "p03-a-09-s05"
+      ],
+      "forms": [
+        "with"
+      ],
+      "sense_id": "sense-staged-ox-4934092d7d3335c6-p03-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6f71d2069a0aa85b",
+      "lemma": "arrangement",
+      "pos": "n.",
+      "sense_zh": "商定的安排",
+      "sentence_ids": [
+        "p03-a-09-s07"
+      ],
+      "forms": [
+        "arrangement"
+      ],
+      "sense_id": "sense-staged-ox-6f71d2069a0aa85b-p03-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

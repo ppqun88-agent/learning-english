@@ -1,0 +1,211 @@
+{
+  "id": "p03-a-11",
+  "title_zh": "确认作家工作坊适合初学者",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "award-winning-author-workshop",
+    "label_zh": "了解作家写作工作坊",
+    "goal_zh": "核对讲师背景、活动形式及初学者参与要求后决定报名"
+  },
+  "participants": [
+    "Selma",
+    "Noah"
+  ],
+  "context_zh": "图书馆读者向活动管理员询问一场虚构的作家工作坊。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-11-s01",
+      "speaker": "Selma",
+      "text": "I saw the writing workshop on your noticeboard. Who is teaching it?"
+    },
+    {
+      "id": "p03-a-11-s02",
+      "speaker": "Noah",
+      "text": "Iris Vale, the author of The Empty Platform. Her first novel won an award last year."
+    },
+    {
+      "id": "p03-a-11-s03",
+      "speaker": "Selma",
+      "text": "I have read it. Is she a full-time writer?"
+    },
+    {
+      "id": "p03-a-11-s04",
+      "speaker": "Noah",
+      "text": "Yes. Her background is in radio, but she now writes fiction."
+    },
+    {
+      "id": "p03-a-11-s05",
+      "speaker": "Selma",
+      "text": "Will the audience just listen, or will we write something too?"
+    },
+    {
+      "id": "p03-a-11-s06",
+      "speaker": "Noah",
+      "text": "Both. There is a short talk, followed by an exercise based on a personal memory."
+    },
+    {
+      "id": "p03-a-11-s07",
+      "speaker": "Selma",
+      "text": "I have never taken a class. Can I still attend?"
+    },
+    {
+      "id": "p03-a-11-s08",
+      "speaker": "Noah",
+      "text": "Certainly. No experience is needed, and sharing your work is optional."
+    },
+    {
+      "id": "p03-a-11-s09",
+      "speaker": "Selma",
+      "text": "Then please put my name down. I will bring a notebook."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1b40429c1e6229fe",
+      "lemma": "writing",
+      "pos": "n.",
+      "sense_zh": "写作活动",
+      "sentence_ids": [
+        "p03-a-11-s01"
+      ],
+      "forms": [
+        "writing"
+      ],
+      "sense_id": "sense-staged-ox-1b40429c1e6229fe-p03-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e9a0e6a1a5d2fb96",
+      "lemma": "author",
+      "pos": "n.",
+      "sense_zh": "作者",
+      "sentence_ids": [
+        "p03-a-11-s02"
+      ],
+      "forms": [
+        "author"
+      ],
+      "sense_id": "sense-staged-ox-e9a0e6a1a5d2fb96-p03-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a9e6511b58d56625",
+      "lemma": "award",
+      "pos": "n.",
+      "sense_zh": "奖项",
+      "sentence_ids": [
+        "p03-a-11-s02"
+      ],
+      "forms": [
+        "award"
+      ],
+      "sense_id": "sense-staged-ox-a9e6511b58d56625-p03-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14489b0fcfa0cc9f",
+      "lemma": "writer",
+      "pos": "n.",
+      "sense_zh": "作家",
+      "sentence_ids": [
+        "p03-a-11-s03"
+      ],
+      "forms": [
+        "writer"
+      ],
+      "sense_id": "sense-staged-ox-14489b0fcfa0cc9f-p03-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17b4422b8714b5f2",
+      "lemma": "background",
+      "pos": "n.",
+      "sense_zh": "个人经历或工作背景",
+      "sentence_ids": [
+        "p03-a-11-s04"
+      ],
+      "forms": [
+        "background"
+      ],
+      "sense_id": "sense-staged-ox-17b4422b8714b5f2-p03-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bd7df5b17cd636c0",
+      "lemma": "audience",
+      "pos": "n.",
+      "sense_zh": "听众",
+      "sentence_ids": [
+        "p03-a-11-s05"
+      ],
+      "forms": [
+        "audience"
+      ],
+      "sense_id": "sense-staged-ox-bd7df5b17cd636c0-p03-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d52c35fe34acbde4",
+      "lemma": "write",
+      "pos": "v.",
+      "sense_zh": "写作",
+      "sentence_ids": [
+        "p03-a-11-s05"
+      ],
+      "forms": [
+        "write"
+      ],
+      "sense_id": "sense-staged-ox-d52c35fe34acbde4-p03-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-06da178a1ebf4a20",
+      "lemma": "based",
+      "pos": "adj.",
+      "sense_zh": "以某事物为基础的",
+      "sentence_ids": [
+        "p03-a-11-s06"
+      ],
+      "forms": [
+        "based"
+      ],
+      "sense_id": "sense-staged-ox-06da178a1ebf4a20-p03-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e8705683be1021c0",
+      "lemma": "attend",
+      "pos": "v.",
+      "sense_zh": "参加活动",
+      "sentence_ids": [
+        "p03-a-11-s07"
+      ],
+      "forms": [
+        "attend"
+      ],
+      "sense_id": "sense-staged-ox-e8705683be1021c0-p03-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

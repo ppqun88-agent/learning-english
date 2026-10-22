@@ -1,0 +1,195 @@
+{
+  "id": "p03-a-04",
+  "title_zh": "选择村落建筑参观路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "village-architecture-walk-route",
+    "label_zh": "询问村落建筑参观路线",
+    "goal_zh": "根据建筑兴趣确认古桥与新展馆之间的步行路线"
+  },
+  "participants": [
+    "Ravi",
+    "June"
+  ],
+  "context_zh": "游客向村里的信息站工作人员询问步行参观的顺序。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-04-s01",
+      "speaker": "Ravi",
+      "text": "We have two hours in the village. What should we visit?"
+    },
+    {
+      "id": "p03-a-04-s02",
+      "speaker": "June",
+      "text": "Are you more interested in food or architecture?"
+    },
+    {
+      "id": "p03-a-04-s03",
+      "speaker": "Ravi",
+      "text": "Architecture. My sister is an architect, and she wants to see the old stone bridge."
+    },
+    {
+      "id": "p03-a-04-s04",
+      "speaker": "June",
+      "text": "Then start there. It is the ancient bridge in this picture, not the concrete one by the road."
+    },
+    {
+      "id": "p03-a-04-s05",
+      "speaker": "Ravi",
+      "text": "Which way is it from here?"
+    },
+    {
+      "id": "p03-a-04-s06",
+      "speaker": "June",
+      "text": "Head west from the square and walk along the river."
+    },
+    {
+      "id": "p03-a-04-s07",
+      "speaker": "Ravi",
+      "text": "Can we reach the new exhibition hall from the bridge?"
+    },
+    {
+      "id": "p03-a-04-s08",
+      "speaker": "June",
+      "text": "Yes, it is just across the water. You can see both without coming back here."
+    },
+    {
+      "id": "p03-a-04-s09",
+      "speaker": "Ravi",
+      "text": "Perfect. We will start with the bridge."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dea4db4fb114298d",
+      "lemma": "village",
+      "pos": "n.",
+      "sense_zh": "村庄",
+      "sentence_ids": [
+        "p03-a-04-s01"
+      ],
+      "forms": [
+        "village"
+      ],
+      "sense_id": "sense-staged-ox-dea4db4fb114298d-p03-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d73dcccb2b429aa",
+      "lemma": "visit",
+      "pos": "v.",
+      "sense_zh": "参观",
+      "sentence_ids": [
+        "p03-a-04-s01"
+      ],
+      "forms": [
+        "visit"
+      ],
+      "sense_id": "sense-staged-ox-5d73dcccb2b429aa-p03-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-250bf394031f0e02",
+      "lemma": "architecture",
+      "pos": "n.",
+      "sense_zh": "建筑风格与建筑艺术",
+      "sentence_ids": [
+        "p03-a-04-s02"
+      ],
+      "forms": [
+        "architecture"
+      ],
+      "sense_id": "sense-staged-ox-250bf394031f0e02-p03-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-613ef72087750e6f",
+      "lemma": "architect",
+      "pos": "n.",
+      "sense_zh": "建筑师",
+      "sentence_ids": [
+        "p03-a-04-s03"
+      ],
+      "forms": [
+        "architect"
+      ],
+      "sense_id": "sense-staged-ox-613ef72087750e6f-p03-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed166d4d42a1933f",
+      "lemma": "ancient",
+      "pos": "adj.",
+      "sense_zh": "古老的",
+      "sentence_ids": [
+        "p03-a-04-s04"
+      ],
+      "forms": [
+        "ancient"
+      ],
+      "sense_id": "sense-staged-ox-ed166d4d42a1933f-p03-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-029ef0ab55a72451",
+      "lemma": "way",
+      "pos": "n.",
+      "sense_zh": "路线，方向",
+      "sentence_ids": [
+        "p03-a-04-s05"
+      ],
+      "forms": [
+        "way"
+      ],
+      "sense_id": "sense-staged-ox-029ef0ab55a72451-p03-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-35c5edd509ead1a7",
+      "lemma": "west",
+      "pos": "adv.",
+      "sense_zh": "向西",
+      "sentence_ids": [
+        "p03-a-04-s06"
+      ],
+      "forms": [
+        "west"
+      ],
+      "sense_id": "sense-staged-ox-35c5edd509ead1a7-p03-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-188d3aa0846fff5e",
+      "lemma": "along",
+      "pos": "prep.",
+      "sense_zh": "沿着",
+      "sentence_ids": [
+        "p03-a-04-s06"
+      ],
+      "forms": [
+        "along"
+      ],
+      "sense_id": "sense-staged-ox-188d3aa0846fff5e-p03-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

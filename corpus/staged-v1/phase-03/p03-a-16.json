@@ -1,0 +1,174 @@
+{
+  "id": "p03-a-16",
+  "title_zh": "摔倒后请同伴联系急救员",
+  "topic_id": "health",
+  "scenario": {
+    "id": "walking-fall-assistance",
+    "label_zh": "摔倒后寻求帮助",
+    "goal_zh": "说明不适并请同伴联系现场急救员"
+  },
+  "participants": [
+    "Pia",
+    "Jules"
+  ],
+  "context_zh": "虚构的步行活动中，一位参与者摔倒后请同伴联系现场急救员；不提供诊断或治疗建议。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-16-s01",
+      "speaker": "Pia",
+      "text": "I had a small accident on the steps. My ankle hurts, and I cannot walk any more."
+    },
+    {
+      "id": "p03-a-16-s02",
+      "speaker": "Jules",
+      "text": "I am here. Is your other leg all right?"
+    },
+    {
+      "id": "p03-a-16-s03",
+      "speaker": "Pia",
+      "text": "Yes, but I do not feel well. Could you call the first-aid volunteer?"
+    },
+    {
+      "id": "p03-a-16-s04",
+      "speaker": "Jules",
+      "text": "Of course. I was going to the desk anyway. I will phone them so I can stay here."
+    },
+    {
+      "id": "p03-a-16-s05",
+      "speaker": "Pia",
+      "text": "Will they allow my sister to come over too?"
+    },
+    {
+      "id": "p03-a-16-s06",
+      "speaker": "Jules",
+      "text": "I will ask. What should I tell them about where we are?"
+    },
+    {
+      "id": "p03-a-16-s07",
+      "speaker": "Pia",
+      "text": "We are beside the steps at the north entrance."
+    },
+    {
+      "id": "p03-a-16-s08",
+      "speaker": "Jules",
+      "text": "I have told them. Someone is coming to us now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-29bd135d31db6669",
+      "lemma": "accident",
+      "pos": "n.",
+      "sense_zh": "意外事故",
+      "sentence_ids": [
+        "p03-a-16-s01"
+      ],
+      "forms": [
+        "accident"
+      ],
+      "sense_id": "sense-staged-ox-29bd135d31db6669-p03-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f28e396989e5565",
+      "lemma": "ankle",
+      "pos": "n.",
+      "sense_zh": "脚踝",
+      "sentence_ids": [
+        "p03-a-16-s01"
+      ],
+      "forms": [
+        "ankle"
+      ],
+      "sense_id": "sense-staged-ox-5f28e396989e5565-p03-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-23de39003f64334f",
+      "lemma": "any more",
+      "pos": "adv.",
+      "sense_zh": "再也，用于否定句",
+      "sentence_ids": [
+        "p03-a-16-s01"
+      ],
+      "forms": [
+        "any more"
+      ],
+      "sense_id": "sense-staged-ox-23de39003f64334f-p03-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a5ea42806011a100",
+      "lemma": "all right",
+      "pos": "adj.",
+      "sense_zh": "没有问题的，身体无恙的",
+      "sentence_ids": [
+        "p03-a-16-s02"
+      ],
+      "forms": [
+        "all right"
+      ],
+      "sense_id": "sense-staged-ox-a5ea42806011a100-p03-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6888285a84e1e9c",
+      "lemma": "well",
+      "pos": "adj.",
+      "sense_zh": "身体好的",
+      "sentence_ids": [
+        "p03-a-16-s03"
+      ],
+      "forms": [
+        "well"
+      ],
+      "sense_id": "sense-staged-ox-d6888285a84e1e9c-p03-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8eb7bf3691e626c",
+      "lemma": "anyway",
+      "pos": "adv.",
+      "sense_zh": "反正，本来就",
+      "sentence_ids": [
+        "p03-a-16-s04"
+      ],
+      "forms": [
+        "anyway"
+      ],
+      "sense_id": "sense-staged-ox-f8eb7bf3691e626c-p03-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-265455ddde26cb12",
+      "lemma": "allow",
+      "pos": "v.",
+      "sense_zh": "允许",
+      "sentence_ids": [
+        "p03-a-16-s05"
+      ],
+      "forms": [
+        "allow"
+      ],
+      "sense_id": "sense-staged-ox-265455ddde26cb12-p03-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

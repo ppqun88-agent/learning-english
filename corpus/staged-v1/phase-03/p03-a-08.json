@@ -1,0 +1,169 @@
+{
+  "id": "p03-a-08",
+  "title_zh": "试色后决定墙面颜色",
+  "topic_id": "home",
+  "scenario": {
+    "id": "room-repainting-colour-choice",
+    "label_zh": "选择房间墙面颜色",
+    "goal_zh": "通过采光和试色比较确定重刷墙面的颜色"
+  },
+  "participants": [
+    "Freya",
+    "Sam"
+  ],
+  "context_zh": "室友查看墙上的小块试色，准备给客厅重新刷漆。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-08-s01",
+      "speaker": "Freya",
+      "text": "Which colour do you want for this wall?"
+    },
+    {
+      "id": "p03-a-08-s02",
+      "speaker": "Sam",
+      "text": "I thought white paint would make the room brighter."
+    },
+    {
+      "id": "p03-a-08-s03",
+      "speaker": "Freya",
+      "text": "Maybe, but look at the yellow sample near the window."
+    },
+    {
+      "id": "p03-a-08-s04",
+      "speaker": "Sam",
+      "text": "It looks attractive in the morning light. The darker sample is a bit much."
+    },
+    {
+      "id": "p03-a-08-s05",
+      "speaker": "Freya",
+      "text": "We could try a larger patch of the pale yellow before buying a whole tin."
+    },
+    {
+      "id": "p03-a-08-s06",
+      "speaker": "Sam",
+      "text": "Good idea. Let us keep the other walls white so the room does not feel too busy."
+    },
+    {
+      "id": "p03-a-08-s07",
+      "speaker": "Freya",
+      "text": "Agreed. I will paint the bigger patch this afternoon."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5a67e1c50cf25300",
+      "lemma": "which",
+      "pos": "det.",
+      "sense_zh": "哪一个，限定选择范围",
+      "sentence_ids": [
+        "p03-a-08-s01"
+      ],
+      "forms": [
+        "which"
+      ],
+      "sense_id": "sense-staged-ox-5a67e1c50cf25300-p03-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-02d555ca8837a1ad",
+      "lemma": "want",
+      "pos": "v.",
+      "sense_zh": "想要",
+      "sentence_ids": [
+        "p03-a-08-s01"
+      ],
+      "forms": [
+        "want"
+      ],
+      "sense_id": "sense-staged-ox-02d555ca8837a1ad-p03-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ab47db00d16df6a4",
+      "lemma": "wall",
+      "pos": "n.",
+      "sense_zh": "墙",
+      "sentence_ids": [
+        "p03-a-08-s01"
+      ],
+      "forms": [
+        "wall"
+      ],
+      "sense_id": "sense-staged-ox-ab47db00d16df6a4-p03-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e2e9a9f7651e5532",
+      "lemma": "white",
+      "pos": "adj.",
+      "sense_zh": "白色的",
+      "sentence_ids": [
+        "p03-a-08-s02"
+      ],
+      "forms": [
+        "white"
+      ],
+      "sense_id": "sense-staged-ox-e2e9a9f7651e5532-p03-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-68c7cb3f7d087c1c",
+      "lemma": "yellow",
+      "pos": "adj.",
+      "sense_zh": "黄色的",
+      "sentence_ids": [
+        "p03-a-08-s03"
+      ],
+      "forms": [
+        "yellow"
+      ],
+      "sense_id": "sense-staged-ox-68c7cb3f7d087c1c-p03-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77635990e2ff4e4d",
+      "lemma": "window",
+      "pos": "n.",
+      "sense_zh": "窗户",
+      "sentence_ids": [
+        "p03-a-08-s03"
+      ],
+      "forms": [
+        "window"
+      ],
+      "sense_id": "sense-staged-ox-77635990e2ff4e4d-p03-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-87a066d17c9b9ab3",
+      "lemma": "attractive",
+      "pos": "adj.",
+      "sense_zh": "好看的，吸引人的",
+      "sentence_ids": [
+        "p03-a-08-s04"
+      ],
+      "forms": [
+        "attractive"
+      ],
+      "sense_id": "sense-staged-ox-87a066d17c9b9ab3-p03-a-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

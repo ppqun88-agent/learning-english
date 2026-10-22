@@ -1,0 +1,137 @@
+{
+  "id": "p03-b-03",
+  "title_zh": "清理橱柜时分好垃圾",
+  "topic_id": "home",
+  "scenario": {
+    "id": "shared-house-cleanup",
+    "label_zh": "分配合租房清洁工作",
+    "goal_zh": "明确待清洁区域和离开房间前的操作"
+  },
+  "participants": [
+    "Idris",
+    "Ruth"
+  ],
+  "context_zh": "合租的两位室友整理厨房，发现底层有碎玻璃。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-03-s01",
+      "speaker": "Idris",
+      "text": "I will wipe the cupboard if you sort the empty boxes."
+    },
+    {
+      "id": "p03-b-03-s02",
+      "speaker": "Ruth",
+      "text": "Fine. There is a broken jar at the bottom, behind the big tin."
+    },
+    {
+      "id": "p03-b-03-s03",
+      "speaker": "Idris",
+      "text": "Thanks for warning me. I will be careful."
+    },
+    {
+      "id": "p03-b-03-s04",
+      "speaker": "Ruth",
+      "text": "I have some thick gloves. Let me pick up the pieces carefully first."
+    },
+    {
+      "id": "p03-b-03-s05",
+      "speaker": "Idris",
+      "text": "Which bin is for the cardboard?"
+    },
+    {
+      "id": "p03-b-03-s06",
+      "speaker": "Ruth",
+      "text": "The blue one. Leave the glass for me; I will put it in a separate container."
+    },
+    {
+      "id": "p03-b-03-s07",
+      "speaker": "Idris",
+      "text": "Deal. Once the shelf is clear, I will clean it and close the cupboard."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a5f7c398e0468705",
+      "lemma": "cupboard",
+      "pos": "n.",
+      "sense_zh": "橱柜",
+      "sentence_ids": [
+        "p03-b-03-s01"
+      ],
+      "forms": [
+        "cupboard"
+      ],
+      "sense_id": "sense-staged-ox-a5f7c398e0468705-p03-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a4e8eab3eccbf9fa",
+      "lemma": "bottom",
+      "pos": "n.",
+      "sense_zh": "底部",
+      "sentence_ids": [
+        "p03-b-03-s02"
+      ],
+      "forms": [
+        "bottom"
+      ],
+      "sense_id": "sense-staged-ox-a4e8eab3eccbf9fa-p03-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-af47c2e88510af82",
+      "lemma": "careful",
+      "pos": "adj.",
+      "sense_zh": "小心的",
+      "sentence_ids": [
+        "p03-b-03-s03"
+      ],
+      "forms": [
+        "careful"
+      ],
+      "sense_id": "sense-staged-ox-af47c2e88510af82-p03-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e7a57f060cd65b86",
+      "lemma": "carefully",
+      "pos": "adv.",
+      "sense_zh": "小心地",
+      "sentence_ids": [
+        "p03-b-03-s04"
+      ],
+      "forms": [
+        "carefully"
+      ],
+      "sense_id": "sense-staged-ox-e7a57f060cd65b86-p03-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-03c5d11b3f493c2f",
+      "lemma": "bin",
+      "pos": "n.",
+      "sense_zh": "垃圾或回收物容器",
+      "sentence_ids": [
+        "p03-b-03-s05"
+      ],
+      "forms": [
+        "bin"
+      ],
+      "sense_id": "sense-staged-ox-03c5d11b3f493c2f-p03-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

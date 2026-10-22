@@ -1,0 +1,142 @@
+{
+  "id": "p03-b-11",
+  "title_zh": "填好晚课表格并暂留名额",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "evening-course-place-hold",
+    "label_zh": "核对晚间课程报名并暂留名额",
+    "goal_zh": "核对课程时间、报名资格与表格填写要求，并确认暂留名额"
+  },
+  "participants": [
+    "Meera",
+    "Jon"
+  ],
+  "context_zh": "成人学员在报名台核对晚课时间和表格，工作人员同意暂留名额。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-11-s01",
+      "speaker": "Meera",
+      "text": "Is the Tuesday evening class still open to beginners?"
+    },
+    {
+      "id": "p03-b-11-s02",
+      "speaker": "Jon",
+      "text": "Yes. It starts at seven, and we can hold a place for you until tomorrow."
+    },
+    {
+      "id": "p03-b-11-s03",
+      "speaker": "Meera",
+      "text": "Good. I have filled in the form, but this box is still blank."
+    },
+    {
+      "id": "p03-b-11-s04",
+      "speaker": "Jon",
+      "text": "That is for your date of birth. Please check that you have written it correctly."
+    },
+    {
+      "id": "p03-b-11-s05",
+      "speaker": "Meera",
+      "text": "Done. Do I tick the Tuesday option?"
+    },
+    {
+      "id": "p03-b-11-s06",
+      "speaker": "Jon",
+      "text": "Please circle it instead. Keep this copy of the timetable as well."
+    },
+    {
+      "id": "p03-b-11-s07",
+      "speaker": "Meera",
+      "text": "Thank you. I will bring the completed form back tomorrow morning."
+    },
+    {
+      "id": "p03-b-11-s08",
+      "speaker": "Jon",
+      "text": "That is fine. Your place will stay on hold until then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ae9f59b16fed3ee7",
+      "lemma": "blank",
+      "pos": "adj.",
+      "sense_zh": "空白的；未填写的",
+      "sentence_ids": [
+        "p03-b-11-s03"
+      ],
+      "forms": [
+        "blank"
+      ],
+      "sense_id": "sense-staged-ox-ae9f59b16fed3ee7-p03-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1b9e125cd2ef862f",
+      "lemma": "birth",
+      "pos": "n.",
+      "sense_zh": "出生",
+      "sentence_ids": [
+        "p03-b-11-s04"
+      ],
+      "forms": [
+        "birth"
+      ],
+      "sense_id": "sense-staged-ox-1b9e125cd2ef862f-p03-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-03dd1fc7010fac1c",
+      "lemma": "correctly",
+      "pos": "adv.",
+      "sense_zh": "正确地",
+      "sentence_ids": [
+        "p03-b-11-s04"
+      ],
+      "forms": [
+        "correctly"
+      ],
+      "sense_id": "sense-staged-ox-03dd1fc7010fac1c-p03-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51618d09adf1061e",
+      "lemma": "circle",
+      "pos": "v.",
+      "sense_zh": "圈出",
+      "sentence_ids": [
+        "p03-b-11-s06"
+      ],
+      "forms": [
+        "circle"
+      ],
+      "sense_id": "sense-staged-ox-51618d09adf1061e-p03-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51a23fdd8bee4061",
+      "lemma": "copy",
+      "pos": "n.",
+      "sense_zh": "一份印刷或复制的材料",
+      "sentence_ids": [
+        "p03-b-11-s06"
+      ],
+      "forms": [
+        "copy"
+      ],
+      "sense_id": "sense-staged-ox-51a23fdd8bee4061-p03-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,153 @@
+{
+  "id": "p03-a-14",
+  "title_zh": "核对失物外观和领取地点",
+  "topic_id": "services",
+  "scenario": {
+    "id": "lost-bag-collection-description",
+    "label_zh": "按描述领取遗失手袋",
+    "goal_zh": "描述手袋外观并确认失物招领处的领取位置"
+  },
+  "participants": [
+    "Imogen",
+    "Alex"
+  ],
+  "context_zh": "旅客致电车站失物招领处，工作人员按失物外观查找。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-14-s01",
+      "speaker": "Imogen",
+      "text": "I left a small bag on the station bench. I cannot find it anywhere."
+    },
+    {
+      "id": "p03-a-14-s02",
+      "speaker": "Alex",
+      "text": "Can you describe its appearance?"
+    },
+    {
+      "id": "p03-a-14-s03",
+      "speaker": "Imogen",
+      "text": "It is dark blue, almost black, with a silver handle."
+    },
+    {
+      "id": "p03-a-14-s04",
+      "speaker": "Alex",
+      "text": "Yes, a woman handed in a bag like that about twenty minutes ago."
+    },
+    {
+      "id": "p03-a-14-s05",
+      "speaker": "Imogen",
+      "text": "Ah, that sounds like mine. Where can I collect it?"
+    },
+    {
+      "id": "p03-a-14-s06",
+      "speaker": "Alex",
+      "text": "At the information desk beside platform two. We will ask you about the contents before returning it."
+    },
+    {
+      "id": "p03-a-14-s07",
+      "speaker": "Imogen",
+      "text": "That is fine. I will come to the desk now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9d5a16083c89ef09",
+      "lemma": "anywhere",
+      "pos": "adv.",
+      "sense_zh": "在任何地方，用于否定句",
+      "sentence_ids": [
+        "p03-a-14-s01"
+      ],
+      "forms": [
+        "anywhere"
+      ],
+      "sense_id": "sense-staged-ox-9d5a16083c89ef09-p03-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a8f0fb7fc9bced79",
+      "lemma": "appearance",
+      "pos": "n.",
+      "sense_zh": "外观",
+      "sentence_ids": [
+        "p03-a-14-s02"
+      ],
+      "forms": [
+        "appearance"
+      ],
+      "sense_id": "sense-staged-ox-a8f0fb7fc9bced79-p03-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-345730506f96f237",
+      "lemma": "almost",
+      "pos": "adv.",
+      "sense_zh": "几乎",
+      "sentence_ids": [
+        "p03-a-14-s03"
+      ],
+      "forms": [
+        "almost"
+      ],
+      "sense_id": "sense-staged-ox-345730506f96f237-p03-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d82c1ed6e3da6079",
+      "lemma": "yes",
+      "pos": "exclam.",
+      "sense_zh": "是的，用于肯定回答",
+      "sentence_ids": [
+        "p03-a-14-s04"
+      ],
+      "forms": [
+        "yes"
+      ],
+      "sense_id": "sense-staged-ox-d82c1ed6e3da6079-p03-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-69ccdf4a167fb3cf",
+      "lemma": "woman",
+      "pos": "n.",
+      "sense_zh": "成年女性",
+      "sentence_ids": [
+        "p03-a-14-s04"
+      ],
+      "forms": [
+        "woman"
+      ],
+      "sense_id": "sense-staged-ox-69ccdf4a167fb3cf-p03-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0728547f87086da2",
+      "lemma": "ah",
+      "pos": "exclam.",
+      "sense_zh": "啊，表示领会或反应",
+      "sentence_ids": [
+        "p03-a-14-s05"
+      ],
+      "forms": [
+        "ah"
+      ],
+      "sense_id": "sense-staged-ox-0728547f87086da2-p03-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

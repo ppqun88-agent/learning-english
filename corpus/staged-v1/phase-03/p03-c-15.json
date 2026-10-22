@@ -1,0 +1,163 @@
+{
+  "id": "p03-c-15",
+  "title_zh": "尊重家人的合影安排",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "family-photo-arrangements",
+    "label_zh": "协调家庭合影安排",
+    "goal_zh": "尊重离异亲人的意愿并明确合影及接人安排"
+  },
+  "participants": [
+    "Bea",
+    "Marcus"
+  ],
+  "context_zh": "家庭聚会前，两名成年亲属核对合影和接送安排，不替离异亲人决定是否同框。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-15-s01",
+      "speaker": "Bea",
+      "text": "Are we asking everyone to stand together for the family photo?"
+    },
+    {
+      "id": "p03-c-15-s02",
+      "speaker": "Marcus",
+      "text": "Let's ask Eva first. She and Martin are divorced, and I don't want to make assumptions."
+    },
+    {
+      "id": "p03-c-15-s03",
+      "speaker": "Bea",
+      "text": "Eva said she'd happily join the group photo. She's choosing the smaller family photos herself."
+    },
+    {
+      "id": "p03-c-15-s04",
+      "speaker": "Marcus",
+      "text": "Good. And Martin can decide for himself whether he wants separate pictures."
+    },
+    {
+      "id": "p03-c-15-s05",
+      "speaker": "Bea",
+      "text": "Whose camera are we using? Is the one on the table Eva's?"
+    },
+    {
+      "id": "p03-c-15-s06",
+      "speaker": "Marcus",
+      "text": "Yes, it's hers. She said we could borrow it."
+    },
+    {
+      "id": "p03-c-15-s07",
+      "speaker": "Bea",
+      "text": "What about the guy collecting Grandma? Does he know we're starting at two?"
+    },
+    {
+      "id": "p03-c-15-s08",
+      "speaker": "Marcus",
+      "text": "That's my neighbour, Arun. I've given him the time, and Grandma has his number."
+    },
+    {
+      "id": "p03-c-15-s09",
+      "speaker": "Bea",
+      "text": "Great. I'll check with Martin before I arrange anyone for the photo."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-71cde3a3b38c8f13",
+      "lemma": "divorced",
+      "pos": "adj.",
+      "sense_zh": "已离婚的",
+      "sentence_ids": [
+        "p03-c-15-s02"
+      ],
+      "forms": [
+        "divorced"
+      ],
+      "sense_id": "sense-staged-ox-71cde3a3b38c8f13-p03-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2337d7b496dcf88d",
+      "lemma": "hers",
+      "pos": "pron.",
+      "sense_zh": "她的东西",
+      "sentence_ids": [
+        "p03-c-15-s06"
+      ],
+      "forms": [
+        "hers"
+      ],
+      "sense_id": "sense-staged-ox-2337d7b496dcf88d-p03-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9b83acdaffd2c0b",
+      "lemma": "herself",
+      "pos": "pron.",
+      "sense_zh": "她自己；强调亲自",
+      "sentence_ids": [
+        "p03-c-15-s03"
+      ],
+      "forms": [
+        "herself"
+      ],
+      "sense_id": "sense-staged-ox-b9b83acdaffd2c0b-p03-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a7ae44144bdf5a4",
+      "lemma": "himself",
+      "pos": "pron.",
+      "sense_zh": "他自己",
+      "sentence_ids": [
+        "p03-c-15-s04"
+      ],
+      "forms": [
+        "himself"
+      ],
+      "sense_id": "sense-staged-ox-2a7ae44144bdf5a4-p03-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-794a794d74aa0a5f",
+      "lemma": "guy",
+      "pos": "n.",
+      "sense_zh": "男人；家伙（非正式称呼）",
+      "sentence_ids": [
+        "p03-c-15-s07"
+      ],
+      "forms": [
+        "guy"
+      ],
+      "sense_id": "sense-staged-ox-794a794d74aa0a5f-p03-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-24d0949bb0077e40",
+      "lemma": "happily",
+      "pos": "adv.",
+      "sense_zh": "乐意地",
+      "sentence_ids": [
+        "p03-c-15-s03"
+      ],
+      "forms": [
+        "happily"
+      ],
+      "sense_id": "sense-staged-ox-24d0949bb0077e40-p03-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

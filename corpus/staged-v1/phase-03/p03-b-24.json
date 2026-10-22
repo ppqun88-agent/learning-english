@@ -1,0 +1,158 @@
+{
+  "id": "p03-b-24",
+  "title_zh": "把草稿里不明确的变化说清楚",
+  "topic_id": "work",
+  "scenario": {
+    "id": "draft-feedback",
+    "label_zh": "反馈与修改草稿",
+    "goal_zh": "提出可操作反馈并协商修订安排"
+  },
+  "participants": [
+    "Editor Rosa",
+    "Writer Theo"
+  ],
+  "context_zh": "编辑根据读者反馈与作者讨论一篇社区简讯草稿，约定当天修订。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-24-s01",
+      "speaker": "Editor Rosa",
+      "text": "I have one comment on the opening paragraph of your draft."
+    },
+    {
+      "id": "p03-b-24-s02",
+      "speaker": "Writer Theo",
+      "text": "Is it the sentence about the new timetable?"
+    },
+    {
+      "id": "p03-b-24-s03",
+      "speaker": "Editor Rosa",
+      "text": "Yes. I am not certain which service has changed."
+    },
+    {
+      "id": "p03-b-24-s04",
+      "speaker": "Writer Theo",
+      "text": "I assumed readers had seen last week's notice."
+    },
+    {
+      "id": "p03-b-24-s05",
+      "speaker": "Editor Rosa",
+      "text": "Without that context, they may understand the sentence differently."
+    },
+    {
+      "id": "p03-b-24-s06",
+      "speaker": "Writer Theo",
+      "text": "I see. I should name the bus service and say exactly what has changed."
+    },
+    {
+      "id": "p03-b-24-s07",
+      "speaker": "Editor Rosa",
+      "text": "Would you consider adding the old and new times? That would explain it clearly."
+    },
+    {
+      "id": "p03-b-24-s08",
+      "speaker": "Writer Theo",
+      "text": "Yes. I will make those changes and send you the revised paragraph by four."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8583556a6fd63276",
+      "lemma": "comment",
+      "pos": "n.",
+      "sense_zh": "意见；评论",
+      "sentence_ids": [
+        "p03-b-24-s01"
+      ],
+      "forms": [
+        "comment"
+      ],
+      "sense_id": "sense-staged-ox-8583556a6fd63276-p03-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8ba99b93c38c30d8",
+      "lemma": "certain",
+      "pos": "adj.",
+      "sense_zh": "确定的；确信的",
+      "sentence_ids": [
+        "p03-b-24-s03"
+      ],
+      "forms": [
+        "certain"
+      ],
+      "sense_id": "sense-staged-ox-8ba99b93c38c30d8-p03-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dcf0a0ca0f56903b",
+      "lemma": "context",
+      "pos": "n.",
+      "sense_zh": "帮助理解的背景",
+      "sentence_ids": [
+        "p03-b-24-s05"
+      ],
+      "forms": [
+        "context"
+      ],
+      "sense_id": "sense-staged-ox-dcf0a0ca0f56903b-p03-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d98d162bd1bc00d1",
+      "lemma": "differently",
+      "pos": "adv.",
+      "sense_zh": "以不同方式",
+      "sentence_ids": [
+        "p03-b-24-s05"
+      ],
+      "forms": [
+        "differently"
+      ],
+      "sense_id": "sense-staged-ox-d98d162bd1bc00d1-p03-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-565533a6ec4bf0cb",
+      "lemma": "consider",
+      "pos": "v.",
+      "sense_zh": "考虑",
+      "sentence_ids": [
+        "p03-b-24-s07"
+      ],
+      "forms": [
+        "consider"
+      ],
+      "sense_id": "sense-staged-ox-565533a6ec4bf0cb-p03-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b12f751db718302",
+      "lemma": "clearly",
+      "pos": "adv.",
+      "sense_zh": "清楚地",
+      "sentence_ids": [
+        "p03-b-24-s07"
+      ],
+      "forms": [
+        "clearly"
+      ],
+      "sense_id": "sense-staged-ox-0b12f751db718302-p03-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

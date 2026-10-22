@@ -1,0 +1,158 @@
+{
+  "id": "p03-c-02",
+  "title_zh": "查证旧地图上的聚落",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "archive-map-discovery",
+    "label_zh": "核对旧地图发现",
+    "goal_zh": "查证旧地图是否支持曾有聚落的解释"
+  },
+  "participants": [
+    "Inez",
+    "Tom"
+  ],
+  "context_zh": "地方档案室中，两名研究者讨论一幅新找到的旧地图能证明什么。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-02-s01",
+      "speaker": "Inez",
+      "text": "Did you discover anything useful in that box?"
+    },
+    {
+      "id": "p03-c-02-s02",
+      "speaker": "Tom",
+      "text": "An old map. This document shows three buildings beside the river."
+    },
+    {
+      "id": "p03-c-02-s03",
+      "speaker": "Inez",
+      "text": "That's an interesting discovery. Do the buildings still exist?"
+    },
+    {
+      "id": "p03-c-02-s04",
+      "speaker": "Tom",
+      "text": "I don't know. There are no buildings there on the modern map."
+    },
+    {
+      "id": "p03-c-02-s05",
+      "speaker": "Inez",
+      "text": "So can we say there was a human settlement there?"
+    },
+    {
+      "id": "p03-c-02-s06",
+      "speaker": "Tom",
+      "text": "Not yet. They might have been storage buildings, with nobody living there."
+    },
+    {
+      "id": "p03-c-02-s07",
+      "speaker": "Inez",
+      "text": "Let's ask an expert on local history to look at it."
+    },
+    {
+      "id": "p03-c-02-s08",
+      "speaker": "Tom",
+      "text": "Good idea. I'll send the archive reference and a picture of the map."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-73093647063b4510",
+      "lemma": "discover",
+      "pos": "v.",
+      "sense_zh": "发现；找到",
+      "sentence_ids": [
+        "p03-c-02-s01"
+      ],
+      "forms": [
+        "discover"
+      ],
+      "sense_id": "sense-staged-ox-73093647063b4510-p03-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eecc554a0ac1a881",
+      "lemma": "discovery",
+      "pos": "n.",
+      "sense_zh": "发现的事物",
+      "sentence_ids": [
+        "p03-c-02-s03"
+      ],
+      "forms": [
+        "discovery"
+      ],
+      "sense_id": "sense-staged-ox-eecc554a0ac1a881-p03-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8c62bc5cb93c2858",
+      "lemma": "document",
+      "pos": "n.",
+      "sense_zh": "文件；文献",
+      "sentence_ids": [
+        "p03-c-02-s02"
+      ],
+      "forms": [
+        "document"
+      ],
+      "sense_id": "sense-staged-ox-8c62bc5cb93c2858-p03-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4eeba0f2b16e801e",
+      "lemma": "exist",
+      "pos": "v.",
+      "sense_zh": "存在",
+      "sentence_ids": [
+        "p03-c-02-s03"
+      ],
+      "forms": [
+        "exist"
+      ],
+      "sense_id": "sense-staged-ox-4eeba0f2b16e801e-p03-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1f58202b350d71f4",
+      "lemma": "human",
+      "pos": "adj.",
+      "sense_zh": "人的；人类的",
+      "sentence_ids": [
+        "p03-c-02-s05"
+      ],
+      "forms": [
+        "human"
+      ],
+      "sense_id": "sense-staged-ox-1f58202b350d71f4-p03-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d72950a169024ba9",
+      "lemma": "expert",
+      "pos": "n.",
+      "sense_zh": "专家",
+      "sentence_ids": [
+        "p03-c-02-s07"
+      ],
+      "forms": [
+        "expert"
+      ],
+      "sense_id": "sense-staged-ox-d72950a169024ba9-p03-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

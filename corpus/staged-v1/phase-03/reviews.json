@@ -1,0 +1,5220 @@
+[
+  {
+    "dialogue_id": "p03-a-01",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "95028ec05957aee0b63a35ef6fb15fca6914f5a786fb3573972975ddc44680d3",
+    "status": "accepted",
+    "rationale": "The applicant and adviser consistently discuss a beginner-level overseas summer course, English screening, vacancies, and the Friday application deadline. The promised link and Thursday conversation lead naturally to completing the form; all eight selected senses are supported.",
+    "targets": [
+      {
+        "target_id": "ox-ffd0c06dcc067056",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-01-s01"
+        ],
+        "forms": [
+          "university"
+        ],
+        "rationale": "s01 uses university as a noun attributively in 'university website', identifying the educational institution offering the course; 大学 fits."
+      },
+      {
+        "target_id": "ox-fe8954cde0721d1d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-01-s01"
+        ],
+        "forms": [
+          "website"
+        ],
+        "rationale": "s01 places website after 'on the university', naming the online location where Mira found the course; this is the noun 网站."
+      },
+      {
+        "target_id": "ox-8096a33540379dba",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-01-s01"
+        ],
+        "forms": [
+          "apply"
+        ],
+        "rationale": "s01 asks 'Can beginners apply?', an intransitive application verb whose omitted course object is established by the preceding sentence; 申请课程名额 fits."
+      },
+      {
+        "target_id": "ox-3dad292b7c57cd83",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-01-s03"
+        ],
+        "forms": [
+          "ability"
+        ],
+        "rationale": "s03 uses the noun ability as the head of 'my speaking ability', asking how spoken English competence is assessed."
+      },
+      {
+        "target_id": "ox-df512ecceec817ca",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-01-s04"
+        ],
+        "forms": [
+          "able"
+        ],
+        "rationale": "s04 uses predicative adjective able with 'to join', asking about capacity/availability for Thursday's online conversation; 能够做某事的 fits."
+      },
+      {
+        "target_id": "ox-dc607428e019caed",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-01-s05"
+        ],
+        "forms": [
+          "available"
+        ],
+        "rationale": "s05 uses available as a postpositive adjective modifying places, meaning unfilled course places rather than a person's availability."
+      },
+      {
+        "target_id": "ox-5cf0a14855557d1e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-01-s06"
+        ],
+        "forms": [
+          "accept"
+        ],
+        "rationale": "s06 uses transitive accept with 'your application', naturally describing the period during which applications can be received, not guaranteeing admission."
+      },
+      {
+        "target_id": "ox-4ca10c8dc8d3cd17",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-01-s07"
+        ],
+        "forms": [
+          "abroad"
+        ],
+        "rationale": "s07 uses abroad adverbially after studying, locating study in another country; it is neither a noun nor a prepositional object."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-02",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "0659668611c6e43a3b5b705afce78a73d89f772b2e7d202a7246ee8a9d739cf4",
+    "status": "accepted",
+    "rationale": "A learner identifies an unclear number in a video, the teacher suggests slower replay, and the learner resolves six versus seven before attempting the next line alone. The turn sequence and ending fulfill the listening-practice goal without becoming a vocabulary list.",
+    "targets": [
+      {
+        "target_id": "ox-ec39efbbf15f57a9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-02-s01"
+        ],
+        "forms": [
+          "understand"
+        ],
+        "rationale": "s01 makes understand a transitive verb with 'the last part of this video', expressing failure to comprehend heard content."
+      },
+      {
+        "target_id": "ox-699990865d78a568",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-02-s01"
+        ],
+        "forms": [
+          "video"
+        ],
+        "rationale": "s01 uses video as the noun in 'this video', the particular audiovisual exercise being replayed."
+      },
+      {
+        "target_id": "ox-16d5ab7dbea42f7e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-02-s03"
+        ],
+        "forms": [
+          "word"
+        ],
+        "rationale": "s03 uses singular count noun word after one, naming the fast-spoken item the learner cannot distinguish."
+      },
+      {
+        "target_id": "ox-2a0a750b2eca0286",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-02-s04"
+        ],
+        "forms": [
+          "watch"
+        ],
+        "rationale": "s04 uses watch as a verb after 'Let us', with 'that bit' referring to the video segment; slower playback is a natural viewing action."
+      },
+      {
+        "target_id": "ox-0e4b4a5cbb4b14d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-02-s05"
+        ],
+        "forms": [
+          "use"
+        ],
+        "rationale": "s05 uses use transitively with 'this app' and a purpose infinitive, matching 使用 rather than the noun use."
+      },
+      {
+        "target_id": "ox-099f244f60cefdf1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-02-s05"
+        ],
+        "forms": [
+          "app"
+        ],
+        "rationale": "s05 uses app as a count noun after this, the software tool for changing playback speed."
+      },
+      {
+        "target_id": "ox-c0aa61a2b78cb742",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-02-s06"
+        ],
+        "forms": [
+          "useful"
+        ],
+        "rationale": "s06 uses useful predicatively with 'for listening practice', explaining the practical benefit of the speed control."
+      },
+      {
+        "target_id": "ox-606b8d24359e9510",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-02-s08"
+        ],
+        "forms": [
+          "yourself"
+        ],
+        "rationale": "s08 uses reflexive pronoun yourself after by, conventionally meaning without the teacher's help; the following independent replay confirms that sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-03",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "90a53df24a3b8e2b831c165c19c9a63e2eca35f0c2a44d1bc90e96854272acf4",
+    "status": "accepted",
+    "rationale": "Reread the complete content_version 2 file and all eight target usages after the metadata repair. The revised title, label, and Chinese goal now correctly describe preliminary flight discussion and checking railway dates before choosing a flight. Nora's railway interest, Eli's week of leave and direct-flight advantage, the early-arrival concession, accommodation offer, and final timetable commitment form a coherent plan. All eight noun/verb/conjunction senses and their evidence mappings remain appropriate; no unresolved defect remains.",
+    "targets": [
+      {
+        "target_id": "ox-c1333d3f273ef550",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-03-s01"
+        ],
+        "forms": [
+          "vacation"
+        ],
+        "rationale": "s01 uses the noun vacation in 'take a vacation together', naturally expressing a shared holiday."
+      },
+      {
+        "target_id": "ox-0d8a7739600e6d63",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-03-s01"
+        ],
+        "forms": [
+          "winter"
+        ],
+        "rationale": "s01 uses winter as a season noun after this, setting the intended travel season; February is compatible in the story's assumed northern setting."
+      },
+      {
+        "target_id": "ox-18fe9f9d82a9c028",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-03-s02"
+        ],
+        "forms": [
+          "week"
+        ],
+        "rationale": "s02 uses week as a countable duration noun in 'one week off', establishing the available leave period."
+      },
+      {
+        "target_id": "ox-e95f969c43764cba",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-03-s03"
+        ],
+        "forms": [
+          "adventure"
+        ],
+        "rationale": "s03 uses adventure nominally after 'a little', describing the exciting travel experience desired; the mountain railway supplies concrete motivation."
+      },
+      {
+        "target_id": "ox-4fce590913e6aaa7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-03-s04"
+        ],
+        "forms": [
+          "advantage"
+        ],
+        "rationale": "s04 uses count noun advantage after one and explains it with a colon: avoiding a plane change saves a day."
+      },
+      {
+        "target_id": "ox-27f596c419097949",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-03-s05"
+        ],
+        "forms": [
+          "airline"
+        ],
+        "rationale": "s05 uses airline as the head of the interrogative noun phrase 'Which airline', asking for the carrier operating the direct flight."
+      },
+      {
+        "target_id": "ox-661fe575c13bf1b0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-03-s06"
+        ],
+        "forms": [
+          "although"
+        ],
+        "rationale": "s06 uses Although as a clause-introducing conjunction contrasting early departure with arrival before lunch; lowercase declared form is valid sentence-initial casing."
+      },
+      {
+        "target_id": "ox-796df55138f442b9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-03-s07"
+        ],
+        "forms": [
+          "arrange"
+        ],
+        "rationale": "s07 uses arrange transitively with 'a hotel', a conventional shorthand for arranging hotel accommodation near the station."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-04",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "3429b190327843cad933e71f34b932abcc1f243748ad291317f93bc3d24fff23",
+    "status": "accepted",
+    "rationale": "The information-desk exchange establishes an architecture interest, distinguishes the old bridge from a modern one, and supplies a westward riverside route linking the bridge and hall. The tourist accepts the route, giving a coherent ending and clear referents for all eight targets.",
+    "targets": [
+      {
+        "target_id": "ox-dea4db4fb114298d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-04-s01"
+        ],
+        "forms": [
+          "village"
+        ],
+        "rationale": "s01 uses village as a place noun after 'in the', identifying the small settlement available to explore for two hours."
+      },
+      {
+        "target_id": "ox-5d73dcccb2b429aa",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-04-s01"
+        ],
+        "forms": [
+          "visit"
+        ],
+        "rationale": "s01 uses visit as a transitive verb in a question with what as object, asking which attractions to see."
+      },
+      {
+        "target_id": "ox-250bf394031f0e02",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-04-s02"
+        ],
+        "forms": [
+          "architecture"
+        ],
+        "rationale": "s02 uses architecture as an uncountable interest noun contrasted with food; the bridge and exhibition hall ground the building-art sense."
+      },
+      {
+        "target_id": "ox-613ef72087750e6f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-04-s03"
+        ],
+        "forms": [
+          "architect"
+        ],
+        "rationale": "s03 uses architect after 'an' as a profession noun, explaining the sister's interest in the old bridge."
+      },
+      {
+        "target_id": "ox-ed166d4d42a1933f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-04-s04"
+        ],
+        "forms": [
+          "ancient"
+        ],
+        "rationale": "s04 uses ancient attributively before bridge, distinguishing the old stone structure from the concrete road bridge."
+      },
+      {
+        "target_id": "ox-029ef0ab55a72451",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-04-s05"
+        ],
+        "forms": [
+          "way"
+        ],
+        "rationale": "s05 uses way as the noun head in 'Which way', asking for a route/direction from the information point."
+      },
+      {
+        "target_id": "ox-35c5edd509ead1a7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-04-s06"
+        ],
+        "forms": [
+          "west"
+        ],
+        "rationale": "s06 uses west after Head without an object, a directional adverb meaning 向西 rather than the noun or adjective."
+      },
+      {
+        "target_id": "ox-188d3aa0846fff5e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-04-s06"
+        ],
+        "forms": [
+          "along"
+        ],
+        "rationale": "s06 uses along as a preposition with 'the river', locating the walk beside and following the river's course."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-05",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "ae40f01c619eaf30c1ac4a43ec7fac9dd2b12d44919f4b0e88345bdbdad10a15",
+    "status": "accepted",
+    "rationale": "The receptionist greets the booked visitors, explains that Ms Cole is finishing a call, identifies the upstairs meeting route, and confirms sending a message. Ben's agreement to sit down resolves the immediate reception task; speaker roles remain consistent.",
+    "targets": [
+      {
+        "target_id": "ox-96e8f34c7a9a2ca9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-05-s01"
+        ],
+        "forms": [
+          "welcome"
+        ],
+        "rationale": "s01 opens with standalone 'Welcome!', an exclamation greeting arriving visitors, not an imperative verb with an object."
+      },
+      {
+        "target_id": "ox-56c2eeb4b9a13ebc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-05-s02"
+        ],
+        "forms": [
+          "visitor"
+        ],
+        "rationale": "s02 uses visitor as a count noun in 'her ten o'clock visitor', identifying Ben through his appointment time."
+      },
+      {
+        "target_id": "ox-49ac866c1673b6f5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-05-s03"
+        ],
+        "forms": [
+          "wait"
+        ],
+        "rationale": "s03 uses wait as an imperative verb in 'Please wait here', requesting that the visitors remain at reception."
+      },
+      {
+        "target_id": "ox-5275fb53f375faa8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-05-s03"
+        ],
+        "forms": [
+          "until"
+        ],
+        "rationale": "s03 uses until before the finite clause 'she comes down', so the source conjunction POS and event-boundary sense both fit."
+      },
+      {
+        "target_id": "ox-7c15b428bba5170f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-05-s04"
+        ],
+        "forms": [
+          "upstairs"
+        ],
+        "rationale": "s04 uses upstairs as a location adverb after the meeting-room subject and copula, asking whether the room is on a higher floor."
+      },
+      {
+        "target_id": "ox-b5f62e167849cbbb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-05-s05"
+        ],
+        "forms": [
+          "up"
+        ],
+        "rationale": "s05 uses up as a preposition with 'the stairs', describing movement along the stairs to the higher floor."
+      },
+      {
+        "target_id": "ox-8fd8cb19d167f794",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-05-s06"
+        ],
+        "forms": [
+          "us"
+        ],
+        "rationale": "s06 places object-form pronoun us after of in 'both of us', explicitly referring to Ben and his colleague."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-06",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "30e3e75539c5f0e65a144f0f9926f9fab51109435a20eae71c8d97e592e9a930",
+    "status": "accepted",
+    "rationale": "The customer asks about soup ingredients, requests cream omission, accepts warm bread and wine, and the companion orders soup with water. The waiter's recap distinguishes the two soups and drinks, completing the order naturally; noun modifiers are correctly distinguished from adjective targets.",
+    "targets": [
+      {
+        "target_id": "ox-6addcc236ed31729",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-06-s01"
+        ],
+        "forms": [
+          "waiter"
+        ],
+        "rationale": "s01 uses waiter as a person noun after our; the immediately arriving Mateo is the restaurant server being referenced."
+      },
+      {
+        "target_id": "ox-81a2bac80cdf0340",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-06-s03"
+        ],
+        "forms": [
+          "what"
+        ],
+        "rationale": "s03 uses What independently as the object of know in a polite question, correctly supporting interrogative pronoun rather than determiner."
+      },
+      {
+        "target_id": "ox-c4a27dbd161cde03",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-06-s04"
+        ],
+        "forms": [
+          "vegetable"
+        ],
+        "rationale": "s04 uses vegetable as a noun adjunct in 'vegetable soup'; the annotation explicitly preserves its noun POS while naming the main ingredient category."
+      },
+      {
+        "target_id": "ox-5a32400833d1ab5f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-06-s05"
+        ],
+        "forms": [
+          "bean"
+        ],
+        "rationale": "s05 uses bean as a singular noun adjunct in 'white bean soup', identifying the soup ingredient rather than using an invented adjective sense."
+      },
+      {
+        "target_id": "ox-3f29bcbb3088951e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-06-s06"
+        ],
+        "forms": [
+          "without"
+        ],
+        "rationale": "s06 uses without as a preposition taking 'the cream on top', specifying an omitted topping in the order."
+      },
+      {
+        "target_id": "ox-a802275a2496c32b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-06-s07"
+        ],
+        "forms": [
+          "would"
+        ],
+        "rationale": "s07 uses modal Would in the conventional offer 'Would you like', so the polite-inquiry sense is directly evidenced."
+      },
+      {
+        "target_id": "ox-e86cfb7827cc476c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-06-s07"
+        ],
+        "forms": [
+          "warm"
+        ],
+        "rationale": "s07 uses warm attributively before bread, describing its pleasant temperature rather than the warming action."
+      },
+      {
+        "target_id": "ox-253b0e3208ec2c26",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-06-s08"
+        ],
+        "forms": [
+          "wine"
+        ],
+        "rationale": "s08 uses wine as the drink noun in 'a small glass of red wine'; the serving measure and red modifier are natural."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-07",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "bdf4af0533f7cec5f76e3794d2758cee710c75ee8c09761bedd6272b602bba59",
+    "status": "accepted",
+    "rationale": "Friends negotiate a not-too-early weekend walk, check the forecast, and agree on nine at the canal entrance. Clothing follows sensibly from cool weather, and the final time/location confirmation closes the plan. All eight targets contribute to this single purpose.",
+    "targets": [
+      {
+        "target_id": "ox-b688aa2420af67a7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-07-s01"
+        ],
+        "forms": [
+          "walk"
+        ],
+        "rationale": "s01 uses walk as a count noun in the established phrase 'go for a walk', not as an action verb."
+      },
+      {
+        "target_id": "ox-0f17c186f473712b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-07-s01"
+        ],
+        "forms": [
+          "weekend"
+        ],
+        "rationale": "s01 uses weekend as a time-period noun after this, locating the proposed walk on the coming weekend."
+      },
+      {
+        "target_id": "ox-439f07e4bf4fbc31",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-07-s02"
+        ],
+        "forms": [
+          "usually"
+        ],
+        "rationale": "s02 uses usually as a frequency adverb modifying wake up, establishing the friend's habitual waking time."
+      },
+      {
+        "target_id": "ox-02d14791eccc7934",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-07-s02"
+        ],
+        "forms": [
+          "wake"
+        ],
+        "rationale": "s02 uses wake as the verbal head of wake up, the ordinary phrasal expression for becoming awake."
+      },
+      {
+        "target_id": "ox-3111f586dd06b36b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-07-s03"
+        ],
+        "forms": [
+          "we"
+        ],
+        "rationale": "s03 uses We as the subject pronoun of could meet, referring jointly to Luis and Bea; initial capitalization preserves the declared form."
+      },
+      {
+        "target_id": "ox-e11b26de0d915ef8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-07-s04"
+        ],
+        "forms": [
+          "weather"
+        ],
+        "rationale": "s04 uses weather as a noun in a question about expected conditions, answered by cool and dry in the next turn."
+      },
+      {
+        "target_id": "ox-105260485d0e77ec",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-07-s06"
+        ],
+        "forms": [
+          "wear"
+        ],
+        "rationale": "s06 uses wear transitively with 'my light jacket', expressing the planned clothing choice caused by the forecast."
+      },
+      {
+        "target_id": "ox-14a8ac0b7da05b65",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-07-s07"
+        ],
+        "forms": [
+          "will"
+        ],
+        "rationale": "s07 uses will as the modal before meet, making a future commitment to the agreed meeting place."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-08",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "960071096a6d0fc6d686cf8289ee52731fce83b723a94fae34308c62298d0f14",
+    "status": "accepted",
+    "rationale": "The roommates compare white paint and a pale yellow sample under real room light, reject the darker option, and agree on a larger test patch while retaining white elsewhere. This is a coherent provisional decorating decision rather than an unsupported completed purchase; the British colour/tin language is consistent.",
+    "targets": [
+      {
+        "target_id": "ox-5a67e1c50cf25300",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-08-s01"
+        ],
+        "forms": [
+          "which"
+        ],
+        "rationale": "s01 uses Which directly before colour, functioning as a determiner selecting among paint alternatives."
+      },
+      {
+        "target_id": "ox-02d555ca8837a1ad",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-08-s01"
+        ],
+        "forms": [
+          "want"
+        ],
+        "rationale": "s01 uses want as a transitive preference verb with the fronted interrogative colour phrase as its object."
+      },
+      {
+        "target_id": "ox-ab47db00d16df6a4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-08-s01"
+        ],
+        "forms": [
+          "wall"
+        ],
+        "rationale": "s01 uses wall as a count noun after this, locating the specific surface being repainted."
+      },
+      {
+        "target_id": "ox-e2e9a9f7651e5532",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-08-s02"
+        ],
+        "forms": [
+          "white"
+        ],
+        "rationale": "s02 uses white attributively before paint, clearly giving the adjective colour sense rather than naming the colour as a noun."
+      },
+      {
+        "target_id": "ox-68c7cb3f7d087c1c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-08-s03"
+        ],
+        "forms": [
+          "yellow"
+        ],
+        "rationale": "s03 uses yellow attributively before sample, describing the colour of the test patch."
+      },
+      {
+        "target_id": "ox-77635990e2ff4e4d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-08-s03"
+        ],
+        "forms": [
+          "window"
+        ],
+        "rationale": "s03 uses window as a physical-object noun after near the; its location explains the lighting comparison."
+      },
+      {
+        "target_id": "ox-87a066d17c9b9ab3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-08-s04"
+        ],
+        "forms": [
+          "attractive"
+        ],
+        "rationale": "s04 uses attractive predicatively after looks, expressing that the pale sample is visually pleasing in morning light."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-09",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "42c4029df6bb1d14bf05e9680edba6c2822749aeb26f228b8ba08914618f7b9a",
+    "status": "accepted",
+    "rationale": "Relatives coordinate a town visit by establishing arrival Tuesday, meeting Wednesday at three, and attendance by Owen and his wife only. Grandparent childcare explains the son's absence, and the tea offer receives a natural closing response.",
+    "targets": [
+      {
+        "target_id": "ox-c9d07868fd3240cf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-09-s01"
+        ],
+        "forms": [
+          "wife"
+        ],
+        "rationale": "s01 uses wife as a kinship noun after My, identifying Owen's spouse as the second visitor."
+      },
+      {
+        "target_id": "ox-1653acb4c1a32c2a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-09-s02"
+        ],
+        "forms": [
+          "year"
+        ],
+        "rationale": "s02 uses year as a duration noun after 'for a', measuring the time since the relatives last met."
+      },
+      {
+        "target_id": "ox-7c79b692faed9fc5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-09-s02"
+        ],
+        "forms": [
+          "when"
+        ],
+        "rationale": "s02 uses When as an interrogative time adverb modifying arrive, and the next turn answers Tuesday evening."
+      },
+      {
+        "target_id": "ox-4b59faa4473e5c32",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-09-s03"
+        ],
+        "forms": [
+          "Wednesday"
+        ],
+        "rationale": "s03 uses the properly capitalized day noun Wednesday to specify the proposed afternoon meeting time."
+      },
+      {
+        "target_id": "ox-fc200edfb86708de",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-09-s04"
+        ],
+        "forms": [
+          "who"
+        ],
+        "rationale": "s04 uses Who as the interrogative subject of is coming, asking about additional people rather than modifying a noun."
+      },
+      {
+        "target_id": "ox-4934092d7d3335c6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-09-s05"
+        ],
+        "forms": [
+          "with"
+        ],
+        "rationale": "s05 uses with as a preposition taking 'his grandparents', expressing the son's accompanying/staying arrangement."
+      },
+      {
+        "target_id": "ox-6f71d2069a0aa85b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-09-s07"
+        ],
+        "forms": [
+          "arrangement"
+        ],
+        "rationale": "s07 uses arrangement as a count noun after That, referring back to the agreed Wednesday three-o'clock visit."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-10",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "68fb744a015bdf078aa34ad2f3c61052232454d4f5bf7ede91f09e353cee714e",
+    "status": "accepted",
+    "rationale": "The newcomer asks where to start, receives a label-checking task and replacement support while the usual worker is on break, then confirms the correct shelf and escalation rule. The temporary employee and supervisor roles remain distinct, with a clear first action at the end.",
+    "targets": [
+      {
+        "target_id": "ox-b15f11ac87e0038e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-10-s01"
+        ],
+        "forms": [
+          "assistant"
+        ],
+        "rationale": "s01 uses assistant after 'the new' as a role noun naming Mae's job, not the attributive adjective assistant."
+      },
+      {
+        "target_id": "ox-013adb241222f537",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-10-s02"
+        ],
+        "forms": [
+          "work"
+        ],
+        "rationale": "s02 uses work as an uncountable task noun in 'Most of the work', immediately specified as checking delivery labels."
+      },
+      {
+        "target_id": "ox-faafcdfbaf9f2ac7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-10-s03"
+        ],
+        "forms": [
+          "worker"
+        ],
+        "rationale": "s03 uses worker as a person noun modified by 'at the loading desk', identifying the employee Mae was told to approach."
+      },
+      {
+        "target_id": "ox-e69a2d1e6597b636",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-10-s04"
+        ],
+        "forms": [
+          "actually"
+        ],
+        "rationale": "s04 uses Actually as a discourse adverb to update the assumption that the loading-desk worker is available; the following alternative help fits the correction."
+      },
+      {
+        "target_id": "ox-928abc5e1a3a5b71",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-10-s05"
+        ],
+        "forms": [
+          "alone"
+        ],
+        "rationale": "s05 uses alone predicatively after be to ask whether Mae will have no coworker present; Hana's presence answers that concern."
+      },
+      {
+        "target_id": "ox-17cb3f177b36e701",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-10-s06"
+        ],
+        "forms": [
+          "already"
+        ],
+        "rationale": "s06 uses already as a time/aspect adverb within the present-perfect clause, marking the two shelves as checked before Mae starts."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-11",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "235cfee5bef8c322093cac8776a940752458f87c4e8e26b47997b3cfc5120319",
+    "status": "accepted",
+    "rationale": "The reader checks the visiting writer's credentials, audience participation, and beginner suitability, then explicitly requests registration. The invented book and teacher are framed as fictional; role, background, award, exercise, and participation details form a coherent workshop enquiry.",
+    "targets": [
+      {
+        "target_id": "ox-1b40429c1e6229fe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s01"
+        ],
+        "forms": [
+          "writing"
+        ],
+        "rationale": "s01 uses writing as a noun adjunct in 'writing workshop', naming the activity taught rather than an ongoing verb form."
+      },
+      {
+        "target_id": "ox-e9a0e6a1a5d2fb96",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s02"
+        ],
+        "forms": [
+          "author"
+        ],
+        "rationale": "s02 uses author as a person noun with 'of The Empty Platform', identifying the book's creator."
+      },
+      {
+        "target_id": "ox-a9e6511b58d56625",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s02"
+        ],
+        "forms": [
+          "award"
+        ],
+        "rationale": "s02 uses award as a count noun after an and object of won, the natural collocation for a literary prize."
+      },
+      {
+        "target_id": "ox-14489b0fcfa0cc9f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s03"
+        ],
+        "forms": [
+          "writer"
+        ],
+        "rationale": "s03 uses writer as a profession noun after 'a full-time', asking whether writing is Iris's occupation."
+      },
+      {
+        "target_id": "ox-17b4422b8714b5f2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s04"
+        ],
+        "forms": [
+          "background"
+        ],
+        "rationale": "s04 uses background as a noun for prior professional experience, with 'in radio' contrasted with her current fiction work."
+      },
+      {
+        "target_id": "ox-bd7df5b17cd636c0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s05"
+        ],
+        "forms": [
+          "audience"
+        ],
+        "rationale": "s05 uses audience as a collective noun for people attending the talk; asking whether they also write plausibly distinguishes passive listening from workshop participation."
+      },
+      {
+        "target_id": "ox-d52c35fe34acbde4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s05"
+        ],
+        "forms": [
+          "write"
+        ],
+        "rationale": "s05 uses write as an active verb with something as object, asking whether participants produce text during the session."
+      },
+      {
+        "target_id": "ox-06da178a1ebf4a20",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s06"
+        ],
+        "forms": [
+          "based"
+        ],
+        "rationale": "s06 uses based in a postmodifying adjectival phrase 'based on a personal memory', describing what the exercise draws upon rather than a finite action."
+      },
+      {
+        "target_id": "ox-e8705683be1021c0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-11-s07"
+        ],
+        "forms": [
+          "attend"
+        ],
+        "rationale": "s07 uses attend as an intransitive verb with the workshop understood from context, naturally asking permission to participate without experience."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-12",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "95bebc1d65c0208d46e5d57de0ad74766dfa16060ef08691ca8720bc3db96061",
+    "status": "accepted",
+    "rationale": "The runner's concern shifts from winning to a meaningful personal best, with distinct average and best times and an explicit under-thirty-one goal. The coach invites rather than imposes the target and closes by proposing a progress review; the vocabulary is integrated into genuine goal-setting.",
+    "targets": [
+      {
+        "target_id": "ox-e25bd0b754ad9502",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-12-s01"
+        ],
+        "forms": [
+          "active"
+        ],
+        "rationale": "s01 uses active as a predicative adjective after stay, describing continued physical activity rather than professional competition."
+      },
+      {
+        "target_id": "ox-865b03bf2ef00a87",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-12-s01"
+        ],
+        "forms": [
+          "athlete"
+        ],
+        "rationale": "s01 uses athlete as a person noun after 'a professional', naming the sporting career the runner does not seek."
+      },
+      {
+        "target_id": "ox-aeb2dcb1ffc671ff",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-12-s02"
+        ],
+        "forms": [
+          "achieve"
+        ],
+        "rationale": "s02 uses achieve transitively with the fronted what, eliciting a desired accomplishment at the next run."
+      },
+      {
+        "target_id": "ox-f6959c5156b0878f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-12-s03"
+        ],
+        "forms": [
+          "win"
+        ],
+        "rationale": "s03 uses win as an intransitive competition verb after need to, referring to finishing first rather than a prize noun."
+      },
+      {
+        "target_id": "ox-92f794b9aebe9196",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-12-s04"
+        ],
+        "forms": [
+          "against"
+        ],
+        "rationale": "s04 uses against as a preposition with everyone after compete, identifying opponents in competition."
+      },
+      {
+        "target_id": "ox-d671ba2108bdc519",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-12-s04"
+        ],
+        "forms": [
+          "beat"
+        ],
+        "rationale": "s04 uses beat transitively with 'your own best time', the conventional sense of improving a personal record."
+      },
+      {
+        "target_id": "ox-3cb3a01fae71be36",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-12-s05"
+        ],
+        "forms": [
+          "average"
+        ],
+        "rationale": "s05 uses average as the head noun of 'My average', specifying a mean over three runs and distinguishing it from the best time."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-13",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "0b9d1027ced9af1ea052993a6da9e291a634ca2e89abe12655dd852b73a91e25",
+    "status": "accepted",
+    "rationale": "The caller describes an immobile young bird, the wildlife volunteer obtains a precise gate/bench location and identification cue, and confirms approaching. The dialogue sensibly requests assessment rather than diagnosing or giving handling instructions, and the rescue coordination has a concrete ending.",
+    "targets": [
+      {
+        "target_id": "ox-c9f84583db8577e2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-13-s01"
+        ],
+        "forms": [
+          "anybody"
+        ],
+        "rationale": "s01 uses anybody as an indefinite pronoun and subject of is available, asking whether someone can assist rather than naming a particular rescuer."
+      },
+      {
+        "target_id": "ox-8ac7932cc75f7cb1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-13-s01"
+        ],
+        "forms": [
+          "young"
+        ],
+        "rationale": "s01 uses young attributively before bird, denoting the animal's early age rather than the collective noun young."
+      },
+      {
+        "target_id": "ox-a75b698815b2818c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-13-s03"
+        ],
+        "forms": [
+          "alive"
+        ],
+        "rationale": "s03 uses alive as a predicative adjective after is, explicitly distinguishing a living bird from a dead one."
+      },
+      {
+        "target_id": "ox-7d0479602a96c54d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-13-s03"
+        ],
+        "forms": [
+          "attention"
+        ],
+        "rationale": "s03 uses attention as an uncountable object of needs, meaning care/assessment in the rescue context rather than the command exclamation."
+      },
+      {
+        "target_id": "ox-57b0cc3b5e26c184",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-13-s06"
+        ],
+        "forms": [
+          "avoid"
+        ],
+        "rationale": "s06 uses avoid transitively with 'that entrance', indicating a route that bypasses the crowded entrance."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-14",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "5b641b5b16b442920257de17ff8704f30c7ad342f2ffd85f0d9ed26de5bc9da9",
+    "status": "accepted",
+    "rationale": "The lost-property worker checks the bag's appearance, confirms a matching item was handed in, and gives a collection desk plus a contents-verification requirement. The traveller agrees to come, closing the practical retrieval task without an implausible unconditional handover.",
+    "targets": [
+      {
+        "target_id": "ox-9d5a16083c89ef09",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-14-s01"
+        ],
+        "forms": [
+          "anywhere"
+        ],
+        "rationale": "s01 uses anywhere adverbially after find it within a negative sentence, meaning no location has yielded the missing bag."
+      },
+      {
+        "target_id": "ox-a8f0fb7fc9bced79",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-14-s02"
+        ],
+        "forms": [
+          "appearance"
+        ],
+        "rationale": "s02 uses appearance as the noun object of describe, answered by colour and handle details rather than an appearance event."
+      },
+      {
+        "target_id": "ox-345730506f96f237",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-14-s03"
+        ],
+        "forms": [
+          "almost"
+        ],
+        "rationale": "s03 uses almost as a degree adverb before black, expressing that the dark blue colour is nearly black."
+      },
+      {
+        "target_id": "ox-d82c1ed6e3da6079",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-14-s04"
+        ],
+        "forms": [
+          "yes"
+        ],
+        "rationale": "s04 opens with Yes as an affirmative exclamation acknowledging a matching found item; the subsequent clause gives the confirmation content."
+      },
+      {
+        "target_id": "ox-69ccdf4a167fb3cf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-14-s04"
+        ],
+        "forms": [
+          "woman"
+        ],
+        "rationale": "s04 uses woman as a count noun and subject of handed in, identifying an adult female finder."
+      },
+      {
+        "target_id": "ox-0728547f87086da2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-14-s05"
+        ],
+        "forms": [
+          "ah"
+        ],
+        "rationale": "s05 uses Ah as an independent reaction of recognition/relief before 'that sounds like mine', matching 啊 rather than a lexical content word."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-15",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "e50b36e422e1f6e4928e890e9938b7611cb8102fdca54d8f6410fb2949aa631a",
+    "status": "accepted",
+    "rationale": "The service caller distinguishes washing from failed spinning, reports the onset and noise/shaking, and accepts a ten-to-twelve inspection. The repairer explicitly avoids remote diagnosis and the caller proposes an interim laundry option; the scene ends with an actionable visit window.",
+    "targets": [
+      {
+        "target_id": "ox-b4c4abc7e69b8568",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-15-s01"
+        ],
+        "forms": [
+          "wash"
+        ],
+        "rationale": "s01 uses wash as a transitive verb with 'the clothes', describing the machine's still-working cleaning function."
+      },
+      {
+        "target_id": "ox-3d475e60514b4138",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-15-s03"
+        ],
+        "forms": [
+          "anymore"
+        ],
+        "rationale": "s03 uses anymore in the elliptical negative answer 'Not anymore', meaning the machine no longer spins; the American single-word spelling is valid."
+      },
+      {
+        "target_id": "ox-5adf11e79a6a84a7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-15-s03"
+        ],
+        "forms": [
+          "awful"
+        ],
+        "rationale": "s03 uses awful attributively before noise, describing the unpleasant sound rather than modifying a verb."
+      },
+      {
+        "target_id": "ox-cbfe430c9e8328b6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-15-s05"
+        ],
+        "forms": [
+          "badly"
+        ],
+        "rationale": "s05 uses badly as an adverb modifying was shaking, conveying severe/violent vibration in this fault report."
+      },
+      {
+        "target_id": "ox-536662b54287ca71",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-15-s06"
+        ],
+        "forms": [
+          "wrong"
+        ],
+        "rationale": "s06 uses wrong as a predicative adjective after Something is, indicating a malfunction without asserting a specific diagnosis."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-16",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "4a1fd2ef0fe12fc5f36861d763c31c7b14a33d1ec655a56005149708c8f9b6ce",
+    "status": "accepted",
+    "rationale": "An injured walker states symptoms, asks for an on-site first-aid volunteer, and gives a north-entrance location; the companion phones while staying with her and confirms help is coming. The desk errand is background to the changed plan rather than a contradictory departure. No diagnosis or treatment instructions are given.",
+    "targets": [
+      {
+        "target_id": "ox-29bd135d31db6669",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-16-s01"
+        ],
+        "forms": [
+          "accident"
+        ],
+        "rationale": "s01 uses accident as a count noun in 'had a small accident', referring to the unintended mishap on the steps."
+      },
+      {
+        "target_id": "ox-5f28e396989e5565",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-16-s01"
+        ],
+        "forms": [
+          "ankle"
+        ],
+        "rationale": "s01 uses ankle as a body-part noun and subject of hurts, locating the reported pain."
+      },
+      {
+        "target_id": "ox-23de39003f64334f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-16-s01"
+        ],
+        "forms": [
+          "any more"
+        ],
+        "rationale": "s01 uses any more adverbially in 'cannot walk any more', meaning no longer able to continue walking, not an additional quantity of an object."
+      },
+      {
+        "target_id": "ox-a5ea42806011a100",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-16-s02"
+        ],
+        "forms": [
+          "all right"
+        ],
+        "rationale": "s02 uses all right as a predicative adjective after 'Is your other leg', asking whether that leg is unhurt/okay."
+      },
+      {
+        "target_id": "ox-d6888285a84e1e9c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-16-s03"
+        ],
+        "forms": [
+          "well"
+        ],
+        "rationale": "s03 uses well as an adjective complement of feel, describing health rather than the quality of an action."
+      },
+      {
+        "target_id": "ox-f8eb7bf3691e626c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-16-s04"
+        ],
+        "forms": [
+          "anyway"
+        ],
+        "rationale": "s04 uses anyway as a clause-level adverb for an already intended desk errand; the following phone decision explains why Jules will now stay instead."
+      },
+      {
+        "target_id": "ox-265455ddde26cb12",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-16-s05"
+        ],
+        "forms": [
+          "allow"
+        ],
+        "rationale": "s05 uses allow transitively with 'my sister' and a to-infinitive, the conventional permission construction for a companion joining them."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-17",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "15474c2dcfced555a70d083d7196572abf28cccaaff28f765111d1416c206e19",
+    "status": "accepted",
+    "rationale": "A visitor asks about an unseen bear, the staff member reports recent observation and suggests a viewing window, and the bear appears during the exchange. The visitor chooses a short stay before the bird house, giving a natural resolution without claiming a guaranteed wildlife schedule.",
+    "targets": [
+      {
+        "target_id": "ox-6705c8238f2c64eb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-17-s01"
+        ],
+        "forms": [
+          "bear"
+        ],
+        "rationale": "s01 uses bear as an animal noun after the, referring to the particular zoo animal sought by the visitors."
+      },
+      {
+        "target_id": "ox-dd94b65084a97ad8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-17-s02"
+        ],
+        "forms": [
+          "asleep"
+        ],
+        "rationale": "s02 uses asleep as a predicative adjective after was, reporting the bear's state a few minutes earlier."
+      },
+      {
+        "target_id": "ox-37d7e639254782b3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-17-s04"
+        ],
+        "forms": [
+          "appear"
+        ],
+        "rationale": "s04 uses appear as an intransitive verb after may, expressing possible visible arrival near the pool rather than seeming to have a quality."
+      },
+      {
+        "target_id": "ox-4a0f3335fe391852",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-17-s05"
+        ],
+        "forms": [
+          "wonderful"
+        ],
+        "rationale": "s05 uses wonderful attributively in the exclamatory noun phrase 'What a wonderful view', expressing pleasure at the sighting."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-18",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "53754969c7d387333ff832810a6c2ed82e61c87888dca4b124f5c6c39d87cec3",
+    "status": "accepted",
+    "rationale": "Neighbours discuss an obstructed yard route, locate its shed endpoint, and propose moving pots so the path can run straight from gate to shed. Losing the stepping stones among the pots naturally means having difficulty locating/seeing them amid clutter. The agreed first action supports the layout goal.",
+    "targets": [
+      {
+        "target_id": "ox-c2f03c73bcd695e5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-18-s01"
+        ],
+        "forms": [
+          "you"
+        ],
+        "rationale": "s01 uses you as the subject pronoun in 'Could you help', addressing the neighbour who supplies the planning advice."
+      },
+      {
+        "target_id": "ox-482884a7fa46fea3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-18-s01"
+        ],
+        "forms": [
+          "yard"
+        ],
+        "rationale": "s01 uses yard as an outdoor place noun after across the, clearly the area by the house rather than the unit of length."
+      },
+      {
+        "target_id": "ox-950154db01f6de89",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-18-s02"
+        ],
+        "forms": [
+          "where"
+        ],
+        "rationale": "s02 uses Where as an interrogative location adverb asking for the path's endpoint, answered by 'At the shed'."
+      },
+      {
+        "target_id": "ox-1c438f5deedfa697",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-18-s03"
+        ],
+        "forms": [
+          "among"
+        ],
+        "rationale": "s03 uses among as a preposition taking 'all these pots', placing the stepping stones amid multiple objects."
+      },
+      {
+        "target_id": "ox-405fa40ecc595564",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-18-s04"
+        ],
+        "forms": [
+          "your"
+        ],
+        "rationale": "s04 uses your as a possessive determiner before 'biggest pot', attributing the pot to Hugo."
+      },
+      {
+        "target_id": "ox-6b2dbe0407fee4f0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-18-s05"
+        ],
+        "forms": [
+          "yeah"
+        ],
+        "rationale": "s05 uses Yeah as a standalone informal affirmative exclamation, naturally confirming ownership before offering to move the pot."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-19",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "2316d8953f85840c65bd4e48eca4be0351e47db6618b799a2e3f5bffa62c3253",
+    "status": "accepted",
+    "rationale": "Reread the complete content_version 2 file and all four target usages after the goal repair. The revised Chinese goal accurately describes clarifying the character's situation and coordinating entrance with offstage battle sounds, without promising absent lighting cues. The fictional army and approaching ships motivate fear, the bell/crash establish the offstage attack, and the actor confirms how to enter and deliver the warning. All four selected senses and evidence mappings remain sound; no unresolved defect remains.",
+    "targets": [
+      {
+        "target_id": "ox-d515b3afc87b533d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-19-s01"
+        ],
+        "forms": [
+          "act"
+        ],
+        "rationale": "s01 uses act as a verb with the predicative frightened, meaning perform/display fear in a role; the explicit rehearsal context supports the chosen 表演 sense."
+      },
+      {
+        "target_id": "ox-f11990bb4ffffa8c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-19-s02"
+        ],
+        "forms": [
+          "world"
+        ],
+        "rationale": "s02 uses world as a count noun in 'this world', identifying the imaginary setting of the floating-city story."
+      },
+      {
+        "target_id": "ox-d02b8ff35ac618d5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-19-s02"
+        ],
+        "forms": [
+          "army"
+        ],
+        "rationale": "s02 uses army as a collective noun possessed by the queen and subject of guards, naming the fictional military force."
+      },
+      {
+        "target_id": "ox-eb1241d64f3a0752",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-19-s03"
+        ],
+        "forms": [
+          "attack"
+        ],
+        "rationale": "s03 uses attack as a noun with the and as the subject in 'Does the attack happen on stage?', asking whether the fictional assault is represented onstage."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-20",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "8111abdbc000ea766899f26b65a3b7b8a6caa9bc9aa061ccc40b4c01407b42d5",
+    "status": "accepted",
+    "rationale": "The colleagues compare stated publicity sources, identify five missing answers instead of overstating the evidence, and choose affordable channels while retaining measurement. The causal chain and closing action are coherent. 'Analyze' with British 'enquiry' mixes common regional preferences, but neither is a semantic or grammatical error; optional style harmonization to 'inquiry' would improve consistency without changing any selected target.",
+    "targets": [
+      {
+        "target_id": "ox-6b1db80bc93da430",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-20-s01"
+        ],
+        "forms": [
+          "advertise"
+        ],
+        "rationale": "s01 uses advertise transitively with 'the next pottery course', asking about promoting that course in the local newspaper."
+      },
+      {
+        "target_id": "ox-64e9778022ebf329",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-20-s02"
+        ],
+        "forms": [
+          "analyze"
+        ],
+        "rationale": "s02 uses analyze as a transitive verb with 'the enquiry forms', meaning inspect their information to support the channel decision; its source spelling and selected sense are valid."
+      },
+      {
+        "target_id": "ox-0b3932c4ceba4a1b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-20-s03"
+        ],
+        "forms": [
+          "according to"
+        ],
+        "rationale": "s03 uses According to as a multiword preposition taking 'these forms', explicitly attributing the numbers to the recorded responses rather than personal opinion."
+      },
+      {
+        "target_id": "ox-31581d0de67bf63c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-20-s03"
+        ],
+        "forms": [
+          "advertisement"
+        ],
+        "rationale": "s03 uses advertisement as a count noun modified by newspaper, naming the particular printed promotional notice people saw."
+      },
+      {
+        "target_id": "ox-6b0c837b5a236ccb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-20-s06"
+        ],
+        "forms": [
+          "advertising"
+        ],
+        "rationale": "s06 uses advertising as a noun adjunct in 'advertising budget', denoting promotional activity whose spending is limited, not a present-progressive verb."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-a-21",
+    "reviewer": "reviewer-phase03-a",
+    "dialogue_sha256": "3d412f21bf6eef2496d0d402a9f063280cd64217cbbe1a6a8c5a864c0bd36e95",
+    "status": "accepted",
+    "rationale": "The customer and host resolve a date discrepancy through the email, acknowledge the customer's calendar error, and agree on an available 8:15 table. Yesterday being Thursday consistently implies the present Friday; the exchange de-escalates without blaming the restaurant and reaches a practical alternative.",
+    "targets": [
+      {
+        "target_id": "ox-5c19d273c7cc73cc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-21-s02"
+        ],
+        "forms": [
+          "yesterday"
+        ],
+        "rationale": "s02 uses yesterday as the nominal complement of for in 'the booking was for yesterday', explicitly supporting the selected noun POS rather than an adverb modifying booked."
+      },
+      {
+        "target_id": "ox-782501569a46d992",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-21-s03"
+        ],
+        "forms": [
+          "very"
+        ],
+        "rationale": "s03 uses very as a degree adverb modifying strange, not the adjective meaning exact/same."
+      },
+      {
+        "target_id": "ox-098f18bde1f2dc13",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-21-s03"
+        ],
+        "forms": [
+          "why"
+        ],
+        "rationale": "s03 uses Why as an interrogative reason adverb asking why the calendar shows tonight; the next discovery explains the discrepancy."
+      },
+      {
+        "target_id": "ox-0112fdbbe5e18f22",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-a-21-s07"
+        ],
+        "forms": [
+          "argue"
+        ],
+        "rationale": "s07 uses argue as a verb with 'about it', expressing unwillingness to dispute the already-identified date error before seeking a later table."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-01",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "3423bd48630537bc29f0b2791e8262c73940ebe36240104aab6cfa427237bfbc",
+    "status": "accepted",
+    "rationale": "Reread all eight turns and five targets after content_version 2 repair. The two roommates now explicitly choose four portions for dinner and next-day lunches, fully matching the scenario goal. Appliance, bowl and covering questions remain coherent, and the final division of labour closes the task.",
+    "targets": [
+      {
+        "target_id": "ox-d30fd17f73ad667c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-01-s01"
+        ],
+        "forms": [
+          "beef"
+        ],
+        "rationale": "In s01, cook the beef uses the mass noun for meat, matching 牛肉; the new four-portion plan fits the same dinner."
+      },
+      {
+        "target_id": "ox-ccf2135e2be29577",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-01-s03"
+        ],
+        "forms": [
+          "boil"
+        ],
+        "rationale": "In revised s03, Can you boil some water retains the natural transitive verb request to heat water for noodles. The preceding four-portion decision does not change the selected 煮沸水 sense."
+      },
+      {
+        "target_id": "ox-208a61b7545f5516",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-01-s06"
+        ],
+        "forms": [
+          "bowl"
+        ],
+        "rationale": "In s06, this bowl for the cooked noodles names the serving/storage vessel as a count noun, matching 碗 within the expanded meal plan."
+      },
+      {
+        "target_id": "ox-7cb7947ff76cc3b8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-01-s04"
+        ],
+        "forms": [
+          "cooker"
+        ],
+        "rationale": "In s04, ring on the cooker identifies the cooking appliance using normal British kitchen vocabulary; the noun matches 炉灶."
+      },
+      {
+        "target_id": "ox-4efb1bb1d691325b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-01-s07"
+        ],
+        "forms": [
+          "cover"
+        ],
+        "rationale": "In s07, cover it with a plate uses the transitive verb for placing a cover over the bowl while the beef finishes, matching 盖住 and retaining a clear pronoun referent."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-02",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "32eabee02794d7479fc8d82e369d0a5a00d9ade9605d7f58304ae030b450dd6a",
+    "status": "accepted",
+    "rationale": "The customer compares two flavours after lunch, chooses lemon, requests warming and receives a clear order confirmation. British centre/biscuit alongside a soft chocolate cookie is a normal product distinction, not a regional error.",
+    "targets": [
+      {
+        "target_id": "ox-d285a36b55b68c6e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-02-s01"
+        ],
+        "forms": [
+          "dessert"
+        ],
+        "rationale": "In s01, a small dessert is a count noun referring to the requested sweet course after lunch, matching 餐后甜点."
+      },
+      {
+        "target_id": "ox-2da681c4789307d3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-02-s02"
+        ],
+        "forms": [
+          "biscuit"
+        ],
+        "rationale": "In s02, a lemon biscuit names a baked sweet item offered by the cafe, matching the noun 饼干; the later preference explains the choice."
+      },
+      {
+        "target_id": "ox-f8b40135a6bb9f2d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-02-s02"
+        ],
+        "forms": [
+          "cookie"
+        ],
+        "rationale": "In s02, a chocolate cookie with a soft centre names the second baked option; cookie is a noun and the soft chocolate style fits 甜饼干."
+      },
+      {
+        "target_id": "ox-80064a1e6617f80a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-02-s04"
+        ],
+        "forms": [
+          "choice"
+        ],
+        "rationale": "In s04, the better choice for you uses choice as the noun for the preferred menu option, supported by Naomi preferring lemon."
+      },
+      {
+        "target_id": "ox-27388e43ff298082",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-02-s06"
+        ],
+        "forms": [
+          "certainly"
+        ],
+        "rationale": "In s06, Certainly is an affirmative response adverb politely accepting the warming/serving request; sentence-initial capitalization is ordinary and the sense matches 当然."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-03",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "f056ca62f2a1f0e0bfef14d358ea3d49c711e183bbcb456665c15ceefb55e9d4",
+    "status": "accepted",
+    "rationale": "The roommates separate cleaning and sorting work, identify broken glass, agree who handles it and finish with a concrete shelf-cleaning action. British cupboard/bin vocabulary and speaker roles are consistent.",
+    "targets": [
+      {
+        "target_id": "ox-a5f7c398e0468705",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-03-s01"
+        ],
+        "forms": [
+          "cupboard"
+        ],
+        "rationale": "In s01, wipe the cupboard uses cupboard as the count noun for the kitchen storage unit being cleaned, matching 橱柜."
+      },
+      {
+        "target_id": "ox-a4e8eab3eccbf9fa",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-03-s02"
+        ],
+        "forms": [
+          "bottom"
+        ],
+        "rationale": "In s02, at the bottom uses bottom as a noun naming the lowest part of the cupboard, matching 底部 rather than adjectival bottom."
+      },
+      {
+        "target_id": "ox-af47c2e88510af82",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-03-s03"
+        ],
+        "forms": [
+          "careful"
+        ],
+        "rationale": "In s03, be careful uses careful as a predicative adjective after be; the broken-glass warning motivates 小心的."
+      },
+      {
+        "target_id": "ox-e7a57f060cd65b86",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-03-s04"
+        ],
+        "forms": [
+          "carefully"
+        ],
+        "rationale": "In s04, pick up the pieces carefully uses carefully as an adverb modifying handling of the glass pieces, matching 小心地."
+      },
+      {
+        "target_id": "ox-03c5d11b3f493c2f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-03-s05"
+        ],
+        "forms": [
+          "bin"
+        ],
+        "rationale": "In s05, which bin is for the cardboard uses bin as a count noun for a sorting/recycling container, matching the specified sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-04",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "197d35e0a35b6a47bceb42becbef7303f88a73f0d4f89c574068400a131ee4c1",
+    "status": "accepted",
+    "rationale": "The friend grants permission to borrow interview clothes, confirms ownership of the belt, retrieves a glasses case and agrees the Friday return. Minor regional vocabulary mixing does not obstruct an otherwise natural exchange.",
+    "targets": [
+      {
+        "target_id": "ox-68882fe5926cf71d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-04-s01"
+        ],
+        "forms": [
+          "borrow"
+        ],
+        "rationale": "In s01, Could I borrow your grey jacket uses the base verb after a modal for temporary use of another person's garment; the Friday return supports 借用."
+      },
+      {
+        "target_id": "ox-acfaec37dc7bb115",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-04-s02"
+        ],
+        "forms": [
+          "closet"
+        ],
+        "rationale": "In s02, in the closet uses closet as a count noun naming the clothes storage space, matching 衣柜."
+      },
+      {
+        "target_id": "ox-ffb47fd9c221ebf1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-04-s02"
+        ],
+        "forms": [
+          "clothing"
+        ],
+        "rationale": "In s02, my work clothing uses clothing as a mass noun for work garments stored together, matching 衣物."
+      },
+      {
+        "target_id": "ox-5616acf7401a0f9b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-04-s03"
+        ],
+        "forms": [
+          "belt"
+        ],
+        "rationale": "In s03, the brown belt identifies a wearable accessory with colour modification, a clear count noun matching 腰带."
+      },
+      {
+        "target_id": "ox-70a3c48a8f80edcd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-04-s03"
+        ],
+        "forms": [
+          "belong"
+        ],
+        "rationale": "In s03, Does the brown belt belong to you uses the lexical base verb with to for ownership, matching 属于某人."
+      },
+      {
+        "target_id": "ox-7225a6a4057eb4c6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-04-s05"
+        ],
+        "forms": [
+          "case"
+        ],
+        "rationale": "In s05, a glasses case names a protective holder found in the pocket; the noun sense matches a container for an object rather than a situation."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-05",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "178c8d36f74fa5d078a49b2a74e00bf5bb96b907c24610f31d00602b1a1e4d79",
+    "status": "accepted",
+    "rationale": "The guest reports two concrete defects, the receptionist offers a replacement, and the exchange ends with viewing the new room before moving bags. The vocabulary supports a single hotel-service purpose rather than disconnected complaints.",
+    "targets": [
+      {
+        "target_id": "ox-5cd3e77b9cc13c84",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-05-s01"
+        ],
+        "forms": [
+          "complain"
+        ],
+        "rationale": "In s01, sorry to complain uses an infinitive verb for raising dissatisfaction about the room, matching 投诉/抱怨问题."
+      },
+      {
+        "target_id": "ox-693d6d35fb23a41a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-05-s03"
+        ],
+        "forms": [
+          "carpet"
+        ],
+        "rationale": "In s03, The carpet is wet names the room's floor covering as a noun, matching 地毯."
+      },
+      {
+        "target_id": "ox-ac8f92e900ddd80a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-05-s03"
+        ],
+        "forms": [
+          "button"
+        ],
+        "rationale": "In s03, the button on the air conditioner names a physical control as a noun, matching 按钮."
+      },
+      {
+        "target_id": "ox-a02ec4e8d219606d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-05-s03"
+        ],
+        "forms": [
+          "broken"
+        ],
+        "rationale": "In s03, the button ... is broken uses a predicative adjective describing a non-functioning control, matching 坏了的 rather than the past action of breaking it."
+      },
+      {
+        "target_id": "ox-6adfc848359d5144",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-05-s04"
+        ],
+        "forms": [
+          "cause"
+        ],
+        "rationale": "In s04, find the cause of the leak uses cause as the noun for an underlying reason, matching 原因."
+      },
+      {
+        "target_id": "ox-7b5ed2f2b7b52a71",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-05-s05"
+        ],
+        "forms": [
+          "condition"
+        ],
+        "rationale": "In s05, in good condition uses the conventional noun collocation for the room's physical state, matching 状况."
+      },
+      {
+        "target_id": "ox-a307d341c2c7b0af",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-05-s06"
+        ],
+        "forms": [
+          "completely"
+        ],
+        "rationale": "In s06, completely dry has the adverb intensify dry to exclude remaining moisture, matching 完全地."
+      },
+      {
+        "target_id": "ox-af049cc944bf8b2b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-05-s07"
+        ],
+        "forms": [
+          "comfortable"
+        ],
+        "rationale": "In s07, it is comfortable uses a predicative adjective about the replacement room's suitability for a pleasant stay, matching 舒适的."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-06",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "a4daf1a9d5bba183f5e7482bf39096174478e0dabaca88204505a5583f51ba46",
+    "status": "accepted",
+    "rationale": "The students identify missing anatomy labels, agree to use textbook names and put the microscopic cell picture on a separate card. The final allocation of cards/model transport resolves the preparation task.",
+    "targets": [
+      {
+        "target_id": "ox-f79838e8d756aa9d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-06-s01"
+        ],
+        "forms": [
+          "biology"
+        ],
+        "rationale": "In s01, biology presentation uses biology as a noun naming the school subject in an attributive compound, matching 生物学."
+      },
+      {
+        "target_id": "ox-152c578b58f9f3d9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-06-s03"
+        ],
+        "forms": [
+          "brain"
+        ],
+        "rationale": "In s03, The brain at the top identifies the organ represented in the model; brain is a count noun matching 大脑."
+      },
+      {
+        "target_id": "ox-fb107daa1aae44b2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-06-s03"
+        ],
+        "forms": [
+          "bone"
+        ],
+        "rationale": "In s03, this long bone in the leg identifies one skeletal structure, with a determiner and adjective marking the count noun 骨头."
+      },
+      {
+        "target_id": "ox-aa4c029c23ff07e3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-06-s05"
+        ],
+        "forms": [
+          "cell"
+        ],
+        "rationale": "In s05, a picture of a cell uses cell as the count noun for a biological unit; the anatomy-class context and separate image support 细胞 rather than a room or battery."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-07",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "3f2e5291fbe83ae8b995de7c0f754dfcf96f35f8c78ca364b3b203dd00004ffe",
+    "status": "accepted",
+    "rationale": "The prospective student locates the chemistry session and confirms access to a lecturer for course questions, then commits to attending. Time, campus location and academic roles are coherent.",
+    "targets": [
+      {
+        "target_id": "ox-6d49b5e700e78d84",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-07-s01"
+        ],
+        "forms": [
+          "degree"
+        ],
+        "rationale": "In s01, a degree in chemistry uses degree as the count noun for an academic qualification, matching 大学学位."
+      },
+      {
+        "target_id": "ox-50a1c9984968a0b7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-07-s01"
+        ],
+        "forms": [
+          "chemistry"
+        ],
+        "rationale": "In s01, in chemistry names the academic subject as a noun complement of the preposition, matching 化学."
+      },
+      {
+        "target_id": "ox-92ee849da6c0f26f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-07-s02"
+        ],
+        "forms": [
+          "department"
+        ],
+        "rationale": "In s02, the chemistry department identifies the university teaching unit as a count noun, matching 大学的系."
+      },
+      {
+        "target_id": "ox-ad39857efa698be2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-07-s04"
+        ],
+        "forms": [
+          "campus"
+        ],
+        "rationale": "In s04, on the north side of campus uses campus as the noun for university grounds; the marked map makes the location concrete."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-08",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "537fe15a57cbb47068e74082cf11dca37988d07a2a7d0226594da288e3781439",
+    "status": "accepted",
+    "rationale": "The volunteers distinguish guest greeting from collecting donations, clarify the guest's identity and agree cash recording and joint counting. A locked donation box normally has a slot, so the stated action is plausible.",
+    "targets": [
+      {
+        "target_id": "ox-0de818d17d841b4e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-08-s01"
+        ],
+        "forms": [
+          "charity"
+        ],
+        "rationale": "In s01, the donation desk for the charity uses charity as a count noun for the organisation benefiting from the event, matching 慈善机构."
+      },
+      {
+        "target_id": "ox-1f5f7b6b6f8d5ab0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-08-s03"
+        ],
+        "forms": [
+          "businessman"
+        ],
+        "rationale": "In s03, A local businessman refers to a male businessperson bringing guests, matching the person noun 商人."
+      },
+      {
+        "target_id": "ox-52bc54566e86c4a9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-08-s04"
+        ],
+        "forms": [
+          "celebrity"
+        ],
+        "rationale": "In s04, the celebrity mentioned on the poster uses celebrity as a count noun for a famous guest; the singer clarification establishes 名人."
+      },
+      {
+        "target_id": "ox-583fba6231edfd2d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-08-s05"
+        ],
+        "forms": [
+          "collect"
+        ],
+        "rationale": "In s05, collect the donations uses a transitive verb for receiving contributions at the desk, matching 收取/收集."
+      },
+      {
+        "target_id": "ox-3c73c4d3bbe30c07",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-08-s06"
+        ],
+        "forms": [
+          "cash"
+        ],
+        "rationale": "In s06, gives cash uses cash as the mass noun for physical money placed in the box, matching 现金."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-09",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "efd8c044020f3ead5278207319503633b05c901a2686fd468ad6bbfaee2675a0",
+    "status": "accepted",
+    "rationale": "The parent seeks information rather than labels the child as naughty; the teacher explains his adjustment and offers support, ending in an agreed joint reassurance at arrival. American behavior spelling is explicit and consistent.",
+    "targets": [
+      {
+        "target_id": "ox-0252260dc0747879",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-09-s01"
+        ],
+        "forms": [
+          "behavior"
+        ],
+        "rationale": "In s01, his behavior in class uses behavior as a noun for classroom conduct and explicitly adopts the American spelling, matching 行为/表现."
+      },
+      {
+        "target_id": "ox-74f8516ca70b2e42",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-09-s03"
+        ],
+        "forms": [
+          "behave"
+        ],
+        "rationale": "In s03, how to behave at school uses the infinitive verb for appropriate conduct, matching 举止/表现 without confusing it with the related noun."
+      },
+      {
+        "target_id": "ox-3507e0b1bc95898e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-09-s05"
+        ],
+        "forms": [
+          "cry"
+        ],
+        "rationale": "In s05, might cry uses the base verb after a modal to describe shedding tears when missing family, matching 哭泣."
+      },
+      {
+        "target_id": "ox-76027356eddfc15b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-09-s06"
+        ],
+        "forms": [
+          "care"
+        ],
+        "rationale": "In s06, in our care is the conventional noun phrase for being looked after by the school, matching 照看/照护."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-10",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "1eab900cb401b39c4151810e1420059062c505e14e869b24a8a62fdc69244dc4",
+    "status": "accepted",
+    "rationale": "The novice confirms entry in an appropriate competition group, coaching support and expected conduct, then agrees a meeting time. The coach's instructions are relevant to a first game and British behaviour is consistent.",
+    "targets": [
+      {
+        "target_id": "ox-8ebab39485b47715",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-10-s01"
+        ],
+        "forms": [
+          "compete"
+        ],
+        "rationale": "In s01, ready to compete uses the infinitive verb meaning take part in a contest, matching 参加比赛."
+      },
+      {
+        "target_id": "ox-3d67e1c3ced71a36",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-10-s02"
+        ],
+        "forms": [
+          "competition"
+        ],
+        "rationale": "In s02, This competition has a beginner group uses competition as a count noun for the scheduled event, matching 比赛."
+      },
+      {
+        "target_id": "ox-6cf56b4b5072fa32",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-10-s03"
+        ],
+        "forms": [
+          "coach"
+        ],
+        "rationale": "In s03, as my coach uses coach as the person noun for the trainer/supporter attending the game, matching 教练."
+      },
+      {
+        "target_id": "ox-12c6e16f5ca9524d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-10-s06"
+        ],
+        "forms": [
+          "behaviour"
+        ],
+        "rationale": "In s06, Good behaviour matters uses behaviour as a mass noun for conduct; listening to the referee and politeness specify the meaning, with British spelling matching the metadata."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-11",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "3624202affbaf6b9639b149349567bab325a5c10b841a56465c69b2b2640de37",
+    "status": "accepted",
+    "rationale": "The learner checks beginner eligibility and class time, completes the missing date, marks the desired session and obtains a deadline for holding the place. Checking the date after entering it is reasonably implicit in the clerk's instruction.",
+    "targets": [
+      {
+        "target_id": "ox-ae9f59b16fed3ee7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-11-s03"
+        ],
+        "forms": [
+          "blank"
+        ],
+        "rationale": "In s03, this box is still blank uses blank as a predicative adjective for an unfilled form field, matching 空白的/未填写的."
+      },
+      {
+        "target_id": "ox-1b9e125cd2ef862f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-11-s04"
+        ],
+        "forms": [
+          "birth"
+        ],
+        "rationale": "In s04, date of birth uses birth as the noun for the event of being born in a standard form-field collocation, matching 出生."
+      },
+      {
+        "target_id": "ox-03dd1fc7010fac1c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-11-s04"
+        ],
+        "forms": [
+          "correctly"
+        ],
+        "rationale": "In s04, written it correctly uses correctly as an adverb modifying entry of the date, matching 正确地."
+      },
+      {
+        "target_id": "ox-51618d09adf1061e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-11-s06"
+        ],
+        "forms": [
+          "circle"
+        ],
+        "rationale": "In s06, Please circle it instead is an imperative verb requiring a circle around the Tuesday option, matching 圈出."
+      },
+      {
+        "target_id": "ox-51a23fdd8bee4061",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-11-s06"
+        ],
+        "forms": [
+          "copy"
+        ],
+        "rationale": "In s06, this copy of the timetable names one printed instance as a count noun, matching 一份材料."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-12",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "6d81997c5bc0dd52984cc38a5db319b30377626e4f95d758ff3d51ffc585746d",
+    "status": "accepted",
+    "rationale": "A deliberately fictional table supports a coherent lesson about column units and counting qualifying rows. The two answers agree; labeling the answer as rows, rather than coins, is a plausible final clarification even though the last contrast is explicit.",
+    "targets": [
+      {
+        "target_id": "ox-d271f175054f7628",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-12-s01"
+        ],
+        "forms": [
+          "data"
+        ],
+        "rationale": "In s01, These data are from our made-up game uses data as a noun for information in the practice table; plural agreement is grammatical and fits 供分析的数据."
+      },
+      {
+        "target_id": "ox-0340ae544b9d6ddf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-12-s03"
+        ],
+        "forms": [
+          "column"
+        ],
+        "rationale": "In s03, This column says billions uses column as the count noun for a vertical table category, matching 表格的列."
+      },
+      {
+        "target_id": "ox-30ab66610f5c8a3b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-12-s03"
+        ],
+        "forms": [
+          "billion"
+        ],
+        "rationale": "In s03, two billion coins uses billion as a cardinal number multiplier after two; its singular form in a precise quantity matches 十亿."
+      },
+      {
+        "target_id": "ox-f8e5b306f25cbeab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-12-s05"
+        ],
+        "forms": [
+          "clear"
+        ],
+        "rationale": "In s05, That is clear now uses clear as a predicative adjective for understood unit information, matching 清楚易懂的."
+      },
+      {
+        "target_id": "ox-972cfba34c906e7c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-12-s05"
+        ],
+        "forms": [
+          "count"
+        ],
+        "rationale": "In s05, count the rows is a transitive verb meaning determine their number; the following answer three confirms 计数, not arithmetic with coin totals."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-13",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "66f864f5618eb0a1f42858c0e9da3c7ee422a27248b2521b61fc2396c799305d",
+    "status": "accepted",
+    "rationale": "The riders observe sunshine, a dark cloud and possible headwind, select a shorter loop with a cafe and agree the turn inland. The ending resolves the route change without unrelated weather vocabulary.",
+    "targets": [
+      {
+        "target_id": "ox-eee90fa1e53881c5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-13-s01"
+        ],
+        "forms": [
+          "cycle"
+        ],
+        "rationale": "In s01, Shall we cycle uses the base verb after shall for riding bicycles, matching 骑自行车."
+      },
+      {
+        "target_id": "ox-b4d6f25c974f6ba2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-13-s01"
+        ],
+        "forms": [
+          "coast"
+        ],
+        "rationale": "In s01, along the coast uses coast as the noun for the shoreline region of the route, matching 海岸."
+      },
+      {
+        "target_id": "ox-8f2123f173a993d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-13-s02"
+        ],
+        "forms": [
+          "bright"
+        ],
+        "rationale": "In s02, It is bright here uses bright as a predicative adjective describing the currently light/sunny surroundings, contrasting with the dark cloud."
+      },
+      {
+        "target_id": "ox-7979eea058f6dfac",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-13-s02"
+        ],
+        "forms": [
+          "cloud"
+        ],
+        "rationale": "In s02, that dark cloud over the water identifies a visible weather cloud as a count noun, matching 云."
+      },
+      {
+        "target_id": "ox-30ee4231ad72f3f7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-13-s03"
+        ],
+        "forms": [
+          "blow"
+        ],
+        "rationale": "In s03, the wind could blow straight at us uses blow as an intransitive verb for wind movement, matching 风吹."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-14",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "738528ce54ac2572c82b6f5fc05bf8af3cc3d79ca6d030261329d38a30e5f8f8",
+    "status": "accepted",
+    "rationale": "Reread all seven turns and four targets after content_version 2 repair. The new opening uses the lexical noun camping attributively in camping holiday, while the next question separately demonstrates the verb camp. The ranger explains marked pitches and the unsafe bank, and the guest chooses pitch four, resolving the scene naturally.",
+    "targets": [
+      {
+        "target_id": "ox-2912b6f2d16913bf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-14-s01"
+        ],
+        "forms": [
+          "camping"
+        ],
+        "rationale": "In revised s01, our first camping holiday uses camping as a lexical activity noun attributively modifying holiday, matching 露营活动 and clearly distinct from the following finite-clause verb camp."
+      },
+      {
+        "target_id": "ox-ca8892705bb44507",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-14-s01"
+        ],
+        "forms": [
+          "camp"
+        ],
+        "rationale": "In revised s01, Can we camp beside the lake retains the base lexical verb after can for staying in tents, matching 露营."
+      },
+      {
+        "target_id": "ox-e0738aa9bae02e34",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-14-s03"
+        ],
+        "forms": [
+          "deep"
+        ],
+        "rationale": "In s03, Is the water deep there uses deep as a predicative adjective asking about water depth, matching 水深的 and motivating the ranger's warning."
+      },
+      {
+        "target_id": "ox-761d9121d57caa8b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-14-s04"
+        ],
+        "forms": [
+          "danger"
+        ],
+        "rationale": "In s04, warns visitors about the danger uses danger as the noun for the steep-bank/deep-water hazard, matching 危险; the following agreement to stay behind the rope confirms its role."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-15",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "8bf1cc880214147455d0f8ecacf8b7982550aa7af3108f9538a25047fc91d7b3",
+    "status": "accepted",
+    "rationale": "The visitor is given a walkable alternative to the closed direct bridge, then checks the opposite return stop and final bus time. The stone bridge clarification and final recap resolve both route and return questions; the ten targets stay within this coherent travel exchange.",
+    "targets": [
+      {
+        "target_id": "ox-e932ccb3532bdd59",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s01"
+        ],
+        "forms": [
+          "castle"
+        ],
+        "rationale": "In s01, the right stop for the castle uses castle as a count noun for the historic destination, matching 城堡."
+      },
+      {
+        "target_id": "ox-f6aa2c03be3aae5e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s02"
+        ],
+        "forms": [
+          "bridge"
+        ],
+        "rationale": "In s02, the bridge on the direct route names the river crossing structure, matching the noun 桥."
+      },
+      {
+        "target_id": "ox-11a1d93943b6cf45",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s02"
+        ],
+        "forms": [
+          "closed"
+        ],
+        "rationale": "In s02, the bridge ... is closed today uses closed as a predicative adjective denoting unavailable access, matching 关闭的/不开放的."
+      },
+      {
+        "target_id": "ox-b92bdacae27af083",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s03"
+        ],
+        "forms": [
+          "direction"
+        ],
+        "rationale": "In s03, Which direction should I go uses direction as a noun asking the route orientation, matching 方向."
+      },
+      {
+        "target_id": "ox-10b9dd6616d05ddb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s04"
+        ],
+        "forms": [
+          "block"
+        ],
+        "rationale": "In s04, Walk one block uses block as a count noun for a street-length segment, matching 两条横街之间的路段."
+      },
+      {
+        "target_id": "ox-01ca618d3e5f2514",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s04"
+        ],
+        "forms": [
+          "church"
+        ],
+        "rationale": "In s04, to the church names a landmark building as a count noun, matching 教堂."
+      },
+      {
+        "target_id": "ox-336752faadfa7682",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s04"
+        ],
+        "forms": [
+          "corner"
+        ],
+        "rationale": "In s04, at the corner uses corner as a noun for the street turning point, matching 街角."
+      },
+      {
+        "target_id": "ox-c062fd0c30fe04f7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s05"
+        ],
+        "forms": [
+          "cross"
+        ],
+        "rationale": "In s05, Do I cross the river uses cross as a transitive verb meaning go from one bank to the other, matching 越过."
+      },
+      {
+        "target_id": "ox-627e53312dfd7c1f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s07"
+        ],
+        "forms": [
+          "board"
+        ],
+        "rationale": "In s07, board the bus uses board as a transitive verb for getting onto public transport, matching 登上公共交通工具."
+      },
+      {
+        "target_id": "ox-ef8b511722d49eb2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-15-s08"
+        ],
+        "forms": [
+          "catch"
+        ],
+        "rationale": "In s08, catch the last bus at six uses catch as a transitive verb for getting that scheduled service, matching 赶上并搭乘交通工具."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-16",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "2c31247a371394d9024e2276608cfd1002b0f87370af621a79d86178f58f24c0",
+    "status": "accepted",
+    "rationale": "The patient describes onset and bleeding to a receptionist who records the concerns and offers a booking rather than diagnosis. The patient accepts a specific time, providing a sufficient practical ending.",
+    "targets": [
+      {
+        "target_id": "ox-84e7c628edec3fba",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-16-s01"
+        ],
+        "forms": [
+          "dentist"
+        ],
+        "rationale": "In s01, an appointment with the dentist uses dentist as a count noun for the dental professional being booked, matching 牙医."
+      },
+      {
+        "target_id": "ox-8633c57f64fbb8e9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-16-s03"
+        ],
+        "forms": [
+          "blood"
+        ],
+        "rationale": "In s03, some blood uses blood as a mass noun for the observed bodily fluid, matching 血."
+      },
+      {
+        "target_id": "ox-6cafedfbdaf1a235",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-16-s03"
+        ],
+        "forms": [
+          "brush"
+        ],
+        "rationale": "In s03, when I brush my teeth uses brush as a transitive present-tense verb with its ordinary teeth-cleaning object, matching 用刷子清洁."
+      },
+      {
+        "target_id": "ox-99278f6735cfb91e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-16-s05"
+        ],
+        "forms": [
+          "daily"
+        ],
+        "rationale": "In s05, my daily routine uses daily as an attributive adjective describing an everyday routine, matching 每天的/日常的 rather than an adverb."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-17",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "1e6ea6368349e44f0c998ea0d9bdc728e2ab5f17f8b39aebaedfa8bcadb3350c",
+    "status": "accepted",
+    "rationale": "The park worker makes a polite request tied to a visible hazard, the visitor explains the lapse and agrees to use the designated receptacle. The warning is proportionate and the thanks closes the exchange.",
+    "targets": [
+      {
+        "target_id": "ox-9d59c72d4dd09f61",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-17-s01"
+        ],
+        "forms": [
+          "cigarette"
+        ],
+        "rationale": "In s01, your cigarette names the visitor's lit tobacco item as a count noun, matching 香烟."
+      },
+      {
+        "target_id": "ox-eb23eefbac884f4d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-17-s03"
+        ],
+        "forms": [
+          "burn"
+        ],
+        "rationale": "In s03, It could burn the wood uses burn as a transitive verb for damage caused by the cigarette's heat, matching 烧坏/烧灼."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-18",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "c0e687d18613e7b67cc040b6fceb9d5ef363dddf8d7837d9305658bc61a03535",
+    "status": "accepted",
+    "rationale": "The organiser and designer review one poster character, agree to retain its hair/book concept and modify only the expression, then set the next sketch deadline. The book is personified as a walking character, so the face and hair description can coexist naturally.",
+    "targets": [
+      {
+        "target_id": "ox-4f4be75c960daa36",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-18-s01"
+        ],
+        "forms": [
+          "designer"
+        ],
+        "rationale": "In s01, the designer working on our ... poster uses designer as the person noun for the professional making the artwork, matching 设计师."
+      },
+      {
+        "target_id": "ox-ec08bd21dd57b0a6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-18-s02"
+        ],
+        "forms": [
+          "cartoon"
+        ],
+        "rationale": "In s02, cartoon character uses cartoon as an attributive noun identifying the drawn cartoon genre, matching 卡通画 rather than an unrelated adjective."
+      },
+      {
+        "target_id": "ox-ab036a85023cf36b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-18-s02"
+        ],
+        "forms": [
+          "character"
+        ],
+        "rationale": "In s02, the cartoon character uses character as the head count noun for the depicted invented figure, matching 作品中的角色."
+      },
+      {
+        "target_id": "ox-9b99ccde6c8017b0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-18-s03"
+        ],
+        "forms": [
+          "curly"
+        ],
+        "rationale": "In s03, the curly hair uses curly as an attributive adjective describing the hair's shape, matching 卷曲的."
+      },
+      {
+        "target_id": "ox-0e60e77205db9804",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-18-s05"
+        ],
+        "forms": [
+          "creative"
+        ],
+        "rationale": "In s05, The idea ... is creative uses creative as a predicative adjective evaluating the walking-book concept as imaginative, matching 有创意的."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-19",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "97c8f3d254e4480458b4024520a021d75439bdb7e1d6c92115d6ed219f051dd6",
+    "status": "accepted",
+    "rationale": "The friends resolve a concrete time constraint by replacing a long drama with a ninety-minute comedy and agreeing a seven o'clock start. I disagree with that choice is a little explicit but grammatical and naturally supported by the reason immediately given.",
+    "targets": [
+      {
+        "target_id": "ox-5d6ed72e90de0b3b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-19-s04"
+        ],
+        "forms": [
+          "disagree"
+        ],
+        "rationale": "In s04, I disagree with that choice uses disagree as a present-tense verb with the standard with-complement for expressing a differing opinion, matching 不同意."
+      },
+      {
+        "target_id": "ox-777728429489cea7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-19-s04"
+        ],
+        "forms": [
+          "comedy"
+        ],
+        "rationale": "In s04, How about a comedy uses comedy as a count noun for a film genre instance, matching 喜剧电影."
+      },
+      {
+        "target_id": "ox-f08062d9c3cf631c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-19-s05"
+        ],
+        "forms": [
+          "director"
+        ],
+        "rationale": "In s05, the director who made our favourite film identifies the filmmaker with a person noun, matching 电影导演."
+      },
+      {
+        "target_id": "ox-d16ba384fcc1704a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-19-s06"
+        ],
+        "forms": [
+          "chance"
+        ],
+        "rationale": "In s06, give it a chance uses chance as a noun in the idiom meaning try the film before judging it, matching 尝试或表现的机会."
+      },
+      {
+        "target_id": "ox-acf41c36f5f214c5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-19-s08"
+        ],
+        "forms": [
+          "definitely"
+        ],
+        "rationale": "In s08, can definitely stay uses definitely as an adverb asserting certainty about attendance, supported by the established running time."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-20",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "b0a9615f73969b9f376edade30edf9d95856414879b569fb167a40dcdb7872f3",
+    "status": "accepted",
+    "rationale": "The actor distinguishes her own knowledge of the culprit from the detective's knowledge in the scene; the director answers and agrees a restart point. The death/crime vocabulary belongs to clearly framed fictional rehearsal, with no unsupported real-world claim.",
+    "targets": [
+      {
+        "target_id": "ox-fc112d366538120c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-20-s01"
+        ],
+        "forms": [
+          "continue"
+        ],
+        "rationale": "In s01, Before we continue uses continue as an intransitive verb for resuming rehearsal, matching 继续."
+      },
+      {
+        "target_id": "ox-455bf47c18ec2530",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-20-s02"
+        ],
+        "forms": [
+          "detective"
+        ],
+        "rationale": "In s02, You play the detective uses detective as the count noun for the investigative character, matching 侦探."
+      },
+      {
+        "target_id": "ox-ae5a38287544614b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-20-s02"
+        ],
+        "forms": [
+          "crime"
+        ],
+        "rationale": "In s02, a crime has taken place uses crime as a count noun for the offence central to the fictional plot, matching 犯罪行为/案件."
+      },
+      {
+        "target_id": "ox-cce70ac3544d0975",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-20-s03"
+        ],
+        "forms": [
+          "dead"
+        ],
+        "rationale": "In s03, already dead uses dead as a predicative adjective about the man's state on entrance, matching 死去的."
+      },
+      {
+        "target_id": "ox-f02b08c23861c138",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-20-s04"
+        ],
+        "forms": [
+          "death"
+        ],
+        "rationale": "In s04, His death is what brings you ... uses death as the noun for the fatal event motivating the detective's arrival, matching 死亡."
+      },
+      {
+        "target_id": "ox-a7c85efe6033bfa0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-20-s05"
+        ],
+        "forms": [
+          "criminal"
+        ],
+        "rationale": "In s05, the woman ... is the criminal uses criminal as a person noun after the definite article, matching 罪犯 rather than adjectival criminal."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-21",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "ae3f1c8fd35a753bd7682869f9d030f5d20c1d9a9dc2a0ceaac200c3813d25be",
+    "status": "accepted",
+    "rationale": "The siblings choose a restaurant meaningful to their parents, explicitly total five guests and settle a reservation time and grandmother's transport. The proposal, reason and allocations form a complete anniversary-planning exchange.",
+    "targets": [
+      {
+        "target_id": "ox-1fdfd2bb03e2d995",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-21-s01"
+        ],
+        "forms": [
+          "celebrate"
+        ],
+        "rationale": "In s01, celebrate Mum and Dad's anniversary uses celebrate as a transitive verb for marking a special occasion, matching 庆祝."
+      },
+      {
+        "target_id": "ox-767d24b8cab25701",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-21-s02"
+        ],
+        "forms": [
+          "brilliant"
+        ],
+        "rationale": "In s02, Brilliant is an elliptical positive adjective evaluation of the restaurant suggestion, equivalent to That is brilliant, matching 极好的/表示赞同."
+      },
+      {
+        "target_id": "ox-ba3360f69ff1d7f6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-21-s02"
+        ],
+        "forms": [
+          "couple"
+        ],
+        "rationale": "In s02, a young couple uses couple as a count noun for the parents as romantic partners, matching 夫妻/伴侣两人 rather than an indefinite small quantity."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-22",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "8564dff782056e46a34e12270678493c84e8f6834b2aad97df899102eb6e98d7",
+    "status": "accepted",
+    "rationale": "The colleagues assign name checking and badge distribution, specify arrival time and establish an app contact for missing registrations. The final promise to tell Hana closes the staffing handover sensibly.",
+    "targets": [
+      {
+        "target_id": "ox-bcd24684535054b5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-22-s01"
+        ],
+        "forms": [
+          "chat"
+        ],
+        "rationale": "In s01, a quick chat uses chat as a count noun for a brief conversation, matching 简短交谈."
+      },
+      {
+        "target_id": "ox-d15c968d3c4a8873",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-22-s01"
+        ],
+        "forms": [
+          "conference"
+        ],
+        "rationale": "In s01, tomorrow's conference uses conference as the event noun; the welcome desk and guest list establish a meeting context."
+      },
+      {
+        "target_id": "ox-5f05f1710911de7c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-22-s02"
+        ],
+        "forms": [
+          "boss"
+        ],
+        "rationale": "In s02, My boss said uses boss as a person noun for the speaker's work supervisor, matching 上司."
+      },
+      {
+        "target_id": "ox-c2da3d5b25b1b2c7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-22-s03"
+        ],
+        "forms": [
+          "colleague"
+        ],
+        "rationale": "In s03, My colleague Hana identifies a fellow worker using a person noun and appositive name, matching 同事."
+      },
+      {
+        "target_id": "ox-8123bcaa723270d7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-22-s04"
+        ],
+        "forms": [
+          "communicate"
+        ],
+        "rationale": "In s04, How will we communicate uses communicate as an intransitive verb for exchanging information; the staff-app answer supplies the method."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-23",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "55f3aef46916efbba537508d59a0731a2ea6330714989225525c4608df4bc6d5",
+    "status": "accepted",
+    "rationale": "The speaker connects to the named display, uses the temporary displayed code and tests slide navigation, then declares readiness. No actual access code is exposed; all steps support the presentation goal.",
+    "targets": [
+      {
+        "target_id": "ox-411e8e36325e32f3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-23-s01"
+        ],
+        "forms": [
+          "connect"
+        ],
+        "rationale": "In s01, connect my laptop to the screen uses connect as a transitive verb with the standard to-complement for linking devices, matching 连接设备."
+      },
+      {
+        "target_id": "ox-f236ce7ef5b2bc42",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-23-s02"
+        ],
+        "forms": [
+          "device"
+        ],
+        "rationale": "In s02, the device called Meeting Room Three uses device as a count noun for the selectable presentation hardware, matching 设备."
+      },
+      {
+        "target_id": "ox-b05214794c1207bd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-23-s03"
+        ],
+        "forms": [
+          "code"
+        ],
+        "rationale": "In s03, asking for a code uses code as a count noun for an access credential; the temporary on-screen number in the reply fixes that sense."
+      },
+      {
+        "target_id": "ox-52e28e079442ec5c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-23-s05"
+        ],
+        "forms": [
+          "connected"
+        ],
+        "rationale": "In s05, the status says connected presents the adjectival state label of the connection; seeing the first slide corroborates 已连接的, not an unfulfilled connecting action."
+      },
+      {
+        "target_id": "ox-dca70b7460545fd4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-23-s06"
+        ],
+        "forms": [
+          "digital"
+        ],
+        "rationale": "In s06, This digital display uses digital as an attributive adjective for an electronic screen, matching 数字的/数码的."
+      },
+      {
+        "target_id": "ox-eefb9dec6c3a7fb2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-23-s07"
+        ],
+        "forms": [
+          "control"
+        ],
+        "rationale": "In s07, control them from my laptop uses control as a transitive verb for operating the slides; the next-slide test establishes 操作."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-24",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "3404b60bda4c32bc5eebba0d007a940f7634ebaf6f74cf831322d1d8a601f606",
+    "status": "accepted",
+    "rationale": "The editor identifies ambiguity caused by missing notice context and asks for the service name and old/new times. The writer acknowledges the problem and commits to a specific revision deadline, giving a coherent feedback loop.",
+    "targets": [
+      {
+        "target_id": "ox-8583556a6fd63276",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-24-s01"
+        ],
+        "forms": [
+          "comment"
+        ],
+        "rationale": "In s01, one comment on the opening paragraph uses comment as a count noun for feedback about the text, matching 意见/评论."
+      },
+      {
+        "target_id": "ox-8ba99b93c38c30d8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-24-s03"
+        ],
+        "forms": [
+          "certain"
+        ],
+        "rationale": "In s03, not certain which service has changed uses certain as a predicative adjective for lack of confidence/knowledge, matching 确定的/确信的."
+      },
+      {
+        "target_id": "ox-dcf0a0ca0f56903b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-24-s05"
+        ],
+        "forms": [
+          "context"
+        ],
+        "rationale": "In s05, Without that context uses context as a noun for the prior notice needed to interpret the new text, matching 帮助理解的背景."
+      },
+      {
+        "target_id": "ox-d98d162bd1bc00d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-24-s05"
+        ],
+        "forms": [
+          "differently"
+        ],
+        "rationale": "In s05, understand the sentence differently uses differently as an adverb modifying interpretation, matching 以不同方式."
+      },
+      {
+        "target_id": "ox-565533a6ec4bf0cb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-24-s07"
+        ],
+        "forms": [
+          "consider"
+        ],
+        "rationale": "In s07, consider adding uses consider as a verb taking an -ing complement for weighing a proposed revision, matching 考虑."
+      },
+      {
+        "target_id": "ox-0b12f751db718302",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-24-s07"
+        ],
+        "forms": [
+          "clearly"
+        ],
+        "rationale": "In s07, explain it clearly uses clearly as an adverb modifying explanation, matching 清楚地 and contrasting with the original ambiguity."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-25",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "b012127fc83c778213cc30bd17d3e622b1f86ab66318253178000ccfbda54bc3",
+    "status": "accepted",
+    "rationale": "The customer compares free sweet/salty samples, rejects the first salt level and buys a plainer small bag. Chip and candy consistently signal American snack vocabulary, and the checkout promise closes the choice.",
+    "targets": [
+      {
+        "target_id": "ox-23bb9235a7943efb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-25-s02"
+        ],
+        "forms": [
+          "chip"
+        ],
+        "rationale": "In s02, a chip from this bowl uses chip as a count noun for a thin potato snack; the salty/plain bag comparison supports the specified American 薯片 sense."
+      },
+      {
+        "target_id": "ox-1d82206405af4ec4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-25-s02"
+        ],
+        "forms": [
+          "candy"
+        ],
+        "rationale": "In s02, candy samples uses candy as an attributive mass noun for confectionery, matching 糖果 and contrasting with salty chips."
+      },
+      {
+        "target_id": "ox-d8fdd3b33eef7e90",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-25-s03"
+        ],
+        "forms": [
+          "bit"
+        ],
+        "rationale": "In s03, a bit too salty uses bit as the noun within a bit, a degree phrase meaning slightly; the declared Chinese explanation accurately distinguishes this use from a physical fragment."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-26",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "c1eb12ff7a0f3acb3a69a7803729c92d629cbe009bc58475f96eb329d4ed3dc7",
+    "status": "accepted",
+    "rationale": "The shopper confirms equal-price use of store credit, asks for a hold and receives confirmation that the last scarf is reserved until tomorrow. Store credit is a retail balance, not a loan; pounds with clerk is understandable regional variation rather than a semantic defect.",
+    "targets": [
+      {
+        "target_id": "ox-c05bd1111a3a79ef",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-26-s01"
+        ],
+        "forms": [
+          "credit"
+        ],
+        "rationale": "In s01, received store credit uses credit as a mass noun for refund value spendable in the shop, matching 退货后店内余额; the receipt and equal scarf price reinforce the meaning."
+      },
+      {
+        "target_id": "ox-8e0cf115d9a3d5af",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-26-s03"
+        ],
+        "forms": [
+          "clerk"
+        ],
+        "rationale": "In s03, The clerk I spoke to yesterday uses clerk as a person noun for the shop assistant, matching 店员."
+      },
+      {
+        "target_id": "ox-ee9d853239bca262",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-26-s05"
+        ],
+        "forms": [
+          "deal"
+        ],
+        "rationale": "In s05, deal with the reservation uses deal as a verb in the fixed construction deal with, meaning handle the requested hold, matching 处理/应对."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-27",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "b21606695ed8788f2e1c5094efdca48b3eb6698a93cff5fcac43540c2cb1e074",
+    "status": "accepted",
+    "rationale": "The coworkers discuss a responsive display idea, identify the risk of overwriting their only working files and agree separate development and test-planning tasks. The backup-first decision and next-day comparison produce a practical ending.",
+    "targets": [
+      {
+        "target_id": "ox-306c062a5ca3c5d0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-27-s01"
+        ],
+        "forms": [
+          "crazy"
+        ],
+        "rationale": "In s01, This may sound crazy uses crazy as a predicative adjective after sound for an unusually bold idea, matching 异想天开的/出人意料的 rather than referring to mental health."
+      },
+      {
+        "target_id": "ox-1579b994abc5dbb1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-27-s02"
+        ],
+        "forms": [
+          "clever"
+        ],
+        "rationale": "In s02, a clever idea uses clever as an attributive adjective for an ingenious display concept, matching 巧妙的."
+      },
+      {
+        "target_id": "ox-0e9b2b0cbf383c27",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-27-s02"
+        ],
+        "forms": [
+          "develop"
+        ],
+        "rationale": "In s02, develop a small test version uses develop as a transitive verb for producing the prototype incrementally, matching 开发/逐步制作."
+      },
+      {
+        "target_id": "ox-6e962f8e2a58e9d0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-27-s04"
+        ],
+        "forms": [
+          "destroy"
+        ],
+        "rationale": "In s04, destroy our only working copy uses destroy as a transitive verb for making the usable version unusable through experimental changes, matching 毁坏/使无法使用."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-28",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "862dc7968adca395b3d8e3efa73be7ad14334c13abf92e09b22fb521964aae81",
+    "status": "accepted",
+    "rationale": "The student and teacher define an explicitly imaginary geography diary, narrow the intended region and distinguish an introduction about usual climate from fictional daily entries. The student ends with a plan to choose a precise location and return with an outline.",
+    "targets": [
+      {
+        "target_id": "ox-afd035d0f84a1eab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-28-s01"
+        ],
+        "forms": [
+          "diary"
+        ],
+        "rationale": "In s01, my geography diary uses diary as a count noun for a written record of the invented journey, matching 日记."
+      },
+      {
+        "target_id": "ox-8f9b8a54ec081739",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-28-s02"
+        ],
+        "forms": [
+          "continent"
+        ],
+        "rationale": "In s02, Which continent uses continent as a count noun for the broad landmass choice; the answer Africa confirms 洲/大陆."
+      },
+      {
+        "target_id": "ox-bb1881dce7f77d34",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-28-s03"
+        ],
+        "forms": [
+          "desert"
+        ],
+        "rationale": "In s03, in a desert uses desert as a count noun for an arid landscape setting, matching 沙漠 rather than the unrelated verb."
+      },
+      {
+        "target_id": "ox-b9e61d48578dbca9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-28-s04"
+        ],
+        "forms": [
+          "climate"
+        ],
+        "rationale": "In s04, research its climate uses climate as a noun for usual long-term conditions of the chosen place, reinforced by the teacher's explicit distinction from daily diary events."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-b-29",
+    "reviewer": "reviewer-phase03-b",
+    "dialogue_sha256": "0777ed0ecbd8d47978d2ba9fc435a4361475a3b06ea23b3b9ea9ac0dbcb9588e",
+    "status": "accepted",
+    "rationale": "The organisers confirm eighty visitors, identify spare chairs obstructing the entrance and divide both immediate rearrangement and later stacking work. Crowded can describe a place packed with objects, so the explicit absence of the audience does not contradict the chair obstruction.",
+    "targets": [
+      {
+        "target_id": "ox-31f3d350231a0316",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-29-s01"
+        ],
+        "forms": [
+          "classical"
+        ],
+        "rationale": "In s01, the classical music concert uses classical as an adjective modifying music to identify the concert genre, matching 古典音乐的."
+      },
+      {
+        "target_id": "ox-ab006173d665b929",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-29-s02"
+        ],
+        "forms": [
+          "crowd"
+        ],
+        "rationale": "In s02, a bigger crowd than last month uses crowd as a count noun for the expected group of eighty people, matching 人群."
+      },
+      {
+        "target_id": "ox-3ef9a84433f854b6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-b-29-s03"
+        ],
+        "forms": [
+          "crowded"
+        ],
+        "rationale": "In s03, The entrance looks crowded ... even without the audience uses crowded as a predicative adjective for an overfilled space; the next turn identifies spare chairs in the way, supporting 拥挤的 without requiring people to be present."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-01",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "26f914032aaf37766624e8694c5e94ad2443b766e391bcfce3c5960cdfb67709",
+    "status": "accepted",
+    "rationale": "The volunteers answer a concrete storage question, distinguish chairs from oversized tables, and finish with an agreed room sign and clear doorway. The flood context supports the donation reference, and all five targets contribute to the same task.",
+    "targets": [
+      {
+        "target_id": "ox-0d4a3b9075f35a18",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-01-s05"
+        ],
+        "forms": [
+          "disaster"
+        ],
+        "rationale": "p03-c-01-s05 'after the disaster' is a definite count-noun phrase referring back to the flood described in the context; 灾难 is the intended event, not an exaggerated personal mishap."
+      },
+      {
+        "target_id": "ox-ec9cd26808376963",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-01-s03"
+        ],
+        "forms": [
+          "enormous"
+        ],
+        "rationale": "p03-c-01-s03 'the tables are enormous' is a predicative adjective describing exceptional physical size; 巨大的 explains why the doorway must be measured."
+      },
+      {
+        "target_id": "ox-f20740d4708b8b82",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-01-s02"
+        ],
+        "forms": [
+          "empty"
+        ],
+        "rationale": "p03-c-01-s02 'an empty classroom' uses an attributive adjective for an unoccupied storage space, matching 空的；未被占用的 and contrasting naturally with the full hall."
+      },
+      {
+        "target_id": "ox-b025eae49aebbc36",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-01-s03"
+        ],
+        "forms": [
+          "furniture"
+        ],
+        "rationale": "p03-c-01-s03 'all the furniture' is the uncountable collective noun for chairs and tables; 家具 fits both the reference and the absence of an incorrect plural ending."
+      },
+      {
+        "target_id": "ox-21d7a87cecaf6bd9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-01-s02"
+        ],
+        "forms": [
+          "hall"
+        ],
+        "rationale": "p03-c-01-s02 'The hall is full' uses hall as a countable room noun; the community relief setting supports 大厅；礼堂 and motivates using the next-door classroom."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-02",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "b4bd6345985379a7f14ac266b1fa81e7de04a426b450eefc5cf0156005daa896",
+    "status": "accepted",
+    "rationale": "The researchers distinguish a map discovery from proof of habitation, respond to each other’s uncertainty, and agree to ask a local-history expert. The settlement inference is explicitly questioned rather than presented as established fact; all six target senses are supported.",
+    "targets": [
+      {
+        "target_id": "ox-73093647063b4510",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-02-s01"
+        ],
+        "forms": [
+          "discover"
+        ],
+        "rationale": "p03-c-02-s01 'Did you discover anything useful' uses the base verb after did with anything as object; the newly found map makes 发现；找到 concrete."
+      },
+      {
+        "target_id": "ox-eecc554a0ac1a881",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-02-s03"
+        ],
+        "forms": [
+          "discovery"
+        ],
+        "rationale": "p03-c-02-s03 'an interesting discovery' is a count noun referring to the map just found; 发现的事物 is supported by the preceding answer rather than an abstract discovery process."
+      },
+      {
+        "target_id": "ox-8c62bc5cb93c2858",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-02-s02"
+        ],
+        "forms": [
+          "document"
+        ],
+        "rationale": "p03-c-02-s02 'This document shows' uses a singular noun as subject, with document referring to an archival map; 文件；文献 naturally includes this historical written source."
+      },
+      {
+        "target_id": "ox-4eeba0f2b16e801e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-02-s03"
+        ],
+        "forms": [
+          "exist"
+        ],
+        "rationale": "p03-c-02-s03 'Do the buildings still exist?' is an intransitive verb asking whether the structures remain; 存在 fits the later contrast with the modern map."
+      },
+      {
+        "target_id": "ox-1f58202b350d71f4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-02-s05"
+        ],
+        "forms": [
+          "human"
+        ],
+        "rationale": "p03-c-02-s05 'a human settlement' uses human attributively to classify habitation by people; 人的；人类的 fits the explicit distinction from uninhabited storage buildings."
+      },
+      {
+        "target_id": "ox-d72950a169024ba9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-02-s07"
+        ],
+        "forms": [
+          "expert"
+        ],
+        "rationale": "p03-c-02-s07 'an expert on local history' is a count noun naming a knowledgeable person; 专家 is supported by the plan to send the map for assessment, and expert on is idiomatic."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-03",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "2e776708703188f665fbf3e941df0eb1390ee6eef026d182afb38edc9bcf187b",
+    "status": "accepted",
+    "rationale": "The actor and director revise a sudden reconciliation by removing the struggle and changing facial expression. Speaker roles remain consistent, the prop belongs to the staged scene, and the final decision to rehearse again closes the dramatic problem without turning into a vocabulary list.",
+    "targets": [
+      {
+        "target_id": "ox-7f4385b125ecf97f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-03-s02"
+        ],
+        "forms": [
+          "drama"
+        ],
+        "rationale": "p03-c-03-s02 'a family drama' is a countable noun for a dramatic work, contrasted with an action film; 戏剧作品 matches the theatre rehearsal context."
+      },
+      {
+        "target_id": "ox-00536ad59dd44a6f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-03-s01"
+        ],
+        "forms": [
+          "ending"
+        ],
+        "rationale": "p03-c-03-s01 'The ending feels sudden' uses ending as the noun naming the play’s conclusion; 结尾 is reinforced by the last-scene discussion and final rehearsal plan."
+      },
+      {
+        "target_id": "ox-56e109ea6549adc7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-03-s05"
+        ],
+        "forms": [
+          "express"
+        ],
+        "rationale": "p03-c-03-s05 'express his anger' uses express transitively with an emotion as object; 表达；表现感情 is realized through the subsequent suggestion of a pause and facial acting."
+      },
+      {
+        "target_id": "ox-c64ca3e101fb3b13",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-03-s08"
+        ],
+        "forms": [
+          "expression"
+        ],
+        "rationale": "p03-c-03-s08 'That expression looks hurt' is a count noun referring to the actor’s displayed face after 'Like this?'; 面部表情, not a linguistic phrase, is unambiguous in context."
+      },
+      {
+        "target_id": "ox-c794d6aff0c2e4a9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-03-s01"
+        ],
+        "forms": [
+          "hero"
+        ],
+        "rationale": "p03-c-03-s01 'the hero forgive his brother' uses hero as the noun for the male protagonist; 故事中的男主角 is supported by the discussion of his motives and apology."
+      },
+      {
+        "target_id": "ox-6cbdf01d634c0213",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-03-s03"
+        ],
+        "forms": [
+          "fight"
+        ],
+        "rationale": "p03-c-03-s03 'the fight in the last scene' is a countable noun for staged physical conflict; 打斗 is confirmed by the final reference to removing the struggle."
+      },
+      {
+        "target_id": "ox-bd19b14e203bd6db",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-03-s04"
+        ],
+        "forms": [
+          "gun"
+        ],
+        "rationale": "p03-c-03-s04 'the toy gun' uses gun as the head noun for the prop’s firearm shape; the Chinese gloss explicitly notes a toy, avoiding any claim that it is a real weapon."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-04",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "b97990834219b5b580cf16421289f4be336a4f9e42ffaa8559a55a9f0de38dcb",
+    "status": "accepted",
+    "rationale": "The help-desk exchange diagnoses preview-versus-save confusion, obtains the exact error text, supplies a filename, and checks that the file still opens after closing the browser. All seven targets are natural components of that completed troubleshooting sequence.",
+    "targets": [
+      {
+        "target_id": "ox-397ee88905d6374d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-04-s01"
+        ],
+        "forms": [
+          "disappear"
+        ],
+        "rationale": "p03-c-04-s01 'seems to disappear when I close the browser' uses an infinitive intransitively for loss of visibility; 消失；不再看得见 is appropriately framed as the user’s impression, corrected by saving later."
+      },
+      {
+        "target_id": "ox-30c1ac24803b748a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-04-s02"
+        ],
+        "forms": [
+          "download"
+        ],
+        "rationale": "p03-c-04-s02 'Did you download it' uses a transitive verb after did, contrasting a saved copy with a preview; 下载 matches both the object and the troubleshooting purpose."
+      },
+      {
+        "target_id": "ox-ee83a162310f7597",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-04-s01"
+        ],
+        "forms": [
+          "electronic"
+        ],
+        "rationale": "p03-c-04-s01 'the electronic form' uses electronic as an attributive adjective describing the digital form displayed in the browser; 电子的 is supported by the surrounding workflow."
+      },
+      {
+        "target_id": "ox-7368ff9a48ca1382",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-04-s03"
+        ],
+        "forms": [
+          "error"
+        ],
+        "rationale": "p03-c-04-s03 'I get an error' uses error as a singular count noun for a software error; 错误；报错 is made specific by the missing-filename message."
+      },
+      {
+        "target_id": "ox-577e800adc23a514",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-04-s04"
+        ],
+        "forms": [
+          "exact"
+        ],
+        "rationale": "p03-c-04-s04 'the exact message' uses an adjective modifying message and requests its precise wording; 准确的；原样的 is evidenced by the following quoted text."
+      },
+      {
+        "target_id": "ox-57bc6ceda632ebf7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-04-s07"
+        ],
+        "forms": [
+          "exactly"
+        ],
+        "rationale": "p03-c-04-s07 'exactly as it appears' uses an adverb to ask about copying the filename without alteration; 完全按照；一模一样地 matches the reply permitting a shorter name."
+      },
+      {
+        "target_id": "ox-17cdec4e0f5e0412",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-04-s06"
+        ],
+        "forms": [
+          "fix"
+        ],
+        "rationale": "p03-c-04-s06 'fix this by giving the file a name' is a transitive verb with this referring to the save error; 解决问题 fits the subsequent successful persistence check."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-05",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "379db72640728018e89dde19b2fb3981924e00be6b49b4359eb777902a247449",
+    "status": "accepted",
+    "rationale": "The applicant asks about entry requirements, paid training, continued study, and notice timing, then takes the application information for review. The job vocabulary is motivated by genuine follow-up questions, and the response does not imply an already awarded job.",
+    "targets": [
+      {
+        "target_id": "ox-4e82e295979724fe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-05-s04"
+        ],
+        "forms": [
+          "earn"
+        ],
+        "rationale": "p03-c-05-s04 'earn a wage while you train' is a transitive verb taking the payment earned as object; 通过工作赚取 is the natural employment sense, not merely receiving a gift."
+      },
+      {
+        "target_id": "ox-9b72f1602894a26c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-05-s05"
+        ],
+        "forms": [
+          "education"
+        ],
+        "rationale": "p03-c-05-s05 'continue my education' is an uncountable noun phrase for ongoing study; 教育；受教育经历 is grounded in the college component described in s04."
+      },
+      {
+        "target_id": "ox-c4b95003e84cbd13",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-05-s01"
+        ],
+        "forms": [
+          "employ"
+        ],
+        "rationale": "p03-c-05-s01 'employ people' is a transitive verb with prospective workers as object; 雇用 fits the recruiter’s explanation of apprentice roles."
+      },
+      {
+        "target_id": "ox-8a9c64af0455c7f4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-05-s05"
+        ],
+        "forms": [
+          "employee"
+        ],
+        "rationale": "p03-c-05-s05 'still be an employee' uses a count noun after an indefinite article for the applicant’s employed status; 雇员 contrasts usefully with being only a college student."
+      },
+      {
+        "target_id": "ox-3794a8758ab28e02",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-05-s07"
+        ],
+        "forms": [
+          "employer"
+        ],
+        "rationale": "p03-c-05-s07 'My current employer needs four weeks’ notice' uses a count noun for the existing employing organization; 雇主 is supported by the practical employment-notice issue."
+      },
+      {
+        "target_id": "ox-d038b3f58cb28030",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-05-s02"
+        ],
+        "forms": [
+          "experience"
+        ],
+        "rationale": "p03-c-05-s02 'previous experience' is an uncountable noun for prior work knowledge; 工作经验 matches the applicant’s question about never having worked in a factory."
+      },
+      {
+        "target_id": "ox-047cbc586ba412d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-05-s01"
+        ],
+        "forms": [
+          "factory"
+        ],
+        "rationale": "p03-c-05-s01 'worked in a factory' uses a count noun naming a manufacturing workplace; 工厂 is supported by the context and apprenticeship discussion."
+      },
+      {
+        "target_id": "ox-0edcb355613dae78",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-05-s03"
+        ],
+        "forms": [
+          "engineer"
+        ],
+        "rationale": "p03-c-05-s03 'become an engineer' uses a count noun for the desired occupation; 工程师 fits the applicant’s training ambition without claiming the apprentice role already confers that title."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-06",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "1c7ab95321748e68952f099310e0204aa46ba0e95cd71dd1243666da429f3db2",
+    "status": "accepted",
+    "rationale": "The students narrow an experiment to water, control seeds, earth and light, discuss initial dryness, and agree how to record outcomes with teacher review. The controlled-comparison purpose links all six targets and ends in a concrete recording action.",
+    "targets": [
+      {
+        "target_id": "ox-9b95275f18582df4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-06-s03"
+        ],
+        "forms": [
+          "earth"
+        ],
+        "rationale": "p03-c-06-s03 'the same amount of earth in each pot' uses earth as an uncountable material noun; 泥土；土壤 is clear from the planting context, not the planet sense."
+      },
+      {
+        "target_id": "ox-7703f70374d9dbd2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-06-s05"
+        ],
+        "forms": [
+          "dry"
+        ],
+        "rationale": "p03-c-06-s05 'This earth feels dry' is a predicative adjective after feels describing low moisture; 干的；缺少水分的 motivates recording the starting condition."
+      },
+      {
+        "target_id": "ox-da08641b3d01fc34",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-06-s01"
+        ],
+        "forms": [
+          "experiment"
+        ],
+        "rationale": "p03-c-06-s01 'For our experiment' is a noun naming the planned controlled seed trial; 实验 is substantiated by the subsequent variable-control discussion."
+      },
+      {
+        "target_id": "ox-eb3795d2bc8a379e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-06-s07"
+        ],
+        "forms": [
+          "effect"
+        ],
+        "rationale": "p03-c-06-s07 'measure the effect' uses a noun for the outcome of different watering levels; 影响；结果 is made concrete by counting how many seeds grow."
+      },
+      {
+        "target_id": "ox-708be34705c69497",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-06-s04"
+        ],
+        "forms": [
+          "factor"
+        ],
+        "rationale": "p03-c-06-s04 'light isn’t another factor' uses a count noun for an influence on the result; 影响结果的因素 fits the reason for putting the pots together."
+      },
+      {
+        "target_id": "ox-b17b491b909a6a41",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-06-s02"
+        ],
+        "forms": [
+          "focus"
+        ],
+        "rationale": "p03-c-06-s02 'focus on water' uses the verb with its idiomatic on complement; 集中注意力于 is realized as selecting water rather than light as the experimental variable."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-07",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "e2d8d0f0a48487e8a44751fe3b5b8d09df493c7739800eb0dd549de68533d82d",
+    "status": "accepted",
+    "rationale": "A customer compares heater functions and consumption, then agrees to check room-size and socket requirements before selecting a model. The ending is a coherent next step rather than a falsely completed purchase; the electrical terms remain distinct and naturally motivated.",
+    "targets": [
+      {
+        "target_id": "ox-3d2475052a532f5c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-07-s01"
+        ],
+        "forms": [
+          "electric"
+        ],
+        "rationale": "p03-c-07-s01 'an electric heater' uses an attributive adjective meaning powered by electricity; 用电驱动的 is the standard appliance collocation."
+      },
+      {
+        "target_id": "ox-6ec6a5b6245613dc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-07-s09"
+        ],
+        "forms": [
+          "electrical"
+        ],
+        "rationale": "p03-c-07-s09 'special electrical work' uses an adjective for work on the electrical installation, not merely a powered device; 与电力系统有关的 matches the follow-up about sockets and installation."
+      },
+      {
+        "target_id": "ox-d74d4dd244a0118a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-07-s05"
+        ],
+        "forms": [
+          "electricity"
+        ],
+        "rationale": "p03-c-07-s05 'uses less electricity' is an uncountable noun for power consumed; 电；电力 is supported by comparing heater labels rather than sizes."
+      },
+      {
+        "target_id": "ox-f521dde295733ba3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-07-s06"
+        ],
+        "forms": [
+          "energy"
+        ],
+        "rationale": "p03-c-07-s06 'the energy information on the labels' uses energy as an attributive noun identifying consumption information; 能源；能量 fits the question about how much electricity the models use."
+      },
+      {
+        "target_id": "ox-8b936e66f700b775",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-07-s07"
+        ],
+        "forms": [
+          "heat"
+        ],
+        "rationale": "p03-c-07-s07 'gives out less heat' uses heat as an uncountable noun for thermal output; 热；热量 naturally contrasts with the electrical energy consumed."
+      },
+      {
+        "target_id": "ox-923029a0a15d919b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-07-s03"
+        ],
+        "forms": [
+          "feature"
+        ],
+        "rationale": "p03-c-07-s03 'a feature of the smaller one' uses a count noun for the timer capability; 产品的功能特点 is specified by setting the heater to switch off after an hour."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-08",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "5b45ca52784f97f69e069990710c3a1ebf1699b061c870cfbd5cd89331d12953",
+    "status": "accepted",
+    "rationale": "The caller describes a starting noise, answers the inspection question, and arranges delivery plus a callback before repairs. The mechanic appropriately postpones any explanation until inspection; all five selected words serve the same service exchange.",
+    "targets": [
+      {
+        "target_id": "ox-2d4a724f0816f182",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-08-s03"
+        ],
+        "forms": [
+          "driving"
+        ],
+        "rationale": "p03-c-08-s03 'haven’t done any driving today' uses driving as an uncountable activity noun after any; 驾驶活动 describes the caller’s lack of vehicle use that day."
+      },
+      {
+        "target_id": "ox-33dc58ff2739608e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-08-s01"
+        ],
+        "forms": [
+          "engine"
+        ],
+        "rationale": "p03-c-08-s01 'The engine makes a rattling noise' uses a count noun as the mechanical subject; 发动机 is supported by starting the car and the later inspection discussion."
+      },
+      {
+        "target_id": "ox-eb621508ba3e15f8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-08-s04"
+        ],
+        "forms": [
+          "gas"
+        ],
+        "rationale": "p03-c-08-s04 'enough gas in the tank' uses the uncountable American noun for petrol; 汽油（美式英语） is disambiguated by the car’s fuel tank and running the engine. Recovery service is understandable cross-regional vocabulary, not a semantic error."
+      },
+      {
+        "target_id": "ox-6f63cece4b3fc285",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-08-s07"
+        ],
+        "forms": [
+          "expect"
+        ],
+        "rationale": "p03-c-08-s07 'expect a call from you' uses a transitive verb for an anticipated future event; 预期；预计 matches the next answer giving the callback time."
+      },
+      {
+        "target_id": "ox-7bb23247b7f39652",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-08-s06"
+        ],
+        "forms": [
+          "explanation"
+        ],
+        "rationale": "p03-c-08-s06 'offering an explanation' uses a count noun for an account of the noise’s cause; 对原因的说明 is explicitly withheld until the car can be inspected."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-09",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "6d3f1006a8b7f5b7e8abf048e426d8126adc07400ad1c521dc897d2f676027e9",
+    "status": "accepted",
+    "rationale": "The experienced worker guides a new volunteer to the ducks, clarifies the tagged duck’s separate portion, and confirms which bowls the volunteer should carry. The arrangement respects the established care plan and ends in a specific shared task.",
+    "targets": [
+      {
+        "target_id": "ox-1665a1b32f94a685",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-09-s01"
+        ],
+        "forms": [
+          "farming"
+        ],
+        "rationale": "p03-c-09-s01 'worked in farming' uses farming as an uncountable occupational-activity noun; 农业生产；农场工作 is supported by the educational farm setting and the novice’s request for guidance."
+      },
+      {
+        "target_id": "ox-0dc04cb76fe77762",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-09-s03"
+        ],
+        "forms": [
+          "field"
+        ],
+        "rationale": "p03-c-09-s03 'the field behind the barn' is a countable location noun for the farm plot containing the ducks; 田地；农场的地块 matches the spatial directions."
+      },
+      {
+        "target_id": "ox-c5bd458bdfc00885",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-09-s02"
+        ],
+        "forms": [
+          "feed"
+        ],
+        "rationale": "p03-c-09-s02 'feed the ducks' uses a transitive verb with the animals as object; 喂养；给食物 is made concrete by the prepared portions and subsequent bowl instructions."
+      },
+      {
+        "target_id": "ox-fc07d7c1493236f5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-09-s05"
+        ],
+        "forms": [
+          "female"
+        ],
+        "rationale": "p03-c-09-s05 'the female duck' uses female as an attributive adjective identifying the duck’s sex; 雌性的 distinguishes the tagged animal rather than naming a person."
+      },
+      {
+        "target_id": "ox-755b7d5938c890b1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-09-s04"
+        ],
+        "forms": [
+          "gate"
+        ],
+        "rationale": "p03-c-09-s04 'through this gate' is a count noun for the closable entrance to the field; 栅栏门；大门 fits the instruction to close it behind them."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-10",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "64c7a4b75973a6d94b332076567ad0bc1b063a0b099a6f0c835fc430b50228dd",
+    "status": "accepted",
+    "rationale": "The cleanup volunteers notice a frog, avoid disturbing its patch, redirect litter collection to the path, and split the immediate work while consulting the ranger. Natural location and habitat references connect all six nouns without interrupting the decision sequence.",
+    "targets": [
+      {
+        "target_id": "ox-6c7e386778bb63dc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-10-s01"
+        ],
+        "forms": [
+          "frog"
+        ],
+        "rationale": "p03-c-10-s01 'There’s a frog' uses a singular count noun for the animal observed; 青蛙 is reinforced by the decision not to disturb its patch beside the pond."
+      },
+      {
+        "target_id": "ox-8fe801852de222d5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-10-s05"
+        ],
+        "forms": [
+          "forest"
+        ],
+        "rationale": "p03-c-10-s05 'the edge of the forest' uses a singular place noun for the wooded boundary; 森林 fits the park context and proposed starting point."
+      },
+      {
+        "target_id": "ox-09af79b6fe293033",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-10-s06"
+        ],
+        "forms": [
+          "environment"
+        ],
+        "rationale": "p03-c-10-s06 'Protecting the environment' uses environment as the noun for the natural surroundings; 自然环境 is supported by the frog, vegetation, and concern about foot traffic."
+      },
+      {
+        "target_id": "ox-283299ec51c18628",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-10-s01"
+        ],
+        "forms": [
+          "grass"
+        ],
+        "rationale": "p03-c-10-s01 'in the grass' uses grass as an uncountable vegetation noun; 草；草丛 identifies the frog’s location beside the plastic bag."
+      },
+      {
+        "target_id": "ox-208b97808ec77529",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-10-s04"
+        ],
+        "forms": [
+          "ground"
+        ],
+        "rationale": "p03-c-10-s04 'on the ground near the benches' uses ground as the surface noun in a conventional prepositional phrase; 地面 describes where litter can safely be collected."
+      },
+      {
+        "target_id": "ox-96a994a314a70088",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-10-s03"
+        ],
+        "forms": [
+          "garbage"
+        ],
+        "rationale": "p03-c-10-s03 'collect the garbage' uses the uncountable American noun for rubbish; 垃圾 refers to the plastic bag and other litter, not metaphorical poor-quality material."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-11",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "2d4caddb67daa49c05f2a84182be60e6e792ca8ac7d20bd801c45b72e737d27a",
+    "status": "accepted",
+    "rationale": "The patient describes symptoms and a pre-existing condition, while the receptionist routes a medication question to clinical staff without diagnosing or prescribing. The final callback arrangement is coherent; the medicine name remains for the clinical call rather than being fabricated.",
+    "targets": [
+      {
+        "target_id": "ox-9d1272c2244ca3e4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-11-s01"
+        ],
+        "forms": [
+          "fever"
+        ],
+        "rationale": "p03-c-11-s01 'I’ve had a fever' uses a countable symptom noun in the standard have a fever construction; 发热；发烧 is stated as a symptom rather than a diagnosis."
+      },
+      {
+        "target_id": "ox-56d321df0c3801f1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-11-s03"
+        ],
+        "forms": [
+          "flu"
+        ],
+        "rationale": "p03-c-11-s03 'it might be flu' uses flu as an uncountable disease noun after be; 流感 fits, and might plus 'I don’t know' correctly marks the patient’s uncertainty."
+      },
+      {
+        "target_id": "ox-df11561e530da204",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-11-s01"
+        ],
+        "forms": [
+          "headache"
+        ],
+        "rationale": "p03-c-11-s01 'a headache since yesterday' is a count noun naming head pain; 头痛 is supported by the symptom report and explicit onset time."
+      },
+      {
+        "target_id": "ox-ea9ffd7357637d1c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-11-s07"
+        ],
+        "forms": [
+          "drug"
+        ],
+        "rationale": "p03-c-11-s07 'taking another drug' uses drug as a count noun for medication; 药物 is established by the cold-medicine packet and request to consult a nurse, not an illicit-substance sense."
+      },
+      {
+        "target_id": "ox-0396aeb3342f4271",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-11-s05"
+        ],
+        "forms": [
+          "disease"
+        ],
+        "rationale": "p03-c-11-s05 'heart disease' uses disease as the noun naming a medical condition; 疾病 is correctly distinguished from the current unexplained fever."
+      },
+      {
+        "target_id": "ox-fc62b81d9fed9e11",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-11-s05"
+        ],
+        "forms": [
+          "heart"
+        ],
+        "rationale": "p03-c-11-s05 'heart disease' uses heart as an attributive organ noun identifying the affected body part; 心脏 fits the clinical context and is not an emotional metaphor."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-12",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "63a602e051fdb17dcdbe2f77dc3030ed428f889fbc3ddd2d624f9863dbe9c229",
+    "status": "accepted",
+    "rationale": "A beginner compares hockey and golf sessions, asks about fitness and equipment, and chooses Saturday hockey because of availability. The ball, stick, goal, trainers and British spelling support field hockey consistently; the exchange ends with a booking and kit-check plan.",
+    "targets": [
+      {
+        "target_id": "ox-845233968c6defbe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-12-s01"
+        ],
+        "forms": [
+          "hockey"
+        ],
+        "rationale": "p03-c-12-s01 'a hockey fan' uses hockey as a sport noun modifying fan; 曲棍球运动 is clarified by a ball rather than a puck and by the later stick-and-goal activity."
+      },
+      {
+        "target_id": "ox-f7ec20e01ca45647",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-12-s05"
+        ],
+        "forms": [
+          "golf"
+        ],
+        "rationale": "p03-c-12-s05 'considering golf' uses golf as the noun object naming another sport option; 高尔夫球运动 fits the comparison with the slower Sunday session."
+      },
+      {
+        "target_id": "ox-105b2faa8aded1da",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-12-s03"
+        ],
+        "forms": [
+          "fit"
+        ],
+        "rationale": "p03-c-12-s03 'not very fit' is a predicative adjective modified by very, referring to physical fitness; 身体健康强壮的 fits the worry about a full match."
+      },
+      {
+        "target_id": "ox-7b14a0132ec8ea24",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-12-s04"
+        ],
+        "forms": [
+          "goal"
+        ],
+        "rationale": "p03-c-12-s04 'towards a goal' uses a count noun for the physical target in the game; 球门, rather than an abstract objective or scored point, is supported by passing the ball towards it."
+      },
+      {
+        "target_id": "ox-e3f9642d15194165",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-12-s02"
+        ],
+        "forms": [
+          "hit"
+        ],
+        "rationale": "p03-c-12-s02 'hit the ball' uses a transitive action verb with the ball as object; 击打 is naturally paired with holding the hockey stick."
+      },
+      {
+        "target_id": "ox-a9979d9c56a64932",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-12-s01"
+        ],
+        "forms": [
+          "fan"
+        ],
+        "rationale": "p03-c-12-s01 'I’m a hockey fan' uses fan as a count noun for an enthusiast; 爱好者；球迷 is distinguished from personal playing experience by 'I’ve never played.'"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-13",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "f4988b6358bced6cf2091fab35833c4d46ca4b5e17f6a7a3dfa7093308204514",
+    "status": "accepted",
+    "rationale": "The walkers reassess distance, wind, darkness, equipment and terrain, reject both the ridge and muddy option, then choose a mapped paved return. The many outdoor terms each support a decision and the final twenty-minute return provides a credible ending.",
+    "targets": [
+      {
+        "target_id": "ox-5c35d05618683b32",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-13-s01"
+        ],
+        "forms": [
+          "distance"
+        ],
+        "rationale": "p03-c-13-s01 'the distance from here to the top' uses distance as a measurement noun with from/to endpoints; 距离 is immediately quantified as six kilometres."
+      },
+      {
+        "target_id": "ox-13cf57d869f2c9e3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-13-s03"
+        ],
+        "forms": [
+          "extreme"
+        ],
+        "rationale": "p03-c-13-s03 'extreme weather' uses an attributive adjective meaning unusually severe conditions; 极端的；严酷的 is supported by the strong wind and concern about exposed terrain."
+      },
+      {
+        "target_id": "ox-74256b41acc4fd57",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-13-s03"
+        ],
+        "forms": [
+          "extremely"
+        ],
+        "rationale": "p03-c-13-s03 'extremely windy' uses the degree adverb to intensify the adjective windy; 极其；非常 fits the reason for changing the route."
+      },
+      {
+        "target_id": "ox-4d40a6c1f4fdd660",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-13-s01"
+        ],
+        "forms": [
+          "hill"
+        ],
+        "rationale": "p03-c-13-s01 'the top of the hill' uses hill as a countable landform noun; 小山；山丘 fits the ridge and walking-route context without requiring mountain terminology."
+      },
+      {
+        "target_id": "ox-2810f9528f64622e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-13-s03"
+        ],
+        "forms": [
+          "equipment"
+        ],
+        "rationale": "p03-c-13-s03 'brought equipment for extreme weather' uses an uncountable noun for appropriate outdoor gear; 装备 is compatible with the absence of a plural ending or indefinite article."
+      },
+      {
+        "target_id": "ox-6d249d93154db2fe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-13-s05"
+        ],
+        "forms": [
+          "fear"
+        ],
+        "rationale": "p03-c-13-s05 'My fear of heights' uses fear as a noun with the idiomatic of complement; 恐惧 explains Petra’s reluctance to walk on the ridge."
+      },
+      {
+        "target_id": "ox-873da864146aee37",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-13-s06"
+        ],
+        "forms": [
+          "guide"
+        ],
+        "rationale": "p03-c-13-s06 'The guide at the visitor centre recommended' uses guide as a person noun and agent of advice; 导游；向导 is supported by the verb recommended and location."
+      },
+      {
+        "target_id": "ox-ca36b33cdb4fe3dc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-13-s07"
+        ],
+        "forms": [
+          "huge"
+        ],
+        "rationale": "p03-c-13-s07 'that huge rock' uses an attributive size adjective; 巨大的 fits a conspicuous landmark used to identify the start of a path."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-14",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "68d628077a73459eb9cb81778471151da76399b9b10b22e29b88178e8257b941",
+    "status": "accepted",
+    "rationale": "The roommates identify clearance and weight problems, remove drawers, protect the loose handle, and adjust the cabinet until the door opens. The speakers’ physical coordination and final placement are coherent, with every target grounded in the same moving task.",
+    "targets": [
+      {
+        "target_id": "ox-5648b81d47dbf514",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-14-s01"
+        ],
+        "forms": [
+          "height"
+        ],
+        "rationale": "p03-c-14-s01 'the height of the cabinet' uses a measurement noun for vertical extent; 高度 is supported by the next answer about fitting beneath a shelf."
+      },
+      {
+        "target_id": "ox-39b3ab9317b47ff0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-14-s02"
+        ],
+        "forms": [
+          "gap"
+        ],
+        "rationale": "p03-c-14-s02 'the gap beside the door' uses a count noun for the available clearance; 间隙；空隙 is confirmed by the narrow finger-width space in the next turn."
+      },
+      {
+        "target_id": "ox-f394382668f4d36b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-14-s06"
+        ],
+        "forms": [
+          "hold"
+        ],
+        "rationale": "p03-c-14-s06 'Hold this one' is an imperative transitive verb directing Otis to support a drawer; 拿住；托住 is established by the preceding drawer-removal question. Initial capital H is ordinary casing of declared hold."
+      },
+      {
+        "target_id": "ox-1064dd8de6ce61d5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-14-s05"
+        ],
+        "forms": [
+          "heavy"
+        ],
+        "rationale": "p03-c-14-s05 'It’s heavy' uses a predicative adjective for the cabinet’s weight; 重的 motivates taking out drawers and contrasts with 'much lighter' later."
+      },
+      {
+        "target_id": "ox-6455c2d745e35c32",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-14-s09"
+        ],
+        "forms": [
+          "forward"
+        ],
+        "rationale": "p03-c-14-s09 'move it forward a little' uses a directional adverb modifying move; 向前 fits the next speaker’s tape-mark limit and plan to make turning room."
+      },
+      {
+        "target_id": "ox-9eab8a90e343c462",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-14-s07"
+        ],
+        "forms": [
+          "drop"
+        ],
+        "rationale": "p03-c-14-s07 'Don’t drop the loose handle' uses a transitive verb in a negative imperative; 使掉落 refers to accidentally letting the detached hardware fall while moving the drawer."
+      },
+      {
+        "target_id": "ox-a13a6e22ecddc528",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-14-s03"
+        ],
+        "forms": [
+          "finger"
+        ],
+        "rationale": "p03-c-14-s03 'one finger between the handle and the wall' uses a count noun for a body part as an informal clearance measure; 手指 is literal and contextually useful."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-15",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "14b366e6e50bd82c0d3d436d862808142aa7b4c300f4f976348298fac44e50d3",
+    "status": "accepted",
+    "rationale": "The relatives check separate choices about a group photo, camera ownership and Grandma’s transport without deciding for Eva or Martin. Pronoun references stay clear, Arun is identified after the informal reference, and the ending confirms Martin will be consulted before arranging people.",
+    "targets": [
+      {
+        "target_id": "ox-71cde3a3b38c8f13",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-15-s02"
+        ],
+        "forms": [
+          "divorced"
+        ],
+        "rationale": "p03-c-15-s02 'She and Martin are divorced' uses divorced predicatively to describe current marital status; 已离婚的 explains why the organizer avoids assumptions about photographs."
+      },
+      {
+        "target_id": "ox-2337d7b496dcf88d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-15-s06"
+        ],
+        "forms": [
+          "hers"
+        ],
+        "rationale": "p03-c-15-s06 'it’s hers' uses the independent possessive pronoun instead of repeating Eva’s camera; 她的东西 fits the explicitly identified antecedent and does not require a following noun."
+      },
+      {
+        "target_id": "ox-b9b83acdaffd2c0b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-15-s03"
+        ],
+        "forms": [
+          "herself"
+        ],
+        "rationale": "p03-c-15-s03 'choosing ... herself' uses an emphatic pronoun referring to Eva as the person making the choice; 她自己；强调亲自 distinguishes her agency from an organizer choosing for her."
+      },
+      {
+        "target_id": "ox-2a7ae44144bdf5a4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-15-s04"
+        ],
+        "forms": [
+          "himself"
+        ],
+        "rationale": "p03-c-15-s04 'decide for himself' uses the reflexive pronoun with for, referring back to Martin; 他自己 supports the same individual-choice principle."
+      },
+      {
+        "target_id": "ox-794a794d74aa0a5f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-15-s07"
+        ],
+        "forms": [
+          "guy"
+        ],
+        "rationale": "p03-c-15-s07 'the guy collecting Grandma' uses an informal count noun for the man doing the pickup; 男人；家伙（非正式称呼） fits casual family planning, and Arun is identified immediately afterward."
+      },
+      {
+        "target_id": "ox-24d0949bb0077e40",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-15-s03"
+        ],
+        "forms": [
+          "happily"
+        ],
+        "rationale": "p03-c-15-s03 'she’d happily join the group photo' uses an adverb for willingness to participate; 乐意地, rather than merely a description of visible happiness, fits the reported consent."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-16",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "5b338afe9db35e2785a3396923239f9faa9a59bd903258b164b7ee8be576e776",
+    "status": "accepted",
+    "rationale": "The customer specifies a gift recipient’s taste, assesses a station drawing, compares frames, and agrees to a wooden frame and Friday collection. The aesthetic preference motivates all four target words and gives the transaction a natural close.",
+    "targets": [
+      {
+        "target_id": "ox-ce291f268bc75374",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-16-s02"
+        ],
+        "forms": [
+          "drawing"
+        ],
+        "rationale": "p03-c-16-s02 'This drawing of the old station' uses a count noun for a made picture; 图画；素描 is supported by the next sentence saying the artist drew it from a bridge."
+      },
+      {
+        "target_id": "ox-992a09a5cc735404",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-16-s06"
+        ],
+        "forms": [
+          "gallery"
+        ],
+        "rationale": "p03-c-16-s06 'here at the gallery' uses gallery as a countable place noun for the venue displaying and selling art; 画廊 matches the assistant’s framing service."
+      },
+      {
+        "target_id": "ox-20e2d47d1bd7c2e0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-16-s01"
+        ],
+        "forms": [
+          "gift"
+        ],
+        "rationale": "p03-c-16-s01 'a gift for my sister' uses a count noun for a present intended for a specified recipient; 礼物 motivates choosing a scene and frame to match the sister’s taste."
+      },
+      {
+        "target_id": "ox-4183cb9b21948fde",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-16-s03"
+        ],
+        "forms": [
+          "gold"
+        ],
+        "rationale": "p03-c-16-s03 'the gold frame' uses gold as an attributive colour adjective; 金色的 is a natural reading for a decorative picture frame contrasted with a plain wooden alternative, with no claim of solid-gold composition."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-17",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "8d9d8bd96ee54e47bc82d38442fa6904ddf2ff11a0f341572aed72e2d4531d0e",
+    "status": "accepted",
+    "rationale": "The roommates inventory ingredients, choose either tomato size, solve a missing-fork problem by borrowing, and divide shopping from cooking. Each target supports the practical meal-preparation purpose; the standalone grocery noun is an established regional store sense, though grocery store is more widespread.",
+    "targets": [
+      {
+        "target_id": "ox-6545ed7dedd1c5bf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-17-s02"
+        ],
+        "forms": [
+          "fresh"
+        ],
+        "rationale": "p03-c-17-s02 'Some fresh tomatoes' uses fresh as an attributive adjective for the ingredient being bought; 新鲜的 naturally contrasts with stored cupboard food and fits shopping for tonight."
+      },
+      {
+        "target_id": "ox-a7e0a7f62d699af8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-17-s02"
+        ],
+        "forms": [
+          "fridge"
+        ],
+        "rationale": "p03-c-17-s02 'cheese in the fridge' uses fridge as the singular count noun for the cold-storage appliance; 冰箱 is a concrete location in the ingredient inventory."
+      },
+      {
+        "target_id": "ox-7017a05e8cd20566",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-17-s06"
+        ],
+        "forms": [
+          "fork"
+        ],
+        "rationale": "p03-c-17-s06 'A fork for Jo' uses a count noun for an eating utensil; 叉子；餐叉 is disambiguated by having only two and the plan to borrow one for the additional diner."
+      },
+      {
+        "target_id": "ox-6b0f46231a1ab62a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-17-s01"
+        ],
+        "forms": [
+          "grocery"
+        ],
+        "rationale": "p03-c-17-s01 'going to the grocery' uses grocery as a singular store noun after the; 食品杂货店 is an established chiefly American/regional usage, and buying tomatoes makes the destination sense clear."
+      },
+      {
+        "target_id": "ox-4c569732695f2c40",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-17-s04"
+        ],
+        "forms": [
+          "either"
+        ],
+        "rationale": "p03-c-17-s04 'Either type is fine' uses either as a determiner before the singular noun type; 两者中任一的 refers to the two explicit tomato-size alternatives. Initial capital E does not change the declared lexical form."
+      },
+      {
+        "target_id": "ox-191b8fa832074816",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-17-s08"
+        ],
+        "forms": [
+          "especially"
+        ],
+        "rationale": "p03-c-17-s08 'especially since the kitchen shop closes early' uses the adverb to emphasize the following reason; 尤其；特别是 strengthens why borrowing a fork is helpful."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-18",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "bfd7be21284266d18445434295dba1db1856742723521480125916bbd4299d3c",
+    "status": "accepted",
+    "rationale": "The readers move from avoiding another crime novel to a fantasy story, check its accessibility and translation, and reschedule the proposed discussion around an absence. The final promise is to suggest the choice to the wider group, not claim everyone has already agreed.",
+    "targets": [
+      {
+        "target_id": "ox-dd2883c488285683",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-18-s01"
+        ],
+        "forms": [
+          "fiction"
+        ],
+        "rationale": "p03-c-18-s01 'What kind of fiction' uses an uncountable genre noun; 小说；虚构文学 is supported by the contrast with crime novels and the invented story proposed next."
+      },
+      {
+        "target_id": "ox-48eb70f1ff1f9d3e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-18-s04"
+        ],
+        "forms": [
+          "dream"
+        ],
+        "rationale": "p03-c-18-s04 'begins with a strange dream' uses a count noun for a sleep experience within the story; 梦；睡梦中的经历 fits the narrative opening, rather than a life ambition."
+      },
+      {
+        "target_id": "ox-421b2f67cb261fc0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-18-s06"
+        ],
+        "forms": [
+          "foreign"
+        ],
+        "rationale": "p03-c-18-s06 'A foreign writer' uses an adjective attributively for an author from another country; 外国的 is consistent with the subsequent identification of the text as an English translation."
+      },
+      {
+        "target_id": "ox-c5822606bcb393fd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-18-s07"
+        ],
+        "forms": [
+          "discussion"
+        ],
+        "rationale": "p03-c-18-s07 'have a discussion next Thursday' uses a countable event noun in an idiomatic verb-noun collocation; 讨论 fits the plan to read a chapter and meet about it."
+      },
+      {
+        "target_id": "ox-70e50355a89f0746",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-18-s08"
+        ],
+        "forms": [
+          "following"
+        ],
+        "rationale": "p03-c-18-s08 'the following Thursday' uses following as an adjective modifying the day; 接下来的 identifies the Thursday after the initially proposed one, confirmed by 'the later date.'"
+      },
+      {
+        "target_id": "ox-b42786ee6ed05b02",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-18-s02"
+        ],
+        "forms": [
+          "god"
+        ],
+        "rationale": "p03-c-18-s02 'a god who loses his memory' uses a lowercase count noun for one fictional deity; 神；虚构故事中的神祇 fits the fantasy premise, not a claim about a particular religion."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-19",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "3f19b5a99d06fa3e4a348505de416e29b86426ffa5c8b75441a53528d66d4c45",
+    "status": "accepted",
+    "rationale": "The tailor gives a realistic limitation on repairing a pocket hole, the customer weighs that against a formal dinner and personal preference, and the two agree Friday completion. The short exchange stays focused and every selected word belongs naturally to the repair decision.",
+    "targets": [
+      {
+        "target_id": "ox-10bf1e99c50e7667",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-19-s05"
+        ],
+        "forms": [
+          "fashion"
+        ],
+        "rationale": "p03-c-19-s05 'out of fashion' uses fashion as an uncountable noun within the idiom for no longer fashionable; 时尚；流行款式 describes the jacket’s older style, not the manner of doing something."
+      },
+      {
+        "target_id": "ox-c5458057f014eb4e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-19-s03"
+        ],
+        "forms": [
+          "formal"
+        ],
+        "rationale": "p03-c-19-s03 'a formal dinner' uses an attributive adjective for a dressy organized occasion; 正式的 explains why the customer worries about a visible repair mark."
+      },
+      {
+        "target_id": "ox-fa0669602053e0f3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-19-s01"
+        ],
+        "forms": [
+          "hole"
+        ],
+        "rationale": "p03-c-19-s01 'this hole near the pocket' uses a count noun for damage through the fabric; 破洞 is supported by catching the jacket on a nail and asking the tailor to mend it."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-20",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "2a5d8305817b38c7dfd8997b73e52cc626a4c630ace15c1fddaa5032df695758",
+    "status": "accepted",
+    "rationale": "The prospective student asks about a beginner flight lesson, nervousness and instructor availability, then requests information before choosing a time. The conversation coherently advances a potential booking without claiming it is complete, and it avoids providing flight-control instructions.",
+    "targets": [
+      {
+        "target_id": "ox-f480e4d7af241717",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-20-s01"
+        ],
+        "forms": [
+          "flying"
+        ],
+        "rationale": "p03-c-20-s01 'try flying' uses flying as the activity noun complement of try; 飞行活动 is narrowed by the small-plane and introductory-lesson context rather than figurative movement."
+      },
+      {
+        "target_id": "ox-5513ef02e50700e1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-20-s05"
+        ],
+        "forms": [
+          "excellent"
+        ],
+        "rationale": "p03-c-20-s05 'was excellent with nervous students' uses a predicative adjective for the instructor’s skill; 极好的；出色的 fits the idiomatic excellent with construction and motivates requesting Jo."
+      },
+      {
+        "target_id": "ox-6b897957b0fe236d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-20-s03"
+        ],
+        "forms": [
+          "easily"
+        ],
+        "rationale": "p03-c-20-s03 'get nervous easily' uses an adverb modifying becoming nervous; 容易地 conveys low resistance to anxiety and naturally motivates the question about taking the controls."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-21",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "c7879be673e95047cc2378a767e594a0ed6d3e782de4c37bb7f801d834dbb744",
+    "status": "accepted",
+    "rationale": "The volunteers identify the downtown venue, redirect arrivals around repaired steps, confirm a step-free route and elevator, and divide welcome duties. The conclusion adds signage to prevent confusion. Downtown and elevator alongside centre are compatible with Canadian usage, not an inherent spelling error.",
+    "targets": [
+      {
+        "target_id": "ox-231c6833a5521a29",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-21-s03"
+        ],
+        "forms": [
+          "greet"
+        ],
+        "rationale": "p03-c-21-s03 'greet people' uses a transitive verb for welcoming arrivals; 迎接；向人问候 fits the instruction to stand just inside the entrance and direct guests."
+      },
+      {
+        "target_id": "ox-d26ec809152df37d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-21-s04"
+        ],
+        "forms": [
+          "guest"
+        ],
+        "rationale": "p03-c-21-s04 'each guest' uses a singular count noun after each for an attendee; 来宾 is supported by collecting a name badge at the community event."
+      },
+      {
+        "target_id": "ox-b0cf2818e9b33ec0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-21-s05"
+        ],
+        "forms": [
+          "enter"
+        ],
+        "rationale": "p03-c-21-s05 'Can everyone enter there' uses enter intransitively with the locative adverb there; 进入 asks about access through the side entrance, including wheelchair access."
+      },
+      {
+        "target_id": "ox-4357025b80a7edf9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-21-s01"
+        ],
+        "forms": [
+          "downtown"
+        ],
+        "rationale": "p03-c-21-s01 'the downtown centre' uses downtown as an attributive adjective modifying centre; 市中心的 explicitly distinguishes that venue from the one by the park. The mapping correctly cites this adjectival occurrence, not the elliptical next-turn Downtown."
+      },
+      {
+        "target_id": "ox-ed3db10eac440b4a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-21-s06"
+        ],
+        "forms": [
+          "elevator"
+        ],
+        "rationale": "p03-c-21-s06 'The elevator is straight ahead' uses a count noun for the lift; 电梯 is confirmed by its taking attendees to the workshop floor on the step-free route."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-22",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "4c6e8628aeac631b86dd5a3f28373c6647f946daf6d0f3f24c26e265bb998c85",
+    "status": "accepted",
+    "rationale": "The community organizers separate general funding information from their roof-repair eligibility question and avoid assuming an unfair decision without knowing criteria. The ending sets a draft-and-review sequence, with the funding and fairness vocabulary serving the enquiry rather than making unsupported policy claims.",
+    "targets": [
+      {
+        "target_id": "ox-1d5ebf435382f179",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-22-s01"
+        ],
+        "forms": [
+          "government"
+        ],
+        "rationale": "p03-c-22-s01 'Does the government fund repairs' uses government as a collective institution noun; 政府 is consistent with the locally directed funding enquiry in the scenario."
+      },
+      {
+        "target_id": "ox-df8aa08e368908bc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-22-s02"
+        ],
+        "forms": [
+          "general"
+        ],
+        "rationale": "p03-c-22-s02 'general information' uses an attributive adjective for broad, nonspecific content; 概括性的；非具体的 is demonstrated by the page not answering the repairs question."
+      },
+      {
+        "target_id": "ox-29dc29675c81a086",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-22-s03"
+        ],
+        "forms": [
+          "further"
+        ],
+        "rationale": "p03-c-22-s03 'further details' uses further adjectivally before a plural noun, meaning additional information; 进一步的；更多的 is not the distance adverb and fits the decision to ask before applying."
+      },
+      {
+        "target_id": "ox-1949716d3a5f4af6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-22-s05"
+        ],
+        "forms": [
+          "fair"
+        ],
+        "rationale": "p03-c-22-s05 'it isn’t fair that' uses a predicative adjective evaluating equity; 公平的 matches the comparison between funding outcomes, while the next turn appropriately challenges the unsupported comparison."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-23",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "9b040419a813298d5d8b8e0d103f84d4cd2d5db50a942523282f7a14b4cfab40",
+    "status": "accepted",
+    "rationale": "The tutor prioritizes a clearer argument and verifiable evidence; the student restates a revision order and agrees to return with a new opening. The sixty-percent figure is not endorsed without a source, and the sequencing terms arise naturally from planning the work.",
+    "targets": [
+      {
+        "target_id": "ox-c5de26a34b99b7bc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-23-s01"
+        ],
+        "forms": [
+          "essay"
+        ],
+        "rationale": "p03-c-23-s01 'my essay about technology' uses a count noun for the student’s course composition; 论说文；课程作文 fits the subsequent argument, evidence and conclusion discussion."
+      },
+      {
+        "target_id": "ox-0ff7f5bf0d164716",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-23-s04"
+        ],
+        "forms": [
+          "firstly"
+        ],
+        "rationale": "p03-c-23-s04 'Well, firstly, say whether' uses an ordering adverb introducing the first revision instruction; 首先 fits the following instruction to explain why."
+      },
+      {
+        "target_id": "ox-3c6eec600d2850a2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-23-s07"
+        ],
+        "forms": [
+          "finally"
+        ],
+        "rationale": "p03-c-23-s07 'and finally look at the conclusion' uses a sequencing adverb for the last step after revising the opening and checking evidence; 最后；用于安排顺序 is explicit, not the long-awaited-event sense."
+      },
+      {
+        "target_id": "ox-77f1c500ae900be5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-23-s05"
+        ],
+        "forms": [
+          "figure"
+        ],
+        "rationale": "p03-c-23-s05 'a figure of sixty percent' uses a count noun for a numerical statistic; 数字；统计数值 is unmistakable from the percentage and request for its source."
+      },
+      {
+        "target_id": "ox-72918801ff9be7d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-23-s09"
+        ],
+        "forms": [
+          "helpful"
+        ],
+        "rationale": "p03-c-23-s09 'That’s helpful' uses a predicative adjective evaluating the tutor’s advice; 有帮助的 is supported by 'I know where to start now.' The mapping selects this occurrence rather than the earlier helpful changes."
+      },
+      {
+        "target_id": "ox-540c50f20b9f83a2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-23-s01"
+        ],
+        "forms": [
+          "everyday"
+        ],
+        "rationale": "p03-c-23-s01 'everyday life' uses everyday as a single-word adjective modifying life; 日常的 fits technology’s routine effects and is correctly distinct from the adverbial phrase every day."
+      },
+      {
+        "target_id": "ox-608fb17f834564e7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-23-s03"
+        ],
+        "forms": [
+          "fail"
+        ],
+        "rationale": "p03-c-23-s03 'I don’t want to fail' uses the intransitive verb for an unsuccessful assessment result; 未及格；考试或课程不通过 is supported by concern about misunderstanding the essay question."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-24",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "d9ad39f11243bee13dfcf6d4867f2198bdf69944785d216a4b01c824642af9af",
+    "status": "accepted",
+    "rationale": "Reread the complete version-2 file and all three selected usages after the initial rejected record and original bytes were archived by the coordinator. The corrected Chinese goal now says 核对活动说明会时间, accurately matching the 09:30 briefing checked in s05-s06 rather than asserting venue opening hours. The lost lift, 09:20 bus arrival, 08:45 meeting, and attendance update form a coherent practical solution; all three target senses, POS and evidence remain valid.",
+    "targets": [
+      {
+        "target_id": "ox-e13590647af6e9c1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-24-s01"
+        ],
+        "forms": [
+          "fishing"
+        ],
+        "rationale": "p03-c-24-s01 'the fishing session' uses fishing as an activity noun modifying session; 钓鱼活动 matches the pre-booked canal activity. The full repaired context retains that same literal activity."
+      },
+      {
+        "target_id": "ox-d0d1acb055c661d4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-24-s02"
+        ],
+        "forms": [
+          "except"
+        ],
+        "rationale": "p03-c-24-s02 'Everyone except Ravi' uses except as a preposition followed by the excluded person, not a conjunction introducing a clause; 除……之外 directly accounts for the missing driver and one fewer attendee."
+      },
+      {
+        "target_id": "ox-ebae9c2f0e375342",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-24-s04"
+        ],
+        "forms": [
+          "fortunately"
+        ],
+        "rationale": "p03-c-24-s04 'Fortunately, there’s a bus' uses the sentence adverb to evaluate the alternative transport as welcome; 幸运的是 fits the interrupted lift plan. Sentence-initial capitalization is correctly compatible with declared fortunately."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p03-c-25",
+    "reviewer": "reviewer-phase03-c",
+    "dialogue_sha256": "fc126c50dabdb8ce4bf8a7bf54603ccf6288e13f5d7976a9e2f4238f330e0b6d",
+    "status": "accepted",
+    "rationale": "The roommates reconstruct where the keys were put while carrying washing, find them under a towel, and agree on a door-side bowl to prevent recurrence. The mild self-directed joke about hiding the keys is contextually clear, and the ending resolves both the search and the recurring habit.",
+    "targets": [
+      {
+        "target_id": "ox-fb5bf75353a9035f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-25-s01"
+        ],
+        "forms": [
+          "everywhere"
+        ],
+        "rationale": "p03-c-25-s01 'looked everywhere for my keys' uses an adverb of place modifying looked; 到处；所有地方 is a natural conversational description of a broad search, not a literal claim to have inspected every possible place."
+      },
+      {
+        "target_id": "ox-32fa6199b111e37f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-25-s04"
+        ],
+        "forms": [
+          "habit"
+        ],
+        "rationale": "p03-c-25-s04 'a habit of putting things down' uses a count noun with the idiomatic of-plus-gerund complement; 习惯 describes repeated behaviour while carrying other items."
+      },
+      {
+        "target_id": "ox-a8b9a0709e11b745",
+        "status": "accepted",
+        "sentence_ids": [
+          "p03-c-25-s05"
+        ],
+        "forms": [
+          "hide"
+        ],
+        "rationale": "p03-c-25-s05 'hide them from myself without meaning to' uses a transitive verb with keys as object and the speaker as the affected finder; 把……藏起来；使不易看到 fits the towel covering them, with the unintended action explicitly acknowledged."
+      }
+    ]
+  }
+]

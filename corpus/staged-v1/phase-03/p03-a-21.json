@@ -1,0 +1,131 @@
+{
+  "id": "p03-a-21",
+  "title_zh": "澄清订餐日期的误会",
+  "topic_id": "services",
+  "scenario": {
+    "id": "restaurant-booking-date-correction",
+    "label_zh": "更正餐厅预约日期误会",
+    "goal_zh": "凭预约确认邮件核对日期并为当晚用餐找到可行安排"
+  },
+  "participants": [
+    "Rosa",
+    "Ken"
+  ],
+  "context_zh": "顾客与餐厅接待员发现预约日期不一致，双方查阅邮件而不是争执。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-21-s01",
+      "speaker": "Rosa",
+      "text": "I have a table for two at seven, under Rosa Lane."
+    },
+    {
+      "id": "p03-a-21-s02",
+      "speaker": "Ken",
+      "text": "I can see that name, but the booking was for yesterday."
+    },
+    {
+      "id": "p03-a-21-s03",
+      "speaker": "Rosa",
+      "text": "That is very strange. Why does my calendar say tonight?"
+    },
+    {
+      "id": "p03-a-21-s04",
+      "speaker": "Ken",
+      "text": "Do you have the confirmation email?"
+    },
+    {
+      "id": "p03-a-21-s05",
+      "speaker": "Rosa",
+      "text": "Yes. Oh, it does say Thursday. I entered the wrong date in my calendar."
+    },
+    {
+      "id": "p03-a-21-s06",
+      "speaker": "Ken",
+      "text": "I am sorry, but the seven o'clock tables are full."
+    },
+    {
+      "id": "p03-a-21-s07",
+      "speaker": "Rosa",
+      "text": "I do not want to argue about it. Is there anything later?"
+    },
+    {
+      "id": "p03-a-21-s08",
+      "speaker": "Ken",
+      "text": "We have a table at eight fifteen. Would that work?"
+    },
+    {
+      "id": "p03-a-21-s09",
+      "speaker": "Rosa",
+      "text": "Yes, thank you. Please put us down for that."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5c19d273c7cc73cc",
+      "lemma": "yesterday",
+      "pos": "n.",
+      "sense_zh": "昨天，作介词宾语",
+      "sentence_ids": [
+        "p03-a-21-s02"
+      ],
+      "forms": [
+        "yesterday"
+      ],
+      "sense_id": "sense-staged-ox-5c19d273c7cc73cc-p03-a-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-782501569a46d992",
+      "lemma": "very",
+      "pos": "adv.",
+      "sense_zh": "非常",
+      "sentence_ids": [
+        "p03-a-21-s03"
+      ],
+      "forms": [
+        "very"
+      ],
+      "sense_id": "sense-staged-ox-782501569a46d992-p03-a-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-098f18bde1f2dc13",
+      "lemma": "why",
+      "pos": "adv.",
+      "sense_zh": "为什么",
+      "sentence_ids": [
+        "p03-a-21-s03"
+      ],
+      "forms": [
+        "why"
+      ],
+      "sense_id": "sense-staged-ox-098f18bde1f2dc13-p03-a-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0112fdbbe5e18f22",
+      "lemma": "argue",
+      "pos": "v.",
+      "sense_zh": "争论，争执",
+      "sentence_ids": [
+        "p03-a-21-s07"
+      ],
+      "forms": [
+        "argue"
+      ],
+      "sense_id": "sense-staged-ox-0112fdbbe5e18f22-p03-a-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

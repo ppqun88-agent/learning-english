@@ -1,0 +1,126 @@
+{
+  "id": "p03-b-09",
+  "title_zh": "帮孩子适应新班级",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "child-classroom-support",
+    "label_zh": "商量孩子的课堂支持",
+    "goal_zh": "了解课堂表现并商定孩子难过时的求助方式。"
+  },
+  "participants": [
+    "Grace",
+    "Mr. Reed"
+  ],
+  "context_zh": "家长和教师讨论孩子在新班级里因紧张而躲开活动的情况，使用美式拼写。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-09-s01",
+      "speaker": "Grace",
+      "text": "I wanted to ask about Milo. Has his behavior in class been a problem?"
+    },
+    {
+      "id": "p03-b-09-s02",
+      "speaker": "Mr. Reed",
+      "text": "He has been quiet, but he has not hurt or upset anyone."
+    },
+    {
+      "id": "p03-b-09-s03",
+      "speaker": "Grace",
+      "text": "At home he keeps asking whether he knows how to behave at school."
+    },
+    {
+      "id": "p03-b-09-s04",
+      "speaker": "Mr. Reed",
+      "text": "He does. I think he needs time to feel at home here."
+    },
+    {
+      "id": "p03-b-09-s05",
+      "speaker": "Grace",
+      "text": "He worries that he might cry if he misses us."
+    },
+    {
+      "id": "p03-b-09-s06",
+      "speaker": "Mr. Reed",
+      "text": "That is all right. While he is in our care, he can come to me whenever he feels upset."
+    },
+    {
+      "id": "p03-b-09-s07",
+      "speaker": "Grace",
+      "text": "Could we tell him that together when I bring him tomorrow?"
+    },
+    {
+      "id": "p03-b-09-s08",
+      "speaker": "Mr. Reed",
+      "text": "Certainly. I will meet you at the classroom door."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0252260dc0747879",
+      "lemma": "behavior",
+      "pos": "n.",
+      "sense_zh": "行为；表现，美式拼写",
+      "sentence_ids": [
+        "p03-b-09-s01"
+      ],
+      "forms": [
+        "behavior"
+      ],
+      "sense_id": "sense-staged-ox-0252260dc0747879-p03-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74f8516ca70b2e42",
+      "lemma": "behave",
+      "pos": "v.",
+      "sense_zh": "举止；表现",
+      "sentence_ids": [
+        "p03-b-09-s03"
+      ],
+      "forms": [
+        "behave"
+      ],
+      "sense_id": "sense-staged-ox-74f8516ca70b2e42-p03-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3507e0b1bc95898e",
+      "lemma": "cry",
+      "pos": "v.",
+      "sense_zh": "哭泣",
+      "sentence_ids": [
+        "p03-b-09-s05"
+      ],
+      "forms": [
+        "cry"
+      ],
+      "sense_id": "sense-staged-ox-3507e0b1bc95898e-p03-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76027356eddfc15b",
+      "lemma": "care",
+      "pos": "n.",
+      "sense_zh": "照看；照护",
+      "sentence_ids": [
+        "p03-b-09-s06"
+      ],
+      "forms": [
+        "care"
+      ],
+      "sense_id": "sense-staged-ox-76027356eddfc15b-p03-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

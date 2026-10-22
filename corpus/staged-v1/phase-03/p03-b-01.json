@@ -1,0 +1,142 @@
+{
+  "id": "p03-b-01",
+  "title_zh": "两个人分工做牛肉晚饭",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-dinner-preparation",
+    "label_zh": "分工准备晚饭",
+    "goal_zh": "商定晚餐分工、菜品和份量"
+  },
+  "participants": [
+    "Asha",
+    "Ben"
+  ],
+  "context_zh": "阿莎和本刚买好食材，在合租厨房里分工准备晚饭。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-01-s01",
+      "speaker": "Asha",
+      "text": "Shall we cook the beef tonight, or save it for tomorrow?"
+    },
+    {
+      "id": "p03-b-01-s02",
+      "speaker": "Ben",
+      "text": "Tonight. I can make noodles to go with it. Shall I make two portions, or extra for lunch tomorrow?"
+    },
+    {
+      "id": "p03-b-01-s03",
+      "speaker": "Asha",
+      "text": "Let us make four portions so we each have lunch for tomorrow. Can you boil some water while I cut the vegetables?"
+    },
+    {
+      "id": "p03-b-01-s04",
+      "speaker": "Ben",
+      "text": "Sure. Which ring on the cooker should I use?"
+    },
+    {
+      "id": "p03-b-01-s05",
+      "speaker": "Asha",
+      "text": "The small one is free. The other pan is on the large ring."
+    },
+    {
+      "id": "p03-b-01-s06",
+      "speaker": "Ben",
+      "text": "Is this bowl for the cooked noodles?"
+    },
+    {
+      "id": "p03-b-01-s07",
+      "speaker": "Asha",
+      "text": "Yes. Put them in there and cover it with a plate while I finish the beef."
+    },
+    {
+      "id": "p03-b-01-s08",
+      "speaker": "Ben",
+      "text": "All right. I will handle the noodles, and you can handle the beef and vegetables."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d30fd17f73ad667c",
+      "lemma": "beef",
+      "pos": "n.",
+      "sense_zh": "牛肉",
+      "sentence_ids": [
+        "p03-b-01-s01"
+      ],
+      "forms": [
+        "beef"
+      ],
+      "sense_id": "sense-staged-ox-d30fd17f73ad667c-p03-b-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ccf2135e2be29577",
+      "lemma": "boil",
+      "pos": "v.",
+      "sense_zh": "煮沸水",
+      "sentence_ids": [
+        "p03-b-01-s03"
+      ],
+      "forms": [
+        "boil"
+      ],
+      "sense_id": "sense-staged-ox-ccf2135e2be29577-p03-b-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-208a61b7545f5516",
+      "lemma": "bowl",
+      "pos": "n.",
+      "sense_zh": "碗",
+      "sentence_ids": [
+        "p03-b-01-s06"
+      ],
+      "forms": [
+        "bowl"
+      ],
+      "sense_id": "sense-staged-ox-208a61b7545f5516-p03-b-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7cb7947ff76cc3b8",
+      "lemma": "cooker",
+      "pos": "n.",
+      "sense_zh": "炊具；炉灶",
+      "sentence_ids": [
+        "p03-b-01-s04"
+      ],
+      "forms": [
+        "cooker"
+      ],
+      "sense_id": "sense-staged-ox-7cb7947ff76cc3b8-p03-b-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4efb1bb1d691325b",
+      "lemma": "cover",
+      "pos": "v.",
+      "sense_zh": "盖住",
+      "sentence_ids": [
+        "p03-b-01-s07"
+      ],
+      "forms": [
+        "cover"
+      ],
+      "sense_id": "sense-staged-ox-4efb1bb1d691325b-p03-b-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

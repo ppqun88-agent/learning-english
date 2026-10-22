@@ -1,0 +1,121 @@
+{
+  "id": "p03-b-14",
+  "title_zh": "在湖边营地选择位置",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "lakeside-camp-location",
+    "label_zh": "选择湖边露营位置",
+    "goal_zh": "比较营地位置并避开湖边危险区域。"
+  },
+  "participants": [
+    "Selma",
+    "Ranger Owen"
+  ],
+  "context_zh": "第一次参加露营的游客与营地工作人员确认营位位置，不教授野外求生技巧。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-14-s01",
+      "speaker": "Selma",
+      "text": "This is our first camping holiday. Can we camp beside the lake?"
+    },
+    {
+      "id": "p03-b-14-s02",
+      "speaker": "Ranger Owen",
+      "text": "Use one of the marked pitches, please. The grass beyond the rope is not part of the campsite."
+    },
+    {
+      "id": "p03-b-14-s03",
+      "speaker": "Selma",
+      "text": "Is the water deep there?"
+    },
+    {
+      "id": "p03-b-14-s04",
+      "speaker": "Ranger Owen",
+      "text": "Yes, and the bank drops sharply. The sign warns visitors about the danger."
+    },
+    {
+      "id": "p03-b-14-s05",
+      "speaker": "Selma",
+      "text": "We will stay on this side of the rope. Which marked pitch is nearest the toilets?"
+    },
+    {
+      "id": "p03-b-14-s06",
+      "speaker": "Ranger Owen",
+      "text": "Number four, next to the path."
+    },
+    {
+      "id": "p03-b-14-s07",
+      "speaker": "Selma",
+      "text": "We will take that one, then. Thank you for showing us where to go."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2912b6f2d16913bf",
+      "lemma": "camping",
+      "pos": "n.",
+      "sense_zh": "露营活动",
+      "sentence_ids": [
+        "p03-b-14-s01"
+      ],
+      "forms": [
+        "camping"
+      ],
+      "sense_id": "sense-staged-ox-2912b6f2d16913bf-p03-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ca8892705bb44507",
+      "lemma": "camp",
+      "pos": "v.",
+      "sense_zh": "露营",
+      "sentence_ids": [
+        "p03-b-14-s01"
+      ],
+      "forms": [
+        "camp"
+      ],
+      "sense_id": "sense-staged-ox-ca8892705bb44507-p03-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e0738aa9bae02e34",
+      "lemma": "deep",
+      "pos": "adj.",
+      "sense_zh": "水深的",
+      "sentence_ids": [
+        "p03-b-14-s03"
+      ],
+      "forms": [
+        "deep"
+      ],
+      "sense_id": "sense-staged-ox-e0738aa9bae02e34-p03-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-761d9121d57caa8b",
+      "lemma": "danger",
+      "pos": "n.",
+      "sense_zh": "危险",
+      "sentence_ids": [
+        "p03-b-14-s04"
+      ],
+      "forms": [
+        "danger"
+      ],
+      "sense_id": "sense-staged-ox-761d9121d57caa8b-p03-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

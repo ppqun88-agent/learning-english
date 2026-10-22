@@ -1,0 +1,105 @@
+{
+  "id": "p03-b-29",
+  "title_zh": "调整音乐会入口座位",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "community-concert-seating",
+    "label_zh": "安排音乐会座位和散场",
+    "goal_zh": "核对座位布置、观众人数和活动后的收尾职责"
+  },
+  "participants": [
+    "Organizer Pia",
+    "Volunteer Leon"
+  ],
+  "context_zh": "社区古典音乐会的工作人员核对观众人数、过道和散场后的分工。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-29-s01",
+      "speaker": "Organizer Pia",
+      "text": "How many people are coming to the classical music concert tonight?"
+    },
+    {
+      "id": "p03-b-29-s02",
+      "speaker": "Volunteer Leon",
+      "text": "We expect eighty. That is a bigger crowd than last month."
+    },
+    {
+      "id": "p03-b-29-s03",
+      "speaker": "Organizer Pia",
+      "text": "The entrance looks crowded already, even without the audience."
+    },
+    {
+      "id": "p03-b-29-s04",
+      "speaker": "Volunteer Leon",
+      "text": "These spare chairs are in the way. Shall I move them to the side room?"
+    },
+    {
+      "id": "p03-b-29-s05",
+      "speaker": "Organizer Pia",
+      "text": "Yes, please. Keep the aisle clear, and set out eighty seats in the hall."
+    },
+    {
+      "id": "p03-b-29-s06",
+      "speaker": "Volunteer Leon",
+      "text": "I can also stack the chairs after the concert if someone helps."
+    },
+    {
+      "id": "p03-b-29-s07",
+      "speaker": "Organizer Pia",
+      "text": "I will help. For now, you move the spare chairs, and I will check the seating plan."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-31f3d350231a0316",
+      "lemma": "classical",
+      "pos": "adj.",
+      "sense_zh": "古典音乐的",
+      "sentence_ids": [
+        "p03-b-29-s01"
+      ],
+      "forms": [
+        "classical"
+      ],
+      "sense_id": "sense-staged-ox-31f3d350231a0316-p03-b-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ab006173d665b929",
+      "lemma": "crowd",
+      "pos": "n.",
+      "sense_zh": "人群",
+      "sentence_ids": [
+        "p03-b-29-s02"
+      ],
+      "forms": [
+        "crowd"
+      ],
+      "sense_id": "sense-staged-ox-ab006173d665b929-p03-b-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ef9a84433f854b6",
+      "lemma": "crowded",
+      "pos": "adj.",
+      "sense_zh": "拥挤的",
+      "sentence_ids": [
+        "p03-b-29-s03"
+      ],
+      "forms": [
+        "crowded"
+      ],
+      "sense_id": "sense-staged-ox-3ef9a84433f854b6-p03-b-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

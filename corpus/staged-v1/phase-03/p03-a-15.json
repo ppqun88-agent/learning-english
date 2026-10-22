@@ -1,0 +1,147 @@
+{
+  "id": "p03-a-15",
+  "title_zh": "报告洗衣机的脱水故障",
+  "topic_id": "services",
+  "scenario": {
+    "id": "faulty-washer-service-call",
+    "label_zh": "预约故障洗衣机维修",
+    "goal_zh": "描述洗衣表现和异常声音后约定维修查看"
+  },
+  "participants": [
+    "Caleb",
+    "Marta"
+  ],
+  "context_zh": "住户向维修店描述洗衣机的具体问题，双方只安排检查而不远程拆修。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-15-s01",
+      "speaker": "Caleb",
+      "text": "My machine can wash the clothes, but they come out soaking wet."
+    },
+    {
+      "id": "p03-a-15-s02",
+      "speaker": "Marta",
+      "text": "Does it still spin at the end of the cycle?"
+    },
+    {
+      "id": "p03-a-15-s03",
+      "speaker": "Caleb",
+      "text": "Not anymore. It makes an awful noise instead."
+    },
+    {
+      "id": "p03-a-15-s04",
+      "speaker": "Marta",
+      "text": "When did that start?"
+    },
+    {
+      "id": "p03-a-15-s05",
+      "speaker": "Caleb",
+      "text": "Two days ago. It was shaking badly during the last load."
+    },
+    {
+      "id": "p03-a-15-s06",
+      "speaker": "Marta",
+      "text": "Something is wrong, but I cannot identify the cause over the phone. We can send someone tomorrow."
+    },
+    {
+      "id": "p03-a-15-s07",
+      "speaker": "Caleb",
+      "text": "Could they come after ten?"
+    },
+    {
+      "id": "p03-a-15-s08",
+      "speaker": "Marta",
+      "text": "Yes. I can book a visit between ten and twelve."
+    },
+    {
+      "id": "p03-a-15-s09",
+      "speaker": "Caleb",
+      "text": "Please do. I will use the laundry downstairs until then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b4c4abc7e69b8568",
+      "lemma": "wash",
+      "pos": "v.",
+      "sense_zh": "清洗衣物",
+      "sentence_ids": [
+        "p03-a-15-s01"
+      ],
+      "forms": [
+        "wash"
+      ],
+      "sense_id": "sense-staged-ox-b4c4abc7e69b8568-p03-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d475e60514b4138",
+      "lemma": "anymore",
+      "pos": "adv.",
+      "sense_zh": "再也，用于否定句",
+      "sentence_ids": [
+        "p03-a-15-s03"
+      ],
+      "forms": [
+        "anymore"
+      ],
+      "sense_id": "sense-staged-ox-3d475e60514b4138-p03-a-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5adf11e79a6a84a7",
+      "lemma": "awful",
+      "pos": "adj.",
+      "sense_zh": "糟糕的，令人难受的",
+      "sentence_ids": [
+        "p03-a-15-s03"
+      ],
+      "forms": [
+        "awful"
+      ],
+      "sense_id": "sense-staged-ox-5adf11e79a6a84a7-p03-a-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cbfe430c9e8328b6",
+      "lemma": "badly",
+      "pos": "adv.",
+      "sense_zh": "严重地，剧烈地",
+      "sentence_ids": [
+        "p03-a-15-s05"
+      ],
+      "forms": [
+        "badly"
+      ],
+      "sense_id": "sense-staged-ox-cbfe430c9e8328b6-p03-a-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-536662b54287ca71",
+      "lemma": "wrong",
+      "pos": "adj.",
+      "sense_zh": "有问题的，不正常的",
+      "sentence_ids": [
+        "p03-a-15-s06"
+      ],
+      "forms": [
+        "wrong"
+      ],
+      "sense_id": "sense-staged-ox-536662b54287ca71-p03-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

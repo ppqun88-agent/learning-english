@@ -1,0 +1,190 @@
+{
+  "id": "p03-b-05",
+  "title_zh": "说明房内问题并换房",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "hotel-room-fault-replacement",
+    "label_zh": "因客房故障申请换房",
+    "goal_zh": "向前台说明房内问题并确认替代房间。"
+  },
+  "participants": [
+    "Priya",
+    "Ellis"
+  ],
+  "context_zh": "旅客入住后发现地毯湿了，空调也无法操作，于是联系前台。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-05-s01",
+      "speaker": "Priya",
+      "text": "I am sorry to complain, but there are two problems with room 214."
+    },
+    {
+      "id": "p03-b-05-s02",
+      "speaker": "Ellis",
+      "text": "I am sorry to hear that. What seems to be wrong?"
+    },
+    {
+      "id": "p03-b-05-s03",
+      "speaker": "Priya",
+      "text": "The carpet is wet near the window, and the button on the air conditioner is broken."
+    },
+    {
+      "id": "p03-b-05-s04",
+      "speaker": "Ellis",
+      "text": "We can move you to another room. I will also ask maintenance to find the cause of the leak."
+    },
+    {
+      "id": "p03-b-05-s05",
+      "speaker": "Priya",
+      "text": "Thank you. Is the other room in good condition?"
+    },
+    {
+      "id": "p03-b-05-s06",
+      "speaker": "Ellis",
+      "text": "Yes. We checked it this morning, and the floor is completely dry."
+    },
+    {
+      "id": "p03-b-05-s07",
+      "speaker": "Priya",
+      "text": "Could I see it before moving my bags? I want to make sure it is comfortable."
+    },
+    {
+      "id": "p03-b-05-s08",
+      "speaker": "Ellis",
+      "text": "Of course. I will show you room 218 now, and then help with your bags."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5cd3e77b9cc13c84",
+      "lemma": "complain",
+      "pos": "v.",
+      "sense_zh": "投诉；抱怨问题",
+      "sentence_ids": [
+        "p03-b-05-s01"
+      ],
+      "forms": [
+        "complain"
+      ],
+      "sense_id": "sense-staged-ox-5cd3e77b9cc13c84-p03-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-693d6d35fb23a41a",
+      "lemma": "carpet",
+      "pos": "n.",
+      "sense_zh": "地毯",
+      "sentence_ids": [
+        "p03-b-05-s03"
+      ],
+      "forms": [
+        "carpet"
+      ],
+      "sense_id": "sense-staged-ox-693d6d35fb23a41a-p03-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac8f92e900ddd80a",
+      "lemma": "button",
+      "pos": "n.",
+      "sense_zh": "按钮",
+      "sentence_ids": [
+        "p03-b-05-s03"
+      ],
+      "forms": [
+        "button"
+      ],
+      "sense_id": "sense-staged-ox-ac8f92e900ddd80a-p03-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a02ec4e8d219606d",
+      "lemma": "broken",
+      "pos": "adj.",
+      "sense_zh": "坏了的；不能正常使用的",
+      "sentence_ids": [
+        "p03-b-05-s03"
+      ],
+      "forms": [
+        "broken"
+      ],
+      "sense_id": "sense-staged-ox-a02ec4e8d219606d-p03-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6adfc848359d5144",
+      "lemma": "cause",
+      "pos": "n.",
+      "sense_zh": "原因",
+      "sentence_ids": [
+        "p03-b-05-s04"
+      ],
+      "forms": [
+        "cause"
+      ],
+      "sense_id": "sense-staged-ox-6adfc848359d5144-p03-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b5ed2f2b7b52a71",
+      "lemma": "condition",
+      "pos": "n.",
+      "sense_zh": "物品或房间的状况",
+      "sentence_ids": [
+        "p03-b-05-s05"
+      ],
+      "forms": [
+        "condition"
+      ],
+      "sense_id": "sense-staged-ox-7b5ed2f2b7b52a71-p03-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a307d341c2c7b0af",
+      "lemma": "completely",
+      "pos": "adv.",
+      "sense_zh": "完全地",
+      "sentence_ids": [
+        "p03-b-05-s06"
+      ],
+      "forms": [
+        "completely"
+      ],
+      "sense_id": "sense-staged-ox-a307d341c2c7b0af-p03-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-af049cc944bf8b2b",
+      "lemma": "comfortable",
+      "pos": "adj.",
+      "sense_zh": "舒适的",
+      "sentence_ids": [
+        "p03-b-05-s07"
+      ],
+      "forms": [
+        "comfortable"
+      ],
+      "sense_id": "sense-staged-ox-af049cc944bf8b2b-p03-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,132 @@
+{
+  "id": "p03-b-02",
+  "title_zh": "在咖啡店选一份点心",
+  "topic_id": "food",
+  "scenario": {
+    "id": "cafe-snack-order",
+    "label_zh": "询问并点购点心",
+    "goal_zh": "询问甜点口味和配料，完成简餐点单。"
+  },
+  "participants": [
+    "Naomi",
+    "Finn"
+  ],
+  "context_zh": "娜奥米吃完午餐后，向店员询问当天可点的甜点。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-02-s01",
+      "speaker": "Naomi",
+      "text": "I would like a small dessert. What do you have?"
+    },
+    {
+      "id": "p03-b-02-s02",
+      "speaker": "Finn",
+      "text": "There is a lemon biscuit, or a chocolate cookie with a soft centre."
+    },
+    {
+      "id": "p03-b-02-s03",
+      "speaker": "Naomi",
+      "text": "A soft cookie sounds nice, but I prefer lemon."
+    },
+    {
+      "id": "p03-b-02-s04",
+      "speaker": "Finn",
+      "text": "Then the biscuit is probably the better choice for you."
+    },
+    {
+      "id": "p03-b-02-s05",
+      "speaker": "Naomi",
+      "text": "Could you warm it slightly and bring it with my coffee?"
+    },
+    {
+      "id": "p03-b-02-s06",
+      "speaker": "Finn",
+      "text": "Certainly. One lemon biscuit and a coffee, coming up."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d285a36b55b68c6e",
+      "lemma": "dessert",
+      "pos": "n.",
+      "sense_zh": "餐后甜点",
+      "sentence_ids": [
+        "p03-b-02-s01"
+      ],
+      "forms": [
+        "dessert"
+      ],
+      "sense_id": "sense-staged-ox-d285a36b55b68c6e-p03-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2da681c4789307d3",
+      "lemma": "biscuit",
+      "pos": "n.",
+      "sense_zh": "饼干",
+      "sentence_ids": [
+        "p03-b-02-s02"
+      ],
+      "forms": [
+        "biscuit"
+      ],
+      "sense_id": "sense-staged-ox-2da681c4789307d3-p03-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8b40135a6bb9f2d",
+      "lemma": "cookie",
+      "pos": "n.",
+      "sense_zh": "甜饼干",
+      "sentence_ids": [
+        "p03-b-02-s02"
+      ],
+      "forms": [
+        "cookie"
+      ],
+      "sense_id": "sense-staged-ox-f8b40135a6bb9f2d-p03-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80064a1e6617f80a",
+      "lemma": "choice",
+      "pos": "n.",
+      "sense_zh": "选择",
+      "sentence_ids": [
+        "p03-b-02-s04"
+      ],
+      "forms": [
+        "choice"
+      ],
+      "sense_id": "sense-staged-ox-80064a1e6617f80a-p03-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-27388e43ff298082",
+      "lemma": "certainly",
+      "pos": "adv.",
+      "sense_zh": "当然；用来礼貌地同意请求",
+      "sentence_ids": [
+        "p03-b-02-s06"
+      ],
+      "forms": [
+        "certainly"
+      ],
+      "sense_id": "sense-staged-ox-27388e43ff298082-p03-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

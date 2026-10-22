@@ -1,0 +1,132 @@
+{
+  "id": "p03-b-13",
+  "title_zh": "海边起风后缩短骑行",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "coastal-cycle-weather",
+    "label_zh": "根据海边天气调整骑行",
+    "goal_zh": "结合眼前天气和遮雨条件选择较短的骑行路线"
+  },
+  "participants": [
+    "Pavel",
+    "Holly"
+  ],
+  "context_zh": "两位朋友在虚构骑行途中观察海边天色，决定改走可避雨的短路线。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-13-s01",
+      "speaker": "Pavel",
+      "text": "Shall we cycle all the way along the coast?"
+    },
+    {
+      "id": "p03-b-13-s02",
+      "speaker": "Holly",
+      "text": "It is bright here, but look at that dark cloud over the water."
+    },
+    {
+      "id": "p03-b-13-s03",
+      "speaker": "Pavel",
+      "text": "You are right. And the wind could blow straight at us on the exposed path."
+    },
+    {
+      "id": "p03-b-13-s04",
+      "speaker": "Holly",
+      "text": "Let us take the short loop instead. There is a cafe halfway round if it rains."
+    },
+    {
+      "id": "p03-b-13-s05",
+      "speaker": "Pavel",
+      "text": "Good idea. We can turn inland at the next sign."
+    },
+    {
+      "id": "p03-b-13-s06",
+      "speaker": "Holly",
+      "text": "Agreed. The long coastal ride can wait for another day."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-eee90fa1e53881c5",
+      "lemma": "cycle",
+      "pos": "v.",
+      "sense_zh": "骑自行车",
+      "sentence_ids": [
+        "p03-b-13-s01"
+      ],
+      "forms": [
+        "cycle"
+      ],
+      "sense_id": "sense-staged-ox-eee90fa1e53881c5-p03-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4d6f25c974f6ba2",
+      "lemma": "coast",
+      "pos": "n.",
+      "sense_zh": "海岸",
+      "sentence_ids": [
+        "p03-b-13-s01"
+      ],
+      "forms": [
+        "coast"
+      ],
+      "sense_id": "sense-staged-ox-b4d6f25c974f6ba2-p03-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f2123f173a993d1",
+      "lemma": "bright",
+      "pos": "adj.",
+      "sense_zh": "明亮的；阳光充足的",
+      "sentence_ids": [
+        "p03-b-13-s02"
+      ],
+      "forms": [
+        "bright"
+      ],
+      "sense_id": "sense-staged-ox-8f2123f173a993d1-p03-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7979eea058f6dfac",
+      "lemma": "cloud",
+      "pos": "n.",
+      "sense_zh": "云",
+      "sentence_ids": [
+        "p03-b-13-s02"
+      ],
+      "forms": [
+        "cloud"
+      ],
+      "sense_id": "sense-staged-ox-7979eea058f6dfac-p03-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30ee4231ad72f3f7",
+      "lemma": "blow",
+      "pos": "v.",
+      "sense_zh": "风吹",
+      "sentence_ids": [
+        "p03-b-13-s03"
+      ],
+      "forms": [
+        "blow"
+      ],
+      "sense_id": "sense-staged-ox-30ee4231ad72f3f7-p03-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,195 @@
+{
+  "id": "p03-a-03",
+  "title_zh": "讨论冬季旅行航班并约定下一步",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "winter-flight-holiday-planning",
+    "label_zh": "初步讨论冬季度假航班",
+    "goal_zh": "讨论假期长度、旅行兴趣与直飞航班的便利性，并约定先核对铁路日期再选择航班"
+  },
+  "participants": [
+    "Nora",
+    "Eli"
+  ],
+  "context_zh": "两位朋友讨论虚构的冬季度假计划，尚未购票。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-03-s01",
+      "speaker": "Nora",
+      "text": "Can we take a vacation together this winter?"
+    },
+    {
+      "id": "p03-a-03-s02",
+      "speaker": "Eli",
+      "text": "I have one week off in February. What sort of trip do you want?"
+    },
+    {
+      "id": "p03-a-03-s03",
+      "speaker": "Nora",
+      "text": "A little adventure. I would like to try a mountain railway rather than stay by a pool."
+    },
+    {
+      "id": "p03-a-03-s04",
+      "speaker": "Eli",
+      "text": "The direct flight to the northern city has one advantage: we would not lose a day changing planes."
+    },
+    {
+      "id": "p03-a-03-s05",
+      "speaker": "Nora",
+      "text": "Which airline runs it?"
+    },
+    {
+      "id": "p03-a-03-s06",
+      "speaker": "Eli",
+      "text": "Skybridge. Although the flight leaves early, it gets us there before lunch."
+    },
+    {
+      "id": "p03-a-03-s07",
+      "speaker": "Nora",
+      "text": "That sounds manageable. I can arrange a hotel near the station."
+    },
+    {
+      "id": "p03-a-03-s08",
+      "speaker": "Eli",
+      "text": "Let us check the railway dates first, then choose the flight."
+    },
+    {
+      "id": "p03-a-03-s09",
+      "speaker": "Nora",
+      "text": "Agreed. I will find the timetable tonight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c1333d3f273ef550",
+      "lemma": "vacation",
+      "pos": "n.",
+      "sense_zh": "假期，度假",
+      "sentence_ids": [
+        "p03-a-03-s01"
+      ],
+      "forms": [
+        "vacation"
+      ],
+      "sense_id": "sense-staged-ox-c1333d3f273ef550-p03-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0d8a7739600e6d63",
+      "lemma": "winter",
+      "pos": "n.",
+      "sense_zh": "冬季",
+      "sentence_ids": [
+        "p03-a-03-s01"
+      ],
+      "forms": [
+        "winter"
+      ],
+      "sense_id": "sense-staged-ox-0d8a7739600e6d63-p03-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-18fe9f9d82a9c028",
+      "lemma": "week",
+      "pos": "n.",
+      "sense_zh": "一周",
+      "sentence_ids": [
+        "p03-a-03-s02"
+      ],
+      "forms": [
+        "week"
+      ],
+      "sense_id": "sense-staged-ox-18fe9f9d82a9c028-p03-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e95f969c43764cba",
+      "lemma": "adventure",
+      "pos": "n.",
+      "sense_zh": "令人兴奋的探险经历",
+      "sentence_ids": [
+        "p03-a-03-s03"
+      ],
+      "forms": [
+        "adventure"
+      ],
+      "sense_id": "sense-staged-ox-e95f969c43764cba-p03-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4fce590913e6aaa7",
+      "lemma": "advantage",
+      "pos": "n.",
+      "sense_zh": "有利之处",
+      "sentence_ids": [
+        "p03-a-03-s04"
+      ],
+      "forms": [
+        "advantage"
+      ],
+      "sense_id": "sense-staged-ox-4fce590913e6aaa7-p03-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-27f596c419097949",
+      "lemma": "airline",
+      "pos": "n.",
+      "sense_zh": "航空公司",
+      "sentence_ids": [
+        "p03-a-03-s05"
+      ],
+      "forms": [
+        "airline"
+      ],
+      "sense_id": "sense-staged-ox-27f596c419097949-p03-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-661fe575c13bf1b0",
+      "lemma": "although",
+      "pos": "conj.",
+      "sense_zh": "虽然",
+      "sentence_ids": [
+        "p03-a-03-s06"
+      ],
+      "forms": [
+        "although"
+      ],
+      "sense_id": "sense-staged-ox-661fe575c13bf1b0-p03-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-796df55138f442b9",
+      "lemma": "arrange",
+      "pos": "v.",
+      "sense_zh": "安排",
+      "sentence_ids": [
+        "p03-a-03-s07"
+      ],
+      "forms": [
+        "arrange"
+      ],
+      "sense_id": "sense-staged-ox-796df55138f442b9-p03-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

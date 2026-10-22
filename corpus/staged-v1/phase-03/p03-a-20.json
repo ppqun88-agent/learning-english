@@ -1,0 +1,137 @@
+{
+  "id": "p03-a-20",
+  "title_zh": "根据咨询来源调整课程宣传",
+  "topic_id": "work",
+  "scenario": {
+    "id": "community-course-advertising-review",
+    "label_zh": "调整社区课程宣传方式",
+    "goal_zh": "核对报名咨询来源并选择下一期课程的广告渠道"
+  },
+  "participants": [
+    "Farah",
+    "Neil"
+  ],
+  "context_zh": "社区中心员工讨论虚构的课程咨询记录，以决定下一期广告放在哪里。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-20-s01",
+      "speaker": "Farah",
+      "text": "Should we advertise the next pottery course in the local paper again?"
+    },
+    {
+      "id": "p03-a-20-s02",
+      "speaker": "Neil",
+      "text": "Before we decide, can we analyze the enquiry forms?"
+    },
+    {
+      "id": "p03-a-20-s03",
+      "speaker": "Farah",
+      "text": "According to these forms, twelve people saw the notice at the library, and only two saw the newspaper advertisement."
+    },
+    {
+      "id": "p03-a-20-s04",
+      "speaker": "Neil",
+      "text": "Do all the forms include that question?"
+    },
+    {
+      "id": "p03-a-20-s05",
+      "speaker": "Farah",
+      "text": "No. Five people left it blank, so the numbers do not tell the whole story."
+    },
+    {
+      "id": "p03-a-20-s06",
+      "speaker": "Neil",
+      "text": "Still, our advertising budget is small. Let us try the library notice and the community newsletter this time."
+    },
+    {
+      "id": "p03-a-20-s07",
+      "speaker": "Farah",
+      "text": "Agreed. I will keep the source question on the form so we can compare the next course."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6b1db80bc93da430",
+      "lemma": "advertise",
+      "pos": "v.",
+      "sense_zh": "为课程做广告",
+      "sentence_ids": [
+        "p03-a-20-s01"
+      ],
+      "forms": [
+        "advertise"
+      ],
+      "sense_id": "sense-staged-ox-6b1db80bc93da430-p03-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-64e9778022ebf329",
+      "lemma": "analyze",
+      "pos": "v.",
+      "sense_zh": "分析资料",
+      "sentence_ids": [
+        "p03-a-20-s02"
+      ],
+      "forms": [
+        "analyze"
+      ],
+      "sense_id": "sense-staged-ox-64e9778022ebf329-p03-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b3932c4ceba4a1b",
+      "lemma": "according to",
+      "pos": "prep.",
+      "sense_zh": "根据某资料所述",
+      "sentence_ids": [
+        "p03-a-20-s03"
+      ],
+      "forms": [
+        "according to"
+      ],
+      "sense_id": "sense-staged-ox-0b3932c4ceba4a1b-p03-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-31581d0de67bf63c",
+      "lemma": "advertisement",
+      "pos": "n.",
+      "sense_zh": "广告",
+      "sentence_ids": [
+        "p03-a-20-s03"
+      ],
+      "forms": [
+        "advertisement"
+      ],
+      "sense_id": "sense-staged-ox-31581d0de67bf63c-p03-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b0c837b5a236ccb",
+      "lemma": "advertising",
+      "pos": "n.",
+      "sense_zh": "广告宣传活动",
+      "sentence_ids": [
+        "p03-a-20-s06"
+      ],
+      "forms": [
+        "advertising"
+      ],
+      "sense_id": "sense-staged-ox-6b0c837b5a236ccb-p03-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

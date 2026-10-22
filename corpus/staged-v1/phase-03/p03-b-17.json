@@ -1,0 +1,79 @@
+{
+  "id": "p03-b-17",
+  "title_zh": "请访客不要把烟放在长椅上",
+  "topic_id": "community",
+  "scenario": {
+    "id": "park-cigarette-bin-request",
+    "label_zh": "请访客处理公园烟头",
+    "goal_zh": "指出烟头可能损坏物品并请访客使用指定容器。"
+  },
+  "participants": [
+    "Park Attendant Eva",
+    "Visitor Joel"
+  ],
+  "context_zh": "公园工作人员看到一名访客把点燃的香烟放在木椅边缘，礼貌提出请求。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-17-s01",
+      "speaker": "Park Attendant Eva",
+      "text": "Excuse me. Please do not leave your cigarette on the bench."
+    },
+    {
+      "id": "p03-b-17-s02",
+      "speaker": "Visitor Joel",
+      "text": "Sorry. I only put it down to answer my phone."
+    },
+    {
+      "id": "p03-b-17-s03",
+      "speaker": "Park Attendant Eva",
+      "text": "It could burn the wood. There is a proper ash container by the gate."
+    },
+    {
+      "id": "p03-b-17-s04",
+      "speaker": "Visitor Joel",
+      "text": "I see it. I will use that instead."
+    },
+    {
+      "id": "p03-b-17-s05",
+      "speaker": "Park Attendant Eva",
+      "text": "Thank you. That helps us keep the benches in good condition."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9d59c72d4dd09f61",
+      "lemma": "cigarette",
+      "pos": "n.",
+      "sense_zh": "香烟",
+      "sentence_ids": [
+        "p03-b-17-s01"
+      ],
+      "forms": [
+        "cigarette"
+      ],
+      "sense_id": "sense-staged-ox-9d59c72d4dd09f61-p03-b-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb23eefbac884f4d",
+      "lemma": "burn",
+      "pos": "v.",
+      "sense_zh": "烧坏；烧灼",
+      "sentence_ids": [
+        "p03-b-17-s03"
+      ],
+      "forms": [
+        "burn"
+      ],
+      "sense_id": "sense-staged-ox-eb23eefbac884f4d-p03-b-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

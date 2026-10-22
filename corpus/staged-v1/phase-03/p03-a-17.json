@@ -1,0 +1,121 @@
+{
+  "id": "p03-a-17",
+  "title_zh": "到动物园观景窗等候棕熊",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "zoo-bear-viewing-plan",
+    "label_zh": "选择动物园观赏位置",
+    "goal_zh": "询问熊的活动情况并选定适合短暂等候的观景位置"
+  },
+  "participants": [
+    "Dara",
+    "Milo"
+  ],
+  "context_zh": "游客在虚构动物园向工作人员询问看熊的位置，动物活动时间只是园内当日观察信息。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-17-s01",
+      "speaker": "Dara",
+      "text": "We have not seen the bear yet. Is it in the outdoor area?"
+    },
+    {
+      "id": "p03-a-17-s02",
+      "speaker": "Milo",
+      "text": "It was asleep behind the rocks a few minutes ago."
+    },
+    {
+      "id": "p03-a-17-s03",
+      "speaker": "Dara",
+      "text": "Should we come back later?"
+    },
+    {
+      "id": "p03-a-17-s04",
+      "speaker": "Milo",
+      "text": "You could wait by the lower window. It may appear there when it comes down to the pool."
+    },
+    {
+      "id": "p03-a-17-s05",
+      "speaker": "Dara",
+      "text": "Oh, there it is now, by the tree. What a wonderful view!"
+    },
+    {
+      "id": "p03-a-17-s06",
+      "speaker": "Milo",
+      "text": "Yes, that window gives you a clear view of the whole pool."
+    },
+    {
+      "id": "p03-a-17-s07",
+      "speaker": "Dara",
+      "text": "We will stay here for a few minutes, then visit the bird house."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6705c8238f2c64eb",
+      "lemma": "bear",
+      "pos": "n.",
+      "sense_zh": "熊",
+      "sentence_ids": [
+        "p03-a-17-s01"
+      ],
+      "forms": [
+        "bear"
+      ],
+      "sense_id": "sense-staged-ox-6705c8238f2c64eb-p03-a-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dd94b65084a97ad8",
+      "lemma": "asleep",
+      "pos": "adj.",
+      "sense_zh": "睡着的",
+      "sentence_ids": [
+        "p03-a-17-s02"
+      ],
+      "forms": [
+        "asleep"
+      ],
+      "sense_id": "sense-staged-ox-dd94b65084a97ad8-p03-a-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-37d7e639254782b3",
+      "lemma": "appear",
+      "pos": "v.",
+      "sense_zh": "出现",
+      "sentence_ids": [
+        "p03-a-17-s04"
+      ],
+      "forms": [
+        "appear"
+      ],
+      "sense_id": "sense-staged-ox-37d7e639254782b3-p03-a-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a0f3335fe391852",
+      "lemma": "wonderful",
+      "pos": "adj.",
+      "sense_zh": "极好的，令人欣喜的",
+      "sentence_ids": [
+        "p03-a-17-s05"
+      ],
+      "forms": [
+        "wonderful"
+      ],
+      "sense_id": "sense-staged-ox-4a0f3335fe391852-p03-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

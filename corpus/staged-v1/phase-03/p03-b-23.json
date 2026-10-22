@@ -1,0 +1,163 @@
+{
+  "id": "p03-b-23",
+  "title_zh": "确认演示屏幕已连接",
+  "topic_id": "work",
+  "scenario": {
+    "id": "presentation-display-connection",
+    "label_zh": "连接演示设备",
+    "goal_zh": "检查屏幕连接与控制方式后确认开始演示。"
+  },
+  "participants": [
+    "Malik",
+    "Technician Zoe"
+  ],
+  "context_zh": "演讲者在会议室准备演示，技术人员协助连接电脑并检查翻页控制。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-23-s01",
+      "speaker": "Malik",
+      "text": "Can you help me connect my laptop to the screen?"
+    },
+    {
+      "id": "p03-b-23-s02",
+      "speaker": "Technician Zoe",
+      "text": "Sure. Select the device called Meeting Room Three."
+    },
+    {
+      "id": "p03-b-23-s03",
+      "speaker": "Malik",
+      "text": "It is asking for a code."
+    },
+    {
+      "id": "p03-b-23-s04",
+      "speaker": "Technician Zoe",
+      "text": "Use the temporary number shown on the screen. It changes for each meeting."
+    },
+    {
+      "id": "p03-b-23-s05",
+      "speaker": "Malik",
+      "text": "Done. The status now says \"connected\", and I can see my first slide."
+    },
+    {
+      "id": "p03-b-23-s06",
+      "speaker": "Technician Zoe",
+      "text": "Good. This digital display also plays sound. Do you need that today?"
+    },
+    {
+      "id": "p03-b-23-s07",
+      "speaker": "Malik",
+      "text": "No, just the slides. Can I control them from my laptop?"
+    },
+    {
+      "id": "p03-b-23-s08",
+      "speaker": "Technician Zoe",
+      "text": "Yes. Try moving to the next one."
+    },
+    {
+      "id": "p03-b-23-s09",
+      "speaker": "Malik",
+      "text": "That works. I am ready to start."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-411e8e36325e32f3",
+      "lemma": "connect",
+      "pos": "v.",
+      "sense_zh": "连接设备",
+      "sentence_ids": [
+        "p03-b-23-s01"
+      ],
+      "forms": [
+        "connect"
+      ],
+      "sense_id": "sense-staged-ox-411e8e36325e32f3-p03-b-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f236ce7ef5b2bc42",
+      "lemma": "device",
+      "pos": "n.",
+      "sense_zh": "设备",
+      "sentence_ids": [
+        "p03-b-23-s02"
+      ],
+      "forms": [
+        "device"
+      ],
+      "sense_id": "sense-staged-ox-f236ce7ef5b2bc42-p03-b-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b05214794c1207bd",
+      "lemma": "code",
+      "pos": "n.",
+      "sense_zh": "用于访问的代码",
+      "sentence_ids": [
+        "p03-b-23-s03"
+      ],
+      "forms": [
+        "code"
+      ],
+      "sense_id": "sense-staged-ox-b05214794c1207bd-p03-b-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-52e28e079442ec5c",
+      "lemma": "connected",
+      "pos": "adj.",
+      "sense_zh": "已连接的",
+      "sentence_ids": [
+        "p03-b-23-s05"
+      ],
+      "forms": [
+        "connected"
+      ],
+      "sense_id": "sense-staged-ox-52e28e079442ec5c-p03-b-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dca70b7460545fd4",
+      "lemma": "digital",
+      "pos": "adj.",
+      "sense_zh": "数字的；数码的",
+      "sentence_ids": [
+        "p03-b-23-s06"
+      ],
+      "forms": [
+        "digital"
+      ],
+      "sense_id": "sense-staged-ox-dca70b7460545fd4-p03-b-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eefb9dec6c3a7fb2",
+      "lemma": "control",
+      "pos": "v.",
+      "sense_zh": "控制；操作",
+      "sentence_ids": [
+        "p03-b-23-s07"
+      ],
+      "forms": [
+        "control"
+      ],
+      "sense_id": "sense-staged-ox-eefb9dec6c3a7fb2-p03-b-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

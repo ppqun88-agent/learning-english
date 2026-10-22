@@ -1,0 +1,137 @@
+{
+  "id": "p03-b-18",
+  "title_zh": "修改活动海报上的卡通角色",
+  "topic_id": "work",
+  "scenario": {
+    "id": "cartoon-character-sketch",
+    "label_zh": "修改卡通角色草图",
+    "goal_zh": "讨论角色形象及设计修改并确认下一版草图。"
+  },
+  "participants": [
+    "Anton",
+    "Designer Iris"
+  ],
+  "context_zh": "项目负责人和设计师商量海报角色的外形，明确下一版草图的修改范围。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-18-s01",
+      "speaker": "Anton",
+      "text": "Are you the designer working on our reading-club poster?"
+    },
+    {
+      "id": "p03-b-18-s02",
+      "speaker": "Designer Iris",
+      "text": "Yes. I have brought a sketch of the cartoon character."
+    },
+    {
+      "id": "p03-b-18-s03",
+      "speaker": "Anton",
+      "text": "I like the curly hair, but the face looks rather serious."
+    },
+    {
+      "id": "p03-b-18-s04",
+      "speaker": "Designer Iris",
+      "text": "I can make the expression friendlier. Do you want to keep the little book?"
+    },
+    {
+      "id": "p03-b-18-s05",
+      "speaker": "Anton",
+      "text": "Definitely. The idea of a book that walks is creative and fits the club."
+    },
+    {
+      "id": "p03-b-18-s06",
+      "speaker": "Designer Iris",
+      "text": "Then I will keep the hair and book, and only change the face."
+    },
+    {
+      "id": "p03-b-18-s07",
+      "speaker": "Anton",
+      "text": "That sounds right. Send me the new sketch tomorrow, and we can choose the colours."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4f4be75c960daa36",
+      "lemma": "designer",
+      "pos": "n.",
+      "sense_zh": "设计师",
+      "sentence_ids": [
+        "p03-b-18-s01"
+      ],
+      "forms": [
+        "designer"
+      ],
+      "sense_id": "sense-staged-ox-4f4be75c960daa36-p03-b-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ec08bd21dd57b0a6",
+      "lemma": "cartoon",
+      "pos": "n.",
+      "sense_zh": "卡通画",
+      "sentence_ids": [
+        "p03-b-18-s02"
+      ],
+      "forms": [
+        "cartoon"
+      ],
+      "sense_id": "sense-staged-ox-ec08bd21dd57b0a6-p03-b-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ab036a85023cf36b",
+      "lemma": "character",
+      "pos": "n.",
+      "sense_zh": "作品中的角色",
+      "sentence_ids": [
+        "p03-b-18-s02"
+      ],
+      "forms": [
+        "character"
+      ],
+      "sense_id": "sense-staged-ox-ab036a85023cf36b-p03-b-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9b99ccde6c8017b0",
+      "lemma": "curly",
+      "pos": "adj.",
+      "sense_zh": "卷曲的",
+      "sentence_ids": [
+        "p03-b-18-s03"
+      ],
+      "forms": [
+        "curly"
+      ],
+      "sense_id": "sense-staged-ox-9b99ccde6c8017b0-p03-b-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0e60e77205db9804",
+      "lemma": "creative",
+      "pos": "adj.",
+      "sense_zh": "有创意的",
+      "sentence_ids": [
+        "p03-b-18-s05"
+      ],
+      "forms": [
+        "creative"
+      ],
+      "sense_id": "sense-staged-ox-0e60e77205db9804-p03-b-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

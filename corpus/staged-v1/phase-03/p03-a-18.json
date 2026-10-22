@@ -1,0 +1,153 @@
+{
+  "id": "p03-a-18",
+  "title_zh": "一起规划后院小路",
+  "topic_id": "home",
+  "scenario": {
+    "id": "yard-path-layout-help",
+    "label_zh": "规划后院小路位置",
+    "goal_zh": "确定后院通行路线与花盆位置以保留通道"
+  },
+  "participants": [
+    "Hugo",
+    "Esme"
+  ],
+  "context_zh": "邻居应邀帮忙查看后院的布局，屋主想留出一条到棚屋的小路。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-18-s01",
+      "speaker": "Hugo",
+      "text": "Could you help me plan a path across the yard?"
+    },
+    {
+      "id": "p03-a-18-s02",
+      "speaker": "Esme",
+      "text": "Sure. Where do you need it to end?"
+    },
+    {
+      "id": "p03-a-18-s03",
+      "speaker": "Hugo",
+      "text": "At the shed. I keep losing the stepping stones among all these pots."
+    },
+    {
+      "id": "p03-a-18-s04",
+      "speaker": "Esme",
+      "text": "Is that your biggest pot beside the gate?"
+    },
+    {
+      "id": "p03-a-18-s05",
+      "speaker": "Hugo",
+      "text": "Yeah. I can move it to the corner."
+    },
+    {
+      "id": "p03-a-18-s06",
+      "speaker": "Esme",
+      "text": "Then the path could run straight from the gate to the shed."
+    },
+    {
+      "id": "p03-a-18-s07",
+      "speaker": "Hugo",
+      "text": "That makes sense. I will move the pots first so we can check the space."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c2f03c73bcd695e5",
+      "lemma": "you",
+      "pos": "pron.",
+      "sense_zh": "你，作主语",
+      "sentence_ids": [
+        "p03-a-18-s01"
+      ],
+      "forms": [
+        "you"
+      ],
+      "sense_id": "sense-staged-ox-c2f03c73bcd695e5-p03-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-482884a7fa46fea3",
+      "lemma": "yard",
+      "pos": "n.",
+      "sense_zh": "房屋旁或后面的院子",
+      "sentence_ids": [
+        "p03-a-18-s01"
+      ],
+      "forms": [
+        "yard"
+      ],
+      "sense_id": "sense-staged-ox-482884a7fa46fea3-p03-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-950154db01f6de89",
+      "lemma": "where",
+      "pos": "adv.",
+      "sense_zh": "在哪里",
+      "sentence_ids": [
+        "p03-a-18-s02"
+      ],
+      "forms": [
+        "where"
+      ],
+      "sense_id": "sense-staged-ox-950154db01f6de89-p03-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c438f5deedfa697",
+      "lemma": "among",
+      "pos": "prep.",
+      "sense_zh": "在多个事物之中",
+      "sentence_ids": [
+        "p03-a-18-s03"
+      ],
+      "forms": [
+        "among"
+      ],
+      "sense_id": "sense-staged-ox-1c438f5deedfa697-p03-a-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-405fa40ecc595564",
+      "lemma": "your",
+      "pos": "det.",
+      "sense_zh": "你的",
+      "sentence_ids": [
+        "p03-a-18-s04"
+      ],
+      "forms": [
+        "your"
+      ],
+      "sense_id": "sense-staged-ox-405fa40ecc595564-p03-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b2dbe0407fee4f0",
+      "lemma": "yeah",
+      "pos": "exclam.",
+      "sense_zh": "是的，口语回答",
+      "sentence_ids": [
+        "p03-a-18-s05"
+      ],
+      "forms": [
+        "yeah"
+      ],
+      "sense_id": "sense-staged-ox-6b2dbe0407fee4f0-p03-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

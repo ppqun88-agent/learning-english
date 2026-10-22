@@ -1,0 +1,153 @@
+{
+  "id": "p03-c-10",
+  "title_zh": "避开池边的小动物",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "pond-cleanup-observation",
+    "label_zh": "调整池塘清洁位置",
+    "goal_zh": "发现蛙类后避开栖息区域并安排垃圾清理"
+  },
+  "participants": [
+    "Tariq",
+    "Ellen"
+  ],
+  "context_zh": "公园清洁志愿者在林边池塘发现小动物，调整清洁范围并联系管理人员。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-10-s01",
+      "speaker": "Tariq",
+      "text": "There's a frog in the grass beside that plastic bag."
+    },
+    {
+      "id": "p03-c-10-s02",
+      "speaker": "Ellen",
+      "text": "Let's leave that patch alone for now. We don't want to disturb it."
+    },
+    {
+      "id": "p03-c-10-s03",
+      "speaker": "Tariq",
+      "text": "Should we collect the garbage on the path instead?"
+    },
+    {
+      "id": "p03-c-10-s04",
+      "speaker": "Ellen",
+      "text": "Yes. There's plenty on the ground near the benches."
+    },
+    {
+      "id": "p03-c-10-s05",
+      "speaker": "Tariq",
+      "text": "I thought we'd start at the edge of the forest."
+    },
+    {
+      "id": "p03-c-10-s06",
+      "speaker": "Ellen",
+      "text": "We can ask the ranger which areas are suitable. Protecting the environment also means being careful about where we walk."
+    },
+    {
+      "id": "p03-c-10-s07",
+      "speaker": "Tariq",
+      "text": "I'll speak to her. You can take the path, and I'll join you when I know more."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6c7e386778bb63dc",
+      "lemma": "frog",
+      "pos": "n.",
+      "sense_zh": "青蛙",
+      "sentence_ids": [
+        "p03-c-10-s01"
+      ],
+      "forms": [
+        "frog"
+      ],
+      "sense_id": "sense-staged-ox-6c7e386778bb63dc-p03-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8fe801852de222d5",
+      "lemma": "forest",
+      "pos": "n.",
+      "sense_zh": "森林",
+      "sentence_ids": [
+        "p03-c-10-s05"
+      ],
+      "forms": [
+        "forest"
+      ],
+      "sense_id": "sense-staged-ox-8fe801852de222d5-p03-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-09af79b6fe293033",
+      "lemma": "environment",
+      "pos": "n.",
+      "sense_zh": "自然环境",
+      "sentence_ids": [
+        "p03-c-10-s06"
+      ],
+      "forms": [
+        "environment"
+      ],
+      "sense_id": "sense-staged-ox-09af79b6fe293033-p03-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-283299ec51c18628",
+      "lemma": "grass",
+      "pos": "n.",
+      "sense_zh": "草；草丛",
+      "sentence_ids": [
+        "p03-c-10-s01"
+      ],
+      "forms": [
+        "grass"
+      ],
+      "sense_id": "sense-staged-ox-283299ec51c18628-p03-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-208b97808ec77529",
+      "lemma": "ground",
+      "pos": "n.",
+      "sense_zh": "地面",
+      "sentence_ids": [
+        "p03-c-10-s04"
+      ],
+      "forms": [
+        "ground"
+      ],
+      "sense_id": "sense-staged-ox-208b97808ec77529-p03-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-96a994a314a70088",
+      "lemma": "garbage",
+      "pos": "n.",
+      "sense_zh": "垃圾",
+      "sentence_ids": [
+        "p03-c-10-s03"
+      ],
+      "forms": [
+        "garbage"
+      ],
+      "sense_id": "sense-staged-ox-96a994a314a70088-p03-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

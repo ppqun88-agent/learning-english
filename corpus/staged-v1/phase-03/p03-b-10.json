@@ -1,0 +1,121 @@
+{
+  "id": "p03-b-10",
+  "title_zh": "首次参赛前确认规则",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "first-team-competition-rules",
+    "label_zh": "确认首次团队比赛规则",
+    "goal_zh": "核实参赛资格、教练安排及场上行为要求。"
+  },
+  "participants": [
+    "Toby",
+    "Coach Elena"
+  ],
+  "context_zh": "俱乐部的新成员向教练询问比赛安排及行为要求，使用英式拼写。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-10-s01",
+      "speaker": "Toby",
+      "text": "Am I ready to compete this Saturday?"
+    },
+    {
+      "id": "p03-b-10-s02",
+      "speaker": "Coach Elena",
+      "text": "Yes. This competition has a beginner group, and I have entered you in it."
+    },
+    {
+      "id": "p03-b-10-s03",
+      "speaker": "Toby",
+      "text": "Will you be there as my coach?"
+    },
+    {
+      "id": "p03-b-10-s04",
+      "speaker": "Coach Elena",
+      "text": "I will. We will warm up together before your first game."
+    },
+    {
+      "id": "p03-b-10-s05",
+      "speaker": "Toby",
+      "text": "Is there anything else I should know?"
+    },
+    {
+      "id": "p03-b-10-s06",
+      "speaker": "Coach Elena",
+      "text": "Good behaviour matters as much as the score. Listen to the referee and be polite to the other players."
+    },
+    {
+      "id": "p03-b-10-s07",
+      "speaker": "Toby",
+      "text": "Understood. I will meet you at the entrance at nine."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8ebab39485b47715",
+      "lemma": "compete",
+      "pos": "v.",
+      "sense_zh": "参加比赛",
+      "sentence_ids": [
+        "p03-b-10-s01"
+      ],
+      "forms": [
+        "compete"
+      ],
+      "sense_id": "sense-staged-ox-8ebab39485b47715-p03-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d67e1c3ced71a36",
+      "lemma": "competition",
+      "pos": "n.",
+      "sense_zh": "比赛",
+      "sentence_ids": [
+        "p03-b-10-s02"
+      ],
+      "forms": [
+        "competition"
+      ],
+      "sense_id": "sense-staged-ox-3d67e1c3ced71a36-p03-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6cf56b4b5072fa32",
+      "lemma": "coach",
+      "pos": "n.",
+      "sense_zh": "教练",
+      "sentence_ids": [
+        "p03-b-10-s03"
+      ],
+      "forms": [
+        "coach"
+      ],
+      "sense_id": "sense-staged-ox-6cf56b4b5072fa32-p03-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12c6e16f5ca9524d",
+      "lemma": "behaviour",
+      "pos": "n.",
+      "sense_zh": "行为；举止，英式拼写",
+      "sentence_ids": [
+        "p03-b-10-s06"
+      ],
+      "forms": [
+        "behaviour"
+      ],
+      "sense_id": "sense-staged-ox-12c6e16f5ca9524d-p03-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

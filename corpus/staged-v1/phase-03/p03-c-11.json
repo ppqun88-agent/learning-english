@@ -1,0 +1,163 @@
+{
+  "id": "p03-c-11",
+  "title_zh": "给诊所留下症状信息",
+  "topic_id": "health",
+  "scenario": {
+    "id": "clinic-symptom-message",
+    "label_zh": "预约并转达症状及用药问题",
+    "goal_zh": "说明发热等症状并请求医生回电核对用药问题"
+  },
+  "participants": [
+    "Daniel",
+    "Receptionist Priya"
+  ],
+  "context_zh": "虚构患者联系诊所请求临床人员回电；对话只练习症状转达，不作诊断或给出用药方案。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-11-s01",
+      "speaker": "Daniel",
+      "text": "Could I speak to a nurse? I've had a fever and a headache since yesterday."
+    },
+    {
+      "id": "p03-c-11-s02",
+      "speaker": "Receptionist Priya",
+      "text": "I'll send a message to the clinical team. Have you spoken to anyone about it yet?"
+    },
+    {
+      "id": "p03-c-11-s03",
+      "speaker": "Daniel",
+      "text": "No. I wondered if it might be flu, but I don't know."
+    },
+    {
+      "id": "p03-c-11-s04",
+      "speaker": "Receptionist Priya",
+      "text": "I'll write down what you've told me, without putting down a diagnosis."
+    },
+    {
+      "id": "p03-c-11-s05",
+      "speaker": "Daniel",
+      "text": "Please also mention that I have heart disease. I have a question about a cold medicine."
+    },
+    {
+      "id": "p03-c-11-s06",
+      "speaker": "Receptionist Priya",
+      "text": "What's the name on the packet?"
+    },
+    {
+      "id": "p03-c-11-s07",
+      "speaker": "Daniel",
+      "text": "I have it here. I'd rather check with the nurse before taking another drug."
+    },
+    {
+      "id": "p03-c-11-s08",
+      "speaker": "Receptionist Priya",
+      "text": "Understood. I'll include that question and ask them to call you. Is this the best number?"
+    },
+    {
+      "id": "p03-c-11-s09",
+      "speaker": "Daniel",
+      "text": "Yes. I'll keep the packet beside me for the call."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9d1272c2244ca3e4",
+      "lemma": "fever",
+      "pos": "n.",
+      "sense_zh": "发热；发烧",
+      "sentence_ids": [
+        "p03-c-11-s01"
+      ],
+      "forms": [
+        "fever"
+      ],
+      "sense_id": "sense-staged-ox-9d1272c2244ca3e4-p03-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-56d321df0c3801f1",
+      "lemma": "flu",
+      "pos": "n.",
+      "sense_zh": "流感",
+      "sentence_ids": [
+        "p03-c-11-s03"
+      ],
+      "forms": [
+        "flu"
+      ],
+      "sense_id": "sense-staged-ox-56d321df0c3801f1-p03-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df11561e530da204",
+      "lemma": "headache",
+      "pos": "n.",
+      "sense_zh": "头痛",
+      "sentence_ids": [
+        "p03-c-11-s01"
+      ],
+      "forms": [
+        "headache"
+      ],
+      "sense_id": "sense-staged-ox-df11561e530da204-p03-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea9ffd7357637d1c",
+      "lemma": "drug",
+      "pos": "n.",
+      "sense_zh": "药物",
+      "sentence_ids": [
+        "p03-c-11-s07"
+      ],
+      "forms": [
+        "drug"
+      ],
+      "sense_id": "sense-staged-ox-ea9ffd7357637d1c-p03-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0396aeb3342f4271",
+      "lemma": "disease",
+      "pos": "n.",
+      "sense_zh": "疾病",
+      "sentence_ids": [
+        "p03-c-11-s05"
+      ],
+      "forms": [
+        "disease"
+      ],
+      "sense_id": "sense-staged-ox-0396aeb3342f4271-p03-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc62b81d9fed9e11",
+      "lemma": "heart",
+      "pos": "n.",
+      "sense_zh": "心脏",
+      "sentence_ids": [
+        "p03-c-11-s05"
+      ],
+      "forms": [
+        "heart"
+      ],
+      "sense_id": "sense-staged-ox-fc62b81d9fed9e11-p03-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

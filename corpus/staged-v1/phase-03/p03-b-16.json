@@ -1,0 +1,121 @@
+{
+  "id": "p03-b-16",
+  "title_zh": "描述牙痛并预约检查",
+  "topic_id": "health",
+  "scenario": {
+    "id": "dental-appointment-request",
+    "label_zh": "因牙痛预约牙医",
+    "goal_zh": "描述疼痛持续情况并确认可到诊时间"
+  },
+  "participants": [
+    "Nadia",
+    "Receptionist Paul"
+  ],
+  "context_zh": "虚构患者向牙科前台说明症状和可到诊时间；对话不诊断或提供治疗建议。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-16-s01",
+      "speaker": "Nadia",
+      "text": "Could I make an appointment with the dentist? One of my teeth has hurt since Monday."
+    },
+    {
+      "id": "p03-b-16-s02",
+      "speaker": "Receptionist Paul",
+      "text": "I can help with the booking. Is there anything else you want me to note?"
+    },
+    {
+      "id": "p03-b-16-s03",
+      "speaker": "Nadia",
+      "text": "I notice some blood when I brush my teeth."
+    },
+    {
+      "id": "p03-b-16-s04",
+      "speaker": "Receptionist Paul",
+      "text": "I will add that to the message for the dentist."
+    },
+    {
+      "id": "p03-b-16-s05",
+      "speaker": "Nadia",
+      "text": "It has made my daily routine quite uncomfortable."
+    },
+    {
+      "id": "p03-b-16-s06",
+      "speaker": "Receptionist Paul",
+      "text": "We have an appointment at ten tomorrow morning. Can you come then?"
+    },
+    {
+      "id": "p03-b-16-s07",
+      "speaker": "Nadia",
+      "text": "Yes. Please book that for me. I will describe the problem in more detail when I arrive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-84e7c628edec3fba",
+      "lemma": "dentist",
+      "pos": "n.",
+      "sense_zh": "牙医",
+      "sentence_ids": [
+        "p03-b-16-s01"
+      ],
+      "forms": [
+        "dentist"
+      ],
+      "sense_id": "sense-staged-ox-84e7c628edec3fba-p03-b-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8633c57f64fbb8e9",
+      "lemma": "blood",
+      "pos": "n.",
+      "sense_zh": "血",
+      "sentence_ids": [
+        "p03-b-16-s03"
+      ],
+      "forms": [
+        "blood"
+      ],
+      "sense_id": "sense-staged-ox-8633c57f64fbb8e9-p03-b-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6cafedfbdaf1a235",
+      "lemma": "brush",
+      "pos": "v.",
+      "sense_zh": "刷；用刷子清洁",
+      "sentence_ids": [
+        "p03-b-16-s03"
+      ],
+      "forms": [
+        "brush"
+      ],
+      "sense_id": "sense-staged-ox-6cafedfbdaf1a235-p03-b-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-99278f6735cfb91e",
+      "lemma": "daily",
+      "pos": "adj.",
+      "sense_zh": "每天的；日常的",
+      "sentence_ids": [
+        "p03-b-16-s05"
+      ],
+      "forms": [
+        "daily"
+      ],
+      "sense_id": "sense-staged-ox-99278f6735cfb91e-p03-b-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

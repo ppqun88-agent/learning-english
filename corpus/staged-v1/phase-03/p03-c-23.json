@@ -1,0 +1,179 @@
+{
+  "id": "p03-c-23",
+  "title_zh": "让论文的论据更清楚",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "essay-feedback",
+    "label_zh": "根据反馈修改议论文",
+    "goal_zh": "澄清论点与数字出处并约定修订顺序"
+  },
+  "participants": [
+    "Jules",
+    "Tutor Sana"
+  ],
+  "context_zh": "学生请教师说明作文修改重点，并核对引用数字。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-23-s01",
+      "speaker": "Jules",
+      "text": "Could you help me with my essay about technology in everyday life?"
+    },
+    {
+      "id": "p03-c-23-s02",
+      "speaker": "Tutor Sana",
+      "text": "Yes. Your examples are clear, but the main argument needs work."
+    },
+    {
+      "id": "p03-c-23-s03",
+      "speaker": "Jules",
+      "text": "What should I change first? I don't want to fail because I've misunderstood the question."
+    },
+    {
+      "id": "p03-c-23-s04",
+      "speaker": "Tutor Sana",
+      "text": "Well, firstly, say whether you think the changes are mostly helpful. Then explain why."
+    },
+    {
+      "id": "p03-c-23-s05",
+      "speaker": "Jules",
+      "text": "I also used a figure of sixty percent, but I can't find the source now."
+    },
+    {
+      "id": "p03-c-23-s06",
+      "speaker": "Tutor Sana",
+      "text": "Don't leave in a number you can't support. Find the source or remove the claim."
+    },
+    {
+      "id": "p03-c-23-s07",
+      "speaker": "Jules",
+      "text": "So I'll rewrite the opening, check the evidence, and finally look at the conclusion."
+    },
+    {
+      "id": "p03-c-23-s08",
+      "speaker": "Tutor Sana",
+      "text": "That order makes sense. Bring the revised opening tomorrow and we'll discuss it."
+    },
+    {
+      "id": "p03-c-23-s09",
+      "speaker": "Jules",
+      "text": "Thanks. That's helpful. I know where to start now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c5de26a34b99b7bc",
+      "lemma": "essay",
+      "pos": "n.",
+      "sense_zh": "论说文；课程作文",
+      "sentence_ids": [
+        "p03-c-23-s01"
+      ],
+      "forms": [
+        "essay"
+      ],
+      "sense_id": "sense-staged-ox-c5de26a34b99b7bc-p03-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ff7f5bf0d164716",
+      "lemma": "firstly",
+      "pos": "adv.",
+      "sense_zh": "首先",
+      "sentence_ids": [
+        "p03-c-23-s04"
+      ],
+      "forms": [
+        "firstly"
+      ],
+      "sense_id": "sense-staged-ox-0ff7f5bf0d164716-p03-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c6eec600d2850a2",
+      "lemma": "finally",
+      "pos": "adv.",
+      "sense_zh": "最后；用于安排顺序",
+      "sentence_ids": [
+        "p03-c-23-s07"
+      ],
+      "forms": [
+        "finally"
+      ],
+      "sense_id": "sense-staged-ox-3c6eec600d2850a2-p03-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77f1c500ae900be5",
+      "lemma": "figure",
+      "pos": "n.",
+      "sense_zh": "数字；统计数值",
+      "sentence_ids": [
+        "p03-c-23-s05"
+      ],
+      "forms": [
+        "figure"
+      ],
+      "sense_id": "sense-staged-ox-77f1c500ae900be5-p03-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-72918801ff9be7d1",
+      "lemma": "helpful",
+      "pos": "adj.",
+      "sense_zh": "有帮助的",
+      "sentence_ids": [
+        "p03-c-23-s09"
+      ],
+      "forms": [
+        "helpful"
+      ],
+      "sense_id": "sense-staged-ox-72918801ff9be7d1-p03-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-540c50f20b9f83a2",
+      "lemma": "everyday",
+      "pos": "adj.",
+      "sense_zh": "日常的",
+      "sentence_ids": [
+        "p03-c-23-s01"
+      ],
+      "forms": [
+        "everyday"
+      ],
+      "sense_id": "sense-staged-ox-540c50f20b9f83a2-p03-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-608fb17f834564e7",
+      "lemma": "fail",
+      "pos": "v.",
+      "sense_zh": "未及格；考试或课程不通过",
+      "sentence_ids": [
+        "p03-c-23-s03"
+      ],
+      "forms": [
+        "fail"
+      ],
+      "sense_id": "sense-staged-ox-608fb17f834564e7-p03-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

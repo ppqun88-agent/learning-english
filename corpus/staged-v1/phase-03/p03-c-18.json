@@ -1,0 +1,163 @@
+{
+  "id": "p03-c-18",
+  "title_zh": "为读书小组选一本小说",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "reading-group-book-choice",
+    "label_zh": "选择读书小组作品",
+    "goal_zh": "比较故事题材与讨论安排后选定共读作品"
+  },
+  "participants": [
+    "Mina",
+    "Evan"
+  ],
+  "context_zh": "读书小组成员在两本虚构作品间选择，安排讨论日期。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-18-s01",
+      "speaker": "Mina",
+      "text": "What kind of fiction shall we read next? We've had two crime novels in a row."
+    },
+    {
+      "id": "p03-c-18-s02",
+      "speaker": "Evan",
+      "text": "How about this story about a god who loses his memory?"
+    },
+    {
+      "id": "p03-c-18-s03",
+      "speaker": "Mina",
+      "text": "Is it difficult to follow?"
+    },
+    {
+      "id": "p03-c-18-s04",
+      "speaker": "Evan",
+      "text": "Not really. It begins with a strange dream, but the main story is quite clear."
+    },
+    {
+      "id": "p03-c-18-s05",
+      "speaker": "Mina",
+      "text": "Who wrote it?"
+    },
+    {
+      "id": "p03-c-18-s06",
+      "speaker": "Evan",
+      "text": "A foreign writer I hadn't read before. This is an English translation."
+    },
+    {
+      "id": "p03-c-18-s07",
+      "speaker": "Mina",
+      "text": "Could we read the opening chapter this week and have a discussion next Thursday?"
+    },
+    {
+      "id": "p03-c-18-s08",
+      "speaker": "Evan",
+      "text": "I'm away then. Would the following Thursday work?"
+    },
+    {
+      "id": "p03-c-18-s09",
+      "speaker": "Mina",
+      "text": "Yes. That gives everyone more time. I'll suggest the book and the later date to the group."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dd2883c488285683",
+      "lemma": "fiction",
+      "pos": "n.",
+      "sense_zh": "小说；虚构文学",
+      "sentence_ids": [
+        "p03-c-18-s01"
+      ],
+      "forms": [
+        "fiction"
+      ],
+      "sense_id": "sense-staged-ox-dd2883c488285683-p03-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-48eb70f1ff1f9d3e",
+      "lemma": "dream",
+      "pos": "n.",
+      "sense_zh": "梦；睡梦中的经历",
+      "sentence_ids": [
+        "p03-c-18-s04"
+      ],
+      "forms": [
+        "dream"
+      ],
+      "sense_id": "sense-staged-ox-48eb70f1ff1f9d3e-p03-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-421b2f67cb261fc0",
+      "lemma": "foreign",
+      "pos": "adj.",
+      "sense_zh": "外国的",
+      "sentence_ids": [
+        "p03-c-18-s06"
+      ],
+      "forms": [
+        "foreign"
+      ],
+      "sense_id": "sense-staged-ox-421b2f67cb261fc0-p03-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c5822606bcb393fd",
+      "lemma": "discussion",
+      "pos": "n.",
+      "sense_zh": "讨论",
+      "sentence_ids": [
+        "p03-c-18-s07"
+      ],
+      "forms": [
+        "discussion"
+      ],
+      "sense_id": "sense-staged-ox-c5822606bcb393fd-p03-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70e50355a89f0746",
+      "lemma": "following",
+      "pos": "adj.",
+      "sense_zh": "接下来的",
+      "sentence_ids": [
+        "p03-c-18-s08"
+      ],
+      "forms": [
+        "following"
+      ],
+      "sense_id": "sense-staged-ox-70e50355a89f0746-p03-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b42786ee6ed05b02",
+      "lemma": "god",
+      "pos": "n.",
+      "sense_zh": "神；虚构故事中的神祇",
+      "sentence_ids": [
+        "p03-c-18-s02"
+      ],
+      "forms": [
+        "god"
+      ],
+      "sense_id": "sense-staged-ox-b42786ee6ed05b02-p03-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

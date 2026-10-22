@@ -1,0 +1,163 @@
+{
+  "id": "p03-c-12",
+  "title_zh": "挑选一次运动体验",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "sports-taster-choice",
+    "label_zh": "选择社区运动课程",
+    "goal_zh": "选择适合初学者的社区运动体验课并确认用品。"
+  },
+  "participants": [
+    "Keira",
+    "Leon"
+  ],
+  "context_zh": "社区运动中心工作人员帮助初学者选择周末体验活动。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-12-s01",
+      "speaker": "Keira",
+      "text": "I'm a hockey fan, but I've never played. Is your taster session suitable for me?"
+    },
+    {
+      "id": "p03-c-12-s02",
+      "speaker": "Leon",
+      "text": "Yes. We start with how to hold the stick and hit the ball."
+    },
+    {
+      "id": "p03-c-12-s03",
+      "speaker": "Keira",
+      "text": "I'm not very fit. Is it a full match?"
+    },
+    {
+      "id": "p03-c-12-s04",
+      "speaker": "Leon",
+      "text": "No. We practise in pairs, then try passing the ball towards a goal."
+    },
+    {
+      "id": "p03-c-12-s05",
+      "speaker": "Keira",
+      "text": "I was also considering golf. Is that quieter?"
+    },
+    {
+      "id": "p03-c-12-s06",
+      "speaker": "Leon",
+      "text": "That session moves more slowly, but it's on Sunday. Hockey is on Saturday."
+    },
+    {
+      "id": "p03-c-12-s07",
+      "speaker": "Keira",
+      "text": "Saturday works better. Do I need my own stick?"
+    },
+    {
+      "id": "p03-c-12-s08",
+      "speaker": "Leon",
+      "text": "We lend you one. Bring trainers and the other items on this kit list."
+    },
+    {
+      "id": "p03-c-12-s09",
+      "speaker": "Keira",
+      "text": "Great. I'll book the hockey session and check the list tonight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-845233968c6defbe",
+      "lemma": "hockey",
+      "pos": "n.",
+      "sense_zh": "曲棍球运动",
+      "sentence_ids": [
+        "p03-c-12-s01"
+      ],
+      "forms": [
+        "hockey"
+      ],
+      "sense_id": "sense-staged-ox-845233968c6defbe-p03-c-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f7ec20e01ca45647",
+      "lemma": "golf",
+      "pos": "n.",
+      "sense_zh": "高尔夫球运动",
+      "sentence_ids": [
+        "p03-c-12-s05"
+      ],
+      "forms": [
+        "golf"
+      ],
+      "sense_id": "sense-staged-ox-f7ec20e01ca45647-p03-c-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-105b2faa8aded1da",
+      "lemma": "fit",
+      "pos": "adj.",
+      "sense_zh": "身体健康强壮的",
+      "sentence_ids": [
+        "p03-c-12-s03"
+      ],
+      "forms": [
+        "fit"
+      ],
+      "sense_id": "sense-staged-ox-105b2faa8aded1da-p03-c-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b14a0132ec8ea24",
+      "lemma": "goal",
+      "pos": "n.",
+      "sense_zh": "球门",
+      "sentence_ids": [
+        "p03-c-12-s04"
+      ],
+      "forms": [
+        "goal"
+      ],
+      "sense_id": "sense-staged-ox-7b14a0132ec8ea24-p03-c-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3f9642d15194165",
+      "lemma": "hit",
+      "pos": "v.",
+      "sense_zh": "击打",
+      "sentence_ids": [
+        "p03-c-12-s02"
+      ],
+      "forms": [
+        "hit"
+      ],
+      "sense_id": "sense-staged-ox-e3f9642d15194165-p03-c-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a9979d9c56a64932",
+      "lemma": "fan",
+      "pos": "n.",
+      "sense_zh": "爱好者；球迷",
+      "sentence_ids": [
+        "p03-c-12-s01"
+      ],
+      "forms": [
+        "fan"
+      ],
+      "sense_id": "sense-staged-ox-a9979d9c56a64932-p03-c-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

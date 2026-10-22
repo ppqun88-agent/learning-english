@@ -1,0 +1,105 @@
+{
+  "id": "p03-c-19",
+  "title_zh": "修补外套而不是换新",
+  "topic_id": "services",
+  "scenario": {
+    "id": "clothing-repair-appointment",
+    "label_zh": "预约修补正式服装",
+    "goal_zh": "说明衣物破损并约定修补和取件"
+  },
+  "participants": [
+    "Cass",
+    "Tailor Ren"
+  ],
+  "context_zh": "顾客把一件准备参加正式晚宴穿的旧外套送去修补。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-19-s01",
+      "speaker": "Cass",
+      "text": "Could you repair this hole near the pocket? I caught it on a nail."
+    },
+    {
+      "id": "p03-c-19-s02",
+      "speaker": "Tailor Ren",
+      "text": "Let me see. I can mend it, though a small mark may remain."
+    },
+    {
+      "id": "p03-c-19-s03",
+      "speaker": "Cass",
+      "text": "It's for a formal dinner on Saturday. Would the mark be noticeable?"
+    },
+    {
+      "id": "p03-c-19-s04",
+      "speaker": "Tailor Ren",
+      "text": "Not from a distance. The pocket flap covers most of it."
+    },
+    {
+      "id": "p03-c-19-s05",
+      "speaker": "Cass",
+      "text": "Good. I know this style is out of fashion, but I still like the jacket."
+    },
+    {
+      "id": "p03-c-19-s06",
+      "speaker": "Tailor Ren",
+      "text": "It suits you. I can have the repair ready by Friday afternoon."
+    },
+    {
+      "id": "p03-c-19-s07",
+      "speaker": "Cass",
+      "text": "Friday is perfect. Please go ahead with the repair."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-10bf1e99c50e7667",
+      "lemma": "fashion",
+      "pos": "n.",
+      "sense_zh": "时尚；流行款式",
+      "sentence_ids": [
+        "p03-c-19-s05"
+      ],
+      "forms": [
+        "fashion"
+      ],
+      "sense_id": "sense-staged-ox-10bf1e99c50e7667-p03-c-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c5458057f014eb4e",
+      "lemma": "formal",
+      "pos": "adj.",
+      "sense_zh": "正式的",
+      "sentence_ids": [
+        "p03-c-19-s03"
+      ],
+      "forms": [
+        "formal"
+      ],
+      "sense_id": "sense-staged-ox-c5458057f014eb4e-p03-c-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fa0669602053e0f3",
+      "lemma": "hole",
+      "pos": "n.",
+      "sense_zh": "破洞",
+      "sentence_ids": [
+        "p03-c-19-s01"
+      ],
+      "forms": [
+        "hole"
+      ],
+      "sense_id": "sense-staged-ox-fa0669602053e0f3-p03-c-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

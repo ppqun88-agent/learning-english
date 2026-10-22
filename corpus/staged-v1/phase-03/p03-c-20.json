@@ -1,0 +1,105 @@
+{
+  "id": "p03-c-20",
+  "title_zh": "了解第一次飞行体验",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "first-flight-lesson-inquiry",
+    "label_zh": "询问首次飞行体验课",
+    "goal_zh": "核实新手参与方式及教练安排后预约体验"
+  },
+  "participants": [
+    "Noor",
+    "Instructor Ellis"
+  ],
+  "context_zh": "成年初学者咨询飞行学校的入门体验，讨论教学安排而非飞行操作。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-20-s01",
+      "speaker": "Noor",
+      "text": "I've always wanted to try flying, but I've never been in a small plane."
+    },
+    {
+      "id": "p03-c-20-s02",
+      "speaker": "Instructor Ellis",
+      "text": "Our introductory lesson is for beginners. An instructor stays with you throughout."
+    },
+    {
+      "id": "p03-c-20-s03",
+      "speaker": "Noor",
+      "text": "I get nervous easily. Would I have to take the controls straight away?"
+    },
+    {
+      "id": "p03-c-20-s04",
+      "speaker": "Instructor Ellis",
+      "text": "No. We start with a briefing, and you can ask questions before deciding how much you want to try."
+    },
+    {
+      "id": "p03-c-20-s05",
+      "speaker": "Noor",
+      "text": "A friend said your instructor, Jo, was excellent with nervous students. Could I book with her?"
+    },
+    {
+      "id": "p03-c-20-s06",
+      "speaker": "Instructor Ellis",
+      "text": "She's available on Sunday morning. Shall I send you the lesson details and booking conditions?"
+    },
+    {
+      "id": "p03-c-20-s07",
+      "speaker": "Noor",
+      "text": "Yes, please. I'll read those before I choose a time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f480e4d7af241717",
+      "lemma": "flying",
+      "pos": "n.",
+      "sense_zh": "飞行活动",
+      "sentence_ids": [
+        "p03-c-20-s01"
+      ],
+      "forms": [
+        "flying"
+      ],
+      "sense_id": "sense-staged-ox-f480e4d7af241717-p03-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5513ef02e50700e1",
+      "lemma": "excellent",
+      "pos": "adj.",
+      "sense_zh": "极好的；出色的",
+      "sentence_ids": [
+        "p03-c-20-s05"
+      ],
+      "forms": [
+        "excellent"
+      ],
+      "sense_id": "sense-staged-ox-5513ef02e50700e1-p03-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b897957b0fe236d",
+      "lemma": "easily",
+      "pos": "adv.",
+      "sense_zh": "容易地",
+      "sentence_ids": [
+        "p03-c-20-s03"
+      ],
+      "forms": [
+        "easily"
+      ],
+      "sense_id": "sense-staged-ox-6b897957b0fe236d-p03-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

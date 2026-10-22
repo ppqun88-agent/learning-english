@@ -1,0 +1,121 @@
+{
+  "id": "p03-b-28",
+  "title_zh": "为虚构地理游记选题",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "geography-trip-journal",
+    "label_zh": "规划地理作业游记",
+    "goal_zh": "选定沙漠旅行主题并区分长期气候与每日记录。"
+  },
+  "participants": [
+    "Student Freya",
+    "Teacher Ade"
+  ],
+  "context_zh": "学生为地理课创作虚构旅行日记，教师帮助她缩小题材并区分气候资料与日常叙述。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-28-s01",
+      "speaker": "Student Freya",
+      "text": "Can I write my geography diary about an imaginary journey?"
+    },
+    {
+      "id": "p03-b-28-s02",
+      "speaker": "Teacher Ade",
+      "text": "Yes, as long as you make that clear. Which continent will you choose?"
+    },
+    {
+      "id": "p03-b-28-s03",
+      "speaker": "Student Freya",
+      "text": "Africa. I would like to set the journey in a desert."
+    },
+    {
+      "id": "p03-b-28-s04",
+      "speaker": "Teacher Ade",
+      "text": "That is still a large topic. Choose one place, then research its climate."
+    },
+    {
+      "id": "p03-b-28-s05",
+      "speaker": "Student Freya",
+      "text": "Should I put the climate information into every entry?"
+    },
+    {
+      "id": "p03-b-28-s06",
+      "speaker": "Teacher Ade",
+      "text": "No. Use a short introduction for the usual conditions. The diary entries can describe your invented day-to-day journey."
+    },
+    {
+      "id": "p03-b-28-s07",
+      "speaker": "Student Freya",
+      "text": "All right. I will choose the location first and bring you a plan tomorrow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-afd035d0f84a1eab",
+      "lemma": "diary",
+      "pos": "n.",
+      "sense_zh": "日记",
+      "sentence_ids": [
+        "p03-b-28-s01"
+      ],
+      "forms": [
+        "diary"
+      ],
+      "sense_id": "sense-staged-ox-afd035d0f84a1eab-p03-b-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f9b8a54ec081739",
+      "lemma": "continent",
+      "pos": "n.",
+      "sense_zh": "洲；大陆",
+      "sentence_ids": [
+        "p03-b-28-s02"
+      ],
+      "forms": [
+        "continent"
+      ],
+      "sense_id": "sense-staged-ox-8f9b8a54ec081739-p03-b-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bb1881dce7f77d34",
+      "lemma": "desert",
+      "pos": "n.",
+      "sense_zh": "沙漠",
+      "sentence_ids": [
+        "p03-b-28-s03"
+      ],
+      "forms": [
+        "desert"
+      ],
+      "sense_id": "sense-staged-ox-bb1881dce7f77d34-p03-b-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9e61d48578dbca9",
+      "lemma": "climate",
+      "pos": "n.",
+      "sense_zh": "气候",
+      "sentence_ids": [
+        "p03-b-28-s04"
+      ],
+      "forms": [
+        "climate"
+      ],
+      "sense_id": "sense-staged-ox-b9e61d48578dbca9-p03-b-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

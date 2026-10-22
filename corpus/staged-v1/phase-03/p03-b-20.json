@@ -1,0 +1,158 @@
+{
+  "id": "p03-b-20",
+  "title_zh": "先弄清悬疑剧的角色关系",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "mystery-scene-rehearsal",
+    "label_zh": "排练悬疑剧片段",
+    "goal_zh": "澄清虚构案件的角色关系并确定继续排练的位置。"
+  },
+  "participants": [
+    "Actor Beatrice",
+    "Director Samir"
+  ],
+  "context_zh": "业余剧团排练原创虚构悬疑剧，演员确认角色知道的信息，再继续排练。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-20-s01",
+      "speaker": "Actor Beatrice",
+      "text": "Before we continue, can we check what my character knows in this scene?"
+    },
+    {
+      "id": "p03-b-20-s02",
+      "speaker": "Director Samir",
+      "text": "You play the detective. You know that a crime has taken place, but you do not know who did it."
+    },
+    {
+      "id": "p03-b-20-s03",
+      "speaker": "Actor Beatrice",
+      "text": "Is the man on the floor already dead when I enter?"
+    },
+    {
+      "id": "p03-b-20-s04",
+      "speaker": "Director Samir",
+      "text": "Yes. His death is what brings you to the house."
+    },
+    {
+      "id": "p03-b-20-s05",
+      "speaker": "Actor Beatrice",
+      "text": "And the woman at the door is the criminal?"
+    },
+    {
+      "id": "p03-b-20-s06",
+      "speaker": "Director Samir",
+      "text": "She is, but your character does not discover that until the last scene."
+    },
+    {
+      "id": "p03-b-20-s07",
+      "speaker": "Actor Beatrice",
+      "text": "Right. I was looking at her as if I already knew. Let us start again from my entrance."
+    },
+    {
+      "id": "p03-b-20-s08",
+      "speaker": "Director Samir",
+      "text": "Good. Everyone back to the doorway, please."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fc112d366538120c",
+      "lemma": "continue",
+      "pos": "v.",
+      "sense_zh": "继续",
+      "sentence_ids": [
+        "p03-b-20-s01"
+      ],
+      "forms": [
+        "continue"
+      ],
+      "sense_id": "sense-staged-ox-fc112d366538120c-p03-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-455bf47c18ec2530",
+      "lemma": "detective",
+      "pos": "n.",
+      "sense_zh": "侦探",
+      "sentence_ids": [
+        "p03-b-20-s02"
+      ],
+      "forms": [
+        "detective"
+      ],
+      "sense_id": "sense-staged-ox-455bf47c18ec2530-p03-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae5a38287544614b",
+      "lemma": "crime",
+      "pos": "n.",
+      "sense_zh": "犯罪行为；案件",
+      "sentence_ids": [
+        "p03-b-20-s02"
+      ],
+      "forms": [
+        "crime"
+      ],
+      "sense_id": "sense-staged-ox-ae5a38287544614b-p03-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cce70ac3544d0975",
+      "lemma": "dead",
+      "pos": "adj.",
+      "sense_zh": "死去的",
+      "sentence_ids": [
+        "p03-b-20-s03"
+      ],
+      "forms": [
+        "dead"
+      ],
+      "sense_id": "sense-staged-ox-cce70ac3544d0975-p03-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f02b08c23861c138",
+      "lemma": "death",
+      "pos": "n.",
+      "sense_zh": "死亡",
+      "sentence_ids": [
+        "p03-b-20-s04"
+      ],
+      "forms": [
+        "death"
+      ],
+      "sense_id": "sense-staged-ox-f02b08c23861c138-p03-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a7c85efe6033bfa0",
+      "lemma": "criminal",
+      "pos": "n.",
+      "sense_zh": "罪犯",
+      "sentence_ids": [
+        "p03-b-20-s05"
+      ],
+      "forms": [
+        "criminal"
+      ],
+      "sense_id": "sense-staged-ox-a7c85efe6033bfa0-p03-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

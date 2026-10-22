@@ -1,0 +1,142 @@
+{
+  "id": "p03-b-08",
+  "title_zh": "安排慈善晚会的捐款台",
+  "topic_id": "community",
+  "scenario": {
+    "id": "charity-donation-desk",
+    "label_zh": "安排慈善活动捐款台",
+    "goal_zh": "明确筹款人员分工并妥善收取现场捐款。"
+  },
+  "participants": [
+    "Wendy",
+    "Omar"
+  ],
+  "context_zh": "志愿者在一场虚构慈善活动开始前明确接待与捐款收取职责。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-08-s01",
+      "speaker": "Wendy",
+      "text": "Can you look after the donation desk for the charity tonight?"
+    },
+    {
+      "id": "p03-b-08-s02",
+      "speaker": "Omar",
+      "text": "Yes. Am I also greeting the guests?"
+    },
+    {
+      "id": "p03-b-08-s03",
+      "speaker": "Wendy",
+      "text": "No, I will do that. A local businessman is bringing the first group at six."
+    },
+    {
+      "id": "p03-b-08-s04",
+      "speaker": "Omar",
+      "text": "Is he the celebrity mentioned on the poster?"
+    },
+    {
+      "id": "p03-b-08-s05",
+      "speaker": "Wendy",
+      "text": "No, that is the singer who performs later. You only need to collect the donations."
+    },
+    {
+      "id": "p03-b-08-s06",
+      "speaker": "Omar",
+      "text": "If someone gives cash, should I put it straight into this locked box?"
+    },
+    {
+      "id": "p03-b-08-s07",
+      "speaker": "Wendy",
+      "text": "Yes, and write the amount on this sheet. We will count everything together afterward."
+    },
+    {
+      "id": "p03-b-08-s08",
+      "speaker": "Omar",
+      "text": "Understood. I will stay at the desk, and you will handle the guests."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0de818d17d841b4e",
+      "lemma": "charity",
+      "pos": "n.",
+      "sense_zh": "慈善机构",
+      "sentence_ids": [
+        "p03-b-08-s01"
+      ],
+      "forms": [
+        "charity"
+      ],
+      "sense_id": "sense-staged-ox-0de818d17d841b4e-p03-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1f5f7b6b6f8d5ab0",
+      "lemma": "businessman",
+      "pos": "n.",
+      "sense_zh": "商人；经商的男性",
+      "sentence_ids": [
+        "p03-b-08-s03"
+      ],
+      "forms": [
+        "businessman"
+      ],
+      "sense_id": "sense-staged-ox-1f5f7b6b6f8d5ab0-p03-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-52bc54566e86c4a9",
+      "lemma": "celebrity",
+      "pos": "n.",
+      "sense_zh": "名人",
+      "sentence_ids": [
+        "p03-b-08-s04"
+      ],
+      "forms": [
+        "celebrity"
+      ],
+      "sense_id": "sense-staged-ox-52bc54566e86c4a9-p03-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-583fba6231edfd2d",
+      "lemma": "collect",
+      "pos": "v.",
+      "sense_zh": "收取；收集",
+      "sentence_ids": [
+        "p03-b-08-s05"
+      ],
+      "forms": [
+        "collect"
+      ],
+      "sense_id": "sense-staged-ox-583fba6231edfd2d-p03-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c73c4d3bbe30c07",
+      "lemma": "cash",
+      "pos": "n.",
+      "sense_zh": "现金",
+      "sentence_ids": [
+        "p03-b-08-s06"
+      ],
+      "forms": [
+        "cash"
+      ],
+      "sense_id": "sense-staged-ox-3c73c4d3bbe30c07-p03-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

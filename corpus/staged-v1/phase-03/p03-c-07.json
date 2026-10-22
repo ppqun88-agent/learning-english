@@ -1,0 +1,173 @@
+{
+  "id": "p03-c-07",
+  "title_zh": "核对电暖器的功能",
+  "topic_id": "services",
+  "scenario": {
+    "id": "heater-label-comparison",
+    "label_zh": "比较电暖器标签",
+    "goal_zh": "核对供电要求和功能后选定适合房间的型号"
+  },
+  "participants": [
+    "Hugo",
+    "Clerk Beth"
+  ],
+  "context_zh": "顾客在商店比较两款电暖器，阅读标签并核实产品信息；型号为虚构。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-07-s01",
+      "speaker": "Hugo",
+      "text": "I'm looking for an electric heater for a small room."
+    },
+    {
+      "id": "p03-c-07-s02",
+      "speaker": "Clerk Beth",
+      "text": "These two models are designed for that. Do you want a timer?"
+    },
+    {
+      "id": "p03-c-07-s03",
+      "speaker": "Hugo",
+      "text": "Yes. Is that a feature of the smaller one?"
+    },
+    {
+      "id": "p03-c-07-s04",
+      "speaker": "Clerk Beth",
+      "text": "It is. You can set it to turn off after an hour."
+    },
+    {
+      "id": "p03-c-07-s05",
+      "speaker": "Hugo",
+      "text": "Which one uses less electricity?"
+    },
+    {
+      "id": "p03-c-07-s06",
+      "speaker": "Clerk Beth",
+      "text": "Let's compare the energy information on the labels rather than guess from their size."
+    },
+    {
+      "id": "p03-c-07-s07",
+      "speaker": "Hugo",
+      "text": "The label says this one gives out less heat, too."
+    },
+    {
+      "id": "p03-c-07-s08",
+      "speaker": "Clerk Beth",
+      "text": "That's right. How large is your room?"
+    },
+    {
+      "id": "p03-c-07-s09",
+      "speaker": "Hugo",
+      "text": "About eight square metres. Does it need any special electrical work?"
+    },
+    {
+      "id": "p03-c-07-s10",
+      "speaker": "Clerk Beth",
+      "text": "No special installation is listed, but let's check the manufacturer's room-size and socket requirements before you choose."
+    },
+    {
+      "id": "p03-c-07-s11",
+      "speaker": "Hugo",
+      "text": "Good. Let's read those first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3d2475052a532f5c",
+      "lemma": "electric",
+      "pos": "adj.",
+      "sense_zh": "用电驱动的",
+      "sentence_ids": [
+        "p03-c-07-s01"
+      ],
+      "forms": [
+        "electric"
+      ],
+      "sense_id": "sense-staged-ox-3d2475052a532f5c-p03-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6ec6a5b6245613dc",
+      "lemma": "electrical",
+      "pos": "adj.",
+      "sense_zh": "与电力系统有关的",
+      "sentence_ids": [
+        "p03-c-07-s09"
+      ],
+      "forms": [
+        "electrical"
+      ],
+      "sense_id": "sense-staged-ox-6ec6a5b6245613dc-p03-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d74d4dd244a0118a",
+      "lemma": "electricity",
+      "pos": "n.",
+      "sense_zh": "电；电力",
+      "sentence_ids": [
+        "p03-c-07-s05"
+      ],
+      "forms": [
+        "electricity"
+      ],
+      "sense_id": "sense-staged-ox-d74d4dd244a0118a-p03-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f521dde295733ba3",
+      "lemma": "energy",
+      "pos": "n.",
+      "sense_zh": "能源；能量",
+      "sentence_ids": [
+        "p03-c-07-s06"
+      ],
+      "forms": [
+        "energy"
+      ],
+      "sense_id": "sense-staged-ox-f521dde295733ba3-p03-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8b936e66f700b775",
+      "lemma": "heat",
+      "pos": "n.",
+      "sense_zh": "热；热量",
+      "sentence_ids": [
+        "p03-c-07-s07"
+      ],
+      "forms": [
+        "heat"
+      ],
+      "sense_id": "sense-staged-ox-8b936e66f700b775-p03-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-923029a0a15d919b",
+      "lemma": "feature",
+      "pos": "n.",
+      "sense_zh": "产品的功能特点",
+      "sentence_ids": [
+        "p03-c-07-s03"
+      ],
+      "forms": [
+        "feature"
+      ],
+      "sense_id": "sense-staged-ox-923029a0a15d919b-p03-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

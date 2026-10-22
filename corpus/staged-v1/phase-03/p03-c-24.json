@@ -1,0 +1,105 @@
+{
+  "id": "p03-c-24",
+  "title_zh": "核对垂钓活动的会合时间",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "canal-fishing-trip",
+    "label_zh": "确认运河垂钓活动集合安排",
+    "goal_zh": "核对活动说明会时间和无法出席者并确定会合地点"
+  },
+  "participants": [
+    "Marta",
+    "Finn"
+  ],
+  "context_zh": "两位朋友确认已报名的虚构运河垂钓活动安排，不涉及钓法或许可建议。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-24-s01",
+      "speaker": "Marta",
+      "text": "Is everyone still coming to the fishing session on Sunday?"
+    },
+    {
+      "id": "p03-c-24-s02",
+      "speaker": "Finn",
+      "text": "Everyone except Ravi. He has to work."
+    },
+    {
+      "id": "p03-c-24-s03",
+      "speaker": "Marta",
+      "text": "He was going to drive us. How will we get there now?"
+    },
+    {
+      "id": "p03-c-24-s04",
+      "speaker": "Finn",
+      "text": "Fortunately, there's a bus that stops outside the visitor centre."
+    },
+    {
+      "id": "p03-c-24-s05",
+      "speaker": "Marta",
+      "text": "Does it arrive before the organizer's briefing?"
+    },
+    {
+      "id": "p03-c-24-s06",
+      "speaker": "Finn",
+      "text": "Yes, at nine twenty. The briefing starts at half past."
+    },
+    {
+      "id": "p03-c-24-s07",
+      "speaker": "Marta",
+      "text": "Then let's meet at the bus stop at eight forty-five. I'll tell the organizer there'll be one fewer person."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e13590647af6e9c1",
+      "lemma": "fishing",
+      "pos": "n.",
+      "sense_zh": "钓鱼活动",
+      "sentence_ids": [
+        "p03-c-24-s01"
+      ],
+      "forms": [
+        "fishing"
+      ],
+      "sense_id": "sense-staged-ox-e13590647af6e9c1-p03-c-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d0d1acb055c661d4",
+      "lemma": "except",
+      "pos": "prep.",
+      "sense_zh": "除……之外",
+      "sentence_ids": [
+        "p03-c-24-s02"
+      ],
+      "forms": [
+        "except"
+      ],
+      "sense_id": "sense-staged-ox-d0d1acb055c661d4-p03-c-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ebae9c2f0e375342",
+      "lemma": "fortunately",
+      "pos": "adv.",
+      "sense_zh": "幸运的是",
+      "sentence_ids": [
+        "p03-c-24-s04"
+      ],
+      "forms": [
+        "fortunately"
+      ],
+      "sense_id": "sense-staged-ox-ebae9c2f0e375342-p03-c-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

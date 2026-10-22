@@ -1,0 +1,121 @@
+{
+  "id": "p03-b-07",
+  "title_zh": "去开放日了解化学专业",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "science-degree-open-day",
+    "label_zh": "安排科学专业开放日",
+    "goal_zh": "根据学位兴趣选择院系并约定校园开放日参观。"
+  },
+  "participants": [
+    "Soren",
+    "Amina"
+  ],
+  "context_zh": "准大学生在开放日信息台咨询化学专业的参观安排。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-07-s01",
+      "speaker": "Soren",
+      "text": "I am interested in a degree in chemistry. Is there a talk about that today?"
+    },
+    {
+      "id": "p03-b-07-s02",
+      "speaker": "Amina",
+      "text": "Yes. The chemistry department is running a session at eleven."
+    },
+    {
+      "id": "p03-b-07-s03",
+      "speaker": "Soren",
+      "text": "Is it here in this building?"
+    },
+    {
+      "id": "p03-b-07-s04",
+      "speaker": "Amina",
+      "text": "No, it is on the north side of campus. I can mark the building on your map."
+    },
+    {
+      "id": "p03-b-07-s05",
+      "speaker": "Soren",
+      "text": "Thanks. Will there be someone to ask about the first-year courses?"
+    },
+    {
+      "id": "p03-b-07-s06",
+      "speaker": "Amina",
+      "text": "A lecturer will stay after the talk to answer questions."
+    },
+    {
+      "id": "p03-b-07-s07",
+      "speaker": "Soren",
+      "text": "Perfect. I will go to that session and ask about the course options."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6d49b5e700e78d84",
+      "lemma": "degree",
+      "pos": "n.",
+      "sense_zh": "大学学位",
+      "sentence_ids": [
+        "p03-b-07-s01"
+      ],
+      "forms": [
+        "degree"
+      ],
+      "sense_id": "sense-staged-ox-6d49b5e700e78d84-p03-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-50a1c9984968a0b7",
+      "lemma": "chemistry",
+      "pos": "n.",
+      "sense_zh": "化学",
+      "sentence_ids": [
+        "p03-b-07-s01"
+      ],
+      "forms": [
+        "chemistry"
+      ],
+      "sense_id": "sense-staged-ox-50a1c9984968a0b7-p03-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92ee849da6c0f26f",
+      "lemma": "department",
+      "pos": "n.",
+      "sense_zh": "大学的系",
+      "sentence_ids": [
+        "p03-b-07-s02"
+      ],
+      "forms": [
+        "department"
+      ],
+      "sense_id": "sense-staged-ox-92ee849da6c0f26f-p03-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ad39857efa698be2",
+      "lemma": "campus",
+      "pos": "n.",
+      "sense_zh": "大学校园",
+      "sentence_ids": [
+        "p03-b-07-s04"
+      ],
+      "forms": [
+        "campus"
+      ],
+      "sense_id": "sense-staged-ox-ad39857efa698be2-p03-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

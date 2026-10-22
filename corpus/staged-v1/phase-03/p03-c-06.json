@@ -1,0 +1,163 @@
+{
+  "id": "p03-c-06",
+  "title_zh": "只改变浇水量的实验",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "seed-trial-design",
+    "label_zh": "制定种子生长对照实验",
+    "goal_zh": "只改变浇水量并约定观察记录方式"
+  },
+  "participants": [
+    "Sofia",
+    "Ben"
+  ],
+  "context_zh": "两名学生在教师监督的课堂项目中商量种子对照实验的记录方法。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-06-s01",
+      "speaker": "Sofia",
+      "text": "For our experiment, should we change the amount of water and the light?"
+    },
+    {
+      "id": "p03-c-06-s02",
+      "speaker": "Ben",
+      "text": "Let's focus on water. If we change both, we won't know which one made a difference."
+    },
+    {
+      "id": "p03-c-06-s03",
+      "speaker": "Sofia",
+      "text": "All right. We'll use the same seeds and the same amount of earth in each pot."
+    },
+    {
+      "id": "p03-c-06-s04",
+      "speaker": "Ben",
+      "text": "And put the pots together, so light isn't another factor."
+    },
+    {
+      "id": "p03-c-06-s05",
+      "speaker": "Sofia",
+      "text": "This earth feels dry already. Shall we note that before we start?"
+    },
+    {
+      "id": "p03-c-06-s06",
+      "speaker": "Ben",
+      "text": "Yes. Then we can record how much water each pot gets."
+    },
+    {
+      "id": "p03-c-06-s07",
+      "speaker": "Sofia",
+      "text": "How will we measure the effect?"
+    },
+    {
+      "id": "p03-c-06-s08",
+      "speaker": "Ben",
+      "text": "Let's count how many seeds grow, and ask our teacher if that comparison makes sense."
+    },
+    {
+      "id": "p03-c-06-s09",
+      "speaker": "Sofia",
+      "text": "I'll make a table with a separate column for each pot."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9b95275f18582df4",
+      "lemma": "earth",
+      "pos": "n.",
+      "sense_zh": "泥土；土壤",
+      "sentence_ids": [
+        "p03-c-06-s03"
+      ],
+      "forms": [
+        "earth"
+      ],
+      "sense_id": "sense-staged-ox-9b95275f18582df4-p03-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7703f70374d9dbd2",
+      "lemma": "dry",
+      "pos": "adj.",
+      "sense_zh": "干的；缺少水分的",
+      "sentence_ids": [
+        "p03-c-06-s05"
+      ],
+      "forms": [
+        "dry"
+      ],
+      "sense_id": "sense-staged-ox-7703f70374d9dbd2-p03-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da08641b3d01fc34",
+      "lemma": "experiment",
+      "pos": "n.",
+      "sense_zh": "实验",
+      "sentence_ids": [
+        "p03-c-06-s01"
+      ],
+      "forms": [
+        "experiment"
+      ],
+      "sense_id": "sense-staged-ox-da08641b3d01fc34-p03-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb3795d2bc8a379e",
+      "lemma": "effect",
+      "pos": "n.",
+      "sense_zh": "影响；结果",
+      "sentence_ids": [
+        "p03-c-06-s07"
+      ],
+      "forms": [
+        "effect"
+      ],
+      "sense_id": "sense-staged-ox-eb3795d2bc8a379e-p03-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-708be34705c69497",
+      "lemma": "factor",
+      "pos": "n.",
+      "sense_zh": "影响结果的因素",
+      "sentence_ids": [
+        "p03-c-06-s04"
+      ],
+      "forms": [
+        "factor"
+      ],
+      "sense_id": "sense-staged-ox-708be34705c69497-p03-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b17b491b909a6a41",
+      "lemma": "focus",
+      "pos": "v.",
+      "sense_zh": "集中注意力于",
+      "sentence_ids": [
+        "p03-c-06-s02"
+      ],
+      "forms": [
+        "focus"
+      ],
+      "sense_id": "sense-staged-ox-b17b491b909a6a41-p03-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,195 @@
+{
+  "id": "p03-a-01",
+  "title_zh": "申请海外大学的短期课程",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "exchange-course-application",
+    "label_zh": "了解海外课程申请",
+    "goal_zh": "核对短期海外课程的申请条件并确定提交材料的下一步"
+  },
+  "participants": [
+    "Mira",
+    "Tomas"
+  ],
+  "context_zh": "申请者向课程顾问了解一所虚构大学的短期交换课程。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-01-s01",
+      "speaker": "Mira",
+      "text": "I found this summer course on the university website. Can beginners apply?"
+    },
+    {
+      "id": "p03-a-01-s02",
+      "speaker": "Tomas",
+      "text": "Yes. You need some English, but we do not expect perfect grammar."
+    },
+    {
+      "id": "p03-a-01-s03",
+      "speaker": "Mira",
+      "text": "How do you check my speaking ability?"
+    },
+    {
+      "id": "p03-a-01-s04",
+      "speaker": "Tomas",
+      "text": "There is a short online conversation. Are you able to join one on Thursday?"
+    },
+    {
+      "id": "p03-a-01-s05",
+      "speaker": "Mira",
+      "text": "I am. Are there still places available?"
+    },
+    {
+      "id": "p03-a-01-s06",
+      "speaker": "Tomas",
+      "text": "There are three. We can accept your application until Friday."
+    },
+    {
+      "id": "p03-a-01-s07",
+      "speaker": "Mira",
+      "text": "Good. This would be my first time studying abroad, so I wanted to check the requirements."
+    },
+    {
+      "id": "p03-a-01-s08",
+      "speaker": "Tomas",
+      "text": "I will send you the application link and a time for Thursday."
+    },
+    {
+      "id": "p03-a-01-s09",
+      "speaker": "Mira",
+      "text": "Thank you. I will fill in the form tonight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ffd0c06dcc067056",
+      "lemma": "university",
+      "pos": "n.",
+      "sense_zh": "大学",
+      "sentence_ids": [
+        "p03-a-01-s01"
+      ],
+      "forms": [
+        "university"
+      ],
+      "sense_id": "sense-staged-ox-ffd0c06dcc067056-p03-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe8954cde0721d1d",
+      "lemma": "website",
+      "pos": "n.",
+      "sense_zh": "网站",
+      "sentence_ids": [
+        "p03-a-01-s01"
+      ],
+      "forms": [
+        "website"
+      ],
+      "sense_id": "sense-staged-ox-fe8954cde0721d1d-p03-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8096a33540379dba",
+      "lemma": "apply",
+      "pos": "v.",
+      "sense_zh": "申请课程名额",
+      "sentence_ids": [
+        "p03-a-01-s01"
+      ],
+      "forms": [
+        "apply"
+      ],
+      "sense_id": "sense-staged-ox-8096a33540379dba-p03-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3dad292b7c57cd83",
+      "lemma": "ability",
+      "pos": "n.",
+      "sense_zh": "能力",
+      "sentence_ids": [
+        "p03-a-01-s03"
+      ],
+      "forms": [
+        "ability"
+      ],
+      "sense_id": "sense-staged-ox-3dad292b7c57cd83-p03-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df512ecceec817ca",
+      "lemma": "able",
+      "pos": "adj.",
+      "sense_zh": "能够做某事的",
+      "sentence_ids": [
+        "p03-a-01-s04"
+      ],
+      "forms": [
+        "able"
+      ],
+      "sense_id": "sense-staged-ox-df512ecceec817ca-p03-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc607428e019caed",
+      "lemma": "available",
+      "pos": "adj.",
+      "sense_zh": "可获得的，尚有空缺的",
+      "sentence_ids": [
+        "p03-a-01-s05"
+      ],
+      "forms": [
+        "available"
+      ],
+      "sense_id": "sense-staged-ox-dc607428e019caed-p03-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5cf0a14855557d1e",
+      "lemma": "accept",
+      "pos": "v.",
+      "sense_zh": "接受申请",
+      "sentence_ids": [
+        "p03-a-01-s06"
+      ],
+      "forms": [
+        "accept"
+      ],
+      "sense_id": "sense-staged-ox-5cf0a14855557d1e-p03-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4ca10c8dc8d3cd17",
+      "lemma": "abroad",
+      "pos": "adv.",
+      "sense_zh": "在国外",
+      "sentence_ids": [
+        "p03-a-01-s07"
+      ],
+      "forms": [
+        "abroad"
+      ],
+      "sense_id": "sense-staged-ox-4ca10c8dc8d3cd17-p03-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

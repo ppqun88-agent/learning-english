@@ -1,0 +1,105 @@
+{
+  "id": "p03-b-26",
+  "title_zh": "用退货余额预留替代商品",
+  "topic_id": "services",
+  "scenario": {
+    "id": "store-credit-replacement",
+    "label_zh": "使用店内余额换购物品",
+    "goal_zh": "核对店内余额并请店员预留替代商品。"
+  },
+  "participants": [
+    "Customer Dario",
+    "Shop Clerk Nia"
+  ],
+  "context_zh": "顾客在虚构商店咨询退货所得店内余额，店员协助预留替代围巾，不涉及金融建议。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-26-s01",
+      "speaker": "Customer Dario",
+      "text": "I returned a scarf yesterday and received store credit. Can I use it for the blue one?"
+    },
+    {
+      "id": "p03-b-26-s02",
+      "speaker": "Shop Clerk Nia",
+      "text": "Yes. I can see twenty pounds on your receipt, and the blue scarf costs the same."
+    },
+    {
+      "id": "p03-b-26-s03",
+      "speaker": "Customer Dario",
+      "text": "The clerk I spoke to yesterday said there might be one in the stockroom."
+    },
+    {
+      "id": "p03-b-26-s04",
+      "speaker": "Shop Clerk Nia",
+      "text": "I will check. If there is, I can hold it until tomorrow."
+    },
+    {
+      "id": "p03-b-26-s05",
+      "speaker": "Customer Dario",
+      "text": "Could you deal with the reservation for me? I need to leave soon."
+    },
+    {
+      "id": "p03-b-26-s06",
+      "speaker": "Shop Clerk Nia",
+      "text": "Certainly. There is one left, and I have put your name on it."
+    },
+    {
+      "id": "p03-b-26-s07",
+      "speaker": "Customer Dario",
+      "text": "Thank you. I will return tomorrow with the receipt."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c05bd1111a3a79ef",
+      "lemma": "credit",
+      "pos": "n.",
+      "sense_zh": "退货后可用于店内购物的余额",
+      "sentence_ids": [
+        "p03-b-26-s01"
+      ],
+      "forms": [
+        "credit"
+      ],
+      "sense_id": "sense-staged-ox-c05bd1111a3a79ef-p03-b-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8e0cf115d9a3d5af",
+      "lemma": "clerk",
+      "pos": "n.",
+      "sense_zh": "店员",
+      "sentence_ids": [
+        "p03-b-26-s03"
+      ],
+      "forms": [
+        "clerk"
+      ],
+      "sense_id": "sense-staged-ox-8e0cf115d9a3d5af-p03-b-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ee9d853239bca262",
+      "lemma": "deal",
+      "pos": "v.",
+      "sense_zh": "处理；应对，deal with",
+      "sentence_ids": [
+        "p03-b-26-s05"
+      ],
+      "forms": [
+        "deal"
+      ],
+      "sense_id": "sense-staged-ox-ee9d853239bca262-p03-b-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p03-b-22",
+  "title_zh": "开会前交接签到接待",
+  "topic_id": "work",
+  "scenario": {
+    "id": "conference-welcome-handover",
+    "label_zh": "交接会议接待安排",
+    "goal_zh": "明确同事接待职责和会议当天联络方式。"
+  },
+  "participants": [
+    "Bianca",
+    "Luis"
+  ],
+  "context_zh": "同事在工作交接时明确会议接待职责和临时联络方式。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-22-s01",
+      "speaker": "Bianca",
+      "text": "Do you have time for a quick chat about tomorrow's conference?"
+    },
+    {
+      "id": "p03-b-22-s02",
+      "speaker": "Luis",
+      "text": "Yes. My boss said I should help at the welcome desk."
+    },
+    {
+      "id": "p03-b-22-s03",
+      "speaker": "Bianca",
+      "text": "Thank you. My colleague Hana will show you the guest list at eight thirty."
+    },
+    {
+      "id": "p03-b-22-s04",
+      "speaker": "Luis",
+      "text": "How will we communicate if a guest is missing from the list?"
+    },
+    {
+      "id": "p03-b-22-s05",
+      "speaker": "Bianca",
+      "text": "Send me a message on the staff app. I will be near the main hall."
+    },
+    {
+      "id": "p03-b-22-s06",
+      "speaker": "Luis",
+      "text": "All right. I will check names, and Hana can hand out the badges."
+    },
+    {
+      "id": "p03-b-22-s07",
+      "speaker": "Bianca",
+      "text": "Perfect. I will tell her that you are arriving at eight thirty."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bcd24684535054b5",
+      "lemma": "chat",
+      "pos": "n.",
+      "sense_zh": "简短交谈",
+      "sentence_ids": [
+        "p03-b-22-s01"
+      ],
+      "forms": [
+        "chat"
+      ],
+      "sense_id": "sense-staged-ox-bcd24684535054b5-p03-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d15c968d3c4a8873",
+      "lemma": "conference",
+      "pos": "n.",
+      "sense_zh": "会议",
+      "sentence_ids": [
+        "p03-b-22-s01"
+      ],
+      "forms": [
+        "conference"
+      ],
+      "sense_id": "sense-staged-ox-d15c968d3c4a8873-p03-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f05f1710911de7c",
+      "lemma": "boss",
+      "pos": "n.",
+      "sense_zh": "上司",
+      "sentence_ids": [
+        "p03-b-22-s02"
+      ],
+      "forms": [
+        "boss"
+      ],
+      "sense_id": "sense-staged-ox-5f05f1710911de7c-p03-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c2da3d5b25b1b2c7",
+      "lemma": "colleague",
+      "pos": "n.",
+      "sense_zh": "同事",
+      "sentence_ids": [
+        "p03-b-22-s03"
+      ],
+      "forms": [
+        "colleague"
+      ],
+      "sense_id": "sense-staged-ox-c2da3d5b25b1b2c7-p03-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8123bcaa723270d7",
+      "lemma": "communicate",
+      "pos": "v.",
+      "sense_zh": "沟通；交换信息",
+      "sentence_ids": [
+        "p03-b-22-s04"
+      ],
+      "forms": [
+        "communicate"
+      ],
+      "sense_id": "sense-staged-ox-8123bcaa723270d7-p03-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

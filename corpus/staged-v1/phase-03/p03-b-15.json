@@ -1,0 +1,227 @@
+{
+  "id": "p03-b-15",
+  "title_zh": "绕开封闭小桥去城堡",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "historic-town-walking-route",
+    "label_zh": "确认古城步行路线",
+    "goal_zh": "根据封路情况确认到城堡的替代步行路线。"
+  },
+  "participants": [
+    "Benita",
+    "Driver Hassan"
+  ],
+  "context_zh": "游客在古城下车后，向司机确认替代步行路线与回程上车点。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-15-s01",
+      "speaker": "Benita",
+      "text": "Is this the right stop for the castle?"
+    },
+    {
+      "id": "p03-b-15-s02",
+      "speaker": "Driver Hassan",
+      "text": "Yes, but the bridge on the direct route is closed today."
+    },
+    {
+      "id": "p03-b-15-s03",
+      "speaker": "Benita",
+      "text": "Which direction should I go instead?"
+    },
+    {
+      "id": "p03-b-15-s04",
+      "speaker": "Driver Hassan",
+      "text": "Walk one block to the church, then turn left at the corner."
+    },
+    {
+      "id": "p03-b-15-s05",
+      "speaker": "Benita",
+      "text": "Do I cross the river there?"
+    },
+    {
+      "id": "p03-b-15-s06",
+      "speaker": "Driver Hassan",
+      "text": "Yes. Use the stone bridge beside the church. The castle is just beyond it."
+    },
+    {
+      "id": "p03-b-15-s07",
+      "speaker": "Benita",
+      "text": "Thanks. Where do I board the bus for the return journey?"
+    },
+    {
+      "id": "p03-b-15-s08",
+      "speaker": "Driver Hassan",
+      "text": "At the stop opposite this one. You can catch the last bus at six."
+    },
+    {
+      "id": "p03-b-15-s09",
+      "speaker": "Benita",
+      "text": "Got it. I will use the stone bridge and be back here before six."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e932ccb3532bdd59",
+      "lemma": "castle",
+      "pos": "n.",
+      "sense_zh": "城堡",
+      "sentence_ids": [
+        "p03-b-15-s01"
+      ],
+      "forms": [
+        "castle"
+      ],
+      "sense_id": "sense-staged-ox-e932ccb3532bdd59-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6aa2c03be3aae5e",
+      "lemma": "bridge",
+      "pos": "n.",
+      "sense_zh": "桥",
+      "sentence_ids": [
+        "p03-b-15-s02"
+      ],
+      "forms": [
+        "bridge"
+      ],
+      "sense_id": "sense-staged-ox-f6aa2c03be3aae5e-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-11a1d93943b6cf45",
+      "lemma": "closed",
+      "pos": "adj.",
+      "sense_zh": "关闭的；不开放的",
+      "sentence_ids": [
+        "p03-b-15-s02"
+      ],
+      "forms": [
+        "closed"
+      ],
+      "sense_id": "sense-staged-ox-11a1d93943b6cf45-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b92bdacae27af083",
+      "lemma": "direction",
+      "pos": "n.",
+      "sense_zh": "方向",
+      "sentence_ids": [
+        "p03-b-15-s03"
+      ],
+      "forms": [
+        "direction"
+      ],
+      "sense_id": "sense-staged-ox-b92bdacae27af083-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10b9dd6616d05ddb",
+      "lemma": "block",
+      "pos": "n.",
+      "sense_zh": "街区；两条横街之间的路段",
+      "sentence_ids": [
+        "p03-b-15-s04"
+      ],
+      "forms": [
+        "block"
+      ],
+      "sense_id": "sense-staged-ox-10b9dd6616d05ddb-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-01ca618d3e5f2514",
+      "lemma": "church",
+      "pos": "n.",
+      "sense_zh": "教堂",
+      "sentence_ids": [
+        "p03-b-15-s04"
+      ],
+      "forms": [
+        "church"
+      ],
+      "sense_id": "sense-staged-ox-01ca618d3e5f2514-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-336752faadfa7682",
+      "lemma": "corner",
+      "pos": "n.",
+      "sense_zh": "街角",
+      "sentence_ids": [
+        "p03-b-15-s04"
+      ],
+      "forms": [
+        "corner"
+      ],
+      "sense_id": "sense-staged-ox-336752faadfa7682-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c062fd0c30fe04f7",
+      "lemma": "cross",
+      "pos": "v.",
+      "sense_zh": "穿过；越过",
+      "sentence_ids": [
+        "p03-b-15-s05"
+      ],
+      "forms": [
+        "cross"
+      ],
+      "sense_id": "sense-staged-ox-c062fd0c30fe04f7-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-627e53312dfd7c1f",
+      "lemma": "board",
+      "pos": "v.",
+      "sense_zh": "登上公共交通工具",
+      "sentence_ids": [
+        "p03-b-15-s07"
+      ],
+      "forms": [
+        "board"
+      ],
+      "sense_id": "sense-staged-ox-627e53312dfd7c1f-p03-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef8b511722d49eb2",
+      "lemma": "catch",
+      "pos": "v.",
+      "sense_zh": "赶上并搭乘交通工具",
+      "sentence_ids": [
+        "p03-b-15-s08"
+      ],
+      "forms": [
+        "catch"
+      ],
+      "sense_id": "sense-staged-ox-ef8b511722d49eb2-p03-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

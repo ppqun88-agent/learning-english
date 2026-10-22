@@ -1,0 +1,121 @@
+{
+  "id": "p03-a-19",
+  "title_zh": "调整奇幻舞台剧的战斗场面",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fantasy-play-battle-rehearsal",
+    "label_zh": "排练奇幻舞台战斗场景",
+    "goal_zh": "澄清虚构角色的情境并确定以音效表现台外战斗时的入场方式"
+  },
+  "participants": [
+    "Cleo",
+    "Arun"
+  ],
+  "context_zh": "社区剧团排练完全虚构的奇幻故事，讨论的是舞台表现而非真实军事行动。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-19-s01",
+      "speaker": "Cleo",
+      "text": "I have never had to act frightened before. What has my character just seen?"
+    },
+    {
+      "id": "p03-a-19-s02",
+      "speaker": "Arun",
+      "text": "In this world, the queen's army guards the floating city. Your character has seen the enemy ships arrive."
+    },
+    {
+      "id": "p03-a-19-s03",
+      "speaker": "Cleo",
+      "text": "Does the attack happen on stage?"
+    },
+    {
+      "id": "p03-a-19-s04",
+      "speaker": "Arun",
+      "text": "No. The audience hears a bell and a distant crash. Then you enter with the warning."
+    },
+    {
+      "id": "p03-a-19-s05",
+      "speaker": "Cleo",
+      "text": "So I should look back toward the sound before I speak?"
+    },
+    {
+      "id": "p03-a-19-s06",
+      "speaker": "Arun",
+      "text": "Yes. Take a moment to catch your breath, then deliver the first line."
+    },
+    {
+      "id": "p03-a-19-s07",
+      "speaker": "Cleo",
+      "text": "Let us try it with the bell. I think I understand the entrance now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d515b3afc87b533d",
+      "lemma": "act",
+      "pos": "v.",
+      "sense_zh": "表演出某种情绪或状态",
+      "sentence_ids": [
+        "p03-a-19-s01"
+      ],
+      "forms": [
+        "act"
+      ],
+      "sense_id": "sense-staged-ox-d515b3afc87b533d-p03-a-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f11990bb4ffffa8c",
+      "lemma": "world",
+      "pos": "n.",
+      "sense_zh": "故事中的世界",
+      "sentence_ids": [
+        "p03-a-19-s02"
+      ],
+      "forms": [
+        "world"
+      ],
+      "sense_id": "sense-staged-ox-f11990bb4ffffa8c-p03-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d02b8ff35ac618d5",
+      "lemma": "army",
+      "pos": "n.",
+      "sense_zh": "军队",
+      "sentence_ids": [
+        "p03-a-19-s02"
+      ],
+      "forms": [
+        "army"
+      ],
+      "sense_id": "sense-staged-ox-d02b8ff35ac618d5-p03-a-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb1241d64f3a0752",
+      "lemma": "attack",
+      "pos": "n.",
+      "sense_zh": "攻击，进攻",
+      "sentence_ids": [
+        "p03-a-19-s03"
+      ],
+      "forms": [
+        "attack"
+      ],
+      "sense_id": "sense-staged-ox-eb1241d64f3a0752-p03-a-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

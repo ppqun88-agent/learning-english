@@ -1,0 +1,121 @@
+{
+  "id": "p03-c-16",
+  "title_zh": "挑选一幅装框的礼物画",
+  "topic_id": "services",
+  "scenario": {
+    "id": "gallery-print-gift-choice",
+    "label_zh": "在画廊挑选礼物画作",
+    "goal_zh": "按收礼人喜好选定画作和边框颜色"
+  },
+  "participants": [
+    "Arlo",
+    "Gallery Assistant Mei"
+  ],
+  "context_zh": "顾客在画廊为姐姐挑选一幅小画，并比较画框。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-16-s01",
+      "speaker": "Arlo",
+      "text": "I'm looking for a gift for my sister. She likes quiet city scenes."
+    },
+    {
+      "id": "p03-c-16-s02",
+      "speaker": "Gallery Assistant Mei",
+      "text": "This drawing of the old station might suit her. The artist drew it from the bridge."
+    },
+    {
+      "id": "p03-c-16-s03",
+      "speaker": "Arlo",
+      "text": "I like that. Is it available without the gold frame?"
+    },
+    {
+      "id": "p03-c-16-s04",
+      "speaker": "Gallery Assistant Mei",
+      "text": "Yes. We have a plain wooden frame, or you can buy the drawing on its own."
+    },
+    {
+      "id": "p03-c-16-s05",
+      "speaker": "Arlo",
+      "text": "Could I see it with the wooden one? Her room has quite simple furniture."
+    },
+    {
+      "id": "p03-c-16-s06",
+      "speaker": "Gallery Assistant Mei",
+      "text": "Certainly. We can frame it here at the gallery and have it ready on Friday."
+    },
+    {
+      "id": "p03-c-16-s07",
+      "speaker": "Arlo",
+      "text": "That gives me enough time. I'll take it with the wooden frame, please."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ce291f268bc75374",
+      "lemma": "drawing",
+      "pos": "n.",
+      "sense_zh": "图画；素描",
+      "sentence_ids": [
+        "p03-c-16-s02"
+      ],
+      "forms": [
+        "drawing"
+      ],
+      "sense_id": "sense-staged-ox-ce291f268bc75374-p03-c-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-992a09a5cc735404",
+      "lemma": "gallery",
+      "pos": "n.",
+      "sense_zh": "画廊",
+      "sentence_ids": [
+        "p03-c-16-s06"
+      ],
+      "forms": [
+        "gallery"
+      ],
+      "sense_id": "sense-staged-ox-992a09a5cc735404-p03-c-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-20e2d47d1bd7c2e0",
+      "lemma": "gift",
+      "pos": "n.",
+      "sense_zh": "礼物",
+      "sentence_ids": [
+        "p03-c-16-s01"
+      ],
+      "forms": [
+        "gift"
+      ],
+      "sense_id": "sense-staged-ox-20e2d47d1bd7c2e0-p03-c-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4183cb9b21948fde",
+      "lemma": "gold",
+      "pos": "adj.",
+      "sense_zh": "金色的",
+      "sentence_ids": [
+        "p03-c-16-s03"
+      ],
+      "forms": [
+        "gold"
+      ],
+      "sense_id": "sense-staged-ox-4183cb9b21948fde-p03-c-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

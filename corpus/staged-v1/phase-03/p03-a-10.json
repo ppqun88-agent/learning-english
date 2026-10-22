@@ -1,0 +1,163 @@
+{
+  "id": "p03-a-10",
+  "title_zh": "交接第一次助理班次",
+  "topic_id": "work",
+  "scenario": {
+    "id": "first-assistant-shift-handover",
+    "label_zh": "交接新助理首班职责",
+    "goal_zh": "让新来的临时员工了解工作内容和当班支持人员"
+  },
+  "participants": [
+    "Mae",
+    "Dev"
+  ],
+  "context_zh": "主管在文具仓库向新来的临时助理交接早班工作。",
+  "author": "author-phase03-a",
+  "sentences": [
+    {
+      "id": "p03-a-10-s01",
+      "speaker": "Mae",
+      "text": "I am the new assistant. Where should I start?"
+    },
+    {
+      "id": "p03-a-10-s02",
+      "speaker": "Dev",
+      "text": "Most of the work this morning is checking delivery labels."
+    },
+    {
+      "id": "p03-a-10-s03",
+      "speaker": "Mae",
+      "text": "I was told to report to the worker at the loading desk."
+    },
+    {
+      "id": "p03-a-10-s04",
+      "speaker": "Dev",
+      "text": "Actually, she is on a break. I can show you the first box."
+    },
+    {
+      "id": "p03-a-10-s05",
+      "speaker": "Mae",
+      "text": "Thanks. Will I be alone here after you leave?"
+    },
+    {
+      "id": "p03-a-10-s06",
+      "speaker": "Dev",
+      "text": "No. Hana will be beside you. She has already checked these two shelves."
+    },
+    {
+      "id": "p03-a-10-s07",
+      "speaker": "Mae",
+      "text": "So I should start with the shelf by the door?"
+    },
+    {
+      "id": "p03-a-10-s08",
+      "speaker": "Dev",
+      "text": "Exactly. Ask Hana before moving anything with a damaged label."
+    },
+    {
+      "id": "p03-a-10-s09",
+      "speaker": "Mae",
+      "text": "Understood. I will check the labels first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b15f11ac87e0038e",
+      "lemma": "assistant",
+      "pos": "n.",
+      "sense_zh": "助理",
+      "sentence_ids": [
+        "p03-a-10-s01"
+      ],
+      "forms": [
+        "assistant"
+      ],
+      "sense_id": "sense-staged-ox-b15f11ac87e0038e-p03-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-013adb241222f537",
+      "lemma": "work",
+      "pos": "n.",
+      "sense_zh": "工作任务",
+      "sentence_ids": [
+        "p03-a-10-s02"
+      ],
+      "forms": [
+        "work"
+      ],
+      "sense_id": "sense-staged-ox-013adb241222f537-p03-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-faafcdfbaf9f2ac7",
+      "lemma": "worker",
+      "pos": "n.",
+      "sense_zh": "工作人员",
+      "sentence_ids": [
+        "p03-a-10-s03"
+      ],
+      "forms": [
+        "worker"
+      ],
+      "sense_id": "sense-staged-ox-faafcdfbaf9f2ac7-p03-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e69a2d1e6597b636",
+      "lemma": "actually",
+      "pos": "adv.",
+      "sense_zh": "实际上，用于纠正说明",
+      "sentence_ids": [
+        "p03-a-10-s04"
+      ],
+      "forms": [
+        "actually"
+      ],
+      "sense_id": "sense-staged-ox-e69a2d1e6597b636-p03-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-928abc5e1a3a5b71",
+      "lemma": "alone",
+      "pos": "adj.",
+      "sense_zh": "独自的，没有他人陪同的",
+      "sentence_ids": [
+        "p03-a-10-s05"
+      ],
+      "forms": [
+        "alone"
+      ],
+      "sense_id": "sense-staged-ox-928abc5e1a3a5b71-p03-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17cb3f177b36e701",
+      "lemma": "already",
+      "pos": "adv.",
+      "sense_zh": "已经",
+      "sentence_ids": [
+        "p03-a-10-s06"
+      ],
+      "forms": [
+        "already"
+      ],
+      "sense_id": "sense-staged-ox-17cb3f177b36e701-p03-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

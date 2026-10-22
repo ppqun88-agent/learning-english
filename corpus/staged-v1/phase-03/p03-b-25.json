@@ -1,0 +1,100 @@
+{
+  "id": "p03-b-25",
+  "title_zh": "试吃后选一包清淡薯片",
+  "topic_id": "food",
+  "scenario": {
+    "id": "snack-counter-tasting",
+    "label_zh": "试吃后选择零食",
+    "goal_zh": "询问口味并在甜咸零食之间完成选择。"
+  },
+  "participants": [
+    "Customer Mina",
+    "Shopkeeper Hugo"
+  ],
+  "context_zh": "顾客在零食柜台比较样品，按口味选择小包装。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-25-s01",
+      "speaker": "Customer Mina",
+      "text": "Are these samples free? I cannot decide between something sweet and something salty."
+    },
+    {
+      "id": "p03-b-25-s02",
+      "speaker": "Shopkeeper Hugo",
+      "text": "Yes. You can try a chip from this bowl. The candy samples are in the small paper cups."
+    },
+    {
+      "id": "p03-b-25-s03",
+      "speaker": "Customer Mina",
+      "text": "Thank you. That chip is a bit too salty for me."
+    },
+    {
+      "id": "p03-b-25-s04",
+      "speaker": "Shopkeeper Hugo",
+      "text": "We have a plain version with less salt. Would you like to try it?"
+    },
+    {
+      "id": "p03-b-25-s05",
+      "speaker": "Customer Mina",
+      "text": "Yes, please. That is much better. I will take one small bag of the plain ones."
+    },
+    {
+      "id": "p03-b-25-s06",
+      "speaker": "Shopkeeper Hugo",
+      "text": "Here you are. I will ring that up for you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-23bb9235a7943efb",
+      "lemma": "chip",
+      "pos": "n.",
+      "sense_zh": "薄脆炸薯片，美式用法",
+      "sentence_ids": [
+        "p03-b-25-s02"
+      ],
+      "forms": [
+        "chip"
+      ],
+      "sense_id": "sense-staged-ox-23bb9235a7943efb-p03-b-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d82206405af4ec4",
+      "lemma": "candy",
+      "pos": "n.",
+      "sense_zh": "糖果",
+      "sentence_ids": [
+        "p03-b-25-s02"
+      ],
+      "forms": [
+        "candy"
+      ],
+      "sense_id": "sense-staged-ox-1d82206405af4ec4-p03-b-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d8fdd3b33eef7e90",
+      "lemma": "bit",
+      "pos": "n.",
+      "sense_zh": "少量；a bit 表示稍微",
+      "sentence_ids": [
+        "p03-b-25-s03"
+      ],
+      "forms": [
+        "bit"
+      ],
+      "sense_id": "sense-staged-ox-d8fdd3b33eef7e90-p03-b-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,147 @@
+{
+  "id": "p03-c-08",
+  "title_zh": "预约检查发动机声音",
+  "topic_id": "services",
+  "scenario": {
+    "id": "garage-engine-noise-booking",
+    "label_zh": "预约检查汽车异响",
+    "goal_zh": "描述驾驶中的异响并确认送检及反馈时间"
+  },
+  "participants": [
+    "Rosa",
+    "Dev"
+  ],
+  "context_zh": "驾驶者打电话给维修店，描述车况并安排送检，不提供车辆维修操作建议。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-08-s01",
+      "speaker": "Rosa",
+      "text": "The engine makes a rattling noise when I start the car. Could you take a look?"
+    },
+    {
+      "id": "p03-c-08-s02",
+      "speaker": "Dev",
+      "text": "When did you first hear it?"
+    },
+    {
+      "id": "p03-c-08-s03",
+      "speaker": "Rosa",
+      "text": "Yesterday. I haven't done any driving today."
+    },
+    {
+      "id": "p03-c-08-s04",
+      "speaker": "Dev",
+      "text": "Thanks. Is there enough gas in the tank for us to run the engine during the inspection?"
+    },
+    {
+      "id": "p03-c-08-s05",
+      "speaker": "Rosa",
+      "text": "Yes, it's half full. Can you tell what's wrong from the sound?"
+    },
+    {
+      "id": "p03-c-08-s06",
+      "speaker": "Dev",
+      "text": "Not over the phone. We need to inspect it before offering an explanation."
+    },
+    {
+      "id": "p03-c-08-s07",
+      "speaker": "Rosa",
+      "text": "When can I expect a call from you?"
+    },
+    {
+      "id": "p03-c-08-s08",
+      "speaker": "Dev",
+      "text": "If the recovery service brings it in tomorrow morning, we'll call that afternoon before doing any repair work."
+    },
+    {
+      "id": "p03-c-08-s09",
+      "speaker": "Rosa",
+      "text": "All right. I'll arrange delivery and leave my number with the car."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2d4a724f0816f182",
+      "lemma": "driving",
+      "pos": "n.",
+      "sense_zh": "驾驶活动",
+      "sentence_ids": [
+        "p03-c-08-s03"
+      ],
+      "forms": [
+        "driving"
+      ],
+      "sense_id": "sense-staged-ox-2d4a724f0816f182-p03-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-33dc58ff2739608e",
+      "lemma": "engine",
+      "pos": "n.",
+      "sense_zh": "发动机",
+      "sentence_ids": [
+        "p03-c-08-s01"
+      ],
+      "forms": [
+        "engine"
+      ],
+      "sense_id": "sense-staged-ox-33dc58ff2739608e-p03-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb621508ba3e15f8",
+      "lemma": "gas",
+      "pos": "n.",
+      "sense_zh": "汽油（美式英语）",
+      "sentence_ids": [
+        "p03-c-08-s04"
+      ],
+      "forms": [
+        "gas"
+      ],
+      "sense_id": "sense-staged-ox-eb621508ba3e15f8-p03-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6f63cece4b3fc285",
+      "lemma": "expect",
+      "pos": "v.",
+      "sense_zh": "预期；预计",
+      "sentence_ids": [
+        "p03-c-08-s07"
+      ],
+      "forms": [
+        "expect"
+      ],
+      "sense_id": "sense-staged-ox-6f63cece4b3fc285-p03-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7bb23247b7f39652",
+      "lemma": "explanation",
+      "pos": "n.",
+      "sense_zh": "对原因的说明",
+      "sentence_ids": [
+        "p03-c-08-s06"
+      ],
+      "forms": [
+        "explanation"
+      ],
+      "sense_id": "sense-staged-ox-7bb23247b7f39652-p03-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

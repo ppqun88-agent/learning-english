@@ -1,0 +1,126 @@
+{
+  "id": "p03-c-22",
+  "title_zh": "问清公共场馆的资助范围",
+  "topic_id": "society",
+  "scenario": {
+    "id": "council-funding-email",
+    "label_zh": "拟定公共场馆资助询问信",
+    "goal_zh": "区分一般资助信息与具体申请问题并约定发送询问"
+  },
+  "participants": [
+    "Jonah",
+    "Esme"
+  ],
+  "context_zh": "虚构社区小组商量给当地政府写资助询问信，不提供政策或法律建议。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-22-s01",
+      "speaker": "Jonah",
+      "text": "Does the government fund repairs to community buildings, or only new projects?"
+    },
+    {
+      "id": "p03-c-22-s02",
+      "speaker": "Esme",
+      "text": "This page gives general information, but it doesn't answer that question."
+    },
+    {
+      "id": "p03-c-22-s03",
+      "speaker": "Jonah",
+      "text": "Then let's ask for further details before we spend time on an application."
+    },
+    {
+      "id": "p03-c-22-s04",
+      "speaker": "Esme",
+      "text": "Agreed. We should explain that our hall needs a new roof."
+    },
+    {
+      "id": "p03-c-22-s05",
+      "speaker": "Jonah",
+      "text": "Should we say it isn't fair that the sports centre got support and we didn't?"
+    },
+    {
+      "id": "p03-c-22-s06",
+      "speaker": "Esme",
+      "text": "We don't know how that decision was made. Let's ask about the criteria, not assume the two cases are the same."
+    },
+    {
+      "id": "p03-c-22-s07",
+      "speaker": "Jonah",
+      "text": "You're right. I'll draft a short enquiry about repairs and eligibility."
+    },
+    {
+      "id": "p03-c-22-s08",
+      "speaker": "Esme",
+      "text": "Send me the draft first, and we'll check it together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1d5ebf435382f179",
+      "lemma": "government",
+      "pos": "n.",
+      "sense_zh": "政府",
+      "sentence_ids": [
+        "p03-c-22-s01"
+      ],
+      "forms": [
+        "government"
+      ],
+      "sense_id": "sense-staged-ox-1d5ebf435382f179-p03-c-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df8aa08e368908bc",
+      "lemma": "general",
+      "pos": "adj.",
+      "sense_zh": "概括性的；非具体的",
+      "sentence_ids": [
+        "p03-c-22-s02"
+      ],
+      "forms": [
+        "general"
+      ],
+      "sense_id": "sense-staged-ox-df8aa08e368908bc-p03-c-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-29dc29675c81a086",
+      "lemma": "further",
+      "pos": "adj.",
+      "sense_zh": "进一步的；更多的",
+      "sentence_ids": [
+        "p03-c-22-s03"
+      ],
+      "forms": [
+        "further"
+      ],
+      "sense_id": "sense-staged-ox-29dc29675c81a086-p03-c-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1949716d3a5f4af6",
+      "lemma": "fair",
+      "pos": "adj.",
+      "sense_zh": "公平的",
+      "sentence_ids": [
+        "p03-c-22-s05"
+      ],
+      "forms": [
+        "fair"
+      ],
+      "sense_id": "sense-staged-ox-1949716d3a5f4af6-p03-c-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

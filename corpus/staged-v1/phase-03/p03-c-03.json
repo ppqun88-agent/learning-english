@@ -1,0 +1,179 @@
+{
+  "id": "p03-c-03",
+  "title_zh": "让短剧结尾更可信",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "short-play-ending-rehearsal",
+    "label_zh": "修改短剧结尾表演",
+    "goal_zh": "根据角色动机调整冲突场景和结尾的表演方式"
+  },
+  "participants": [
+    "Luca",
+    "Mabel"
+  ],
+  "context_zh": "业余剧团排练一部虚构短剧，演员和导演协商结尾的情绪表达。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-03-s01",
+      "speaker": "Luca",
+      "text": "The ending feels sudden. Why does the hero forgive his brother?"
+    },
+    {
+      "id": "p03-c-03-s02",
+      "speaker": "Mabel",
+      "text": "Because he realizes they both want the same thing. This is a family drama, not an action film."
+    },
+    {
+      "id": "p03-c-03-s03",
+      "speaker": "Luca",
+      "text": "Then do we need the fight in the last scene?"
+    },
+    {
+      "id": "p03-c-03-s04",
+      "speaker": "Mabel",
+      "text": "We can remove it. He can put down the toy gun and listen instead."
+    },
+    {
+      "id": "p03-c-03-s05",
+      "speaker": "Luca",
+      "text": "How do I express his anger without shouting?"
+    },
+    {
+      "id": "p03-c-03-s06",
+      "speaker": "Mabel",
+      "text": "Try a long pause. Let your face do some of the work."
+    },
+    {
+      "id": "p03-c-03-s07",
+      "speaker": "Luca",
+      "text": "Like this?"
+    },
+    {
+      "id": "p03-c-03-s08",
+      "speaker": "Mabel",
+      "text": "Yes. That expression looks hurt rather than cruel."
+    },
+    {
+      "id": "p03-c-03-s09",
+      "speaker": "Luca",
+      "text": "That makes the apology easier to believe. Let's try the scene again without the struggle."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7f4385b125ecf97f",
+      "lemma": "drama",
+      "pos": "n.",
+      "sense_zh": "戏剧作品",
+      "sentence_ids": [
+        "p03-c-03-s02"
+      ],
+      "forms": [
+        "drama"
+      ],
+      "sense_id": "sense-staged-ox-7f4385b125ecf97f-p03-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00536ad59dd44a6f",
+      "lemma": "ending",
+      "pos": "n.",
+      "sense_zh": "结尾",
+      "sentence_ids": [
+        "p03-c-03-s01"
+      ],
+      "forms": [
+        "ending"
+      ],
+      "sense_id": "sense-staged-ox-00536ad59dd44a6f-p03-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-56e109ea6549adc7",
+      "lemma": "express",
+      "pos": "v.",
+      "sense_zh": "表达；表现感情",
+      "sentence_ids": [
+        "p03-c-03-s05"
+      ],
+      "forms": [
+        "express"
+      ],
+      "sense_id": "sense-staged-ox-56e109ea6549adc7-p03-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c64ca3e101fb3b13",
+      "lemma": "expression",
+      "pos": "n.",
+      "sense_zh": "面部表情",
+      "sentence_ids": [
+        "p03-c-03-s08"
+      ],
+      "forms": [
+        "expression"
+      ],
+      "sense_id": "sense-staged-ox-c64ca3e101fb3b13-p03-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c794d6aff0c2e4a9",
+      "lemma": "hero",
+      "pos": "n.",
+      "sense_zh": "故事中的男主角",
+      "sentence_ids": [
+        "p03-c-03-s01"
+      ],
+      "forms": [
+        "hero"
+      ],
+      "sense_id": "sense-staged-ox-c794d6aff0c2e4a9-p03-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6cbdf01d634c0213",
+      "lemma": "fight",
+      "pos": "n.",
+      "sense_zh": "打斗",
+      "sentence_ids": [
+        "p03-c-03-s03"
+      ],
+      "forms": [
+        "fight"
+      ],
+      "sense_id": "sense-staged-ox-6cbdf01d634c0213-p03-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bd19b14e203bd6db",
+      "lemma": "gun",
+      "pos": "n.",
+      "sense_zh": "枪；此处指玩具枪所模仿的物品",
+      "sentence_ids": [
+        "p03-c-03-s04"
+      ],
+      "forms": [
+        "gun"
+      ],
+      "sense_id": "sense-staged-ox-bd19b14e203bd6db-p03-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

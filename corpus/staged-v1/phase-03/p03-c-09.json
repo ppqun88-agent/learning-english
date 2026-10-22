@@ -1,0 +1,142 @@
+{
+  "id": "p03-c-09",
+  "title_zh": "第一次帮忙喂鸭子",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "volunteer-duck-feeding",
+    "label_zh": "交接农场鸭群喂养",
+    "goal_zh": "识别照护对象并核对工作人员安排的喂食位置"
+  },
+  "participants": [
+    "Mae",
+    "Owen"
+  ],
+  "context_zh": "教育农场的工作人员向新志愿者交接当天已安排好的鸭群照护工作。",
+  "author": "author-phase03-c",
+  "sentences": [
+    {
+      "id": "p03-c-09-s01",
+      "speaker": "Mae",
+      "text": "I've never worked in farming. Could you show me where to start?"
+    },
+    {
+      "id": "p03-c-09-s02",
+      "speaker": "Owen",
+      "text": "Of course. Today you'll help me feed the ducks, using the portions I've prepared."
+    },
+    {
+      "id": "p03-c-09-s03",
+      "speaker": "Mae",
+      "text": "Are they in the field behind the barn?"
+    },
+    {
+      "id": "p03-c-09-s04",
+      "speaker": "Owen",
+      "text": "Yes, through this gate. Please close it behind us."
+    },
+    {
+      "id": "p03-c-09-s05",
+      "speaker": "Mae",
+      "text": "Does the female duck with the blue tag eat with the others?"
+    },
+    {
+      "id": "p03-c-09-s06",
+      "speaker": "Owen",
+      "text": "Not today. Her portion goes in the separate pen, and I'll take it to her."
+    },
+    {
+      "id": "p03-c-09-s07",
+      "speaker": "Mae",
+      "text": "So I only carry the two bowls marked 'Main group'?"
+    },
+    {
+      "id": "p03-c-09-s08",
+      "speaker": "Owen",
+      "text": "That's right. Bring those, and we'll do the round together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1665a1b32f94a685",
+      "lemma": "farming",
+      "pos": "n.",
+      "sense_zh": "农业生产；农场工作",
+      "sentence_ids": [
+        "p03-c-09-s01"
+      ],
+      "forms": [
+        "farming"
+      ],
+      "sense_id": "sense-staged-ox-1665a1b32f94a685-p03-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0dc04cb76fe77762",
+      "lemma": "field",
+      "pos": "n.",
+      "sense_zh": "田地；农场的地块",
+      "sentence_ids": [
+        "p03-c-09-s03"
+      ],
+      "forms": [
+        "field"
+      ],
+      "sense_id": "sense-staged-ox-0dc04cb76fe77762-p03-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c5bd458bdfc00885",
+      "lemma": "feed",
+      "pos": "v.",
+      "sense_zh": "喂养；给食物",
+      "sentence_ids": [
+        "p03-c-09-s02"
+      ],
+      "forms": [
+        "feed"
+      ],
+      "sense_id": "sense-staged-ox-c5bd458bdfc00885-p03-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc07d7c1493236f5",
+      "lemma": "female",
+      "pos": "adj.",
+      "sense_zh": "雌性的",
+      "sentence_ids": [
+        "p03-c-09-s05"
+      ],
+      "forms": [
+        "female"
+      ],
+      "sense_id": "sense-staged-ox-fc07d7c1493236f5-p03-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-755b7d5938c890b1",
+      "lemma": "gate",
+      "pos": "n.",
+      "sense_zh": "栅栏门；大门",
+      "sentence_ids": [
+        "p03-c-09-s04"
+      ],
+      "forms": [
+        "gate"
+      ],
+      "sense_id": "sense-staged-ox-755b7d5938c890b1-p03-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

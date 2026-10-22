@@ -1,0 +1,100 @@
+{
+  "id": "p03-b-21",
+  "title_zh": "为父母周年聚餐确认人数",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "parents-anniversary-table",
+    "label_zh": "安排父母结婚周年聚餐",
+    "goal_zh": "确定参加人数并为家庭纪念日协调见面时间。"
+  },
+  "participants": [
+    "Mae",
+    "Tom"
+  ],
+  "context_zh": "兄妹预订父母结婚周年聚餐，核对参加人数和到场时间。",
+  "author": "author-phase03-b",
+  "sentences": [
+    {
+      "id": "p03-b-21-s01",
+      "speaker": "Mae",
+      "text": "Shall we celebrate Mum and Dad's anniversary at the little restaurant by the station?"
+    },
+    {
+      "id": "p03-b-21-s02",
+      "speaker": "Tom",
+      "text": "Brilliant. They went there when they were a young couple."
+    },
+    {
+      "id": "p03-b-21-s03",
+      "speaker": "Mae",
+      "text": "Exactly. It will be the two of them, the two of us, and Grandma. Five people."
+    },
+    {
+      "id": "p03-b-21-s04",
+      "speaker": "Tom",
+      "text": "I can bring Grandma. Would six thirty be too early?"
+    },
+    {
+      "id": "p03-b-21-s05",
+      "speaker": "Mae",
+      "text": "That works. I will book a table for five at six thirty."
+    },
+    {
+      "id": "p03-b-21-s06",
+      "speaker": "Tom",
+      "text": "Great. I will collect Grandma at six and meet you at the restaurant."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1fdfd2bb03e2d995",
+      "lemma": "celebrate",
+      "pos": "v.",
+      "sense_zh": "庆祝",
+      "sentence_ids": [
+        "p03-b-21-s01"
+      ],
+      "forms": [
+        "celebrate"
+      ],
+      "sense_id": "sense-staged-ox-1fdfd2bb03e2d995-p03-b-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-767d24b8cab25701",
+      "lemma": "brilliant",
+      "pos": "adj.",
+      "sense_zh": "极好的；表示赞同",
+      "sentence_ids": [
+        "p03-b-21-s02"
+      ],
+      "forms": [
+        "brilliant"
+      ],
+      "sense_id": "sense-staged-ox-767d24b8cab25701-p03-b-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ba3360f69ff1d7f6",
+      "lemma": "couple",
+      "pos": "n.",
+      "sense_zh": "夫妻；伴侣两人",
+      "sentence_ids": [
+        "p03-b-21-s02"
+      ],
+      "forms": [
+        "couple"
+      ],
+      "sense_id": "sense-staged-ox-ba3360f69ff1d7f6-p03-b-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
