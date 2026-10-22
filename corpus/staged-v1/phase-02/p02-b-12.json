@@ -1,0 +1,116 @@
+{
+  "id": "p02-b-12",
+  "title_zh": "第一次去游泳馆",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "first-swimming-session",
+    "label_zh": "确认首次游泳的场馆规则",
+    "goal_zh": "了解入水前要求及离开泳池的时间"
+  },
+  "participants": [
+    "Dylan",
+    "Farah"
+  ],
+  "context_zh": "新会员在接待处询问游泳馆的基本使用规则。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-12-s01",
+      "speaker": "Dylan",
+      "text": "It's my first visit. Is there a rule I should know before I go in?"
+    },
+    {
+      "id": "p02-b-12-s02",
+      "speaker": "Farah",
+      "text": "Please take a shower before entering the pool, and leave your shoes in the changing area."
+    },
+    {
+      "id": "p02-b-12-s03",
+      "speaker": "Dylan",
+      "text": "Of course. Can I stay until the building closes?"
+    },
+    {
+      "id": "p02-b-12-s04",
+      "speaker": "Farah",
+      "text": "You need to get out ten minutes before closing, so everyone has time to change."
+    },
+    {
+      "id": "p02-b-12-s05",
+      "speaker": "Dylan",
+      "text": "All right. I'll watch the clock above the door."
+    },
+    {
+      "id": "p02-b-12-s06",
+      "speaker": "Farah",
+      "text": "Enjoy your swim. The changing rooms are through that door."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b6909e3a7c3f9518",
+      "lemma": "rule",
+      "pos": "n.",
+      "sense_zh": "规则",
+      "sentence_ids": [
+        "p02-b-12-s01"
+      ],
+      "forms": [
+        "rule"
+      ],
+      "sense_id": "sense-staged-ox-b6909e3a7c3f9518-p02-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-07599f3edf4ff8f0",
+      "lemma": "shower",
+      "pos": "n.",
+      "sense_zh": "淋浴",
+      "sentence_ids": [
+        "p02-b-12-s02"
+      ],
+      "forms": [
+        "shower"
+      ],
+      "sense_id": "sense-staged-ox-07599f3edf4ff8f0-p02-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dcf27a781f148888",
+      "lemma": "pool",
+      "pos": "n.",
+      "sense_zh": "游泳池",
+      "sentence_ids": [
+        "p02-b-12-s02"
+      ],
+      "forms": [
+        "pool"
+      ],
+      "sense_id": "sense-staged-ox-dcf27a781f148888-p02-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dda11fcbc06e1a7c",
+      "lemma": "out",
+      "pos": "adv.",
+      "sense_zh": "向外；出来",
+      "sentence_ids": [
+        "p02-b-12-s04"
+      ],
+      "forms": [
+        "out"
+      ],
+      "sense_id": "sense-staged-ox-dda11fcbc06e1a7c-p02-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

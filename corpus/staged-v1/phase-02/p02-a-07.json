@@ -1,0 +1,121 @@
+{
+  "id": "p02-a-07",
+  "title_zh": "替家人领取邻居代收的包裹",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "neighbour-parcel-collection",
+    "label_zh": "向邻居领取代收包裹",
+    "goal_zh": "说明包裹特征并确认代收包裹的归属。"
+  },
+  "participants": [
+    "Callum",
+    "Rose"
+  ],
+  "context_zh": "英国居民替母亲向隔壁邻居领取一个代收包裹。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-07-s01",
+      "speaker": "Callum",
+      "text": "Hello. My mum said a parcel was left with you."
+    },
+    {
+      "id": "p02-a-07-s02",
+      "speaker": "Rose",
+      "text": "Yes, I took one for my neighbour this morning. What kind of parcel is it?"
+    },
+    {
+      "id": "p02-a-07-s03",
+      "speaker": "Callum",
+      "text": "A flat brown box with her name, Elaine Moss, on it."
+    },
+    {
+      "id": "p02-a-07-s04",
+      "speaker": "Rose",
+      "text": "That's the one. Let me get it from the hall."
+    },
+    {
+      "id": "p02-a-07-s05",
+      "speaker": "Callum",
+      "text": "Thank you for taking it in. She was worried it would be left outside."
+    },
+    {
+      "id": "p02-a-07-s06",
+      "speaker": "Rose",
+      "text": "No trouble at all. Here you are."
+    },
+    {
+      "id": "p02-a-07-s07",
+      "speaker": "Callum",
+      "text": "I'll take it straight round to her."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1c95282a4582acdd",
+      "lemma": "mum",
+      "pos": "n.",
+      "sense_zh": "妈妈（英式非正式称呼）",
+      "sentence_ids": [
+        "p02-a-07-s01"
+      ],
+      "forms": [
+        "mum"
+      ],
+      "sense_id": "sense-staged-ox-1c95282a4582acdd-p02-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f9bc696c1493980",
+      "lemma": "neighbour",
+      "pos": "n.",
+      "sense_zh": "邻居（英式拼写）",
+      "sentence_ids": [
+        "p02-a-07-s02"
+      ],
+      "forms": [
+        "neighbour"
+      ],
+      "sense_id": "sense-staged-ox-2f9bc696c1493980-p02-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c9366c95b15bdb0",
+      "lemma": "kind",
+      "pos": "n.",
+      "sense_zh": "种类",
+      "sentence_ids": [
+        "p02-a-07-s02"
+      ],
+      "forms": [
+        "kind"
+      ],
+      "sense_id": "sense-staged-ox-7c9366c95b15bdb0-p02-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6fb120a272cc8f09",
+      "lemma": "let",
+      "pos": "v.",
+      "sense_zh": "允许；让",
+      "sentence_ids": [
+        "p02-a-07-s04"
+      ],
+      "forms": [
+        "let"
+      ],
+      "sense_id": "sense-staged-ox-6fb120a272cc8f09-p02-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

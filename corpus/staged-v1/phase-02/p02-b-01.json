@@ -1,0 +1,206 @@
+{
+  "id": "p02-b-01",
+  "title_zh": "点一份清淡的鱼餐",
+  "topic_id": "food",
+  "scenario": {
+    "id": "restaurant-meal-order",
+    "label_zh": "在餐厅选择清淡餐点",
+    "goal_zh": "核对酱汁、配菜和调味需求后完成点餐"
+  },
+  "participants": [
+    "Elena",
+    "Marcus"
+  ],
+  "context_zh": "顾客第一次来这家餐厅，希望选一份不油腻的晚餐。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-01-s01",
+      "speaker": "Elena",
+      "text": "Can I order now?"
+    },
+    {
+      "id": "p02-b-01-s02",
+      "speaker": "Marcus",
+      "text": "Of course. The fish is the most popular dish at this restaurant."
+    },
+    {
+      "id": "p02-b-01-s03",
+      "speaker": "Elena",
+      "text": "Is the sauce very rich? I prefer something light."
+    },
+    {
+      "id": "p02-b-01-s04",
+      "speaker": "Marcus",
+      "text": "We can serve the fish without the sauce, with rice and vegetables."
+    },
+    {
+      "id": "p02-b-01-s05",
+      "speaker": "Elena",
+      "text": "That sounds good. No extra salt, please."
+    },
+    {
+      "id": "p02-b-01-s06",
+      "speaker": "Marcus",
+      "text": "Would you like some black pepper on the side?"
+    },
+    {
+      "id": "p02-b-01-s07",
+      "speaker": "Elena",
+      "text": "Yes, and an orange for dessert, if you have one."
+    },
+    {
+      "id": "p02-b-01-s08",
+      "speaker": "Marcus",
+      "text": "We do. I'll bring the fish first and the fruit afterwards."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6b15186e81aa8ca9",
+      "lemma": "order",
+      "pos": "v.",
+      "sense_zh": "点餐",
+      "sentence_ids": [
+        "p02-b-01-s01"
+      ],
+      "forms": [
+        "order"
+      ],
+      "sense_id": "sense-staged-ox-6b15186e81aa8ca9-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3a6cd9ee7f570ad0",
+      "lemma": "restaurant",
+      "pos": "n.",
+      "sense_zh": "餐厅",
+      "sentence_ids": [
+        "p02-b-01-s02"
+      ],
+      "forms": [
+        "restaurant"
+      ],
+      "sense_id": "sense-staged-ox-3a6cd9ee7f570ad0-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eeb9113d9d5ab35c",
+      "lemma": "rich",
+      "pos": "adj.",
+      "sense_zh": "食物味道浓厚而油腻的",
+      "sentence_ids": [
+        "p02-b-01-s03"
+      ],
+      "forms": [
+        "rich"
+      ],
+      "sense_id": "sense-staged-ox-eeb9113d9d5ab35c-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2745c646484058e1",
+      "lemma": "prefer",
+      "pos": "v.",
+      "sense_zh": "更喜欢",
+      "sentence_ids": [
+        "p02-b-01-s03"
+      ],
+      "forms": [
+        "prefer"
+      ],
+      "sense_id": "sense-staged-ox-2745c646484058e1-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-228f6966f5bcb52b",
+      "lemma": "rice",
+      "pos": "n.",
+      "sense_zh": "米饭",
+      "sentence_ids": [
+        "p02-b-01-s04"
+      ],
+      "forms": [
+        "rice"
+      ],
+      "sense_id": "sense-staged-ox-228f6966f5bcb52b-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c8b983704a2bd49",
+      "lemma": "salt",
+      "pos": "n.",
+      "sense_zh": "食盐",
+      "sentence_ids": [
+        "p02-b-01-s05"
+      ],
+      "forms": [
+        "salt"
+      ],
+      "sense_id": "sense-staged-ox-0c8b983704a2bd49-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8ed3e88f532f3ed9",
+      "lemma": "please",
+      "pos": "exclam.",
+      "sense_zh": "请，用于礼貌请求",
+      "sentence_ids": [
+        "p02-b-01-s05"
+      ],
+      "forms": [
+        "please"
+      ],
+      "sense_id": "sense-staged-ox-8ed3e88f532f3ed9-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e77e5fdab9acefec",
+      "lemma": "pepper",
+      "pos": "n.",
+      "sense_zh": "胡椒粉",
+      "sentence_ids": [
+        "p02-b-01-s06"
+      ],
+      "forms": [
+        "pepper"
+      ],
+      "sense_id": "sense-staged-ox-e77e5fdab9acefec-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-be6f8cc77d0cd74d",
+      "lemma": "orange",
+      "pos": "n.",
+      "sense_zh": "橙子",
+      "sentence_ids": [
+        "p02-b-01-s07"
+      ],
+      "forms": [
+        "orange"
+      ],
+      "sense_id": "sense-staged-ox-be6f8cc77d0cd74d-p02-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

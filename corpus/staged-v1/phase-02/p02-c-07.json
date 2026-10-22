@@ -1,0 +1,254 @@
+{
+  "id": "p02-c-07",
+  "title_zh": "点汤与热茶并选择座位",
+  "topic_id": "food",
+  "scenario": {
+    "id": "cafe-soup-and-tea-order",
+    "label_zh": "点汤与热茶并选择座位",
+    "goal_zh": "确定窗边座位、餐点和茶的口味"
+  },
+  "participants": [
+    "Priya",
+    "Owen"
+  ],
+  "context_zh": "两位客人在咖啡馆坐下，服务员接受点单。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-07-s01",
+      "speaker": "Priya",
+      "text": "Could we sit at that table by the window?"
+    },
+    {
+      "id": "p02-c-07-s02",
+      "speaker": "Owen",
+      "text": "Yes, I'll bring the menu over."
+    },
+    {
+      "id": "p02-c-07-s03",
+      "speaker": "Priya",
+      "text": "I'm thirsty. Could I have some water first?"
+    },
+    {
+      "id": "p02-c-07-s04",
+      "speaker": "Owen",
+      "text": "Of course. Are you ready to order as well?"
+    },
+    {
+      "id": "p02-c-07-s05",
+      "speaker": "Priya",
+      "text": "Two bowls of tomato soup, please, and a pot of tea."
+    },
+    {
+      "id": "p02-c-07-s06",
+      "speaker": "Owen",
+      "text": "Do you take sugar?"
+    },
+    {
+      "id": "p02-c-07-s07",
+      "speaker": "Priya",
+      "text": "No, thank you. We like strong tea, though."
+    },
+    {
+      "id": "p02-c-07-s08",
+      "speaker": "Owen",
+      "text": "I'll leave it to brew a little longer and bring your water now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b4216addf4022d6f",
+      "lemma": "sit",
+      "pos": "v.",
+      "sense_zh": "坐",
+      "sentence_ids": [
+        "p02-c-07-s01"
+      ],
+      "forms": [
+        "sit"
+      ],
+      "sense_id": "sense-staged-ox-b4216addf4022d6f-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-799c605967661b71",
+      "lemma": "table",
+      "pos": "n.",
+      "sense_zh": "桌子",
+      "sentence_ids": [
+        "p02-c-07-s01"
+      ],
+      "forms": [
+        "table"
+      ],
+      "sense_id": "sense-staged-ox-799c605967661b71-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-93c1211f39eb3fb4",
+      "lemma": "soup",
+      "pos": "n.",
+      "sense_zh": "汤",
+      "sentence_ids": [
+        "p02-c-07-s05"
+      ],
+      "forms": [
+        "soup"
+      ],
+      "sense_id": "sense-staged-ox-93c1211f39eb3fb4-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e94d626d5032556",
+      "lemma": "tomato",
+      "pos": "n.",
+      "sense_zh": "番茄；在此作食物配料名称",
+      "sentence_ids": [
+        "p02-c-07-s05"
+      ],
+      "forms": [
+        "tomato"
+      ],
+      "sense_id": "sense-staged-ox-3e94d626d5032556-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b173067aa5c7cd2b",
+      "lemma": "tea",
+      "pos": "n.",
+      "sense_zh": "茶",
+      "sentence_ids": [
+        "p02-c-07-s05"
+      ],
+      "forms": [
+        "tea"
+      ],
+      "sense_id": "sense-staged-ox-b173067aa5c7cd2b-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-75385a0e22167cbc",
+      "lemma": "sugar",
+      "pos": "n.",
+      "sense_zh": "糖",
+      "sentence_ids": [
+        "p02-c-07-s06"
+      ],
+      "forms": [
+        "sugar"
+      ],
+      "sense_id": "sense-staged-ox-75385a0e22167cbc-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2826e8b43fd1ea89",
+      "lemma": "thirsty",
+      "pos": "adj.",
+      "sense_zh": "口渴的",
+      "sentence_ids": [
+        "p02-c-07-s03"
+      ],
+      "forms": [
+        "thirsty"
+      ],
+      "sense_id": "sense-staged-ox-2826e8b43fd1ea89-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3777acb6faa53097",
+      "lemma": "some",
+      "pos": "det.",
+      "sense_zh": "一些；修饰不可数名词",
+      "sentence_ids": [
+        "p02-c-07-s03"
+      ],
+      "forms": [
+        "some"
+      ],
+      "sense_id": "sense-staged-ox-3777acb6faa53097-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1f296d1d37e7d7bd",
+      "lemma": "that",
+      "pos": "det.",
+      "sense_zh": "那；修饰所指桌子",
+      "sentence_ids": [
+        "p02-c-07-s01"
+      ],
+      "forms": [
+        "that"
+      ],
+      "sense_id": "sense-staged-ox-1f296d1d37e7d7bd-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-87e277a0b42090f1",
+      "lemma": "the",
+      "pos": "definite article",
+      "sense_zh": "定冠词；指现场明确的物体",
+      "sentence_ids": [
+        "p02-c-07-s01"
+      ],
+      "forms": [
+        "the"
+      ],
+      "sense_id": "sense-staged-ox-87e277a0b42090f1-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9b26c4947106106f",
+      "lemma": "two",
+      "pos": "number",
+      "sense_zh": "二",
+      "sentence_ids": [
+        "p02-c-07-s05"
+      ],
+      "forms": [
+        "two"
+      ],
+      "sense_id": "sense-staged-ox-9b26c4947106106f-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-13e2f59cb5fd7135",
+      "lemma": "strong",
+      "pos": "adj.",
+      "sense_zh": "茶味浓的",
+      "sentence_ids": [
+        "p02-c-07-s07"
+      ],
+      "forms": [
+        "strong"
+      ],
+      "sense_id": "sense-staged-ox-13e2f59cb5fd7135-p02-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

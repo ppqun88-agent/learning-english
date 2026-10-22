@@ -1,0 +1,196 @@
+{
+  "id": "p02-c-05",
+  "title_zh": "选择春季海边短途旅行",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "seasonal-coast-trip-choice",
+    "label_zh": "选择春季海边短途旅行",
+    "goal_zh": "比较山地和海岸的季节条件并确定出游目的地"
+  },
+  "participants": [
+    "Marta",
+    "Jules"
+  ],
+  "context_zh": "两位朋友商量四月短假去哪里以及需要带什么。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-05-s01",
+      "speaker": "Marta",
+      "text": "Where should we travel for our short break in April?"
+    },
+    {
+      "id": "p02-c-05-s02",
+      "speaker": "Jules",
+      "text": "I was thinking about a trip to the mountains, but there could still be snow in spring."
+    },
+    {
+      "id": "p02-c-05-s03",
+      "speaker": "Marta",
+      "text": "How about the coast in the south? I'd rather go now than in summer, when the beach is crowded."
+    },
+    {
+      "id": "p02-c-05-s04",
+      "speaker": "Jules",
+      "text": "Good idea. I'm not sure what to pack for the coast, though."
+    },
+    {
+      "id": "p02-c-05-s05",
+      "speaker": "Marta",
+      "text": "We might get some sun, but let's take an umbrella as well."
+    },
+    {
+      "id": "p02-c-05-s06",
+      "speaker": "Jules",
+      "text": "Then the coast it is. I'll look for a room near the beach."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e8f17f69ee0f5fc1",
+      "lemma": "snow",
+      "pos": "n.",
+      "sense_zh": "雪",
+      "sentence_ids": [
+        "p02-c-05-s02"
+      ],
+      "forms": [
+        "snow"
+      ],
+      "sense_id": "sense-staged-ox-e8f17f69ee0f5fc1-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-226e0754b32ee049",
+      "lemma": "south",
+      "pos": "n.",
+      "sense_zh": "南部地区",
+      "sentence_ids": [
+        "p02-c-05-s03"
+      ],
+      "forms": [
+        "south"
+      ],
+      "sense_id": "sense-staged-ox-226e0754b32ee049-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9cc5a10298378c56",
+      "lemma": "travel",
+      "pos": "v.",
+      "sense_zh": "旅行",
+      "sentence_ids": [
+        "p02-c-05-s01"
+      ],
+      "forms": [
+        "travel"
+      ],
+      "sense_id": "sense-staged-ox-9cc5a10298378c56-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2cfdf35d6c05d81a",
+      "lemma": "trip",
+      "pos": "n.",
+      "sense_zh": "短途旅行",
+      "sentence_ids": [
+        "p02-c-05-s02"
+      ],
+      "forms": [
+        "trip"
+      ],
+      "sense_id": "sense-staged-ox-2cfdf35d6c05d81a-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fd1f4adc920fbdf6",
+      "lemma": "umbrella",
+      "pos": "n.",
+      "sense_zh": "雨伞",
+      "sentence_ids": [
+        "p02-c-05-s05"
+      ],
+      "forms": [
+        "umbrella"
+      ],
+      "sense_id": "sense-staged-ox-fd1f4adc920fbdf6-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d747470968924331",
+      "lemma": "sure",
+      "pos": "adj.",
+      "sense_zh": "确定的；有把握的",
+      "sentence_ids": [
+        "p02-c-05-s04"
+      ],
+      "forms": [
+        "sure"
+      ],
+      "sense_id": "sense-staged-ox-d747470968924331-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26a2baca68b32758",
+      "lemma": "spring",
+      "pos": "n.",
+      "sense_zh": "春季",
+      "sentence_ids": [
+        "p02-c-05-s02"
+      ],
+      "forms": [
+        "spring"
+      ],
+      "sense_id": "sense-staged-ox-26a2baca68b32758-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-91b5df037183c3b4",
+      "lemma": "summer",
+      "pos": "n.",
+      "sense_zh": "夏季",
+      "sentence_ids": [
+        "p02-c-05-s03"
+      ],
+      "forms": [
+        "summer"
+      ],
+      "sense_id": "sense-staged-ox-91b5df037183c3b4-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-902452717db7687c",
+      "lemma": "sun",
+      "pos": "n.",
+      "sense_zh": "阳光",
+      "sentence_ids": [
+        "p02-c-05-s05"
+      ],
+      "forms": [
+        "sun"
+      ],
+      "sense_id": "sense-staged-ox-902452717db7687c-p02-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

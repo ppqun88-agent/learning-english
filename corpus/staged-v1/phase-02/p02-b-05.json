@@ -1,0 +1,190 @@
+{
+  "id": "p02-b-05",
+  "title_zh": "重新找回阅读习惯",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "library-story-choice",
+    "label_zh": "挑选轻松易读的故事",
+    "goal_zh": "选定一本篇幅适中且结局不悲伤的图书"
+  },
+  "participants": [
+    "Hana",
+    "Felix"
+  ],
+  "context_zh": "读者很久没借书，希望找到容易开始的一本。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-05-s01",
+      "speaker": "Hana",
+      "text": "I used to do a lot of reading, but I hardly open a book now."
+    },
+    {
+      "id": "p02-b-05-s02",
+      "speaker": "Felix",
+      "text": "Would a collection of stories help?"
+    },
+    {
+      "id": "p02-b-05-s03",
+      "speaker": "Hana",
+      "text": "Maybe. I'm a slow reader, so I'd like to read something short."
+    },
+    {
+      "id": "p02-b-05-s04",
+      "speaker": "Felix",
+      "text": "Try this one. The main character is based on a real person who ran a village shop."
+    },
+    {
+      "id": "p02-b-05-s05",
+      "speaker": "Hana",
+      "text": "Does it have a sad ending?"
+    },
+    {
+      "id": "p02-b-05-s06",
+      "speaker": "Felix",
+      "text": "Not really. Some things go wrong, but she makes a new start. Try the first page."
+    },
+    {
+      "id": "p02-b-05-s07",
+      "speaker": "Hana",
+      "text": "I like the way she talks. I'll borrow this one."
+    },
+    {
+      "id": "p02-b-05-s08",
+      "speaker": "Felix",
+      "text": "Lovely. Bring it to the desk and we can check it out."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-08f9d83c02355847",
+      "lemma": "reading",
+      "pos": "n.",
+      "sense_zh": "阅读活动",
+      "sentence_ids": [
+        "p02-b-05-s01"
+      ],
+      "forms": [
+        "reading"
+      ],
+      "sense_id": "sense-staged-ox-08f9d83c02355847-p02-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-477e0fdce2a28106",
+      "lemma": "reader",
+      "pos": "n.",
+      "sense_zh": "读者",
+      "sentence_ids": [
+        "p02-b-05-s03"
+      ],
+      "forms": [
+        "reader"
+      ],
+      "sense_id": "sense-staged-ox-477e0fdce2a28106-p02-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4d6d8745ce2744fb",
+      "lemma": "read",
+      "pos": "v.",
+      "sense_zh": "阅读",
+      "sentence_ids": [
+        "p02-b-05-s03"
+      ],
+      "forms": [
+        "read"
+      ],
+      "sense_id": "sense-staged-ox-4d6d8745ce2744fb-p02-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1018c58a8c70febe",
+      "lemma": "short",
+      "pos": "adj.",
+      "sense_zh": "篇幅短的",
+      "sentence_ids": [
+        "p02-b-05-s03"
+      ],
+      "forms": [
+        "short"
+      ],
+      "sense_id": "sense-staged-ox-1018c58a8c70febe-p02-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63c5521d3c875966",
+      "lemma": "real",
+      "pos": "adj.",
+      "sense_zh": "真实存在的",
+      "sentence_ids": [
+        "p02-b-05-s04"
+      ],
+      "forms": [
+        "real"
+      ],
+      "sense_id": "sense-staged-ox-63c5521d3c875966-p02-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6907976178182471",
+      "lemma": "sad",
+      "pos": "adj.",
+      "sense_zh": "悲伤的",
+      "sentence_ids": [
+        "p02-b-05-s05"
+      ],
+      "forms": [
+        "sad"
+      ],
+      "sense_id": "sense-staged-ox-6907976178182471-p02-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-194f252de2bd1905",
+      "lemma": "really",
+      "pos": "adv.",
+      "sense_zh": "真正地，实在地；用于缓和否定",
+      "sentence_ids": [
+        "p02-b-05-s06"
+      ],
+      "forms": [
+        "really"
+      ],
+      "sense_id": "sense-staged-ox-194f252de2bd1905-p02-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-abdd0695a5ab40fe",
+      "lemma": "page",
+      "pos": "n.",
+      "sense_zh": "书页",
+      "sentence_ids": [
+        "p02-b-05-s06"
+      ],
+      "forms": [
+        "page"
+      ],
+      "sense_id": "sense-staged-ox-abdd0695a5ab40fe-p02-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

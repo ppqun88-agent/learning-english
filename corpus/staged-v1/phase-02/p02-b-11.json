@@ -1,0 +1,158 @@
+{
+  "id": "p02-b-11",
+  "title_zh": "换到安静的客房",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "quiet-hotel-room",
+    "label_zh": "入住时选择安静客房",
+    "goal_zh": "避开晚间噪音并确认合适的房间"
+  },
+  "participants": [
+    "Sofia",
+    "Ben"
+  ],
+  "context_zh": "客人长途旅行后希望尽快休息，担心街边酒吧的声音。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-11-s01",
+      "speaker": "Sofia",
+      "text": "Is it possible to have a room away from the street?"
+    },
+    {
+      "id": "p02-b-11-s02",
+      "speaker": "Ben",
+      "text": "Certainly. Is the noise the main concern?"
+    },
+    {
+      "id": "p02-b-11-s03",
+      "speaker": "Sofia",
+      "text": "Yes. I'm quite tired, and I'd like somewhere quiet so I can relax."
+    },
+    {
+      "id": "p02-b-11-s04",
+      "speaker": "Ben",
+      "text": "We have a room facing the courtyard. It is smaller, but there are no bars on that side."
+    },
+    {
+      "id": "p02-b-11-s05",
+      "speaker": "Sofia",
+      "text": "Does it still have a window that opens?"
+    },
+    {
+      "id": "p02-b-11-s06",
+      "speaker": "Ben",
+      "text": "It does, and the price is unchanged."
+    },
+    {
+      "id": "p02-b-11-s07",
+      "speaker": "Sofia",
+      "text": "Perfect. I'll take that one."
+    },
+    {
+      "id": "p02-b-11-s08",
+      "speaker": "Ben",
+      "text": "Here is the key. I'll move your booking to the courtyard side."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-24e34a7fc7552600",
+      "lemma": "possible",
+      "pos": "adj.",
+      "sense_zh": "可以做到的",
+      "sentence_ids": [
+        "p02-b-11-s01"
+      ],
+      "forms": [
+        "possible"
+      ],
+      "sense_id": "sense-staged-ox-24e34a7fc7552600-p02-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cad9f6440ffb5662",
+      "lemma": "room",
+      "pos": "n.",
+      "sense_zh": "客房",
+      "sentence_ids": [
+        "p02-b-11-s01"
+      ],
+      "forms": [
+        "room"
+      ],
+      "sense_id": "sense-staged-ox-cad9f6440ffb5662-p02-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-677123152d34e897",
+      "lemma": "quite",
+      "pos": "adv.",
+      "sense_zh": "相当；颇",
+      "sentence_ids": [
+        "p02-b-11-s03"
+      ],
+      "forms": [
+        "quite"
+      ],
+      "sense_id": "sense-staged-ox-677123152d34e897-p02-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c512d90b6ca117f4",
+      "lemma": "quiet",
+      "pos": "adj.",
+      "sense_zh": "安静的",
+      "sentence_ids": [
+        "p02-b-11-s03"
+      ],
+      "forms": [
+        "quiet"
+      ],
+      "sense_id": "sense-staged-ox-c512d90b6ca117f4-p02-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8c884e3593b20c6",
+      "lemma": "relax",
+      "pos": "v.",
+      "sense_zh": "放松休息",
+      "sentence_ids": [
+        "p02-b-11-s03"
+      ],
+      "forms": [
+        "relax"
+      ],
+      "sense_id": "sense-staged-ox-f8c884e3593b20c6-p02-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f851c1e488242885",
+      "lemma": "perfect",
+      "pos": "adj.",
+      "sense_zh": "完全合适的",
+      "sentence_ids": [
+        "p02-b-11-s07"
+      ],
+      "forms": [
+        "perfect"
+      ],
+      "sense_id": "sense-staged-ox-f851c1e488242885-p02-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

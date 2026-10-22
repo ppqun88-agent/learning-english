@@ -1,0 +1,211 @@
+{
+  "id": "p02-c-08",
+  "title_zh": "选择适合初学者的口语班",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "language-tutor-practice-plan",
+    "label_zh": "选择适合初学者的口语班",
+    "goal_zh": "确认教师、练习内容和每周课程时间"
+  },
+  "participants": [
+    "Hugo",
+    "Mei"
+  ],
+  "context_zh": "新学员向语言中心工作人员询问口语学习支持。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-08-s01",
+      "speaker": "Hugo",
+      "text": "I'm a new student here. Who can help me speak more confidently?"
+    },
+    {
+      "id": "p02-c-08-s02",
+      "speaker": "Mei",
+      "text": "Mina is the teacher for our small conversation class."
+    },
+    {
+      "id": "p02-c-08-s03",
+      "speaker": "Hugo",
+      "text": "Does she teach beginners?"
+    },
+    {
+      "id": "p02-c-08-s04",
+      "speaker": "Mei",
+      "text": "Yes. Speaking is a skill you can build with practice, even if you only know a few words."
+    },
+    {
+      "id": "p02-c-08-s05",
+      "speaker": "Hugo",
+      "text": "I also struggle with spelling. I can say a word but sometimes I can't spell it."
+    },
+    {
+      "id": "p02-c-08-s06",
+      "speaker": "Mei",
+      "text": "She can help you make a practice list after class."
+    },
+    {
+      "id": "p02-c-08-s07",
+      "speaker": "Hugo",
+      "text": "When does the group meet?"
+    },
+    {
+      "id": "p02-c-08-s08",
+      "speaker": "Mei",
+      "text": "Twice a week, on Tuesday and Friday evenings."
+    },
+    {
+      "id": "p02-c-08-s09",
+      "speaker": "Hugo",
+      "text": "Those evenings work for me. Please put me down for a trial lesson."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-91ec125c86b490da",
+      "lemma": "skill",
+      "pos": "n.",
+      "sense_zh": "技能",
+      "sentence_ids": [
+        "p02-c-08-s04"
+      ],
+      "forms": [
+        "skill"
+      ],
+      "sense_id": "sense-staged-ox-91ec125c86b490da-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5cb82128f9d35ab1",
+      "lemma": "speak",
+      "pos": "v.",
+      "sense_zh": "说话；表达",
+      "sentence_ids": [
+        "p02-c-08-s01"
+      ],
+      "forms": [
+        "speak"
+      ],
+      "sense_id": "sense-staged-ox-5cb82128f9d35ab1-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a07221804a391ce6",
+      "lemma": "spell",
+      "pos": "v.",
+      "sense_zh": "拼写",
+      "sentence_ids": [
+        "p02-c-08-s05"
+      ],
+      "forms": [
+        "spell"
+      ],
+      "sense_id": "sense-staged-ox-a07221804a391ce6-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c1729f0c963292ce",
+      "lemma": "spelling",
+      "pos": "n.",
+      "sense_zh": "拼写",
+      "sentence_ids": [
+        "p02-c-08-s05"
+      ],
+      "forms": [
+        "spelling"
+      ],
+      "sense_id": "sense-staged-ox-c1729f0c963292ce-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1521857c02170e17",
+      "lemma": "student",
+      "pos": "n.",
+      "sense_zh": "学生；学员",
+      "sentence_ids": [
+        "p02-c-08-s01"
+      ],
+      "forms": [
+        "student"
+      ],
+      "sense_id": "sense-staged-ox-1521857c02170e17-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c5d4da614a75169a",
+      "lemma": "teacher",
+      "pos": "n.",
+      "sense_zh": "教师",
+      "sentence_ids": [
+        "p02-c-08-s02"
+      ],
+      "forms": [
+        "teacher"
+      ],
+      "sense_id": "sense-staged-ox-c5d4da614a75169a-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-595a06555c385aac",
+      "lemma": "teach",
+      "pos": "v.",
+      "sense_zh": "教；授课",
+      "sentence_ids": [
+        "p02-c-08-s03"
+      ],
+      "forms": [
+        "teach"
+      ],
+      "sense_id": "sense-staged-ox-595a06555c385aac-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c0ef786c92a102fd",
+      "lemma": "Tuesday",
+      "pos": "n.",
+      "sense_zh": "星期二",
+      "sentence_ids": [
+        "p02-c-08-s08"
+      ],
+      "forms": [
+        "Tuesday"
+      ],
+      "sense_id": "sense-staged-ox-c0ef786c92a102fd-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d57f63d9b9a5679",
+      "lemma": "twice",
+      "pos": "adv.",
+      "sense_zh": "两次",
+      "sentence_ids": [
+        "p02-c-08-s08"
+      ],
+      "forms": [
+        "twice"
+      ],
+      "sense_id": "sense-staged-ox-5d57f63d9b9a5679-p02-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

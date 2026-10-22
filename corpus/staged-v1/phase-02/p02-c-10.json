@@ -1,0 +1,169 @@
+{
+  "id": "p02-c-10",
+  "title_zh": "问路去剧院及寻找洗手间",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "theatre-facilities-directions",
+    "label_zh": "问路去剧院及寻找洗手间",
+    "goal_zh": "确认步行路线、转弯位置和最近的洗手间"
+  },
+  "participants": [
+    "Nina",
+    "George"
+  ],
+  "context_zh": "游客 Nina 在城镇广场向工作人员 George 问路。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-10-s01",
+      "speaker": "Nina",
+      "text": "Could you help a lost tourist? I can't find the theatre."
+    },
+    {
+      "id": "p02-c-10-s02",
+      "speaker": "George",
+      "text": "It's at the other end of town. Walk through this square, then turn left."
+    },
+    {
+      "id": "p02-c-10-s03",
+      "speaker": "Nina",
+      "text": "Is it on the first street after the square?"
+    },
+    {
+      "id": "p02-c-10-s04",
+      "speaker": "George",
+      "text": "No, the third street. You'll see a red sign outside."
+    },
+    {
+      "id": "p02-c-10-s05",
+      "speaker": "Nina",
+      "text": "Thank you. Is there a toilet nearby before I set off?"
+    },
+    {
+      "id": "p02-c-10-s06",
+      "speaker": "George",
+      "text": "Yes, inside the library behind you. The entrance is beside the steps."
+    },
+    {
+      "id": "p02-c-10-s07",
+      "speaker": "Nina",
+      "text": "Perfect. I'll go there first and then head to the show."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a3d57e3d9cb3ca2e",
+      "lemma": "theatre",
+      "pos": "n.",
+      "sense_zh": "剧院；英式拼写",
+      "sentence_ids": [
+        "p02-c-10-s01"
+      ],
+      "forms": [
+        "theatre"
+      ],
+      "sense_id": "sense-staged-ox-a3d57e3d9cb3ca2e-p02-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a18bdde53b4b2626",
+      "lemma": "tourist",
+      "pos": "n.",
+      "sense_zh": "游客",
+      "sentence_ids": [
+        "p02-c-10-s01"
+      ],
+      "forms": [
+        "tourist"
+      ],
+      "sense_id": "sense-staged-ox-a18bdde53b4b2626-p02-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0017003d44e3c839",
+      "lemma": "town",
+      "pos": "n.",
+      "sense_zh": "城镇",
+      "sentence_ids": [
+        "p02-c-10-s02"
+      ],
+      "forms": [
+        "town"
+      ],
+      "sense_id": "sense-staged-ox-0017003d44e3c839-p02-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-91d1aeb9c8b32324",
+      "lemma": "toilet",
+      "pos": "n.",
+      "sense_zh": "厕所；洗手间",
+      "sentence_ids": [
+        "p02-c-10-s05"
+      ],
+      "forms": [
+        "toilet"
+      ],
+      "sense_id": "sense-staged-ox-91d1aeb9c8b32324-p02-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-55073c6abfa50662",
+      "lemma": "through",
+      "pos": "prep.",
+      "sense_zh": "穿过",
+      "sentence_ids": [
+        "p02-c-10-s02"
+      ],
+      "forms": [
+        "through"
+      ],
+      "sense_id": "sense-staged-ox-55073c6abfa50662-p02-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a2f1e6df1a36f131",
+      "lemma": "turn",
+      "pos": "v.",
+      "sense_zh": "转向",
+      "sentence_ids": [
+        "p02-c-10-s02"
+      ],
+      "forms": [
+        "turn"
+      ],
+      "sense_id": "sense-staged-ox-a2f1e6df1a36f131-p02-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cc3ca45f63b9d6be",
+      "lemma": "third",
+      "pos": "number",
+      "sense_zh": "第三",
+      "sentence_ids": [
+        "p02-c-10-s04"
+      ],
+      "forms": [
+        "third"
+      ],
+      "sense_id": "sense-staged-ox-cc3ca45f63b9d6be-p02-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

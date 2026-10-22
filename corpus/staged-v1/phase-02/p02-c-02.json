@@ -1,0 +1,233 @@
+{
+  "id": "p02-c-02",
+  "title_zh": "挑选合身的上班服装",
+  "topic_id": "services",
+  "scenario": {
+    "id": "outfit-fitting-choice",
+    "label_zh": "挑选合身的上班服装",
+    "goal_zh": "根据着装要求、身高和预算选择裤装与搭配"
+  },
+  "participants": [
+    "Imani",
+    "Beth"
+  ],
+  "context_zh": "Imani 在服装店为第一天上班挑选衣服。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-02-s01",
+      "speaker": "Imani",
+      "text": "The dress code says smart but not formal. I don't want to spend much on a whole new outfit."
+    },
+    {
+      "id": "p02-c-02-s02",
+      "speaker": "Beth",
+      "text": "Would you prefer a skirt or trousers?"
+    },
+    {
+      "id": "p02-c-02-s03",
+      "speaker": "Imani",
+      "text": "Trousers. I'm tall, and the small size is usually too short."
+    },
+    {
+      "id": "p02-c-02-s04",
+      "speaker": "Beth",
+      "text": "Try this style. It has a longer leg."
+    },
+    {
+      "id": "p02-c-02-s05",
+      "speaker": "Imani",
+      "text": "These fit better than I expected. Could I wear them with a plain T-shirt?"
+    },
+    {
+      "id": "p02-c-02-s06",
+      "speaker": "Beth",
+      "text": "Yes. This sweater would look good over it when it's cold."
+    },
+    {
+      "id": "p02-c-02-s07",
+      "speaker": "Imani",
+      "text": "I'll take the trousers. I've already got a top and a sweater at home."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-33d026f16c16f724",
+      "lemma": "skirt",
+      "pos": "n.",
+      "sense_zh": "裙子",
+      "sentence_ids": [
+        "p02-c-02-s02"
+      ],
+      "forms": [
+        "skirt"
+      ],
+      "sense_id": "sense-staged-ox-33d026f16c16f724-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-20d1f17a870ad8ca",
+      "lemma": "small",
+      "pos": "adj.",
+      "sense_zh": "小号的",
+      "sentence_ids": [
+        "p02-c-02-s03"
+      ],
+      "forms": [
+        "small"
+      ],
+      "sense_id": "sense-staged-ox-20d1f17a870ad8ca-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-433d15d341df5c92",
+      "lemma": "smart",
+      "pos": "adj.",
+      "sense_zh": "衣着整洁得体的",
+      "sentence_ids": [
+        "p02-c-02-s01"
+      ],
+      "forms": [
+        "smart"
+      ],
+      "sense_id": "sense-staged-ox-433d15d341df5c92-p02-c-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6376cd92cddd7ab0",
+      "lemma": "style",
+      "pos": "n.",
+      "sense_zh": "服装款式",
+      "sentence_ids": [
+        "p02-c-02-s04"
+      ],
+      "forms": [
+        "style"
+      ],
+      "sense_id": "sense-staged-ox-6376cd92cddd7ab0-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bd6704ca6cad122e",
+      "lemma": "sweater",
+      "pos": "n.",
+      "sense_zh": "针织套头衫",
+      "sentence_ids": [
+        "p02-c-02-s06"
+      ],
+      "forms": [
+        "sweater"
+      ],
+      "sense_id": "sense-staged-ox-bd6704ca6cad122e-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea12f9deb8fe5efe",
+      "lemma": "T-shirt",
+      "pos": "n.",
+      "sense_zh": "T恤衫",
+      "sentence_ids": [
+        "p02-c-02-s05"
+      ],
+      "forms": [
+        "T-shirt"
+      ],
+      "sense_id": "sense-staged-ox-ea12f9deb8fe5efe-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7478aef409c10540",
+      "lemma": "trousers",
+      "pos": "n.",
+      "sense_zh": "裤子",
+      "sentence_ids": [
+        "p02-c-02-s02"
+      ],
+      "forms": [
+        "trousers"
+      ],
+      "sense_id": "sense-staged-ox-7478aef409c10540-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-695a98fb3e0ec21a",
+      "lemma": "than",
+      "pos": "conj.",
+      "sense_zh": "比；引出比较从句",
+      "sentence_ids": [
+        "p02-c-02-s05"
+      ],
+      "forms": [
+        "than"
+      ],
+      "sense_id": "sense-staged-ox-695a98fb3e0ec21a-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d77616ba6443a06c",
+      "lemma": "too",
+      "pos": "adv.",
+      "sense_zh": "过于；太",
+      "sentence_ids": [
+        "p02-c-02-s03"
+      ],
+      "forms": [
+        "too"
+      ],
+      "sense_id": "sense-staged-ox-d77616ba6443a06c-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-58022129d379f4f9",
+      "lemma": "spend",
+      "pos": "v.",
+      "sense_zh": "花费钱",
+      "sentence_ids": [
+        "p02-c-02-s01"
+      ],
+      "forms": [
+        "spend"
+      ],
+      "sense_id": "sense-staged-ox-58022129d379f4f9-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fa32c5efb6c3c268",
+      "lemma": "tall",
+      "pos": "adj.",
+      "sense_zh": "身材高的",
+      "sentence_ids": [
+        "p02-c-02-s03"
+      ],
+      "forms": [
+        "tall"
+      ],
+      "sense_id": "sense-staged-ox-fa32c5efb6c3c268-p02-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

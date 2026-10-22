@@ -1,0 +1,137 @@
+{
+  "id": "p02-a-21",
+  "title_zh": "寻找集市里的摊位",
+  "topic_id": "services",
+  "scenario": {
+    "id": "find-market-stall",
+    "label_zh": "寻找集市摊位",
+    "goal_zh": "根据购物清单和方向说明找到目标摊位。"
+  },
+  "participants": [
+    "Anika",
+    "Wes"
+  ],
+  "context_zh": "顾客在集市入口向工作人员询问蔬菜摊的位置和排队方式。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-21-s01",
+      "speaker": "Anika",
+      "text": "Is this the main entrance to the market?"
+    },
+    {
+      "id": "p02-a-21-s02",
+      "speaker": "Wes",
+      "text": "Yes. What are you looking for?"
+    },
+    {
+      "id": "p02-a-21-s03",
+      "speaker": "Anika",
+      "text": "I've got a short shopping list. I need tomatoes and fresh herbs."
+    },
+    {
+      "id": "p02-a-21-s04",
+      "speaker": "Wes",
+      "text": "Turn left after the bread stall. The vegetable stall is at the end."
+    },
+    {
+      "id": "p02-a-21-s05",
+      "speaker": "Anika",
+      "text": "Is that long line for the vegetables?"
+    },
+    {
+      "id": "p02-a-21-s06",
+      "speaker": "Wes",
+      "text": "No, those people are waiting for coffee. You can go straight past them."
+    },
+    {
+      "id": "p02-a-21-s07",
+      "speaker": "Anika",
+      "text": "Great, I can see the tomatoes now. Thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d552ff6df5895425",
+      "lemma": "main",
+      "pos": "adj.",
+      "sense_zh": "主要的",
+      "sentence_ids": [
+        "p02-a-21-s01"
+      ],
+      "forms": [
+        "main"
+      ],
+      "sense_id": "sense-staged-ox-d552ff6df5895425-p02-a-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-24cc1014ee85b3b3",
+      "lemma": "market",
+      "pos": "n.",
+      "sense_zh": "集市；市场",
+      "sentence_ids": [
+        "p02-a-21-s01"
+      ],
+      "forms": [
+        "market"
+      ],
+      "sense_id": "sense-staged-ox-24cc1014ee85b3b3-p02-a-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7607909246d48fdc",
+      "lemma": "list",
+      "pos": "n.",
+      "sense_zh": "清单",
+      "sentence_ids": [
+        "p02-a-21-s03"
+      ],
+      "forms": [
+        "list"
+      ],
+      "sense_id": "sense-staged-ox-7607909246d48fdc-p02-a-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cfc4c8941b976e6d",
+      "lemma": "left",
+      "pos": "adv.",
+      "sense_zh": "向左",
+      "sentence_ids": [
+        "p02-a-21-s04"
+      ],
+      "forms": [
+        "left"
+      ],
+      "sense_id": "sense-staged-ox-cfc4c8941b976e6d-p02-a-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-668e98fc707c161e",
+      "lemma": "line",
+      "pos": "n.",
+      "sense_zh": "队伍",
+      "sentence_ids": [
+        "p02-a-21-s05"
+      ],
+      "forms": [
+        "line"
+      ],
+      "sense_id": "sense-staged-ox-668e98fc707c161e-p02-a-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

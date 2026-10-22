@@ -1,0 +1,206 @@
+{
+  "id": "p02-a-01",
+  "title_zh": "弄懂听力练习中的回答",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "language-practice-clarification",
+    "label_zh": "澄清语言练习内容",
+    "goal_zh": "弄清听力练习的意思并确定重听的方法。"
+  },
+  "participants": [
+    "Tara",
+    "Luis"
+  ],
+  "context_zh": "学员正在做语言课程的听力练习，向老师确认自己是否听错。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-01-s01",
+      "speaker": "Tara",
+      "text": "I'm trying to learn Spanish, but this lesson is moving too fast for me."
+    },
+    {
+      "id": "p02-a-01-s02",
+      "speaker": "Luis",
+      "text": "That's normal when you start a new language. Which part is difficult?"
+    },
+    {
+      "id": "p02-a-01-s03",
+      "speaker": "Tara",
+      "text": "I know the words, but I can't work out the meaning of the reply."
+    },
+    {
+      "id": "p02-a-01-s04",
+      "speaker": "Luis",
+      "text": "Listen to the recording again. The woman gives a negative answer to the invitation."
+    },
+    {
+      "id": "p02-a-01-s05",
+      "speaker": "Tara",
+      "text": "Does she mean that she can't come tonight?"
+    },
+    {
+      "id": "p02-a-01-s06",
+      "speaker": "Luis",
+      "text": "Exactly. She can come tomorrow instead."
+    },
+    {
+      "id": "p02-a-01-s07",
+      "speaker": "Tara",
+      "text": "Then there's a mistake in my answer. I wrote that she was coming tonight."
+    },
+    {
+      "id": "p02-a-01-s08",
+      "speaker": "Luis",
+      "text": "Change that answer, and we'll play the next conversation more slowly."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-587bfcbaf44f8511",
+      "lemma": "learn",
+      "pos": "v.",
+      "sense_zh": "学习",
+      "sentence_ids": [
+        "p02-a-01-s01"
+      ],
+      "forms": [
+        "learn"
+      ],
+      "sense_id": "sense-staged-ox-587bfcbaf44f8511-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c57921aa60e32500",
+      "lemma": "lesson",
+      "pos": "n.",
+      "sense_zh": "一节课；课业",
+      "sentence_ids": [
+        "p02-a-01-s01"
+      ],
+      "forms": [
+        "lesson"
+      ],
+      "sense_id": "sense-staged-ox-c57921aa60e32500-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db957c6fda4a6e36",
+      "lemma": "language",
+      "pos": "n.",
+      "sense_zh": "语言",
+      "sentence_ids": [
+        "p02-a-01-s02"
+      ],
+      "forms": [
+        "language"
+      ],
+      "sense_id": "sense-staged-ox-db957c6fda4a6e36-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-97aed5b56ed91b50",
+      "lemma": "know",
+      "pos": "v.",
+      "sense_zh": "知道；熟悉",
+      "sentence_ids": [
+        "p02-a-01-s03"
+      ],
+      "forms": [
+        "know"
+      ],
+      "sense_id": "sense-staged-ox-97aed5b56ed91b50-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6424894ba60026b",
+      "lemma": "meaning",
+      "pos": "n.",
+      "sense_zh": "意思；含义",
+      "sentence_ids": [
+        "p02-a-01-s03"
+      ],
+      "forms": [
+        "meaning"
+      ],
+      "sense_id": "sense-staged-ox-d6424894ba60026b-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-07b12ffb6d6132d2",
+      "lemma": "listen",
+      "pos": "v.",
+      "sense_zh": "听；倾听",
+      "sentence_ids": [
+        "p02-a-01-s04"
+      ],
+      "forms": [
+        "listen"
+      ],
+      "sense_id": "sense-staged-ox-07b12ffb6d6132d2-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c4b0d73b631310c",
+      "lemma": "negative",
+      "pos": "adj.",
+      "sense_zh": "否定的",
+      "sentence_ids": [
+        "p02-a-01-s04"
+      ],
+      "forms": [
+        "negative"
+      ],
+      "sense_id": "sense-staged-ox-2c4b0d73b631310c-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45674aaaeb2f753f",
+      "lemma": "mean",
+      "pos": "v.",
+      "sense_zh": "意思是；表示",
+      "sentence_ids": [
+        "p02-a-01-s05"
+      ],
+      "forms": [
+        "mean"
+      ],
+      "sense_id": "sense-staged-ox-45674aaaeb2f753f-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f94fceeed94b9376",
+      "lemma": "mistake",
+      "pos": "n.",
+      "sense_zh": "错误",
+      "sentence_ids": [
+        "p02-a-01-s07"
+      ],
+      "forms": [
+        "mistake"
+      ],
+      "sense_id": "sense-staged-ox-f94fceeed94b9376-p02-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

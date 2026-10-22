@@ -1,0 +1,105 @@
+{
+  "id": "p02-a-10",
+  "title_zh": "为窄走廊选择地毯",
+  "topic_id": "home",
+  "scenario": {
+    "id": "rug-room-fit",
+    "label_zh": "核对走廊地毯尺寸",
+    "goal_zh": "根据走廊宽度和旧毯状况选定替换地毯。"
+  },
+  "participants": [
+    "Beth",
+    "Imran"
+  ],
+  "context_zh": "英国住户在家居店寻找能够放进狭窄走廊的新地毯。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-10-s01",
+      "speaker": "Beth",
+      "text": "I'm replacing an old rug in a narrow hallway."
+    },
+    {
+      "id": "p02-a-10-s02",
+      "speaker": "Imran",
+      "text": "How wide is the space?"
+    },
+    {
+      "id": "p02-a-10-s03",
+      "speaker": "Beth",
+      "text": "A metre, but I'd like a strip of floor to show on each side."
+    },
+    {
+      "id": "p02-a-10-s04",
+      "speaker": "Imran",
+      "text": "This is the only rug we have that's narrow enough. It's sixty centimetres wide."
+    },
+    {
+      "id": "p02-a-10-s05",
+      "speaker": "Beth",
+      "text": "The length looks right too. Can I return it if the door catches on it?"
+    },
+    {
+      "id": "p02-a-10-s06",
+      "speaker": "Imran",
+      "text": "Yes, if you keep the receipt and don't remove the labels."
+    },
+    {
+      "id": "p02-a-10-s07",
+      "speaker": "Beth",
+      "text": "Then I'll try this one at home."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-56ab27a1381b7b88",
+      "lemma": "old",
+      "pos": "adj.",
+      "sense_zh": "旧的；用久的",
+      "sentence_ids": [
+        "p02-a-10-s01"
+      ],
+      "forms": [
+        "old"
+      ],
+      "sense_id": "sense-staged-ox-56ab27a1381b7b88-p02-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-67360af65d93b9a1",
+      "lemma": "metre",
+      "pos": "n.",
+      "sense_zh": "米（英式拼写）",
+      "sentence_ids": [
+        "p02-a-10-s03"
+      ],
+      "forms": [
+        "metre"
+      ],
+      "sense_id": "sense-staged-ox-67360af65d93b9a1-p02-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3011eed35b9e063a",
+      "lemma": "only",
+      "pos": "adj.",
+      "sense_zh": "唯一的",
+      "sentence_ids": [
+        "p02-a-10-s04"
+      ],
+      "forms": [
+        "only"
+      ],
+      "sense_id": "sense-staged-ox-3011eed35b9e063a-p02-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

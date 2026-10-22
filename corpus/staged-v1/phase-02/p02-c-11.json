@@ -1,0 +1,132 @@
+{
+  "id": "p02-c-11",
+  "title_zh": "核对剧场筹款结果",
+  "topic_id": "community",
+  "scenario": {
+    "id": "theater-fundraiser-results",
+    "label_zh": "核对剧场筹款结果",
+    "goal_zh": "确认可用筹款和下一项空间改善工作"
+  },
+  "participants": [
+    "Avery",
+    "Rafael"
+  ],
+  "context_zh": "社区剧场活动结束后，两位组织者清点成果。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-11-s01",
+      "speaker": "Avery",
+      "text": "Was the fundraiser a success? Have you finished counting?"
+    },
+    {
+      "id": "p02-c-11-s02",
+      "speaker": "Rafael",
+      "text": "Yes. We raised a thousand dollars after costs."
+    },
+    {
+      "id": "p02-c-11-s03",
+      "speaker": "Avery",
+      "text": "Great. Can the theater finally buy shelves for the costumes?"
+    },
+    {
+      "id": "p02-c-11-s04",
+      "speaker": "Rafael",
+      "text": "It can. Once they're off the floor, we'll have more space to rehearse."
+    },
+    {
+      "id": "p02-c-11-s05",
+      "speaker": "Avery",
+      "text": "Twenty volunteers helped last night. We should let them know what they made possible."
+    },
+    {
+      "id": "p02-c-11-s06",
+      "speaker": "Rafael",
+      "text": "I'll send them the total and a thank-you message before I order the shelves."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2ce243b468e00f73",
+      "lemma": "theater",
+      "pos": "n.",
+      "sense_zh": "剧场；美式拼写",
+      "sentence_ids": [
+        "p02-c-11-s03"
+      ],
+      "forms": [
+        "theater"
+      ],
+      "sense_id": "sense-staged-ox-2ce243b468e00f73-p02-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fffb62f0005fdf33",
+      "lemma": "space",
+      "pos": "n.",
+      "sense_zh": "可用空间",
+      "sentence_ids": [
+        "p02-c-11-s04"
+      ],
+      "forms": [
+        "space"
+      ],
+      "sense_id": "sense-staged-ox-fffb62f0005fdf33-p02-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed29ac09170330d9",
+      "lemma": "thousand",
+      "pos": "number",
+      "sense_zh": "一千",
+      "sentence_ids": [
+        "p02-c-11-s02"
+      ],
+      "forms": [
+        "thousand"
+      ],
+      "sense_id": "sense-staged-ox-ed29ac09170330d9-p02-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ad30b34cf66ab104",
+      "lemma": "success",
+      "pos": "n.",
+      "sense_zh": "成功的事情；成功",
+      "sentence_ids": [
+        "p02-c-11-s01"
+      ],
+      "forms": [
+        "success"
+      ],
+      "sense_id": "sense-staged-ox-ad30b34cf66ab104-p02-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa7a7fa8230b0a8e",
+      "lemma": "twenty",
+      "pos": "number",
+      "sense_zh": "二十",
+      "sentence_ids": [
+        "p02-c-11-s05"
+      ],
+      "forms": [
+        "twenty"
+      ],
+      "sense_id": "sense-staged-ox-aa7a7fa8230b0a8e-p02-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

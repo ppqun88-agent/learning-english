@@ -1,0 +1,169 @@
+{
+  "id": "p02-a-20",
+  "title_zh": "早班同事交接资料",
+  "topic_id": "work",
+  "scenario": {
+    "id": "morning-task-handover",
+    "label_zh": "交接早班工作资料",
+    "goal_zh": "确认待打印文件和接替安排以便同事准时离开。"
+  },
+  "participants": [
+    "Rosa",
+    "Theo"
+  ],
+  "context_zh": "两位办公室同事在早班交接时核对访客材料的打印工作。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-20-s01",
+      "speaker": "Rosa",
+      "text": "Can you cover the office for me this morning? I have an appointment at ten."
+    },
+    {
+      "id": "p02-a-20-s02",
+      "speaker": "Theo",
+      "text": "Sure. Give me a moment to save this file."
+    },
+    {
+      "id": "p02-a-20-s03",
+      "speaker": "Rosa",
+      "text": "I need to leave in about twenty minutes. The visitor packs aren't quite ready."
+    },
+    {
+      "id": "p02-a-20-s04",
+      "speaker": "Theo",
+      "text": "How many more copies do we need?"
+    },
+    {
+      "id": "p02-a-20-s05",
+      "speaker": "Rosa",
+      "text": "Three. The original is beside the printer, and I've already checked the names."
+    },
+    {
+      "id": "p02-a-20-s06",
+      "speaker": "Theo",
+      "text": "I'll finish those and put the packs at reception. You can go."
+    },
+    {
+      "id": "p02-a-20-s07",
+      "speaker": "Rosa",
+      "text": "Thanks a lot. I'll be back before lunch."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cccf754332120a32",
+      "lemma": "office",
+      "pos": "n.",
+      "sense_zh": "办公室",
+      "sentence_ids": [
+        "p02-a-20-s01"
+      ],
+      "forms": [
+        "office"
+      ],
+      "sense_id": "sense-staged-ox-cccf754332120a32-p02-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-36eec7d73fec93b9",
+      "lemma": "me",
+      "pos": "pron.",
+      "sense_zh": "我（宾格）",
+      "sentence_ids": [
+        "p02-a-20-s01"
+      ],
+      "forms": [
+        "me"
+      ],
+      "sense_id": "sense-staged-ox-36eec7d73fec93b9-p02-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2cdb28abfea37601",
+      "lemma": "morning",
+      "pos": "n.",
+      "sense_zh": "早晨；上午",
+      "sentence_ids": [
+        "p02-a-20-s01"
+      ],
+      "forms": [
+        "morning"
+      ],
+      "sense_id": "sense-staged-ox-2cdb28abfea37601-p02-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3f8b4c7589c90836",
+      "lemma": "moment",
+      "pos": "n.",
+      "sense_zh": "片刻",
+      "sentence_ids": [
+        "p02-a-20-s02"
+      ],
+      "forms": [
+        "moment"
+      ],
+      "sense_id": "sense-staged-ox-3f8b4c7589c90836-p02-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3818df4c91b5638",
+      "lemma": "need",
+      "pos": "v.",
+      "sense_zh": "需要",
+      "sentence_ids": [
+        "p02-a-20-s03"
+      ],
+      "forms": [
+        "need"
+      ],
+      "sense_id": "sense-staged-ox-e3818df4c91b5638-p02-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-208e5dd0a9503460",
+      "lemma": "more",
+      "pos": "det.",
+      "sense_zh": "更多的；另外的",
+      "sentence_ids": [
+        "p02-a-20-s04"
+      ],
+      "forms": [
+        "more"
+      ],
+      "sense_id": "sense-staged-ox-208e5dd0a9503460-p02-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1cee2dd1bca70cd4",
+      "lemma": "lot",
+      "pos": "adv.",
+      "sense_zh": "很；非常（用于 a lot）",
+      "sentence_ids": [
+        "p02-a-20-s07"
+      ],
+      "forms": [
+        "lot"
+      ],
+      "sense_id": "sense-staged-ox-1cee2dd1bca70cd4-p02-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

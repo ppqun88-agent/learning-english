@@ -1,0 +1,100 @@
+{
+  "id": "p02-b-20",
+  "title_zh": "找出无法打印的环节",
+  "topic_id": "services",
+  "scenario": {
+    "id": "computer-print-troubleshooting",
+    "label_zh": "排查电脑程序的打印问题",
+    "goal_zh": "用简单对照测试区分程序问题和打印机问题"
+  },
+  "participants": [
+    "Marta",
+    "Finn"
+  ],
+  "context_zh": "用户联系技术支持，说明一个程序打印时会关闭。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-20-s01",
+      "speaker": "Marta",
+      "text": "This program closes whenever I try to print the document."
+    },
+    {
+      "id": "p02-b-20-s02",
+      "speaker": "Finn",
+      "text": "Does it run normally when you just open and edit the file?"
+    },
+    {
+      "id": "p02-b-20-s03",
+      "speaker": "Marta",
+      "text": "Yes. The trouble only starts when I select Print."
+    },
+    {
+      "id": "p02-b-20-s04",
+      "speaker": "Finn",
+      "text": "Let us try a quick test. Can you print a small text file from another application?"
+    },
+    {
+      "id": "p02-b-20-s05",
+      "speaker": "Marta",
+      "text": "That works. The page has come out."
+    },
+    {
+      "id": "p02-b-20-s06",
+      "speaker": "Finn",
+      "text": "Then the printer is responding. Save your work, and we can check the settings in the first application."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-316167e9cebab7c2",
+      "lemma": "program",
+      "pos": "n.",
+      "sense_zh": "计算机程序",
+      "sentence_ids": [
+        "p02-b-20-s01"
+      ],
+      "forms": [
+        "program"
+      ],
+      "sense_id": "sense-staged-ox-316167e9cebab7c2-p02-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cbe16749b1664190",
+      "lemma": "run",
+      "pos": "v.",
+      "sense_zh": "程序运行",
+      "sentence_ids": [
+        "p02-b-20-s02"
+      ],
+      "forms": [
+        "run"
+      ],
+      "sense_id": "sense-staged-ox-cbe16749b1664190-p02-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c1c28b6d04763a31",
+      "lemma": "quick",
+      "pos": "adj.",
+      "sense_zh": "耗时短的",
+      "sentence_ids": [
+        "p02-b-20-s04"
+      ],
+      "forms": [
+        "quick"
+      ],
+      "sense_id": "sense-staged-ox-c1c28b6d04763a31-p02-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

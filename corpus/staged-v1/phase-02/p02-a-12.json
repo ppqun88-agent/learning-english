@@ -1,0 +1,179 @@
+{
+  "id": "p02-a-12",
+  "title_zh": "选择可当天走完的海岸山路",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "hill-walk-route-choice",
+    "label_zh": "调整山间步行路线",
+    "goal_zh": "考虑天色和路面条件后改走短路线"
+  },
+  "participants": [
+    "Amina",
+    "Cole"
+  ],
+  "context_zh": "游客向步道工作人员询问海岸山地路线，避免走上私人土地或太长的山路。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-12-s01",
+      "speaker": "Amina",
+      "text": "Can you show me the mountain path on this map?"
+    },
+    {
+      "id": "p02-a-12-s02",
+      "speaker": "Cole",
+      "text": "This route goes north from the car park, then climbs towards the ridge."
+    },
+    {
+      "id": "p02-a-12-s03",
+      "speaker": "Amina",
+      "text": "It looks like a long walk. We have to be back before dark."
+    },
+    {
+      "id": "p02-a-12-s04",
+      "speaker": "Cole",
+      "text": "Then take the lower path. It's about a mile to the viewpoint."
+    },
+    {
+      "id": "p02-a-12-s05",
+      "speaker": "Amina",
+      "text": "Can we cut across this field on the way back?"
+    },
+    {
+      "id": "p02-a-12-s06",
+      "speaker": "Cole",
+      "text": "No, that's private land. Stay on the marked path."
+    },
+    {
+      "id": "p02-a-12-s07",
+      "speaker": "Amina",
+      "text": "Will we still see the ocean from the lower route?"
+    },
+    {
+      "id": "p02-a-12-s08",
+      "speaker": "Cole",
+      "text": "Yes, there's a clear view from the bench. Take that route today."
+    },
+    {
+      "id": "p02-a-12-s09",
+      "speaker": "Amina",
+      "text": "We will. I'll mark the turning on the map."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6ff9c940983ba2a0",
+      "lemma": "mountain",
+      "pos": "n.",
+      "sense_zh": "山；山地",
+      "sentence_ids": [
+        "p02-a-12-s01"
+      ],
+      "forms": [
+        "mountain"
+      ],
+      "sense_id": "sense-staged-ox-6ff9c940983ba2a0-p02-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54e14b265d14473d",
+      "lemma": "map",
+      "pos": "n.",
+      "sense_zh": "地图",
+      "sentence_ids": [
+        "p02-a-12-s01"
+      ],
+      "forms": [
+        "map"
+      ],
+      "sense_id": "sense-staged-ox-54e14b265d14473d-p02-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-876ab34ec2595082",
+      "lemma": "north",
+      "pos": "adv.",
+      "sense_zh": "向北",
+      "sentence_ids": [
+        "p02-a-12-s02"
+      ],
+      "forms": [
+        "north"
+      ],
+      "sense_id": "sense-staged-ox-876ab34ec2595082-p02-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-422b4040570614b8",
+      "lemma": "long",
+      "pos": "adj.",
+      "sense_zh": "长的",
+      "sentence_ids": [
+        "p02-a-12-s03"
+      ],
+      "forms": [
+        "long"
+      ],
+      "sense_id": "sense-staged-ox-422b4040570614b8-p02-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-61498de10a08b791",
+      "lemma": "mile",
+      "pos": "n.",
+      "sense_zh": "英里",
+      "sentence_ids": [
+        "p02-a-12-s04"
+      ],
+      "forms": [
+        "mile"
+      ],
+      "sense_id": "sense-staged-ox-61498de10a08b791-p02-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-caec65dd1c1b4fa6",
+      "lemma": "land",
+      "pos": "n.",
+      "sense_zh": "土地",
+      "sentence_ids": [
+        "p02-a-12-s06"
+      ],
+      "forms": [
+        "land"
+      ],
+      "sense_id": "sense-staged-ox-caec65dd1c1b4fa6-p02-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-25f1d454fce48ae0",
+      "lemma": "ocean",
+      "pos": "n.",
+      "sense_zh": "海洋",
+      "sentence_ids": [
+        "p02-a-12-s07"
+      ],
+      "forms": [
+        "ocean"
+      ],
+      "sense_id": "sense-staged-ox-25f1d454fce48ae0-p02-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

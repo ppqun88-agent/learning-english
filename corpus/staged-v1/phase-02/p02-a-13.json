@@ -1,0 +1,169 @@
+{
+  "id": "p02-a-13",
+  "title_zh": "赶上最后一班接驳车",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "catch-last-shuttle",
+    "label_zh": "赶上末班接驳车",
+    "goal_zh": "确认末班车出发时间并马上前往上车点。"
+  },
+  "participants": [
+    "Bianca",
+    "Hugo"
+  ],
+  "context_zh": "旅客在车站问讯处确认旅馆接驳车是否还有车。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-13-s01",
+      "speaker": "Bianca",
+      "text": "Am I too late for the hotel shuttle?"
+    },
+    {
+      "id": "p02-a-13-s02",
+      "speaker": "Hugo",
+      "text": "Not quite. The last shuttle will leave in a minute."
+    },
+    {
+      "id": "p02-a-13-s03",
+      "speaker": "Bianca",
+      "text": "Is there a later one if I miss this?"
+    },
+    {
+      "id": "p02-a-13-s04",
+      "speaker": "Hugo",
+      "text": "No, you'd need a taxi after this one."
+    },
+    {
+      "id": "p02-a-13-s05",
+      "speaker": "Bianca",
+      "text": "Which door should I use?"
+    },
+    {
+      "id": "p02-a-13-s06",
+      "speaker": "Hugo",
+      "text": "The sliding doors behind you. Go now and the driver will see you."
+    },
+    {
+      "id": "p02-a-13-s07",
+      "speaker": "Bianca",
+      "text": "I see the bus. Thanks for your help!"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-441746f3b1383d8e",
+      "lemma": "late",
+      "pos": "adj.",
+      "sense_zh": "迟的；晚的",
+      "sentence_ids": [
+        "p02-a-13-s01"
+      ],
+      "forms": [
+        "late"
+      ],
+      "sense_id": "sense-staged-ox-441746f3b1383d8e-p02-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00907d5eb34188db",
+      "lemma": "last",
+      "pos": "det.",
+      "sense_zh": "最后的",
+      "sentence_ids": [
+        "p02-a-13-s02"
+      ],
+      "forms": [
+        "last"
+      ],
+      "sense_id": "sense-staged-ox-00907d5eb34188db-p02-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ffb64b7542782fe4",
+      "lemma": "leave",
+      "pos": "v.",
+      "sense_zh": "离开；出发",
+      "sentence_ids": [
+        "p02-a-13-s02"
+      ],
+      "forms": [
+        "leave"
+      ],
+      "sense_id": "sense-staged-ox-ffb64b7542782fe4-p02-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-832bd42c4529cc45",
+      "lemma": "minute",
+      "pos": "n.",
+      "sense_zh": "分钟",
+      "sentence_ids": [
+        "p02-a-13-s02"
+      ],
+      "forms": [
+        "minute"
+      ],
+      "sense_id": "sense-staged-ox-832bd42c4529cc45-p02-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-407196d28eba14cc",
+      "lemma": "later",
+      "pos": "adj.",
+      "sense_zh": "较晚的",
+      "sentence_ids": [
+        "p02-a-13-s03"
+      ],
+      "forms": [
+        "later"
+      ],
+      "sense_id": "sense-staged-ox-407196d28eba14cc-p02-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21515ee53413148c",
+      "lemma": "miss",
+      "pos": "v.",
+      "sense_zh": "错过",
+      "sentence_ids": [
+        "p02-a-13-s03"
+      ],
+      "forms": [
+        "miss"
+      ],
+      "sense_id": "sense-staged-ox-21515ee53413148c-p02-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d45c1dede96a1100",
+      "lemma": "now",
+      "pos": "adv.",
+      "sense_zh": "现在；马上",
+      "sentence_ids": [
+        "p02-a-13-s06"
+      ],
+      "forms": [
+        "now"
+      ],
+      "sense_id": "sense-staged-ox-d45c1dede96a1100-p02-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,185 @@
+{
+  "id": "p02-b-10",
+  "title_zh": "沿河走到公园",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "riverside-walking-directions",
+    "label_zh": "核实到公园的步行路线",
+    "goal_zh": "借助地图确认路口方向和过河位置"
+  },
+  "participants": [
+    "Ines",
+    "Caleb"
+  ],
+  "context_zh": "游客向咖啡店员工询问如何步行去河对岸的公园。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-10-s01",
+      "speaker": "Ines",
+      "text": "Is there a way to walk to the park from here?"
+    },
+    {
+      "id": "p02-b-10-s02",
+      "speaker": "Caleb",
+      "text": "Yes. Turn right outside this building and follow the road towards the water."
+    },
+    {
+      "id": "p02-b-10-s03",
+      "speaker": "Ines",
+      "text": "Do I go past the old mill?"
+    },
+    {
+      "id": "p02-b-10-s04",
+      "speaker": "Caleb",
+      "text": "You do. There's a footbridge just beyond it. Go over the bridge, and the park entrance is on your left."
+    },
+    {
+      "id": "p02-b-10-s05",
+      "speaker": "Ines",
+      "text": "Could you point to the bridge on my map? I can see the river, but not the crossing."
+    },
+    {
+      "id": "p02-b-10-s06",
+      "speaker": "Caleb",
+      "text": "Here, beside this small blue mark."
+    },
+    {
+      "id": "p02-b-10-s07",
+      "speaker": "Ines",
+      "text": "Got it. I'll use that route. Thanks for checking."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-05d1115ed438cf2b",
+      "lemma": "park",
+      "pos": "n.",
+      "sense_zh": "公园",
+      "sentence_ids": [
+        "p02-b-10-s01"
+      ],
+      "forms": [
+        "park"
+      ],
+      "sense_id": "sense-staged-ox-05d1115ed438cf2b-p02-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a482f6e62a3be5c7",
+      "lemma": "right",
+      "pos": "adv.",
+      "sense_zh": "向右",
+      "sentence_ids": [
+        "p02-b-10-s02"
+      ],
+      "forms": [
+        "right"
+      ],
+      "sense_id": "sense-staged-ox-a482f6e62a3be5c7-p02-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-caa589a88fb40e41",
+      "lemma": "outside",
+      "pos": "prep.",
+      "sense_zh": "在……外面",
+      "sentence_ids": [
+        "p02-b-10-s02"
+      ],
+      "forms": [
+        "outside"
+      ],
+      "sense_id": "sense-staged-ox-caa589a88fb40e41-p02-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c00503649e05657",
+      "lemma": "road",
+      "pos": "n.",
+      "sense_zh": "道路",
+      "sentence_ids": [
+        "p02-b-10-s02"
+      ],
+      "forms": [
+        "road"
+      ],
+      "sense_id": "sense-staged-ox-2c00503649e05657-p02-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-111ac9c05ece7bca",
+      "lemma": "past",
+      "pos": "prep.",
+      "sense_zh": "经过；越过某处",
+      "sentence_ids": [
+        "p02-b-10-s03"
+      ],
+      "forms": [
+        "past"
+      ],
+      "sense_id": "sense-staged-ox-111ac9c05ece7bca-p02-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ae6a7e51151bded",
+      "lemma": "over",
+      "pos": "prep.",
+      "sense_zh": "从桥等的上面越过",
+      "sentence_ids": [
+        "p02-b-10-s04"
+      ],
+      "forms": [
+        "over"
+      ],
+      "sense_id": "sense-staged-ox-3ae6a7e51151bded-p02-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-400c2d5636f184bc",
+      "lemma": "point",
+      "pos": "v.",
+      "sense_zh": "指向",
+      "sentence_ids": [
+        "p02-b-10-s05"
+      ],
+      "forms": [
+        "point"
+      ],
+      "sense_id": "sense-staged-ox-400c2d5636f184bc-p02-b-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7077ed73d6bc8851",
+      "lemma": "river",
+      "pos": "n.",
+      "sense_zh": "河流",
+      "sentence_ids": [
+        "p02-b-10-s05"
+      ],
+      "forms": [
+        "river"
+      ],
+      "sense_id": "sense-staged-ox-7077ed73d6bc8851-p02-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

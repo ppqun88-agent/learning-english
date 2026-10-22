@@ -1,0 +1,164 @@
+{
+  "id": "p02-c-04",
+  "title_zh": "发现蛇后改走安全路线",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "park-snake-path-warning",
+    "label_zh": "发现蛇后改走安全路线",
+    "goal_zh": "保持距离、通知管理人员并避开受影响的小径"
+  },
+  "participants": [
+    "Asha",
+    "Finn"
+  ],
+  "context_zh": "两名遛狗者发现小径附近有蛇，联系公园管理员。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-04-s01",
+      "speaker": "Asha",
+      "text": "There's a snake on the path beside that tree."
+    },
+    {
+      "id": "p02-c-04-s02",
+      "speaker": "Finn",
+      "text": "Let's stay back. Is somebody from the park office nearby?"
+    },
+    {
+      "id": "p02-c-04-s03",
+      "speaker": "Asha",
+      "text": "I'll call them. Please stand over there, by the gate."
+    },
+    {
+      "id": "p02-c-04-s04",
+      "speaker": "Finn",
+      "text": "It's moving under the bench. I'll keep the dog away."
+    },
+    {
+      "id": "p02-c-04-s05",
+      "speaker": "Asha",
+      "text": "The ranger says we should use the other path. She's coming to check this one."
+    },
+    {
+      "id": "p02-c-04-s06",
+      "speaker": "Finn",
+      "text": "All right. Let's go back to the gate."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f149c51c0015114f",
+      "lemma": "snake",
+      "pos": "n.",
+      "sense_zh": "蛇",
+      "sentence_ids": [
+        "p02-c-04-s01"
+      ],
+      "forms": [
+        "snake"
+      ],
+      "sense_id": "sense-staged-ox-f149c51c0015114f-p02-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-65ae669775c2aefa",
+      "lemma": "stand",
+      "pos": "v.",
+      "sense_zh": "站立",
+      "sentence_ids": [
+        "p02-c-04-s03"
+      ],
+      "forms": [
+        "stand"
+      ],
+      "sense_id": "sense-staged-ox-65ae669775c2aefa-p02-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-39b0e3822970182d",
+      "lemma": "tree",
+      "pos": "n.",
+      "sense_zh": "树",
+      "sentence_ids": [
+        "p02-c-04-s01"
+      ],
+      "forms": [
+        "tree"
+      ],
+      "sense_id": "sense-staged-ox-39b0e3822970182d-p02-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5fe08403e39c9d5b",
+      "lemma": "under",
+      "pos": "prep.",
+      "sense_zh": "在……下面",
+      "sentence_ids": [
+        "p02-c-04-s04"
+      ],
+      "forms": [
+        "under"
+      ],
+      "sense_id": "sense-staged-ox-5fe08403e39c9d5b-p02-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-faf7ac58c17b375f",
+      "lemma": "somebody",
+      "pos": "pron.",
+      "sense_zh": "某个人",
+      "sentence_ids": [
+        "p02-c-04-s02"
+      ],
+      "forms": [
+        "somebody"
+      ],
+      "sense_id": "sense-staged-ox-faf7ac58c17b375f-p02-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9712846c02993aa0",
+      "lemma": "stay",
+      "pos": "v.",
+      "sense_zh": "保持在某位置",
+      "sentence_ids": [
+        "p02-c-04-s02"
+      ],
+      "forms": [
+        "stay"
+      ],
+      "sense_id": "sense-staged-ox-9712846c02993aa0-p02-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14042a9b7142ba79",
+      "lemma": "there",
+      "pos": "adv.",
+      "sense_zh": "在那里",
+      "sentence_ids": [
+        "p02-c-04-s03"
+      ],
+      "forms": [
+        "there"
+      ],
+      "sense_id": "sense-staged-ox-14042a9b7142ba79-p02-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

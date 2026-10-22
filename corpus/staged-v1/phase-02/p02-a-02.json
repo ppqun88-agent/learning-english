@@ -1,0 +1,195 @@
+{
+  "id": "p02-a-02",
+  "title_zh": "用信件办理借书证",
+  "topic_id": "community",
+  "scenario": {
+    "id": "library-membership-proof",
+    "label_zh": "核对图书馆入会材料",
+    "goal_zh": "确认住址证明并办理可以借阅的图书馆会员资格。"
+  },
+  "participants": [
+    "Maya",
+    "Dennis"
+  ],
+  "context_zh": "新居民到图书馆办借书证，柜台人员解释住址证明及借阅规则。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-02-s01",
+      "speaker": "Maya",
+      "text": "I'd like to become a member of this library."
+    },
+    {
+      "id": "p02-a-02-s02",
+      "speaker": "Dennis",
+      "text": "Certainly. Do you have something with your name and address on it?"
+    },
+    {
+      "id": "p02-a-02-s03",
+      "speaker": "Maya",
+      "text": "My bank sent me this letter. Will that do?"
+    },
+    {
+      "id": "p02-a-02-s04",
+      "speaker": "Dennis",
+      "text": "Yes, that's fine. Please fill in this short form."
+    },
+    {
+      "id": "p02-a-02-s05",
+      "speaker": "Maya",
+      "text": "Can I borrow a magazine as well as books?"
+    },
+    {
+      "id": "p02-a-02-s06",
+      "speaker": "Dennis",
+      "text": "You can borrow an older issue, but the current one stays here."
+    },
+    {
+      "id": "p02-a-02-s07",
+      "speaker": "Maya",
+      "text": "How often do I need to renew the card?"
+    },
+    {
+      "id": "p02-a-02-s08",
+      "speaker": "Dennis",
+      "text": "Just once a year. I'll put the date on the back."
+    },
+    {
+      "id": "p02-a-02-s09",
+      "speaker": "Maya",
+      "text": "Great. Here's the completed form."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9508f5d33cc5d776",
+      "lemma": "member",
+      "pos": "n.",
+      "sense_zh": "会员",
+      "sentence_ids": [
+        "p02-a-02-s01"
+      ],
+      "forms": [
+        "member"
+      ],
+      "sense_id": "sense-staged-ox-9508f5d33cc5d776-p02-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a7186a7f53b422b",
+      "lemma": "library",
+      "pos": "n.",
+      "sense_zh": "图书馆",
+      "sentence_ids": [
+        "p02-a-02-s01"
+      ],
+      "forms": [
+        "library"
+      ],
+      "sense_id": "sense-staged-ox-2a7186a7f53b422b-p02-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00af4c14899581cf",
+      "lemma": "name",
+      "pos": "n.",
+      "sense_zh": "姓名",
+      "sentence_ids": [
+        "p02-a-02-s02"
+      ],
+      "forms": [
+        "name"
+      ],
+      "sense_id": "sense-staged-ox-00af4c14899581cf-p02-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-153338b8a2973d36",
+      "lemma": "my",
+      "pos": "det.",
+      "sense_zh": "我的",
+      "sentence_ids": [
+        "p02-a-02-s03"
+      ],
+      "forms": [
+        "my"
+      ],
+      "sense_id": "sense-staged-ox-153338b8a2973d36-p02-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb74b60dc795ec37",
+      "lemma": "letter",
+      "pos": "n.",
+      "sense_zh": "信；信件",
+      "sentence_ids": [
+        "p02-a-02-s03"
+      ],
+      "forms": [
+        "letter"
+      ],
+      "sense_id": "sense-staged-ox-cb74b60dc795ec37-p02-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c4937cec91cbf19",
+      "lemma": "magazine",
+      "pos": "n.",
+      "sense_zh": "杂志",
+      "sentence_ids": [
+        "p02-a-02-s05"
+      ],
+      "forms": [
+        "magazine"
+      ],
+      "sense_id": "sense-staged-ox-5c4937cec91cbf19-p02-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6576b7c0d238bd64",
+      "lemma": "often",
+      "pos": "adv.",
+      "sense_zh": "经常；多常",
+      "sentence_ids": [
+        "p02-a-02-s07"
+      ],
+      "forms": [
+        "often"
+      ],
+      "sense_id": "sense-staged-ox-6576b7c0d238bd64-p02-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b5e6fb85ce80db7c",
+      "lemma": "once",
+      "pos": "adv.",
+      "sense_zh": "一次",
+      "sentence_ids": [
+        "p02-a-02-s08"
+      ],
+      "forms": [
+        "once"
+      ],
+      "sense_id": "sense-staged-ox-b5e6fb85ce80db7c-p02-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

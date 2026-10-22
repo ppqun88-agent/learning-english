@@ -1,0 +1,216 @@
+{
+  "id": "p02-b-04",
+  "title_zh": "换到合适的裤子和鞋",
+  "topic_id": "services",
+  "scenario": {
+    "id": "clothing-fit-exchange",
+    "label_zh": "试穿并调整服装尺码",
+    "goal_zh": "根据试穿结果更换裤子和鞋的尺码并完成购物"
+  },
+  "participants": [
+    "Gabriel",
+    "Lena"
+  ],
+  "context_zh": "顾客在服装店试穿一套参加聚会的衣服。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-04-s01",
+      "speaker": "Gabriel",
+      "text": "These pants are too long. Do you have a shorter pair?"
+    },
+    {
+      "id": "p02-b-04-s02",
+      "speaker": "Lena",
+      "text": "Yes. Would you like to keep the shirt you have on?"
+    },
+    {
+      "id": "p02-b-04-s03",
+      "speaker": "Gabriel",
+      "text": "I would. The left shoe feels tight, though."
+    },
+    {
+      "id": "p02-b-04-s04",
+      "speaker": "Lena",
+      "text": "I'll bring a larger size. Is the other shoe tight as well?"
+    },
+    {
+      "id": "p02-b-04-s05",
+      "speaker": "Gabriel",
+      "text": "A little. Does this shop sell belts too?"
+    },
+    {
+      "id": "p02-b-04-s06",
+      "speaker": "Lena",
+      "text": "We do, just beside the checkout."
+    },
+    {
+      "id": "p02-b-04-s07",
+      "speaker": "Gabriel",
+      "text": "Actually, I can use my own belt. I don't need another one."
+    },
+    {
+      "id": "p02-b-04-s08",
+      "speaker": "Lena",
+      "text": "Here are the shorter pants and the larger shoes. How do they feel?"
+    },
+    {
+      "id": "p02-b-04-s09",
+      "speaker": "Gabriel",
+      "text": "Much better. I can finally finish my shopping."
+    },
+    {
+      "id": "p02-b-04-s10",
+      "speaker": "Lena",
+      "text": "Great. I'll take those to the checkout for you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-11fb96d263de6a41",
+      "lemma": "pants",
+      "pos": "n.",
+      "sense_zh": "裤子（美式英语）",
+      "sentence_ids": [
+        "p02-b-04-s01"
+      ],
+      "forms": [
+        "pants"
+      ],
+      "sense_id": "sense-staged-ox-11fb96d263de6a41-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0fc8dc022d0ecca9",
+      "lemma": "pair",
+      "pos": "n.",
+      "sense_zh": "一条、一双等成对物品的数量单位",
+      "sentence_ids": [
+        "p02-b-04-s01"
+      ],
+      "forms": [
+        "pair"
+      ],
+      "sense_id": "sense-staged-ox-0fc8dc022d0ecca9-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ad9667616b019777",
+      "lemma": "shirt",
+      "pos": "n.",
+      "sense_zh": "衬衫",
+      "sentence_ids": [
+        "p02-b-04-s02"
+      ],
+      "forms": [
+        "shirt"
+      ],
+      "sense_id": "sense-staged-ox-ad9667616b019777-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-234d0d461f87d6dd",
+      "lemma": "shoe",
+      "pos": "n.",
+      "sense_zh": "鞋子",
+      "sentence_ids": [
+        "p02-b-04-s03"
+      ],
+      "forms": [
+        "shoe"
+      ],
+      "sense_id": "sense-staged-ox-234d0d461f87d6dd-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c5e330d949fcc04",
+      "lemma": "other",
+      "pos": "adj.",
+      "sense_zh": "另外的",
+      "sentence_ids": [
+        "p02-b-04-s04"
+      ],
+      "forms": [
+        "other"
+      ],
+      "sense_id": "sense-staged-ox-3c5e330d949fcc04-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b557d0692dcc17b8",
+      "lemma": "shop",
+      "pos": "n.",
+      "sense_zh": "商店",
+      "sentence_ids": [
+        "p02-b-04-s05"
+      ],
+      "forms": [
+        "shop"
+      ],
+      "sense_id": "sense-staged-ox-b557d0692dcc17b8-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b54d923196348e1",
+      "lemma": "sell",
+      "pos": "v.",
+      "sense_zh": "出售",
+      "sentence_ids": [
+        "p02-b-04-s05"
+      ],
+      "forms": [
+        "sell"
+      ],
+      "sense_id": "sense-staged-ox-6b54d923196348e1-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6ad0ee719466ac30",
+      "lemma": "own",
+      "pos": "adj.",
+      "sense_zh": "自己的",
+      "sentence_ids": [
+        "p02-b-04-s07"
+      ],
+      "forms": [
+        "own"
+      ],
+      "sense_id": "sense-staged-ox-6ad0ee719466ac30-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a7de2e597d6e3237",
+      "lemma": "shopping",
+      "pos": "n.",
+      "sense_zh": "购物活动",
+      "sentence_ids": [
+        "p02-b-04-s09"
+      ],
+      "forms": [
+        "shopping"
+      ],
+      "sense_id": "sense-staged-ox-a7de2e597d6e3237-p02-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

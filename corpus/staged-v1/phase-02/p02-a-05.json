@@ -1,0 +1,121 @@
+{
+  "id": "p02-a-05",
+  "title_zh": "挑选预算内的洗衣机",
+  "topic_id": "services",
+  "scenario": {
+    "id": "appliance-budget-choice",
+    "label_zh": "比较预算内的洗衣机",
+    "goal_zh": "比较洗衣机型号和价格并选出可负担的选项。"
+  },
+  "participants": [
+    "Eric",
+    "Sonia"
+  ],
+  "context_zh": "顾客需要更换洗衣机，销售员根据预算推荐基础款。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-05-s01",
+      "speaker": "Eric",
+      "text": "I need a washing machine, but I haven't got much money to spend."
+    },
+    {
+      "id": "p02-a-05-s02",
+      "speaker": "Sonia",
+      "text": "What's your budget?"
+    },
+    {
+      "id": "p02-a-05-s03",
+      "speaker": "Eric",
+      "text": "Three hundred pounds, including delivery."
+    },
+    {
+      "id": "p02-a-05-s04",
+      "speaker": "Sonia",
+      "text": "This model is two hundred and eighty, and delivery is free."
+    },
+    {
+      "id": "p02-a-05-s05",
+      "speaker": "Eric",
+      "text": "Does it have a short wash? That's the setting I use most."
+    },
+    {
+      "id": "p02-a-05-s06",
+      "speaker": "Sonia",
+      "text": "Yes, a thirty-minute cycle. You can see the controls here."
+    },
+    {
+      "id": "p02-a-05-s07",
+      "speaker": "Eric",
+      "text": "That has everything I need. I'll take this one."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e53e970daf0ec7a5",
+      "lemma": "machine",
+      "pos": "n.",
+      "sense_zh": "机器",
+      "sentence_ids": [
+        "p02-a-05-s01"
+      ],
+      "forms": [
+        "machine"
+      ],
+      "sense_id": "sense-staged-ox-e53e970daf0ec7a5-p02-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3f731732d2287fc6",
+      "lemma": "much",
+      "pos": "det.",
+      "sense_zh": "大量的；很多的",
+      "sentence_ids": [
+        "p02-a-05-s01"
+      ],
+      "forms": [
+        "much"
+      ],
+      "sense_id": "sense-staged-ox-3f731732d2287fc6-p02-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-101ee34ceb58e0cf",
+      "lemma": "money",
+      "pos": "n.",
+      "sense_zh": "钱",
+      "sentence_ids": [
+        "p02-a-05-s01"
+      ],
+      "forms": [
+        "money"
+      ],
+      "sense_id": "sense-staged-ox-101ee34ceb58e0cf-p02-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1a21061d000fccec",
+      "lemma": "model",
+      "pos": "n.",
+      "sense_zh": "型号",
+      "sentence_ids": [
+        "p02-a-05-s04"
+      ],
+      "forms": [
+        "model"
+      ],
+      "sense_id": "sense-staged-ox-1a21061d000fccec-p02-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

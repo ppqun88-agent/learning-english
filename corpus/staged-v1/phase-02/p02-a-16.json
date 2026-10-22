@@ -1,0 +1,153 @@
+{
+  "id": "p02-a-16",
+  "title_zh": "配合诊所护士检查",
+  "topic_id": "health",
+  "scenario": {
+    "id": "clinic-examination-cooperation",
+    "label_zh": "配合诊所护士检查",
+    "goal_zh": "说明身体不适并理解检查期间的要求。"
+  },
+  "participants": [
+    "Marina",
+    "Felix"
+  ],
+  "context_zh": "患者在预约就诊时向护士说明腿部疼痛及感冒症状，由护士安排医生检查。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-16-s01",
+      "speaker": "Marina",
+      "text": "I'm Marina, the nurse. What would you like the doctor to check today?"
+    },
+    {
+      "id": "p02-a-16-s02",
+      "speaker": "Felix",
+      "text": "My leg hurts when I walk. I've also got a blocked nose."
+    },
+    {
+      "id": "p02-a-16-s03",
+      "speaker": "Marina",
+      "text": "I'll make a note of both. Can you lie on the couch while I call the doctor in?"
+    },
+    {
+      "id": "p02-a-16-s04",
+      "speaker": "Felix",
+      "text": "Yes. Is it all right if I keep my shoes on until then?"
+    },
+    {
+      "id": "p02-a-16-s05",
+      "speaker": "Marina",
+      "text": "For now, yes. You must tell us if changing position makes the pain worse."
+    },
+    {
+      "id": "p02-a-16-s06",
+      "speaker": "Felix",
+      "text": "I will. My mouth feels dry too. May I have some water?"
+    },
+    {
+      "id": "p02-a-16-s07",
+      "speaker": "Marina",
+      "text": "Of course. I'll bring a cup and let the doctor know you're ready."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-045b5e981c0d7e29",
+      "lemma": "nurse",
+      "pos": "n.",
+      "sense_zh": "护士",
+      "sentence_ids": [
+        "p02-a-16-s01"
+      ],
+      "forms": [
+        "nurse"
+      ],
+      "sense_id": "sense-staged-ox-045b5e981c0d7e29-p02-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26805a03d139639b",
+      "lemma": "leg",
+      "pos": "n.",
+      "sense_zh": "腿",
+      "sentence_ids": [
+        "p02-a-16-s02"
+      ],
+      "forms": [
+        "leg"
+      ],
+      "sense_id": "sense-staged-ox-26805a03d139639b-p02-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2891fb14feb63413",
+      "lemma": "nose",
+      "pos": "n.",
+      "sense_zh": "鼻子",
+      "sentence_ids": [
+        "p02-a-16-s02"
+      ],
+      "forms": [
+        "nose"
+      ],
+      "sense_id": "sense-staged-ox-2891fb14feb63413-p02-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12c32eee31c7c9fb",
+      "lemma": "lie",
+      "pos": "v.",
+      "sense_zh": "躺",
+      "sentence_ids": [
+        "p02-a-16-s03"
+      ],
+      "forms": [
+        "lie"
+      ],
+      "sense_id": "sense-staged-ox-12c32eee31c7c9fb-p02-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-61292c7a6c162292",
+      "lemma": "must",
+      "pos": "modal v.",
+      "sense_zh": "必须",
+      "sentence_ids": [
+        "p02-a-16-s05"
+      ],
+      "forms": [
+        "must"
+      ],
+      "sense_id": "sense-staged-ox-61292c7a6c162292-p02-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2fe7ffbd9057973f",
+      "lemma": "mouth",
+      "pos": "n.",
+      "sense_zh": "嘴",
+      "sentence_ids": [
+        "p02-a-16-s06"
+      ],
+      "forms": [
+        "mouth"
+      ],
+      "sense_id": "sense-staged-ox-2fe7ffbd9057973f-p02-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

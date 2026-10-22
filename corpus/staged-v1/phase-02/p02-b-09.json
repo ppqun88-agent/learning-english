@@ -1,0 +1,227 @@
+{
+  "id": "p02-b-09",
+  "title_zh": "排练前解决合唱难点",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "choir-rehearsal-plan",
+    "label_zh": "安排合唱排练与伴奏",
+    "goal_zh": "确认替补伴奏并确定困难声部的练习方式"
+  },
+  "participants": [
+    "Ruth",
+    "Jasper"
+  ],
+  "context_zh": "合唱团的固定伴奏请假，指挥请另一位成员帮忙。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-09-s01",
+      "speaker": "Ruth",
+      "text": "We have practice at six. Could you play the piano for us?"
+    },
+    {
+      "id": "p02-b-09-s02",
+      "speaker": "Jasper",
+      "text": "I can. Is your usual piano player away?"
+    },
+    {
+      "id": "p02-b-09-s03",
+      "speaker": "Ruth",
+      "text": "Yes, until next week. The first piece is easy, but we need help with the next one."
+    },
+    {
+      "id": "p02-b-09-s04",
+      "speaker": "Jasper",
+      "text": "Could you show me where it gets difficult?"
+    },
+    {
+      "id": "p02-b-09-s05",
+      "speaker": "Ruth",
+      "text": "Here. The lower voices keep losing their part when the others come in."
+    },
+    {
+      "id": "p02-b-09-s06",
+      "speaker": "Jasper",
+      "text": "Then let them sing it alone first, without the higher voices."
+    },
+    {
+      "id": "p02-b-09-s07",
+      "speaker": "Ruth",
+      "text": "Should we repeat those four bars until everyone is comfortable?"
+    },
+    {
+      "id": "p02-b-09-s08",
+      "speaker": "Jasper",
+      "text": "Yes, and ask them to practise that passage at home before Friday."
+    },
+    {
+      "id": "p02-b-09-s09",
+      "speaker": "Ruth",
+      "text": "That gives us a clear plan. I'll bring extra copies of the music."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0abf6ee21901b2a7",
+      "lemma": "practice",
+      "pos": "n.",
+      "sense_zh": "练习；排练",
+      "sentence_ids": [
+        "p02-b-09-s01"
+      ],
+      "forms": [
+        "practice"
+      ],
+      "sense_id": "sense-staged-ox-0abf6ee21901b2a7-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43927a162b3c8944",
+      "lemma": "play",
+      "pos": "v.",
+      "sense_zh": "演奏乐器",
+      "sentence_ids": [
+        "p02-b-09-s01"
+      ],
+      "forms": [
+        "play"
+      ],
+      "sense_id": "sense-staged-ox-43927a162b3c8944-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d86a9e386e117bd6",
+      "lemma": "piano",
+      "pos": "n.",
+      "sense_zh": "钢琴",
+      "sentence_ids": [
+        "p02-b-09-s01"
+      ],
+      "forms": [
+        "piano"
+      ],
+      "sense_id": "sense-staged-ox-d86a9e386e117bd6-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-485dd2894b9989bb",
+      "lemma": "player",
+      "pos": "n.",
+      "sense_zh": "乐器演奏者",
+      "sentence_ids": [
+        "p02-b-09-s02"
+      ],
+      "forms": [
+        "player"
+      ],
+      "sense_id": "sense-staged-ox-485dd2894b9989bb-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c6c8966105ac6a4e",
+      "lemma": "piece",
+      "pos": "n.",
+      "sense_zh": "一首音乐作品",
+      "sentence_ids": [
+        "p02-b-09-s03"
+      ],
+      "forms": [
+        "piece"
+      ],
+      "sense_id": "sense-staged-ox-c6c8966105ac6a4e-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-62f2cca2e18e0849",
+      "lemma": "show",
+      "pos": "v.",
+      "sense_zh": "指给某人看",
+      "sentence_ids": [
+        "p02-b-09-s04"
+      ],
+      "forms": [
+        "show"
+      ],
+      "sense_id": "sense-staged-ox-62f2cca2e18e0849-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-49692f4502e166e7",
+      "lemma": "part",
+      "pos": "n.",
+      "sense_zh": "合奏或合唱中的声部",
+      "sentence_ids": [
+        "p02-b-09-s05"
+      ],
+      "forms": [
+        "part"
+      ],
+      "sense_id": "sense-staged-ox-49692f4502e166e7-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-400352bdd6085f15",
+      "lemma": "sing",
+      "pos": "v.",
+      "sense_zh": "唱歌",
+      "sentence_ids": [
+        "p02-b-09-s06"
+      ],
+      "forms": [
+        "sing"
+      ],
+      "sense_id": "sense-staged-ox-400352bdd6085f15-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b671503da750963",
+      "lemma": "repeat",
+      "pos": "v.",
+      "sense_zh": "重复",
+      "sentence_ids": [
+        "p02-b-09-s07"
+      ],
+      "forms": [
+        "repeat"
+      ],
+      "sense_id": "sense-staged-ox-0b671503da750963-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e45f3be7ec12eef3",
+      "lemma": "practise",
+      "pos": "v.",
+      "sense_zh": "练习",
+      "sentence_ids": [
+        "p02-b-09-s08"
+      ],
+      "forms": [
+        "practise"
+      ],
+      "sense_id": "sense-staged-ox-e45f3be7ec12eef3-p02-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

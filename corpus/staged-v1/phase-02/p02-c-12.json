@@ -1,0 +1,132 @@
+{
+  "id": "p02-c-12",
+  "title_zh": "更正课程联络方式",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "course-contact-correction",
+    "label_zh": "更正课程联络方式",
+    "goal_zh": "查明短信无回复的原因并找到联系教师的方式"
+  },
+  "participants": [
+    "Lena",
+    "Peter"
+  ],
+  "context_zh": "Lena 到语言学校办公室询问之前未得到回复的短信。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-12-s01",
+      "speaker": "Lena",
+      "text": "I sent a text about tomorrow's class, but nobody replied."
+    },
+    {
+      "id": "p02-c-12-s02",
+      "speaker": "Peter",
+      "text": "That went to our old number. Did someone give you this card?"
+    },
+    {
+      "id": "p02-c-12-s03",
+      "speaker": "Lena",
+      "text": "Yes, last month. Could you tell me the new number?"
+    },
+    {
+      "id": "p02-c-12-s04",
+      "speaker": "Peter",
+      "text": "Certainly. You can also use the telephone on that desk to leave a message for your teacher."
+    },
+    {
+      "id": "p02-c-12-s05",
+      "speaker": "Lena",
+      "text": "I'd like to thank her for holding my place. I'll call her now."
+    },
+    {
+      "id": "p02-c-12-s06",
+      "speaker": "Peter",
+      "text": "Here you are. I've written the new number on your card."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-06cc38dbfc1ca3ef",
+      "lemma": "telephone",
+      "pos": "n.",
+      "sense_zh": "电话机",
+      "sentence_ids": [
+        "p02-c-12-s04"
+      ],
+      "forms": [
+        "telephone"
+      ],
+      "sense_id": "sense-staged-ox-06cc38dbfc1ca3ef-p02-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3557e22ea38ac975",
+      "lemma": "tell",
+      "pos": "v.",
+      "sense_zh": "告诉",
+      "sentence_ids": [
+        "p02-c-12-s03"
+      ],
+      "forms": [
+        "tell"
+      ],
+      "sense_id": "sense-staged-ox-3557e22ea38ac975-p02-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9158e76408c6f7cb",
+      "lemma": "text",
+      "pos": "n.",
+      "sense_zh": "手机短信",
+      "sentence_ids": [
+        "p02-c-12-s01"
+      ],
+      "forms": [
+        "text"
+      ],
+      "sense_id": "sense-staged-ox-9158e76408c6f7cb-p02-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-867866baf23dd23f",
+      "lemma": "someone",
+      "pos": "pron.",
+      "sense_zh": "某个人",
+      "sentence_ids": [
+        "p02-c-12-s02"
+      ],
+      "forms": [
+        "someone"
+      ],
+      "sense_id": "sense-staged-ox-867866baf23dd23f-p02-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-93cc12acacd698fc",
+      "lemma": "thank",
+      "pos": "v.",
+      "sense_zh": "感谢",
+      "sentence_ids": [
+        "p02-c-12-s05"
+      ],
+      "forms": [
+        "thank"
+      ],
+      "sense_id": "sense-staged-ox-93cc12acacd698fc-p02-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

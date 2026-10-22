@@ -1,0 +1,147 @@
+{
+  "id": "p02-a-17",
+  "title_zh": "在商场找回遗失的包",
+  "topic_id": "services",
+  "scenario": {
+    "id": "mall-lost-bag-report",
+    "label_zh": "在商场报告遗失的包",
+    "goal_zh": "描述遗失物及最后出现的位置并联系失物招领。"
+  },
+  "participants": [
+    "Faye",
+    "Marcus"
+  ],
+  "context_zh": "顾客在商场客服台寻求帮助，保安核查送来的失物。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-17-s01",
+      "speaker": "Faye",
+      "text": "I've left my bag somewhere in the mall. Is this the lost property desk?"
+    },
+    {
+      "id": "p02-a-17-s02",
+      "speaker": "Marcus",
+      "text": "Yes. Where do you think you might have left it?"
+    },
+    {
+      "id": "p02-a-17-s03",
+      "speaker": "Faye",
+      "text": "By the fountain. I usually lose things when I'm carrying too much."
+    },
+    {
+      "id": "p02-a-17-s04",
+      "speaker": "Marcus",
+      "text": "What does the bag look like?"
+    },
+    {
+      "id": "p02-a-17-s05",
+      "speaker": "Faye",
+      "text": "It's green, with a silver star on the front."
+    },
+    {
+      "id": "p02-a-17-s06",
+      "speaker": "Marcus",
+      "text": "A man brought in a green bag about ten minutes ago. No one has claimed it."
+    },
+    {
+      "id": "p02-a-17-s07",
+      "speaker": "Faye",
+      "text": "That's it, on the shelf! There's a blue purse inside."
+    },
+    {
+      "id": "p02-a-17-s08",
+      "speaker": "Marcus",
+      "text": "The purse is here. Please check that nothing is missing, then sign this form."
+    },
+    {
+      "id": "p02-a-17-s09",
+      "speaker": "Faye",
+      "text": "Everything's here. Thank you for keeping it safe."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c7ffbc9c116e9305",
+      "lemma": "mall",
+      "pos": "n.",
+      "sense_zh": "购物中心",
+      "sentence_ids": [
+        "p02-a-17-s01"
+      ],
+      "forms": [
+        "mall"
+      ],
+      "sense_id": "sense-staged-ox-c7ffbc9c116e9305-p02-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-48db8f0676041a48",
+      "lemma": "lose",
+      "pos": "v.",
+      "sense_zh": "丢失",
+      "sentence_ids": [
+        "p02-a-17-s03"
+      ],
+      "forms": [
+        "lose"
+      ],
+      "sense_id": "sense-staged-ox-48db8f0676041a48-p02-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-90422f8334fd7ad2",
+      "lemma": "man",
+      "pos": "n.",
+      "sense_zh": "成年男子",
+      "sentence_ids": [
+        "p02-a-17-s06"
+      ],
+      "forms": [
+        "man"
+      ],
+      "sense_id": "sense-staged-ox-90422f8334fd7ad2-p02-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-caa8ba8e960ff5be",
+      "lemma": "no one",
+      "pos": "pron.",
+      "sense_zh": "没有人",
+      "sentence_ids": [
+        "p02-a-17-s06"
+      ],
+      "forms": [
+        "no one"
+      ],
+      "sense_id": "sense-staged-ox-caa8ba8e960ff5be-p02-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-89c3c0f69ed1f4e9",
+      "lemma": "nothing",
+      "pos": "pron.",
+      "sense_zh": "没有任何东西",
+      "sentence_ids": [
+        "p02-a-17-s08"
+      ],
+      "forms": [
+        "nothing"
+      ],
+      "sense_id": "sense-staged-ox-89c3c0f69ed1f4e9-p02-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

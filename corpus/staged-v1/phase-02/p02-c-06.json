@@ -1,0 +1,212 @@
+{
+  "id": "p02-c-06",
+  "title_zh": "安排叔叔的生日午餐",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "uncle-birthday-lunch",
+    "label_zh": "安排叔叔的生日午餐",
+    "goal_zh": "确认家人参加生日聚餐并协调同行和带蛋糕"
+  },
+  "participants": [
+    "Sofia",
+    "Daniel"
+  ],
+  "context_zh": "Sofia 邀请亲戚 Daniel 一家参加叔叔生日午餐。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-06-s01",
+      "speaker": "Sofia",
+      "text": "My uncle will be sixty on Sunday. Can your family join us for lunch?"
+    },
+    {
+      "id": "p02-c-06-s02",
+      "speaker": "Daniel",
+      "text": "Yes. My son is thirteen now. Will he be the only teenager there?"
+    },
+    {
+      "id": "p02-c-06-s03",
+      "speaker": "Sofia",
+      "text": "No, Ella and Max are coming too. They want to make a cake."
+    },
+    {
+      "id": "p02-c-06-s04",
+      "speaker": "Daniel",
+      "text": "We can collect them on the way and all arrive together."
+    },
+    {
+      "id": "p02-c-06-s05",
+      "speaker": "Sofia",
+      "text": "That would help. Their cake will need a flat space in the car."
+    },
+    {
+      "id": "p02-c-06-s06",
+      "speaker": "Daniel",
+      "text": "We'll clear the boot. Send me the address and I'll arrange a pickup time with them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3f92a16710170d5b",
+      "lemma": "son",
+      "pos": "n.",
+      "sense_zh": "儿子",
+      "sentence_ids": [
+        "p02-c-06-s02"
+      ],
+      "forms": [
+        "son"
+      ],
+      "sense_id": "sense-staged-ox-3f92a16710170d5b-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f7897fd736a82e4a",
+      "lemma": "uncle",
+      "pos": "n.",
+      "sense_zh": "叔叔；伯伯；舅舅",
+      "sentence_ids": [
+        "p02-c-06-s01"
+      ],
+      "forms": [
+        "uncle"
+      ],
+      "sense_id": "sense-staged-ox-f7897fd736a82e4a-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fbaca31e16658873",
+      "lemma": "teenager",
+      "pos": "n.",
+      "sense_zh": "十三至十九岁的青少年",
+      "sentence_ids": [
+        "p02-c-06-s02"
+      ],
+      "forms": [
+        "teenager"
+      ],
+      "sense_id": "sense-staged-ox-fbaca31e16658873-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c509a1f9629808bf",
+      "lemma": "thirteen",
+      "pos": "number",
+      "sense_zh": "十三",
+      "sentence_ids": [
+        "p02-c-06-s02"
+      ],
+      "forms": [
+        "thirteen"
+      ],
+      "sense_id": "sense-staged-ox-c509a1f9629808bf-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-580500fa79be6f86",
+      "lemma": "sixty",
+      "pos": "number",
+      "sense_zh": "六十",
+      "sentence_ids": [
+        "p02-c-06-s01"
+      ],
+      "forms": [
+        "sixty"
+      ],
+      "sense_id": "sense-staged-ox-580500fa79be6f86-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e02dfc7e8f83bad2",
+      "lemma": "Sunday",
+      "pos": "n.",
+      "sense_zh": "星期日",
+      "sentence_ids": [
+        "p02-c-06-s01"
+      ],
+      "forms": [
+        "Sunday"
+      ],
+      "sense_id": "sense-staged-ox-e02dfc7e8f83bad2-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-69729c6b369c7ece",
+      "lemma": "together",
+      "pos": "adv.",
+      "sense_zh": "一起",
+      "sentence_ids": [
+        "p02-c-06-s04"
+      ],
+      "forms": [
+        "together"
+      ],
+      "sense_id": "sense-staged-ox-69729c6b369c7ece-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c55a6b0dc0444977",
+      "lemma": "their",
+      "pos": "det.",
+      "sense_zh": "他们的",
+      "sentence_ids": [
+        "p02-c-06-s05"
+      ],
+      "forms": [
+        "their"
+      ],
+      "sense_id": "sense-staged-ox-c55a6b0dc0444977-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57914f81baa02d7b",
+      "lemma": "them",
+      "pos": "pron.",
+      "sense_zh": "他们；作宾语",
+      "sentence_ids": [
+        "p02-c-06-s04"
+      ],
+      "forms": [
+        "them"
+      ],
+      "sense_id": "sense-staged-ox-57914f81baa02d7b-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57d8d40323e57aec",
+      "lemma": "they",
+      "pos": "pron.",
+      "sense_zh": "他们；作主语",
+      "sentence_ids": [
+        "p02-c-06-s03"
+      ],
+      "forms": [
+        "they"
+      ],
+      "sense_id": "sense-staged-ox-57d8d40323e57aec-p02-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

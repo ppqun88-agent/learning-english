@@ -1,0 +1,153 @@
+{
+  "id": "p02-b-14",
+  "title_zh": "让科学报告的结论更谨慎",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "school-science-feedback",
+    "label_zh": "根据反馈修改科学项目报告",
+    "goal_zh": "区分一次观察结果与普遍结论并补充研究限制"
+  },
+  "participants": [
+    "Asha",
+    "Noel"
+  ],
+  "context_zh": "学生向同学解释科学展示活动后收到的修改建议。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-14-s01",
+      "speaker": "Asha",
+      "text": "Did the visiting scientist look at your science project?"
+    },
+    {
+      "id": "p02-b-14-s02",
+      "speaker": "Noel",
+      "text": "Yes. Her feedback was positive, but she said the report needed a clearer ending."
+    },
+    {
+      "id": "p02-b-14-s03",
+      "speaker": "Asha",
+      "text": "What did your experiment show?"
+    },
+    {
+      "id": "p02-b-14-s04",
+      "speaker": "Noel",
+      "text": "The result was that one seedling grew taller under the lamp. I wrote that this light helps all plants grow."
+    },
+    {
+      "id": "p02-b-14-s05",
+      "speaker": "Asha",
+      "text": "But you only tested two seedlings, right?"
+    },
+    {
+      "id": "p02-b-14-s06",
+      "speaker": "Noel",
+      "text": "Exactly. I'll describe what happened to those two, and say we need to test more."
+    },
+    {
+      "id": "p02-b-14-s07",
+      "speaker": "Asha",
+      "text": "That sounds much closer to what you actually found."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bae96c03c98287ba",
+      "lemma": "scientist",
+      "pos": "n.",
+      "sense_zh": "科学家",
+      "sentence_ids": [
+        "p02-b-14-s01"
+      ],
+      "forms": [
+        "scientist"
+      ],
+      "sense_id": "sense-staged-ox-bae96c03c98287ba-p02-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c8271d3c92c14cd",
+      "lemma": "science",
+      "pos": "n.",
+      "sense_zh": "科学",
+      "sentence_ids": [
+        "p02-b-14-s01"
+      ],
+      "forms": [
+        "science"
+      ],
+      "sense_id": "sense-staged-ox-0c8271d3c92c14cd-p02-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-779c8310c7872f03",
+      "lemma": "project",
+      "pos": "n.",
+      "sense_zh": "研究或学习项目",
+      "sentence_ids": [
+        "p02-b-14-s01"
+      ],
+      "forms": [
+        "project"
+      ],
+      "sense_id": "sense-staged-ox-779c8310c7872f03-p02-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-abf28ef0212dcd84",
+      "lemma": "positive",
+      "pos": "adj.",
+      "sense_zh": "肯定的；积极的",
+      "sentence_ids": [
+        "p02-b-14-s02"
+      ],
+      "forms": [
+        "positive"
+      ],
+      "sense_id": "sense-staged-ox-abf28ef0212dcd84-p02-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30051a8c307041dc",
+      "lemma": "report",
+      "pos": "n.",
+      "sense_zh": "报告",
+      "sentence_ids": [
+        "p02-b-14-s02"
+      ],
+      "forms": [
+        "report"
+      ],
+      "sense_id": "sense-staged-ox-30051a8c307041dc-p02-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f8f57b673aafd88",
+      "lemma": "result",
+      "pos": "n.",
+      "sense_zh": "结果",
+      "sentence_ids": [
+        "p02-b-14-s04"
+      ],
+      "forms": [
+        "result"
+      ],
+      "sense_id": "sense-staged-ox-0f8f57b673aafd88-p02-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

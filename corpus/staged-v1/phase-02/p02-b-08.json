@@ -1,0 +1,174 @@
+{
+  "id": "p02-b-08",
+  "title_zh": "分工准备生日惊喜",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "surprise-birthday-planning",
+    "label_zh": "安排生日惊喜与分工",
+    "goal_zh": "商定人数、食物和礼物以完成惊喜聚会准备"
+  },
+  "participants": [
+    "Amir",
+    "Cleo"
+  ],
+  "context_zh": "两位朋友正在为共同的朋友准备生日惊喜。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-08-s01",
+      "speaker": "Amir",
+      "text": "How many people are coming to our party for Jo?"
+    },
+    {
+      "id": "p02-b-08-s02",
+      "speaker": "Cleo",
+      "text": "Eight, including Jo and her partner."
+    },
+    {
+      "id": "p02-b-08-s03",
+      "speaker": "Amir",
+      "text": "I can prepare the food. Have you bought a present yet?"
+    },
+    {
+      "id": "p02-b-08-s04",
+      "speaker": "Cleo",
+      "text": "I was thinking of a cookbook."
+    },
+    {
+      "id": "p02-b-08-s05",
+      "speaker": "Amir",
+      "text": "That's the same gift we gave her last year."
+    },
+    {
+      "id": "p02-b-08-s06",
+      "speaker": "Cleo",
+      "text": "You're right. What about tickets for a cooking class instead?"
+    },
+    {
+      "id": "p02-b-08-s07",
+      "speaker": "Amir",
+      "text": "She'd love that. I'll check which evening she's free without telling her why."
+    },
+    {
+      "id": "p02-b-08-s08",
+      "speaker": "Cleo",
+      "text": "Good idea. I'll wait for your message before I book anything."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-65dbb4a0613e8338",
+      "lemma": "people",
+      "pos": "n.",
+      "sense_zh": "人们",
+      "sentence_ids": [
+        "p02-b-08-s01"
+      ],
+      "forms": [
+        "people"
+      ],
+      "sense_id": "sense-staged-ox-65dbb4a0613e8338-p02-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d637f9626af743aa",
+      "lemma": "our",
+      "pos": "det.",
+      "sense_zh": "我们的",
+      "sentence_ids": [
+        "p02-b-08-s01"
+      ],
+      "forms": [
+        "our"
+      ],
+      "sense_id": "sense-staged-ox-d637f9626af743aa-p02-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aae22a9820407f48",
+      "lemma": "party",
+      "pos": "n.",
+      "sense_zh": "聚会",
+      "sentence_ids": [
+        "p02-b-08-s01"
+      ],
+      "forms": [
+        "party"
+      ],
+      "sense_id": "sense-staged-ox-aae22a9820407f48-p02-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6800b12d3e7ca40f",
+      "lemma": "partner",
+      "pos": "n.",
+      "sense_zh": "伴侣",
+      "sentence_ids": [
+        "p02-b-08-s02"
+      ],
+      "forms": [
+        "partner"
+      ],
+      "sense_id": "sense-staged-ox-6800b12d3e7ca40f-p02-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1af2199aa6db25f7",
+      "lemma": "prepare",
+      "pos": "v.",
+      "sense_zh": "准备",
+      "sentence_ids": [
+        "p02-b-08-s03"
+      ],
+      "forms": [
+        "prepare"
+      ],
+      "sense_id": "sense-staged-ox-1af2199aa6db25f7-p02-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc9e0fd646398ae1",
+      "lemma": "present",
+      "pos": "n.",
+      "sense_zh": "礼物",
+      "sentence_ids": [
+        "p02-b-08-s03"
+      ],
+      "forms": [
+        "present"
+      ],
+      "sense_id": "sense-staged-ox-dc9e0fd646398ae1-p02-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9efdbaea996b371",
+      "lemma": "same",
+      "pos": "adj.",
+      "sense_zh": "同样的",
+      "sentence_ids": [
+        "p02-b-08-s05"
+      ],
+      "forms": [
+        "same"
+      ],
+      "sense_id": "sense-staged-ox-b9efdbaea996b371-p02-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

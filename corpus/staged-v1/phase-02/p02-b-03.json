@@ -1,0 +1,174 @@
+{
+  "id": "p02-b-03",
+  "title_zh": "给姐姐画一幅花",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "painting-gift-workshop",
+    "label_zh": "调整礼物画作的配色",
+    "goal_zh": "根据收礼人的喜好调整花卉画的色彩"
+  },
+  "participants": [
+    "Nia",
+    "Arthur"
+  ],
+  "context_zh": "美术课上，学员想画一幅适合姐姐家里摆放的作品。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-03-s01",
+      "speaker": "Nia",
+      "text": "I want to paint a small picture of these flowers, but the colours look wrong."
+    },
+    {
+      "id": "p02-b-03-s02",
+      "speaker": "Arthur",
+      "text": "Is the painting a gift?"
+    },
+    {
+      "id": "p02-b-03-s03",
+      "speaker": "Nia",
+      "text": "Yes, for my sister. Her room is mostly white and pink."
+    },
+    {
+      "id": "p02-b-03-s04",
+      "speaker": "Arthur",
+      "text": "Then those dark purple flowers may be a little strong. Try using fewer of them."
+    },
+    {
+      "id": "p02-b-03-s05",
+      "speaker": "Nia",
+      "text": "Could I add a red flower in the middle?"
+    },
+    {
+      "id": "p02-b-03-s06",
+      "speaker": "Arthur",
+      "text": "You could, but it would draw all the attention. Try a lighter colour first."
+    },
+    {
+      "id": "p02-b-03-s07",
+      "speaker": "Nia",
+      "text": "Oh, that looks pretty. The flowers look softer now."
+    },
+    {
+      "id": "p02-b-03-s08",
+      "speaker": "Arthur",
+      "text": "Good. Leave that version to dry before you decide whether to add anything else."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-317800011965e9e6",
+      "lemma": "paint",
+      "pos": "v.",
+      "sense_zh": "绘画",
+      "sentence_ids": [
+        "p02-b-03-s01"
+      ],
+      "forms": [
+        "paint"
+      ],
+      "sense_id": "sense-staged-ox-317800011965e9e6-p02-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-55c724a40e260450",
+      "lemma": "picture",
+      "pos": "n.",
+      "sense_zh": "图画",
+      "sentence_ids": [
+        "p02-b-03-s01"
+      ],
+      "forms": [
+        "picture"
+      ],
+      "sense_id": "sense-staged-ox-55c724a40e260450-p02-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e72c9cc20047beb4",
+      "lemma": "painting",
+      "pos": "n.",
+      "sense_zh": "绘画作品",
+      "sentence_ids": [
+        "p02-b-03-s02"
+      ],
+      "forms": [
+        "painting"
+      ],
+      "sense_id": "sense-staged-ox-e72c9cc20047beb4-p02-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b406f03e23539a25",
+      "lemma": "pink",
+      "pos": "adj.",
+      "sense_zh": "粉红色的",
+      "sentence_ids": [
+        "p02-b-03-s03"
+      ],
+      "forms": [
+        "pink"
+      ],
+      "sense_id": "sense-staged-ox-b406f03e23539a25-p02-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-af5ca5c6d633cc7c",
+      "lemma": "purple",
+      "pos": "adj.",
+      "sense_zh": "紫色的",
+      "sentence_ids": [
+        "p02-b-03-s04"
+      ],
+      "forms": [
+        "purple"
+      ],
+      "sense_id": "sense-staged-ox-af5ca5c6d633cc7c-p02-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0df6a0647140d2df",
+      "lemma": "red",
+      "pos": "adj.",
+      "sense_zh": "红色的",
+      "sentence_ids": [
+        "p02-b-03-s05"
+      ],
+      "forms": [
+        "red"
+      ],
+      "sense_id": "sense-staged-ox-0df6a0647140d2df-p02-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f18a2bf4aa9d04aa",
+      "lemma": "pretty",
+      "pos": "adj.",
+      "sense_zh": "漂亮的",
+      "sentence_ids": [
+        "p02-b-03-s07"
+      ],
+      "forms": [
+        "pretty"
+      ],
+      "sense_id": "sense-staged-ox-f18a2bf4aa9d04aa-p02-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

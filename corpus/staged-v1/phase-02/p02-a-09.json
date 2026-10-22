@@ -1,0 +1,195 @@
+{
+  "id": "p02-a-09",
+  "title_zh": "调整书桌位置",
+  "topic_id": "home",
+  "scenario": {
+    "id": "home-desk-fitting",
+    "label_zh": "调整书桌位置与照明",
+    "goal_zh": "根据桌面尺寸、照明和通道空间安排书桌。"
+  },
+  "participants": [
+    "Camila",
+    "Devon"
+  ],
+  "context_zh": "美国居民与室友一起摆放刚买的书桌，避免挡住通道。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-09-s01",
+      "speaker": "Camila",
+      "text": "Could you help me move this desk next to the window?"
+    },
+    {
+      "id": "p02-a-09-s02",
+      "speaker": "Devon",
+      "text": "Sure. It looks quite large. Will it fit in that gap?"
+    },
+    {
+      "id": "p02-a-09-s03",
+      "speaker": "Camila",
+      "text": "It's just under a meter wide, and the gap is wider than that."
+    },
+    {
+      "id": "p02-a-09-s04",
+      "speaker": "Devon",
+      "text": "Let's look at the legs before we lift it. One seems loose."
+    },
+    {
+      "id": "p02-a-09-s05",
+      "speaker": "Camila",
+      "text": "You're right. I'll tighten it first."
+    },
+    {
+      "id": "p02-a-09-s06",
+      "speaker": "Devon",
+      "text": "Is that little black object a lamp?"
+    },
+    {
+      "id": "p02-a-09-s07",
+      "speaker": "Camila",
+      "text": "Yes, it's a modern desk lamp. It gives plenty of light without taking up much space."
+    },
+    {
+      "id": "p02-a-09-s08",
+      "speaker": "Devon",
+      "text": "The leg feels firm now. Ready to lift?"
+    },
+    {
+      "id": "p02-a-09-s09",
+      "speaker": "Camila",
+      "text": "Ready. This way we can still walk past the bed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9c9659cb003a8861",
+      "lemma": "move",
+      "pos": "v.",
+      "sense_zh": "移动；搬动",
+      "sentence_ids": [
+        "p02-a-09-s01"
+      ],
+      "forms": [
+        "move"
+      ],
+      "sense_id": "sense-staged-ox-9c9659cb003a8861-p02-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-589893cb2fe14c2f",
+      "lemma": "next to",
+      "pos": "prep.",
+      "sense_zh": "紧挨着；在……旁边",
+      "sentence_ids": [
+        "p02-a-09-s01"
+      ],
+      "forms": [
+        "next to"
+      ],
+      "sense_id": "sense-staged-ox-589893cb2fe14c2f-p02-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5798f5a7a8b2df79",
+      "lemma": "large",
+      "pos": "adj.",
+      "sense_zh": "大的",
+      "sentence_ids": [
+        "p02-a-09-s02"
+      ],
+      "forms": [
+        "large"
+      ],
+      "sense_id": "sense-staged-ox-5798f5a7a8b2df79-p02-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d5b8ef74baee772",
+      "lemma": "meter",
+      "pos": "n.",
+      "sense_zh": "米（美式拼写）",
+      "sentence_ids": [
+        "p02-a-09-s03"
+      ],
+      "forms": [
+        "meter"
+      ],
+      "sense_id": "sense-staged-ox-1d5b8ef74baee772-p02-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9e93f28b6811ab8c",
+      "lemma": "look",
+      "pos": "v.",
+      "sense_zh": "看；查看",
+      "sentence_ids": [
+        "p02-a-09-s04"
+      ],
+      "forms": [
+        "look"
+      ],
+      "sense_id": "sense-staged-ox-9e93f28b6811ab8c-p02-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66a6dd652d1a4043",
+      "lemma": "object",
+      "pos": "n.",
+      "sense_zh": "物体；东西",
+      "sentence_ids": [
+        "p02-a-09-s06"
+      ],
+      "forms": [
+        "object"
+      ],
+      "sense_id": "sense-staged-ox-66a6dd652d1a4043-p02-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-abd6448086fb044c",
+      "lemma": "modern",
+      "pos": "adj.",
+      "sense_zh": "现代的；现代式的",
+      "sentence_ids": [
+        "p02-a-09-s07"
+      ],
+      "forms": [
+        "modern"
+      ],
+      "sense_id": "sense-staged-ox-abd6448086fb044c-p02-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0df8cb2a5bb319a8",
+      "lemma": "light",
+      "pos": "n.",
+      "sense_zh": "光；光线",
+      "sentence_ids": [
+        "p02-a-09-s07"
+      ],
+      "forms": [
+        "light"
+      ],
+      "sense_id": "sense-staged-ox-0df8cb2a5bb319a8-p02-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

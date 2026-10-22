@@ -1,0 +1,190 @@
+{
+  "id": "p02-b-07",
+  "title_zh": "报名九月晚间课程",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "evening-course-place-hold",
+    "label_zh": "核对晚间课程报名并暂留名额",
+    "goal_zh": "核对课程时间、报名资格与表格填写要求，并确认暂留名额"
+  },
+  "participants": [
+    "Moira",
+    "Dev"
+  ],
+  "context_zh": "家长替即将满十八岁的女儿咨询晚间语言课程。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-07-s01",
+      "speaker": "Moira",
+      "text": "Does the school have an evening language course in September?"
+    },
+    {
+      "id": "p02-b-07-s02",
+      "speaker": "Dev",
+      "text": "Yes. It runs for seven weeks. Is the course for you?"
+    },
+    {
+      "id": "p02-b-07-s03",
+      "speaker": "Moira",
+      "text": "No, for my daughter. She's seventeen. Can she join?"
+    },
+    {
+      "id": "p02-b-07-s04",
+      "speaker": "Dev",
+      "text": "She can, but a parent must sign the form because she is under eighteen."
+    },
+    {
+      "id": "p02-b-07-s05",
+      "speaker": "Moira",
+      "text": "Do I fill in her personal details here, or mine?"
+    },
+    {
+      "id": "p02-b-07-s06",
+      "speaker": "Dev",
+      "text": "Hers in the first box, and yours under emergency contact."
+    },
+    {
+      "id": "p02-b-07-s07",
+      "speaker": "Moira",
+      "text": "Can she bring the form in person tomorrow?"
+    },
+    {
+      "id": "p02-b-07-s08",
+      "speaker": "Dev",
+      "text": "Yes. I'll keep a place for her until tomorrow afternoon."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fe2abc7d2b6a8d3b",
+      "lemma": "school",
+      "pos": "n.",
+      "sense_zh": "学校",
+      "sentence_ids": [
+        "p02-b-07-s01"
+      ],
+      "forms": [
+        "school"
+      ],
+      "sense_id": "sense-staged-ox-fe2abc7d2b6a8d3b-p02-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45bb388a402edccb",
+      "lemma": "September",
+      "pos": "n.",
+      "sense_zh": "九月",
+      "sentence_ids": [
+        "p02-b-07-s01"
+      ],
+      "forms": [
+        "September"
+      ],
+      "sense_id": "sense-staged-ox-45bb388a402edccb-p02-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6c4f8943b7dc61c4",
+      "lemma": "seven",
+      "pos": "number",
+      "sense_zh": "七",
+      "sentence_ids": [
+        "p02-b-07-s02"
+      ],
+      "forms": [
+        "seven"
+      ],
+      "sense_id": "sense-staged-ox-6c4f8943b7dc61c4-p02-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ac85a2eab12f103",
+      "lemma": "seventeen",
+      "pos": "number",
+      "sense_zh": "十七",
+      "sentence_ids": [
+        "p02-b-07-s03"
+      ],
+      "forms": [
+        "seventeen"
+      ],
+      "sense_id": "sense-staged-ox-2ac85a2eab12f103-p02-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-047f1e406462e7a2",
+      "lemma": "she",
+      "pos": "pron.",
+      "sense_zh": "她",
+      "sentence_ids": [
+        "p02-b-07-s03"
+      ],
+      "forms": [
+        "she"
+      ],
+      "sense_id": "sense-staged-ox-047f1e406462e7a2-p02-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2fc5c35eace8ebf8",
+      "lemma": "parent",
+      "pos": "n.",
+      "sense_zh": "父亲或母亲",
+      "sentence_ids": [
+        "p02-b-07-s04"
+      ],
+      "forms": [
+        "parent"
+      ],
+      "sense_id": "sense-staged-ox-2fc5c35eace8ebf8-p02-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-03df9934a5ec6e20",
+      "lemma": "personal",
+      "pos": "adj.",
+      "sense_zh": "个人的",
+      "sentence_ids": [
+        "p02-b-07-s05"
+      ],
+      "forms": [
+        "personal"
+      ],
+      "sense_id": "sense-staged-ox-03df9934a5ec6e20-p02-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-017e8cb283263f12",
+      "lemma": "person",
+      "pos": "n.",
+      "sense_zh": "人；in person 表示亲自",
+      "sentence_ids": [
+        "p02-b-07-s07"
+      ],
+      "forms": [
+        "person"
+      ],
+      "sense_id": "sense-staged-ox-017e8cb283263f12-p02-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

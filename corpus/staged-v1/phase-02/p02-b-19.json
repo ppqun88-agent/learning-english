@@ -1,0 +1,142 @@
+{
+  "id": "p02-b-19",
+  "title_zh": "请病假并交接早班",
+  "topic_id": "work",
+  "scenario": {
+    "id": "sick-day-shift-cover",
+    "label_zh": "协调病假期间的班次交接",
+    "goal_zh": "确认替班人员及常规工作的交接内容"
+  },
+  "participants": [
+    "Ellis",
+    "Zara"
+  ],
+  "context_zh": "前台员工身体不适，早上联系值班主管安排替班。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-19-s01",
+      "speaker": "Ellis",
+      "text": "I'm sick and won't be able to cover the opening shift today."
+    },
+    {
+      "id": "p02-b-19-s02",
+      "speaker": "Zara",
+      "text": "Thanks for calling early. You should stay home. I can ask Dan to cover."
+    },
+    {
+      "id": "p02-b-19-s03",
+      "speaker": "Ellis",
+      "text": "He has not opened on his own before. I wrote down the morning routine in the desk folder."
+    },
+    {
+      "id": "p02-b-19-s04",
+      "speaker": "Zara",
+      "text": "Good. I will stay with him through the busy period before ten."
+    },
+    {
+      "id": "p02-b-19-s05",
+      "speaker": "Ellis",
+      "text": "Could you just tell everyone I am away today?"
+    },
+    {
+      "id": "p02-b-19-s06",
+      "speaker": "Zara",
+      "text": "Of course. There is no need to share the reason with the whole team."
+    },
+    {
+      "id": "p02-b-19-s07",
+      "speaker": "Ellis",
+      "text": "Thank you. The folder also has the number for the delivery driver."
+    },
+    {
+      "id": "p02-b-19-s08",
+      "speaker": "Zara",
+      "text": "That is everything we need. I will handle the shift change."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d6f1e81bafdf6929",
+      "lemma": "sick",
+      "pos": "adj.",
+      "sense_zh": "生病的",
+      "sentence_ids": [
+        "p02-b-19-s01"
+      ],
+      "forms": [
+        "sick"
+      ],
+      "sense_id": "sense-staged-ox-d6f1e81bafdf6929-p02-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8fd01edb5e36ebc1",
+      "lemma": "should",
+      "pos": "modal v.",
+      "sense_zh": "应该；用于建议",
+      "sentence_ids": [
+        "p02-b-19-s02"
+      ],
+      "forms": [
+        "should"
+      ],
+      "sense_id": "sense-staged-ox-8fd01edb5e36ebc1-p02-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe0fd6c8f1b036b9",
+      "lemma": "routine",
+      "pos": "n.",
+      "sense_zh": "常规工作程序",
+      "sentence_ids": [
+        "p02-b-19-s03"
+      ],
+      "forms": [
+        "routine"
+      ],
+      "sense_id": "sense-staged-ox-fe0fd6c8f1b036b9-p02-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4d536f46887798e3",
+      "lemma": "period",
+      "pos": "n.",
+      "sense_zh": "一段时间",
+      "sentence_ids": [
+        "p02-b-19-s04"
+      ],
+      "forms": [
+        "period"
+      ],
+      "sense_id": "sense-staged-ox-4d536f46887798e3-p02-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a3cfbb6983d24e8",
+      "lemma": "reason",
+      "pos": "n.",
+      "sense_zh": "原因",
+      "sentence_ids": [
+        "p02-b-19-s06"
+      ],
+      "forms": [
+        "reason"
+      ],
+      "sense_id": "sense-staged-ox-8a3cfbb6983d24e8-p02-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

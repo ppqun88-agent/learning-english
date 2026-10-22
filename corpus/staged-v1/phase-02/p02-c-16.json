@@ -1,0 +1,132 @@
+{
+  "id": "p02-c-16",
+  "title_zh": "因牙痛预约牙医",
+  "topic_id": "health",
+  "scenario": {
+    "id": "dental-appointment-request",
+    "label_zh": "因牙痛预约牙医",
+    "goal_zh": "描述疼痛持续情况并确认可到诊时间"
+  },
+  "participants": [
+    "Anil",
+    "Grace"
+  ],
+  "context_zh": "患者 Anil 给牙科诊所打电话预约检查，不涉及诊断或治疗建议。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-16-s01",
+      "speaker": "Anil",
+      "text": "I need to see a dentist. This tooth has hurt since yesterday."
+    },
+    {
+      "id": "p02-c-16-s02",
+      "speaker": "Grace",
+      "text": "I'm sorry you're in pain. Does it hurt all the time?"
+    },
+    {
+      "id": "p02-c-16-s03",
+      "speaker": "Anil",
+      "text": "Not all the time, but it still hurts when I eat."
+    },
+    {
+      "id": "p02-c-16-s04",
+      "speaker": "Grace",
+      "text": "We can offer you an appointment at nine tomorrow morning. Can you come then?"
+    },
+    {
+      "id": "p02-c-16-s05",
+      "speaker": "Anil",
+      "text": "Yes, I can. Please book that for me."
+    },
+    {
+      "id": "p02-c-16-s06",
+      "speaker": "Grace",
+      "text": "All right. I'll take your name and contact details now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f27f1d786867453c",
+      "lemma": "tooth",
+      "pos": "n.",
+      "sense_zh": "牙齿",
+      "sentence_ids": [
+        "p02-c-16-s01"
+      ],
+      "forms": [
+        "tooth"
+      ],
+      "sense_id": "sense-staged-ox-f27f1d786867453c-p02-c-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a9ecf77eaf4bd18",
+      "lemma": "tomorrow",
+      "pos": "adv.",
+      "sense_zh": "在明天",
+      "sentence_ids": [
+        "p02-c-16-s04"
+      ],
+      "forms": [
+        "tomorrow"
+      ],
+      "sense_id": "sense-staged-ox-7a9ecf77eaf4bd18-p02-c-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-882fde5eff6cd020",
+      "lemma": "to",
+      "pos": "infinitive marker",
+      "sense_zh": "不定式标记，置于动词原形前",
+      "sentence_ids": [
+        "p02-c-16-s01"
+      ],
+      "forms": [
+        "to"
+      ],
+      "sense_id": "sense-staged-ox-882fde5eff6cd020-p02-c-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6759e3a817e53eb",
+      "lemma": "still",
+      "pos": "adv.",
+      "sense_zh": "仍然",
+      "sentence_ids": [
+        "p02-c-16-s03"
+      ],
+      "forms": [
+        "still"
+      ],
+      "sense_id": "sense-staged-ox-b6759e3a817e53eb-p02-c-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08d8d88bd02fa1b4",
+      "lemma": "sorry",
+      "pos": "adj.",
+      "sense_zh": "难过的；表示同情",
+      "sentence_ids": [
+        "p02-c-16-s02"
+      ],
+      "forms": [
+        "sorry"
+      ],
+      "sense_id": "sense-staged-ox-08d8d88bd02fa1b4-p02-c-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

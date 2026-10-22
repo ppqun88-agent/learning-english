@@ -1,0 +1,153 @@
+{
+  "id": "p02-a-06",
+  "title_zh": "认识刚搬来的邻居",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "new-neighbour-introductions",
+    "label_zh": "介绍新邻居及同住者",
+    "goal_zh": "确认彼此身份并约定归还借用物品"
+  },
+  "participants": [
+    "Alicia",
+    "Grant"
+  ],
+  "context_zh": "美国公寓楼的新住户在门口认识邻居，并借用搬家工具。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-06-s01",
+      "speaker": "Alicia",
+      "text": "Hi, I'm Alicia, your new neighbor. I live in apartment six."
+    },
+    {
+      "id": "p02-a-06-s02",
+      "speaker": "Grant",
+      "text": "Welcome to the neighborhood! I'm Grant."
+    },
+    {
+      "id": "p02-a-06-s03",
+      "speaker": "Alicia",
+      "text": "It's nice to meet you. Is there a hardware store near here?"
+    },
+    {
+      "id": "p02-a-06-s04",
+      "speaker": "Grant",
+      "text": "Two blocks away. What are you looking for?"
+    },
+    {
+      "id": "p02-a-06-s05",
+      "speaker": "Alicia",
+      "text": "A screwdriver. I need to put my bed together."
+    },
+    {
+      "id": "p02-a-06-s06",
+      "speaker": "Grant",
+      "text": "You can borrow mine. Just bring it back tomorrow."
+    },
+    {
+      "id": "p02-a-06-s07",
+      "speaker": "Alicia",
+      "text": "Thanks. I'll knock when I'm finished."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c26c7ff98c9343bb",
+      "lemma": "new",
+      "pos": "adj.",
+      "sense_zh": "新来的",
+      "sentence_ids": [
+        "p02-a-06-s01"
+      ],
+      "forms": [
+        "new"
+      ],
+      "sense_id": "sense-staged-ox-c26c7ff98c9343bb-p02-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-331aa7d389267ec6",
+      "lemma": "neighbor",
+      "pos": "n.",
+      "sense_zh": "邻居（美式拼写）",
+      "sentence_ids": [
+        "p02-a-06-s01"
+      ],
+      "forms": [
+        "neighbor"
+      ],
+      "sense_id": "sense-staged-ox-331aa7d389267ec6-p02-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c6bffff387f39b68",
+      "lemma": "live",
+      "pos": "v.",
+      "sense_zh": "居住",
+      "sentence_ids": [
+        "p02-a-06-s01"
+      ],
+      "forms": [
+        "live"
+      ],
+      "sense_id": "sense-staged-ox-c6bffff387f39b68-p02-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-caef69d42363085f",
+      "lemma": "neighborhood",
+      "pos": "n.",
+      "sense_zh": "街区；社区",
+      "sentence_ids": [
+        "p02-a-06-s02"
+      ],
+      "forms": [
+        "neighborhood"
+      ],
+      "sense_id": "sense-staged-ox-caef69d42363085f-p02-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45d09cf7c8ca1a17",
+      "lemma": "nice",
+      "pos": "adj.",
+      "sense_zh": "令人愉快的",
+      "sentence_ids": [
+        "p02-a-06-s03"
+      ],
+      "forms": [
+        "nice"
+      ],
+      "sense_id": "sense-staged-ox-45d09cf7c8ca1a17-p02-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-661b657c7bbf5bb2",
+      "lemma": "near",
+      "pos": "prep.",
+      "sense_zh": "在……附近",
+      "sentence_ids": [
+        "p02-a-06-s03"
+      ],
+      "forms": [
+        "near"
+      ],
+      "sense_id": "sense-staged-ox-661b657c7bbf5bb2-p02-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

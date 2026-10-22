@@ -1,0 +1,216 @@
+{
+  "id": "p02-b-15",
+  "title_zh": "控制筹款海报的印刷成本",
+  "topic_id": "community",
+  "scenario": {
+    "id": "fundraiser-poster-planning",
+    "label_zh": "安排筹款活动海报",
+    "goal_zh": "确定照片、印量和线上发布安排"
+  },
+  "participants": [
+    "Bea",
+    "Tariq"
+  ],
+  "context_zh": "社区筹款活动的志愿者讨论海报照片和有限的印刷预算。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-15-s01",
+      "speaker": "Bea",
+      "text": "Can you photograph the band on Sunday for our fundraiser poster?"
+    },
+    {
+      "id": "p02-b-15-s02",
+      "speaker": "Tariq",
+      "text": "Yes. A photo of them in the garden would look good. Have they agreed to be on it?"
+    },
+    {
+      "id": "p02-b-15-s03",
+      "speaker": "Bea",
+      "text": "They have. They are popular locally, so people may recognise them."
+    },
+    {
+      "id": "p02-b-15-s04",
+      "speaker": "Tariq",
+      "text": "What is the plan for printing?"
+    },
+    {
+      "id": "p02-b-15-s05",
+      "speaker": "Bea",
+      "text": "I thought we could print seventy copies, but each one costs a pound."
+    },
+    {
+      "id": "p02-b-15-s06",
+      "speaker": "Tariq",
+      "text": "That's most of our budget. Could we print twenty and send the rest by email?"
+    },
+    {
+      "id": "p02-b-15-s07",
+      "speaker": "Bea",
+      "text": "Yes, and we can post it on the community website too."
+    },
+    {
+      "id": "p02-b-15-s08",
+      "speaker": "Tariq",
+      "text": "Good. Remember to include the booking link, not just the date."
+    },
+    {
+      "id": "p02-b-15-s09",
+      "speaker": "Bea",
+      "text": "I will. Let's get one printed copy first to check the colours."
+    },
+    {
+      "id": "p02-b-15-s10",
+      "speaker": "Tariq",
+      "text": "Agreed. I'll send you the pictures on Sunday evening."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-89048db3eaa90195",
+      "lemma": "photograph",
+      "pos": "v.",
+      "sense_zh": "拍摄照片",
+      "sentence_ids": [
+        "p02-b-15-s01"
+      ],
+      "forms": [
+        "photograph"
+      ],
+      "sense_id": "sense-staged-ox-89048db3eaa90195-p02-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d430b6349c0925fb",
+      "lemma": "photo",
+      "pos": "n.",
+      "sense_zh": "照片",
+      "sentence_ids": [
+        "p02-b-15-s02"
+      ],
+      "forms": [
+        "photo"
+      ],
+      "sense_id": "sense-staged-ox-d430b6349c0925fb-p02-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bdb6367ffb0445fb",
+      "lemma": "popular",
+      "pos": "adj.",
+      "sense_zh": "受欢迎的",
+      "sentence_ids": [
+        "p02-b-15-s03"
+      ],
+      "forms": [
+        "popular"
+      ],
+      "sense_id": "sense-staged-ox-bdb6367ffb0445fb-p02-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-72f797ad957cb2e9",
+      "lemma": "plan",
+      "pos": "n.",
+      "sense_zh": "计划",
+      "sentence_ids": [
+        "p02-b-15-s04"
+      ],
+      "forms": [
+        "plan"
+      ],
+      "sense_id": "sense-staged-ox-72f797ad957cb2e9-p02-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fb8ac2eff6958de9",
+      "lemma": "seventy",
+      "pos": "number",
+      "sense_zh": "七十",
+      "sentence_ids": [
+        "p02-b-15-s05"
+      ],
+      "forms": [
+        "seventy"
+      ],
+      "sense_id": "sense-staged-ox-fb8ac2eff6958de9-p02-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e40d3f38f9a96076",
+      "lemma": "pound",
+      "pos": "n.",
+      "sense_zh": "英镑",
+      "sentence_ids": [
+        "p02-b-15-s05"
+      ],
+      "forms": [
+        "pound"
+      ],
+      "sense_id": "sense-staged-ox-e40d3f38f9a96076-p02-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-918399ba2de32cb5",
+      "lemma": "send",
+      "pos": "v.",
+      "sense_zh": "发送",
+      "sentence_ids": [
+        "p02-b-15-s06"
+      ],
+      "forms": [
+        "send"
+      ],
+      "sense_id": "sense-staged-ox-918399ba2de32cb5-p02-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a8df6dc565077d29",
+      "lemma": "post",
+      "pos": "v.",
+      "sense_zh": "在网站发布",
+      "sentence_ids": [
+        "p02-b-15-s07"
+      ],
+      "forms": [
+        "post"
+      ],
+      "sense_id": "sense-staged-ox-a8df6dc565077d29-p02-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d828b70af9e96390",
+      "lemma": "remember",
+      "pos": "v.",
+      "sense_zh": "记得做某事",
+      "sentence_ids": [
+        "p02-b-15-s08"
+      ],
+      "forms": [
+        "remember"
+      ],
+      "sense_id": "sense-staged-ox-d828b70af9e96390-p02-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

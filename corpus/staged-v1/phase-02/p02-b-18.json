@@ -1,0 +1,100 @@
+{
+  "id": "p02-b-18",
+  "title_zh": "缩短海边骑行路线",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "coastal-cycle-weather",
+    "label_zh": "根据海边天气调整骑行",
+    "goal_zh": "结合眼前天气和遮雨条件选择较短的骑行路线"
+  },
+  "participants": [
+    "Keira",
+    "Luis"
+  ],
+  "context_zh": "两位朋友在海边租车点决定当天骑多远。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-18-s01",
+      "speaker": "Keira",
+      "text": "Shall we ride all the way to the lighthouse?"
+    },
+    {
+      "id": "p02-b-18-s02",
+      "speaker": "Luis",
+      "text": "Look at those clouds over the sea. I think we should stay closer to town."
+    },
+    {
+      "id": "p02-b-18-s03",
+      "speaker": "Keira",
+      "text": "The forecast said the rain would arrive this afternoon."
+    },
+    {
+      "id": "p02-b-18-s04",
+      "speaker": "Luis",
+      "text": "It may come earlier. There is nowhere to shelter on the last stretch."
+    },
+    {
+      "id": "p02-b-18-s05",
+      "speaker": "Keira",
+      "text": "Let's turn back at the harbour, then. We can stop at the café if it starts."
+    },
+    {
+      "id": "p02-b-18-s06",
+      "speaker": "Luis",
+      "text": "Agreed. The lighthouse can wait for a clearer day."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2f29b44767079bbf",
+      "lemma": "ride",
+      "pos": "v.",
+      "sense_zh": "骑自行车",
+      "sentence_ids": [
+        "p02-b-18-s01"
+      ],
+      "forms": [
+        "ride"
+      ],
+      "sense_id": "sense-staged-ox-2f29b44767079bbf-p02-b-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a45fb22eb02986f0",
+      "lemma": "sea",
+      "pos": "n.",
+      "sense_zh": "海",
+      "sentence_ids": [
+        "p02-b-18-s02"
+      ],
+      "forms": [
+        "sea"
+      ],
+      "sense_id": "sense-staged-ox-a45fb22eb02986f0-p02-b-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-900b2fccab73a959",
+      "lemma": "rain",
+      "pos": "n.",
+      "sense_zh": "雨",
+      "sentence_ids": [
+        "p02-b-18-s03"
+      ],
+      "forms": [
+        "rain"
+      ],
+      "sense_id": "sense-staged-ox-900b2fccab73a959-p02-b-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

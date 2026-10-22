@@ -1,0 +1,169 @@
+{
+  "id": "p02-b-16",
+  "title_zh": "在机场出口碰面",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "airport-pickup-location",
+    "label_zh": "协调机场接人",
+    "goal_zh": "确认机场接人地点、到达时间及联络方式。"
+  },
+  "participants": [
+    "Clara",
+    "Hugo"
+  ],
+  "context_zh": "航班落地后，旅客打电话给前来接机的朋友。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-16-s01",
+      "speaker": "Clara",
+      "text": "The plane landed at seven o’clock. I am waiting for my bag now."
+    },
+    {
+      "id": "p02-b-16-s02",
+      "speaker": "Hugo",
+      "text": "That was early. I will probably reach the airport at a quarter past seven."
+    },
+    {
+      "id": "p02-b-16-s03",
+      "speaker": "Clara",
+      "text": "No rush. Should I phone you when I reach the exit?"
+    },
+    {
+      "id": "p02-b-16-s04",
+      "speaker": "Hugo",
+      "text": "Yes. Wait a second, which terminal are you in?"
+    },
+    {
+      "id": "p02-b-16-s05",
+      "speaker": "Clara",
+      "text": "Terminal Two. I can see the sign above the baggage desk."
+    },
+    {
+      "id": "p02-b-16-s06",
+      "speaker": "Hugo",
+      "text": "Then follow the signs for the short-stay car park. I will meet you beside the lift."
+    },
+    {
+      "id": "p02-b-16-s07",
+      "speaker": "Clara",
+      "text": "All right. I will call when I get there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fffbbea0f1b8aa7a",
+      "lemma": "plane",
+      "pos": "n.",
+      "sense_zh": "飞机",
+      "sentence_ids": [
+        "p02-b-16-s01"
+      ],
+      "forms": [
+        "plane"
+      ],
+      "sense_id": "sense-staged-ox-fffbbea0f1b8aa7a-p02-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c61579e131a32582",
+      "lemma": "o’clock",
+      "pos": "adv.",
+      "sense_zh": "整点",
+      "sentence_ids": [
+        "p02-b-16-s01"
+      ],
+      "forms": [
+        "o’clock"
+      ],
+      "sense_id": "sense-staged-ox-c61579e131a32582-p02-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e9a3976a023cea8a",
+      "lemma": "probably",
+      "pos": "adv.",
+      "sense_zh": "很可能",
+      "sentence_ids": [
+        "p02-b-16-s02"
+      ],
+      "forms": [
+        "probably"
+      ],
+      "sense_id": "sense-staged-ox-e9a3976a023cea8a-p02-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c372a7391f248063",
+      "lemma": "quarter",
+      "pos": "n.",
+      "sense_zh": "一刻钟",
+      "sentence_ids": [
+        "p02-b-16-s02"
+      ],
+      "forms": [
+        "quarter"
+      ],
+      "sense_id": "sense-staged-ox-c372a7391f248063-p02-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d3d3e78b9ab853d",
+      "lemma": "phone",
+      "pos": "v.",
+      "sense_zh": "打电话给",
+      "sentence_ids": [
+        "p02-b-16-s03"
+      ],
+      "forms": [
+        "phone"
+      ],
+      "sense_id": "sense-staged-ox-3d3d3e78b9ab853d-p02-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e84095f6e7616db0",
+      "lemma": "second",
+      "pos": "n.",
+      "sense_zh": "一会儿；片刻",
+      "sentence_ids": [
+        "p02-b-16-s04"
+      ],
+      "forms": [
+        "second"
+      ],
+      "sense_id": "sense-staged-ox-e84095f6e7616db0-p02-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-87df51e396fbc253",
+      "lemma": "see",
+      "pos": "v.",
+      "sense_zh": "看见",
+      "sentence_ids": [
+        "p02-b-16-s05"
+      ],
+      "forms": [
+        "see"
+      ],
+      "sense_id": "sense-staged-ox-87df51e396fbc253-p02-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

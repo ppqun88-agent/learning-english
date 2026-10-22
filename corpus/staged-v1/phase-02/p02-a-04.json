@@ -1,0 +1,222 @@
+{
+  "id": "p02-a-04",
+  "title_zh": "选择无肉午餐",
+  "topic_id": "food",
+  "scenario": {
+    "id": "cafe-lunch-ingredients",
+    "label_zh": "选择午餐配料",
+    "goal_zh": "询问汤品和沙拉的配料后完成午餐点单。"
+  },
+  "participants": [
+    "Nadia",
+    "Ben"
+  ],
+  "context_zh": "顾客想吃一份没有肉的简单午餐，但不要求避免乳制品。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-04-s01",
+      "speaker": "Nadia",
+      "text": "Could I see the menu? I'm looking for a quick lunch."
+    },
+    {
+      "id": "p02-a-04-s02",
+      "speaker": "Ben",
+      "text": "Of course. The soup and bread make a filling meal."
+    },
+    {
+      "id": "p02-a-04-s03",
+      "speaker": "Nadia",
+      "text": "Is there any meat in the soup?"
+    },
+    {
+      "id": "p02-a-04-s04",
+      "speaker": "Ben",
+      "text": "No, it's vegetable soup. It contains onion and a little milk."
+    },
+    {
+      "id": "p02-a-04-s05",
+      "speaker": "Nadia",
+      "text": "That sounds fine. Could you make a small salad too?"
+    },
+    {
+      "id": "p02-a-04-s06",
+      "speaker": "Ben",
+      "text": "Certainly. Would you like bread or crackers with the soup?"
+    },
+    {
+      "id": "p02-a-04-s07",
+      "speaker": "Nadia",
+      "text": "Bread, please. I'll have a bowl of soup and the salad."
+    },
+    {
+      "id": "p02-a-04-s08",
+      "speaker": "Ben",
+      "text": "All right. I'll bring them together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-de834f365ba36e30",
+      "lemma": "menu",
+      "pos": "n.",
+      "sense_zh": "菜单",
+      "sentence_ids": [
+        "p02-a-04-s01"
+      ],
+      "forms": [
+        "menu"
+      ],
+      "sense_id": "sense-staged-ox-de834f365ba36e30-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-03781cbd70711d9e",
+      "lemma": "lunch",
+      "pos": "n.",
+      "sense_zh": "午餐",
+      "sentence_ids": [
+        "p02-a-04-s01"
+      ],
+      "forms": [
+        "lunch"
+      ],
+      "sense_id": "sense-staged-ox-03781cbd70711d9e-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-09cb970d73a2c423",
+      "lemma": "meal",
+      "pos": "n.",
+      "sense_zh": "一餐；饭",
+      "sentence_ids": [
+        "p02-a-04-s02"
+      ],
+      "forms": [
+        "meal"
+      ],
+      "sense_id": "sense-staged-ox-09cb970d73a2c423-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-35372704c16939f5",
+      "lemma": "meat",
+      "pos": "n.",
+      "sense_zh": "肉",
+      "sentence_ids": [
+        "p02-a-04-s03"
+      ],
+      "forms": [
+        "meat"
+      ],
+      "sense_id": "sense-staged-ox-35372704c16939f5-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cbc5826f4444a5ed",
+      "lemma": "onion",
+      "pos": "n.",
+      "sense_zh": "洋葱",
+      "sentence_ids": [
+        "p02-a-04-s04"
+      ],
+      "forms": [
+        "onion"
+      ],
+      "sense_id": "sense-staged-ox-cbc5826f4444a5ed-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-04c104a19730547a",
+      "lemma": "little",
+      "pos": "det.",
+      "sense_zh": "少量的",
+      "sentence_ids": [
+        "p02-a-04-s04"
+      ],
+      "forms": [
+        "little"
+      ],
+      "sense_id": "sense-staged-ox-04c104a19730547a-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c51a91c7902bdc65",
+      "lemma": "milk",
+      "pos": "n.",
+      "sense_zh": "牛奶",
+      "sentence_ids": [
+        "p02-a-04-s04"
+      ],
+      "forms": [
+        "milk"
+      ],
+      "sense_id": "sense-staged-ox-c51a91c7902bdc65-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c55f39e9b064ebd8",
+      "lemma": "make",
+      "pos": "v.",
+      "sense_zh": "制作；做",
+      "sentence_ids": [
+        "p02-a-04-s05"
+      ],
+      "forms": [
+        "make"
+      ],
+      "sense_id": "sense-staged-ox-c55f39e9b064ebd8-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fbe6969cf5a860dc",
+      "lemma": "or",
+      "pos": "conj.",
+      "sense_zh": "或；或者",
+      "sentence_ids": [
+        "p02-a-04-s06"
+      ],
+      "forms": [
+        "or"
+      ],
+      "sense_id": "sense-staged-ox-fbe6969cf5a860dc-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4e2d861aac2cb91",
+      "lemma": "of",
+      "pos": "prep.",
+      "sense_zh": "表示容器所盛的内容：一碗……",
+      "sentence_ids": [
+        "p02-a-04-s07"
+      ],
+      "forms": [
+        "of"
+      ],
+      "sense_id": "sense-staged-ox-b4e2d861aac2cb91-p02-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

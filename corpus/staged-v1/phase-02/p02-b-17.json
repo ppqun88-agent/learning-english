@@ -1,0 +1,105 @@
+{
+  "id": "p02-b-17",
+  "title_zh": "参观农场先问喂食规则",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "farm-visit-animal-rules",
+    "label_zh": "核对农场参观规则",
+    "goal_zh": "确认宠物限制并了解观赏牲畜的位置"
+  },
+  "participants": [
+    "Rowan",
+    "Eve"
+  ],
+  "context_zh": "游客在农场参观入口向工作人员询问动物的位置和喂食要求。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-17-s01",
+      "speaker": "Rowan",
+      "text": "Where can we see the pig? Is it near the sheep?"
+    },
+    {
+      "id": "p02-b-17-s02",
+      "speaker": "Eve",
+      "text": "They are in separate fields. The pig is behind the red barn."
+    },
+    {
+      "id": "p02-b-17-s03",
+      "speaker": "Rowan",
+      "text": "Can we bring our dog through the gate?"
+    },
+    {
+      "id": "p02-b-17-s04",
+      "speaker": "Eve",
+      "text": "No, pets must stay outside the animal area."
+    },
+    {
+      "id": "p02-b-17-s05",
+      "speaker": "Rowan",
+      "text": "All right. Can we feed the sheep some leaves from that plant?"
+    },
+    {
+      "id": "p02-b-17-s06",
+      "speaker": "Eve",
+      "text": "Please do not pick anything or feed the animals. You can watch the feeding with a member of staff at two."
+    },
+    {
+      "id": "p02-b-17-s07",
+      "speaker": "Rowan",
+      "text": "We'll come back for that. For now, we'll just watch from the path."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bf52bd17fad9f09a",
+      "lemma": "pig",
+      "pos": "n.",
+      "sense_zh": "猪",
+      "sentence_ids": [
+        "p02-b-17-s01"
+      ],
+      "forms": [
+        "pig"
+      ],
+      "sense_id": "sense-staged-ox-bf52bd17fad9f09a-p02-b-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5e949492f6ef03b9",
+      "lemma": "sheep",
+      "pos": "n.",
+      "sense_zh": "羊",
+      "sentence_ids": [
+        "p02-b-17-s01"
+      ],
+      "forms": [
+        "sheep"
+      ],
+      "sense_id": "sense-staged-ox-5e949492f6ef03b9-p02-b-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-18c0cfbfa05df337",
+      "lemma": "plant",
+      "pos": "n.",
+      "sense_zh": "植物",
+      "sentence_ids": [
+        "p02-b-17-s05"
+      ],
+      "forms": [
+        "plant"
+      ],
+      "sense_id": "sense-staged-ox-18c0cfbfa05df337-p02-b-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

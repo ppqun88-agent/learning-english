@@ -1,0 +1,126 @@
+{
+  "id": "p02-b-22",
+  "title_zh": "到失物招领处找钱包",
+  "topic_id": "services",
+  "scenario": {
+    "id": "lost-wallet-report",
+    "label_zh": "查询并认领遗失钱包",
+    "goal_zh": "说明报失经过并凭物品特征核实钱包"
+  },
+  "participants": [
+    "Cameron",
+    "Jules"
+  ],
+  "context_zh": "旅客按照车站警员的指引来到失物招领窗口。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-22-s01",
+      "speaker": "Cameron",
+      "text": "Is this the right place to ask about a lost wallet?"
+    },
+    {
+      "id": "p02-b-22-s02",
+      "speaker": "Jules",
+      "text": "Yes. Have you reported it to the police as well?"
+    },
+    {
+      "id": "p02-b-22-s03",
+      "speaker": "Cameron",
+      "text": "A policeman at the station sent me here. He thought someone might have handed it in."
+    },
+    {
+      "id": "p02-b-22-s04",
+      "speaker": "Jules",
+      "text": "Did he say whether he had seen it himself?"
+    },
+    {
+      "id": "p02-b-22-s05",
+      "speaker": "Cameron",
+      "text": "No. Mine is brown, with a broken zip."
+    },
+    {
+      "id": "p02-b-22-s06",
+      "speaker": "Jules",
+      "text": "We have one like that. Can you describe something inside it before I show it to you?"
+    },
+    {
+      "id": "p02-b-22-s07",
+      "speaker": "Cameron",
+      "text": "There is a blue library card with my name on it, and a photo of a dog."
+    },
+    {
+      "id": "p02-b-22-s08",
+      "speaker": "Jules",
+      "text": "Those match. Let us check your name against the card, then you can sign for it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-85ec892039044fd6",
+      "lemma": "place",
+      "pos": "n.",
+      "sense_zh": "地点",
+      "sentence_ids": [
+        "p02-b-22-s01"
+      ],
+      "forms": [
+        "place"
+      ],
+      "sense_id": "sense-staged-ox-85ec892039044fd6-p02-b-22",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-348db06694a01830",
+      "lemma": "police",
+      "pos": "n.",
+      "sense_zh": "警方",
+      "sentence_ids": [
+        "p02-b-22-s02"
+      ],
+      "forms": [
+        "police"
+      ],
+      "sense_id": "sense-staged-ox-348db06694a01830-p02-b-22",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d00cf770c271134d",
+      "lemma": "policeman",
+      "pos": "n.",
+      "sense_zh": "男警察",
+      "sentence_ids": [
+        "p02-b-22-s03"
+      ],
+      "forms": [
+        "policeman"
+      ],
+      "sense_id": "sense-staged-ox-d00cf770c271134d-p02-b-22",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-55b052e1d13e617c",
+      "lemma": "say",
+      "pos": "v.",
+      "sense_zh": "说",
+      "sentence_ids": [
+        "p02-b-22-s04"
+      ],
+      "forms": [
+        "say"
+      ],
+      "sense_id": "sense-staged-ox-55b052e1d13e617c-p02-b-22",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

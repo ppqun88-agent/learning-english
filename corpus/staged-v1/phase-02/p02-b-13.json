@@ -1,0 +1,200 @@
+{
+  "id": "p02-b-13",
+  "title_zh": "更换收音效果不好的收音机",
+  "topic_id": "services",
+  "scenario": {
+    "id": "faulty-radio-return",
+    "label_zh": "退换有问题的收音机",
+    "goal_zh": "说明质量问题并确认替代商品及费用"
+  },
+  "participants": [
+    "Leo",
+    "Mina"
+  ],
+  "context_zh": "顾客带着新买的收音机和收据到店，希望当天换好。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-13-s01",
+      "speaker": "Leo",
+      "text": "Can I return this radio? The sound is very poor, even near the window."
+    },
+    {
+      "id": "p02-b-13-s02",
+      "speaker": "Mina",
+      "text": "What seems to be the problem? Is it noisy on every station?"
+    },
+    {
+      "id": "p02-b-13-s03",
+      "speaker": "Leo",
+      "text": "Yes, and the product page said it had a headphone socket, but it does not."
+    },
+    {
+      "id": "p02-b-13-s04",
+      "speaker": "Mina",
+      "text": "You are right. The description is wrong. We have a similar model with that socket."
+    },
+    {
+      "id": "p02-b-13-s05",
+      "speaker": "Leo",
+      "text": "Would I have to pay anything extra?"
+    },
+    {
+      "id": "p02-b-13-s06",
+      "speaker": "Mina",
+      "text": "No. We can exchange it at the same price, or give you a refund."
+    },
+    {
+      "id": "p02-b-13-s07",
+      "speaker": "Leo",
+      "text": "I need a replacement quickly. Can I test the other one here?"
+    },
+    {
+      "id": "p02-b-13-s08",
+      "speaker": "Mina",
+      "text": "Absolutely. Try these headphones."
+    },
+    {
+      "id": "p02-b-13-s09",
+      "speaker": "Leo",
+      "text": "That sounds clear. I'll take this one instead."
+    },
+    {
+      "id": "p02-b-13-s10",
+      "speaker": "Mina",
+      "text": "I'll make the exchange now and correct the description on our website."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-59aabe78e9d69ab3",
+      "lemma": "return",
+      "pos": "v.",
+      "sense_zh": "退还商品",
+      "sentence_ids": [
+        "p02-b-13-s01"
+      ],
+      "forms": [
+        "return"
+      ],
+      "sense_id": "sense-staged-ox-59aabe78e9d69ab3-p02-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16dc84eb7c3bf118",
+      "lemma": "radio",
+      "pos": "n.",
+      "sense_zh": "收音机",
+      "sentence_ids": [
+        "p02-b-13-s01"
+      ],
+      "forms": [
+        "radio"
+      ],
+      "sense_id": "sense-staged-ox-16dc84eb7c3bf118-p02-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-32eb3d62d8b06cd7",
+      "lemma": "poor",
+      "pos": "adj.",
+      "sense_zh": "质量差的",
+      "sentence_ids": [
+        "p02-b-13-s01"
+      ],
+      "forms": [
+        "poor"
+      ],
+      "sense_id": "sense-staged-ox-32eb3d62d8b06cd7-p02-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1ad86174624a31a4",
+      "lemma": "problem",
+      "pos": "n.",
+      "sense_zh": "问题；故障",
+      "sentence_ids": [
+        "p02-b-13-s02"
+      ],
+      "forms": [
+        "problem"
+      ],
+      "sense_id": "sense-staged-ox-1ad86174624a31a4-p02-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84d3191480304c83",
+      "lemma": "product",
+      "pos": "n.",
+      "sense_zh": "产品",
+      "sentence_ids": [
+        "p02-b-13-s03"
+      ],
+      "forms": [
+        "product"
+      ],
+      "sense_id": "sense-staged-ox-84d3191480304c83-p02-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a1fdc6b424c922f0",
+      "lemma": "similar",
+      "pos": "adj.",
+      "sense_zh": "相似的",
+      "sentence_ids": [
+        "p02-b-13-s04"
+      ],
+      "forms": [
+        "similar"
+      ],
+      "sense_id": "sense-staged-ox-a1fdc6b424c922f0-p02-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60af716c0614a4fa",
+      "lemma": "pay",
+      "pos": "v.",
+      "sense_zh": "支付",
+      "sentence_ids": [
+        "p02-b-13-s05"
+      ],
+      "forms": [
+        "pay"
+      ],
+      "sense_id": "sense-staged-ox-60af716c0614a4fa-p02-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-055a9c2747583500",
+      "lemma": "quickly",
+      "pos": "adv.",
+      "sense_zh": "迅速地",
+      "sentence_ids": [
+        "p02-b-13-s07"
+      ],
+      "forms": [
+        "quickly"
+      ],
+      "sense_id": "sense-staged-ox-055a9c2747583500-p02-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

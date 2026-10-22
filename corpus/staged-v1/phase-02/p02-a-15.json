@@ -1,0 +1,169 @@
+{
+  "id": "p02-a-15",
+  "title_zh": "安排父母结婚周年聚餐",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "parents-anniversary-table",
+    "label_zh": "安排父母结婚周年聚餐",
+    "goal_zh": "确定参加人数并为家庭纪念日协调见面时间。"
+  },
+  "participants": [
+    "Ruby",
+    "Nathan"
+  ],
+  "context_zh": "兄妹为父母的结婚纪念日安排餐馆聚餐，核对谁能提前到场。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-15-s01",
+      "speaker": "Ruby",
+      "text": "Mom and Dad have been married for nineteen years this Friday. Shall we take them out?"
+    },
+    {
+      "id": "p02-a-15-s02",
+      "speaker": "Nathan",
+      "text": "Definitely. How many people are coming?"
+    },
+    {
+      "id": "p02-a-15-s03",
+      "speaker": "Ruby",
+      "text": "Eight. Most guests can get there by six, but Aunt Jean will arrive a bit later."
+    },
+    {
+      "id": "p02-a-15-s04",
+      "speaker": "Nathan",
+      "text": "Let's meet outside the restaurant at quarter to six to set up the flowers."
+    },
+    {
+      "id": "p02-a-15-s05",
+      "speaker": "Ruby",
+      "text": "Good plan. Our mother has already guessed we're arranging something."
+    },
+    {
+      "id": "p02-a-15-s06",
+      "speaker": "Nathan",
+      "text": "Then let's keep the flowers a surprise, at least."
+    },
+    {
+      "id": "p02-a-15-s07",
+      "speaker": "Ruby",
+      "text": "I'll book a table for eight and tell everyone the time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-15fd11d341557c22",
+      "lemma": "mom",
+      "pos": "n.",
+      "sense_zh": "妈妈（美式非正式称呼）",
+      "sentence_ids": [
+        "p02-a-15-s01"
+      ],
+      "forms": [
+        "mom"
+      ],
+      "sense_id": "sense-staged-ox-15fd11d341557c22-p02-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92b98f8a1859361a",
+      "lemma": "married",
+      "pos": "adj.",
+      "sense_zh": "已婚的",
+      "sentence_ids": [
+        "p02-a-15-s01"
+      ],
+      "forms": [
+        "married"
+      ],
+      "sense_id": "sense-staged-ox-92b98f8a1859361a-p02-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80da1fc1cab3bb3e",
+      "lemma": "nineteen",
+      "pos": "number",
+      "sense_zh": "十九",
+      "sentence_ids": [
+        "p02-a-15-s01"
+      ],
+      "forms": [
+        "nineteen"
+      ],
+      "sense_id": "sense-staged-ox-80da1fc1cab3bb3e-p02-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bffe2e766b43a337",
+      "lemma": "many",
+      "pos": "det.",
+      "sense_zh": "许多的；多少的",
+      "sentence_ids": [
+        "p02-a-15-s02"
+      ],
+      "forms": [
+        "many"
+      ],
+      "sense_id": "sense-staged-ox-bffe2e766b43a337-p02-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c65a8cdd00f0c8d6",
+      "lemma": "most",
+      "pos": "det.",
+      "sense_zh": "大多数的",
+      "sentence_ids": [
+        "p02-a-15-s03"
+      ],
+      "forms": [
+        "most"
+      ],
+      "sense_id": "sense-staged-ox-c65a8cdd00f0c8d6-p02-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c94767b7afbf7947",
+      "lemma": "meet",
+      "pos": "v.",
+      "sense_zh": "见面；碰面",
+      "sentence_ids": [
+        "p02-a-15-s04"
+      ],
+      "forms": [
+        "meet"
+      ],
+      "sense_id": "sense-staged-ox-c94767b7afbf7947-p02-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a485230feea6d390",
+      "lemma": "mother",
+      "pos": "n.",
+      "sense_zh": "母亲",
+      "sentence_ids": [
+        "p02-a-15-s05"
+      ],
+      "forms": [
+        "mother"
+      ],
+      "sense_id": "sense-staged-ox-a485230feea6d390-p02-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,206 @@
+{
+  "id": "p02-c-03",
+  "title_zh": "协商夜间电视音量",
+  "topic_id": "home",
+  "scenario": {
+    "id": "late-night-television-noise",
+    "label_zh": "协商夜间电视音量",
+    "goal_zh": "说明噪声影响并商定当天停止观看"
+  },
+  "participants": [
+    "Leo",
+    "Samira"
+  ],
+  "context_zh": "两位合租者在晚间讨论穿墙的电视声。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-03-s01",
+      "speaker": "Leo",
+      "text": "Could you turn down the television? I'm trying to sleep."
+    },
+    {
+      "id": "p02-c-03-s02",
+      "speaker": "Samira",
+      "text": "Of course. Is the sound coming through your wall?"
+    },
+    {
+      "id": "p02-c-03-s03",
+      "speaker": "Leo",
+      "text": "Yes. I had a terrible night yesterday, and I'm really tired."
+    },
+    {
+      "id": "p02-c-03-s04",
+      "speaker": "Samira",
+      "text": "I'm sorry. Sometimes I fall asleep with the TV on."
+    },
+    {
+      "id": "p02-c-03-s05",
+      "speaker": "Leo",
+      "text": "Could you set a timer so it switches off?"
+    },
+    {
+      "id": "p02-c-03-s06",
+      "speaker": "Samira",
+      "text": "Good idea. I'll do that tomorrow, and I'll stop watching now."
+    },
+    {
+      "id": "p02-c-03-s07",
+      "speaker": "Leo",
+      "text": "Thank you. I need an early night tonight."
+    },
+    {
+      "id": "p02-c-03-s08",
+      "speaker": "Samira",
+      "text": "No problem. Good night."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b3005a40bad575c2",
+      "lemma": "sleep",
+      "pos": "v.",
+      "sense_zh": "睡觉",
+      "sentence_ids": [
+        "p02-c-03-s01"
+      ],
+      "forms": [
+        "sleep"
+      ],
+      "sense_id": "sense-staged-ox-b3005a40bad575c2-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2dd68273e40338ce",
+      "lemma": "sound",
+      "pos": "n.",
+      "sense_zh": "声音",
+      "sentence_ids": [
+        "p02-c-03-s02"
+      ],
+      "forms": [
+        "sound"
+      ],
+      "sense_id": "sense-staged-ox-2dd68273e40338ce-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44fa59545f5e0049",
+      "lemma": "television",
+      "pos": "n.",
+      "sense_zh": "电视机",
+      "sentence_ids": [
+        "p02-c-03-s01"
+      ],
+      "forms": [
+        "television"
+      ],
+      "sense_id": "sense-staged-ox-44fa59545f5e0049-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-670f973f36f139bb",
+      "lemma": "TV",
+      "pos": "n.",
+      "sense_zh": "电视机",
+      "sentence_ids": [
+        "p02-c-03-s04"
+      ],
+      "forms": [
+        "TV"
+      ],
+      "sense_id": "sense-staged-ox-670f973f36f139bb-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b73b64c9d6aef77",
+      "lemma": "tired",
+      "pos": "adj.",
+      "sense_zh": "疲倦的",
+      "sentence_ids": [
+        "p02-c-03-s03"
+      ],
+      "forms": [
+        "tired"
+      ],
+      "sense_id": "sense-staged-ox-2b73b64c9d6aef77-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b8d0a5f937f954d",
+      "lemma": "terrible",
+      "pos": "adj.",
+      "sense_zh": "很糟糕的",
+      "sentence_ids": [
+        "p02-c-03-s03"
+      ],
+      "forms": [
+        "terrible"
+      ],
+      "sense_id": "sense-staged-ox-6b8d0a5f937f954d-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b8762a99a4c02312",
+      "lemma": "stop",
+      "pos": "v.",
+      "sense_zh": "停止某项活动",
+      "sentence_ids": [
+        "p02-c-03-s06"
+      ],
+      "forms": [
+        "stop"
+      ],
+      "sense_id": "sense-staged-ox-b8762a99a4c02312-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4835873299a7e099",
+      "lemma": "tonight",
+      "pos": "adv.",
+      "sense_zh": "在今晚",
+      "sentence_ids": [
+        "p02-c-03-s07"
+      ],
+      "forms": [
+        "tonight"
+      ],
+      "sense_id": "sense-staged-ox-4835873299a7e099-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-683a03407f4ffe17",
+      "lemma": "sometimes",
+      "pos": "adv.",
+      "sense_zh": "有时",
+      "sentence_ids": [
+        "p02-c-03-s04"
+      ],
+      "forms": [
+        "sometimes"
+      ],
+      "sense_id": "sense-staged-ox-683a03407f4ffe17-p02-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,238 @@
+{
+  "id": "p02-c-13",
+  "title_zh": "堵车时改为步行赶火车",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "traffic-delayed-station-transfer",
+    "label_zh": "堵车时改为步行赶火车",
+    "goal_zh": "了解堵车原因并决定是否下车步行到车站"
+  },
+  "participants": [
+    "Marcus",
+    "Tess"
+  ],
+  "context_zh": "乘客和出租车司机在车站附近遇到堵车。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-13-s01",
+      "speaker": "Marcus",
+      "text": "We're not moving. What's the situation?"
+    },
+    {
+      "id": "p02-c-13-s02",
+      "speaker": "Tess",
+      "text": "A truck has broken down ahead, and the traffic is very slow."
+    },
+    {
+      "id": "p02-c-13-s03",
+      "speaker": "Marcus",
+      "text": "My train leaves in ten minutes. Is there another street we can use?"
+    },
+    {
+      "id": "p02-c-13-s04",
+      "speaker": "Tess",
+      "text": "Not from here, but the station is a five-minute walk along that path."
+    },
+    {
+      "id": "p02-c-13-s05",
+      "speaker": "Marcus",
+      "text": "Have I got time to pay and walk?"
+    },
+    {
+      "id": "p02-c-13-s06",
+      "speaker": "Tess",
+      "text": "Yes. You can pay by card in the taxi, then leave by the door on the pavement side."
+    },
+    {
+      "id": "p02-c-13-s07",
+      "speaker": "Marcus",
+      "text": "All right. I'll take my bags and walk from here."
+    },
+    {
+      "id": "p02-c-13-s08",
+      "speaker": "Tess",
+      "text": "The station entrance is just past the corner. You'll see it soon."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-eac138facda805a2",
+      "lemma": "situation",
+      "pos": "n.",
+      "sense_zh": "当前状况",
+      "sentence_ids": [
+        "p02-c-13-s01"
+      ],
+      "forms": [
+        "situation"
+      ],
+      "sense_id": "sense-staged-ox-eac138facda805a2-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5edfa6ac8a600493",
+      "lemma": "traffic",
+      "pos": "n.",
+      "sense_zh": "道路交通；车流",
+      "sentence_ids": [
+        "p02-c-13-s02"
+      ],
+      "forms": [
+        "traffic"
+      ],
+      "sense_id": "sense-staged-ox-5edfa6ac8a600493-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f25e2bc03505c185",
+      "lemma": "truck",
+      "pos": "n.",
+      "sense_zh": "卡车",
+      "sentence_ids": [
+        "p02-c-13-s02"
+      ],
+      "forms": [
+        "truck"
+      ],
+      "sense_id": "sense-staged-ox-f25e2bc03505c185-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3f6cd22a450aaa72",
+      "lemma": "train",
+      "pos": "n.",
+      "sense_zh": "火车",
+      "sentence_ids": [
+        "p02-c-13-s03"
+      ],
+      "forms": [
+        "train"
+      ],
+      "sense_id": "sense-staged-ox-3f6cd22a450aaa72-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8b75c5a09dd4459f",
+      "lemma": "taxi",
+      "pos": "n.",
+      "sense_zh": "出租车",
+      "sentence_ids": [
+        "p02-c-13-s06"
+      ],
+      "forms": [
+        "taxi"
+      ],
+      "sense_id": "sense-staged-ox-8b75c5a09dd4459f-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17eb3533c33e4055",
+      "lemma": "street",
+      "pos": "n.",
+      "sense_zh": "街道",
+      "sentence_ids": [
+        "p02-c-13-s03"
+      ],
+      "forms": [
+        "street"
+      ],
+      "sense_id": "sense-staged-ox-17eb3533c33e4055-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0beba8c4cd4861ce",
+      "lemma": "take",
+      "pos": "v.",
+      "sense_zh": "携带；带走",
+      "sentence_ids": [
+        "p02-c-13-s07"
+      ],
+      "forms": [
+        "take"
+      ],
+      "sense_id": "sense-staged-ox-0beba8c4cd4861ce-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ec90048c4e53647",
+      "lemma": "slow",
+      "pos": "adj.",
+      "sense_zh": "缓慢的",
+      "sentence_ids": [
+        "p02-c-13-s02"
+      ],
+      "forms": [
+        "slow"
+      ],
+      "sense_id": "sense-staged-ox-3ec90048c4e53647-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a037d68faaa56c8b",
+      "lemma": "soon",
+      "pos": "adv.",
+      "sense_zh": "很快；不久",
+      "sentence_ids": [
+        "p02-c-13-s08"
+      ],
+      "forms": [
+        "soon"
+      ],
+      "sense_id": "sense-staged-ox-a037d68faaa56c8b-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ac532f2391cb447",
+      "lemma": "ten",
+      "pos": "number",
+      "sense_zh": "十",
+      "sentence_ids": [
+        "p02-c-13-s03"
+      ],
+      "forms": [
+        "ten"
+      ],
+      "sense_id": "sense-staged-ox-2ac532f2391cb447-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-49e797c0e6072c72",
+      "lemma": "time",
+      "pos": "n.",
+      "sense_zh": "可用的时间",
+      "sentence_ids": [
+        "p02-c-13-s05"
+      ],
+      "forms": [
+        "time"
+      ],
+      "sense_id": "sense-staged-ox-49e797c0e6072c72-p02-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

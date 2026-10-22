@@ -1,0 +1,169 @@
+{
+  "id": "p02-c-09",
+  "title_zh": "选择社区运动课程",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "sports-taster-choice",
+    "label_zh": "选择社区运动课程",
+    "goal_zh": "选择适合初学者的社区运动体验课并确认用品。"
+  },
+  "participants": [
+    "Nadia",
+    "Cal"
+  ],
+  "context_zh": "Nadia 想参加能认识新朋友的运动活动，向俱乐部教练询问。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-09-s01",
+      "speaker": "Nadia",
+      "text": "I'd like to take up a sport that helps me meet people."
+    },
+    {
+      "id": "p02-c-09-s02",
+      "speaker": "Cal",
+      "text": "What do you enjoy doing now?"
+    },
+    {
+      "id": "p02-c-09-s03",
+      "speaker": "Nadia",
+      "text": "I can swim, but swimming alone gets boring."
+    },
+    {
+      "id": "p02-c-09-s04",
+      "speaker": "Cal",
+      "text": "Would you like to try tennis? We have a friendly beginners' group."
+    },
+    {
+      "id": "p02-c-09-s05",
+      "speaker": "Nadia",
+      "text": "Do I have to join a team?"
+    },
+    {
+      "id": "p02-c-09-s06",
+      "speaker": "Cal",
+      "text": "No. The first lesson is thirty minutes, and we'll lend you a racket."
+    },
+    {
+      "id": "p02-c-09-s07",
+      "speaker": "Nadia",
+      "text": "That sounds right for me. I'll book the Saturday lesson."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-851780f9e298f6c5",
+      "lemma": "sport",
+      "pos": "n.",
+      "sense_zh": "体育运动",
+      "sentence_ids": [
+        "p02-c-09-s01"
+      ],
+      "forms": [
+        "sport"
+      ],
+      "sense_id": "sense-staged-ox-851780f9e298f6c5-p02-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-11841f20413de130",
+      "lemma": "swim",
+      "pos": "v.",
+      "sense_zh": "游泳",
+      "sentence_ids": [
+        "p02-c-09-s03"
+      ],
+      "forms": [
+        "swim"
+      ],
+      "sense_id": "sense-staged-ox-11841f20413de130-p02-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b23fa5000eeaaff5",
+      "lemma": "swimming",
+      "pos": "n.",
+      "sense_zh": "游泳这项活动",
+      "sentence_ids": [
+        "p02-c-09-s03"
+      ],
+      "forms": [
+        "swimming"
+      ],
+      "sense_id": "sense-staged-ox-b23fa5000eeaaff5-p02-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-debca26d7913941c",
+      "lemma": "tennis",
+      "pos": "n.",
+      "sense_zh": "网球",
+      "sentence_ids": [
+        "p02-c-09-s04"
+      ],
+      "forms": [
+        "tennis"
+      ],
+      "sense_id": "sense-staged-ox-debca26d7913941c-p02-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8d63b50b990a2ca6",
+      "lemma": "team",
+      "pos": "n.",
+      "sense_zh": "运动队",
+      "sentence_ids": [
+        "p02-c-09-s05"
+      ],
+      "forms": [
+        "team"
+      ],
+      "sense_id": "sense-staged-ox-8d63b50b990a2ca6-p02-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d79face6e520d6bc",
+      "lemma": "try",
+      "pos": "v.",
+      "sense_zh": "尝试",
+      "sentence_ids": [
+        "p02-c-09-s04"
+      ],
+      "forms": [
+        "try"
+      ],
+      "sense_id": "sense-staged-ox-d79face6e520d6bc-p02-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bb887b6b2f05dec3",
+      "lemma": "thirty",
+      "pos": "number",
+      "sense_zh": "三十",
+      "sentence_ids": [
+        "p02-c-09-s06"
+      ],
+      "forms": [
+        "thirty"
+      ],
+      "sense_id": "sense-staged-ox-bb887b6b2f05dec3-p02-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

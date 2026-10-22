@@ -1,0 +1,174 @@
+{
+  "id": "p02-b-06",
+  "title_zh": "修改课堂短文",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "writing-exercise-revision",
+    "label_zh": "核对并修改写作练习",
+    "goal_zh": "澄清题目要求后修订段落中的不清楚表达"
+  },
+  "participants": [
+    "Isaac",
+    "Priya"
+  ],
+  "context_zh": "学生交稿前请老师检查旅行短文的开头。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-06-s01",
+      "speaker": "Isaac",
+      "text": "Can I ask a question about the writing task?"
+    },
+    {
+      "id": "p02-b-06-s02",
+      "speaker": "Priya",
+      "text": "Of course. Show me your first paragraph."
+    },
+    {
+      "id": "p02-b-06-s03",
+      "speaker": "Isaac",
+      "text": "Here it is, on this piece of paper. I wrote about the bus journey."
+    },
+    {
+      "id": "p02-b-06-s04",
+      "speaker": "Priya",
+      "text": "This sentence has two different ideas. Where does the bus stop, and where do you walk from?"
+    },
+    {
+      "id": "p02-b-06-s05",
+      "speaker": "Isaac",
+      "text": "At the station. I see what you mean. Is the phrase 'from there' clearer?"
+    },
+    {
+      "id": "p02-b-06-s06",
+      "speaker": "Priya",
+      "text": "Yes, if you name the station first. Use a pencil to try the change."
+    },
+    {
+      "id": "p02-b-06-s07",
+      "speaker": "Isaac",
+      "text": "Then I'll copy the final version in pen. Is that all right?"
+    },
+    {
+      "id": "p02-b-06-s08",
+      "speaker": "Priya",
+      "text": "Yes. Keep the rest; the order of events is easy to follow now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4f41288379dc5ddf",
+      "lemma": "question",
+      "pos": "n.",
+      "sense_zh": "问题",
+      "sentence_ids": [
+        "p02-b-06-s01"
+      ],
+      "forms": [
+        "question"
+      ],
+      "sense_id": "sense-staged-ox-4f41288379dc5ddf-p02-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e2e509a1fe32bf52",
+      "lemma": "paragraph",
+      "pos": "n.",
+      "sense_zh": "段落",
+      "sentence_ids": [
+        "p02-b-06-s02"
+      ],
+      "forms": [
+        "paragraph"
+      ],
+      "sense_id": "sense-staged-ox-e2e509a1fe32bf52-p02-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73723ba16bdb81eb",
+      "lemma": "paper",
+      "pos": "n.",
+      "sense_zh": "纸",
+      "sentence_ids": [
+        "p02-b-06-s03"
+      ],
+      "forms": [
+        "paper"
+      ],
+      "sense_id": "sense-staged-ox-73723ba16bdb81eb-p02-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cc448250164444d0",
+      "lemma": "sentence",
+      "pos": "n.",
+      "sense_zh": "句子",
+      "sentence_ids": [
+        "p02-b-06-s04"
+      ],
+      "forms": [
+        "sentence"
+      ],
+      "sense_id": "sense-staged-ox-cc448250164444d0-p02-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2849f9334efb3509",
+      "lemma": "phrase",
+      "pos": "n.",
+      "sense_zh": "短语",
+      "sentence_ids": [
+        "p02-b-06-s05"
+      ],
+      "forms": [
+        "phrase"
+      ],
+      "sense_id": "sense-staged-ox-2849f9334efb3509-p02-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-491df86dfecc7f39",
+      "lemma": "pencil",
+      "pos": "n.",
+      "sense_zh": "铅笔",
+      "sentence_ids": [
+        "p02-b-06-s06"
+      ],
+      "forms": [
+        "pencil"
+      ],
+      "sense_id": "sense-staged-ox-491df86dfecc7f39-p02-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f995fb4b245d5dcc",
+      "lemma": "pen",
+      "pos": "n.",
+      "sense_zh": "钢笔或其他墨水笔",
+      "sentence_ids": [
+        "p02-b-06-s07"
+      ],
+      "forms": [
+        "pen"
+      ],
+      "sense_id": "sense-staged-ox-f995fb4b245d5dcc-p02-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

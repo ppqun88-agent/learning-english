@@ -1,0 +1,132 @@
+{
+  "id": "p02-b-02",
+  "title_zh": "出发前打包野餐",
+  "topic_id": "food",
+  "scenario": {
+    "id": "picnic-packing",
+    "label_zh": "核对野餐食物与装包",
+    "goal_zh": "确认周末野餐食物已经备好并装入合适的袋子"
+  },
+  "participants": [
+    "Tessa",
+    "Owen"
+  ],
+  "context_zh": "朋友准备周六的野餐，出门前检查冷藏食品。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-02-s01",
+      "speaker": "Tessa",
+      "text": "Have we got everything for our Saturday picnic?"
+    },
+    {
+      "id": "p02-b-02-s02",
+      "speaker": "Owen",
+      "text": "Yes. I've made a sandwich for each of us, and there's potato salad in the fridge."
+    },
+    {
+      "id": "p02-b-02-s03",
+      "speaker": "Tessa",
+      "text": "Shall I put the salad in the cool bag now?"
+    },
+    {
+      "id": "p02-b-02-s04",
+      "speaker": "Owen",
+      "text": "Please do. The ice packs are already in there."
+    },
+    {
+      "id": "p02-b-02-s05",
+      "speaker": "Tessa",
+      "text": "Then we're ready, apart from the water."
+    },
+    {
+      "id": "p02-b-02-s06",
+      "speaker": "Owen",
+      "text": "I've got the bottles. Let's go."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d64ca7ffbb7940af",
+      "lemma": "Saturday",
+      "pos": "n.",
+      "sense_zh": "星期六",
+      "sentence_ids": [
+        "p02-b-02-s01"
+      ],
+      "forms": [
+        "Saturday"
+      ],
+      "sense_id": "sense-staged-ox-d64ca7ffbb7940af-p02-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43ea5726b8eb8ad8",
+      "lemma": "sandwich",
+      "pos": "n.",
+      "sense_zh": "三明治",
+      "sentence_ids": [
+        "p02-b-02-s02"
+      ],
+      "forms": [
+        "sandwich"
+      ],
+      "sense_id": "sense-staged-ox-43ea5726b8eb8ad8-p02-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d7d8fdc9e4f43f16",
+      "lemma": "potato",
+      "pos": "n.",
+      "sense_zh": "土豆",
+      "sentence_ids": [
+        "p02-b-02-s02"
+      ],
+      "forms": [
+        "potato"
+      ],
+      "sense_id": "sense-staged-ox-d7d8fdc9e4f43f16-p02-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63e745c3bb8e3643",
+      "lemma": "put",
+      "pos": "v.",
+      "sense_zh": "放置",
+      "sentence_ids": [
+        "p02-b-02-s03"
+      ],
+      "forms": [
+        "put"
+      ],
+      "sense_id": "sense-staged-ox-63e745c3bb8e3643-p02-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-476db0bffd9302e8",
+      "lemma": "ready",
+      "pos": "adj.",
+      "sense_zh": "准备好的",
+      "sentence_ids": [
+        "p02-b-02-s05"
+      ],
+      "forms": [
+        "ready"
+      ],
+      "sense_id": "sense-staged-ox-476db0bffd9302e8-p02-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

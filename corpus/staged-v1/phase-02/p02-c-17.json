@@ -1,0 +1,143 @@
+{
+  "id": "p02-c-17",
+  "title_zh": "安排考试前的复习顺序",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "exam-study-order",
+    "label_zh": "安排考试前的复习顺序",
+    "goal_zh": "根据考试日期和掌握程度确定今天的复习重点"
+  },
+  "participants": [
+    "Elsa",
+    "Benji"
+  ],
+  "context_zh": "两位同学商量当天下午如何分配复习时间。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-17-s01",
+      "speaker": "Elsa",
+      "text": "Which subject should we study first today, history or maths?"
+    },
+    {
+      "id": "p02-c-17-s02",
+      "speaker": "Benji",
+      "text": "The history test is tomorrow, so I'd start with that."
+    },
+    {
+      "id": "p02-c-17-s03",
+      "speaker": "Elsa",
+      "text": "I know the dates, but I can't explain why the events happened."
+    },
+    {
+      "id": "p02-c-17-s04",
+      "speaker": "Benji",
+      "text": "Let's ask each other questions about the causes. Then we can check our answers against the notes."
+    },
+    {
+      "id": "p02-c-17-s05",
+      "speaker": "Elsa",
+      "text": "Good plan. We can leave maths until after dinner. I'll get my history notes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8d98de1a020bfae9",
+      "lemma": "study",
+      "pos": "v.",
+      "sense_zh": "学习；复习",
+      "sentence_ids": [
+        "p02-c-17-s01"
+      ],
+      "forms": [
+        "study"
+      ],
+      "sense_id": "sense-staged-ox-8d98de1a020bfae9-p02-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-065de40795a2fc0b",
+      "lemma": "subject",
+      "pos": "n.",
+      "sense_zh": "学科",
+      "sentence_ids": [
+        "p02-c-17-s01"
+      ],
+      "forms": [
+        "subject"
+      ],
+      "sense_id": "sense-staged-ox-065de40795a2fc0b-p02-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-566ccc7ba0b549a5",
+      "lemma": "test",
+      "pos": "n.",
+      "sense_zh": "测验",
+      "sentence_ids": [
+        "p02-c-17-s02"
+      ],
+      "forms": [
+        "test"
+      ],
+      "sense_id": "sense-staged-ox-566ccc7ba0b549a5-p02-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d9b259e6c9d3ab8f",
+      "lemma": "so",
+      "pos": "conj.",
+      "sense_zh": "所以；连接原因与结果",
+      "sentence_ids": [
+        "p02-c-17-s02"
+      ],
+      "forms": [
+        "so"
+      ],
+      "sense_id": "sense-staged-ox-d9b259e6c9d3ab8f-p02-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e1946ba11a91c93a",
+      "lemma": "then",
+      "pos": "adv.",
+      "sense_zh": "然后；表示步骤先后",
+      "sentence_ids": [
+        "p02-c-17-s04"
+      ],
+      "forms": [
+        "then"
+      ],
+      "sense_id": "sense-staged-ox-e1946ba11a91c93a-p02-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-40e5ec8bf2af91f8",
+      "lemma": "today",
+      "pos": "adv.",
+      "sense_zh": "在今天",
+      "sentence_ids": [
+        "p02-c-17-s01"
+      ],
+      "forms": [
+        "today"
+      ],
+      "sense_id": "sense-staged-ox-40e5ec8bf2af91f8-p02-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

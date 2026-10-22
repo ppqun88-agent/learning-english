@@ -1,0 +1,190 @@
+{
+  "id": "p02-a-08",
+  "title_zh": "选一部适合今晚的电影",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "friends-film-night",
+    "label_zh": "商定朋友电影之夜",
+    "goal_zh": "兼顾时间与喜好选定影片"
+  },
+  "participants": [
+    "Joel",
+    "Priya"
+  ],
+  "context_zh": "两位朋友打算在家看电影，先沟通口味再选片。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-08-s01",
+      "speaker": "Joel",
+      "text": "What movie shall we watch tonight?"
+    },
+    {
+      "id": "p02-a-08-s02",
+      "speaker": "Priya",
+      "text": "I'd like something funny. I need to laugh after the day I've had."
+    },
+    {
+      "id": "p02-a-08-s03",
+      "speaker": "Joel",
+      "text": "I love the comedy about the two lost musicians. Have you seen it?"
+    },
+    {
+      "id": "p02-a-08-s04",
+      "speaker": "Priya",
+      "text": "No. What's your opinion of the ending? I don't want anything sad."
+    },
+    {
+      "id": "p02-a-08-s05",
+      "speaker": "Joel",
+      "text": "It's cheerful, and the music is great."
+    },
+    {
+      "id": "p02-a-08-s06",
+      "speaker": "Priya",
+      "text": "Maybe that's the right choice. How long is it?"
+    },
+    {
+      "id": "p02-a-08-s07",
+      "speaker": "Joel",
+      "text": "About eighty minutes, so it won't keep us up all night."
+    },
+    {
+      "id": "p02-a-08-s08",
+      "speaker": "Priya",
+      "text": "Perfect. Put it on while I get the snacks."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-568c774fe2d93312",
+      "lemma": "movie",
+      "pos": "n.",
+      "sense_zh": "电影",
+      "sentence_ids": [
+        "p02-a-08-s01"
+      ],
+      "forms": [
+        "movie"
+      ],
+      "sense_id": "sense-staged-ox-568c774fe2d93312-p02-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a90b857bec299b39",
+      "lemma": "like",
+      "pos": "v.",
+      "sense_zh": "想要（用于 would like）",
+      "sentence_ids": [
+        "p02-a-08-s02"
+      ],
+      "forms": [
+        "like"
+      ],
+      "sense_id": "sense-staged-ox-a90b857bec299b39-p02-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb06e7c4ac68e0e9",
+      "lemma": "laugh",
+      "pos": "v.",
+      "sense_zh": "笑",
+      "sentence_ids": [
+        "p02-a-08-s02"
+      ],
+      "forms": [
+        "laugh"
+      ],
+      "sense_id": "sense-staged-ox-eb06e7c4ac68e0e9-p02-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-857c28b032dc987e",
+      "lemma": "love",
+      "pos": "v.",
+      "sense_zh": "非常喜欢",
+      "sentence_ids": [
+        "p02-a-08-s03"
+      ],
+      "forms": [
+        "love"
+      ],
+      "sense_id": "sense-staged-ox-857c28b032dc987e-p02-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2e890c08a43d9dca",
+      "lemma": "opinion",
+      "pos": "n.",
+      "sense_zh": "意见；看法",
+      "sentence_ids": [
+        "p02-a-08-s04"
+      ],
+      "forms": [
+        "opinion"
+      ],
+      "sense_id": "sense-staged-ox-2e890c08a43d9dca-p02-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cdef0a702697d124",
+      "lemma": "music",
+      "pos": "n.",
+      "sense_zh": "音乐",
+      "sentence_ids": [
+        "p02-a-08-s05"
+      ],
+      "forms": [
+        "music"
+      ],
+      "sense_id": "sense-staged-ox-cdef0a702697d124-p02-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6abb5c16e58db6e8",
+      "lemma": "maybe",
+      "pos": "adv.",
+      "sense_zh": "也许",
+      "sentence_ids": [
+        "p02-a-08-s06"
+      ],
+      "forms": [
+        "maybe"
+      ],
+      "sense_id": "sense-staged-ox-6abb5c16e58db6e8-p02-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-25e29341c1440717",
+      "lemma": "night",
+      "pos": "n.",
+      "sense_zh": "夜晚",
+      "sentence_ids": [
+        "p02-a-08-s07"
+      ],
+      "forms": [
+        "night"
+      ],
+      "sense_id": "sense-staged-ox-25e29341c1440717-p02-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

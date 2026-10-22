@@ -1,0 +1,148 @@
+{
+  "id": "p02-a-11",
+  "title_zh": "在自然历史馆选择展厅",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "museum-animal-history",
+    "label_zh": "选择自然历史馆展厅",
+    "goal_zh": "根据孩子对动物的兴趣选择适合参观的展厅。"
+  },
+  "participants": [
+    "Seth",
+    "Wren",
+    "Ellen"
+  ],
+  "context_zh": "家长和孩子在博物馆咨询台询问，想在闭馆前看一个动物展厅。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-11-s01",
+      "speaker": "Seth",
+      "text": "We have half an hour in the museum. Which room would you suggest for a child?"
+    },
+    {
+      "id": "p02-a-11-s02",
+      "speaker": "Ellen",
+      "text": "The natural history gallery is popular. It shows how animal life has changed over time."
+    },
+    {
+      "id": "p02-a-11-s03",
+      "speaker": "Wren",
+      "text": "Is there a lion in there?"
+    },
+    {
+      "id": "p02-a-11-s04",
+      "speaker": "Ellen",
+      "text": "There's a model of an extinct lion, and a display of much older sea animals."
+    },
+    {
+      "id": "p02-a-11-s05",
+      "speaker": "Wren",
+      "text": "How old are the sea animals?"
+    },
+    {
+      "id": "p02-a-11-s06",
+      "speaker": "Ellen",
+      "text": "Some of the fossils are over a million years old."
+    },
+    {
+      "id": "p02-a-11-s07",
+      "speaker": "Seth",
+      "text": "That sounds like our sort of room. Where do we go?"
+    },
+    {
+      "id": "p02-a-11-s08",
+      "speaker": "Ellen",
+      "text": "Through those glass doors. The animal trail starts on your right."
+    },
+    {
+      "id": "p02-a-11-s09",
+      "speaker": "Wren",
+      "text": "Let's follow the trail, Dad!"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c24f5e4f2e6c4038",
+      "lemma": "museum",
+      "pos": "n.",
+      "sense_zh": "博物馆",
+      "sentence_ids": [
+        "p02-a-11-s01"
+      ],
+      "forms": [
+        "museum"
+      ],
+      "sense_id": "sense-staged-ox-c24f5e4f2e6c4038-p02-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce024ecdf0026692",
+      "lemma": "natural",
+      "pos": "adj.",
+      "sense_zh": "自然界的",
+      "sentence_ids": [
+        "p02-a-11-s02"
+      ],
+      "forms": [
+        "natural"
+      ],
+      "sense_id": "sense-staged-ox-ce024ecdf0026692-p02-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7cda4504bc0d2a15",
+      "lemma": "life",
+      "pos": "n.",
+      "sense_zh": "生物；生命",
+      "sentence_ids": [
+        "p02-a-11-s02"
+      ],
+      "forms": [
+        "life"
+      ],
+      "sense_id": "sense-staged-ox-7cda4504bc0d2a15-p02-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a11d07646ff3955",
+      "lemma": "lion",
+      "pos": "n.",
+      "sense_zh": "狮子",
+      "sentence_ids": [
+        "p02-a-11-s03"
+      ],
+      "forms": [
+        "lion"
+      ],
+      "sense_id": "sense-staged-ox-4a11d07646ff3955-p02-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b7415686b462e8e3",
+      "lemma": "million",
+      "pos": "number",
+      "sense_zh": "百万",
+      "sentence_ids": [
+        "p02-a-11-s06"
+      ],
+      "forms": [
+        "million"
+      ],
+      "sense_id": "sense-staged-ox-b7415686b462e8e3-p02-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

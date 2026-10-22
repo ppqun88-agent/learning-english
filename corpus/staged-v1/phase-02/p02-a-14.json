@@ -1,0 +1,153 @@
+{
+  "id": "p02-a-14",
+  "title_zh": "确认适合参加的课程日期",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "course-term-calendar",
+    "label_zh": "确认课程开课与结课日期",
+    "goal_zh": "比较春季与秋季班的月份并选定报名时间。"
+  },
+  "participants": [
+    "Evan",
+    "Ruth"
+  ],
+  "context_zh": "想学陶艺的学员工作安排有变，向课程办公室核对各期开课日期。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-14-s01",
+      "speaker": "Evan",
+      "text": "I can't attend the course that starts in March. When is the next one?"
+    },
+    {
+      "id": "p02-a-14-s02",
+      "speaker": "Ruth",
+      "text": "In May. Will you be back by then?"
+    },
+    {
+      "id": "p02-a-14-s03",
+      "speaker": "Evan",
+      "text": "I'll be away for the whole month, unfortunately. Is there an autumn course?"
+    },
+    {
+      "id": "p02-a-14-s04",
+      "speaker": "Ruth",
+      "text": "Yes, it starts in October and finishes in November."
+    },
+    {
+      "id": "p02-a-14-s05",
+      "speaker": "Evan",
+      "text": "That fits my schedule. Can I book now?"
+    },
+    {
+      "id": "p02-a-14-s06",
+      "speaker": "Ruth",
+      "text": "Registration opens in August. Shall I send you the course dates?"
+    },
+    {
+      "id": "p02-a-14-s07",
+      "speaker": "Evan",
+      "text": "Please do. I'll put a reminder in my calendar."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9f3f72065942ba90",
+      "lemma": "March",
+      "pos": "n.",
+      "sense_zh": "三月",
+      "sentence_ids": [
+        "p02-a-14-s01"
+      ],
+      "forms": [
+        "March"
+      ],
+      "sense_id": "sense-staged-ox-9f3f72065942ba90-p02-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bc10890dd3fad396",
+      "lemma": "next",
+      "pos": "adj.",
+      "sense_zh": "下一个的",
+      "sentence_ids": [
+        "p02-a-14-s01"
+      ],
+      "forms": [
+        "next"
+      ],
+      "sense_id": "sense-staged-ox-bc10890dd3fad396-p02-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2d9f2af2b8d331fc",
+      "lemma": "May",
+      "pos": "n.",
+      "sense_zh": "五月",
+      "sentence_ids": [
+        "p02-a-14-s02"
+      ],
+      "forms": [
+        "May"
+      ],
+      "sense_id": "sense-staged-ox-2d9f2af2b8d331fc-p02-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9df45cc24364a786",
+      "lemma": "month",
+      "pos": "n.",
+      "sense_zh": "月；月份",
+      "sentence_ids": [
+        "p02-a-14-s03"
+      ],
+      "forms": [
+        "month"
+      ],
+      "sense_id": "sense-staged-ox-9df45cc24364a786-p02-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a7b1d5ed52a81b24",
+      "lemma": "October",
+      "pos": "n.",
+      "sense_zh": "十月",
+      "sentence_ids": [
+        "p02-a-14-s04"
+      ],
+      "forms": [
+        "October"
+      ],
+      "sense_id": "sense-staged-ox-a7b1d5ed52a81b24-p02-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16e62b66b6b14860",
+      "lemma": "November",
+      "pos": "n.",
+      "sense_zh": "十一月",
+      "sentence_ids": [
+        "p02-a-14-s04"
+      ],
+      "forms": [
+        "November"
+      ],
+      "sense_id": "sense-staged-ox-16e62b66b6b14860-p02-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

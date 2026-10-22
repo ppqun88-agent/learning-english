@@ -1,0 +1,153 @@
+{
+  "id": "p02-a-19",
+  "title_zh": "协调足球比赛到场时间",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "football-match-arrival",
+    "label_zh": "协调足球比赛到场时间",
+    "goal_zh": "确认比赛时间、时长及接送安排。"
+  },
+  "participants": [
+    "Leonie",
+    "Darren"
+  ],
+  "context_zh": "家长与教练商量周末比赛的到达和接回时间。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-19-s01",
+      "speaker": "Leonie",
+      "text": "Does the match start at nine?"
+    },
+    {
+      "id": "p02-a-19-s02",
+      "speaker": "Darren",
+      "text": "No, that's when the team needs to arrive. Kick-off is at half past."
+    },
+    {
+      "id": "p02-a-19-s03",
+      "speaker": "Leonie",
+      "text": "Oh, I nearly booked a taxi for the wrong time."
+    },
+    {
+      "id": "p02-a-19-s04",
+      "speaker": "Darren",
+      "text": "It's a full ninety minutes of football, plus the break, so don't rush back too early."
+    },
+    {
+      "id": "p02-a-19-s05",
+      "speaker": "Leonie",
+      "text": "Would quarter past eleven be sensible for pickup?"
+    },
+    {
+      "id": "p02-a-19-s06",
+      "speaker": "Darren",
+      "text": "Yes. I'll wait with your son by the clubhouse."
+    },
+    {
+      "id": "p02-a-19-s07",
+      "speaker": "Leonie",
+      "text": "OK, I'll arrange the taxi for then. Thanks for checking."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-861d6311caea4dd3",
+      "lemma": "match",
+      "pos": "n.",
+      "sense_zh": "体育比赛",
+      "sentence_ids": [
+        "p02-a-19-s01"
+      ],
+      "forms": [
+        "match"
+      ],
+      "sense_id": "sense-staged-ox-861d6311caea4dd3-p02-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14e056feecad59f3",
+      "lemma": "nine",
+      "pos": "number",
+      "sense_zh": "九",
+      "sentence_ids": [
+        "p02-a-19-s01"
+      ],
+      "forms": [
+        "nine"
+      ],
+      "sense_id": "sense-staged-ox-14e056feecad59f3-p02-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-04a4b90e8fafe883",
+      "lemma": "no",
+      "pos": "exclam.",
+      "sense_zh": "不；不是（否定回答）",
+      "sentence_ids": [
+        "p02-a-19-s02"
+      ],
+      "forms": [
+        "no"
+      ],
+      "sense_id": "sense-staged-ox-04a4b90e8fafe883-p02-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d3da33c49a4b07ac",
+      "lemma": "oh",
+      "pos": "exclam.",
+      "sense_zh": "哦（表示意识到某事）",
+      "sentence_ids": [
+        "p02-a-19-s03"
+      ],
+      "forms": [
+        "oh"
+      ],
+      "sense_id": "sense-staged-ox-d3da33c49a4b07ac-p02-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c11da2989f73ff44",
+      "lemma": "ninety",
+      "pos": "number",
+      "sense_zh": "九十",
+      "sentence_ids": [
+        "p02-a-19-s04"
+      ],
+      "forms": [
+        "ninety"
+      ],
+      "sense_id": "sense-staged-ox-c11da2989f73ff44-p02-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5cd9540ec508cc54",
+      "lemma": "OK",
+      "pos": "exclam.",
+      "sense_zh": "好的（表示同意）",
+      "sentence_ids": [
+        "p02-a-19-s07"
+      ],
+      "forms": [
+        "OK"
+      ],
+      "sense_id": "sense-staged-ox-5cd9540ec508cc54-p02-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

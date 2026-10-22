@@ -1,0 +1,233 @@
+{
+  "id": "p02-c-01",
+  "title_zh": "为生日演出询问歌曲点播",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "concert-song-request",
+    "label_zh": "为生日演出询问歌曲点播",
+    "goal_zh": "确认演出时间、票价和生日点歌是否可行"
+  },
+  "participants": [
+    "Noor",
+    "Evan"
+  ],
+  "context_zh": "Noor 想带妹妹参加小型现场演出，向场地工作人员咨询。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-01-s01",
+      "speaker": "Noor",
+      "text": "Is Hana Moss the singer at Thursday's show?"
+    },
+    {
+      "id": "p02-c-01-s02",
+      "speaker": "Evan",
+      "text": "Yes. She isn't a big star yet, but she has a wonderful voice."
+    },
+    {
+      "id": "p02-c-01-s03",
+      "speaker": "Noor",
+      "text": "My sister loves her music. She'll be sixteen that day, and I'd like to make the evening special."
+    },
+    {
+      "id": "p02-c-01-s04",
+      "speaker": "Evan",
+      "text": "You could ask Hana for a song. She usually takes requests at the end."
+    },
+    {
+      "id": "p02-c-01-s05",
+      "speaker": "Noor",
+      "text": "Lovely. What does a ticket cost, and when does the music start?"
+    },
+    {
+      "id": "p02-c-01-s06",
+      "speaker": "Evan",
+      "text": "It's twelve pounds, and the music starts at six. Doors open half an hour earlier."
+    },
+    {
+      "id": "p02-c-01-s07",
+      "speaker": "Noor",
+      "text": "Great, thanks. I'll buy our tickets and send in a birthday request."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-88f4f52f1105f7f3",
+      "lemma": "singer",
+      "pos": "n.",
+      "sense_zh": "歌手",
+      "sentence_ids": [
+        "p02-c-01-s01"
+      ],
+      "forms": [
+        "singer"
+      ],
+      "sense_id": "sense-staged-ox-88f4f52f1105f7f3-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1cef80058cdedcc2",
+      "lemma": "sister",
+      "pos": "n.",
+      "sense_zh": "姐妹中的妹妹",
+      "sentence_ids": [
+        "p02-c-01-s03"
+      ],
+      "forms": [
+        "sister"
+      ],
+      "sense_id": "sense-staged-ox-1cef80058cdedcc2-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4d92760db2a9fc6",
+      "lemma": "six",
+      "pos": "number",
+      "sense_zh": "六",
+      "sentence_ids": [
+        "p02-c-01-s06"
+      ],
+      "forms": [
+        "six"
+      ],
+      "sense_id": "sense-staged-ox-c4d92760db2a9fc6-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-22b20b81cd079ac5",
+      "lemma": "sixteen",
+      "pos": "number",
+      "sense_zh": "十六",
+      "sentence_ids": [
+        "p02-c-01-s03"
+      ],
+      "forms": [
+        "sixteen"
+      ],
+      "sense_id": "sense-staged-ox-22b20b81cd079ac5-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4e3a6905308bf72",
+      "lemma": "song",
+      "pos": "n.",
+      "sense_zh": "歌曲",
+      "sentence_ids": [
+        "p02-c-01-s04"
+      ],
+      "forms": [
+        "song"
+      ],
+      "sense_id": "sense-staged-ox-b4e3a6905308bf72-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a16a4143054071b",
+      "lemma": "special",
+      "pos": "adj.",
+      "sense_zh": "特别的；不同寻常的",
+      "sentence_ids": [
+        "p02-c-01-s03"
+      ],
+      "forms": [
+        "special"
+      ],
+      "sense_id": "sense-staged-ox-4a16a4143054071b-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d69f4b2f1bc5b76",
+      "lemma": "start",
+      "pos": "v.",
+      "sense_zh": "开始",
+      "sentence_ids": [
+        "p02-c-01-s05"
+      ],
+      "forms": [
+        "start"
+      ],
+      "sense_id": "sense-staged-ox-5d69f4b2f1bc5b76-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e2742c8af7faf813",
+      "lemma": "Thursday",
+      "pos": "n.",
+      "sense_zh": "星期四",
+      "sentence_ids": [
+        "p02-c-01-s01"
+      ],
+      "forms": [
+        "Thursday"
+      ],
+      "sense_id": "sense-staged-ox-e2742c8af7faf813-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e07a4a355c0a0b8c",
+      "lemma": "ticket",
+      "pos": "n.",
+      "sense_zh": "入场券",
+      "sentence_ids": [
+        "p02-c-01-s05"
+      ],
+      "forms": [
+        "ticket"
+      ],
+      "sense_id": "sense-staged-ox-e07a4a355c0a0b8c-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-124c8c4932ad01d0",
+      "lemma": "thanks",
+      "pos": "exclam.",
+      "sense_zh": "谢谢",
+      "sentence_ids": [
+        "p02-c-01-s07"
+      ],
+      "forms": [
+        "thanks"
+      ],
+      "sense_id": "sense-staged-ox-124c8c4932ad01d0-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f96dd402b5f85d4",
+      "lemma": "star",
+      "pos": "n.",
+      "sense_zh": "演艺明星",
+      "sentence_ids": [
+        "p02-c-01-s02"
+      ],
+      "forms": [
+        "star"
+      ],
+      "sense_id": "sense-staged-ox-4f96dd402b5f85d4-p02-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

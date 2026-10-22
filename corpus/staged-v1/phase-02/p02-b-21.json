@@ -1,0 +1,74 @@
+{
+  "id": "p02-b-21",
+  "title_zh": "从节目单确认中场后的演出安排",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "concert-programme-check",
+    "label_zh": "查看音乐会节目安排",
+    "goal_zh": "确认中场后演出次序并安排及时回座"
+  },
+  "participants": [
+    "Poppy",
+    "Anders"
+  ],
+  "context_zh": "观众想在中场休息时买饮料，但不愿错过孩子的演出。",
+  "author": "author-phase02-b",
+  "sentences": [
+    {
+      "id": "p02-b-21-s01",
+      "speaker": "Poppy",
+      "text": "Does the programme say when the school choir comes on?"
+    },
+    {
+      "id": "p02-b-21-s02",
+      "speaker": "Anders",
+      "text": "Yes. Look in the second section, after the interval."
+    },
+    {
+      "id": "p02-b-21-s03",
+      "speaker": "Poppy",
+      "text": "Oh, they are first after the break. I had better get my drink now."
+    },
+    {
+      "id": "p02-b-21-s04",
+      "speaker": "Anders",
+      "text": "I will stay here with the coats. Come straight back when you hear the bell."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-abbfd7baa705bc80",
+      "lemma": "programme",
+      "pos": "n.",
+      "sense_zh": "演出节目单",
+      "sentence_ids": [
+        "p02-b-21-s01"
+      ],
+      "forms": [
+        "programme"
+      ],
+      "sense_id": "sense-staged-ox-abbfd7baa705bc80-p02-b-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2fb85f9a35bb14c",
+      "lemma": "section",
+      "pos": "n.",
+      "sense_zh": "部分",
+      "sentence_ids": [
+        "p02-b-21-s02"
+      ],
+      "forms": [
+        "section"
+      ],
+      "sense_id": "sense-staged-ox-d2fb85f9a35bb14c-p02-b-21",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

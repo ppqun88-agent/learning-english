@@ -1,0 +1,185 @@
+{
+  "id": "p02-a-03",
+  "title_zh": "更正社区会议通知",
+  "topic_id": "community",
+  "scenario": {
+    "id": "local-meeting-notice",
+    "label_zh": "更正社区会议通知",
+    "goal_zh": "核实会议改期消息并约定告知居民的方式。"
+  },
+  "participants": [
+    "Helen",
+    "Omar"
+  ],
+  "context_zh": "两位居民发现报纸和公告上的会议时间不一致，商量如何纠正。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-03-s01",
+      "speaker": "Helen",
+      "text": "Have you seen the news about the community meeting? It's on Monday now."
+    },
+    {
+      "id": "p02-a-03-s02",
+      "speaker": "Omar",
+      "text": "The local newspaper still says Tuesday."
+    },
+    {
+      "id": "p02-a-03-s03",
+      "speaker": "Helen",
+      "text": "I got a message from the organiser this morning. The hall isn't available on Tuesday."
+    },
+    {
+      "id": "p02-a-03-s04",
+      "speaker": "Omar",
+      "text": "Then we should put a note beside the old notice."
+    },
+    {
+      "id": "p02-a-03-s05",
+      "speaker": "Helen",
+      "text": "Good idea. Nobody has corrected the noticeboard yet."
+    },
+    {
+      "id": "p02-a-03-s06",
+      "speaker": "Omar",
+      "text": "I'll print the new date and ask the organiser to check it before I put it up."
+    },
+    {
+      "id": "p02-a-03-s07",
+      "speaker": "Helen",
+      "text": "Thanks. I'll tell the newspaper so they can correct the online version."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b95882fc65201998",
+      "lemma": "news",
+      "pos": "n.",
+      "sense_zh": "消息",
+      "sentence_ids": [
+        "p02-a-03-s01"
+      ],
+      "forms": [
+        "news"
+      ],
+      "sense_id": "sense-staged-ox-b95882fc65201998-p02-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9474204a7ff29e83",
+      "lemma": "meeting",
+      "pos": "n.",
+      "sense_zh": "会议",
+      "sentence_ids": [
+        "p02-a-03-s01"
+      ],
+      "forms": [
+        "meeting"
+      ],
+      "sense_id": "sense-staged-ox-9474204a7ff29e83-p02-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ddd3de0a3077c02d",
+      "lemma": "Monday",
+      "pos": "n.",
+      "sense_zh": "星期一",
+      "sentence_ids": [
+        "p02-a-03-s01"
+      ],
+      "forms": [
+        "Monday"
+      ],
+      "sense_id": "sense-staged-ox-ddd3de0a3077c02d-p02-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4da1bd2b3907d62",
+      "lemma": "local",
+      "pos": "adj.",
+      "sense_zh": "本地的",
+      "sentence_ids": [
+        "p02-a-03-s02"
+      ],
+      "forms": [
+        "local"
+      ],
+      "sense_id": "sense-staged-ox-b4da1bd2b3907d62-p02-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2834da411ae4e8d9",
+      "lemma": "newspaper",
+      "pos": "n.",
+      "sense_zh": "报纸",
+      "sentence_ids": [
+        "p02-a-03-s02"
+      ],
+      "forms": [
+        "newspaper"
+      ],
+      "sense_id": "sense-staged-ox-2834da411ae4e8d9-p02-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c62414d5f679dd4e",
+      "lemma": "message",
+      "pos": "n.",
+      "sense_zh": "消息；口信",
+      "sentence_ids": [
+        "p02-a-03-s03"
+      ],
+      "forms": [
+        "message"
+      ],
+      "sense_id": "sense-staged-ox-c62414d5f679dd4e-p02-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cc548c797f621481",
+      "lemma": "note",
+      "pos": "n.",
+      "sense_zh": "简短的书面说明",
+      "sentence_ids": [
+        "p02-a-03-s04"
+      ],
+      "forms": [
+        "note"
+      ],
+      "sense_id": "sense-staged-ox-cc548c797f621481-p02-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-695ef9d71d120830",
+      "lemma": "nobody",
+      "pos": "pron.",
+      "sense_zh": "没有人",
+      "sentence_ids": [
+        "p02-a-03-s05"
+      ],
+      "forms": [
+        "nobody"
+      ],
+      "sense_id": "sense-staged-ox-695ef9d71d120830-p02-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

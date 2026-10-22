@@ -1,0 +1,153 @@
+{
+  "id": "p02-c-15",
+  "title_zh": "顺路帮邻居买食品",
+  "topic_id": "food",
+  "scenario": {
+    "id": "neighbour-grocery-errand",
+    "label_zh": "顺路帮邻居买食品",
+    "goal_zh": "确认购物品种、数量和替代购买地点"
+  },
+  "participants": [
+    "Cam",
+    "Zoë"
+  ],
+  "context_zh": "Cam 要去超市，询问邻居 Zoë 是否需要顺便带东西。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-15-s01",
+      "speaker": "Cam",
+      "text": "I'm going to the supermarket. Do you need something?"
+    },
+    {
+      "id": "p02-c-15-s02",
+      "speaker": "Zoë",
+      "text": "Could you get twelve eggs and three apples? We're nearly out."
+    },
+    {
+      "id": "p02-c-15-s03",
+      "speaker": "Cam",
+      "text": "Of course. Any bread?"
+    },
+    {
+      "id": "p02-c-15-s04",
+      "speaker": "Zoë",
+      "text": "Yes, a loaf would help."
+    },
+    {
+      "id": "p02-c-15-s05",
+      "speaker": "Cam",
+      "text": "What type do you want? White or wholemeal?"
+    },
+    {
+      "id": "p02-c-15-s06",
+      "speaker": "Zoë",
+      "text": "Wholemeal, please. If they're sold out, the little store on Oak Road usually has it."
+    },
+    {
+      "id": "p02-c-15-s07",
+      "speaker": "Cam",
+      "text": "Got it. I'll bring everything over when I'm back."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4ffe4c60ed0a9e1c",
+      "lemma": "supermarket",
+      "pos": "n.",
+      "sense_zh": "超市",
+      "sentence_ids": [
+        "p02-c-15-s01"
+      ],
+      "forms": [
+        "supermarket"
+      ],
+      "sense_id": "sense-staged-ox-4ffe4c60ed0a9e1c-p02-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7fb479c8a0cf8021",
+      "lemma": "store",
+      "pos": "n.",
+      "sense_zh": "商店",
+      "sentence_ids": [
+        "p02-c-15-s06"
+      ],
+      "forms": [
+        "store"
+      ],
+      "sense_id": "sense-staged-ox-7fb479c8a0cf8021-p02-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b1f7ce38590fca72",
+      "lemma": "three",
+      "pos": "number",
+      "sense_zh": "三",
+      "sentence_ids": [
+        "p02-c-15-s02"
+      ],
+      "forms": [
+        "three"
+      ],
+      "sense_id": "sense-staged-ox-b1f7ce38590fca72-p02-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9933624f8998f8f9",
+      "lemma": "twelve",
+      "pos": "number",
+      "sense_zh": "十二",
+      "sentence_ids": [
+        "p02-c-15-s02"
+      ],
+      "forms": [
+        "twelve"
+      ],
+      "sense_id": "sense-staged-ox-9933624f8998f8f9-p02-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0cf093d50ab7ad71",
+      "lemma": "something",
+      "pos": "pron.",
+      "sense_zh": "某物；某些东西",
+      "sentence_ids": [
+        "p02-c-15-s01"
+      ],
+      "forms": [
+        "something"
+      ],
+      "sense_id": "sense-staged-ox-0cf093d50ab7ad71-p02-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e123df457194eddb",
+      "lemma": "type",
+      "pos": "n.",
+      "sense_zh": "种类",
+      "sentence_ids": [
+        "p02-c-15-s05"
+      ],
+      "forms": [
+        "type"
+      ],
+      "sense_id": "sense-staged-ox-e123df457194eddb-p02-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

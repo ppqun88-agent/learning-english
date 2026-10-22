@@ -1,0 +1,211 @@
+{
+  "id": "p02-a-18",
+  "title_zh": "进入第一次线上电脑课",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "computer-class-connection",
+    "label_zh": "进入线上电脑课程",
+    "goal_zh": "找到登录入口并按要求设置课堂摄像头。"
+  },
+  "participants": [
+    "Eli",
+    "Keisha"
+  ],
+  "context_zh": "第一次上网课的学员通过电话请课程助手指导登录。",
+  "author": "author-phase02-a",
+  "sentences": [
+    {
+      "id": "p02-a-18-s01",
+      "speaker": "Eli",
+      "text": "I've never joined an online class before. I'm at the login screen."
+    },
+    {
+      "id": "p02-a-18-s02",
+      "speaker": "Keisha",
+      "text": "Do you have a mouse connected?"
+    },
+    {
+      "id": "p02-a-18-s03",
+      "speaker": "Eli",
+      "text": "Yes, I have one beside the keyboard."
+    },
+    {
+      "id": "p02-a-18-s04",
+      "speaker": "Keisha",
+      "text": "Use it to click the blue button on the screen."
+    },
+    {
+      "id": "p02-a-18-s05",
+      "speaker": "Eli",
+      "text": "It asks for a number. Is that my phone number?"
+    },
+    {
+      "id": "p02-a-18-s06",
+      "speaker": "Keisha",
+      "text": "No, not your phone number. Enter the six digits in the class email."
+    },
+    {
+      "id": "p02-a-18-s07",
+      "speaker": "Eli",
+      "text": "Done. Should I open the camera window as well?"
+    },
+    {
+      "id": "p02-a-18-s08",
+      "speaker": "Keisha",
+      "text": "You can leave the camera off until the tutor asks you to introduce yourself."
+    },
+    {
+      "id": "p02-a-18-s09",
+      "speaker": "Eli",
+      "text": "All right. I can see the tutor now. Thanks!"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f1a283849633464a",
+      "lemma": "never",
+      "pos": "adv.",
+      "sense_zh": "从未",
+      "sentence_ids": [
+        "p02-a-18-s01"
+      ],
+      "forms": [
+        "never"
+      ],
+      "sense_id": "sense-staged-ox-f1a283849633464a-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ce4cd790f9292d3",
+      "lemma": "online",
+      "pos": "adj.",
+      "sense_zh": "在线的；网上的",
+      "sentence_ids": [
+        "p02-a-18-s01"
+      ],
+      "forms": [
+        "online"
+      ],
+      "sense_id": "sense-staged-ox-2ce4cd790f9292d3-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-260878c9ca5ca76c",
+      "lemma": "mouse",
+      "pos": "n.",
+      "sense_zh": "电脑鼠标",
+      "sentence_ids": [
+        "p02-a-18-s02"
+      ],
+      "forms": [
+        "mouse"
+      ],
+      "sense_id": "sense-staged-ox-260878c9ca5ca76c-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3bc1374bd7cb879b",
+      "lemma": "one",
+      "pos": "pron.",
+      "sense_zh": "一个（指已提及的同类事物）",
+      "sentence_ids": [
+        "p02-a-18-s03"
+      ],
+      "forms": [
+        "one"
+      ],
+      "sense_id": "sense-staged-ox-3bc1374bd7cb879b-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-91e798ab6f70efcd",
+      "lemma": "on",
+      "pos": "prep.",
+      "sense_zh": "在……上",
+      "sentence_ids": [
+        "p02-a-18-s04"
+      ],
+      "forms": [
+        "on"
+      ],
+      "sense_id": "sense-staged-ox-91e798ab6f70efcd-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-714a37e6ee978b37",
+      "lemma": "number",
+      "pos": "n.",
+      "sense_zh": "号码；数字",
+      "sentence_ids": [
+        "p02-a-18-s05"
+      ],
+      "forms": [
+        "number"
+      ],
+      "sense_id": "sense-staged-ox-714a37e6ee978b37-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-78f453c8dd79116c",
+      "lemma": "not",
+      "pos": "adv.",
+      "sense_zh": "不；不是",
+      "sentence_ids": [
+        "p02-a-18-s06"
+      ],
+      "forms": [
+        "not"
+      ],
+      "sense_id": "sense-staged-ox-78f453c8dd79116c-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d4e245987eeb7775",
+      "lemma": "open",
+      "pos": "v.",
+      "sense_zh": "打开",
+      "sentence_ids": [
+        "p02-a-18-s07"
+      ],
+      "forms": [
+        "open"
+      ],
+      "sense_id": "sense-staged-ox-d4e245987eeb7775-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00e8f1aa10731da9",
+      "lemma": "off",
+      "pos": "adv.",
+      "sense_zh": "处于关闭状态",
+      "sentence_ids": [
+        "p02-a-18-s08"
+      ],
+      "forms": [
+        "off"
+      ],
+      "sense_id": "sense-staged-ox-00e8f1aa10731da9-p02-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,185 @@
+{
+  "id": "p02-c-14",
+  "title_zh": "缩小叙事作业的题材",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "story-assignment-topic-choice",
+    "label_zh": "缩小叙事作业的题材",
+    "goal_zh": "选定真实经历中的具体事件并拟定题目"
+  },
+  "participants": [
+    "Rina",
+    "Jonah"
+  ],
+  "context_zh": "Rina 向老师 Jonah 咨询叙事写作作业。",
+  "author": "author-phase02-c",
+  "sentences": [
+    {
+      "id": "p02-c-14-s01",
+      "speaker": "Rina",
+      "text": "Can we talk about this writing task? I don't know what to choose."
+    },
+    {
+      "id": "p02-c-14-s02",
+      "speaker": "Jonah",
+      "text": "It needs to be a true story about someone you know."
+    },
+    {
+      "id": "p02-c-14-s03",
+      "speaker": "Rina",
+      "text": "Could my grandmother's life be the topic?"
+    },
+    {
+      "id": "p02-c-14-s04",
+      "speaker": "Jonah",
+      "text": "That's a lot for one page. Choose one thing that happened to her."
+    },
+    {
+      "id": "p02-c-14-s05",
+      "speaker": "Rina",
+      "text": "I think her first day in this country would be interesting. She once took the wrong bus to work."
+    },
+    {
+      "id": "p02-c-14-s06",
+      "speaker": "Jonah",
+      "text": "Good. Ask her how she found her way, and let that be the centre of the story."
+    },
+    {
+      "id": "p02-c-14-s07",
+      "speaker": "Rina",
+      "text": "Then I'll use 'The Wrong Bus' as the title and interview her this weekend."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-253688524729df30",
+      "lemma": "story",
+      "pos": "n.",
+      "sense_zh": "故事；事件叙述",
+      "sentence_ids": [
+        "p02-c-14-s02"
+      ],
+      "forms": [
+        "story"
+      ],
+      "sense_id": "sense-staged-ox-253688524729df30-p02-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-722c6cbf01ab8d59",
+      "lemma": "title",
+      "pos": "n.",
+      "sense_zh": "文章标题",
+      "sentence_ids": [
+        "p02-c-14-s07"
+      ],
+      "forms": [
+        "title"
+      ],
+      "sense_id": "sense-staged-ox-722c6cbf01ab8d59-p02-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-434341fd40d714ec",
+      "lemma": "topic",
+      "pos": "n.",
+      "sense_zh": "话题；题材",
+      "sentence_ids": [
+        "p02-c-14-s03"
+      ],
+      "forms": [
+        "topic"
+      ],
+      "sense_id": "sense-staged-ox-434341fd40d714ec-p02-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80612331eccb9d42",
+      "lemma": "true",
+      "pos": "adj.",
+      "sense_zh": "真实的",
+      "sentence_ids": [
+        "p02-c-14-s02"
+      ],
+      "forms": [
+        "true"
+      ],
+      "sense_id": "sense-staged-ox-80612331eccb9d42-p02-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7f277084acb4f24a",
+      "lemma": "think",
+      "pos": "v.",
+      "sense_zh": "认为",
+      "sentence_ids": [
+        "p02-c-14-s05"
+      ],
+      "forms": [
+        "think"
+      ],
+      "sense_id": "sense-staged-ox-7f277084acb4f24a-p02-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0aa87a9fef26b0e8",
+      "lemma": "talk",
+      "pos": "v.",
+      "sense_zh": "谈论",
+      "sentence_ids": [
+        "p02-c-14-s01"
+      ],
+      "forms": [
+        "talk"
+      ],
+      "sense_id": "sense-staged-ox-0aa87a9fef26b0e8-p02-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00c48f11b847dfc8",
+      "lemma": "this",
+      "pos": "det.",
+      "sense_zh": "这；修饰眼前的事物",
+      "sentence_ids": [
+        "p02-c-14-s01"
+      ],
+      "forms": [
+        "this"
+      ],
+      "sense_id": "sense-staged-ox-00c48f11b847dfc8-p02-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b36592b9262a02e1",
+      "lemma": "thing",
+      "pos": "n.",
+      "sense_zh": "事情；事件",
+      "sentence_ids": [
+        "p02-c-14-s04"
+      ],
+      "forms": [
+        "thing"
+      ],
+      "sense_id": "sense-staged-ox-b36592b9262a02e1-p02-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
