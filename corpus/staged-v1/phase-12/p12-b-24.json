@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-24",
+  "title_zh": "为虚构和解文件准备咨询问题",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-settlement-review-questions",
+    "label_zh": "虚构和解草案的咨询问题整理",
+    "goal_zh": "指出单段文字不足以判断全部要求并约定向律师询问完整条款"
+  },
+  "participants": [
+    "Ruth",
+    "Max"
+  ],
+  "context_zh": "完全虚构的法律英语角色练习：Ruth 与 Max 准备一位模拟客户给律师的问题，不提供现实法律建议。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-24-s01",
+      "speaker": "Ruth",
+      "text": "Our fictional client wants to sue the supplier, but there’s a settlement draft in the exercise pack."
+    },
+    {
+      "id": "p12-b-24-s02",
+      "speaker": "Max",
+      "text": "Are we supposed to tell the client to sign it?"
+    },
+    {
+      "id": "p12-b-24-s03",
+      "speaker": "Ruth",
+      "text": "No. We’re preparing questions for the solicitor. This paragraph mentions payment, but the rest of the terms are missing."
+    },
+    {
+      "id": "p12-b-24-s04",
+      "speaker": "Max",
+      "text": "So we shouldn’t judge the whole offer solely on that paragraph."
+    },
+    {
+      "id": "p12-b-24-s05",
+      "speaker": "Ruth",
+      "text": "Exactly. Let’s ask what obligations the complete draft would place on each party."
+    },
+    {
+      "id": "p12-b-24-s06",
+      "speaker": "Max",
+      "text": "I’ll add that question and a request for the full document."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-afc220739ea0aa81",
+      "lemma": "sue",
+      "pos": "v.",
+      "sense_zh": "起诉",
+      "sentence_ids": [
+        "p12-b-24-s01"
+      ],
+      "forms": [
+        "sue"
+      ],
+      "sense_id": "sense-staged-ox-afc220739ea0aa81-p12-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-98b001a3a5ed0082",
+      "lemma": "settlement",
+      "pos": "n.",
+      "sense_zh": "争议和解",
+      "sentence_ids": [
+        "p12-b-24-s01"
+      ],
+      "forms": [
+        "settlement"
+      ],
+      "sense_id": "sense-staged-ox-98b001a3a5ed0082-p12-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73298813d4eea77c",
+      "lemma": "solicitor",
+      "pos": "n.",
+      "sense_zh": "律师",
+      "sentence_ids": [
+        "p12-b-24-s03"
+      ],
+      "forms": [
+        "solicitor"
+      ],
+      "sense_id": "sense-staged-ox-73298813d4eea77c-p12-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-07125858790e72f8",
+      "lemma": "solely",
+      "pos": "adv.",
+      "sense_zh": "仅仅地",
+      "sentence_ids": [
+        "p12-b-24-s04"
+      ],
+      "forms": [
+        "solely"
+      ],
+      "sense_id": "sense-staged-ox-07125858790e72f8-p12-b-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

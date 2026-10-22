@@ -1,0 +1,84 @@
+{
+  "id": "p12-b-43",
+  "title_zh": "明确志愿者工具入门的监督分工",
+  "topic_id": "work",
+  "scenario": {
+    "id": "volunteer-tool-orientation-supervision",
+    "label_zh": "新志愿者工具入门的监督安排",
+    "goal_zh": "确认入门活动需要直接监督并约定由指定负责人陪同"
+  },
+  "participants": [
+    "Leo",
+    "Asha"
+  ],
+  "context_zh": "社区工坊协调员 Leo 与有经验的工作人员 Asha 安排成年新志愿者的工具入门活动，不教授具体操作方法。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-43-s01",
+      "speaker": "Leo",
+      "text": "Who will supervise the new volunteers during the tool orientation?"
+    },
+    {
+      "id": "p12-b-43-s02",
+      "speaker": "Asha",
+      "text": "I can take that role, but I need to stay with the group rather than answer calls at the front desk."
+    },
+    {
+      "id": "p12-b-43-s03",
+      "speaker": "Leo",
+      "text": "Agreed. The workshop rules require direct supervision during this first session."
+    },
+    {
+      "id": "p12-b-43-s04",
+      "speaker": "Asha",
+      "text": "Then could you cover the desk while I lead the orientation?"
+    },
+    {
+      "id": "p12-b-43-s05",
+      "speaker": "Leo",
+      "text": "Yes. I’ll handle visitors and calls, and I won’t leave you responsible for both places."
+    },
+    {
+      "id": "p12-b-43-s06",
+      "speaker": "Asha",
+      "text": "That works. I’ll meet the volunteers at the workshop entrance."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7513b1672c35b8a6",
+      "lemma": "supervise",
+      "pos": "v.",
+      "sense_zh": "监督指导",
+      "sentence_ids": [
+        "p12-b-43-s01"
+      ],
+      "forms": [
+        "supervise"
+      ],
+      "sense_id": "sense-staged-ox-7513b1672c35b8a6-p12-b-43",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dbcf7e1bc8df1751",
+      "lemma": "supervision",
+      "pos": "n.",
+      "sense_zh": "监督",
+      "sentence_ids": [
+        "p12-b-43-s03"
+      ],
+      "forms": [
+        "supervision"
+      ],
+      "sense_id": "sense-staged-ox-dbcf7e1bc8df1751-p12-b-43",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

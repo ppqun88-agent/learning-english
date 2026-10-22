@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-16",
+  "title_zh": "核对虚构庭审笔记的说话人",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-trial-notes-speaker-attribution",
+    "label_zh": "为虚构庭审笔记区分检方与裁判观点",
+    "goal_zh": "区分检方主张与法庭裁定并约定在笔记中标注发言归属"
+  },
+  "participants": [
+    "Mina",
+    "Oscar"
+  ],
+  "context_zh": "法律英语课堂中，学生 Mina 与 Oscar 整理自编的虚构庭审记录，不涉及现实案件或法律建议。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-16-s01",
+      "speaker": "Mina",
+      "text": "In these proceedings, who says the witness changed her account?"
+    },
+    {
+      "id": "p12-a-16-s02",
+      "speaker": "Oscar",
+      "text": "The prosecutor says it during the questioning. The judge hasn't made a finding about it."
+    },
+    {
+      "id": "p12-a-16-s03",
+      "speaker": "Mina",
+      "text": "So I shouldn't write that the court rejected her evidence."
+    },
+    {
+      "id": "p12-a-16-s04",
+      "speaker": "Oscar",
+      "text": "Right. It's an argument from the prosecution at this point, not the court's conclusion."
+    },
+    {
+      "id": "p12-a-16-s05",
+      "speaker": "Mina",
+      "text": "I'll identify the speaker beside that line and remove the claim about a court decision."
+    },
+    {
+      "id": "p12-a-16-s06",
+      "speaker": "Oscar",
+      "text": "That will make the notes much clearer."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cac6444889335a46",
+      "lemma": "proceedings",
+      "pos": "n.",
+      "sense_zh": "正式诉讼程序；庭审过程",
+      "sentence_ids": [
+        "p12-a-16-s01"
+      ],
+      "forms": [
+        "proceedings"
+      ],
+      "sense_id": "sense-staged-ox-cac6444889335a46-p12-a-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e04df70c5c97b7d9",
+      "lemma": "prosecution",
+      "pos": "n.",
+      "sense_zh": "检方",
+      "sentence_ids": [
+        "p12-a-16-s04"
+      ],
+      "forms": [
+        "prosecution"
+      ],
+      "sense_id": "sense-staged-ox-e04df70c5c97b7d9-p12-a-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-138e90298552706c",
+      "lemma": "prosecutor",
+      "pos": "n.",
+      "sense_zh": "检察官；公诉人",
+      "sentence_ids": [
+        "p12-a-16-s02"
+      ],
+      "forms": [
+        "prosecutor"
+      ],
+      "sense_id": "sense-staged-ox-138e90298552706c-p12-a-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

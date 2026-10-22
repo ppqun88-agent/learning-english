@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-32",
+  "title_zh": "不把柱形图差距当成统计结论",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "unequal-sample-chart-caution",
+    "label_zh": "不等样本图表的结论边界",
+    "goal_zh": "说明图表与样本差异、约定修改标题和样本量标注并提出把底层数据带给教师的建议"
+  },
+  "participants": [
+    "Sofia",
+    "Ken"
+  ],
+  "context_zh": "研究方法课中，成人学员 Sofia 与 Ken 检查两组虚构练习成绩的图表。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-32-s01",
+      "speaker": "Sofia",
+      "text": "There’s a stark contrast between these bars. The blue group’s average is substantially higher."
+    },
+    {
+      "id": "p12-b-32-s02",
+      "speaker": "Ken",
+      "text": "Have we done any statistical analysis, or are we just looking at the picture?"
+    },
+    {
+      "id": "p12-b-32-s03",
+      "speaker": "Sofia",
+      "text": "Just the picture. Also, the blue group has eight people and the red group has eighty."
+    },
+    {
+      "id": "p12-b-32-s04",
+      "speaker": "Ken",
+      "text": "Then the headline “the new method works” goes beyond what we’ve checked."
+    },
+    {
+      "id": "p12-b-32-s05",
+      "speaker": "Sofia",
+      "text": "I’ll remove that headline and list the sample sizes beside the bars."
+    },
+    {
+      "id": "p12-b-32-s06",
+      "speaker": "Ken",
+      "text": "Good. Let’s take the underlying data to our tutor before drawing a statistical conclusion."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-435c1b177d5f853b",
+      "lemma": "stark",
+      "pos": "adj.",
+      "sense_zh": "鲜明强烈的",
+      "sentence_ids": [
+        "p12-b-32-s01"
+      ],
+      "forms": [
+        "stark"
+      ],
+      "sense_id": "sense-staged-ox-435c1b177d5f853b-p12-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5513f896ada9f256",
+      "lemma": "substantially",
+      "pos": "adv.",
+      "sense_zh": "大幅地",
+      "sentence_ids": [
+        "p12-b-32-s01"
+      ],
+      "forms": [
+        "substantially"
+      ],
+      "sense_id": "sense-staged-ox-5513f896ada9f256-p12-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea02e6a0fcfdca6b",
+      "lemma": "statistical",
+      "pos": "adj.",
+      "sense_zh": "统计的",
+      "sentence_ids": [
+        "p12-b-32-s02"
+      ],
+      "forms": [
+        "statistical"
+      ],
+      "sense_id": "sense-staged-ox-ea02e6a0fcfdca6b-p12-b-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

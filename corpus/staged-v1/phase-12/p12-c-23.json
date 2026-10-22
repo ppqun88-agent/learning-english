@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-23",
+  "title_zh": "限定课堂理论模型的有效性主张",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "model-variable-validity-limit",
+    "label_zh": "限定课堂理论模型的有效性主张",
+    "goal_zh": "识别模型未测试且遗漏一个变量并约定将有效性结论改写为待检验的预测"
+  },
+  "participants": [
+    "Hugo",
+    "Mei"
+  ],
+  "context_zh": "研究方法课使用完全假设的纸上模型，学生讨论报告的证据限制，而非提供现实工程结论。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-23-s01",
+      "speaker": "Hugo",
+      "text": "Can our conclusion say the model's validity has been established?"
+    },
+    {
+      "id": "p12-c-23-s02",
+      "speaker": "Mei",
+      "text": "No. This is still a theoretical model; we haven't tested it."
+    },
+    {
+      "id": "p12-c-23-s03",
+      "speaker": "Hugo",
+      "text": "And temperature is a variable we haven't included at all."
+    },
+    {
+      "id": "p12-c-23-s04",
+      "speaker": "Mei",
+      "text": "Then we should describe the result as a prediction to check, not a confirmed finding."
+    },
+    {
+      "id": "p12-c-23-s05",
+      "speaker": "Hugo",
+      "text": "I'll rewrite that sentence and list the missing variable in the limitations."
+    },
+    {
+      "id": "p12-c-23-s06",
+      "speaker": "Mei",
+      "text": "Yes. The proposed test can stay in the next-steps section."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6dd857a2f20a3e7c",
+      "lemma": "theoretical",
+      "pos": "adj.",
+      "sense_zh": "理论上的",
+      "sentence_ids": [
+        "p12-c-23-s02"
+      ],
+      "forms": [
+        "theoretical"
+      ],
+      "sense_id": "sense-staged-ox-6dd857a2f20a3e7c-p12-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c2d9db16d27548b2",
+      "lemma": "variable",
+      "pos": "n.",
+      "sense_zh": "变量",
+      "sentence_ids": [
+        "p12-c-23-s03"
+      ],
+      "forms": [
+        "variable"
+      ],
+      "sense_id": "sense-staged-ox-c2d9db16d27548b2-p12-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac8375a473458234",
+      "lemma": "validity",
+      "pos": "n.",
+      "sense_zh": "有效性",
+      "sentence_ids": [
+        "p12-c-23-s01"
+      ],
+      "forms": [
+        "validity"
+      ],
+      "sense_id": "sense-staged-ox-ac8375a473458234-p12-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

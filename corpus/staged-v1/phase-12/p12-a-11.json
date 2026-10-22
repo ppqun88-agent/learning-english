@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-11",
+  "title_zh": "从落选反馈判断项目契合度",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fellowship-feedback-project-fit",
+    "label_zh": "从落选反馈判断申请项目契合度",
+    "goal_zh": "区分计划声誉与申请契合度并决定先修改项目说明"
+  },
+  "participants": [
+    "Eva",
+    "Miles"
+  ],
+  "context_zh": "写作学员 Eva 与导师 Miles 阅读虚构的研究资助落选反馈，不涉及真实申请或个人评估。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-11-s01",
+      "speaker": "Eva",
+      "text": "I thought a prestigious fellowship would be ideal, so this rejection really surprised me."
+    },
+    {
+      "id": "p12-a-11-s02",
+      "speaker": "Miles",
+      "text": "The feedback questions the relevance of your project to this year's theme. It doesn't say the writing is poor."
+    },
+    {
+      "id": "p12-a-11-s03",
+      "speaker": "Eva",
+      "text": "But the programme is run by a renowned historian whose work I love."
+    },
+    {
+      "id": "p12-a-11-s04",
+      "speaker": "Miles",
+      "text": "That explains your interest, but not how your project fits their theme."
+    },
+    {
+      "id": "p12-a-11-s05",
+      "speaker": "Eva",
+      "text": "You're right. I'll revise the project description before looking for another call."
+    },
+    {
+      "id": "p12-a-11-s06",
+      "speaker": "Miles",
+      "text": "Start with the question you want to answer. Then we can compare it with each programme's focus."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e5b767086e6b79e6",
+      "lemma": "prestigious",
+      "pos": "adj.",
+      "sense_zh": "有声望的",
+      "sentence_ids": [
+        "p12-a-11-s01"
+      ],
+      "forms": [
+        "prestigious"
+      ],
+      "sense_id": "sense-staged-ox-e5b767086e6b79e6-p12-a-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f045ad006aa9fa87",
+      "lemma": "renowned",
+      "pos": "adj.",
+      "sense_zh": "著名的",
+      "sentence_ids": [
+        "p12-a-11-s03"
+      ],
+      "forms": [
+        "renowned"
+      ],
+      "sense_id": "sense-staged-ox-f045ad006aa9fa87-p12-a-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d35bdd04d412526",
+      "lemma": "rejection",
+      "pos": "n.",
+      "sense_zh": "拒绝；未获接受",
+      "sentence_ids": [
+        "p12-a-11-s01"
+      ],
+      "forms": [
+        "rejection"
+      ],
+      "sense_id": "sense-staged-ox-5d35bdd04d412526-p12-a-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9927eadf3053b3e",
+      "lemma": "relevance",
+      "pos": "n.",
+      "sense_zh": "相关性；切合程度",
+      "sentence_ids": [
+        "p12-a-11-s02"
+      ],
+      "forms": [
+        "relevance"
+      ],
+      "sense_id": "sense-staged-ox-b9927eadf3053b3e-p12-a-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

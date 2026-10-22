@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-17",
+  "title_zh": "先用布条测试缩水",
+  "topic_id": "home",
+  "scenario": {
+    "id": "fabric-scrap-shrink-test",
+    "label_zh": "缝纫用布料的局部试验",
+    "goal_zh": "选择小布条进行浸泡测试并约定记录尺寸与松线情况"
+  },
+  "participants": [
+    "Bea",
+    "Lin"
+  ],
+  "context_zh": "家中缝纫爱好者 Bea 与 Lin 计划在裁剪前测试一小块布，依据布料所附的试验说明操作。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-17-s01",
+      "speaker": "Bea",
+      "text": "Before I cut the whole piece, I want to find out whether it will shrink."
+    },
+    {
+      "id": "p12-b-17-s02",
+      "speaker": "Lin",
+      "text": "Use this narrow strip from the edge. We can measure it first."
+    },
+    {
+      "id": "p12-b-17-s03",
+      "speaker": "Bea",
+      "text": "The test note says to soak the sample, then let it dry before measuring again."
+    },
+    {
+      "id": "p12-b-17-s04",
+      "speaker": "Lin",
+      "text": "There’s a loose strand along this edge already. Let’s record that too, so we don’t blame the test for it."
+    },
+    {
+      "id": "p12-b-17-s05",
+      "speaker": "Bea",
+      "text": "Good idea. I’ll write down the size and mark the loose thread in the photo."
+    },
+    {
+      "id": "p12-b-17-s06",
+      "speaker": "Lin",
+      "text": "Then we’ll follow the note on just this sample, not the whole piece."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5e3016e693f18fd7",
+      "lemma": "shrink",
+      "pos": "v.",
+      "sense_zh": "缩水",
+      "sentence_ids": [
+        "p12-b-17-s01"
+      ],
+      "forms": [
+        "shrink"
+      ],
+      "sense_id": "sense-staged-ox-5e3016e693f18fd7-p12-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dea5ea72e73d339c",
+      "lemma": "strip",
+      "pos": "n.",
+      "sense_zh": "窄条",
+      "sentence_ids": [
+        "p12-b-17-s02"
+      ],
+      "forms": [
+        "strip"
+      ],
+      "sense_id": "sense-staged-ox-dea5ea72e73d339c-p12-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-edbf483012a4209c",
+      "lemma": "soak",
+      "pos": "v.",
+      "sense_zh": "浸泡",
+      "sentence_ids": [
+        "p12-b-17-s03"
+      ],
+      "forms": [
+        "soak"
+      ],
+      "sense_id": "sense-staged-ox-edbf483012a4209c-p12-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2585c750a0c96b5a",
+      "lemma": "strand",
+      "pos": "n.",
+      "sense_zh": "一股线或纤维",
+      "sentence_ids": [
+        "p12-b-17-s04"
+      ],
+      "forms": [
+        "strand"
+      ],
+      "sense_id": "sense-staged-ox-2585c750a0c96b5a-p12-b-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

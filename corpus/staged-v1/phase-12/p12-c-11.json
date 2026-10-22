@@ -1,0 +1,116 @@
+{
+  "id": "p12-c-11",
+  "title_zh": "安排慈善机构理事交接说明",
+  "topic_id": "work",
+  "scenario": {
+    "id": "charity-trustee-handover-notes",
+    "label_zh": "安排慈善机构理事交接说明",
+    "goal_zh": "说明理事任期与记录背景并约定交接记录并补上人员变动说明"
+  },
+  "participants": [
+    "Helen",
+    "Mo"
+  ],
+  "context_zh": "虚构慈善机构内部交接练习。Helen 即将结束理事任期，Mo 将接手她保管的会议记录。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-11-s01",
+      "speaker": "Helen",
+      "text": "My tenure as a trustee ends next month, so we should go through the records before then."
+    },
+    {
+      "id": "p12-c-11-s02",
+      "speaker": "Mo",
+      "text": "Have you kept them throughout your time on the board?"
+    },
+    {
+      "id": "p12-c-11-s03",
+      "speaker": "Helen",
+      "text": "Not quite. I helped with events in my first year; thereafter, I took responsibility for the meeting notes."
+    },
+    {
+      "id": "p12-c-11-s04",
+      "speaker": "Mo",
+      "text": "With all the staff turnover last winter, a few names in those notes are unfamiliar to me."
+    },
+    {
+      "id": "p12-c-11-s05",
+      "speaker": "Helen",
+      "text": "I'll add a short list of who held each role, then we can go through the decisions together."
+    },
+    {
+      "id": "p12-c-11-s06",
+      "speaker": "Mo",
+      "text": "That would be useful. Let's do the handover before the next board meeting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2d06f90162df5a28",
+      "lemma": "trustee",
+      "pos": "n.",
+      "sense_zh": "理事、受托管理人",
+      "sentence_ids": [
+        "p12-c-11-s01"
+      ],
+      "forms": [
+        "trustee"
+      ],
+      "sense_id": "sense-staged-ox-2d06f90162df5a28-p12-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-467e7138f9ec68be",
+      "lemma": "tenure",
+      "pos": "n.",
+      "sense_zh": "任期",
+      "sentence_ids": [
+        "p12-c-11-s01"
+      ],
+      "forms": [
+        "tenure"
+      ],
+      "sense_id": "sense-staged-ox-467e7138f9ec68be-p12-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cbbe7a2d9dc97253",
+      "lemma": "turnover",
+      "pos": "n.",
+      "sense_zh": "人员流动",
+      "sentence_ids": [
+        "p12-c-11-s04"
+      ],
+      "forms": [
+        "turnover"
+      ],
+      "sense_id": "sense-staged-ox-cbbe7a2d9dc97253-p12-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d51db76cbfa4258f",
+      "lemma": "thereafter",
+      "pos": "adv.",
+      "sense_zh": "此后",
+      "sentence_ids": [
+        "p12-c-11-s03"
+      ],
+      "forms": [
+        "thereafter"
+      ],
+      "sense_id": "sense-staged-ox-d51db76cbfa4258f-p12-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

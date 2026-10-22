@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-13",
+  "title_zh": "核对场地选择论证的前提",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "argument-premise-access-check",
+    "label_zh": "核对场地论证前提并要求以证据作判断",
+    "goal_zh": "指出场地推荐依赖的前提并约定核实无障碍通道后再决定"
+  },
+  "participants": [
+    "Iris",
+    "Ken"
+  ],
+  "context_zh": "两名研究小组成员 Iris 与 Ken 讨论为公开讲座选择场地的论证。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-13-s01",
+      "speaker": "Iris",
+      "text": "Your recommendation rests on the premise that everyone can reach the upstairs room."
+    },
+    {
+      "id": "p12-a-13-s02",
+      "speaker": "Ken",
+      "text": "Yes. It's closer to the station, so I thought that made it the rational choice."
+    },
+    {
+      "id": "p12-a-13-s03",
+      "speaker": "Iris",
+      "text": "The reasoning leaves out the lift. We don't know whether it will be available that evening."
+    },
+    {
+      "id": "p12-a-13-s04",
+      "speaker": "Ken",
+      "text": "Fair point. I'd rather let the evidence prevail than defend my first choice."
+    },
+    {
+      "id": "p12-a-13-s05",
+      "speaker": "Iris",
+      "text": "Let's check the accessible route before we compare the rooms again."
+    },
+    {
+      "id": "p12-a-13-s06",
+      "speaker": "Ken",
+      "text": "Agreed. I'll ask the building manager, and we can leave the decision open."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-075d324f7f8df025",
+      "lemma": "premise",
+      "pos": "n.",
+      "sense_zh": "论证所依赖的前提",
+      "sentence_ids": [
+        "p12-a-13-s01"
+      ],
+      "forms": [
+        "premise"
+      ],
+      "sense_id": "sense-staged-ox-075d324f7f8df025-p12-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce57b5456dc39107",
+      "lemma": "reasoning",
+      "pos": "n.",
+      "sense_zh": "推理过程",
+      "sentence_ids": [
+        "p12-a-13-s03"
+      ],
+      "forms": [
+        "reasoning"
+      ],
+      "sense_id": "sense-staged-ox-ce57b5456dc39107-p12-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-86de0d58ac6e7a2f",
+      "lemma": "rational",
+      "pos": "adj.",
+      "sense_zh": "合乎理性的",
+      "sentence_ids": [
+        "p12-a-13-s02"
+      ],
+      "forms": [
+        "rational"
+      ],
+      "sense_id": "sense-staged-ox-86de0d58ac6e7a2f-p12-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-477a2c99f0fd46c5",
+      "lemma": "prevail",
+      "pos": "v.",
+      "sense_zh": "占上风；成为决定性因素",
+      "sentence_ids": [
+        "p12-a-13-s04"
+      ],
+      "forms": [
+        "prevail"
+      ],
+      "sense_id": "sense-staged-ox-477a2c99f0fd46c5-p12-a-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p12-a-21",
+  "title_zh": "核对虚构咖啡馆预测的顾客假设",
+  "topic_id": "work",
+  "scenario": {
+    "id": "fictional-cafe-projection-customer-interest",
+    "label_zh": "核对虚构咖啡馆预测与潜在顾客兴趣的区别",
+    "goal_zh": "识别盈利预测依赖的订单假设并约定把潜在兴趣与实际购买分开"
+  },
+  "participants": [
+    "Dana",
+    "Reza"
+  ],
+  "context_zh": "商业英语课堂使用虚构咖啡馆计划，学生 Dana 与 Reza 只讨论练习材料的证据，不提供投资建议。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-21-s01",
+      "speaker": "Dana",
+      "text": "Our projection shows the café becoming profitable in the third month."
+    },
+    {
+      "id": "p12-a-21-s02",
+      "speaker": "Reza",
+      "text": "What number of daily orders does that assume?"
+    },
+    {
+      "id": "p12-a-21-s03",
+      "speaker": "Dana",
+      "text": "Forty. We spoke to twelve prospective customers who said they liked the idea."
+    },
+    {
+      "id": "p12-a-21-s04",
+      "speaker": "Reza",
+      "text": "Interest isn't the same as a purchase, and twelve conversations don't establish forty orders a day."
+    },
+    {
+      "id": "p12-a-21-s05",
+      "speaker": "Dana",
+      "text": "Then the sales assumption needs to be much more visible."
+    },
+    {
+      "id": "p12-a-21-s06",
+      "speaker": "Reza",
+      "text": "Yes. Show it as an assumption, and keep those interview comments separate from actual sales."
+    },
+    {
+      "id": "p12-a-21-s07",
+      "speaker": "Dana",
+      "text": "I'll revise the slide that way rather than presenting profit as certain."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7d924671bd291730",
+      "lemma": "profitable",
+      "pos": "adj.",
+      "sense_zh": "盈利的",
+      "sentence_ids": [
+        "p12-a-21-s01"
+      ],
+      "forms": [
+        "profitable"
+      ],
+      "sense_id": "sense-staged-ox-7d924671bd291730-p12-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-36e4ea2edac76567",
+      "lemma": "projection",
+      "pos": "n.",
+      "sense_zh": "预测；推算",
+      "sentence_ids": [
+        "p12-a-21-s01"
+      ],
+      "forms": [
+        "projection"
+      ],
+      "sense_id": "sense-staged-ox-36e4ea2edac76567-p12-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5aa8464557ee8110",
+      "lemma": "prospective",
+      "pos": "adj.",
+      "sense_zh": "潜在的；可能成为的",
+      "sentence_ids": [
+        "p12-a-21-s03"
+      ],
+      "forms": [
+        "prospective"
+      ],
+      "sense_id": "sense-staged-ox-5aa8464557ee8110-p12-a-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

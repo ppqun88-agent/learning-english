@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-02",
+  "title_zh": "先了解精神科首次会谈的范围",
+  "topic_id": "health",
+  "scenario": {
+    "id": "psychiatric-intake-first-visit-boundary",
+    "label_zh": "澄清首次精神科接待不要求立即讲述全部经历",
+    "goal_zh": "说明首次会谈的顾虑并决定先阅读本诊所的接待说明"
+  },
+  "participants": [
+    "Eli",
+    "Farah"
+  ],
+  "context_zh": "虚构诊所信息咨询练习。Eli 向接待员 Farah 询问首次精神科会谈的安排，不涉及诊断或治疗建议。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-02-s01",
+      "speaker": "Eli",
+      "text": "I'm reluctant to book a psychiatric appointment because I don't want to explain my whole life at once."
+    },
+    {
+      "id": "p12-a-02-s02",
+      "speaker": "Farah",
+      "text": "Let me reassure you about our first meeting: it can start with what you want help with now."
+    },
+    {
+      "id": "p12-a-02-s03",
+      "speaker": "Eli",
+      "text": "Could I read something about the process before deciding?"
+    },
+    {
+      "id": "p12-a-02-s04",
+      "speaker": "Farah",
+      "text": "Certainly. Our introduction describes the first meeting and the questions you can ask."
+    },
+    {
+      "id": "p12-a-02-s05",
+      "speaker": "Eli",
+      "text": "Please send that. I'd rather read it before choosing a date."
+    },
+    {
+      "id": "p12-a-02-s06",
+      "speaker": "Farah",
+      "text": "I'll email it to you. You don't need to book during this call."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fadb2ce760460ec9",
+      "lemma": "psychiatric",
+      "pos": "adj.",
+      "sense_zh": "精神科的",
+      "sentence_ids": [
+        "p12-a-02-s01"
+      ],
+      "forms": [
+        "psychiatric"
+      ],
+      "sense_id": "sense-staged-ox-fadb2ce760460ec9-p12-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0244a76d00c649ed",
+      "lemma": "reluctant",
+      "pos": "adj.",
+      "sense_zh": "不情愿的；犹豫的",
+      "sentence_ids": [
+        "p12-a-02-s01"
+      ],
+      "forms": [
+        "reluctant"
+      ],
+      "sense_id": "sense-staged-ox-0244a76d00c649ed-p12-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12c6a56cee465c93",
+      "lemma": "reassure",
+      "pos": "v.",
+      "sense_zh": "使放心；消除顾虑",
+      "sentence_ids": [
+        "p12-a-02-s02"
+      ],
+      "forms": [
+        "reassure"
+      ],
+      "sense_id": "sense-staged-ox-12c6a56cee465c93-p12-a-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

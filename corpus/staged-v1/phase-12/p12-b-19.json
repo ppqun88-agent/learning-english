@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-19",
+  "title_zh": "把舞台打斗效果与真实接触分开",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "stage-fight-effects-not-contact",
+    "label_zh": "戏剧分镜的非接触打斗设计",
+    "goal_zh": "核对剧本中的打斗动作并约定交由动作指导设计安全替代表现"
+  },
+  "participants": [
+    "Jules",
+    "Ren"
+  ],
+  "context_zh": "成年戏剧学生 Jules 与 Ren 讨论虚构故事分镜，只商量由专业动作指导安排无真实接触的表演，不提供实施伤害的技巧。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-19-s01",
+      "speaker": "Jules",
+      "text": "The script has the guard slap the prisoner, and then the villain tries to stab the guard."
+    },
+    {
+      "id": "p12-b-19-s02",
+      "speaker": "Ren",
+      "text": "We’re not making real contact for either action. The fight director needs to design how those moments are shown."
+    },
+    {
+      "id": "p12-b-19-s03",
+      "speaker": "Jules",
+      "text": "There’s also a line saying the guard should smash a window while escaping."
+    },
+    {
+      "id": "p12-b-19-s04",
+      "speaker": "Ren",
+      "text": "That can be a sound and a reaction. We don’t need anyone breaking glass on stage."
+    },
+    {
+      "id": "p12-b-19-s05",
+      "speaker": "Jules",
+      "text": "I’ll mark all three moments as effects to discuss, rather than actions to practise ourselves."
+    },
+    {
+      "id": "p12-b-19-s06",
+      "speaker": "Ren",
+      "text": "Good. Let’s wait for the fight director before rehearsing that sequence."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fc0fb9c43b357794",
+      "lemma": "slap",
+      "pos": "v.",
+      "sense_zh": "用手掌打",
+      "sentence_ids": [
+        "p12-b-19-s01"
+      ],
+      "forms": [
+        "slap"
+      ],
+      "sense_id": "sense-staged-ox-fc0fb9c43b357794-p12-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3dc47ce1337e2d6e",
+      "lemma": "stab",
+      "pos": "v.",
+      "sense_zh": "刺或捅",
+      "sentence_ids": [
+        "p12-b-19-s01"
+      ],
+      "forms": [
+        "stab"
+      ],
+      "sense_id": "sense-staged-ox-3dc47ce1337e2d6e-p12-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ec841d66ecd7108",
+      "lemma": "smash",
+      "pos": "v.",
+      "sense_zh": "打碎",
+      "sentence_ids": [
+        "p12-b-19-s03"
+      ],
+      "forms": [
+        "smash"
+      ],
+      "sense_id": "sense-staged-ox-3ec841d66ecd7108-p12-b-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

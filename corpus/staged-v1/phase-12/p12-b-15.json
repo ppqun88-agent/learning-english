@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-15",
+  "title_zh": "按虚构案例描述持股而不推断控制权",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-shareholder-case-summary",
+    "label_zh": "虚构股东案例的证据摘要",
+    "goal_zh": "说明持股比例与投资目的并保留未提供的表决规则"
+  },
+  "participants": [
+    "Iris",
+    "Adam"
+  ],
+  "context_zh": "商科英语课堂中的完全虚构案例讨论：Iris 与 Adam 只概括案例，不提供投资建议。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-15-s01",
+      "speaker": "Iris",
+      "text": "Our case says Mara is a shareholder with a forty percent stake in the company."
+    },
+    {
+      "id": "p12-b-15-s02",
+      "speaker": "Adam",
+      "text": "That’s substantial. Should we describe her as controlling the company?"
+    },
+    {
+      "id": "p12-b-15-s03",
+      "speaker": "Iris",
+      "text": "Not from that figure alone. The case doesn’t give us the voting rules."
+    },
+    {
+      "id": "p12-b-15-s04",
+      "speaker": "Adam",
+      "text": "It does say the purchase was a strategic decision to gain access to a design partnership."
+    },
+    {
+      "id": "p12-b-15-s05",
+      "speaker": "Iris",
+      "text": "Yes, that purpose is stated. We can include it without guessing who controls every vote."
+    },
+    {
+      "id": "p12-b-15-s06",
+      "speaker": "Adam",
+      "text": "I’ll separate the ownership figure, the stated purpose, and the missing voting information."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-103b95218b337c9a",
+      "lemma": "shareholder",
+      "pos": "n.",
+      "sense_zh": "股东",
+      "sentence_ids": [
+        "p12-b-15-s01"
+      ],
+      "forms": [
+        "shareholder"
+      ],
+      "sense_id": "sense-staged-ox-103b95218b337c9a-p12-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac12b9cecff098d6",
+      "lemma": "stake",
+      "pos": "n.",
+      "sense_zh": "持有的公司股份",
+      "sentence_ids": [
+        "p12-b-15-s01"
+      ],
+      "forms": [
+        "stake"
+      ],
+      "sense_id": "sense-staged-ox-ac12b9cecff098d6-p12-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9a56802069e4f03a",
+      "lemma": "substantial",
+      "pos": "adj.",
+      "sense_zh": "相当大的",
+      "sentence_ids": [
+        "p12-b-15-s02"
+      ],
+      "forms": [
+        "substantial"
+      ],
+      "sense_id": "sense-staged-ox-9a56802069e4f03a-p12-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9a4e8de27dc41ede",
+      "lemma": "strategic",
+      "pos": "adj.",
+      "sense_zh": "出于长远规划的",
+      "sentence_ids": [
+        "p12-b-15-s04"
+      ],
+      "forms": [
+        "strategic"
+      ],
+      "sense_id": "sense-staged-ox-9a4e8de27dc41ede-p12-b-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

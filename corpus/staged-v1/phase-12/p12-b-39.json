@@ -1,0 +1,63 @@
+{
+  "id": "p12-b-39",
+  "title_zh": "为读书活动加入内容提示和退出选择",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "book-event-sensitive-content-note",
+    "label_zh": "敏感主题读书活动的参加边界",
+    "goal_zh": "明确作品涉及自杀主题并约定提前提示和允许跳过讨论"
+  },
+  "participants": [
+    "Nina",
+    "Sol"
+  ],
+  "context_zh": "完全虚构的成人读书活动策划对话：组织者 Nina 与 Sol 安排一本涉及自杀主题的小说讨论，不涉及任何现实个人危机或方法细节。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-39-s01",
+      "speaker": "Nina",
+      "text": "The novel deals with suicide. We should say that clearly in the event description, rather than surprise people on the evening."
+    },
+    {
+      "id": "p12-b-39-s02",
+      "speaker": "Sol",
+      "text": "Agreed. Participation in that part of the discussion should be optional."
+    },
+    {
+      "id": "p12-b-39-s03",
+      "speaker": "Nina",
+      "text": "And no one should be asked to share a personal experience. We’re discussing a book, not inviting public disclosures."
+    },
+    {
+      "id": "p12-b-39-s04",
+      "speaker": "Sol",
+      "text": "I’ll add the content note and say that people may step out or skip the discussion without explaining why."
+    },
+    {
+      "id": "p12-b-39-s05",
+      "speaker": "Nina",
+      "text": "Thank you. Let’s have the facilitator read that wording before we publish it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9b8277f0ee70665f",
+      "lemma": "suicide",
+      "pos": "n.",
+      "sense_zh": "自杀这一主题",
+      "sentence_ids": [
+        "p12-b-39-s01"
+      ],
+      "forms": [
+        "suicide"
+      ],
+      "sense_id": "sense-staged-ox-9b8277f0ee70665f-p12-b-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

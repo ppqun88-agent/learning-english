@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-37",
+  "title_zh": "记录演示应用的隐私问题并暂停演示",
+  "topic_id": "work",
+  "scenario": {
+    "id": "demo-app-privacy-issue-report",
+    "label_zh": "记录演示应用的隐私问题并暂停演示",
+    "goal_zh": "说明测试页面暴露其他虚构账户备注的问题并约定记录违反规则的表现并暂停演示"
+  },
+  "participants": [
+    "Rena",
+    "Dev"
+  ],
+  "context_zh": "虚构软件测试沟通，仅使用人工编造的演示账户和备注。没有真实个人数据，也不描述漏洞利用方法。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-37-s01",
+      "speaker": "Rena",
+      "text": "I found a vulnerability in the demo: one test account can see another test account's notes."
+    },
+    {
+      "id": "p12-c-37-s02",
+      "speaker": "Dev",
+      "text": "Are any real customer records involved?"
+    },
+    {
+      "id": "p12-c-37-s03",
+      "speaker": "Rena",
+      "text": "No, these are all invented samples. Even so, letting one account read another account's notes does violate our rule about keeping them separate."
+    },
+    {
+      "id": "p12-c-37-s04",
+      "speaker": "Dev",
+      "text": "Then record the violation clearly and pause the demonstration."
+    },
+    {
+      "id": "p12-c-37-s05",
+      "speaker": "Rena",
+      "text": "I'll send the maintainers the test report without copying any notes into the public issue."
+    },
+    {
+      "id": "p12-c-37-s06",
+      "speaker": "Dev",
+      "text": "Good. We shouldn't resume the demo until they've checked the fix."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-66f3599a960aa67d",
+      "lemma": "vulnerability",
+      "pos": "n.",
+      "sense_zh": "安全漏洞",
+      "sentence_ids": [
+        "p12-c-37-s01"
+      ],
+      "forms": [
+        "vulnerability"
+      ],
+      "sense_id": "sense-staged-ox-66f3599a960aa67d-p12-c-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d75301ab340a2a67",
+      "lemma": "violate",
+      "pos": "v.",
+      "sense_zh": "违反",
+      "sentence_ids": [
+        "p12-c-37-s03"
+      ],
+      "forms": [
+        "violate"
+      ],
+      "sense_id": "sense-staged-ox-d75301ab340a2a67-p12-c-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4404f65da30b378f",
+      "lemma": "violation",
+      "pos": "n.",
+      "sense_zh": "违规行为",
+      "sentence_ids": [
+        "p12-c-37-s04"
+      ],
+      "forms": [
+        "violation"
+      ],
+      "sense_id": "sense-staged-ox-4404f65da30b378f-p12-c-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

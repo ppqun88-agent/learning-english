@@ -1,0 +1,84 @@
+{
+  "id": "p12-a-17",
+  "title_zh": "纠正模拟民事程序中的起诉措辞",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "mock-civil-proceeding-criminal-boundary",
+    "label_zh": "纠正模拟民事程序不涉及刑事起诉的混淆",
+    "goal_zh": "核对课堂程序的争议类型并将角色台词改为请求付款"
+  },
+  "participants": [
+    "Jules",
+    "Rina"
+  ],
+  "context_zh": "法律英语角色扮演使用虚构的未付货款争议；程序类型仅依据本练习的明确设定。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-17-s01",
+      "speaker": "Jules",
+      "text": "My character says, 'We want to prosecute the shop owner.' Does that fit the exercise?"
+    },
+    {
+      "id": "p12-a-17-s02",
+      "speaker": "Rina",
+      "text": "No. Our worksheet describes a civil proceeding about an unpaid invoice, not a criminal case."
+    },
+    {
+      "id": "p12-a-17-s03",
+      "speaker": "Jules",
+      "text": "Then that line gives the dispute the wrong purpose."
+    },
+    {
+      "id": "p12-a-17-s04",
+      "speaker": "Rina",
+      "text": "Exactly. Your character is asking the court to order payment in this exercise."
+    },
+    {
+      "id": "p12-a-17-s05",
+      "speaker": "Jules",
+      "text": "I'll say, 'We are asking for payment of the outstanding invoice.'"
+    },
+    {
+      "id": "p12-a-17-s06",
+      "speaker": "Rina",
+      "text": "That fits the facts we've been given. Let's use it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f48df1c914627e52",
+      "lemma": "proceeding",
+      "pos": "n.",
+      "sense_zh": "一项诉讼程序",
+      "sentence_ids": [
+        "p12-a-17-s02"
+      ],
+      "forms": [
+        "proceeding"
+      ],
+      "sense_id": "sense-staged-ox-f48df1c914627e52-p12-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c8f81ef8c95a105c",
+      "lemma": "prosecute",
+      "pos": "v.",
+      "sense_zh": "对某人提起刑事诉讼",
+      "sentence_ids": [
+        "p12-a-17-s01"
+      ],
+      "forms": [
+        "prosecute"
+      ],
+      "sense_id": "sense-staged-ox-c8f81ef8c95a105c-p12-a-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,79 @@
+{
+  "id": "p12-a-42",
+  "title_zh": "选择不参加阅读活动的晨间仪式",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "reading-retreat-optional-morning-ritual",
+    "label_zh": "询问阅读静修活动并选择不参加晨间仪式",
+    "goal_zh": "了解晨间集体活动内容并确认可以选择独处阅读"
+  },
+  "participants": [
+    "Mira",
+    "Alan"
+  ],
+  "context_zh": "访客 Mira 向组织者 Alan 询问一个阅读静修周末的自愿活动安排。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-42-s01",
+      "speaker": "Mira",
+      "text": "The retreat programme mentions a morning ritual. What does that involve?"
+    },
+    {
+      "id": "p12-a-42-s02",
+      "speaker": "Alan",
+      "text": "We meet in the garden, listen to a short poem, and sit quietly for a few minutes."
+    },
+    {
+      "id": "p12-a-42-s03",
+      "speaker": "Mira",
+      "text": "I'd rather read on my own before breakfast. Would that be a problem?"
+    },
+    {
+      "id": "p12-a-42-s04",
+      "speaker": "Alan",
+      "text": "Not at all. The gathering is optional, and the lounge will be open."
+    },
+    {
+      "id": "p12-a-42-s05",
+      "speaker": "Mira",
+      "text": "Then I'll use the lounge in the morning and join the afternoon discussion."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5929b85619fd202b",
+      "lemma": "retreat",
+      "pos": "n.",
+      "sense_zh": "远离日常事务的静修或休养活动",
+      "sentence_ids": [
+        "p12-a-42-s01"
+      ],
+      "forms": [
+        "retreat"
+      ],
+      "sense_id": "sense-staged-ox-5929b85619fd202b-p12-a-42",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb23edf93464901d",
+      "lemma": "ritual",
+      "pos": "n.",
+      "sense_zh": "按惯例举行的仪式或活动",
+      "sentence_ids": [
+        "p12-a-42-s01"
+      ],
+      "forms": [
+        "ritual"
+      ],
+      "sense_id": "sense-staged-ox-cb23edf93464901d-p12-a-42",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

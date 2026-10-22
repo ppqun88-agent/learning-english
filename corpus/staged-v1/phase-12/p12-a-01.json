@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-01",
+  "title_zh": "请求核对孕期处方",
+  "topic_id": "health",
+  "scenario": {
+    "id": "pregnancy-prescription-review-request",
+    "label_zh": "孕期处方疑问转交专业人员",
+    "goal_zh": "说明孕期用药疑问并约定把当前处方交给医生核对"
+  },
+  "participants": [
+    "Nina",
+    "Owen"
+  ],
+  "context_zh": "虚构的诊所沟通练习；Nina 向接待员 Owen 询问如何转交问题，未提供用药建议。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-01-s01",
+      "speaker": "Nina",
+      "text": "I'm calling because I have a question about my prescription during pregnancy."
+    },
+    {
+      "id": "p12-a-01-s02",
+      "speaker": "Owen",
+      "text": "Would you like me to send a message to the doctor who issued it?"
+    },
+    {
+      "id": "p12-a-01-s03",
+      "speaker": "Nina",
+      "text": "Yes. Will the doctor prescribe something different, or do we need to discuss the current medicine first?"
+    },
+    {
+      "id": "p12-a-01-s04",
+      "speaker": "Owen",
+      "text": "I can't answer that, but I can pass on the question and a copy of the prescription."
+    },
+    {
+      "id": "p12-a-01-s05",
+      "speaker": "Nina",
+      "text": "I'll send the copy through the clinic portal. Please ask the doctor to review it."
+    },
+    {
+      "id": "p12-a-01-s06",
+      "speaker": "Owen",
+      "text": "I will. This is a request for a review, not a change to your medicine."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-555d419ed0540d87",
+      "lemma": "pregnancy",
+      "pos": "n.",
+      "sense_zh": "怀孕；孕期",
+      "sentence_ids": [
+        "p12-a-01-s01"
+      ],
+      "forms": [
+        "pregnancy"
+      ],
+      "sense_id": "sense-staged-ox-555d419ed0540d87-p12-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c81204218d58f009",
+      "lemma": "prescribe",
+      "pos": "v.",
+      "sense_zh": "开具药物处方",
+      "sentence_ids": [
+        "p12-a-01-s03"
+      ],
+      "forms": [
+        "prescribe"
+      ],
+      "sense_id": "sense-staged-ox-c81204218d58f009-p12-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c55fa527774bab8d",
+      "lemma": "prescription",
+      "pos": "n.",
+      "sense_zh": "医生开具的处方",
+      "sentence_ids": [
+        "p12-a-01-s01"
+      ],
+      "forms": [
+        "prescription"
+      ],
+      "sense_id": "sense-staged-ox-c55fa527774bab8d-p12-a-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

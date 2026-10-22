@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-35",
+  "title_zh": "准备向导师提出延期请求",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "overloaded-student-extension-draft",
+    "label_zh": "准备向导师提出延期请求",
+    "goal_zh": "回应同学自述的疲惫与担心并约定帮助草拟延期请求"
+  },
+  "participants": [
+    "Hana",
+    "Miles"
+  ],
+  "context_zh": "两位成年学生讨论虚构课程作业压力。对话为支持性沟通练习，不作心理诊断或治疗建议。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-35-s01",
+      "speaker": "Hana",
+      "text": "I'm utterly exhausted, and I'm troubled by how little of the draft I've finished."
+    },
+    {
+      "id": "p12-c-35-s02",
+      "speaker": "Miles",
+      "text": "You've undoubtedly had a difficult week. Does your tutor know the project is behind schedule?"
+    },
+    {
+      "id": "p12-c-35-s03",
+      "speaker": "Hana",
+      "text": "Not yet. I keep putting off the email because I don't know how to ask for more time."
+    },
+    {
+      "id": "p12-c-35-s04",
+      "speaker": "Miles",
+      "text": "We can draft a clear request together: what's finished, what's left, and how much extra time you're asking for."
+    },
+    {
+      "id": "p12-c-35-s05",
+      "speaker": "Hana",
+      "text": "Would you read it once I've written those points down?"
+    },
+    {
+      "id": "p12-c-35-s06",
+      "speaker": "Miles",
+      "text": "Of course. I can't promise the tutor will agree, but you don't have to compose the message alone."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-936fdaf69b3da5e8",
+      "lemma": "troubled",
+      "pos": "adj.",
+      "sense_zh": "感到忧虑的",
+      "sentence_ids": [
+        "p12-c-35-s01"
+      ],
+      "forms": [
+        "troubled"
+      ],
+      "sense_id": "sense-staged-ox-936fdaf69b3da5e8-p12-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76b918f4443462e8",
+      "lemma": "utterly",
+      "pos": "adv.",
+      "sense_zh": "完全地、极其",
+      "sentence_ids": [
+        "p12-c-35-s01"
+      ],
+      "forms": [
+        "utterly"
+      ],
+      "sense_id": "sense-staged-ox-76b918f4443462e8-p12-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4c90476e6df625b0",
+      "lemma": "undoubtedly",
+      "pos": "adv.",
+      "sense_zh": "无疑地",
+      "sentence_ids": [
+        "p12-c-35-s02"
+      ],
+      "forms": [
+        "undoubtedly"
+      ],
+      "sense_id": "sense-staged-ox-4c90476e6df625b0-p12-c-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

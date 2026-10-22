@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-38",
+  "title_zh": "为大型雕塑草图留出观看距离",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "large-sculpture-sketch-restraint",
+    "label_zh": "大型雕塑草图的空间评议",
+    "goal_zh": "讨论尺寸带来的效果并约定在草图中调整摆放位置"
+  },
+  "participants": [
+    "Marta",
+    "Ken"
+  ],
+  "context_zh": "艺术家 Marta 与展览策划 Ken 评议一件尚未制作的大型雕塑草图。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-38-s01",
+      "speaker": "Marta",
+      "text": "Here’s the sketch. The sculpture would stand just inside the entrance."
+    },
+    {
+      "id": "p12-b-38-s02",
+      "speaker": "Ken",
+      "text": "Its sheer size could stun visitors, but would they have room to step back and see the whole shape?"
+    },
+    {
+      "id": "p12-b-38-s03",
+      "speaker": "Marta",
+      "text": "Not in that position. They would mostly see the base as they came in."
+    },
+    {
+      "id": "p12-b-38-s04",
+      "speaker": "Ken",
+      "text": "Could it go in the central hall instead? There’s more viewing distance in that layout."
+    },
+    {
+      "id": "p12-b-38-s05",
+      "speaker": "Marta",
+      "text": "Yes. I’ll redraw it there and show the space around it."
+    },
+    {
+      "id": "p12-b-38-s06",
+      "speaker": "Ken",
+      "text": "Let’s review that version before deciding on the final placement."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cb61870f6822fce8",
+      "lemma": "sketch",
+      "pos": "n.",
+      "sense_zh": "草图",
+      "sentence_ids": [
+        "p12-b-38-s01"
+      ],
+      "forms": [
+        "sketch"
+      ],
+      "sense_id": "sense-staged-ox-cb61870f6822fce8-p12-b-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e26b223f4c4bdc4f",
+      "lemma": "sheer",
+      "pos": "adj.",
+      "sense_zh": "纯粹是或仅凭其程度而显著的",
+      "sentence_ids": [
+        "p12-b-38-s02"
+      ],
+      "forms": [
+        "sheer"
+      ],
+      "sense_id": "sense-staged-ox-e26b223f4c4bdc4f-p12-b-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a1beccd6290ca74",
+      "lemma": "stun",
+      "pos": "v.",
+      "sense_zh": "使惊叹或震惊",
+      "sentence_ids": [
+        "p12-b-38-s02"
+      ],
+      "forms": [
+        "stun"
+      ],
+      "sense_id": "sense-staged-ox-0a1beccd6290ca74-p12-b-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

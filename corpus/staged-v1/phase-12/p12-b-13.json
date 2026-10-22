@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-13",
+  "title_zh": "为独舞先试单束聚光灯",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "solo-dance-lighting-restraint",
+    "label_zh": "独舞排练的克制灯光安排",
+    "goal_zh": "比较复杂灯光与单束聚光灯并约定先试后者"
+  },
+  "participants": [
+    "Rowan",
+    "Lila"
+  ],
+  "context_zh": "灯光师 Rowan 与舞者 Lila 在排练室讨论独舞节目的灯光。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-13-s01",
+      "speaker": "Rowan",
+      "text": "How does this lighting set-up feel from the middle of the stage?"
+    },
+    {
+      "id": "p12-b-13-s02",
+      "speaker": "Lila",
+      "text": "Busy. For a solo dancer, six moving beams are a lot to compete with."
+    },
+    {
+      "id": "p12-b-13-s03",
+      "speaker": "Rowan",
+      "text": "I was hoping to turn the opening into a spectacle."
+    },
+    {
+      "id": "p12-b-13-s04",
+      "speaker": "Lila",
+      "text": "The movement is quiet. Could we try one spotlight and let the audience notice the hands?"
+    },
+    {
+      "id": "p12-b-13-s05",
+      "speaker": "Rowan",
+      "text": "Yes. I’ll turn off the moving beams for the next run."
+    },
+    {
+      "id": "p12-b-13-s06",
+      "speaker": "Lila",
+      "text": "Thanks. Let’s try that version before adding anything else."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-747e98f31766f9d0",
+      "lemma": "set-up",
+      "pos": "n.",
+      "sense_zh": "设备配置或安排",
+      "sentence_ids": [
+        "p12-b-13-s01"
+      ],
+      "forms": [
+        "set-up"
+      ],
+      "sense_id": "sense-staged-ox-747e98f31766f9d0-p12-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f899285b77ccd5b",
+      "lemma": "solo",
+      "pos": "adj.",
+      "sense_zh": "单人表演的",
+      "sentence_ids": [
+        "p12-b-13-s02"
+      ],
+      "forms": [
+        "solo"
+      ],
+      "sense_id": "sense-staged-ox-8f899285b77ccd5b-p12-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60d458f8a595a6a7",
+      "lemma": "spectacle",
+      "pos": "n.",
+      "sense_zh": "壮观的表演或场面",
+      "sentence_ids": [
+        "p12-b-13-s03"
+      ],
+      "forms": [
+        "spectacle"
+      ],
+      "sense_id": "sense-staged-ox-60d458f8a595a6a7-p12-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-423b0cd23088b867",
+      "lemma": "spotlight",
+      "pos": "n.",
+      "sense_zh": "聚光灯",
+      "sentence_ids": [
+        "p12-b-13-s04"
+      ],
+      "forms": [
+        "spotlight"
+      ],
+      "sense_id": "sense-staged-ox-423b0cd23088b867-p12-b-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

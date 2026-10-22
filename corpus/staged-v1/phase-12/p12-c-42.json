@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-42",
+  "title_zh": "暂缓开展手工项目直到了解需求",
+  "topic_id": "work",
+  "scenario": {
+    "id": "craft-venture-demand-check",
+    "label_zh": "暂缓开展手工项目直到了解需求",
+    "goal_zh": "区分项目吸引力与可行性证据并约定先访谈潜在顾客再决定是否开展"
+  },
+  "participants": [
+    "Jade",
+    "Morgan"
+  ],
+  "context_zh": "虚构手工项目规划沟通，不涉及真实投资、付款或个人财务建议。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-42-s01",
+      "speaker": "Jade",
+      "text": "The low stall fee might tempt us to rush into this little craft venture."
+    },
+    {
+      "id": "p12-c-42-s02",
+      "speaker": "Morgan",
+      "text": "I like the idea, but we don't yet know whether it's viable."
+    },
+    {
+      "id": "p12-c-42-s03",
+      "speaker": "Jade",
+      "text": "Exactly. Friends saying the bowls are pretty isn't the same as customers wanting to buy them."
+    },
+    {
+      "id": "p12-c-42-s04",
+      "speaker": "Morgan",
+      "text": "Let's talk to a few potential customers about what they actually need before we commit to a stall."
+    },
+    {
+      "id": "p12-c-42-s05",
+      "speaker": "Jade",
+      "text": "And treat those conversations as a first check, not a sales forecast."
+    },
+    {
+      "id": "p12-c-42-s06",
+      "speaker": "Morgan",
+      "text": "Agreed. We'll hold off on booking until we've learned something useful."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c2ef5e7b416bb276",
+      "lemma": "tempt",
+      "pos": "v.",
+      "sense_zh": "诱使",
+      "sentence_ids": [
+        "p12-c-42-s01"
+      ],
+      "forms": [
+        "tempt"
+      ],
+      "sense_id": "sense-staged-ox-c2ef5e7b416bb276-p12-c-42",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea1ef9651313b287",
+      "lemma": "venture",
+      "pos": "n.",
+      "sense_zh": "新项目、创业项目",
+      "sentence_ids": [
+        "p12-c-42-s01"
+      ],
+      "forms": [
+        "venture"
+      ],
+      "sense_id": "sense-staged-ox-ea1ef9651313b287-p12-c-42",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c6137adaa71521a",
+      "lemma": "viable",
+      "pos": "adj.",
+      "sense_zh": "可行的",
+      "sentence_ids": [
+        "p12-c-42-s02"
+      ],
+      "forms": [
+        "viable"
+      ],
+      "sense_id": "sense-staged-ox-7c6137adaa71521a-p12-c-42",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-04",
+  "title_zh": "为虚构省长采访拟定预算问题",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-provincial-interview-budget-question",
+    "label_zh": "为虚构省政府采访拟定具体预算问题",
+    "goal_zh": "区分省级预算承诺与结果证据并拟定具体采访问题"
+  },
+  "participants": [
+    "Mara",
+    "Joel"
+  ],
+  "context_zh": "新闻写作课堂中的虚构省政府材料。Mara 与 Joel 准备模拟采访，所述人物、地区与政策均非当前新闻。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-04-s01",
+      "speaker": "Mara",
+      "text": "The premier promises greater prosperity in this speech. Is that enough for our opening question?"
+    },
+    {
+      "id": "p12-a-04-s02",
+      "speaker": "Joel",
+      "text": "It's too broad. What does the provincial budget actually fund?"
+    },
+    {
+      "id": "p12-a-04-s03",
+      "speaker": "Mara",
+      "text": "The exercise says the province will pay for three bus routes, but it gives no results yet."
+    },
+    {
+      "id": "p12-a-04-s04",
+      "speaker": "Joel",
+      "text": "Then ask which communities those routes serve and how success will be measured."
+    },
+    {
+      "id": "p12-a-04-s05",
+      "speaker": "Mara",
+      "text": "So: 'Which communities will get the routes, and what would count as success?'"
+    },
+    {
+      "id": "p12-a-04-s06",
+      "speaker": "Joel",
+      "text": "Yes. That tests the promise without treating it as an achieved result."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9c4800577fd3e3bc",
+      "lemma": "premier",
+      "pos": "n.",
+      "sense_zh": "省级政府首脑；省长",
+      "sentence_ids": [
+        "p12-a-04-s01"
+      ],
+      "forms": [
+        "premier"
+      ],
+      "sense_id": "sense-staged-ox-9c4800577fd3e3bc-p12-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-56b4d49ac8b29884",
+      "lemma": "province",
+      "pos": "n.",
+      "sense_zh": "省",
+      "sentence_ids": [
+        "p12-a-04-s03"
+      ],
+      "forms": [
+        "province"
+      ],
+      "sense_id": "sense-staged-ox-56b4d49ac8b29884-p12-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5079a631dd95fa79",
+      "lemma": "provincial",
+      "pos": "adj.",
+      "sense_zh": "省级的",
+      "sentence_ids": [
+        "p12-a-04-s02"
+      ],
+      "forms": [
+        "provincial"
+      ],
+      "sense_id": "sense-staged-ox-5079a631dd95fa79-p12-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0ef1c380bff6107",
+      "lemma": "prosperity",
+      "pos": "n.",
+      "sense_zh": "繁荣",
+      "sentence_ids": [
+        "p12-a-04-s01"
+      ],
+      "forms": [
+        "prosperity"
+      ],
+      "sense_id": "sense-staged-ox-a0ef1c380bff6107-p12-a-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

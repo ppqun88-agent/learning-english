@@ -1,0 +1,95 @@
+{
+  "id": "p12-b-29",
+  "title_zh": "请修复人员评估破损书脊",
+  "topic_id": "services",
+  "scenario": {
+    "id": "damaged-book-storage-consultation",
+    "label_zh": "破损书籍的暂存与修复评估",
+    "goal_zh": "说明书脊损坏、确认可留存评估并要求修复前说明方案"
+  },
+  "participants": [
+    "Victor",
+    "Mei"
+  ],
+  "context_zh": "访客 Victor 带一本旧书到书籍修复工作室，接待员 Mei 负责登记。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-29-s01",
+      "speaker": "Victor",
+      "text": "The spine is coming away from the cover. Is that a straightforward repair?"
+    },
+    {
+      "id": "p12-b-29-s02",
+      "speaker": "Mei",
+      "text": "It may not be. Our conservator needs to look at the binding before we can describe the work."
+    },
+    {
+      "id": "p12-b-29-s03",
+      "speaker": "Victor",
+      "text": "Can I leave it here? I’m also unsure about storage while it waits."
+    },
+    {
+      "id": "p12-b-29-s04",
+      "speaker": "Mei",
+      "text": "Yes. I’ll register it for assessment, and the conservator will decide where to keep it here."
+    },
+    {
+      "id": "p12-b-29-s05",
+      "speaker": "Victor",
+      "text": "Please do. I’d like an explanation of the proposed repair before I agree to any work."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-43300ced9e1aa294",
+      "lemma": "spine",
+      "pos": "n.",
+      "sense_zh": "书脊",
+      "sentence_ids": [
+        "p12-b-29-s01"
+      ],
+      "forms": [
+        "spine"
+      ],
+      "sense_id": "sense-staged-ox-43300ced9e1aa294-p12-b-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0eddd958dffb477",
+      "lemma": "straightforward",
+      "pos": "adj.",
+      "sense_zh": "简单直接的",
+      "sentence_ids": [
+        "p12-b-29-s01"
+      ],
+      "forms": [
+        "straightforward"
+      ],
+      "sense_id": "sense-staged-ox-b0eddd958dffb477-p12-b-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-91b6e928fd47ad3c",
+      "lemma": "storage",
+      "pos": "n.",
+      "sense_zh": "存放或保管",
+      "sentence_ids": [
+        "p12-b-29-s03"
+      ],
+      "forms": [
+        "storage"
+      ],
+      "sense_id": "sense-staged-ox-91b6e928fd47ad3c-p12-b-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p12-a-30",
+  "title_zh": "核对虚构突袭报道的证据范围",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-news-raid-verification",
+    "label_zh": "核对虚构报道的突袭消息和雷达记录范围",
+    "goal_zh": "区分未经证实的袭击消息与飞行记录并约定暂缓确定性标题"
+  },
+  "participants": [
+    "Davi",
+    "Elena"
+  ],
+  "context_zh": "新闻核验课堂使用自编的虚构军事报道，人物与地点不存在，未涉及现实冲突或行动建议。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-30-s01",
+      "speaker": "Davi",
+      "text": "Our draft says a raid on the island airfield reportedly began before dawn."
+    },
+    {
+      "id": "p12-a-30-s02",
+      "speaker": "Elena",
+      "text": "Who reported it?"
+    },
+    {
+      "id": "p12-a-30-s03",
+      "speaker": "Davi",
+      "text": "One unnamed witness in the exercise. We also have a radar record showing an aircraft crossing the coast."
+    },
+    {
+      "id": "p12-a-30-s04",
+      "speaker": "Elena",
+      "text": "That record doesn't tell us what the aircraft did after it crossed."
+    },
+    {
+      "id": "p12-a-30-s05",
+      "speaker": "Davi",
+      "text": "So the headline shouldn't announce an attack as a confirmed fact."
+    },
+    {
+      "id": "p12-a-30-s06",
+      "speaker": "Elena",
+      "text": "Agreed. Keep the witness claim attributed, and ask for another source before we settle the headline."
+    },
+    {
+      "id": "p12-a-30-s07",
+      "speaker": "Davi",
+      "text": "I'll mark the headline as pending and separate the two pieces of information."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-59a0b9c443db6dff",
+      "lemma": "radar",
+      "pos": "n.",
+      "sense_zh": "雷达",
+      "sentence_ids": [
+        "p12-a-30-s03"
+      ],
+      "forms": [
+        "radar"
+      ],
+      "sense_id": "sense-staged-ox-59a0b9c443db6dff-p12-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a046c174e719c7a6",
+      "lemma": "reportedly",
+      "pos": "adv.",
+      "sense_zh": "据报道；据称",
+      "sentence_ids": [
+        "p12-a-30-s01"
+      ],
+      "forms": [
+        "reportedly"
+      ],
+      "sense_id": "sense-staged-ox-a046c174e719c7a6-p12-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bb22b7197398521a",
+      "lemma": "raid",
+      "pos": "n.",
+      "sense_zh": "突袭",
+      "sentence_ids": [
+        "p12-a-30-s01"
+      ],
+      "forms": [
+        "raid"
+      ],
+      "sense_id": "sense-staged-ox-bb22b7197398521a-p12-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

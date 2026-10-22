@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-33",
+  "title_zh": "为争执中的侮辱道歉并商定暂停信号",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "shared-flat-argument-apology",
+    "label_zh": "为争执中的侮辱道歉并商定暂停信号",
+    "goal_zh": "承认争吵中的言语伤害并道歉并约定使用暂停信号而不是继续喊叫"
+  },
+  "participants": [
+    "Finn",
+    "Lara"
+  ],
+  "context_zh": "两位成年室友在一次口角后谈论彼此的沟通方式；场景为虚构，无针对真实人物的指控。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-33-s01",
+      "speaker": "Finn",
+      "text": "I'm sorry about the vicious things I said last night. Being annoyed doesn't excuse them."
+    },
+    {
+      "id": "p12-c-33-s02",
+      "speaker": "Lara",
+      "text": "Thank you for saying that. I can discuss a disagreement, but I won't tolerate being insulted."
+    },
+    {
+      "id": "p12-c-33-s03",
+      "speaker": "Finn",
+      "text": "I understand. I was wrong to make it personal."
+    },
+    {
+      "id": "p12-c-33-s04",
+      "speaker": "Lara",
+      "text": "If either of us starts to yell, can we say 'pause' and stop the conversation for a while?"
+    },
+    {
+      "id": "p12-c-33-s05",
+      "speaker": "Finn",
+      "text": "Yes. Either person can call it, and we can come back when we're ready to speak calmly."
+    },
+    {
+      "id": "p12-c-33-s06",
+      "speaker": "Lara",
+      "text": "That's a better plan than trying to win the argument."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-74ca95245a2d7192",
+      "lemma": "tolerate",
+      "pos": "v.",
+      "sense_zh": "容忍",
+      "sentence_ids": [
+        "p12-c-33-s02"
+      ],
+      "forms": [
+        "tolerate"
+      ],
+      "sense_id": "sense-staged-ox-74ca95245a2d7192-p12-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8bd03a6542eaa13e",
+      "lemma": "yell",
+      "pos": "v.",
+      "sense_zh": "大喊",
+      "sentence_ids": [
+        "p12-c-33-s04"
+      ],
+      "forms": [
+        "yell"
+      ],
+      "sense_id": "sense-staged-ox-8bd03a6542eaa13e-p12-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2949e2b88de4b65b",
+      "lemma": "vicious",
+      "pos": "adj.",
+      "sense_zh": "恶毒的",
+      "sentence_ids": [
+        "p12-c-33-s01"
+      ],
+      "forms": [
+        "vicious"
+      ],
+      "sense_id": "sense-staged-ox-2949e2b88de4b65b-p12-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

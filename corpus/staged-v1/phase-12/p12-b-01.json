@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-01",
+  "title_zh": "约好慢转展台拍摄细节",
+  "topic_id": "work",
+  "scenario": {
+    "id": "display-turntable-photo-speed",
+    "label_zh": "展台慢转拍摄安排",
+    "goal_zh": "确认转台速度问题并约定慢转时逐面拍摄"
+  },
+  "participants": [
+    "Mira",
+    "Owen"
+  ],
+  "context_zh": "摄影师 Mira 与展品助理 Owen 在工作室为一件陶瓷展品拍照。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-01-s01",
+      "speaker": "Mira",
+      "text": "Could you rotate the display a little more slowly? The handle disappears in every photo."
+    },
+    {
+      "id": "p12-b-01-s02",
+      "speaker": "Owen",
+      "text": "The rotation is uneven because I keep stopping at the wrong point."
+    },
+    {
+      "id": "p12-b-01-s03",
+      "speaker": "Mira",
+      "text": "Let it move gently, but don’t make it spin all the way round at once."
+    },
+    {
+      "id": "p12-b-01-s04",
+      "speaker": "Owen",
+      "text": "Would a quarter turn between photos work? I can hold it still each time."
+    },
+    {
+      "id": "p12-b-01-s05",
+      "speaker": "Mira",
+      "text": "Yes. That would let me photograph each side clearly."
+    },
+    {
+      "id": "p12-b-01-s06",
+      "speaker": "Owen",
+      "text": "All right. Tell me when you have the shot, and I’ll turn it again."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-86487953703ba95c",
+      "lemma": "rotate",
+      "pos": "v.",
+      "sense_zh": "使展台旋转",
+      "sentence_ids": [
+        "p12-b-01-s01"
+      ],
+      "forms": [
+        "rotate"
+      ],
+      "sense_id": "sense-staged-ox-86487953703ba95c-p12-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-95aea7ccfd62f214",
+      "lemma": "rotation",
+      "pos": "n.",
+      "sense_zh": "旋转动作",
+      "sentence_ids": [
+        "p12-b-01-s02"
+      ],
+      "forms": [
+        "rotation"
+      ],
+      "sense_id": "sense-staged-ox-95aea7ccfd62f214-p12-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-78beaad74d408911",
+      "lemma": "spin",
+      "pos": "v.",
+      "sense_zh": "快速转动",
+      "sentence_ids": [
+        "p12-b-01-s03"
+      ],
+      "forms": [
+        "spin"
+      ],
+      "sense_id": "sense-staged-ox-78beaad74d408911-p12-b-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

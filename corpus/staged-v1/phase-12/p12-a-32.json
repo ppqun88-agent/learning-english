@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-32",
+  "title_zh": "为敏感段落保留拒读选择",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "drama-sensitive-topic-participation-choice",
+    "label_zh": "为涉及性暴力议题的剧本段落设置自愿朗读选择",
+    "goal_zh": "说明剧本涉及的敏感议题并约定提前提示和自愿替代段落"
+  },
+  "participants": [
+    "Peta",
+    "Luis"
+  ],
+  "context_zh": "成年业余演员参加虚构剧本朗读筹备。导演 Peta 与组织者 Luis 只讨论非露骨的内容提示和参与选择，不叙述性暴力细节。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-32-s01",
+      "speaker": "Peta",
+      "text": "The play refers to rape, although there is no depiction of an assault."
+    },
+    {
+      "id": "p12-a-32-s02",
+      "speaker": "Luis",
+      "text": "Then we should tell the readers before they choose a part."
+    },
+    {
+      "id": "p12-a-32-s03",
+      "speaker": "Peta",
+      "text": "I also want any refusal to read those passages to be respected, without asking for a personal explanation."
+    },
+    {
+      "id": "p12-a-32-s04",
+      "speaker": "Luis",
+      "text": "Agreed. We'll offer an alternative passage, regardless of someone's experience in the group."
+    },
+    {
+      "id": "p12-a-32-s05",
+      "speaker": "Peta",
+      "text": "I'll put both the content note and that choice in the invitation."
+    },
+    {
+      "id": "p12-a-32-s06",
+      "speaker": "Luis",
+      "text": "And I'll make sure the session plan includes time for people to choose privately."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-38d407694398008a",
+      "lemma": "rape",
+      "pos": "n.",
+      "sense_zh": "强奸这一性暴力犯罪",
+      "sentence_ids": [
+        "p12-a-32-s01"
+      ],
+      "forms": [
+        "rape"
+      ],
+      "sense_id": "sense-staged-ox-38d407694398008a-p12-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-212e1b1180717344",
+      "lemma": "refusal",
+      "pos": "n.",
+      "sense_zh": "拒绝",
+      "sentence_ids": [
+        "p12-a-32-s03"
+      ],
+      "forms": [
+        "refusal"
+      ],
+      "sense_id": "sense-staged-ox-212e1b1180717344-p12-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10cabc6c206ed8f5",
+      "lemma": "regardless",
+      "pos": "adv.",
+      "sense_zh": "不受某因素影响；无论如何",
+      "sentence_ids": [
+        "p12-a-32-s04"
+      ],
+      "forms": [
+        "regardless"
+      ],
+      "sense_id": "sense-staged-ox-10cabc6c206ed8f5-p12-a-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-09",
+  "title_zh": "约定分开展示残片与推测复原图",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "museum-fragment-display-reconstruction-boundary",
+    "label_zh": "区分文物残片保存与推测性复原展示",
+    "goal_zh": "区分原物保存与推测复原并约定给复原图加上明确标签"
+  },
+  "participants": [
+    "Lu",
+    "Bea"
+  ],
+  "context_zh": "博物馆展览沟通练习。馆员 Lu 与文物保护人员 Bea 讨论一只残缺陶碗的展示，不提供文物修复操作指引。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-09-s01",
+      "speaker": "Lu",
+      "text": "Could we show a complete bowl beside these remains?"
+    },
+    {
+      "id": "p12-a-09-s02",
+      "speaker": "Bea",
+      "text": "We can show a drawing, but a reconstruction of the missing sections would involve some guesswork."
+    },
+    {
+      "id": "p12-a-09-s03",
+      "speaker": "Lu",
+      "text": "I don't want visitors to confuse that with the original object."
+    },
+    {
+      "id": "p12-a-09-s04",
+      "speaker": "Bea",
+      "text": "Then keep preservation of the fragments separate from the illustration. We aren't proposing physical restoration of the bowl."
+    },
+    {
+      "id": "p12-a-09-s05",
+      "speaker": "Lu",
+      "text": "I'll place the drawing beside the case and label the missing sections as imagined."
+    },
+    {
+      "id": "p12-a-09-s06",
+      "speaker": "Bea",
+      "text": "Yes, and leave the actual fragments in their current display."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4e9e4cfafdc24d4b",
+      "lemma": "preservation",
+      "pos": "n.",
+      "sense_zh": "保存；保护原物",
+      "sentence_ids": [
+        "p12-a-09-s04"
+      ],
+      "forms": [
+        "preservation"
+      ],
+      "sense_id": "sense-staged-ox-4e9e4cfafdc24d4b-p12-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d321a1f393411494",
+      "lemma": "remains",
+      "pos": "n.",
+      "sense_zh": "残存部分；遗存",
+      "sentence_ids": [
+        "p12-a-09-s01"
+      ],
+      "forms": [
+        "remains"
+      ],
+      "sense_id": "sense-staged-ox-d321a1f393411494-p12-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f617f3aaa2f9ed78",
+      "lemma": "reconstruction",
+      "pos": "n.",
+      "sense_zh": "根据残存资料进行的复原",
+      "sentence_ids": [
+        "p12-a-09-s02"
+      ],
+      "forms": [
+        "reconstruction"
+      ],
+      "sense_id": "sense-staged-ox-f617f3aaa2f9ed78-p12-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db25352e9658a86b",
+      "lemma": "restoration",
+      "pos": "n.",
+      "sense_zh": "使受损物恢复原貌的修复",
+      "sentence_ids": [
+        "p12-a-09-s04"
+      ],
+      "forms": [
+        "restoration"
+      ],
+      "sense_id": "sense-staged-ox-db25352e9658a86b-p12-a-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

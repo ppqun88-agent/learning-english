@@ -1,0 +1,95 @@
+{
+  "id": "p12-c-39",
+  "title_zh": "选择不泄露结局的悬疑电影介绍",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "mystery-trailer-spoiler-boundary",
+    "label_zh": "选择不泄露结局的悬疑电影介绍",
+    "goal_zh": "限定介绍只使用预告片已经透露的内容并约定不说出最后的反转"
+  },
+  "participants": [
+    "Nina",
+    "Theo"
+  ],
+  "context_zh": "两位朋友讨论一部虚构悬疑电影，其中一人已看过全片，另一人只看过预告。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-39-s01",
+      "speaker": "Nina",
+      "text": "The trailer shows people starting to vanish from a small town. Is the whole film that eerie?"
+    },
+    {
+      "id": "p12-c-39-s02",
+      "speaker": "Theo",
+      "text": "Pretty much. But the reason they're disappearing isn't what I expected."
+    },
+    {
+      "id": "p12-c-39-s03",
+      "speaker": "Nina",
+      "text": "Don't tell me the reason. I've only seen what the trailer gives away."
+    },
+    {
+      "id": "p12-c-39-s04",
+      "speaker": "Theo",
+      "text": "Then I won't mention the final twist. Shall I just send you the title?"
+    },
+    {
+      "id": "p12-c-39-s05",
+      "speaker": "Nina",
+      "text": "Please do. That's enough to make me want to watch it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0f828b6816218642",
+      "lemma": "trailer",
+      "pos": "n.",
+      "sense_zh": "电影预告片",
+      "sentence_ids": [
+        "p12-c-39-s01"
+      ],
+      "forms": [
+        "trailer"
+      ],
+      "sense_id": "sense-staged-ox-0f828b6816218642-p12-c-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45e777142fb08fd8",
+      "lemma": "twist",
+      "pos": "n.",
+      "sense_zh": "情节的意外转折",
+      "sentence_ids": [
+        "p12-c-39-s04"
+      ],
+      "forms": [
+        "twist"
+      ],
+      "sense_id": "sense-staged-ox-45e777142fb08fd8-p12-c-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cfc00dd05f34a3b2",
+      "lemma": "vanish",
+      "pos": "v.",
+      "sense_zh": "突然消失",
+      "sentence_ids": [
+        "p12-c-39-s01"
+      ],
+      "forms": [
+        "vanish"
+      ],
+      "sense_id": "sense-staged-ox-cfc00dd05f34a3b2-p12-c-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

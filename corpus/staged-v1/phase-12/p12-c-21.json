@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-21",
+  "title_zh": "约定先测试仓库无线电再申请升级",
+  "topic_id": "work",
+  "scenario": {
+    "id": "warehouse-radio-upgrade-test",
+    "label_zh": "约定先测试仓库无线电再申请升级",
+    "goal_zh": "描述仓库无线电传输不清的位置并约定先留测试记录再请求升级"
+  },
+  "participants": [
+    "Lewis",
+    "Priya"
+  ],
+  "context_zh": "虚构仓库工作沟通。两名员工讨论手持无线电通话质量，不进行任何实际系统配置。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-21-s01",
+      "speaker": "Lewis",
+      "text": "Can we upgrade the radios in the warehouse? I lose half your words near the back shelves."
+    },
+    {
+      "id": "p12-c-21-s02",
+      "speaker": "Priya",
+      "text": "Is the transmission bad everywhere back there, or only in one aisle?"
+    },
+    {
+      "id": "p12-c-21-s03",
+      "speaker": "Lewis",
+      "text": "I've noticed it near aisle seven, but I haven't checked the others."
+    },
+    {
+      "id": "p12-c-21-s04",
+      "speaker": "Priya",
+      "text": "Let's test the usual positions and write down where the sound breaks up."
+    },
+    {
+      "id": "p12-c-21-s05",
+      "speaker": "Lewis",
+      "text": "Then we'll have something specific to include in the request."
+    },
+    {
+      "id": "p12-c-21-s06",
+      "speaker": "Priya",
+      "text": "Exactly. I'll meet you after the current delivery is finished, and we can do the checks together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bc98b9ae9b0a889d",
+      "lemma": "warehouse",
+      "pos": "n.",
+      "sense_zh": "仓库",
+      "sentence_ids": [
+        "p12-c-21-s01"
+      ],
+      "forms": [
+        "warehouse"
+      ],
+      "sense_id": "sense-staged-ox-bc98b9ae9b0a889d-p12-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c81f30c181e4ee45",
+      "lemma": "transmission",
+      "pos": "n.",
+      "sense_zh": "传输",
+      "sentence_ids": [
+        "p12-c-21-s02"
+      ],
+      "forms": [
+        "transmission"
+      ],
+      "sense_id": "sense-staged-ox-c81f30c181e4ee45-p12-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0428ed5227ecd23",
+      "lemma": "upgrade",
+      "pos": "v.",
+      "sense_zh": "升级",
+      "sentence_ids": [
+        "p12-c-21-s01"
+      ],
+      "forms": [
+        "upgrade"
+      ],
+      "sense_id": "sense-staged-ox-a0428ed5227ecd23-p12-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-20",
+  "title_zh": "按虚构信件表述反奴役观点",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-letter-exhibit-language",
+    "label_zh": "虚构历史信件展签的措辞",
+    "goal_zh": "核对作者反对奴役的观点并约定区分原文与展签概括"
+  },
+  "participants": [
+    "Lena",
+    "Omar"
+  ],
+  "context_zh": "历史写作课：Lena 与 Omar 为教师创作的虚构历史信件写展签，不将其当作真实史料。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-20-s01",
+      "speaker": "Lena",
+      "text": "The writer calls slavery a sin in this fictional letter. Should we leave that word in the display label?"
+    },
+    {
+      "id": "p12-b-20-s02",
+      "speaker": "Omar",
+      "text": "If we quote it, yes. It shows how the writer expresses a moral objection."
+    },
+    {
+      "id": "p12-b-20-s03",
+      "speaker": "Lena",
+      "text": "The next paragraph says officials tried to suppress letters like this one."
+    },
+    {
+      "id": "p12-b-20-s04",
+      "speaker": "Omar",
+      "text": "Then our label can explain that opposition, but it shouldn’t claim everyone shared the same sentiment."
+    },
+    {
+      "id": "p12-b-20-s05",
+      "speaker": "Lena",
+      "text": "I’ll use one short quotation and say that it records this writer’s view."
+    },
+    {
+      "id": "p12-b-20-s06",
+      "speaker": "Omar",
+      "text": "That keeps the voice of the letter separate from our summary. Let’s do that."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-769ad5acbfdba87a",
+      "lemma": "slavery",
+      "pos": "n.",
+      "sense_zh": "奴隶制或奴役状态",
+      "sentence_ids": [
+        "p12-b-20-s01"
+      ],
+      "forms": [
+        "slavery"
+      ],
+      "sense_id": "sense-staged-ox-769ad5acbfdba87a-p12-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-311e50e41e623f66",
+      "lemma": "sin",
+      "pos": "n.",
+      "sense_zh": "宗教或道德意义上的罪恶",
+      "sentence_ids": [
+        "p12-b-20-s01"
+      ],
+      "forms": [
+        "sin"
+      ],
+      "sense_id": "sense-staged-ox-311e50e41e623f66-p12-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6902f5d35fbd885",
+      "lemma": "suppress",
+      "pos": "v.",
+      "sense_zh": "压制",
+      "sentence_ids": [
+        "p12-b-20-s03"
+      ],
+      "forms": [
+        "suppress"
+      ],
+      "sense_id": "sense-staged-ox-b6902f5d35fbd885-p12-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-20d62ccff2833ae7",
+      "lemma": "sentiment",
+      "pos": "n.",
+      "sense_zh": "观点或情感态度",
+      "sentence_ids": [
+        "p12-b-20-s04"
+      ],
+      "forms": [
+        "sentiment"
+      ],
+      "sense_id": "sense-staged-ox-20d62ccff2833ae7-p12-b-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

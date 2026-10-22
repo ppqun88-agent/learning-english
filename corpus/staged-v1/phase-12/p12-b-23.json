@@ -1,0 +1,89 @@
+{
+  "id": "p12-b-23",
+  "title_zh": "把虚构国家的制度标签与主权问题分开",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-state-essay-concept-boundaries",
+    "label_zh": "虚构国家论文中的概念边界",
+    "goal_zh": "辨明制度标签不能代替主权证据并约定按材料分别概括"
+  },
+  "participants": [
+    "Cora",
+    "Tim"
+  ],
+  "context_zh": "政治词汇英语练习：成年学生 Cora 与 Tim 阅读教师编写的虚构国家资料，不描述现实国家或时事。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-23-s01",
+      "speaker": "Cora",
+      "text": "My paragraph says Borea lost its sovereignty because it had a socialist government."
+    },
+    {
+      "id": "p12-b-23-s02",
+      "speaker": "Tim",
+      "text": "Where does the case sheet make that connection?"
+    },
+    {
+      "id": "p12-b-23-s03",
+      "speaker": "Cora",
+      "text": "It doesn’t. One section describes economic policy, and another describes an agreement giving an outside council authority over the ports."
+    },
+    {
+      "id": "p12-b-23-s04",
+      "speaker": "Tim",
+      "text": "Then the political label doesn’t explain that agreement by itself."
+    },
+    {
+      "id": "p12-b-23-s05",
+      "speaker": "Cora",
+      "text": "I should describe the authority transferred over the ports, not claim that the country lost all control or infer a cause from its political label."
+    },
+    {
+      "id": "p12-b-23-s06",
+      "speaker": "Tim",
+      "text": "Yes, and keep the economic-policy summary in its own paragraph."
+    },
+    {
+      "id": "p12-b-23-s07",
+      "speaker": "Cora",
+      "text": "I’ll separate them and cite the relevant section for each claim."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bbed0c10d181b1d9",
+      "lemma": "sovereignty",
+      "pos": "n.",
+      "sense_zh": "国家自主行使权力的主权",
+      "sentence_ids": [
+        "p12-b-23-s01"
+      ],
+      "forms": [
+        "sovereignty"
+      ],
+      "sense_id": "sense-staged-ox-bbed0c10d181b1d9-p12-b-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3268b32406eed6a5",
+      "lemma": "socialist",
+      "pos": "adj.",
+      "sense_zh": "社会主义的",
+      "sentence_ids": [
+        "p12-b-23-s01"
+      ],
+      "forms": [
+        "socialist"
+      ],
+      "sense_id": "sense-staged-ox-3268b32406eed6a5-p12-b-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

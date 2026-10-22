@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-27",
+  "title_zh": "选择兼具幽默与思考的读书会开篇",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "essay-club-opening-choice",
+    "label_zh": "选择兼具幽默与思考的读书会开篇",
+    "goal_zh": "比较两篇已经读过的短文风格并选定幽默短文作为讨论开篇"
+  },
+  "participants": [
+    "Gabe",
+    "Sana"
+  ],
+  "context_zh": "两位读书会成员已经读过两篇虚构短文，正在决定先讨论哪一篇。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-27-s01",
+      "speaker": "Gabe",
+      "text": "That essay about queueing was terrific. I laughed, then realised I do half the things it criticises."
+    },
+    {
+      "id": "p12-c-27-s02",
+      "speaker": "Sana",
+      "text": "The writer has real wit. The joke about saving a place does more than just get a laugh."
+    },
+    {
+      "id": "p12-c-27-s03",
+      "speaker": "Gabe",
+      "text": "It was surprisingly thought-provoking for such a short piece."
+    },
+    {
+      "id": "p12-c-27-s04",
+      "speaker": "Sana",
+      "text": "The other essay is good too, but its opening is much more serious."
+    },
+    {
+      "id": "p12-c-27-s05",
+      "speaker": "Gabe",
+      "text": "Let's begin with the funny one. People can start with a favourite line and move into the questions it raises."
+    },
+    {
+      "id": "p12-c-27-s06",
+      "speaker": "Sana",
+      "text": "Yes. We can save the other piece for the second half."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-db8cb32fc3a016ae",
+      "lemma": "thought-provoking",
+      "pos": "adj.",
+      "sense_zh": "发人深省的",
+      "sentence_ids": [
+        "p12-c-27-s03"
+      ],
+      "forms": [
+        "thought-provoking"
+      ],
+      "sense_id": "sense-staged-ox-db8cb32fc3a016ae-p12-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f24477ecb42a9d78",
+      "lemma": "wit",
+      "pos": "n.",
+      "sense_zh": "机智幽默",
+      "sentence_ids": [
+        "p12-c-27-s02"
+      ],
+      "forms": [
+        "wit"
+      ],
+      "sense_id": "sense-staged-ox-f24477ecb42a9d78-p12-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b790811090cb58ff",
+      "lemma": "terrific",
+      "pos": "adj.",
+      "sense_zh": "极好的",
+      "sentence_ids": [
+        "p12-c-27-s01"
+      ],
+      "forms": [
+        "terrific"
+      ],
+      "sense_id": "sense-staged-ox-b790811090cb58ff-p12-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-41",
+  "title_zh": "按报名阈值请求复核会场容量",
+  "topic_id": "work",
+  "scenario": {
+    "id": "booking-threshold-review-request",
+    "label_zh": "按报名阈值请求复核会场容量",
+    "goal_zh": "核对报名数超过内部复核阈值并约定先核实人数再请求场地复核"
+  },
+  "participants": [
+    "Marta",
+    "Ian"
+  ],
+  "context_zh": "虚构活动协调沟通。数字和内部规则为情景设定，不构成现实消防或场地容量建议。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-41-s01",
+      "speaker": "Marta",
+      "text": "We have ninety registrations. That's unprecedented for this series; we've never had more than sixty."
+    },
+    {
+      "id": "p12-c-41-s02",
+      "speaker": "Ian",
+      "text": "The internal threshold for a venue review is eighty, isn't it?"
+    },
+    {
+      "id": "p12-c-41-s03",
+      "speaker": "Marta",
+      "text": "Yes. Do these figures warrant moving the talk to a larger hall?"
+    },
+    {
+      "id": "p12-c-41-s04",
+      "speaker": "Ian",
+      "text": "They warrant asking, not assuming. First, let's check for duplicate registrations."
+    },
+    {
+      "id": "p12-c-41-s05",
+      "speaker": "Marta",
+      "text": "Then I'll send the verified count to the venue and request a capacity review."
+    },
+    {
+      "id": "p12-c-41-s06",
+      "speaker": "Ian",
+      "text": "Good. We won't announce a new room until they've replied."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-309515ada051034d",
+      "lemma": "threshold",
+      "pos": "n.",
+      "sense_zh": "阈值",
+      "sentence_ids": [
+        "p12-c-41-s02"
+      ],
+      "forms": [
+        "threshold"
+      ],
+      "sense_id": "sense-staged-ox-309515ada051034d-p12-c-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8081edfd848fa89f",
+      "lemma": "warrant",
+      "pos": "v.",
+      "sense_zh": "有理由采取、使有必要",
+      "sentence_ids": [
+        "p12-c-41-s03"
+      ],
+      "forms": [
+        "warrant"
+      ],
+      "sense_id": "sense-staged-ox-8081edfd848fa89f-p12-c-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1b2d62addfc6be00",
+      "lemma": "unprecedented",
+      "pos": "adj.",
+      "sense_zh": "前所未有的",
+      "sentence_ids": [
+        "p12-c-41-s01"
+      ],
+      "forms": [
+        "unprecedented"
+      ],
+      "sense_id": "sense-staged-ox-1b2d62addfc6be00-p12-c-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

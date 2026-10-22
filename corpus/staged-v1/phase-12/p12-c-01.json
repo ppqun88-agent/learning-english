@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-01",
+  "title_zh": "排练持道具剑退场",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "prop-sword-exit-rehearsal",
+    "label_zh": "排练持道具剑退场",
+    "goal_zh": "明确战士角色的退场动作并约定降低道具剑后走到门口"
+  },
+  "participants": [
+    "Leon",
+    "Ada"
+  ],
+  "context_zh": "业余剧团排练虚构历史剧。Leon 饰演战士，Ada 负责导演；手中是舞台道具剑。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-01-s01",
+      "speaker": "Leon",
+      "text": "Should the warrior leave in anger, or is he trying to hide it?"
+    },
+    {
+      "id": "p12-c-01-s02",
+      "speaker": "Ada",
+      "text": "Hide it until you reach the door. That will be more theatrical than shouting all the way across the stage."
+    },
+    {
+      "id": "p12-c-01-s03",
+      "speaker": "Leon",
+      "text": "I was going to swing the sword as I turned."
+    },
+    {
+      "id": "p12-c-01-s04",
+      "speaker": "Ada",
+      "text": "Please don't. Keep the prop low, walk to the door, and then look back."
+    },
+    {
+      "id": "p12-c-01-s05",
+      "speaker": "Leon",
+      "text": "All right. The look can carry the anger; I don't need the big movement."
+    },
+    {
+      "id": "p12-c-01-s06",
+      "speaker": "Ada",
+      "text": "Exactly. Let's try that exit once."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cf63cae7ee512bdc",
+      "lemma": "sword",
+      "pos": "n.",
+      "sense_zh": "剑",
+      "sentence_ids": [
+        "p12-c-01-s03"
+      ],
+      "forms": [
+        "sword"
+      ],
+      "sense_id": "sense-staged-ox-cf63cae7ee512bdc-p12-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88debd8e75c3e96f",
+      "lemma": "warrior",
+      "pos": "n.",
+      "sense_zh": "战士",
+      "sentence_ids": [
+        "p12-c-01-s01"
+      ],
+      "forms": [
+        "warrior"
+      ],
+      "sense_id": "sense-staged-ox-88debd8e75c3e96f-p12-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-354d1c61a0645ec2",
+      "lemma": "theatrical",
+      "pos": "adj.",
+      "sense_zh": "具有戏剧效果的",
+      "sentence_ids": [
+        "p12-c-01-s02"
+      ],
+      "forms": [
+        "theatrical"
+      ],
+      "sense_id": "sense-staged-ox-354d1c61a0645ec2-p12-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

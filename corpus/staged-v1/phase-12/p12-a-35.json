@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-35",
+  "title_zh": "确认续借尚未办理及提醒安排",
+  "topic_id": "services",
+  "scenario": {
+    "id": "library-renewal-reminder-timing",
+    "label_zh": "核对原还书期限并约定再次查询续借提醒",
+    "goal_zh": "确认原还书期限仍有效并约定次日上午提醒再次查询续借"
+  },
+  "participants": [
+    "Enid",
+    "Ravi"
+  ],
+  "context_zh": "图书馆读者 Enid 向馆员 Ravi 询问系统临时离线期间的续借。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-35-s01",
+      "speaker": "Enid",
+      "text": "Can I renew my book? The due date is Friday."
+    },
+    {
+      "id": "p12-a-35-s02",
+      "speaker": "Ravi",
+      "text": "The renewal system is presently offline, so I can't confirm an extension."
+    },
+    {
+      "id": "p12-a-35-s03",
+      "speaker": "Enid",
+      "text": "Would it help if I tried again tomorrow?"
+    },
+    {
+      "id": "p12-a-35-s04",
+      "speaker": "Ravi",
+      "text": "Yes. I can send a reminder tomorrow morning, but that won't change the due date by itself."
+    },
+    {
+      "id": "p12-a-35-s05",
+      "speaker": "Enid",
+      "text": "Please do. I'll keep Friday as the deadline unless a renewal is confirmed."
+    },
+    {
+      "id": "p12-a-35-s06",
+      "speaker": "Ravi",
+      "text": "Understood. The reminder will ask you to check again, not say the book has been renewed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7635116c62ef1e01",
+      "lemma": "renew",
+      "pos": "v.",
+      "sense_zh": "延长借用期限；续借",
+      "sentence_ids": [
+        "p12-a-35-s01"
+      ],
+      "forms": [
+        "renew"
+      ],
+      "sense_id": "sense-staged-ox-7635116c62ef1e01-p12-a-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76db6176a74ec4b3",
+      "lemma": "presently",
+      "pos": "adv.",
+      "sense_zh": "目前；现在",
+      "sentence_ids": [
+        "p12-a-35-s02"
+      ],
+      "forms": [
+        "presently"
+      ],
+      "sense_id": "sense-staged-ox-76db6176a74ec4b3-p12-a-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-045b675134d06c02",
+      "lemma": "reminder",
+      "pos": "n.",
+      "sense_zh": "提醒消息",
+      "sentence_ids": [
+        "p12-a-35-s04"
+      ],
+      "forms": [
+        "reminder"
+      ],
+      "sense_id": "sense-staged-ox-045b675134d06c02-p12-a-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

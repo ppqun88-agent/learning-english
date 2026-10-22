@@ -1,0 +1,121 @@
+{
+  "id": "p12-c-24",
+  "title_zh": "约定系统整理访谈差异再写综合",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "interview-synthesis-coding-plan",
+    "label_zh": "约定系统整理访谈差异再写综合",
+    "goal_zh": "承认访谈回答的差异不能被抹平并约定统一编码后再写有范围的综合"
+  },
+  "participants": [
+    "Noor",
+    "Eli"
+  ],
+  "context_zh": "两名学生整理已经匿名化的虚构访谈材料，所有回答为课程练习编写。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-24-s01",
+      "speaker": "Noor",
+      "text": "The responses are so varied that my summary sounds like three different projects."
+    },
+    {
+      "id": "p12-c-24-s02",
+      "speaker": "Eli",
+      "text": "That's useful information. A synthesis doesn't have to pretend everyone agrees."
+    },
+    {
+      "id": "p12-c-24-s03",
+      "speaker": "Noor",
+      "text": "I was about to keep only the most common answer."
+    },
+    {
+      "id": "p12-c-24-s04",
+      "speaker": "Eli",
+      "text": "Let's take a systematic approach first: use the same topic labels for each interview."
+    },
+    {
+      "id": "p12-c-24-s05",
+      "speaker": "Noor",
+      "text": "And keep a place for answers that don't fit the main pattern?"
+    },
+    {
+      "id": "p12-c-24-s06",
+      "speaker": "Eli",
+      "text": "Yes. We'll keep those responses in their own column, thereby showing where the interviews differ."
+    },
+    {
+      "id": "p12-c-24-s07",
+      "speaker": "Noor",
+      "text": "All right. We'll finish that coding table before writing the synthesis."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6edf552af3a49c94",
+      "lemma": "systematic",
+      "pos": "adj.",
+      "sense_zh": "系统的",
+      "sentence_ids": [
+        "p12-c-24-s04"
+      ],
+      "forms": [
+        "systematic"
+      ],
+      "sense_id": "sense-staged-ox-6edf552af3a49c94-p12-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9d190dc167477b57",
+      "lemma": "synthesis",
+      "pos": "n.",
+      "sense_zh": "综合、综合分析",
+      "sentence_ids": [
+        "p12-c-24-s02"
+      ],
+      "forms": [
+        "synthesis"
+      ],
+      "sense_id": "sense-staged-ox-9d190dc167477b57-p12-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5bda1f27b869f071",
+      "lemma": "varied",
+      "pos": "adj.",
+      "sense_zh": "多种多样的",
+      "sentence_ids": [
+        "p12-c-24-s01"
+      ],
+      "forms": [
+        "varied"
+      ],
+      "sense_id": "sense-staged-ox-5bda1f27b869f071-p12-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df4ce5442f29e250",
+      "lemma": "thereby",
+      "pos": "adv.",
+      "sense_zh": "由此、从而",
+      "sentence_ids": [
+        "p12-c-24-s06"
+      ],
+      "forms": [
+        "thereby"
+      ],
+      "sense_id": "sense-staged-ox-df4ce5442f29e250-p12-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

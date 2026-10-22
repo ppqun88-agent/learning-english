@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-12",
+  "title_zh": "询问退课前需要核对的学费规则",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "course-withdrawal-fee-query",
+    "label_zh": "询问退课前需要核对的学费规则",
+    "goal_zh": "提出退课对学费影响的询问并约定发送适用政策后再作决定"
+  },
+  "participants": [
+    "Eva",
+    "Mr Cole"
+  ],
+  "context_zh": "虚构大学服务台沟通练习。具体政策尚未提供，对话不代表真实院校退款规则或财务建议。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-12-s01",
+      "speaker": "Eva",
+      "text": "I'm an undergraduate on the evening course. Where can I check how withdrawal would affect my tuition?"
+    },
+    {
+      "id": "p12-c-12-s02",
+      "speaker": "Mr Cole",
+      "text": "I'll send you the policy for that course. Have you already submitted a request?"
+    },
+    {
+      "id": "p12-c-12-s03",
+      "speaker": "Eva",
+      "text": "No. I'm trying to understand the consequences before I decide."
+    },
+    {
+      "id": "p12-c-12-s04",
+      "speaker": "Mr Cole",
+      "text": "That's clear. The policy will show the relevant dates, but I can't promise a refund without checking your situation."
+    },
+    {
+      "id": "p12-c-12-s05",
+      "speaker": "Eva",
+      "text": "Please send it first, then. I'll read it before taking any further step."
+    },
+    {
+      "id": "p12-c-12-s06",
+      "speaker": "Mr Cole",
+      "text": "Certainly. I'll include the contact for questions about the fees."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-44936b902107f51a",
+      "lemma": "undergraduate",
+      "pos": "n.",
+      "sense_zh": "本科生",
+      "sentence_ids": [
+        "p12-c-12-s01"
+      ],
+      "forms": [
+        "undergraduate"
+      ],
+      "sense_id": "sense-staged-ox-44936b902107f51a-p12-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fae93cdeb8ebe681",
+      "lemma": "tuition",
+      "pos": "n.",
+      "sense_zh": "学费",
+      "sentence_ids": [
+        "p12-c-12-s01"
+      ],
+      "forms": [
+        "tuition"
+      ],
+      "sense_id": "sense-staged-ox-fae93cdeb8ebe681-p12-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d494a095b1d6283",
+      "lemma": "withdrawal",
+      "pos": "n.",
+      "sense_zh": "退学或退课",
+      "sentence_ids": [
+        "p12-c-12-s01"
+      ],
+      "forms": [
+        "withdrawal"
+      ],
+      "sense_id": "sense-staged-ox-3d494a095b1d6283-p12-c-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

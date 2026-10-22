@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-08",
+  "title_zh": "请求解释虚构保单的自动续期条款",
+  "topic_id": "services",
+  "scenario": {
+    "id": "fictional-policy-premium-clause-query",
+    "label_zh": "就虚构保险报价条款提出书面询问",
+    "goal_zh": "核对报价与条款疑问并约定转交解释请求、在答复前暂不签署"
+  },
+  "participants": [
+    "Celia",
+    "Mark"
+  ],
+  "context_zh": "服务英语角色扮演，使用虚构保险报价。Celia 扮演顾客，Mark 扮演客服；不提供现实保险或法律建议。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-08-s01",
+      "speaker": "Celia",
+      "text": "This quote gives an annual premium, but I have a query about the renewal section."
+    },
+    {
+      "id": "p12-a-08-s02",
+      "speaker": "Mark",
+      "text": "Which part is unclear?"
+    },
+    {
+      "id": "p12-a-08-s03",
+      "speaker": "Celia",
+      "text": "The provision about automatic renewal doesn't say whether this quoted price would stay the same."
+    },
+    {
+      "id": "p12-a-08-s04",
+      "speaker": "Mark",
+      "text": "I'll ask the policy team to explain that in writing. I can't confirm next year's price from this quote."
+    },
+    {
+      "id": "p12-a-08-s05",
+      "speaker": "Celia",
+      "text": "Thank you. I'll wait for that explanation before signing anything."
+    },
+    {
+      "id": "p12-a-08-s06",
+      "speaker": "Mark",
+      "text": "Understood. I'll include the renewal section and your price question in the message."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-27555d80ae5c0ce9",
+      "lemma": "premium",
+      "pos": "n.",
+      "sense_zh": "保险费",
+      "sentence_ids": [
+        "p12-a-08-s01"
+      ],
+      "forms": [
+        "premium"
+      ],
+      "sense_id": "sense-staged-ox-27555d80ae5c0ce9-p12-a-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5362326693ff5d11",
+      "lemma": "provision",
+      "pos": "n.",
+      "sense_zh": "合同或文件中的条款",
+      "sentence_ids": [
+        "p12-a-08-s03"
+      ],
+      "forms": [
+        "provision"
+      ],
+      "sense_id": "sense-staged-ox-5362326693ff5d11-p12-a-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bdc180f49745647b",
+      "lemma": "query",
+      "pos": "n.",
+      "sense_zh": "询问；疑问",
+      "sentence_ids": [
+        "p12-a-08-s01"
+      ],
+      "forms": [
+        "query"
+      ],
+      "sense_id": "sense-staged-ox-bdc180f49745647b-p12-a-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

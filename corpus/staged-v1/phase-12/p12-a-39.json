@@ -1,0 +1,95 @@
+{
+  "id": "p12-a-39",
+  "title_zh": "安排新队员的训练支持",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "rookie-roster-support-plan",
+    "label_zh": "为新队员安排名单核对和团队支持",
+    "goal_zh": "确认新队员已在名单中并约定由队长接待并解释热身"
+  },
+  "participants": [
+    "Ellis",
+    "Wen"
+  ],
+  "context_zh": "成年业余篮球队队长 Ellis 与教练 Wen 安排新队员 Sam 的球队训练支持。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-39-s01",
+      "speaker": "Ellis",
+      "text": "Is Sam on the roster for Saturday's training now?"
+    },
+    {
+      "id": "p12-a-39-s02",
+      "speaker": "Wen",
+      "text": "Yes. It's Sam's first season in the league, so remember what it feels like to be a rookie."
+    },
+    {
+      "id": "p12-a-39-s03",
+      "speaker": "Ellis",
+      "text": "Could we rally around Sam without making a big public fuss?"
+    },
+    {
+      "id": "p12-a-39-s04",
+      "speaker": "Wen",
+      "text": "That sounds good. Would you meet Sam at the door and explain the warm-up?"
+    },
+    {
+      "id": "p12-a-39-s05",
+      "speaker": "Ellis",
+      "text": "I will. I'll keep it friendly and let Sam ask questions at their own pace."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-47ab6bd865e146be",
+      "lemma": "roster",
+      "pos": "n.",
+      "sense_zh": "成员名单",
+      "sentence_ids": [
+        "p12-a-39-s01"
+      ],
+      "forms": [
+        "roster"
+      ],
+      "sense_id": "sense-staged-ox-47ab6bd865e146be-p12-a-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-185919a738504a0a",
+      "lemma": "rookie",
+      "pos": "n.",
+      "sense_zh": "新手；初次参加某类活动的人",
+      "sentence_ids": [
+        "p12-a-39-s02"
+      ],
+      "forms": [
+        "rookie"
+      ],
+      "sense_id": "sense-staged-ox-185919a738504a0a-p12-a-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ebe7befcac30ea0",
+      "lemma": "rally",
+      "pos": "v.",
+      "sense_zh": "团结起来给予支持",
+      "sentence_ids": [
+        "p12-a-39-s03"
+      ],
+      "forms": [
+        "rally"
+      ],
+      "sense_id": "sense-staged-ox-2ebe7befcac30ea0-p12-a-39",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

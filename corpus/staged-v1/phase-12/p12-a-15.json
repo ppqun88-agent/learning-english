@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-15",
+  "title_zh": "调整窗边拍摄位置以减轻反光",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "window-photo-reflection-light-adjustment",
+    "label_zh": "调整窗边拍摄位置以避免强烈反光",
+    "goal_zh": "识别画面中的窗面反光并约定换角度试拍"
+  },
+  "participants": [
+    "Asha",
+    "Leo"
+  ],
+  "context_zh": "摄影同伴 Asha 与 Leo 检查刚在窗边拍摄的一张花瓶照片。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-15-s01",
+      "speaker": "Asha",
+      "text": "That ray of sunlight across the window looks lovely, but I can see myself in the glass."
+    },
+    {
+      "id": "p12-a-15-s02",
+      "speaker": "Leo",
+      "text": "The reflection is especially pronounced in the lower corner of your photo."
+    },
+    {
+      "id": "p12-a-15-s03",
+      "speaker": "Asha",
+      "text": "I could crop it, but then I'd lose half the vase."
+    },
+    {
+      "id": "p12-a-15-s04",
+      "speaker": "Leo",
+      "text": "Try a different angle before changing the composition."
+    },
+    {
+      "id": "p12-a-15-s05",
+      "speaker": "Asha",
+      "text": "I'll move a little to the left and take another frame."
+    },
+    {
+      "id": "p12-a-15-s06",
+      "speaker": "Leo",
+      "text": "Good. Then we'll compare the reflections before choosing the final image."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a2c6759039f7b8e0",
+      "lemma": "ray",
+      "pos": "n.",
+      "sense_zh": "一道光线",
+      "sentence_ids": [
+        "p12-a-15-s01"
+      ],
+      "forms": [
+        "ray"
+      ],
+      "sense_id": "sense-staged-ox-a2c6759039f7b8e0-p12-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a004c552eed3e57",
+      "lemma": "reflection",
+      "pos": "n.",
+      "sense_zh": "映像；反光中的影像",
+      "sentence_ids": [
+        "p12-a-15-s02"
+      ],
+      "forms": [
+        "reflection"
+      ],
+      "sense_id": "sense-staged-ox-4a004c552eed3e57-p12-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ecd69da7b52f7fc8",
+      "lemma": "pronounced",
+      "pos": "adj.",
+      "sense_zh": "明显的；显著的",
+      "sentence_ids": [
+        "p12-a-15-s02"
+      ],
+      "forms": [
+        "pronounced"
+      ],
+      "sense_id": "sense-staged-ox-ecd69da7b52f7fc8-p12-a-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

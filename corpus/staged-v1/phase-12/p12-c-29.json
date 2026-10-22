@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-29",
+  "title_zh": "调整合唱话筒间距后重试长音",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "choir-microphone-spacing-rehearsal",
+    "label_zh": "调整合唱话筒间距后重试长音",
+    "goal_zh": "明确要检查的是长音时的声部平衡并约定拉开话筒间距后重唱检查"
+  },
+  "participants": [
+    "Luca",
+    "Erin"
+  ],
+  "context_zh": "合唱排练中，声乐成员和负责录音的同伴检查两个话筒收音的平衡。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-29-s01",
+      "speaker": "Luca",
+      "text": "My vocal line disappears under Jo's on the recording."
+    },
+    {
+      "id": "p12-c-29-s02",
+      "speaker": "Erin",
+      "text": "Can you both sustain the final note while I check the balance?"
+    },
+    {
+      "id": "p12-c-29-s03",
+      "speaker": "Luca",
+      "text": "Yes. Holding it isn't the problem; we can sing it together without stopping."
+    },
+    {
+      "id": "p12-c-29-s04",
+      "speaker": "Erin",
+      "text": "Then let's widen the gap between the microphone stands before you try it again."
+    },
+    {
+      "id": "p12-c-29-s05",
+      "speaker": "Luca",
+      "text": "All right. I'll wait until you've moved them, then ask Jo to join me."
+    },
+    {
+      "id": "p12-c-29-s06",
+      "speaker": "Erin",
+      "text": "Thanks. We'll listen to the new recording before deciding whether that helped."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2b18d56571b91b9b",
+      "lemma": "sustain",
+      "pos": "v.",
+      "sense_zh": "持续保持",
+      "sentence_ids": [
+        "p12-c-29-s02"
+      ],
+      "forms": [
+        "sustain"
+      ],
+      "sense_id": "sense-staged-ox-2b18d56571b91b9b-p12-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4326a55b18d71ae8",
+      "lemma": "vocal",
+      "pos": "adj.",
+      "sense_zh": "声乐的、人声的",
+      "sentence_ids": [
+        "p12-c-29-s01"
+      ],
+      "forms": [
+        "vocal"
+      ],
+      "sense_id": "sense-staged-ox-4326a55b18d71ae8-p12-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9fe751c58fb24ff2",
+      "lemma": "widen",
+      "pos": "v.",
+      "sense_zh": "加宽、扩大间距",
+      "sentence_ids": [
+        "p12-c-29-s04"
+      ],
+      "forms": [
+        "widen"
+      ],
+      "sense_id": "sense-staged-ox-9fe751c58fb24ff2-p12-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

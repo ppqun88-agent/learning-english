@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-18",
+  "title_zh": "核对义卖收入的分配比例",
+  "topic_id": "community",
+  "scenario": {
+    "id": "fundraiser-proceeds-allocation-ratio",
+    "label_zh": "核对筹款收入分配比例并安排转交",
+    "goal_zh": "算清两家受助机构的分配金额并约定核对账户后转交"
+  },
+  "participants": [
+    "Paolo",
+    "Mei"
+  ],
+  "context_zh": "社区义卖志愿者 Paolo 与 Mei 核对自编练习中的一千元净收入，不涉及真实捐款或账户信息。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-18-s01",
+      "speaker": "Paolo",
+      "text": "The net proceeds from the book sale are one thousand dollars."
+    },
+    {
+      "id": "p12-a-18-s02",
+      "speaker": "Mei",
+      "text": "We agreed on a ratio of three to one between the shelter and the library fund, didn't we?"
+    },
+    {
+      "id": "p12-a-18-s03",
+      "speaker": "Paolo",
+      "text": "Yes. The shelter is the main recipient, so it gets seven hundred and fifty."
+    },
+    {
+      "id": "p12-a-18-s04",
+      "speaker": "Mei",
+      "text": "And the remainder is two hundred and fifty for the library fund."
+    },
+    {
+      "id": "p12-a-18-s05",
+      "speaker": "Paolo",
+      "text": "I'll confirm both organisations' payment details before arranging the transfers."
+    },
+    {
+      "id": "p12-a-18-s06",
+      "speaker": "Mei",
+      "text": "Good. I'll add those two amounts to our summary, marked as not yet transferred."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-796d119f20c16915",
+      "lemma": "proceeds",
+      "pos": "n.",
+      "sense_zh": "活动或销售所得的款项",
+      "sentence_ids": [
+        "p12-a-18-s01"
+      ],
+      "forms": [
+        "proceeds"
+      ],
+      "sense_id": "sense-staged-ox-796d119f20c16915-p12-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc6ab4e383d24de3",
+      "lemma": "recipient",
+      "pos": "n.",
+      "sense_zh": "收受款项者；受助对象",
+      "sentence_ids": [
+        "p12-a-18-s03"
+      ],
+      "forms": [
+        "recipient"
+      ],
+      "sense_id": "sense-staged-ox-fc6ab4e383d24de3-p12-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-06fc37dc317c18e5",
+      "lemma": "remainder",
+      "pos": "n.",
+      "sense_zh": "剩余部分",
+      "sentence_ids": [
+        "p12-a-18-s04"
+      ],
+      "forms": [
+        "remainder"
+      ],
+      "sense_id": "sense-staged-ox-06fc37dc317c18e5-p12-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9a1f8a5eac799e68",
+      "lemma": "ratio",
+      "pos": "n.",
+      "sense_zh": "比例",
+      "sentence_ids": [
+        "p12-a-18-s02"
+      ],
+      "forms": [
+        "ratio"
+      ],
+      "sense_id": "sense-staged-ox-9a1f8a5eac799e68-p12-a-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

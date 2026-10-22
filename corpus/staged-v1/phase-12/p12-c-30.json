@@ -1,0 +1,116 @@
+{
+  "id": "p12-c-30",
+  "title_zh": "为棋队奖杯致谢并承认对手表现",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "chess-trophy-thanks-speech",
+    "label_zh": "为棋队奖杯致谢并承认对手表现",
+    "goal_zh": "表达赢得奖杯的喜悦并约定致谢时肯定队友和对手"
+  },
+  "participants": [
+    "Nico",
+    "Beth"
+  ],
+  "context_zh": "虚构业余棋队赢得比赛后，两名队员准备一段简短致谢。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-30-s01",
+      "speaker": "Nico",
+      "text": "I still can't believe the trophy is coming home with us. I'm thrilled."
+    },
+    {
+      "id": "p12-c-30-s02",
+      "speaker": "Beth",
+      "text": "You should be. That last game was a real triumph for the whole team."
+    },
+    {
+      "id": "p12-c-30-s03",
+      "speaker": "Nico",
+      "text": "I'd like to say that when they hand it over, but I don't want to sound as if we won easily."
+    },
+    {
+      "id": "p12-c-30-s04",
+      "speaker": "Beth",
+      "text": "Then mention the other team. They were worthy opponents and made us work for every point."
+    },
+    {
+      "id": "p12-c-30-s05",
+      "speaker": "Nico",
+      "text": "I will. Thanks to our teammates first, then a word about the opposition."
+    },
+    {
+      "id": "p12-c-30-s06",
+      "speaker": "Beth",
+      "text": "That sounds right. Keep it short enough for everyone to enjoy the moment."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d3e9d6f5e8748fb6",
+      "lemma": "trophy",
+      "pos": "n.",
+      "sense_zh": "奖杯",
+      "sentence_ids": [
+        "p12-c-30-s01"
+      ],
+      "forms": [
+        "trophy"
+      ],
+      "sense_id": "sense-staged-ox-d3e9d6f5e8748fb6-p12-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3eb07a3e6f6a7385",
+      "lemma": "triumph",
+      "pos": "n.",
+      "sense_zh": "重大胜利",
+      "sentence_ids": [
+        "p12-c-30-s02"
+      ],
+      "forms": [
+        "triumph"
+      ],
+      "sense_id": "sense-staged-ox-3eb07a3e6f6a7385-p12-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a491395c73e455fa",
+      "lemma": "worthy",
+      "pos": "adj.",
+      "sense_zh": "值得尊敬的",
+      "sentence_ids": [
+        "p12-c-30-s04"
+      ],
+      "forms": [
+        "worthy"
+      ],
+      "sense_id": "sense-staged-ox-a491395c73e455fa-p12-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-31bdb59c1c1258d3",
+      "lemma": "thrilled",
+      "pos": "adj.",
+      "sense_zh": "非常兴奋的",
+      "sentence_ids": [
+        "p12-c-30-s01"
+      ],
+      "forms": [
+        "thrilled"
+      ],
+      "sense_id": "sense-staged-ox-31bdb59c1c1258d3-p12-c-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

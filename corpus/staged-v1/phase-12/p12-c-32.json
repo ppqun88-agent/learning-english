@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-32",
+  "title_zh": "为神学参访确认礼拜观察边界",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "theology-visit-worship-boundary",
+    "label_zh": "为神学参访确认礼拜观察边界",
+    "goal_zh": "区分课程参访与参加礼拜并约定按接待人员提示安静观察"
+  },
+  "participants": [
+    "Ivo",
+    "Ms Hart"
+  ],
+  "context_zh": "虚构神学课程学生联系一处愿意接待参访的宗教场所，只讨论参访礼仪与自主选择，不评价信仰优劣。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-32-s01",
+      "speaker": "Ivo",
+      "text": "Our theology class is visiting on Friday. Are we expected to join the worship?"
+    },
+    {
+      "id": "p12-c-32-s02",
+      "speaker": "Ms Hart",
+      "text": "No. You're welcome to observe from the rear seats, but participation is entirely your choice."
+    },
+    {
+      "id": "p12-c-32-s03",
+      "speaker": "Ivo",
+      "text": "Thank you. We want to learn without getting in anyone's way."
+    },
+    {
+      "id": "p12-c-32-s04",
+      "speaker": "Ms Hart",
+      "text": "That's welcome. We value tolerance here, so visitors don't have to share our beliefs. Please save questions for the conversation afterwards."
+    },
+    {
+      "id": "p12-c-32-s05",
+      "speaker": "Ivo",
+      "text": "Of course. We'll sit where you direct us and keep our questions until the end."
+    },
+    {
+      "id": "p12-c-32-s06",
+      "speaker": "Ms Hart",
+      "text": "I'll meet your group at the entrance and show you the seats."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4757fc5d45ec9e20",
+      "lemma": "theology",
+      "pos": "n.",
+      "sense_zh": "神学",
+      "sentence_ids": [
+        "p12-c-32-s01"
+      ],
+      "forms": [
+        "theology"
+      ],
+      "sense_id": "sense-staged-ox-4757fc5d45ec9e20-p12-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-438f259aff116ee4",
+      "lemma": "worship",
+      "pos": "n.",
+      "sense_zh": "礼拜、宗教敬拜",
+      "sentence_ids": [
+        "p12-c-32-s01"
+      ],
+      "forms": [
+        "worship"
+      ],
+      "sense_id": "sense-staged-ox-438f259aff116ee4-p12-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6a1a8ee7b85c0e8",
+      "lemma": "tolerance",
+      "pos": "n.",
+      "sense_zh": "包容、尊重差异",
+      "sentence_ids": [
+        "p12-c-32-s04"
+      ],
+      "forms": [
+        "tolerance"
+      ],
+      "sense_id": "sense-staged-ox-d6a1a8ee7b85c0e8-p12-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

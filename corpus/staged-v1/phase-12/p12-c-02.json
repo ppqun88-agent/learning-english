@@ -1,0 +1,116 @@
+{
+  "id": "p12-c-02",
+  "title_zh": "确定周年致敬歌曲的选段",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "anniversary-song-tribute-verse",
+    "label_zh": "确定周年致敬歌曲的选段",
+    "goal_zh": "说明歌曲向旧老师致敬的意义并选定第二段后接副歌"
+  },
+  "participants": [
+    "Mira",
+    "Joel"
+  ],
+  "context_zh": "音乐三人组中的两位成员为成立周年活动选歌；他们准备向曾教过三人的老师致敬。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-02-s01",
+      "speaker": "Mira",
+      "text": "Could our trio play this song as a tribute to Ms Lane? She taught all three of us."
+    },
+    {
+      "id": "p12-c-02-s02",
+      "speaker": "Joel",
+      "text": "She didn't write it, though. Will people understand why we've chosen it?"
+    },
+    {
+      "id": "p12-c-02-s03",
+      "speaker": "Mira",
+      "text": "We can explain that it's symbolic: the song is about helping someone find their voice."
+    },
+    {
+      "id": "p12-c-02-s04",
+      "speaker": "Joel",
+      "text": "Then let's use the second verse. That's where the younger singer finally joins in."
+    },
+    {
+      "id": "p12-c-02-s05",
+      "speaker": "Mira",
+      "text": "Good choice. Second verse, then the chorus, without the long introduction?"
+    },
+    {
+      "id": "p12-c-02-s06",
+      "speaker": "Joel",
+      "text": "Yes. I'll mark that in all three copies."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7d9a408a79a68813",
+      "lemma": "symbolic",
+      "pos": "adj.",
+      "sense_zh": "象征性的",
+      "sentence_ids": [
+        "p12-c-02-s03"
+      ],
+      "forms": [
+        "symbolic"
+      ],
+      "sense_id": "sense-staged-ox-7d9a408a79a68813-p12-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6c7eab1e047d1fe",
+      "lemma": "tribute",
+      "pos": "n.",
+      "sense_zh": "致敬",
+      "sentence_ids": [
+        "p12-c-02-s01"
+      ],
+      "forms": [
+        "tribute"
+      ],
+      "sense_id": "sense-staged-ox-b6c7eab1e047d1fe-p12-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fa9772eb96cc97b5",
+      "lemma": "trio",
+      "pos": "n.",
+      "sense_zh": "三人组合",
+      "sentence_ids": [
+        "p12-c-02-s01"
+      ],
+      "forms": [
+        "trio"
+      ],
+      "sense_id": "sense-staged-ox-fa9772eb96cc97b5-p12-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66d40253a3baa291",
+      "lemma": "verse",
+      "pos": "n.",
+      "sense_zh": "歌曲的一段歌词",
+      "sentence_ids": [
+        "p12-c-02-s04"
+      ],
+      "forms": [
+        "verse"
+      ],
+      "sense_id": "sense-staged-ox-66d40253a3baa291-p12-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

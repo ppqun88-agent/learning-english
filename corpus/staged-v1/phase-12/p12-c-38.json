@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-38",
+  "title_zh": "按证据限制削弱报告建议的力度",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "report-recommendation-strength",
+    "label_zh": "按证据限制削弱报告建议的力度",
+    "goal_zh": "区分局部证据缺陷与全盘否定并约定调低建议强度并说明适用范围"
+  },
+  "participants": [
+    "Tobin",
+    "Yara"
+  ],
+  "context_zh": "两位研究课学生讨论虚构活动评估报告，样本只有六次访谈；不作现实政策或专业决策。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-38-s01",
+      "speaker": "Tobin",
+      "text": "Does the small sample undermine the whole report?"
+    },
+    {
+      "id": "p12-c-38-s02",
+      "speaker": "Yara",
+      "text": "Not wholly. The six interviews still contain useful observations; they just don't represent everyone."
+    },
+    {
+      "id": "p12-c-38-s03",
+      "speaker": "Tobin",
+      "text": "Then the problem is our recommendation to change every branch at once."
+    },
+    {
+      "id": "p12-c-38-s04",
+      "speaker": "Yara",
+      "text": "Yes. We should weaken that recommendation and suggest a small pilot instead."
+    },
+    {
+      "id": "p12-c-38-s05",
+      "speaker": "Tobin",
+      "text": "I'll make that change and state exactly who we interviewed."
+    },
+    {
+      "id": "p12-c-38-s06",
+      "speaker": "Yara",
+      "text": "That keeps the useful evidence without making it carry more weight than it can."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-df20565b7f20811e",
+      "lemma": "undermine",
+      "pos": "v.",
+      "sense_zh": "削弱可信度",
+      "sentence_ids": [
+        "p12-c-38-s01"
+      ],
+      "forms": [
+        "undermine"
+      ],
+      "sense_id": "sense-staged-ox-df20565b7f20811e-p12-c-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a3296fcd17bcb92",
+      "lemma": "weaken",
+      "pos": "v.",
+      "sense_zh": "减弱、降低力度",
+      "sentence_ids": [
+        "p12-c-38-s04"
+      ],
+      "forms": [
+        "weaken"
+      ],
+      "sense_id": "sense-staged-ox-7a3296fcd17bcb92-p12-c-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e494cb396a2bdf8c",
+      "lemma": "wholly",
+      "pos": "adv.",
+      "sense_zh": "完全地",
+      "sentence_ids": [
+        "p12-c-38-s02"
+      ],
+      "forms": [
+        "wholly"
+      ],
+      "sense_id": "sense-staged-ox-e494cb396a2bdf8c-p12-c-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

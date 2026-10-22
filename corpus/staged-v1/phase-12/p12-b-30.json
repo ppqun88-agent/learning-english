@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-30",
+  "title_zh": "确认桌游中交出角色卡的条件",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "board-game-spy-surrender-rule",
+    "label_zh": "桌游间谍角色的交卡规则",
+    "goal_zh": "核对被发现后的角色规则并决定保留本轮角色卡"
+  },
+  "participants": [
+    "Jules",
+    "Hana"
+  ],
+  "context_zh": "朋友 Jules 与 Hana 正在玩一款虚构桌游，并查阅该游戏自定规则。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-30-s01",
+      "speaker": "Jules",
+      "text": "I’m a spy this round. If someone discovers me, do I have to surrender my character card?"
+    },
+    {
+      "id": "p12-b-30-s02",
+      "speaker": "Hana",
+      "text": "Not immediately. Our standing rule is that you keep it unless you lose the next challenge."
+    },
+    {
+      "id": "p12-b-30-s03",
+      "speaker": "Jules",
+      "text": "I thought being discovered meant I was out."
+    },
+    {
+      "id": "p12-b-30-s04",
+      "speaker": "Hana",
+      "text": "That was the practice round. Look, the note for the main game gives you one more challenge."
+    },
+    {
+      "id": "p12-b-30-s05",
+      "speaker": "Jules",
+      "text": "Right. I’ll keep my card and play the challenge."
+    },
+    {
+      "id": "p12-b-30-s06",
+      "speaker": "Hana",
+      "text": "Exactly. You’re still in the game for now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c260d7a7e4c9ee41",
+      "lemma": "spy",
+      "pos": "n.",
+      "sense_zh": "间谍角色",
+      "sentence_ids": [
+        "p12-b-30-s01"
+      ],
+      "forms": [
+        "spy"
+      ],
+      "sense_id": "sense-staged-ox-c260d7a7e4c9ee41-p12-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1070ce7e692b2ea2",
+      "lemma": "surrender",
+      "pos": "v.",
+      "sense_zh": "交出",
+      "sentence_ids": [
+        "p12-b-30-s01"
+      ],
+      "forms": [
+        "surrender"
+      ],
+      "sense_id": "sense-staged-ox-1070ce7e692b2ea2-p12-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7fcb526fe30792d7",
+      "lemma": "standing",
+      "pos": "adj.",
+      "sense_zh": "长期有效或常设的",
+      "sentence_ids": [
+        "p12-b-30-s02"
+      ],
+      "forms": [
+        "standing"
+      ],
+      "sense_id": "sense-staged-ox-7fcb526fe30792d7-p12-b-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

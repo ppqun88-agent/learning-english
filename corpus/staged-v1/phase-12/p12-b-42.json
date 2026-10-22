@@ -1,0 +1,84 @@
+{
+  "id": "p12-b-42",
+  "title_zh": "请求暂停虚构摄像试行并补充说明",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-camera-trial-pause-request",
+    "label_zh": "虚构居民会议的摄像试行疑问",
+    "goal_zh": "提出摄像资料管理疑问并约定将暂停请求列入议程"
+  },
+  "participants": [
+    "Daniel",
+    "Mei"
+  ],
+  "context_zh": "完全虚构的公民沟通练习：居民角色 Daniel 与会议组织者角色 Mei 讨论一项拟议的楼内摄像试行，不陈述现实法律要求。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-42-s01",
+      "speaker": "Daniel",
+      "text": "The notice announces a surveillance trial, but it doesn’t say who can view the recordings."
+    },
+    {
+      "id": "p12-b-42-s02",
+      "speaker": "Mei",
+      "text": "It lists the proposed camera locations. Does it give a date for deleting the footage?"
+    },
+    {
+      "id": "p12-b-42-s03",
+      "speaker": "Daniel",
+      "text": "No. I want to request a suspension of the trial until those questions have been answered."
+    },
+    {
+      "id": "p12-b-42-s04",
+      "speaker": "Mei",
+      "text": "I can put that request on the meeting agenda. I can’t approve a suspension myself."
+    },
+    {
+      "id": "p12-b-42-s05",
+      "speaker": "Daniel",
+      "text": "That’s what I’m asking for. Please include both access to the recordings and how long they would be kept."
+    },
+    {
+      "id": "p12-b-42-s06",
+      "speaker": "Mei",
+      "text": "I’ll list those questions with your request, so the committee can respond."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dfc834effc54dd6f",
+      "lemma": "surveillance",
+      "pos": "n.",
+      "sense_zh": "监视或监控",
+      "sentence_ids": [
+        "p12-b-42-s01"
+      ],
+      "forms": [
+        "surveillance"
+      ],
+      "sense_id": "sense-staged-ox-dfc834effc54dd6f-p12-b-42",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8154a89d10849b88",
+      "lemma": "suspension",
+      "pos": "n.",
+      "sense_zh": "暂停",
+      "sentence_ids": [
+        "p12-b-42-s03"
+      ],
+      "forms": [
+        "suspension"
+      ],
+      "sense_id": "sense-staged-ox-8154a89d10849b88-p12-b-42",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

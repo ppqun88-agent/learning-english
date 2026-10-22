@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-33",
+  "title_zh": "把车站地图箭头引向开放入口",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "suburban-stop-map-wayfinding",
+    "label_zh": "虚构郊区车站的地图引导",
+    "goal_zh": "核对站点与入口位置并约定避免把访客引向施工门"
+  },
+  "participants": [
+    "Nina",
+    "Ash"
+  ],
+  "context_zh": "虚构城镇地图设计练习：设计师 Nina 与志愿者 Ash 为郊区火车站更新访客地图。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-33-s01",
+      "speaker": "Nina",
+      "text": "This suburban station is situated on the east side of the canal, correct?"
+    },
+    {
+      "id": "p12-b-33-s02",
+      "speaker": "Ash",
+      "text": "Yes, but the open entrance is on its south side. Your arrow points to the construction gate."
+    },
+    {
+      "id": "p12-b-33-s03",
+      "speaker": "Nina",
+      "text": "I followed the building outline instead of the entrance marker."
+    },
+    {
+      "id": "p12-b-33-s04",
+      "speaker": "Ash",
+      "text": "We need the map to steer visitors toward the open entrance, not the fenced gate."
+    },
+    {
+      "id": "p12-b-33-s05",
+      "speaker": "Nina",
+      "text": "I’ll move the arrow and add the entrance label beside it."
+    },
+    {
+      "id": "p12-b-33-s06",
+      "speaker": "Ash",
+      "text": "Good. I’ll check it against the site diagram before we print."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d9b88c985b94946c",
+      "lemma": "suburban",
+      "pos": "adj.",
+      "sense_zh": "郊区的",
+      "sentence_ids": [
+        "p12-b-33-s01"
+      ],
+      "forms": [
+        "suburban"
+      ],
+      "sense_id": "sense-staged-ox-d9b88c985b94946c-p12-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-355a4efb49d60a2f",
+      "lemma": "situated",
+      "pos": "adj.",
+      "sense_zh": "位于某处的",
+      "sentence_ids": [
+        "p12-b-33-s01"
+      ],
+      "forms": [
+        "situated"
+      ],
+      "sense_id": "sense-staged-ox-355a4efb49d60a2f-p12-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cfe16ab90b86cebf",
+      "lemma": "steer",
+      "pos": "v.",
+      "sense_zh": "引导",
+      "sentence_ids": [
+        "p12-b-33-s04"
+      ],
+      "forms": [
+        "steer"
+      ],
+      "sense_id": "sense-staged-ox-cfe16ab90b86cebf-p12-b-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-10",
+  "title_zh": "抓住音乐会问答机会问具体问题",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "concert-question-discussion-opportunity",
+    "label_zh": "音乐会问答的问题选择",
+    "goal_zh": "选择关于该曲灵感的问题并决定提出该问题"
+  },
+  "participants": [
+    "Clara",
+    "Dev"
+  ],
+  "context_zh": "观众 Clara 与 Dev 在音乐会后的问答开始前商量提问。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-10-s01",
+      "speaker": "Clara",
+      "text": "I seldom get the chance to ask a composer about a piece in person."
+    },
+    {
+      "id": "p12-b-10-s02",
+      "speaker": "Dev",
+      "text": "Then seize the opportunity. What did you most want to know during the performance?"
+    },
+    {
+      "id": "p12-b-10-s03",
+      "speaker": "Clara",
+      "text": "The opening sounded like rain. I wondered whether a real place inspired it."
+    },
+    {
+      "id": "p12-b-10-s04",
+      "speaker": "Dev",
+      "text": "That could spark an interesting discussion. It’s more specific than asking where ideas come from in general."
+    },
+    {
+      "id": "p12-b-10-s05",
+      "speaker": "Clara",
+      "text": "I’ll ask whether a place inspired that opening, and keep the question short."
+    },
+    {
+      "id": "p12-b-10-s06",
+      "speaker": "Dev",
+      "text": "Go for it. The moderator is looking for the next hand."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5f8321ff939ca61d",
+      "lemma": "seldom",
+      "pos": "adv.",
+      "sense_zh": "很少",
+      "sentence_ids": [
+        "p12-b-10-s01"
+      ],
+      "forms": [
+        "seldom"
+      ],
+      "sense_id": "sense-staged-ox-5f8321ff939ca61d-p12-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d315aab5becde9a",
+      "lemma": "seize",
+      "pos": "v.",
+      "sense_zh": "抓住机会",
+      "sentence_ids": [
+        "p12-b-10-s02"
+      ],
+      "forms": [
+        "seize"
+      ],
+      "sense_id": "sense-staged-ox-1d315aab5becde9a-p12-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7d0054b4fcd60c23",
+      "lemma": "spark",
+      "pos": "v.",
+      "sense_zh": "引发",
+      "sentence_ids": [
+        "p12-b-10-s04"
+      ],
+      "forms": [
+        "spark"
+      ],
+      "sense_id": "sense-staged-ox-7d0054b4fcd60c23-p12-b-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

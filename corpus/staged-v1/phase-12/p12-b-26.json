@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-26",
+  "title_zh": "报告带有通讯标识的可疑邮件",
+  "topic_id": "services",
+  "scenario": {
+    "id": "newsletter-spam-surge-report",
+    "label_zh": "通讯订阅者的可疑邮件报告",
+    "goal_zh": "说明垃圾邮件增加的情况并约定提交去除地址的截图供核查"
+  },
+  "participants": [
+    "Naomi",
+    "Arjun"
+  ],
+  "context_zh": "虚构客服练习：通讯订阅者 Naomi 向服务支持员 Arjun 报告邮件问题，不涉及真实账号资料。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-26-s01",
+      "speaker": "Naomi",
+      "text": "I’ve been a subscriber for a year, but this week there’s been a surge in spam using your newsletter logo."
+    },
+    {
+      "id": "p12-b-26-s02",
+      "speaker": "Arjun",
+      "text": "What makes the messages look suspicious to you?"
+    },
+    {
+      "id": "p12-b-26-s03",
+      "speaker": "Naomi",
+      "text": "They ask me to pay a fee through a link, and the wording is different from your usual messages."
+    },
+    {
+      "id": "p12-b-26-s04",
+      "speaker": "Arjun",
+      "text": "That’s worth checking. A copied logo alone doesn’t tell us who sent them."
+    },
+    {
+      "id": "p12-b-26-s05",
+      "speaker": "Naomi",
+      "text": "I can send a screenshot with my address hidden. Would that help?"
+    },
+    {
+      "id": "p12-b-26-s06",
+      "speaker": "Arjun",
+      "text": "Yes. Send it through the support form, and we’ll compare it with our recent mailings."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-87abcd1884170599",
+      "lemma": "subscriber",
+      "pos": "n.",
+      "sense_zh": "订阅者",
+      "sentence_ids": [
+        "p12-b-26-s01"
+      ],
+      "forms": [
+        "subscriber"
+      ],
+      "sense_id": "sense-staged-ox-87abcd1884170599-p12-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f3612da7b04c001f",
+      "lemma": "surge",
+      "pos": "n.",
+      "sense_zh": "突然大量增加",
+      "sentence_ids": [
+        "p12-b-26-s01"
+      ],
+      "forms": [
+        "surge"
+      ],
+      "sense_id": "sense-staged-ox-f3612da7b04c001f-p12-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9dbfddaaa2e3224c",
+      "lemma": "spam",
+      "pos": "n.",
+      "sense_zh": "垃圾邮件",
+      "sentence_ids": [
+        "p12-b-26-s01"
+      ],
+      "forms": [
+        "spam"
+      ],
+      "sense_id": "sense-staged-ox-9dbfddaaa2e3224c-p12-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-89f0745eec53cf3d",
+      "lemma": "suspicious",
+      "pos": "adj.",
+      "sense_zh": "可疑的",
+      "sentence_ids": [
+        "p12-b-26-s02"
+      ],
+      "forms": [
+        "suspicious"
+      ],
+      "sense_id": "sense-staged-ox-89f0745eec53cf3d-p12-b-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

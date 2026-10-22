@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-10",
+  "title_zh": "按课堂规程准备探头演示",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "training-probe-handling-protocol",
+    "label_zh": "按课堂给定规程准备传感探头演示",
+    "goal_zh": "核对探头演示的操作分工并约定由教师调整设置"
+  },
+  "participants": [
+    "Sora",
+    "Daniel"
+  ],
+  "context_zh": "课堂沟通练习。学员 Sora 与教师 Daniel 依据本次课程的给定安全说明准备水温传感器演示。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-10-s01",
+      "speaker": "Sora",
+      "text": "Is this the probe for the water-temperature demonstration?"
+    },
+    {
+      "id": "p12-a-10-s02",
+      "speaker": "Daniel",
+      "text": "Yes. Leave it on the tray for now, and keep the protective screen in place."
+    },
+    {
+      "id": "p12-a-10-s03",
+      "speaker": "Sora",
+      "text": "The protocol on our worksheet says only the instructor changes the settings."
+    },
+    {
+      "id": "p12-a-10-s04",
+      "speaker": "Daniel",
+      "text": "That's right. I'll handle the controls; you can read the display from your seat."
+    },
+    {
+      "id": "p12-a-10-s05",
+      "speaker": "Sora",
+      "text": "So I'll record the numbers when you tell me the sensor is ready?"
+    },
+    {
+      "id": "p12-a-10-s06",
+      "speaker": "Daniel",
+      "text": "Exactly. We'll check the worksheet together before I begin."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e59d06ca006f45d0",
+      "lemma": "protective",
+      "pos": "adj.",
+      "sense_zh": "起防护作用的",
+      "sentence_ids": [
+        "p12-a-10-s02"
+      ],
+      "forms": [
+        "protective"
+      ],
+      "sense_id": "sense-staged-ox-e59d06ca006f45d0-p12-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d6aa5418132febd",
+      "lemma": "protocol",
+      "pos": "n.",
+      "sense_zh": "规定的操作规程",
+      "sentence_ids": [
+        "p12-a-10-s03"
+      ],
+      "forms": [
+        "protocol"
+      ],
+      "sense_id": "sense-staged-ox-1d6aa5418132febd-p12-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66d725629bd48363",
+      "lemma": "probe",
+      "pos": "n.",
+      "sense_zh": "用于探测或测量的探头",
+      "sentence_ids": [
+        "p12-a-10-s01"
+      ],
+      "forms": [
+        "probe"
+      ],
+      "sense_id": "sense-staged-ox-66d725629bd48363-p12-a-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

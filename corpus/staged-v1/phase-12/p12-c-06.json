@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-06",
+  "title_zh": "约定敏感口述历史采访的边界",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "oral-history-trauma-consent",
+    "label_zh": "约定敏感口述历史采访的边界",
+    "goal_zh": "承认受访者可以不谈创伤经历并约定预先分享问题并允许随时暂停"
+  },
+  "participants": [
+    "Elena",
+    "Marcus"
+  ],
+  "context_zh": "采访课程的虚构角色练习。两名成年人准备采访一位虚构的创伤经历者，只讨论知情参与和沟通边界。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-06-s01",
+      "speaker": "Elena",
+      "text": "Our outline asks about the period of imprisonment. Do we really need a question about torture?"
+    },
+    {
+      "id": "p12-c-06-s02",
+      "speaker": "Marcus",
+      "text": "No. We shouldn't assume someone wants to describe that trauma for our project."
+    },
+    {
+      "id": "p12-c-06-s03",
+      "speaker": "Elena",
+      "text": "Especially if the interview could leave them feeling vulnerable."
+    },
+    {
+      "id": "p12-c-06-s04",
+      "speaker": "Marcus",
+      "text": "Let's send the questions first and say they can remove any of them."
+    },
+    {
+      "id": "p12-c-06-s05",
+      "speaker": "Elena",
+      "text": "And we'll make clear that they can pause or stop, with no explanation required."
+    },
+    {
+      "id": "p12-c-06-s06",
+      "speaker": "Marcus",
+      "text": "Agreed. I'll add those choices to the invitation before we send it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c3dae8e5ed1b988a",
+      "lemma": "trauma",
+      "pos": "n.",
+      "sense_zh": "创伤经历",
+      "sentence_ids": [
+        "p12-c-06-s02"
+      ],
+      "forms": [
+        "trauma"
+      ],
+      "sense_id": "sense-staged-ox-c3dae8e5ed1b988a-p12-c-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4597b14ca946ba64",
+      "lemma": "torture",
+      "pos": "n.",
+      "sense_zh": "酷刑",
+      "sentence_ids": [
+        "p12-c-06-s01"
+      ],
+      "forms": [
+        "torture"
+      ],
+      "sense_id": "sense-staged-ox-4597b14ca946ba64-p12-c-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-02f857d0bf49bb0d",
+      "lemma": "vulnerable",
+      "pos": "adj.",
+      "sense_zh": "脆弱的、易受伤害的",
+      "sentence_ids": [
+        "p12-c-06-s03"
+      ],
+      "forms": [
+        "vulnerable"
+      ],
+      "sense_id": "sense-staged-ox-02f857d0bf49bb0d-p12-c-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

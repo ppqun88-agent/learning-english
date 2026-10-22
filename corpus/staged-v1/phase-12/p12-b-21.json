@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-21",
+  "title_zh": "约好周五补上缺课内容",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "lesson-makeup-slot-request",
+    "label_zh": "为缺课内容安排补课时段",
+    "goal_zh": "说明不想跳过缺课内容并约定周五中午补课"
+  },
+  "participants": [
+    "Amina",
+    "Joel"
+  ],
+  "context_zh": "成年学员 Amina 向教师 Joel 询问上一周缺课内容的补课机会。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-21-s01",
+      "speaker": "Amina",
+      "text": "I missed Wednesday’s lesson, and I don’t want to skip that section altogether."
+    },
+    {
+      "id": "p12-b-21-s02",
+      "speaker": "Joel",
+      "text": "There’s a spare slot at noon on Friday. Would you be able to come then?"
+    },
+    {
+      "id": "p12-b-21-s03",
+      "speaker": "Amina",
+      "text": "Yes. I was worried you’d have to squeeze me into an already crowded class."
+    },
+    {
+      "id": "p12-b-21-s04",
+      "speaker": "Joel",
+      "text": "No, this is time I keep for individual catch-up sessions."
+    },
+    {
+      "id": "p12-b-21-s05",
+      "speaker": "Amina",
+      "text": "Friday at noon works for me. I’ll bring the worksheet."
+    },
+    {
+      "id": "p12-b-21-s06",
+      "speaker": "Joel",
+      "text": "Good. I’ll see you then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f5573e125cb9472e",
+      "lemma": "skip",
+      "pos": "v.",
+      "sense_zh": "跳过不学",
+      "sentence_ids": [
+        "p12-b-21-s01"
+      ],
+      "forms": [
+        "skip"
+      ],
+      "sense_id": "sense-staged-ox-f5573e125cb9472e-p12-b-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d5ba3d0539ad29d2",
+      "lemma": "slot",
+      "pos": "n.",
+      "sense_zh": "可安排活动的时段",
+      "sentence_ids": [
+        "p12-b-21-s02"
+      ],
+      "forms": [
+        "slot"
+      ],
+      "sense_id": "sense-staged-ox-d5ba3d0539ad29d2-p12-b-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84913df181213f76",
+      "lemma": "squeeze",
+      "pos": "v.",
+      "sense_zh": "勉强挤入安排",
+      "sentence_ids": [
+        "p12-b-21-s03"
+      ],
+      "forms": [
+        "squeeze"
+      ],
+      "sense_id": "sense-staged-ox-84913df181213f76-p12-b-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

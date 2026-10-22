@@ -1,0 +1,105 @@
+{
+  "id": "p12-a-19",
+  "title_zh": "请求检查视频导出变慢的原因",
+  "topic_id": "services",
+  "scenario": {
+    "id": "video-render-processing-delay-check",
+    "label_zh": "比较视频导出任务并请求设备性能检查",
+    "goal_zh": "说明相同视频导出耗时的变化并约定先检查而不直接更换部件"
+  },
+  "participants": [
+    "Finn",
+    "Yara"
+  ],
+  "context_zh": "顾客 Finn 向电脑维修人员 Yara 描述视频制作软件的问题，不预断故障部件。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-19-s01",
+      "speaker": "Finn",
+      "text": "This laptop used to render the same short video in a few minutes. Now it takes much longer."
+    },
+    {
+      "id": "p12-a-19-s02",
+      "speaker": "Yara",
+      "text": "Did the slowdown begin after a software update or a change to the project?"
+    },
+    {
+      "id": "p12-a-19-s03",
+      "speaker": "Finn",
+      "text": "After an update, I think. Is the processor too old?"
+    },
+    {
+      "id": "p12-a-19-s04",
+      "speaker": "Yara",
+      "text": "Possibly, but slow processing can have several causes. I'd like to compare the same project before recommending parts."
+    },
+    {
+      "id": "p12-a-19-s05",
+      "speaker": "Finn",
+      "text": "I can bring the original project and a note of the export settings."
+    },
+    {
+      "id": "p12-a-19-s06",
+      "speaker": "Yara",
+      "text": "That would help. Shall we start with an inspection rather than ordering a new processor?"
+    },
+    {
+      "id": "p12-a-19-s07",
+      "speaker": "Finn",
+      "text": "Yes, please check it first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-51a28d7d75f182b4",
+      "lemma": "processor",
+      "pos": "n.",
+      "sense_zh": "处理器",
+      "sentence_ids": [
+        "p12-a-19-s03"
+      ],
+      "forms": [
+        "processor"
+      ],
+      "sense_id": "sense-staged-ox-51a28d7d75f182b4-p12-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6739c2aa753b4148",
+      "lemma": "processing",
+      "pos": "n.",
+      "sense_zh": "数据处理过程",
+      "sentence_ids": [
+        "p12-a-19-s04"
+      ],
+      "forms": [
+        "processing"
+      ],
+      "sense_id": "sense-staged-ox-6739c2aa753b4148-p12-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b6bfcf510a260ac",
+      "lemma": "render",
+      "pos": "v.",
+      "sense_zh": "把视频素材处理生成输出画面",
+      "sentence_ids": [
+        "p12-a-19-s01"
+      ],
+      "forms": [
+        "render"
+      ],
+      "sense_id": "sense-staged-ox-7b6bfcf510a260ac-p12-a-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

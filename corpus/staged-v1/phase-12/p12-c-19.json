@@ -1,0 +1,95 @@
+{
+  "id": "p12-c-19",
+  "title_zh": "为编织样片选择线材",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "weaving-sample-thread-choice",
+    "label_zh": "为编织样片选择线材",
+    "goal_zh": "比较两种样片的触感并选择棉线编织小样片"
+  },
+  "participants": [
+    "Mina",
+    "Faye"
+  ],
+  "context_zh": "手工课上，导师给学生看两块不同线材编成的样片。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-19-s01",
+      "speaker": "Mina",
+      "text": "I like the colour of this sample, but its texture feels rather rough."
+    },
+    {
+      "id": "p12-c-19-s02",
+      "speaker": "Faye",
+      "text": "Try the other one. That uses cotton thread instead of the stiff cord."
+    },
+    {
+      "id": "p12-c-19-s03",
+      "speaker": "Mina",
+      "text": "That's much softer. Would it be easier for my first attempt?"
+    },
+    {
+      "id": "p12-c-19-s04",
+      "speaker": "Faye",
+      "text": "I think so. You could weave a small square before deciding what to make with it."
+    },
+    {
+      "id": "p12-c-19-s05",
+      "speaker": "Mina",
+      "text": "I'll use the cotton, then. A sample square is enough for today."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f9dcc3e79d3464b1",
+      "lemma": "weave",
+      "pos": "v.",
+      "sense_zh": "编织",
+      "sentence_ids": [
+        "p12-c-19-s04"
+      ],
+      "forms": [
+        "weave"
+      ],
+      "sense_id": "sense-staged-ox-f9dcc3e79d3464b1-p12-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1da4aaf367516632",
+      "lemma": "thread",
+      "pos": "n.",
+      "sense_zh": "线",
+      "sentence_ids": [
+        "p12-c-19-s02"
+      ],
+      "forms": [
+        "thread"
+      ],
+      "sense_id": "sense-staged-ox-1da4aaf367516632-p12-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-229ecacdcb0584b5",
+      "lemma": "texture",
+      "pos": "n.",
+      "sense_zh": "质地、触感",
+      "sentence_ids": [
+        "p12-c-19-s01"
+      ],
+      "forms": [
+        "texture"
+      ],
+      "sense_id": "sense-staged-ox-229ecacdcb0584b5-p12-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

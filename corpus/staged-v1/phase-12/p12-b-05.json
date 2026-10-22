@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-05",
+  "title_zh": "分清博物馆礼拜空间与世俗展区",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "museum-chapel-respectful-visit",
+    "label_zh": "馆内礼拜空间的参观礼仪",
+    "goal_zh": "确认礼拜室的拍照限制并选择先看世俗展区"
+  },
+  "participants": [
+    "Ellis",
+    "Rose"
+  ],
+  "context_zh": "访客 Ellis 向虚构博物馆接待员 Rose 询问馆内一间仍用于礼拜的小礼拜室。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-05-s01",
+      "speaker": "Ellis",
+      "text": "Is the small chapel part of the museum, or is it still used for worship?"
+    },
+    {
+      "id": "p12-b-05-s02",
+      "speaker": "Rose",
+      "text": "Both. It remains a sacred space, so we ask visitors not to take photographs inside."
+    },
+    {
+      "id": "p12-b-05-s03",
+      "speaker": "Ellis",
+      "text": "I wanted a picture of the painting of the saint above the doorway."
+    },
+    {
+      "id": "p12-b-05-s04",
+      "speaker": "Rose",
+      "text": "There’s a reproduction in the guidebook. Photography is allowed in our secular history gallery, though."
+    },
+    {
+      "id": "p12-b-05-s05",
+      "speaker": "Ellis",
+      "text": "I’ll start in that gallery, then visit the chapel without my camera out."
+    },
+    {
+      "id": "p12-b-05-s06",
+      "speaker": "Rose",
+      "text": "That’s fine. The history gallery is through the blue doors."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-df835af42c96671f",
+      "lemma": "sacred",
+      "pos": "adj.",
+      "sense_zh": "具有宗教神圣意义的",
+      "sentence_ids": [
+        "p12-b-05-s02"
+      ],
+      "forms": [
+        "sacred"
+      ],
+      "sense_id": "sense-staged-ox-df835af42c96671f-p12-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3859b0e87d4c3db6",
+      "lemma": "saint",
+      "pos": "n.",
+      "sense_zh": "圣人",
+      "sentence_ids": [
+        "p12-b-05-s03"
+      ],
+      "forms": [
+        "saint"
+      ],
+      "sense_id": "sense-staged-ox-3859b0e87d4c3db6-p12-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d77f9e8a88853c90",
+      "lemma": "secular",
+      "pos": "adj.",
+      "sense_zh": "非宗教的",
+      "sentence_ids": [
+        "p12-b-05-s04"
+      ],
+      "forms": [
+        "secular"
+      ],
+      "sense_id": "sense-staged-ox-d77f9e8a88853c90-p12-b-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

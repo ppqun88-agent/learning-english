@@ -1,0 +1,105 @@
+{
+  "id": "p12-a-36",
+  "title_zh": "约好先查胶痕处理的护理说明",
+  "topic_id": "home",
+  "scenario": {
+    "id": "adhesive-residue-removal-test",
+    "label_zh": "先查护理说明再决定胶痕处理方式",
+    "goal_zh": "识别桌面残胶及材质不确定性并决定先找护理说明"
+  },
+  "participants": [
+    "Noor",
+    "Alex"
+  ],
+  "context_zh": "室友 Noor 与 Alex 检查自家桌面上的胶带残留，未确定表面涂层，不使用具体化学配方。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-36-s01",
+      "speaker": "Noor",
+      "text": "The tape has left a sticky residue on the table."
+    },
+    {
+      "id": "p12-a-36-s02",
+      "speaker": "Alex",
+      "text": "I found a spray advertised as a remedy for that, but I don't know whether it suits this finish."
+    },
+    {
+      "id": "p12-a-36-s03",
+      "speaker": "Noor",
+      "text": "The label says removal depends on the surface material. Do we still have the care sheet for the table?"
+    },
+    {
+      "id": "p12-a-36-s04",
+      "speaker": "Alex",
+      "text": "I think it's with the receipt."
+    },
+    {
+      "id": "p12-a-36-s05",
+      "speaker": "Noor",
+      "text": "Let's find it before trying anything on the top."
+    },
+    {
+      "id": "p12-a-36-s06",
+      "speaker": "Alex",
+      "text": "Agreed. If the care sheet allows the product, we can follow its test instructions on a hidden area first."
+    },
+    {
+      "id": "p12-a-36-s07",
+      "speaker": "Noor",
+      "text": "I'll look for the receipt now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3cab0444188bb6b8",
+      "lemma": "removal",
+      "pos": "n.",
+      "sense_zh": "清除；去除",
+      "sentence_ids": [
+        "p12-a-36-s03"
+      ],
+      "forms": [
+        "removal"
+      ],
+      "sense_id": "sense-staged-ox-3cab0444188bb6b8-p12-a-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e1f6e33fbafb1f65",
+      "lemma": "residue",
+      "pos": "n.",
+      "sense_zh": "残留物",
+      "sentence_ids": [
+        "p12-a-36-s01"
+      ],
+      "forms": [
+        "residue"
+      ],
+      "sense_id": "sense-staged-ox-e1f6e33fbafb1f65-p12-a-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c018f3a2e8743046",
+      "lemma": "remedy",
+      "pos": "n.",
+      "sense_zh": "解决问题的办法或用品",
+      "sentence_ids": [
+        "p12-a-36-s02"
+      ],
+      "forms": [
+        "remedy"
+      ],
+      "sense_id": "sense-staged-ox-c018f3a2e8743046-p12-a-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

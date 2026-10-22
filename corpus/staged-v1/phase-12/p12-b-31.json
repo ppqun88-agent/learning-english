@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-31",
+  "title_zh": "搬运前请求检查手推车稳定性",
+  "topic_id": "work",
+  "scenario": {
+    "id": "exhibit-trolley-stability-check",
+    "label_zh": "展柜搬运前的手推车检查请求",
+    "goal_zh": "说明稳定性与身体负担的担忧并约定暂停搬运等待技术人员检查"
+  },
+  "participants": [
+    "Ada",
+    "Leon"
+  ],
+  "context_zh": "展馆员工 Ada 与 Leon 正准备搬动一只展柜，发现手推车晃动，尚未开始搬运。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-31-s01",
+      "speaker": "Ada",
+      "text": "I’m worried about the stability of this trolley. It rocks even before we put the cabinet on it."
+    },
+    {
+      "id": "p12-b-31-s02",
+      "speaker": "Leon",
+      "text": "I could try to stabilize it by holding the side as we move."
+    },
+    {
+      "id": "p12-b-31-s03",
+      "speaker": "Ada",
+      "text": "That would put a lot of strain on you, and it wouldn’t tell us why it’s rocking."
+    },
+    {
+      "id": "p12-b-31-s04",
+      "speaker": "Leon",
+      "text": "You’re right. Let’s leave the cabinet where it is and get the technician."
+    },
+    {
+      "id": "p12-b-31-s05",
+      "speaker": "Ada",
+      "text": "I’ll call. We should wait for the trolley to be checked before moving anything."
+    },
+    {
+      "id": "p12-b-31-s06",
+      "speaker": "Leon",
+      "text": "Agreed. I won’t load it in the meantime."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f4ef2321f99eab4d",
+      "lemma": "stability",
+      "pos": "n.",
+      "sense_zh": "稳定性",
+      "sentence_ids": [
+        "p12-b-31-s01"
+      ],
+      "forms": [
+        "stability"
+      ],
+      "sense_id": "sense-staged-ox-f4ef2321f99eab4d-p12-b-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc77eaa90f7731d4",
+      "lemma": "stabilize",
+      "pos": "v.",
+      "sense_zh": "使稳定",
+      "sentence_ids": [
+        "p12-b-31-s02"
+      ],
+      "forms": [
+        "stabilize"
+      ],
+      "sense_id": "sense-staged-ox-dc77eaa90f7731d4-p12-b-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44c68cfc8f7a839f",
+      "lemma": "strain",
+      "pos": "n.",
+      "sense_zh": "身体上的负担",
+      "sentence_ids": [
+        "p12-b-31-s03"
+      ],
+      "forms": [
+        "strain"
+      ],
+      "sense_id": "sense-staged-ox-44c68cfc8f7a839f-p12-b-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

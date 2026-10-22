@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-08",
+  "title_zh": "选择病房探视时带的卡片",
+  "topic_id": "health",
+  "scenario": {
+    "id": "hospital-ward-visit-card",
+    "label_zh": "选择病房探视时带的卡片",
+    "goal_zh": "核对病人已提出的探视偏好并约定带卡片并在病房外会合"
+  },
+  "participants": [
+    "Rosa",
+    "Neil"
+  ],
+  "context_zh": "虚构健康沟通练习。两位朋友准备探视刚做完肿瘤手术的共同朋友，讨论的是病人自己提出的探视需求。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-08-s01",
+      "speaker": "Rosa",
+      "text": "Have you heard what Dev would like us to bring to the ward?"
+    },
+    {
+      "id": "p12-c-08-s02",
+      "speaker": "Neil",
+      "text": "A card, mainly. After the tumor operation, he said he'd prefer a short, quiet visit."
+    },
+    {
+      "id": "p12-c-08-s03",
+      "speaker": "Rosa",
+      "text": "Then I won't bring the whole group. Has he asked for anything else?"
+    },
+    {
+      "id": "p12-c-08-s04",
+      "speaker": "Neil",
+      "text": "No, just the card. Your idea of getting everyone to sign it is thoughtful."
+    },
+    {
+      "id": "p12-c-08-s05",
+      "speaker": "Rosa",
+      "text": "I'll bring that, then. Shall we meet outside the ward at two?"
+    },
+    {
+      "id": "p12-c-08-s06",
+      "speaker": "Neil",
+      "text": "Yes. We can check with the desk before going in."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bfec0eb5b72204ec",
+      "lemma": "tumor",
+      "pos": "n.",
+      "sense_zh": "肿瘤",
+      "sentence_ids": [
+        "p12-c-08-s02"
+      ],
+      "forms": [
+        "tumor"
+      ],
+      "sense_id": "sense-staged-ox-bfec0eb5b72204ec-p12-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e97b07d2804a449b",
+      "lemma": "ward",
+      "pos": "n.",
+      "sense_zh": "病房",
+      "sentence_ids": [
+        "p12-c-08-s01"
+      ],
+      "forms": [
+        "ward"
+      ],
+      "sense_id": "sense-staged-ox-e97b07d2804a449b-p12-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8be2675ebd4b4741",
+      "lemma": "thoughtful",
+      "pos": "adj.",
+      "sense_zh": "体贴的",
+      "sentence_ids": [
+        "p12-c-08-s04"
+      ],
+      "forms": [
+        "thoughtful"
+      ],
+      "sense_id": "sense-staged-ox-8be2675ebd4b4741-p12-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

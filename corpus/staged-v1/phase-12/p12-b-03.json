@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-03",
+  "title_zh": "不把办公室传言当成解雇事实",
+  "topic_id": "work",
+  "scenario": {
+    "id": "office-dismissal-rumour-boundary",
+    "label_zh": "核对未经证实的解雇传言",
+    "goal_zh": "区分传闻与证据并约定只向经理询问人员安排"
+  },
+  "participants": [
+    "Priya",
+    "Ben"
+  ],
+  "context_zh": "虚构办公室沟通练习：同事 Priya 与 Ben 谈论尚未证实的团队人事传闻。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-03-s01",
+      "speaker": "Priya",
+      "text": "Have you heard the rumour about our manager? Supposedly, he wants to sack the whole evening team."
+    },
+    {
+      "id": "p12-b-03-s02",
+      "speaker": "Ben",
+      "text": "Who actually heard him say that?"
+    },
+    {
+      "id": "p12-b-03-s03",
+      "speaker": "Priya",
+      "text": "No one I’ve spoken to. The shift chart disappeared, and people started guessing."
+    },
+    {
+      "id": "p12-b-03-s04",
+      "speaker": "Ben",
+      "text": "That might explain the suspicion, but it doesn’t establish that anyone is losing a job."
+    },
+    {
+      "id": "p12-b-03-s05",
+      "speaker": "Priya",
+      "text": "I shouldn’t pass it on as news. I’ll ask him when the new staffing plan will be available."
+    },
+    {
+      "id": "p12-b-03-s06",
+      "speaker": "Ben",
+      "text": "Good. Ask about the plan, without repeating the accusation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2bc28503ae86a16a",
+      "lemma": "rumour",
+      "pos": "n.",
+      "sense_zh": "未经证实的传言",
+      "sentence_ids": [
+        "p12-b-03-s01"
+      ],
+      "forms": [
+        "rumour"
+      ],
+      "sense_id": "sense-staged-ox-2bc28503ae86a16a-p12-b-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e4c2d07c8e9fa5c",
+      "lemma": "supposedly",
+      "pos": "adv.",
+      "sense_zh": "据传但未获证实地",
+      "sentence_ids": [
+        "p12-b-03-s01"
+      ],
+      "forms": [
+        "supposedly"
+      ],
+      "sense_id": "sense-staged-ox-3e4c2d07c8e9fa5c-p12-b-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-15b131d4c3a3caac",
+      "lemma": "sack",
+      "pos": "v.",
+      "sense_zh": "解雇",
+      "sentence_ids": [
+        "p12-b-03-s01"
+      ],
+      "forms": [
+        "sack"
+      ],
+      "sense_id": "sense-staged-ox-15b131d4c3a3caac-p12-b-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77081fc1a8b6adfa",
+      "lemma": "suspicion",
+      "pos": "n.",
+      "sense_zh": "对可能情况的疑虑或猜疑",
+      "sentence_ids": [
+        "p12-b-03-s04"
+      ],
+      "forms": [
+        "suspicion"
+      ],
+      "sense_id": "sense-staged-ox-77081fc1a8b6adfa-p12-b-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-44",
+  "title_zh": "约定取回挂环并换上备用窗帘",
+  "topic_id": "home",
+  "scenario": {
+    "id": "curtain-rod-ring-retrieval-plan",
+    "label_zh": "发现窗帘撕裂后约定先取回挂环再更换窗帘",
+    "goal_zh": "说明窗帘破损和挂环位置并约定轻取窗帘后改用备用品"
+  },
+  "participants": [
+    "Rowan",
+    "Ella"
+  ],
+  "context_zh": "室友 Rowan 与 Ella 查看窗帘上缘的破口和掉落的挂环，窗帘杆仍固定在原位。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-44-s01",
+      "speaker": "Rowan",
+      "text": "There's a tear near the top of the curtain, and the fabric is caught behind the rod."
+    },
+    {
+      "id": "p12-a-44-s02",
+      "speaker": "Ella",
+      "text": "Don't pull hard; that could rip it further."
+    },
+    {
+      "id": "p12-a-44-s03",
+      "speaker": "Rowan",
+      "text": "I can see a loose ring on the floor beside the chair."
+    },
+    {
+      "id": "p12-a-44-s04",
+      "speaker": "Ella",
+      "text": "I'll retrieve it. Can we take the curtain down carefully and use the spare one?"
+    },
+    {
+      "id": "p12-a-44-s05",
+      "speaker": "Rowan",
+      "text": "Yes. Let's leave the damaged curtain on the table and look at the tear properly later."
+    },
+    {
+      "id": "p12-a-44-s06",
+      "speaker": "Ella",
+      "text": "Fine. I'll collect the ring first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0b92ec84701063eb",
+      "lemma": "rip",
+      "pos": "v.",
+      "sense_zh": "撕破；扯裂",
+      "sentence_ids": [
+        "p12-a-44-s02"
+      ],
+      "forms": [
+        "rip"
+      ],
+      "sense_id": "sense-staged-ox-0b92ec84701063eb-p12-a-44",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7dcf2a5c080d058e",
+      "lemma": "rod",
+      "pos": "n.",
+      "sense_zh": "杆；窗帘杆",
+      "sentence_ids": [
+        "p12-a-44-s01"
+      ],
+      "forms": [
+        "rod"
+      ],
+      "sense_id": "sense-staged-ox-7dcf2a5c080d058e-p12-a-44",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b33b13560c0ab0f3",
+      "lemma": "retrieve",
+      "pos": "v.",
+      "sense_zh": "取回",
+      "sentence_ids": [
+        "p12-a-44-s04"
+      ],
+      "forms": [
+        "retrieve"
+      ],
+      "sense_id": "sense-staged-ox-b33b13560c0ab0f3-p12-a-44",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

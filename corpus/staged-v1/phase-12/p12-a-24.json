@@ -1,0 +1,79 @@
+{
+  "id": "p12-a-24",
+  "title_zh": "核对不同班次的问卷配额",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "survey-shift-quota-priority-ranking",
+    "label_zh": "改进不同班次的问卷配额和需求排序说明",
+    "goal_zh": "发现夜班答卷不足并约定补充收集后分别呈现需求排序"
+  },
+  "participants": [
+    "Morgan",
+    "Jia"
+  ],
+  "context_zh": "研究方法练习中，Morgan 与 Jia 使用虚构的员工休息区需求问卷，不用于评价或筛选员工。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-24-s01",
+      "speaker": "Morgan",
+      "text": "Our quota for the break-area survey was ten responses from each shift, but we have only three from the night team."
+    },
+    {
+      "id": "p12-a-24-s02",
+      "speaker": "Jia",
+      "text": "Then this ranking of improvements mostly reflects the other two shifts."
+    },
+    {
+      "id": "p12-a-24-s03",
+      "speaker": "Morgan",
+      "text": "Should we send one more invitation to the night team?"
+    },
+    {
+      "id": "p12-a-24-s04",
+      "speaker": "Jia",
+      "text": "Yes, without pressuring anyone. After that, show each shift's ranking and the number of responses."
+    },
+    {
+      "id": "p12-a-24-s05",
+      "speaker": "Morgan",
+      "text": "I'll revise the invitation and split the results by shift, with those counts beside each ranking."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4e99011eefc24f88",
+      "lemma": "ranking",
+      "pos": "n.",
+      "sense_zh": "按顺序排列的名次或排序",
+      "sentence_ids": [
+        "p12-a-24-s02"
+      ],
+      "forms": [
+        "ranking"
+      ],
+      "sense_id": "sense-staged-ox-4e99011eefc24f88-p12-a-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ae3fa37f41871a4",
+      "lemma": "quota",
+      "pos": "n.",
+      "sense_zh": "预定的数量配额",
+      "sentence_ids": [
+        "p12-a-24-s01"
+      ],
+      "forms": [
+        "quota"
+      ],
+      "sense_id": "sense-staged-ox-0ae3fa37f41871a4-p12-a-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

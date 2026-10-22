@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-43",
+  "title_zh": "确认业余乐团恢复排练的安排",
+  "topic_id": "community",
+  "scenario": {
+    "id": "orchestra-revival-first-rehearsal",
+    "label_zh": "恢复业余乐团并确认首次排练安排",
+    "goal_zh": "确认恢复排练所需场地已有答复并约定通知成员首次排练时间"
+  },
+  "participants": [
+    "Hana",
+    "Tom"
+  ],
+  "context_zh": "社区业余乐团组织者 Hana 与 Tom 在停办后筹备恢复活动。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-43-s01",
+      "speaker": "Hana",
+      "text": "There's real enthusiasm for a revival of the neighbourhood orchestra."
+    },
+    {
+      "id": "p12-a-43-s02",
+      "speaker": "Tom",
+      "text": "Yes, but to revive it we need more than interested messages. Have we secured a rehearsal room?"
+    },
+    {
+      "id": "p12-a-43-s03",
+      "speaker": "Hana",
+      "text": "The hall has confirmed our booking for Saturday at ten."
+    },
+    {
+      "id": "p12-a-43-s04",
+      "speaker": "Tom",
+      "text": "Then we can resume rehearsals with a short first session rather than promise a concert straight away."
+    },
+    {
+      "id": "p12-a-43-s05",
+      "speaker": "Hana",
+      "text": "I'll tell the players the time and ask them to bring the music we already have."
+    },
+    {
+      "id": "p12-a-43-s06",
+      "speaker": "Tom",
+      "text": "Good. I'll prepare a simple rehearsal plan for that first morning."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8de9cfce740099ec",
+      "lemma": "revival",
+      "pos": "n.",
+      "sense_zh": "重新兴起；恢复活动",
+      "sentence_ids": [
+        "p12-a-43-s01"
+      ],
+      "forms": [
+        "revival"
+      ],
+      "sense_id": "sense-staged-ox-8de9cfce740099ec-p12-a-43",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a1b21b33f8896581",
+      "lemma": "revive",
+      "pos": "v.",
+      "sense_zh": "使恢复活力或重新开展",
+      "sentence_ids": [
+        "p12-a-43-s02"
+      ],
+      "forms": [
+        "revive"
+      ],
+      "sense_id": "sense-staged-ox-a1b21b33f8896581-p12-a-43",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7575d7eb5fc76e34",
+      "lemma": "resume",
+      "pos": "v.",
+      "sense_zh": "恢复；重新开始",
+      "sentence_ids": [
+        "p12-a-43-s04"
+      ],
+      "forms": [
+        "resume"
+      ],
+      "sense_id": "sense-staged-ox-7575d7eb5fc76e34-p12-a-43",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,84 @@
+{
+  "id": "p12-a-14",
+  "title_zh": "留在观鸟台等待苍鹭觅食",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "bird-observation-prey-refuge-distance",
+    "label_zh": "在不惊扰鸟类的前提下选择观察位置",
+    "goal_zh": "说明靠近芦苇的顾虑并选定留在观鸟台观察"
+  },
+  "participants": [
+    "Rosa",
+    "Cal"
+  ],
+  "context_zh": "访客 Rosa 与湿地讲解员 Cal 在观鸟台看见一只苍鹭，讨论拍摄位置。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-14-s01",
+      "speaker": "Rosa",
+      "text": "I'd love a photograph of that heron catching its prey. Could we move closer?"
+    },
+    {
+      "id": "p12-a-14-s02",
+      "speaker": "Cal",
+      "text": "Let's stay here. Those reeds are a refuge for nesting birds, and walking into them would disturb the area."
+    },
+    {
+      "id": "p12-a-14-s03",
+      "speaker": "Rosa",
+      "text": "Can I see the water from the other end of this platform?"
+    },
+    {
+      "id": "p12-a-14-s04",
+      "speaker": "Cal",
+      "text": "Yes. There's a clear view past the left-hand post."
+    },
+    {
+      "id": "p12-a-14-s05",
+      "speaker": "Rosa",
+      "text": "Then I'll move along the platform and wait. A distant photograph is fine."
+    },
+    {
+      "id": "p12-a-14-s06",
+      "speaker": "Cal",
+      "text": "I'll show you the viewing gap without leaving the platform."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f37dc18bffb66ccb",
+      "lemma": "prey",
+      "pos": "n.",
+      "sense_zh": "被捕食的动物；猎物",
+      "sentence_ids": [
+        "p12-a-14-s01"
+      ],
+      "forms": [
+        "prey"
+      ],
+      "sense_id": "sense-staged-ox-f37dc18bffb66ccb-p12-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-702b6aa0375da92a",
+      "lemma": "refuge",
+      "pos": "n.",
+      "sense_zh": "庇护处",
+      "sentence_ids": [
+        "p12-a-14-s02"
+      ],
+      "forms": [
+        "refuge"
+      ],
+      "sense_id": "sense-staged-ox-702b6aa0375da92a-p12-a-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-02",
+  "title_zh": "区分虚构裁定与尚未决定的处罚",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-court-ruling-penalty-summary",
+    "label_zh": "虚构法院材料中的裁定与处罚",
+    "goal_zh": "核对重新举行听证的裁定并注明处罚尚未决定"
+  },
+  "participants": [
+    "Tariq",
+    "Lena"
+  ],
+  "context_zh": "课堂英语练习：Tariq 与 Lena 阅读一份完全虚构的法院案例摘要，不讨论现实诉讼或提供法律意见。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-02-s01",
+      "speaker": "Tariq",
+      "text": "I’ve put “the company must pay a fine” in our summary of the ruling."
+    },
+    {
+      "id": "p12-b-02-s02",
+      "speaker": "Lena",
+      "text": "Does the text say that? The supreme court of Lydora orders a new hearing, not a payment."
+    },
+    {
+      "id": "p12-b-02-s03",
+      "speaker": "Tariq",
+      "text": "You’re right. The final paragraph says the sanction has not been decided."
+    },
+    {
+      "id": "p12-b-02-s04",
+      "speaker": "Lena",
+      "text": "Then we should separate those two points in our notes."
+    },
+    {
+      "id": "p12-b-02-s05",
+      "speaker": "Tariq",
+      "text": "I’ll write “new hearing ordered” and “penalty still undecided.”"
+    },
+    {
+      "id": "p12-b-02-s06",
+      "speaker": "Lena",
+      "text": "That matches the case sheet. Let’s use those two lines."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4acb5f19efd6f0b5",
+      "lemma": "ruling",
+      "pos": "n.",
+      "sense_zh": "法院裁定",
+      "sentence_ids": [
+        "p12-b-02-s01"
+      ],
+      "forms": [
+        "ruling"
+      ],
+      "sense_id": "sense-staged-ox-4acb5f19efd6f0b5-p12-b-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-459f19c9932a23a9",
+      "lemma": "supreme",
+      "pos": "adj.",
+      "sense_zh": "最高级别的",
+      "sentence_ids": [
+        "p12-b-02-s02"
+      ],
+      "forms": [
+        "supreme"
+      ],
+      "sense_id": "sense-staged-ox-459f19c9932a23a9-p12-b-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a3762a42685b32b6",
+      "lemma": "sanction",
+      "pos": "n.",
+      "sense_zh": "处罚",
+      "sentence_ids": [
+        "p12-b-02-s03"
+      ],
+      "forms": [
+        "sanction"
+      ],
+      "sense_id": "sense-staged-ox-a3762a42685b32b6-p12-b-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

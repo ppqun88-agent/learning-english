@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-27",
+  "title_zh": "记录盆栽样本的叶片与茎变化",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "garden-leaf-specimen-record",
+    "label_zh": "植物样本的观察记录",
+    "goal_zh": "核对样本身份与叶茎观察并约定按日期记录而不猜病因"
+  },
+  "participants": [
+    "Pia",
+    "Mateo"
+  ],
+  "context_zh": "园艺课程中，成年学员 Pia 与 Mateo 对课堂种植的一盆豆苗做观察记录。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-27-s01",
+      "speaker": "Pia",
+      "text": "Is this specimen the bean plant from our first growing tray?"
+    },
+    {
+      "id": "p12-b-27-s02",
+      "speaker": "Mateo",
+      "text": "Yes, the label is still on the pot. It began to shed leaves last week."
+    },
+    {
+      "id": "p12-b-27-s03",
+      "speaker": "Pia",
+      "text": "The stem is still upright, but two of the lower leaves have fallen off."
+    },
+    {
+      "id": "p12-b-27-s04",
+      "speaker": "Mateo",
+      "text": "Should I write that it has a disease?"
+    },
+    {
+      "id": "p12-b-27-s05",
+      "speaker": "Pia",
+      "text": "We haven’t established that. Record what we can see and compare the dated photographs."
+    },
+    {
+      "id": "p12-b-27-s06",
+      "speaker": "Mateo",
+      "text": "All right. I’ll note the two fallen leaves and today’s date, without naming a cause."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9183b1df22ed5ba7",
+      "lemma": "specimen",
+      "pos": "n.",
+      "sense_zh": "供观察的样本",
+      "sentence_ids": [
+        "p12-b-27-s01"
+      ],
+      "forms": [
+        "specimen"
+      ],
+      "sense_id": "sense-staged-ox-9183b1df22ed5ba7-p12-b-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-800b9d5e2c601e88",
+      "lemma": "shed",
+      "pos": "v.",
+      "sense_zh": "脱落或掉落",
+      "sentence_ids": [
+        "p12-b-27-s02"
+      ],
+      "forms": [
+        "shed"
+      ],
+      "sense_id": "sense-staged-ox-800b9d5e2c601e88-p12-b-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b218790da59ac76",
+      "lemma": "stem",
+      "pos": "n.",
+      "sense_zh": "植物的茎",
+      "sentence_ids": [
+        "p12-b-27-s03"
+      ],
+      "forms": [
+        "stem"
+      ],
+      "sense_id": "sense-staged-ox-2b218790da59ac76-p12-b-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

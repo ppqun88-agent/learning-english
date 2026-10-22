@@ -1,0 +1,121 @@
+{
+  "id": "p12-b-35",
+  "title_zh": "整理能交给下任协调员的文件",
+  "topic_id": "work",
+  "scenario": {
+    "id": "coordinator-succession-handover-folder",
+    "label_zh": "协调员更替前的交接文件整理",
+    "goal_zh": "指出历任文件分散的问题并约定为继任者整理统一交接清单"
+  },
+  "participants": [
+    "Rosa",
+    "Eli"
+  ],
+  "context_zh": "项目员工 Rosa 与直属主管 Eli 讨论即将发生的内部协调员交接。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-35-s01",
+      "speaker": "Rosa",
+      "text": "Three successive coordinators have left their notes in different folders. I can’t find a complete record."
+    },
+    {
+      "id": "p12-b-35-s02",
+      "speaker": "Eli",
+      "text": "That makes our succession plan rather weak. Your successor shouldn’t have to reconstruct everything."
+    },
+    {
+      "id": "p12-b-35-s03",
+      "speaker": "Rosa",
+      "text": "As my supervisor, could you help me decide which decisions need a formal record?"
+    },
+    {
+      "id": "p12-b-35-s04",
+      "speaker": "Eli",
+      "text": "Yes. Start with the current contacts, open commitments, and decisions that still need approval."
+    },
+    {
+      "id": "p12-b-35-s05",
+      "speaker": "Rosa",
+      "text": "I’ll put those into one handover checklist and link the older files, rather than overwrite them."
+    },
+    {
+      "id": "p12-b-35-s06",
+      "speaker": "Eli",
+      "text": "Good. We’ll go through the checklist together before the handover."
+    },
+    {
+      "id": "p12-b-35-s07",
+      "speaker": "Rosa",
+      "text": "That should leave the next person a clear starting point."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dcb0c9bd5e35e1eb",
+      "lemma": "successive",
+      "pos": "adj.",
+      "sense_zh": "连续相继的",
+      "sentence_ids": [
+        "p12-b-35-s01"
+      ],
+      "forms": [
+        "successive"
+      ],
+      "sense_id": "sense-staged-ox-dcb0c9bd5e35e1eb-p12-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe7eb258ea632299",
+      "lemma": "succession",
+      "pos": "n.",
+      "sense_zh": "职位接替",
+      "sentence_ids": [
+        "p12-b-35-s02"
+      ],
+      "forms": [
+        "succession"
+      ],
+      "sense_id": "sense-staged-ox-fe7eb258ea632299-p12-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b5fce59561061dda",
+      "lemma": "successor",
+      "pos": "n.",
+      "sense_zh": "继任者",
+      "sentence_ids": [
+        "p12-b-35-s02"
+      ],
+      "forms": [
+        "successor"
+      ],
+      "sense_id": "sense-staged-ox-b5fce59561061dda-p12-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08b59db1c3c0f028",
+      "lemma": "supervisor",
+      "pos": "n.",
+      "sense_zh": "主管",
+      "sentence_ids": [
+        "p12-b-35-s03"
+      ],
+      "forms": [
+        "supervisor"
+      ],
+      "sense_id": "sense-staged-ox-08b59db1c3c0f028-p12-b-35",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

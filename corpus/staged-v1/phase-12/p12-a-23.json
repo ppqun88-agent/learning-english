@@ -1,0 +1,121 @@
+{
+  "id": "p12-a-23",
+  "title_zh": "在展览海报上明确标注复制图",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "exhibition-poster-reproduction-label",
+    "label_zh": "区分展览海报复制图与原作并调整标签",
+    "goal_zh": "说明图像描绘的对象并约定让复制图标签更醒目"
+  },
+  "participants": [
+    "Ada",
+    "Miro"
+  ],
+  "context_zh": "馆员 Ada 与设计师 Miro 为虚构港口画作展制作海报，讨论一张获准使用的复制图。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-23-s01",
+      "speaker": "Ada",
+      "text": "The reproduction looks beautiful on the poster, but the label is tiny."
+    },
+    {
+      "id": "p12-a-23-s02",
+      "speaker": "Miro",
+      "text": "Would you like the artist's name to be more prominent?"
+    },
+    {
+      "id": "p12-a-23-s03",
+      "speaker": "Ada",
+      "text": "That too, but readers also need to know this isn't the original painting."
+    },
+    {
+      "id": "p12-a-23-s04",
+      "speaker": "Miro",
+      "text": "I'll enlarge the word 'reproduction' beneath the image."
+    },
+    {
+      "id": "p12-a-23-s05",
+      "speaker": "Ada",
+      "text": "Could we mention that it's a representation of the old harbour? It doesn't resemble the waterfront in the modern photograph beside it."
+    },
+    {
+      "id": "p12-a-23-s06",
+      "speaker": "Miro",
+      "text": "Yes. The painting shows docks that aren't in that photograph."
+    },
+    {
+      "id": "p12-a-23-s07",
+      "speaker": "Ada",
+      "text": "Then let's use that contrast in the caption and keep the reproduction label clearly visible."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e33ceaeac6d7d61c",
+      "lemma": "prominent",
+      "pos": "adj.",
+      "sense_zh": "醒目的；显著的",
+      "sentence_ids": [
+        "p12-a-23-s02"
+      ],
+      "forms": [
+        "prominent"
+      ],
+      "sense_id": "sense-staged-ox-e33ceaeac6d7d61c-p12-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a7a64baaf852acf",
+      "lemma": "representation",
+      "pos": "n.",
+      "sense_zh": "对对象的描绘",
+      "sentence_ids": [
+        "p12-a-23-s05"
+      ],
+      "forms": [
+        "representation"
+      ],
+      "sense_id": "sense-staged-ox-0a7a64baaf852acf-p12-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9d4364da991ecf2b",
+      "lemma": "reproduction",
+      "pos": "n.",
+      "sense_zh": "艺术作品的复制品或复制图",
+      "sentence_ids": [
+        "p12-a-23-s01"
+      ],
+      "forms": [
+        "reproduction"
+      ],
+      "sense_id": "sense-staged-ox-9d4364da991ecf2b-p12-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fd8f4f28ad082eb6",
+      "lemma": "resemble",
+      "pos": "v.",
+      "sense_zh": "与……相像",
+      "sentence_ids": [
+        "p12-a-23-s05"
+      ],
+      "forms": [
+        "resemble"
+      ],
+      "sense_id": "sense-staged-ox-fd8f4f28ad082eb6-p12-a-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

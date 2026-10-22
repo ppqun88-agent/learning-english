@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-36",
+  "title_zh": "明确故事人物誓言与优缺点的关系",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "story-character-vow-revision",
+    "label_zh": "明确故事人物誓言与优缺点的关系",
+    "goal_zh": "核对人物的缺点与优点如何体现在情节中并约定让人物先作承诺再面对诱惑"
+  },
+  "participants": [
+    "Oscar",
+    "Leah"
+  ],
+  "context_zh": "两名写作课学生修改虚构航海故事，不是在现实中作承诺或评价真人品格。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-36-s01",
+      "speaker": "Oscar",
+      "text": "You call greed the captain's main vice, but he gives away the treasure at the end."
+    },
+    {
+      "id": "p12-c-36-s02",
+      "speaker": "Leah",
+      "text": "That's the change I want to show. His loyalty to the crew is the virtue that finally wins."
+    },
+    {
+      "id": "p12-c-36-s03",
+      "speaker": "Oscar",
+      "text": "Then we need to see both earlier: his desire for the gold and his care for the people."
+    },
+    {
+      "id": "p12-c-36-s04",
+      "speaker": "Leah",
+      "text": "We have the gold scene, but the loyalty is only mentioned in the final paragraph."
+    },
+    {
+      "id": "p12-c-36-s05",
+      "speaker": "Oscar",
+      "text": "Could we have him vow to bring everyone home before they find the treasure?"
+    },
+    {
+      "id": "p12-c-36-s06",
+      "speaker": "Leah",
+      "text": "Yes. Then choosing the crew later means keeping a promise we already know about."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-06182af91956848b",
+      "lemma": "vow",
+      "pos": "v.",
+      "sense_zh": "郑重承诺",
+      "sentence_ids": [
+        "p12-c-36-s05"
+      ],
+      "forms": [
+        "vow"
+      ],
+      "sense_id": "sense-staged-ox-06182af91956848b-p12-c-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3eee9373ef45fb94",
+      "lemma": "virtue",
+      "pos": "n.",
+      "sense_zh": "美德",
+      "sentence_ids": [
+        "p12-c-36-s02"
+      ],
+      "forms": [
+        "virtue"
+      ],
+      "sense_id": "sense-staged-ox-3eee9373ef45fb94-p12-c-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-764cac8498d07590",
+      "lemma": "vice",
+      "pos": "n.",
+      "sense_zh": "恶习、缺点",
+      "sentence_ids": [
+        "p12-c-36-s01"
+      ],
+      "forms": [
+        "vice"
+      ],
+      "sense_id": "sense-staged-ox-764cac8498d07590-p12-c-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

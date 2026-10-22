@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-37",
+  "title_zh": "不把申请中的补贴记成预算结余",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-theatre-budget-funding-gap",
+    "label_zh": "虚构剧场预算的资助缺口",
+    "goal_zh": "区分已确认收入与申请中补贴并约定保留缺口另列方案"
+  },
+  "participants": [
+    "Alex",
+    "Bea"
+  ],
+  "context_zh": "完全虚构的财务英语课堂练习：Alex 与 Bea 使用剧场预算工作表，不提供个人财务或投资建议。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-37-s01",
+      "speaker": "Alex",
+      "text": "The theatre’s costs are three thousand, and confirmed ticket income is twenty-two hundred. Why have you written “surplus”?"
+    },
+    {
+      "id": "p12-b-37-s02",
+      "speaker": "Bea",
+      "text": "I included the subsidy we’ve applied for and some hoped-for donations."
+    },
+    {
+      "id": "p12-b-37-s03",
+      "speaker": "Alex",
+      "text": "Neither is confirmed in the case sheet. We still need to show the eight-hundred gap."
+    },
+    {
+      "id": "p12-b-37-s04",
+      "speaker": "Bea",
+      "text": "Could a sponsor supplement the ticket income instead?"
+    },
+    {
+      "id": "p12-b-37-s05",
+      "speaker": "Alex",
+      "text": "We can list that as an option. I don’t want to slash rehearsal time just to hide a funding gap on paper."
+    },
+    {
+      "id": "p12-b-37-s06",
+      "speaker": "Bea",
+      "text": "Then I’ll remove the surplus claim, keep the gap visible, and put possible funding in a separate column."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a07e43b0c3defa82",
+      "lemma": "surplus",
+      "pos": "n.",
+      "sense_zh": "结余",
+      "sentence_ids": [
+        "p12-b-37-s01"
+      ],
+      "forms": [
+        "surplus"
+      ],
+      "sense_id": "sense-staged-ox-a07e43b0c3defa82-p12-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60d546187f4f7656",
+      "lemma": "subsidy",
+      "pos": "n.",
+      "sense_zh": "补贴",
+      "sentence_ids": [
+        "p12-b-37-s02"
+      ],
+      "forms": [
+        "subsidy"
+      ],
+      "sense_id": "sense-staged-ox-60d546187f4f7656-p12-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fafe0f861e4cffb5",
+      "lemma": "supplement",
+      "pos": "v.",
+      "sense_zh": "补充增加",
+      "sentence_ids": [
+        "p12-b-37-s04"
+      ],
+      "forms": [
+        "supplement"
+      ],
+      "sense_id": "sense-staged-ox-fafe0f861e4cffb5-p12-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a3c587fb0448a363",
+      "lemma": "slash",
+      "pos": "v.",
+      "sense_zh": "大幅削减",
+      "sentence_ids": [
+        "p12-b-37-s05"
+      ],
+      "forms": [
+        "slash"
+      ],
+      "sense_id": "sense-staged-ox-a3c587fb0448a363-p12-b-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

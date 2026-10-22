@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-15",
+  "title_zh": "根据现场封闭告示选择开放步道",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "tidal-trail-open-route-choice",
+    "label_zh": "根据现场封闭告示选择开放步道",
+    "goal_zh": "读取低处步道的封闭信息并选择告示列为开放的山脊路线"
+  },
+  "participants": [
+    "Bea",
+    "Callum"
+  ],
+  "context_zh": "虚构旅行情景。游客在入口阅读当日假设告示：低处路线关闭，山脊路线开放；不提供实际潮汐时间或路线安全保证。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-15-s01",
+      "speaker": "Bea",
+      "text": "The lower trail is marked closed. Does the notice say why?"
+    },
+    {
+      "id": "p12-c-15-s02",
+      "speaker": "Callum",
+      "text": "It says the tide covers part of it, and that the closure is still in place."
+    },
+    {
+      "id": "p12-c-15-s03",
+      "speaker": "Bea",
+      "text": "Then we shouldn't try to work out a crossing time ourselves."
+    },
+    {
+      "id": "p12-c-15-s04",
+      "speaker": "Callum",
+      "text": "The ridge route is listed as open, although the terrain looks rougher on this map."
+    },
+    {
+      "id": "p12-c-15-s05",
+      "speaker": "Bea",
+      "text": "Let's take that route slowly instead. We can turn back if it doesn't suit us."
+    },
+    {
+      "id": "p12-c-15-s06",
+      "speaker": "Callum",
+      "text": "Agreed. I'll put the shore map away; we're not using that path today."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a46b4d35c993b62c",
+      "lemma": "terrain",
+      "pos": "n.",
+      "sense_zh": "地形",
+      "sentence_ids": [
+        "p12-c-15-s04"
+      ],
+      "forms": [
+        "terrain"
+      ],
+      "sense_id": "sense-staged-ox-a46b4d35c993b62c-p12-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aecb18a060474cb4",
+      "lemma": "trail",
+      "pos": "n.",
+      "sense_zh": "步道",
+      "sentence_ids": [
+        "p12-c-15-s01"
+      ],
+      "forms": [
+        "trail"
+      ],
+      "sense_id": "sense-staged-ox-aecb18a060474cb4-p12-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-53d599928675eec5",
+      "lemma": "tide",
+      "pos": "n.",
+      "sense_zh": "潮水",
+      "sentence_ids": [
+        "p12-c-15-s02"
+      ],
+      "forms": [
+        "tide"
+      ],
+      "sense_id": "sense-staged-ox-53d599928675eec5-p12-c-15",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

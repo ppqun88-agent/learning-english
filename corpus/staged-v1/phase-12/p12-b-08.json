@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-08",
+  "title_zh": "向管理员报告支架缺失螺丝与墙裂缝",
+  "topic_id": "home",
+  "scenario": {
+    "id": "apartment-bracket-wall-inspection-request",
+    "label_zh": "公寓支架和墙面问题的检查请求",
+    "goal_zh": "说明缺失螺丝和墙面裂缝并约定向维修人员报检"
+  },
+  "participants": [
+    "Mina",
+    "Luis"
+  ],
+  "context_zh": "租客 Mina 向公寓楼管理员 Luis 报告储物架支架附近的问题；双方没有诊断建筑安全。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-08-s01",
+      "speaker": "Mina",
+      "text": "Are you the building superintendent? I need to report something in my flat."
+    },
+    {
+      "id": "p12-b-08-s02",
+      "speaker": "Luis",
+      "text": "Yes. What have you noticed?"
+    },
+    {
+      "id": "p12-b-08-s03",
+      "speaker": "Mina",
+      "text": "One screw is missing from the shelf bracket, and there’s a crack in the wall beside it."
+    },
+    {
+      "id": "p12-b-08-s04",
+      "speaker": "Luis",
+      "text": "I can’t tell whether that’s a structural problem from a description. I’ll ask maintenance to inspect it."
+    },
+    {
+      "id": "p12-b-08-s05",
+      "speaker": "Mina",
+      "text": "Please do. I’ve taken the boxes off the shelf, and I can send you a photo."
+    },
+    {
+      "id": "p12-b-08-s06",
+      "speaker": "Luis",
+      "text": "Send it to the office. I’ll include it with the inspection request."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0da23bbac737e720",
+      "lemma": "superintendent",
+      "pos": "n.",
+      "sense_zh": "楼宇管理员",
+      "sentence_ids": [
+        "p12-b-08-s01"
+      ],
+      "forms": [
+        "superintendent"
+      ],
+      "sense_id": "sense-staged-ox-0da23bbac737e720-p12-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d029bceef5005844",
+      "lemma": "screw",
+      "pos": "n.",
+      "sense_zh": "螺丝",
+      "sentence_ids": [
+        "p12-b-08-s03"
+      ],
+      "forms": [
+        "screw"
+      ],
+      "sense_id": "sense-staged-ox-d029bceef5005844-p12-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a1ad96ee724b7c28",
+      "lemma": "structural",
+      "pos": "adj.",
+      "sense_zh": "涉及结构的",
+      "sentence_ids": [
+        "p12-b-08-s04"
+      ],
+      "forms": [
+        "structural"
+      ],
+      "sense_id": "sense-staged-ox-a1ad96ee724b7c28-p12-b-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

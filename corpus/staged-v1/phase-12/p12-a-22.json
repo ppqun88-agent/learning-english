@@ -1,0 +1,121 @@
+{
+  "id": "p12-a-22",
+  "title_zh": "为读书会开场选定具体反思问题",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "memoir-discussion-privilege-prejudice",
+    "label_zh": "讨论回忆录带来的认识并修改读书会开场",
+    "goal_zh": "讨论回忆录带来的认识并选定关于机会差异的开场问题"
+  },
+  "participants": [
+    "Leila",
+    "Sam"
+  ],
+  "context_zh": "朋友 Leila 与 Sam 筹备读书会，讨论一部虚构回忆录中的个人反思，未对真实群体作统计断言。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-22-s01",
+      "speaker": "Leila",
+      "text": "The narrator's realization about her own privilege had a profound effect on me."
+    },
+    {
+      "id": "p12-a-22-s02",
+      "speaker": "Sam",
+      "text": "Which part stayed with you?"
+    },
+    {
+      "id": "p12-a-22-s03",
+      "speaker": "Leila",
+      "text": "She had assumed every student could afford an unpaid summer placement. Then she heard why her friend couldn't take one."
+    },
+    {
+      "id": "p12-a-22-s04",
+      "speaker": "Sam",
+      "text": "That makes a useful question for our group. How can an ordinary assumption carry prejudice?"
+    },
+    {
+      "id": "p12-a-22-s05",
+      "speaker": "Leila",
+      "text": "I don't want the opening to sound as if we're judging the readers."
+    },
+    {
+      "id": "p12-a-22-s06",
+      "speaker": "Sam",
+      "text": "Then ask about the scene: what opportunities did the two characters actually have?"
+    },
+    {
+      "id": "p12-a-22-s07",
+      "speaker": "Leila",
+      "text": "Yes. I'll start there and let people connect it to their own experience only if they want to."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ca7ad6a89fef965e",
+      "lemma": "profound",
+      "pos": "adj.",
+      "sense_zh": "深刻的",
+      "sentence_ids": [
+        "p12-a-22-s01"
+      ],
+      "forms": [
+        "profound"
+      ],
+      "sense_id": "sense-staged-ox-ca7ad6a89fef965e-p12-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9aa94b300b3fcab",
+      "lemma": "realization",
+      "pos": "n.",
+      "sense_zh": "认识到某事实",
+      "sentence_ids": [
+        "p12-a-22-s01"
+      ],
+      "forms": [
+        "realization"
+      ],
+      "sense_id": "sense-staged-ox-b9aa94b300b3fcab-p12-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ad981ab588a9e819",
+      "lemma": "privilege",
+      "pos": "n.",
+      "sense_zh": "因处境或背景享有的优势",
+      "sentence_ids": [
+        "p12-a-22-s01"
+      ],
+      "forms": [
+        "privilege"
+      ],
+      "sense_id": "sense-staged-ox-ad981ab588a9e819-p12-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84656d0fc4e916d8",
+      "lemma": "prejudice",
+      "pos": "n.",
+      "sense_zh": "偏见",
+      "sentence_ids": [
+        "p12-a-22-s04"
+      ],
+      "forms": [
+        "prejudice"
+      ],
+      "sense_id": "sense-staged-ox-84656d0fc4e916d8-p12-a-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

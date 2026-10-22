@@ -1,0 +1,121 @@
+{
+  "id": "p12-c-34",
+  "title_zh": "核对虚构村民家史中的人物介绍",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "village-family-history-portrait",
+    "label_zh": "核对虚构村民家史中的人物介绍",
+    "goal_zh": "区分受访者本人及其丈夫的经历并约定改正人物归属并保留家庭种植经历"
+  },
+  "participants": [
+    "Alma",
+    "Chris"
+  ],
+  "context_zh": "写作课编辑虚构村民家史。人物、家庭经历和作物均为练习设定，不涉及真实个人资料或真实战事。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-34-s01",
+      "speaker": "Alma",
+      "text": "This paragraph makes it sound as if the villager we interviewed served in the army."
+    },
+    {
+      "id": "p12-c-34-s02",
+      "speaker": "Chris",
+      "text": "She didn't. She's a widow; the veteran mentioned in her account was her husband."
+    },
+    {
+      "id": "p12-c-34-s03",
+      "speaker": "Alma",
+      "text": "So 'she returned from the war' is simply the wrong subject."
+    },
+    {
+      "id": "p12-c-34-s04",
+      "speaker": "Chris",
+      "text": "Yes. They later grew tobacco together, but that farming experience doesn't change who served."
+    },
+    {
+      "id": "p12-c-34-s05",
+      "speaker": "Alma",
+      "text": "I'll name her husband in the military-history sentence, then use 'they' for the farm."
+    },
+    {
+      "id": "p12-c-34-s06",
+      "speaker": "Chris",
+      "text": "Good. Keep her own memories of working there rather than turning the whole piece into his biography."
+    },
+    {
+      "id": "p12-c-34-s07",
+      "speaker": "Alma",
+      "text": "I will. The corrected paragraph should make both roles clear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ca63d8ad8aeb3cdd",
+      "lemma": "widow",
+      "pos": "n.",
+      "sense_zh": "寡妇",
+      "sentence_ids": [
+        "p12-c-34-s02"
+      ],
+      "forms": [
+        "widow"
+      ],
+      "sense_id": "sense-staged-ox-ca63d8ad8aeb3cdd-p12-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-288b2f45d0f230b1",
+      "lemma": "veteran",
+      "pos": "n.",
+      "sense_zh": "退伍军人",
+      "sentence_ids": [
+        "p12-c-34-s02"
+      ],
+      "forms": [
+        "veteran"
+      ],
+      "sense_id": "sense-staged-ox-288b2f45d0f230b1-p12-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e92634829b66a07b",
+      "lemma": "villager",
+      "pos": "n.",
+      "sense_zh": "村民",
+      "sentence_ids": [
+        "p12-c-34-s01"
+      ],
+      "forms": [
+        "villager"
+      ],
+      "sense_id": "sense-staged-ox-e92634829b66a07b-p12-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e2cdedf60dd4b6c5",
+      "lemma": "tobacco",
+      "pos": "n.",
+      "sense_zh": "烟草",
+      "sentence_ids": [
+        "p12-c-34-s04"
+      ],
+      "forms": [
+        "tobacco"
+      ],
+      "sense_id": "sense-staged-ox-e2cdedf60dd4b6c5-p12-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

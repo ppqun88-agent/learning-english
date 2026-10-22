@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-16",
+  "title_zh": "比较到车站的巴士与收费桥路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "station-transfer-pass-comparison",
+    "label_zh": "比较到车站的巴士与收费桥路线",
+    "goal_zh": "比较巴士票与驾车过桥的费用条件并选定乘坐下一班巴士"
+  },
+  "participants": [
+    "Dina",
+    "Alex"
+  ],
+  "context_zh": "虚构城市交通选择练习。票价、票种和路线仅是情景设定，不是当前交通信息。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-16-s01",
+      "speaker": "Dina",
+      "text": "Have we decided on the bus versus driving to the station?"
+    },
+    {
+      "id": "p12-c-16-s02",
+      "speaker": "Alex",
+      "text": "Our transit passes cover that bus. Driving means paying a bridge toll as well as parking."
+    },
+    {
+      "id": "p12-c-16-s03",
+      "speaker": "Dina",
+      "text": "Does the pass cover both of us, or just you?"
+    },
+    {
+      "id": "p12-c-16-s04",
+      "speaker": "Alex",
+      "text": "We each have one. Here are the two passes, and the route number is printed on both."
+    },
+    {
+      "id": "p12-c-16-s05",
+      "speaker": "Dina",
+      "text": "Then let's leave the car here and catch the next bus."
+    },
+    {
+      "id": "p12-c-16-s06",
+      "speaker": "Alex",
+      "text": "Yes. I'll check the departure display while you put the bags together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-aa2fe4ab321e6e10",
+      "lemma": "transit",
+      "pos": "n.",
+      "sense_zh": "公共交通运输",
+      "sentence_ids": [
+        "p12-c-16-s02"
+      ],
+      "forms": [
+        "transit"
+      ],
+      "sense_id": "sense-staged-ox-aa2fe4ab321e6e10-p12-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88e0a2e02c04be43",
+      "lemma": "toll",
+      "pos": "n.",
+      "sense_zh": "通行费",
+      "sentence_ids": [
+        "p12-c-16-s02"
+      ],
+      "forms": [
+        "toll"
+      ],
+      "sense_id": "sense-staged-ox-88e0a2e02c04be43-p12-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21d2ac7a8b3e7790",
+      "lemma": "versus",
+      "pos": "prep.",
+      "sense_zh": "与……相比",
+      "sentence_ids": [
+        "p12-c-16-s01"
+      ],
+      "forms": [
+        "versus"
+      ],
+      "sense_id": "sense-staged-ox-21d2ac7a8b3e7790-p12-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

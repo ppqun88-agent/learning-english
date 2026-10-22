@@ -1,0 +1,105 @@
+{
+  "id": "p12-c-17",
+  "title_zh": "安排记录菜畦产量并辨认不熟悉的植物",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "garden-bed-yield-notes",
+    "label_zh": "安排记录菜畦产量并辨认不熟悉的植物",
+    "goal_zh": "区分产量记录与生长原因推测并约定先辨认不熟悉的植物"
+  },
+  "participants": [
+    "Omar",
+    "Jules"
+  ],
+  "context_zh": "两位社区园艺爱好者整理自家共用菜畦的记录，并看见一株尚未辨认的植物。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-17-s01",
+      "speaker": "Omar",
+      "text": "The beans seem to thrive in this bed. Is this where we used the new compost?"
+    },
+    {
+      "id": "p12-c-17-s02",
+      "speaker": "Jules",
+      "text": "It is, but we changed the watering too. We can't tell which change mattered."
+    },
+    {
+      "id": "p12-c-17-s03",
+      "speaker": "Omar",
+      "text": "The yield was three kilos last week. I'll put that in the notebook without claiming a cause."
+    },
+    {
+      "id": "p12-c-17-s04",
+      "speaker": "Jules",
+      "text": "Good. Keep the weight separate from our guesses."
+    },
+    {
+      "id": "p12-c-17-s05",
+      "speaker": "Omar",
+      "text": "What about this little plant? Is it a weed or something we planted?"
+    },
+    {
+      "id": "p12-c-17-s06",
+      "speaker": "Jules",
+      "text": "I'm not sure. Let's take a photo and ask the gardening group before pulling it out."
+    },
+    {
+      "id": "p12-c-17-s07",
+      "speaker": "Omar",
+      "text": "All right. I'll leave it where it is for now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6a25596a7b663f3b",
+      "lemma": "weed",
+      "pos": "n.",
+      "sense_zh": "杂草",
+      "sentence_ids": [
+        "p12-c-17-s05"
+      ],
+      "forms": [
+        "weed"
+      ],
+      "sense_id": "sense-staged-ox-6a25596a7b663f3b-p12-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-69270472e1ecab73",
+      "lemma": "thrive",
+      "pos": "v.",
+      "sense_zh": "茁壮成长",
+      "sentence_ids": [
+        "p12-c-17-s01"
+      ],
+      "forms": [
+        "thrive"
+      ],
+      "sense_id": "sense-staged-ox-69270472e1ecab73-p12-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00e936c4d691257e",
+      "lemma": "yield",
+      "pos": "n.",
+      "sense_zh": "产量",
+      "sentence_ids": [
+        "p12-c-17-s03"
+      ],
+      "forms": [
+        "yield"
+      ],
+      "sense_id": "sense-staged-ox-00e936c4d691257e-p12-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

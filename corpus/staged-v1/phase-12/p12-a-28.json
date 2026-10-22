@@ -1,0 +1,95 @@
+{
+  "id": "p12-a-28",
+  "title_zh": "为奇幻角色选择送信任务",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fantasy-quest-rebel-choice",
+    "label_zh": "为奇幻游戏任务选择非战斗的角色目标",
+    "goal_zh": "明确反抗者角色的当前目标并选择以送信而非战斗推进任务"
+  },
+  "participants": [
+    "Tomas",
+    "June"
+  ],
+  "context_zh": "朋友 Tomas 与 June 设计自创奇幻桌游角色，全部人物、政体和地域均为虚构。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-28-s01",
+      "speaker": "Tomas",
+      "text": "My character is a rebel, but I don't want every scene to turn into a fight."
+    },
+    {
+      "id": "p12-a-28-s02",
+      "speaker": "June",
+      "text": "Then give the rebellion a practical problem. What does your character need to do?"
+    },
+    {
+      "id": "p12-a-28-s03",
+      "speaker": "Tomas",
+      "text": "Carry a message across the realm before the council meeting."
+    },
+    {
+      "id": "p12-a-28-s04",
+      "speaker": "June",
+      "text": "That makes a clear quest. The obstacles can be finding a guide and deciding whom to trust."
+    },
+    {
+      "id": "p12-a-28-s05",
+      "speaker": "Tomas",
+      "text": "Good. I'll make the character a reluctant messenger, not someone looking for a battle."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dd78e75a3518c784",
+      "lemma": "quest",
+      "pos": "n.",
+      "sense_zh": "为实现目标而进行的探寻或冒险任务",
+      "sentence_ids": [
+        "p12-a-28-s04"
+      ],
+      "forms": [
+        "quest"
+      ],
+      "sense_id": "sense-staged-ox-dd78e75a3518c784-p12-a-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-65f236d3d4a7825c",
+      "lemma": "realm",
+      "pos": "n.",
+      "sense_zh": "王国；统治领域",
+      "sentence_ids": [
+        "p12-a-28-s03"
+      ],
+      "forms": [
+        "realm"
+      ],
+      "sense_id": "sense-staged-ox-65f236d3d4a7825c-p12-a-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6a1afcc4904f150",
+      "lemma": "rebel",
+      "pos": "n.",
+      "sense_zh": "反抗既有统治的人",
+      "sentence_ids": [
+        "p12-a-28-s01"
+      ],
+      "forms": [
+        "rebel"
+      ],
+      "sense_id": "sense-staged-ox-d6a1afcc4904f150-p12-a-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

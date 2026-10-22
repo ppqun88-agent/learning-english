@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-06",
+  "title_zh": "支持志愿团队并保留休息时间",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "volunteer-shift-support-with-boundaries",
+    "label_zh": "志愿轮班中的支持与边界",
+    "goal_zh": "表达支持并约定保留周六休息而只参加周日活动"
+  },
+  "participants": [
+    "Sam",
+    "Jo"
+  ],
+  "context_zh": "成年人 Sam 与 Jo 在讨论周末为家具捐赠站搬运小件物品的志愿安排。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-06-s01",
+      "speaker": "Sam",
+      "text": "I want to join both shifts as a show of solidarity, but I’ve had almost no time off this month."
+    },
+    {
+      "id": "p12-b-06-s02",
+      "speaker": "Jo",
+      "text": "For your own sake, keep Saturday free. Coming on Sunday would still help."
+    },
+    {
+      "id": "p12-b-06-s03",
+      "speaker": "Sam",
+      "text": "I thought you might see that as letting the team down."
+    },
+    {
+      "id": "p12-b-06-s04",
+      "speaker": "Jo",
+      "text": "Not at all. Being supportive doesn’t mean making a sacrifice every weekend."
+    },
+    {
+      "id": "p12-b-06-s05",
+      "speaker": "Sam",
+      "text": "Then I’ll volunteer on Sunday and leave Saturday for rest."
+    },
+    {
+      "id": "p12-b-06-s06",
+      "speaker": "Jo",
+      "text": "That works. I’ll put you down for Sunday, not both days."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5979231a17e2f528",
+      "lemma": "solidarity",
+      "pos": "n.",
+      "sense_zh": "团结支持",
+      "sentence_ids": [
+        "p12-b-06-s01"
+      ],
+      "forms": [
+        "solidarity"
+      ],
+      "sense_id": "sense-staged-ox-5979231a17e2f528-p12-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a721ec5f02198ced",
+      "lemma": "sake",
+      "pos": "n.",
+      "sense_zh": "为了某人的利益",
+      "sentence_ids": [
+        "p12-b-06-s02"
+      ],
+      "forms": [
+        "sake"
+      ],
+      "sense_id": "sense-staged-ox-a721ec5f02198ced-p12-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-79fa25dbb605067e",
+      "lemma": "supportive",
+      "pos": "adj.",
+      "sense_zh": "给予支持的",
+      "sentence_ids": [
+        "p12-b-06-s04"
+      ],
+      "forms": [
+        "supportive"
+      ],
+      "sense_id": "sense-staged-ox-79fa25dbb605067e-p12-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e2096add0fb9fc00",
+      "lemma": "sacrifice",
+      "pos": "n.",
+      "sense_zh": "作出的牺牲",
+      "sentence_ids": [
+        "p12-b-06-s04"
+      ],
+      "forms": [
+        "sacrifice"
+      ],
+      "sense_id": "sense-staged-ox-e2096add0fb9fc00-p12-b-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

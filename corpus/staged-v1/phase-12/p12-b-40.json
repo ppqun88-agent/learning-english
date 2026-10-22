@@ -1,0 +1,79 @@
+{
+  "id": "p12-b-40",
+  "title_zh": "以单人入住身份询问套房报价",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "hotel-suite-single-occupant-inquiry",
+    "label_zh": "套房单人入住的报价资料询问",
+    "goal_zh": "明确单人入住与独立工作空间需求并请求书面报价"
+  },
+  "participants": [
+    "Quinn",
+    "May"
+  ],
+  "context_zh": "虚构酒店沟通练习：旅客 Quinn 向预订员 May 询问套房，没有完成预订或支付。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-40-s01",
+      "speaker": "Quinn",
+      "text": "I’ll be the sole occupant, but I need a separate space to work. Would a suite have a living area as well as a bedroom?"
+    },
+    {
+      "id": "p12-b-40-s02",
+      "speaker": "May",
+      "text": "Our courtyard suite does. Are you asking about three nights next month?"
+    },
+    {
+      "id": "p12-b-40-s03",
+      "speaker": "Quinn",
+      "text": "Yes, the dates in my inquiry. Could you send a written quote showing the room charge and any breakfast cost separately?"
+    },
+    {
+      "id": "p12-b-40-s04",
+      "speaker": "May",
+      "text": "Certainly. I’ll prepare that quote for those dates, subject to availability when you decide."
+    },
+    {
+      "id": "p12-b-40-s05",
+      "speaker": "Quinn",
+      "text": "Thank you. I’ll review it before making a booking."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ef77f67f1f772247",
+      "lemma": "sole",
+      "pos": "adj.",
+      "sense_zh": "唯一的",
+      "sentence_ids": [
+        "p12-b-40-s01"
+      ],
+      "forms": [
+        "sole"
+      ],
+      "sense_id": "sense-staged-ox-ef77f67f1f772247-p12-b-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-791cbc75e97cafe8",
+      "lemma": "suite",
+      "pos": "n.",
+      "sense_zh": "套房",
+      "sentence_ids": [
+        "p12-b-40-s01"
+      ],
+      "forms": [
+        "suite"
+      ],
+      "sense_id": "sense-staged-ox-791cbc75e97cafe8-p12-b-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,79 @@
+{
+  "id": "p12-a-26",
+  "title_zh": "准备康复就诊时要问的问题",
+  "topic_id": "health",
+  "scenario": {
+    "id": "rehabilitation-goal-question-list",
+    "label_zh": "为康复就诊准备恢复能力的提问",
+    "goal_zh": "明确希望恢复的具体能力并决定在就诊时询问进展判断方法"
+  },
+  "participants": [
+    "Oliver",
+    "Hana"
+  ],
+  "context_zh": "虚构健康沟通练习。Oliver 与朋友 Hana 准备向康复治疗师提问，不提供训练建议。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-26-s01",
+      "speaker": "Oliver",
+      "text": "My rehabilitation appointment is tomorrow, and I never know how to describe what I want to regain."
+    },
+    {
+      "id": "p12-a-26-s02",
+      "speaker": "Hana",
+      "text": "What everyday activity matters most to you?"
+    },
+    {
+      "id": "p12-a-26-s03",
+      "speaker": "Oliver",
+      "text": "Being able to hold a mug comfortably. I don't know how to judge whether I'm making progress."
+    },
+    {
+      "id": "p12-a-26-s04",
+      "speaker": "Hana",
+      "text": "Why not write that down and ask the therapist how progress will be assessed?"
+    },
+    {
+      "id": "p12-a-26-s05",
+      "speaker": "Oliver",
+      "text": "I will. I'll take that question instead of trying to set my own deadline."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d869c061cc3c6e95",
+      "lemma": "rehabilitation",
+      "pos": "n.",
+      "sense_zh": "康复过程",
+      "sentence_ids": [
+        "p12-a-26-s01"
+      ],
+      "forms": [
+        "rehabilitation"
+      ],
+      "sense_id": "sense-staged-ox-d869c061cc3c6e95-p12-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-571bc49bd1ab58b3",
+      "lemma": "regain",
+      "pos": "v.",
+      "sense_zh": "恢复；重新获得",
+      "sentence_ids": [
+        "p12-a-26-s01"
+      ],
+      "forms": [
+        "regain"
+      ],
+      "sense_id": "sense-staged-ox-571bc49bd1ab58b3-p12-a-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

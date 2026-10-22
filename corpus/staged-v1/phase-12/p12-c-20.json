@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-20",
+  "title_zh": "安排桃子甜点的拌料与奶油",
+  "topic_id": "food",
+  "scenario": {
+    "id": "peach-dessert-serving-order",
+    "label_zh": "安排桃子甜点的拌料与奶油",
+    "goal_zh": "根据桃子已变软的状态确定拌料动作并分工打奶油和分装水果"
+  },
+  "participants": [
+    "Sofia",
+    "Max"
+  ],
+  "context_zh": "两位朋友在家准备桃子甜点，桃子已经烤好，相关食材均为普通烹饪材料。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-20-s01",
+      "speaker": "Sofia",
+      "text": "The peaches are tender already. Should they go back in the oven?"
+    },
+    {
+      "id": "p12-c-20-s02",
+      "speaker": "Max",
+      "text": "No, they're ready. Just toss them gently in the juice at the bottom of the dish."
+    },
+    {
+      "id": "p12-c-20-s03",
+      "speaker": "Sofia",
+      "text": "Gently is the key word. I don't want them turning into a bowl of mush."
+    },
+    {
+      "id": "p12-c-20-s04",
+      "speaker": "Max",
+      "text": "I'll whip the cream while you divide the fruit between the bowls."
+    },
+    {
+      "id": "p12-c-20-s05",
+      "speaker": "Sofia",
+      "text": "Deal. Do you want a big serving or a small one?"
+    },
+    {
+      "id": "p12-c-20-s06",
+      "speaker": "Max",
+      "text": "Small, please. I want room for the cake too."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-825ffee003a37c67",
+      "lemma": "whip",
+      "pos": "v.",
+      "sense_zh": "搅打至蓬松",
+      "sentence_ids": [
+        "p12-c-20-s04"
+      ],
+      "forms": [
+        "whip"
+      ],
+      "sense_id": "sense-staged-ox-825ffee003a37c67-p12-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c70d772170cfec4a",
+      "lemma": "toss",
+      "pos": "v.",
+      "sense_zh": "轻轻拌匀",
+      "sentence_ids": [
+        "p12-c-20-s02"
+      ],
+      "forms": [
+        "toss"
+      ],
+      "sense_id": "sense-staged-ox-c70d772170cfec4a-p12-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-384fbe79834de323",
+      "lemma": "tender",
+      "pos": "adj.",
+      "sense_zh": "软嫩的",
+      "sentence_ids": [
+        "p12-c-20-s01"
+      ],
+      "forms": [
+        "tender"
+      ],
+      "sense_id": "sense-staged-ox-384fbe79834de323-p12-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

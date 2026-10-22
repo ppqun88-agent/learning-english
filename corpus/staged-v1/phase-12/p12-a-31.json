@@ -1,0 +1,79 @@
+{
+  "id": "p12-a-31",
+  "title_zh": "询问展览是否含有血腥图像",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "museum-rifle-riot-display-warning",
+    "label_zh": "询问博物馆虚构展览的图像内容与入口提示",
+    "goal_zh": "询问展品和图像内容并决定先阅读入口说明"
+  },
+  "participants": [
+    "Anya",
+    "George"
+  ],
+  "context_zh": "虚构博物馆服务对话。成年访客 Anya 向馆员 George 询问一段历史骚乱展览的内容。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-31-s01",
+      "speaker": "Anya",
+      "text": "The guide mentions a rifle and an account of a riot. Are there graphic images in that room?"
+    },
+    {
+      "id": "p12-a-31-s02",
+      "speaker": "George",
+      "text": "No. The rifle is in a closed display case, and the account is presented through letters and a street map."
+    },
+    {
+      "id": "p12-a-31-s03",
+      "speaker": "Anya",
+      "text": "I'd still like to know what the story covers before going in."
+    },
+    {
+      "id": "p12-a-31-s04",
+      "speaker": "George",
+      "text": "There's a content note by the entrance. You can read it without entering the room."
+    },
+    {
+      "id": "p12-a-31-s05",
+      "speaker": "Anya",
+      "text": "I'll do that first, then decide whether to visit this section."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4c775269cd3b7c73",
+      "lemma": "rifle",
+      "pos": "n.",
+      "sense_zh": "步枪",
+      "sentence_ids": [
+        "p12-a-31-s01"
+      ],
+      "forms": [
+        "rifle"
+      ],
+      "sense_id": "sense-staged-ox-4c775269cd3b7c73-p12-a-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c1f0edee35011d55",
+      "lemma": "riot",
+      "pos": "n.",
+      "sense_zh": "暴乱；骚乱",
+      "sentence_ids": [
+        "p12-a-31-s01"
+      ],
+      "forms": [
+        "riot"
+      ],
+      "sense_id": "sense-staged-ox-c1f0edee35011d55-p12-a-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

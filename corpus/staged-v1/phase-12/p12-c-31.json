@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-31",
+  "title_zh": "安排青年俱乐部可自愿参加的小项目",
+  "topic_id": "community",
+  "scenario": {
+    "id": "youth-club-small-project-offer",
+    "label_zh": "安排青年俱乐部可自愿参加的小项目",
+    "goal_zh": "把参与意愿与能力评价分开并约定提供可选择的小任务"
+  },
+  "participants": [
+    "Tariq",
+    "Nell"
+  ],
+  "context_zh": "虚构青年俱乐部的两名成年导师安排活动；不包含任何真实未成年人的私人资料。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-31-s01",
+      "speaker": "Tariq",
+      "text": "Should every youngster have to present something at the end of the session?"
+    },
+    {
+      "id": "p12-c-31-s02",
+      "speaker": "Nell",
+      "text": "I'd rather ask about willingness first. Not wanting to present doesn't tell us what someone can do."
+    },
+    {
+      "id": "p12-c-31-s03",
+      "speaker": "Tariq",
+      "text": "True. A quiet first visit can still be worthwhile."
+    },
+    {
+      "id": "p12-c-31-s04",
+      "speaker": "Nell",
+      "text": "Let's offer a small drawing task and a model-building task, with no requirement to show the result."
+    },
+    {
+      "id": "p12-c-31-s05",
+      "speaker": "Tariq",
+      "text": "And anyone who wants to watch first can do that."
+    },
+    {
+      "id": "p12-c-31-s06",
+      "speaker": "Nell",
+      "text": "Yes. I'll explain those choices at the start."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-98fe845239b883ae",
+      "lemma": "youngster",
+      "pos": "n.",
+      "sense_zh": "年轻人、孩子",
+      "sentence_ids": [
+        "p12-c-31-s01"
+      ],
+      "forms": [
+        "youngster"
+      ],
+      "sense_id": "sense-staged-ox-98fe845239b883ae-p12-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c05ce0a84496c602",
+      "lemma": "willingness",
+      "pos": "n.",
+      "sense_zh": "意愿",
+      "sentence_ids": [
+        "p12-c-31-s02"
+      ],
+      "forms": [
+        "willingness"
+      ],
+      "sense_id": "sense-staged-ox-c05ce0a84496c602-p12-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac0037639f2c75f1",
+      "lemma": "worthwhile",
+      "pos": "adj.",
+      "sense_zh": "值得的、有意义的",
+      "sentence_ids": [
+        "p12-c-31-s03"
+      ],
+      "forms": [
+        "worthwhile"
+      ],
+      "sense_id": "sense-staged-ox-ac0037639f2c75f1-p12-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

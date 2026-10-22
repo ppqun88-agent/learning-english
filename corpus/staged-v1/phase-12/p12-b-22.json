@@ -1,0 +1,105 @@
+{
+  "id": "p12-b-22",
+  "title_zh": "选择山顶以下的观鸟点",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "birdwatch-viewpoint-below-summit",
+    "label_zh": "山顶以下观察台的观鸟安排",
+    "goal_zh": "比较山顶与较低观察台并决定先在观察台观鸟"
+  },
+  "participants": [
+    "Ellis",
+    "Noor"
+  ],
+  "context_zh": "虚构自然步道旁，朋友 Ellis 与 Noor 看着园区地图选择观鸟地点，不涉及现实天气预报或具体旅行建议。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-22-s01",
+      "speaker": "Ellis",
+      "text": "The summit is hidden in cloud. Would you still like to go all the way up?"
+    },
+    {
+      "id": "p12-b-22-s02",
+      "speaker": "Noor",
+      "text": "I came to watch birds, not to reach the highest point. Is that lower viewing platform open?"
+    },
+    {
+      "id": "p12-b-22-s03",
+      "speaker": "Ellis",
+      "text": "The sign says it is. I’ve watched birds soar above that platform before."
+    },
+    {
+      "id": "p12-b-22-s04",
+      "speaker": "Noor",
+      "text": "It looks like a superb place to sit with the binoculars."
+    },
+    {
+      "id": "p12-b-22-s05",
+      "speaker": "Ellis",
+      "text": "Shall we stop there first and see what we can observe?"
+    },
+    {
+      "id": "p12-b-22-s06",
+      "speaker": "Noor",
+      "text": "Yes. I’d rather spend our time watching than keep climbing."
+    },
+    {
+      "id": "p12-b-22-s07",
+      "speaker": "Ellis",
+      "text": "Then the lower platform it is."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b682b31dd63dc421",
+      "lemma": "summit",
+      "pos": "n.",
+      "sense_zh": "山顶",
+      "sentence_ids": [
+        "p12-b-22-s01"
+      ],
+      "forms": [
+        "summit"
+      ],
+      "sense_id": "sense-staged-ox-b682b31dd63dc421-p12-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8d88515e44a2068a",
+      "lemma": "soar",
+      "pos": "v.",
+      "sense_zh": "高飞或翱翔",
+      "sentence_ids": [
+        "p12-b-22-s03"
+      ],
+      "forms": [
+        "soar"
+      ],
+      "sense_id": "sense-staged-ox-8d88515e44a2068a-p12-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-333bb4a4afc41199",
+      "lemma": "superb",
+      "pos": "adj.",
+      "sense_zh": "极好的",
+      "sentence_ids": [
+        "p12-b-22-s04"
+      ],
+      "forms": [
+        "superb"
+      ],
+      "sense_id": "sense-staged-ox-333bb4a4afc41199-p12-b-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

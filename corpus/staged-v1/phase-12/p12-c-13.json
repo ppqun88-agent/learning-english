@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-13",
+  "title_zh": "说明不认识的交易并请求核查",
+  "topic_id": "services",
+  "scenario": {
+    "id": "unrecognized-transaction-query",
+    "label_zh": "说明不认识的交易并请求核查",
+    "goal_zh": "说明无法识别的一笔交易并请求核实收款方资料"
+  },
+  "participants": [
+    "Jon",
+    "Amira"
+  ],
+  "context_zh": "虚构银行客服角色练习，仅使用假设交易描述，不含真实账户、凭据或金融建议。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-13-s01",
+      "speaker": "Jon",
+      "text": "There's a transaction on this sample statement that I don't recognise."
+    },
+    {
+      "id": "p12-c-13-s02",
+      "speaker": "Amira",
+      "text": "Is it the entry labelled 'Harbour Services'?"
+    },
+    {
+      "id": "p12-c-13-s03",
+      "speaker": "Jon",
+      "text": "Yes. I have no recollection whatsoever of buying anything from a business with that name."
+    },
+    {
+      "id": "p12-c-13-s04",
+      "speaker": "Amira",
+      "text": "I'll verify the merchant details before we draw a conclusion. A name on a statement may not be the shop name you remember."
+    },
+    {
+      "id": "p12-c-13-s05",
+      "speaker": "Jon",
+      "text": "Could you send me the result of that check in writing?"
+    },
+    {
+      "id": "p12-c-13-s06",
+      "speaker": "Amira",
+      "text": "Yes. I'll record your query and send you an update once we've checked the merchant."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cdc3b76d920f5ea5",
+      "lemma": "transaction",
+      "pos": "n.",
+      "sense_zh": "交易",
+      "sentence_ids": [
+        "p12-c-13-s01"
+      ],
+      "forms": [
+        "transaction"
+      ],
+      "sense_id": "sense-staged-ox-cdc3b76d920f5ea5-p12-c-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f61f8c1ca97b4568",
+      "lemma": "verify",
+      "pos": "v.",
+      "sense_zh": "核实",
+      "sentence_ids": [
+        "p12-c-13-s04"
+      ],
+      "forms": [
+        "verify"
+      ],
+      "sense_id": "sense-staged-ox-f61f8c1ca97b4568-p12-c-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5915b3a8644832f0",
+      "lemma": "whatsoever",
+      "pos": "adv.",
+      "sense_zh": "丝毫、任何（加强否定）",
+      "sentence_ids": [
+        "p12-c-13-s03"
+      ],
+      "forms": [
+        "whatsoever"
+      ],
+      "sense_id": "sense-staged-ox-5915b3a8644832f0-p12-c-13",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

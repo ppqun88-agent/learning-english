@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-14",
+  "title_zh": "询问租约终止与水电交接程序",
+  "topic_id": "home",
+  "scenario": {
+    "id": "tenant-end-date-utility-query",
+    "label_zh": "询问租约终止与水电交接程序",
+    "goal_zh": "询问终止租约所需程序并约定索取程序和水电交接清单"
+  },
+  "participants": [
+    "Kai",
+    "Nora"
+  ],
+  "context_zh": "虚构租赁服务沟通练习。此处仅请求书面流程，不陈述真实租赁法律或提供法律建议。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-14-s01",
+      "speaker": "Kai",
+      "text": "I'm the tenant in flat six, and I'd like to terminate the rental agreement at the end of June."
+    },
+    {
+      "id": "p12-c-14-s02",
+      "speaker": "Nora",
+      "text": "I can send you the written procedure. We haven't checked whether that date fits your agreement yet."
+    },
+    {
+      "id": "p12-c-14-s03",
+      "speaker": "Kai",
+      "text": "Please do. I don't want this conversation to be mistaken for a completed notice."
+    },
+    {
+      "id": "p12-c-14-s04",
+      "speaker": "Nora",
+      "text": "Understood. I'll also include a checklist for the final utility readings and account handover."
+    },
+    {
+      "id": "p12-c-14-s05",
+      "speaker": "Kai",
+      "text": "That will help. I'll check both documents before submitting anything."
+    },
+    {
+      "id": "p12-c-14-s06",
+      "speaker": "Nora",
+      "text": "All right. I'll send them to the contact address already on your rental record."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c26bcad50f2523b1",
+      "lemma": "tenant",
+      "pos": "n.",
+      "sense_zh": "租户",
+      "sentence_ids": [
+        "p12-c-14-s01"
+      ],
+      "forms": [
+        "tenant"
+      ],
+      "sense_id": "sense-staged-ox-c26bcad50f2523b1-p12-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21271c38961a9798",
+      "lemma": "terminate",
+      "pos": "v.",
+      "sense_zh": "终止",
+      "sentence_ids": [
+        "p12-c-14-s01"
+      ],
+      "forms": [
+        "terminate"
+      ],
+      "sense_id": "sense-staged-ox-21271c38961a9798-p12-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b4084bbb576d041",
+      "lemma": "utility",
+      "pos": "n.",
+      "sense_zh": "公用事业服务（水电等）",
+      "sentence_ids": [
+        "p12-c-14-s04"
+      ],
+      "forms": [
+        "utility"
+      ],
+      "sense_id": "sense-staged-ox-7b4084bbb576d041-p12-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

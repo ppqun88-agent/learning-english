@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-25",
+  "title_zh": "约定先核对品牌标记许可再决定使用",
+  "topic_id": "work",
+  "scenario": {
+    "id": "brand-trademark-draft-permission",
+    "label_zh": "核对品牌标记许可后再决定设计统一方式",
+    "goal_zh": "区分视觉草稿与标记使用许可并约定先询问许可再决定是否加入标记"
+  },
+  "participants": [
+    "Asha",
+    "Tom"
+  ],
+  "context_zh": "虚构设计委托沟通。设计师讨论客户发送的品牌草图，不作商标法律判断。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-25-s01",
+      "speaker": "Asha",
+      "text": "This blue emblem would help unify the pages. Is it the client's trademark?"
+    },
+    {
+      "id": "p12-c-25-s02",
+      "speaker": "Tom",
+      "text": "That's what the file name says, but the email doesn't explain whether we're allowed to use it in this project."
+    },
+    {
+      "id": "p12-c-25-s03",
+      "speaker": "Asha",
+      "text": "Then the visual transformation can wait. I'd rather check than copy it onto every page."
+    },
+    {
+      "id": "p12-c-25-s04",
+      "speaker": "Tom",
+      "text": "Agreed. The draft layout can stay as it is without the emblem."
+    },
+    {
+      "id": "p12-c-25-s05",
+      "speaker": "Asha",
+      "text": "I'll ask the client about permission first, then we can make the pages consistent if they confirm it."
+    },
+    {
+      "id": "p12-c-25-s06",
+      "speaker": "Tom",
+      "text": "Good. I'll keep that version separate from the working draft."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9a0380556fc7fde3",
+      "lemma": "trademark",
+      "pos": "n.",
+      "sense_zh": "商标",
+      "sentence_ids": [
+        "p12-c-25-s01"
+      ],
+      "forms": [
+        "trademark"
+      ],
+      "sense_id": "sense-staged-ox-9a0380556fc7fde3-p12-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5046fb6920405bfb",
+      "lemma": "unify",
+      "pos": "v.",
+      "sense_zh": "使统一",
+      "sentence_ids": [
+        "p12-c-25-s01"
+      ],
+      "forms": [
+        "unify"
+      ],
+      "sense_id": "sense-staged-ox-5046fb6920405bfb-p12-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6be685ab925efb6c",
+      "lemma": "transformation",
+      "pos": "n.",
+      "sense_zh": "转变",
+      "sentence_ids": [
+        "p12-c-25-s03"
+      ],
+      "forms": [
+        "transformation"
+      ],
+      "sense_id": "sense-staged-ox-6be685ab925efb6c-p12-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

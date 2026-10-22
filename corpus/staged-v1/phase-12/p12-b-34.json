@@ -1,0 +1,121 @@
+{
+  "id": "p12-b-34",
+  "title_zh": "尝试汤中香草替换的细微差别",
+  "topic_id": "food",
+  "scenario": {
+    "id": "soup-substitution-taste-test",
+    "label_zh": "汤的香草替换试味",
+    "goal_zh": "比较两份样汤的香草差别并决定在食谱旁记录替换选择"
+  },
+  "participants": [
+    "Cam",
+    "Eri"
+  ],
+  "context_zh": "家庭烹饪爱好者 Cam 与 Eri 面前已有两小份试做汤，一份用欧芹，一份用罗勒。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-34-s01",
+      "speaker": "Cam",
+      "text": "Could we substitute basil for parsley in the final recipe?"
+    },
+    {
+      "id": "p12-b-34-s02",
+      "speaker": "Eri",
+      "text": "Try these two samples. The substitution changes the aroma, but I want to know which you prefer."
+    },
+    {
+      "id": "p12-b-34-s03",
+      "speaker": "Cam",
+      "text": "Shall I stir this one before tasting it? The herbs are floating on top."
+    },
+    {
+      "id": "p12-b-34-s04",
+      "speaker": "Eri",
+      "text": "Yes. That bowl has the basil; the other has parsley."
+    },
+    {
+      "id": "p12-b-34-s05",
+      "speaker": "Cam",
+      "text": "The difference is subtle, but I prefer the basil sample."
+    },
+    {
+      "id": "p12-b-34-s06",
+      "speaker": "Eri",
+      "text": "So do I. Let’s note the choice beside the recipe rather than pretend we followed it exactly."
+    },
+    {
+      "id": "p12-b-34-s07",
+      "speaker": "Cam",
+      "text": "I’ll write “basil instead of parsley” in our test notes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c917a7cab133f420",
+      "lemma": "substitute",
+      "pos": "v.",
+      "sense_zh": "用一种配料替换另一种",
+      "sentence_ids": [
+        "p12-b-34-s01"
+      ],
+      "forms": [
+        "substitute"
+      ],
+      "sense_id": "sense-staged-ox-c917a7cab133f420-p12-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a669140df546eca8",
+      "lemma": "substitution",
+      "pos": "n.",
+      "sense_zh": "替换",
+      "sentence_ids": [
+        "p12-b-34-s02"
+      ],
+      "forms": [
+        "substitution"
+      ],
+      "sense_id": "sense-staged-ox-a669140df546eca8-p12-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c350edd068de184",
+      "lemma": "stir",
+      "pos": "v.",
+      "sense_zh": "搅拌",
+      "sentence_ids": [
+        "p12-b-34-s03"
+      ],
+      "forms": [
+        "stir"
+      ],
+      "sense_id": "sense-staged-ox-2c350edd068de184-p12-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-36c5f45160144390",
+      "lemma": "subtle",
+      "pos": "adj.",
+      "sense_zh": "细微而不明显的",
+      "sentence_ids": [
+        "p12-b-34-s05"
+      ],
+      "forms": [
+        "subtle"
+      ],
+      "sense_id": "sense-staged-ox-36c5f45160144390-p12-b-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

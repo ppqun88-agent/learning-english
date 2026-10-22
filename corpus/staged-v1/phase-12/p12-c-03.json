@@ -1,0 +1,121 @@
+{
+  "id": "p12-c-03",
+  "title_zh": "核对模拟庭审证词与裁决的区别",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "mock-trial-transcript-testimony",
+    "label_zh": "核对模拟庭审证词与裁决的区别",
+    "goal_zh": "核对证人回答在记录中的范围并约定删除把证词写成裁决的句子"
+  },
+  "participants": [
+    "Nadia",
+    "Owen"
+  ],
+  "context_zh": "两名学生核对完全虚构的模拟庭审作业。此处只练习证据表述，不提供法律建议。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-03-s01",
+      "speaker": "Nadia",
+      "text": "Did the witness testify that she saw the driver?"
+    },
+    {
+      "id": "p12-c-03-s02",
+      "speaker": "Owen",
+      "text": "No. Look at the transcript: she said she saw a blue car, but couldn't see who was inside."
+    },
+    {
+      "id": "p12-c-03-s03",
+      "speaker": "Nadia",
+      "text": "I've written that her testimony identified the driver. That goes too far."
+    },
+    {
+      "id": "p12-c-03-s04",
+      "speaker": "Owen",
+      "text": "It does. We can say she described the car."
+    },
+    {
+      "id": "p12-c-03-s05",
+      "speaker": "Nadia",
+      "text": "And this final sentence calls that a verdict, although our mock jury hasn't decided anything."
+    },
+    {
+      "id": "p12-c-03-s06",
+      "speaker": "Owen",
+      "text": "Let's delete it. We'll keep the witness's account separate from any later decision."
+    },
+    {
+      "id": "p12-c-03-s07",
+      "speaker": "Nadia",
+      "text": "Yes. I'll remove that final sentence and change the earlier line to say she described the car."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c16d00f54f06b875",
+      "lemma": "testify",
+      "pos": "v.",
+      "sense_zh": "作证",
+      "sentence_ids": [
+        "p12-c-03-s01"
+      ],
+      "forms": [
+        "testify"
+      ],
+      "sense_id": "sense-staged-ox-c16d00f54f06b875-p12-c-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-011e8e3f60ecfe73",
+      "lemma": "testimony",
+      "pos": "n.",
+      "sense_zh": "证词",
+      "sentence_ids": [
+        "p12-c-03-s03"
+      ],
+      "forms": [
+        "testimony"
+      ],
+      "sense_id": "sense-staged-ox-011e8e3f60ecfe73-p12-c-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17052b5e9ea25879",
+      "lemma": "transcript",
+      "pos": "n.",
+      "sense_zh": "逐字记录",
+      "sentence_ids": [
+        "p12-c-03-s02"
+      ],
+      "forms": [
+        "transcript"
+      ],
+      "sense_id": "sense-staged-ox-17052b5e9ea25879-p12-c-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4905c1ae60eb30e",
+      "lemma": "verdict",
+      "pos": "n.",
+      "sense_zh": "裁决",
+      "sentence_ids": [
+        "p12-c-03-s05"
+      ],
+      "forms": [
+        "verdict"
+      ],
+      "sense_id": "sense-staged-ox-b4905c1ae60eb30e-p12-c-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

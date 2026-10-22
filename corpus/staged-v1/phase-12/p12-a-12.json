@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-12",
+  "title_zh": "先确认周末会场开放条件",
+  "topic_id": "work",
+  "scenario": {
+    "id": "meeting-room-access-assumption-check",
+    "label_zh": "先确认会场开放条件再发送邀请",
+    "goal_zh": "识别周末进场的未经确认假设并约定核实后再发邀请"
+  },
+  "participants": [
+    "Theo",
+    "Priya"
+  ],
+  "context_zh": "同事 Theo 与 Priya 准备周六的工作坊，手头只有平日使用会场的经验。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-12-s01",
+      "speaker": "Theo",
+      "text": "The building was open when I visited yesterday. Presumably we can get in on Saturday too."
+    },
+    {
+      "id": "p12-a-12-s02",
+      "speaker": "Priya",
+      "text": "I wouldn't presume that. Yesterday was a working day."
+    },
+    {
+      "id": "p12-a-12-s03",
+      "speaker": "Theo",
+      "text": "True. It would be problematic if everyone arrived and found the doors locked."
+    },
+    {
+      "id": "p12-a-12-s04",
+      "speaker": "Priya",
+      "text": "Let's ask the venue contact about weekend access before sending the invitations."
+    },
+    {
+      "id": "p12-a-12-s05",
+      "speaker": "Theo",
+      "text": "I'll call now and ask who opens the building and at what time."
+    },
+    {
+      "id": "p12-a-12-s06",
+      "speaker": "Priya",
+      "text": "Thanks. I'll hold the invitation email until we have an answer."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bc9dcad98d0a70f8",
+      "lemma": "presume",
+      "pos": "v.",
+      "sense_zh": "未经充分确认就假定",
+      "sentence_ids": [
+        "p12-a-12-s02"
+      ],
+      "forms": [
+        "presume"
+      ],
+      "sense_id": "sense-staged-ox-bc9dcad98d0a70f8-p12-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a11eae1a17c291c",
+      "lemma": "presumably",
+      "pos": "adv.",
+      "sense_zh": "想必；推测起来",
+      "sentence_ids": [
+        "p12-a-12-s01"
+      ],
+      "forms": [
+        "presumably"
+      ],
+      "sense_id": "sense-staged-ox-8a11eae1a17c291c-p12-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7566944e2885728c",
+      "lemma": "problematic",
+      "pos": "adj.",
+      "sense_zh": "会造成问题的",
+      "sentence_ids": [
+        "p12-a-12-s03"
+      ],
+      "forms": [
+        "problematic"
+      ],
+      "sense_id": "sense-staged-ox-7566944e2885728c-p12-a-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

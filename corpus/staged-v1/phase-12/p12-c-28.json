@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-28",
+  "title_zh": "根据比赛录像安排防守调整试验",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "football-momentum-video-review",
+    "label_zh": "根据比赛录像安排防守调整试验",
+    "goal_zh": "指出录像中的局势变化并约定训练中试验较保守的防守策略"
+  },
+  "participants": [
+    "Rafi",
+    "Claire"
+  ],
+  "context_zh": "两名业余足球教练回看虚构比赛录像，讨论训练安排而非真实赛事新闻。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-28-s01",
+      "speaker": "Rafi",
+      "text": "Pause it there. That's where the swing in momentum starts."
+    },
+    {
+      "id": "p12-c-28-s02",
+      "speaker": "Claire",
+      "text": "Our full-back moves forward, and the other team immediately uses the space behind him."
+    },
+    {
+      "id": "p12-c-28-s03",
+      "speaker": "Rafi",
+      "text": "So chasing the ball wasn't a good tactic in that situation."
+    },
+    {
+      "id": "p12-c-28-s04",
+      "speaker": "Claire",
+      "text": "We could make a tactical adjustment and keep one defender deeper."
+    },
+    {
+      "id": "p12-c-28-s05",
+      "speaker": "Rafi",
+      "text": "Let's test that in training before deciding on the line-up for the next match."
+    },
+    {
+      "id": "p12-c-28-s06",
+      "speaker": "Claire",
+      "text": "Agreed. We'll review whether it actually closes that gap."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1405087381a598e3",
+      "lemma": "tactic",
+      "pos": "n.",
+      "sense_zh": "策略",
+      "sentence_ids": [
+        "p12-c-28-s03"
+      ],
+      "forms": [
+        "tactic"
+      ],
+      "sense_id": "sense-staged-ox-1405087381a598e3-p12-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f68a7fba625d7126",
+      "lemma": "tactical",
+      "pos": "adj.",
+      "sense_zh": "战术上的",
+      "sentence_ids": [
+        "p12-c-28-s04"
+      ],
+      "forms": [
+        "tactical"
+      ],
+      "sense_id": "sense-staged-ox-f68a7fba625d7126-p12-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-419ba2df35bd7373",
+      "lemma": "swing",
+      "pos": "n.",
+      "sense_zh": "明显转变",
+      "sentence_ids": [
+        "p12-c-28-s01"
+      ],
+      "forms": [
+        "swing"
+      ],
+      "sense_id": "sense-staged-ox-419ba2df35bd7373-p12-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

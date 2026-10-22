@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-29",
+  "title_zh": "区分虚构历史材料中的政体变化",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-history-rebellion-timeline",
+    "label_zh": "区分虚构历史材料中的统治与政体变化",
+    "goal_zh": "排清女王统治结束与共和国建立的先后并约定补入过渡阶段"
+  },
+  "participants": [
+    "Kira",
+    "Nathan"
+  ],
+  "context_zh": "历史写作课堂使用完全虚构的王国年表。Kira 与 Nathan 按三张给定事件卡整理时间线。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-29-s01",
+      "speaker": "Kira",
+      "text": "This card says the rebellion ended the queen's reign. Does the republic start at the same point?"
+    },
+    {
+      "id": "p12-a-29-s02",
+      "speaker": "Nathan",
+      "text": "Not according to the next card. A temporary regime took power first."
+    },
+    {
+      "id": "p12-a-29-s03",
+      "speaker": "Kira",
+      "text": "And the third card places the declaration of the republic a year later."
+    },
+    {
+      "id": "p12-a-29-s04",
+      "speaker": "Nathan",
+      "text": "Then our timeline skips an important stage."
+    },
+    {
+      "id": "p12-a-29-s05",
+      "speaker": "Kira",
+      "text": "I'll add the temporary government between the two events."
+    },
+    {
+      "id": "p12-a-29-s06",
+      "speaker": "Nathan",
+      "text": "Yes. We can show the sequence without implying that the change happened overnight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-541aad4bd88431d7",
+      "lemma": "rebellion",
+      "pos": "n.",
+      "sense_zh": "反叛；起义",
+      "sentence_ids": [
+        "p12-a-29-s01"
+      ],
+      "forms": [
+        "rebellion"
+      ],
+      "sense_id": "sense-staged-ox-541aad4bd88431d7-p12-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-909f9e119f9a7f3a",
+      "lemma": "reign",
+      "pos": "n.",
+      "sense_zh": "君主的统治时期",
+      "sentence_ids": [
+        "p12-a-29-s01"
+      ],
+      "forms": [
+        "reign"
+      ],
+      "sense_id": "sense-staged-ox-909f9e119f9a7f3a-p12-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60ada4441e0e8156",
+      "lemma": "republic",
+      "pos": "n.",
+      "sense_zh": "共和国",
+      "sentence_ids": [
+        "p12-a-29-s03"
+      ],
+      "forms": [
+        "republic"
+      ],
+      "sense_id": "sense-staged-ox-60ada4441e0e8156-p12-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bc91bbeb1230b0e9",
+      "lemma": "regime",
+      "pos": "n.",
+      "sense_zh": "政权；统治体制",
+      "sentence_ids": [
+        "p12-a-29-s02"
+      ],
+      "forms": [
+        "regime"
+      ],
+      "sense_id": "sense-staged-ox-bc91bbeb1230b0e9-p12-a-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

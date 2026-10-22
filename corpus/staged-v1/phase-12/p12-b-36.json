@@ -1,0 +1,79 @@
+{
+  "id": "p12-b-36",
+  "title_zh": "要求用演示说明吸尘器性能",
+  "topic_id": "services",
+  "scenario": {
+    "id": "vacuum-suction-demo-request",
+    "label_zh": "吸尘器宣传与实际演示询问",
+    "goal_zh": "说明吸入效果的需求并约定先观看演示再决定"
+  },
+  "participants": [
+    "Jonah",
+    "Amira"
+  ],
+  "context_zh": "顾客 Jonah 向虚构家电店店员 Amira 询问吸尘器，不涉及实际品牌或购买推荐。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-36-s01",
+      "speaker": "Jonah",
+      "text": "My old machine can barely suck up crumbs from the rug. I need to see what this one actually does."
+    },
+    {
+      "id": "p12-b-36-s02",
+      "speaker": "Amira",
+      "text": "The brochure calls its performance superior, but you don’t have to rely on that phrase."
+    },
+    {
+      "id": "p12-b-36-s03",
+      "speaker": "Jonah",
+      "text": "Could you demonstrate it on the sample rug?"
+    },
+    {
+      "id": "p12-b-36-s04",
+      "speaker": "Amira",
+      "text": "Yes. I can use the demonstration machine over there, with the shop’s test material."
+    },
+    {
+      "id": "p12-b-36-s05",
+      "speaker": "Jonah",
+      "text": "Thanks. I’ll watch the test before deciding whether it suits me."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7d37a98336ecf03a",
+      "lemma": "suck",
+      "pos": "v.",
+      "sense_zh": "吸入",
+      "sentence_ids": [
+        "p12-b-36-s01"
+      ],
+      "forms": [
+        "suck"
+      ],
+      "sense_id": "sense-staged-ox-7d37a98336ecf03a-p12-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-53708a953b2b7a31",
+      "lemma": "superior",
+      "pos": "adj.",
+      "sense_zh": "更优越的",
+      "sentence_ids": [
+        "p12-b-36-s02"
+      ],
+      "forms": [
+        "superior"
+      ],
+      "sense_id": "sense-staged-ox-53708a953b2b7a31-p12-b-36",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

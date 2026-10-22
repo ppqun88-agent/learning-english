@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-38",
+  "title_zh": "区分会员表中的住址与邮寄地址",
+  "topic_id": "services",
+  "scenario": {
+    "id": "residential-address-form-distinction",
+    "label_zh": "核对住址表中实际居住与邮寄地址的区别",
+    "goal_zh": "澄清表格的现住址栏与邮寄栏并决定分别填写"
+  },
+  "participants": [
+    "Nico",
+    "Sara"
+  ],
+  "context_zh": "虚构体育俱乐部会员登记练习。申请人 Nico 与职员 Sara 只解释该示例表格，不涉及政府居留资格。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-38-s01",
+      "speaker": "Nico",
+      "text": "The form asks for a residential address, but I usually receive post at my parents' house."
+    },
+    {
+      "id": "p12-a-38-s02",
+      "speaker": "Sara",
+      "text": "For this club form, that first field means where you currently reside."
+    },
+    {
+      "id": "p12-a-38-s03",
+      "speaker": "Nico",
+      "text": "So I should put my flat as my current residence?"
+    },
+    {
+      "id": "p12-a-38-s04",
+      "speaker": "Sara",
+      "text": "Yes. There's a separate field below it for the address where you want letters sent."
+    },
+    {
+      "id": "p12-a-38-s05",
+      "speaker": "Nico",
+      "text": "I'll enter the flat first and my parents' address in the postal field."
+    },
+    {
+      "id": "p12-a-38-s06",
+      "speaker": "Sara",
+      "text": "That will keep the two purposes clear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e42b7664a38fba06",
+      "lemma": "residence",
+      "pos": "n.",
+      "sense_zh": "住所；居住地点",
+      "sentence_ids": [
+        "p12-a-38-s03"
+      ],
+      "forms": [
+        "residence"
+      ],
+      "sense_id": "sense-staged-ox-e42b7664a38fba06-p12-a-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66581b5cdd54c4b3",
+      "lemma": "residential",
+      "pos": "adj.",
+      "sense_zh": "居住的；住宅的",
+      "sentence_ids": [
+        "p12-a-38-s01"
+      ],
+      "forms": [
+        "residential"
+      ],
+      "sense_id": "sense-staged-ox-66581b5cdd54c4b3-p12-a-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-87e255dfb0e92172",
+      "lemma": "reside",
+      "pos": "v.",
+      "sense_zh": "居住",
+      "sentence_ids": [
+        "p12-a-38-s02"
+      ],
+      "forms": [
+        "reside"
+      ],
+      "sense_id": "sense-staged-ox-87e255dfb0e92172-p12-a-38",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

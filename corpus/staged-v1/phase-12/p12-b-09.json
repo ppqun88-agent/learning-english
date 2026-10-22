@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-09",
+  "title_zh": "聚焦连载音频故事的首段提纲",
+  "topic_id": "work",
+  "scenario": {
+    "id": "serial-audio-outline-submission",
+    "label_zh": "连载音频提纲与投稿安排",
+    "goal_zh": "明确首段时间跨度并约定修改后再投稿"
+  },
+  "participants": [
+    "Theo",
+    "June"
+  ],
+  "context_zh": "编剧 Theo 与编辑 June 在准备一部原创连载音频故事的提纲。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-09-s01",
+      "speaker": "Theo",
+      "text": "This is the opening segment of my serial drama. It introduces all six families."
+    },
+    {
+      "id": "p12-b-09-s02",
+      "speaker": "June",
+      "text": "That’s a lot for an opening. What span of time does this segment cover?"
+    },
+    {
+      "id": "p12-b-09-s03",
+      "speaker": "Theo",
+      "text": "Three days, but the middle section jumps ahead a year and then comes back."
+    },
+    {
+      "id": "p12-b-09-s04",
+      "speaker": "June",
+      "text": "Could you save that jump for a later episode? I’m losing track of the first family."
+    },
+    {
+      "id": "p12-b-09-s05",
+      "speaker": "Theo",
+      "text": "Yes. I’ll keep this segment within those three days and focus on that family."
+    },
+    {
+      "id": "p12-b-09-s06",
+      "speaker": "June",
+      "text": "Good. Let’s make that revision before your submission to the audio festival."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-125b1bd5de942cfe",
+      "lemma": "segment",
+      "pos": "n.",
+      "sense_zh": "故事的一段",
+      "sentence_ids": [
+        "p12-b-09-s01"
+      ],
+      "forms": [
+        "segment"
+      ],
+      "sense_id": "sense-staged-ox-125b1bd5de942cfe-p12-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e6e5a12e578ca85f",
+      "lemma": "serial",
+      "pos": "adj.",
+      "sense_zh": "分集连续播出的",
+      "sentence_ids": [
+        "p12-b-09-s01"
+      ],
+      "forms": [
+        "serial"
+      ],
+      "sense_id": "sense-staged-ox-e6e5a12e578ca85f-p12-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b52089f089f2fedc",
+      "lemma": "span",
+      "pos": "n.",
+      "sense_zh": "一段持续时间",
+      "sentence_ids": [
+        "p12-b-09-s02"
+      ],
+      "forms": [
+        "span"
+      ],
+      "sense_id": "sense-staged-ox-b52089f089f2fedc-p12-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70be5fe66f4e3354",
+      "lemma": "submission",
+      "pos": "n.",
+      "sense_zh": "提交的作品或投稿",
+      "sentence_ids": [
+        "p12-b-09-s06"
+      ],
+      "forms": [
+        "submission"
+      ],
+      "sense_id": "sense-staged-ox-70be5fe66f4e3354-p12-b-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

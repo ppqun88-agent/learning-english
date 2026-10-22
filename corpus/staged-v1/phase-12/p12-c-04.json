@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-04",
+  "title_zh": "修订虚构审裁决定的摘要",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-tribunal-decision-summary",
+    "label_zh": "修订虚构审裁决定的摘要",
+    "goal_zh": "区分违宪主张与审裁结果并约定按这一区别重写摘要"
+  },
+  "participants": [
+    "Iris",
+    "Sam"
+  ],
+  "context_zh": "公共事务课堂使用虚构国家和虚构审裁机构的案例讲义；对话不陈述真实法律或案件。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-04-s01",
+      "speaker": "Iris",
+      "text": "My summary says the tribunal found the rule unconstitutional."
+    },
+    {
+      "id": "p12-c-04-s02",
+      "speaker": "Sam",
+      "text": "Check the last paragraph. It says the applicant argued that, not that the tribunal agreed."
+    },
+    {
+      "id": "p12-c-04-s03",
+      "speaker": "Iris",
+      "text": "You're right. The panel decided to uphold the original decision."
+    },
+    {
+      "id": "p12-c-04-s04",
+      "speaker": "Sam",
+      "text": "So we need two separate statements: what the applicant claimed and what the panel decided."
+    },
+    {
+      "id": "p12-c-04-s05",
+      "speaker": "Iris",
+      "text": "I'll rewrite it that way and remove the claim that the rule was struck down."
+    },
+    {
+      "id": "p12-c-04-s06",
+      "speaker": "Sam",
+      "text": "Good. That matches the outcome in this fictional case."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-896e15d728d135f8",
+      "lemma": "tribunal",
+      "pos": "n.",
+      "sense_zh": "审裁机构",
+      "sentence_ids": [
+        "p12-c-04-s01"
+      ],
+      "forms": [
+        "tribunal"
+      ],
+      "sense_id": "sense-staged-ox-896e15d728d135f8-p12-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0268245839dd4b75",
+      "lemma": "unconstitutional",
+      "pos": "adj.",
+      "sense_zh": "违宪的",
+      "sentence_ids": [
+        "p12-c-04-s01"
+      ],
+      "forms": [
+        "unconstitutional"
+      ],
+      "sense_id": "sense-staged-ox-0268245839dd4b75-p12-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-595c6c4c72802126",
+      "lemma": "uphold",
+      "pos": "v.",
+      "sense_zh": "维持决定",
+      "sentence_ids": [
+        "p12-c-04-s03"
+      ],
+      "forms": [
+        "uphold"
+      ],
+      "sense_id": "sense-staged-ox-595c6c4c72802126-p12-c-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

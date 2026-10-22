@@ -1,0 +1,158 @@
+{
+  "id": "p12-b-14",
+  "title_zh": "核对双屏客服培训演示",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "training-demo-two-screen-simulation",
+    "label_zh": "双屏模拟演示的设备与分工",
+    "goal_zh": "核对演示规格并约定先用虚构对话测试双屏显示"
+  },
+  "participants": [
+    "Ben",
+    "Zoe"
+  ],
+  "context_zh": "培训设计师 Ben 与技术同事 Zoe 在虚构客服培训项目中准备离线演示，不涉及真实客户资料。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-14-s01",
+      "speaker": "Ben",
+      "text": "Can this setup show two conversations simultaneously? I want trainees to compare the replies."
+    },
+    {
+      "id": "p12-b-14-s02",
+      "speaker": "Zoe",
+      "text": "Yes, on these two demonstration screens. We can use prepared text instead of live customer messages."
+    },
+    {
+      "id": "p12-b-14-s03",
+      "speaker": "Ben",
+      "text": "Can we simulate a delayed reply on the left while the right conversation continues?"
+    },
+    {
+      "id": "p12-b-14-s04",
+      "speaker": "Zoe",
+      "text": "We can. I’ll advance the left sequence more slowly during the simulation."
+    },
+    {
+      "id": "p12-b-14-s05",
+      "speaker": "Ben",
+      "text": "Do we need any specialized hardware?"
+    },
+    {
+      "id": "p12-b-14-s06",
+      "speaker": "Zoe",
+      "text": "No. The equipment specification asks for two ordinary screens and a computer, all of which are here."
+    },
+    {
+      "id": "p12-b-14-s07",
+      "speaker": "Ben",
+      "text": "Then let’s test both sequences with the fictional messages before the session."
+    },
+    {
+      "id": "p12-b-14-s08",
+      "speaker": "Zoe",
+      "text": "Agreed. I’ll take the left sequence, and you can watch the right."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bcaa684ce36a0ec7",
+      "lemma": "setup",
+      "pos": "n.",
+      "sense_zh": "设备配置",
+      "sentence_ids": [
+        "p12-b-14-s01"
+      ],
+      "forms": [
+        "setup"
+      ],
+      "sense_id": "sense-staged-ox-bcaa684ce36a0ec7-p12-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3549265a9866a3a",
+      "lemma": "simultaneously",
+      "pos": "adv.",
+      "sense_zh": "同时地",
+      "sentence_ids": [
+        "p12-b-14-s01"
+      ],
+      "forms": [
+        "simultaneously"
+      ],
+      "sense_id": "sense-staged-ox-e3549265a9866a3a-p12-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-692f493d84299b50",
+      "lemma": "simulate",
+      "pos": "v.",
+      "sense_zh": "模拟",
+      "sentence_ids": [
+        "p12-b-14-s03"
+      ],
+      "forms": [
+        "simulate"
+      ],
+      "sense_id": "sense-staged-ox-692f493d84299b50-p12-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d710b61436f3a962",
+      "lemma": "simulation",
+      "pos": "n.",
+      "sense_zh": "模拟演练",
+      "sentence_ids": [
+        "p12-b-14-s04"
+      ],
+      "forms": [
+        "simulation"
+      ],
+      "sense_id": "sense-staged-ox-d710b61436f3a962-p12-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d27e2ac7b381527",
+      "lemma": "specialized",
+      "pos": "adj.",
+      "sense_zh": "专门用途的",
+      "sentence_ids": [
+        "p12-b-14-s05"
+      ],
+      "forms": [
+        "specialized"
+      ],
+      "sense_id": "sense-staged-ox-1d27e2ac7b381527-p12-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fcfe84d487d62360",
+      "lemma": "specification",
+      "pos": "n.",
+      "sense_zh": "规格要求",
+      "sentence_ids": [
+        "p12-b-14-s06"
+      ],
+      "forms": [
+        "specification"
+      ],
+      "sense_id": "sense-staged-ox-fcfe84d487d62360-p12-b-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

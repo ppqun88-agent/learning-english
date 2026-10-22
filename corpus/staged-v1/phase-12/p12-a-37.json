@@ -1,0 +1,95 @@
+{
+  "id": "p12-a-37",
+  "title_zh": "为读书会保留结局揭秘",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "book-club-revenge-plot-spoiler-boundary",
+    "label_zh": "决定读书会只讲动机而保留后文揭秘",
+    "goal_zh": "选定可复述的角色动机并约定不透露结尾揭秘"
+  },
+  "participants": [
+    "Liv",
+    "Mateo"
+  ],
+  "context_zh": "朋友 Liv 与 Mateo 准备讨论一部虚构悬疑小说，部分读者尚未读到结尾。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-37-s01",
+      "speaker": "Liv",
+      "text": "Can I recount the argument that starts the character's desire for revenge?"
+    },
+    {
+      "id": "p12-a-37-s02",
+      "speaker": "Mateo",
+      "text": "Yes, but don't include the revelation in the final chapter. Half the group hasn't reached it."
+    },
+    {
+      "id": "p12-a-37-s03",
+      "speaker": "Liv",
+      "text": "I can explain why she feels betrayed without naming the person behind the letter."
+    },
+    {
+      "id": "p12-a-37-s04",
+      "speaker": "Mateo",
+      "text": "That would give us enough to discuss her choices."
+    },
+    {
+      "id": "p12-a-37-s05",
+      "speaker": "Liv",
+      "text": "Then I'll stop before the letter's author is revealed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-36212d14af0e79d5",
+      "lemma": "recount",
+      "pos": "v.",
+      "sense_zh": "讲述；叙述",
+      "sentence_ids": [
+        "p12-a-37-s01"
+      ],
+      "forms": [
+        "recount"
+      ],
+      "sense_id": "sense-staged-ox-36212d14af0e79d5-p12-a-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d820d6a3fdcd627",
+      "lemma": "revelation",
+      "pos": "n.",
+      "sense_zh": "被揭示的惊人事实",
+      "sentence_ids": [
+        "p12-a-37-s02"
+      ],
+      "forms": [
+        "revelation"
+      ],
+      "sense_id": "sense-staged-ox-1d820d6a3fdcd627-p12-a-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e2d073c820822e8d",
+      "lemma": "revenge",
+      "pos": "n.",
+      "sense_zh": "报复",
+      "sentence_ids": [
+        "p12-a-37-s01"
+      ],
+      "forms": [
+        "revenge"
+      ],
+      "sense_id": "sense-staged-ox-e2d073c820822e8d-p12-a-37",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

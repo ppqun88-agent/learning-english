@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-26",
+  "title_zh": "限定下一次原型展示的演示范围",
+  "topic_id": "work",
+  "scenario": {
+    "id": "prototype-unveiling-demo-scope",
+    "label_zh": "限定下一次原型展示的演示范围",
+    "goal_zh": "核对展示中已经可用的功能并约定只展示已可用部分并注明限制"
+  },
+  "participants": [
+    "Felix",
+    "Zara"
+  ],
+  "context_zh": "虚构软件团队排练原型展示，只讨论沟通内容，不操作真实系统或发布服务。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-26-s01",
+      "speaker": "Felix",
+      "text": "Are we still planning to unveil the prototype at the upcoming team meeting?"
+    },
+    {
+      "id": "p12-c-26-s02",
+      "speaker": "Zara",
+      "text": "Yes, but only the navigation works. The export feature isn't ready."
+    },
+    {
+      "id": "p12-c-26-s03",
+      "speaker": "Felix",
+      "text": "After the tremendous amount of work you've put in, I'd hate to hide what does work."
+    },
+    {
+      "id": "p12-c-26-s04",
+      "speaker": "Zara",
+      "text": "We don't need to hide it. We just need to be clear about the limits."
+    },
+    {
+      "id": "p12-c-26-s05",
+      "speaker": "Felix",
+      "text": "Then I'll demonstrate the navigation and put the unfinished features on a separate slide."
+    },
+    {
+      "id": "p12-c-26-s06",
+      "speaker": "Zara",
+      "text": "That works. Please call it a prototype throughout, not the finished product."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c7cb2952e21ff4bb",
+      "lemma": "unveil",
+      "pos": "v.",
+      "sense_zh": "首次展示",
+      "sentence_ids": [
+        "p12-c-26-s01"
+      ],
+      "forms": [
+        "unveil"
+      ],
+      "sense_id": "sense-staged-ox-c7cb2952e21ff4bb-p12-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f5635f024ca15c0e",
+      "lemma": "upcoming",
+      "pos": "adj.",
+      "sense_zh": "即将举行的",
+      "sentence_ids": [
+        "p12-c-26-s01"
+      ],
+      "forms": [
+        "upcoming"
+      ],
+      "sense_id": "sense-staged-ox-f5635f024ca15c0e-p12-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a82dcfccfb41ad5a",
+      "lemma": "tremendous",
+      "pos": "adj.",
+      "sense_zh": "极大的",
+      "sentence_ids": [
+        "p12-c-26-s03"
+      ],
+      "forms": [
+        "tremendous"
+      ],
+      "sense_id": "sense-staged-ox-a82dcfccfb41ad5a-p12-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

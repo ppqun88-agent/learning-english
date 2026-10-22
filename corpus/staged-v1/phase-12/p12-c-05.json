@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-05",
+  "title_zh": "限定虚构条约展签的历史表述",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "museum-treaty-label-scope",
+    "label_zh": "限定虚构条约展签的历史表述",
+    "goal_zh": "核对条约涉及的群体与停战范围并约定改写展签的过度结论"
+  },
+  "participants": [
+    "Pavel",
+    "Ruth"
+  ],
+  "context_zh": "学生设计虚构历史展览，手中资料由课程作者编写；并非对真实族群或条约作历史断言。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-05-s01",
+      "speaker": "Pavel",
+      "text": "The label says this treaty ended warfare throughout the region. Does our source support that?"
+    },
+    {
+      "id": "p12-c-05-s02",
+      "speaker": "Ruth",
+      "text": "Only partly. It says two tribal councils agreed to stop attacks on each other's settlements."
+    },
+    {
+      "id": "p12-c-05-s03",
+      "speaker": "Pavel",
+      "text": "And the next page describes fighting elsewhere five years later."
+    },
+    {
+      "id": "p12-c-05-s04",
+      "speaker": "Ruth",
+      "text": "Then 'throughout the region' is much too broad."
+    },
+    {
+      "id": "p12-c-05-s05",
+      "speaker": "Pavel",
+      "text": "I'll name the two councils and say the agreement concerned their settlements."
+    },
+    {
+      "id": "p12-c-05-s06",
+      "speaker": "Ruth",
+      "text": "Keep the note about the other fighting too. It shows the limit of the agreement."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6cef9da2a72b8f36",
+      "lemma": "treaty",
+      "pos": "n.",
+      "sense_zh": "条约",
+      "sentence_ids": [
+        "p12-c-05-s01"
+      ],
+      "forms": [
+        "treaty"
+      ],
+      "sense_id": "sense-staged-ox-6cef9da2a72b8f36-p12-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8b4af277ff418098",
+      "lemma": "tribal",
+      "pos": "adj.",
+      "sense_zh": "部落的",
+      "sentence_ids": [
+        "p12-c-05-s02"
+      ],
+      "forms": [
+        "tribal"
+      ],
+      "sense_id": "sense-staged-ox-8b4af277ff418098-p12-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-68a7da88ea17f44d",
+      "lemma": "warfare",
+      "pos": "n.",
+      "sense_zh": "战争或交战",
+      "sentence_ids": [
+        "p12-c-05-s01"
+      ],
+      "forms": [
+        "warfare"
+      ],
+      "sense_id": "sense-staged-ox-68a7da88ea17f44d-p12-c-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-28",
+  "title_zh": "澄清视觉测试中的作答对象",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "visual-test-stimulus-instructions",
+    "label_zh": "屏幕视觉测试的目标说明",
+    "goal_zh": "区分背景颜色与目标球体并约定先试读修订指令"
+  },
+  "participants": [
+    "Owen",
+    "Sara"
+  ],
+  "context_zh": "研究方法课堂中，Owen 与 Sara 为虚构的屏幕观察练习修改给成年参与者的指令。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-28-s01",
+      "speaker": "Owen",
+      "text": "The background moves through a spectrum of colors. Should participants respond whenever it changes?"
+    },
+    {
+      "id": "p12-b-28-s02",
+      "speaker": "Sara",
+      "text": "No. The stimulus they should respond to is the blue sphere that appears in the center."
+    },
+    {
+      "id": "p12-b-28-s03",
+      "speaker": "Owen",
+      "text": "Then “press when the picture changes” is too vague."
+    },
+    {
+      "id": "p12-b-28-s04",
+      "speaker": "Sara",
+      "text": "Agreed. We should say “press when the blue sphere appears,” and explain that the background is irrelevant."
+    },
+    {
+      "id": "p12-b-28-s05",
+      "speaker": "Owen",
+      "text": "I’ll revise the instruction. Could you read it aloud to me before we try it with anyone else?"
+    },
+    {
+      "id": "p12-b-28-s06",
+      "speaker": "Sara",
+      "text": "Yes. Let’s check that the wording points to the sphere, not the changing background."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5afa7343d84c9f04",
+      "lemma": "spectrum",
+      "pos": "n.",
+      "sense_zh": "一系列颜色构成的范围",
+      "sentence_ids": [
+        "p12-b-28-s01"
+      ],
+      "forms": [
+        "spectrum"
+      ],
+      "sense_id": "sense-staged-ox-5afa7343d84c9f04-p12-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c7a0018947c8e909",
+      "lemma": "stimulus",
+      "pos": "n.",
+      "sense_zh": "引发反应的刺激物",
+      "sentence_ids": [
+        "p12-b-28-s02"
+      ],
+      "forms": [
+        "stimulus"
+      ],
+      "sense_id": "sense-staged-ox-c7a0018947c8e909-p12-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77d98a505e536f75",
+      "lemma": "sphere",
+      "pos": "n.",
+      "sense_zh": "球体",
+      "sentence_ids": [
+        "p12-b-28-s02"
+      ],
+      "forms": [
+        "sphere"
+      ],
+      "sense_id": "sense-staged-ox-77d98a505e536f75-p12-b-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-09",
+  "title_zh": "核对透明人体模型的血管标签",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "transparent-vessel-model-label",
+    "label_zh": "核对透明人体模型的血管标签",
+    "goal_zh": "读取模型现有血管标签并约定保留标签名称并另问颜色含义"
+  },
+  "participants": [
+    "Tess",
+    "Arun"
+  ],
+  "context_zh": "两名学生整理课堂用透明人体模型的说明卡。他们只核对模型现成标签，不讨论个人疾病或诊疗。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-09-s01",
+      "speaker": "Tess",
+      "text": "This transparent model makes the tubes easy to see, but I've lost track of the labels."
+    },
+    {
+      "id": "p12-c-09-s02",
+      "speaker": "Arun",
+      "text": "The tag on this vessel says 'vein'. It was tucked behind the stand."
+    },
+    {
+      "id": "p12-c-09-s03",
+      "speaker": "Tess",
+      "text": "So I should copy that name onto our card, not guess from the blue colour."
+    },
+    {
+      "id": "p12-c-09-s04",
+      "speaker": "Arun",
+      "text": "Exactly. I don't know what the colours on this particular model are meant to show."
+    },
+    {
+      "id": "p12-c-09-s05",
+      "speaker": "Tess",
+      "text": "I'll keep the existing name and add a question about the colour for our teacher."
+    },
+    {
+      "id": "p12-c-09-s06",
+      "speaker": "Arun",
+      "text": "Good. We shouldn't silently change a label we haven't checked."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-808b65db207baad8",
+      "lemma": "transparent",
+      "pos": "adj.",
+      "sense_zh": "透明的",
+      "sentence_ids": [
+        "p12-c-09-s01"
+      ],
+      "forms": [
+        "transparent"
+      ],
+      "sense_id": "sense-staged-ox-808b65db207baad8-p12-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e4cb004d3affb5ae",
+      "lemma": "vein",
+      "pos": "n.",
+      "sense_zh": "静脉",
+      "sentence_ids": [
+        "p12-c-09-s02"
+      ],
+      "forms": [
+        "vein"
+      ],
+      "sense_id": "sense-staged-ox-e4cb004d3affb5ae-p12-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9b5b411ae4fe718d",
+      "lemma": "vessel",
+      "pos": "n.",
+      "sense_zh": "血管",
+      "sentence_ids": [
+        "p12-c-09-s02"
+      ],
+      "forms": [
+        "vessel"
+      ],
+      "sense_id": "sense-staged-ox-9b5b411ae4fe718d-p12-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

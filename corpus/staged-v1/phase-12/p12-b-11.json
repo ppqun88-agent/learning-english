@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-11",
+  "title_zh": "请接待员转达感觉变化",
+  "topic_id": "health",
+  "scenario": {
+    "id": "fictional-surgical-team-symptom-message",
+    "label_zh": "向虚构手术团队转达症状描述",
+    "goal_zh": "说明感觉变化并约定转达给手术团队而不作诊断"
+  },
+  "participants": [
+    "Elena",
+    "Marcus"
+  ],
+  "context_zh": "完全虚构的英语电话练习：成年患者角色 Elena 致电手术团队接待员角色 Marcus，只练习描述和转达，不提供诊疗建议。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-11-s01",
+      "speaker": "Elena",
+      "text": "My letter gives this number for the surgical team. Could you pass on a message?"
+    },
+    {
+      "id": "p12-b-11-s02",
+      "speaker": "Marcus",
+      "text": "Yes. Tell me what you would like me to record."
+    },
+    {
+      "id": "p12-b-11-s03",
+      "speaker": "Elena",
+      "text": "There’s a tingling sensation around my hand, and I’ve noticed more sensitivity when my sleeve touches it."
+    },
+    {
+      "id": "p12-b-11-s04",
+      "speaker": "Marcus",
+      "text": "I’ll record those words. I’m the receptionist, so I can’t tell you what is causing it."
+    },
+    {
+      "id": "p12-b-11-s05",
+      "speaker": "Elena",
+      "text": "Thank you. Please ask a member of the team to contact me."
+    },
+    {
+      "id": "p12-b-11-s06",
+      "speaker": "Marcus",
+      "text": "I’ll forward the description and your request. I can’t confirm a callback time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ace0807accee2fe5",
+      "lemma": "surgical",
+      "pos": "adj.",
+      "sense_zh": "与外科手术有关的",
+      "sentence_ids": [
+        "p12-b-11-s01"
+      ],
+      "forms": [
+        "surgical"
+      ],
+      "sense_id": "sense-staged-ox-ace0807accee2fe5-p12-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b7f50695c75c5051",
+      "lemma": "sensation",
+      "pos": "n.",
+      "sense_zh": "身体感觉",
+      "sentence_ids": [
+        "p12-b-11-s03"
+      ],
+      "forms": [
+        "sensation"
+      ],
+      "sense_id": "sense-staged-ox-b7f50695c75c5051-p12-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a3df26007992d2e",
+      "lemma": "sensitivity",
+      "pos": "n.",
+      "sense_zh": "对触碰的敏感程度",
+      "sentence_ids": [
+        "p12-b-11-s03"
+      ],
+      "forms": [
+        "sensitivity"
+      ],
+      "sense_id": "sense-staged-ox-5a3df26007992d2e-p12-b-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

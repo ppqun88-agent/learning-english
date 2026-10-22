@@ -1,0 +1,79 @@
+{
+  "id": "p12-b-41",
+  "title_zh": "排练前报告线缆与夹子问题",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "rehearsal-cable-clip-replacement",
+    "label_zh": "排练通道的线缆夹子报修",
+    "goal_zh": "指出绊倒与夹子断裂的担忧并约定先请舞台人员处理"
+  },
+  "participants": [
+    "Freya",
+    "Cole"
+  ],
+  "context_zh": "成年舞者 Freya 与舞台助理 Cole 在排练开始前查看一条横过通道的松动线缆。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-41-s01",
+      "speaker": "Freya",
+      "text": "Someone could stumble over this cable. It’s coming out of the clip."
+    },
+    {
+      "id": "p12-b-41-s02",
+      "speaker": "Cole",
+      "text": "The clip is bent. I’m worried it might snap if I force it shut."
+    },
+    {
+      "id": "p12-b-41-s03",
+      "speaker": "Freya",
+      "text": "Then let’s not force it. Could the stage crew replace it and sort out the cable before we start?"
+    },
+    {
+      "id": "p12-b-41-s04",
+      "speaker": "Cole",
+      "text": "I’ll ask them now. Please keep the group out of this passage while they check it."
+    },
+    {
+      "id": "p12-b-41-s05",
+      "speaker": "Freya",
+      "text": "I will. We’ll wait in the rehearsal room until they tell us the passage is ready."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bf75f25557f60b88",
+      "lemma": "stumble",
+      "pos": "v.",
+      "sense_zh": "绊倒或踉跄",
+      "sentence_ids": [
+        "p12-b-41-s01"
+      ],
+      "forms": [
+        "stumble"
+      ],
+      "sense_id": "sense-staged-ox-bf75f25557f60b88-p12-b-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-223e434f1ae51276",
+      "lemma": "snap",
+      "pos": "v.",
+      "sense_zh": "突然折断",
+      "sentence_ids": [
+        "p12-b-41-s02"
+      ],
+      "forms": [
+        "snap"
+      ],
+      "sense_id": "sense-staged-ox-223e434f1ae51276-p12-b-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

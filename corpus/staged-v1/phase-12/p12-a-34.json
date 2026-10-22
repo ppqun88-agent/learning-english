@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-34",
+  "title_zh": "请求处理租车后窗故障",
+  "topic_id": "services",
+  "scenario": {
+    "id": "rental-car-rear-window-replacement-request",
+    "label_zh": "租车期间发现后窗问题并提出换车请求",
+    "goal_zh": "说明租车后窗问题并约定由客服询问换车安排"
+  },
+  "participants": [
+    "Bea",
+    "Omar"
+  ],
+  "context_zh": "虚构租车服务练习。顾客 Bea 已将车辆停在租车点停车场，向客服 Omar 报告问题。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-34-s01",
+      "speaker": "Bea",
+      "text": "My rental began this morning, but the rear window won't close."
+    },
+    {
+      "id": "p12-a-34-s02",
+      "speaker": "Omar",
+      "text": "Are you still in our car park?"
+    },
+    {
+      "id": "p12-a-34-s03",
+      "speaker": "Bea",
+      "text": "Yes, beside the returns desk. Could I have a replacement?"
+    },
+    {
+      "id": "p12-a-34-s04",
+      "speaker": "Omar",
+      "text": "I'll ask the fleet team what is available. I can't confirm another car until they check."
+    },
+    {
+      "id": "p12-a-34-s05",
+      "speaker": "Bea",
+      "text": "All right. I'll wait here rather than start my trip."
+    },
+    {
+      "id": "p12-a-34-s06",
+      "speaker": "Omar",
+      "text": "I'll come to the desk with an update as soon as they've answered."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c2328a60ff39da51",
+      "lemma": "rear",
+      "pos": "adj.",
+      "sense_zh": "后部的",
+      "sentence_ids": [
+        "p12-a-34-s01"
+      ],
+      "forms": [
+        "rear"
+      ],
+      "sense_id": "sense-staged-ox-c2328a60ff39da51-p12-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2e33f2600002e6dd",
+      "lemma": "rental",
+      "pos": "n.",
+      "sense_zh": "租用；租赁安排",
+      "sentence_ids": [
+        "p12-a-34-s01"
+      ],
+      "forms": [
+        "rental"
+      ],
+      "sense_id": "sense-staged-ox-2e33f2600002e6dd-p12-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d0fd5c82b3a73da6",
+      "lemma": "replacement",
+      "pos": "n.",
+      "sense_zh": "替代品",
+      "sentence_ids": [
+        "p12-a-34-s03"
+      ],
+      "forms": [
+        "replacement"
+      ],
+      "sense_id": "sense-staged-ox-d0fd5c82b3a73da6-p12-a-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

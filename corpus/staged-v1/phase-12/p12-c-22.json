@@ -1,0 +1,95 @@
+{
+  "id": "p12-c-22",
+  "title_zh": "暂停清理不明粉末并安排报告",
+  "topic_id": "work",
+  "scenario": {
+    "id": "workroom-unknown-powder-report",
+    "label_zh": "暂停清理不明粉末并安排报告",
+    "goal_zh": "明确尚不清楚粉末是什么并约定暂停清理并联系受训人员"
+  },
+  "participants": [
+    "Grace",
+    "Idris"
+  ],
+  "context_zh": "虚构工作间安全沟通练习。两名未受专业清理训练的员工发现不明粉末，只讨论停止操作与报告。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-22-s01",
+      "speaker": "Grace",
+      "text": "There's powder beside that bottle. Shall I fetch the vacuum?"
+    },
+    {
+      "id": "p12-c-22-s02",
+      "speaker": "Idris",
+      "text": "Wait. The bottle has a toxic warning, and we don't know what the powder is."
+    },
+    {
+      "id": "p12-c-22-s03",
+      "speaker": "Grace",
+      "text": "You're right. I shouldn't wipe it up either before someone qualified has checked it."
+    },
+    {
+      "id": "p12-c-22-s04",
+      "speaker": "Idris",
+      "text": "Leave it alone. I'll contact the trained site staff and tell them exactly what we found."
+    },
+    {
+      "id": "p12-c-22-s05",
+      "speaker": "Grace",
+      "text": "I'll stay back and let the others know not to start cleaning it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-36e1e55388ba9244",
+      "lemma": "vacuum",
+      "pos": "n.",
+      "sense_zh": "吸尘器",
+      "sentence_ids": [
+        "p12-c-22-s01"
+      ],
+      "forms": [
+        "vacuum"
+      ],
+      "sense_id": "sense-staged-ox-36e1e55388ba9244-p12-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8076bacd753ab391",
+      "lemma": "wipe",
+      "pos": "v.",
+      "sense_zh": "擦去",
+      "sentence_ids": [
+        "p12-c-22-s03"
+      ],
+      "forms": [
+        "wipe"
+      ],
+      "sense_id": "sense-staged-ox-8076bacd753ab391-p12-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a790524c6013bca",
+      "lemma": "toxic",
+      "pos": "adj.",
+      "sense_zh": "有毒的",
+      "sentence_ids": [
+        "p12-c-22-s02"
+      ],
+      "forms": [
+        "toxic"
+      ],
+      "sense_id": "sense-staged-ox-0a790524c6013bca-p12-c-22",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

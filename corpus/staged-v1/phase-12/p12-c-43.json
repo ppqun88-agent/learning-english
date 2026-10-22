@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-43",
+  "title_zh": "约定申请单次舞蹈健身试办",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "dance-workout-room-pilot",
+    "label_zh": "约定申请单次舞蹈健身试办",
+    "goal_zh": "讨论可供试办使用的房间并约定先申请单次试办而非固定课程"
+  },
+  "participants": [
+    "Zoe",
+    "Patrick"
+  ],
+  "context_zh": "虚构休闲活动策划。组织者只讨论房间和活动试办，不提供具体运动或医疗指导。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-43-s01",
+      "speaker": "Zoe",
+      "text": "That dance workout last month had such a vibrant atmosphere. Could we try a small session here?"
+    },
+    {
+      "id": "p12-c-43-s02",
+      "speaker": "Patrick",
+      "text": "We might utilize the side room on a quiet afternoon, but we'd need the manager's approval."
+    },
+    {
+      "id": "p12-c-43-s03",
+      "speaker": "Zoe",
+      "text": "I wouldn't want to promise a weekly class before we've tried it."
+    },
+    {
+      "id": "p12-c-43-s04",
+      "speaker": "Patrick",
+      "text": "Then let's ask for one short pilot session and invite feedback afterwards."
+    },
+    {
+      "id": "p12-c-43-s05",
+      "speaker": "Zoe",
+      "text": "Yes. One session in the request, with no standing booking."
+    },
+    {
+      "id": "p12-c-43-s06",
+      "speaker": "Patrick",
+      "text": "I'll draft it that way and send it to you to check before it goes to the manager."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ef99f388d5d7d5c5",
+      "lemma": "workout",
+      "pos": "n.",
+      "sense_zh": "锻炼活动",
+      "sentence_ids": [
+        "p12-c-43-s01"
+      ],
+      "forms": [
+        "workout"
+      ],
+      "sense_id": "sense-staged-ox-ef99f388d5d7d5c5-p12-c-43",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6a3974bce13491e",
+      "lemma": "utilize",
+      "pos": "v.",
+      "sense_zh": "利用",
+      "sentence_ids": [
+        "p12-c-43-s02"
+      ],
+      "forms": [
+        "utilize"
+      ],
+      "sense_id": "sense-staged-ox-f6a3974bce13491e-p12-c-43",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-886f17230720f9b7",
+      "lemma": "vibrant",
+      "pos": "adj.",
+      "sense_zh": "充满活力的",
+      "sentence_ids": [
+        "p12-c-43-s01"
+      ],
+      "forms": [
+        "vibrant"
+      ],
+      "sense_id": "sense-staged-ox-886f17230720f9b7-p12-c-43",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

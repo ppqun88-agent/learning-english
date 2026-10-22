@@ -1,0 +1,95 @@
+{
+  "id": "p12-c-18",
+  "title_zh": "约好检查松动的木质展示架",
+  "topic_id": "home",
+  "scenario": {
+    "id": "display-shelf-timber-repair",
+    "label_zh": "约好检查松动的木质展示架",
+    "goal_zh": "说明展示架的板宽与松动情况并约定先清空展示架再检查维修"
+  },
+  "participants": [
+    "Anya",
+    "Rob"
+  ],
+  "context_zh": "住户向认识的家具维修人员描述一只小型木质展示架，不进行带电或机械加工操作。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-18-s01",
+      "speaker": "Anya",
+      "text": "Could you look at this display shelf? The timber board moves when I touch the left side."
+    },
+    {
+      "id": "p12-c-18-s02",
+      "speaker": "Rob",
+      "text": "What's the width of the board? I need to bring the right measuring tools."
+    },
+    {
+      "id": "p12-c-18-s03",
+      "speaker": "Anya",
+      "text": "Thirty centimetres. I thought you might just need to tighten the screws."
+    },
+    {
+      "id": "p12-c-18-s04",
+      "speaker": "Rob",
+      "text": "Perhaps, but I'll inspect it first. Please take the display pieces off before I arrive."
+    },
+    {
+      "id": "p12-c-18-s05",
+      "speaker": "Anya",
+      "text": "Of course. I'll clear the shelf now and leave the repair to you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4e01e8102b6d74a9",
+      "lemma": "timber",
+      "pos": "n.",
+      "sense_zh": "木材",
+      "sentence_ids": [
+        "p12-c-18-s01"
+      ],
+      "forms": [
+        "timber"
+      ],
+      "sense_id": "sense-staged-ox-4e01e8102b6d74a9-p12-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d6f0d347813b46e",
+      "lemma": "tighten",
+      "pos": "v.",
+      "sense_zh": "拧紧",
+      "sentence_ids": [
+        "p12-c-18-s03"
+      ],
+      "forms": [
+        "tighten"
+      ],
+      "sense_id": "sense-staged-ox-3d6f0d347813b46e-p12-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-646a003e6c8e1bde",
+      "lemma": "width",
+      "pos": "n.",
+      "sense_zh": "宽度",
+      "sentence_ids": [
+        "p12-c-18-s02"
+      ],
+      "forms": [
+        "width"
+      ],
+      "sense_id": "sense-staged-ox-646a003e6c8e1bde-p12-c-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,84 @@
+{
+  "id": "p12-a-25",
+  "title_zh": "区分心脏模型动画与实际测量",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "heart-model-pulse-pump-demonstration",
+    "label_zh": "准备心脏模型演示并区分模拟与实际测量",
+    "goal_zh": "核对模型按钮和动画用途并约定在演示中说明不测量人体"
+  },
+  "participants": [
+    "Max",
+    "Talia"
+  ],
+  "context_zh": "科学课堂中，教师 Talia 与学生 Max 准备一个使用红色水和屏幕动画的心脏模型展示。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-25-s01",
+      "speaker": "Max",
+      "text": "Does this button pump the red water through the model?"
+    },
+    {
+      "id": "p12-a-25-s02",
+      "speaker": "Talia",
+      "text": "Yes. Pressing it starts the demonstration."
+    },
+    {
+      "id": "p12-a-25-s03",
+      "speaker": "Max",
+      "text": "And the pulse on the screen belongs to the person pressing the button?"
+    },
+    {
+      "id": "p12-a-25-s04",
+      "speaker": "Talia",
+      "text": "No, it's a programmed animation. There isn't a sensor attached to anyone."
+    },
+    {
+      "id": "p12-a-25-s05",
+      "speaker": "Max",
+      "text": "Then I'll explain that before inviting someone to press the button."
+    },
+    {
+      "id": "p12-a-25-s06",
+      "speaker": "Talia",
+      "text": "Please do. We want visitors to see the model, not think they're receiving a health reading."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-39f9555bec846ca4",
+      "lemma": "pump",
+      "pos": "v.",
+      "sense_zh": "用泵输送液体",
+      "sentence_ids": [
+        "p12-a-25-s01"
+      ],
+      "forms": [
+        "pump"
+      ],
+      "sense_id": "sense-staged-ox-39f9555bec846ca4-p12-a-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-68c20607801e81bc",
+      "lemma": "pulse",
+      "pos": "n.",
+      "sense_zh": "脉搏；脉搏跳动",
+      "sentence_ids": [
+        "p12-a-25-s03"
+      ],
+      "forms": [
+        "pulse"
+      ],
+      "sense_id": "sense-staged-ox-68c20607801e81bc-p12-a-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-07",
+  "title_zh": "核对虚构供水公投的资料边界",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-water-ballot-information-scope",
+    "label_zh": "核对虚构供水公投资料与监管问询渠道",
+    "goal_zh": "澄清投票问题未提供的细节并约定向资料列出的监管机构提出问题"
+  },
+  "participants": [
+    "Noor",
+    "Ben"
+  ],
+  "context_zh": "公民教育课堂的虚构供水方案。Noor 与 Ben 只核对练习资料，不劝说现实选民或提供法律意见。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-07-s01",
+      "speaker": "Noor",
+      "text": "The referendum question asks about privatization of the water company, but this sheet doesn't explain future charges."
+    },
+    {
+      "id": "p12-a-07-s02",
+      "speaker": "Ben",
+      "text": "It mentions a regulator. Does it say what powers that body would have?"
+    },
+    {
+      "id": "p12-a-07-s03",
+      "speaker": "Noor",
+      "text": "No. The regulatory arrangements are in a separate document that we haven't been given."
+    },
+    {
+      "id": "p12-a-07-s04",
+      "speaker": "Ben",
+      "text": "Then we shouldn't invent an answer about prices."
+    },
+    {
+      "id": "p12-a-07-s05",
+      "speaker": "Noor",
+      "text": "I'll draft a question for the regulator listed on the sheet: where can we read the proposed rules on charges?"
+    },
+    {
+      "id": "p12-a-07-s06",
+      "speaker": "Ben",
+      "text": "Agreed. Let's request the missing document before comparing the options."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-65e065d1901dc80c",
+      "lemma": "privatization",
+      "pos": "n.",
+      "sense_zh": "私有化",
+      "sentence_ids": [
+        "p12-a-07-s01"
+      ],
+      "forms": [
+        "privatization"
+      ],
+      "sense_id": "sense-staged-ox-65e065d1901dc80c-p12-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9422c525511f97e3",
+      "lemma": "referendum",
+      "pos": "n.",
+      "sense_zh": "公民投票；全民公决",
+      "sentence_ids": [
+        "p12-a-07-s01"
+      ],
+      "forms": [
+        "referendum"
+      ],
+      "sense_id": "sense-staged-ox-9422c525511f97e3-p12-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dd3add5ecc99641f",
+      "lemma": "regulator",
+      "pos": "n.",
+      "sense_zh": "监管机构",
+      "sentence_ids": [
+        "p12-a-07-s02"
+      ],
+      "forms": [
+        "regulator"
+      ],
+      "sense_id": "sense-staged-ox-dd3add5ecc99641f-p12-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4bfb8e4b47027749",
+      "lemma": "regulatory",
+      "pos": "adj.",
+      "sense_zh": "监管的",
+      "sentence_ids": [
+        "p12-a-07-s03"
+      ],
+      "forms": [
+        "regulatory"
+      ],
+      "sense_id": "sense-staged-ox-4bfb8e4b47027749-p12-a-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

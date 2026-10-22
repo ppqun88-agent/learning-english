@@ -1,0 +1,100 @@
+{
+  "id": "p12-c-10",
+  "title_zh": "限定虚构预算论坛出席数据的解释",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-budget-forum-attendance",
+    "label_zh": "限定虚构预算论坛出席数据的解释",
+    "goal_zh": "区分论坛到场人数与所有纳税人意见并约定同时公布计数与其范围限制"
+  },
+  "participants": [
+    "Lina",
+    "Peter"
+  ],
+  "context_zh": "公共事务课堂中的虚构城镇预算论坛报告。所有人物、数字和意见均为沟通练习素材，不是现实新闻。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-10-s01",
+      "speaker": "Lina",
+      "text": "Our report calls the turnout a sign that every taxpayer supports the proposal."
+    },
+    {
+      "id": "p12-c-10-s02",
+      "speaker": "Peter",
+      "text": "But only sixty people came. We don't even know how many supported it."
+    },
+    {
+      "id": "p12-c-10-s03",
+      "speaker": "Lina",
+      "text": "So attendance and agreement are two different things."
+    },
+    {
+      "id": "p12-c-10-s04",
+      "speaker": "Peter",
+      "text": "Yes. And people who couldn't attend are missing from that picture."
+    },
+    {
+      "id": "p12-c-10-s05",
+      "speaker": "Lina",
+      "text": "For transparency, let's publish the count alongside a note explaining what we didn't measure."
+    },
+    {
+      "id": "p12-c-10-s06",
+      "speaker": "Peter",
+      "text": "Agreed. We'll remove the sentence claiming universal support."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d8b3f65693b692f8",
+      "lemma": "turnout",
+      "pos": "n.",
+      "sense_zh": "出席人数",
+      "sentence_ids": [
+        "p12-c-10-s01"
+      ],
+      "forms": [
+        "turnout"
+      ],
+      "sense_id": "sense-staged-ox-d8b3f65693b692f8-p12-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9533cee53a6399b7",
+      "lemma": "taxpayer",
+      "pos": "n.",
+      "sense_zh": "纳税人",
+      "sentence_ids": [
+        "p12-c-10-s01"
+      ],
+      "forms": [
+        "taxpayer"
+      ],
+      "sense_id": "sense-staged-ox-9533cee53a6399b7-p12-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcdbd64670435876",
+      "lemma": "transparency",
+      "pos": "n.",
+      "sense_zh": "透明度、公开说明",
+      "sentence_ids": [
+        "p12-c-10-s05"
+      ],
+      "forms": [
+        "transparency"
+      ],
+      "sense_id": "sense-staged-ox-bcdbd64670435876-p12-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

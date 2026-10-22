@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-06",
+  "title_zh": "区分虚构海报的宣传与事实",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-poster-rhetoric-evidence-label",
+    "label_zh": "分析虚构历史海报的宣传修辞与证据边界",
+    "goal_zh": "指出海报的宣传承诺并约定在说明牌上保留归属而不把承诺写成事实"
+  },
+  "participants": [
+    "Imani",
+    "Hugo"
+  ],
+  "context_zh": "历史课堂使用自编的虚构政治海报。Imani 与 Hugo 编写材料说明，不评价现实政治人物。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-06-s01",
+      "speaker": "Imani",
+      "text": "This poster seems to proclaim the start of a perfect society."
+    },
+    {
+      "id": "p12-a-06-s02",
+      "speaker": "Hugo",
+      "text": "That's revolutionary rhetoric, not a description of what actually happened."
+    },
+    {
+      "id": "p12-a-06-s03",
+      "speaker": "Imani",
+      "text": "Should our label call it propaganda?"
+    },
+    {
+      "id": "p12-a-06-s04",
+      "speaker": "Hugo",
+      "text": "Yes, if we explain its purpose: it tries to win support for the fictional movement."
+    },
+    {
+      "id": "p12-a-06-s05",
+      "speaker": "Imani",
+      "text": "I'll write that the poster promises a perfect society, rather than saying the movement created one."
+    },
+    {
+      "id": "p12-a-06-s06",
+      "speaker": "Hugo",
+      "text": "That keeps the claim attached to the poster. Use that version."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a88eccac29444a85",
+      "lemma": "propaganda",
+      "pos": "n.",
+      "sense_zh": "旨在影响公众立场的宣传材料",
+      "sentence_ids": [
+        "p12-a-06-s03"
+      ],
+      "forms": [
+        "propaganda"
+      ],
+      "sense_id": "sense-staged-ox-a88eccac29444a85-p12-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-46c81a1abc6de5cf",
+      "lemma": "proclaim",
+      "pos": "v.",
+      "sense_zh": "公开宣告",
+      "sentence_ids": [
+        "p12-a-06-s01"
+      ],
+      "forms": [
+        "proclaim"
+      ],
+      "sense_id": "sense-staged-ox-46c81a1abc6de5cf-p12-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0cd575ad32a612b2",
+      "lemma": "rhetoric",
+      "pos": "n.",
+      "sense_zh": "具有鼓动性或修饰性的言辞",
+      "sentence_ids": [
+        "p12-a-06-s02"
+      ],
+      "forms": [
+        "rhetoric"
+      ],
+      "sense_id": "sense-staged-ox-0cd575ad32a612b2-p12-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b390b9d435c7d5c2",
+      "lemma": "revolutionary",
+      "pos": "adj.",
+      "sense_zh": "革命的",
+      "sentence_ids": [
+        "p12-a-06-s02"
+      ],
+      "forms": [
+        "revolutionary"
+      ],
+      "sense_id": "sense-staged-ox-b390b9d435c7d5c2-p12-a-06",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

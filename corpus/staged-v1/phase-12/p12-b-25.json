@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-25",
+  "title_zh": "为大学运动队设定稳定训练目标",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "student-squad-realistic-practice-goals",
+    "label_zh": "大学运动队的新成员训练目标",
+    "goal_zh": "明确新成员的训练困难并约定以稳定出勤和基本配合为目标"
+  },
+  "participants": [
+    "Dana",
+    "Lee"
+  ],
+  "context_zh": "大学生 Dana 与队长 Lee 讨论校内排球队的新学期训练，均为成年人。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-25-s01",
+      "speaker": "Dana",
+      "text": "I’m a sophomore, but I’ve only just joined the squad. Everyone else seems much more experienced than me."
+    },
+    {
+      "id": "p12-b-25-s02",
+      "speaker": "Lee",
+      "text": "Experience varies. What part of practice has been hardest for you?"
+    },
+    {
+      "id": "p12-b-25-s03",
+      "speaker": "Dana",
+      "text": "I keep trying to copy the fastest players and lose track of where I should stand."
+    },
+    {
+      "id": "p12-b-25-s04",
+      "speaker": "Lee",
+      "text": "For now, strive for consistent attendance and clear calls to your teammates, not spectacular moves."
+    },
+    {
+      "id": "p12-b-25-s05",
+      "speaker": "Dana",
+      "text": "I can do that. I’ll focus on showing up and communicating during the drills."
+    },
+    {
+      "id": "p12-b-25-s06",
+      "speaker": "Lee",
+      "text": "Good. We’ll review how those basics feel after a few practices."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1168e6d507f6d4d2",
+      "lemma": "sophomore",
+      "pos": "n.",
+      "sense_zh": "大学二年级学生",
+      "sentence_ids": [
+        "p12-b-25-s01"
+      ],
+      "forms": [
+        "sophomore"
+      ],
+      "sense_id": "sense-staged-ox-1168e6d507f6d4d2-p12-b-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b39bc94ef68ddd93",
+      "lemma": "squad",
+      "pos": "n.",
+      "sense_zh": "运动队",
+      "sentence_ids": [
+        "p12-b-25-s01"
+      ],
+      "forms": [
+        "squad"
+      ],
+      "sense_id": "sense-staged-ox-b39bc94ef68ddd93-p12-b-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3eb6e2ff3d5ddd04",
+      "lemma": "strive",
+      "pos": "v.",
+      "sense_zh": "努力争取",
+      "sentence_ids": [
+        "p12-b-25-s04"
+      ],
+      "forms": [
+        "strive"
+      ],
+      "sense_id": "sense-staged-ox-3eb6e2ff3d5ddd04-p12-b-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

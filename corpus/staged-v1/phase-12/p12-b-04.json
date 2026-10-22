@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-04",
+  "title_zh": "校报先核实食堂关闭传闻",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "student-paper-closure-rumor-check",
+    "label_zh": "校报关闭传闻的证据核对",
+    "goal_zh": "指出永久关闭说法缺少依据并安排核对原通知"
+  },
+  "participants": [
+    "Ava",
+    "Noah"
+  ],
+  "context_zh": "学生校报编辑 Ava 与 Noah 讨论虚构校园内的一则食堂传闻。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-04-s01",
+      "speaker": "Ava",
+      "text": "There’s a rumor that the cafeteria is closing permanently. Should it go on the front page?"
+    },
+    {
+      "id": "p12-b-04-s02",
+      "speaker": "Noah",
+      "text": "I’m skeptical. The notice I saw mentioned repairs during one weekend."
+    },
+    {
+      "id": "p12-b-04-s03",
+      "speaker": "Ava",
+      "text": "The screenshot people are sharing cuts off the dates."
+    },
+    {
+      "id": "p12-b-04-s04",
+      "speaker": "Noah",
+      "text": "Then the claim needs more scrutiny, not a bigger headline."
+    },
+    {
+      "id": "p12-b-04-s05",
+      "speaker": "Ava",
+      "text": "I’ll ask the office for the full notice before we write anything."
+    },
+    {
+      "id": "p12-b-04-s06",
+      "speaker": "Noah",
+      "text": "Yes. Send it to me when it arrives, and we can check the dates together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f1c91e8a99cb66b4",
+      "lemma": "rumor",
+      "pos": "n.",
+      "sense_zh": "未经证实的传闻",
+      "sentence_ids": [
+        "p12-b-04-s01"
+      ],
+      "forms": [
+        "rumor"
+      ],
+      "sense_id": "sense-staged-ox-f1c91e8a99cb66b4-p12-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c9a3a41bc59de54f",
+      "lemma": "skeptical",
+      "pos": "adj.",
+      "sense_zh": "持怀疑态度的",
+      "sentence_ids": [
+        "p12-b-04-s02"
+      ],
+      "forms": [
+        "skeptical"
+      ],
+      "sense_id": "sense-staged-ox-c9a3a41bc59de54f-p12-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-56eaad296b57291d",
+      "lemma": "scrutiny",
+      "pos": "n.",
+      "sense_zh": "仔细审查",
+      "sentence_ids": [
+        "p12-b-04-s04"
+      ],
+      "forms": [
+        "scrutiny"
+      ],
+      "sense_id": "sense-staged-ox-56eaad296b57291d-p12-b-04",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

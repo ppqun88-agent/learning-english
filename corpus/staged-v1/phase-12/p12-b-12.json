@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-12",
+  "title_zh": "不以性取向解释虚构人物分居",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fictional-character-separation-portrayal",
+    "label_zh": "虚构人物介绍的因果边界",
+    "goal_zh": "核对分居情节并约定删去缺乏依据的因果暗示"
+  },
+  "participants": [
+    "Nia",
+    "Hugo"
+  ],
+  "context_zh": "编辑 Nia 与作者 Hugo 讨论一部虚构小说中成年双性恋人物的介绍文字。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-12-s01",
+      "speaker": "Nia",
+      "text": "This sentence makes her sexuality sound like the cause of the separation."
+    },
+    {
+      "id": "p12-b-12-s02",
+      "speaker": "Hugo",
+      "text": "That wasn’t my intention. Her spouse takes a job overseas, and they agree to live apart for a year."
+    },
+    {
+      "id": "p12-b-12-s03",
+      "speaker": "Nia",
+      "text": "Then say that. Linking the separation to her being bisexual repeats a stereotype the story itself doesn’t support."
+    },
+    {
+      "id": "p12-b-12-s04",
+      "speaker": "Hugo",
+      "text": "I can keep the identity detail elsewhere, without making it an explanation for their living arrangements."
+    },
+    {
+      "id": "p12-b-12-s05",
+      "speaker": "Nia",
+      "text": "Exactly. The introduction should follow the events in the chapter."
+    },
+    {
+      "id": "p12-b-12-s06",
+      "speaker": "Hugo",
+      "text": "I’ll rewrite these two sentences with the overseas job as the stated reason."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d8c2d5cd2da7ffab",
+      "lemma": "sexuality",
+      "pos": "n.",
+      "sense_zh": "性取向",
+      "sentence_ids": [
+        "p12-b-12-s01"
+      ],
+      "forms": [
+        "sexuality"
+      ],
+      "sense_id": "sense-staged-ox-d8c2d5cd2da7ffab-p12-b-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fdbd660e07b11409",
+      "lemma": "separation",
+      "pos": "n.",
+      "sense_zh": "伴侣分居",
+      "sentence_ids": [
+        "p12-b-12-s01"
+      ],
+      "forms": [
+        "separation"
+      ],
+      "sense_id": "sense-staged-ox-fdbd660e07b11409-p12-b-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f16e8e0f9b19e90",
+      "lemma": "spouse",
+      "pos": "n.",
+      "sense_zh": "配偶",
+      "sentence_ids": [
+        "p12-b-12-s02"
+      ],
+      "forms": [
+        "spouse"
+      ],
+      "sense_id": "sense-staged-ox-2f16e8e0f9b19e90-p12-b-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa4004e131db8544",
+      "lemma": "stereotype",
+      "pos": "n.",
+      "sense_zh": "刻板印象",
+      "sentence_ids": [
+        "p12-b-12-s03"
+      ],
+      "forms": [
+        "stereotype"
+      ],
+      "sense_id": "sense-staged-ox-aa4004e131db8544-p12-b-12",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,58 @@
+{
+  "id": "p12-a-45",
+  "title_zh": "约定先重印一张双面样张",
+  "topic_id": "work",
+  "scenario": {
+    "id": "print-layout-reverse-side-check",
+    "label_zh": "核对打印背面的方向后约好重印样张",
+    "goal_zh": "确认卡片背面倒置并约定先重印一张供核对"
+  },
+  "participants": [
+    "Grace",
+    "Milan"
+  ],
+  "context_zh": "同事 Grace 与 Milan 检查活动信息卡的双面打印样张。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-45-s01",
+      "speaker": "Grace",
+      "text": "The reverse side of this card is upside down."
+    },
+    {
+      "id": "p12-a-45-s02",
+      "speaker": "Milan",
+      "text": "I used the wrong orientation for the back. I'll correct the layout."
+    },
+    {
+      "id": "p12-a-45-s03",
+      "speaker": "Grace",
+      "text": "Please print one new sample before you run the full batch."
+    },
+    {
+      "id": "p12-a-45-s04",
+      "speaker": "Milan",
+      "text": "I will, and I'll bring it to you so we can check both sides."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-20636e4617746374",
+      "lemma": "reverse",
+      "pos": "adj.",
+      "sense_zh": "反面的；背面的",
+      "sentence_ids": [
+        "p12-a-45-s01"
+      ],
+      "forms": [
+        "reverse"
+      ],
+      "sense_id": "sense-staged-ox-20636e4617746374-p12-a-45",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

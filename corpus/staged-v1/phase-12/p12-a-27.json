@@ -1,0 +1,126 @@
+{
+  "id": "p12-a-27",
+  "title_zh": "以停顿替代舞台击打动作",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "stage-anger-restraint-no-contact",
+    "label_zh": "以克制表演替代真实击打的排练安排",
+    "goal_zh": "澄清角色愤怒的触发点并约定采用无接触表演"
+  },
+  "participants": [
+    "Cora",
+    "Felix"
+  ],
+  "context_zh": "演员 Cora 与导演 Felix 排练虚构短剧，讨论安全的表演选择，不描述伤人技术。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-27-s01",
+      "speaker": "Cora",
+      "text": "The script calls for a punch here, but I don't want any actual contact."
+    },
+    {
+      "id": "p12-a-27-s02",
+      "speaker": "Felix",
+      "text": "Nor do I. The scene is about rage, not about making an impact look real."
+    },
+    {
+      "id": "p12-a-27-s03",
+      "speaker": "Cora",
+      "text": "What could provoke that reaction so suddenly?"
+    },
+    {
+      "id": "p12-a-27-s04",
+      "speaker": "Felix",
+      "text": "The character has just read a letter exposing a lie. Let the audience see you trying to hold back."
+    },
+    {
+      "id": "p12-a-27-s05",
+      "speaker": "Cora",
+      "text": "So the restraint is part of the moment, rather than a weaker version of it?"
+    },
+    {
+      "id": "p12-a-27-s06",
+      "speaker": "Felix",
+      "text": "Exactly. Pause, lower your hand, and let the letter fall."
+    },
+    {
+      "id": "p12-a-27-s07",
+      "speaker": "Cora",
+      "text": "I can do that. Shall we try it without the other actor standing close to me?"
+    },
+    {
+      "id": "p12-a-27-s08",
+      "speaker": "Felix",
+      "text": "Yes. We'll rehearse the reaction on its own first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-06d3e3a813b0b1b3",
+      "lemma": "punch",
+      "pos": "n.",
+      "sense_zh": "一拳；用拳击打的动作",
+      "sentence_ids": [
+        "p12-a-27-s01"
+      ],
+      "forms": [
+        "punch"
+      ],
+      "sense_id": "sense-staged-ox-06d3e3a813b0b1b3-p12-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4793786bba2ab274",
+      "lemma": "rage",
+      "pos": "n.",
+      "sense_zh": "暴怒",
+      "sentence_ids": [
+        "p12-a-27-s02"
+      ],
+      "forms": [
+        "rage"
+      ],
+      "sense_id": "sense-staged-ox-4793786bba2ab274-p12-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2264d19a43127904",
+      "lemma": "restraint",
+      "pos": "n.",
+      "sense_zh": "克制；抑制情绪或行为",
+      "sentence_ids": [
+        "p12-a-27-s05"
+      ],
+      "forms": [
+        "restraint"
+      ],
+      "sense_id": "sense-staged-ox-2264d19a43127904-p12-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a2f90fc6e4dfd19a",
+      "lemma": "provoke",
+      "pos": "v.",
+      "sense_zh": "激起某种反应",
+      "sentence_ids": [
+        "p12-a-27-s03"
+      ],
+      "forms": [
+        "provoke"
+      ],
+      "sense_id": "sense-staged-ox-a2f90fc6e4dfd19a-p12-a-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

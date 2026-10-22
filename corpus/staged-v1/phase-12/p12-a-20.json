@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-20",
+  "title_zh": "约定专注时段试验的比较方法",
+  "topic_id": "work",
+  "scenario": {
+    "id": "focus-hour-productivity-pilot-measure",
+    "label_zh": "安排专注时段试验并选定可靠衡量方法",
+    "goal_zh": "明确不能只凭主观感受判断效率并约定比较完成数量和返工情况"
+  },
+  "participants": [
+    "Arlo",
+    "Nia"
+  ],
+  "context_zh": "同事 Arlo 与 Nia 筹备一个小组工作方式试验，尚无试验结果。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-20-s01",
+      "speaker": "Arlo",
+      "text": "I felt more productive when we turned off meeting alerts for an hour."
+    },
+    {
+      "id": "p12-a-20-s02",
+      "speaker": "Nia",
+      "text": "That's encouraging, but how will we measure productivity rather than just a feeling?"
+    },
+    {
+      "id": "p12-a-20-s03",
+      "speaker": "Arlo",
+      "text": "We could count finished tasks."
+    },
+    {
+      "id": "p12-a-20-s04",
+      "speaker": "Nia",
+      "text": "Only if the tasks are comparable. A robust comparison should also track work that needs correcting."
+    },
+    {
+      "id": "p12-a-20-s05",
+      "speaker": "Arlo",
+      "text": "Let's use the same type of task and record completed items and rework during the trial."
+    },
+    {
+      "id": "p12-a-20-s06",
+      "speaker": "Nia",
+      "text": "Agreed. We'll review both measures before deciding whether to keep the quiet hour."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bbdcef362f23d4c7",
+      "lemma": "productive",
+      "pos": "adj.",
+      "sense_zh": "富有成效的",
+      "sentence_ids": [
+        "p12-a-20-s01"
+      ],
+      "forms": [
+        "productive"
+      ],
+      "sense_id": "sense-staged-ox-bbdcef362f23d4c7-p12-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-56c2fca2489ef847",
+      "lemma": "productivity",
+      "pos": "n.",
+      "sense_zh": "生产效率；工作效率",
+      "sentence_ids": [
+        "p12-a-20-s02"
+      ],
+      "forms": [
+        "productivity"
+      ],
+      "sense_id": "sense-staged-ox-56c2fca2489ef847-p12-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce5991ebb1481c25",
+      "lemma": "robust",
+      "pos": "adj.",
+      "sense_zh": "稳健的；经得起检验的",
+      "sentence_ids": [
+        "p12-a-20-s04"
+      ],
+      "forms": [
+        "robust"
+      ],
+      "sense_id": "sense-staged-ox-ce5991ebb1481c25-p12-a-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

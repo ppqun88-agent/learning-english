@@ -1,0 +1,116 @@
+{
+  "id": "p12-b-07",
+  "title_zh": "不只展示符合趋势的数据点",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "scattered-data-display-selection",
+    "label_zh": "零散数据展示的选择偏差核对",
+    "goal_zh": "检查零散结果的展示范围并约定补回被省略的数据"
+  },
+  "participants": [
+    "Imani",
+    "Felix"
+  ],
+  "context_zh": "研究课程同伴 Imani 与 Felix 检查一张虚构实验数据图。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-07-s01",
+      "speaker": "Imani",
+      "text": "Why have you left these scattered results off the graph?"
+    },
+    {
+      "id": "p12-b-07-s02",
+      "speaker": "Felix",
+      "text": "Those seemingly random points made the main trend harder to see. I wanted a clearer graph."
+    },
+    {
+      "id": "p12-b-07-s03",
+      "speaker": "Imani",
+      "text": "But that is selective reporting. Those points came from the same experiment."
+    },
+    {
+      "id": "p12-b-07-s04",
+      "speaker": "Felix",
+      "text": "I see why you’re sceptical of the neat curve now."
+    },
+    {
+      "id": "p12-b-07-s05",
+      "speaker": "Imani",
+      "text": "Could we show all the points and explain why some differ?"
+    },
+    {
+      "id": "p12-b-07-s06",
+      "speaker": "Felix",
+      "text": "Yes. I’ll restore them and remove the claim that every measurement follows the curve."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-621e9dcc813ab7ed",
+      "lemma": "scattered",
+      "pos": "adj.",
+      "sense_zh": "分散的、不集中的",
+      "sentence_ids": [
+        "p12-b-07-s01"
+      ],
+      "forms": [
+        "scattered"
+      ],
+      "sense_id": "sense-staged-ox-621e9dcc813ab7ed-p12-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e7fb85489d369405",
+      "lemma": "seemingly",
+      "pos": "adv.",
+      "sense_zh": "表面上看起来",
+      "sentence_ids": [
+        "p12-b-07-s02"
+      ],
+      "forms": [
+        "seemingly"
+      ],
+      "sense_id": "sense-staged-ox-e7fb85489d369405-p12-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-628c5f74cbf4f3f2",
+      "lemma": "selective",
+      "pos": "adj.",
+      "sense_zh": "有选择地取舍的",
+      "sentence_ids": [
+        "p12-b-07-s03"
+      ],
+      "forms": [
+        "selective"
+      ],
+      "sense_id": "sense-staged-ox-628c5f74cbf4f3f2-p12-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6cc0627ceea32aae",
+      "lemma": "sceptical",
+      "pos": "adj.",
+      "sense_zh": "持怀疑态度的",
+      "sentence_ids": [
+        "p12-b-07-s04"
+      ],
+      "forms": [
+        "sceptical"
+      ],
+      "sense_id": "sense-staged-ox-6cc0627ceea32aae-p12-b-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

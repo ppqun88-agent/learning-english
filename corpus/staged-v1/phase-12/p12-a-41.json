@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-41",
+  "title_zh": "选定小范围预约试行提案",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-rule-reform-small-trial",
+    "label_zh": "拟定面对规则改革阻力的小范围试行提案",
+    "goal_zh": "说明全面改规则的顾虑并约定向成员提出短期小范围试行"
+  },
+  "participants": [
+    "Zoya",
+    "Ian"
+  ],
+  "context_zh": "摄影社团两名委员 Zoya 与 Ian 讨论房间预约规则，不涉及公共政治投票或真实利益分配。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-41-s01",
+      "speaker": "Zoya",
+      "text": "We need to reform the booking rules, but replacing the whole system at once seems radical."
+    },
+    {
+      "id": "p12-a-41-s02",
+      "speaker": "Ian",
+      "text": "Several members have expressed resistance because they don't know what would happen to existing bookings."
+    },
+    {
+      "id": "p12-a-41-s03",
+      "speaker": "Zoya",
+      "text": "Could we test a simpler rule for new bookings in just one room?"
+    },
+    {
+      "id": "p12-a-41-s04",
+      "speaker": "Ian",
+      "text": "That's a more manageable proposition. Existing reservations could stay as they are."
+    },
+    {
+      "id": "p12-a-41-s05",
+      "speaker": "Zoya",
+      "text": "Let's propose a two-week trial in Room B and ask members about that limited change."
+    },
+    {
+      "id": "p12-a-41-s06",
+      "speaker": "Ian",
+      "text": "Agreed. I'll draft the proposal with those boundaries clearly stated."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6ebe030c7f6a1f64",
+      "lemma": "resistance",
+      "pos": "n.",
+      "sense_zh": "抵制；反对",
+      "sentence_ids": [
+        "p12-a-41-s02"
+      ],
+      "forms": [
+        "resistance"
+      ],
+      "sense_id": "sense-staged-ox-6ebe030c7f6a1f64-p12-a-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6317bd7e14982e9f",
+      "lemma": "reform",
+      "pos": "v.",
+      "sense_zh": "改革；改进制度",
+      "sentence_ids": [
+        "p12-a-41-s01"
+      ],
+      "forms": [
+        "reform"
+      ],
+      "sense_id": "sense-staged-ox-6317bd7e14982e9f-p12-a-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a4e970d861e9540e",
+      "lemma": "radical",
+      "pos": "adj.",
+      "sense_zh": "彻底的；大幅度的",
+      "sentence_ids": [
+        "p12-a-41-s01"
+      ],
+      "forms": [
+        "radical"
+      ],
+      "sense_id": "sense-staged-ox-a4e970d861e9540e-p12-a-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c65c1006525c933",
+      "lemma": "proposition",
+      "pos": "n.",
+      "sense_zh": "建议；提议",
+      "sentence_ids": [
+        "p12-a-41-s04"
+      ],
+      "forms": [
+        "proposition"
+      ],
+      "sense_id": "sense-staged-ox-5c65c1006525c933-p12-a-41",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,79 @@
+{
+  "id": "p12-c-40",
+  "title_zh": "在印刷前确认已更正活动日期",
+  "topic_id": "work",
+  "scenario": {
+    "id": "print-date-correction-confirmation",
+    "label_zh": "在印刷前确认已更正活动日期",
+    "goal_zh": "核对打印文件中的日期已经更正并确认尚未印刷并安排送印前的最后预览"
+  },
+  "participants": [
+    "Ella",
+    "Drew"
+  ],
+  "context_zh": "两位活动同事在送印前核对传单日期；这里只说明当前文件状态，不声称印刷已完成。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-40-s01",
+      "speaker": "Ella",
+      "text": "That was a timely message about the date. I was just about to send the leaflet to print."
+    },
+    {
+      "id": "p12-c-40-s02",
+      "speaker": "Drew",
+      "text": "Does the current file say Saturday now?"
+    },
+    {
+      "id": "p12-c-40-s03",
+      "speaker": "Ella",
+      "text": "Yes. I've replaced Friday with Saturday in both places."
+    },
+    {
+      "id": "p12-c-40-s04",
+      "speaker": "Drew",
+      "text": "Thankfully, nothing has been printed yet. Could you show me the final preview?"
+    },
+    {
+      "id": "p12-c-40-s05",
+      "speaker": "Ella",
+      "text": "Here it is. Let's check it together before I press send."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f7f98dae48acd50e",
+      "lemma": "timely",
+      "pos": "adj.",
+      "sense_zh": "及时的",
+      "sentence_ids": [
+        "p12-c-40-s01"
+      ],
+      "forms": [
+        "timely"
+      ],
+      "sense_id": "sense-staged-ox-f7f98dae48acd50e-p12-c-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-266f1cb50c40a7d7",
+      "lemma": "thankfully",
+      "pos": "adv.",
+      "sense_zh": "幸好",
+      "sentence_ids": [
+        "p12-c-40-s04"
+      ],
+      "forms": [
+        "thankfully"
+      ],
+      "sense_id": "sense-staged-ox-266f1cb50c40a7d7-p12-c-40",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

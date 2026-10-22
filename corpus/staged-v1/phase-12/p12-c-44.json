@@ -1,0 +1,121 @@
+{
+  "id": "p12-c-44",
+  "title_zh": "用交接日志替代含糊的口头安排",
+  "topic_id": "work",
+  "scenario": {
+    "id": "shift-log-written-handover",
+    "label_zh": "用交接日志替代含糊的口头安排",
+    "goal_zh": "指出口头交接的含糊之处并约定先试用可核对的书面交接流程"
+  },
+  "participants": [
+    "Freya",
+    "Will"
+  ],
+  "context_zh": "两名工作同事改进班次交接，讨论一个尚未实施的日志试用办法。",
+  "author": "author-phase12-c",
+  "sentences": [
+    {
+      "id": "p12-c-44-s01",
+      "speaker": "Freya",
+      "text": "Our verbal handover is too vague. Yesterday, I couldn't tell which deliveries were still waiting."
+    },
+    {
+      "id": "p12-c-44-s02",
+      "speaker": "Will",
+      "text": "I said the paperwork was ready, but I didn't say that the boxes hadn't arrived."
+    },
+    {
+      "id": "p12-c-44-s03",
+      "speaker": "Freya",
+      "text": "We need a system whereby each outgoing shift lists what's finished and what's still open."
+    },
+    {
+      "id": "p12-c-44-s04",
+      "speaker": "Will",
+      "text": "I could update the log whilst the incoming person checks the outstanding items."
+    },
+    {
+      "id": "p12-c-44-s05",
+      "speaker": "Freya",
+      "text": "Then both people can ask about anything that doesn't match."
+    },
+    {
+      "id": "p12-c-44-s06",
+      "speaker": "Will",
+      "text": "Shall we try that for a week rather than make it a permanent rule straight away?"
+    },
+    {
+      "id": "p12-c-44-s07",
+      "speaker": "Freya",
+      "text": "Yes. We'll review the log together next Friday and see what needs changing."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-28224f6cd3d09726",
+      "lemma": "vague",
+      "pos": "adj.",
+      "sense_zh": "含糊的",
+      "sentence_ids": [
+        "p12-c-44-s01"
+      ],
+      "forms": [
+        "vague"
+      ],
+      "sense_id": "sense-staged-ox-28224f6cd3d09726-p12-c-44",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f2d13e062cb489e3",
+      "lemma": "verbal",
+      "pos": "adj.",
+      "sense_zh": "口头的",
+      "sentence_ids": [
+        "p12-c-44-s01"
+      ],
+      "forms": [
+        "verbal"
+      ],
+      "sense_id": "sense-staged-ox-f2d13e062cb489e3-p12-c-44",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f09cdde472b63995",
+      "lemma": "whereby",
+      "pos": "adv.",
+      "sense_zh": "借以、通过这种方式",
+      "sentence_ids": [
+        "p12-c-44-s03"
+      ],
+      "forms": [
+        "whereby"
+      ],
+      "sense_id": "sense-staged-ox-f09cdde472b63995-p12-c-44",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d1bc2da63fecefce",
+      "lemma": "whilst",
+      "pos": "conj.",
+      "sense_zh": "在……的同时",
+      "sentence_ids": [
+        "p12-c-44-s04"
+      ],
+      "forms": [
+        "whilst"
+      ],
+      "sense_id": "sense-staged-ox-d1bc2da63fecefce-p12-c-44",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p12-a-05",
+  "title_zh": "确认主席空缺期间的会议主持人",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-presidency-vacancy-meeting-chair",
+    "label_zh": "确认社团主席辞职后的临时会议主持人",
+    "goal_zh": "确认社团主席职位空缺并约定由副主席主持临时会议"
+  },
+  "participants": [
+    "Lena",
+    "Victor"
+  ],
+  "context_zh": "业余摄影社团秘书 Lena 与副主席 Victor 核对已收到的辞职信及临时会议安排。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-05-s01",
+      "speaker": "Lena",
+      "text": "We've received Ada's resignation, so the club presidency is vacant."
+    },
+    {
+      "id": "p12-a-05-s02",
+      "speaker": "Victor",
+      "text": "Does our handbook say who should preside at the meeting tonight?"
+    },
+    {
+      "id": "p12-a-05-s03",
+      "speaker": "Lena",
+      "text": "Yes. The vice-chair takes that role while the members arrange an election."
+    },
+    {
+      "id": "p12-a-05-s04",
+      "speaker": "Victor",
+      "text": "That's me, then. I'll chair tonight's discussion, but I'm not taking over as permanent president."
+    },
+    {
+      "id": "p12-a-05-s05",
+      "speaker": "Lena",
+      "text": "Exactly. I'll put the election arrangements on the agenda."
+    },
+    {
+      "id": "p12-a-05-s06",
+      "speaker": "Victor",
+      "text": "Please do. I'll open the meeting by explaining the temporary arrangement."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5296aeb898bdb84f",
+      "lemma": "presidency",
+      "pos": "n.",
+      "sense_zh": "主席职位",
+      "sentence_ids": [
+        "p12-a-05-s01"
+      ],
+      "forms": [
+        "presidency"
+      ],
+      "sense_id": "sense-staged-ox-5296aeb898bdb84f-p12-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa561fbaf0333096",
+      "lemma": "preside",
+      "pos": "v.",
+      "sense_zh": "主持会议",
+      "sentence_ids": [
+        "p12-a-05-s02"
+      ],
+      "forms": [
+        "preside"
+      ],
+      "sense_id": "sense-staged-ox-aa561fbaf0333096-p12-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4100102f3bf6a1e",
+      "lemma": "resignation",
+      "pos": "n.",
+      "sense_zh": "辞职；辞职信",
+      "sentence_ids": [
+        "p12-a-05-s01"
+      ],
+      "forms": [
+        "resignation"
+      ],
+      "sense_id": "sense-staged-ox-c4100102f3bf6a1e-p12-a-05",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

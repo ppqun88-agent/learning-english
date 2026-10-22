@@ -1,0 +1,95 @@
+{
+  "id": "p12-a-33",
+  "title_zh": "记录软件故障的复现条件",
+  "topic_id": "work",
+  "scenario": {
+    "id": "software-bug-reproduction-reliability",
+    "label_zh": "记录软件故障复现条件而不夸大可靠性结论",
+    "goal_zh": "明确已复现的故障条件并约定按范围报告而不宣称全面评估"
+  },
+  "participants": [
+    "Ivo",
+    "Selin"
+  ],
+  "context_zh": "软件测试同事 Ivo 与 Selin 讨论自制笔记应用的测试结果，不涉及安全漏洞利用。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-33-s01",
+      "speaker": "Ivo",
+      "text": "I can readily reproduce the crash when I import this empty file."
+    },
+    {
+      "id": "p12-a-33-s02",
+      "speaker": "Selin",
+      "text": "Does it happen with ordinary files as well?"
+    },
+    {
+      "id": "p12-a-33-s03",
+      "speaker": "Ivo",
+      "text": "Not in the five examples I've tried."
+    },
+    {
+      "id": "p12-a-33-s04",
+      "speaker": "Selin",
+      "text": "Then don't turn this into a claim about the reliability of every import. Report the empty-file case and the tests you've actually run."
+    },
+    {
+      "id": "p12-a-33-s05",
+      "speaker": "Ivo",
+      "text": "I'll attach the file and list those conditions. We can expand the test set tomorrow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7a0278645f527f94",
+      "lemma": "readily",
+      "pos": "adv.",
+      "sense_zh": "容易地",
+      "sentence_ids": [
+        "p12-a-33-s01"
+      ],
+      "forms": [
+        "readily"
+      ],
+      "sense_id": "sense-staged-ox-7a0278645f527f94-p12-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a38de5fcbe67847",
+      "lemma": "reliability",
+      "pos": "n.",
+      "sense_zh": "可靠性",
+      "sentence_ids": [
+        "p12-a-33-s04"
+      ],
+      "forms": [
+        "reliability"
+      ],
+      "sense_id": "sense-staged-ox-5a38de5fcbe67847-p12-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db2f42a6eb38d40b",
+      "lemma": "reproduce",
+      "pos": "v.",
+      "sense_zh": "重现某现象或问题",
+      "sentence_ids": [
+        "p12-a-33-s01"
+      ],
+      "forms": [
+        "reproduce"
+      ],
+      "sense_id": "sense-staged-ox-db2f42a6eb38d40b-p12-a-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

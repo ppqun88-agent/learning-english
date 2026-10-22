@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-16",
+  "title_zh": "封箱前再检查易碎品包装",
+  "topic_id": "services",
+  "scenario": {
+    "id": "fragile-parcel-packing-sequence",
+    "label_zh": "易碎包裹的封箱前检查",
+    "goal_zh": "指出玻璃破碎风险并约定拍照检查后封箱"
+  },
+  "participants": [
+    "Kira",
+    "Mo"
+  ],
+  "context_zh": "商店助手 Kira 与包装员 Mo 准备寄出一个玻璃灯罩。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-16-s01",
+      "speaker": "Kira",
+      "text": "Is this lampshade ready for shipping? The customer asked for a packing photo."
+    },
+    {
+      "id": "p12-b-16-s02",
+      "speaker": "Mo",
+      "text": "Almost. I haven’t closed the box yet."
+    },
+    {
+      "id": "p12-b-16-s03",
+      "speaker": "Kira",
+      "text": "The glass could shatter if it hits the side. There’s an empty space beside the rim."
+    },
+    {
+      "id": "p12-b-16-s04",
+      "speaker": "Mo",
+      "text": "I’ll fill that space and take the photo. Can you check it before I seal the box?"
+    },
+    {
+      "id": "p12-b-16-s05",
+      "speaker": "Kira",
+      "text": "Yes. Send me the photo first, and I’ll come over to look at the packing."
+    },
+    {
+      "id": "p12-b-16-s06",
+      "speaker": "Mo",
+      "text": "All right. I’ll leave the box open until you’ve checked it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3a4ac4aa3528236a",
+      "lemma": "shipping",
+      "pos": "n.",
+      "sense_zh": "货物运输",
+      "sentence_ids": [
+        "p12-b-16-s01"
+      ],
+      "forms": [
+        "shipping"
+      ],
+      "sense_id": "sense-staged-ox-3a4ac4aa3528236a-p12-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f0a16e13442fc327",
+      "lemma": "shatter",
+      "pos": "v.",
+      "sense_zh": "碎裂",
+      "sentence_ids": [
+        "p12-b-16-s03"
+      ],
+      "forms": [
+        "shatter"
+      ],
+      "sense_id": "sense-staged-ox-f0a16e13442fc327-p12-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2837e17f06fe12d1",
+      "lemma": "seal",
+      "pos": "v.",
+      "sense_zh": "封住或封好",
+      "sentence_ids": [
+        "p12-b-16-s04"
+      ],
+      "forms": [
+        "seal"
+      ],
+      "sense_id": "sense-staged-ox-2837e17f06fe12d1-p12-b-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

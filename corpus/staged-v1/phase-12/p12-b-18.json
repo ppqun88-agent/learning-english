@@ -1,0 +1,100 @@
+{
+  "id": "p12-b-18",
+  "title_zh": "认真回应室友对摔门声的不满",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "housemate-door-noise-apology",
+    "label_zh": "室友噪声争执后的解释与道歉",
+    "goal_zh": "说明关门声的影响并约定夜间轻关门"
+  },
+  "participants": [
+    "Tess",
+    "Owen"
+  ],
+  "context_zh": "室友 Owen 与 Tess 谈论前一晚关门声引起的不快。",
+  "author": "author-phase12-b",
+  "sentences": [
+    {
+      "id": "p12-b-18-s01",
+      "speaker": "Tess",
+      "text": "Did you mean to slam the door last night? It woke me up."
+    },
+    {
+      "id": "p12-b-18-s02",
+      "speaker": "Owen",
+      "text": "No. I was carrying two bags and let it close behind me."
+    },
+    {
+      "id": "p12-b-18-s03",
+      "speaker": "Tess",
+      "text": "Please don’t just shrug. I’m trying to explain why I was upset."
+    },
+    {
+      "id": "p12-b-18-s04",
+      "speaker": "Owen",
+      "text": "Sorry. That sigh wasn’t meant to dismiss you either. I’ve had a rough morning, but that isn’t your fault."
+    },
+    {
+      "id": "p12-b-18-s05",
+      "speaker": "Tess",
+      "text": "I don’t need a long explanation. Could you just close it gently when you come in late?"
+    },
+    {
+      "id": "p12-b-18-s06",
+      "speaker": "Owen",
+      "text": "Yes. I’ll keep a hand on it next time, even if I have to put a bag down."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d57964e2fcbbd80f",
+      "lemma": "slam",
+      "pos": "v.",
+      "sense_zh": "猛地关门",
+      "sentence_ids": [
+        "p12-b-18-s01"
+      ],
+      "forms": [
+        "slam"
+      ],
+      "sense_id": "sense-staged-ox-d57964e2fcbbd80f-p12-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-23b1caad1bf81cbd",
+      "lemma": "shrug",
+      "pos": "v.",
+      "sense_zh": "耸肩",
+      "sentence_ids": [
+        "p12-b-18-s03"
+      ],
+      "forms": [
+        "shrug"
+      ],
+      "sense_id": "sense-staged-ox-23b1caad1bf81cbd-p12-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d45dd8ac3794754b",
+      "lemma": "sigh",
+      "pos": "n.",
+      "sense_zh": "叹气声",
+      "sentence_ids": [
+        "p12-b-18-s04"
+      ],
+      "forms": [
+        "sigh"
+      ],
+      "sense_id": "sense-staged-ox-d45dd8ac3794754b-p12-b-18",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

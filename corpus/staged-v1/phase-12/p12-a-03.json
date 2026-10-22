@@ -1,0 +1,116 @@
+{
+  "id": "p12-a-03",
+  "title_zh": "限定初步问卷报告的结论",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "preliminary-survey-prevention-claim-scope",
+    "label_zh": "限定初步健康问卷的样本与预防结论",
+    "goal_zh": "核对问卷样本范围并约定删除未测量的预防效果结论"
+  },
+  "participants": [
+    "Amir",
+    "Tess"
+  ],
+  "context_zh": "两名学生讨论虚构健康调查练习的数据；不是现实医学研究或健康建议。",
+  "author": "author-phase12-a",
+  "sentences": [
+    {
+      "id": "p12-a-03-s01",
+      "speaker": "Amir",
+      "text": "These preliminary results show that most respondents reported poor sleep."
+    },
+    {
+      "id": "p12-a-03-s02",
+      "speaker": "Tess",
+      "text": "But the respondents were predominantly staff on the night shift. We can't describe everyone at the company."
+    },
+    {
+      "id": "p12-a-03-s03",
+      "speaker": "Amir",
+      "text": "Then I'll report the prevalence of poor sleep in this sample, not in the whole workforce."
+    },
+    {
+      "id": "p12-a-03-s04",
+      "speaker": "Tess",
+      "text": "What about your sentence saying the new timetable helps with prevention?"
+    },
+    {
+      "id": "p12-a-03-s05",
+      "speaker": "Amir",
+      "text": "We didn't measure that. I'll remove it and describe who answered the survey."
+    },
+    {
+      "id": "p12-a-03-s06",
+      "speaker": "Tess",
+      "text": "Good. Let's keep the sample description beside the results."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c316c19ee50d01df",
+      "lemma": "preliminary",
+      "pos": "adj.",
+      "sense_zh": "初步的",
+      "sentence_ids": [
+        "p12-a-03-s01"
+      ],
+      "forms": [
+        "preliminary"
+      ],
+      "sense_id": "sense-staged-ox-c316c19ee50d01df-p12-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fb9ebf905f390a91",
+      "lemma": "prevalence",
+      "pos": "n.",
+      "sense_zh": "某情况在群体中的普遍程度",
+      "sentence_ids": [
+        "p12-a-03-s03"
+      ],
+      "forms": [
+        "prevalence"
+      ],
+      "sense_id": "sense-staged-ox-fb9ebf905f390a91-p12-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f85558af63e1b87",
+      "lemma": "prevention",
+      "pos": "n.",
+      "sense_zh": "预防",
+      "sentence_ids": [
+        "p12-a-03-s04"
+      ],
+      "forms": [
+        "prevention"
+      ],
+      "sense_id": "sense-staged-ox-2f85558af63e1b87-p12-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9d9f2b9720cda0a4",
+      "lemma": "predominantly",
+      "pos": "adv.",
+      "sense_zh": "主要地；占大多数地",
+      "sentence_ids": [
+        "p12-a-03-s02"
+      ],
+      "forms": [
+        "predominantly"
+      ],
+      "sense_id": "sense-staged-ox-9d9f2b9720cda0a4-p12-a-03",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
