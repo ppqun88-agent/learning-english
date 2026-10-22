@@ -1,0 +1,163 @@
+{
+  "id": "p05-c-29",
+  "title_zh": "核对开车去乡间博物馆的路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "rental-car-museum-route",
+    "label_zh": "核对租车出游的博物馆路线",
+    "goal_zh": "确认自驾需求、博物馆位置与正确入口，并在比较路线后选定行车路线"
+  },
+  "participants": [
+    "Ravi",
+    "Nell"
+  ],
+  "context_zh": "游客拉维在游客中心询问第二天租车前往乡间博物馆的路线。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-29-s01",
+      "speaker": "Ravi",
+      "text": "We plan to hire a car tomorrow and visit the rural museum. Can you show me the way?"
+    },
+    {
+      "id": "p05-c-29-s02",
+      "speaker": "Nell",
+      "text": "Certainly. The museum is located east of the river, just beyond Ashford."
+    },
+    {
+      "id": "p05-c-29-s03",
+      "speaker": "Ravi",
+      "text": "My phone gives me two roads. Is the highway the better choice?"
+    },
+    {
+      "id": "p05-c-29-s04",
+      "speaker": "Nell",
+      "text": "It is quicker to Ashford, but you must leave it before the bridge and take the village road."
+    },
+    {
+      "id": "p05-c-29-s05",
+      "speaker": "Ravi",
+      "text": "That seems like an indirect route. Why can we not turn off at the museum?"
+    },
+    {
+      "id": "p05-c-29-s06",
+      "speaker": "Nell",
+      "text": "That entrance is for deliveries. Visitors enter from Mill Lane, on the other side of the building."
+    },
+    {
+      "id": "p05-c-29-s07",
+      "speaker": "Ravi",
+      "text": "Can you help me locate that entrance on this map?"
+    },
+    {
+      "id": "p05-c-29-s08",
+      "speaker": "Nell",
+      "text": "Here, beside the mill. This is the location to put into your navigation app, rather than the delivery gate."
+    },
+    {
+      "id": "p05-c-29-s09",
+      "speaker": "Ravi",
+      "text": "I see it now. We will take the highway to Ashford, then follow the village road to Mill Lane. Thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-29c76d5648ebdb77",
+      "lemma": "hire",
+      "pos": "v.",
+      "sense_zh": "租用",
+      "sentence_ids": [
+        "p05-c-29-s01"
+      ],
+      "forms": [
+        "hire"
+      ],
+      "sense_id": "sense-staged-ox-29c76d5648ebdb77-p05-c-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-978700e5d0646acd",
+      "lemma": "located",
+      "pos": "adj.",
+      "sense_zh": "位于某处的",
+      "sentence_ids": [
+        "p05-c-29-s02"
+      ],
+      "forms": [
+        "located"
+      ],
+      "sense_id": "sense-staged-ox-978700e5d0646acd-p05-c-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-02fcb55d4ada1913",
+      "lemma": "highway",
+      "pos": "n.",
+      "sense_zh": "公路；干道",
+      "sentence_ids": [
+        "p05-c-29-s03"
+      ],
+      "forms": [
+        "highway"
+      ],
+      "sense_id": "sense-staged-ox-02fcb55d4ada1913-p05-c-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d00c5d964630643",
+      "lemma": "indirect",
+      "pos": "adj.",
+      "sense_zh": "非直接的；迂回的",
+      "sentence_ids": [
+        "p05-c-29-s05"
+      ],
+      "forms": [
+        "indirect"
+      ],
+      "sense_id": "sense-staged-ox-5d00c5d964630643-p05-c-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-33ccc2e8c1dad65e",
+      "lemma": "locate",
+      "pos": "v.",
+      "sense_zh": "找到位置",
+      "sentence_ids": [
+        "p05-c-29-s07"
+      ],
+      "forms": [
+        "locate"
+      ],
+      "sense_id": "sense-staged-ox-33ccc2e8c1dad65e-p05-c-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f2e578db8aba8b3",
+      "lemma": "location",
+      "pos": "n.",
+      "sense_zh": "位置；地点",
+      "sentence_ids": [
+        "p05-c-29-s08"
+      ],
+      "forms": [
+        "location"
+      ],
+      "sense_id": "sense-staged-ox-2f2e578db8aba8b3-p05-c-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

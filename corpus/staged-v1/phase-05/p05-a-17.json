@@ -1,0 +1,158 @@
+{
+  "id": "p05-a-17",
+  "title_zh": "为夜间电视噪声道歉并关机",
+  "topic_id": "home",
+  "scenario": {
+    "id": "late-night-television-noise",
+    "label_zh": "协商夜间电视音量",
+    "goal_zh": "说明噪声影响并商定当天停止观看"
+  },
+  "participants": [
+    "Nell",
+    "Patrick"
+  ],
+  "context_zh": "一位室友被持续的电视音量打扰，另一位同意今晚停止观看。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-17-s01",
+      "speaker": "Nell",
+      "text": "Could we talk about the television? I am getting annoyed because I can hear every word in my room."
+    },
+    {
+      "id": "p05-a-17-s02",
+      "speaker": "Patrick",
+      "text": "Sorry. I did not mean to annoy you. I thought the volume was low enough."
+    },
+    {
+      "id": "p05-a-17-s03",
+      "speaker": "Nell",
+      "text": "The dialogue is not too bad, but the music gets much louder. That is the annoying part."
+    },
+    {
+      "id": "p05-a-17-s04",
+      "speaker": "Patrick",
+      "text": "I understand. I apologize for keeping you awake."
+    },
+    {
+      "id": "p05-a-17-s05",
+      "speaker": "Nell",
+      "text": "Would you mind switching it off for tonight? I have an early start."
+    },
+    {
+      "id": "p05-a-17-s06",
+      "speaker": "Patrick",
+      "text": "Absolutely. I will finish the programme tomorrow."
+    },
+    {
+      "id": "p05-a-17-s07",
+      "speaker": "Nell",
+      "text": "I appreciate that. Thank you."
+    },
+    {
+      "id": "p05-a-17-s08",
+      "speaker": "Patrick",
+      "text": "It is off now. Good night."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3ea32e5ce7d47262",
+      "lemma": "annoy",
+      "pos": "v.",
+      "sense_zh": "使烦恼；打扰",
+      "sentence_ids": [
+        "p05-a-17-s02"
+      ],
+      "forms": [
+        "annoy"
+      ],
+      "sense_id": "sense-staged-ox-3ea32e5ce7d47262-p05-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-debc120f0e3e55a6",
+      "lemma": "annoyed",
+      "pos": "adj.",
+      "sense_zh": "恼火的；烦恼的",
+      "sentence_ids": [
+        "p05-a-17-s01"
+      ],
+      "forms": [
+        "annoyed"
+      ],
+      "sense_id": "sense-staged-ox-debc120f0e3e55a6-p05-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-373f2b4788b0ce0b",
+      "lemma": "annoying",
+      "pos": "adj.",
+      "sense_zh": "令人烦恼的",
+      "sentence_ids": [
+        "p05-a-17-s03"
+      ],
+      "forms": [
+        "annoying"
+      ],
+      "sense_id": "sense-staged-ox-373f2b4788b0ce0b-p05-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2e04231208f71044",
+      "lemma": "apologize",
+      "pos": "v.",
+      "sense_zh": "道歉",
+      "sentence_ids": [
+        "p05-a-17-s04"
+      ],
+      "forms": [
+        "apologize"
+      ],
+      "sense_id": "sense-staged-ox-2e04231208f71044-p05-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6fc77fe9a75edf2",
+      "lemma": "appreciate",
+      "pos": "v.",
+      "sense_zh": "感激",
+      "sentence_ids": [
+        "p05-a-17-s07"
+      ],
+      "forms": [
+        "appreciate"
+      ],
+      "sense_id": "sense-staged-ox-b6fc77fe9a75edf2-p05-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d67aa9e4fd96493",
+      "lemma": "absolutely",
+      "pos": "adv.",
+      "sense_zh": "当然；完全同意",
+      "sentence_ids": [
+        "p05-a-17-s06"
+      ],
+      "forms": [
+        "absolutely"
+      ],
+      "sense_id": "sense-staged-ox-5d67aa9e4fd96493-p05-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

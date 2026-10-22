@@ -1,0 +1,142 @@
+{
+  "id": "p05-a-04",
+  "title_zh": "先拆底座再搬柜子",
+  "topic_id": "home",
+  "scenario": {
+    "id": "cabinet-moving-plan",
+    "label_zh": "协作搬动柜子",
+    "goal_zh": "核对通道尺寸并协调柜子移动和暂放位置"
+  },
+  "participants": [
+    "Marta",
+    "Leon"
+  ],
+  "context_zh": "室友测量旧柜子和门口，商量如何让柜子通过狭窄入口。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-04-s01",
+      "speaker": "Marta",
+      "text": "This cabinet is too wide to get through the doorway like this."
+    },
+    {
+      "id": "p05-a-04-s02",
+      "speaker": "Leon",
+      "text": "Can we turn it on its side?"
+    },
+    {
+      "id": "p05-a-04-s03",
+      "speaker": "Marta",
+      "text": "Not with those wooden feet sticking out. Do you know its weight?"
+    },
+    {
+      "id": "p05-a-04-s04",
+      "speaker": "Leon",
+      "text": "About thirty kilos without the shelves. The base comes off, though."
+    },
+    {
+      "id": "p05-a-04-s05",
+      "speaker": "Marta",
+      "text": "Good. Let us take that part off rather than pull the whole cabinet apart."
+    },
+    {
+      "id": "p05-a-04-s06",
+      "speaker": "Leon",
+      "text": "I will remove the shelves and the base first. Can you clear the shoes from the doorway?"
+    },
+    {
+      "id": "p05-a-04-s07",
+      "speaker": "Marta",
+      "text": "Yes. Then we can carry it sideways and put it against the empty wall."
+    },
+    {
+      "id": "p05-a-04-s08",
+      "speaker": "Leon",
+      "text": "Agreed. We will move it together once the path is clear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-36a06a077174eba4",
+      "lemma": "weight",
+      "pos": "n.",
+      "sense_zh": "重量",
+      "sentence_ids": [
+        "p05-a-04-s03"
+      ],
+      "forms": [
+        "weight"
+      ],
+      "sense_id": "sense-staged-ox-36a06a077174eba4-p05-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b838707050b04a46",
+      "lemma": "wide",
+      "pos": "adj.",
+      "sense_zh": "宽的",
+      "sentence_ids": [
+        "p05-a-04-s01"
+      ],
+      "forms": [
+        "wide"
+      ],
+      "sense_id": "sense-staged-ox-b838707050b04a46-p05-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ee55c114dfb85f0",
+      "lemma": "wooden",
+      "pos": "adj.",
+      "sense_zh": "木制的",
+      "sentence_ids": [
+        "p05-a-04-s03"
+      ],
+      "forms": [
+        "wooden"
+      ],
+      "sense_id": "sense-staged-ox-2ee55c114dfb85f0-p05-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-842b1d9cee4e21cf",
+      "lemma": "base",
+      "pos": "n.",
+      "sense_zh": "底座",
+      "sentence_ids": [
+        "p05-a-04-s04"
+      ],
+      "forms": [
+        "base"
+      ],
+      "sense_id": "sense-staged-ox-842b1d9cee4e21cf-p05-a-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e79b19d0c4276c50",
+      "lemma": "apart",
+      "pos": "adv.",
+      "sense_zh": "分开；成零件",
+      "sentence_ids": [
+        "p05-a-04-s05"
+      ],
+      "forms": [
+        "apart"
+      ],
+      "sense_id": "sense-staged-ox-e79b19d0c4276c50-p05-a-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,126 @@
+{
+  "id": "p05-a-20",
+  "title_zh": "试吃后决定义卖蛋糕品种",
+  "topic_id": "food",
+  "scenario": {
+    "id": "fundraiser-cake-tasting-choice",
+    "label_zh": "试吃并选择义卖蛋糕",
+    "goal_zh": "试吃橙味蛋糕后决定将其加入义卖，并确认烘焙数量与装盒分工"
+  },
+  "participants": [
+    "Iris",
+    "Gavin"
+  ],
+  "context_zh": "邻居为周末筹款义卖试做蛋糕，通过试吃决定数量和烘焙分工。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-20-s01",
+      "speaker": "Iris",
+      "text": "Before I bake another batch, would you try this orange cake?"
+    },
+    {
+      "id": "p05-a-20-s02",
+      "speaker": "Gavin",
+      "text": "Of course. One bite should be enough to tell whether it needs more sugar."
+    },
+    {
+      "id": "p05-a-20-s03",
+      "speaker": "Iris",
+      "text": "I used less than last time. What do you think?"
+    },
+    {
+      "id": "p05-a-20-s04",
+      "speaker": "Gavin",
+      "text": "I am amazed at how much orange I can taste. It does not need any more sugar."
+    },
+    {
+      "id": "p05-a-20-s05",
+      "speaker": "Iris",
+      "text": "Would it be a useful addition to the cake stall, or do we already have too much?"
+    },
+    {
+      "id": "p05-a-20-s06",
+      "speaker": "Gavin",
+      "text": "We have plenty of chocolate cake, so this would give people a choice."
+    },
+    {
+      "id": "p05-a-20-s07",
+      "speaker": "Iris",
+      "text": "Then I will make two orange cakes. Could you bring the boxes?"
+    },
+    {
+      "id": "p05-a-20-s08",
+      "speaker": "Gavin",
+      "text": "Yes. I will bring four, so there is room for the cakes without stacking them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e255d8c76d8d46e8",
+      "lemma": "bake",
+      "pos": "v.",
+      "sense_zh": "烘焙",
+      "sentence_ids": [
+        "p05-a-20-s01"
+      ],
+      "forms": [
+        "bake"
+      ],
+      "sense_id": "sense-staged-ox-e255d8c76d8d46e8-p05-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-83843706c59fd33e",
+      "lemma": "bite",
+      "pos": "n.",
+      "sense_zh": "一口食物；咬的一口",
+      "sentence_ids": [
+        "p05-a-20-s02"
+      ],
+      "forms": [
+        "bite"
+      ],
+      "sense_id": "sense-staged-ox-83843706c59fd33e-p05-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d4d166c3d091729a",
+      "lemma": "amazed",
+      "pos": "adj.",
+      "sense_zh": "惊讶的",
+      "sentence_ids": [
+        "p05-a-20-s04"
+      ],
+      "forms": [
+        "amazed"
+      ],
+      "sense_id": "sense-staged-ox-d4d166c3d091729a-p05-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e0a6d5beb28ab1f1",
+      "lemma": "addition",
+      "pos": "n.",
+      "sense_zh": "增加的事物",
+      "sentence_ids": [
+        "p05-a-20-s05"
+      ],
+      "forms": [
+        "addition"
+      ],
+      "sense_id": "sense-staged-ox-e0a6d5beb28ab1f1-p05-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,163 @@
+{
+  "id": "p05-c-17",
+  "title_zh": "去掉未证实的救援说法，改用天气标题",
+  "topic_id": "society",
+  "scenario": {
+    "id": "storm-news-verification",
+    "label_zh": "核实风暴报道与标题",
+    "goal_zh": "区分已确认的天气信息和未证实的救援消息，并约定修改报道及继续核实"
+  },
+  "participants": [
+    "Clara",
+    "Dev"
+  ],
+  "context_zh": "新闻写作课中，两名学生核对一则完全虚构的风暴报道练习。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-17-s01",
+      "speaker": "Clara",
+      "text": "Your headline says twenty people were rescued from the island. Where did that number come from?"
+    },
+    {
+      "id": "p05-c-17-s02",
+      "speaker": "Dev",
+      "text": "A post from a local resident. There is a photograph of a helicopter above the harbour."
+    },
+    {
+      "id": "p05-c-17-s03",
+      "speaker": "Clara",
+      "text": "The photograph does not show how many people were on board, or why it was there."
+    },
+    {
+      "id": "p05-c-17-s04",
+      "speaker": "Dev",
+      "text": "You are right. The latest weather bulletin does confirm that a hurricane passed the island overnight."
+    },
+    {
+      "id": "p05-c-17-s05",
+      "speaker": "Clara",
+      "text": "And our reporter says it is still raining heavily. Those details have a clear source."
+    },
+    {
+      "id": "p05-c-17-s06",
+      "speaker": "Dev",
+      "text": "I will remove the rescue number and ask the emergency office for confirmation."
+    },
+    {
+      "id": "p05-c-17-s07",
+      "speaker": "Clara",
+      "text": "Meanwhile, we can finish the section about the weather. Let us use a title that does not claim a rescue."
+    },
+    {
+      "id": "p05-c-17-s08",
+      "speaker": "Dev",
+      "text": "How about: Hurricane passes island as heavy rain continues?"
+    },
+    {
+      "id": "p05-c-17-s09",
+      "speaker": "Clara",
+      "text": "That matches what we know. Use that, and leave the rescue paragraph out until we have an answer."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4544e993d4456518",
+      "lemma": "headline",
+      "pos": "n.",
+      "sense_zh": "新闻标题",
+      "sentence_ids": [
+        "p05-c-17-s01"
+      ],
+      "forms": [
+        "headline"
+      ],
+      "sense_id": "sense-staged-ox-4544e993d4456518-p05-c-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-31b7dd8ed32dbee4",
+      "lemma": "helicopter",
+      "pos": "n.",
+      "sense_zh": "直升机",
+      "sentence_ids": [
+        "p05-c-17-s02"
+      ],
+      "forms": [
+        "helicopter"
+      ],
+      "sense_id": "sense-staged-ox-31b7dd8ed32dbee4-p05-c-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77bcb42e22b41f16",
+      "lemma": "latest",
+      "pos": "adj.",
+      "sense_zh": "最新的",
+      "sentence_ids": [
+        "p05-c-17-s04"
+      ],
+      "forms": [
+        "latest"
+      ],
+      "sense_id": "sense-staged-ox-77bcb42e22b41f16-p05-c-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae8ecb6cff2bf031",
+      "lemma": "hurricane",
+      "pos": "n.",
+      "sense_zh": "飓风",
+      "sentence_ids": [
+        "p05-c-17-s04"
+      ],
+      "forms": [
+        "hurricane"
+      ],
+      "sense_id": "sense-staged-ox-ae8ecb6cff2bf031-p05-c-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9905a31ff18da710",
+      "lemma": "heavily",
+      "pos": "adv.",
+      "sense_zh": "大量地；猛烈地",
+      "sentence_ids": [
+        "p05-c-17-s05"
+      ],
+      "forms": [
+        "heavily"
+      ],
+      "sense_id": "sense-staged-ox-9905a31ff18da710-p05-c-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92db52b38fc1696d",
+      "lemma": "meanwhile",
+      "pos": "adv.",
+      "sense_zh": "与此同时",
+      "sentence_ids": [
+        "p05-c-17-s07"
+      ],
+      "forms": [
+        "meanwhile"
+      ],
+      "sense_id": "sense-staged-ox-92db52b38fc1696d-p05-c-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

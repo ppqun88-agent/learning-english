@@ -1,0 +1,142 @@
+{
+  "id": "p05-b-12",
+  "title_zh": "先重练讲座的开场",
+  "topic_id": "work",
+  "scenario": {
+    "id": "community-talk-rehearsal",
+    "label_zh": "调整社区讲座的讲法",
+    "goal_zh": "澄清讲座结构和重点后决定重练开场"
+  },
+  "participants": [
+    "Gavin",
+    "Lou"
+  ],
+  "context_zh": "社区讲者担心自己的堆肥讲座太难，朋友帮助缩小重点并安排重练。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-12-s01",
+      "speaker": "Gavin",
+      "text": "I am determined to make this talk useful, but I keep losing my place."
+    },
+    {
+      "id": "p05-b-12-s02",
+      "speaker": "Lou",
+      "text": "You have put a lot of effort into it. There may simply be too much to cover in ten minutes."
+    },
+    {
+      "id": "p05-b-12-s03",
+      "speaker": "Gavin",
+      "text": "I wanted to convince everyone that composting is worth trying."
+    },
+    {
+      "id": "p05-b-12-s04",
+      "speaker": "Lou",
+      "text": "Then start with the problem of food waste, show one small bin, and explain the first step."
+    },
+    {
+      "id": "p05-b-12-s05",
+      "speaker": "Gavin",
+      "text": "That sounds clearer than explaining all the science. I feel more confident about that version."
+    },
+    {
+      "id": "p05-b-12-s06",
+      "speaker": "Lou",
+      "text": "You can encourage people to ask questions at the end instead of answering every possible question in advance."
+    },
+    {
+      "id": "p05-b-12-s07",
+      "speaker": "Gavin",
+      "text": "Will you listen while I try the new opening?"
+    },
+    {
+      "id": "p05-b-12-s08",
+      "speaker": "Lou",
+      "text": "Of course. Start with what goes into the bin, and I will stop you if anything is unclear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f8dbcdded7e8f851",
+      "lemma": "confident",
+      "pos": "adj.",
+      "sense_zh": "有信心的",
+      "sentence_ids": [
+        "p05-b-12-s05"
+      ],
+      "forms": [
+        "confident"
+      ],
+      "sense_id": "sense-staged-ox-f8dbcdded7e8f851-p05-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d908ff27ce83e09",
+      "lemma": "encourage",
+      "pos": "v.",
+      "sense_zh": "鼓励",
+      "sentence_ids": [
+        "p05-b-12-s06"
+      ],
+      "forms": [
+        "encourage"
+      ],
+      "sense_id": "sense-staged-ox-5d908ff27ce83e09-p05-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a11975fb1299682",
+      "lemma": "effort",
+      "pos": "n.",
+      "sense_zh": "努力",
+      "sentence_ids": [
+        "p05-b-12-s02"
+      ],
+      "forms": [
+        "effort"
+      ],
+      "sense_id": "sense-staged-ox-0a11975fb1299682-p05-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f18e87bd2d03bcbd",
+      "lemma": "determined",
+      "pos": "adj.",
+      "sense_zh": "下定决心的",
+      "sentence_ids": [
+        "p05-b-12-s01"
+      ],
+      "forms": [
+        "determined"
+      ],
+      "sense_id": "sense-staged-ox-f18e87bd2d03bcbd-p05-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9932a2e4debeee29",
+      "lemma": "convince",
+      "pos": "v.",
+      "sense_zh": "使相信；说服",
+      "sentence_ids": [
+        "p05-b-12-s03"
+      ],
+      "forms": [
+        "convince"
+      ],
+      "sense_id": "sense-staged-ox-9932a2e4debeee29-p05-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

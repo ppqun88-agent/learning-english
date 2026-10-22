@@ -1,0 +1,184 @@
+{
+  "id": "p05-c-14",
+  "title_zh": "只改变水量的种子实验",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "seed-trial-design",
+    "label_zh": "制定种子生长对照实验",
+    "goal_zh": "只改变浇水量并约定观察记录方式"
+  },
+  "participants": [
+    "Tara",
+    "Niko"
+  ],
+  "context_zh": "两名学生在教师指定的实验室里计划小麦种子的生长观察。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-14-s01",
+      "speaker": "Tara",
+      "text": "We have two identical pots ready in the laboratory. What will we change between them?"
+    },
+    {
+      "id": "p05-c-14-s02",
+      "speaker": "Niko",
+      "text": "Only the amount of water. Each pot will get one grain of wheat from the same packet."
+    },
+    {
+      "id": "p05-c-14-s03",
+      "speaker": "Tara",
+      "text": "And the soil must be the same in both. Shall we cover each seed with a thin layer of it?"
+    },
+    {
+      "id": "p05-c-14-s04",
+      "speaker": "Niko",
+      "text": "Yes, the same depth in each pot. We will keep them beside the same window."
+    },
+    {
+      "id": "p05-c-14-s05",
+      "speaker": "Tara",
+      "text": "How will we record growth?"
+    },
+    {
+      "id": "p05-c-14-s06",
+      "speaker": "Niko",
+      "text": "Measure the height every morning and write it in our journal, along with the amount of water."
+    },
+    {
+      "id": "p05-c-14-s07",
+      "speaker": "Tara",
+      "text": "Should we also record when the first leaf appears?"
+    },
+    {
+      "id": "p05-c-14-s08",
+      "speaker": "Niko",
+      "text": "Definitely. But one taller plant would not indicate that our result applies to all wheat."
+    },
+    {
+      "id": "p05-c-14-s09",
+      "speaker": "Tara",
+      "text": "Then we will call this a small trial and include that limit in the report."
+    },
+    {
+      "id": "p05-c-14-s10",
+      "speaker": "Niko",
+      "text": "Agreed. I will label the pots, and you can prepare the record sheet before we plant."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3b666f8ea839ff1c",
+      "lemma": "laboratory",
+      "pos": "n.",
+      "sense_zh": "实验室",
+      "sentence_ids": [
+        "p05-c-14-s01"
+      ],
+      "forms": [
+        "laboratory"
+      ],
+      "sense_id": "sense-staged-ox-3b666f8ea839ff1c-p05-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f1b86eaa3180909b",
+      "lemma": "grain",
+      "pos": "n.",
+      "sense_zh": "谷粒",
+      "sentence_ids": [
+        "p05-c-14-s02"
+      ],
+      "forms": [
+        "grain"
+      ],
+      "sense_id": "sense-staged-ox-f1b86eaa3180909b-p05-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f01c2ffec2f653b8",
+      "lemma": "layer",
+      "pos": "n.",
+      "sense_zh": "层",
+      "sentence_ids": [
+        "p05-c-14-s03"
+      ],
+      "forms": [
+        "layer"
+      ],
+      "sense_id": "sense-staged-ox-f01c2ffec2f653b8-p05-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-be8e69ac1c4220fe",
+      "lemma": "growth",
+      "pos": "n.",
+      "sense_zh": "生长",
+      "sentence_ids": [
+        "p05-c-14-s05"
+      ],
+      "forms": [
+        "growth"
+      ],
+      "sense_id": "sense-staged-ox-be8e69ac1c4220fe-p05-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb4869e1e8ecd805",
+      "lemma": "journal",
+      "pos": "n.",
+      "sense_zh": "日志；记录本",
+      "sentence_ids": [
+        "p05-c-14-s06"
+      ],
+      "forms": [
+        "journal"
+      ],
+      "sense_id": "sense-staged-ox-cb4869e1e8ecd805-p05-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a8cb909b3cdadcd0",
+      "lemma": "leaf",
+      "pos": "n.",
+      "sense_zh": "植物的叶子",
+      "sentence_ids": [
+        "p05-c-14-s07"
+      ],
+      "forms": [
+        "leaf"
+      ],
+      "sense_id": "sense-staged-ox-a8cb909b3cdadcd0-p05-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45fc5f3f79da226b",
+      "lemma": "indicate",
+      "pos": "v.",
+      "sense_zh": "表明；显示",
+      "sentence_ids": [
+        "p05-c-14-s08"
+      ],
+      "forms": [
+        "indicate"
+      ],
+      "sense_id": "sense-staged-ox-45fc5f3f79da226b-p05-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "id": "p05-b-31",
+  "title_zh": "看清纪念品价签的币种",
+  "topic_id": "services",
+  "scenario": {
+    "id": "souvenir-price-currency",
+    "label_zh": "核对纪念品价格和币种",
+    "goal_zh": "看懂手写价签后确定付款方式"
+  },
+  "participants": [
+    "Rina",
+    "Oscar"
+  ],
+  "context_zh": "游客在纪念品店询问手写价签，并确认付款方式。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-31-s01",
+      "speaker": "Rina",
+      "text": "I can read the number fifteen on this tag, but what currency is it in?"
+    },
+    {
+      "id": "p05-b-31-s02",
+      "speaker": "Oscar",
+      "text": "Euros. That mark is a handwritten euro sign."
+    },
+    {
+      "id": "p05-b-31-s03",
+      "speaker": "Rina",
+      "text": "Thank you. Do you accept cards for something this small?"
+    },
+    {
+      "id": "p05-b-31-s04",
+      "speaker": "Oscar",
+      "text": "Yes. The total will be fifteen euros on your card."
+    },
+    {
+      "id": "p05-b-31-s05",
+      "speaker": "Rina",
+      "text": "Then I will pay by card rather than use my remaining cash."
+    },
+    {
+      "id": "p05-b-31-s06",
+      "speaker": "Oscar",
+      "text": "Certainly. I will bring the card reader over."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2233211c22288c8b",
+      "lemma": "currency",
+      "pos": "n.",
+      "sense_zh": "货币；币种",
+      "sentence_ids": [
+        "p05-b-31-s01"
+      ],
+      "forms": [
+        "currency"
+      ],
+      "sense_id": "sense-staged-ox-2233211c22288c8b-p05-b-31",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

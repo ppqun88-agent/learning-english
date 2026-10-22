@@ -1,0 +1,126 @@
+{
+  "id": "p05-b-20",
+  "title_zh": "核对定义并商定图示修改",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-term-definition-revision",
+    "label_zh": "修订课堂术语说明",
+    "goal_zh": "确认元素定义清楚，并商定补充化合物解释及图示标签来区分两者。"
+  },
+  "participants": [
+    "Ewan",
+    "Lina"
+  ],
+  "context_zh": "同学互看准备在化学课上展示的术语说明页。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-20-s01",
+      "speaker": "Ewan",
+      "text": "Could you read my definition of an element? I am not sure it is clear."
+    },
+    {
+      "id": "p05-b-20-s02",
+      "speaker": "Lina",
+      "text": "You wrote that it is a substance containing one type of atom. That part is clear."
+    },
+    {
+      "id": "p05-b-20-s03",
+      "speaker": "Ewan",
+      "text": "Should I define a compound on the same page?"
+    },
+    {
+      "id": "p05-b-20-s04",
+      "speaker": "Lina",
+      "text": "Yes, otherwise the two pictures may confuse people. Your diagram needs labels."
+    },
+    {
+      "id": "p05-b-20-s05",
+      "speaker": "Ewan",
+      "text": "I will label this group as oxygen and the other as water."
+    },
+    {
+      "id": "p05-b-20-s06",
+      "speaker": "Lina",
+      "text": "Good. Show that the water contains two types of atom joined together, while the oxygen contains only one type."
+    },
+    {
+      "id": "p05-b-20-s07",
+      "speaker": "Ewan",
+      "text": "I will add that explanation below the pictures, then ask our teacher to check the page."
+    },
+    {
+      "id": "p05-b-20-s08",
+      "speaker": "Lina",
+      "text": "That will make the difference much easier to see."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6f5136facd31bccf",
+      "lemma": "define",
+      "pos": "v.",
+      "sense_zh": "给……下定义",
+      "sentence_ids": [
+        "p05-b-20-s03"
+      ],
+      "forms": [
+        "define"
+      ],
+      "sense_id": "sense-staged-ox-6f5136facd31bccf-p05-b-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c1e63b5eddda00d0",
+      "lemma": "definition",
+      "pos": "n.",
+      "sense_zh": "定义",
+      "sentence_ids": [
+        "p05-b-20-s01"
+      ],
+      "forms": [
+        "definition"
+      ],
+      "sense_id": "sense-staged-ox-c1e63b5eddda00d0-p05-b-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d27e4279646154cb",
+      "lemma": "element",
+      "pos": "n.",
+      "sense_zh": "化学元素",
+      "sentence_ids": [
+        "p05-b-20-s01"
+      ],
+      "forms": [
+        "element"
+      ],
+      "sense_id": "sense-staged-ox-d27e4279646154cb-p05-b-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2628520def90e3db",
+      "lemma": "diagram",
+      "pos": "n.",
+      "sense_zh": "示意图",
+      "sentence_ids": [
+        "p05-b-20-s04"
+      ],
+      "forms": [
+        "diagram"
+      ],
+      "sense_id": "sense-staged-ox-2628520def90e3db-p05-b-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

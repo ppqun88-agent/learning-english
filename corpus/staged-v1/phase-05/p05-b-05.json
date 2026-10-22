@@ -1,0 +1,142 @@
+{
+  "id": "p05-b-05",
+  "title_zh": "为漏水的水壶安排换货",
+  "topic_id": "services",
+  "scenario": {
+    "id": "faulty-kettle-exchange",
+    "label_zh": "协商故障水壶换货",
+    "goal_zh": "说明水壶漏水问题并确认换货所需物品和到店安排。"
+  },
+  "participants": [
+    "Marta",
+    "Ben"
+  ],
+  "context_zh": "顾客联系家电店，要求处理刚买来便漏水的水壶。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-05-s01",
+      "speaker": "Marta",
+      "text": "I have a complaint about the kettle I bought yesterday. Water leaks from the base."
+    },
+    {
+      "id": "p05-b-05-s02",
+      "speaker": "Ben",
+      "text": "I am sorry. Have you stopped using it?"
+    },
+    {
+      "id": "p05-b-05-s03",
+      "speaker": "Marta",
+      "text": "Yes. I am disappointed because I bought it after reading such good reviews."
+    },
+    {
+      "id": "p05-b-05-s04",
+      "speaker": "Ben",
+      "text": "That is a disappointing start. We can inspect it at the counter and replace it if it is faulty."
+    },
+    {
+      "id": "p05-b-05-s05",
+      "speaker": "Marta",
+      "text": "As a consumer, I expected it to last more than a day. Can you arrange a replacement at the service counter?"
+    },
+    {
+      "id": "p05-b-05-s06",
+      "speaker": "Ben",
+      "text": "Yes. Bring the kettle and receipt to the service counter. A replacement of the same model is in stock."
+    },
+    {
+      "id": "p05-b-05-s07",
+      "speaker": "Marta",
+      "text": "I would like to exchange it this afternoon, then."
+    },
+    {
+      "id": "p05-b-05-s08",
+      "speaker": "Ben",
+      "text": "I will leave a note for the counter team. They will check the leak with you when you arrive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d109497183210ebc",
+      "lemma": "complaint",
+      "pos": "n.",
+      "sense_zh": "投诉",
+      "sentence_ids": [
+        "p05-b-05-s01"
+      ],
+      "forms": [
+        "complaint"
+      ],
+      "sense_id": "sense-staged-ox-d109497183210ebc-p05-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10e0448607f60286",
+      "lemma": "consumer",
+      "pos": "n.",
+      "sense_zh": "消费者",
+      "sentence_ids": [
+        "p05-b-05-s05"
+      ],
+      "forms": [
+        "consumer"
+      ],
+      "sense_id": "sense-staged-ox-10e0448607f60286-p05-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cefdcf2d9b9bab8f",
+      "lemma": "disappointed",
+      "pos": "adj.",
+      "sense_zh": "失望的",
+      "sentence_ids": [
+        "p05-b-05-s03"
+      ],
+      "forms": [
+        "disappointed"
+      ],
+      "sense_id": "sense-staged-ox-cefdcf2d9b9bab8f-p05-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6d09b67cff562371",
+      "lemma": "disappointing",
+      "pos": "adj.",
+      "sense_zh": "令人失望的",
+      "sentence_ids": [
+        "p05-b-05-s04"
+      ],
+      "forms": [
+        "disappointing"
+      ],
+      "sense_id": "sense-staged-ox-6d09b67cff562371-p05-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-71595d21b4b9e4bd",
+      "lemma": "exchange",
+      "pos": "v.",
+      "sense_zh": "换货；更换",
+      "sentence_ids": [
+        "p05-b-05-s07"
+      ],
+      "forms": [
+        "exchange"
+      ],
+      "sense_id": "sense-staged-ox-71595d21b4b9e4bd-p05-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,94 @@
+{
+  "id": "p05-a-28",
+  "title_zh": "确认孩子的足球年龄组与首次训练",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "youth-football-registration",
+    "label_zh": "加入青少年足球队",
+    "goal_zh": "核实年龄要求并了解初次训练安排"
+  },
+  "participants": [
+    "Wes",
+    "Coach Rivera"
+  ],
+  "context_zh": "家长为九岁的孩子咨询社区球队，并确认第一次到场时可以向谁求助。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-28-s01",
+      "speaker": "Wes",
+      "text": "My son is nine. Is he old enough for this group?"
+    },
+    {
+      "id": "p05-a-28-s02",
+      "speaker": "Coach Rivera",
+      "text": "Yes. This session is for children aged eight to ten."
+    },
+    {
+      "id": "p05-a-28-s03",
+      "speaker": "Wes",
+      "text": "He has not played on a team before. Can someone assist him at the start?"
+    },
+    {
+      "id": "p05-a-28-s04",
+      "speaker": "Coach Rivera",
+      "text": "Of course. I will show him where to put his bag and introduce him to a partner."
+    },
+    {
+      "id": "p05-a-28-s05",
+      "speaker": "Wes",
+      "text": "When should we arrive for his first session?"
+    },
+    {
+      "id": "p05-a-28-s06",
+      "speaker": "Coach Rivera",
+      "text": "Saturday at nine forty-five. Training starts at ten, but that gives us time to meet."
+    },
+    {
+      "id": "p05-a-28-s07",
+      "speaker": "Wes",
+      "text": "We will be here at nine forty-five. I will ask for you at the entrance."
+    },
+    {
+      "id": "p05-a-28-s08",
+      "speaker": "Coach Rivera",
+      "text": "Please do. Bring trainers and a water bottle, and we will provide the ball."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-34eccc5f95b1edbd",
+      "lemma": "aged",
+      "pos": "adj.",
+      "sense_zh": "……岁的",
+      "sentence_ids": [
+        "p05-a-28-s02"
+      ],
+      "forms": [
+        "aged"
+      ],
+      "sense_id": "sense-staged-ox-34eccc5f95b1edbd-p05-a-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3cb049fbc2e69860",
+      "lemma": "assist",
+      "pos": "v.",
+      "sense_zh": "帮助",
+      "sentence_ids": [
+        "p05-a-28-s03"
+      ],
+      "forms": [
+        "assist"
+      ],
+      "sense_id": "sense-staged-ox-3cb049fbc2e69860-p05-a-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

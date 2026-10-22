@@ -1,0 +1,110 @@
+{
+  "id": "p05-b-25",
+  "title_zh": "不要把出口增长写成整体经济复苏",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "economic-news-claim-check",
+    "label_zh": "核对经济报道的结论范围",
+    "goal_zh": "区分单一行业出口数据和整体经济结论并修订报道标题。"
+  },
+  "participants": [
+    "Theo",
+    "Yasmin"
+  ],
+  "context_zh": "新闻写作课上，两名同学检查一份虚构地方经济报道的草稿。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-25-s01",
+      "speaker": "Theo",
+      "text": "My headline says the economy has fully recovered. Is that supported by the figures?"
+    },
+    {
+      "id": "p05-b-25-s02",
+      "speaker": "Yasmin",
+      "text": "The report only says local firms export more bicycles than last year."
+    },
+    {
+      "id": "p05-b-25-s03",
+      "speaker": "Theo",
+      "text": "That is still an economic improvement, though."
+    },
+    {
+      "id": "p05-b-25-s04",
+      "speaker": "Yasmin",
+      "text": "For those firms, yes. But we have no figures for jobs, household spending, or other industries."
+    },
+    {
+      "id": "p05-b-25-s05",
+      "speaker": "Theo",
+      "text": "So the headline makes a much bigger claim than the evidence allows."
+    },
+    {
+      "id": "p05-b-25-s06",
+      "speaker": "Yasmin",
+      "text": "Right. Can you say exactly what grew instead?"
+    },
+    {
+      "id": "p05-b-25-s07",
+      "speaker": "Theo",
+      "text": "I will change it to Local bicycle sales abroad rise, and give the percentage in the first paragraph."
+    },
+    {
+      "id": "p05-b-25-s08",
+      "speaker": "Yasmin",
+      "text": "That matches the report. Keep the wider recovery question open until you have more evidence."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-277b2e10c718cc92",
+      "lemma": "economic",
+      "pos": "adj.",
+      "sense_zh": "经济方面的",
+      "sentence_ids": [
+        "p05-b-25-s03"
+      ],
+      "forms": [
+        "economic"
+      ],
+      "sense_id": "sense-staged-ox-277b2e10c718cc92-p05-b-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57a82e4a70a425ef",
+      "lemma": "economy",
+      "pos": "n.",
+      "sense_zh": "经济体系；经济状况",
+      "sentence_ids": [
+        "p05-b-25-s01"
+      ],
+      "forms": [
+        "economy"
+      ],
+      "sense_id": "sense-staged-ox-57a82e4a70a425ef-p05-b-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-64004673afae6c22",
+      "lemma": "export",
+      "pos": "v.",
+      "sense_zh": "出口",
+      "sentence_ids": [
+        "p05-b-25-s02"
+      ],
+      "forms": [
+        "export"
+      ],
+      "sense_id": "sense-staged-ox-64004673afae6c22-p05-b-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,126 @@
+{
+  "id": "p05-c-32",
+  "title_zh": "不要把拼图成绩等同于整体智力",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "puzzle-intelligence-claim-review",
+    "label_zh": "审视拼图成绩的推论边界",
+    "goal_zh": "区分特定任务表现与整体智力，并依据练习影响修订课堂研究结论"
+  },
+  "participants": [
+    "Bea",
+    "Yusuf"
+  ],
+  "context_zh": "两名学生讨论虚构课堂小实验的报告，准备缩小结论范围。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-32-s01",
+      "speaker": "Bea",
+      "text": "We finished the puzzle faster on our second attempt. Can we say that the exercise increased our intelligence?"
+    },
+    {
+      "id": "p05-c-32-s02",
+      "speaker": "Yusuf",
+      "text": "That seems too broad. It is one mental task, and we already knew how the puzzle worked on the second attempt."
+    },
+    {
+      "id": "p05-c-32-s03",
+      "speaker": "Bea",
+      "text": "The group generally finished faster the second time, though two people did not."
+    },
+    {
+      "id": "p05-c-32-s04",
+      "speaker": "Yusuf",
+      "text": "That does indeed show a change in performance on this puzzle. It does not tell us what happened to every other ability."
+    },
+    {
+      "id": "p05-c-32-s05",
+      "speaker": "Bea",
+      "text": "Then we should describe the faster times without claiming an overall change in ability."
+    },
+    {
+      "id": "p05-c-32-s06",
+      "speaker": "Yusuf",
+      "text": "Yes, and mention that practice could explain the difference. We did not include a group that was seeing the puzzle for the first time."
+    },
+    {
+      "id": "p05-c-32-s07",
+      "speaker": "Bea",
+      "text": "I will rewrite the conclusion around those results and add the missing comparison as a limitation."
+    },
+    {
+      "id": "p05-c-32-s08",
+      "speaker": "Yusuf",
+      "text": "Good. I will check that our chart includes the two people whose times did not improve."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d696bf53632970e8",
+      "lemma": "intelligence",
+      "pos": "n.",
+      "sense_zh": "智力",
+      "sentence_ids": [
+        "p05-c-32-s01"
+      ],
+      "forms": [
+        "intelligence"
+      ],
+      "sense_id": "sense-staged-ox-d696bf53632970e8-p05-c-32",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4fdedcc475773f22",
+      "lemma": "mental",
+      "pos": "adj.",
+      "sense_zh": "思维的；脑力的",
+      "sentence_ids": [
+        "p05-c-32-s02"
+      ],
+      "forms": [
+        "mental"
+      ],
+      "sense_id": "sense-staged-ox-4fdedcc475773f22-p05-c-32",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d5eea74662d0195f",
+      "lemma": "generally",
+      "pos": "adv.",
+      "sense_zh": "总体上；大体上",
+      "sentence_ids": [
+        "p05-c-32-s03"
+      ],
+      "forms": [
+        "generally"
+      ],
+      "sense_id": "sense-staged-ox-d5eea74662d0195f-p05-c-32",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f102a5d9287d9612",
+      "lemma": "indeed",
+      "pos": "adv.",
+      "sense_zh": "确实；的确",
+      "sentence_ids": [
+        "p05-c-32-s04"
+      ],
+      "forms": [
+        "indeed"
+      ],
+      "sense_id": "sense-staged-ox-f102a5d9287d9612-p05-c-32",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

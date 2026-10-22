@@ -1,0 +1,136 @@
+{
+  "id": "p05-c-26",
+  "title_zh": "选一本适合共读的温暖故事",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "reading-group-book-choice",
+    "label_zh": "选择读书小组作品",
+    "goal_zh": "比较故事题材与讨论安排后选定共读作品"
+  },
+  "participants": [
+    "Sora",
+    "Ned"
+  ],
+  "context_zh": "刚搬来的索拉向图书管理员询问读书小组，希望找到轻松阅读和认识邻居的机会。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-26-s01",
+      "speaker": "Sora",
+      "text": "I love literature, but I have not joined a reading group before."
+    },
+    {
+      "id": "p05-c-26-s02",
+      "speaker": "Ned",
+      "text": "What do you like to read in your leisure time?"
+    },
+    {
+      "id": "p05-c-26-s03",
+      "speaker": "Sora",
+      "text": "Usually crime stories, though I am not in the mood for anything dark at the moment."
+    },
+    {
+      "id": "p05-c-26-s04",
+      "speaker": "Ned",
+      "text": "Then you might prefer The Harbour Kitchen to our other choice, Winter Trial. One is about neighbours opening a cafe; the other is a courtroom drama."
+    },
+    {
+      "id": "p05-c-26-s05",
+      "speaker": "Sora",
+      "text": "The cafe story sounds warmer. I have felt a little lonely since I moved here."
+    },
+    {
+      "id": "p05-c-26-s06",
+      "speaker": "Ned",
+      "text": "Our group is friendly, and you can listen at first if you do not feel like speaking."
+    },
+    {
+      "id": "p05-c-26-s07",
+      "speaker": "Sora",
+      "text": "When would we discuss The Harbour Kitchen?"
+    },
+    {
+      "id": "p05-c-26-s08",
+      "speaker": "Ned",
+      "text": "Next Thursday at seven. We are only reading the first four chapters for that meeting."
+    },
+    {
+      "id": "p05-c-26-s09",
+      "speaker": "Sora",
+      "text": "That feels manageable. I will borrow it today and join you on Thursday."
+    },
+    {
+      "id": "p05-c-26-s10",
+      "speaker": "Ned",
+      "text": "Lovely. We meet at the round table upstairs."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-aa12fe7fa3668cd5",
+      "lemma": "literature",
+      "pos": "n.",
+      "sense_zh": "文学",
+      "sentence_ids": [
+        "p05-c-26-s01"
+      ],
+      "forms": [
+        "literature"
+      ],
+      "sense_id": "sense-staged-ox-aa12fe7fa3668cd5-p05-c-26",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-33d1bb286b156669",
+      "lemma": "leisure",
+      "pos": "n.",
+      "sense_zh": "闲暇",
+      "sentence_ids": [
+        "p05-c-26-s02"
+      ],
+      "forms": [
+        "leisure"
+      ],
+      "sense_id": "sense-staged-ox-33d1bb286b156669-p05-c-26",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-386b06dbd6af77fc",
+      "lemma": "mood",
+      "pos": "n.",
+      "sense_zh": "心情；情绪",
+      "sentence_ids": [
+        "p05-c-26-s03"
+      ],
+      "forms": [
+        "mood"
+      ],
+      "sense_id": "sense-staged-ox-386b06dbd6af77fc-p05-c-26",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f628f9b3c1ea2d93",
+      "lemma": "lonely",
+      "pos": "adj.",
+      "sense_zh": "孤独的",
+      "sentence_ids": [
+        "p05-c-26-s05"
+      ],
+      "forms": [
+        "lonely"
+      ],
+      "sense_id": "sense-staged-ox-f628f9b3c1ea2d93-p05-c-26",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

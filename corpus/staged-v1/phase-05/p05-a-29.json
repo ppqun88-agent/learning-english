@@ -1,0 +1,94 @@
+{
+  "id": "p05-a-29",
+  "title_zh": "依据来源卡核对燃料展品标签",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "museum-fuel-display-label-check",
+    "label_zh": "核对博物馆燃料展品标签",
+    "goal_zh": "依据来源卡确认煤与木材样本，只写有记录支持的材料和来源信息"
+  },
+  "participants": [
+    "June",
+    "Curator Ellis"
+  ],
+  "context_zh": "博物馆志愿者和馆员根据现有来源记录，给课堂展示用的燃料样本写标签。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-29-s01",
+      "speaker": "June",
+      "text": "I have two labels left, but I do not want to guess which sample is which."
+    },
+    {
+      "id": "p05-a-29-s02",
+      "speaker": "Curator Ellis",
+      "text": "Check the cards underneath the trays. What does the first one say?"
+    },
+    {
+      "id": "p05-a-29-s03",
+      "speaker": "June",
+      "text": "Coal from the old school store. So this black lump belongs with the school display."
+    },
+    {
+      "id": "p05-a-29-s04",
+      "speaker": "Curator Ellis",
+      "text": "Correct. And the second tray?"
+    },
+    {
+      "id": "p05-a-29-s05",
+      "speaker": "June",
+      "text": "It says wood from the farm kitchen. I can still see the bark on that piece."
+    },
+    {
+      "id": "p05-a-29-s06",
+      "speaker": "Curator Ellis",
+      "text": "Use those descriptions on the labels. Do not add a date unless it is on the card."
+    },
+    {
+      "id": "p05-a-29-s07",
+      "speaker": "June",
+      "text": "Neither card gives a date. I will label the material and the recorded location only."
+    },
+    {
+      "id": "p05-a-29-s08",
+      "speaker": "Curator Ellis",
+      "text": "Good. Put each card behind its matching label so we can check it later."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c3d121aa23b90a79",
+      "lemma": "coal",
+      "pos": "n.",
+      "sense_zh": "煤",
+      "sentence_ids": [
+        "p05-a-29-s03"
+      ],
+      "forms": [
+        "coal"
+      ],
+      "sense_id": "sense-staged-ox-c3d121aa23b90a79-p05-a-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7238d25ee3d7673c",
+      "lemma": "wood",
+      "pos": "n.",
+      "sense_zh": "木材",
+      "sentence_ids": [
+        "p05-a-29-s05"
+      ],
+      "forms": [
+        "wood"
+      ],
+      "sense_id": "sense-staged-ox-7238d25ee3d7673c-p05-a-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

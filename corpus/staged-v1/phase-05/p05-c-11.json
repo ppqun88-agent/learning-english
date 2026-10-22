@@ -1,0 +1,126 @@
+{
+  "id": "p05-c-11",
+  "title_zh": "找到数学作业的失分步骤",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "math-feedback-study-plan",
+    "label_zh": "根据数学作业反馈安排练习",
+    "goal_zh": "找出计算失误的位置并商定重做与检查的具体步骤"
+  },
+  "participants": [
+    "Finn",
+    "Ms Patel"
+  ],
+  "context_zh": "学生芬恩拿着批改后的数学作业向老师请教。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-11-s01",
+      "speaker": "Finn",
+      "text": "My grade has gone up, but I still lost marks on the last two questions."
+    },
+    {
+      "id": "p05-c-11-s02",
+      "speaker": "Ms Patel",
+      "text": "There is a real improvement in how you set out your work. Let us look at where the calculation changes."
+    },
+    {
+      "id": "p05-c-11-s03",
+      "speaker": "Finn",
+      "text": "I can hardly read the number I wrote on this line. Is that a three or an eight?"
+    },
+    {
+      "id": "p05-c-11-s04",
+      "speaker": "Ms Patel",
+      "text": "You copied the three as an eight in the next step. The method itself is right."
+    },
+    {
+      "id": "p05-c-11-s05",
+      "speaker": "Finn",
+      "text": "I am keen to stop making mistakes like that. Should I do twenty more questions?"
+    },
+    {
+      "id": "p05-c-11-s06",
+      "speaker": "Ms Patel",
+      "text": "Start by doing these two again, with one step on each line. Then check each copied number against the question."
+    },
+    {
+      "id": "p05-c-11-s07",
+      "speaker": "Finn",
+      "text": "I will redo them now and circle the numbers while I check."
+    },
+    {
+      "id": "p05-c-11-s08",
+      "speaker": "Ms Patel",
+      "text": "Good. Bring me the two new solutions when you finish, and we will compare them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-79d2a82b848e75d6",
+      "lemma": "grade",
+      "pos": "n.",
+      "sense_zh": "成绩等级；分数",
+      "sentence_ids": [
+        "p05-c-11-s01"
+      ],
+      "forms": [
+        "grade"
+      ],
+      "sense_id": "sense-staged-ox-79d2a82b848e75d6-p05-c-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae74b0d44c4cac98",
+      "lemma": "improvement",
+      "pos": "n.",
+      "sense_zh": "改进；进步",
+      "sentence_ids": [
+        "p05-c-11-s02"
+      ],
+      "forms": [
+        "improvement"
+      ],
+      "sense_id": "sense-staged-ox-ae74b0d44c4cac98-p05-c-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e7b44e2b0db16c8b",
+      "lemma": "hardly",
+      "pos": "adv.",
+      "sense_zh": "几乎不",
+      "sentence_ids": [
+        "p05-c-11-s03"
+      ],
+      "forms": [
+        "hardly"
+      ],
+      "sense_id": "sense-staged-ox-e7b44e2b0db16c8b-p05-c-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5001d5500e5ec35a",
+      "lemma": "keen",
+      "pos": "adj.",
+      "sense_zh": "热切的；渴望的",
+      "sentence_ids": [
+        "p05-c-11-s05"
+      ],
+      "forms": [
+        "keen"
+      ],
+      "sense_id": "sense-staged-ox-5001d5500e5ec35a-p05-c-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

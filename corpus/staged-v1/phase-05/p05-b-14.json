@@ -1,0 +1,163 @@
+{
+  "id": "p05-b-14",
+  "title_zh": "核对探险出发前的装备",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "guided-expedition-departure-check",
+    "label_zh": "核对带队探险出发安排",
+    "goal_zh": "确认领队经验、出发时间与装备检查后前往集合点。"
+  },
+  "participants": [
+    "Aiden",
+    "Soraya"
+  ],
+  "context_zh": "参加者在游客中心为一项有向导带队的洞穴考察做最后确认。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-14-s01",
+      "speaker": "Aiden",
+      "text": "Is the expedition still going ahead despite the rain?"
+    },
+    {
+      "id": "p05-b-14-s02",
+      "speaker": "Soraya",
+      "text": "Yes. The guide has checked the route. If conditions change, she will cancel it."
+    },
+    {
+      "id": "p05-b-14-s03",
+      "speaker": "Aiden",
+      "text": "Good. I have never been inside a cave before."
+    },
+    {
+      "id": "p05-b-14-s04",
+      "speaker": "Soraya",
+      "text": "She is an experienced guide, and this is the introductory route. What is worrying you?"
+    },
+    {
+      "id": "p05-b-14-s05",
+      "speaker": "Aiden",
+      "text": "Mostly the equipment. Is a helmet essential?"
+    },
+    {
+      "id": "p05-b-14-s06",
+      "speaker": "Soraya",
+      "text": "Yes. The guide will fit it and check it before departure at ten."
+    },
+    {
+      "id": "p05-b-14-s07",
+      "speaker": "Aiden",
+      "text": "Should I fasten the strap now?"
+    },
+    {
+      "id": "p05-b-14-s08",
+      "speaker": "Soraya",
+      "text": "Wait until she has adjusted it for you. Take your helmet to the marked meeting point."
+    },
+    {
+      "id": "p05-b-14-s09",
+      "speaker": "Aiden",
+      "text": "All right. I will go there now and ask her to check the fit."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-84c11ef5fa28faad",
+      "lemma": "departure",
+      "pos": "n.",
+      "sense_zh": "出发",
+      "sentence_ids": [
+        "p05-b-14-s06"
+      ],
+      "forms": [
+        "departure"
+      ],
+      "sense_id": "sense-staged-ox-84c11ef5fa28faad-p05-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14e642304b6e366c",
+      "lemma": "despite",
+      "pos": "prep.",
+      "sense_zh": "尽管",
+      "sentence_ids": [
+        "p05-b-14-s01"
+      ],
+      "forms": [
+        "despite"
+      ],
+      "sense_id": "sense-staged-ox-14e642304b6e366c-p05-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1fa71b2dcb962de9",
+      "lemma": "expedition",
+      "pos": "n.",
+      "sense_zh": "有组织的考察或探险",
+      "sentence_ids": [
+        "p05-b-14-s01"
+      ],
+      "forms": [
+        "expedition"
+      ],
+      "sense_id": "sense-staged-ox-1fa71b2dcb962de9-p05-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-663020309088a267",
+      "lemma": "experienced",
+      "pos": "adj.",
+      "sense_zh": "有经验的",
+      "sentence_ids": [
+        "p05-b-14-s04"
+      ],
+      "forms": [
+        "experienced"
+      ],
+      "sense_id": "sense-staged-ox-663020309088a267-p05-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0a07cad210d330b",
+      "lemma": "essential",
+      "pos": "adj.",
+      "sense_zh": "必不可少的",
+      "sentence_ids": [
+        "p05-b-14-s05"
+      ],
+      "forms": [
+        "essential"
+      ],
+      "sense_id": "sense-staged-ox-a0a07cad210d330b-p05-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d46641cff5ac10b",
+      "lemma": "fasten",
+      "pos": "v.",
+      "sense_zh": "扣紧；系牢",
+      "sentence_ids": [
+        "p05-b-14-s07"
+      ],
+      "forms": [
+        "fasten"
+      ],
+      "sense_id": "sense-staged-ox-3d46641cff5ac10b-p05-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,184 @@
+{
+  "id": "p05-a-09",
+  "title_zh": "测试替代音箱后办理更换",
+  "topic_id": "services",
+  "scenario": {
+    "id": "portable-speaker-return-choice",
+    "label_zh": "选择故障音箱的替代品",
+    "goal_zh": "说明音箱故障，试听同价替代型号后确认更换"
+  },
+  "participants": [
+    "Lydia",
+    "Sales assistant"
+  ],
+  "context_zh": "顾客带着无法正常续航的便携音箱回店，店员展示可替换的商品。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-09-s01",
+      "speaker": "Lydia",
+      "text": "I need a working speaker for tomorrow, but this one is faulty. The battery drops to zero after ten minutes."
+    },
+    {
+      "id": "p05-a-09-s02",
+      "speaker": "Sales assistant",
+      "text": "Have you tried it with the charging cable connected?"
+    },
+    {
+      "id": "p05-a-09-s03",
+      "speaker": "Lydia",
+      "text": "Yes. The sound is worse when it is plugged in. There is a loud buzz."
+    },
+    {
+      "id": "p05-a-09-s04",
+      "speaker": "Sales assistant",
+      "text": "We can replace it or give you a refund."
+    },
+    {
+      "id": "p05-a-09-s05",
+      "speaker": "Lydia",
+      "text": "It is the worst speaker I have owned, so I would rather try a different brand."
+    },
+    {
+      "id": "p05-a-09-s06",
+      "speaker": "Sales assistant",
+      "text": "This model is the same price. Would you like to listen to it?"
+    },
+    {
+      "id": "p05-a-09-s07",
+      "speaker": "Lydia",
+      "text": "Please. I have not heard it yet."
+    },
+    {
+      "id": "p05-a-09-s08",
+      "speaker": "Sales assistant",
+      "text": "Here it is, playing from my phone. You can also check it while it is plugged in."
+    },
+    {
+      "id": "p05-a-09-s09",
+      "speaker": "Lydia",
+      "text": "That sounds clear both ways. I will take this one instead."
+    },
+    {
+      "id": "p05-a-09-s10",
+      "speaker": "Sales assistant",
+      "text": "Certainly. I will process the exchange and put the new receipt in the box."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4b8c8f5c9d6a9056",
+      "lemma": "working",
+      "pos": "adj.",
+      "sense_zh": "正常运作的",
+      "sentence_ids": [
+        "p05-a-09-s01"
+      ],
+      "forms": [
+        "working"
+      ],
+      "sense_id": "sense-staged-ox-4b8c8f5c9d6a9056-p05-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fff070a70af9301f",
+      "lemma": "worse",
+      "pos": "adj.",
+      "sense_zh": "更差的",
+      "sentence_ids": [
+        "p05-a-09-s03"
+      ],
+      "forms": [
+        "worse"
+      ],
+      "sense_id": "sense-staged-ox-fff070a70af9301f-p05-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d4c6fa18f95ba5b",
+      "lemma": "worst",
+      "pos": "adj.",
+      "sense_zh": "最差的",
+      "sentence_ids": [
+        "p05-a-09-s05"
+      ],
+      "forms": [
+        "worst"
+      ],
+      "sense_id": "sense-staged-ox-5d4c6fa18f95ba5b-p05-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a94de7475a326527",
+      "lemma": "yet",
+      "pos": "adv.",
+      "sense_zh": "还；尚",
+      "sentence_ids": [
+        "p05-a-09-s07"
+      ],
+      "forms": [
+        "yet"
+      ],
+      "sense_id": "sense-staged-ox-a94de7475a326527-p05-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-509fd0aa2afca696",
+      "lemma": "brand",
+      "pos": "n.",
+      "sense_zh": "品牌",
+      "sentence_ids": [
+        "p05-a-09-s05"
+      ],
+      "forms": [
+        "brand"
+      ],
+      "sense_id": "sense-staged-ox-509fd0aa2afca696-p05-a-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-357833f08d2394b7",
+      "lemma": "battery",
+      "pos": "n.",
+      "sense_zh": "电池",
+      "sentence_ids": [
+        "p05-a-09-s01"
+      ],
+      "forms": [
+        "battery"
+      ],
+      "sense_id": "sense-staged-ox-357833f08d2394b7-p05-a-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4518193fe3238126",
+      "lemma": "zero",
+      "pos": "number",
+      "sense_zh": "零",
+      "sentence_ids": [
+        "p05-a-09-s01"
+      ],
+      "forms": [
+        "zero"
+      ],
+      "sense_id": "sense-staged-ox-4518193fe3238126-p05-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

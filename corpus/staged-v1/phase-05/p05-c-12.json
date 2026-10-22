@@ -1,0 +1,131 @@
+{
+  "id": "p05-c-12",
+  "title_zh": "为营销毕业生确定求职第一步",
+  "topic_id": "work",
+  "scenario": {
+    "id": "marketing-graduate-job-search",
+    "label_zh": "安排营销毕业生的求职准备",
+    "goal_zh": "根据经验和收入需求筛选入门岗位，并确定准备作品和咨询职位的下一步"
+  },
+  "participants": [
+    "Luca",
+    "Bella"
+  ],
+  "context_zh": "刚毕业的卢卡向职业顾问贝拉咨询求职方向。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-12-s01",
+      "speaker": "Luca",
+      "text": "I am a recent graduate, and most of the jobs I find seem to ask for experience."
+    },
+    {
+      "id": "p05-c-12-s02",
+      "speaker": "Bella",
+      "text": "What did you study, and what kind of work interests you?"
+    },
+    {
+      "id": "p05-c-12-s03",
+      "speaker": "Luca",
+      "text": "Marketing. I enjoyed planning campaigns, but I have no experience in management."
+    },
+    {
+      "id": "p05-c-12-s04",
+      "speaker": "Bella",
+      "text": "Then look at assistant roles rather than positions where you would lead a team."
+    },
+    {
+      "id": "p05-c-12-s05",
+      "speaker": "Luca",
+      "text": "Some of the internships are unpaid. I need to earn a living, so those are not realistic for me."
+    },
+    {
+      "id": "p05-c-12-s06",
+      "speaker": "Bella",
+      "text": "Let us filter for paid entry-level work. Do you have a project you could show an employer?"
+    },
+    {
+      "id": "p05-c-12-s07",
+      "speaker": "Luca",
+      "text": "I created a campaign for our student theatre. I could put the posters and results together."
+    },
+    {
+      "id": "p05-c-12-s08",
+      "speaker": "Bella",
+      "text": "Do that first. Then choose two suitable listings, and we can check the requirements together on Friday."
+    },
+    {
+      "id": "p05-c-12-s09",
+      "speaker": "Luca",
+      "text": "Thanks. I will bring the project and two listings to our Friday appointment."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-636989ac82a6723d",
+      "lemma": "graduate",
+      "pos": "n.",
+      "sense_zh": "大学毕业生",
+      "sentence_ids": [
+        "p05-c-12-s01"
+      ],
+      "forms": [
+        "graduate"
+      ],
+      "sense_id": "sense-staged-ox-636989ac82a6723d-p05-c-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b56b9d287a112c66",
+      "lemma": "marketing",
+      "pos": "n.",
+      "sense_zh": "市场营销",
+      "sentence_ids": [
+        "p05-c-12-s03"
+      ],
+      "forms": [
+        "marketing"
+      ],
+      "sense_id": "sense-staged-ox-b56b9d287a112c66-p05-c-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-332054fa1c472070",
+      "lemma": "management",
+      "pos": "n.",
+      "sense_zh": "管理工作",
+      "sentence_ids": [
+        "p05-c-12-s03"
+      ],
+      "forms": [
+        "management"
+      ],
+      "sense_id": "sense-staged-ox-332054fa1c472070-p05-c-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-689726fa9862b3e2",
+      "lemma": "living",
+      "pos": "n.",
+      "sense_zh": "生计；谋生所需的收入",
+      "sentence_ids": [
+        "p05-c-12-s05"
+      ],
+      "forms": [
+        "living"
+      ],
+      "sense_id": "sense-staged-ox-689726fa9862b3e2-p05-c-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

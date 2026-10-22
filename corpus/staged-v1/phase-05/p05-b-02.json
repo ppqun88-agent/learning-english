@@ -1,0 +1,126 @@
+{
+  "id": "p05-b-02",
+  "title_zh": "把烘焙店广告的地址留到结尾",
+  "topic_id": "work",
+  "scenario": {
+    "id": "commercial-ending-edit",
+    "label_zh": "调整广告结尾信息",
+    "goal_zh": "删减广告内容并确定结尾呈现的地址及停留时间。"
+  },
+  "participants": [
+    "Ravi",
+    "Cleo"
+  ],
+  "context_zh": "烘焙店主与剪辑师讨论一则即将投放的短广告。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-02-s01",
+      "speaker": "Ravi",
+      "text": "The commercial looks lovely, but I missed the address at the end."
+    },
+    {
+      "id": "p05-b-02-s02",
+      "speaker": "Cleo",
+      "text": "As the editor, I can hold that final shot for longer. What should I cut?"
+    },
+    {
+      "id": "p05-b-02-s03",
+      "speaker": "Ravi",
+      "text": "There is too much content for such a short commercial. We show all six cakes and then the whole menu."
+    },
+    {
+      "id": "p05-b-02-s04",
+      "speaker": "Cleo",
+      "text": "We could keep three cakes and remove the menu."
+    },
+    {
+      "id": "p05-b-02-s05",
+      "speaker": "Ravi",
+      "text": "Yes. Could we conclude with the shop name and address instead of the slogan?"
+    },
+    {
+      "id": "p05-b-02-s06",
+      "speaker": "Cleo",
+      "text": "That gives viewers four seconds to read it. Shall I keep the opening music?"
+    },
+    {
+      "id": "p05-b-02-s07",
+      "speaker": "Ravi",
+      "text": "Please do. Make those changes and send me the shorter version."
+    },
+    {
+      "id": "p05-b-02-s08",
+      "speaker": "Cleo",
+      "text": "I will. The address will stay on screen until the music ends."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3562d2b3f594d294",
+      "lemma": "commercial",
+      "pos": "n.",
+      "sense_zh": "电视或网络等媒体中的商业广告",
+      "sentence_ids": [
+        "p05-b-02-s01"
+      ],
+      "forms": [
+        "commercial"
+      ],
+      "sense_id": "sense-staged-ox-3562d2b3f594d294-p05-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c5d4d36b9896d3b",
+      "lemma": "content",
+      "pos": "n.",
+      "sense_zh": "所包含的内容",
+      "sentence_ids": [
+        "p05-b-02-s03"
+      ],
+      "forms": [
+        "content"
+      ],
+      "sense_id": "sense-staged-ox-5c5d4d36b9896d3b-p05-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a99e42240e8999d",
+      "lemma": "editor",
+      "pos": "n.",
+      "sense_zh": "影片剪辑师",
+      "sentence_ids": [
+        "p05-b-02-s02"
+      ],
+      "forms": [
+        "editor"
+      ],
+      "sense_id": "sense-staged-ox-4a99e42240e8999d-p05-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-42f2ceb982930c24",
+      "lemma": "conclude",
+      "pos": "v.",
+      "sense_zh": "结束",
+      "sentence_ids": [
+        "p05-b-02-s05"
+      ],
+      "forms": [
+        "conclude"
+      ],
+      "sense_id": "sense-staged-ox-42f2ceb982930c24-p05-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

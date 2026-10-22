@@ -1,0 +1,147 @@
+{
+  "id": "p05-b-03",
+  "title_zh": "选择费用明确的印刷报价",
+  "topic_id": "work",
+  "scenario": {
+    "id": "supplier-price-comparison",
+    "label_zh": "比较供应商报价",
+    "goal_zh": "比较印刷报价中的运费和预算风险后选定供应商。"
+  },
+  "participants": [
+    "Naomi",
+    "Ellis"
+  ],
+  "context_zh": "活动组织者比较两家印刷公司的书面报价。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-03-s01",
+      "speaker": "Naomi",
+      "text": "Have you finished the comparison of the two printing quotes?"
+    },
+    {
+      "id": "p05-b-03-s02",
+      "speaker": "Ellis",
+      "text": "Yes. Our usual supplier charges four hundred pounds, including delivery."
+    },
+    {
+      "id": "p05-b-03-s03",
+      "speaker": "Naomi",
+      "text": "And its competitor?"
+    },
+    {
+      "id": "p05-b-03-s04",
+      "speaker": "Ellis",
+      "text": "Three hundred and fifty, but delivery is extra and they cannot price it yet."
+    },
+    {
+      "id": "p05-b-03-s05",
+      "speaker": "Naomi",
+      "text": "That sounds competitive until we add the missing cost."
+    },
+    {
+      "id": "p05-b-03-s06",
+      "speaker": "Ellis",
+      "text": "Exactly. Our budget is tight, so an unknown charge is a financial risk."
+    },
+    {
+      "id": "p05-b-03-s07",
+      "speaker": "Naomi",
+      "text": "Is the first quote a fixed price, even if their delivery costs rise?"
+    },
+    {
+      "id": "p05-b-03-s08",
+      "speaker": "Ellis",
+      "text": "Yes. They confirmed that in writing."
+    },
+    {
+      "id": "p05-b-03-s09",
+      "speaker": "Naomi",
+      "text": "Then use our usual supplier. Certainty matters more than a possible saving this time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-09421f9a2a3968e1",
+      "lemma": "comparison",
+      "pos": "n.",
+      "sense_zh": "比较",
+      "sentence_ids": [
+        "p05-b-03-s01"
+      ],
+      "forms": [
+        "comparison"
+      ],
+      "sense_id": "sense-staged-ox-09421f9a2a3968e1-p05-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dad8d3f3d62c4669",
+      "lemma": "competitive",
+      "pos": "adj.",
+      "sense_zh": "价格有竞争力的",
+      "sentence_ids": [
+        "p05-b-03-s05"
+      ],
+      "forms": [
+        "competitive"
+      ],
+      "sense_id": "sense-staged-ox-dad8d3f3d62c4669-p05-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c7b528834dc49681",
+      "lemma": "competitor",
+      "pos": "n.",
+      "sense_zh": "竞争对手",
+      "sentence_ids": [
+        "p05-b-03-s03"
+      ],
+      "forms": [
+        "competitor"
+      ],
+      "sense_id": "sense-staged-ox-c7b528834dc49681-p05-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16db0119ba4bb899",
+      "lemma": "financial",
+      "pos": "adj.",
+      "sense_zh": "与金钱或财务有关的",
+      "sentence_ids": [
+        "p05-b-03-s06"
+      ],
+      "forms": [
+        "financial"
+      ],
+      "sense_id": "sense-staged-ox-16db0119ba4bb899-p05-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-320e5ef6452532e6",
+      "lemma": "fixed",
+      "pos": "adj.",
+      "sense_zh": "固定不变的",
+      "sentence_ids": [
+        "p05-b-03-s07"
+      ],
+      "forms": [
+        "fixed"
+      ],
+      "sense_id": "sense-staged-ox-320e5ef6452532e6-p05-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

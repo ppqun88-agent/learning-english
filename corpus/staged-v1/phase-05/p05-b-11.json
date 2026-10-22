@@ -1,0 +1,110 @@
+{
+  "id": "p05-b-11",
+  "title_zh": "为小书房选取暖器",
+  "topic_id": "services",
+  "scenario": {
+    "id": "heater-label-comparison",
+    "label_zh": "比较电暖器标签",
+    "goal_zh": "核对供电要求和功能后选定适合房间的型号"
+  },
+  "participants": [
+    "Felix",
+    "Asha"
+  ],
+  "context_zh": "顾客通过铭牌和产品说明比较两款电暖器。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-11-s01",
+      "speaker": "Felix",
+      "text": "Do these heaters consume the same amount of electricity?"
+    },
+    {
+      "id": "p05-b-11-s02",
+      "speaker": "Asha",
+      "text": "At full power, this one draws one kilowatt and that one draws two. Both run from a standard wall socket."
+    },
+    {
+      "id": "p05-b-11-s03",
+      "speaker": "Felix",
+      "text": "My study is tiny. Would the smaller one be effective there?"
+    },
+    {
+      "id": "p05-b-11-s04",
+      "speaker": "Asha",
+      "text": "Its label says it is designed for rooms of that size. It also has a timer."
+    },
+    {
+      "id": "p05-b-11-s05",
+      "speaker": "Felix",
+      "text": "What is its main disadvantage?"
+    },
+    {
+      "id": "p05-b-11-s06",
+      "speaker": "Asha",
+      "text": "It takes longer to warm a larger room, but you said you only need it for the study."
+    },
+    {
+      "id": "p05-b-11-s07",
+      "speaker": "Felix",
+      "text": "That is right. I will take the smaller model with the timer."
+    },
+    {
+      "id": "p05-b-11-s08",
+      "speaker": "Asha",
+      "text": "Here is the manual. It includes the clearance distances you need to check before using it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a62aa47b6ee27146",
+      "lemma": "consume",
+      "pos": "v.",
+      "sense_zh": "消耗",
+      "sentence_ids": [
+        "p05-b-11-s01"
+      ],
+      "forms": [
+        "consume"
+      ],
+      "sense_id": "sense-staged-ox-a62aa47b6ee27146-p05-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45a82a75f83c1fc8",
+      "lemma": "disadvantage",
+      "pos": "n.",
+      "sense_zh": "缺点；不利之处",
+      "sentence_ids": [
+        "p05-b-11-s05"
+      ],
+      "forms": [
+        "disadvantage"
+      ],
+      "sense_id": "sense-staged-ox-45a82a75f83c1fc8-p05-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef21cd146a23f66a",
+      "lemma": "effective",
+      "pos": "adj.",
+      "sense_zh": "有效的",
+      "sentence_ids": [
+        "p05-b-11-s03"
+      ],
+      "forms": [
+        "effective"
+      ],
+      "sense_id": "sense-staged-ox-ef21cd146a23f66a-p05-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

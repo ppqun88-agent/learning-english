@@ -1,0 +1,131 @@
+{
+  "id": "p05-c-19",
+  "title_zh": "让家族展览说明有材料可查",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "family-migration-exhibit-text",
+    "label_zh": "修订家族移民经历展览说明",
+    "goal_zh": "核对人物经历与历史材料，限定有证据支持的影响描述并安排补充出处"
+  },
+  "participants": [
+    "Rose",
+    "Mr Chen"
+  ],
+  "context_zh": "学生萝丝和展览指导老师准备一份虚构的家族历史展示。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-19-s01",
+      "speaker": "Rose",
+      "text": "My grandmother was an immigrant. She arrived here at nineteen and later worked for the town council."
+    },
+    {
+      "id": "p05-c-19-s02",
+      "speaker": "Mr Chen",
+      "text": "What evidence do you have for the dates in your display?"
+    },
+    {
+      "id": "p05-c-19-s03",
+      "speaker": "Rose",
+      "text": "These historical documents include her arrival record and a letter offering her the council job."
+    },
+    {
+      "id": "p05-c-19-s04",
+      "speaker": "Mr Chen",
+      "text": "Your next caption says she changed the whole town. Can you show how?"
+    },
+    {
+      "id": "p05-c-19-s05",
+      "speaker": "Rose",
+      "text": "She helped with the first election in which women here could vote. The museum describes it as a historic election."
+    },
+    {
+      "id": "p05-c-19-s06",
+      "speaker": "Mr Chen",
+      "text": "That establishes why the election mattered, but not how much your grandmother shaped it."
+    },
+    {
+      "id": "p05-c-19-s07",
+      "speaker": "Rose",
+      "text": "Then I should not say she had a major influence on the result. The letter only says she helped people register."
+    },
+    {
+      "id": "p05-c-19-s08",
+      "speaker": "Mr Chen",
+      "text": "Exactly. Describe that work and name the source beside the caption."
+    },
+    {
+      "id": "p05-c-19-s09",
+      "speaker": "Rose",
+      "text": "I will replace the broad claim with her documented role and add references to the letter and museum record."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-38e25ae849f0033e",
+      "lemma": "immigrant",
+      "pos": "n.",
+      "sense_zh": "移民",
+      "sentence_ids": [
+        "p05-c-19-s01"
+      ],
+      "forms": [
+        "immigrant"
+      ],
+      "sense_id": "sense-staged-ox-38e25ae849f0033e-p05-c-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-efcee1b27897bd93",
+      "lemma": "historical",
+      "pos": "adj.",
+      "sense_zh": "与历史有关的",
+      "sentence_ids": [
+        "p05-c-19-s03"
+      ],
+      "forms": [
+        "historical"
+      ],
+      "sense_id": "sense-staged-ox-efcee1b27897bd93-p05-c-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e31d3e6f7f1b4ea5",
+      "lemma": "historic",
+      "pos": "adj.",
+      "sense_zh": "有历史意义的",
+      "sentence_ids": [
+        "p05-c-19-s05"
+      ],
+      "forms": [
+        "historic"
+      ],
+      "sense_id": "sense-staged-ox-e31d3e6f7f1b4ea5-p05-c-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dad79b452d7f6cf6",
+      "lemma": "influence",
+      "pos": "n.",
+      "sense_zh": "影响",
+      "sentence_ids": [
+        "p05-c-19-s07"
+      ],
+      "forms": [
+        "influence"
+      ],
+      "sense_id": "sense-staged-ox-dad79b452d7f6cf6-p05-c-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,147 @@
+{
+  "id": "p05-c-08",
+  "title_zh": "约好送车检查异响",
+  "topic_id": "services",
+  "scenario": {
+    "id": "garage-engine-noise-booking",
+    "label_zh": "预约检查汽车异响",
+    "goal_zh": "描述驾驶中的异响并确认送检及反馈时间"
+  },
+  "participants": [
+    "Harry",
+    "Priya"
+  ],
+  "context_zh": "哈里打电话给修车厂，描述汽车最近的异常。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-08-s01",
+      "speaker": "Harry",
+      "text": "Is this Green Street garage? I would like to book a check for my car."
+    },
+    {
+      "id": "p05-c-08-s02",
+      "speaker": "Priya",
+      "text": "Yes. What seems to be the issue?"
+    },
+    {
+      "id": "p05-c-08-s03",
+      "speaker": "Harry",
+      "text": "There is a rattling noise when I accelerate, and it is happening more frequently now."
+    },
+    {
+      "id": "p05-c-08-s04",
+      "speaker": "Priya",
+      "text": "Have you noticed any other changes?"
+    },
+    {
+      "id": "p05-c-08-s05",
+      "speaker": "Harry",
+      "text": "There is a loss of power on hills, and I seem to be using more fuel than usual."
+    },
+    {
+      "id": "p05-c-08-s06",
+      "speaker": "Priya",
+      "text": "We will need to inspect it before we can explain the cause. Can you bring it in at nine tomorrow?"
+    },
+    {
+      "id": "p05-c-08-s07",
+      "speaker": "Harry",
+      "text": "Yes. Will someone call me before doing any repair work?"
+    },
+    {
+      "id": "p05-c-08-s08",
+      "speaker": "Priya",
+      "text": "Of course. We will call you by noon with what we find and a price before going ahead."
+    },
+    {
+      "id": "p05-c-08-s09",
+      "speaker": "Harry",
+      "text": "Thank you. I will bring it in at nine."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1090094a846bf1e8",
+      "lemma": "garage",
+      "pos": "n.",
+      "sense_zh": "汽车修理厂",
+      "sentence_ids": [
+        "p05-c-08-s01"
+      ],
+      "forms": [
+        "garage"
+      ],
+      "sense_id": "sense-staged-ox-1090094a846bf1e8-p05-c-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6066003c2635d77d",
+      "lemma": "issue",
+      "pos": "n.",
+      "sense_zh": "问题",
+      "sentence_ids": [
+        "p05-c-08-s02"
+      ],
+      "forms": [
+        "issue"
+      ],
+      "sense_id": "sense-staged-ox-6066003c2635d77d-p05-c-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e4bdc85ec3d90c62",
+      "lemma": "frequently",
+      "pos": "adv.",
+      "sense_zh": "经常；频繁地",
+      "sentence_ids": [
+        "p05-c-08-s03"
+      ],
+      "forms": [
+        "frequently"
+      ],
+      "sense_id": "sense-staged-ox-e4bdc85ec3d90c62-p05-c-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6875ef9b02773be4",
+      "lemma": "loss",
+      "pos": "n.",
+      "sense_zh": "减少；丧失",
+      "sentence_ids": [
+        "p05-c-08-s05"
+      ],
+      "forms": [
+        "loss"
+      ],
+      "sense_id": "sense-staged-ox-6875ef9b02773be4-p05-c-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6045c41fcbdb2f95",
+      "lemma": "fuel",
+      "pos": "n.",
+      "sense_zh": "燃料",
+      "sentence_ids": [
+        "p05-c-08-s05"
+      ],
+      "forms": [
+        "fuel"
+      ],
+      "sense_id": "sense-staged-ox-6045c41fcbdb2f95-p05-c-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

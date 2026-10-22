@@ -1,0 +1,105 @@
+{
+  "id": "p05-b-32",
+  "title_zh": "请邻居帮忙查看旧围栏",
+  "topic_id": "home",
+  "scenario": {
+    "id": "neighbour-garden-fence-help",
+    "label_zh": "协商花园围栏检查与修补",
+    "goal_zh": "商定查看松动围栏并优先考虑修补和避开鸟巢。"
+  },
+  "participants": [
+    "Poppy",
+    "Gareth"
+  ],
+  "context_zh": "邻居讨论旧木围栏松动的问题，希望避免不必要的更换和干扰。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-32-s01",
+      "speaker": "Poppy",
+      "text": "Could you do me a favour and look at the fence with me? One panel is loose."
+    },
+    {
+      "id": "p05-b-32-s02",
+      "speaker": "Gareth",
+      "text": "Yes. Were you planning to replace the whole thing?"
+    },
+    {
+      "id": "p05-b-32-s03",
+      "speaker": "Poppy",
+      "text": "Only if we have to. Keeping the sound wood and repairing just the loose panel would reduce the environmental impact."
+    },
+    {
+      "id": "p05-b-32-s04",
+      "speaker": "Gareth",
+      "text": "Let us check the loose section first. Is that a bird nest in the hedge behind it?"
+    },
+    {
+      "id": "p05-b-32-s05",
+      "speaker": "Poppy",
+      "text": "It is. I would rather leave that area alone for now."
+    },
+    {
+      "id": "p05-b-32-s06",
+      "speaker": "Gareth",
+      "text": "Then we can look from the path without moving the hedge, and ask a professional about the damaged panel."
+    },
+    {
+      "id": "p05-b-32-s07",
+      "speaker": "Poppy",
+      "text": "That suits me. Let us inspect it from this side and make a note of what needs attention."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0b3c395d3fa2d5bc",
+      "lemma": "fence",
+      "pos": "n.",
+      "sense_zh": "围栏",
+      "sentence_ids": [
+        "p05-b-32-s01"
+      ],
+      "forms": [
+        "fence"
+      ],
+      "sense_id": "sense-staged-ox-0b3c395d3fa2d5bc-p05-b-32",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9d6b565fd1bc4ec",
+      "lemma": "favour",
+      "pos": "n.",
+      "sense_zh": "帮忙；善意的帮助",
+      "sentence_ids": [
+        "p05-b-32-s01"
+      ],
+      "forms": [
+        "favour"
+      ],
+      "sense_id": "sense-staged-ox-b9d6b565fd1bc4ec-p05-b-32",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc4c9a8870d9f123",
+      "lemma": "environmental",
+      "pos": "adj.",
+      "sense_zh": "与环境有关的",
+      "sentence_ids": [
+        "p05-b-32-s03"
+      ],
+      "forms": [
+        "environmental"
+      ],
+      "sense_id": "sense-staged-ox-fc4c9a8870d9f123-p05-b-32",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

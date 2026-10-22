@@ -1,0 +1,84 @@
+{
+  "id": "p05-b-17",
+  "title_zh": "用音效表现爆炸",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "film-sound-effect-substitution",
+    "label_zh": "为短片改用安全音效",
+    "goal_zh": "明确不用真实爆炸效果并安排通过镜头和录音表现。"
+  },
+  "participants": [
+    "Rosa",
+    "Kit"
+  ],
+  "context_zh": "学生短片导演与演员核对一段只需暗示事件的镜头。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-17-s01",
+      "speaker": "Rosa",
+      "text": "The script says there is an explosion outside. Are we filming one?"
+    },
+    {
+      "id": "p05-b-17-s02",
+      "speaker": "Kit",
+      "text": "No. Nothing should actually explode on set. We will add a recorded sound later."
+    },
+    {
+      "id": "p05-b-17-s03",
+      "speaker": "Rosa",
+      "text": "What do you need me to do when I hear it?"
+    },
+    {
+      "id": "p05-b-17-s04",
+      "speaker": "Kit",
+      "text": "You will not hear it during filming. I will say your cue, and you look towards the window."
+    },
+    {
+      "id": "p05-b-17-s05",
+      "speaker": "Rosa",
+      "text": "So the camera stays on my reaction, and the event is never shown."
+    },
+    {
+      "id": "p05-b-17-s06",
+      "speaker": "Kit",
+      "text": "Exactly. Let us rehearse the look once, without any effects."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-de743952b2d45276",
+      "lemma": "explode",
+      "pos": "v.",
+      "sense_zh": "爆炸",
+      "sentence_ids": [
+        "p05-b-17-s02"
+      ],
+      "forms": [
+        "explode"
+      ],
+      "sense_id": "sense-staged-ox-de743952b2d45276-p05-b-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76d3d878c0830301",
+      "lemma": "explosion",
+      "pos": "n.",
+      "sense_zh": "爆炸",
+      "sentence_ids": [
+        "p05-b-17-s01"
+      ],
+      "forms": [
+        "explosion"
+      ],
+      "sense_id": "sense-staged-ox-76d3d878c0830301-p05-b-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p05-b-24",
+  "title_zh": "把选举提问交给合适的候选人",
+  "topic_id": "society",
+  "scenario": {
+    "id": "district-election-question-planning",
+    "label_zh": "区分不同层级的选举议题",
+    "goal_zh": "澄清地方与联邦候选人职责的区别并分别整理待问问题。"
+  },
+  "participants": [
+    "Daria",
+    "Noah"
+  ],
+  "context_zh": "在虚构的公民教育练习中，同学为候选人问答会准备问题。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-24-s01",
+      "speaker": "Daria",
+      "text": "For our election exercise, can I ask the council candidate in our district about national immigration policy?"
+    },
+    {
+      "id": "p05-b-24-s02",
+      "speaker": "Noah",
+      "text": "You can ask for their opinion, but the worksheet says that issue is handled by the federal government in this fictional country."
+    },
+    {
+      "id": "p05-b-24-s03",
+      "speaker": "Daria",
+      "text": "Then it would not test what they could actually do in the council."
+    },
+    {
+      "id": "p05-b-24-s04",
+      "speaker": "Noah",
+      "text": "Exactly. Your question about the closed local playground fits their role better."
+    },
+    {
+      "id": "p05-b-24-s05",
+      "speaker": "Daria",
+      "text": "I will ask when they would reopen it and how they would pay for repairs."
+    },
+    {
+      "id": "p05-b-24-s06",
+      "speaker": "Noah",
+      "text": "Keep the immigration question on a separate page for the national candidates."
+    },
+    {
+      "id": "p05-b-24-s07",
+      "speaker": "Daria",
+      "text": "Good. I now have one set of questions for each level rather than mixing them together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3c91854f679e4c37",
+      "lemma": "district",
+      "pos": "n.",
+      "sense_zh": "行政区；地区",
+      "sentence_ids": [
+        "p05-b-24-s01"
+      ],
+      "forms": [
+        "district"
+      ],
+      "sense_id": "sense-staged-ox-3c91854f679e4c37-p05-b-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-147bcf401afee84e",
+      "lemma": "election",
+      "pos": "n.",
+      "sense_zh": "选举",
+      "sentence_ids": [
+        "p05-b-24-s01"
+      ],
+      "forms": [
+        "election"
+      ],
+      "sense_id": "sense-staged-ox-147bcf401afee84e-p05-b-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aaad899ad82d6e2f",
+      "lemma": "federal",
+      "pos": "adj.",
+      "sense_zh": "联邦政府的",
+      "sentence_ids": [
+        "p05-b-24-s02"
+      ],
+      "forms": [
+        "federal"
+      ],
+      "sense_id": "sense-staged-ox-aaad899ad82d6e2f-p05-b-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

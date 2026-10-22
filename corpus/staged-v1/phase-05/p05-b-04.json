@@ -1,0 +1,147 @@
+{
+  "id": "p05-b-04",
+  "title_zh": "报名节庆上午班",
+  "topic_id": "community",
+  "scenario": {
+    "id": "festival-volunteer-shift",
+    "label_zh": "报名节庆志愿班次",
+    "goal_zh": "选择合适班次并确认报名资料"
+  },
+  "participants": [
+    "Leah",
+    "Omar"
+  ],
+  "context_zh": "志愿者向协调员确认能够承担的节庆班次及报名方式。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-04-s01",
+      "speaker": "Leah",
+      "text": "I can help at the festival, but I cannot commit to the whole weekend."
+    },
+    {
+      "id": "p05-b-04-s02",
+      "speaker": "Omar",
+      "text": "Would Saturday from nine to twelve work?"
+    },
+    {
+      "id": "p05-b-04-s03",
+      "speaker": "Leah",
+      "text": "Yes, I can give you a definite answer for that shift: I am available."
+    },
+    {
+      "id": "p05-b-04-s04",
+      "speaker": "Omar",
+      "text": "Good. Your main duty will be to welcome visitors at the west gate."
+    },
+    {
+      "id": "p05-b-04-s05",
+      "speaker": "Leah",
+      "text": "Who should I contact if the gate gets too busy?"
+    },
+    {
+      "id": "p05-b-04-s06",
+      "speaker": "Omar",
+      "text": "Call me on the volunteer radio. Clear communication matters when several groups arrive together."
+    },
+    {
+      "id": "p05-b-04-s07",
+      "speaker": "Leah",
+      "text": "Do you need anything else from me to sign up?"
+    },
+    {
+      "id": "p05-b-04-s08",
+      "speaker": "Omar",
+      "text": "Just your name and email on this form. Then I will send your shift confirmation."
+    },
+    {
+      "id": "p05-b-04-s09",
+      "speaker": "Leah",
+      "text": "Here is the completed form. I will be at the west gate before nine."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f03f3502c6e1f6e9",
+      "lemma": "commit",
+      "pos": "v.",
+      "sense_zh": "承诺承担",
+      "sentence_ids": [
+        "p05-b-04-s01"
+      ],
+      "forms": [
+        "commit"
+      ],
+      "sense_id": "sense-staged-ox-f03f3502c6e1f6e9-p05-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e57970970073569",
+      "lemma": "communication",
+      "pos": "n.",
+      "sense_zh": "沟通",
+      "sentence_ids": [
+        "p05-b-04-s06"
+      ],
+      "forms": [
+        "communication"
+      ],
+      "sense_id": "sense-staged-ox-3e57970970073569-p05-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f0f7397da2bb5150",
+      "lemma": "contact",
+      "pos": "v.",
+      "sense_zh": "联系",
+      "sentence_ids": [
+        "p05-b-04-s05"
+      ],
+      "forms": [
+        "contact"
+      ],
+      "sense_id": "sense-staged-ox-f0f7397da2bb5150-p05-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43e5d0cc50f439df",
+      "lemma": "definite",
+      "pos": "adj.",
+      "sense_zh": "明确确定的",
+      "sentence_ids": [
+        "p05-b-04-s03"
+      ],
+      "forms": [
+        "definite"
+      ],
+      "sense_id": "sense-staged-ox-43e5d0cc50f439df-p05-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f791ed3c205b4f7c",
+      "lemma": "duty",
+      "pos": "n.",
+      "sense_zh": "职责",
+      "sentence_ids": [
+        "p05-b-04-s04"
+      ],
+      "forms": [
+        "duty"
+      ],
+      "sense_id": "sense-staged-ox-f791ed3c205b4f7c-p05-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

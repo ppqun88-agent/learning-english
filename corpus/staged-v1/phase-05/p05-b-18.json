@@ -1,0 +1,126 @@
+{
+  "id": "p05-b-18",
+  "title_zh": "先了解节庆习俗再布置入口",
+  "topic_id": "community",
+  "scenario": {
+    "id": "heritage-festival-volunteering",
+    "label_zh": "加入传统节庆志愿活动",
+    "goal_zh": "了解社团目标和节庆习俗并约定首次帮忙的工作"
+  },
+  "participants": [
+    "Imani",
+    "Peter"
+  ],
+  "context_zh": "新志愿者加入社区传统节庆，询问组织宗旨和入口布置的意义。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-18-s01",
+      "speaker": "Imani",
+      "text": "I have not helped at this cultural festival before. What does your group focus on?"
+    },
+    {
+      "id": "p05-b-18-s02",
+      "speaker": "Peter",
+      "text": "We help neighbours share their family traditions through food, music, and stories."
+    },
+    {
+      "id": "p05-b-18-s03",
+      "speaker": "Imani",
+      "text": "I noticed everyone ties a ribbon near the entrance. Is that a local custom?"
+    },
+    {
+      "id": "p05-b-18-s04",
+      "speaker": "Peter",
+      "text": "It is a custom brought by some of our members. They will explain its meaning during the opening."
+    },
+    {
+      "id": "p05-b-18-s05",
+      "speaker": "Imani",
+      "text": "How can I help before then?"
+    },
+    {
+      "id": "p05-b-18-s06",
+      "speaker": "Peter",
+      "text": "Could you decorate the welcome table with these flowers? Leave room for the small flag in the middle."
+    },
+    {
+      "id": "p05-b-18-s07",
+      "speaker": "Imani",
+      "text": "Of course. I will start with the flowers and check the layout with you before moving the flag."
+    },
+    {
+      "id": "p05-b-18-s08",
+      "speaker": "Peter",
+      "text": "Thank you. After that, you can join the welcome team and hear the opening stories."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-408ebab1e483c0d9",
+      "lemma": "cultural",
+      "pos": "adj.",
+      "sense_zh": "与文化有关的",
+      "sentence_ids": [
+        "p05-b-18-s01"
+      ],
+      "forms": [
+        "cultural"
+      ],
+      "sense_id": "sense-staged-ox-408ebab1e483c0d9-p05-b-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-440ded2d9d26b498",
+      "lemma": "custom",
+      "pos": "n.",
+      "sense_zh": "习俗",
+      "sentence_ids": [
+        "p05-b-18-s03"
+      ],
+      "forms": [
+        "custom"
+      ],
+      "sense_id": "sense-staged-ox-440ded2d9d26b498-p05-b-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eec4466f104b2043",
+      "lemma": "decorate",
+      "pos": "v.",
+      "sense_zh": "装饰",
+      "sentence_ids": [
+        "p05-b-18-s06"
+      ],
+      "forms": [
+        "decorate"
+      ],
+      "sense_id": "sense-staged-ox-eec4466f104b2043-p05-b-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e861f4e5a5c7058",
+      "lemma": "flag",
+      "pos": "n.",
+      "sense_zh": "旗帜",
+      "sentence_ids": [
+        "p05-b-18-s06"
+      ],
+      "forms": [
+        "flag"
+      ],
+      "sense_id": "sense-staged-ox-3e861f4e5a5c7058-p05-b-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

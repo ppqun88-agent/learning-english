@@ -1,0 +1,163 @@
+{
+  "id": "p05-b-16",
+  "title_zh": "为家庭观看改选纪录片集数",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "documentary-family-viewing-choice",
+    "label_zh": "选择适合共同观看的纪录片集数",
+    "goal_zh": "了解纪录片中的战争画面后改选没有战斗内容的集数。"
+  },
+  "participants": [
+    "Nadia",
+    "Hugo"
+  ],
+  "context_zh": "两位家长决定晚上的家庭观看内容，不根据片名直接判断适合程度。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-16-s01",
+      "speaker": "Nadia",
+      "text": "Shall we watch that historical documentary with the family tonight?"
+    },
+    {
+      "id": "p05-b-16-s02",
+      "speaker": "Hugo",
+      "text": "Which episode? The first one shows a lot of fighting."
+    },
+    {
+      "id": "p05-b-16-s03",
+      "speaker": "Nadia",
+      "text": "I thought it was mainly about how people rebuilt the town."
+    },
+    {
+      "id": "p05-b-16-s04",
+      "speaker": "Hugo",
+      "text": "That is the second one. In the first, villagers escape before the enemy arrives."
+    },
+    {
+      "id": "p05-b-16-s05",
+      "speaker": "Nadia",
+      "text": "Does it show what happens to the people who stay?"
+    },
+    {
+      "id": "p05-b-16-s06",
+      "speaker": "Hugo",
+      "text": "Yes. The soldiers are cruel to them, and I found those scenes hard to watch."
+    },
+    {
+      "id": "p05-b-16-s07",
+      "speaker": "Nadia",
+      "text": "Then I would rather not choose that one for tonight. Have you seen the second?"
+    },
+    {
+      "id": "p05-b-16-s08",
+      "speaker": "Hugo",
+      "text": "I have. It follows families repairing their homes, with no battle scenes."
+    },
+    {
+      "id": "p05-b-16-s09",
+      "speaker": "Nadia",
+      "text": "Let us watch that one together and leave the first for another time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0dc741185a628dca",
+      "lemma": "documentary",
+      "pos": "n.",
+      "sense_zh": "纪录片",
+      "sentence_ids": [
+        "p05-b-16-s01"
+      ],
+      "forms": [
+        "documentary"
+      ],
+      "sense_id": "sense-staged-ox-0dc741185a628dca-p05-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e0787dc45e3115d7",
+      "lemma": "episode",
+      "pos": "n.",
+      "sense_zh": "系列节目的一集",
+      "sentence_ids": [
+        "p05-b-16-s02"
+      ],
+      "forms": [
+        "episode"
+      ],
+      "sense_id": "sense-staged-ox-e0787dc45e3115d7-p05-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f58995d47685198",
+      "lemma": "cruel",
+      "pos": "adj.",
+      "sense_zh": "残酷的",
+      "sentence_ids": [
+        "p05-b-16-s06"
+      ],
+      "forms": [
+        "cruel"
+      ],
+      "sense_id": "sense-staged-ox-4f58995d47685198-p05-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c90c4c85298be4ba",
+      "lemma": "fighting",
+      "pos": "n.",
+      "sense_zh": "战斗；打斗",
+      "sentence_ids": [
+        "p05-b-16-s02"
+      ],
+      "forms": [
+        "fighting"
+      ],
+      "sense_id": "sense-staged-ox-c90c4c85298be4ba-p05-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aba0b26c339f664c",
+      "lemma": "enemy",
+      "pos": "n.",
+      "sense_zh": "敌人；敌方",
+      "sentence_ids": [
+        "p05-b-16-s04"
+      ],
+      "forms": [
+        "enemy"
+      ],
+      "sense_id": "sense-staged-ox-aba0b26c339f664c-p05-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cfea84a7686d4728",
+      "lemma": "escape",
+      "pos": "v.",
+      "sense_zh": "逃离",
+      "sentence_ids": [
+        "p05-b-16-s04"
+      ],
+      "forms": [
+        "escape"
+      ],
+      "sense_id": "sense-staged-ox-cfea84a7686d4728-p05-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

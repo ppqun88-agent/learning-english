@@ -1,0 +1,126 @@
+{
+  "id": "p05-c-27",
+  "title_zh": "比较材质后选一只日常用包",
+  "topic_id": "services",
+  "scenario": {
+    "id": "bag-material-size-choice",
+    "label_zh": "比较手袋材质与尺寸",
+    "goal_zh": "核对材质、尺寸及价格，比较日常使用需要后选定购买的手袋"
+  },
+  "participants": [
+    "Nia",
+    "Seth"
+  ],
+  "context_zh": "顾客妮娅在店里比较两只可装笔记本的包。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-27-s01",
+      "speaker": "Nia",
+      "text": "Is this brown bag made of leather?"
+    },
+    {
+      "id": "p05-c-27-s02",
+      "speaker": "Seth",
+      "text": "Yes. The blue one beside it is cotton, so it is lighter and costs less."
+    },
+    {
+      "id": "p05-c-27-s03",
+      "speaker": "Nia",
+      "text": "The brown one is beautiful, but at that price it would be a luxury for me."
+    },
+    {
+      "id": "p05-c-27-s04",
+      "speaker": "Seth",
+      "text": "What will you carry in it most days?"
+    },
+    {
+      "id": "p05-c-27-s05",
+      "speaker": "Nia",
+      "text": "A notebook and my lunch. A medium bag should be enough; the large one looks awkward."
+    },
+    {
+      "id": "p05-c-27-s06",
+      "speaker": "Seth",
+      "text": "Try your notebook in the blue one. The label shows both the size and the price."
+    },
+    {
+      "id": "p05-c-27-s07",
+      "speaker": "Nia",
+      "text": "It fits, and the straps feel comfortable. I will take this one for thirty pounds."
+    },
+    {
+      "id": "p05-c-27-s08",
+      "speaker": "Seth",
+      "text": "Certainly. I will remove the display tag and ring it up for you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-88162f9e890da273",
+      "lemma": "leather",
+      "pos": "n.",
+      "sense_zh": "皮革",
+      "sentence_ids": [
+        "p05-c-27-s01"
+      ],
+      "forms": [
+        "leather"
+      ],
+      "sense_id": "sense-staged-ox-88162f9e890da273-p05-c-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a012690c2c8e751",
+      "lemma": "luxury",
+      "pos": "n.",
+      "sense_zh": "非必需的奢侈享受或物品",
+      "sentence_ids": [
+        "p05-c-27-s03"
+      ],
+      "forms": [
+        "luxury"
+      ],
+      "sense_id": "sense-staged-ox-4a012690c2c8e751-p05-c-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d96e254711083618",
+      "lemma": "medium",
+      "pos": "adj.",
+      "sense_zh": "中等大小的",
+      "sentence_ids": [
+        "p05-c-27-s05"
+      ],
+      "forms": [
+        "medium"
+      ],
+      "sense_id": "sense-staged-ox-d96e254711083618-p05-c-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-850ea1e0c6aa537a",
+      "lemma": "label",
+      "pos": "n.",
+      "sense_zh": "标签",
+      "sentence_ids": [
+        "p05-c-27-s06"
+      ],
+      "forms": [
+        "label"
+      ],
+      "sense_id": "sense-staged-ox-850ea1e0c6aa537a-p05-c-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

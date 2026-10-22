@@ -1,0 +1,126 @@
+{
+  "id": "p05-a-25",
+  "title_zh": "把回忆写作缩小到一次真实经历",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "story-assignment-topic-choice",
+    "label_zh": "缩小叙事作业的题材",
+    "goal_zh": "选定真实经历中的具体事件并拟定题目"
+  },
+  "participants": [
+    "Hugo",
+    "Ms Bell"
+  ],
+  "context_zh": "学生准备一篇回忆录章节作业，教师帮助其从整段童年中选择一个具体事件和标题。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-25-s01",
+      "speaker": "Hugo",
+      "text": "I have written a chapter about every school I went to, but it is already far too long."
+    },
+    {
+      "id": "p05-a-25-s02",
+      "speaker": "Ms Bell",
+      "text": "The aim of this assignment is to describe one real event in detail. Which moment do you remember most clearly?"
+    },
+    {
+      "id": "p05-a-25-s03",
+      "speaker": "Hugo",
+      "text": "The morning I got locked out of school and the caretaker helped me."
+    },
+    {
+      "id": "p05-a-25-s04",
+      "speaker": "Ms Bell",
+      "text": "Good. Make that your central event. What happened first?"
+    },
+    {
+      "id": "p05-a-25-s05",
+      "speaker": "Hugo",
+      "text": "I arrived late, found the gate locked, and thought everyone had gone on a trip."
+    },
+    {
+      "id": "p05-a-25-s06",
+      "speaker": "Ms Bell",
+      "text": "That gives the reader a clear problem. You can leave out the history of the other schools."
+    },
+    {
+      "id": "p05-a-25-s07",
+      "speaker": "Hugo",
+      "text": "Then I will call it The Morning at the Locked Gate and start with me standing outside."
+    },
+    {
+      "id": "p05-a-25-s08",
+      "speaker": "Ms Bell",
+      "text": "That is specific enough. Draft that scene first, and we can look at the ending tomorrow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1c758a69e4c784fc",
+      "lemma": "aim",
+      "pos": "n.",
+      "sense_zh": "目的",
+      "sentence_ids": [
+        "p05-a-25-s02"
+      ],
+      "forms": [
+        "aim"
+      ],
+      "sense_id": "sense-staged-ox-1c758a69e4c784fc-p05-a-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c6f0ba50a2bf0f6",
+      "lemma": "assignment",
+      "pos": "n.",
+      "sense_zh": "作业",
+      "sentence_ids": [
+        "p05-a-25-s02"
+      ],
+      "forms": [
+        "assignment"
+      ],
+      "sense_id": "sense-staged-ox-1c6f0ba50a2bf0f6-p05-a-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3fcbfc7c6d7f71ff",
+      "lemma": "central",
+      "pos": "adj.",
+      "sense_zh": "最主要的；核心的",
+      "sentence_ids": [
+        "p05-a-25-s04"
+      ],
+      "forms": [
+        "central"
+      ],
+      "sense_id": "sense-staged-ox-3fcbfc7c6d7f71ff-p05-a-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88b8bd493b515b86",
+      "lemma": "chapter",
+      "pos": "n.",
+      "sense_zh": "书中的章",
+      "sentence_ids": [
+        "p05-a-25-s01"
+      ],
+      "forms": [
+        "chapter"
+      ],
+      "sense_id": "sense-staged-ox-88b8bd493b515b86-p05-a-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

@@ -1,0 +1,126 @@
+{
+  "id": "p05-b-01",
+  "title_zh": "选浅黄色棉布窗帘",
+  "topic_id": "home",
+  "scenario": {
+    "id": "curtain-colour-fabric-choice",
+    "label_zh": "比较窗帘材质与配色",
+    "goal_zh": "比较窗帘的材质、透光性和颜色后选定样品。"
+  },
+  "participants": [
+    "Inez",
+    "Harper"
+  ],
+  "context_zh": "顾客希望保留房间采光，店员帮助比较窗帘布料。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-01-s01",
+      "speaker": "Inez",
+      "text": "I want a coloured curtain rather than another white one."
+    },
+    {
+      "id": "p05-b-01-s02",
+      "speaker": "Harper",
+      "text": "Do you want it to block the light completely?"
+    },
+    {
+      "id": "p05-b-01-s03",
+      "speaker": "Inez",
+      "text": "No. I like reading beside that window in the afternoon."
+    },
+    {
+      "id": "p05-b-01-s04",
+      "speaker": "Harper",
+      "text": "This one is made of cotton. It lets more light through than the thick polyester one."
+    },
+    {
+      "id": "p05-b-01-s05",
+      "speaker": "Inez",
+      "text": "Would the yellow look odd against my blue wall?"
+    },
+    {
+      "id": "p05-b-01-s06",
+      "speaker": "Harper",
+      "text": "There would be a strong contrast, but the pale yellow is softer than this orange."
+    },
+    {
+      "id": "p05-b-01-s07",
+      "speaker": "Inez",
+      "text": "The pale yellow cotton is the one I want. Can I take a sample home?"
+    },
+    {
+      "id": "p05-b-01-s08",
+      "speaker": "Harper",
+      "text": "Of course. Check it against the wall in daylight before you order."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-940b2d152efdc6ba",
+      "lemma": "coloured",
+      "pos": "adj.",
+      "sense_zh": "有颜色的",
+      "sentence_ids": [
+        "p05-b-01-s01"
+      ],
+      "forms": [
+        "coloured"
+      ],
+      "sense_id": "sense-staged-ox-940b2d152efdc6ba-p05-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-694abf8e968a65de",
+      "lemma": "cotton",
+      "pos": "n.",
+      "sense_zh": "棉；棉布材料",
+      "sentence_ids": [
+        "p05-b-01-s04"
+      ],
+      "forms": [
+        "cotton"
+      ],
+      "sense_id": "sense-staged-ox-694abf8e968a65de-p05-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-699a7cd2533d9864",
+      "lemma": "curtain",
+      "pos": "n.",
+      "sense_zh": "窗帘",
+      "sentence_ids": [
+        "p05-b-01-s01"
+      ],
+      "forms": [
+        "curtain"
+      ],
+      "sense_id": "sense-staged-ox-699a7cd2533d9864-p05-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6929f7a2ad412c58",
+      "lemma": "contrast",
+      "pos": "n.",
+      "sense_zh": "明显的对比",
+      "sentence_ids": [
+        "p05-b-01-s06"
+      ],
+      "forms": [
+        "contrast"
+      ],
+      "sense_id": "sense-staged-ox-6929f7a2ad412c58-p05-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

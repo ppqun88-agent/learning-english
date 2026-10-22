@@ -1,0 +1,163 @@
+{
+  "id": "p05-c-23",
+  "title_zh": "核对悬疑剧角色再继续排练",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "mystery-scene-rehearsal",
+    "label_zh": "排练悬疑剧片段",
+    "goal_zh": "澄清虚构案件的角色关系并确定继续排练的位置。"
+  },
+  "participants": [
+    "Hugo",
+    "Lena"
+  ],
+  "context_zh": "导演和演员排练一部虚构的法庭悬疑剧，讨论剧情而非真实案件。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-23-s01",
+      "speaker": "Hugo",
+      "text": "Before we start, why does my character investigate the murder herself? Is she a detective?"
+    },
+    {
+      "id": "p05-c-23-s02",
+      "speaker": "Lena",
+      "text": "Yes. I play the judge, and you are the detective called to explain the evidence."
+    },
+    {
+      "id": "p05-c-23-s03",
+      "speaker": "Hugo",
+      "text": "Does the audience see the killing?"
+    },
+    {
+      "id": "p05-c-23-s04",
+      "speaker": "Lena",
+      "text": "No, it happens before the play begins. They hear about it through the witnesses."
+    },
+    {
+      "id": "p05-c-23-s05",
+      "speaker": "Hugo",
+      "text": "And I already know that Peter is innocent?"
+    },
+    {
+      "id": "p05-c-23-s06",
+      "speaker": "Lena",
+      "text": "You believe he is, but you have not found the missing letter that proves where he was."
+    },
+    {
+      "id": "p05-c-23-s07",
+      "speaker": "Hugo",
+      "text": "So I should sound certain about Peter, but not explain the whole mystery yet."
+    },
+    {
+      "id": "p05-c-23-s08",
+      "speaker": "Lena",
+      "text": "Exactly. Let us begin again at the point where the judge asks you about the letter."
+    },
+    {
+      "id": "p05-c-23-s09",
+      "speaker": "Hugo",
+      "text": "Ready. I will wait for your question before I approach the table."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-731fc101a8f9f3f6",
+      "lemma": "investigate",
+      "pos": "v.",
+      "sense_zh": "调查",
+      "sentence_ids": [
+        "p05-c-23-s01"
+      ],
+      "forms": [
+        "investigate"
+      ],
+      "sense_id": "sense-staged-ox-731fc101a8f9f3f6-p05-c-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-446f89ea022bae73",
+      "lemma": "murder",
+      "pos": "n.",
+      "sense_zh": "谋杀案",
+      "sentence_ids": [
+        "p05-c-23-s01"
+      ],
+      "forms": [
+        "murder"
+      ],
+      "sense_id": "sense-staged-ox-446f89ea022bae73-p05-c-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54092d96aa063dd8",
+      "lemma": "judge",
+      "pos": "n.",
+      "sense_zh": "法官",
+      "sentence_ids": [
+        "p05-c-23-s02"
+      ],
+      "forms": [
+        "judge"
+      ],
+      "sense_id": "sense-staged-ox-54092d96aa063dd8-p05-c-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e261997e6f039aea",
+      "lemma": "killing",
+      "pos": "n.",
+      "sense_zh": "杀人事件；致人死亡的行为",
+      "sentence_ids": [
+        "p05-c-23-s03"
+      ],
+      "forms": [
+        "killing"
+      ],
+      "sense_id": "sense-staged-ox-e261997e6f039aea-p05-c-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2185dd1d84cf0b17",
+      "lemma": "innocent",
+      "pos": "adj.",
+      "sense_zh": "无罪的；清白的",
+      "sentence_ids": [
+        "p05-c-23-s05"
+      ],
+      "forms": [
+        "innocent"
+      ],
+      "sense_id": "sense-staged-ox-2185dd1d84cf0b17-p05-c-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bbc94c254f6dd6a4",
+      "lemma": "mystery",
+      "pos": "n.",
+      "sense_zh": "尚未解开的谜团",
+      "sentence_ids": [
+        "p05-c-23-s07"
+      ],
+      "forms": [
+        "mystery"
+      ],
+      "sense_id": "sense-staged-ox-bbc94c254f6dd6a4-p05-c-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

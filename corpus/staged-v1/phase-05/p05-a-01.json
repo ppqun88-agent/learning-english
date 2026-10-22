@@ -1,0 +1,131 @@
+{
+  "id": "p05-a-01",
+  "title_zh": "寻找战争历史展厅的地图资料",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "museum-history-room",
+    "label_zh": "询问博物馆展览位置",
+    "goal_zh": "向博物馆工作人员询问地方历史展览与资料。"
+  },
+  "participants": [
+    "Harriet",
+    "Museum guide"
+  ],
+  "context_zh": "游客在虚构地方博物馆询问展览位置，希望了解地图上的边界变化。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-01-s01",
+      "speaker": "Harriet",
+      "text": "Where can I find the exhibition about the war?"
+    },
+    {
+      "id": "p05-a-01-s02",
+      "speaker": "Museum guide",
+      "text": "Upstairs, in the town history room. The map at the entrance is a useful place to start."
+    },
+    {
+      "id": "p05-a-01-s03",
+      "speaker": "Harriet",
+      "text": "Does it show the border before the fighting began?"
+    },
+    {
+      "id": "p05-a-01-s04",
+      "speaker": "Museum guide",
+      "text": "Yes. There is a second map beside it showing the border afterward."
+    },
+    {
+      "id": "p05-a-01-s05",
+      "speaker": "Harriet",
+      "text": "And where is the display about the battle near the river?"
+    },
+    {
+      "id": "p05-a-01-s06",
+      "speaker": "Museum guide",
+      "text": "At the back of that room, beside the display of a bomb that was made safe for the museum."
+    },
+    {
+      "id": "p05-a-01-s07",
+      "speaker": "Harriet",
+      "text": "Can I take a leaflet? I would like to compare the two maps properly."
+    },
+    {
+      "id": "p05-a-01-s08",
+      "speaker": "Museum guide",
+      "text": "Of course. Here is the exhibition guide, with both maps on page six."
+    },
+    {
+      "id": "p05-a-01-s09",
+      "speaker": "Harriet",
+      "text": "Thank you. I will start upstairs with the maps."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c00444895d67c95c",
+      "lemma": "war",
+      "pos": "n.",
+      "sense_zh": "战争",
+      "sentence_ids": [
+        "p05-a-01-s01"
+      ],
+      "forms": [
+        "war"
+      ],
+      "sense_id": "sense-staged-ox-c00444895d67c95c-p05-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0de14807f952b8f3",
+      "lemma": "battle",
+      "pos": "n.",
+      "sense_zh": "战役；战斗",
+      "sentence_ids": [
+        "p05-a-01-s05"
+      ],
+      "forms": [
+        "battle"
+      ],
+      "sense_id": "sense-staged-ox-0de14807f952b8f3-p05-a-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16e5eb429277e409",
+      "lemma": "bomb",
+      "pos": "n.",
+      "sense_zh": "炸弹",
+      "sentence_ids": [
+        "p05-a-01-s06"
+      ],
+      "forms": [
+        "bomb"
+      ],
+      "sense_id": "sense-staged-ox-16e5eb429277e409-p05-a-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c8ce4e8c275c2c3c",
+      "lemma": "border",
+      "pos": "n.",
+      "sense_zh": "边界",
+      "sentence_ids": [
+        "p05-a-01-s03"
+      ],
+      "forms": [
+        "border"
+      ],
+      "sense_id": "sense-staged-ox-c8ce4e8c275c2c3c-p05-a-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

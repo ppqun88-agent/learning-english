@@ -1,0 +1,142 @@
+{
+  "id": "p05-c-05",
+  "title_zh": "为失约道歉并重新约见",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "friend-apology-and-reconnection",
+    "label_zh": "向朋友道歉并重新安排见面",
+    "goal_zh": "承认失约及其影响，澄清彼此感受并约定下一次见面"
+  },
+  "participants": [
+    "Dan",
+    "Mei"
+  ],
+  "context_zh": "丹因为临时忘记约定而让朋友梅等候，现在主动解释。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-05-s01",
+      "speaker": "Dan",
+      "text": "I owe you an apology for leaving you waiting yesterday."
+    },
+    {
+      "id": "p05-c-05-s02",
+      "speaker": "Mei",
+      "text": "I was mad because you did not answer my messages. I thought something had happened."
+    },
+    {
+      "id": "p05-c-05-s03",
+      "speaker": "Dan",
+      "text": "I feel guilty about that. I lost track of time, and that is not a good excuse."
+    },
+    {
+      "id": "p05-c-05-s04",
+      "speaker": "Mei",
+      "text": "I would rather you be honest than invent a reason."
+    },
+    {
+      "id": "p05-c-05-s05",
+      "speaker": "Dan",
+      "text": "Our friendship matters to me. Could I make it up to you with lunch on Saturday?"
+    },
+    {
+      "id": "p05-c-05-s06",
+      "speaker": "Mei",
+      "text": "Lunch would be nice. Can we meet at twelve at the usual cafe?"
+    },
+    {
+      "id": "p05-c-05-s07",
+      "speaker": "Dan",
+      "text": "Yes. I will put it in my calendar now, and let you know early if anything changes."
+    },
+    {
+      "id": "p05-c-05-s08",
+      "speaker": "Mei",
+      "text": "Thanks. I am glad we talked about it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-03808c3f449801d3",
+      "lemma": "mad",
+      "pos": "adj.",
+      "sense_zh": "生气的",
+      "sentence_ids": [
+        "p05-c-05-s02"
+      ],
+      "forms": [
+        "mad"
+      ],
+      "sense_id": "sense-staged-ox-03808c3f449801d3-p05-c-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3edc677c55a728d8",
+      "lemma": "guilty",
+      "pos": "adj.",
+      "sense_zh": "感到内疚的",
+      "sentence_ids": [
+        "p05-c-05-s03"
+      ],
+      "forms": [
+        "guilty"
+      ],
+      "sense_id": "sense-staged-ox-3edc677c55a728d8-p05-c-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-225af292971a6516",
+      "lemma": "honest",
+      "pos": "adj.",
+      "sense_zh": "诚实的",
+      "sentence_ids": [
+        "p05-c-05-s04"
+      ],
+      "forms": [
+        "honest"
+      ],
+      "sense_id": "sense-staged-ox-225af292971a6516-p05-c-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9c395623fe0ffa84",
+      "lemma": "friendship",
+      "pos": "n.",
+      "sense_zh": "友谊",
+      "sentence_ids": [
+        "p05-c-05-s05"
+      ],
+      "forms": [
+        "friendship"
+      ],
+      "sense_id": "sense-staged-ox-9c395623fe0ffa84-p05-c-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a2a0b2b78968ebe8",
+      "lemma": "glad",
+      "pos": "adj.",
+      "sense_zh": "高兴的；欣慰的",
+      "sentence_ids": [
+        "p05-c-05-s08"
+      ],
+      "forms": [
+        "glad"
+      ],
+      "sense_id": "sense-staged-ox-a2a0b2b78968ebe8-p05-c-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

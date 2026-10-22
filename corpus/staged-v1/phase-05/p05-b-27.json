@@ -1,0 +1,89 @@
+{
+  "id": "p05-b-27",
+  "title_zh": "演练前核对离开教室的路线",
+  "topic_id": "community",
+  "scenario": {
+    "id": "earthquake-drill-route-check",
+    "label_zh": "核对地震演练路线",
+    "goal_zh": "按校方演练图确认出口与集合地点并转达同学。"
+  },
+  "participants": [
+    "Ms Patel",
+    "Sam"
+  ],
+  "context_zh": "教师在一次预定地震演练前回答班级协助员的路线问题。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-27-s01",
+      "speaker": "Sam",
+      "text": "For the earthquake drill, which exit should our class use after you tell us to leave?"
+    },
+    {
+      "id": "p05-b-27-s02",
+      "speaker": "Ms Patel",
+      "text": "Follow the route on this school plan to the door at the end of our corridor."
+    },
+    {
+      "id": "p05-b-27-s03",
+      "speaker": "Sam",
+      "text": "Is that the door beside the library?"
+    },
+    {
+      "id": "p05-b-27-s04",
+      "speaker": "Ms Patel",
+      "text": "Yes. Then we go to the marked class meeting point on the field."
+    },
+    {
+      "id": "p05-b-27-s05",
+      "speaker": "Sam",
+      "text": "What if someone is in the library when the drill starts?"
+    },
+    {
+      "id": "p05-b-27-s06",
+      "speaker": "Ms Patel",
+      "text": "The library staff will guide them. Do not go back through the building to find them."
+    },
+    {
+      "id": "p05-b-27-s07",
+      "speaker": "Sam",
+      "text": "Understood. I will point out our route to the class before the practice begins."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-929ccc8b19e3b114",
+      "lemma": "earthquake",
+      "pos": "n.",
+      "sense_zh": "地震",
+      "sentence_ids": [
+        "p05-b-27-s01"
+      ],
+      "forms": [
+        "earthquake"
+      ],
+      "sense_id": "sense-staged-ox-929ccc8b19e3b114-p05-b-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-867ea7e9c8010c74",
+      "lemma": "exit",
+      "pos": "n.",
+      "sense_zh": "出口",
+      "sentence_ids": [
+        "p05-b-27-s01"
+      ],
+      "forms": [
+        "exit"
+      ],
+      "sense_id": "sense-staged-ox-867ea7e9c8010c74-p05-b-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "id": "p05-c-01",
+  "title_zh": "先量好位置再挂照片",
+  "topic_id": "home",
+  "scenario": {
+    "id": "picture-hanging-placement",
+    "label_zh": "确定挂画位置与固定材料",
+    "goal_zh": "测量相框和墙面后确定挂画位置，并先选合适挂钩再动工"
+  },
+  "participants": [
+    "Noah",
+    "Ada"
+  ],
+  "context_zh": "诺亚和艾达想把一张合影挂在沙发上方。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-01-s01",
+      "speaker": "Noah",
+      "text": "Would this frame look better above the sofa or beside the door?"
+    },
+    {
+      "id": "p05-c-01-s02",
+      "speaker": "Ada",
+      "text": "Above the sofa, I think. Can you hold it there for a moment?"
+    },
+    {
+      "id": "p05-c-01-s03",
+      "speaker": "Noah",
+      "text": "Like this? I want to hang it low enough for everyone to see."
+    },
+    {
+      "id": "p05-c-01-s04",
+      "speaker": "Ada",
+      "text": "A little higher. Let me measure the space above the cushions."
+    },
+    {
+      "id": "p05-c-01-s05",
+      "speaker": "Noah",
+      "text": "The length of the frame is sixty centimetres, so it should fit."
+    },
+    {
+      "id": "p05-c-01-s06",
+      "speaker": "Ada",
+      "text": "It fits, but that little nail is not meant for something this heavy."
+    },
+    {
+      "id": "p05-c-01-s07",
+      "speaker": "Noah",
+      "text": "Then we should find the right hook before making a hole."
+    },
+    {
+      "id": "p05-c-01-s08",
+      "speaker": "Ada",
+      "text": "Agreed. I will mark this position lightly, and we can take the frame details to the shop."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b76241f81b0cc87e",
+      "lemma": "frame",
+      "pos": "n.",
+      "sense_zh": "画框；相框",
+      "sentence_ids": [
+        "p05-c-01-s01"
+      ],
+      "forms": [
+        "frame"
+      ],
+      "sense_id": "sense-staged-ox-b76241f81b0cc87e-p05-c-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-67822f38b9ea88dc",
+      "lemma": "hang",
+      "pos": "v.",
+      "sense_zh": "悬挂",
+      "sentence_ids": [
+        "p05-c-01-s03"
+      ],
+      "forms": [
+        "hang"
+      ],
+      "sense_id": "sense-staged-ox-67822f38b9ea88dc-p05-c-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed78e92da4c9c57d",
+      "lemma": "measure",
+      "pos": "v.",
+      "sense_zh": "测量",
+      "sentence_ids": [
+        "p05-c-01-s04"
+      ],
+      "forms": [
+        "measure"
+      ],
+      "sense_id": "sense-staged-ox-ed78e92da4c9c57d-p05-c-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4aee3bc2cbb414ce",
+      "lemma": "length",
+      "pos": "n.",
+      "sense_zh": "长度",
+      "sentence_ids": [
+        "p05-c-01-s05"
+      ],
+      "forms": [
+        "length"
+      ],
+      "sense_id": "sense-staged-ox-4aee3bc2cbb414ce-p05-c-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e60ed2e6866c2c65",
+      "lemma": "nail",
+      "pos": "n.",
+      "sense_zh": "钉子",
+      "sentence_ids": [
+        "p05-c-01-s06"
+      ],
+      "forms": [
+        "nail"
+      ],
+      "sense_id": "sense-staged-ox-e60ed2e6866c2c65-p05-c-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,147 @@
+{
+  "id": "p05-b-09",
+  "title_zh": "核对玉米面包的配方",
+  "topic_id": "food",
+  "scenario": {
+    "id": "cornbread-cooking-method",
+    "label_zh": "核对玉米面包制作方法",
+    "goal_zh": "澄清配方中的粉类和鲜玉米用法并分工准备面糊。"
+  },
+  "participants": [
+    "Tess",
+    "Amir"
+  ],
+  "context_zh": "两名室友准备照着家传食谱做玉米面包。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-09-s01",
+      "speaker": "Tess",
+      "text": "Does this bread consist entirely of cornmeal?"
+    },
+    {
+      "id": "p05-b-09-s02",
+      "speaker": "Amir",
+      "text": "No. The recipe also uses wheat flour, eggs, milk, and butter."
+    },
+    {
+      "id": "p05-b-09-s03",
+      "speaker": "Tess",
+      "text": "I have some cooked corn in the pan. Can we add a few kernels?"
+    },
+    {
+      "id": "p05-b-09-s04",
+      "speaker": "Amir",
+      "text": "Yes, but drain them first so the mixture does not become too wet."
+    },
+    {
+      "id": "p05-b-09-s05",
+      "speaker": "Tess",
+      "text": "Should I combine the dry ingredients in this bowl?"
+    },
+    {
+      "id": "p05-b-09-s06",
+      "speaker": "Amir",
+      "text": "Please do. I will mix the eggs and milk in the jug."
+    },
+    {
+      "id": "p05-b-09-s07",
+      "speaker": "Tess",
+      "text": "And what is this container for?"
+    },
+    {
+      "id": "p05-b-09-s08",
+      "speaker": "Amir",
+      "text": "The leftover corn. Put the lid on and keep it in the fridge."
+    },
+    {
+      "id": "p05-b-09-s09",
+      "speaker": "Tess",
+      "text": "Got it. I will drain the corn, put half away, and start on the dry ingredients."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b7fd54282f13f201",
+      "lemma": "combine",
+      "pos": "v.",
+      "sense_zh": "混合",
+      "sentence_ids": [
+        "p05-b-09-s05"
+      ],
+      "forms": [
+        "combine"
+      ],
+      "sense_id": "sense-staged-ox-b7fd54282f13f201-p05-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-283e7eede7fea303",
+      "lemma": "corn",
+      "pos": "n.",
+      "sense_zh": "玉米",
+      "sentence_ids": [
+        "p05-b-09-s03"
+      ],
+      "forms": [
+        "corn"
+      ],
+      "sense_id": "sense-staged-ox-283e7eede7fea303-p05-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ba4e91a92e685070",
+      "lemma": "flour",
+      "pos": "n.",
+      "sense_zh": "面粉",
+      "sentence_ids": [
+        "p05-b-09-s02"
+      ],
+      "forms": [
+        "flour"
+      ],
+      "sense_id": "sense-staged-ox-ba4e91a92e685070-p05-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4227c85b9ceb14ca",
+      "lemma": "container",
+      "pos": "n.",
+      "sense_zh": "容器",
+      "sentence_ids": [
+        "p05-b-09-s07"
+      ],
+      "forms": [
+        "container"
+      ],
+      "sense_id": "sense-staged-ox-4227c85b9ceb14ca-p05-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5065a7fc8e631279",
+      "lemma": "consist",
+      "pos": "v.",
+      "sense_zh": "由……组成",
+      "sentence_ids": [
+        "p05-b-09-s01"
+      ],
+      "forms": [
+        "consist"
+      ],
+      "sense_id": "sense-staged-ox-5065a7fc8e631279-p05-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

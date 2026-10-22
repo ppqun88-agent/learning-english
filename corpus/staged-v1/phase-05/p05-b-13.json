@@ -1,0 +1,142 @@
+{
+  "id": "p05-b-13",
+  "title_zh": "选靠近村庄的乡间小屋",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "rural-cottage-route-choice",
+    "label_zh": "选择乡间住宿与探索范围",
+    "goal_zh": "比较两处乡间住宿的位置并决定先询问靠近村庄的小屋。"
+  },
+  "participants": [
+    "Mila",
+    "Tom"
+  ],
+  "context_zh": "朋友讨论不租车的周末乡间旅行。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-13-s01",
+      "speaker": "Mila",
+      "text": "I would love a weekend in the countryside, but I do not want to rent a car."
+    },
+    {
+      "id": "p05-b-13-s02",
+      "speaker": "Tom",
+      "text": "There is a cottage beside the village station. The other one is five miles from the nearest shop."
+    },
+    {
+      "id": "p05-b-13-s03",
+      "speaker": "Mila",
+      "text": "Then the village sounds like a better destination. What can we do from there?"
+    },
+    {
+      "id": "p05-b-13-s04",
+      "speaker": "Tom",
+      "text": "We can explore the old mill and the footpaths on the eastern side of the village."
+    },
+    {
+      "id": "p05-b-13-s05",
+      "speaker": "Mila",
+      "text": "Are those paths within walking distance of the cottage?"
+    },
+    {
+      "id": "p05-b-13-s06",
+      "speaker": "Tom",
+      "text": "Yes. The map shows the first one starting behind the station."
+    },
+    {
+      "id": "p05-b-13-s07",
+      "speaker": "Mila",
+      "text": "Let us ask whether the cottage by the station is available. We can plan the walks after that."
+    },
+    {
+      "id": "p05-b-13-s08",
+      "speaker": "Tom",
+      "text": "Agreed. I will send the owner an availability request for next weekend."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0cc79732c70491bb",
+      "lemma": "cottage",
+      "pos": "n.",
+      "sense_zh": "乡间小屋",
+      "sentence_ids": [
+        "p05-b-13-s02"
+      ],
+      "forms": [
+        "cottage"
+      ],
+      "sense_id": "sense-staged-ox-0cc79732c70491bb-p05-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c5a0b74285006fc",
+      "lemma": "countryside",
+      "pos": "n.",
+      "sense_zh": "乡村地区",
+      "sentence_ids": [
+        "p05-b-13-s01"
+      ],
+      "forms": [
+        "countryside"
+      ],
+      "sense_id": "sense-staged-ox-0c5a0b74285006fc-p05-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-18e43ce02a151e2a",
+      "lemma": "destination",
+      "pos": "n.",
+      "sense_zh": "目的地",
+      "sentence_ids": [
+        "p05-b-13-s03"
+      ],
+      "forms": [
+        "destination"
+      ],
+      "sense_id": "sense-staged-ox-18e43ce02a151e2a-p05-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-56a561c1b0a0e488",
+      "lemma": "eastern",
+      "pos": "adj.",
+      "sense_zh": "东部的",
+      "sentence_ids": [
+        "p05-b-13-s04"
+      ],
+      "forms": [
+        "eastern"
+      ],
+      "sense_id": "sense-staged-ox-56a561c1b0a0e488-p05-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6c69a3f00d75a125",
+      "lemma": "explore",
+      "pos": "v.",
+      "sense_zh": "探索；游览",
+      "sentence_ids": [
+        "p05-b-13-s04"
+      ],
+      "forms": [
+        "explore"
+      ],
+      "sense_id": "sense-staged-ox-6c69a3f00d75a125-p05-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

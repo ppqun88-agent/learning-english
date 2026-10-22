@@ -1,0 +1,126 @@
+{
+  "id": "p05-a-23",
+  "title_zh": "从童年收藏中挑选时间胶囊纪念品",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "family-time-capsule-plan",
+    "label_zh": "选择家庭时间胶囊的物品",
+    "goal_zh": "选定可放入时间胶囊的童年纪念品，并确认埋藏位置和记录方式"
+  },
+  "participants": [
+    "Rose",
+    "Nico"
+  ],
+  "context_zh": "兄妹整理自家收藏，准备在获准使用的花坛位置放置一个时间胶囊。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-23-s01",
+      "speaker": "Rose",
+      "text": "What should we put in the box before we bury it?"
+    },
+    {
+      "id": "p05-a-23-s02",
+      "speaker": "Nico",
+      "text": "Something from our childhood, not just a note saying what day it is."
+    },
+    {
+      "id": "p05-a-23-s03",
+      "speaker": "Rose",
+      "text": "I could add this coin from our first trip abroad."
+    },
+    {
+      "id": "p05-a-23-s04",
+      "speaker": "Nico",
+      "text": "Is that the special one from your collection? You might want to keep it."
+    },
+    {
+      "id": "p05-a-23-s05",
+      "speaker": "Rose",
+      "text": "I have two the same. I will use the spare and keep the rest of the collection here."
+    },
+    {
+      "id": "p05-a-23-s06",
+      "speaker": "Nico",
+      "text": "Then I will add a copy of our school photo, not the original."
+    },
+    {
+      "id": "p05-a-23-s07",
+      "speaker": "Rose",
+      "text": "Good. Mum said we can use the empty corner of the flower bed."
+    },
+    {
+      "id": "p05-a-23-s08",
+      "speaker": "Nico",
+      "text": "Let us mark that spot on a drawing too, so we can find the box in ten years."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f1e7bfd8e5d7c3d0",
+      "lemma": "bury",
+      "pos": "v.",
+      "sense_zh": "埋藏",
+      "sentence_ids": [
+        "p05-a-23-s01"
+      ],
+      "forms": [
+        "bury"
+      ],
+      "sense_id": "sense-staged-ox-f1e7bfd8e5d7c3d0-p05-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df2a4185f384d69e",
+      "lemma": "childhood",
+      "pos": "n.",
+      "sense_zh": "童年",
+      "sentence_ids": [
+        "p05-a-23-s02"
+      ],
+      "forms": [
+        "childhood"
+      ],
+      "sense_id": "sense-staged-ox-df2a4185f384d69e-p05-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe117444de33dfd5",
+      "lemma": "coin",
+      "pos": "n.",
+      "sense_zh": "硬币",
+      "sentence_ids": [
+        "p05-a-23-s03"
+      ],
+      "forms": [
+        "coin"
+      ],
+      "sense_id": "sense-staged-ox-fe117444de33dfd5-p05-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-11fd7dcc69d5d497",
+      "lemma": "collection",
+      "pos": "n.",
+      "sense_zh": "收藏品",
+      "sentence_ids": [
+        "p05-a-23-s04"
+      ],
+      "forms": [
+        "collection"
+      ],
+      "sense_id": "sense-staged-ox-11fd7dcc69d5d497-p05-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

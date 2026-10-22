@@ -1,0 +1,184 @@
+{
+  "id": "p05-b-28",
+  "title_zh": "先索取工程职业工作坊的报名链接",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "engineering-career-workshop-inquiry",
+    "label_zh": "了解工程职业入门工作坊",
+    "goal_zh": "核对工作坊的教育目的、参加背景和内容后索取报名链接。"
+  },
+  "participants": [
+    "Helena",
+    "Owen"
+  ],
+  "context_zh": "一位受过其他专业教育的成年人询问图书馆举办的工程职业工作坊。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-28-s01",
+      "speaker": "Helena",
+      "text": "Do I need experience in engineering to attend this workshop?"
+    },
+    {
+      "id": "p05-b-28-s02",
+      "speaker": "Owen",
+      "text": "No. It is part of our career development programme for adults considering a change."
+    },
+    {
+      "id": "p05-b-28-s03",
+      "speaker": "Helena",
+      "text": "I am well educated, but my degree is in history. Would the technical material be beyond me?"
+    },
+    {
+      "id": "p05-b-28-s04",
+      "speaker": "Owen",
+      "text": "The aim is to educate people about different kinds of engineering work, not to test technical knowledge."
+    },
+    {
+      "id": "p05-b-28-s05",
+      "speaker": "Helena",
+      "text": "I want to expand my understanding before I apply for anything."
+    },
+    {
+      "id": "p05-b-28-s06",
+      "speaker": "Owen",
+      "text": "Then it should suit you. There will be a simple design activity and a conversation with two engineers."
+    },
+    {
+      "id": "p05-b-28-s07",
+      "speaker": "Helena",
+      "text": "Does the session include information about employment opportunities?"
+    },
+    {
+      "id": "p05-b-28-s08",
+      "speaker": "Owen",
+      "text": "It explains entry routes, but it is an educational event, not a recruitment interview."
+    },
+    {
+      "id": "p05-b-28-s09",
+      "speaker": "Helena",
+      "text": "That is exactly what I need. Please send me the registration link."
+    },
+    {
+      "id": "p05-b-28-s10",
+      "speaker": "Owen",
+      "text": "Here it is. You can choose the morning or afternoon session when you register."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3e67283455d92d75",
+      "lemma": "engineering",
+      "pos": "n.",
+      "sense_zh": "工程学；工程工作",
+      "sentence_ids": [
+        "p05-b-28-s01"
+      ],
+      "forms": [
+        "engineering"
+      ],
+      "sense_id": "sense-staged-ox-3e67283455d92d75-p05-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-279530d567c7e246",
+      "lemma": "employment",
+      "pos": "n.",
+      "sense_zh": "就业",
+      "sentence_ids": [
+        "p05-b-28-s07"
+      ],
+      "forms": [
+        "employment"
+      ],
+      "sense_id": "sense-staged-ox-279530d567c7e246-p05-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d0ca24dbf2faf3e2",
+      "lemma": "development",
+      "pos": "n.",
+      "sense_zh": "发展",
+      "sentence_ids": [
+        "p05-b-28-s02"
+      ],
+      "forms": [
+        "development"
+      ],
+      "sense_id": "sense-staged-ox-d0ca24dbf2faf3e2-p05-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b179e8ee444c1a9",
+      "lemma": "educated",
+      "pos": "adj.",
+      "sense_zh": "受过良好教育的",
+      "sentence_ids": [
+        "p05-b-28-s03"
+      ],
+      "forms": [
+        "educated"
+      ],
+      "sense_id": "sense-staged-ox-4b179e8ee444c1a9-p05-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-604ea8fdc9df78cf",
+      "lemma": "educational",
+      "pos": "adj.",
+      "sense_zh": "教育性的",
+      "sentence_ids": [
+        "p05-b-28-s08"
+      ],
+      "forms": [
+        "educational"
+      ],
+      "sense_id": "sense-staged-ox-604ea8fdc9df78cf-p05-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-083cb34cd4f12c4a",
+      "lemma": "educate",
+      "pos": "v.",
+      "sense_zh": "教育；使了解",
+      "sentence_ids": [
+        "p05-b-28-s04"
+      ],
+      "forms": [
+        "educate"
+      ],
+      "sense_id": "sense-staged-ox-083cb34cd4f12c4a-p05-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c30b41949de0b94f",
+      "lemma": "expand",
+      "pos": "v.",
+      "sense_zh": "扩大；拓展",
+      "sentence_ids": [
+        "p05-b-28-s05"
+      ],
+      "forms": [
+        "expand"
+      ],
+      "sense_id": "sense-staged-ox-c30b41949de0b94f-p05-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,126 @@
+{
+  "id": "p05-b-29",
+  "title_zh": "选有休息的有顶球场体验",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "covered-court-session-choice",
+    "label_zh": "选择合适的球场体验课",
+    "goal_zh": "根据活动节奏和遮雨条件选择入门体验并确认用品。"
+  },
+  "participants": [
+    "Tariq",
+    "Megan"
+  ],
+  "context_zh": "初次参加球类活动的人向场馆工作人员询问课堂节奏。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-29-s01",
+      "speaker": "Tariq",
+      "text": "I want to improve my fitness, but I am not ready for a full match."
+    },
+    {
+      "id": "p05-b-29-s02",
+      "speaker": "Megan",
+      "text": "Our beginner session uses short activities rather than continuous play."
+    },
+    {
+      "id": "p05-b-29-s03",
+      "speaker": "Tariq",
+      "text": "How short?"
+    },
+    {
+      "id": "p05-b-29-s04",
+      "speaker": "Megan",
+      "text": "Usually five minutes, followed by a break and a chance to ask questions."
+    },
+    {
+      "id": "p05-b-29-s05",
+      "speaker": "Tariq",
+      "text": "Is the court outdoors? The forecast looks wet."
+    },
+    {
+      "id": "p05-b-29-s06",
+      "speaker": "Megan",
+      "text": "It is a covered court, so light rain does not usually affect the session."
+    },
+    {
+      "id": "p05-b-29-s07",
+      "speaker": "Tariq",
+      "text": "Then I will try the beginner session. Do I need my own racket?"
+    },
+    {
+      "id": "p05-b-29-s08",
+      "speaker": "Megan",
+      "text": "No, we lend those. Wear suitable sports shoes and bring water."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-27699ac3fc745ba3",
+      "lemma": "fitness",
+      "pos": "n.",
+      "sense_zh": "身体健康与体能状态",
+      "sentence_ids": [
+        "p05-b-29-s01"
+      ],
+      "forms": [
+        "fitness"
+      ],
+      "sense_id": "sense-staged-ox-27699ac3fc745ba3-p05-b-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e28fccf9c5a1e6b",
+      "lemma": "court",
+      "pos": "n.",
+      "sense_zh": "球场",
+      "sentence_ids": [
+        "p05-b-29-s05"
+      ],
+      "forms": [
+        "court"
+      ],
+      "sense_id": "sense-staged-ox-3e28fccf9c5a1e6b-p05-b-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-647368817f71b676",
+      "lemma": "covered",
+      "pos": "adj.",
+      "sense_zh": "有顶棚的",
+      "sentence_ids": [
+        "p05-b-29-s06"
+      ],
+      "forms": [
+        "covered"
+      ],
+      "sense_id": "sense-staged-ox-647368817f71b676-p05-b-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4de6867e8dac9fd4",
+      "lemma": "continuous",
+      "pos": "adj.",
+      "sense_zh": "连续不断的",
+      "sentence_ids": [
+        "p05-b-29-s02"
+      ],
+      "forms": [
+        "continuous"
+      ],
+      "sense_id": "sense-staged-ox-4de6867e8dac9fd4-p05-b-29",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

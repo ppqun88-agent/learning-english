@@ -1,0 +1,163 @@
+{
+  "id": "p05-c-16",
+  "title_zh": "婚礼致辞只讲双方愿意分享的事",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "wedding-toast-boundaries",
+    "label_zh": "确认婚礼致辞内容边界",
+    "goal_zh": "确定致辞中的感谢和祝愿，并同意删去私密故事及不切实际的承诺"
+  },
+  "participants": [
+    "Nina",
+    "Oscar"
+  ],
+  "context_zh": "新郎奥斯卡和姐姐妮娜讨论她准备在婚礼上说的话。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-16-s01",
+      "speaker": "Nina",
+      "text": "I have written a short toast for your wedding. Is there anything you would rather I left out?"
+    },
+    {
+      "id": "p05-c-16-s02",
+      "speaker": "Oscar",
+      "text": "Please skip the story about our first kiss. Ana would prefer to keep that private."
+    },
+    {
+      "id": "p05-c-16-s03",
+      "speaker": "Nina",
+      "text": "Of course. I mainly want to say how much happiness you bring each other."
+    },
+    {
+      "id": "p05-c-16-s04",
+      "speaker": "Oscar",
+      "text": "That is lovely. Could you also thank Aunt Rosa for being so generous with her time? She made all the decorations."
+    },
+    {
+      "id": "p05-c-16-s05",
+      "speaker": "Nina",
+      "text": "I will. Are you comfortable with me talking about what marriage means to you?"
+    },
+    {
+      "id": "p05-c-16-s06",
+      "speaker": "Oscar",
+      "text": "Yes, but please do not say we will agree on everything forever. We certainly do not agree on everything now."
+    },
+    {
+      "id": "p05-c-16-s07",
+      "speaker": "Nina",
+      "text": "Fair point. I will wish you patience and plenty of laughter instead."
+    },
+    {
+      "id": "p05-c-16-s08",
+      "speaker": "Oscar",
+      "text": "I am grateful you are doing this. Keep it under two minutes, and it will be perfect."
+    },
+    {
+      "id": "p05-c-16-s09",
+      "speaker": "Nina",
+      "text": "Two minutes, a thank-you to Rosa, and no private stories. I will make those changes tonight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2bf1fa31a2b13225",
+      "lemma": "kiss",
+      "pos": "n.",
+      "sense_zh": "亲吻",
+      "sentence_ids": [
+        "p05-c-16-s02"
+      ],
+      "forms": [
+        "kiss"
+      ],
+      "sense_id": "sense-staged-ox-2bf1fa31a2b13225-p05-c-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ec7db9af59582b17",
+      "lemma": "happiness",
+      "pos": "n.",
+      "sense_zh": "幸福；快乐",
+      "sentence_ids": [
+        "p05-c-16-s03"
+      ],
+      "forms": [
+        "happiness"
+      ],
+      "sense_id": "sense-staged-ox-ec7db9af59582b17-p05-c-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a532f3df803a810",
+      "lemma": "generous",
+      "pos": "adj.",
+      "sense_zh": "慷慨的；大方给予的",
+      "sentence_ids": [
+        "p05-c-16-s04"
+      ],
+      "forms": [
+        "generous"
+      ],
+      "sense_id": "sense-staged-ox-2a532f3df803a810-p05-c-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cc904081b5dffa6f",
+      "lemma": "marriage",
+      "pos": "n.",
+      "sense_zh": "婚姻",
+      "sentence_ids": [
+        "p05-c-16-s05"
+      ],
+      "forms": [
+        "marriage"
+      ],
+      "sense_id": "sense-staged-ox-cc904081b5dffa6f-p05-c-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9ad4b2a14d438295",
+      "lemma": "forever",
+      "pos": "adv.",
+      "sense_zh": "永远",
+      "sentence_ids": [
+        "p05-c-16-s06"
+      ],
+      "forms": [
+        "forever"
+      ],
+      "sense_id": "sense-staged-ox-9ad4b2a14d438295-p05-c-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-94b6836770ef1191",
+      "lemma": "grateful",
+      "pos": "adj.",
+      "sense_zh": "感激的",
+      "sentence_ids": [
+        "p05-c-16-s08"
+      ],
+      "forms": [
+        "grateful"
+      ],
+      "sense_id": "sense-staged-ox-94b6836770ef1191-p05-c-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

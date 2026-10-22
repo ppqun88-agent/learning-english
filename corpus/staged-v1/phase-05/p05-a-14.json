@@ -1,0 +1,110 @@
+{
+  "id": "p05-a-14",
+  "title_zh": "根据咨询来源调整课程广告渠道",
+  "topic_id": "work",
+  "scenario": {
+    "id": "community-course-advertising-review",
+    "label_zh": "调整社区课程宣传方式",
+    "goal_zh": "核对报名咨询来源并选择下一期课程的广告渠道"
+  },
+  "participants": [
+    "Elena",
+    "Rob"
+  ],
+  "context_zh": "宣传顾问与课程负责人比较上期咨询来源，为新一期课程选择广告投放渠道。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-14-s01",
+      "speaker": "Elena",
+      "text": "The client wants a newspaper ad for the next course. Do we know whether the last one worked?"
+    },
+    {
+      "id": "p05-a-14-s02",
+      "speaker": "Rob",
+      "text": "We asked each caller where they heard about us. Two mentioned the newspaper, and eighteen mentioned the local newsletter."
+    },
+    {
+      "id": "p05-a-14-s03",
+      "speaker": "Elena",
+      "text": "Were those all new enquiries, rather than people already on the course?"
+    },
+    {
+      "id": "p05-a-14-s04",
+      "speaker": "Rob",
+      "text": "Yes. We recorded returning students separately."
+    },
+    {
+      "id": "p05-a-14-s05",
+      "speaker": "Elena",
+      "text": "Then the newsletter looks like the better channel. How much space can we buy with the same budget?"
+    },
+    {
+      "id": "p05-a-14-s06",
+      "speaker": "Rob",
+      "text": "A half-page notice, twice during the month."
+    },
+    {
+      "id": "p05-a-14-s07",
+      "speaker": "Elena",
+      "text": "Let us propose that instead, with a phone number we can track."
+    },
+    {
+      "id": "p05-a-14-s08",
+      "speaker": "Rob",
+      "text": "Agreed. I will send the client the figures and the newsletter option this afternoon."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-111f33158d3fd62b",
+      "lemma": "ad",
+      "pos": "n.",
+      "sense_zh": "广告",
+      "sentence_ids": [
+        "p05-a-14-s01"
+      ],
+      "forms": [
+        "ad"
+      ],
+      "sense_id": "sense-staged-ox-111f33158d3fd62b-p05-a-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-47c4babdf617d1fa",
+      "lemma": "channel",
+      "pos": "n.",
+      "sense_zh": "信息传播渠道",
+      "sentence_ids": [
+        "p05-a-14-s05"
+      ],
+      "forms": [
+        "channel"
+      ],
+      "sense_id": "sense-staged-ox-47c4babdf617d1fa-p05-a-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c3d2cb59088680e2",
+      "lemma": "client",
+      "pos": "n.",
+      "sense_zh": "委托服务的客户",
+      "sentence_ids": [
+        "p05-a-14-s01"
+      ],
+      "forms": [
+        "client"
+      ],
+      "sense_id": "sense-staged-ox-c3d2cb59088680e2-p05-a-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,179 @@
+{
+  "id": "p05-a-13",
+  "title_zh": "重新上传课程申请附件并确认提交",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "course-application-upload-support",
+    "label_zh": "协助提交课程申请附件",
+    "goal_zh": "解决附件未上传的问题，提交课程申请并确认收到自动回执"
+  },
+  "participants": [
+    "Malik",
+    "Course administrator"
+  ],
+  "context_zh": "申请人联系课程办公室，解决文件未附上的问题并确认收到了提交回执。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-13-s01",
+      "speaker": "Malik",
+      "text": "My application is ready, but the page says there is no document attached."
+    },
+    {
+      "id": "p05-a-13-s02",
+      "speaker": "Course administrator",
+      "text": "Are you signed into your own account?"
+    },
+    {
+      "id": "p05-a-13-s03",
+      "speaker": "Malik",
+      "text": "Yes. I can see my name at the top."
+    },
+    {
+      "id": "p05-a-13-s04",
+      "speaker": "Course administrator",
+      "text": "Click the paperclip beside the qualifications box, then choose the file. That will attach it to this form."
+    },
+    {
+      "id": "p05-a-13-s05",
+      "speaker": "Malik",
+      "text": "I see the filename now. Do I need to email another copy to the administration office?"
+    },
+    {
+      "id": "p05-a-13-s06",
+      "speaker": "Course administrator",
+      "text": "No. Once you submit the form, our system sends an automatic confirmation."
+    },
+    {
+      "id": "p05-a-13-s07",
+      "speaker": "Malik",
+      "text": "I have pressed Submit. The page says the application has been received."
+    },
+    {
+      "id": "p05-a-13-s08",
+      "speaker": "Course administrator",
+      "text": "Check your inbox. The receipt should arrive automatically within a minute."
+    },
+    {
+      "id": "p05-a-13-s09",
+      "speaker": "Malik",
+      "text": "There it is, with the reference number. Thank you for helping me finish it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-23d64fe4487993ed",
+      "lemma": "account",
+      "pos": "n.",
+      "sense_zh": "登录系统使用的账户",
+      "sentence_ids": [
+        "p05-a-13-s02"
+      ],
+      "forms": [
+        "account"
+      ],
+      "sense_id": "sense-staged-ox-23d64fe4487993ed-p05-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac6b319a1d190bc5",
+      "lemma": "click",
+      "pos": "v.",
+      "sense_zh": "点击",
+      "sentence_ids": [
+        "p05-a-13-s04"
+      ],
+      "forms": [
+        "click"
+      ],
+      "sense_id": "sense-staged-ox-ac6b319a1d190bc5-p05-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-014ee14636c03f0b",
+      "lemma": "attach",
+      "pos": "v.",
+      "sense_zh": "添加为附件",
+      "sentence_ids": [
+        "p05-a-13-s04"
+      ],
+      "forms": [
+        "attach"
+      ],
+      "sense_id": "sense-staged-ox-014ee14636c03f0b-p05-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-27c3f95567ba54b1",
+      "lemma": "application",
+      "pos": "n.",
+      "sense_zh": "申请；申请表",
+      "sentence_ids": [
+        "p05-a-13-s01"
+      ],
+      "forms": [
+        "application"
+      ],
+      "sense_id": "sense-staged-ox-27c3f95567ba54b1-p05-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0aa2357600fc290",
+      "lemma": "administration",
+      "pos": "n.",
+      "sense_zh": "行政管理部门",
+      "sentence_ids": [
+        "p05-a-13-s05"
+      ],
+      "forms": [
+        "administration"
+      ],
+      "sense_id": "sense-staged-ox-b0aa2357600fc290-p05-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae6079c96ecfd1d0",
+      "lemma": "automatic",
+      "pos": "adj.",
+      "sense_zh": "自动的",
+      "sentence_ids": [
+        "p05-a-13-s06"
+      ],
+      "forms": [
+        "automatic"
+      ],
+      "sense_id": "sense-staged-ox-ae6079c96ecfd1d0-p05-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70d7d5720dc4d3f2",
+      "lemma": "automatically",
+      "pos": "adv.",
+      "sense_zh": "自动地",
+      "sentence_ids": [
+        "p05-a-13-s08"
+      ],
+      "forms": [
+        "automatically"
+      ],
+      "sense_id": "sense-staged-ox-70d7d5720dc4d3f2-p05-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

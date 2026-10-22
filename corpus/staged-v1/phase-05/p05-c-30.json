@@ -1,0 +1,89 @@
+{
+  "id": "p05-c-30",
+  "title_zh": "核对课堂案例中的转载许可",
+  "topic_id": "society",
+  "scenario": {
+    "id": "poem-reprint-permission-check",
+    "label_zh": "核对诗歌转载案例中的许可",
+    "goal_zh": "依据课堂案例给出的许可条件判断所述转载并修正一概而论的说法"
+  },
+  "participants": [
+    "Imogen",
+    "Felix"
+  ],
+  "context_zh": "学生在课堂上讨论教师编写的虚构版权案例，不涉及真实转载或法律建议。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-30-s01",
+      "speaker": "Imogen",
+      "text": "My answer says it is illegal for the school magazine to print the poem."
+    },
+    {
+      "id": "p05-c-30-s02",
+      "speaker": "Felix",
+      "text": "Did you read the last paragraph of the case? The author gave written permission for this issue."
+    },
+    {
+      "id": "p05-c-30-s03",
+      "speaker": "Imogen",
+      "text": "I missed that. I assumed every reprint needed a payment."
+    },
+    {
+      "id": "p05-c-30-s04",
+      "speaker": "Felix",
+      "text": "In this example, the permission is free, as long as the magazine prints her name and does not change the poem."
+    },
+    {
+      "id": "p05-c-30-s05",
+      "speaker": "Imogen",
+      "text": "So the reprint described here is legal because it meets those conditions. I should not give the same answer for every possible case."
+    },
+    {
+      "id": "p05-c-30-s06",
+      "speaker": "Felix",
+      "text": "Exactly. Add the conditions to your explanation instead of just changing yes to no."
+    },
+    {
+      "id": "p05-c-30-s07",
+      "speaker": "Imogen",
+      "text": "I will. Then I will ask the teacher to check that I have explained the distinction clearly."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7f27e994b4fea69c",
+      "lemma": "illegal",
+      "pos": "adj.",
+      "sense_zh": "违法的",
+      "sentence_ids": [
+        "p05-c-30-s01"
+      ],
+      "forms": [
+        "illegal"
+      ],
+      "sense_id": "sense-staged-ox-7f27e994b4fea69c-p05-c-30",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f0866181618ea6ff",
+      "lemma": "legal",
+      "pos": "adj.",
+      "sense_zh": "合法的",
+      "sentence_ids": [
+        "p05-c-30-s05"
+      ],
+      "forms": [
+        "legal"
+      ],
+      "sense_id": "sense-staged-ox-f0866181618ea6ff-p05-c-30",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

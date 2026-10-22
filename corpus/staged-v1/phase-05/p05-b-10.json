@@ -1,0 +1,100 @@
+{
+  "id": "p05-b-10",
+  "title_zh": "把午餐平均装成四份",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-lunch-portion-division",
+    "label_zh": "平均分装共享午餐",
+    "goal_zh": "将食物分成四份并确认每人的份量相同。"
+  },
+  "participants": [
+    "Nico",
+    "Ruth"
+  ],
+  "context_zh": "两位朋友给四名外出工作的同伴准备午餐盒。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-10-s01",
+      "speaker": "Nico",
+      "text": "We have four lunch boxes and one large pie. How should we divide it?"
+    },
+    {
+      "id": "p05-b-10-s02",
+      "speaker": "Ruth",
+      "text": "Cut it into four equal pieces. There should be enough salad for everyone too."
+    },
+    {
+      "id": "p05-b-10-s03",
+      "speaker": "Nico",
+      "text": "I will share the tomatoes equally between the boxes. That is three each."
+    },
+    {
+      "id": "p05-b-10-s04",
+      "speaker": "Ruth",
+      "text": "One piece of pie and three tomatoes per person. What about the bread?"
+    },
+    {
+      "id": "p05-b-10-s05",
+      "speaker": "Nico",
+      "text": "There are eight rolls, so everyone gets two."
+    },
+    {
+      "id": "p05-b-10-s06",
+      "speaker": "Ruth",
+      "text": "Perfect. All four boxes are ready, and no one has a smaller lunch."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f554ae54dba6e196",
+      "lemma": "divide",
+      "pos": "v.",
+      "sense_zh": "分开；分成",
+      "sentence_ids": [
+        "p05-b-10-s01"
+      ],
+      "forms": [
+        "divide"
+      ],
+      "sense_id": "sense-staged-ox-f554ae54dba6e196-p05-b-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c58bc5f7d65e675f",
+      "lemma": "equal",
+      "pos": "adj.",
+      "sense_zh": "相等的",
+      "sentence_ids": [
+        "p05-b-10-s02"
+      ],
+      "forms": [
+        "equal"
+      ],
+      "sense_id": "sense-staged-ox-c58bc5f7d65e675f-p05-b-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d75838b7161e76c4",
+      "lemma": "equally",
+      "pos": "adv.",
+      "sense_zh": "平均地",
+      "sentence_ids": [
+        "p05-b-10-s03"
+      ],
+      "forms": [
+        "equally"
+      ],
+      "sense_id": "sense-staged-ox-d75838b7161e76c4-p05-b-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

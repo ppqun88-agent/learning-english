@@ -1,0 +1,89 @@
+{
+  "id": "p05-a-32",
+  "title_zh": "先向同伴练习课堂发言开场",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "student-presentation-support-plan",
+    "label_zh": "约定先练习课堂展示的开场",
+    "goal_zh": "说明公开发言顾虑，并同意借助笔记向同伴试讲开场"
+  },
+  "participants": [
+    "Elsa",
+    "Noah"
+  ],
+  "context_zh": "学生担心课堂展示时忘词，同伴帮助其把第一步缩小到私下试讲。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-32-s01",
+      "speaker": "Elsa",
+      "text": "I worry that I will forget everything as soon as I stand up."
+    },
+    {
+      "id": "p05-a-32-s02",
+      "speaker": "Noah",
+      "text": "Would it help to practise just the first two sentences with me?"
+    },
+    {
+      "id": "p05-a-32-s03",
+      "speaker": "Elsa",
+      "text": "Maybe. Everyone else seems so brave about speaking in front of the class."
+    },
+    {
+      "id": "p05-a-32-s04",
+      "speaker": "Noah",
+      "text": "They may be nervous too. You do not have to do the whole talk right now."
+    },
+    {
+      "id": "p05-a-32-s05",
+      "speaker": "Elsa",
+      "text": "Can I keep my notes in front of me for the first try?"
+    },
+    {
+      "id": "p05-a-32-s06",
+      "speaker": "Noah",
+      "text": "Of course. I will listen, and then you can tell me which part felt difficult."
+    },
+    {
+      "id": "p05-a-32-s07",
+      "speaker": "Elsa",
+      "text": "All right. Let us start with the opening before anyone else arrives."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f9ea58e791fc6800",
+      "lemma": "worry",
+      "pos": "v.",
+      "sense_zh": "担心",
+      "sentence_ids": [
+        "p05-a-32-s01"
+      ],
+      "forms": [
+        "worry"
+      ],
+      "sense_id": "sense-staged-ox-f9ea58e791fc6800-p05-a-32",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-154c7a88cfd98bae",
+      "lemma": "brave",
+      "pos": "adj.",
+      "sense_zh": "勇敢的；有勇气的",
+      "sentence_ids": [
+        "p05-a-32-s03"
+      ],
+      "forms": [
+        "brave"
+      ],
+      "sense_id": "sense-staged-ox-154c7a88cfd98bae-p05-a-32",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

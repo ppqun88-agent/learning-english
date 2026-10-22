@@ -1,0 +1,110 @@
+{
+  "id": "p05-b-23",
+  "title_zh": "算清折扣后买下外套",
+  "topic_id": "services",
+  "scenario": {
+    "id": "sale-discount-total-check",
+    "label_zh": "核对打折商品的实付金额",
+    "goal_zh": "算清折扣后的金额并完成预算内的购买"
+  },
+  "participants": [
+    "Cora",
+    "Jamal"
+  ],
+  "context_zh": "顾客挑中一件外套，但需要先确认折扣是否适用及最终金额。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-23-s01",
+      "speaker": "Cora",
+      "text": "This jacket is fashionable, but sixty pounds is more than I wanted to spend."
+    },
+    {
+      "id": "p05-b-23-s02",
+      "speaker": "Jamal",
+      "text": "There is a twenty percent discount on it today."
+    },
+    {
+      "id": "p05-b-23-s03",
+      "speaker": "Cora",
+      "text": "Does that bring it down to forty-eight pounds?"
+    },
+    {
+      "id": "p05-b-23-s04",
+      "speaker": "Jamal",
+      "text": "Yes. There are no other charges."
+    },
+    {
+      "id": "p05-b-23-s05",
+      "speaker": "Cora",
+      "text": "That is fairly close to my fifty-pound limit. Is this size included in the sale?"
+    },
+    {
+      "id": "p05-b-23-s06",
+      "speaker": "Jamal",
+      "text": "It is. All sizes of this jacket have the same reduction."
+    },
+    {
+      "id": "p05-b-23-s07",
+      "speaker": "Cora",
+      "text": "Then I will take it. Here is my card."
+    },
+    {
+      "id": "p05-b-23-s08",
+      "speaker": "Jamal",
+      "text": "The payment has gone through. Here are your jacket and receipt."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0c63087351635aae",
+      "lemma": "discount",
+      "pos": "n.",
+      "sense_zh": "折扣",
+      "sentence_ids": [
+        "p05-b-23-s02"
+      ],
+      "forms": [
+        "discount"
+      ],
+      "sense_id": "sense-staged-ox-0c63087351635aae-p05-b-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-79d6af1e212bcd08",
+      "lemma": "fashionable",
+      "pos": "adj.",
+      "sense_zh": "时髦的；流行的",
+      "sentence_ids": [
+        "p05-b-23-s01"
+      ],
+      "forms": [
+        "fashionable"
+      ],
+      "sense_id": "sense-staged-ox-79d6af1e212bcd08-p05-b-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5cf5400c20168ad3",
+      "lemma": "fairly",
+      "pos": "adv.",
+      "sense_zh": "相当地；颇",
+      "sentence_ids": [
+        "p05-b-23-s05"
+      ],
+      "forms": [
+        "fairly"
+      ],
+      "sense_id": "sense-staged-ox-5cf5400c20168ad3-p05-b-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

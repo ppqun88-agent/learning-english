@@ -1,0 +1,126 @@
+{
+  "id": "p05-a-03",
+  "title_zh": "海风较大时选择岸上游览",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "seaside-boat-trip",
+    "label_zh": "选择海边游览方式",
+    "goal_zh": "比较海边游览方式并决定是否乘船。"
+  },
+  "participants": [
+    "Jules",
+    "Captain Moss"
+  ],
+  "context_zh": "两位游客在码头向船长了解游船状况，并比较搭船和沿岸步行。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-03-s01",
+      "speaker": "Jules",
+      "text": "Is the boat trip still going ahead in this wind?"
+    },
+    {
+      "id": "p05-a-03-s02",
+      "speaker": "Captain Moss",
+      "text": "Yes, but it will be a bumpy ride today."
+    },
+    {
+      "id": "p05-a-03-s03",
+      "speaker": "Jules",
+      "text": "I saw a wave come right over the front of that smaller boat."
+    },
+    {
+      "id": "p05-a-03-s04",
+      "speaker": "Captain Moss",
+      "text": "Ours is bigger, but you may still get wet. I am the captain, and I would rather you knew that before buying a ticket."
+    },
+    {
+      "id": "p05-a-03-s05",
+      "speaker": "Jules",
+      "text": "Could we walk to the lighthouse instead?"
+    },
+    {
+      "id": "p05-a-03-s06",
+      "speaker": "Captain Moss",
+      "text": "Certainly. Follow the path straight ahead. It takes about twenty minutes."
+    },
+    {
+      "id": "p05-a-03-s07",
+      "speaker": "Jules",
+      "text": "That sounds better for us. We will walk today and try the boat another time."
+    },
+    {
+      "id": "p05-a-03-s08",
+      "speaker": "Captain Moss",
+      "text": "No problem. The path starts just beyond the ticket office."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9e9a6ac5ba1fcac1",
+      "lemma": "wave",
+      "pos": "n.",
+      "sense_zh": "海浪",
+      "sentence_ids": [
+        "p05-a-03-s03"
+      ],
+      "forms": [
+        "wave"
+      ],
+      "sense_id": "sense-staged-ox-9e9a6ac5ba1fcac1-p05-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e7d2f295d8b466fb",
+      "lemma": "wind",
+      "pos": "n.",
+      "sense_zh": "风",
+      "sentence_ids": [
+        "p05-a-03-s01"
+      ],
+      "forms": [
+        "wind"
+      ],
+      "sense_id": "sense-staged-ox-e7d2f295d8b466fb-p05-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0d0e7688fc24f3e",
+      "lemma": "captain",
+      "pos": "n.",
+      "sense_zh": "船长",
+      "sentence_ids": [
+        "p05-a-03-s04"
+      ],
+      "forms": [
+        "captain"
+      ],
+      "sense_id": "sense-staged-ox-a0d0e7688fc24f3e-p05-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5da8677b17c626de",
+      "lemma": "ahead",
+      "pos": "adv.",
+      "sense_zh": "在前方；向前",
+      "sentence_ids": [
+        "p05-a-03-s06"
+      ],
+      "forms": [
+        "ahead"
+      ],
+      "sense_id": "sense-staged-ox-5da8677b17c626de-p05-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

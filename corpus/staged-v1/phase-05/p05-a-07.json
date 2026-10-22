@@ -1,0 +1,200 @@
+{
+  "id": "p05-a-07",
+  "title_zh": "挑选婚礼相册里的照片",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "wedding-photo-album-plan",
+    "label_zh": "挑选婚礼相册照片",
+    "goal_zh": "按婚礼流程选出相册照片并约定摄影师提供版面草稿"
+  },
+  "participants": [
+    "Aisha",
+    "Tom"
+  ],
+  "context_zh": "新婚的朋友与摄影师一起选相册照片，决定保留仪式和庆祝的不同瞬间。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-07-s01",
+      "speaker": "Aisha",
+      "text": "Wow, I had not seen this photo of everyone dancing!"
+    },
+    {
+      "id": "p05-a-07-s02",
+      "speaker": "Tom",
+      "text": "It is my favourite from your wedding. You look so cheerful."
+    },
+    {
+      "id": "p05-a-07-s03",
+      "speaker": "Aisha",
+      "text": "I was. By then I could stop thinking about being the bride and just enjoy the party."
+    },
+    {
+      "id": "p05-a-07-s04",
+      "speaker": "Tom",
+      "text": "Would you like it at the front of the album?"
+    },
+    {
+      "id": "p05-a-07-s05",
+      "speaker": "Aisha",
+      "text": "My one wish is to tell the story of the day in order. Can we start with the ceremony?"
+    },
+    {
+      "id": "p05-a-07-s06",
+      "speaker": "Tom",
+      "text": "Yes. This picture of you exchanging rings would make a strong opening."
+    },
+    {
+      "id": "p05-a-07-s07",
+      "speaker": "Aisha",
+      "text": "Then the family photo, and the dancing at the end. That shows the whole celebration."
+    },
+    {
+      "id": "p05-a-07-s08",
+      "speaker": "Tom",
+      "text": "What about the formal picture beside the car?"
+    },
+    {
+      "id": "p05-a-07-s09",
+      "speaker": "Aisha",
+      "text": "Leave it out. I would rather have the one where my grandmother is laughing."
+    },
+    {
+      "id": "p05-a-07-s10",
+      "speaker": "Tom",
+      "text": "Done. I will arrange those four sections and send you the layout tomorrow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3fe03ebaae3f8f72",
+      "lemma": "wedding",
+      "pos": "n.",
+      "sense_zh": "婚礼",
+      "sentence_ids": [
+        "p05-a-07-s02"
+      ],
+      "forms": [
+        "wedding"
+      ],
+      "sense_id": "sense-staged-ox-3fe03ebaae3f8f72-p05-a-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b1276f3f4a617421",
+      "lemma": "bride",
+      "pos": "n.",
+      "sense_zh": "新娘",
+      "sentence_ids": [
+        "p05-a-07-s03"
+      ],
+      "forms": [
+        "bride"
+      ],
+      "sense_id": "sense-staged-ox-b1276f3f4a617421-p05-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77cb99e1275393ca",
+      "lemma": "ceremony",
+      "pos": "n.",
+      "sense_zh": "仪式",
+      "sentence_ids": [
+        "p05-a-07-s05"
+      ],
+      "forms": [
+        "ceremony"
+      ],
+      "sense_id": "sense-staged-ox-77cb99e1275393ca-p05-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f030376f588f5624",
+      "lemma": "celebration",
+      "pos": "n.",
+      "sense_zh": "庆祝活动",
+      "sentence_ids": [
+        "p05-a-07-s07"
+      ],
+      "forms": [
+        "celebration"
+      ],
+      "sense_id": "sense-staged-ox-f030376f588f5624-p05-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f71d3e369dfa7ec",
+      "lemma": "wish",
+      "pos": "n.",
+      "sense_zh": "愿望",
+      "sentence_ids": [
+        "p05-a-07-s05"
+      ],
+      "forms": [
+        "wish"
+      ],
+      "sense_id": "sense-staged-ox-2f71d3e369dfa7ec-p05-a-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8498f76fa93f650f",
+      "lemma": "album",
+      "pos": "n.",
+      "sense_zh": "相册",
+      "sentence_ids": [
+        "p05-a-07-s04"
+      ],
+      "forms": [
+        "album"
+      ],
+      "sense_id": "sense-staged-ox-8498f76fa93f650f-p05-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-807aafd7b80ae485",
+      "lemma": "cheerful",
+      "pos": "adj.",
+      "sense_zh": "高兴的；兴高采烈的",
+      "sentence_ids": [
+        "p05-a-07-s02"
+      ],
+      "forms": [
+        "cheerful"
+      ],
+      "sense_id": "sense-staged-ox-807aafd7b80ae485-p05-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a677235e3b98e307",
+      "lemma": "wow",
+      "pos": "exclam.",
+      "sense_zh": "表示惊叹的感叹词",
+      "sentence_ids": [
+        "p05-a-07-s01"
+      ],
+      "forms": [
+        "wow"
+      ],
+      "sense_id": "sense-staged-ox-a677235e3b98e307-p05-a-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

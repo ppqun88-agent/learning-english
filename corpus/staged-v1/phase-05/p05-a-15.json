@@ -1,0 +1,173 @@
+{
+  "id": "p05-a-15",
+  "title_zh": "把问卷结论限制在受访者范围内",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "survey-evidence",
+    "label_zh": "讨论调查证据",
+    "goal_zh": "核对样本、局限与结论的依据"
+  },
+  "participants": [
+    "Tara",
+    "Joel"
+  ],
+  "context_zh": "研究小组讨论一份社区设施问卷，识别样本局限并修改结论。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-15-s01",
+      "speaker": "Tara",
+      "text": "Can you help me analyse the responses before I send the report?"
+    },
+    {
+      "id": "p05-a-15-s02",
+      "speaker": "Joel",
+      "text": "Of course. Your opening claim is that most residents support closing the car park."
+    },
+    {
+      "id": "p05-a-15-s03",
+      "speaker": "Tara",
+      "text": "That was my belief after reading the comments. Nearly all of them were positive."
+    },
+    {
+      "id": "p05-a-15-s04",
+      "speaker": "Joel",
+      "text": "How many people answered, and where did we find them?"
+    },
+    {
+      "id": "p05-a-15-s05",
+      "speaker": "Tara",
+      "text": "Thirty-two. We handed out the survey at the cycling club."
+    },
+    {
+      "id": "p05-a-15-s06",
+      "speaker": "Joel",
+      "text": "Then that is not a sound basis for a conclusion about the whole town."
+    },
+    {
+      "id": "p05-a-15-s07",
+      "speaker": "Tara",
+      "text": "You are right. The analysis only tells us about the people who replied."
+    },
+    {
+      "id": "p05-a-15-s08",
+      "speaker": "Joel",
+      "text": "Exactly. Their attitude to the plan matters, but other residents may think differently."
+    },
+    {
+      "id": "p05-a-15-s09",
+      "speaker": "Tara",
+      "text": "I will change the opening to say that twenty-eight of the thirty-two respondents supported it."
+    },
+    {
+      "id": "p05-a-15-s10",
+      "speaker": "Joel",
+      "text": "And explain how we recruited them. Then readers can judge the limits for themselves."
+    },
+    {
+      "id": "p05-a-15-s11",
+      "speaker": "Tara",
+      "text": "I will add that beside the result and remove the town-wide claim."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3e3b4750187568ff",
+      "lemma": "analyse",
+      "pos": "v.",
+      "sense_zh": "分析",
+      "sentence_ids": [
+        "p05-a-15-s01"
+      ],
+      "forms": [
+        "analyse"
+      ],
+      "sense_id": "sense-staged-ox-3e3b4750187568ff-p05-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-239b315b28f9bdef",
+      "lemma": "analysis",
+      "pos": "n.",
+      "sense_zh": "分析；分析结果",
+      "sentence_ids": [
+        "p05-a-15-s07"
+      ],
+      "forms": [
+        "analysis"
+      ],
+      "sense_id": "sense-staged-ox-239b315b28f9bdef-p05-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9e15b22c4503e8c9",
+      "lemma": "basis",
+      "pos": "n.",
+      "sense_zh": "依据；基础",
+      "sentence_ids": [
+        "p05-a-15-s06"
+      ],
+      "forms": [
+        "basis"
+      ],
+      "sense_id": "sense-staged-ox-9e15b22c4503e8c9-p05-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ff564552592402f6",
+      "lemma": "claim",
+      "pos": "n.",
+      "sense_zh": "声称；断言",
+      "sentence_ids": [
+        "p05-a-15-s02"
+      ],
+      "forms": [
+        "claim"
+      ],
+      "sense_id": "sense-staged-ox-ff564552592402f6-p05-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-463ecb53a9b1e479",
+      "lemma": "belief",
+      "pos": "n.",
+      "sense_zh": "看法；信念",
+      "sentence_ids": [
+        "p05-a-15-s03"
+      ],
+      "forms": [
+        "belief"
+      ],
+      "sense_id": "sense-staged-ox-463ecb53a9b1e479-p05-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a1905ad01dd4169",
+      "lemma": "attitude",
+      "pos": "n.",
+      "sense_zh": "态度",
+      "sentence_ids": [
+        "p05-a-15-s08"
+      ],
+      "forms": [
+        "attitude"
+      ],
+      "sense_id": "sense-staged-ox-0a1905ad01dd4169-p05-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

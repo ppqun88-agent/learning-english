@@ -1,0 +1,110 @@
+{
+  "id": "p05-a-22",
+  "title_zh": "明确肥皂泡观察任务",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-soap-bubble-observation",
+    "label_zh": "澄清肥皂泡观察任务",
+    "goal_zh": "确认只使用教师准备的材料，并商定记录肥皂泡持续时间的方法"
+  },
+  "participants": [
+    "Ruth",
+    "Science teacher"
+  ],
+  "context_zh": "学生在教师准备好的课堂材料旁，弄清实验要求仅是观察而非添加物质。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-22-s01",
+      "speaker": "Ruth",
+      "text": "Is this clear liquid just water?"
+    },
+    {
+      "id": "p05-a-22-s02",
+      "speaker": "Science teacher",
+      "text": "It is water with a little soap in it. Do not add any other chemical to the tray."
+    },
+    {
+      "id": "p05-a-22-s03",
+      "speaker": "Ruth",
+      "text": "What are we supposed to measure?"
+    },
+    {
+      "id": "p05-a-22-s04",
+      "speaker": "Science teacher",
+      "text": "The basic task is to time how long one bubble lasts before it bursts."
+    },
+    {
+      "id": "p05-a-22-s05",
+      "speaker": "Ruth",
+      "text": "So I start the timer as soon as the bubble forms?"
+    },
+    {
+      "id": "p05-a-22-s06",
+      "speaker": "Science teacher",
+      "text": "Yes. Your partner can watch the bubble while you watch the timer."
+    },
+    {
+      "id": "p05-a-22-s07",
+      "speaker": "Ruth",
+      "text": "All right. We will record three attempts separately rather than guess an average."
+    },
+    {
+      "id": "p05-a-22-s08",
+      "speaker": "Science teacher",
+      "text": "Good. Use the tray I have prepared, and call me if you need more liquid."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9f9a5f3d9d6621cf",
+      "lemma": "chemical",
+      "pos": "n.",
+      "sense_zh": "化学物质",
+      "sentence_ids": [
+        "p05-a-22-s02"
+      ],
+      "forms": [
+        "chemical"
+      ],
+      "sense_id": "sense-staged-ox-9f9a5f3d9d6621cf-p05-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f108920dd535f656",
+      "lemma": "bubble",
+      "pos": "n.",
+      "sense_zh": "气泡",
+      "sentence_ids": [
+        "p05-a-22-s04"
+      ],
+      "forms": [
+        "bubble"
+      ],
+      "sense_id": "sense-staged-ox-f108920dd535f656-p05-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e0914cedf3ff509e",
+      "lemma": "basic",
+      "pos": "adj.",
+      "sense_zh": "基本的",
+      "sentence_ids": [
+        "p05-a-22-s04"
+      ],
+      "forms": [
+        "basic"
+      ],
+      "sense_id": "sense-staged-ox-e0914cedf3ff509e-p05-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

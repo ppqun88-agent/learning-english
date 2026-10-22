@@ -1,0 +1,89 @@
+{
+  "id": "p05-c-28",
+  "title_zh": "看清足迹但不跟进草丛",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "wildlife-track-observation",
+    "label_zh": "观察野生动物足迹",
+    "goal_zh": "询问泥地足迹及动物活动，并选择留在小径上观察而不追踪动物"
+  },
+  "participants": [
+    "Jade",
+    "Ranger Theo"
+  ],
+  "context_zh": "自然步道上，游客杰德向向导询问路边的动物足迹。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-28-s01",
+      "speaker": "Jade",
+      "text": "There are little prints in the mud beside the path. Could they be from a fox?"
+    },
+    {
+      "id": "p05-c-28-s02",
+      "speaker": "Ranger Theo",
+      "text": "Possibly, but the edges are blurred. I would not identify the animal from these alone."
+    },
+    {
+      "id": "p05-c-28-s03",
+      "speaker": "Jade",
+      "text": "Do foxes hunt in this field?"
+    },
+    {
+      "id": "p05-c-28-s04",
+      "speaker": "Ranger Theo",
+      "text": "Sometimes. We have seen them searching for small animals here in the evening."
+    },
+    {
+      "id": "p05-c-28-s05",
+      "speaker": "Jade",
+      "text": "Shall we follow the prints into the grass?"
+    },
+    {
+      "id": "p05-c-28-s06",
+      "speaker": "Ranger Theo",
+      "text": "Let us stay on the path. We can look through the binoculars without disturbing whatever is there."
+    },
+    {
+      "id": "p05-c-28-s07",
+      "speaker": "Jade",
+      "text": "Good idea. I will take a photograph of the prints from here first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-96dd6075679991da",
+      "lemma": "mud",
+      "pos": "n.",
+      "sense_zh": "泥；泥土",
+      "sentence_ids": [
+        "p05-c-28-s01"
+      ],
+      "forms": [
+        "mud"
+      ],
+      "sense_id": "sense-staged-ox-96dd6075679991da-p05-c-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8548ea88bd2dd256",
+      "lemma": "hunt",
+      "pos": "v.",
+      "sense_zh": "猎食；捕猎",
+      "sentence_ids": [
+        "p05-c-28-s03"
+      ],
+      "forms": [
+        "hunt"
+      ],
+      "sense_id": "sense-staged-ox-8548ea88bd2dd256-p05-c-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

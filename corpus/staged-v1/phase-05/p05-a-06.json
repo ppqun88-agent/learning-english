@@ -1,0 +1,142 @@
+{
+  "id": "p05-a-06",
+  "title_zh": "选一条不打扰花丛的观察路线",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "pollinator-garden-path-choice",
+    "label_zh": "选择花园昆虫观察路线",
+    "goal_zh": "选定不踩踏花丛的观察位置，并约定向园丁反映挡路枝条"
+  },
+  "participants": [
+    "Keiko",
+    "Ben"
+  ],
+  "context_zh": "朋友在社区花园观察昆虫，商量站在哪里拍照以及如何处理挡路枝条。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-06-s01",
+      "speaker": "Keiko",
+      "text": "These wild flowers seem to attract more insects than the roses do."
+    },
+    {
+      "id": "p05-a-06-s02",
+      "speaker": "Ben",
+      "text": "Look, there is a bee on the purple one. Let us stay on the path."
+    },
+    {
+      "id": "p05-a-06-s03",
+      "speaker": "Keiko",
+      "text": "I can get a good photo from here. The beauty of this corner is how untidy it looks."
+    },
+    {
+      "id": "p05-a-06-s04",
+      "speaker": "Ben",
+      "text": "Yes, although that low branch is blocking half the path."
+    },
+    {
+      "id": "p05-a-06-s05",
+      "speaker": "Keiko",
+      "text": "Shall we move it?"
+    },
+    {
+      "id": "p05-a-06-s06",
+      "speaker": "Ben",
+      "text": "It is still attached to the tree. Let us tell the gardener rather than break it."
+    },
+    {
+      "id": "p05-a-06-s07",
+      "speaker": "Keiko",
+      "text": "Good idea. We can use the other path and watch the flowers from the bench."
+    },
+    {
+      "id": "p05-a-06-s08",
+      "speaker": "Ben",
+      "text": "I will mention the branch when we pass the garden office."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b14b8bc83e2dffc5",
+      "lemma": "wild",
+      "pos": "adj.",
+      "sense_zh": "野生的",
+      "sentence_ids": [
+        "p05-a-06-s01"
+      ],
+      "forms": [
+        "wild"
+      ],
+      "sense_id": "sense-staged-ox-b14b8bc83e2dffc5-p05-a-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c13012951cbec4b3",
+      "lemma": "bee",
+      "pos": "n.",
+      "sense_zh": "蜜蜂",
+      "sentence_ids": [
+        "p05-a-06-s02"
+      ],
+      "forms": [
+        "bee"
+      ],
+      "sense_id": "sense-staged-ox-c13012951cbec4b3-p05-a-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3fc728a0bc74145c",
+      "lemma": "branch",
+      "pos": "n.",
+      "sense_zh": "树枝",
+      "sentence_ids": [
+        "p05-a-06-s04"
+      ],
+      "forms": [
+        "branch"
+      ],
+      "sense_id": "sense-staged-ox-3fc728a0bc74145c-p05-a-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b4570f3f7a1f83a",
+      "lemma": "attract",
+      "pos": "v.",
+      "sense_zh": "吸引",
+      "sentence_ids": [
+        "p05-a-06-s01"
+      ],
+      "forms": [
+        "attract"
+      ],
+      "sense_id": "sense-staged-ox-7b4570f3f7a1f83a-p05-a-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-62ae02a8e9af285a",
+      "lemma": "beauty",
+      "pos": "n.",
+      "sense_zh": "美；美感",
+      "sentence_ids": [
+        "p05-a-06-s03"
+      ],
+      "forms": [
+        "beauty"
+      ],
+      "sense_id": "sense-staged-ox-62ae02a8e9af285a-p05-a-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,226 @@
+{
+  "id": "p05-a-16",
+  "title_zh": "依据规则处理答题比赛资格",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "quiz-prize-eligibility-check",
+    "label_zh": "核对答题比赛的获奖资格",
+    "goal_zh": "参赛者承认违规使用答案并交回奖券，主持人确认撤销资格及复核其余成绩"
+  },
+  "participants": [
+    "Leo",
+    "Quiz host"
+  ],
+  "context_zh": "虚构社区答题赛结束后，参赛者向主持人承认看到答案，双方依据规则处理名次。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-16-s01",
+      "speaker": "Leo",
+      "text": "Before you name the winner, I need to admit something. I saw an answer on my phone."
+    },
+    {
+      "id": "p05-a-16-s02",
+      "speaker": "Quiz host",
+      "text": "Did you open the answer page during the round?"
+    },
+    {
+      "id": "p05-a-16-s03",
+      "speaker": "Leo",
+      "text": "Yes. At first I thought I was only checking a message, but then I used the answer."
+    },
+    {
+      "id": "p05-a-16-s04",
+      "speaker": "Quiz host",
+      "text": "That is not just careless. Using outside help breaks the rules."
+    },
+    {
+      "id": "p05-a-16-s05",
+      "speaker": "Leo",
+      "text": "I know. I did cheat, and I should not keep the prize."
+    },
+    {
+      "id": "p05-a-16-s06",
+      "speaker": "Quiz host",
+      "text": "I appreciate you telling me now. Your entry cannot count in the individual category."
+    },
+    {
+      "id": "p05-a-16-s07",
+      "speaker": "Leo",
+      "text": "Will Ana become the champion, then?"
+    },
+    {
+      "id": "p05-a-16-s08",
+      "speaker": "Quiz host",
+      "text": "She has the highest eligible score, yes. I will check the scores with the other judge before announcing it."
+    },
+    {
+      "id": "p05-a-16-s09",
+      "speaker": "Leo",
+      "text": "She solved that final challenge without any help. I admire how carefully she works through a problem."
+    },
+    {
+      "id": "p05-a-16-s10",
+      "speaker": "Quiz host",
+      "text": "It was a real achievement. We will credit her result, not turn this into a story about you."
+    },
+    {
+      "id": "p05-a-16-s11",
+      "speaker": "Leo",
+      "text": "Understood. I will return the prize voucher now."
+    },
+    {
+      "id": "p05-a-16-s12",
+      "speaker": "Quiz host",
+      "text": "Thank you. I will record your withdrawal and finish checking the scores."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-174471edc298994d",
+      "lemma": "winner",
+      "pos": "n.",
+      "sense_zh": "获胜者",
+      "sentence_ids": [
+        "p05-a-16-s01"
+      ],
+      "forms": [
+        "winner"
+      ],
+      "sense_id": "sense-staged-ox-174471edc298994d-p05-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3a86a854ea2c7997",
+      "lemma": "champion",
+      "pos": "n.",
+      "sense_zh": "冠军",
+      "sentence_ids": [
+        "p05-a-16-s07"
+      ],
+      "forms": [
+        "champion"
+      ],
+      "sense_id": "sense-staged-ox-3a86a854ea2c7997-p05-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4dea57afebbd6c5a",
+      "lemma": "cheat",
+      "pos": "v.",
+      "sense_zh": "作弊",
+      "sentence_ids": [
+        "p05-a-16-s05"
+      ],
+      "forms": [
+        "cheat"
+      ],
+      "sense_id": "sense-staged-ox-4dea57afebbd6c5a-p05-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8037e87033138ed",
+      "lemma": "admit",
+      "pos": "v.",
+      "sense_zh": "承认",
+      "sentence_ids": [
+        "p05-a-16-s01"
+      ],
+      "forms": [
+        "admit"
+      ],
+      "sense_id": "sense-staged-ox-f8037e87033138ed-p05-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-53f9658a6bba9e59",
+      "lemma": "careless",
+      "pos": "adj.",
+      "sense_zh": "粗心的；不小心的",
+      "sentence_ids": [
+        "p05-a-16-s04"
+      ],
+      "forms": [
+        "careless"
+      ],
+      "sense_id": "sense-staged-ox-53f9658a6bba9e59-p05-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d878c539aa4d65f2",
+      "lemma": "challenge",
+      "pos": "n.",
+      "sense_zh": "有难度的任务",
+      "sentence_ids": [
+        "p05-a-16-s09"
+      ],
+      "forms": [
+        "challenge"
+      ],
+      "sense_id": "sense-staged-ox-d878c539aa4d65f2-p05-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d09b1b3326485670",
+      "lemma": "achievement",
+      "pos": "n.",
+      "sense_zh": "成就",
+      "sentence_ids": [
+        "p05-a-16-s10"
+      ],
+      "forms": [
+        "achievement"
+      ],
+      "sense_id": "sense-staged-ox-d09b1b3326485670-p05-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a286ad5c60201f4",
+      "lemma": "admire",
+      "pos": "v.",
+      "sense_zh": "钦佩",
+      "sentence_ids": [
+        "p05-a-16-s09"
+      ],
+      "forms": [
+        "admire"
+      ],
+      "sense_id": "sense-staged-ox-2a286ad5c60201f4-p05-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9ccc1fa13ad88be8",
+      "lemma": "category",
+      "pos": "n.",
+      "sense_zh": "类别；组别",
+      "sentence_ids": [
+        "p05-a-16-s06"
+      ],
+      "forms": [
+        "category"
+      ],
+      "sense_id": "sense-staged-ox-9ccc1fa13ad88be8-p05-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,152 @@
+{
+  "id": "p05-c-13",
+  "title_zh": "用具体成果练习面试回答",
+  "topic_id": "work",
+  "scenario": {
+    "id": "job-interview-example",
+    "label_zh": "准备求职面试例子",
+    "goal_zh": "把笼统自我评价改成具体工作例子"
+  },
+  "participants": [
+    "Mia",
+    "Ray"
+  ],
+  "context_zh": "米娅请朋友雷练习一段求职面试回答。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-13-s01",
+      "speaker": "Mia",
+      "text": "I have an interview with a leading design agency, and I want to make a good impression."
+    },
+    {
+      "id": "p05-c-13-s02",
+      "speaker": "Ray",
+      "text": "How are you planning to describe your work?"
+    },
+    {
+      "id": "p05-c-13-s03",
+      "speaker": "Mia",
+      "text": "I was going to say that my last project was impressive and that everyone loved it."
+    },
+    {
+      "id": "p05-c-13-s04",
+      "speaker": "Ray",
+      "text": "That tells them your opinion, but not what you did. What was the problem you solved?"
+    },
+    {
+      "id": "p05-c-13-s05",
+      "speaker": "Mia",
+      "text": "The old booking form was incredibly confusing. Customers kept calling because they could not find the date selector."
+    },
+    {
+      "id": "p05-c-13-s06",
+      "speaker": "Ray",
+      "text": "What did you change?"
+    },
+    {
+      "id": "p05-c-13-s07",
+      "speaker": "Mia",
+      "text": "I moved it to the first page and tested the form with five customers. All five completed it without help."
+    },
+    {
+      "id": "p05-c-13-s08",
+      "speaker": "Ray",
+      "text": "That is much clearer. You do not need to call yourself highly talented if you can explain your work."
+    },
+    {
+      "id": "p05-c-13-s09",
+      "speaker": "Mia",
+      "text": "Right. I will start with the problem, describe my change, and give the test result."
+    },
+    {
+      "id": "p05-c-13-s10",
+      "speaker": "Ray",
+      "text": "Try that answer once more, and I will listen without interrupting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e171c4dc457e9995",
+      "lemma": "leading",
+      "pos": "adj.",
+      "sense_zh": "领先的；重要的",
+      "sentence_ids": [
+        "p05-c-13-s01"
+      ],
+      "forms": [
+        "leading"
+      ],
+      "sense_id": "sense-staged-ox-e171c4dc457e9995-p05-c-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aae30582d0854660",
+      "lemma": "impression",
+      "pos": "n.",
+      "sense_zh": "印象",
+      "sentence_ids": [
+        "p05-c-13-s01"
+      ],
+      "forms": [
+        "impression"
+      ],
+      "sense_id": "sense-staged-ox-aae30582d0854660-p05-c-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30a1e49be3ca3447",
+      "lemma": "impressive",
+      "pos": "adj.",
+      "sense_zh": "令人赞叹的",
+      "sentence_ids": [
+        "p05-c-13-s03"
+      ],
+      "forms": [
+        "impressive"
+      ],
+      "sense_id": "sense-staged-ox-30a1e49be3ca3447-p05-c-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e37fc8554814b175",
+      "lemma": "incredibly",
+      "pos": "adv.",
+      "sense_zh": "极其；非常",
+      "sentence_ids": [
+        "p05-c-13-s05"
+      ],
+      "forms": [
+        "incredibly"
+      ],
+      "sense_id": "sense-staged-ox-e37fc8554814b175-p05-c-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4cc65ebd426a6aff",
+      "lemma": "highly",
+      "pos": "adv.",
+      "sense_zh": "高度地；非常",
+      "sentence_ids": [
+        "p05-c-13-s08"
+      ],
+      "forms": [
+        "highly"
+      ],
+      "sense_id": "sense-staged-ox-4cc65ebd426a6aff-p05-c-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

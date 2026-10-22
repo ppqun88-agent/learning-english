@@ -1,0 +1,163 @@
+{
+  "id": "p05-c-25",
+  "title_zh": "先试办一次小型维修工作坊",
+  "topic_id": "work",
+  "scenario": {
+    "id": "workshop-pilot-resource-agreement",
+    "label_zh": "商定工作坊试办资源",
+    "goal_zh": "根据时间、人员和场地限制缩小试办范围，并明确预算上限和筹备分工"
+  },
+  "participants": [
+    "Grace",
+    "Omar"
+  ],
+  "context_zh": "两名志愿者准备在社区中心试办一次物品维修工作坊。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-25-s01",
+      "speaker": "Grace",
+      "text": "Do you intend to run this every weekend? I cannot give up that much time."
+    },
+    {
+      "id": "p05-c-25-s02",
+      "speaker": "Omar",
+      "text": "No. My intention is to try one Saturday session and see whether people find it useful."
+    },
+    {
+      "id": "p05-c-25-s03",
+      "speaker": "Grace",
+      "text": "In that case, I would like to stay involved. I can help with the bookings."
+    },
+    {
+      "id": "p05-c-25-s04",
+      "speaker": "Omar",
+      "text": "Thanks. How much time could you invest in preparing the first session?"
+    },
+    {
+      "id": "p05-c-25-s05",
+      "speaker": "Grace",
+      "text": "Two hours this week. Our bigger problem is the lack of storage space for equipment."
+    },
+    {
+      "id": "p05-c-25-s06",
+      "speaker": "Omar",
+      "text": "Then let us borrow tools on the day rather than buy anything we have to keep here."
+    },
+    {
+      "id": "p05-c-25-s07",
+      "speaker": "Grace",
+      "text": "That also helps with the budget. We have a limit of fifty pounds for this trial."
+    },
+    {
+      "id": "p05-c-25-s08",
+      "speaker": "Omar",
+      "text": "Agreed. I will ask the tool library about borrowing, and you can prepare a booking list for ten places."
+    },
+    {
+      "id": "p05-c-25-s09",
+      "speaker": "Grace",
+      "text": "I will do that tonight. We can check the arrangements together before we advertise."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-caded308b36964ed",
+      "lemma": "intend",
+      "pos": "v.",
+      "sense_zh": "打算",
+      "sentence_ids": [
+        "p05-c-25-s01"
+      ],
+      "forms": [
+        "intend"
+      ],
+      "sense_id": "sense-staged-ox-caded308b36964ed-p05-c-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-89c4daeaa1516174",
+      "lemma": "intention",
+      "pos": "n.",
+      "sense_zh": "意图；打算",
+      "sentence_ids": [
+        "p05-c-25-s02"
+      ],
+      "forms": [
+        "intention"
+      ],
+      "sense_id": "sense-staged-ox-89c4daeaa1516174-p05-c-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bc05e5d6b770501b",
+      "lemma": "involved",
+      "pos": "adj.",
+      "sense_zh": "参与其中的",
+      "sentence_ids": [
+        "p05-c-25-s03"
+      ],
+      "forms": [
+        "involved"
+      ],
+      "sense_id": "sense-staged-ox-bc05e5d6b770501b-p05-c-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-227f9055367545d4",
+      "lemma": "invest",
+      "pos": "v.",
+      "sense_zh": "投入时间或精力",
+      "sentence_ids": [
+        "p05-c-25-s04"
+      ],
+      "forms": [
+        "invest"
+      ],
+      "sense_id": "sense-staged-ox-227f9055367545d4-p05-c-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-28741b783c366c40",
+      "lemma": "lack",
+      "pos": "n.",
+      "sense_zh": "缺乏",
+      "sentence_ids": [
+        "p05-c-25-s05"
+      ],
+      "forms": [
+        "lack"
+      ],
+      "sense_id": "sense-staged-ox-28741b783c366c40-p05-c-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ff8d4573ea8348d2",
+      "lemma": "limit",
+      "pos": "n.",
+      "sense_zh": "限额；上限",
+      "sentence_ids": [
+        "p05-c-25-s07"
+      ],
+      "forms": [
+        "limit"
+      ],
+      "sense_id": "sense-staged-ox-ff8d4573ea8348d2-p05-c-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

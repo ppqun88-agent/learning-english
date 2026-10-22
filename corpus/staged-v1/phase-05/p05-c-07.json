@@ -1,0 +1,210 @@
+{
+  "id": "p05-c-07",
+  "title_zh": "分工煮汤并保存多余份量",
+  "topic_id": "food",
+  "scenario": {
+    "id": "soup-cooking-and-portioning",
+    "label_zh": "分工煮汤并安排剩余份量",
+    "goal_zh": "确定汤的配料、调味与口感，分配烹饪工作并约定保存多余份量"
+  },
+  "participants": [
+    "Beth",
+    "Andy"
+  ],
+  "context_zh": "安迪和贝丝查看食谱，准备今晚的豌豆汤。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-07-s01",
+      "speaker": "Beth",
+      "text": "This recipe serves six, but there are only three of us tonight."
+    },
+    {
+      "id": "p05-c-07-s02",
+      "speaker": "Andy",
+      "text": "We can freeze the extra portions for another evening."
+    },
+    {
+      "id": "p05-c-07-s03",
+      "speaker": "Beth",
+      "text": "Good. The vegetables are mainly peas, with one onion and a potato."
+    },
+    {
+      "id": "p05-c-07-s04",
+      "speaker": "Andy",
+      "text": "We have frozen peas. Do I add them at the beginning?"
+    },
+    {
+      "id": "p05-c-07-s05",
+      "speaker": "Beth",
+      "text": "Not yet. First, I will fry the onion while you cut the potato."
+    },
+    {
+      "id": "p05-c-07-s06",
+      "speaker": "Andy",
+      "text": "How much liquid does the recipe call for?"
+    },
+    {
+      "id": "p05-c-07-s07",
+      "speaker": "Beth",
+      "text": "A litre of stock. Then we cook the vegetables until they are soft."
+    },
+    {
+      "id": "p05-c-07-s08",
+      "speaker": "Andy",
+      "text": "Would you like me to mix in the cream at the end?"
+    },
+    {
+      "id": "p05-c-07-s09",
+      "speaker": "Beth",
+      "text": "Yes, but only half of it. I want a thick mixture, not a thin soup."
+    },
+    {
+      "id": "p05-c-07-s10",
+      "speaker": "Andy",
+      "text": "What about this chilli powder?"
+    },
+    {
+      "id": "p05-c-07-s11",
+      "speaker": "Beth",
+      "text": "Let us keep the soup mild. You can add some to your own bowl."
+    },
+    {
+      "id": "p05-c-07-s12",
+      "speaker": "Andy",
+      "text": "Done. I will start on the potato and set out three bowls and containers for the rest."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-77f16496a1ce4f2e",
+      "lemma": "freeze",
+      "pos": "v.",
+      "sense_zh": "冷冻保存食物",
+      "sentence_ids": [
+        "p05-c-07-s02"
+      ],
+      "forms": [
+        "freeze"
+      ],
+      "sense_id": "sense-staged-ox-77f16496a1ce4f2e-p05-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ac46e8384a42e9b",
+      "lemma": "mainly",
+      "pos": "adv.",
+      "sense_zh": "主要地",
+      "sentence_ids": [
+        "p05-c-07-s03"
+      ],
+      "forms": [
+        "mainly"
+      ],
+      "sense_id": "sense-staged-ox-5ac46e8384a42e9b-p05-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4de7be2b2af9718",
+      "lemma": "frozen",
+      "pos": "adj.",
+      "sense_zh": "冷冻的",
+      "sentence_ids": [
+        "p05-c-07-s04"
+      ],
+      "forms": [
+        "frozen"
+      ],
+      "sense_id": "sense-staged-ox-c4de7be2b2af9718-p05-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7e180134049e5042",
+      "lemma": "fry",
+      "pos": "v.",
+      "sense_zh": "油煎；油炒",
+      "sentence_ids": [
+        "p05-c-07-s05"
+      ],
+      "forms": [
+        "fry"
+      ],
+      "sense_id": "sense-staged-ox-7e180134049e5042-p05-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-edfcf7a058099740",
+      "lemma": "liquid",
+      "pos": "n.",
+      "sense_zh": "液体",
+      "sentence_ids": [
+        "p05-c-07-s06"
+      ],
+      "forms": [
+        "liquid"
+      ],
+      "sense_id": "sense-staged-ox-edfcf7a058099740-p05-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4c23e079afe6a22a",
+      "lemma": "mix",
+      "pos": "v.",
+      "sense_zh": "混合；拌入",
+      "sentence_ids": [
+        "p05-c-07-s08"
+      ],
+      "forms": [
+        "mix"
+      ],
+      "sense_id": "sense-staged-ox-4c23e079afe6a22a-p05-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-322d19e5f9b45e6f",
+      "lemma": "mixture",
+      "pos": "n.",
+      "sense_zh": "混合物",
+      "sentence_ids": [
+        "p05-c-07-s09"
+      ],
+      "forms": [
+        "mixture"
+      ],
+      "sense_id": "sense-staged-ox-322d19e5f9b45e6f-p05-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-258c31e1ab03b530",
+      "lemma": "mild",
+      "pos": "adj.",
+      "sense_zh": "味道不浓烈的；不辣的",
+      "sentence_ids": [
+        "p05-c-07-s11"
+      ],
+      "forms": [
+        "mild"
+      ],
+      "sense_id": "sense-staged-ox-258c31e1ab03b530-p05-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p05-c-20",
+  "title_zh": "把巨人画得友善一点",
+  "topic_id": "work",
+  "scenario": {
+    "id": "cartoon-character-sketch",
+    "label_zh": "修改卡通角色草图",
+    "goal_zh": "讨论角色形象及设计修改并确认下一版草图。"
+  },
+  "participants": [
+    "Thomas",
+    "Angie"
+  ],
+  "context_zh": "插画师安吉向客户托马斯展示儿童活动用的卡通角色草图。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-20-s01",
+      "speaker": "Thomas",
+      "text": "I like the giant, but his expression looks rather angry."
+    },
+    {
+      "id": "p05-c-20-s02",
+      "speaker": "Angie",
+      "text": "He is meant to protect an imaginary village. Should I make him look less threatening?"
+    },
+    {
+      "id": "p05-c-20-s03",
+      "speaker": "Thomas",
+      "text": "Yes. The children should want to ask him for help."
+    },
+    {
+      "id": "p05-c-20-s04",
+      "speaker": "Angie",
+      "text": "What if he uses magic to grow flowers instead of carrying that enormous hammer?"
+    },
+    {
+      "id": "p05-c-20-s05",
+      "speaker": "Thomas",
+      "text": "That suits the gardening activity much better. Could the flowers be yellow and blue?"
+    },
+    {
+      "id": "p05-c-20-s06",
+      "speaker": "Angie",
+      "text": "Certainly. I will soften his eyebrows, remove the hammer, and add flowers around his hands."
+    },
+    {
+      "id": "p05-c-20-s07",
+      "speaker": "Thomas",
+      "text": "Great. Please send that version before we choose the poster background."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-399dd6c77b8e254b",
+      "lemma": "giant",
+      "pos": "n.",
+      "sense_zh": "巨人",
+      "sentence_ids": [
+        "p05-c-20-s01"
+      ],
+      "forms": [
+        "giant"
+      ],
+      "sense_id": "sense-staged-ox-399dd6c77b8e254b-p05-c-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26a7b63380ba1843",
+      "lemma": "imaginary",
+      "pos": "adj.",
+      "sense_zh": "想象中的；虚构的",
+      "sentence_ids": [
+        "p05-c-20-s02"
+      ],
+      "forms": [
+        "imaginary"
+      ],
+      "sense_id": "sense-staged-ox-26a7b63380ba1843-p05-c-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60ce73558a2e5711",
+      "lemma": "magic",
+      "pos": "n.",
+      "sense_zh": "魔法",
+      "sentence_ids": [
+        "p05-c-20-s04"
+      ],
+      "forms": [
+        "magic"
+      ],
+      "sense_id": "sense-staged-ox-60ce73558a2e5711-p05-c-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

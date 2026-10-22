@@ -1,0 +1,179 @@
+{
+  "id": "p05-a-08",
+  "title_zh": "向护士说明不适并配合检查",
+  "topic_id": "health",
+  "scenario": {
+    "id": "clinic-examination-cooperation",
+    "label_zh": "配合诊所护士检查",
+    "goal_zh": "说明身体不适并理解检查期间的要求。"
+  },
+  "participants": [
+    "Evan",
+    "Nurse Park"
+  ],
+  "context_zh": "虚构诊所里，一位患者已经向前台报告不适，护士正在当面检查；对话仅练习就诊沟通。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-08-s01",
+      "speaker": "Evan",
+      "text": "I feel weak, and there is a tight feeling in my chest."
+    },
+    {
+      "id": "p05-a-08-s02",
+      "speaker": "Nurse Park",
+      "text": "I am going to stay with you while the doctor comes over. Has your breathing changed?"
+    },
+    {
+      "id": "p05-a-08-s03",
+      "speaker": "Evan",
+      "text": "Yes. I feel as if I cannot take a full breath."
+    },
+    {
+      "id": "p05-a-08-s04",
+      "speaker": "Nurse Park",
+      "text": "Thank you for telling me. Did that start today?"
+    },
+    {
+      "id": "p05-a-08-s05",
+      "speaker": "Evan",
+      "text": "About half an hour ago. I am worried because it has not stopped."
+    },
+    {
+      "id": "p05-a-08-s06",
+      "speaker": "Nurse Park",
+      "text": "I understand. I need to check your oxygen level with this small device on your finger."
+    },
+    {
+      "id": "p05-a-08-s07",
+      "speaker": "Evan",
+      "text": "Do I have to breathe in a special way?"
+    },
+    {
+      "id": "p05-a-08-s08",
+      "speaker": "Nurse Park",
+      "text": "No, just breathe normally while I take the reading. The doctor is on the way."
+    },
+    {
+      "id": "p05-a-08-s09",
+      "speaker": "Evan",
+      "text": "All right. I feel a little more calm knowing someone is here."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c3e08feed60e5912",
+      "lemma": "weak",
+      "pos": "adj.",
+      "sense_zh": "虚弱的",
+      "sentence_ids": [
+        "p05-a-08-s01"
+      ],
+      "forms": [
+        "weak"
+      ],
+      "sense_id": "sense-staged-ox-c3e08feed60e5912-p05-a-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-50281f033f065aba",
+      "lemma": "worried",
+      "pos": "adj.",
+      "sense_zh": "担心的",
+      "sentence_ids": [
+        "p05-a-08-s05"
+      ],
+      "forms": [
+        "worried"
+      ],
+      "sense_id": "sense-staged-ox-50281f033f065aba-p05-a-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-379841e0dd6b5212",
+      "lemma": "chest",
+      "pos": "n.",
+      "sense_zh": "胸部",
+      "sentence_ids": [
+        "p05-a-08-s01"
+      ],
+      "forms": [
+        "chest"
+      ],
+      "sense_id": "sense-staged-ox-379841e0dd6b5212-p05-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4113e344aa7aa73d",
+      "lemma": "breath",
+      "pos": "n.",
+      "sense_zh": "一次呼吸",
+      "sentence_ids": [
+        "p05-a-08-s03"
+      ],
+      "forms": [
+        "breath"
+      ],
+      "sense_id": "sense-staged-ox-4113e344aa7aa73d-p05-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cf296524fb094b7d",
+      "lemma": "breathe",
+      "pos": "v.",
+      "sense_zh": "呼吸",
+      "sentence_ids": [
+        "p05-a-08-s07"
+      ],
+      "forms": [
+        "breathe"
+      ],
+      "sense_id": "sense-staged-ox-cf296524fb094b7d-p05-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d9ab5f4c744be763",
+      "lemma": "breathing",
+      "pos": "n.",
+      "sense_zh": "呼吸这一生理活动",
+      "sentence_ids": [
+        "p05-a-08-s02"
+      ],
+      "forms": [
+        "breathing"
+      ],
+      "sense_id": "sense-staged-ox-d9ab5f4c744be763-p05-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ba5964be53c4bf7",
+      "lemma": "calm",
+      "pos": "adj.",
+      "sense_zh": "平静的；镇定的",
+      "sentence_ids": [
+        "p05-a-08-s09"
+      ],
+      "forms": [
+        "calm"
+      ],
+      "sense_id": "sense-staged-ox-2ba5964be53c4bf7-p05-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

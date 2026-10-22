@@ -1,0 +1,142 @@
+{
+  "id": "p05-b-15",
+  "title_zh": "调整演出服装并试走入场",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "family-show-costume-rehearsal",
+    "label_zh": "排练家庭演出的服装与入场",
+    "goal_zh": "调整演出服装长度并约定鼓点提示后试走入场。"
+  },
+  "participants": [
+    "Bea",
+    "Marcus"
+  ],
+  "context_zh": "社区演出的两位表演者准备为家庭观众排练一段滑稽入场。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-15-s01",
+      "speaker": "Bea",
+      "text": "I am fully dressed, but this costume catches under my shoes."
+    },
+    {
+      "id": "p05-b-15-s02",
+      "speaker": "Marcus",
+      "text": "Then we should shorten the trousers before you try the entrance."
+    },
+    {
+      "id": "p05-b-15-s03",
+      "speaker": "Bea",
+      "text": "Will there still be a drum playing as I walk in?"
+    },
+    {
+      "id": "p05-b-15-s04",
+      "speaker": "Marcus",
+      "text": "Yes. I will give you three slow beats, then stop when you reach the chair."
+    },
+    {
+      "id": "p05-b-15-s05",
+      "speaker": "Bea",
+      "text": "We want to entertain the children, not have them watch me fall over."
+    },
+    {
+      "id": "p05-b-15-s06",
+      "speaker": "Marcus",
+      "text": "Exactly. This is gentle family entertainment. The joke should be the enormous hat, not a real accident."
+    },
+    {
+      "id": "p05-b-15-s07",
+      "speaker": "Bea",
+      "text": "I have folded the trousers up. Does that look safer?"
+    },
+    {
+      "id": "p05-b-15-s08",
+      "speaker": "Marcus",
+      "text": "Yes, your shoes are clear now. Let us walk through it slowly without the drum first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-12f8afd1def482d8",
+      "lemma": "costume",
+      "pos": "n.",
+      "sense_zh": "演出服装",
+      "sentence_ids": [
+        "p05-b-15-s01"
+      ],
+      "forms": [
+        "costume"
+      ],
+      "sense_id": "sense-staged-ox-12f8afd1def482d8-p05-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-318f46ab28bd6d47",
+      "lemma": "dressed",
+      "pos": "adj.",
+      "sense_zh": "穿好衣服的",
+      "sentence_ids": [
+        "p05-b-15-s01"
+      ],
+      "forms": [
+        "dressed"
+      ],
+      "sense_id": "sense-staged-ox-318f46ab28bd6d47-p05-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-809300d3a87d6936",
+      "lemma": "drum",
+      "pos": "n.",
+      "sense_zh": "鼓",
+      "sentence_ids": [
+        "p05-b-15-s03"
+      ],
+      "forms": [
+        "drum"
+      ],
+      "sense_id": "sense-staged-ox-809300d3a87d6936-p05-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1741ef8de9079f00",
+      "lemma": "entertain",
+      "pos": "v.",
+      "sense_zh": "使娱乐；逗乐",
+      "sentence_ids": [
+        "p05-b-15-s05"
+      ],
+      "forms": [
+        "entertain"
+      ],
+      "sense_id": "sense-staged-ox-1741ef8de9079f00-p05-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f104c7b838509969",
+      "lemma": "entertainment",
+      "pos": "n.",
+      "sense_zh": "娱乐活动或表演",
+      "sentence_ids": [
+        "p05-b-15-s06"
+      ],
+      "forms": [
+        "entertainment"
+      ],
+      "sense_id": "sense-staged-ox-f104c7b838509969-p05-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

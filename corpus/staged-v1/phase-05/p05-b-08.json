@@ -1,0 +1,200 @@
+{
+  "id": "p05-b-08",
+  "title_zh": "先核对印刷样稿再确认交付",
+  "topic_id": "work",
+  "scenario": {
+    "id": "project-delivery",
+    "label_zh": "协调项目交付",
+    "goal_zh": "澄清依赖、范围、风险与承诺"
+  },
+  "participants": [
+    "Priya",
+    "Leon"
+  ],
+  "context_zh": "设计负责人和印刷协调员讨论手册交付前的文件检查与时间风险。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-08-s01",
+      "speaker": "Priya",
+      "text": "The brochures are due on Friday. Is that still your expected delivery date?"
+    },
+    {
+      "id": "p05-b-08-s02",
+      "speaker": "Leon",
+      "text": "It is, provided we approve the proof today. The current file has an old telephone number."
+    },
+    {
+      "id": "p05-b-08-s03",
+      "speaker": "Priya",
+      "text": "I am currently correcting that. Can we determine whether the printer has started the job?"
+    },
+    {
+      "id": "p05-b-08-s04",
+      "speaker": "Leon",
+      "text": "They have not. They are waiting for our approval."
+    },
+    {
+      "id": "p05-b-08-s05",
+      "speaker": "Priya",
+      "text": "Good. What would be the consequence of approving it tomorrow instead?"
+    },
+    {
+      "id": "p05-b-08-s06",
+      "speaker": "Leon",
+      "text": "They could not promise Friday. The delivery might move to Monday."
+    },
+    {
+      "id": "p05-b-08-s07",
+      "speaker": "Priya",
+      "text": "Then I will send the corrected file by two. Please check the number before approving it."
+    },
+    {
+      "id": "p05-b-08-s08",
+      "speaker": "Leon",
+      "text": "I will. Once it is approved, they can deliver the boxes to reception on Friday morning."
+    },
+    {
+      "id": "p05-b-08-s09",
+      "speaker": "Priya",
+      "text": "I will tell reception to expect them, but only after you confirm the printer has accepted the schedule."
+    },
+    {
+      "id": "p05-b-08-s10",
+      "speaker": "Leon",
+      "text": "Agreed. I will check the proof and get their confirmation this afternoon."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-baf893fe62594f7e",
+      "lemma": "consequence",
+      "pos": "n.",
+      "sense_zh": "后果",
+      "sentence_ids": [
+        "p05-b-08-s05"
+      ],
+      "forms": [
+        "consequence"
+      ],
+      "sense_id": "sense-staged-ox-baf893fe62594f7e-p05-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aff56103304719f1",
+      "lemma": "current",
+      "pos": "adj.",
+      "sense_zh": "当前的",
+      "sentence_ids": [
+        "p05-b-08-s02"
+      ],
+      "forms": [
+        "current"
+      ],
+      "sense_id": "sense-staged-ox-aff56103304719f1-p05-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c06ac26cbf6351b0",
+      "lemma": "currently",
+      "pos": "adv.",
+      "sense_zh": "目前",
+      "sentence_ids": [
+        "p05-b-08-s03"
+      ],
+      "forms": [
+        "currently"
+      ],
+      "sense_id": "sense-staged-ox-c06ac26cbf6351b0-p05-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2164315a32c045ba",
+      "lemma": "due",
+      "pos": "adj.",
+      "sense_zh": "到期应交付的",
+      "sentence_ids": [
+        "p05-b-08-s01"
+      ],
+      "forms": [
+        "due"
+      ],
+      "sense_id": "sense-staged-ox-2164315a32c045ba-p05-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-72f34c34fcfcbe79",
+      "lemma": "deliver",
+      "pos": "v.",
+      "sense_zh": "运送；交付",
+      "sentence_ids": [
+        "p05-b-08-s08"
+      ],
+      "forms": [
+        "deliver"
+      ],
+      "sense_id": "sense-staged-ox-72f34c34fcfcbe79-p05-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-563c97a8e162bf14",
+      "lemma": "expected",
+      "pos": "adj.",
+      "sense_zh": "预期的",
+      "sentence_ids": [
+        "p05-b-08-s01"
+      ],
+      "forms": [
+        "expected"
+      ],
+      "sense_id": "sense-staged-ox-563c97a8e162bf14-p05-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-119d7d92939d4af3",
+      "lemma": "determine",
+      "pos": "v.",
+      "sense_zh": "查明；确定",
+      "sentence_ids": [
+        "p05-b-08-s03"
+      ],
+      "forms": [
+        "determine"
+      ],
+      "sense_id": "sense-staged-ox-119d7d92939d4af3-p05-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9a641a616d5cd78a",
+      "lemma": "file",
+      "pos": "n.",
+      "sense_zh": "电子文件",
+      "sentence_ids": [
+        "p05-b-08-s02"
+      ],
+      "forms": [
+        "file"
+      ],
+      "sense_id": "sense-staged-ox-9a641a616d5cd78a-p05-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

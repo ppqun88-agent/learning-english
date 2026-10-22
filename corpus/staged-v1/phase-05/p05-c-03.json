@@ -1,0 +1,100 @@
+{
+  "id": "p05-c-03",
+  "title_zh": "先熨衬衫再叠进行李",
+  "topic_id": "home",
+  "scenario": {
+    "id": "shirt-ironing-and-folding",
+    "label_zh": "商量衬衫熨烫与折叠",
+    "goal_zh": "明确衬衫熨烫和折叠的先后顺序及分工"
+  },
+  "participants": [
+    "Sami",
+    "Ruth"
+  ],
+  "context_zh": "露丝正在为旅行收拾行李，室友萨米主动帮忙折叠洗好的衬衫；两人先分清哪些还需熨烫。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-03-s01",
+      "speaker": "Sami",
+      "text": "Shall I fold these shirts while you finish packing?"
+    },
+    {
+      "id": "p05-c-03-s02",
+      "speaker": "Ruth",
+      "text": "Not the blue one yet. I need to iron it first."
+    },
+    {
+      "id": "p05-c-03-s03",
+      "speaker": "Sami",
+      "text": "Where should I put it?"
+    },
+    {
+      "id": "p05-c-03-s04",
+      "speaker": "Ruth",
+      "text": "Please lay it flat on the table. The other two can go in the case."
+    },
+    {
+      "id": "p05-c-03-s05",
+      "speaker": "Sami",
+      "text": "All right. I will fold those, and leave the blue one for you."
+    },
+    {
+      "id": "p05-c-03-s06",
+      "speaker": "Ruth",
+      "text": "Thanks. Once it has cooled, I will pack it on top."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-73a574efb668cf4a",
+      "lemma": "fold",
+      "pos": "v.",
+      "sense_zh": "折叠",
+      "sentence_ids": [
+        "p05-c-03-s01"
+      ],
+      "forms": [
+        "fold"
+      ],
+      "sense_id": "sense-staged-ox-73a574efb668cf4a-p05-c-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f2c2f7b9480ac3f1",
+      "lemma": "iron",
+      "pos": "v.",
+      "sense_zh": "熨烫衣物",
+      "sentence_ids": [
+        "p05-c-03-s02"
+      ],
+      "forms": [
+        "iron"
+      ],
+      "sense_id": "sense-staged-ox-f2c2f7b9480ac3f1-p05-c-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08b2715f918e4dc8",
+      "lemma": "lay",
+      "pos": "v.",
+      "sense_zh": "放置；平放",
+      "sentence_ids": [
+        "p05-c-03-s04"
+      ],
+      "forms": [
+        "lay"
+      ],
+      "sense_id": "sense-staged-ox-08b2715f918e4dc8-p05-c-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

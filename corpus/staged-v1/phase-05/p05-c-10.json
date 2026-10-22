@@ -1,0 +1,142 @@
+{
+  "id": "p05-c-10",
+  "title_zh": "为进口货物延误调整备货",
+  "topic_id": "work",
+  "scenario": {
+    "id": "imported-stock-delay-plan",
+    "label_zh": "商定进口货物延误的应对安排",
+    "goal_zh": "核实延误对店铺的影响，并决定询问本地替代品报价及更新预计到货通知"
+  },
+  "participants": [
+    "Asha",
+    "Ben"
+  ],
+  "context_zh": "一家小店的采购员和店长讨论供应商发来的延误通知；情节虚构。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-10-s01",
+      "speaker": "Asha",
+      "text": "The supplier says our goods will arrive two weeks late."
+    },
+    {
+      "id": "p05-c-10-s02",
+      "speaker": "Ben",
+      "text": "Is that just our shipment, or is there a wider problem?"
+    },
+    {
+      "id": "p05-c-10-s03",
+      "speaker": "Asha",
+      "text": "They describe it as a global shipping delay, but we only know the date for our own order."
+    },
+    {
+      "id": "p05-c-10-s04",
+      "speaker": "Ben",
+      "text": "We import all our large baskets from them. What is the impact on next week's display?"
+    },
+    {
+      "id": "p05-c-10-s05",
+      "speaker": "Asha",
+      "text": "We have enough small baskets, but only two large ones left."
+    },
+    {
+      "id": "p05-c-10-s06",
+      "speaker": "Ben",
+      "text": "Then let us ask the local maker for a small batch rather than promise stock we do not have."
+    },
+    {
+      "id": "p05-c-10-s07",
+      "speaker": "Asha",
+      "text": "I agree. This shows the importance of having a second supplier."
+    },
+    {
+      "id": "p05-c-10-s08",
+      "speaker": "Ben",
+      "text": "Please get a local quote today. I will update the display notice with the new expected date."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7afd3ac6f01020b1",
+      "lemma": "goods",
+      "pos": "n.",
+      "sense_zh": "商品；货物",
+      "sentence_ids": [
+        "p05-c-10-s01"
+      ],
+      "forms": [
+        "goods"
+      ],
+      "sense_id": "sense-staged-ox-7afd3ac6f01020b1-p05-c-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e834aaba5adc0f3f",
+      "lemma": "global",
+      "pos": "adj.",
+      "sense_zh": "全球性的",
+      "sentence_ids": [
+        "p05-c-10-s03"
+      ],
+      "forms": [
+        "global"
+      ],
+      "sense_id": "sense-staged-ox-e834aaba5adc0f3f-p05-c-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-18c4ab0bfd02eb48",
+      "lemma": "import",
+      "pos": "v.",
+      "sense_zh": "进口",
+      "sentence_ids": [
+        "p05-c-10-s04"
+      ],
+      "forms": [
+        "import"
+      ],
+      "sense_id": "sense-staged-ox-18c4ab0bfd02eb48-p05-c-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c6deeea99d4aecc",
+      "lemma": "impact",
+      "pos": "n.",
+      "sense_zh": "影响",
+      "sentence_ids": [
+        "p05-c-10-s04"
+      ],
+      "forms": [
+        "impact"
+      ],
+      "sense_id": "sense-staged-ox-0c6deeea99d4aecc-p05-c-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea67196690eb61ae",
+      "lemma": "importance",
+      "pos": "n.",
+      "sense_zh": "重要性",
+      "sentence_ids": [
+        "p05-c-10-s07"
+      ],
+      "forms": [
+        "importance"
+      ],
+      "sense_id": "sense-staged-ox-ea67196690eb61ae-p05-c-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

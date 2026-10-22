@@ -1,0 +1,105 @@
+{
+  "id": "p05-c-18",
+  "title_zh": "雨天改去室内上课",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "rainy-day-class-relocation",
+    "label_zh": "确认雨天课程移至室内",
+    "goal_zh": "确认课程没有取消及室内场地，商定见面地点并避免不必要的赶路"
+  },
+  "participants": [
+    "Chloe",
+    "Jamal"
+  ],
+  "context_zh": "克洛伊准备去公园上瑜伽课，朋友来电转告教练通知。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-18-s01",
+      "speaker": "Chloe",
+      "text": "It has started raining. Has the class been cancelled?"
+    },
+    {
+      "id": "p05-c-18-s02",
+      "speaker": "Jamal",
+      "text": "No, the coach has arranged an indoor session in the studio beside the park."
+    },
+    {
+      "id": "p05-c-18-s03",
+      "speaker": "Chloe",
+      "text": "Good. I would rather exercise indoors today anyway."
+    },
+    {
+      "id": "p05-c-18-s04",
+      "speaker": "Jamal",
+      "text": "It still starts at six. Where are you now?"
+    },
+    {
+      "id": "p05-c-18-s05",
+      "speaker": "Chloe",
+      "text": "At the bus stop. Do I need to hurry?"
+    },
+    {
+      "id": "p05-c-18-s06",
+      "speaker": "Jamal",
+      "text": "No, you have twenty minutes. I will wait by the studio entrance, not the park gate."
+    },
+    {
+      "id": "p05-c-18-s07",
+      "speaker": "Chloe",
+      "text": "Thanks. I will meet you at the studio at ten to six."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-363413262dbb2483",
+      "lemma": "indoor",
+      "pos": "adj.",
+      "sense_zh": "室内的",
+      "sentence_ids": [
+        "p05-c-18-s02"
+      ],
+      "forms": [
+        "indoor"
+      ],
+      "sense_id": "sense-staged-ox-363413262dbb2483-p05-c-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2445efb5e7efe295",
+      "lemma": "indoors",
+      "pos": "adv.",
+      "sense_zh": "在室内",
+      "sentence_ids": [
+        "p05-c-18-s03"
+      ],
+      "forms": [
+        "indoors"
+      ],
+      "sense_id": "sense-staged-ox-2445efb5e7efe295-p05-c-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f5b57f4df01efd2",
+      "lemma": "hurry",
+      "pos": "v.",
+      "sense_zh": "赶快；匆忙行动",
+      "sentence_ids": [
+        "p05-c-18-s05"
+      ],
+      "forms": [
+        "hurry"
+      ],
+      "sense_id": "sense-staged-ox-4f5b57f4df01efd2-p05-c-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

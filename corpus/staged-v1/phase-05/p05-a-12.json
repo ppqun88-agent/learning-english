@@ -1,0 +1,184 @@
+{
+  "id": "p05-a-12",
+  "title_zh": "选择课程期间的住宿并核对抵达安排",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "course-stay-price-and-arrival",
+    "label_zh": "核对短期课程住宿并预订",
+    "goal_zh": "比较住宿总价，核对取消条款和抵达时间后确认预订"
+  },
+  "participants": [
+    "Priya",
+    "Travel agent"
+  ],
+  "context_zh": "学员通过旅行代理了解三晚住宿的总价和取消条件，选择可负担的房间。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-12-s01",
+      "speaker": "Priya",
+      "text": "I need accommodation for three nights near the language school. I can afford up to three hundred pounds in total."
+    },
+    {
+      "id": "p05-a-12-s02",
+      "speaker": "Travel agent",
+      "text": "The guesthouse is two hundred and ten. The hotel next door is three hundred and sixty."
+    },
+    {
+      "id": "p05-a-12-s03",
+      "speaker": "Priya",
+      "text": "Does the cheaper room have its own bathroom?"
+    },
+    {
+      "id": "p05-a-12-s04",
+      "speaker": "Travel agent",
+      "text": "Yes. As your agent, I can send you the full booking agreement before you decide."
+    },
+    {
+      "id": "p05-a-12-s05",
+      "speaker": "Priya",
+      "text": "I have it open now. What does this clause about cancellation mean for my booking?"
+    },
+    {
+      "id": "p05-a-12-s06",
+      "speaker": "Travel agent",
+      "text": "It says you can cancel without a charge until noon two days before arrival. After that, the first night is charged."
+    },
+    {
+      "id": "p05-a-12-s07",
+      "speaker": "Priya",
+      "text": "That is clear. My train gets in at six, so I should reach the guesthouse at approximately half past six."
+    },
+    {
+      "id": "p05-a-12-s08",
+      "speaker": "Travel agent",
+      "text": "Reception is open until nine. Shall I reserve the guesthouse room?"
+    },
+    {
+      "id": "p05-a-12-s09",
+      "speaker": "Priya",
+      "text": "Yes, please. It is within my budget, and the arrival time works."
+    },
+    {
+      "id": "p05-a-12-s10",
+      "speaker": "Travel agent",
+      "text": "Your room is reserved. I will send the confirmation to the same email address."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-11399e3677560ae4",
+      "lemma": "accommodation",
+      "pos": "n.",
+      "sense_zh": "住宿；住处",
+      "sentence_ids": [
+        "p05-a-12-s01"
+      ],
+      "forms": [
+        "accommodation"
+      ],
+      "sense_id": "sense-staged-ox-11399e3677560ae4-p05-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-922e676f460f2db1",
+      "lemma": "afford",
+      "pos": "v.",
+      "sense_zh": "负担得起",
+      "sentence_ids": [
+        "p05-a-12-s01"
+      ],
+      "forms": [
+        "afford"
+      ],
+      "sense_id": "sense-staged-ox-922e676f460f2db1-p05-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5132c37e5339ce23",
+      "lemma": "agent",
+      "pos": "n.",
+      "sense_zh": "代理人",
+      "sentence_ids": [
+        "p05-a-12-s04"
+      ],
+      "forms": [
+        "agent"
+      ],
+      "sense_id": "sense-staged-ox-5132c37e5339ce23-p05-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-490287bd2313542b",
+      "lemma": "agreement",
+      "pos": "n.",
+      "sense_zh": "书面协议",
+      "sentence_ids": [
+        "p05-a-12-s04"
+      ],
+      "forms": [
+        "agreement"
+      ],
+      "sense_id": "sense-staged-ox-490287bd2313542b-p05-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-32349258459f5bdf",
+      "lemma": "clause",
+      "pos": "n.",
+      "sense_zh": "协议中的条款",
+      "sentence_ids": [
+        "p05-a-12-s05"
+      ],
+      "forms": [
+        "clause"
+      ],
+      "sense_id": "sense-staged-ox-32349258459f5bdf-p05-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e672799fd8b0fb7b",
+      "lemma": "approximately",
+      "pos": "adv.",
+      "sense_zh": "大约",
+      "sentence_ids": [
+        "p05-a-12-s07"
+      ],
+      "forms": [
+        "approximately"
+      ],
+      "sense_id": "sense-staged-ox-e672799fd8b0fb7b-p05-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b7954684e140e611",
+      "lemma": "arrival",
+      "pos": "n.",
+      "sense_zh": "抵达",
+      "sentence_ids": [
+        "p05-a-12-s06"
+      ],
+      "forms": [
+        "arrival"
+      ],
+      "sense_id": "sense-staged-ox-b7954684e140e611-p05-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,84 @@
+{
+  "id": "p05-b-30",
+  "title_zh": "请朋友帮忙安排回家",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "sober-lift-home-request",
+    "label_zh": "饮酒后请求安全返家帮助",
+    "goal_zh": "说明无法自行开车并与清醒的朋友约定乘出租车回家。"
+  },
+  "participants": [
+    "Cal",
+    "Nina"
+  ],
+  "context_zh": "聚会结束后，一名喝醉的参加者向没有喝酒的朋友求助。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-30-s01",
+      "speaker": "Cal",
+      "text": "Could you do me a favor? I am drunk, and I should not drive home."
+    },
+    {
+      "id": "p05-b-30-s02",
+      "speaker": "Nina",
+      "text": "Of course. Leave your car here. Would you like me to get a taxi with you?"
+    },
+    {
+      "id": "p05-b-30-s03",
+      "speaker": "Cal",
+      "text": "Yes, please. I do not want to wait outside on my own."
+    },
+    {
+      "id": "p05-b-30-s04",
+      "speaker": "Nina",
+      "text": "We can wait inside by the front desk until it arrives. I have not been drinking."
+    },
+    {
+      "id": "p05-b-30-s05",
+      "speaker": "Cal",
+      "text": "Thanks. I will collect the car tomorrow, not tonight."
+    },
+    {
+      "id": "p05-b-30-s06",
+      "speaker": "Nina",
+      "text": "All right. Stay here with me while I arrange the ride."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-78fa6fc96cf9d279",
+      "lemma": "drunk",
+      "pos": "adj.",
+      "sense_zh": "喝醉的",
+      "sentence_ids": [
+        "p05-b-30-s01"
+      ],
+      "forms": [
+        "drunk"
+      ],
+      "sense_id": "sense-staged-ox-78fa6fc96cf9d279-p05-b-30",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-085859f89d4ddcc1",
+      "lemma": "favor",
+      "pos": "n.",
+      "sense_zh": "帮忙；善意的帮助",
+      "sentence_ids": [
+        "p05-b-30-s01"
+      ],
+      "forms": [
+        "favor"
+      ],
+      "sense_id": "sense-staged-ox-085859f89d4ddcc1-p05-b-30",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

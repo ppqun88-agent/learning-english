@@ -1,0 +1,142 @@
+{
+  "id": "p05-a-11",
+  "title_zh": "转行前先了解入门课程",
+  "topic_id": "work",
+  "scenario": {
+    "id": "career-change-discussion",
+    "label_zh": "讨论职业方向",
+    "goal_zh": "讨论转行念头并确定低风险了解行业的下一步。"
+  },
+  "participants": [
+    "Sonia",
+    "Adrian"
+  ],
+  "context_zh": "一位想转入数据工作的成年人向朋友讨论学习路线，决定先了解课程内容和实际岗位。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-11-s01",
+      "speaker": "Sonia",
+      "text": "My ambition is to move into data analysis, but I do not have many academic qualifications."
+    },
+    {
+      "id": "p05-a-11-s02",
+      "speaker": "Adrian",
+      "text": "You do have years of experience keeping the shop's records. That is worth discussing with a course adviser."
+    },
+    {
+      "id": "p05-a-11-s03",
+      "speaker": "Sonia",
+      "text": "I found an advanced course that promises to cover everything in six weeks."
+    },
+    {
+      "id": "p05-a-11-s04",
+      "speaker": "Adrian",
+      "text": "That sounds ambitious. Have you looked at the entry requirements?"
+    },
+    {
+      "id": "p05-a-11-s05",
+      "speaker": "Sonia",
+      "text": "Not yet. What would you advise me to do first?"
+    },
+    {
+      "id": "p05-a-11-s06",
+      "speaker": "Adrian",
+      "text": "Read the beginner course outline, and talk to someone who does the job before you pay for anything."
+    },
+    {
+      "id": "p05-a-11-s07",
+      "speaker": "Sonia",
+      "text": "My cousin works in that field. I will ask her about a normal working day and look at the beginner course tonight."
+    },
+    {
+      "id": "p05-a-11-s08",
+      "speaker": "Adrian",
+      "text": "Good. Then you can decide whether the subject actually interests you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1bbeada56bbbaddb",
+      "lemma": "academic",
+      "pos": "adj.",
+      "sense_zh": "学业的；学术方面的",
+      "sentence_ids": [
+        "p05-a-11-s01"
+      ],
+      "forms": [
+        "academic"
+      ],
+      "sense_id": "sense-staged-ox-1bbeada56bbbaddb-p05-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-731f1bebe955cd69",
+      "lemma": "advanced",
+      "pos": "adj.",
+      "sense_zh": "高级的；高阶的",
+      "sentence_ids": [
+        "p05-a-11-s03"
+      ],
+      "forms": [
+        "advanced"
+      ],
+      "sense_id": "sense-staged-ox-731f1bebe955cd69-p05-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2d5b9f92d4eccad",
+      "lemma": "advise",
+      "pos": "v.",
+      "sense_zh": "建议",
+      "sentence_ids": [
+        "p05-a-11-s05"
+      ],
+      "forms": [
+        "advise"
+      ],
+      "sense_id": "sense-staged-ox-d2d5b9f92d4eccad-p05-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8d1164f655491dc3",
+      "lemma": "ambition",
+      "pos": "n.",
+      "sense_zh": "志向；抱负",
+      "sentence_ids": [
+        "p05-a-11-s01"
+      ],
+      "forms": [
+        "ambition"
+      ],
+      "sense_id": "sense-staged-ox-8d1164f655491dc3-p05-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a04c14279b90df51",
+      "lemma": "ambitious",
+      "pos": "adj.",
+      "sense_zh": "计划要求很高的；雄心勃勃的",
+      "sentence_ids": [
+        "p05-a-11-s04"
+      ],
+      "forms": [
+        "ambitious"
+      ],
+      "sense_id": "sense-staged-ox-a04c14279b90df51-p05-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

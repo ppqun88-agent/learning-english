@@ -1,0 +1,94 @@
+{
+  "id": "p05-c-09",
+  "title_zh": "在工作人员陪同下先见见狗",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "shelter-dog-first-meeting",
+    "label_zh": "安排初次接触收容所的狗",
+    "goal_zh": "说明养狗顾虑并同意在工作人员陪同下先短暂见面"
+  },
+  "participants": [
+    "Mina",
+    "Eli"
+  ],
+  "context_zh": "米娜第一次到收容所了解领养，向工作人员表示对接触狗有些担心。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-09-s01",
+      "speaker": "Mina",
+      "text": "I like the little brown dog, but I have never lived with one before."
+    },
+    {
+      "id": "p05-c-09-s02",
+      "speaker": "Eli",
+      "text": "That is Bruno. He is usually very gentle, though we still introduce new people slowly."
+    },
+    {
+      "id": "p05-c-09-s03",
+      "speaker": "Mina",
+      "text": "His fur looks soft. Would he mind if I touched him?"
+    },
+    {
+      "id": "p05-c-09-s04",
+      "speaker": "Eli",
+      "text": "Let us meet him first and see how he responds. You do not need to touch him today."
+    },
+    {
+      "id": "p05-c-09-s05",
+      "speaker": "Mina",
+      "text": "Could you stay with me while I meet him?"
+    },
+    {
+      "id": "p05-c-09-s06",
+      "speaker": "Eli",
+      "text": "Certainly. We can spend five minutes together in the quiet room."
+    },
+    {
+      "id": "p05-c-09-s07",
+      "speaker": "Mina",
+      "text": "I would like that. I am not ready to decide about adoption yet."
+    },
+    {
+      "id": "p05-c-09-s08",
+      "speaker": "Eli",
+      "text": "There is no need to decide today. We will just get to know each other."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-62dff896f9732fa6",
+      "lemma": "gentle",
+      "pos": "adj.",
+      "sense_zh": "温顺的；温和的",
+      "sentence_ids": [
+        "p05-c-09-s02"
+      ],
+      "forms": [
+        "gentle"
+      ],
+      "sense_id": "sense-staged-ox-62dff896f9732fa6-p05-c-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e1010c0c8fc7e555",
+      "lemma": "fur",
+      "pos": "n.",
+      "sense_zh": "动物的毛皮",
+      "sentence_ids": [
+        "p05-c-09-s03"
+      ],
+      "forms": [
+        "fur"
+      ],
+      "sense_id": "sense-staged-ox-e1010c0c8fc7e555-p05-c-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

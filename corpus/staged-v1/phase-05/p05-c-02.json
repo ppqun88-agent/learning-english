@@ -1,0 +1,131 @@
+{
+  "id": "p05-c-02",
+  "title_zh": "暖气不热时预约检查",
+  "topic_id": "home",
+  "scenario": {
+    "id": "radiator-flow-inspection",
+    "label_zh": "预约暖气流动异常检查",
+    "goal_zh": "说明暖气不热及阀门情况并约定检查时间，不声称已经维修"
+  },
+  "participants": [
+    "Maya",
+    "Owen"
+  ],
+  "context_zh": "租客玛雅打电话向维修协调员说明暖气问题。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-02-s01",
+      "speaker": "Maya",
+      "text": "The heating is on, but the radiator in my bedroom stays cold."
+    },
+    {
+      "id": "p05-c-02-s02",
+      "speaker": "Owen",
+      "text": "Are the radiators in the other rooms warm?"
+    },
+    {
+      "id": "p05-c-02-s03",
+      "speaker": "Maya",
+      "text": "Yes. Water does not seem to flow through this one, though I cannot tell why."
+    },
+    {
+      "id": "p05-c-02-s04",
+      "speaker": "Owen",
+      "text": "Has anyone adjusted its valve recently?"
+    },
+    {
+      "id": "p05-c-02-s05",
+      "speaker": "Maya",
+      "text": "I tried turning it gently, but it would not move. I did not want to force it."
+    },
+    {
+      "id": "p05-c-02-s06",
+      "speaker": "Owen",
+      "text": "Good. Leave it as it is until our technician checks it."
+    },
+    {
+      "id": "p05-c-02-s07",
+      "speaker": "Maya",
+      "text": "Can I have an immediate appointment? I work from home today."
+    },
+    {
+      "id": "p05-c-02-s08",
+      "speaker": "Owen",
+      "text": "Nothing is available this morning, but the technician can come at three."
+    },
+    {
+      "id": "p05-c-02-s09",
+      "speaker": "Maya",
+      "text": "Three works. I will be here to let them in."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4bc92982219191cb",
+      "lemma": "heating",
+      "pos": "n.",
+      "sense_zh": "供暖系统；暖气",
+      "sentence_ids": [
+        "p05-c-02-s01"
+      ],
+      "forms": [
+        "heating"
+      ],
+      "sense_id": "sense-staged-ox-4bc92982219191cb-p05-c-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6538a6c797ec0984",
+      "lemma": "flow",
+      "pos": "v.",
+      "sense_zh": "流动",
+      "sentence_ids": [
+        "p05-c-02-s03"
+      ],
+      "forms": [
+        "flow"
+      ],
+      "sense_id": "sense-staged-ox-6538a6c797ec0984-p05-c-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b60bddf1bd7a4da",
+      "lemma": "force",
+      "pos": "v.",
+      "sense_zh": "强行推动或转动",
+      "sentence_ids": [
+        "p05-c-02-s05"
+      ],
+      "forms": [
+        "force"
+      ],
+      "sense_id": "sense-staged-ox-6b60bddf1bd7a4da-p05-c-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b5efddc6bcea030",
+      "lemma": "immediate",
+      "pos": "adj.",
+      "sense_zh": "立即的；无需等待的",
+      "sentence_ids": [
+        "p05-c-02-s07"
+      ],
+      "forms": [
+        "immediate"
+      ],
+      "sense_id": "sense-staged-ox-7b5efddc6bcea030-p05-c-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

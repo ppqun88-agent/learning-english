@@ -1,0 +1,158 @@
+{
+  "id": "p05-c-06",
+  "title_zh": "今晚选一部不吓人的电影",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "friends-film-night",
+    "label_zh": "商定朋友电影之夜",
+    "goal_zh": "兼顾时间与喜好选定影片"
+  },
+  "participants": [
+    "Anna",
+    "Jack"
+  ],
+  "context_zh": "朋友安娜和杰克在晚饭后挑选今晚一起看的电影。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-06-s01",
+      "speaker": "Anna",
+      "text": "We have time for one film before ten. What about The Old House?"
+    },
+    {
+      "id": "p05-c-06-s02",
+      "speaker": "Jack",
+      "text": "Is that the one with a ghost in the bathroom?"
+    },
+    {
+      "id": "p05-c-06-s03",
+      "speaker": "Anna",
+      "text": "Yes. The trailer looks frightening, but people say the ending is funny."
+    },
+    {
+      "id": "p05-c-06-s04",
+      "speaker": "Jack",
+      "text": "I do not enjoy horror. I was frightened for hours after the last film you chose."
+    },
+    {
+      "id": "p05-c-06-s05",
+      "speaker": "Anna",
+      "text": "Sorry, I do not want to frighten you again. We can choose something else."
+    },
+    {
+      "id": "p05-c-06-s06",
+      "speaker": "Jack",
+      "text": "Thanks. I had a horrible day at work, and I would rather laugh tonight."
+    },
+    {
+      "id": "p05-c-06-s07",
+      "speaker": "Anna",
+      "text": "How about the comedy with the two lost tourists? It is only ninety minutes."
+    },
+    {
+      "id": "p05-c-06-s08",
+      "speaker": "Jack",
+      "text": "That sounds much better. Let us watch that one."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f283d33af73d4a22",
+      "lemma": "ghost",
+      "pos": "n.",
+      "sense_zh": "鬼魂",
+      "sentence_ids": [
+        "p05-c-06-s02"
+      ],
+      "forms": [
+        "ghost"
+      ],
+      "sense_id": "sense-staged-ox-f283d33af73d4a22-p05-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3883335955d2b6db",
+      "lemma": "frightening",
+      "pos": "adj.",
+      "sense_zh": "令人害怕的",
+      "sentence_ids": [
+        "p05-c-06-s03"
+      ],
+      "forms": [
+        "frightening"
+      ],
+      "sense_id": "sense-staged-ox-3883335955d2b6db-p05-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ea345db0e8e144c",
+      "lemma": "horror",
+      "pos": "n.",
+      "sense_zh": "恐怖题材或恐怖类型",
+      "sentence_ids": [
+        "p05-c-06-s04"
+      ],
+      "forms": [
+        "horror"
+      ],
+      "sense_id": "sense-staged-ox-2ea345db0e8e144c-p05-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-20d513d2ccfa3145",
+      "lemma": "frightened",
+      "pos": "adj.",
+      "sense_zh": "感到害怕的",
+      "sentence_ids": [
+        "p05-c-06-s04"
+      ],
+      "forms": [
+        "frightened"
+      ],
+      "sense_id": "sense-staged-ox-20d513d2ccfa3145-p05-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b897660b3422458",
+      "lemma": "frighten",
+      "pos": "v.",
+      "sense_zh": "使害怕",
+      "sentence_ids": [
+        "p05-c-06-s05"
+      ],
+      "forms": [
+        "frighten"
+      ],
+      "sense_id": "sense-staged-ox-2b897660b3422458-p05-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6ae1d9f3d990d74d",
+      "lemma": "horrible",
+      "pos": "adj.",
+      "sense_zh": "糟糕的；令人不快的",
+      "sentence_ids": [
+        "p05-c-06-s06"
+      ],
+      "forms": [
+        "horrible"
+      ],
+      "sense_id": "sense-staged-ox-6ae1d9f3d990d74d-p05-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,110 @@
+{
+  "id": "p05-a-24",
+  "title_zh": "预约查看顶棚报警器的间歇响声",
+  "topic_id": "home",
+  "scenario": {
+    "id": "ceiling-alarm-inspection-request",
+    "label_zh": "预约检查顶棚报警器",
+    "goal_zh": "描述报警器的间歇响声，提供设备编号并约定上门检查时间"
+  },
+  "participants": [
+    "Amal",
+    "Building caretaker"
+  ],
+  "context_zh": "住户向楼管描述规律的短促鸣声；楼管确认需要当面查看，尚未声称完成维修。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-24-s01",
+      "speaker": "Amal",
+      "text": "Something in my hallway makes a short noise every minute."
+    },
+    {
+      "id": "p05-a-24-s02",
+      "speaker": "Building caretaker",
+      "text": "Is it the bell beside your front door or the alarm on the ceiling?"
+    },
+    {
+      "id": "p05-a-24-s03",
+      "speaker": "Amal",
+      "text": "The alarm. The sound is coming from above me, not from beside the door."
+    },
+    {
+      "id": "p05-a-24-s04",
+      "speaker": "Building caretaker",
+      "text": "Does the label on it have a number I can check?"
+    },
+    {
+      "id": "p05-a-24-s05",
+      "speaker": "Amal",
+      "text": "Yes, it says H seventeen. I can read it from the floor."
+    },
+    {
+      "id": "p05-a-24-s06",
+      "speaker": "Building caretaker",
+      "text": "Thank you. I will come at four today to inspect it. Please leave it in place."
+    },
+    {
+      "id": "p05-a-24-s07",
+      "speaker": "Amal",
+      "text": "I will be home. Can you call when you reach the main entrance?"
+    },
+    {
+      "id": "p05-a-24-s08",
+      "speaker": "Building caretaker",
+      "text": "Yes. I have your number, and I will check the unit when I arrive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4b2e6098aae34c12",
+      "lemma": "alarm",
+      "pos": "n.",
+      "sense_zh": "报警器",
+      "sentence_ids": [
+        "p05-a-24-s02"
+      ],
+      "forms": [
+        "alarm"
+      ],
+      "sense_id": "sense-staged-ox-4b2e6098aae34c12-p05-a-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fec72f00bb94cd97",
+      "lemma": "bell",
+      "pos": "n.",
+      "sense_zh": "门铃",
+      "sentence_ids": [
+        "p05-a-24-s02"
+      ],
+      "forms": [
+        "bell"
+      ],
+      "sense_id": "sense-staged-ox-fec72f00bb94cd97-p05-a-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-882bbe04d0d662c5",
+      "lemma": "ceiling",
+      "pos": "n.",
+      "sense_zh": "天花板",
+      "sentence_ids": [
+        "p05-a-24-s02"
+      ],
+      "forms": [
+        "ceiling"
+      ],
+      "sense_id": "sense-staged-ox-882bbe04d0d662c5-p05-a-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

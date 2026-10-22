@@ -1,0 +1,131 @@
+{
+  "id": "p05-c-24",
+  "title_zh": "恢复编辑器的正常输入方式",
+  "topic_id": "services",
+  "scenario": {
+    "id": "keyboard-shortcut-troubleshooting",
+    "label_zh": "排查键盘导致的覆盖输入",
+    "goal_zh": "确认误触按键造成覆盖输入，关闭该功能并实际验证文字恢复正常"
+  },
+  "participants": [
+    "Dora",
+    "Ben"
+  ],
+  "context_zh": "员工多拉通过内部支持电话请本帮助检查一个编辑器的输入问题。",
+  "author": "author-phase05-c",
+  "sentences": [
+    {
+      "id": "p05-c-24-s01",
+      "speaker": "Dora",
+      "text": "Is this IT? Whenever I type, the next letter disappears."
+    },
+    {
+      "id": "p05-c-24-s02",
+      "speaker": "Ben",
+      "text": "Yes, I can help. Which keys did you press just before it started?"
+    },
+    {
+      "id": "p05-c-24-s03",
+      "speaker": "Dora",
+      "text": "I dropped a notebook on the keyboard. Now I have made a mess of this sentence."
+    },
+    {
+      "id": "p05-c-24-s04",
+      "speaker": "Ben",
+      "text": "I can see the screen you shared. This editor is in overwrite mode."
+    },
+    {
+      "id": "p05-c-24-s05",
+      "speaker": "Dora",
+      "text": "What is the function of the key labelled Insert? I think the notebook hit that one."
+    },
+    {
+      "id": "p05-c-24-s06",
+      "speaker": "Ben",
+      "text": "In this editor, it switches overwrite mode on and off. Press it once, then undo the damaged sentence."
+    },
+    {
+      "id": "p05-c-24-s07",
+      "speaker": "Dora",
+      "text": "The sentence is back. I will try adding a word in the middle."
+    },
+    {
+      "id": "p05-c-24-s08",
+      "speaker": "Ben",
+      "text": "Does the following text stay there now?"
+    },
+    {
+      "id": "p05-c-24-s09",
+      "speaker": "Dora",
+      "text": "Yes, it moves along instead of disappearing. That has fixed it. Thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1e58ac87a7316f41",
+      "lemma": "IT",
+      "pos": "n.",
+      "sense_zh": "信息技术部门或信息技术支持",
+      "sentence_ids": [
+        "p05-c-24-s01"
+      ],
+      "forms": [
+        "IT"
+      ],
+      "sense_id": "sense-staged-ox-1e58ac87a7316f41-p05-c-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-50459226a9fd0d4c",
+      "lemma": "keyboard",
+      "pos": "n.",
+      "sense_zh": "键盘",
+      "sentence_ids": [
+        "p05-c-24-s03"
+      ],
+      "forms": [
+        "keyboard"
+      ],
+      "sense_id": "sense-staged-ox-50459226a9fd0d4c-p05-c-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4acd2e7b9b38ab44",
+      "lemma": "mess",
+      "pos": "n.",
+      "sense_zh": "混乱；弄乱的状态",
+      "sentence_ids": [
+        "p05-c-24-s03"
+      ],
+      "forms": [
+        "mess"
+      ],
+      "sense_id": "sense-staged-ox-4acd2e7b9b38ab44-p05-c-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9b35849fedf186c4",
+      "lemma": "function",
+      "pos": "n.",
+      "sense_zh": "功能；作用",
+      "sentence_ids": [
+        "p05-c-24-s05"
+      ],
+      "forms": [
+        "function"
+      ],
+      "sense_id": "sense-staged-ox-9b35849fedf186c4-p05-c-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

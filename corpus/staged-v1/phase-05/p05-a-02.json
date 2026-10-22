@@ -1,0 +1,126 @@
+{
+  "id": "p05-a-02",
+  "title_zh": "分好洗衣与厨房清洁工作",
+  "topic_id": "home",
+  "scenario": {
+    "id": "shared-house-cleanup",
+    "label_zh": "分配合租房清洁工作",
+    "goal_zh": "明确待清洁区域和离开房间前的操作"
+  },
+  "participants": [
+    "Nadia",
+    "Felix"
+  ],
+  "context_zh": "两名室友打算出门前完成洗衣和厨房清洁，先确认分工。",
+  "author": "author-phase05-a",
+  "sentences": [
+    {
+      "id": "p05-a-02-s01",
+      "speaker": "Nadia",
+      "text": "Can you hang out the washing while I clean the kitchen?"
+    },
+    {
+      "id": "p05-a-02-s02",
+      "speaker": "Felix",
+      "text": "Sure. Is everything in the machine ready to come out?"
+    },
+    {
+      "id": "p05-a-02-s03",
+      "speaker": "Nadia",
+      "text": "Yes, but hang the red towel on its own. It is still dripping."
+    },
+    {
+      "id": "p05-a-02-s04",
+      "speaker": "Felix",
+      "text": "All right. Do you need this cloth for the counter?"
+    },
+    {
+      "id": "p05-a-02-s05",
+      "speaker": "Nadia",
+      "text": "Yes, please. I need to wipe the whole counter. The blue cloth is for the floor."
+    },
+    {
+      "id": "p05-a-02-s06",
+      "speaker": "Felix",
+      "text": "The washing is outside now. Shall I leave the machine door open?"
+    },
+    {
+      "id": "p05-a-02-s07",
+      "speaker": "Nadia",
+      "text": "Please do, and turn off the kitchen light when you leave."
+    },
+    {
+      "id": "p05-a-02-s08",
+      "speaker": "Felix",
+      "text": "Done. I will meet you by the front door."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a4389fe8517de452",
+      "lemma": "washing",
+      "pos": "n.",
+      "sense_zh": "待晾晒的洗好衣物",
+      "sentence_ids": [
+        "p05-a-02-s01"
+      ],
+      "forms": [
+        "washing"
+      ],
+      "sense_id": "sense-staged-ox-a4389fe8517de452-p05-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cd497417f7f1f9b6",
+      "lemma": "while",
+      "pos": "conj.",
+      "sense_zh": "在……期间；当……时",
+      "sentence_ids": [
+        "p05-a-02-s01"
+      ],
+      "forms": [
+        "while"
+      ],
+      "sense_id": "sense-staged-ox-cd497417f7f1f9b6-p05-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66589d8388d0e840",
+      "lemma": "whole",
+      "pos": "adj.",
+      "sense_zh": "完整的；整个的",
+      "sentence_ids": [
+        "p05-a-02-s05"
+      ],
+      "forms": [
+        "whole"
+      ],
+      "sense_id": "sense-staged-ox-66589d8388d0e840-p05-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e1469485bbaf6e3f",
+      "lemma": "cloth",
+      "pos": "n.",
+      "sense_zh": "抹布",
+      "sentence_ids": [
+        "p05-a-02-s04"
+      ],
+      "forms": [
+        "cloth"
+      ],
+      "sense_id": "sense-staged-ox-e1469485bbaf6e3f-p05-a-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

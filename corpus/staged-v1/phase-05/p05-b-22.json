@@ -1,0 +1,100 @@
+{
+  "id": "p05-b-22",
+  "title_zh": "分工清理窗台和门口",
+  "topic_id": "home",
+  "scenario": {
+    "id": "shared-house-cleanup",
+    "label_zh": "分配合租房清洁工作",
+    "goal_zh": "明确待清洁区域和离开房间前的操作"
+  },
+  "participants": [
+    "Zara",
+    "Finn"
+  ],
+  "context_zh": "室友准备清理公共客厅，避免把高处的灰尘落到刚擦好的地板上。",
+  "author": "author-phase05-b",
+  "sentences": [
+    {
+      "id": "p05-b-22-s01",
+      "speaker": "Zara",
+      "text": "There is a lot of dust on the windowsill. Shall I wipe it while you do the floor?"
+    },
+    {
+      "id": "p05-b-22-s02",
+      "speaker": "Finn",
+      "text": "Do the high surfaces first, or the dust will fall on the clean floor."
+    },
+    {
+      "id": "p05-b-22-s03",
+      "speaker": "Zara",
+      "text": "Good point. There is also dirt around the door from our walking boots."
+    },
+    {
+      "id": "p05-b-22-s04",
+      "speaker": "Finn",
+      "text": "I will clean that after you finish. Please wipe along the edge of the shelf as well."
+    },
+    {
+      "id": "p05-b-22-s05",
+      "speaker": "Zara",
+      "text": "All right. I will do the shelf and windowsill, and you take the floor and doorway."
+    },
+    {
+      "id": "p05-b-22-s06",
+      "speaker": "Finn",
+      "text": "Agreed. When we leave, let us close the window and turn off the lamp."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a441fa2a7b68bf87",
+      "lemma": "dirt",
+      "pos": "n.",
+      "sense_zh": "污垢；脏物",
+      "sentence_ids": [
+        "p05-b-22-s03"
+      ],
+      "forms": [
+        "dirt"
+      ],
+      "sense_id": "sense-staged-ox-a441fa2a7b68bf87-p05-b-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5b877945237d81cc",
+      "lemma": "dust",
+      "pos": "n.",
+      "sense_zh": "灰尘",
+      "sentence_ids": [
+        "p05-b-22-s01"
+      ],
+      "forms": [
+        "dust"
+      ],
+      "sense_id": "sense-staged-ox-5b877945237d81cc-p05-b-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-28c5139da95a2f95",
+      "lemma": "edge",
+      "pos": "n.",
+      "sense_zh": "边缘",
+      "sentence_ids": [
+        "p05-b-22-s04"
+      ],
+      "forms": [
+        "edge"
+      ],
+      "sense_id": "sense-staged-ox-28c5139da95a2f95-p05-b-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
