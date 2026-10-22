@@ -1,0 +1,2313 @@
+{
+  "schema_version": 1,
+  "scope": "oxford-100-v1",
+  "dialogues": [
+    {
+      "dialogue_id": "pilot01-booking",
+      "scenario_ids": [
+        "accommodation-change"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-repair",
+      "scenario_ids": [
+        "home-repair"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-lunch",
+      "scenario_ids": [
+        "dietary-needs"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-journey",
+      "scenario_ids": [
+        "transport-alternative"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-budget",
+      "scenario_ids": [
+        "event-budget"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-evidence",
+      "scenario_ids": [
+        "survey-evidence"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-bank",
+      "scenario_ids": [
+        "billing-dispute"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-feedback",
+      "scenario_ids": [
+        "draft-feedback"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-park",
+      "scenario_ids": [
+        "public-space-planning"
+      ]
+    },
+    {
+      "dialogue_id": "pilot01-schedule",
+      "scenario_ids": [
+        "project-delivery"
+      ]
+    }
+  ],
+  "senses": [
+    {
+      "sense_id": "p01-w001-sense01",
+      "pilot_id": "p01-w001",
+      "target_id": "ox-1896dd84cff928cb",
+      "lemma": "reservation",
+      "pos": "n.",
+      "sense_zh": "预订",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w002-sense01",
+      "pilot_id": "p01-w002",
+      "target_id": "ox-5bd31d3e75d105f5",
+      "lemma": "date",
+      "pos": "n.",
+      "sense_zh": "日期",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s01"
+              ]
+            }
+          ]
+        },
+        {
+          "scenario_id": "project-delivery",
+          "status": "suggested",
+          "rationale_zh": "交付安排也需要明确日期。"
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w003-sense01",
+      "pilot_id": "p01-w003",
+      "target_id": "ox-a17ad01d2de69d4d",
+      "lemma": "single",
+      "pos": "adj.",
+      "sense_zh": "单人的",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s02",
+                "pilot01-booking-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w004-sense01",
+      "pilot_id": "p01-w004",
+      "target_id": "ox-60885e9ebbf7c1c4",
+      "lemma": "double",
+      "pos": "adj.",
+      "sense_zh": "双人的",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w005-sense01",
+      "pilot_id": "p01-w005",
+      "target_id": "ox-a50881cdc4c327d3",
+      "lemma": "breakfast",
+      "pos": "n.",
+      "sense_zh": "早餐",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w006-sense01",
+      "pilot_id": "p01-w006",
+      "target_id": "ox-ad20770a7aac9e30",
+      "lemma": "price",
+      "pos": "n.",
+      "sense_zh": "价格",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w007-sense01",
+      "pilot_id": "p01-w007",
+      "target_id": "ox-ed2901da05e10c80",
+      "lemma": "passport",
+      "pos": "n.",
+      "sense_zh": "护照",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w008-sense01",
+      "pilot_id": "p01-w008",
+      "target_id": "ox-9d9d98c48f7af2a7",
+      "lemma": "flight",
+      "pos": "n.",
+      "sense_zh": "航班",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w009-sense01",
+      "pilot_id": "p01-w009",
+      "target_id": "ox-1738911668a2097b",
+      "lemma": "midnight",
+      "pos": "n.",
+      "sense_zh": "午夜",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w010-sense01",
+      "pilot_id": "p01-w010",
+      "target_id": "ox-87f2ab6602e3fe93",
+      "lemma": "confirmation",
+      "pos": "n.",
+      "sense_zh": "确认信息",
+      "scenario_links": [
+        {
+          "scenario_id": "accommodation-change",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-booking",
+              "sentence_ids": [
+                "pilot01-booking-s06"
+              ]
+            }
+          ]
+        },
+        {
+          "scenario_id": "home-repair",
+          "status": "suggested",
+          "rationale_zh": "维修预约可以需要书面确认信息。"
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w011-sense01",
+      "pilot_id": "p01-w011",
+      "target_id": "ox-1df0d41b1e6d6d03",
+      "lemma": "leak",
+      "pos": "n.",
+      "sense_zh": "漏水处或漏水现象",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w012-sense01",
+      "pilot_id": "p01-w012",
+      "target_id": "ox-5c50f62a4e622ea7",
+      "lemma": "kitchen",
+      "pos": "n.",
+      "sense_zh": "厨房",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w013-sense01",
+      "pilot_id": "p01-w013",
+      "target_id": "ox-015a7ee984e777b5",
+      "lemma": "water",
+      "pos": "n.",
+      "sense_zh": "水",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w014-sense01",
+      "pilot_id": "p01-w014",
+      "target_id": "ox-9bc2fe0abbb2bf85",
+      "lemma": "floor",
+      "pos": "n.",
+      "sense_zh": "地面",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w015-sense01",
+      "pilot_id": "p01-w015",
+      "target_id": "ox-d8362e04b8d757de",
+      "lemma": "wet",
+      "pos": "adj.",
+      "sense_zh": "湿的",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w016-sense01",
+      "pilot_id": "p01-w016",
+      "target_id": "ox-a71a5b3209f11808",
+      "lemma": "repair",
+      "pos": "n.",
+      "sense_zh": "维修",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w017-sense01",
+      "pilot_id": "p01-w017",
+      "target_id": "ox-e1132ee76d3c259d",
+      "lemma": "safe",
+      "pos": "adj.",
+      "sense_zh": "安全的",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w018-sense01",
+      "pilot_id": "p01-w018",
+      "target_id": "ox-c61f1fbf5c474097",
+      "lemma": "access",
+      "pos": "n.",
+      "sense_zh": "进入的机会或权限",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s05"
+              ]
+            }
+          ]
+        },
+        {
+          "scenario_id": "public-space-planning",
+          "status": "suggested",
+          "rationale_zh": "公共空间设计也涉及进入的机会或权限。"
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w019-sense01",
+      "pilot_id": "p01-w019",
+      "target_id": "ox-6de7025ea439fa72",
+      "lemma": "confirm",
+      "pos": "v.",
+      "sense_zh": "确认",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w020-sense01",
+      "pilot_id": "p01-w020",
+      "target_id": "ox-e0354eeffdbd81ed",
+      "lemma": "appointment",
+      "pos": "n.",
+      "sense_zh": "约定的会面时间",
+      "scenario_links": [
+        {
+          "scenario_id": "home-repair",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-repair",
+              "sentence_ids": [
+                "pilot01-repair-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w021-sense01",
+      "pilot_id": "p01-w021",
+      "target_id": "ox-a22a4087d47f6a10",
+      "lemma": "share",
+      "pos": "v.",
+      "sense_zh": "共同享用",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w022-sense01",
+      "pilot_id": "p01-w022",
+      "target_id": "ox-0a3fa36287f80e90",
+      "lemma": "salad",
+      "pos": "n.",
+      "sense_zh": "沙拉",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s01",
+                "pilot01-lunch-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w023-sense01",
+      "pilot_id": "p01-w023",
+      "target_id": "ox-e18d77e7a1872301",
+      "lemma": "bread",
+      "pos": "n.",
+      "sense_zh": "面包",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w024-sense01",
+      "pilot_id": "p01-w024",
+      "target_id": "ox-2c0dd018fda30fb7",
+      "lemma": "nut",
+      "pos": "n.",
+      "sense_zh": "坚果",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s02",
+                "pilot01-lunch-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w025-sense01",
+      "pilot_id": "p01-w025",
+      "target_id": "ox-0562c7a5022bacff",
+      "lemma": "ingredient",
+      "pos": "n.",
+      "sense_zh": "配料",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w026-sense01",
+      "pilot_id": "p01-w026",
+      "target_id": "ox-03a6827e7887e555",
+      "lemma": "contain",
+      "pos": "v.",
+      "sense_zh": "含有",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w027-sense01",
+      "pilot_id": "p01-w027",
+      "target_id": "ox-9f7c3e941eee53a6",
+      "lemma": "serve",
+      "pos": "v.",
+      "sense_zh": "端上食物",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w028-sense01",
+      "pilot_id": "p01-w028",
+      "target_id": "ox-b74b1e205eff4d84",
+      "lemma": "instead",
+      "pos": "adv.",
+      "sense_zh": "作为替代",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w029-sense01",
+      "pilot_id": "p01-w029",
+      "target_id": "ox-67ec5e876036e824",
+      "lemma": "chef",
+      "pos": "n.",
+      "sense_zh": "厨师",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w030-sense01",
+      "pilot_id": "p01-w030",
+      "target_id": "ox-4724dcfa60c8e29d",
+      "lemma": "concern",
+      "pos": "n.",
+      "sense_zh": "担忧",
+      "scenario_links": [
+        {
+          "scenario_id": "dietary-needs",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-lunch",
+              "sentence_ids": [
+                "pilot01-lunch-s06"
+              ]
+            }
+          ]
+        },
+        {
+          "scenario_id": "home-repair",
+          "status": "suggested",
+          "rationale_zh": "报修时可表达安全担忧。"
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w031-sense01",
+      "pilot_id": "p01-w031",
+      "target_id": "ox-50553bf92fae40c9",
+      "lemma": "route",
+      "pos": "n.",
+      "sense_zh": "路线",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w032-sense01",
+      "pilot_id": "p01-w032",
+      "target_id": "ox-4c142adaa4eb8597",
+      "lemma": "journey",
+      "pos": "n.",
+      "sense_zh": "旅程",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w033-sense01",
+      "pilot_id": "p01-w033",
+      "target_id": "ox-e4a06efdd1491d8b",
+      "lemma": "fare",
+      "pos": "n.",
+      "sense_zh": "车费",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w034-sense01",
+      "pilot_id": "p01-w034",
+      "target_id": "ox-90c5c963686feb89",
+      "lemma": "opposite",
+      "pos": "prep.",
+      "sense_zh": "在对面",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w035-sense01",
+      "pilot_id": "p01-w035",
+      "target_id": "ox-da807c4317cac42a",
+      "lemma": "station",
+      "pos": "n.",
+      "sense_zh": "车站",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w036-sense01",
+      "pilot_id": "p01-w036",
+      "target_id": "ox-688e2ad31497fefa",
+      "lemma": "driver",
+      "pos": "n.",
+      "sense_zh": "司机",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w037-sense01",
+      "pilot_id": "p01-w037",
+      "target_id": "ox-d18d31dec05cdc15",
+      "lemma": "direct",
+      "pos": "adj.",
+      "sense_zh": "直达的",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s05",
+                "pilot01-journey-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w038-sense01",
+      "pilot_id": "p01-w038",
+      "target_id": "ox-ed91b8616abb6677",
+      "lemma": "transfer",
+      "pos": "v.",
+      "sense_zh": "换乘",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w039-sense01",
+      "pilot_id": "p01-w039",
+      "target_id": "ox-b284d675072328c7",
+      "lemma": "extra",
+      "pos": "adj.",
+      "sense_zh": "额外的",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w040-sense01",
+      "pilot_id": "p01-w040",
+      "target_id": "ox-bb9872b1e698f9a2",
+      "lemma": "delay",
+      "pos": "n.",
+      "sense_zh": "延误",
+      "scenario_links": [
+        {
+          "scenario_id": "transport-alternative",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-journey",
+              "sentence_ids": [
+                "pilot01-journey-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w041-sense01",
+      "pilot_id": "p01-w041",
+      "target_id": "ox-61c635a60158d8f1",
+      "lemma": "budget",
+      "pos": "n.",
+      "sense_zh": "预算",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w042-sense01",
+      "pilot_id": "p01-w042",
+      "target_id": "ox-1b75a3d185b62ba9",
+      "lemma": "expense",
+      "pos": "n.",
+      "sense_zh": "费用",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w043-sense01",
+      "pilot_id": "p01-w043",
+      "target_id": "ox-8af6173d1bd6530b",
+      "lemma": "reduce",
+      "pos": "v.",
+      "sense_zh": "减少",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w044-sense01",
+      "pilot_id": "p01-w044",
+      "target_id": "ox-32ba514a6692694c",
+      "lemma": "venue",
+      "pos": "n.",
+      "sense_zh": "活动场地",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s02",
+                "pilot01-budget-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w045-sense01",
+      "pilot_id": "p01-w045",
+      "target_id": "ox-253b3444eddb8a4d",
+      "lemma": "estimate",
+      "pos": "n.",
+      "sense_zh": "估算",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w046-sense01",
+      "pilot_id": "p01-w046",
+      "target_id": "ox-c4e7f4158270d4a8",
+      "lemma": "affect",
+      "pos": "v.",
+      "sense_zh": "影响",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w047-sense01",
+      "pilot_id": "p01-w047",
+      "target_id": "ox-589852eb7d7f2701",
+      "lemma": "quality",
+      "pos": "n.",
+      "sense_zh": "质量",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w048-sense01",
+      "pilot_id": "p01-w048",
+      "target_id": "ox-cadfa135f3766295",
+      "lemma": "priority",
+      "pos": "n.",
+      "sense_zh": "优先考虑的事",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w049-sense01",
+      "pilot_id": "p01-w049",
+      "target_id": "ox-154a8d39cf6abd3e",
+      "lemma": "compare",
+      "pos": "v.",
+      "sense_zh": "比较",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s05"
+              ]
+            }
+          ]
+        },
+        {
+          "scenario_id": "transport-alternative",
+          "status": "suggested",
+          "rationale_zh": "可比较不同交通方案。"
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w050-sense01",
+      "pilot_id": "p01-w050",
+      "target_id": "ox-e36818f27c626e6d",
+      "lemma": "decision",
+      "pos": "n.",
+      "sense_zh": "决定",
+      "scenario_links": [
+        {
+          "scenario_id": "event-budget",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-budget",
+              "sentence_ids": [
+                "pilot01-budget-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w051-sense01",
+      "pilot_id": "p01-w051",
+      "target_id": "ox-1eedceb6fb96d13b",
+      "lemma": "survey",
+      "pos": "n.",
+      "sense_zh": "调查",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w052-sense01",
+      "pilot_id": "p01-w052",
+      "target_id": "ox-39d5556e1526fec0",
+      "lemma": "evidence",
+      "pos": "n.",
+      "sense_zh": "证据",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w053-sense01",
+      "pilot_id": "p01-w053",
+      "target_id": "ox-81c1d1f2fe0c87f4",
+      "lemma": "conclusion",
+      "pos": "n.",
+      "sense_zh": "结论",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w054-sense01",
+      "pilot_id": "p01-w054",
+      "target_id": "ox-6d8604e6136523a0",
+      "lemma": "sample",
+      "pos": "n.",
+      "sense_zh": "样本",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w055-sense01",
+      "pilot_id": "p01-w055",
+      "target_id": "ox-dfd33657c3ce558f",
+      "lemma": "limitation",
+      "pos": "n.",
+      "sense_zh": "局限",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w056-sense01",
+      "pilot_id": "p01-w056",
+      "target_id": "ox-4bc0db422b07e127",
+      "lemma": "assume",
+      "pos": "v.",
+      "sense_zh": "假定",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w057-sense01",
+      "pilot_id": "p01-w057",
+      "target_id": "ox-6150bb58115eaf8d",
+      "lemma": "pattern",
+      "pos": "n.",
+      "sense_zh": "规律或模式",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w058-sense01",
+      "pilot_id": "p01-w058",
+      "target_id": "ox-18aaba4a646eb3a3",
+      "lemma": "research",
+      "pos": "n.",
+      "sense_zh": "研究",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w059-sense01",
+      "pilot_id": "p01-w059",
+      "target_id": "ox-5d70681ca4aef44a",
+      "lemma": "distinction",
+      "pos": "n.",
+      "sense_zh": "区别",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w060-sense01",
+      "pilot_id": "p01-w060",
+      "target_id": "ox-9513cbba3e62a8d2",
+      "lemma": "accurate",
+      "pos": "adj.",
+      "sense_zh": "准确的",
+      "scenario_links": [
+        {
+          "scenario_id": "survey-evidence",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-evidence",
+              "sentence_ids": [
+                "pilot01-evidence-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w061-sense01",
+      "pilot_id": "p01-w061",
+      "target_id": "ox-51c7b82de58458f5",
+      "lemma": "charge",
+      "pos": "n.",
+      "sense_zh": "扣收的费用",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w062-sense01",
+      "pilot_id": "p01-w062",
+      "target_id": "ox-e1c642934b59a706",
+      "lemma": "bank",
+      "pos": "n.",
+      "sense_zh": "银行",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w063-sense01",
+      "pilot_id": "p01-w063",
+      "target_id": "ox-d25d6b51f26b19f3",
+      "lemma": "statement",
+      "pos": "n.",
+      "sense_zh": "银行账单",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w064-sense01",
+      "pilot_id": "p01-w064",
+      "target_id": "ox-3b408396df4a85bf",
+      "lemma": "amount",
+      "pos": "n.",
+      "sense_zh": "金额",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w065-sense01",
+      "pilot_id": "p01-w065",
+      "target_id": "ox-9bb001bfdec9b46e",
+      "lemma": "annual",
+      "pos": "adj.",
+      "sense_zh": "每年的",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w066-sense01",
+      "pilot_id": "p01-w066",
+      "target_id": "ox-acce8f2a46bf8ee8",
+      "lemma": "subscription",
+      "pos": "n.",
+      "sense_zh": "订阅",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w067-sense01",
+      "pilot_id": "p01-w067",
+      "target_id": "ox-43e18e1961d09be7",
+      "lemma": "record",
+      "pos": "n.",
+      "sense_zh": "书面记录",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s04"
+              ]
+            }
+          ]
+        },
+        {
+          "scenario_id": "survey-evidence",
+          "status": "suggested",
+          "rationale_zh": "调查证据可以保留书面记录。"
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w068-sense01",
+      "pilot_id": "p01-w068",
+      "target_id": "ox-d4096d3d8ec4a681",
+      "lemma": "request",
+      "pos": "v.",
+      "sense_zh": "请求",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s05"
+              ]
+            }
+          ]
+        },
+        {
+          "scenario_id": "accommodation-change",
+          "status": "suggested",
+          "rationale_zh": "住客可请求调整预订。"
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w069-sense01",
+      "pilot_id": "p01-w069",
+      "target_id": "ox-29dcf5a054b0a590",
+      "lemma": "response",
+      "pos": "n.",
+      "sense_zh": "答复",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w070-sense01",
+      "pilot_id": "p01-w070",
+      "target_id": "ox-9a826964a6df4f80",
+      "lemma": "dispute",
+      "pos": "n.",
+      "sense_zh": "争议",
+      "scenario_links": [
+        {
+          "scenario_id": "billing-dispute",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-bank",
+              "sentence_ids": [
+                "pilot01-bank-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w071-sense01",
+      "pilot_id": "p01-w071",
+      "target_id": "ox-e7c56948b12ce760",
+      "lemma": "draft",
+      "pos": "n.",
+      "sense_zh": "草稿",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w072-sense01",
+      "pilot_id": "p01-w072",
+      "target_id": "ox-4b3c21acd5ce91a0",
+      "lemma": "suggest",
+      "pos": "v.",
+      "sense_zh": "建议",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w073-sense01",
+      "pilot_id": "p01-w073",
+      "target_id": "ox-cb7d0a1764dfa56b",
+      "lemma": "benefit",
+      "pos": "n.",
+      "sense_zh": "好处",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w074-sense01",
+      "pilot_id": "p01-w074",
+      "target_id": "ox-6c4e4a590a0199e1",
+      "lemma": "remove",
+      "pos": "v.",
+      "sense_zh": "删除",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w075-sense01",
+      "pilot_id": "p01-w075",
+      "target_id": "ox-a1324e777ab5c3c2",
+      "lemma": "feedback",
+      "pos": "n.",
+      "sense_zh": "反馈",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w076-sense01",
+      "pilot_id": "p01-w076",
+      "target_id": "ox-635cb3b553a111cb",
+      "lemma": "argument",
+      "pos": "n.",
+      "sense_zh": "论证（支持观点的理由）",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w077-sense01",
+      "pilot_id": "p01-w077",
+      "target_id": "ox-555badd8cb69cf1e",
+      "lemma": "brief",
+      "pos": "adj.",
+      "sense_zh": "简短的",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w078-sense01",
+      "pilot_id": "p01-w078",
+      "target_id": "ox-498e800408a76f6a",
+      "lemma": "revise",
+      "pos": "v.",
+      "sense_zh": "修改",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w079-sense01",
+      "pilot_id": "p01-w079",
+      "target_id": "ox-21ffbcbb90263048",
+      "lemma": "reasonable",
+      "pos": "adj.",
+      "sense_zh": "合理的",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w080-sense01",
+      "pilot_id": "p01-w080",
+      "target_id": "ox-920a964508cd7d1e",
+      "lemma": "flexible",
+      "pos": "adj.",
+      "sense_zh": "灵活的",
+      "scenario_links": [
+        {
+          "scenario_id": "draft-feedback",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-feedback",
+              "sentence_ids": [
+                "pilot01-feedback-s07"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w081-sense01",
+      "pilot_id": "p01-w081",
+      "target_id": "ox-bc8916750988d9e1",
+      "lemma": "proposal",
+      "pos": "n.",
+      "sense_zh": "提议",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w082-sense01",
+      "pilot_id": "p01-w082",
+      "target_id": "ox-2699b3e791efbdbc",
+      "lemma": "site",
+      "pos": "n.",
+      "sense_zh": "地点",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s01"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w083-sense01",
+      "pilot_id": "p01-w083",
+      "target_id": "ox-36b8b08ad851b155",
+      "lemma": "community",
+      "pos": "n.",
+      "sense_zh": "社区",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w084-sense01",
+      "pilot_id": "p01-w084",
+      "target_id": "ox-2aef217d1094417f",
+      "lemma": "ensure",
+      "pos": "v.",
+      "sense_zh": "确保",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w085-sense01",
+      "pilot_id": "p01-w085",
+      "target_id": "ox-c2ea84005b65bb8b",
+      "lemma": "mobility",
+      "pos": "n.",
+      "sense_zh": "行动能力",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w086-sense01",
+      "pilot_id": "p01-w086",
+      "target_id": "ox-32830eb691513074",
+      "lemma": "entrance",
+      "pos": "n.",
+      "sense_zh": "入口",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w087-sense01",
+      "pilot_id": "p01-w087",
+      "target_id": "ox-90d3f69147f768f1",
+      "lemma": "level",
+      "pos": "adj.",
+      "sense_zh": "平坦的",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w088-sense01",
+      "pilot_id": "p01-w088",
+      "target_id": "ox-50fa621ca290e402",
+      "lemma": "responsible",
+      "pos": "adj.",
+      "sense_zh": "负责的",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w089-sense01",
+      "pilot_id": "p01-w089",
+      "target_id": "ox-6ff4751f7e402065",
+      "lemma": "maintenance",
+      "pos": "n.",
+      "sense_zh": "维护",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w090-sense01",
+      "pilot_id": "p01-w090",
+      "target_id": "ox-404a091df68c9929",
+      "lemma": "damage",
+      "pos": "n.",
+      "sense_zh": "损坏",
+      "scenario_links": [
+        {
+          "scenario_id": "public-space-planning",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-park",
+              "sentence_ids": [
+                "pilot01-park-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w091-sense01",
+      "pilot_id": "p01-w091",
+      "target_id": "ox-4cd27ab4167fdca0",
+      "lemma": "risk",
+      "pos": "n.",
+      "sense_zh": "风险",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s02"
+              ]
+            }
+          ]
+        },
+        {
+          "scenario_id": "event-budget",
+          "status": "suggested",
+          "rationale_zh": "活动预算取舍可以涉及风险。"
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w092-sense01",
+      "pilot_id": "p01-w092",
+      "target_id": "ox-cb87074e3038b571",
+      "lemma": "depend",
+      "pos": "v.",
+      "sense_zh": "依赖",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w093-sense01",
+      "pilot_id": "p01-w093",
+      "target_id": "ox-1a8f34c9f5a2b6cc",
+      "lemma": "design",
+      "pos": "n.",
+      "sense_zh": "设计",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w094-sense01",
+      "pilot_id": "p01-w094",
+      "target_id": "ox-7f16e25407f37792",
+      "lemma": "component",
+      "pos": "n.",
+      "sense_zh": "部件",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w095-sense01",
+      "pilot_id": "p01-w095",
+      "target_id": "ox-6eec8b4a761015f2",
+      "lemma": "alternative",
+      "pos": "n.",
+      "sense_zh": "替代方案",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w096-sense01",
+      "pilot_id": "p01-w096",
+      "target_id": "ox-c6fc26466468f7c1",
+      "lemma": "permission",
+      "pos": "n.",
+      "sense_zh": "许可",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w097-sense01",
+      "pilot_id": "p01-w097",
+      "target_id": "ox-bb1a90dc64481eb9",
+      "lemma": "requirement",
+      "pos": "n.",
+      "sense_zh": "要求",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w098-sense01",
+      "pilot_id": "p01-w098",
+      "target_id": "ox-c1f051d9b09b929a",
+      "lemma": "scope",
+      "pos": "n.",
+      "sense_zh": "范围",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w099-sense01",
+      "pilot_id": "p01-w099",
+      "target_id": "ox-70bcd2a2ebd16b9c",
+      "lemma": "commitment",
+      "pos": "n.",
+      "sense_zh": "承诺",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sense_id": "p01-w100-sense01",
+      "pilot_id": "p01-w100",
+      "target_id": "ox-599f976dc5971f83",
+      "lemma": "assess",
+      "pos": "v.",
+      "sense_zh": "评估",
+      "scenario_links": [
+        {
+          "scenario_id": "project-delivery",
+          "status": "attested",
+          "evidence": [
+            {
+              "dialogue_id": "pilot01-schedule",
+              "sentence_ids": [
+                "pilot01-schedule-s06"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

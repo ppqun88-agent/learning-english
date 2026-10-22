@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {
+      "id": "travel",
+      "label_zh": "出行与住宿",
+      "scope_zh": "交通、住宿及行程沟通"
+    },
+    {
+      "id": "home",
+      "label_zh": "居家生活",
+      "scope_zh": "居住环境、设施与维修"
+    },
+    {
+      "id": "food",
+      "label_zh": "饮食沟通",
+      "scope_zh": "点餐、配料与饮食需求"
+    },
+    {
+      "id": "work",
+      "label_zh": "工作与协作",
+      "scope_zh": "项目、活动、协作及反馈"
+    },
+    {
+      "id": "reasoning",
+      "label_zh": "研究与论证",
+      "scope_zh": "调查、证据与推理边界"
+    },
+    {
+      "id": "services",
+      "label_zh": "消费与服务",
+      "scope_zh": "账单、订阅及消费争议"
+    },
+    {
+      "id": "community",
+      "label_zh": "社区与公共空间",
+      "scope_zh": "公共空间、使用需求及维护"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "accommodation-change",
+      "topic_id": "travel",
+      "label_zh": "修改旅馆预订",
+      "goal_zh": "调整入住日期并确认房型与到店安排"
+    },
+    {
+      "id": "home-repair",
+      "topic_id": "home",
+      "label_zh": "报修漏水",
+      "goal_zh": "说明漏水情况并约定安全检查与维修"
+    },
+    {
+      "id": "dietary-needs",
+      "topic_id": "food",
+      "label_zh": "沟通饮食限制",
+      "goal_zh": "核对配料并沟通食物过敏与交叉接触担忧"
+    },
+    {
+      "id": "transport-alternative",
+      "topic_id": "travel",
+      "label_zh": "改用替代交通",
+      "goal_zh": "错过火车后询问路线、票价及换乘"
+    },
+    {
+      "id": "event-budget",
+      "topic_id": "work",
+      "label_zh": "调整活动预算",
+      "goal_zh": "比较场地方案并明确预算取舍"
+    },
+    {
+      "id": "survey-evidence",
+      "topic_id": "reasoning",
+      "label_zh": "讨论调查证据",
+      "goal_zh": "核对样本、局限与结论的依据"
+    },
+    {
+      "id": "billing-dispute",
+      "topic_id": "services",
+      "label_zh": "核对账单与争议",
+      "goal_zh": "核对不熟悉的扣费并询问后续处理"
+    },
+    {
+      "id": "draft-feedback",
+      "topic_id": "work",
+      "label_zh": "反馈与修改草稿",
+      "goal_zh": "提出可操作反馈并协商修订安排"
+    },
+    {
+      "id": "public-space-planning",
+      "topic_id": "community",
+      "label_zh": "讨论公共空间方案",
+      "goal_zh": "讨论社区公园的可达性与维护责任"
+    },
+    {
+      "id": "project-delivery",
+      "topic_id": "work",
+      "label_zh": "协调项目交付",
+      "goal_zh": "澄清依赖、范围、风险与承诺"
+    }
+  ]
+}

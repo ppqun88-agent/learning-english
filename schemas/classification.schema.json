@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "classification",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "scope": {
+      "const": "oxford-100-v1"
+    },
+    "dialogues": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "dialogue_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scenario_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "dialogue_id",
+          "scenario_ids"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "senses": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "sense_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pilot_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "target_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lemma": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pos": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sense_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scenario_links": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "scenario_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "status": {
+                      "const": "attested"
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "dialogue_id": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "sentence_ids": {
+                            "type": "array",
+                            "minItems": 1,
+                            "uniqueItems": true,
+                            "items": {
+                              "type": "string",
+                              "minLength": 1
+                            }
+                          }
+                        },
+                        "required": [
+                          "dialogue_id",
+                          "sentence_ids"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "scenario_id",
+                    "status",
+                    "evidence"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "scenario_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "status": {
+                      "const": "suggested"
+                    },
+                    "rationale_zh": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "scenario_id",
+                    "status",
+                    "rationale_zh"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "sense_id",
+          "target_id",
+          "lemma",
+          "pos",
+          "sense_zh",
+          "scenario_links"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "scope",
+    "dialogues",
+    "senses"
+  ],
+  "additionalProperties": false
+}

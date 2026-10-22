@@ -41,3 +41,9 @@ python3 tools/render_pilot.py
 先由用户试读若干篇，判断文本难度、场景兴趣及中文提示是否够用；反馈后修改对应句子与审核记录，再决定是否扩大。扩大时优先补未覆盖词性/义项与场景缺口，不按固定篇数铺量。音频暂缓，不调用付费 API，不引入外部表格服务。材料仅本仓库独立分支提交，不合并或部署。
 
 文本和简短中文教学说明为原创。所选 100 词保留来源可追溯性，不重新分发完整 Oxford 词表或 PDF，不复制长篇词典释义。来源权利说明见 ../../docs/resource-integration.md；不能将 Oxford 原始内容宣称为 MIT。
+
+## 分类与反向检索
+
+新增 [情景目录与单词反查](classification.md)，按 7 个主题、10 个具体情景浏览，或按字母查单词的词性、具体义项、原对话和句子。结构化文件为 [classification.json](classification.json)；通用分类字典与扩展说明见 [分类规范](../../docs/scene-classification.md)。8 条候选情景关联明确标为“建议关联（未覆盖）”，不改变原有 100/100 覆盖台账，也不要求重复或补写。
+
+运行 `python3 tools/classify_pilot.py --write` 重建目录，运行 `python3 tools/classify_pilot.py` 验证分类和目录同步。旧试验的唯一分配约束只检查旧台账；新分类层本身支持义项与情景的多对多关系。
