@@ -1,0 +1,105 @@
+{
+  "id": "p07-a-26",
+  "title_zh": "区分课堂虚构案例中的大会和立法机构",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "civics-congress-presentation-check",
+    "label_zh": "核对虚构公民教育案例中的机构关系",
+    "goal_zh": "依据案例说明区分选民、政党大会和立法机构，并约定重画职责图示"
+  },
+  "participants": [
+    "Luca",
+    "Esme"
+  ],
+  "context_zh": "学生使用虚构共和国的公民教育案例练习展示；对话不描述现实国家的现行法律。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-26-s01",
+      "speaker": "Luca",
+      "text": "In our fictional republic, is the party convention the same thing as the congress?"
+    },
+    {
+      "id": "p07-a-26-s02",
+      "speaker": "Esme",
+      "text": "No. Look at the case notes: the party meets at a convention to choose its candidate. The congress is the national law-making body."
+    },
+    {
+      "id": "p07-a-26-s03",
+      "speaker": "Luca",
+      "text": "So every citizen who votes in an election is also a member of the congress?"
+    },
+    {
+      "id": "p07-a-26-s04",
+      "speaker": "Esme",
+      "text": "Not in this case. Voters choose representatives; the representatives hold the seats."
+    },
+    {
+      "id": "p07-a-26-s05",
+      "speaker": "Luca",
+      "text": "I see. My diagram mixes the voters, the party meeting, and the elected body together."
+    },
+    {
+      "id": "p07-a-26-s06",
+      "speaker": "Esme",
+      "text": "Give them separate boxes and label what each does."
+    },
+    {
+      "id": "p07-a-26-s07",
+      "speaker": "Luca",
+      "text": "I'll redraw it that way and use the case notes rather than guessing from the names."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1340cdc3f2f58ddb",
+      "lemma": "convention",
+      "pos": "n.",
+      "sense_zh": "政党代表大会",
+      "sentence_ids": [
+        "p07-a-26-s01"
+      ],
+      "forms": [
+        "convention"
+      ],
+      "sense_id": "sense-staged-ox-1340cdc3f2f58ddb-p07-a-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c34754561daee6c9",
+      "lemma": "congress",
+      "pos": "n.",
+      "sense_zh": "国家立法机构",
+      "sentence_ids": [
+        "p07-a-26-s01"
+      ],
+      "forms": [
+        "congress"
+      ],
+      "sense_id": "sense-staged-ox-c34754561daee6c9-p07-a-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f48a0668dc34b4e8",
+      "lemma": "citizen",
+      "pos": "n.",
+      "sense_zh": "公民",
+      "sentence_ids": [
+        "p07-a-26-s03"
+      ],
+      "forms": [
+        "citizen"
+      ],
+      "sense_id": "sense-staged-ox-f48a0668dc34b4e8-p07-a-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

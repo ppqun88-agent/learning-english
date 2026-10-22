@@ -1,0 +1,105 @@
+{
+  "id": "p07-a-31",
+  "title_zh": "核对摄影比赛资格后决定提交",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "contest-entry-scope-check",
+    "label_zh": "核对摄影比赛参赛与提交要求",
+    "goal_zh": "确认照片资格、正确截止日与线上提交方式，决定在截止前提交但不声称已完成"
+  },
+  "participants": [
+    "Nell",
+    "Gus"
+  ],
+  "context_zh": "业余摄影者询问比赛工作人员，确认其照片是否符合赛事规则及如何提交。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-31-s01",
+      "speaker": "Nell",
+      "text": "I'd like to enter the photography contest, but my picture has already appeared on my own website. Is that allowed?"
+    },
+    {
+      "id": "p07-a-31-s02",
+      "speaker": "Gus",
+      "text": "Yes. Our rules only exclude photographs that have already won a prize in another competition."
+    },
+    {
+      "id": "p07-a-31-s03",
+      "speaker": "Nell",
+      "text": "Good. There's also a conflict between the closing date on the poster and the one on the entry form."
+    },
+    {
+      "id": "p07-a-31-s04",
+      "speaker": "Gus",
+      "text": "The form is correct: entries close on Friday. We'll replace the old poster today."
+    },
+    {
+      "id": "p07-a-31-s05",
+      "speaker": "Nell",
+      "text": "Can I send the image online, or do you need a print?"
+    },
+    {
+      "id": "p07-a-31-s06",
+      "speaker": "Gus",
+      "text": "Use the online form. For your convenience, the upload instructions are on the same page."
+    },
+    {
+      "id": "p07-a-31-s07",
+      "speaker": "Nell",
+      "text": "Thanks. I'll read those and submit the image before Friday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-46b74b3806c3a46b",
+      "lemma": "contest",
+      "pos": "n.",
+      "sense_zh": "比赛",
+      "sentence_ids": [
+        "p07-a-31-s01"
+      ],
+      "forms": [
+        "contest"
+      ],
+      "sense_id": "sense-staged-ox-46b74b3806c3a46b-p07-a-31",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26377bd2c724e93f",
+      "lemma": "conflict",
+      "pos": "n.",
+      "sense_zh": "信息之间的不一致或冲突",
+      "sentence_ids": [
+        "p07-a-31-s03"
+      ],
+      "forms": [
+        "conflict"
+      ],
+      "sense_id": "sense-staged-ox-26377bd2c724e93f-p07-a-31",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-15e098f5f358b1f0",
+      "lemma": "convenience",
+      "pos": "n.",
+      "sense_zh": "便利",
+      "sentence_ids": [
+        "p07-a-31-s06"
+      ],
+      "forms": [
+        "convenience"
+      ],
+      "sense_id": "sense-staged-ox-15e098f5f358b1f0-p07-a-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

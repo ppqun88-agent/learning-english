@@ -1,0 +1,142 @@
+{
+  "id": "p07-b-08",
+  "title_zh": "数据库崩溃后先保留原件并检查备份",
+  "topic_id": "work",
+  "scenario": {
+    "id": "database-crash-backup-check",
+    "label_zh": "数据库崩溃后约定先检查备份",
+    "goal_zh": "保留原文件并分工检查磁盘与备份再决定恢复操作"
+  },
+  "participants": [
+    "Tessa",
+    "Robin"
+  ],
+  "context_zh": "办公室数据库导入失败后，两位同事商定排查顺序；对话不声称已经恢复数据。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-08-s01",
+      "speaker": "Tessa",
+      "text": "Did the database crash while you were importing the orders?"
+    },
+    {
+      "id": "p07-b-08-s02",
+      "speaker": "Robin",
+      "text": "Yes. The program closed, and now it won't open the file."
+    },
+    {
+      "id": "p07-b-08-s03",
+      "speaker": "Tessa",
+      "text": "Did the disk check detect any errors?"
+    },
+    {
+      "id": "p07-b-08-s04",
+      "speaker": "Robin",
+      "text": "I haven't run it yet. Should I delete the damaged file and start again?"
+    },
+    {
+      "id": "p07-b-08-s05",
+      "speaker": "Tessa",
+      "text": "Not yet. We don't know whether the file is damaged, and yesterday's backup may be missing today's orders."
+    },
+    {
+      "id": "p07-b-08-s06",
+      "speaker": "Robin",
+      "text": "Then I'll leave the original alone and check which backup files we have."
+    },
+    {
+      "id": "p07-b-08-s07",
+      "speaker": "Tessa",
+      "text": "Good. I'll ask IT to check the disk before we try opening another copy."
+    },
+    {
+      "id": "p07-b-08-s08",
+      "speaker": "Robin",
+      "text": "Let's compare what we find before making any changes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-eacf62619e2ca904",
+      "lemma": "database",
+      "pos": "n.",
+      "sense_zh": "数据库",
+      "sentence_ids": [
+        "p07-b-08-s01"
+      ],
+      "forms": [
+        "database"
+      ],
+      "sense_id": "sense-staged-ox-eacf62619e2ca904-p07-b-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-632c7be5b4e35b1c",
+      "lemma": "crash",
+      "pos": "v.",
+      "sense_zh": "计算机程序突然崩溃停止运行",
+      "sentence_ids": [
+        "p07-b-08-s01"
+      ],
+      "forms": [
+        "crash"
+      ],
+      "sense_id": "sense-staged-ox-632c7be5b4e35b1c-p07-b-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26658cea5bd21257",
+      "lemma": "disk",
+      "pos": "n.",
+      "sense_zh": "计算机磁盘",
+      "sentence_ids": [
+        "p07-b-08-s03"
+      ],
+      "forms": [
+        "disk"
+      ],
+      "sense_id": "sense-staged-ox-26658cea5bd21257-p07-b-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8520d466a0b8d15f",
+      "lemma": "detect",
+      "pos": "v.",
+      "sense_zh": "检测出；发现",
+      "sentence_ids": [
+        "p07-b-08-s03"
+      ],
+      "forms": [
+        "detect"
+      ],
+      "sense_id": "sense-staged-ox-8520d466a0b8d15f-p07-b-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4572dc14d0784b5c",
+      "lemma": "delete",
+      "pos": "v.",
+      "sense_zh": "删除数据或文件",
+      "sentence_ids": [
+        "p07-b-08-s04"
+      ],
+      "forms": [
+        "delete"
+      ],
+      "sense_id": "sense-staged-ox-4572dc14d0784b5c-p07-b-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

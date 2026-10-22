@@ -1,0 +1,100 @@
+{
+  "id": "p07-c-02",
+  "title_zh": "选定浅蓝色窗帘布样品",
+  "topic_id": "home",
+  "scenario": {
+    "id": "curtain-colour-fabric-choice",
+    "label_zh": "比较窗帘材质与配色",
+    "goal_zh": "比较窗帘的材质、透光性和颜色后选定样品。"
+  },
+  "participants": [
+    "Amina",
+    "Joel"
+  ],
+  "context_zh": "阿米娜在家居店比较窗帘样品，工作人员帮助她判断透光效果。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-02-s01",
+      "speaker": "Amina",
+      "text": "This dark fabric looks elegant, but will it make my small room feel even darker?"
+    },
+    {
+      "id": "p07-c-02-s02",
+      "speaker": "Joel",
+      "text": "Probably. Hold the pale blue sample up to the window and compare them."
+    },
+    {
+      "id": "p07-c-02-s03",
+      "speaker": "Amina",
+      "text": "Oh, that looks fabulous in daylight. I can still see the light through it."
+    },
+    {
+      "id": "p07-c-02-s04",
+      "speaker": "Joel",
+      "text": "It softens the light without blocking it completely. Do you want the blue sample to take home?"
+    },
+    {
+      "id": "p07-c-02-s05",
+      "speaker": "Amina",
+      "text": "Yes, please. I will check it beside the sofa before ordering the curtains."
+    },
+    {
+      "id": "p07-c-02-s06",
+      "speaker": "Joel",
+      "text": "Here you are. The material and colour numbers are on the back."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ee4bdc3f72df0636",
+      "lemma": "fabric",
+      "pos": "n.",
+      "sense_zh": "织物，布料",
+      "sentence_ids": [
+        "p07-c-02-s01"
+      ],
+      "forms": [
+        "fabric"
+      ],
+      "sense_id": "sense-staged-ox-ee4bdc3f72df0636-p07-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9ca3789b89e3df0b",
+      "lemma": "elegant",
+      "pos": "adj.",
+      "sense_zh": "雅致的",
+      "sentence_ids": [
+        "p07-c-02-s01"
+      ],
+      "forms": [
+        "elegant"
+      ],
+      "sense_id": "sense-staged-ox-9ca3789b89e3df0b-p07-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-afd7d17a1100be7b",
+      "lemma": "fabulous",
+      "pos": "adj.",
+      "sense_zh": "极好的，令人喜爱的",
+      "sentence_ids": [
+        "p07-c-02-s03"
+      ],
+      "forms": [
+        "fabulous"
+      ],
+      "sense_id": "sense-staged-ox-afd7d17a1100be7b-p07-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

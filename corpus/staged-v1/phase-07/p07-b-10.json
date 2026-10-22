@@ -1,0 +1,195 @@
+{
+  "id": "p07-b-10",
+  "title_zh": "确定旱灾援助下一轮的物资分发安排",
+  "topic_id": "community",
+  "scenario": {
+    "id": "drought-relief-delivery-plan",
+    "label_zh": "安排旱灾援助物资的下一轮分发",
+    "goal_zh": "核对农户求助与现有物资并确定分发次序及联系人"
+  },
+  "participants": [
+    "Samira",
+    "Owen"
+  ],
+  "context_zh": "虚构旱灾救助站的工作人员依据现场登记记录安排物资，不涉及真实灾情或政策。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-10-s01",
+      "speaker": "Samira",
+      "text": "The drought has left several farms without enough water. The calls this morning sound desperate."
+    },
+    {
+      "id": "p07-b-10-s02",
+      "speaker": "Owen",
+      "text": "What do the farmers say they need most urgently?"
+    },
+    {
+      "id": "p07-b-10-s03",
+      "speaker": "Samira",
+      "text": "Drinking water first. One family has lost its entire crop and desperately needs a delivery today."
+    },
+    {
+      "id": "p07-b-10-s04",
+      "speaker": "Owen",
+      "text": "The destruction of the crops is terrible, but we can't solve the whole crisis with one van."
+    },
+    {
+      "id": "p07-b-10-s05",
+      "speaker": "Samira",
+      "text": "Agreed. We have enough bottled water for today's registered households. How should we distribute it?"
+    },
+    {
+      "id": "p07-b-10-s06",
+      "speaker": "Owen",
+      "text": "Let's start with the people who cannot reach the collection point. I'll phone them to confirm they're home."
+    },
+    {
+      "id": "p07-b-10-s07",
+      "speaker": "Samira",
+      "text": "I'll prepare the boxes and update the distribution list so nobody gets missed or counted twice."
+    },
+    {
+      "id": "p07-b-10-s08",
+      "speaker": "Owen",
+      "text": "Good. Once the driver confirms the route, we can give those households an arrival window."
+    },
+    {
+      "id": "p07-b-10-s09",
+      "speaker": "Samira",
+      "text": "I'll also keep the other requests on the list for tomorrow. We shouldn't promise supplies we don't yet have."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0e611a4bbfab535a",
+      "lemma": "drought",
+      "pos": "n.",
+      "sense_zh": "长期干旱",
+      "sentence_ids": [
+        "p07-b-10-s01"
+      ],
+      "forms": [
+        "drought"
+      ],
+      "sense_id": "sense-staged-ox-0e611a4bbfab535a-p07-b-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-58f27953c698dcfa",
+      "lemma": "desperate",
+      "pos": "adj.",
+      "sense_zh": "绝望的；急切需要帮助的",
+      "sentence_ids": [
+        "p07-b-10-s01"
+      ],
+      "forms": [
+        "desperate"
+      ],
+      "sense_id": "sense-staged-ox-58f27953c698dcfa-p07-b-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f7c4d2c5fd23221",
+      "lemma": "crop",
+      "pos": "n.",
+      "sense_zh": "一季的农作物收成",
+      "sentence_ids": [
+        "p07-b-10-s03"
+      ],
+      "forms": [
+        "crop"
+      ],
+      "sense_id": "sense-staged-ox-0f7c4d2c5fd23221-p07-b-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ad857ff551374ca",
+      "lemma": "desperately",
+      "pos": "adv.",
+      "sense_zh": "极其迫切地",
+      "sentence_ids": [
+        "p07-b-10-s03"
+      ],
+      "forms": [
+        "desperately"
+      ],
+      "sense_id": "sense-staged-ox-0ad857ff551374ca-p07-b-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b13eef34075ea21f",
+      "lemma": "destruction",
+      "pos": "n.",
+      "sense_zh": "毁坏；破坏",
+      "sentence_ids": [
+        "p07-b-10-s04"
+      ],
+      "forms": [
+        "destruction"
+      ],
+      "sense_id": "sense-staged-ox-b13eef34075ea21f-p07-b-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3efe38b2a55dcc5d",
+      "lemma": "crisis",
+      "pos": "n.",
+      "sense_zh": "危机",
+      "sentence_ids": [
+        "p07-b-10-s04"
+      ],
+      "forms": [
+        "crisis"
+      ],
+      "sense_id": "sense-staged-ox-3efe38b2a55dcc5d-p07-b-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4a6ed05523ed2e83",
+      "lemma": "distribute",
+      "pos": "v.",
+      "sense_zh": "分发；分配物资",
+      "sentence_ids": [
+        "p07-b-10-s05"
+      ],
+      "forms": [
+        "distribute"
+      ],
+      "sense_id": "sense-staged-ox-4a6ed05523ed2e83-p07-b-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed9d3556c9ec0bd6",
+      "lemma": "distribution",
+      "pos": "n.",
+      "sense_zh": "分发；配送",
+      "sentence_ids": [
+        "p07-b-10-s07"
+      ],
+      "forms": [
+        "distribution"
+      ],
+      "sense_id": "sense-staged-ox-ed9d3556c9ec0bd6-p07-b-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

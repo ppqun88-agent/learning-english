@@ -1,0 +1,126 @@
+{
+  "id": "p07-a-24",
+  "title_zh": "为失约道歉并重新约好见面",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "friend-apology-and-reconnection",
+    "label_zh": "向朋友道歉并重新安排见面",
+    "goal_zh": "承认失约及其影响，澄清彼此感受并约定下一次见面"
+  },
+  "participants": [
+    "Ari",
+    "Bea"
+  ],
+  "context_zh": "两位大学时期的好友谈论上周未能成行的见面，试着恢复联系。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-24-s01",
+      "speaker": "Ari",
+      "text": "I'm sorry I left you waiting last Saturday. I need to confess something: I didn't miss a train. I forgot our plan."
+    },
+    {
+      "id": "p07-a-24-s02",
+      "speaker": "Bea",
+      "text": "I was hurt, especially when you blamed the transport. Why didn't you just tell me?"
+    },
+    {
+      "id": "p07-a-24-s03",
+      "speaker": "Ari",
+      "text": "I was embarrassed. There's no one else to blame, and I should have been honest."
+    },
+    {
+      "id": "p07-a-24-s04",
+      "speaker": "Bea",
+      "text": "We had such a strong bond at university. I miss seeing you, but I need to know when you're actually coming."
+    },
+    {
+      "id": "p07-a-24-s05",
+      "speaker": "Ari",
+      "text": "I miss it too. Could we try again this Sunday at eleven? I'll put it in my calendar now."
+    },
+    {
+      "id": "p07-a-24-s06",
+      "speaker": "Bea",
+      "text": "Yes, at the café near my flat. Besides, we never finished talking about your new job."
+    },
+    {
+      "id": "p07-a-24-s07",
+      "speaker": "Ari",
+      "text": "Eleven on Sunday, then. If anything changes, I'll tell you before you leave home."
+    },
+    {
+      "id": "p07-a-24-s08",
+      "speaker": "Bea",
+      "text": "All right. I'm glad you told me the truth."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-26dd4f4592e7d65a",
+      "lemma": "confess",
+      "pos": "v.",
+      "sense_zh": "承认自己做错或隐瞒的事",
+      "sentence_ids": [
+        "p07-a-24-s01"
+      ],
+      "forms": [
+        "confess"
+      ],
+      "sense_id": "sense-staged-ox-26dd4f4592e7d65a-p07-a-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-863f26a549f2e0a9",
+      "lemma": "blame",
+      "pos": "v.",
+      "sense_zh": "责怪或把责任归于",
+      "sentence_ids": [
+        "p07-a-24-s03"
+      ],
+      "forms": [
+        "blame"
+      ],
+      "sense_id": "sense-staged-ox-863f26a549f2e0a9-p07-a-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-651a4396c1e2c4a4",
+      "lemma": "bond",
+      "pos": "n.",
+      "sense_zh": "人与人之间的亲密纽带",
+      "sentence_ids": [
+        "p07-a-24-s04"
+      ],
+      "forms": [
+        "bond"
+      ],
+      "sense_id": "sense-staged-ox-651a4396c1e2c4a4-p07-a-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f596989e4ecb5bf2",
+      "lemma": "besides",
+      "pos": "adv.",
+      "sense_zh": "而且，此外",
+      "sentence_ids": [
+        "p07-a-24-s06"
+      ],
+      "forms": [
+        "besides"
+      ],
+      "sense_id": "sense-staged-ox-f596989e4ecb5bf2-p07-a-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

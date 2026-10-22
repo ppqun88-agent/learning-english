@@ -1,0 +1,184 @@
+{
+  "id": "p07-b-02",
+  "title_zh": "安排县议会报道的核查与编辑",
+  "topic_id": "work",
+  "scenario": {
+    "id": "local-paper-council-coverage",
+    "label_zh": "安排地方议会报道的核查与编辑",
+    "goal_zh": "明确报道范围、核对资料的截止时间和编辑分工"
+  },
+  "participants": [
+    "Ruth",
+    "Amir"
+  ],
+  "context_zh": "虚构地方报的编辑露丝与记者阿米尔安排一期会议报道，文中不涉及真实新闻。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-02-s01",
+      "speaker": "Ruth",
+      "text": "What do you have for our next edition?"
+    },
+    {
+      "id": "p07-b-02-s02",
+      "speaker": "Amir",
+      "text": "A report on yesterday's council meeting. They discussed bus services across the county."
+    },
+    {
+      "id": "p07-b-02-s03",
+      "speaker": "Ruth",
+      "text": "Does our coverage include the villages, or only the main town?"
+    },
+    {
+      "id": "p07-b-02-s04",
+      "speaker": "Amir",
+      "text": "Only the town so far. I haven't checked the proposed village routes."
+    },
+    {
+      "id": "p07-b-02-s05",
+      "speaker": "Ruth",
+      "text": "Please check those before you edit the draft. People outside town will want to know what might change."
+    },
+    {
+      "id": "p07-b-02-s06",
+      "speaker": "Amir",
+      "text": "What's the deadline for the revised version?"
+    },
+    {
+      "id": "p07-b-02-s07",
+      "speaker": "Ruth",
+      "text": "Noon tomorrow. That's our editorial deadline, not the date the council will decide anything."
+    },
+    {
+      "id": "p07-b-02-s08",
+      "speaker": "Amir",
+      "text": "Understood. I'll compare the draft with the route proposal and clearly label it as a proposal."
+    },
+    {
+      "id": "p07-b-02-s09",
+      "speaker": "Ruth",
+      "text": "Good. Send me the revised text and the document link together."
+    },
+    {
+      "id": "p07-b-02-s10",
+      "speaker": "Amir",
+      "text": "I will. I'll call the transport office this afternoon about anything the document doesn't explain."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a095c992e365e546",
+      "lemma": "edition",
+      "pos": "n.",
+      "sense_zh": "报纸的一期",
+      "sentence_ids": [
+        "p07-b-02-s01"
+      ],
+      "forms": [
+        "edition"
+      ],
+      "sense_id": "sense-staged-ox-a095c992e365e546-p07-b-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3477cd919594577d",
+      "lemma": "council",
+      "pos": "n.",
+      "sense_zh": "地方议会",
+      "sentence_ids": [
+        "p07-b-02-s02"
+      ],
+      "forms": [
+        "council"
+      ],
+      "sense_id": "sense-staged-ox-3477cd919594577d-p07-b-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b64d987c70ca30cf",
+      "lemma": "county",
+      "pos": "n.",
+      "sense_zh": "郡；县级行政区域",
+      "sentence_ids": [
+        "p07-b-02-s02"
+      ],
+      "forms": [
+        "county"
+      ],
+      "sense_id": "sense-staged-ox-b64d987c70ca30cf-p07-b-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-52015c3f4040bfc7",
+      "lemma": "coverage",
+      "pos": "n.",
+      "sense_zh": "新闻报道的范围或内容",
+      "sentence_ids": [
+        "p07-b-02-s03"
+      ],
+      "forms": [
+        "coverage"
+      ],
+      "sense_id": "sense-staged-ox-52015c3f4040bfc7-p07-b-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a78e90b04ba5ad8e",
+      "lemma": "edit",
+      "pos": "v.",
+      "sense_zh": "编辑；修改文稿",
+      "sentence_ids": [
+        "p07-b-02-s05"
+      ],
+      "forms": [
+        "edit"
+      ],
+      "sense_id": "sense-staged-ox-a78e90b04ba5ad8e-p07-b-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60450b8d9f27cdd6",
+      "lemma": "deadline",
+      "pos": "n.",
+      "sense_zh": "截止时间",
+      "sentence_ids": [
+        "p07-b-02-s06"
+      ],
+      "forms": [
+        "deadline"
+      ],
+      "sense_id": "sense-staged-ox-60450b8d9f27cdd6-p07-b-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ff2f4f627cd6484b",
+      "lemma": "editorial",
+      "pos": "adj.",
+      "sense_zh": "与编辑工作有关的",
+      "sentence_ids": [
+        "p07-b-02-s07"
+      ],
+      "forms": [
+        "editorial"
+      ],
+      "sense_id": "sense-staged-ox-ff2f4f627cd6484b-p07-b-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

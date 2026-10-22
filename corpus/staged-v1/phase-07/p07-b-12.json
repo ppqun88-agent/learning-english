@@ -1,0 +1,126 @@
+{
+  "id": "p07-b-12",
+  "title_zh": "用具体例子澄清草稿反馈的分歧",
+  "topic_id": "work",
+  "scenario": {
+    "id": "draft-feedback",
+    "label_zh": "反馈与修改草稿",
+    "goal_zh": "提出可操作反馈并协商修订安排"
+  },
+  "participants": [
+    "Ben",
+    "Priya"
+  ],
+  "context_zh": "两名同事讨论客户提案草稿的反馈，准备修改而非争论个人能力。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-12-s01",
+      "speaker": "Ben",
+      "text": "You sounded very critical of my proposal in the meeting. Is there anything you think I should keep?"
+    },
+    {
+      "id": "p07-b-12-s02",
+      "speaker": "Priya",
+      "text": "Yes, the customer examples are strong. My criticism was about the opening, not the whole document."
+    },
+    {
+      "id": "p07-b-12-s03",
+      "speaker": "Ben",
+      "text": "Then our disagreement may be smaller than I thought. I wanted readers to understand the background first."
+    },
+    {
+      "id": "p07-b-12-s04",
+      "speaker": "Priya",
+      "text": "I understand. I don't want to criticize that aim, but they need to know what you're asking for before page three."
+    },
+    {
+      "id": "p07-b-12-s05",
+      "speaker": "Ben",
+      "text": "Would a short request at the top help, with the background underneath?"
+    },
+    {
+      "id": "p07-b-12-s06",
+      "speaker": "Priya",
+      "text": "Yes. Keep the examples, but move the one about delivery closer to the request."
+    },
+    {
+      "id": "p07-b-12-s07",
+      "speaker": "Ben",
+      "text": "I'll revise the first two pages this afternoon. Could you read just those before I change the rest?"
+    },
+    {
+      "id": "p07-b-12-s08",
+      "speaker": "Priya",
+      "text": "Of course. I'll mark any sentence where the request still isn't clear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8b852c63ee587bcf",
+      "lemma": "critical",
+      "pos": "adj.",
+      "sense_zh": "批评的；指出问题的",
+      "sentence_ids": [
+        "p07-b-12-s01"
+      ],
+      "forms": [
+        "critical"
+      ],
+      "sense_id": "sense-staged-ox-8b852c63ee587bcf-p07-b-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc45fb9c0d6ea964",
+      "lemma": "criticism",
+      "pos": "n.",
+      "sense_zh": "批评意见",
+      "sentence_ids": [
+        "p07-b-12-s02"
+      ],
+      "forms": [
+        "criticism"
+      ],
+      "sense_id": "sense-staged-ox-fc45fb9c0d6ea964-p07-b-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c18cb9ea89dd28c",
+      "lemma": "disagreement",
+      "pos": "n.",
+      "sense_zh": "意见分歧",
+      "sentence_ids": [
+        "p07-b-12-s03"
+      ],
+      "forms": [
+        "disagreement"
+      ],
+      "sense_id": "sense-staged-ox-1c18cb9ea89dd28c-p07-b-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bbf71c73d3a40f98",
+      "lemma": "criticize",
+      "pos": "v.",
+      "sense_zh": "批评；指出不足",
+      "sentence_ids": [
+        "p07-b-12-s04"
+      ],
+      "forms": [
+        "criticize"
+      ],
+      "sense_id": "sense-staged-ox-bbf71c73d3a40f98-p07-b-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

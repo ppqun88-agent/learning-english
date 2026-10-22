@@ -1,0 +1,89 @@
+{
+  "id": "p07-b-29",
+  "title_zh": "请接待员转达债务咨询表的填写疑问",
+  "topic_id": "services",
+  "scenario": {
+    "id": "debt-advice-form-question",
+    "label_zh": "核对债务咨询表的信息要求",
+    "goal_zh": "询问表格要求并约定向咨询员确认如何填写尚不确定的金额"
+  },
+  "participants": [
+    "Olive",
+    "Receptionist"
+  ],
+  "context_zh": "虚构免费债务咨询服务的来电者询问首次会面前的表格要求；不讨论借贷或还款建议。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-29-s01",
+      "speaker": "Olive",
+      "text": "The form asks me to declare every amount I owe. Does that include money borrowed from a relative?"
+    },
+    {
+      "id": "p07-b-29-s02",
+      "speaker": "Receptionist",
+      "text": "I'll ask the adviser to clarify that. Is there another part of the form you're unsure about?"
+    },
+    {
+      "id": "p07-b-29-s03",
+      "speaker": "Olive",
+      "text": "There's one debt where I don't know the current balance. I have the last statement, but it may be out of date."
+    },
+    {
+      "id": "p07-b-29-s04",
+      "speaker": "Receptionist",
+      "text": "I can tell the adviser that too. Please don't send account details to this general reception address."
+    },
+    {
+      "id": "p07-b-29-s05",
+      "speaker": "Olive",
+      "text": "Thank you. Could you ask how I should record an amount that hasn't been confirmed?"
+    },
+    {
+      "id": "p07-b-29-s06",
+      "speaker": "Receptionist",
+      "text": "Yes. I'll request guidance on both questions and ask the adviser to contact you before your appointment."
+    },
+    {
+      "id": "p07-b-29-s07",
+      "speaker": "Olive",
+      "text": "That's all I need for now. I'll wait for that clarification before completing those sections."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-567e46c5eae974fb",
+      "lemma": "declare",
+      "pos": "v.",
+      "sense_zh": "正式申报或说明",
+      "sentence_ids": [
+        "p07-b-29-s01"
+      ],
+      "forms": [
+        "declare"
+      ],
+      "sense_id": "sense-staged-ox-567e46c5eae974fb-p07-b-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e6322f4ff2986df1",
+      "lemma": "debt",
+      "pos": "n.",
+      "sense_zh": "所欠的钱；债务",
+      "sentence_ids": [
+        "p07-b-29-s03"
+      ],
+      "forms": [
+        "debt"
+      ],
+      "sense_id": "sense-staged-ox-e6322f4ff2986df1-p07-b-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

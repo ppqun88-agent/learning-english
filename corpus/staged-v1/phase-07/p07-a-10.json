@@ -1,0 +1,121 @@
+{
+  "id": "p07-a-10",
+  "title_zh": "因乳房肿块预约诊所评估",
+  "topic_id": "health",
+  "scenario": {
+    "id": "routine-clinic-booking",
+    "label_zh": "描述问题并预约就诊",
+    "goal_zh": "准确说明不适位置并确认预约时间"
+  },
+  "participants": [
+    "Alina",
+    "Jo"
+  ],
+  "context_zh": "虚构患者向诊所接待员描述需要就诊的原因；对话只安排评估，不判断病因。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-10-s01",
+      "speaker": "Alina",
+      "text": "I'd like an appointment at the clinic. I've noticed a lump in my left breast."
+    },
+    {
+      "id": "p07-a-10-s02",
+      "speaker": "Jo",
+      "text": "When did you first notice it? I'll put that in the message for the clinician."
+    },
+    {
+      "id": "p07-a-10-s03",
+      "speaker": "Alina",
+      "text": "Yesterday. I'm concerned because my mother had cancer, and I don't know what this means."
+    },
+    {
+      "id": "p07-a-10-s04",
+      "speaker": "Jo",
+      "text": "I can arrange an assessment, but I can't tell you the cause over the phone. Would tomorrow at ten work for you?"
+    },
+    {
+      "id": "p07-a-10-s05",
+      "speaker": "Alina",
+      "text": "Yes. Will the clinician have the message?"
+    },
+    {
+      "id": "p07-a-10-s06",
+      "speaker": "Jo",
+      "text": "Yes, I've recorded what you told me. Your appointment is confirmed for ten tomorrow."
+    },
+    {
+      "id": "p07-a-10-s07",
+      "speaker": "Alina",
+      "text": "Thank you. I'll be there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-63b744ea7d974662",
+      "lemma": "clinic",
+      "pos": "n.",
+      "sense_zh": "诊所",
+      "sentence_ids": [
+        "p07-a-10-s01"
+      ],
+      "forms": [
+        "clinic"
+      ],
+      "sense_id": "sense-staged-ox-63b744ea7d974662-p07-a-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-61a56c8ba3127e9b",
+      "lemma": "breast",
+      "pos": "n.",
+      "sense_zh": "乳房",
+      "sentence_ids": [
+        "p07-a-10-s01"
+      ],
+      "forms": [
+        "breast"
+      ],
+      "sense_id": "sense-staged-ox-61a56c8ba3127e9b-p07-a-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a934995eac11ebb4",
+      "lemma": "concerned",
+      "pos": "adj.",
+      "sense_zh": "担忧的",
+      "sentence_ids": [
+        "p07-a-10-s03"
+      ],
+      "forms": [
+        "concerned"
+      ],
+      "sense_id": "sense-staged-ox-a934995eac11ebb4-p07-a-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e4fb7190c0b79f87",
+      "lemma": "cancer",
+      "pos": "n.",
+      "sense_zh": "癌症",
+      "sentence_ids": [
+        "p07-a-10-s03"
+      ],
+      "forms": [
+        "cancer"
+      ],
+      "sense_id": "sense-staged-ox-e4fb7190c0b79f87-p07-a-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

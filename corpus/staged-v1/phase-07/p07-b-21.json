@@ -1,0 +1,142 @@
+{
+  "id": "p07-b-21",
+  "title_zh": "为课堂代表选举安排发言与投票程序",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "student-council-election-process",
+    "label_zh": "设计课堂学生议会的选举程序",
+    "goal_zh": "商定让不同学生表达意见并以投票选出代表的流程"
+  },
+  "participants": [
+    "Iris",
+    "Mr Patel"
+  ],
+  "context_zh": "公民课堂中的师生为虚构班级代表选举讨论参与流程，不针对真实政治选举。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-21-s01",
+      "speaker": "Iris",
+      "text": "If this is an exercise in democracy, shouldn't everyone have a chance to speak before we elect a representative?"
+    },
+    {
+      "id": "p07-b-21-s02",
+      "speaker": "Mr Patel",
+      "text": "Yes. What would make the process more democratic than simply choosing whoever speaks first?"
+    },
+    {
+      "id": "p07-b-21-s03",
+      "speaker": "Iris",
+      "text": "We could hear from every candidate, then let everyone vote privately."
+    },
+    {
+      "id": "p07-b-21-s04",
+      "speaker": "Mr Patel",
+      "text": "That would give quieter students a way to express their choice too."
+    },
+    {
+      "id": "p07-b-21-s05",
+      "speaker": "Iris",
+      "text": "Our class is quite diverse, but the same three people usually lead every discussion."
+    },
+    {
+      "id": "p07-b-21-s06",
+      "speaker": "Mr Patel",
+      "text": "Then let's invite questions from everyone. We may hear a greater diversity of views if people can write their questions down."
+    },
+    {
+      "id": "p07-b-21-s07",
+      "speaker": "Iris",
+      "text": "I'll put out a question box. Can we give each candidate the same amount of speaking time?"
+    },
+    {
+      "id": "p07-b-21-s08",
+      "speaker": "Mr Patel",
+      "text": "Agreed. Equal speaking time, written questions, and a private vote at the end. We'll explain that process before anyone stands."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cab176f3e8e8e2ee",
+      "lemma": "democracy",
+      "pos": "n.",
+      "sense_zh": "由成员参与决定或选举代表的民主方式",
+      "sentence_ids": [
+        "p07-b-21-s01"
+      ],
+      "forms": [
+        "democracy"
+      ],
+      "sense_id": "sense-staged-ox-cab176f3e8e8e2ee-p07-b-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe5c56ac8fa3f929",
+      "lemma": "elect",
+      "pos": "v.",
+      "sense_zh": "通过投票选举",
+      "sentence_ids": [
+        "p07-b-21-s01"
+      ],
+      "forms": [
+        "elect"
+      ],
+      "sense_id": "sense-staged-ox-fe5c56ac8fa3f929-p07-b-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b20b884bc5dd1ad",
+      "lemma": "democratic",
+      "pos": "adj.",
+      "sense_zh": "按民主参与原则进行的",
+      "sentence_ids": [
+        "p07-b-21-s02"
+      ],
+      "forms": [
+        "democratic"
+      ],
+      "sense_id": "sense-staged-ox-2b20b884bc5dd1ad-p07-b-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da204feef1b3d3ec",
+      "lemma": "diverse",
+      "pos": "adj.",
+      "sense_zh": "多样的；由不同背景成员组成的",
+      "sentence_ids": [
+        "p07-b-21-s05"
+      ],
+      "forms": [
+        "diverse"
+      ],
+      "sense_id": "sense-staged-ox-da204feef1b3d3ec-p07-b-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5bc6ad1e47eb9659",
+      "lemma": "diversity",
+      "pos": "n.",
+      "sense_zh": "多样性",
+      "sentence_ids": [
+        "p07-b-21-s06"
+      ],
+      "forms": [
+        "diversity"
+      ],
+      "sense_id": "sense-staged-ox-5bc6ad1e47eb9659-p07-b-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

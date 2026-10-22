@@ -1,0 +1,58 @@
+{
+  "id": "p07-c-25",
+  "title_zh": "试吃后选定柠檬冰淇淋",
+  "topic_id": "food",
+  "scenario": {
+    "id": "ice-cream-flavor-sample-choice",
+    "label_zh": "试吃后选定柠檬冰淇淋",
+    "goal_zh": "试吃柠檬口味后确定单球冰淇淋及容器"
+  },
+  "participants": [
+    "Chloe",
+    "Andre"
+  ],
+  "context_zh": "顾客在美国一家冰淇淋店询问试吃。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-25-s01",
+      "speaker": "Chloe",
+      "text": "Could I try the lemon flavor before I choose?"
+    },
+    {
+      "id": "p07-c-25-s02",
+      "speaker": "Andre",
+      "text": "Of course. Here is a small sample."
+    },
+    {
+      "id": "p07-c-25-s03",
+      "speaker": "Chloe",
+      "text": "That is exactly what I wanted. One scoop in a cup, please."
+    },
+    {
+      "id": "p07-c-25-s04",
+      "speaker": "Andre",
+      "text": "One lemon scoop in a cup. Coming right up."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-648c590111e24e13",
+      "lemma": "flavor",
+      "pos": "n.",
+      "sense_zh": "食物的口味",
+      "sentence_ids": [
+        "p07-c-25-s01"
+      ],
+      "forms": [
+        "flavor"
+      ],
+      "sense_id": "sense-staged-ox-648c590111e24e13-p07-c-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

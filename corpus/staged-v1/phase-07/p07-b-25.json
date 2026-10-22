@@ -1,0 +1,110 @@
+{
+  "id": "p07-b-25",
+  "title_zh": "试听两张合唱录音后选定借用版本",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "recording-disc-comparison",
+    "label_zh": "比较唱片录音并选定借用版本",
+    "goal_zh": "试听两个录音的音色差别后选定借用的唱片"
+  },
+  "participants": [
+    "Finn",
+    "Salma"
+  ],
+  "context_zh": "两名朋友在图书馆试听两张可借阅的合唱录音，作品与版本均为虚构。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-25-s01",
+      "speaker": "Finn",
+      "text": "Are these two copies of the same disc? The covers look almost identical."
+    },
+    {
+      "id": "p07-b-25-s02",
+      "speaker": "Salma",
+      "text": "No, they're two distinct recordings of the same concert programme. One was made in a studio, the other in a church."
+    },
+    {
+      "id": "p07-b-25-s03",
+      "speaker": "Finn",
+      "text": "Can we listen to a little of each before I choose?"
+    },
+    {
+      "id": "p07-b-25-s04",
+      "speaker": "Salma",
+      "text": "Sure. Here's the studio version first."
+    },
+    {
+      "id": "p07-b-25-s05",
+      "speaker": "Finn",
+      "text": "I can distinguish the individual voices quite clearly. Now try the church recording."
+    },
+    {
+      "id": "p07-b-25-s06",
+      "speaker": "Salma",
+      "text": "There's more echo in that one. Does it make the words harder to hear?"
+    },
+    {
+      "id": "p07-b-25-s07",
+      "speaker": "Finn",
+      "text": "A little. I'll borrow the studio recording because I want to learn the words."
+    },
+    {
+      "id": "p07-b-25-s08",
+      "speaker": "Salma",
+      "text": "Then that's the blue case. The one in my hand is the church version."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2531fb0a8abe9693",
+      "lemma": "disc",
+      "pos": "n.",
+      "sense_zh": "唱片；光盘",
+      "sentence_ids": [
+        "p07-b-25-s01"
+      ],
+      "forms": [
+        "disc"
+      ],
+      "sense_id": "sense-staged-ox-2531fb0a8abe9693-p07-b-25",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-386fe83e0d454894",
+      "lemma": "distinct",
+      "pos": "adj.",
+      "sense_zh": "不同的；彼此独立的",
+      "sentence_ids": [
+        "p07-b-25-s02"
+      ],
+      "forms": [
+        "distinct"
+      ],
+      "sense_id": "sense-staged-ox-386fe83e0d454894-p07-b-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-436109a6d496520f",
+      "lemma": "distinguish",
+      "pos": "v.",
+      "sense_zh": "辨别；听出区别",
+      "sentence_ids": [
+        "p07-b-25-s05"
+      ],
+      "forms": [
+        "distinguish"
+      ],
+      "sense_id": "sense-staged-ox-436109a6d496520f-p07-b-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

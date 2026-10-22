@@ -1,0 +1,142 @@
+{
+  "id": "p07-b-23",
+  "title_zh": "约定先演示拖放文件再发详细指南",
+  "topic_id": "work",
+  "scenario": {
+    "id": "software-demo-request",
+    "label_zh": "安排软件拖放操作的演示",
+    "goal_zh": "确认屏幕及演示步骤，约定先演示再分发详细指南"
+  },
+  "participants": [
+    "Evan",
+    "Sofia"
+  ],
+  "context_zh": "同事为一次软件培训安排屏幕和现场演示顺序。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-23-s01",
+      "speaker": "Evan",
+      "text": "Could you demonstrate how to move a file into a project folder? The written instructions confused a few people."
+    },
+    {
+      "id": "p07-b-23-s02",
+      "speaker": "Sofia",
+      "text": "Of course. Can we use the large display in the meeting room? My laptop screen is hard to see from the back."
+    },
+    {
+      "id": "p07-b-23-s03",
+      "speaker": "Evan",
+      "text": "Yes. Do you need everyone to follow along during the demonstration?"
+    },
+    {
+      "id": "p07-b-23-s04",
+      "speaker": "Sofia",
+      "text": "Not at first. I'd like them to watch me drag the file into the folder, then try with their own practice file."
+    },
+    {
+      "id": "p07-b-23-s05",
+      "speaker": "Evan",
+      "text": "Should I hand out the detailed guide before you start?"
+    },
+    {
+      "id": "p07-b-23-s06",
+      "speaker": "Sofia",
+      "text": "Afterwards would be better. Otherwise people may read ahead and miss where I click."
+    },
+    {
+      "id": "p07-b-23-s07",
+      "speaker": "Evan",
+      "text": "All right. I'll set up the display, and we'll leave time for questions after everyone has tried it."
+    },
+    {
+      "id": "p07-b-23-s08",
+      "speaker": "Sofia",
+      "text": "Thanks. I'll use an empty practice folder so we don't move anyone's real work."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-40d67bea0d3f5cd5",
+      "lemma": "demonstrate",
+      "pos": "v.",
+      "sense_zh": "通过操作展示如何做",
+      "sentence_ids": [
+        "p07-b-23-s01"
+      ],
+      "forms": [
+        "demonstrate"
+      ],
+      "sense_id": "sense-staged-ox-40d67bea0d3f5cd5-p07-b-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2d98618218fe071d",
+      "lemma": "display",
+      "pos": "n.",
+      "sense_zh": "显示屏",
+      "sentence_ids": [
+        "p07-b-23-s02"
+      ],
+      "forms": [
+        "display"
+      ],
+      "sense_id": "sense-staged-ox-2d98618218fe071d-p07-b-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a96d7853058488e",
+      "lemma": "demonstration",
+      "pos": "n.",
+      "sense_zh": "操作演示",
+      "sentence_ids": [
+        "p07-b-23-s03"
+      ],
+      "forms": [
+        "demonstration"
+      ],
+      "sense_id": "sense-staged-ox-7a96d7853058488e-p07-b-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a41acb80fa7c7037",
+      "lemma": "drag",
+      "pos": "v.",
+      "sense_zh": "用鼠标拖动屏幕上的对象",
+      "sentence_ids": [
+        "p07-b-23-s04"
+      ],
+      "forms": [
+        "drag"
+      ],
+      "sense_id": "sense-staged-ox-a41acb80fa7c7037-p07-b-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88e0884f15170766",
+      "lemma": "detailed",
+      "pos": "adj.",
+      "sense_zh": "包含详细信息的",
+      "sentence_ids": [
+        "p07-b-23-s05"
+      ],
+      "forms": [
+        "detailed"
+      ],
+      "sense_id": "sense-staged-ox-88e0884f15170766-p07-b-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

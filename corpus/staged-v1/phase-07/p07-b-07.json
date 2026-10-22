@@ -1,0 +1,142 @@
+{
+  "id": "p07-b-07",
+  "title_zh": "决定保留手工礼盒上的朴素设计",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "first-craft-gift-finish",
+    "label_zh": "为手工作品确定最后的装饰",
+    "goal_zh": "讨论制作体验和送礼心意并决定保留现有设计"
+  },
+  "participants": [
+    "Lena",
+    "Pavel"
+  ],
+  "context_zh": "手工课学员莉娜给姐姐制作了一个小礼盒，临下课时请老师帕维尔看成品。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-07-s01",
+      "speaker": "Lena",
+      "text": "This is my first attempt at a craft since school. I expected a much neater box."
+    },
+    {
+      "id": "p07-b-07-s02",
+      "speaker": "Pavel",
+      "text": "The lid fits, and your painted leaves work well. Are you unhappy with the colours?"
+    },
+    {
+      "id": "p07-b-07-s03",
+      "speaker": "Lena",
+      "text": "No, but there's a lot of empty space. Maybe my creation needs more decoration."
+    },
+    {
+      "id": "p07-b-07-s04",
+      "speaker": "Pavel",
+      "text": "Creativity isn't only about adding things. Leaving some space can be a choice too."
+    },
+    {
+      "id": "p07-b-07-s05",
+      "speaker": "Lena",
+      "text": "My sister likes simple designs. She'd probably be delighted with it as it is."
+    },
+    {
+      "id": "p07-b-07-s06",
+      "speaker": "Pavel",
+      "text": "Then why not stop here? You've made something that suits her."
+    },
+    {
+      "id": "p07-b-07-s07",
+      "speaker": "Lena",
+      "text": "I will. Making a gift for her has been a real delight, even with all the glue on my fingers."
+    },
+    {
+      "id": "p07-b-07-s08",
+      "speaker": "Pavel",
+      "text": "Let it dry on the shelf, and you can take it home at the end of class."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d454e7a08064fc8c",
+      "lemma": "craft",
+      "pos": "n.",
+      "sense_zh": "手工艺",
+      "sentence_ids": [
+        "p07-b-07-s01"
+      ],
+      "forms": [
+        "craft"
+      ],
+      "sense_id": "sense-staged-ox-d454e7a08064fc8c-p07-b-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8529b04d3cda1caf",
+      "lemma": "creation",
+      "pos": "n.",
+      "sense_zh": "创作出的作品",
+      "sentence_ids": [
+        "p07-b-07-s03"
+      ],
+      "forms": [
+        "creation"
+      ],
+      "sense_id": "sense-staged-ox-8529b04d3cda1caf-p07-b-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c0eadca48bdf239",
+      "lemma": "creativity",
+      "pos": "n.",
+      "sense_zh": "创造力",
+      "sentence_ids": [
+        "p07-b-07-s04"
+      ],
+      "forms": [
+        "creativity"
+      ],
+      "sense_id": "sense-staged-ox-7c0eadca48bdf239-p07-b-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4d91974c695553cf",
+      "lemma": "delighted",
+      "pos": "adj.",
+      "sense_zh": "非常高兴的",
+      "sentence_ids": [
+        "p07-b-07-s05"
+      ],
+      "forms": [
+        "delighted"
+      ],
+      "sense_id": "sense-staged-ox-4d91974c695553cf-p07-b-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e21e0d796273f2b8",
+      "lemma": "delight",
+      "pos": "n.",
+      "sense_zh": "令人愉快的事情或体验",
+      "sentence_ids": [
+        "p07-b-07-s07"
+      ],
+      "forms": [
+        "delight"
+      ],
+      "sense_id": "sense-staged-ox-e21e0d796273f2b8-p07-b-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

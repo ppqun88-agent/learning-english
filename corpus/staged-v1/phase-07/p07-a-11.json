@@ -1,0 +1,121 @@
+{
+  "id": "p07-a-11",
+  "title_zh": "摔倒后请同伴联系现场急救员",
+  "topic_id": "health",
+  "scenario": {
+    "id": "walking-fall-assistance",
+    "label_zh": "摔倒后寻求帮助",
+    "goal_zh": "说明不适并请同伴联系现场急救员"
+  },
+  "participants": [
+    "Evan",
+    "Mina"
+  ],
+  "context_zh": "两位朋友在有工作人员的公园活动中散步，一人绊倒后坐在原地等待帮助。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-11-s01",
+      "speaker": "Evan",
+      "text": "I caught my foot on the edge of the path. My cheek hit the ground."
+    },
+    {
+      "id": "p07-a-11-s02",
+      "speaker": "Mina",
+      "text": "Did you lose consciousness at any point?"
+    },
+    {
+      "id": "p07-a-11-s03",
+      "speaker": "Evan",
+      "text": "No, I stayed conscious, but I felt as if I might collapse when I tried to stand."
+    },
+    {
+      "id": "p07-a-11-s04",
+      "speaker": "Mina",
+      "text": "I'll get the first-aid team by the entrance. Do you want me to stay with you while I call them?"
+    },
+    {
+      "id": "p07-a-11-s05",
+      "speaker": "Evan",
+      "text": "Yes, please. I'm cold too. Could you put my blanket over my legs?"
+    },
+    {
+      "id": "p07-a-11-s06",
+      "speaker": "Mina",
+      "text": "Here it is. I'm calling the team now and telling them exactly where we are."
+    },
+    {
+      "id": "p07-a-11-s07",
+      "speaker": "Evan",
+      "text": "Thanks. I'll wait here with you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1529da9e43f70cc7",
+      "lemma": "cheek",
+      "pos": "n.",
+      "sense_zh": "脸颊",
+      "sentence_ids": [
+        "p07-a-11-s01"
+      ],
+      "forms": [
+        "cheek"
+      ],
+      "sense_id": "sense-staged-ox-1529da9e43f70cc7-p07-a-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-857d31ea08d0246e",
+      "lemma": "conscious",
+      "pos": "adj.",
+      "sense_zh": "神志清醒的",
+      "sentence_ids": [
+        "p07-a-11-s03"
+      ],
+      "forms": [
+        "conscious"
+      ],
+      "sense_id": "sense-staged-ox-857d31ea08d0246e-p07-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a671f1028528538a",
+      "lemma": "collapse",
+      "pos": "v.",
+      "sense_zh": "因虚弱而倒下",
+      "sentence_ids": [
+        "p07-a-11-s03"
+      ],
+      "forms": [
+        "collapse"
+      ],
+      "sense_id": "sense-staged-ox-a671f1028528538a-p07-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f440632abc347cf",
+      "lemma": "blanket",
+      "pos": "n.",
+      "sense_zh": "毯子",
+      "sentence_ids": [
+        "p07-a-11-s05"
+      ],
+      "forms": [
+        "blanket"
+      ],
+      "sense_id": "sense-staged-ox-0f440632abc347cf-p07-a-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

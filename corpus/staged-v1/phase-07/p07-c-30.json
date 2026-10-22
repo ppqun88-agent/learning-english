@@ -1,0 +1,184 @@
+{
+  "id": "p07-c-30",
+  "title_zh": "商定住宅区阅览室的六周试办安排",
+  "topic_id": "community",
+  "scenario": {
+    "id": "estate-reading-room-pilot-plan",
+    "label_zh": "商定住宅区阅览室的六周试办安排",
+    "goal_zh": "选定住宅区获准使用的场所和可收纳家具，约定六周试办及反馈安排"
+  },
+  "participants": [
+    "Moira",
+    "Ken"
+  ],
+  "context_zh": "居民委员会讨论已获场地许可的周六阅览室试办方案。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-30-s01",
+      "speaker": "Moira",
+      "text": "Could we establish a reading room on the estate without renting a shop elsewhere?"
+    },
+    {
+      "id": "p07-c-30-s02",
+      "speaker": "Ken",
+      "text": "The old laundry building is available on Saturdays. It is the only shared facility we can use without paying rent."
+    },
+    {
+      "id": "p07-c-30-s03",
+      "speaker": "Moira",
+      "text": "Has the council agreed to that use?"
+    },
+    {
+      "id": "p07-c-30-s04",
+      "speaker": "Ken",
+      "text": "Yes, for a six-week trial. We would have to clear the room after each session."
+    },
+    {
+      "id": "p07-c-30-s05",
+      "speaker": "Moira",
+      "text": "Then folding tables would make more sense than permanent desks."
+    },
+    {
+      "id": "p07-c-30-s06",
+      "speaker": "Ken",
+      "text": "Agreed. Furthermore, the council's note says the existing storage cupboard is included, so we have somewhere to put them."
+    },
+    {
+      "id": "p07-c-30-s07",
+      "speaker": "Moira",
+      "text": "Some residents wanted a gym. They may not embrace the reading-room idea immediately."
+    },
+    {
+      "id": "p07-c-30-s08",
+      "speaker": "Ken",
+      "text": "That is why I favour a trial rather than a permanent change. We can ask for feedback after six Saturdays."
+    },
+    {
+      "id": "p07-c-30-s09",
+      "speaker": "Moira",
+      "text": "Let us use the laundry building and borrow the folding tables from the hall."
+    },
+    {
+      "id": "p07-c-30-s10",
+      "speaker": "Ken",
+      "text": "I will confirm the table loan and prepare a short notice explaining the trial and feedback meeting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e9df45b65dd0ac66",
+      "lemma": "establish",
+      "pos": "v.",
+      "sense_zh": "建立，设立",
+      "sentence_ids": [
+        "p07-c-30-s01"
+      ],
+      "forms": [
+        "establish"
+      ],
+      "sense_id": "sense-staged-ox-e9df45b65dd0ac66-p07-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-93d0a26bc15f51c1",
+      "lemma": "estate",
+      "pos": "n.",
+      "sense_zh": "住宅区",
+      "sentence_ids": [
+        "p07-c-30-s01"
+      ],
+      "forms": [
+        "estate"
+      ],
+      "sense_id": "sense-staged-ox-93d0a26bc15f51c1-p07-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-64d95d94f251d0d3",
+      "lemma": "elsewhere",
+      "pos": "adv.",
+      "sense_zh": "在别处",
+      "sentence_ids": [
+        "p07-c-30-s01"
+      ],
+      "forms": [
+        "elsewhere"
+      ],
+      "sense_id": "sense-staged-ox-64d95d94f251d0d3-p07-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea248db4091295a6",
+      "lemma": "facility",
+      "pos": "n.",
+      "sense_zh": "供共同使用的设施或场所",
+      "sentence_ids": [
+        "p07-c-30-s02"
+      ],
+      "forms": [
+        "facility"
+      ],
+      "sense_id": "sense-staged-ox-ea248db4091295a6-p07-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a541a4ba5a91fbab",
+      "lemma": "folding",
+      "pos": "adj.",
+      "sense_zh": "可折叠的",
+      "sentence_ids": [
+        "p07-c-30-s05"
+      ],
+      "forms": [
+        "folding"
+      ],
+      "sense_id": "sense-staged-ox-a541a4ba5a91fbab-p07-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bd9157b6a3da395a",
+      "lemma": "furthermore",
+      "pos": "adv.",
+      "sense_zh": "此外，而且",
+      "sentence_ids": [
+        "p07-c-30-s06"
+      ],
+      "forms": [
+        "furthermore"
+      ],
+      "sense_id": "sense-staged-ox-bd9157b6a3da395a-p07-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7171e8fd49a42b83",
+      "lemma": "embrace",
+      "pos": "v.",
+      "sense_zh": "欣然接受某种想法",
+      "sentence_ids": [
+        "p07-c-30-s07"
+      ],
+      "forms": [
+        "embrace"
+      ],
+      "sense_id": "sense-staged-ox-7171e8fd49a42b83-p07-c-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

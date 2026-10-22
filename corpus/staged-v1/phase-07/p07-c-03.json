@@ -1,0 +1,169 @@
+{
+  "id": "p07-c-03",
+  "title_zh": "约定记录活动中心发电机的噪音与排放问题",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-generator-complaint-record",
+    "label_zh": "约定记录活动中心发电机的噪音与排放问题",
+    "goal_zh": "区分噪音和排放问题，约定记录发生次数并交由维修团队评估"
+  },
+  "participants": [
+    "Ravi",
+    "Helen"
+  ],
+  "context_zh": "居民反映活动中心备用发电机启动时的情况，中心经理准备交给维修团队核查。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-03-s01",
+      "speaker": "Ravi",
+      "text": "The power cuts are becoming more frequent, and the backup generator is right outside my window."
+    },
+    {
+      "id": "p07-c-03-s02",
+      "speaker": "Helen",
+      "text": "I understand. Is the noise the main problem, or have you noticed anything else?"
+    },
+    {
+      "id": "p07-c-03-s03",
+      "speaker": "Ravi",
+      "text": "The noise is excessive, and there are strong fumes whenever it starts."
+    },
+    {
+      "id": "p07-c-03-s04",
+      "speaker": "Helen",
+      "text": "I will ask the maintenance team to check the emissions as well as the noise."
+    },
+    {
+      "id": "p07-c-03-s05",
+      "speaker": "Ravi",
+      "text": "Could they move it to the other side of the building?"
+    },
+    {
+      "id": "p07-c-03-s06",
+      "speaker": "Helen",
+      "text": "Possibly, but moving it would not eliminate the noise. We need a proper assessment first."
+    },
+    {
+      "id": "p07-c-03-s07",
+      "speaker": "Ravi",
+      "text": "I can record the frequency of the starts. It ran four times yesterday."
+    },
+    {
+      "id": "p07-c-03-s08",
+      "speaker": "Helen",
+      "text": "That would help. We should also check why we need to generate our own electricity so often."
+    },
+    {
+      "id": "p07-c-03-s09",
+      "speaker": "Ravi",
+      "text": "I will send you the times from this week, without trying to inspect the machine myself."
+    },
+    {
+      "id": "p07-c-03-s10",
+      "speaker": "Helen",
+      "text": "Thank you. I will give that record to the maintenance team and ask for an assessment."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-df35c1985c331c42",
+      "lemma": "frequent",
+      "pos": "adj.",
+      "sense_zh": "频繁的",
+      "sentence_ids": [
+        "p07-c-03-s01"
+      ],
+      "forms": [
+        "frequent"
+      ],
+      "sense_id": "sense-staged-ox-df35c1985c331c42-p07-c-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dd9dd25aaae084e0",
+      "lemma": "excessive",
+      "pos": "adj.",
+      "sense_zh": "过度的，超出合理程度的",
+      "sentence_ids": [
+        "p07-c-03-s03"
+      ],
+      "forms": [
+        "excessive"
+      ],
+      "sense_id": "sense-staged-ox-dd9dd25aaae084e0-p07-c-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db63744910bfc6b0",
+      "lemma": "emission",
+      "pos": "n.",
+      "sense_zh": "排放出的气体",
+      "sentence_ids": [
+        "p07-c-03-s04"
+      ],
+      "forms": [
+        "emissions"
+      ],
+      "sense_id": "sense-staged-ox-db63744910bfc6b0-p07-c-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "forms_rationale_zh": "使用可数名词的复数 emissions，指发电机排放的气体。"
+    },
+    {
+      "target_id": "ox-3a28b744682b1a9d",
+      "lemma": "eliminate",
+      "pos": "v.",
+      "sense_zh": "消除",
+      "sentence_ids": [
+        "p07-c-03-s06"
+      ],
+      "forms": [
+        "eliminate"
+      ],
+      "sense_id": "sense-staged-ox-3a28b744682b1a9d-p07-c-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bbdaaadc8af7b273",
+      "lemma": "frequency",
+      "pos": "n.",
+      "sense_zh": "发生频率",
+      "sentence_ids": [
+        "p07-c-03-s07"
+      ],
+      "forms": [
+        "frequency"
+      ],
+      "sense_id": "sense-staged-ox-bbdaaadc8af7b273-p07-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-028743e7b56338bd",
+      "lemma": "generate",
+      "pos": "v.",
+      "sense_zh": "发电，产生电能",
+      "sentence_ids": [
+        "p07-c-03-s08"
+      ],
+      "forms": [
+        "generate"
+      ],
+      "sense_id": "sense-staged-ox-028743e7b56338bd-p07-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

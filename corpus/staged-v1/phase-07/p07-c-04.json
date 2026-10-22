@@ -1,0 +1,184 @@
+{
+  "id": "p07-c-04",
+  "title_zh": "为打破纪念碗道歉并约定先保留碎片",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "broken-keepsake-apology",
+    "label_zh": "为打破纪念碗道歉并约定先保留碎片",
+    "goal_zh": "承认损坏纪念物的责任，听取朋友感受并约定不擅自处理碎片"
+  },
+  "participants": [
+    "Thomas",
+    "Mei"
+  ],
+  "context_zh": "托马斯打破了梅的祖母留下的碗，两人在厨房谈论这件事。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-04-s01",
+      "speaker": "Thomas",
+      "text": "I broke your grandmother's bowl while I was clearing the table. It was my fault."
+    },
+    {
+      "id": "p07-c-04-s02",
+      "speaker": "Mei",
+      "text": "I am furious. I told you that shelf was not safe for anything heavy."
+    },
+    {
+      "id": "p07-c-04-s03",
+      "speaker": "Thomas",
+      "text": "I was in a hurry, but that is not an excuse. I should have listened."
+    },
+    {
+      "id": "p07-c-04-s04",
+      "speaker": "Mei",
+      "text": "That bowl had a lot of emotional significance for me. A replacement would not be the same."
+    },
+    {
+      "id": "p07-c-04-s05",
+      "speaker": "Thomas",
+      "text": "I understand. I will not buy another one and pretend that fixes it."
+    },
+    {
+      "id": "p07-c-04-s06",
+      "speaker": "Mei",
+      "text": "Thank you. Sorting through her things has already been difficult emotionally."
+    },
+    {
+      "id": "p07-c-04-s07",
+      "speaker": "Thomas",
+      "text": "I hope you can forgive me eventually. Would you like me to put the pieces somewhere safe?"
+    },
+    {
+      "id": "p07-c-04-s08",
+      "speaker": "Mei",
+      "text": "Yes, in that box, please. Do not try to repair them yet."
+    },
+    {
+      "id": "p07-c-04-s09",
+      "speaker": "Thomas",
+      "text": "I will leave any decision about the pieces to you."
+    },
+    {
+      "id": "p07-c-04-s10",
+      "speaker": "Mei",
+      "text": "That helps. I still have faith in you, but I need a little time to stop being upset."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0808ce094f757086",
+      "lemma": "fault",
+      "pos": "n.",
+      "sense_zh": "过错，责任",
+      "sentence_ids": [
+        "p07-c-04-s01"
+      ],
+      "forms": [
+        "fault"
+      ],
+      "sense_id": "sense-staged-ox-0808ce094f757086-p07-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c4eaca1b019eee5",
+      "lemma": "furious",
+      "pos": "adj.",
+      "sense_zh": "非常愤怒的",
+      "sentence_ids": [
+        "p07-c-04-s02"
+      ],
+      "forms": [
+        "furious"
+      ],
+      "sense_id": "sense-staged-ox-5c4eaca1b019eee5-p07-c-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88b5f86c844eb480",
+      "lemma": "excuse",
+      "pos": "n.",
+      "sense_zh": "为过错辩解的借口",
+      "sentence_ids": [
+        "p07-c-04-s03"
+      ],
+      "forms": [
+        "excuse"
+      ],
+      "sense_id": "sense-staged-ox-88b5f86c844eb480-p07-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c47ded1303445d1b",
+      "lemma": "emotional",
+      "pos": "adj.",
+      "sense_zh": "感情上的",
+      "sentence_ids": [
+        "p07-c-04-s04"
+      ],
+      "forms": [
+        "emotional"
+      ],
+      "sense_id": "sense-staged-ox-c47ded1303445d1b-p07-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef2037fe1802b933",
+      "lemma": "emotionally",
+      "pos": "adv.",
+      "sense_zh": "在情感上",
+      "sentence_ids": [
+        "p07-c-04-s06"
+      ],
+      "forms": [
+        "emotionally"
+      ],
+      "sense_id": "sense-staged-ox-ef2037fe1802b933-p07-c-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-50fa79ecf3672309",
+      "lemma": "forgive",
+      "pos": "v.",
+      "sense_zh": "原谅",
+      "sentence_ids": [
+        "p07-c-04-s07"
+      ],
+      "forms": [
+        "forgive"
+      ],
+      "sense_id": "sense-staged-ox-50fa79ecf3672309-p07-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bc95702b2f6551ec",
+      "lemma": "faith",
+      "pos": "n.",
+      "sense_zh": "信任，信心",
+      "sentence_ids": [
+        "p07-c-04-s10"
+      ],
+      "forms": [
+        "faith"
+      ],
+      "sense_id": "sense-staged-ox-bc95702b2f6551ec-p07-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

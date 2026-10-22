@@ -1,0 +1,116 @@
+{
+  "id": "p07-a-03",
+  "title_zh": "选定沿运河到老桥的散步路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "canal-walk-route-choice",
+    "label_zh": "选择运河散步路线",
+    "goal_zh": "问清运河步道、老桥与公共通行边界，并选定往返路线"
+  },
+  "participants": [
+    "Amir",
+    "Liv"
+  ],
+  "context_zh": "两位朋友想从游客中心出发散步，请工作人员说明路线。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-03-s01",
+      "speaker": "Amir",
+      "text": "We have about an hour. Is there a pleasant walk from here?"
+    },
+    {
+      "id": "p07-a-03-s02",
+      "speaker": "Liv",
+      "text": "Follow the path beside the canal. It's flat all the way to the old bridge."
+    },
+    {
+      "id": "p07-a-03-s03",
+      "speaker": "Amir",
+      "text": "What's beyond the bridge? The map seems to stop there."
+    },
+    {
+      "id": "p07-a-03-s04",
+      "speaker": "Liv",
+      "text": "There's a charming row of old cottages, but the public path ends just before their gardens."
+    },
+    {
+      "id": "p07-a-03-s05",
+      "speaker": "Amir",
+      "text": "Then we'll walk to the bridge, look at the cottages from there, and come back."
+    },
+    {
+      "id": "p07-a-03-s06",
+      "speaker": "Liv",
+      "text": "That should fit your time. Use this gate to reach the path."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c7c4fb473afc2525",
+      "lemma": "beside",
+      "pos": "prep.",
+      "sense_zh": "在……旁边",
+      "sentence_ids": [
+        "p07-a-03-s02"
+      ],
+      "forms": [
+        "beside"
+      ],
+      "sense_id": "sense-staged-ox-c7c4fb473afc2525-p07-a-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d07335065f8a05c5",
+      "lemma": "canal",
+      "pos": "n.",
+      "sense_zh": "运河",
+      "sentence_ids": [
+        "p07-a-03-s02"
+      ],
+      "forms": [
+        "canal"
+      ],
+      "sense_id": "sense-staged-ox-d07335065f8a05c5-p07-a-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2347c4c26fbe1e75",
+      "lemma": "beyond",
+      "pos": "prep.",
+      "sense_zh": "在……更远的一边",
+      "sentence_ids": [
+        "p07-a-03-s03"
+      ],
+      "forms": [
+        "beyond"
+      ],
+      "sense_id": "sense-staged-ox-2347c4c26fbe1e75-p07-a-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c59bcd4cca8b6f7c",
+      "lemma": "charming",
+      "pos": "adj.",
+      "sense_zh": "迷人而有吸引力的",
+      "sentence_ids": [
+        "p07-a-03-s04"
+      ],
+      "forms": [
+        "charming"
+      ],
+      "sense_id": "sense-staged-ox-c59bcd4cca8b6f7c-p07-a-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

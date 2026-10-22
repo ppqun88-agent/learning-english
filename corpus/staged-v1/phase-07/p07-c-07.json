@@ -1,0 +1,184 @@
+{
+  "id": "p07-c-07",
+  "title_zh": "限定帝国地图展品说明中的历史结论",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "empire-map-exhibit-wording",
+    "label_zh": "限定帝国地图展品说明中的历史结论",
+    "goal_zh": "核对地图和旅行记摘录的证据范围，删去无法证明的控制范围与发现结论"
+  },
+  "participants": [
+    "Inez",
+    "Peter"
+  ],
+  "context_zh": "博物馆志愿者依据一组虚构档案材料核对展品标签，不讨论现实新闻。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-07-s01",
+      "speaker": "Inez",
+      "text": "The label says this map proves the empire controlled every town shown. Is that what the source says?"
+    },
+    {
+      "id": "p07-c-07-s02",
+      "speaker": "Peter",
+      "text": "No. It shows the routes used during that era, but a route is not the same as a border."
+    },
+    {
+      "id": "p07-c-07-s03",
+      "speaker": "Inez",
+      "text": "Then we can describe the routes, but not an expansion of trade unless we have earlier records to compare them with."
+    },
+    {
+      "id": "p07-c-07-s04",
+      "speaker": "Peter",
+      "text": "Exactly. This extract from a traveller's journal mentions markets along the route, but it does not tell us whether trade was growing."
+    },
+    {
+      "id": "p07-c-07-s05",
+      "speaker": "Inez",
+      "text": "Does it also prove the existence of the northern town marked with a question mark?"
+    },
+    {
+      "id": "p07-c-07-s06",
+      "speaker": "Peter",
+      "text": "Not on its own. The traveller says someone told him about it; he did not visit."
+    },
+    {
+      "id": "p07-c-07-s07",
+      "speaker": "Inez",
+      "text": "Calling it an extraordinary discovery would overstate the evidence."
+    },
+    {
+      "id": "p07-c-07-s08",
+      "speaker": "Peter",
+      "text": "Yes. Let us make this exhibit about what the map and journal can, and cannot, tell us."
+    },
+    {
+      "id": "p07-c-07-s09",
+      "speaker": "Inez",
+      "text": "I will remove the claim about controlling every town and keep the uncertain place marked clearly."
+    },
+    {
+      "id": "p07-c-07-s10",
+      "speaker": "Peter",
+      "text": "I will add the journal reference beside the extract so visitors can see its source."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2fa5c164ae415bdd",
+      "lemma": "empire",
+      "pos": "n.",
+      "sense_zh": "帝国",
+      "sentence_ids": [
+        "p07-c-07-s01"
+      ],
+      "forms": [
+        "empire"
+      ],
+      "sense_id": "sense-staged-ox-2fa5c164ae415bdd-p07-c-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30fadbb36fdcd8f5",
+      "lemma": "era",
+      "pos": "n.",
+      "sense_zh": "时代，历史时期",
+      "sentence_ids": [
+        "p07-c-07-s02"
+      ],
+      "forms": [
+        "era"
+      ],
+      "sense_id": "sense-staged-ox-30fadbb36fdcd8f5-p07-c-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0b7ddbb9798805a",
+      "lemma": "expansion",
+      "pos": "n.",
+      "sense_zh": "扩展，扩大",
+      "sentence_ids": [
+        "p07-c-07-s03"
+      ],
+      "forms": [
+        "expansion"
+      ],
+      "sense_id": "sense-staged-ox-a0b7ddbb9798805a-p07-c-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-592b368299289387",
+      "lemma": "extract",
+      "pos": "n.",
+      "sense_zh": "摘录，节选",
+      "sentence_ids": [
+        "p07-c-07-s04"
+      ],
+      "forms": [
+        "extract"
+      ],
+      "sense_id": "sense-staged-ox-592b368299289387-p07-c-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1325af873864a7e0",
+      "lemma": "existence",
+      "pos": "n.",
+      "sense_zh": "存在",
+      "sentence_ids": [
+        "p07-c-07-s05"
+      ],
+      "forms": [
+        "existence"
+      ],
+      "sense_id": "sense-staged-ox-1325af873864a7e0-p07-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-56eb4b25138421c4",
+      "lemma": "extraordinary",
+      "pos": "adj.",
+      "sense_zh": "非凡的，不寻常的",
+      "sentence_ids": [
+        "p07-c-07-s07"
+      ],
+      "forms": [
+        "extraordinary"
+      ],
+      "sense_id": "sense-staged-ox-56eb4b25138421c4-p07-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-03af4599b8c37d13",
+      "lemma": "exhibit",
+      "pos": "n.",
+      "sense_zh": "展品，展览中的展示项目",
+      "sentence_ids": [
+        "p07-c-07-s08"
+      ],
+      "forms": [
+        "exhibit"
+      ],
+      "sense_id": "sense-staged-ox-03af4599b8c37d13-p07-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

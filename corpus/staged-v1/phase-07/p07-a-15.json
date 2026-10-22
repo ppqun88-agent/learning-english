@@ -1,0 +1,148 @@
+{
+  "id": "p07-a-15",
+  "title_zh": "约好提前到场为朋友的决赛加油",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "championship-spectator-meeting",
+    "label_zh": "安排锦标赛决赛观赛会合",
+    "goal_zh": "约定提前在入口会合并分工携带门票，以共同为参赛朋友加油"
+  },
+  "participants": [
+    "Milo",
+    "Tess"
+  ],
+  "context_zh": "两位朋友准备观看熟人的地方锦标赛决赛，商量会合和入场安排。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-15-s01",
+      "speaker": "Milo",
+      "text": "Are you going to the championship final on Saturday? Sana's team made it through."
+    },
+    {
+      "id": "p07-a-15-s02",
+      "speaker": "Tess",
+      "text": "Definitely. I bet she's nervous; it's her first final."
+    },
+    {
+      "id": "p07-a-15-s03",
+      "speaker": "Milo",
+      "text": "She said she was. Seeing familiar faces might boost her confidence."
+    },
+    {
+      "id": "p07-a-15-s04",
+      "speaker": "Tess",
+      "text": "Then let's sit together and cheer for her team. What time should we meet?"
+    },
+    {
+      "id": "p07-a-15-s05",
+      "speaker": "Milo",
+      "text": "The doors open at two. There are bound to be queues, so how about a quarter to two by the main entrance?"
+    },
+    {
+      "id": "p07-a-15-s06",
+      "speaker": "Tess",
+      "text": "Perfect. I'll bring the tickets, and we can go straight in when the doors open."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3f71ba5452dd71eb",
+      "lemma": "championship",
+      "pos": "n.",
+      "sense_zh": "锦标赛",
+      "sentence_ids": [
+        "p07-a-15-s01"
+      ],
+      "forms": [
+        "championship"
+      ],
+      "sense_id": "sense-staged-ox-3f71ba5452dd71eb-p07-a-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ddbe129d0a18d484",
+      "lemma": "bet",
+      "pos": "v.",
+      "sense_zh": "口语中表示确信或推测",
+      "sentence_ids": [
+        "p07-a-15-s02"
+      ],
+      "forms": [
+        "bet"
+      ],
+      "sense_id": "sense-staged-ox-ddbe129d0a18d484-p07-a-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a1f53203c90541f",
+      "lemma": "boost",
+      "pos": "v.",
+      "sense_zh": "增强",
+      "sentence_ids": [
+        "p07-a-15-s03"
+      ],
+      "forms": [
+        "boost"
+      ],
+      "sense_id": "sense-staged-ox-0a1f53203c90541f-p07-a-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a4f4b76af4d59215",
+      "lemma": "confidence",
+      "pos": "n.",
+      "sense_zh": "信心",
+      "sentence_ids": [
+        "p07-a-15-s03"
+      ],
+      "forms": [
+        "confidence"
+      ],
+      "sense_id": "sense-staged-ox-a4f4b76af4d59215-p07-a-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c0174f1eda526d20",
+      "lemma": "cheer",
+      "pos": "v.",
+      "sense_zh": "欢呼加油",
+      "sentence_ids": [
+        "p07-a-15-s04"
+      ],
+      "forms": [
+        "cheer"
+      ],
+      "sense_id": "sense-staged-ox-c0174f1eda526d20-p07-a-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f702822becc7e197",
+      "lemma": "bound",
+      "pos": "adj.",
+      "sense_zh": "一定会的，此处表示对排队的强烈预期",
+      "sentence_ids": [
+        "p07-a-15-s05"
+      ],
+      "forms": [
+        "bound"
+      ],
+      "sense_id": "sense-staged-ox-f702822becc7e197-p07-a-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

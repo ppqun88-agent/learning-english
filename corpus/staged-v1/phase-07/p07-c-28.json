@@ -1,0 +1,136 @@
+{
+  "id": "p07-c-28",
+  "title_zh": "确认雨天旧车站室内导览和集合地点",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "railway-station-tour-weather-plan",
+    "label_zh": "确认雨天旧车站室内导览和集合地点",
+    "goal_zh": "核对导览形式、旧建筑名称及雨天安排，并确认集合时间地点"
+  },
+  "participants": [
+    "Alice",
+    "Hassan"
+  ],
+  "context_zh": "游客致电遗产中心，核对虚构旧车站参观活动的信息。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-28-s01",
+      "speaker": "Alice",
+      "text": "The forecast says rain all morning. Is tomorrow's station tour still going ahead?"
+    },
+    {
+      "id": "p07-c-28-s02",
+      "speaker": "Hassan",
+      "text": "Yes. It takes place inside the former station building, so the rain will not change the route."
+    },
+    {
+      "id": "p07-c-28-s03",
+      "speaker": "Alice",
+      "text": "What is the format? Is it mainly a talk, or do we walk around?"
+    },
+    {
+      "id": "p07-c-28-s04",
+      "speaker": "Hassan",
+      "text": "It is a guided walk through three rooms, with short stops to look at photographs."
+    },
+    {
+      "id": "p07-c-28-s05",
+      "speaker": "Alice",
+      "text": "My old map calls it the Eastgate Museum. Is that a different place?"
+    },
+    {
+      "id": "p07-c-28-s06",
+      "speaker": "Hassan",
+      "text": "No. It was formerly known as the Eastgate Museum. It is now called the Station Heritage Centre."
+    },
+    {
+      "id": "p07-c-28-s07",
+      "speaker": "Alice",
+      "text": "Good. Where should I meet the guide?"
+    },
+    {
+      "id": "p07-c-28-s08",
+      "speaker": "Hassan",
+      "text": "Inside the main entrance at ten. The guide will be beside the old ticket window."
+    },
+    {
+      "id": "p07-c-28-s09",
+      "speaker": "Alice",
+      "text": "Thank you. I will come to the main entrance just before ten."
+    },
+    {
+      "id": "p07-c-28-s10",
+      "speaker": "Hassan",
+      "text": "We will see you there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bc8d83f25582a1c3",
+      "lemma": "forecast",
+      "pos": "n.",
+      "sense_zh": "天气预报",
+      "sentence_ids": [
+        "p07-c-28-s01"
+      ],
+      "forms": [
+        "forecast"
+      ],
+      "sense_id": "sense-staged-ox-bc8d83f25582a1c3-p07-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f424f5ac209c44d",
+      "lemma": "former",
+      "pos": "adj.",
+      "sense_zh": "以前的，原先的",
+      "sentence_ids": [
+        "p07-c-28-s02"
+      ],
+      "forms": [
+        "former"
+      ],
+      "sense_id": "sense-staged-ox-0f424f5ac209c44d-p07-c-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-230fa028a8b99f2e",
+      "lemma": "format",
+      "pos": "n.",
+      "sense_zh": "活动的组织形式",
+      "sentence_ids": [
+        "p07-c-28-s03"
+      ],
+      "forms": [
+        "format"
+      ],
+      "sense_id": "sense-staged-ox-230fa028a8b99f2e-p07-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-729860d7a66d99a9",
+      "lemma": "formerly",
+      "pos": "adv.",
+      "sense_zh": "从前，以前",
+      "sentence_ids": [
+        "p07-c-28-s06"
+      ],
+      "forms": [
+        "formerly"
+      ],
+      "sense_id": "sense-staged-ox-729860d7a66d99a9-p07-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

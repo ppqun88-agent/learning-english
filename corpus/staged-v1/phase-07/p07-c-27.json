@@ -1,0 +1,126 @@
+{
+  "id": "p07-c-27",
+  "title_zh": "约好参加初学者也能加入的合作游戏晚会",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-gaming-evening-invitation",
+    "label_zh": "约好参加初学者也能加入的合作游戏晚会",
+    "goal_zh": "消除初学者对表现的担忧，约定先试玩简单合作游戏并确认到场时间"
+  },
+  "participants": [
+    "Milo",
+    "Zoe"
+  ],
+  "context_zh": "朋友邀请不熟悉电子游戏的同事参加周五游戏晚会。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-27-s01",
+      "speaker": "Milo",
+      "text": "Would you like to join our gaming evening on Friday? The rest of the gang will be there."
+    },
+    {
+      "id": "p07-c-27-s02",
+      "speaker": "Zoe",
+      "text": "I am fond of puzzles, but I am hopeless with a controller. I do not want to make a fool of myself."
+    },
+    {
+      "id": "p07-c-27-s03",
+      "speaker": "Milo",
+      "text": "We are playing a cooperative puzzle game, not a tournament. We can learn the controls together."
+    },
+    {
+      "id": "p07-c-27-s04",
+      "speaker": "Zoe",
+      "text": "Will I slow everyone down?"
+    },
+    {
+      "id": "p07-c-27-s05",
+      "speaker": "Milo",
+      "text": "Not at all. We will start with a practice round, and nobody will keep a score."
+    },
+    {
+      "id": "p07-c-27-s06",
+      "speaker": "Zoe",
+      "text": "That sounds much better. What time should I come?"
+    },
+    {
+      "id": "p07-c-27-s07",
+      "speaker": "Milo",
+      "text": "Seven. Come a little early if you want to try the controller before the others arrive."
+    },
+    {
+      "id": "p07-c-27-s08",
+      "speaker": "Zoe",
+      "text": "I will be there at quarter to seven. Thanks for making it easy to join."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4137bf0f3418ea31",
+      "lemma": "gaming",
+      "pos": "n.",
+      "sense_zh": "玩电子游戏",
+      "sentence_ids": [
+        "p07-c-27-s01"
+      ],
+      "forms": [
+        "gaming"
+      ],
+      "sense_id": "sense-staged-ox-4137bf0f3418ea31-p07-c-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51848b69577b3473",
+      "lemma": "gang",
+      "pos": "n.",
+      "sense_zh": "经常一起活动的一群朋友",
+      "sentence_ids": [
+        "p07-c-27-s01"
+      ],
+      "forms": [
+        "gang"
+      ],
+      "sense_id": "sense-staged-ox-51848b69577b3473-p07-c-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-61182b13b1d72f0a",
+      "lemma": "fond",
+      "pos": "adj.",
+      "sense_zh": "喜爱的",
+      "sentence_ids": [
+        "p07-c-27-s02"
+      ],
+      "forms": [
+        "fond"
+      ],
+      "sense_id": "sense-staged-ox-61182b13b1d72f0a-p07-c-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-599a0a06a1bbf250",
+      "lemma": "fool",
+      "pos": "n.",
+      "sense_zh": "傻瓜；此处指做出令人难堪举动的人",
+      "sentence_ids": [
+        "p07-c-27-s02"
+      ],
+      "forms": [
+        "fool"
+      ],
+      "sense_id": "sense-staged-ox-599a0a06a1bbf250-p07-c-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

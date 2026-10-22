@@ -1,0 +1,142 @@
+{
+  "id": "p07-b-06",
+  "title_zh": "发现二手桌裂缝后决定不买",
+  "topic_id": "services",
+  "scenario": {
+    "id": "secondhand-table-condition-choice",
+    "label_zh": "查看二手桌状况后决定不购买",
+    "goal_zh": "核对裂缝、桌腿和价格后决定不购买有损坏的桌子"
+  },
+  "participants": [
+    "Mina",
+    "Hugh"
+  ],
+  "context_zh": "顾客米娜正在二手家具店查看一张带雕刻桌腿的小桌子。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-06-s01",
+      "speaker": "Mina",
+      "text": "You're the dealer I spoke to about the small oak table, aren't you?"
+    },
+    {
+      "id": "p07-b-06-s02",
+      "speaker": "Hugh",
+      "text": "Yes. This is it. It's a decent table for the price, though it isn't in perfect condition."
+    },
+    {
+      "id": "p07-b-06-s03",
+      "speaker": "Mina",
+      "text": "I like the curved legs. Is that dark line part of the decoration?"
+    },
+    {
+      "id": "p07-b-06-s04",
+      "speaker": "Hugh",
+      "text": "No, that's a crack. It goes along the side of the leg."
+    },
+    {
+      "id": "p07-b-06-s05",
+      "speaker": "Mina",
+      "text": "Has anyone checked whether the leg is still strong enough?"
+    },
+    {
+      "id": "p07-b-06-s06",
+      "speaker": "Hugh",
+      "text": "Not professionally. I can lower the price, but I can't promise the leg won't need repair."
+    },
+    {
+      "id": "p07-b-06-s07",
+      "speaker": "Mina",
+      "text": "Then I'll leave it. I need a table I can use immediately, not another repair project."
+    },
+    {
+      "id": "p07-b-06-s08",
+      "speaker": "Hugh",
+      "text": "Fair enough. I'll let you know if a similar one arrives without that damage."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6e196b6a4b35f60b",
+      "lemma": "dealer",
+      "pos": "n.",
+      "sense_zh": "经营特定商品的商人",
+      "sentence_ids": [
+        "p07-b-06-s01"
+      ],
+      "forms": [
+        "dealer"
+      ],
+      "sense_id": "sense-staged-ox-6e196b6a4b35f60b-p07-b-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ef7582dc892aba2",
+      "lemma": "decent",
+      "pos": "adj.",
+      "sense_zh": "尚好的；质量过得去的",
+      "sentence_ids": [
+        "p07-b-06-s02"
+      ],
+      "forms": [
+        "decent"
+      ],
+      "sense_id": "sense-staged-ox-0ef7582dc892aba2-p07-b-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a36ea0b50214d84f",
+      "lemma": "curved",
+      "pos": "adj.",
+      "sense_zh": "弯曲的；有曲线的",
+      "sentence_ids": [
+        "p07-b-06-s03"
+      ],
+      "forms": [
+        "curved"
+      ],
+      "sense_id": "sense-staged-ox-a36ea0b50214d84f-p07-b-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f4a2fca5dcf2d4ed",
+      "lemma": "decoration",
+      "pos": "n.",
+      "sense_zh": "装饰图案或装饰部分",
+      "sentence_ids": [
+        "p07-b-06-s03"
+      ],
+      "forms": [
+        "decoration"
+      ],
+      "sense_id": "sense-staged-ox-f4a2fca5dcf2d4ed-p07-b-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c3ea952a5d70b35",
+      "lemma": "crack",
+      "pos": "n.",
+      "sense_zh": "裂缝",
+      "sentence_ids": [
+        "p07-b-06-s04"
+      ],
+      "forms": [
+        "crack"
+      ],
+      "sense_id": "sense-staged-ox-1c3ea952a5d70b35-p07-b-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

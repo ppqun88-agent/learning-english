@@ -1,0 +1,136 @@
+{
+  "id": "p07-c-18",
+  "title_zh": "预约检查屋顶渗漏和外墙损坏",
+  "topic_id": "home",
+  "scenario": {
+    "id": "roof-leak-inspection-appointment",
+    "label_zh": "预约屋顶漏水检查",
+    "goal_zh": "说明漏水情况及已采取的隔离措施，约定检查时间并在检查后讨论维修选项"
+  },
+  "participants": [
+    "Grace",
+    "Leon"
+  ],
+  "context_zh": "租户向房屋维护人员描述雨后漏水情况，安排检查而不是自行处理。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-18-s01",
+      "speaker": "Grace",
+      "text": "Water came through the bedroom ceiling last night. There is also a damp patch on the external wall."
+    },
+    {
+      "id": "p07-c-18-s02",
+      "speaker": "Leon",
+      "text": "Is anyone using the room now?"
+    },
+    {
+      "id": "p07-c-18-s03",
+      "speaker": "Grace",
+      "text": "No. I have closed it off and moved everyone to the other bedroom."
+    },
+    {
+      "id": "p07-c-18-s04",
+      "speaker": "Leon",
+      "text": "Thank you. We need a careful examination of the roof before deciding what to repair."
+    },
+    {
+      "id": "p07-c-18-s05",
+      "speaker": "Grace",
+      "text": "The marks look extensive, but I cannot tell how much damage is behind the paint."
+    },
+    {
+      "id": "p07-c-18-s06",
+      "speaker": "Leon",
+      "text": "Neither can I from a description. The inspector will assess the extent of the damage."
+    },
+    {
+      "id": "p07-c-18-s07",
+      "speaker": "Grace",
+      "text": "Can someone come tomorrow morning?"
+    },
+    {
+      "id": "p07-c-18-s08",
+      "speaker": "Leon",
+      "text": "Yes, at nine. Please leave the room closed until the inspection."
+    },
+    {
+      "id": "p07-c-18-s09",
+      "speaker": "Grace",
+      "text": "That works. Will we discuss repair options afterwards?"
+    },
+    {
+      "id": "p07-c-18-s10",
+      "speaker": "Leon",
+      "text": "Yes. Once we have the findings, I will call you to discuss the options."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-14b0e0ae4602f7d0",
+      "lemma": "external",
+      "pos": "adj.",
+      "sense_zh": "外部的，外侧的",
+      "sentence_ids": [
+        "p07-c-18-s01"
+      ],
+      "forms": [
+        "external"
+      ],
+      "sense_id": "sense-staged-ox-14b0e0ae4602f7d0-p07-c-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b7487e9df8669c80",
+      "lemma": "examination",
+      "pos": "n.",
+      "sense_zh": "仔细检查",
+      "sentence_ids": [
+        "p07-c-18-s04"
+      ],
+      "forms": [
+        "examination"
+      ],
+      "sense_id": "sense-staged-ox-b7487e9df8669c80-p07-c-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b776ec78e2a0e235",
+      "lemma": "extensive",
+      "pos": "adj.",
+      "sense_zh": "范围广的",
+      "sentence_ids": [
+        "p07-c-18-s05"
+      ],
+      "forms": [
+        "extensive"
+      ],
+      "sense_id": "sense-staged-ox-b776ec78e2a0e235-p07-c-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e440752d41b26465",
+      "lemma": "extent",
+      "pos": "n.",
+      "sense_zh": "范围，程度",
+      "sentence_ids": [
+        "p07-c-18-s06"
+      ],
+      "forms": [
+        "extent"
+      ],
+      "sense_id": "sense-staged-ox-e440752d41b26465-p07-c-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

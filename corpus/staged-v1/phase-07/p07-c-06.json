@@ -1,0 +1,126 @@
+{
+  "id": "p07-c-06",
+  "title_zh": "决定继续试用简短版画廊语音导览",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "gallery-audio-trial-feedback",
+    "label_zh": "决定继续试用简短版画廊语音导览",
+    "goal_zh": "比较语音导览与安静观赏的体验后，决定继续试用简短版并保留关闭选项"
+  },
+  "participants": [
+    "Sofia",
+    "Martin"
+  ],
+  "context_zh": "画廊志愿者向试听语音导览的访客收集反馈。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-06-s01",
+      "speaker": "Sofia",
+      "text": "Did the audio enhance your visit, or did it get in the way of looking at the paintings?"
+    },
+    {
+      "id": "p07-c-06-s02",
+      "speaker": "Martin",
+      "text": "The short comments made it more enjoyable. The long biography was too much for me."
+    },
+    {
+      "id": "p07-c-06-s03",
+      "speaker": "Sofia",
+      "text": "The artist's enthusiasm really comes through in that recording. I was reluctant to cut it."
+    },
+    {
+      "id": "p07-c-06-s04",
+      "speaker": "Martin",
+      "text": "I can hear why. I am enthusiastic about hearing artists explain their work, just not for ten minutes beside one picture."
+    },
+    {
+      "id": "p07-c-06-s05",
+      "speaker": "Sofia",
+      "text": "So perhaps we should keep the short introduction and make the full interview optional."
+    },
+    {
+      "id": "p07-c-06-s06",
+      "speaker": "Martin",
+      "text": "Yes, and leave an easy way to turn the sound off."
+    },
+    {
+      "id": "p07-c-06-s07",
+      "speaker": "Sofia",
+      "text": "We will keep testing that shorter version this week."
+    },
+    {
+      "id": "p07-c-06-s08",
+      "speaker": "Martin",
+      "text": "I would be happy to try it again after the change."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a5d74803603653a0",
+      "lemma": "enhance",
+      "pos": "v.",
+      "sense_zh": "改善，提升体验",
+      "sentence_ids": [
+        "p07-c-06-s01"
+      ],
+      "forms": [
+        "enhance"
+      ],
+      "sense_id": "sense-staged-ox-a5d74803603653a0-p07-c-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0dbc35ad0c78bf0e",
+      "lemma": "enjoyable",
+      "pos": "adj.",
+      "sense_zh": "令人愉快的",
+      "sentence_ids": [
+        "p07-c-06-s02"
+      ],
+      "forms": [
+        "enjoyable"
+      ],
+      "sense_id": "sense-staged-ox-0dbc35ad0c78bf0e-p07-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7d4b5fe85deb0e64",
+      "lemma": "enthusiasm",
+      "pos": "n.",
+      "sense_zh": "热情",
+      "sentence_ids": [
+        "p07-c-06-s03"
+      ],
+      "forms": [
+        "enthusiasm"
+      ],
+      "sense_id": "sense-staged-ox-7d4b5fe85deb0e64-p07-c-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d0614a44ef39693e",
+      "lemma": "enthusiastic",
+      "pos": "adj.",
+      "sense_zh": "热衷的，有热情的",
+      "sentence_ids": [
+        "p07-c-06-s04"
+      ],
+      "forms": [
+        "enthusiastic"
+      ],
+      "sense_id": "sense-staged-ox-d0614a44ef39693e-p07-c-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

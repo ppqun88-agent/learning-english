@@ -1,0 +1,121 @@
+{
+  "id": "p07-a-04",
+  "title_zh": "约定从开放观景台观察蝙蝠",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "bat-reserve-viewing-plan",
+    "label_zh": "确认保护区蝙蝠观赏位置",
+    "goal_zh": "了解洞穴与悬崖步道的关闭限制，决定随导览前往开放观景台"
+  },
+  "participants": [
+    "Suri",
+    "Ellis"
+  ],
+  "context_zh": "游客询问保护区工作人员，如何在不干扰蝙蝠的情况下观看它们离洞。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-04-s01",
+      "speaker": "Suri",
+      "text": "Is the cave open to visitors? We'd like to see the bats."
+    },
+    {
+      "id": "p07-a-04-s02",
+      "speaker": "Ellis",
+      "text": "No. A large colony lives inside, and keeping people out is part of our conservation work."
+    },
+    {
+      "id": "p07-a-04-s03",
+      "speaker": "Suri",
+      "text": "Can we watch from the path along the cliff instead?"
+    },
+    {
+      "id": "p07-a-04-s04",
+      "speaker": "Ellis",
+      "text": "That path is closed too, but the lower viewing platform is open. You can see the entrance from there."
+    },
+    {
+      "id": "p07-a-04-s05",
+      "speaker": "Suri",
+      "text": "Do we need to climb down to it?"
+    },
+    {
+      "id": "p07-a-04-s06",
+      "speaker": "Ellis",
+      "text": "No, there's a marked level path from the visitor centre. The evening guide will lead a group at seven."
+    },
+    {
+      "id": "p07-a-04-s07",
+      "speaker": "Suri",
+      "text": "We'll join that group and stay on the platform."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1214a03d616de281",
+      "lemma": "cave",
+      "pos": "n.",
+      "sense_zh": "洞穴",
+      "sentence_ids": [
+        "p07-a-04-s01"
+      ],
+      "forms": [
+        "cave"
+      ],
+      "sense_id": "sense-staged-ox-1214a03d616de281-p07-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-335324b18eebf955",
+      "lemma": "colony",
+      "pos": "n.",
+      "sense_zh": "同处一地的动物群体",
+      "sentence_ids": [
+        "p07-a-04-s02"
+      ],
+      "forms": [
+        "colony"
+      ],
+      "sense_id": "sense-staged-ox-335324b18eebf955-p07-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8db2f130951d1a4f",
+      "lemma": "conservation",
+      "pos": "n.",
+      "sense_zh": "自然保护",
+      "sentence_ids": [
+        "p07-a-04-s02"
+      ],
+      "forms": [
+        "conservation"
+      ],
+      "sense_id": "sense-staged-ox-8db2f130951d1a4f-p07-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c95c538162104c55",
+      "lemma": "cliff",
+      "pos": "n.",
+      "sense_zh": "悬崖",
+      "sentence_ids": [
+        "p07-a-04-s03"
+      ],
+      "forms": [
+        "cliff"
+      ],
+      "sense_id": "sense-staged-ox-c95c538162104c55-p07-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

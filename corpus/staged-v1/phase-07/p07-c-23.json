@@ -1,0 +1,126 @@
+{
+  "id": "p07-c-23",
+  "title_zh": "决定扫描旧照片并用信封避光存放",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "family-photo-scanning-care",
+    "label_zh": "决定扫描旧照片并用信封避光存放",
+    "goal_zh": "在拍摄和扫描之间选择扫描，约定避免强光并用合适信封保存旧照片"
+  },
+  "participants": [
+    "Clara",
+    "Ethan"
+  ],
+  "context_zh": "兄妹整理家庭老照片，选择数字化和暂时存放的方式。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-23-s01",
+      "speaker": "Clara",
+      "text": "Could I use the camera flash to photograph these? The room is quite dark."
+    },
+    {
+      "id": "p07-c-23-s02",
+      "speaker": "Ethan",
+      "text": "It will probably reflect off the shiny surface. Let us use the scanner instead."
+    },
+    {
+      "id": "p07-c-23-s03",
+      "speaker": "Clara",
+      "text": "I was going to leave the photos on the sunny windowsill while we worked."
+    },
+    {
+      "id": "p07-c-23-s04",
+      "speaker": "Ethan",
+      "text": "Please do not expose them to direct sunlight. We can keep them on the table away from the window."
+    },
+    {
+      "id": "p07-c-23-s05",
+      "speaker": "Clara",
+      "text": "Then I will put each one in a separate envelope when we finish."
+    },
+    {
+      "id": "p07-c-23-s06",
+      "speaker": "Ethan",
+      "text": "Use these photo-storage envelopes. They will also reduce exposure to light while the photos are put away."
+    },
+    {
+      "id": "p07-c-23-s07",
+      "speaker": "Clara",
+      "text": "All right. I will scan them one at a time and write the names on the envelopes, not on the photographs."
+    },
+    {
+      "id": "p07-c-23-s08",
+      "speaker": "Ethan",
+      "text": "I will check the scans against the originals before we put everything away."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8370ce6aef36d38e",
+      "lemma": "flash",
+      "pos": "n.",
+      "sense_zh": "相机闪光灯",
+      "sentence_ids": [
+        "p07-c-23-s01"
+      ],
+      "forms": [
+        "flash"
+      ],
+      "sense_id": "sense-staged-ox-8370ce6aef36d38e-p07-c-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6a65c987defb0c4",
+      "lemma": "expose",
+      "pos": "v.",
+      "sense_zh": "使暴露于，接触到",
+      "sentence_ids": [
+        "p07-c-23-s04"
+      ],
+      "forms": [
+        "expose"
+      ],
+      "sense_id": "sense-staged-ox-f6a65c987defb0c4-p07-c-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-374867324b0bfd76",
+      "lemma": "envelope",
+      "pos": "n.",
+      "sense_zh": "信封",
+      "sentence_ids": [
+        "p07-c-23-s05"
+      ],
+      "forms": [
+        "envelope"
+      ],
+      "sense_id": "sense-staged-ox-374867324b0bfd76-p07-c-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-653c831930c356e1",
+      "lemma": "exposure",
+      "pos": "n.",
+      "sense_zh": "暴露，接触",
+      "sentence_ids": [
+        "p07-c-23-s06"
+      ],
+      "forms": [
+        "exposure"
+      ],
+      "sense_id": "sense-staged-ox-653c831930c356e1-p07-c-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

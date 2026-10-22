@@ -1,0 +1,121 @@
+{
+  "id": "p07-b-19",
+  "title_zh": "让篮球训练减少对单一得分手的依赖",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "basketball-team-play-adjustment",
+    "label_zh": "调整篮球队的传球与防守练习",
+    "goal_zh": "澄清依赖单个队员的问题并约定练习轮转和传球"
+  },
+  "participants": [
+    "Maya",
+    "Coach Reed"
+  ],
+  "context_zh": "一支虚构美国业余篮球队讨论进攻配合和防守轮转，采用美式拼写。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-19-s01",
+      "speaker": "Maya",
+      "text": "Our defense fell apart whenever Jordan came off the court."
+    },
+    {
+      "id": "p07-b-19-s02",
+      "speaker": "Coach Reed",
+      "text": "He's our dominant player, but the rest of the team needs to communicate without him."
+    },
+    {
+      "id": "p07-b-19-s03",
+      "speaker": "Maya",
+      "text": "He also seems to dominate every practice game. The others just pass to him and stop moving."
+    },
+    {
+      "id": "p07-b-19-s04",
+      "speaker": "Coach Reed",
+      "text": "Then we need a more dynamic practice, with everyone cutting into space and making decisions."
+    },
+    {
+      "id": "p07-b-19-s05",
+      "speaker": "Maya",
+      "text": "Could we start with a passing game where everyone has to touch the ball before a shot?"
+    },
+    {
+      "id": "p07-b-19-s06",
+      "speaker": "Coach Reed",
+      "text": "Yes, then switch to a drill on defensive rotations. Jordan can join the second group rather than lead the first."
+    },
+    {
+      "id": "p07-b-19-s07",
+      "speaker": "Maya",
+      "text": "I'll explain the two drills and make sure everyone gets a turn."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9c63903b95d2192f",
+      "lemma": "defense",
+      "pos": "n.",
+      "sense_zh": "球队的防守，美式拼写",
+      "sentence_ids": [
+        "p07-b-19-s01"
+      ],
+      "forms": [
+        "defense"
+      ],
+      "sense_id": "sense-staged-ox-9c63903b95d2192f-p07-b-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26f09aa96915cede",
+      "lemma": "dominant",
+      "pos": "adj.",
+      "sense_zh": "占主导地位的；影响最大的",
+      "sentence_ids": [
+        "p07-b-19-s02"
+      ],
+      "forms": [
+        "dominant"
+      ],
+      "sense_id": "sense-staged-ox-26f09aa96915cede-p07-b-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-71ca5375e5b267ee",
+      "lemma": "dominate",
+      "pos": "v.",
+      "sense_zh": "在比赛或活动中占据支配地位",
+      "sentence_ids": [
+        "p07-b-19-s03"
+      ],
+      "forms": [
+        "dominate"
+      ],
+      "sense_id": "sense-staged-ox-71ca5375e5b267ee-p07-b-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e689f2659dbe2f4c",
+      "lemma": "dynamic",
+      "pos": "adj.",
+      "sense_zh": "充满活力并不断变化的",
+      "sentence_ids": [
+        "p07-b-19-s04"
+      ],
+      "forms": [
+        "dynamic"
+      ],
+      "sense_id": "sense-staged-ox-e689f2659dbe2f4c-p07-b-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

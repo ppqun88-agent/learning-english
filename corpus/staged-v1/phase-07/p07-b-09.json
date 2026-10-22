@@ -1,0 +1,158 @@
+{
+  "id": "p07-b-09",
+  "title_zh": "选择水下窗口等候海豹游近",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "aquarium-seal-viewing-choice",
+    "label_zh": "选择海豹池的水下观察位置",
+    "goal_zh": "解释展区观察条件并选择下层窗口等候海豹"
+  },
+  "participants": [
+    "Asha",
+    "Kit"
+  ],
+  "context_zh": "游客阿莎在水族馆向工作人员基特询问海豹观察位置。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-09-s01",
+      "speaker": "Asha",
+      "text": "That little seal is cute. Can we see it swimming from here?"
+    },
+    {
+      "id": "p07-b-09-s02",
+      "speaker": "Kit",
+      "text": "Sometimes, but the underwater window gives you a better view of its dive."
+    },
+    {
+      "id": "p07-b-09-s03",
+      "speaker": "Asha",
+      "text": "I'm curious about the depth of the pool. It looks shallow from this side."
+    },
+    {
+      "id": "p07-b-09-s04",
+      "speaker": "Kit",
+      "text": "The sign says four metres at the deep end. The floor slopes downwards beyond those rocks."
+    },
+    {
+      "id": "p07-b-09-s05",
+      "speaker": "Asha",
+      "text": "So the creature hasn't disappeared behind them. It's probably swimming below the window ledge."
+    },
+    {
+      "id": "p07-b-09-s06",
+      "speaker": "Kit",
+      "text": "Possibly. We can't see all of the pool from one spot."
+    },
+    {
+      "id": "p07-b-09-s07",
+      "speaker": "Asha",
+      "text": "Let's go to the lower window and wait quietly instead of tapping on the glass."
+    },
+    {
+      "id": "p07-b-09-s08",
+      "speaker": "Kit",
+      "text": "It's just down these steps. There's also a ramp on your left."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fd72bd2fbde9d2a6",
+      "lemma": "cute",
+      "pos": "adj.",
+      "sense_zh": "可爱的",
+      "sentence_ids": [
+        "p07-b-09-s01"
+      ],
+      "forms": [
+        "cute"
+      ],
+      "sense_id": "sense-staged-ox-fd72bd2fbde9d2a6-p07-b-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8ae08e98baa447b7",
+      "lemma": "dive",
+      "pos": "n.",
+      "sense_zh": "潜入水中的动作",
+      "sentence_ids": [
+        "p07-b-09-s02"
+      ],
+      "forms": [
+        "dive"
+      ],
+      "sense_id": "sense-staged-ox-8ae08e98baa447b7-p07-b-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6acfd10df64a3a0c",
+      "lemma": "curious",
+      "pos": "adj.",
+      "sense_zh": "好奇的；想了解的",
+      "sentence_ids": [
+        "p07-b-09-s03"
+      ],
+      "forms": [
+        "curious"
+      ],
+      "sense_id": "sense-staged-ox-6acfd10df64a3a0c-p07-b-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54f53da3428593fe",
+      "lemma": "depth",
+      "pos": "n.",
+      "sense_zh": "深度",
+      "sentence_ids": [
+        "p07-b-09-s03"
+      ],
+      "forms": [
+        "depth"
+      ],
+      "sense_id": "sense-staged-ox-54f53da3428593fe-p07-b-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51a825c4f50bf41a",
+      "lemma": "downwards",
+      "pos": "adv.",
+      "sense_zh": "向下",
+      "sentence_ids": [
+        "p07-b-09-s04"
+      ],
+      "forms": [
+        "downwards"
+      ],
+      "sense_id": "sense-staged-ox-51a825c4f50bf41a-p07-b-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b98019258496a9f8",
+      "lemma": "creature",
+      "pos": "n.",
+      "sense_zh": "动物；生物",
+      "sentence_ids": [
+        "p07-b-09-s05"
+      ],
+      "forms": [
+        "creature"
+      ],
+      "sense_id": "sense-staged-ox-b98019258496a9f8-p07-b-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

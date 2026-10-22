@@ -1,0 +1,126 @@
+{
+  "id": "p07-c-09",
+  "title_zh": "核对社区阅读项目资助的用途和承诺",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-grant-delivery-check",
+    "label_zh": "核对社区阅读项目资助的用途和承诺",
+    "goal_zh": "确认资助金额只能用于约定的阅读活动，并安排收据保存和结项报告"
+  },
+  "participants": [
+    "Elena",
+    "Marcus"
+  ],
+  "context_zh": "社区阅读项目协调员与同事核对虚构的资助通知和项目计划。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-09-s01",
+      "speaker": "Elena",
+      "text": "The Green Street Foundation has approved our application. We have funding for six reading sessions."
+    },
+    {
+      "id": "p07-c-09-s02",
+      "speaker": "Marcus",
+      "text": "Great. Can we use some of it to repaint the hall?"
+    },
+    {
+      "id": "p07-c-09-s03",
+      "speaker": "Elena",
+      "text": "No. The letter says this fund is for books, tutor time and transport to the sessions."
+    },
+    {
+      "id": "p07-c-09-s04",
+      "speaker": "Marcus",
+      "text": "Then the painting needs a separate budget. What do we have to report?"
+    },
+    {
+      "id": "p07-c-09-s05",
+      "speaker": "Elena",
+      "text": "Attendance and spending. We also need to explain whether we were able to fulfill our promise of six sessions."
+    },
+    {
+      "id": "p07-c-09-s06",
+      "speaker": "Marcus",
+      "text": "We have dates for all six. I will keep the attendance records and receipts together."
+    },
+    {
+      "id": "p07-c-09-s07",
+      "speaker": "Elena",
+      "text": "I will draft the final report after the last session, not before we know what happened."
+    },
+    {
+      "id": "p07-c-09-s08",
+      "speaker": "Marcus",
+      "text": "Agreed. Let us put those responsibilities in the project folder now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7868cf409edbafcd",
+      "lemma": "foundation",
+      "pos": "n.",
+      "sense_zh": "提供资助的基金会",
+      "sentence_ids": [
+        "p07-c-09-s01"
+      ],
+      "forms": [
+        "foundation"
+      ],
+      "sense_id": "sense-staged-ox-7868cf409edbafcd-p07-c-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-121f51925774ed1e",
+      "lemma": "funding",
+      "pos": "n.",
+      "sense_zh": "资金支持",
+      "sentence_ids": [
+        "p07-c-09-s01"
+      ],
+      "forms": [
+        "funding"
+      ],
+      "sense_id": "sense-staged-ox-121f51925774ed1e-p07-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2e3ece32c276293b",
+      "lemma": "fund",
+      "pos": "n.",
+      "sense_zh": "用于特定用途的资金",
+      "sentence_ids": [
+        "p07-c-09-s03"
+      ],
+      "forms": [
+        "fund"
+      ],
+      "sense_id": "sense-staged-ox-2e3ece32c276293b-p07-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f7aad4745b228b2c",
+      "lemma": "fulfill",
+      "pos": "v.",
+      "sense_zh": "履行，实现承诺",
+      "sentence_ids": [
+        "p07-c-09-s05"
+      ],
+      "forms": [
+        "fulfill"
+      ],
+      "sense_id": "sense-staged-ox-f7aad4745b228b2c-p07-c-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

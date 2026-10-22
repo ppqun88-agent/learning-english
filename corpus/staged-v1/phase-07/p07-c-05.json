@@ -1,0 +1,126 @@
+{
+  "id": "p07-c-05",
+  "title_zh": "把故事课开场改为先听故事再分享",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "storytelling-session-opening-revision",
+    "label_zh": "把故事课开场改为先听故事再分享",
+    "goal_zh": "调整故事课的开场结构，先示范短故事再邀请学员自愿分享"
+  },
+  "participants": [
+    "Nora",
+    "Caleb"
+  ],
+  "context_zh": "两名成人教育教师讨论下一次故事课的开场。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-05-s01",
+      "speaker": "Nora",
+      "text": "The opening talk is informative, but I am not sure it will engage people who have never told a story in public."
+    },
+    {
+      "id": "p07-c-05-s02",
+      "speaker": "Caleb",
+      "text": "Would an entertaining story work better than ten minutes of instructions?"
+    },
+    {
+      "id": "p07-c-05-s03",
+      "speaker": "Nora",
+      "text": "Yes. I want the emphasis to be on sharing an experience, not giving a perfect performance."
+    },
+    {
+      "id": "p07-c-05-s04",
+      "speaker": "Caleb",
+      "text": "Then I will tell a short story about missing my bus. It has a clear beginning and a funny ending."
+    },
+    {
+      "id": "p07-c-05-s05",
+      "speaker": "Nora",
+      "text": "Could you also emphasize that nobody has to share before they feel ready?"
+    },
+    {
+      "id": "p07-c-05-s06",
+      "speaker": "Caleb",
+      "text": "Of course. After my story, I will invite volunteers rather than call on people."
+    },
+    {
+      "id": "p07-c-05-s07",
+      "speaker": "Nora",
+      "text": "That sounds right. Let us move the technical advice to the end."
+    },
+    {
+      "id": "p07-c-05-s08",
+      "speaker": "Caleb",
+      "text": "Agreed. I will rewrite the opening around the story."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-83ad161d0b47c791",
+      "lemma": "engage",
+      "pos": "v.",
+      "sense_zh": "吸引并保持某人的兴趣",
+      "sentence_ids": [
+        "p07-c-05-s01"
+      ],
+      "forms": [
+        "engage"
+      ],
+      "sense_id": "sense-staged-ox-83ad161d0b47c791-p07-c-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef86eed0bac17d9d",
+      "lemma": "entertaining",
+      "pos": "adj.",
+      "sense_zh": "有趣的，使人愉快的",
+      "sentence_ids": [
+        "p07-c-05-s02"
+      ],
+      "forms": [
+        "entertaining"
+      ],
+      "sense_id": "sense-staged-ox-ef86eed0bac17d9d-p07-c-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d46170ce2e475d2b",
+      "lemma": "emphasis",
+      "pos": "n.",
+      "sense_zh": "重点",
+      "sentence_ids": [
+        "p07-c-05-s03"
+      ],
+      "forms": [
+        "emphasis"
+      ],
+      "sense_id": "sense-staged-ox-d46170ce2e475d2b-p07-c-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-36eda69f5fd40310",
+      "lemma": "emphasize",
+      "pos": "v.",
+      "sense_zh": "强调",
+      "sentence_ids": [
+        "p07-c-05-s05"
+      ],
+      "forms": [
+        "emphasize"
+      ],
+      "sense_id": "sense-staged-ox-36eda69f5fd40310-p07-c-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

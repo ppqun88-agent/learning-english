@@ -1,0 +1,100 @@
+{
+  "id": "p07-c-22",
+  "title_zh": "根据心愿单与价格选定植物礼物",
+  "topic_id": "services",
+  "scenario": {
+    "id": "greenhouse-plant-gift-choice",
+    "label_zh": "根据心愿单与价格选定植物礼物",
+    "goal_zh": "比较植物标签和价格，选定收礼人心愿单上的预算内植物"
+  },
+  "participants": [
+    "Isaac",
+    "June"
+  ],
+  "context_zh": "顾客在植物商店为朋友挑选礼物。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-22-s01",
+      "speaker": "Isaac",
+      "text": "This exotic orchid is beautiful. The label says it comes from South America."
+    },
+    {
+      "id": "p07-c-22-s02",
+      "speaker": "June",
+      "text": "It is lovely, but have you seen the price? It costs a fortune."
+    },
+    {
+      "id": "p07-c-22-s03",
+      "speaker": "Isaac",
+      "text": "Yes, it is well beyond my budget. I was fortunate to find Mina's wish list before I came; she also wants this little cactus."
+    },
+    {
+      "id": "p07-c-22-s04",
+      "speaker": "June",
+      "text": "That one is fifteen pounds, and it has the exact name she wrote down."
+    },
+    {
+      "id": "p07-c-22-s05",
+      "speaker": "Isaac",
+      "text": "Then I will take the cactus. I would rather give her something she asked for."
+    },
+    {
+      "id": "p07-c-22-s06",
+      "speaker": "June",
+      "text": "Good choice. I will leave the plant label attached and wrap the pot."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b077d42f93166424",
+      "lemma": "exotic",
+      "pos": "adj.",
+      "sense_zh": "来自异国而显得新奇的",
+      "sentence_ids": [
+        "p07-c-22-s01"
+      ],
+      "forms": [
+        "exotic"
+      ],
+      "sense_id": "sense-staged-ox-b077d42f93166424-p07-c-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d9946ab613dfa93",
+      "lemma": "fortune",
+      "pos": "n.",
+      "sense_zh": "一大笔钱",
+      "sentence_ids": [
+        "p07-c-22-s02"
+      ],
+      "forms": [
+        "fortune"
+      ],
+      "sense_id": "sense-staged-ox-3d9946ab613dfa93-p07-c-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9b1e3296a1383cb",
+      "lemma": "fortunate",
+      "pos": "adj.",
+      "sense_zh": "幸运的",
+      "sentence_ids": [
+        "p07-c-22-s03"
+      ],
+      "forms": [
+        "fortunate"
+      ],
+      "sense_id": "sense-staged-ox-b9b1e3296a1383cb-p07-c-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

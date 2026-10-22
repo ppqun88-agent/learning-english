@@ -1,0 +1,147 @@
+{
+  "id": "p07-b-24",
+  "title_zh": "约定离婚后的陪伴不追问前伴侣",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "divorce-friend-support-boundaries",
+    "label_zh": "离婚期间商定朋友陪伴的方式",
+    "goal_zh": "表达支持和个人意愿并约定安静见面而不谈论前伴侣"
+  },
+  "participants": [
+    "Rosa",
+    "Beth"
+  ],
+  "context_zh": "虚构朋友罗莎和贝丝谈论离婚后的情绪及陪伴边界。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-24-s01",
+      "speaker": "Rosa",
+      "text": "You've seemed distant lately. Have I done something to upset you?"
+    },
+    {
+      "id": "p07-b-24-s02",
+      "speaker": "Beth",
+      "text": "No. Since the divorce, every conversation seems to turn into questions about my former husband."
+    },
+    {
+      "id": "p07-b-24-s03",
+      "speaker": "Rosa",
+      "text": "I'm sorry. I thought asking showed that I cared."
+    },
+    {
+      "id": "p07-b-24-s04",
+      "speaker": "Beth",
+      "text": "I know. I have no desire to discuss what went wrong tonight. I just miss spending ordinary time with you."
+    },
+    {
+      "id": "p07-b-24-s05",
+      "speaker": "Rosa",
+      "text": "I understand. You deserve some space without having to explain yourself."
+    },
+    {
+      "id": "p07-b-24-s06",
+      "speaker": "Beth",
+      "text": "It's been a disappointment that some friends only call when they want news."
+    },
+    {
+      "id": "p07-b-24-s07",
+      "speaker": "Rosa",
+      "text": "Would you like to come over for tea tomorrow? We can talk about something else, or not talk much at all."
+    },
+    {
+      "id": "p07-b-24-s08",
+      "speaker": "Beth",
+      "text": "Yes, that would be lovely. And please don't pass on anything about him unless I ask."
+    },
+    {
+      "id": "p07-b-24-s09",
+      "speaker": "Rosa",
+      "text": "I won't. Just tea and company tomorrow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d937c3e77e580206",
+      "lemma": "distant",
+      "pos": "adj.",
+      "sense_zh": "疏远的；感情上不亲近的",
+      "sentence_ids": [
+        "p07-b-24-s01"
+      ],
+      "forms": [
+        "distant"
+      ],
+      "sense_id": "sense-staged-ox-d937c3e77e580206-p07-b-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a7c98e7277ae2fe",
+      "lemma": "divorce",
+      "pos": "n.",
+      "sense_zh": "离婚",
+      "sentence_ids": [
+        "p07-b-24-s02"
+      ],
+      "forms": [
+        "divorce"
+      ],
+      "sense_id": "sense-staged-ox-5a7c98e7277ae2fe-p07-b-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-248dd0f66056e6d6",
+      "lemma": "desire",
+      "pos": "n.",
+      "sense_zh": "想做某事的愿望",
+      "sentence_ids": [
+        "p07-b-24-s04"
+      ],
+      "forms": [
+        "desire"
+      ],
+      "sense_id": "sense-staged-ox-248dd0f66056e6d6-p07-b-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-19cdd43c96fa0261",
+      "lemma": "deserve",
+      "pos": "v.",
+      "sense_zh": "值得；应当得到",
+      "sentence_ids": [
+        "p07-b-24-s05"
+      ],
+      "forms": [
+        "deserve"
+      ],
+      "sense_id": "sense-staged-ox-19cdd43c96fa0261-p07-b-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-429f064f78f7e1ef",
+      "lemma": "disappointment",
+      "pos": "n.",
+      "sense_zh": "令人失望的事或体验",
+      "sentence_ids": [
+        "p07-b-24-s06"
+      ],
+      "forms": [
+        "disappointment"
+      ],
+      "sense_id": "sense-staged-ox-429f064f78f7e1ef-p07-b-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

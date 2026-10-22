@@ -1,0 +1,68 @@
+{
+  "id": "p07-b-31",
+  "title_zh": "说明手肘不适并确认下午就诊时间",
+  "topic_id": "health",
+  "scenario": {
+    "id": "routine-clinic-booking",
+    "label_zh": "描述问题并预约就诊",
+    "goal_zh": "准确说明不适位置并确认预约时间"
+  },
+  "participants": [
+    "Theo",
+    "Receptionist"
+  ],
+  "context_zh": "虚构来电者向诊所描述不适位置并预约，不涉及诊断或治疗建议。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-31-s01",
+      "speaker": "Theo",
+      "text": "Could I book an appointment? My right elbow has been hurting since yesterday."
+    },
+    {
+      "id": "p07-b-31-s02",
+      "speaker": "Receptionist",
+      "text": "I'll note the location and when it started. We have an appointment at three thirty this afternoon. Can you come then?"
+    },
+    {
+      "id": "p07-b-31-s03",
+      "speaker": "Theo",
+      "text": "Yes. Is that at the main clinic?"
+    },
+    {
+      "id": "p07-b-31-s04",
+      "speaker": "Receptionist",
+      "text": "That's right, on Oak Street. Please arrive ten minutes early for the appointment."
+    },
+    {
+      "id": "p07-b-31-s05",
+      "speaker": "Theo",
+      "text": "Thank you. I'll be there at three twenty."
+    },
+    {
+      "id": "p07-b-31-s06",
+      "speaker": "Receptionist",
+      "text": "You're booked for three thirty today. The clinician will ask you more about the pain when you arrive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e172f7faf49dd3c3",
+      "lemma": "elbow",
+      "pos": "n.",
+      "sense_zh": "肘；手肘",
+      "sentence_ids": [
+        "p07-b-31-s01"
+      ],
+      "forms": [
+        "elbow"
+      ],
+      "sense_id": "sense-staged-ox-e172f7faf49dd3c3-p07-b-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

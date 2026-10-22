@@ -1,0 +1,168 @@
+{
+  "id": "p07-c-14",
+  "title_zh": "修订进化课堂海报中的个体与群体说法",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-evolution-explanation-revision",
+    "label_zh": "修订进化课堂海报中的个体与群体说法",
+    "goal_zh": "区分个体学习与群体跨世代变化，修改海报中的进化说明及基因示例"
+  },
+  "participants": [
+    "Maya",
+    "Mr Reed"
+  ],
+  "context_zh": "学生和生物老师检查课堂海报；这是基础概念交流，不涉及个人健康判断。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-14-s01",
+      "speaker": "Maya",
+      "text": "My poster says animals evolve because they try hard to adapt. Is that clear enough?"
+    },
+    {
+      "id": "p07-c-14-s02",
+      "speaker": "Mr Reed",
+      "text": "It is clear, but misleading. Evolution describes changes in populations across generations, not an individual deciding to change."
+    },
+    {
+      "id": "p07-c-14-s03",
+      "speaker": "Maya",
+      "text": "So a bird learning a new song is not, by itself, an example of evolution?"
+    },
+    {
+      "id": "p07-c-14-s04",
+      "speaker": "Mr Reed",
+      "text": "Right. That is a fundamental distinction between learning during one lifetime and inherited changes across generations."
+    },
+    {
+      "id": "p07-c-14-s05",
+      "speaker": "Maya",
+      "text": "Where should I explain what a gene is?"
+    },
+    {
+      "id": "p07-c-14-s06",
+      "speaker": "Mr Reed",
+      "text": "Beside the DNA drawing. Say that a gene is a section of DNA, and use the example we studied in class."
+    },
+    {
+      "id": "p07-c-14-s07",
+      "speaker": "Maya",
+      "text": "Can I say every genetic difference changes the way an animal looks?"
+    },
+    {
+      "id": "p07-c-14-s08",
+      "speaker": "Mr Reed",
+      "text": "No. Some differences have no visible effect. Avoid making the drawing stand for every possible change."
+    },
+    {
+      "id": "p07-c-14-s09",
+      "speaker": "Maya",
+      "text": "That fundamentally changes the claim in my first paragraph. I will rewrite it around populations and generations."
+    },
+    {
+      "id": "p07-c-14-s10",
+      "speaker": "Mr Reed",
+      "text": "Good. Bring the new version tomorrow and we will check that the example matches the explanation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5a3d51502b857d54",
+      "lemma": "evolve",
+      "pos": "v.",
+      "sense_zh": "逐步进化",
+      "sentence_ids": [
+        "p07-c-14-s01"
+      ],
+      "forms": [
+        "evolve"
+      ],
+      "sense_id": "sense-staged-ox-5a3d51502b857d54-p07-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f3ff2f5aa8472a42",
+      "lemma": "evolution",
+      "pos": "n.",
+      "sense_zh": "生物进化",
+      "sentence_ids": [
+        "p07-c-14-s02"
+      ],
+      "forms": [
+        "evolution"
+      ],
+      "sense_id": "sense-staged-ox-f3ff2f5aa8472a42-p07-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9af1b91c243cd7ff",
+      "lemma": "fundamental",
+      "pos": "adj.",
+      "sense_zh": "根本的，基础的",
+      "sentence_ids": [
+        "p07-c-14-s04"
+      ],
+      "forms": [
+        "fundamental"
+      ],
+      "sense_id": "sense-staged-ox-9af1b91c243cd7ff-p07-c-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b623f64914c85b74",
+      "lemma": "gene",
+      "pos": "n.",
+      "sense_zh": "基因",
+      "sentence_ids": [
+        "p07-c-14-s05"
+      ],
+      "forms": [
+        "gene"
+      ],
+      "sense_id": "sense-staged-ox-b623f64914c85b74-p07-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc93a0af9b4987ee",
+      "lemma": "genetic",
+      "pos": "adj.",
+      "sense_zh": "基因的，遗传的",
+      "sentence_ids": [
+        "p07-c-14-s07"
+      ],
+      "forms": [
+        "genetic"
+      ],
+      "sense_id": "sense-staged-ox-fc93a0af9b4987ee-p07-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9f7fbbc69955416d",
+      "lemma": "fundamentally",
+      "pos": "adv.",
+      "sense_zh": "从根本上",
+      "sentence_ids": [
+        "p07-c-14-s09"
+      ],
+      "forms": [
+        "fundamentally"
+      ],
+      "sense_id": "sense-staged-ox-9f7fbbc69955416d-p07-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

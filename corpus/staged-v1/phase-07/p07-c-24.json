@@ -1,0 +1,158 @@
+{
+  "id": "p07-c-24",
+  "title_zh": "取消明火灯笼方案并改用电灯",
+  "topic_id": "community",
+  "scenario": {
+    "id": "festival-open-flame-proposal-refusal",
+    "label_zh": "取消明火灯笼方案并改用电灯",
+    "goal_zh": "依据场地规定否决明火和烟火提案，选定电灯并安排告知志愿者"
+  },
+  "participants": [
+    "Jade",
+    "Simon"
+  ],
+  "context_zh": "两名社区节庆组织者核对场地规定和消防人员的意见。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-24-s01",
+      "speaker": "Jade",
+      "text": "The paper lanterns would look lovely. Can we put a small flame inside each one?"
+    },
+    {
+      "id": "p07-c-24-s02",
+      "speaker": "Simon",
+      "text": "No. The venue rules forbid open flames, and the firefighter who checked our plan reminded us of that."
+    },
+    {
+      "id": "p07-c-24-s03",
+      "speaker": "Jade",
+      "text": "What about a single firework to mark the opening?"
+    },
+    {
+      "id": "p07-c-24-s04",
+      "speaker": "Simon",
+      "text": "That is not approved either. We need a firm rule for the volunteers: no flames and no fireworks."
+    },
+    {
+      "id": "p07-c-24-s05",
+      "speaker": "Jade",
+      "text": "Then let us use the battery lights we already have. Can they be fixed firmly to the frames?"
+    },
+    {
+      "id": "p07-c-24-s06",
+      "speaker": "Simon",
+      "text": "Yes. The display team can secure them and check that nothing is loose."
+    },
+    {
+      "id": "p07-c-24-s07",
+      "speaker": "Jade",
+      "text": "I will tell the volunteers that the lantern idea is cancelled and we are using electric lights."
+    },
+    {
+      "id": "p07-c-24-s08",
+      "speaker": "Simon",
+      "text": "Thank you. I will update the equipment list so nobody brings fuel or fireworks."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b097485f313204aa",
+      "lemma": "flame",
+      "pos": "n.",
+      "sense_zh": "火焰",
+      "sentence_ids": [
+        "p07-c-24-s01"
+      ],
+      "forms": [
+        "flame"
+      ],
+      "sense_id": "sense-staged-ox-b097485f313204aa-p07-c-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-37cf12ffba2f1233",
+      "lemma": "forbid",
+      "pos": "v.",
+      "sense_zh": "禁止",
+      "sentence_ids": [
+        "p07-c-24-s02"
+      ],
+      "forms": [
+        "forbid"
+      ],
+      "sense_id": "sense-staged-ox-37cf12ffba2f1233-p07-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ee75d5a2fa81d3a",
+      "lemma": "firefighter",
+      "pos": "n.",
+      "sense_zh": "消防员",
+      "sentence_ids": [
+        "p07-c-24-s02"
+      ],
+      "forms": [
+        "firefighter"
+      ],
+      "sense_id": "sense-staged-ox-0ee75d5a2fa81d3a-p07-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74d2db2fdc0b9a48",
+      "lemma": "firework",
+      "pos": "n.",
+      "sense_zh": "烟花，烟火制品",
+      "sentence_ids": [
+        "p07-c-24-s03"
+      ],
+      "forms": [
+        "firework"
+      ],
+      "sense_id": "sense-staged-ox-74d2db2fdc0b9a48-p07-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4cbb35937e771023",
+      "lemma": "firm",
+      "pos": "adj.",
+      "sense_zh": "坚定的，明确不变的",
+      "sentence_ids": [
+        "p07-c-24-s04"
+      ],
+      "forms": [
+        "firm"
+      ],
+      "sense_id": "sense-staged-ox-4cbb35937e771023-p07-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c13d628552e3e695",
+      "lemma": "firmly",
+      "pos": "adv.",
+      "sense_zh": "牢固地",
+      "sentence_ids": [
+        "p07-c-24-s05"
+      ],
+      "forms": [
+        "firmly"
+      ],
+      "sense_id": "sense-staged-ox-c13d628552e3e695-p07-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

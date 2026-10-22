@@ -1,0 +1,158 @@
+{
+  "id": "p07-b-05",
+  "title_zh": "明确西部短剧门响后的出场提示",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "western-play-cue-rehearsal",
+    "label_zh": "约定西部短剧的出场提示",
+    "goal_zh": "澄清表演提示与停顿的目的并约定从门响处重排"
+  },
+  "participants": [
+    "Bea",
+    "Oscar"
+  ],
+  "context_zh": "社区剧团正在排练一出虚构西部短剧；贝娅负责舞台技术，奥斯卡扮演牛仔。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-05-s01",
+      "speaker": "Bea",
+      "text": "Why does the cowboy wait outside after the door opens? I thought that was your entrance."
+    },
+    {
+      "id": "p07-b-05-s02",
+      "speaker": "Oscar",
+      "text": "I deliberately pause there. He's checking whether the room is empty."
+    },
+    {
+      "id": "p07-b-05-s03",
+      "speaker": "Bea",
+      "text": "The crew thought you'd missed your cue, so they played the door sound twice."
+    },
+    {
+      "id": "p07-b-05-s04",
+      "speaker": "Oscar",
+      "text": "Oh, that explains it. I want a dramatic pause, but not one that looks like a mistake."
+    },
+    {
+      "id": "p07-b-05-s05",
+      "speaker": "Bea",
+      "text": "What duration do you have in mind? Two seconds, or closer to five?"
+    },
+    {
+      "id": "p07-b-05-s06",
+      "speaker": "Oscar",
+      "text": "Two should be enough. Then I'll take one step through the doorway."
+    },
+    {
+      "id": "p07-b-05-s07",
+      "speaker": "Bea",
+      "text": "Let's use the first door sound as the cue and keep the lights steady while you wait."
+    },
+    {
+      "id": "p07-b-05-s08",
+      "speaker": "Oscar",
+      "text": "Agreed. Can we start again from the door sound so everyone can see the timing?"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-59b1cfedccca52d1",
+      "lemma": "cowboy",
+      "pos": "n.",
+      "sense_zh": "牛仔",
+      "sentence_ids": [
+        "p07-b-05-s01"
+      ],
+      "forms": [
+        "cowboy"
+      ],
+      "sense_id": "sense-staged-ox-59b1cfedccca52d1-p07-b-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4fe045ba62c3c71f",
+      "lemma": "deliberately",
+      "pos": "adv.",
+      "sense_zh": "故意地；有意地",
+      "sentence_ids": [
+        "p07-b-05-s02"
+      ],
+      "forms": [
+        "deliberately"
+      ],
+      "sense_id": "sense-staged-ox-4fe045ba62c3c71f-p07-b-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da36ab6941426c7e",
+      "lemma": "crew",
+      "pos": "n.",
+      "sense_zh": "负责舞台技术等工作的团队",
+      "sentence_ids": [
+        "p07-b-05-s03"
+      ],
+      "forms": [
+        "crew"
+      ],
+      "sense_id": "sense-staged-ox-da36ab6941426c7e-p07-b-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a681aab382700730",
+      "lemma": "cue",
+      "pos": "n.",
+      "sense_zh": "表演中提示下一动作的信号",
+      "sentence_ids": [
+        "p07-b-05-s03"
+      ],
+      "forms": [
+        "cue"
+      ],
+      "sense_id": "sense-staged-ox-a681aab382700730-p07-b-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-938b6f539313225d",
+      "lemma": "dramatic",
+      "pos": "adj.",
+      "sense_zh": "富有戏剧性和表现力的",
+      "sentence_ids": [
+        "p07-b-05-s04"
+      ],
+      "forms": [
+        "dramatic"
+      ],
+      "sense_id": "sense-staged-ox-938b6f539313225d-p07-b-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f73993d63cd9d0c",
+      "lemma": "duration",
+      "pos": "n.",
+      "sense_zh": "持续时间",
+      "sentence_ids": [
+        "p07-b-05-s05"
+      ],
+      "forms": [
+        "duration"
+      ],
+      "sense_id": "sense-staged-ox-2f73993d63cd9d0c-p07-b-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

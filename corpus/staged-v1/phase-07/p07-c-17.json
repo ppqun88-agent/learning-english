@@ -1,0 +1,126 @@
+{
+  "id": "p07-c-17",
+  "title_zh": "确定地质社团只观察并记录采石场样本",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "geology-club-observation-plan",
+    "label_zh": "确定地质社团只观察并记录采石场样本",
+    "goal_zh": "选择可安全观察的岩层和疑似化石，约定拍照标注而不取走或过早确认样本"
+  },
+  "participants": [
+    "Erin",
+    "Pavel"
+  ],
+  "context_zh": "地质社团成员在有公共步道的旧采石场讨论记录方法。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-17-s01",
+      "speaker": "Erin",
+      "text": "Is that curved mark in the rock a fossil?"
+    },
+    {
+      "id": "p07-c-17-s02",
+      "speaker": "Pavel",
+      "text": "It might be, but we should not identify it from this distance. Take a photograph with the location noted."
+    },
+    {
+      "id": "p07-c-17-s03",
+      "speaker": "Erin",
+      "text": "There is a small fragment on the path too. Should I bring it to the meeting?"
+    },
+    {
+      "id": "p07-c-17-s04",
+      "speaker": "Pavel",
+      "text": "Leave it here. Our exploration of the quarry does not include collecting samples."
+    },
+    {
+      "id": "p07-c-17-s05",
+      "speaker": "Erin",
+      "text": "Then I will photograph the larger rock formation from the viewing point."
+    },
+    {
+      "id": "p07-c-17-s06",
+      "speaker": "Pavel",
+      "text": "Good. We can compare its layers with the guidebook and ask our leader about the curved mark."
+    },
+    {
+      "id": "p07-c-17-s07",
+      "speaker": "Erin",
+      "text": "I will label the picture as unidentified rather than write a species name."
+    },
+    {
+      "id": "p07-c-17-s08",
+      "speaker": "Pavel",
+      "text": "That will give us a useful question for the meeting without claiming more than we know."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6cc170a086aec286",
+      "lemma": "fossil",
+      "pos": "n.",
+      "sense_zh": "化石",
+      "sentence_ids": [
+        "p07-c-17-s01"
+      ],
+      "forms": [
+        "fossil"
+      ],
+      "sense_id": "sense-staged-ox-6cc170a086aec286-p07-c-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4c8e005a2a02294a",
+      "lemma": "fragment",
+      "pos": "n.",
+      "sense_zh": "碎片，小块",
+      "sentence_ids": [
+        "p07-c-17-s03"
+      ],
+      "forms": [
+        "fragment"
+      ],
+      "sense_id": "sense-staged-ox-4c8e005a2a02294a-p07-c-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-929b0b07344efd3f",
+      "lemma": "exploration",
+      "pos": "n.",
+      "sense_zh": "探索，考察",
+      "sentence_ids": [
+        "p07-c-17-s04"
+      ],
+      "forms": [
+        "exploration"
+      ],
+      "sense_id": "sense-staged-ox-929b0b07344efd3f-p07-c-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0595eccdd3db7e8d",
+      "lemma": "formation",
+      "pos": "n.",
+      "sense_zh": "自然形成的岩层或岩体",
+      "sentence_ids": [
+        "p07-c-17-s05"
+      ],
+      "forms": [
+        "formation"
+      ],
+      "sense_id": "sense-staged-ox-0595eccdd3db7e8d-p07-c-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

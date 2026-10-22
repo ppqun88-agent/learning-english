@@ -1,0 +1,89 @@
+{
+  "id": "p07-b-27",
+  "title_zh": "先问清废土去向再开始挖花坛",
+  "topic_id": "community",
+  "scenario": {
+    "id": "garden-soil-disposal-check",
+    "label_zh": "核实花坛挖土与废土去向",
+    "goal_zh": "先向负责人确认土堆用途和处置方式再开始挖土"
+  },
+  "participants": [
+    "Milo",
+    "Grace"
+  ],
+  "context_zh": "社区花园志愿者准备整理花坛，先核对土堆用途与去向。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-27-s01",
+      "speaker": "Milo",
+      "text": "Shall I dig out the old flower bed while you move the pots?"
+    },
+    {
+      "id": "p07-b-27-s02",
+      "speaker": "Grace",
+      "text": "Not yet. Where were you planning to put the soil?"
+    },
+    {
+      "id": "p07-b-27-s03",
+      "speaker": "Milo",
+      "text": "I thought I could dump it on that pile behind the shed."
+    },
+    {
+      "id": "p07-b-27-s04",
+      "speaker": "Grace",
+      "text": "That pile belongs to the school project. We don't know whether they want this soil mixed into it."
+    },
+    {
+      "id": "p07-b-27-s05",
+      "speaker": "Milo",
+      "text": "Good point. I'll ask the garden coordinator where the old soil should go."
+    },
+    {
+      "id": "p07-b-27-s06",
+      "speaker": "Grace",
+      "text": "Thanks. We can move the empty pots while we wait for an answer."
+    },
+    {
+      "id": "p07-b-27-s07",
+      "speaker": "Milo",
+      "text": "Agreed. No digging until we've checked the disposal plan."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2cccf6e77d455bc8",
+      "lemma": "dig",
+      "pos": "v.",
+      "sense_zh": "挖掘；挖出",
+      "sentence_ids": [
+        "p07-b-27-s01"
+      ],
+      "forms": [
+        "dig"
+      ],
+      "sense_id": "sense-staged-ox-2cccf6e77d455bc8-p07-b-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-61ea49ebd78e4b7e",
+      "lemma": "dump",
+      "pos": "v.",
+      "sense_zh": "倾倒；随意堆放",
+      "sentence_ids": [
+        "p07-b-27-s03"
+      ],
+      "forms": [
+        "dump"
+      ],
+      "sense_id": "sense-staged-ox-61ea49ebd78e4b7e-p07-b-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

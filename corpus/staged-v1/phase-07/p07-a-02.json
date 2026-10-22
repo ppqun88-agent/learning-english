@@ -1,0 +1,122 @@
+{
+  "id": "p07-a-02",
+  "title_zh": "取消林间木屋预订并确认退款",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "cabin-reservation-cancellation",
+    "label_zh": "取消木屋住宿并核对退款",
+    "goal_zh": "确认要取消的木屋住宿、取消条件和退款安排，完成取消并收到确认"
+  },
+  "participants": [
+    "Tomas",
+    "Rae"
+  ],
+  "context_zh": "旅客因家庭安排有变，致电虚构的度假营地取消尚在免费取消期内的住宿。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-02-s01",
+      "speaker": "Tomas",
+      "text": "I'd like to cancel my booking for next weekend. The name is Tomas Vale."
+    },
+    {
+      "id": "p07-a-02-s02",
+      "speaker": "Rae",
+      "text": "I have it here: the two-person cabin for Friday and Saturday. Is that the right one?"
+    },
+    {
+      "id": "p07-a-02-s03",
+      "speaker": "Tomas",
+      "text": "Yes. Our family circumstances have changed, and we can't travel now."
+    },
+    {
+      "id": "p07-a-02-s04",
+      "speaker": "Rae",
+      "text": "I'm sorry to hear that. You're still within our free cancellation period, so the full deposit can be returned."
+    },
+    {
+      "id": "p07-a-02-s05",
+      "speaker": "Tomas",
+      "text": "Thank you. Please go ahead."
+    },
+    {
+      "id": "p07-a-02-s06",
+      "speaker": "Rae",
+      "text": "It's cancelled now. I've sent the confirmation, and the refund should reach the same card within five working days."
+    },
+    {
+      "id": "p07-a-02-s07",
+      "speaker": "Tomas",
+      "text": "The email has arrived. Thanks for making that straightforward."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a427ea8799a538ba",
+      "lemma": "booking",
+      "pos": "n.",
+      "sense_zh": "住宿预订",
+      "sentence_ids": [
+        "p07-a-02-s01"
+      ],
+      "forms": [
+        "booking"
+      ],
+      "sense_id": "sense-staged-ox-a427ea8799a538ba-p07-a-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3b4667e423ef1044",
+      "lemma": "cancel",
+      "pos": "v.",
+      "sense_zh": "取消",
+      "sentence_ids": [
+        "p07-a-02-s01"
+      ],
+      "forms": [
+        "cancel"
+      ],
+      "sense_id": "sense-staged-ox-3b4667e423ef1044-p07-a-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-24b1bc0ccdfa132c",
+      "lemma": "cabin",
+      "pos": "n.",
+      "sense_zh": "度假住宿用的小木屋",
+      "sentence_ids": [
+        "p07-a-02-s02"
+      ],
+      "forms": [
+        "cabin"
+      ],
+      "sense_id": "sense-staged-ox-24b1bc0ccdfa132c-p07-a-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1a2a4121da982ed9",
+      "lemma": "circumstance",
+      "pos": "n.",
+      "sense_zh": "影响安排的家庭情况",
+      "sentence_ids": [
+        "p07-a-02-s03"
+      ],
+      "forms": [
+        "circumstances"
+      ],
+      "forms_rationale_zh": "使用名词的复数形式 circumstances，表示家庭处境和条件。",
+      "sense_id": "sense-staged-ox-1a2a4121da982ed9-p07-a-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

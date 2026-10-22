@@ -1,0 +1,137 @@
+{
+  "id": "p07-a-28",
+  "title_zh": "用同一套条件重测传感器电路",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "sensor-test-report-revision",
+    "label_zh": "核对传感器试验的可比性",
+    "goal_zh": "发现测试距离变化使数据不可比，约定固定位置重测后再修订可靠性结论"
+  },
+  "participants": [
+    "Rin",
+    "Oscar"
+  ],
+  "context_zh": "两名学生核对低压课堂传感器实验的数据，发现测试条件不一致，决定按教师要求重测。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-28-s01",
+      "speaker": "Rin",
+      "text": "Our circuit worked every time, but the readings aren't consistent. Can we still say the sensor is reliable?"
+    },
+    {
+      "id": "p07-a-28-s02",
+      "speaker": "Oscar",
+      "text": "Not yet. Did we put the object at the same distance each time?"
+    },
+    {
+      "id": "p07-a-28-s03",
+      "speaker": "Rin",
+      "text": "No. We moved it closer in the last three tests."
+    },
+    {
+      "id": "p07-a-28-s04",
+      "speaker": "Oscar",
+      "text": "Consequently, those results aren't directly comparable with the first three."
+    },
+    {
+      "id": "p07-a-28-s05",
+      "speaker": "Rin",
+      "text": "Broadly speaking, it detects the object, but we haven't shown how accurately it measures distance."
+    },
+    {
+      "id": "p07-a-28-s06",
+      "speaker": "Oscar",
+      "text": "Right. Let's follow the teacher's test sheet and keep the distance fixed. Then we can see whether it responds consistently."
+    },
+    {
+      "id": "p07-a-28-s07",
+      "speaker": "Rin",
+      "text": "I'll mark the position on the desk and repeat the tests before we revise the report."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c5d6877197b1e4b5",
+      "lemma": "circuit",
+      "pos": "n.",
+      "sense_zh": "电路",
+      "sentence_ids": [
+        "p07-a-28-s01"
+      ],
+      "forms": [
+        "circuit"
+      ],
+      "sense_id": "sense-staged-ox-c5d6877197b1e4b5-p07-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b968ae77690bdb98",
+      "lemma": "consistent",
+      "pos": "adj.",
+      "sense_zh": "前后一致的",
+      "sentence_ids": [
+        "p07-a-28-s01"
+      ],
+      "forms": [
+        "consistent"
+      ],
+      "sense_id": "sense-staged-ox-b968ae77690bdb98-p07-a-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f0f62389ab032c60",
+      "lemma": "consequently",
+      "pos": "adv.",
+      "sense_zh": "因此",
+      "sentence_ids": [
+        "p07-a-28-s04"
+      ],
+      "forms": [
+        "consequently"
+      ],
+      "sense_id": "sense-staged-ox-f0f62389ab032c60-p07-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fccaa89b3dab7b30",
+      "lemma": "broadly",
+      "pos": "adv.",
+      "sense_zh": "大体上",
+      "sentence_ids": [
+        "p07-a-28-s05"
+      ],
+      "forms": [
+        "broadly"
+      ],
+      "sense_id": "sense-staged-ox-fccaa89b3dab7b30-p07-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-909122c1b403dfb6",
+      "lemma": "consistently",
+      "pos": "adv.",
+      "sense_zh": "始终如一地",
+      "sentence_ids": [
+        "p07-a-28-s06"
+      ],
+      "forms": [
+        "consistently"
+      ],
+      "sense_id": "sense-staged-ox-909122c1b403dfb6-p07-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

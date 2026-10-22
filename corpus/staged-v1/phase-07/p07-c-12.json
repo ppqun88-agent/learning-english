@@ -1,0 +1,142 @@
+{
+  "id": "p07-c-12",
+  "title_zh": "区分练习量与记忆效果并安排后续比较",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "vocabulary-tool-activity-retention-comparison",
+    "label_zh": "区分词汇练习量与记忆效果",
+    "goal_zh": "区分完成题目数量与实际记忆效果，商定同等练习条件下的延后记忆测验和比较安排"
+  },
+  "participants": [
+    "Hugo",
+    "Beth"
+  ],
+  "context_zh": "两名教师讨论一个虚构词汇练习工具的初步试用记录。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-12-s01",
+      "speaker": "Hugo",
+      "text": "How should we evaluate the new vocabulary tool? The pupils seem to like it, but enjoyment is not the same as learning."
+    },
+    {
+      "id": "p07-c-12-s02",
+      "speaker": "Beth",
+      "text": "We need a simple framework: time spent, questions attempted and what they remember a week later."
+    },
+    {
+      "id": "p07-c-12-s03",
+      "speaker": "Hugo",
+      "text": "Can the evaluation compare it with our usual paper exercises?"
+    },
+    {
+      "id": "p07-c-12-s04",
+      "speaker": "Beth",
+      "text": "Yes, as long as both groups practise the same material for the same amount of time."
+    },
+    {
+      "id": "p07-c-12-s05",
+      "speaker": "Hugo",
+      "text": "One finding from the pilot is that pupils finished more questions. Can we say their vocabulary improved?"
+    },
+    {
+      "id": "p07-c-12-s06",
+      "speaker": "Beth",
+      "text": "Not yet. It is evident from the log that they did more questions, but we have not checked what they remember."
+    },
+    {
+      "id": "p07-c-12-s07",
+      "speaker": "Hugo",
+      "text": "Then I will keep that result separate and add the follow-up check."
+    },
+    {
+      "id": "p07-c-12-s08",
+      "speaker": "Beth",
+      "text": "Good. We can review the comparison after both groups have taken it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6144b49ada2db2d3",
+      "lemma": "evaluate",
+      "pos": "v.",
+      "sense_zh": "评价，评估",
+      "sentence_ids": [
+        "p07-c-12-s01"
+      ],
+      "forms": [
+        "evaluate"
+      ],
+      "sense_id": "sense-staged-ox-6144b49ada2db2d3-p07-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-287262813a785602",
+      "lemma": "framework",
+      "pos": "n.",
+      "sense_zh": "评估框架，一组组织原则",
+      "sentence_ids": [
+        "p07-c-12-s02"
+      ],
+      "forms": [
+        "framework"
+      ],
+      "sense_id": "sense-staged-ox-287262813a785602-p07-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ecac9ecc80a852b6",
+      "lemma": "evaluation",
+      "pos": "n.",
+      "sense_zh": "评估过程",
+      "sentence_ids": [
+        "p07-c-12-s03"
+      ],
+      "forms": [
+        "evaluation"
+      ],
+      "sense_id": "sense-staged-ox-ecac9ecc80a852b6-p07-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ff4b2d72f1468c3f",
+      "lemma": "finding",
+      "pos": "n.",
+      "sense_zh": "研究或调查发现",
+      "sentence_ids": [
+        "p07-c-12-s05"
+      ],
+      "forms": [
+        "finding"
+      ],
+      "sense_id": "sense-staged-ox-ff4b2d72f1468c3f-p07-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66ed9a61739d8f8d",
+      "lemma": "evident",
+      "pos": "adj.",
+      "sense_zh": "清楚可见的，明显的",
+      "sentence_ids": [
+        "p07-c-12-s06"
+      ],
+      "forms": [
+        "evident"
+      ],
+      "sense_id": "sense-staged-ox-66ed9a61739d8f8d-p07-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

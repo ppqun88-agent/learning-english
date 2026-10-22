@@ -1,0 +1,110 @@
+{
+  "id": "p07-a-08",
+  "title_zh": "选择有口述导览和座位的展览时段",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "accessible-exhibition-preview",
+    "label_zh": "确认展览口述导览及座椅",
+    "goal_zh": "核对口述导览和便携座椅的可用性，预留导览名额与座椅并确认集合时间"
+  },
+  "participants": [
+    "Rosa",
+    "Kit"
+  ],
+  "context_zh": "一位失明参观者向画廊接待员了解展览的无障碍导览和休息安排。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-08-s01",
+      "speaker": "Rosa",
+      "text": "I'm blind. Does this exhibition have an audio description or a guided visit?"
+    },
+    {
+      "id": "p07-a-08-s02",
+      "speaker": "Kit",
+      "text": "There's a live description tour at two. The guide describes the colourful paintings and the way the paint has been applied."
+    },
+    {
+      "id": "p07-a-08-s03",
+      "speaker": "Rosa",
+      "text": "Can I sit down during the tour? Standing for a long time is difficult for me."
+    },
+    {
+      "id": "p07-a-08-s04",
+      "speaker": "Kit",
+      "text": "Certainly. We have portable chairs, and you can move one between the rooms."
+    },
+    {
+      "id": "p07-a-08-s05",
+      "speaker": "Rosa",
+      "text": "That would make a real difference to my comfort. Is there space on today's tour?"
+    },
+    {
+      "id": "p07-a-08-s06",
+      "speaker": "Kit",
+      "text": "Yes. Would you like me to reserve a place and a chair?"
+    },
+    {
+      "id": "p07-a-08-s07",
+      "speaker": "Rosa",
+      "text": "Please do. My name is Rosa Lane."
+    },
+    {
+      "id": "p07-a-08-s08",
+      "speaker": "Kit",
+      "text": "You're on the list, Rosa. Come back to this desk at ten to two."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6a723cde767de389",
+      "lemma": "blind",
+      "pos": "adj.",
+      "sense_zh": "失明的",
+      "sentence_ids": [
+        "p07-a-08-s01"
+      ],
+      "forms": [
+        "blind"
+      ],
+      "sense_id": "sense-staged-ox-6a723cde767de389-p07-a-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0caafb71803f8c8",
+      "lemma": "colourful",
+      "pos": "adj.",
+      "sense_zh": "色彩丰富的",
+      "sentence_ids": [
+        "p07-a-08-s02"
+      ],
+      "forms": [
+        "colourful"
+      ],
+      "sense_id": "sense-staged-ox-b0caafb71803f8c8-p07-a-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e852aeac7c0f134c",
+      "lemma": "comfort",
+      "pos": "n.",
+      "sense_zh": "身体上的舒适",
+      "sentence_ids": [
+        "p07-a-08-s05"
+      ],
+      "forms": [
+        "comfort"
+      ],
+      "sense_id": "sense-staged-ox-e852aeac7c0f134c-p07-a-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,158 @@
+{
+  "id": "p07-a-19",
+  "title_zh": "先请专业人员检查社区围墙",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-wall-inspection-plan",
+    "label_zh": "安排社区围墙专业检查",
+    "goal_zh": "暂不决定围墙材料或施工方法，约定联系顾问检查并在报告后比较修复选项"
+  },
+  "participants": [
+    "Gail",
+    "Arun"
+  ],
+  "context_zh": "社区负责人发现花园围墙松动，与维护联络人商定检查和后续报价步骤。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-19-s01",
+      "speaker": "Gail",
+      "text": "A loose brick has fallen from the garden wall. I've kept people away from that side."
+    },
+    {
+      "id": "p07-a-19-s02",
+      "speaker": "Arun",
+      "text": "Thanks. Do we know whether the rest of the wall is sound?"
+    },
+    {
+      "id": "p07-a-19-s03",
+      "speaker": "Gail",
+      "text": "No. Someone suggested replacing it with concrete, but we haven't had it inspected."
+    },
+    {
+      "id": "p07-a-19-s04",
+      "speaker": "Arun",
+      "text": "Then we shouldn't choose the construction method yet. Let's consult a building professional first."
+    },
+    {
+      "id": "p07-a-19-s05",
+      "speaker": "Gail",
+      "text": "I can contact the consultant who inspected the hall last year."
+    },
+    {
+      "id": "p07-a-19-s06",
+      "speaker": "Arun",
+      "text": "Ask whether the wall can be repaired and what we'd need to know before we construct anything new."
+    },
+    {
+      "id": "p07-a-19-s07",
+      "speaker": "Gail",
+      "text": "I'll request an inspection and keep the area closed. We can compare the options after we have the report."
+    },
+    {
+      "id": "p07-a-19-s08",
+      "speaker": "Arun",
+      "text": "Agreed. Don't ask anyone to start work before that."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-410909ffee879b65",
+      "lemma": "brick",
+      "pos": "n.",
+      "sense_zh": "砖块",
+      "sentence_ids": [
+        "p07-a-19-s01"
+      ],
+      "forms": [
+        "brick"
+      ],
+      "sense_id": "sense-staged-ox-410909ffee879b65-p07-a-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-58798b3ca48cb8dd",
+      "lemma": "concrete",
+      "pos": "n.",
+      "sense_zh": "混凝土",
+      "sentence_ids": [
+        "p07-a-19-s03"
+      ],
+      "forms": [
+        "concrete"
+      ],
+      "sense_id": "sense-staged-ox-58798b3ca48cb8dd-p07-a-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bd1fb53d7cd2f5f7",
+      "lemma": "construction",
+      "pos": "n.",
+      "sense_zh": "建造",
+      "sentence_ids": [
+        "p07-a-19-s04"
+      ],
+      "forms": [
+        "construction"
+      ],
+      "sense_id": "sense-staged-ox-bd1fb53d7cd2f5f7-p07-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b154610382154f01",
+      "lemma": "consult",
+      "pos": "v.",
+      "sense_zh": "向专业人士咨询",
+      "sentence_ids": [
+        "p07-a-19-s04"
+      ],
+      "forms": [
+        "consult"
+      ],
+      "sense_id": "sense-staged-ox-b154610382154f01-p07-a-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4ca15d22f19a5331",
+      "lemma": "consultant",
+      "pos": "n.",
+      "sense_zh": "提供专业意见的顾问",
+      "sentence_ids": [
+        "p07-a-19-s05"
+      ],
+      "forms": [
+        "consultant"
+      ],
+      "sense_id": "sense-staged-ox-4ca15d22f19a5331-p07-a-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-65e9ae562b5ddc6f",
+      "lemma": "construct",
+      "pos": "v.",
+      "sense_zh": "建造",
+      "sentence_ids": [
+        "p07-a-19-s06"
+      ],
+      "forms": [
+        "construct"
+      ],
+      "sense_id": "sense-staged-ox-65e9ae562b5ddc6f-p07-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

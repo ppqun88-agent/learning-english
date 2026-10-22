@@ -1,0 +1,152 @@
+{
+  "id": "p07-c-08",
+  "title_zh": "核对维修公司创办经历和职务称呼",
+  "topic_id": "work",
+  "scenario": {
+    "id": "repair-company-founder-interview",
+    "label_zh": "核对维修公司创办经历和职务称呼",
+    "goal_zh": "澄清公司创办方式与目前职务，并约定文章使用的准确称呼"
+  },
+  "participants": [
+    "Ben",
+    "Amara"
+  ],
+  "context_zh": "学生记者采访一家虚构维修公司的创办人，为校刊准备人物介绍。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-08-s01",
+      "speaker": "Ben",
+      "text": "What made you decide to found a repair company rather than work for a large manufacturer?"
+    },
+    {
+      "id": "p07-c-08-s02",
+      "speaker": "Amara",
+      "text": "I kept meeting people with useful appliances that nobody would repair. I thought there was a business there."
+    },
+    {
+      "id": "p07-c-08-s03",
+      "speaker": "Ben",
+      "text": "Did you need an investor to finance the first workshop?"
+    },
+    {
+      "id": "p07-c-08-s04",
+      "speaker": "Amara",
+      "text": "No. I used my own savings, started in a small rented room and bought very little equipment."
+    },
+    {
+      "id": "p07-c-08-s05",
+      "speaker": "Ben",
+      "text": "Would you describe yourself as an entrepreneur?"
+    },
+    {
+      "id": "p07-c-08-s06",
+      "speaker": "Amara",
+      "text": "Yes, although I still spend more time fixing machines than talking about business."
+    },
+    {
+      "id": "p07-c-08-s07",
+      "speaker": "Ben",
+      "text": "For the article, should I call you the founder or the chief executive?"
+    },
+    {
+      "id": "p07-c-08-s08",
+      "speaker": "Amara",
+      "text": "Founder is accurate. We now have a different chief executive who manages the company."
+    },
+    {
+      "id": "p07-c-08-s09",
+      "speaker": "Ben",
+      "text": "Good. I will identify you as the founder and explain that you still lead the repair team."
+    },
+    {
+      "id": "p07-c-08-s10",
+      "speaker": "Amara",
+      "text": "That describes my role well. Please send me the dates you want checked before publication."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b579a733aae2ddf3",
+      "lemma": "found",
+      "pos": "v.",
+      "sense_zh": "创办，成立",
+      "sentence_ids": [
+        "p07-c-08-s01"
+      ],
+      "forms": [
+        "found"
+      ],
+      "sense_id": "sense-staged-ox-b579a733aae2ddf3-p07-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-927c2736835945a8",
+      "lemma": "finance",
+      "pos": "v.",
+      "sense_zh": "为某事提供资金",
+      "sentence_ids": [
+        "p07-c-08-s03"
+      ],
+      "forms": [
+        "finance"
+      ],
+      "sense_id": "sense-staged-ox-927c2736835945a8-p07-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-69250ccbe8b00b66",
+      "lemma": "entrepreneur",
+      "pos": "n.",
+      "sense_zh": "创业者，企业家",
+      "sentence_ids": [
+        "p07-c-08-s05"
+      ],
+      "forms": [
+        "entrepreneur"
+      ],
+      "sense_id": "sense-staged-ox-69250ccbe8b00b66-p07-c-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6882e16e5863f7d8",
+      "lemma": "founder",
+      "pos": "n.",
+      "sense_zh": "创办人",
+      "sentence_ids": [
+        "p07-c-08-s07"
+      ],
+      "forms": [
+        "founder"
+      ],
+      "sense_id": "sense-staged-ox-6882e16e5863f7d8-p07-c-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b13c40c377e8078",
+      "lemma": "executive",
+      "pos": "n.",
+      "sense_zh": "公司高管",
+      "sentence_ids": [
+        "p07-c-08-s07"
+      ],
+      "forms": [
+        "executive"
+      ],
+      "sense_id": "sense-staged-ox-2b13c40c377e8078-p07-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

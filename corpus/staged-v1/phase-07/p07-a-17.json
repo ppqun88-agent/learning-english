@@ -1,0 +1,153 @@
+{
+  "id": "p07-a-17",
+  "title_zh": "排除弹窗干扰并导出可读文件",
+  "topic_id": "work",
+  "scenario": {
+    "id": "document-export-troubleshooting",
+    "label_zh": "排查文档导出操作的困惑",
+    "goal_zh": "暂时减少通知干扰，区分保存与导出，保留原件并确认导出的 PDF 可读"
+  },
+  "participants": [
+    "Hana",
+    "Rob"
+  ],
+  "context_zh": "同事帮助新员工使用虚构的内部文档工具导出文件，当前会话只暂停普通通知。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-17-s01",
+      "speaker": "Hana",
+      "text": "Can you help? I'm constantly closing pop-ups, and I still haven't made the PDF."
+    },
+    {
+      "id": "p07-a-17-s02",
+      "speaker": "Rob",
+      "text": "The constant interruptions aren't helping. Shall we pause these ordinary reminders for ten minutes?"
+    },
+    {
+      "id": "p07-a-17-s03",
+      "speaker": "Hana",
+      "text": "Yes, please. The export menu is confusing too. What's the difference between these two buttons?"
+    },
+    {
+      "id": "p07-a-17-s04",
+      "speaker": "Rob",
+      "text": "Let me clarify that. 'Save' keeps the editable file; 'Export' lets you convert it to a PDF."
+    },
+    {
+      "id": "p07-a-17-s05",
+      "speaker": "Hana",
+      "text": "That clears up the confusion. I'll keep the original and export a separate copy."
+    },
+    {
+      "id": "p07-a-17-s06",
+      "speaker": "Rob",
+      "text": "Good. Now open the PDF and check the last page."
+    },
+    {
+      "id": "p07-a-17-s07",
+      "speaker": "Hana",
+      "text": "It opens, and all the pages are here. Thanks. I'll turn the reminders back on now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-94749d2f09c8deb1",
+      "lemma": "constantly",
+      "pos": "adv.",
+      "sense_zh": "不断地或频繁地",
+      "sentence_ids": [
+        "p07-a-17-s01"
+      ],
+      "forms": [
+        "constantly"
+      ],
+      "sense_id": "sense-staged-ox-94749d2f09c8deb1-p07-a-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1e1b155dc0bf8566",
+      "lemma": "constant",
+      "pos": "adj.",
+      "sense_zh": "持续不断的",
+      "sentence_ids": [
+        "p07-a-17-s02"
+      ],
+      "forms": [
+        "constant"
+      ],
+      "sense_id": "sense-staged-ox-1e1b155dc0bf8566-p07-a-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e1a9972d1364a7ff",
+      "lemma": "confusing",
+      "pos": "adj.",
+      "sense_zh": "令人困惑的",
+      "sentence_ids": [
+        "p07-a-17-s03"
+      ],
+      "forms": [
+        "confusing"
+      ],
+      "sense_id": "sense-staged-ox-e1a9972d1364a7ff-p07-a-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c554dac63c62f931",
+      "lemma": "clarify",
+      "pos": "v.",
+      "sense_zh": "澄清说明",
+      "sentence_ids": [
+        "p07-a-17-s04"
+      ],
+      "forms": [
+        "clarify"
+      ],
+      "sense_id": "sense-staged-ox-c554dac63c62f931-p07-a-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c073ce1dada1369f",
+      "lemma": "convert",
+      "pos": "v.",
+      "sense_zh": "转换文件格式",
+      "sentence_ids": [
+        "p07-a-17-s04"
+      ],
+      "forms": [
+        "convert"
+      ],
+      "sense_id": "sense-staged-ox-c073ce1dada1369f-p07-a-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9b7ca4f6f2158777",
+      "lemma": "confusion",
+      "pos": "n.",
+      "sense_zh": "困惑",
+      "sentence_ids": [
+        "p07-a-17-s05"
+      ],
+      "forms": [
+        "confusion"
+      ],
+      "sense_id": "sense-staged-ox-9b7ca4f6f2158777-p07-a-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

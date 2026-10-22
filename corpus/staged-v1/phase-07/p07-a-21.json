@@ -1,0 +1,179 @@
+{
+  "id": "p07-a-21",
+  "title_zh": "缩小社区资助草稿的范围并分工补充细节",
+  "topic_id": "work",
+  "scenario": {
+    "id": "community-grant-draft-review",
+    "label_zh": "缩小社区活动资助草稿范围",
+    "goal_zh": "将宽泛活动提案聚焦为邻里园艺交流，分工补充实际资源并安排委员会提交前核对"
+  },
+  "participants": [
+    "Ruth",
+    "Jonah"
+  ],
+  "context_zh": "社区组织的主席和志愿者审查尚未提交的活动资助草稿。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-21-s01",
+      "speaker": "Ruth",
+      "text": "As chairman of the committee, I'd like us to agree on a clearer plan before we submit this."
+    },
+    {
+      "id": "p07-a-21-s02",
+      "speaker": "Jonah",
+      "text": "Is the current proposal too broad? It covers everything from gardening to evening classes."
+    },
+    {
+      "id": "p07-a-21-s03",
+      "speaker": "Ruth",
+      "text": "Yes. What's the core purpose of the project?"
+    },
+    {
+      "id": "p07-a-21-s04",
+      "speaker": "Jonah",
+      "text": "Helping new residents meet their neighbours. We could start with two shared gardening sessions."
+    },
+    {
+      "id": "p07-a-21-s05",
+      "speaker": "Ruth",
+      "text": "Good. The first session could comprise a short introduction, paired planting, and tea afterwards."
+    },
+    {
+      "id": "p07-a-21-s06",
+      "speaker": "Jonah",
+      "text": "What can the volunteers contribute besides their time?"
+    },
+    {
+      "id": "p07-a-21-s07",
+      "speaker": "Ruth",
+      "text": "Some have offered spare tools. We should describe that contribution without putting an invented price on it."
+    },
+    {
+      "id": "p07-a-21-s08",
+      "speaker": "Jonah",
+      "text": "I'll narrow the activities and list the tools that have actually been offered."
+    },
+    {
+      "id": "p07-a-21-s09",
+      "speaker": "Ruth",
+      "text": "And I'll ask the other members to check the plan before we send anything."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-64ad57b3023b7caa",
+      "lemma": "chairman",
+      "pos": "n.",
+      "sense_zh": "委员会主席",
+      "sentence_ids": [
+        "p07-a-21-s01"
+      ],
+      "forms": [
+        "chairman"
+      ],
+      "sense_id": "sense-staged-ox-64ad57b3023b7caa-p07-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b570be12ceb6eabc",
+      "lemma": "committee",
+      "pos": "n.",
+      "sense_zh": "委员会",
+      "sentence_ids": [
+        "p07-a-21-s01"
+      ],
+      "forms": [
+        "committee"
+      ],
+      "sense_id": "sense-staged-ox-b570be12ceb6eabc-p07-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5fd9e469456d69e7",
+      "lemma": "broad",
+      "pos": "adj.",
+      "sense_zh": "范围宽泛的",
+      "sentence_ids": [
+        "p07-a-21-s02"
+      ],
+      "forms": [
+        "broad"
+      ],
+      "sense_id": "sense-staged-ox-5fd9e469456d69e7-p07-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-03d91da83502f99b",
+      "lemma": "core",
+      "pos": "adj.",
+      "sense_zh": "核心的",
+      "sentence_ids": [
+        "p07-a-21-s03"
+      ],
+      "forms": [
+        "core"
+      ],
+      "sense_id": "sense-staged-ox-03d91da83502f99b-p07-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-030f3894a113d9f5",
+      "lemma": "comprise",
+      "pos": "v.",
+      "sense_zh": "包括并由所述部分构成",
+      "sentence_ids": [
+        "p07-a-21-s05"
+      ],
+      "forms": [
+        "comprise"
+      ],
+      "sense_id": "sense-staged-ox-030f3894a113d9f5-p07-a-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b1c8ba8232439e3",
+      "lemma": "contribute",
+      "pos": "v.",
+      "sense_zh": "贡献或提供",
+      "sentence_ids": [
+        "p07-a-21-s06"
+      ],
+      "forms": [
+        "contribute"
+      ],
+      "sense_id": "sense-staged-ox-6b1c8ba8232439e3-p07-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0cb7dbf20a1fd721",
+      "lemma": "contribution",
+      "pos": "n.",
+      "sense_zh": "贡献的物品或帮助",
+      "sentence_ids": [
+        "p07-a-21-s07"
+      ],
+      "forms": [
+        "contribution"
+      ],
+      "sense_id": "sense-staged-ox-0cb7dbf20a1fd721-p07-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

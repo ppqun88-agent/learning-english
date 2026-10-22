@@ -1,0 +1,158 @@
+{
+  "id": "p07-b-17",
+  "title_zh": "把夸大的销售趋势说明改为实际下降幅度",
+  "topic_id": "work",
+  "scenario": {
+    "id": "sales-chart-description-correction",
+    "label_zh": "修正销售图表的趋势说明",
+    "goal_zh": "核对点线和变化幅度，约定使用不过度夸张的图表说明"
+  },
+  "participants": [
+    "Hana",
+    "Giles"
+  ],
+  "context_zh": "两名同事核对虚构销量图：四个月销量依次为120、119、119和118件。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-17-s01",
+      "speaker": "Hana",
+      "text": "Why does this chart look as if sales fell dramatically? They went from a hundred and twenty to a hundred and eighteen."
+    },
+    {
+      "id": "p07-b-17-s02",
+      "speaker": "Giles",
+      "text": "The vertical axis starts at a hundred and seventeen. That makes the downward curve look much steeper."
+    },
+    {
+      "id": "p07-b-17-s03",
+      "speaker": "Hana",
+      "text": "Did sales actually decrease in every month?"
+    },
+    {
+      "id": "p07-b-17-s04",
+      "speaker": "Giles",
+      "text": "No. The middle two months were both a hundred and nineteen. That red dot marks the second of them."
+    },
+    {
+      "id": "p07-b-17-s05",
+      "speaker": "Hana",
+      "text": "Then the title 'A steep decline every month' isn't accurate."
+    },
+    {
+      "id": "p07-b-17-s06",
+      "speaker": "Giles",
+      "text": "Agreed. I'll replace it with 'Sales fell by two units over four months' and show the monthly figures."
+    },
+    {
+      "id": "p07-b-17-s07",
+      "speaker": "Hana",
+      "text": "Could you also show the full scale from zero so readers can judge the size of the change?"
+    },
+    {
+      "id": "p07-b-17-s08",
+      "speaker": "Giles",
+      "text": "Yes. I'll keep the original values and change only the scale and the wording."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f127c7b8f523bbea",
+      "lemma": "dramatically",
+      "pos": "adv.",
+      "sense_zh": "显著地；幅度很大地",
+      "sentence_ids": [
+        "p07-b-17-s01"
+      ],
+      "forms": [
+        "dramatically"
+      ],
+      "sense_id": "sense-staged-ox-f127c7b8f523bbea-p07-b-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c678687340a7bd7d",
+      "lemma": "downward",
+      "pos": "adj.",
+      "sense_zh": "向下的；下降的",
+      "sentence_ids": [
+        "p07-b-17-s02"
+      ],
+      "forms": [
+        "downward"
+      ],
+      "sense_id": "sense-staged-ox-c678687340a7bd7d-p07-b-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bce8e840b5611f6a",
+      "lemma": "curve",
+      "pos": "n.",
+      "sense_zh": "图表中表示变化的曲线",
+      "sentence_ids": [
+        "p07-b-17-s02"
+      ],
+      "forms": [
+        "curve"
+      ],
+      "sense_id": "sense-staged-ox-bce8e840b5611f6a-p07-b-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-372199ed06f95e7b",
+      "lemma": "decrease",
+      "pos": "v.",
+      "sense_zh": "减少；下降",
+      "sentence_ids": [
+        "p07-b-17-s03"
+      ],
+      "forms": [
+        "decrease"
+      ],
+      "sense_id": "sense-staged-ox-372199ed06f95e7b-p07-b-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c6478e2953728c67",
+      "lemma": "dot",
+      "pos": "n.",
+      "sense_zh": "小圆点",
+      "sentence_ids": [
+        "p07-b-17-s04"
+      ],
+      "forms": [
+        "dot"
+      ],
+      "sense_id": "sense-staged-ox-c6478e2953728c67-p07-b-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3cab1fce5d64b02a",
+      "lemma": "decline",
+      "pos": "n.",
+      "sense_zh": "下降；减少",
+      "sentence_ids": [
+        "p07-b-17-s05"
+      ],
+      "forms": [
+        "decline"
+      ],
+      "sense_id": "sense-staged-ox-3cab1fce5d64b02a-p07-b-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

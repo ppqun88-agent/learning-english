@@ -1,0 +1,121 @@
+{
+  "id": "p07-a-22",
+  "title_zh": "弄清课程结业证书的取得条件",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "course-certificate-requirements",
+    "label_zh": "询问课程结业证书要求",
+    "goal_zh": "澄清出勤、项目与考试要求，并索取书面说明以便在报名前核对时间"
+  },
+  "participants": [
+    "Cleo",
+    "Mason"
+  ],
+  "context_zh": "学员在决定是否报名之前，向课程工作人员核对结业要求。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-22-s01",
+      "speaker": "Cleo",
+      "text": "The course page mentions a certificate. Do you receive it just for attending?"
+    },
+    {
+      "id": "p07-a-22-s02",
+      "speaker": "Mason",
+      "text": "No. We issue it on completion of the final project, provided you've also attended four of the five sessions."
+    },
+    {
+      "id": "p07-a-22-s03",
+      "speaker": "Cleo",
+      "text": "Is the last session compulsory? I may be away that evening."
+    },
+    {
+      "id": "p07-a-22-s04",
+      "speaker": "Mason",
+      "text": "Attendance at that session isn't compulsory, but the project still has to be submitted by Friday."
+    },
+    {
+      "id": "p07-a-22-s05",
+      "speaker": "Cleo",
+      "text": "That sounds less complicated than I thought. Is there an exam as well?"
+    },
+    {
+      "id": "p07-a-22-s06",
+      "speaker": "Mason",
+      "text": "No exam. The project is the only assessed piece of work. I can send you the written requirements."
+    },
+    {
+      "id": "p07-a-22-s07",
+      "speaker": "Cleo",
+      "text": "Please do. I'll check the dates against my travel plans before I sign up."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ca4f7f0e03ecd968",
+      "lemma": "certificate",
+      "pos": "n.",
+      "sense_zh": "结业证书",
+      "sentence_ids": [
+        "p07-a-22-s01"
+      ],
+      "forms": [
+        "certificate"
+      ],
+      "sense_id": "sense-staged-ox-ca4f7f0e03ecd968-p07-a-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a825f27952890b3a",
+      "lemma": "completion",
+      "pos": "n.",
+      "sense_zh": "完成",
+      "sentence_ids": [
+        "p07-a-22-s02"
+      ],
+      "forms": [
+        "completion"
+      ],
+      "sense_id": "sense-staged-ox-a825f27952890b3a-p07-a-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-35955f1a50255d0e",
+      "lemma": "compulsory",
+      "pos": "adj.",
+      "sense_zh": "必须参加或执行的",
+      "sentence_ids": [
+        "p07-a-22-s03"
+      ],
+      "forms": [
+        "compulsory"
+      ],
+      "sense_id": "sense-staged-ox-35955f1a50255d0e-p07-a-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-40743afdf28b9c21",
+      "lemma": "complicated",
+      "pos": "adj.",
+      "sense_zh": "复杂的",
+      "sentence_ids": [
+        "p07-a-22-s05"
+      ],
+      "forms": [
+        "complicated"
+      ],
+      "sense_id": "sense-staged-ox-40743afdf28b9c21-p07-a-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

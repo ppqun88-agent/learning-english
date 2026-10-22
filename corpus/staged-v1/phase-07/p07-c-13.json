@@ -1,0 +1,152 @@
+{
+  "id": "p07-c-13",
+  "title_zh": "选定奇幻小说并安排读书小组讨论",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "reading-group-book-choice",
+    "label_zh": "选择读书小组作品",
+    "goal_zh": "比较故事题材与讨论安排后选定共读作品"
+  },
+  "participants": [
+    "Lena",
+    "Oscar"
+  ],
+  "context_zh": "两名读书小组成员比较虚构小说并确定下次共读作品。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-13-s01",
+      "speaker": "Lena",
+      "text": "Would the group prefer a realistic novel this month, or should we try a different genre?"
+    },
+    {
+      "id": "p07-c-13-s02",
+      "speaker": "Oscar",
+      "text": "I would like some fantasy. What is The Clockmaker's Island about?"
+    },
+    {
+      "id": "p07-c-13-s03",
+      "speaker": "Lena",
+      "text": "A young genius invents a machine that can stop time, but an evil ruler wants to use it against the islanders."
+    },
+    {
+      "id": "p07-c-13-s04",
+      "speaker": "Oscar",
+      "text": "Does the inventor become a famous hero?"
+    },
+    {
+      "id": "p07-c-13-s05",
+      "speaker": "Lena",
+      "text": "Not really. She gives up the chance of fame so that nobody else can copy the machine."
+    },
+    {
+      "id": "p07-c-13-s06",
+      "speaker": "Oscar",
+      "text": "That gives us something to discuss beyond who wins the final battle."
+    },
+    {
+      "id": "p07-c-13-s07",
+      "speaker": "Lena",
+      "text": "The other book is another family drama. We have read three of those recently."
+    },
+    {
+      "id": "p07-c-13-s08",
+      "speaker": "Oscar",
+      "text": "Then let us choose The Clockmaker's Island. Can we discuss it on the last Thursday of the month?"
+    },
+    {
+      "id": "p07-c-13-s09",
+      "speaker": "Lena",
+      "text": "Yes. I will ask everyone to read the whole book by then."
+    },
+    {
+      "id": "p07-c-13-s10",
+      "speaker": "Oscar",
+      "text": "I will prepare two questions about the inventor's final choice."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8e612223ebf97ef9",
+      "lemma": "genre",
+      "pos": "n.",
+      "sense_zh": "作品的体裁或类型",
+      "sentence_ids": [
+        "p07-c-13-s01"
+      ],
+      "forms": [
+        "genre"
+      ],
+      "sense_id": "sense-staged-ox-8e612223ebf97ef9-p07-c-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f785e8cda6c9b443",
+      "lemma": "fantasy",
+      "pos": "n.",
+      "sense_zh": "奇幻文学",
+      "sentence_ids": [
+        "p07-c-13-s02"
+      ],
+      "forms": [
+        "fantasy"
+      ],
+      "sense_id": "sense-staged-ox-f785e8cda6c9b443-p07-c-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-52e58e85e6441226",
+      "lemma": "genius",
+      "pos": "n.",
+      "sense_zh": "天才人物",
+      "sentence_ids": [
+        "p07-c-13-s03"
+      ],
+      "forms": [
+        "genius"
+      ],
+      "sense_id": "sense-staged-ox-52e58e85e6441226-p07-c-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eab548340c126950",
+      "lemma": "evil",
+      "pos": "adj.",
+      "sense_zh": "邪恶的",
+      "sentence_ids": [
+        "p07-c-13-s03"
+      ],
+      "forms": [
+        "evil"
+      ],
+      "sense_id": "sense-staged-ox-eab548340c126950-p07-c-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b5f175fea4654b0d",
+      "lemma": "fame",
+      "pos": "n.",
+      "sense_zh": "名声，声望",
+      "sentence_ids": [
+        "p07-c-13-s05"
+      ],
+      "forms": [
+        "fame"
+      ],
+      "sense_id": "sense-staged-ox-b5f175fea4654b0d-p07-c-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

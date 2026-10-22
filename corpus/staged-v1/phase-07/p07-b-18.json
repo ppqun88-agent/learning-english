@@ -1,0 +1,121 @@
+{
+  "id": "p07-b-18",
+  "title_zh": "先练足球盯人和补位而不只盯比分",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "football-defence-practice-plan",
+    "label_zh": "针对失球原因调整足球防守练习",
+    "goal_zh": "复盘失球原因并约定先练习盯人和补位"
+  },
+  "participants": [
+    "Callum",
+    "Coach Evans"
+  ],
+  "context_zh": "一支虚构英国业余足球队复盘上场比赛并调整训练。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-18-s01",
+      "speaker": "Callum",
+      "text": "Was Saturday's defeat mainly my fault? Their striker got past me twice."
+    },
+    {
+      "id": "p07-b-18-s02",
+      "speaker": "Coach Evans",
+      "text": "You were the nearest defender, but you had no cover. We need to look at the whole defence."
+    },
+    {
+      "id": "p07-b-18-s03",
+      "speaker": "Callum",
+      "text": "I kept following the ball and lost track of the runner behind me."
+    },
+    {
+      "id": "p07-b-18-s04",
+      "speaker": "Coach Evans",
+      "text": "Then let's practise how to defend that space. One player closes down the ball while another watches the runner."
+    },
+    {
+      "id": "p07-b-18-s05",
+      "speaker": "Callum",
+      "text": "Can we try it slowly first? I want to know when to call for help."
+    },
+    {
+      "id": "p07-b-18-s06",
+      "speaker": "Coach Evans",
+      "text": "Yes. We'll walk through the movement before adding speed."
+    },
+    {
+      "id": "p07-b-18-s07",
+      "speaker": "Callum",
+      "text": "Good. I'd rather fix that than spend the session arguing about the score."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e5d17d912ac91df5",
+      "lemma": "defeat",
+      "pos": "n.",
+      "sense_zh": "比赛中的失败",
+      "sentence_ids": [
+        "p07-b-18-s01"
+      ],
+      "forms": [
+        "defeat"
+      ],
+      "sense_id": "sense-staged-ox-e5d17d912ac91df5-p07-b-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-05b77cd4e16f52bd",
+      "lemma": "defender",
+      "pos": "n.",
+      "sense_zh": "防守队员",
+      "sentence_ids": [
+        "p07-b-18-s02"
+      ],
+      "forms": [
+        "defender"
+      ],
+      "sense_id": "sense-staged-ox-05b77cd4e16f52bd-p07-b-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4155aa8b723a85e7",
+      "lemma": "defence",
+      "pos": "n.",
+      "sense_zh": "球队的防守整体或防守力量，英式拼写",
+      "sentence_ids": [
+        "p07-b-18-s02"
+      ],
+      "forms": [
+        "defence"
+      ],
+      "sense_id": "sense-staged-ox-4155aa8b723a85e7-p07-b-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-27d0c6033d01a21e",
+      "lemma": "defend",
+      "pos": "v.",
+      "sense_zh": "防守；保护球场上的区域",
+      "sentence_ids": [
+        "p07-b-18-s04"
+      ],
+      "forms": [
+        "defend"
+      ],
+      "sense_id": "sense-staged-ox-27d0c6033d01a21e-p07-b-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

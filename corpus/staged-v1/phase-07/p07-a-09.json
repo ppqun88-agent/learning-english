@@ -1,0 +1,200 @@
+{
+  "id": "p07-a-09",
+  "title_zh": "把咖啡馆调查结论限定在实际样本内",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "survey-evidence",
+    "label_zh": "讨论调查证据",
+    "goal_zh": "核对样本、局限与结论的依据"
+  },
+  "participants": [
+    "Leila",
+    "Finn"
+  ],
+  "context_zh": "两名学生审查自己在一家咖啡馆收集的顾客问卷，避免把小样本解释成全城趋势。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-09-s01",
+      "speaker": "Leila",
+      "text": "Our draft says the whole city prefers reusable cups. Is the evidence really that convincing?"
+    },
+    {
+      "id": "p07-a-09-s02",
+      "speaker": "Finn",
+      "text": "No. We only asked people in one café, so there's a clear risk of bias."
+    },
+    {
+      "id": "p07-a-09-s03",
+      "speaker": "Leila",
+      "text": "But two other class groups got similar results. Isn't that enough?"
+    },
+    {
+      "id": "p07-a-09-s04",
+      "speaker": "Finn",
+      "text": "It might be a coincidence. They used the same café on different days."
+    },
+    {
+      "id": "p07-a-09-s05",
+      "speaker": "Leila",
+      "text": "Then we can't claim any certainty about the city's habits."
+    },
+    {
+      "id": "p07-a-09-s06",
+      "speaker": "Finn",
+      "text": "Exactly. A comparative study across different neighbourhoods would tell us more."
+    },
+    {
+      "id": "p07-a-09-s07",
+      "speaker": "Leila",
+      "text": "Should we call our report a comprehensive survey?"
+    },
+    {
+      "id": "p07-a-09-s08",
+      "speaker": "Finn",
+      "text": "Definitely not. Describe this sample and cite the three sets of questionnaires separately."
+    },
+    {
+      "id": "p07-a-09-s09",
+      "speaker": "Leila",
+      "text": "I'm convinced. I'll change the claim to 'Most people in our café sample preferred reusable cups.'"
+    },
+    {
+      "id": "p07-a-09-s10",
+      "speaker": "Finn",
+      "text": "Good. I'll add the sample size and explain how the location limits the conclusion."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9b403c8d4b8845d5",
+      "lemma": "convincing",
+      "pos": "adj.",
+      "sense_zh": "有说服力的",
+      "sentence_ids": [
+        "p07-a-09-s01"
+      ],
+      "forms": [
+        "convincing"
+      ],
+      "sense_id": "sense-staged-ox-9b403c8d4b8845d5-p07-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-47c41e7c83d35959",
+      "lemma": "bias",
+      "pos": "n.",
+      "sense_zh": "样本选择造成的偏差",
+      "sentence_ids": [
+        "p07-a-09-s02"
+      ],
+      "forms": [
+        "bias"
+      ],
+      "sense_id": "sense-staged-ox-47c41e7c83d35959-p07-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-15fa408d725064af",
+      "lemma": "coincidence",
+      "pos": "n.",
+      "sense_zh": "巧合",
+      "sentence_ids": [
+        "p07-a-09-s04"
+      ],
+      "forms": [
+        "coincidence"
+      ],
+      "sense_id": "sense-staged-ox-15fa408d725064af-p07-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-72759642b39f8ccb",
+      "lemma": "certainty",
+      "pos": "n.",
+      "sense_zh": "确信或确定性",
+      "sentence_ids": [
+        "p07-a-09-s05"
+      ],
+      "forms": [
+        "certainty"
+      ],
+      "sense_id": "sense-staged-ox-72759642b39f8ccb-p07-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1ced392cc445ff55",
+      "lemma": "comparative",
+      "pos": "adj.",
+      "sense_zh": "比较性的",
+      "sentence_ids": [
+        "p07-a-09-s06"
+      ],
+      "forms": [
+        "comparative"
+      ],
+      "sense_id": "sense-staged-ox-1ced392cc445ff55-p07-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d659dc4a4d6861c7",
+      "lemma": "comprehensive",
+      "pos": "adj.",
+      "sense_zh": "全面的",
+      "sentence_ids": [
+        "p07-a-09-s07"
+      ],
+      "forms": [
+        "comprehensive"
+      ],
+      "sense_id": "sense-staged-ox-d659dc4a4d6861c7-p07-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cbc47d6e1eb6bfc2",
+      "lemma": "cite",
+      "pos": "v.",
+      "sense_zh": "引用并注明资料来源",
+      "sentence_ids": [
+        "p07-a-09-s08"
+      ],
+      "forms": [
+        "cite"
+      ],
+      "sense_id": "sense-staged-ox-cbc47d6e1eb6bfc2-p07-a-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b9cdadf3dcba98b",
+      "lemma": "convinced",
+      "pos": "adj.",
+      "sense_zh": "确信的",
+      "sentence_ids": [
+        "p07-a-09-s09"
+      ],
+      "forms": [
+        "convinced"
+      ],
+      "sense_id": "sense-staged-ox-7b9cdadf3dcba98b-p07-a-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,216 @@
+{
+  "id": "p07-c-11",
+  "title_zh": "删去口述历史报名表中的非必要身份问题",
+  "topic_id": "community",
+  "scenario": {
+    "id": "inclusive-history-workshop-signup",
+    "label_zh": "删去口述历史报名表中的非必要身份问题",
+    "goal_zh": "删去非必要的身份问题，并明确自愿分享、跳过问题及允许公开引用的边界"
+  },
+  "participants": [
+    "Tessa",
+    "Daniel"
+  ],
+  "context_zh": "社区口述历史活动的两名组织者审核报名表和参加说明。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-11-s01",
+      "speaker": "Tessa",
+      "text": "This is a public history forum, so why does the registration form ask whether someone is gay?"
+    },
+    {
+      "id": "p07-c-11-s02",
+      "speaker": "Daniel",
+      "text": "I copied an old form. It also asks about gender and ethnic background, but none of that is needed to book a seat."
+    },
+    {
+      "id": "p07-c-11-s03",
+      "speaker": "Tessa",
+      "text": "Let us remove those questions. People should have the freedom to decide which parts of their lives they share."
+    },
+    {
+      "id": "p07-c-11-s04",
+      "speaker": "Daniel",
+      "text": "Agreed. We should not exclude anyone who leaves the optional questions blank, either."
+    },
+    {
+      "id": "p07-c-11-s05",
+      "speaker": "Tessa",
+      "text": "I want people to speak freely during the discussion, without assuming that everything will appear online."
+    },
+    {
+      "id": "p07-c-11-s06",
+      "speaker": "Daniel",
+      "text": "Then we need a separate request for permission before using any personal story in the exhibition."
+    },
+    {
+      "id": "p07-c-11-s07",
+      "speaker": "Tessa",
+      "text": "That seems like the ethical approach. We must not exploit someone's difficult experience just because it makes a powerful display."
+    },
+    {
+      "id": "p07-c-11-s08",
+      "speaker": "Daniel",
+      "text": "I will add a clear choice: attend without sharing, share only in the room, or discuss permission for a public quotation later."
+    },
+    {
+      "id": "p07-c-11-s09",
+      "speaker": "Tessa",
+      "text": "Good. No public quotation should be approved just by signing up."
+    },
+    {
+      "id": "p07-c-11-s10",
+      "speaker": "Daniel",
+      "text": "I will remove the identity questions and bring the revised permission wording to our next meeting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a4f4f7b48d1d7832",
+      "lemma": "forum",
+      "pos": "n.",
+      "sense_zh": "讨论会，交流论坛",
+      "sentence_ids": [
+        "p07-c-11-s01"
+      ],
+      "forms": [
+        "forum"
+      ],
+      "sense_id": "sense-staged-ox-a4f4f7b48d1d7832-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73443c7e9cc5854a",
+      "lemma": "gay",
+      "pos": "adj.",
+      "sense_zh": "同性恋的",
+      "sentence_ids": [
+        "p07-c-11-s01"
+      ],
+      "forms": [
+        "gay"
+      ],
+      "sense_id": "sense-staged-ox-73443c7e9cc5854a-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6c0646f9cb6aa60b",
+      "lemma": "gender",
+      "pos": "n.",
+      "sense_zh": "性别",
+      "sentence_ids": [
+        "p07-c-11-s02"
+      ],
+      "forms": [
+        "gender"
+      ],
+      "sense_id": "sense-staged-ox-6c0646f9cb6aa60b-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4197efe8df697c90",
+      "lemma": "ethnic",
+      "pos": "adj.",
+      "sense_zh": "族裔的",
+      "sentence_ids": [
+        "p07-c-11-s02"
+      ],
+      "forms": [
+        "ethnic"
+      ],
+      "sense_id": "sense-staged-ox-4197efe8df697c90-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-334fcf954922d6ac",
+      "lemma": "freedom",
+      "pos": "n.",
+      "sense_zh": "自行选择的自由",
+      "sentence_ids": [
+        "p07-c-11-s03"
+      ],
+      "forms": [
+        "freedom"
+      ],
+      "sense_id": "sense-staged-ox-334fcf954922d6ac-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a02991a9329741ce",
+      "lemma": "exclude",
+      "pos": "v.",
+      "sense_zh": "将某人排除在外",
+      "sentence_ids": [
+        "p07-c-11-s04"
+      ],
+      "forms": [
+        "exclude"
+      ],
+      "sense_id": "sense-staged-ox-a02991a9329741ce-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6784e81e233c7fd3",
+      "lemma": "freely",
+      "pos": "adv.",
+      "sense_zh": "自由地，不拘束地",
+      "sentence_ids": [
+        "p07-c-11-s05"
+      ],
+      "forms": [
+        "freely"
+      ],
+      "sense_id": "sense-staged-ox-6784e81e233c7fd3-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f86186bc5d6a865e",
+      "lemma": "ethical",
+      "pos": "adj.",
+      "sense_zh": "符合道德原则的",
+      "sentence_ids": [
+        "p07-c-11-s07"
+      ],
+      "forms": [
+        "ethical"
+      ],
+      "sense_id": "sense-staged-ox-f86186bc5d6a865e-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b1d9665cd73b585",
+      "lemma": "exploit",
+      "pos": "v.",
+      "sense_zh": "利用他人以谋求利益",
+      "sentence_ids": [
+        "p07-c-11-s07"
+      ],
+      "forms": [
+        "exploit"
+      ],
+      "sense_id": "sense-staged-ox-6b1d9665cd73b585-p07-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

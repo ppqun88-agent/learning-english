@@ -1,0 +1,105 @@
+{
+  "id": "p07-a-18",
+  "title_zh": "用碳和二氧化碳区分元素与化合物",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-term-definition-revision",
+    "label_zh": "修订课堂术语说明",
+    "goal_zh": "确认元素定义清楚，并商定补充化合物解释及图示标签来区分两者。"
+  },
+  "participants": [
+    "Pia",
+    "Mr Lane"
+  ],
+  "context_zh": "学生请老师检查科学展示中的术语解释和粒子图示。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-18-s01",
+      "speaker": "Pia",
+      "text": "Does this definition explain the concept of an element clearly enough?"
+    },
+    {
+      "id": "p07-a-18-s02",
+      "speaker": "Mr Lane",
+      "text": "Read it to me."
+    },
+    {
+      "id": "p07-a-18-s03",
+      "speaker": "Pia",
+      "text": "An element contains just one type of atom. Carbon is an example."
+    },
+    {
+      "id": "p07-a-18-s04",
+      "speaker": "Mr Lane",
+      "text": "That's clear. What will you say about a compound?"
+    },
+    {
+      "id": "p07-a-18-s05",
+      "speaker": "Pia",
+      "text": "That it contains atoms of different elements chemically joined together. I'll use carbon dioxide as my example."
+    },
+    {
+      "id": "p07-a-18-s06",
+      "speaker": "Mr Lane",
+      "text": "Good. Add labels to the two kinds of atoms in your diagram so readers can see the difference."
+    },
+    {
+      "id": "p07-a-18-s07",
+      "speaker": "Pia",
+      "text": "I'll label them and add the compound explanation beside the element definition."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-95d57a514ca7240b",
+      "lemma": "concept",
+      "pos": "n.",
+      "sense_zh": "概念",
+      "sentence_ids": [
+        "p07-a-18-s01"
+      ],
+      "forms": [
+        "concept"
+      ],
+      "sense_id": "sense-staged-ox-95d57a514ca7240b-p07-a-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-35f024be7f2ffc0a",
+      "lemma": "carbon",
+      "pos": "n.",
+      "sense_zh": "碳元素",
+      "sentence_ids": [
+        "p07-a-18-s03"
+      ],
+      "forms": [
+        "carbon"
+      ],
+      "sense_id": "sense-staged-ox-35f024be7f2ffc0a-p07-a-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66b989c4a1ea3e26",
+      "lemma": "compound",
+      "pos": "n.",
+      "sense_zh": "化合物",
+      "sentence_ids": [
+        "p07-a-18-s04"
+      ],
+      "forms": [
+        "compound"
+      ],
+      "sense_id": "sense-staged-ox-66b989c4a1ea3e26-p07-a-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

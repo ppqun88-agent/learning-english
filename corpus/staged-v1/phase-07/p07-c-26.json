@@ -1,0 +1,68 @@
+{
+  "id": "p07-c-26",
+  "title_zh": "确定汤的调味并安排分装剩余份量",
+  "topic_id": "food",
+  "scenario": {
+    "id": "soup-cooking-and-portioning",
+    "label_zh": "分工煮汤并安排剩余份量",
+    "goal_zh": "确定汤的配料、调味与口感，分配烹饪工作并约定保存多余份量"
+  },
+  "participants": [
+    "Poppy",
+    "Harris"
+  ],
+  "context_zh": "合住的朋友分工准备晚餐汤品，并安排保存多余份量。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-26-s01",
+      "speaker": "Poppy",
+      "text": "The soup has a good flavour already. Should we leave out the extra salt?"
+    },
+    {
+      "id": "p07-c-26-s02",
+      "speaker": "Harris",
+      "text": "Yes. I will stir in the cooked beans, and you can chop the parsley."
+    },
+    {
+      "id": "p07-c-26-s03",
+      "speaker": "Poppy",
+      "text": "Do you want it smooth, or should we keep the pieces of carrot?"
+    },
+    {
+      "id": "p07-c-26-s04",
+      "speaker": "Harris",
+      "text": "Let us keep the pieces. There is enough here for four portions, and only two of us are eating."
+    },
+    {
+      "id": "p07-c-26-s05",
+      "speaker": "Poppy",
+      "text": "Then we can serve half now and put the rest in two labelled containers for the fridge."
+    },
+    {
+      "id": "p07-c-26-s06",
+      "speaker": "Harris",
+      "text": "Agreed. I will get the containers ready while you finish the parsley."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7098afe88624555e",
+      "lemma": "flavour",
+      "pos": "n.",
+      "sense_zh": "食物的味道，风味",
+      "sentence_ids": [
+        "p07-c-26-s01"
+      ],
+      "forms": [
+        "flavour"
+      ],
+      "sense_id": "sense-staged-ox-7098afe88624555e-p07-c-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

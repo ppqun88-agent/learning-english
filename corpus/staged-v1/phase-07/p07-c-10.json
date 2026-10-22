@@ -1,0 +1,210 @@
+{
+  "id": "p07-c-10",
+  "title_zh": "了解全职工作坊岗位的资格与工作要求",
+  "topic_id": "work",
+  "scenario": {
+    "id": "full-time-workshop-role-inquiry",
+    "label_zh": "了解全职工作坊岗位的资格与工作要求",
+    "goal_zh": "核对学历替代条件和教学职责，了解工作要求后索取岗位说明"
+  },
+  "participants": [
+    "David",
+    "Priya"
+  ],
+  "context_zh": "求职者咨询一所成人教育中心的工作坊教师岗位。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-10-s01",
+      "speaker": "David",
+      "text": "Is this a full-time post, or would I only come in to teach the evening workshops?"
+    },
+    {
+      "id": "p07-c-10-s02",
+      "speaker": "Priya",
+      "text": "It is full-time. Preparation, equipment checks and meetings are included in the working week."
+    },
+    {
+      "id": "p07-c-10-s03",
+      "speaker": "David",
+      "text": "I have a technical certificate. Would you accept a qualification equivalent to the diploma in the advertisement?"
+    },
+    {
+      "id": "p07-c-10-s04",
+      "speaker": "Priya",
+      "text": "Yes. We also need practical expertise, so please include examples of work you have done."
+    },
+    {
+      "id": "p07-c-10-s05",
+      "speaker": "David",
+      "text": "I have supervised a repair team, but I have not taught a large class."
+    },
+    {
+      "id": "p07-c-10-s06",
+      "speaker": "Priya",
+      "text": "Your fellow instructors would help you plan the first sessions. We do not expect you to work alone from day one."
+    },
+    {
+      "id": "p07-c-10-s07",
+      "speaker": "David",
+      "text": "What is your main expectation of someone new to the role?"
+    },
+    {
+      "id": "p07-c-10-s08",
+      "speaker": "Priya",
+      "text": "A strong work ethic, including turning up prepared and asking for help before a problem gets worse."
+    },
+    {
+      "id": "p07-c-10-s09",
+      "speaker": "David",
+      "text": "I want to understand the role fully before I apply. Could you send the job description?"
+    },
+    {
+      "id": "p07-c-10-s10",
+      "speaker": "Priya",
+      "text": "Certainly. It explains the duties you would need to fulfil, including the equipment checks."
+    },
+    {
+      "id": "p07-c-10-s11",
+      "speaker": "David",
+      "text": "Thank you. I will read that and decide whether my experience is a good match."
+    },
+    {
+      "id": "p07-c-10-s12",
+      "speaker": "Priya",
+      "text": "I will email it this afternoon."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4d8b3ac57449f11c",
+      "lemma": "full-time",
+      "pos": "adj.",
+      "sense_zh": "全职的",
+      "sentence_ids": [
+        "p07-c-10-s01"
+      ],
+      "forms": [
+        "full-time"
+      ],
+      "sense_id": "sense-staged-ox-4d8b3ac57449f11c-p07-c-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dcaba0f0bcf1e74d",
+      "lemma": "equivalent",
+      "pos": "adj.",
+      "sense_zh": "等同的，相当的",
+      "sentence_ids": [
+        "p07-c-10-s03"
+      ],
+      "forms": [
+        "equivalent"
+      ],
+      "sense_id": "sense-staged-ox-dcaba0f0bcf1e74d-p07-c-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a879b6901eddf1ba",
+      "lemma": "expertise",
+      "pos": "n.",
+      "sense_zh": "专业知识或技能",
+      "sentence_ids": [
+        "p07-c-10-s04"
+      ],
+      "forms": [
+        "expertise"
+      ],
+      "sense_id": "sense-staged-ox-a879b6901eddf1ba-p07-c-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eba0c3c86c1b274a",
+      "lemma": "fellow",
+      "pos": "adj.",
+      "sense_zh": "同事中的，共同从事某活动的",
+      "sentence_ids": [
+        "p07-c-10-s06"
+      ],
+      "forms": [
+        "fellow"
+      ],
+      "sense_id": "sense-staged-ox-eba0c3c86c1b274a-p07-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8fb4687cd9151b33",
+      "lemma": "expectation",
+      "pos": "n.",
+      "sense_zh": "期望，要求",
+      "sentence_ids": [
+        "p07-c-10-s07"
+      ],
+      "forms": [
+        "expectation"
+      ],
+      "sense_id": "sense-staged-ox-8fb4687cd9151b33-p07-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1cc645ea08efe7b3",
+      "lemma": "ethic",
+      "pos": "n.",
+      "sense_zh": "行为准则；此处指工作态度",
+      "sentence_ids": [
+        "p07-c-10-s08"
+      ],
+      "forms": [
+        "ethic"
+      ],
+      "sense_id": "sense-staged-ox-1cc645ea08efe7b3-p07-c-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6d69a157b6e404dd",
+      "lemma": "fully",
+      "pos": "adv.",
+      "sense_zh": "充分地，完全地",
+      "sentence_ids": [
+        "p07-c-10-s09"
+      ],
+      "forms": [
+        "fully"
+      ],
+      "sense_id": "sense-staged-ox-6d69a157b6e404dd-p07-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c54f78d85a230a2",
+      "lemma": "fulfil",
+      "pos": "v.",
+      "sense_zh": "履行，完成职责",
+      "sentence_ids": [
+        "p07-c-10-s10"
+      ],
+      "forms": [
+        "fulfil"
+      ],
+      "sense_id": "sense-staged-ox-7c54f78d85a230a2-p07-c-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

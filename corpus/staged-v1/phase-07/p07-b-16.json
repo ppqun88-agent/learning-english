@@ -1,0 +1,158 @@
+{
+  "id": "p07-b-16",
+  "title_zh": "拟定经济学项目的资料与观点采访问题",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "economics-project-interview-plan",
+    "label_zh": "为经济学项目拟定采访问题",
+    "goal_zh": "把课程概念落实为资料来源和观点差异的采访问题"
+  },
+  "participants": [
+    "Luis",
+    "Dr Hall"
+  ],
+  "context_zh": "学生路易斯与老师为课程项目准备采访一名虚构经济学家。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-16-s01",
+      "speaker": "Luis",
+      "text": "Does an interview fit the economics project, or do we have to write only about the textbook?"
+    },
+    {
+      "id": "p07-b-16-s02",
+      "speaker": "Dr Hall",
+      "text": "The curriculum allows an interview, provided you connect it to our topic on prices."
+    },
+    {
+      "id": "p07-b-16-s03",
+      "speaker": "Luis",
+      "text": "A local economist has agreed to speak to me. I thought I'd ask whether prices will rise next year."
+    },
+    {
+      "id": "p07-b-16-s04",
+      "speaker": "Dr Hall",
+      "text": "You could, but also ask how they derive their forecasts. What data do they use?"
+    },
+    {
+      "id": "p07-b-16-s05",
+      "speaker": "Luis",
+      "text": "And why their predictions might differ from another economist's?"
+    },
+    {
+      "id": "p07-b-16-s06",
+      "speaker": "Dr Hall",
+      "text": "Exactly. That could help explain the debate rather than making the interview sound like a request for one certain answer."
+    },
+    {
+      "id": "p07-b-16-s07",
+      "speaker": "Luis",
+      "text": "Then I'll start with the sources, follow with the method, and finish with the reasons forecasts differ."
+    },
+    {
+      "id": "p07-b-16-s08",
+      "speaker": "Dr Hall",
+      "text": "Good. Send those questions in advance so your guest can bring an example you can discuss."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-22d8ee616dca5127",
+      "lemma": "economics",
+      "pos": "n.",
+      "sense_zh": "经济学",
+      "sentence_ids": [
+        "p07-b-16-s01"
+      ],
+      "forms": [
+        "economics"
+      ],
+      "sense_id": "sense-staged-ox-22d8ee616dca5127-p07-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c3516a1ede7edc76",
+      "lemma": "curriculum",
+      "pos": "n.",
+      "sense_zh": "课程体系；教学内容安排",
+      "sentence_ids": [
+        "p07-b-16-s02"
+      ],
+      "forms": [
+        "curriculum"
+      ],
+      "sense_id": "sense-staged-ox-c3516a1ede7edc76-p07-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5bf41773ea9eb002",
+      "lemma": "economist",
+      "pos": "n.",
+      "sense_zh": "经济学家",
+      "sentence_ids": [
+        "p07-b-16-s03"
+      ],
+      "forms": [
+        "economist"
+      ],
+      "sense_id": "sense-staged-ox-5bf41773ea9eb002-p07-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16d3753b53296518",
+      "lemma": "derive",
+      "pos": "v.",
+      "sense_zh": "从资料或推理中得出",
+      "sentence_ids": [
+        "p07-b-16-s04"
+      ],
+      "forms": [
+        "derive"
+      ],
+      "sense_id": "sense-staged-ox-16d3753b53296518-p07-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ec93ea4db51e3f7",
+      "lemma": "differ",
+      "pos": "v.",
+      "sense_zh": "不同；有差异",
+      "sentence_ids": [
+        "p07-b-16-s05"
+      ],
+      "forms": [
+        "differ"
+      ],
+      "sense_id": "sense-staged-ox-2ec93ea4db51e3f7-p07-b-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a13381a416100cdb",
+      "lemma": "debate",
+      "pos": "n.",
+      "sense_zh": "围绕某个问题的讨论或争论",
+      "sentence_ids": [
+        "p07-b-16-s06"
+      ],
+      "forms": [
+        "debate"
+      ],
+      "sense_id": "sense-staged-ox-a13381a416100cdb-p07-b-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

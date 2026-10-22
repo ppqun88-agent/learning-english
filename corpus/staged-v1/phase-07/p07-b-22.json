@@ -1,0 +1,126 @@
+{
+  "id": "p07-b-22",
+  "title_zh": "核对无障碍入口并分配活动接待工作",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-event-welcome",
+    "label_zh": "安排社区活动迎宾",
+    "goal_zh": "确认入口与电梯位置并分配接待工作"
+  },
+  "participants": [
+    "Ada",
+    "Leon"
+  ],
+  "context_zh": "社区活动的两名志愿者核对入口、电梯与不同访客的接待需求。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-22-s01",
+      "speaker": "Ada",
+      "text": "Some disabled visitors asked whether the side entrance is open today."
+    },
+    {
+      "id": "p07-b-22-s02",
+      "speaker": "Leon",
+      "text": "It is. It leads straight into this corridor, and the lift is on the right."
+    },
+    {
+      "id": "p07-b-22-s03",
+      "speaker": "Ada",
+      "text": "Good. An elderly couple also asked if there's somewhere to sit before the doors open."
+    },
+    {
+      "id": "p07-b-22-s04",
+      "speaker": "Leon",
+      "text": "There are chairs near the lift. I'll check that nobody has left boxes in front of them."
+    },
+    {
+      "id": "p07-b-22-s05",
+      "speaker": "Ada",
+      "text": "We should ask people what help they want rather than assume. Not every disability is visible."
+    },
+    {
+      "id": "p07-b-22-s06",
+      "speaker": "Leon",
+      "text": "Agreed. Would you welcome people at the side entrance while I cover the main doors?"
+    },
+    {
+      "id": "p07-b-22-s07",
+      "speaker": "Ada",
+      "text": "Yes. I'll point out the lift and the chairs, and ask before offering any physical help."
+    },
+    {
+      "id": "p07-b-22-s08",
+      "speaker": "Leon",
+      "text": "I'll keep my phone on so you can call me if you need another volunteer."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fbfa69038bca53f0",
+      "lemma": "disabled",
+      "pos": "adj.",
+      "sense_zh": "有残疾的",
+      "sentence_ids": [
+        "p07-b-22-s01"
+      ],
+      "forms": [
+        "disabled"
+      ],
+      "sense_id": "sense-staged-ox-fbfa69038bca53f0-p07-b-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e16c6afcd43fec33",
+      "lemma": "corridor",
+      "pos": "n.",
+      "sense_zh": "走廊；通道",
+      "sentence_ids": [
+        "p07-b-22-s02"
+      ],
+      "forms": [
+        "corridor"
+      ],
+      "sense_id": "sense-staged-ox-e16c6afcd43fec33-p07-b-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e9eb493d3a932b3b",
+      "lemma": "elderly",
+      "pos": "adj.",
+      "sense_zh": "年纪较大的；老年的",
+      "sentence_ids": [
+        "p07-b-22-s03"
+      ],
+      "forms": [
+        "elderly"
+      ],
+      "sense_id": "sense-staged-ox-e9eb493d3a932b3b-p07-b-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3bc6cdb29b7c48bf",
+      "lemma": "disability",
+      "pos": "n.",
+      "sense_zh": "影响活动或参与的身体或精神功能障碍",
+      "sentence_ids": [
+        "p07-b-22-s05"
+      ],
+      "forms": [
+        "disability"
+      ],
+      "sense_id": "sense-staged-ox-3bc6cdb29b7c48bf-p07-b-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

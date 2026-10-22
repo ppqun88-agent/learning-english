@@ -1,0 +1,105 @@
+{
+  "id": "p07-b-11",
+  "title_zh": "选定一部适合讨论的短篇小说集",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "reading-group-book-choice",
+    "label_zh": "选择读书小组作品",
+    "goal_zh": "比较故事题材与讨论安排后选定共读作品"
+  },
+  "participants": [
+    "Nell",
+    "Victor"
+  ],
+  "context_zh": "读书小组成员比较两部虚构作品，为下月讨论选书。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-11-s01",
+      "speaker": "Nell",
+      "text": "A critic on the radio recommended The Glass Road. Shall we read that next?"
+    },
+    {
+      "id": "p07-b-11-s02",
+      "speaker": "Victor",
+      "text": "I tried it. The opening was so dull that I kept putting it down."
+    },
+    {
+      "id": "p07-b-11-s03",
+      "speaker": "Nell",
+      "text": "Really? It's been critically acclaimed. What didn't you like?"
+    },
+    {
+      "id": "p07-b-11-s04",
+      "speaker": "Victor",
+      "text": "Nothing seemed to happen for fifty pages. It's about a detective chasing an art thief, but I'd rather read The Last Orchard, the short-story collection you lent me."
+    },
+    {
+      "id": "p07-b-11-s05",
+      "speaker": "Nell",
+      "text": "That could work. Its stories about families trying to save their farms should give us more to discuss than another crime plot."
+    },
+    {
+      "id": "p07-b-11-s06",
+      "speaker": "Victor",
+      "text": "Then let's choose The Last Orchard. We can each bring a question about our favourite story."
+    },
+    {
+      "id": "p07-b-11-s07",
+      "speaker": "Nell",
+      "text": "Agreed. I'll tell the group that's our book for next month."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6b7e40d352ad3b6d",
+      "lemma": "critic",
+      "pos": "n.",
+      "sense_zh": "文艺评论家",
+      "sentence_ids": [
+        "p07-b-11-s01"
+      ],
+      "forms": [
+        "critic"
+      ],
+      "sense_id": "sense-staged-ox-6b7e40d352ad3b6d-p07-b-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d068a5c9e2140099",
+      "lemma": "dull",
+      "pos": "adj.",
+      "sense_zh": "乏味的；无聊的",
+      "sentence_ids": [
+        "p07-b-11-s02"
+      ],
+      "forms": [
+        "dull"
+      ],
+      "sense_id": "sense-staged-ox-d068a5c9e2140099-p07-b-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fad40a3a5d795111",
+      "lemma": "critically",
+      "pos": "adv.",
+      "sense_zh": "从评论界评价的角度",
+      "sentence_ids": [
+        "p07-b-11-s03"
+      ],
+      "forms": [
+        "critically"
+      ],
+      "sense_id": "sense-staged-ox-fad40a3a5d795111-p07-b-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

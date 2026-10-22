@@ -1,0 +1,105 @@
+{
+  "id": "p07-b-26",
+  "title_zh": "约定自习期间用耳机并留到四点讨论",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "quiet-study-sharing-plan",
+    "label_zh": "约定共享自习时的安静安排",
+    "goal_zh": "说明分心来源并约定耳机与讨论时间"
+  },
+  "participants": [
+    "Yuki",
+    "Dan"
+  ],
+  "context_zh": "两位同学共享自习桌，协调各自学习任务与讨论时间。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-26-s01",
+      "speaker": "Yuki",
+      "text": "I'm eager to hear what you thought of my presentation, but you look busy."
+    },
+    {
+      "id": "p07-b-26-s02",
+      "speaker": "Dan",
+      "text": "I am. I have one section left to read, and I keep losing my place."
+    },
+    {
+      "id": "p07-b-26-s03",
+      "speaker": "Yuki",
+      "text": "Would it distract you if I practised the opening quietly?"
+    },
+    {
+      "id": "p07-b-26-s04",
+      "speaker": "Dan",
+      "text": "A little, yes. Could you listen to your recording through headphones instead?"
+    },
+    {
+      "id": "p07-b-26-s05",
+      "speaker": "Yuki",
+      "text": "Of course. I don't want to disturb anyone else here either."
+    },
+    {
+      "id": "p07-b-26-s06",
+      "speaker": "Dan",
+      "text": "Thanks. If you can wait until four, I'll listen to you practise outside."
+    },
+    {
+      "id": "p07-b-26-s07",
+      "speaker": "Yuki",
+      "text": "Four works. I'll review the recording now and save my questions until then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-290e1d9c896c6d18",
+      "lemma": "eager",
+      "pos": "adj.",
+      "sense_zh": "热切想做某事的",
+      "sentence_ids": [
+        "p07-b-26-s01"
+      ],
+      "forms": [
+        "eager"
+      ],
+      "sense_id": "sense-staged-ox-290e1d9c896c6d18-p07-b-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f0d2710ae7103a6",
+      "lemma": "distract",
+      "pos": "v.",
+      "sense_zh": "使分心",
+      "sentence_ids": [
+        "p07-b-26-s03"
+      ],
+      "forms": [
+        "distract"
+      ],
+      "sense_id": "sense-staged-ox-8f0d2710ae7103a6-p07-b-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e65bfc0ee8cd22b0",
+      "lemma": "disturb",
+      "pos": "v.",
+      "sense_zh": "打扰；干扰",
+      "sentence_ids": [
+        "p07-b-26-s05"
+      ],
+      "forms": [
+        "disturb"
+      ],
+      "sense_id": "sense-staged-ox-e65bfc0ee8cd22b0-p07-b-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

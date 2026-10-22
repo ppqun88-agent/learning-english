@@ -1,0 +1,142 @@
+{
+  "id": "p07-a-12",
+  "title_zh": "商定先向作曲家询问合唱新曲报价",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "new-choir-piece-commission-plan",
+    "label_zh": "拟定合唱新曲委托询问",
+    "goal_zh": "明确新曲声部与排练条件，约定先向作曲家询问价格和交稿日期而不作委托承诺"
+  },
+  "participants": [
+    "Ada",
+    "Marco"
+  ],
+  "context_zh": "社区合唱团负责人和指挥讨论周年音乐会的新曲需求，还没有委托任何人。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-12-s01",
+      "speaker": "Ada",
+      "text": "I'd like our choir to have something written especially for its anniversary."
+    },
+    {
+      "id": "p07-a-12-s02",
+      "speaker": "Marco",
+      "text": "Do you mean we should commission a new piece? We'd need to know the cost first."
+    },
+    {
+      "id": "p07-a-12-s03",
+      "speaker": "Ada",
+      "text": "Yes. I heard a local composer at the library concert, and her work was very singable."
+    },
+    {
+      "id": "p07-a-12-s04",
+      "speaker": "Marco",
+      "text": "Could she compose something for three voice parts? That's what our group can manage."
+    },
+    {
+      "id": "p07-a-12-s05",
+      "speaker": "Ada",
+      "text": "I'll ask. Would you be willing to conduct it if the project goes ahead?"
+    },
+    {
+      "id": "p07-a-12-s06",
+      "speaker": "Marco",
+      "text": "Certainly, provided we get the score early enough to rehearse."
+    },
+    {
+      "id": "p07-a-12-s07",
+      "speaker": "Ada",
+      "text": "Then I'll ask her for a price and a delivery date before we make any commitment."
+    },
+    {
+      "id": "p07-a-12-s08",
+      "speaker": "Marco",
+      "text": "Good. Include the voice parts and the concert date in the enquiry."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a522f3be4977e0d3",
+      "lemma": "choir",
+      "pos": "n.",
+      "sense_zh": "合唱团",
+      "sentence_ids": [
+        "p07-a-12-s01"
+      ],
+      "forms": [
+        "choir"
+      ],
+      "sense_id": "sense-staged-ox-a522f3be4977e0d3-p07-a-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-141debd72ea6e902",
+      "lemma": "commission",
+      "pos": "v.",
+      "sense_zh": "委托创作",
+      "sentence_ids": [
+        "p07-a-12-s02"
+      ],
+      "forms": [
+        "commission"
+      ],
+      "sense_id": "sense-staged-ox-141debd72ea6e902-p07-a-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-22869684120cb2c8",
+      "lemma": "composer",
+      "pos": "n.",
+      "sense_zh": "作曲家",
+      "sentence_ids": [
+        "p07-a-12-s03"
+      ],
+      "forms": [
+        "composer"
+      ],
+      "sense_id": "sense-staged-ox-22869684120cb2c8-p07-a-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a85ff42514a0f4d4",
+      "lemma": "compose",
+      "pos": "v.",
+      "sense_zh": "作曲",
+      "sentence_ids": [
+        "p07-a-12-s04"
+      ],
+      "forms": [
+        "compose"
+      ],
+      "sense_id": "sense-staged-ox-a85ff42514a0f4d4-p07-a-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-52d5d88d636062dc",
+      "lemma": "conduct",
+      "pos": "v.",
+      "sense_zh": "指挥音乐演出",
+      "sentence_ids": [
+        "p07-a-12-s05"
+      ],
+      "forms": [
+        "conduct"
+      ],
+      "sense_id": "sense-staged-ox-52d5d88d636062dc-p07-a-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,158 @@
+{
+  "id": "p07-a-13",
+  "title_zh": "排练战争短剧的撤离提示",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "historical-play-scene-rehearsal",
+    "label_zh": "核对历史短剧撤离场景的提示",
+    "goal_zh": "澄清虚构战争场景、录音提示与道具处理，约定慢速排练撤离段落"
+  },
+  "participants": [
+    "Dora",
+    "Felix"
+  ],
+  "context_zh": "业余剧团排练一出虚构的内战题材短剧，用录音表现轰炸，不使用武器或实弹。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-13-s01",
+      "speaker": "Dora",
+      "text": "Before we start, does the whole cast understand where this scene takes place?"
+    },
+    {
+      "id": "p07-a-13-s02",
+      "speaker": "Felix",
+      "text": "In a school during a civil war. My character is the commander trying to get everyone out."
+    },
+    {
+      "id": "p07-a-13-s03",
+      "speaker": "Dora",
+      "text": "Right. The bombing is represented by the recording, not anything happening on stage."
+    },
+    {
+      "id": "p07-a-13-s04",
+      "speaker": "Felix",
+      "text": "When do I give the command to leave? Before the noise or after it?"
+    },
+    {
+      "id": "p07-a-13-s05",
+      "speaker": "Dora",
+      "text": "After the first sound. Everyone needs to hear your line clearly."
+    },
+    {
+      "id": "p07-a-13-s06",
+      "speaker": "Felix",
+      "text": "And what do I do with the object I find on the floor?"
+    },
+    {
+      "id": "p07-a-13-s07",
+      "speaker": "Dora",
+      "text": "It's a wooden prop shaped like a bullet, not a real one. Leave it where it is; the audience only needs to notice it."
+    },
+    {
+      "id": "p07-a-13-s08",
+      "speaker": "Felix",
+      "text": "Understood. Let's run the sound cue and the exit once at walking pace."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dd0e7535996cb98e",
+      "lemma": "cast",
+      "pos": "n.",
+      "sense_zh": "一出戏的全体演员",
+      "sentence_ids": [
+        "p07-a-13-s01"
+      ],
+      "forms": [
+        "cast"
+      ],
+      "sense_id": "sense-staged-ox-dd0e7535996cb98e-p07-a-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-87c59a5007d73ac5",
+      "lemma": "civil",
+      "pos": "adj.",
+      "sense_zh": "国内的，此处用于内战",
+      "sentence_ids": [
+        "p07-a-13-s02"
+      ],
+      "forms": [
+        "civil"
+      ],
+      "sense_id": "sense-staged-ox-87c59a5007d73ac5-p07-a-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a152a1f1d6e954cd",
+      "lemma": "commander",
+      "pos": "n.",
+      "sense_zh": "指挥官",
+      "sentence_ids": [
+        "p07-a-13-s02"
+      ],
+      "forms": [
+        "commander"
+      ],
+      "sense_id": "sense-staged-ox-a152a1f1d6e954cd-p07-a-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bceff306b5913080",
+      "lemma": "bombing",
+      "pos": "n.",
+      "sense_zh": "轰炸",
+      "sentence_ids": [
+        "p07-a-13-s03"
+      ],
+      "forms": [
+        "bombing"
+      ],
+      "sense_id": "sense-staged-ox-bceff306b5913080-p07-a-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-68c14f21aa6ce34b",
+      "lemma": "command",
+      "pos": "n.",
+      "sense_zh": "命令",
+      "sentence_ids": [
+        "p07-a-13-s04"
+      ],
+      "forms": [
+        "command"
+      ],
+      "sense_id": "sense-staged-ox-68c14f21aa6ce34b-p07-a-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-112626017987392f",
+      "lemma": "bullet",
+      "pos": "n.",
+      "sense_zh": "子弹",
+      "sentence_ids": [
+        "p07-a-13-s07"
+      ],
+      "forms": [
+        "bullet"
+      ],
+      "sense_id": "sense-staged-ox-112626017987392f-p07-a-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

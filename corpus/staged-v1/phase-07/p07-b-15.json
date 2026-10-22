@@ -1,0 +1,168 @@
+{
+  "id": "p07-b-15",
+  "title_zh": "因持续情绪低落请诊所安排专业回电",
+  "topic_id": "health",
+  "scenario": {
+    "id": "low-mood-clinic-callback",
+    "label_zh": "因持续情绪低落请求诊所回电",
+    "goal_zh": "说明近期感受与咨询顾虑并请诊所安排专业人员回电"
+  },
+  "participants": [
+    "Morgan",
+    "Receptionist"
+  ],
+  "context_zh": "虚构来电者向诊所接待员描述感受并求助。接待员不作诊断或治疗建议。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-15-s01",
+      "speaker": "Morgan",
+      "text": "I'd like to speak to someone about my mood. I've felt depressed for several weeks."
+    },
+    {
+      "id": "p07-b-15-s02",
+      "speaker": "Receptionist",
+      "text": "I can ask a clinician to call you. Is there anything you'd like me to include in the message?"
+    },
+    {
+      "id": "p07-b-15-s03",
+      "speaker": "Morgan",
+      "text": "I haven't been sleeping well either. I wonder if I have a sleep disorder, but I don't know."
+    },
+    {
+      "id": "p07-b-15-s04",
+      "speaker": "Receptionist",
+      "text": "I'll record that as a concern for the clinician to discuss, not as a diagnosis."
+    },
+    {
+      "id": "p07-b-15-s05",
+      "speaker": "Morgan",
+      "text": "Thank you. Reading about depression online has been deeply upsetting. Some of the stories are quite depressing."
+    },
+    {
+      "id": "p07-b-15-s06",
+      "speaker": "Receptionist",
+      "text": "Would you like the clinician to know that you're worried about what you've read?"
+    },
+    {
+      "id": "p07-b-15-s07",
+      "speaker": "Morgan",
+      "text": "Yes. I'm not expecting an instant cure. I just want help understanding what's happening."
+    },
+    {
+      "id": "p07-b-15-s08",
+      "speaker": "Receptionist",
+      "text": "I can include that. When can you answer a call?"
+    },
+    {
+      "id": "p07-b-15-s09",
+      "speaker": "Morgan",
+      "text": "Any time after two today. I can take the call somewhere private."
+    },
+    {
+      "id": "p07-b-15-s10",
+      "speaker": "Receptionist",
+      "text": "I've sent the callback request with that time window. I can't promise an exact time, but the team will contact you to arrange the next step."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1217536ec1ab925f",
+      "lemma": "depressed",
+      "pos": "adj.",
+      "sense_zh": "情绪低落的；沮丧的",
+      "sentence_ids": [
+        "p07-b-15-s01"
+      ],
+      "forms": [
+        "depressed"
+      ],
+      "sense_id": "sense-staged-ox-1217536ec1ab925f-p07-b-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc4a8b2b4d0c5597",
+      "lemma": "disorder",
+      "pos": "n.",
+      "sense_zh": "身体或精神机能的失调或疾病",
+      "sentence_ids": [
+        "p07-b-15-s03"
+      ],
+      "forms": [
+        "disorder"
+      ],
+      "sense_id": "sense-staged-ox-dc4a8b2b4d0c5597-p07-b-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f78a08ed43cc1085",
+      "lemma": "depression",
+      "pos": "n.",
+      "sense_zh": "抑郁症；抑郁状态这一健康问题",
+      "sentence_ids": [
+        "p07-b-15-s05"
+      ],
+      "forms": [
+        "depression"
+      ],
+      "sense_id": "sense-staged-ox-f78a08ed43cc1085-p07-b-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1135d9340f8049bf",
+      "lemma": "deeply",
+      "pos": "adv.",
+      "sense_zh": "深深地；非常",
+      "sentence_ids": [
+        "p07-b-15-s05"
+      ],
+      "forms": [
+        "deeply"
+      ],
+      "sense_id": "sense-staged-ox-1135d9340f8049bf-p07-b-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-33672141ef626e94",
+      "lemma": "depressing",
+      "pos": "adj.",
+      "sense_zh": "令人沮丧的",
+      "sentence_ids": [
+        "p07-b-15-s05"
+      ],
+      "forms": [
+        "depressing"
+      ],
+      "sense_id": "sense-staged-ox-33672141ef626e94-p07-b-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d0b9a782265d4cfe",
+      "lemma": "cure",
+      "pos": "n.",
+      "sense_zh": "治愈；治愈的方法",
+      "sentence_ids": [
+        "p07-b-15-s07"
+      ],
+      "forms": [
+        "cure"
+      ],
+      "sense_id": "sense-staged-ox-d0b9a782265d4cfe-p07-b-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

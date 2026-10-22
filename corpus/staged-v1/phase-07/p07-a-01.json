@@ -1,0 +1,63 @@
+{
+  "id": "p07-a-01",
+  "title_zh": "约好更换弯曲的自行车前轮",
+  "topic_id": "services",
+  "scenario": {
+    "id": "bicycle-repair-estimate",
+    "label_zh": "询问自行车维修安排",
+    "goal_zh": "检查车况、讨论维修必要性并确认取车时间。"
+  },
+  "participants": [
+    "Nia",
+    "Owen"
+  ],
+  "context_zh": "骑车人推着车到维修店，想确认车轮是否需要更换及何时能取车。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-01-s01",
+      "speaker": "Nia",
+      "text": "The front wheel looks bent. Can it be repaired?"
+    },
+    {
+      "id": "p07-a-01-s02",
+      "speaker": "Owen",
+      "text": "Let me check it on the stand. No, this rim needs replacing; I wouldn't ride on it."
+    },
+    {
+      "id": "p07-a-01-s03",
+      "speaker": "Nia",
+      "text": "Can you replace it today? I can leave the bike here."
+    },
+    {
+      "id": "p07-a-01-s04",
+      "speaker": "Owen",
+      "text": "Yes. The total would be forty pounds, and you could collect it at five."
+    },
+    {
+      "id": "p07-a-01-s05",
+      "speaker": "Nia",
+      "text": "That works. Please replace it, and I'll come back at five."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ccae6da9b110b168",
+      "lemma": "bent",
+      "pos": "adj.",
+      "sense_zh": "弯曲变形的",
+      "sentence_ids": [
+        "p07-a-01-s01"
+      ],
+      "forms": [
+        "bent"
+      ],
+      "sense_id": "sense-staged-ox-ccae6da9b110b168-p07-a-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

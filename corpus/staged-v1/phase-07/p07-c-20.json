@@ -1,0 +1,184 @@
+{
+  "id": "p07-c-20",
+  "title_zh": "了解延期规则后决定按期归还预约书",
+  "topic_id": "services",
+  "scenario": {
+    "id": "library-loan-extension-choice",
+    "label_zh": "了解延期规则后决定按期归还预约书",
+    "goal_zh": "澄清一般延期和预约书例外限制，决定按期归还当前书并保留阅读进度"
+  },
+  "participants": [
+    "Wendy",
+    "Sam"
+  ],
+  "context_zh": "读者电话询问图书馆的虚构借阅规则。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-20-s01",
+      "speaker": "Wendy",
+      "text": "I have not finished the entire book. Could I get an extension on the loan?"
+    },
+    {
+      "id": "p07-c-20-s02",
+      "speaker": "Sam",
+      "text": "Usually, yes. But someone has reserved this copy, so we cannot extend it."
+    },
+    {
+      "id": "p07-c-20-s03",
+      "speaker": "Wendy",
+      "text": "Could you make an exception for just two more days?"
+    },
+    {
+      "id": "p07-c-20-s04",
+      "speaker": "Sam",
+      "text": "I am afraid not. For reserved books, the loan must not exceed the original period."
+    },
+    {
+      "id": "p07-c-20-s05",
+      "speaker": "Wendy",
+      "text": "I see. The delay is entirely my responsibility; I started it rather late."
+    },
+    {
+      "id": "p07-c-20-s06",
+      "speaker": "Sam",
+      "text": "You can place another request after you return it. Your reading notes might help you pick up where you left off."
+    },
+    {
+      "id": "p07-c-20-s07",
+      "speaker": "Wendy",
+      "text": "So, essentially, I need to return this copy tomorrow and wait my turn again."
+    },
+    {
+      "id": "p07-c-20-s08",
+      "speaker": "Sam",
+      "text": "That is right. I can show you how to make the new request when you bring it in."
+    },
+    {
+      "id": "p07-c-20-s09",
+      "speaker": "Wendy",
+      "text": "Thank you. I will note my page number and return it tomorrow."
+    },
+    {
+      "id": "p07-c-20-s10",
+      "speaker": "Sam",
+      "text": "You are welcome. We are open until six."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d6a0d16c2cf448b6",
+      "lemma": "entire",
+      "pos": "adj.",
+      "sense_zh": "整个的，全部的",
+      "sentence_ids": [
+        "p07-c-20-s01"
+      ],
+      "forms": [
+        "entire"
+      ],
+      "sense_id": "sense-staged-ox-d6a0d16c2cf448b6-p07-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57a87c67254cdf93",
+      "lemma": "extension",
+      "pos": "n.",
+      "sense_zh": "期限的延长",
+      "sentence_ids": [
+        "p07-c-20-s01"
+      ],
+      "forms": [
+        "extension"
+      ],
+      "sense_id": "sense-staged-ox-57a87c67254cdf93-p07-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2612e7f539c7b9d0",
+      "lemma": "extend",
+      "pos": "v.",
+      "sense_zh": "延长期限",
+      "sentence_ids": [
+        "p07-c-20-s02"
+      ],
+      "forms": [
+        "extend"
+      ],
+      "sense_id": "sense-staged-ox-2612e7f539c7b9d0-p07-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12730c08073469ce",
+      "lemma": "exception",
+      "pos": "n.",
+      "sense_zh": "例外，破例",
+      "sentence_ids": [
+        "p07-c-20-s03"
+      ],
+      "forms": [
+        "exception"
+      ],
+      "sense_id": "sense-staged-ox-12730c08073469ce-p07-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eae249c8d128f0bc",
+      "lemma": "exceed",
+      "pos": "v.",
+      "sense_zh": "超过规定限度",
+      "sentence_ids": [
+        "p07-c-20-s04"
+      ],
+      "forms": [
+        "exceed"
+      ],
+      "sense_id": "sense-staged-ox-eae249c8d128f0bc-p07-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3b616d820798d7a5",
+      "lemma": "entirely",
+      "pos": "adv.",
+      "sense_zh": "完全地",
+      "sentence_ids": [
+        "p07-c-20-s05"
+      ],
+      "forms": [
+        "entirely"
+      ],
+      "sense_id": "sense-staged-ox-3b616d820798d7a5-p07-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30f80fa79cf1d5d1",
+      "lemma": "essentially",
+      "pos": "adv.",
+      "sense_zh": "基本上，说到底",
+      "sentence_ids": [
+        "p07-c-20-s07"
+      ],
+      "forms": [
+        "essentially"
+      ],
+      "sense_id": "sense-staged-ox-30f80fa79cf1d5d1-p07-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

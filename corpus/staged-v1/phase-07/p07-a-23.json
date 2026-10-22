@@ -1,0 +1,142 @@
+{
+  "id": "p07-a-23",
+  "title_zh": "约定比较两种花店标志草图",
+  "topic_id": "work",
+  "scenario": {
+    "id": "small-company-logo-revision",
+    "label_zh": "修改小公司标志",
+    "goal_zh": "澄清图案和颜色需求并约定提供可比较的草图"
+  },
+  "participants": [
+    "Talia",
+    "Wes"
+  ],
+  "context_zh": "小花店店主向设计师反馈标志初稿，希望保持现代感又不显得过于正式。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-23-s01",
+      "speaker": "Talia",
+      "text": "The current logo feels rather formal. Could it be more colorful?"
+    },
+    {
+      "id": "p07-a-23-s02",
+      "speaker": "Wes",
+      "text": "Yes. Is the flower symbol itself right, or would you like a different shape too?"
+    },
+    {
+      "id": "p07-a-23-s03",
+      "speaker": "Talia",
+      "text": "I'd like a simpler flower with bold lines, so it still works on a small label."
+    },
+    {
+      "id": "p07-a-23-s04",
+      "speaker": "Wes",
+      "text": "What do you want the design to convey about the shop?"
+    },
+    {
+      "id": "p07-a-23-s05",
+      "speaker": "Talia",
+      "text": "That it's friendly and contemporary, not an expensive place where you need to know all the flower names."
+    },
+    {
+      "id": "p07-a-23-s06",
+      "speaker": "Wes",
+      "text": "Then we could move away from the conventional rose symbol and try a loose outline of a daisy."
+    },
+    {
+      "id": "p07-a-23-s07",
+      "speaker": "Talia",
+      "text": "I like that direction. Could I see it in yellow and green, and another version in just green?"
+    },
+    {
+      "id": "p07-a-23-s08",
+      "speaker": "Wes",
+      "text": "I'll make those two sketches for you to compare before we choose the final colors."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-036c1c94b884bfc1",
+      "lemma": "colorful",
+      "pos": "adj.",
+      "sense_zh": "色彩丰富的",
+      "sentence_ids": [
+        "p07-a-23-s01"
+      ],
+      "forms": [
+        "colorful"
+      ],
+      "sense_id": "sense-staged-ox-036c1c94b884bfc1-p07-a-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ca2f1425c2ef0969",
+      "lemma": "bold",
+      "pos": "adj.",
+      "sense_zh": "线条粗而醒目的",
+      "sentence_ids": [
+        "p07-a-23-s03"
+      ],
+      "forms": [
+        "bold"
+      ],
+      "sense_id": "sense-staged-ox-ca2f1425c2ef0969-p07-a-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7ac0f19225e5c838",
+      "lemma": "convey",
+      "pos": "v.",
+      "sense_zh": "传达印象或信息",
+      "sentence_ids": [
+        "p07-a-23-s04"
+      ],
+      "forms": [
+        "convey"
+      ],
+      "sense_id": "sense-staged-ox-7ac0f19225e5c838-p07-a-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f2477109b2b08e82",
+      "lemma": "contemporary",
+      "pos": "adj.",
+      "sense_zh": "具有现代风格的",
+      "sentence_ids": [
+        "p07-a-23-s05"
+      ],
+      "forms": [
+        "contemporary"
+      ],
+      "sense_id": "sense-staged-ox-f2477109b2b08e82-p07-a-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1288f7ee0b32f116",
+      "lemma": "conventional",
+      "pos": "adj.",
+      "sense_zh": "传统惯用的",
+      "sentence_ids": [
+        "p07-a-23-s06"
+      ],
+      "forms": [
+        "conventional"
+      ],
+      "sense_id": "sense-staged-ox-1288f7ee0b32f116-p07-a-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

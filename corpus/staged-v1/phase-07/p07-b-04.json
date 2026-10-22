@@ -1,0 +1,163 @@
+{
+  "id": "p07-b-04",
+  "title_zh": "约定先恢复十分钟钢琴练习",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "piano-practice-restart-plan",
+    "label_zh": "商定恢复钢琴练习的一小步",
+    "goal_zh": "讨论挫败感并约定一段可坚持的练习及分享安排"
+  },
+  "participants": [
+    "Estelle",
+    "Jonah"
+  ],
+  "context_zh": "成年钢琴学习者埃斯特尔向朋友乔纳谈论停练后的顾虑。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-04-s01",
+      "speaker": "Estelle",
+      "text": "I haven't touched the piano since that awful performance. It takes courage even to open the music now."
+    },
+    {
+      "id": "p07-b-04-s02",
+      "speaker": "Jonah",
+      "text": "Would playing just the first page feel more manageable?"
+    },
+    {
+      "id": "p07-b-04-s03",
+      "speaker": "Estelle",
+      "text": "Maybe. I have the determination to improve, but I don't have the discipline to practise when I'm tired."
+    },
+    {
+      "id": "p07-b-04-s04",
+      "speaker": "Jonah",
+      "text": "Then don't start with an hour. Could you devote ten minutes to it after breakfast?"
+    },
+    {
+      "id": "p07-b-04-s05",
+      "speaker": "Estelle",
+      "text": "I could. I just don't want to disappoint my teacher again."
+    },
+    {
+      "id": "p07-b-04-s06",
+      "speaker": "Jonah",
+      "text": "One difficult performance doesn't erase your progress. Don't let it discourage you from playing altogether."
+    },
+    {
+      "id": "p07-b-04-s07",
+      "speaker": "Estelle",
+      "text": "All right. I'll try ten minutes tomorrow, with no recording and no audience."
+    },
+    {
+      "id": "p07-b-04-s08",
+      "speaker": "Jonah",
+      "text": "That sounds reasonable. Would you like to tell me how it went afterwards?"
+    },
+    {
+      "id": "p07-b-04-s09",
+      "speaker": "Estelle",
+      "text": "Yes, but please ask about the practice, not whether it was perfect."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-db8b9e24d89cd2d6",
+      "lemma": "courage",
+      "pos": "n.",
+      "sense_zh": "面对困难或恐惧的勇气",
+      "sentence_ids": [
+        "p07-b-04-s01"
+      ],
+      "forms": [
+        "courage"
+      ],
+      "sense_id": "sense-staged-ox-db8b9e24d89cd2d6-p07-b-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b73740f227483629",
+      "lemma": "determination",
+      "pos": "n.",
+      "sense_zh": "坚持达成目标的决心",
+      "sentence_ids": [
+        "p07-b-04-s03"
+      ],
+      "forms": [
+        "determination"
+      ],
+      "sense_id": "sense-staged-ox-b73740f227483629-p07-b-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a257bc499a6cb548",
+      "lemma": "discipline",
+      "pos": "n.",
+      "sense_zh": "自律；自我约束",
+      "sentence_ids": [
+        "p07-b-04-s03"
+      ],
+      "forms": [
+        "discipline"
+      ],
+      "sense_id": "sense-staged-ox-a257bc499a6cb548-p07-b-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92ceceab140dd265",
+      "lemma": "devote",
+      "pos": "v.",
+      "sense_zh": "把时间投入于",
+      "sentence_ids": [
+        "p07-b-04-s04"
+      ],
+      "forms": [
+        "devote"
+      ],
+      "sense_id": "sense-staged-ox-92ceceab140dd265-p07-b-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c442b433a74f5029",
+      "lemma": "disappoint",
+      "pos": "v.",
+      "sense_zh": "使失望",
+      "sentence_ids": [
+        "p07-b-04-s05"
+      ],
+      "forms": [
+        "disappoint"
+      ],
+      "sense_id": "sense-staged-ox-c442b433a74f5029-p07-b-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-651b7cfa70c8ff97",
+      "lemma": "discourage",
+      "pos": "v.",
+      "sense_zh": "使失去信心或热情",
+      "sentence_ids": [
+        "p07-b-04-s06"
+      ],
+      "forms": [
+        "discourage"
+      ],
+      "sense_id": "sense-staged-ox-651b7cfa70c8ff97-p07-b-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

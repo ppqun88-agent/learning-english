@@ -1,0 +1,110 @@
+{
+  "id": "p07-c-21",
+  "title_zh": "确定模型船承重实验的水量和记录方法",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-boat-load-test",
+    "label_zh": "确定模型船承重实验的水量和记录方法",
+    "goal_zh": "核对水量单位，约定逐个增加相同砝码并记录模型船下沉情况"
+  },
+  "participants": [
+    "Ava",
+    "Noah"
+  ],
+  "context_zh": "两名学生使用教师准备的水箱和模型船规划课堂实验。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-21-s01",
+      "speaker": "Ava",
+      "text": "The instruction sheet says to use one gallon of water. Is this jug the right size?"
+    },
+    {
+      "id": "p07-c-21-s02",
+      "speaker": "Noah",
+      "text": "Yes. The jug and the sheet both say US gallon, so we are using the same measure."
+    },
+    {
+      "id": "p07-c-21-s03",
+      "speaker": "Ava",
+      "text": "Will the boat float with all six weights in it?"
+    },
+    {
+      "id": "p07-c-21-s04",
+      "speaker": "Noah",
+      "text": "We do not know yet. Let us add one weight at a time rather than all six at once."
+    },
+    {
+      "id": "p07-c-21-s05",
+      "speaker": "Ava",
+      "text": "At the start, only a small fraction of the boat is below the water."
+    },
+    {
+      "id": "p07-c-21-s06",
+      "speaker": "Noah",
+      "text": "Take a photo of that first. We can record the number of weights and how low the boat sits after each step."
+    },
+    {
+      "id": "p07-c-21-s07",
+      "speaker": "Ava",
+      "text": "Good. We will use the identical weights the teacher gave us."
+    },
+    {
+      "id": "p07-c-21-s08",
+      "speaker": "Noah",
+      "text": "And keep the water level the same throughout the test."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e0f2963035981154",
+      "lemma": "gallon",
+      "pos": "n.",
+      "sense_zh": "加仑，液体容量单位",
+      "sentence_ids": [
+        "p07-c-21-s01"
+      ],
+      "forms": [
+        "gallon"
+      ],
+      "sense_id": "sense-staged-ox-e0f2963035981154-p07-c-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a016ecc570ab4bd",
+      "lemma": "float",
+      "pos": "v.",
+      "sense_zh": "浮在水面上",
+      "sentence_ids": [
+        "p07-c-21-s03"
+      ],
+      "forms": [
+        "float"
+      ],
+      "sense_id": "sense-staged-ox-2a016ecc570ab4bd-p07-c-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80bb8194400390f1",
+      "lemma": "fraction",
+      "pos": "n.",
+      "sense_zh": "一小部分",
+      "sentence_ids": [
+        "p07-c-21-s05"
+      ],
+      "forms": [
+        "fraction"
+      ],
+      "sense_id": "sense-staged-ox-80bb8194400390f1-p07-c-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

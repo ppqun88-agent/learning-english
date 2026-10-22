@@ -1,0 +1,121 @@
+{
+  "id": "p07-a-16",
+  "title_zh": "先向同伴试讲展示开场",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "student-presentation-support-plan",
+    "label_zh": "约定先练习课堂展示的开场",
+    "goal_zh": "说明公开发言顾虑，并同意借助笔记向同伴试讲开场"
+  },
+  "participants": [
+    "Noor",
+    "Jasper"
+  ],
+  "context_zh": "一名学生担心课堂展示时无法集中注意，同伴提出先做小范围练习。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-16-s01",
+      "speaker": "Noor",
+      "text": "I know the material, but speaking in front of the class feels really challenging."
+    },
+    {
+      "id": "p07-a-16-s02",
+      "speaker": "Jasper",
+      "text": "Which part worries you most?"
+    },
+    {
+      "id": "p07-a-16-s03",
+      "speaker": "Noor",
+      "text": "My concentration goes as soon as everyone looks at me. I don't know how I'll cope if I forget the first line."
+    },
+    {
+      "id": "p07-a-16-s04",
+      "speaker": "Jasper",
+      "text": "Would it help to have the opening on a card? You could try it with just me first."
+    },
+    {
+      "id": "p07-a-16-s05",
+      "speaker": "Noor",
+      "text": "Maybe. I feel capable of explaining it in a conversation, just not to a room full of people."
+    },
+    {
+      "id": "p07-a-16-s06",
+      "speaker": "Jasper",
+      "text": "Then start as if you're explaining it to me. We only need to practise the opening today."
+    },
+    {
+      "id": "p07-a-16-s07",
+      "speaker": "Noor",
+      "text": "All right. I'll use my notes and try the first minute now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-45610de753206362",
+      "lemma": "challenging",
+      "pos": "adj.",
+      "sense_zh": "有挑战性的",
+      "sentence_ids": [
+        "p07-a-16-s01"
+      ],
+      "forms": [
+        "challenging"
+      ],
+      "sense_id": "sense-staged-ox-45610de753206362-p07-a-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0525266ef9966e17",
+      "lemma": "concentration",
+      "pos": "n.",
+      "sense_zh": "集中注意力",
+      "sentence_ids": [
+        "p07-a-16-s03"
+      ],
+      "forms": [
+        "concentration"
+      ],
+      "sense_id": "sense-staged-ox-0525266ef9966e17-p07-a-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0545af3976f5c1f8",
+      "lemma": "cope",
+      "pos": "v.",
+      "sense_zh": "应付困难情况",
+      "sentence_ids": [
+        "p07-a-16-s03"
+      ],
+      "forms": [
+        "cope"
+      ],
+      "sense_id": "sense-staged-ox-0545af3976f5c1f8-p07-a-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d5e1c3b25afed04c",
+      "lemma": "capable",
+      "pos": "adj.",
+      "sense_zh": "有能力的",
+      "sentence_ids": [
+        "p07-a-16-s05"
+      ],
+      "forms": [
+        "capable"
+      ],
+      "sense_id": "sense-staged-ox-d5e1c3b25afed04c-p07-a-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

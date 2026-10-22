@@ -1,0 +1,200 @@
+{
+  "id": "p07-c-01",
+  "title_zh": "了解大学电子制作入门工作坊的要求与费用",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "electronics-workshop-access-inquiry",
+    "label_zh": "了解大学电子制作入门工作坊的要求与费用",
+    "goal_zh": "核对入门工作坊的资格、设备和费用，并确定索取课程说明的下一步"
+  },
+  "participants": [
+    "Leila",
+    "Owen"
+  ],
+  "context_zh": "莱拉向大学工程学院工作人员询问向公众开放的周末工作坊。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-01-s01",
+      "speaker": "Leila",
+      "text": "I have an enquiry about the weekend electronics workshop. Is it open to people who are not students here?"
+    },
+    {
+      "id": "p07-c-01-s02",
+      "speaker": "Owen",
+      "text": "Yes. The faculty runs it for the local community as well as our own students."
+    },
+    {
+      "id": "p07-c-01-s03",
+      "speaker": "Leila",
+      "text": "My knowledge is fairly elementary. I can change a battery, but that is about it."
+    },
+    {
+      "id": "p07-c-01-s04",
+      "speaker": "Owen",
+      "text": "That is enough to start. We equip each table with a simple kit, and a tutor demonstrates every step."
+    },
+    {
+      "id": "p07-c-01-s05",
+      "speaker": "Leila",
+      "text": "Will the kit enable me to build something that actually works?"
+    },
+    {
+      "id": "p07-c-01-s06",
+      "speaker": "Owen",
+      "text": "You will make a small light. If you encounter a problem, the tutor can help you find it."
+    },
+    {
+      "id": "p07-c-01-s07",
+      "speaker": "Leila",
+      "text": "What is the fee, and do I need to buy any parts?"
+    },
+    {
+      "id": "p07-c-01-s08",
+      "speaker": "Owen",
+      "text": "It is twenty pounds, with all parts included. Shall I email you the course outline?"
+    },
+    {
+      "id": "p07-c-01-s09",
+      "speaker": "Leila",
+      "text": "Yes, please. I would like to read it before I register."
+    },
+    {
+      "id": "p07-c-01-s10",
+      "speaker": "Owen",
+      "text": "I will send it today. There is no need to reserve a place yet."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1c50bd1eea7143a4",
+      "lemma": "enquiry",
+      "pos": "n.",
+      "sense_zh": "询问，咨询",
+      "sentence_ids": [
+        "p07-c-01-s01"
+      ],
+      "forms": [
+        "enquiry"
+      ],
+      "sense_id": "sense-staged-ox-1c50bd1eea7143a4-p07-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9f5568e43176dd94",
+      "lemma": "electronics",
+      "pos": "n.",
+      "sense_zh": "电子技术",
+      "sentence_ids": [
+        "p07-c-01-s01"
+      ],
+      "forms": [
+        "electronics"
+      ],
+      "sense_id": "sense-staged-ox-9f5568e43176dd94-p07-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed0ae101497433d1",
+      "lemma": "faculty",
+      "pos": "n.",
+      "sense_zh": "大学的院系",
+      "sentence_ids": [
+        "p07-c-01-s02"
+      ],
+      "forms": [
+        "faculty"
+      ],
+      "sense_id": "sense-staged-ox-ed0ae101497433d1-p07-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-848e2b5790b95dc5",
+      "lemma": "elementary",
+      "pos": "adj.",
+      "sense_zh": "初级的，基础的",
+      "sentence_ids": [
+        "p07-c-01-s03"
+      ],
+      "forms": [
+        "elementary"
+      ],
+      "sense_id": "sense-staged-ox-848e2b5790b95dc5-p07-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c42f98815530ce4",
+      "lemma": "equip",
+      "pos": "v.",
+      "sense_zh": "配备所需设备",
+      "sentence_ids": [
+        "p07-c-01-s04"
+      ],
+      "forms": [
+        "equip"
+      ],
+      "sense_id": "sense-staged-ox-7c42f98815530ce4-p07-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6df54d27ce613834",
+      "lemma": "enable",
+      "pos": "v.",
+      "sense_zh": "使能够",
+      "sentence_ids": [
+        "p07-c-01-s05"
+      ],
+      "forms": [
+        "enable"
+      ],
+      "sense_id": "sense-staged-ox-6df54d27ce613834-p07-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1857674209feeb33",
+      "lemma": "encounter",
+      "pos": "v.",
+      "sense_zh": "遇到问题",
+      "sentence_ids": [
+        "p07-c-01-s06"
+      ],
+      "forms": [
+        "encounter"
+      ],
+      "sense_id": "sense-staged-ox-1857674209feeb33-p07-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d85f492f72a17ae4",
+      "lemma": "fee",
+      "pos": "n.",
+      "sense_zh": "报名费用",
+      "sentence_ids": [
+        "p07-c-01-s07"
+      ],
+      "forms": [
+        "fee"
+      ],
+      "sense_id": "sense-staged-ox-d85f492f72a17ae4-p07-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

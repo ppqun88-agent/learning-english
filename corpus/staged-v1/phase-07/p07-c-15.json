@@ -1,0 +1,84 @@
+{
+  "id": "p07-c-15",
+  "title_zh": "确定火山模型演示的观察重点",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "volcano-model-observation-plan",
+    "label_zh": "确定火山模型演示的观察重点",
+    "goal_zh": "商定先观看演示再重播，分别记录物质出现和喷发的时刻"
+  },
+  "participants": [
+    "Jasper",
+    "Alina"
+  ],
+  "context_zh": "两名学生在科学馆观看数字火山模型，准备课堂观察记录。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-15-s01",
+      "speaker": "Jasper",
+      "text": "Does this model show what happens before a volcano starts to erupt?"
+    },
+    {
+      "id": "p07-c-15-s02",
+      "speaker": "Alina",
+      "text": "Yes. Watch the crack on the left. You can see red material begin to emerge there."
+    },
+    {
+      "id": "p07-c-15-s03",
+      "speaker": "Jasper",
+      "text": "I missed the change because I was writing. Can we watch it once without taking notes?"
+    },
+    {
+      "id": "p07-c-15-s04",
+      "speaker": "Alina",
+      "text": "Good idea. Then we can replay it and record when the material first appears and when the main eruption begins."
+    },
+    {
+      "id": "p07-c-15-s05",
+      "speaker": "Jasper",
+      "text": "Let us do that. We should describe what the model shows, not pretend we observed a real volcano."
+    },
+    {
+      "id": "p07-c-15-s06",
+      "speaker": "Alina",
+      "text": "Agreed. I will put the name of the model at the top of our notes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-976bee6de4f3ed30",
+      "lemma": "erupt",
+      "pos": "v.",
+      "sense_zh": "火山喷发",
+      "sentence_ids": [
+        "p07-c-15-s01"
+      ],
+      "forms": [
+        "erupt"
+      ],
+      "sense_id": "sense-staged-ox-976bee6de4f3ed30-p07-c-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-29a20d53bd861fdf",
+      "lemma": "emerge",
+      "pos": "v.",
+      "sense_zh": "出现，显露出来",
+      "sentence_ids": [
+        "p07-c-15-s02"
+      ],
+      "forms": [
+        "emerge"
+      ],
+      "sense_id": "sense-staged-ox-29a20d53bd861fdf-p07-c-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

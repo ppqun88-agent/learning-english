@@ -1,0 +1,126 @@
+{
+  "id": "p07-b-03",
+  "title_zh": "核对面包配料后买一打并补齐零钱",
+  "topic_id": "food",
+  "scenario": {
+    "id": "bakery-roll-quantity-order",
+    "label_zh": "在面包店核对配料与数量后付款",
+    "goal_zh": "核对面包配料与单价，确定数量并补齐零钱"
+  },
+  "participants": [
+    "June",
+    "Marco"
+  ],
+  "context_zh": "顾客琼在一家虚构美国面包店的柜台购买面包卷。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-03-s01",
+      "speaker": "June",
+      "text": "Are these rolls made with any dairy ingredients? I'm buying them for someone who avoids milk."
+    },
+    {
+      "id": "p07-b-03-s02",
+      "speaker": "Marco",
+      "text": "The plain ones aren't, according to our ingredient sheet. Would you like to read it here at the counter?"
+    },
+    {
+      "id": "p07-b-03-s03",
+      "speaker": "June",
+      "text": "Yes, thanks. This looks suitable. How much are the plain rolls?"
+    },
+    {
+      "id": "p07-b-03-s04",
+      "speaker": "Marco",
+      "text": "Fifty cents each, or six dollars for twelve."
+    },
+    {
+      "id": "p07-b-03-s05",
+      "speaker": "June",
+      "text": "I'll take a dozen, please. Here's five dollars and ninety cents."
+    },
+    {
+      "id": "p07-b-03-s06",
+      "speaker": "Marco",
+      "text": "You're ten cents short."
+    },
+    {
+      "id": "p07-b-03-s07",
+      "speaker": "June",
+      "text": "I've got a dime in this pocket. Here you go."
+    },
+    {
+      "id": "p07-b-03-s08",
+      "speaker": "Marco",
+      "text": "Thank you. That's six dollars exactly, and your twelve rolls are in this bag."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-99f6c6cf7930be49",
+      "lemma": "dairy",
+      "pos": "adj.",
+      "sense_zh": "含乳制品的；乳制品的",
+      "sentence_ids": [
+        "p07-b-03-s01"
+      ],
+      "forms": [
+        "dairy"
+      ],
+      "sense_id": "sense-staged-ox-99f6c6cf7930be49-p07-b-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e774647c9c66bdc0",
+      "lemma": "counter",
+      "pos": "n.",
+      "sense_zh": "商店柜台",
+      "sentence_ids": [
+        "p07-b-03-s02"
+      ],
+      "forms": [
+        "counter"
+      ],
+      "sense_id": "sense-staged-ox-e774647c9c66bdc0-p07-b-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ad98399efce1d176",
+      "lemma": "dozen",
+      "pos": "n.",
+      "sense_zh": "一打；十二个",
+      "sentence_ids": [
+        "p07-b-03-s05"
+      ],
+      "forms": [
+        "dozen"
+      ],
+      "sense_id": "sense-staged-ox-ad98399efce1d176-p07-b-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e03c1ed55f3b33e0",
+      "lemma": "dime",
+      "pos": "n.",
+      "sense_zh": "美国或加拿大的十分硬币",
+      "sentence_ids": [
+        "p07-b-03-s07"
+      ],
+      "forms": [
+        "dime"
+      ],
+      "sense_id": "sense-staged-ox-e03c1ed55f3b33e0-p07-b-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

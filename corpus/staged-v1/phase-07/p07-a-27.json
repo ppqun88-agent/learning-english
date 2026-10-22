@@ -1,0 +1,84 @@
+{
+  "id": "p07-a-27",
+  "title_zh": "按证据修订古城展品说明",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "ancient-city-exhibit-label-check",
+    "label_zh": "限定古城器物说明的证据范围",
+    "goal_zh": "根据目录资料保留器物发现地点，删除未经证实的普遍饮食结论并补充出处编号"
+  },
+  "participants": [
+    "Yara",
+    "Hugh"
+  ],
+  "context_zh": "两名博物馆教育志愿者核对虚构古城展品的说明，不把单件器物代表为整个文明。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-27-s01",
+      "speaker": "Yara",
+      "text": "This label says the bowl shows what everyone in the civilization ate. Isn't that too much to claim from one object?"
+    },
+    {
+      "id": "p07-a-27-s02",
+      "speaker": "Hugh",
+      "text": "Yes. The catalogue only says bowls of this shape are commonly found in houses in the excavated district."
+    },
+    {
+      "id": "p07-a-27-s03",
+      "speaker": "Yara",
+      "text": "Does it tell us what was served in them?"
+    },
+    {
+      "id": "p07-a-27-s04",
+      "speaker": "Hugh",
+      "text": "Not for this bowl. The contents haven't been identified."
+    },
+    {
+      "id": "p07-a-27-s05",
+      "speaker": "Yara",
+      "text": "Then I'll describe where this type was found and remove the claim about everyone's diet."
+    },
+    {
+      "id": "p07-a-27-s06",
+      "speaker": "Hugh",
+      "text": "Good. Include the catalogue number so visitors can trace the information."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cab8ea1ff384d2cc",
+      "lemma": "civilization",
+      "pos": "n.",
+      "sense_zh": "特定社会的文明",
+      "sentence_ids": [
+        "p07-a-27-s01"
+      ],
+      "forms": [
+        "civilization"
+      ],
+      "sense_id": "sense-staged-ox-cab8ea1ff384d2cc-p07-a-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-97e13d8da42259b7",
+      "lemma": "commonly",
+      "pos": "adv.",
+      "sense_zh": "通常或普遍地",
+      "sentence_ids": [
+        "p07-a-27-s02"
+      ],
+      "forms": [
+        "commonly"
+      ],
+      "sense_id": "sense-staged-ox-97e13d8da42259b7-p07-a-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

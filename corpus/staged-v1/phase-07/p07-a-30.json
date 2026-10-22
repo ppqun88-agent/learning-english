@@ -1,0 +1,68 @@
+{
+  "id": "p07-a-30",
+  "title_zh": "确认婚礼邀请和轻松着装要求",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "wedding-guest-invitation",
+    "label_zh": "确认婚礼邀请安排",
+    "goal_zh": "邀请朋友及其伴侣参加婚礼并澄清着装要求"
+  },
+  "participants": [
+    "Sofia",
+    "Eli"
+  ],
+  "context_zh": "即将结婚的人向朋友确认邀请范围和着装要求。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-30-s01",
+      "speaker": "Sofia",
+      "text": "I'd love you to come to the wedding, and please bring your partner too."
+    },
+    {
+      "id": "p07-a-30-s02",
+      "speaker": "Eli",
+      "text": "Thank you. We'd both like to come. Is there a dress code?"
+    },
+    {
+      "id": "p07-a-30-s03",
+      "speaker": "Sofia",
+      "text": "It's a casual wedding in the garden. You don't need a suit or a tie."
+    },
+    {
+      "id": "p07-a-30-s04",
+      "speaker": "Eli",
+      "text": "Would a shirt and clean trainers be all right?"
+    },
+    {
+      "id": "p07-a-30-s05",
+      "speaker": "Sofia",
+      "text": "Absolutely. Wear something you can sit and walk in comfortably."
+    },
+    {
+      "id": "p07-a-30-s06",
+      "speaker": "Eli",
+      "text": "Lovely. I'll reply for both of us tonight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dda242872b8e1dd1",
+      "lemma": "casual",
+      "pos": "adj.",
+      "sense_zh": "不拘正式礼仪、轻松随意的",
+      "sentence_ids": [
+        "p07-a-30-s03"
+      ],
+      "forms": [
+        "casual"
+      ],
+      "sense_id": "sense-staged-ox-dda242872b8e1dd1-p07-a-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

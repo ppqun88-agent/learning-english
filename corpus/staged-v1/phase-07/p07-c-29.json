@@ -1,0 +1,94 @@
+{
+  "id": "p07-c-29",
+  "title_zh": "核对假退款信息并改用学校官方渠道",
+  "topic_id": "services",
+  "scenario": {
+    "id": "suspicious-course-refund-message-check",
+    "label_zh": "核对假退款信息并改用学校官方渠道",
+    "goal_zh": "核对退款消息真伪，避免使用消息中的链接并约定通过官方渠道查询和报告"
+  },
+  "participants": [
+    "Omar",
+    "Lucia"
+  ],
+  "context_zh": "学员拨打报名信上印的学校电话，询问收到的可疑退款消息；学校为虚构机构。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-29-s01",
+      "speaker": "Omar",
+      "text": "I received a text saying my course has been cancelled and I need to enter my card details for a refund."
+    },
+    {
+      "id": "p07-c-29-s02",
+      "speaker": "Lucia",
+      "text": "That message is fake. Your course is running, and our office has not sent any refund texts."
+    },
+    {
+      "id": "p07-c-29-s03",
+      "speaker": "Omar",
+      "text": "I have not opened the link. I called the number on my enrolment letter instead."
+    },
+    {
+      "id": "p07-c-29-s04",
+      "speaker": "Lucia",
+      "text": "That was sensible. We can record it as suspected fraud without you giving us any card details."
+    },
+    {
+      "id": "p07-c-29-s05",
+      "speaker": "Omar",
+      "text": "Where should I check for real changes to the course?"
+    },
+    {
+      "id": "p07-c-29-s06",
+      "speaker": "Lucia",
+      "text": "Use the student portal you normally sign in to. Any cancellation notice would appear there as well."
+    },
+    {
+      "id": "p07-c-29-s07",
+      "speaker": "Omar",
+      "text": "I will check that and leave the text link alone. Can you send me the official reporting instructions through the portal?"
+    },
+    {
+      "id": "p07-c-29-s08",
+      "speaker": "Lucia",
+      "text": "Yes. I will send them there so you do not need to follow a link from the text."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-961b858f1dbfc4d5",
+      "lemma": "fake",
+      "pos": "adj.",
+      "sense_zh": "伪造的，假的",
+      "sentence_ids": [
+        "p07-c-29-s02"
+      ],
+      "forms": [
+        "fake"
+      ],
+      "sense_id": "sense-staged-ox-961b858f1dbfc4d5-p07-c-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66e76d2ab2e68571",
+      "lemma": "fraud",
+      "pos": "n.",
+      "sense_zh": "欺诈行为",
+      "sentence_ids": [
+        "p07-c-29-s04"
+      ],
+      "forms": [
+        "fraud"
+      ],
+      "sense_id": "sense-staged-ox-66e76d2ab2e68571-p07-c-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

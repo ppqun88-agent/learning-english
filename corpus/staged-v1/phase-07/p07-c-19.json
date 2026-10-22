@@ -1,0 +1,126 @@
+{
+  "id": "p07-c-19",
+  "title_zh": "根据失败原型的测试记录决定先查传感器",
+  "topic_id": "work",
+  "scenario": {
+    "id": "prototype-failure-test-review",
+    "label_zh": "根据失败原型的测试记录决定先查传感器",
+    "goal_zh": "区分已测试项目和未测试条件，约定单独检查传感器后再改动原型"
+  },
+  "participants": [
+    "Niko",
+    "Faye"
+  ],
+  "context_zh": "两名产品开发同事复盘未能完成演示的原型。",
+  "author": "author-phase07-c",
+  "sentences": [
+    {
+      "id": "p07-c-19-s01",
+      "speaker": "Niko",
+      "text": "Are we keeping the failed prototype, or should I clear the bench?"
+    },
+    {
+      "id": "p07-c-19-s02",
+      "speaker": "Faye",
+      "text": "Keep it. We need to understand the failure before we change anything."
+    },
+    {
+      "id": "p07-c-19-s03",
+      "speaker": "Niko",
+      "text": "I tested the motor extensively, so I assumed the whole system would work."
+    },
+    {
+      "id": "p07-c-19-s04",
+      "speaker": "Faye",
+      "text": "But the log shows the sensor stopped sending data when the room got dark. Did we test that condition?"
+    },
+    {
+      "id": "p07-c-19-s05",
+      "speaker": "Niko",
+      "text": "No. All my tests were under the work lamp."
+    },
+    {
+      "id": "p07-c-19-s06",
+      "speaker": "Faye",
+      "text": "Then we can still gain something useful from this. Let us test the sensor separately in different light levels."
+    },
+    {
+      "id": "p07-c-19-s07",
+      "speaker": "Niko",
+      "text": "I will set that up and keep the original wiring unchanged."
+    },
+    {
+      "id": "p07-c-19-s08",
+      "speaker": "Faye",
+      "text": "Good. We can decide what to change after we have those results."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ecd30d51995cc4a3",
+      "lemma": "failed",
+      "pos": "adj.",
+      "sense_zh": "未成功的，失败的",
+      "sentence_ids": [
+        "p07-c-19-s01"
+      ],
+      "forms": [
+        "failed"
+      ],
+      "sense_id": "sense-staged-ox-ecd30d51995cc4a3-p07-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7ef01f14bdd3460f",
+      "lemma": "failure",
+      "pos": "n.",
+      "sense_zh": "失败，未达到预期结果",
+      "sentence_ids": [
+        "p07-c-19-s02"
+      ],
+      "forms": [
+        "failure"
+      ],
+      "sense_id": "sense-staged-ox-7ef01f14bdd3460f-p07-c-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-49e09145180ad64a",
+      "lemma": "extensively",
+      "pos": "adv.",
+      "sense_zh": "广泛而充分地",
+      "sentence_ids": [
+        "p07-c-19-s03"
+      ],
+      "forms": [
+        "extensively"
+      ],
+      "sense_id": "sense-staged-ox-49e09145180ad64a-p07-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d8ae1e296cd3aeef",
+      "lemma": "gain",
+      "pos": "v.",
+      "sense_zh": "获得有用的东西",
+      "sentence_ids": [
+        "p07-c-19-s06"
+      ],
+      "forms": [
+        "gain"
+      ],
+      "sense_id": "sense-staged-ox-d8ae1e296cd3aeef-p07-c-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

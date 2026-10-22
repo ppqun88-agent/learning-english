@@ -1,0 +1,121 @@
+{
+  "id": "p07-a-14",
+  "title_zh": "理清悬疑剧角色的追查动机再重排",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "mystery-scene-rehearsal",
+    "label_zh": "排练悬疑剧片段",
+    "goal_zh": "澄清虚构案件的角色关系并确定继续排练的位置。"
+  },
+  "participants": [
+    "Zoe",
+    "Cal"
+  ],
+  "context_zh": "两名业余演员核对虚构悬疑剧中警察和记者的关系，并准备从关键台词重新排练。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-14-s01",
+      "speaker": "Zoe",
+      "text": "Why does your character chase mine out of the café? I thought they were working together."
+    },
+    {
+      "id": "p07-a-14-s02",
+      "speaker": "Cal",
+      "text": "They were, but the cop now thinks the reporter is part of the conspiracy."
+    },
+    {
+      "id": "p07-a-14-s03",
+      "speaker": "Zoe",
+      "text": "Does he want to capture her, or just get the envelope back?"
+    },
+    {
+      "id": "p07-a-14-s04",
+      "speaker": "Cal",
+      "text": "Only the envelope at this point. He hasn't realised she's trying to protect his witness."
+    },
+    {
+      "id": "p07-a-14-s05",
+      "speaker": "Zoe",
+      "text": "That changes how I play the scene. I should look hurt, not frightened of being arrested."
+    },
+    {
+      "id": "p07-a-14-s06",
+      "speaker": "Cal",
+      "text": "Exactly. Let's go back to your line about what was in the envelope."
+    },
+    {
+      "id": "p07-a-14-s07",
+      "speaker": "Zoe",
+      "text": "Ready. 'If you trusted me, you'd let me explain what was in that envelope.'"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ed291fb6b1bca06b",
+      "lemma": "chase",
+      "pos": "v.",
+      "sense_zh": "追赶",
+      "sentence_ids": [
+        "p07-a-14-s01"
+      ],
+      "forms": [
+        "chase"
+      ],
+      "sense_id": "sense-staged-ox-ed291fb6b1bca06b-p07-a-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-709fdd38722b904e",
+      "lemma": "cop",
+      "pos": "n.",
+      "sense_zh": "警察的非正式称呼",
+      "sentence_ids": [
+        "p07-a-14-s02"
+      ],
+      "forms": [
+        "cop"
+      ],
+      "sense_id": "sense-staged-ox-709fdd38722b904e-p07-a-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ceb60334d1318287",
+      "lemma": "conspiracy",
+      "pos": "n.",
+      "sense_zh": "秘密合谋的阴谋",
+      "sentence_ids": [
+        "p07-a-14-s02"
+      ],
+      "forms": [
+        "conspiracy"
+      ],
+      "sense_id": "sense-staged-ox-ceb60334d1318287-p07-a-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3094d4b6e165b2e",
+      "lemma": "capture",
+      "pos": "v.",
+      "sense_zh": "抓住并控制某人",
+      "sentence_ids": [
+        "p07-a-14-s03"
+      ],
+      "forms": [
+        "capture"
+      ],
+      "sense_id": "sense-staged-ox-e3094d4b6e165b2e-p07-a-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

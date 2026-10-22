@@ -1,0 +1,152 @@
+{
+  "id": "p07-b-14",
+  "title_zh": "了解河轮出发与订金要求后先索取条款",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "river-cruise-deposit-inquiry",
+    "label_zh": "核对河轮行程与订金后索取条款",
+    "goal_zh": "了解出发安排与交通限制并请求书面条款后再决定预订"
+  },
+  "participants": [
+    "Clara",
+    "Simon"
+  ],
+  "context_zh": "旅客克拉拉向虚构旅行社询问河轮旅行；报价与条件仅用于语言练习。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-14-s01",
+      "speaker": "Clara",
+      "text": "I'm interested in the four-night river cruise. When does the boat depart?"
+    },
+    {
+      "id": "p07-b-14-s02",
+      "speaker": "Simon",
+      "text": "At five on Monday afternoon. Passengers need to be on board by four."
+    },
+    {
+      "id": "p07-b-14-s03",
+      "speaker": "Clara",
+      "text": "My domestic flight arrives at three. That sounds too close."
+    },
+    {
+      "id": "p07-b-14-s04",
+      "speaker": "Simon",
+      "text": "I agree. You could arrive the previous day, but you'd need to arrange that separately."
+    },
+    {
+      "id": "p07-b-14-s05",
+      "speaker": "Clara",
+      "text": "Can passengers sit outside on the deck?"
+    },
+    {
+      "id": "p07-b-14-s06",
+      "speaker": "Simon",
+      "text": "Yes, when it's open. There's an indoor lounge as well."
+    },
+    {
+      "id": "p07-b-14-s07",
+      "speaker": "Clara",
+      "text": "How much is the deposit, and what happens if I cancel?"
+    },
+    {
+      "id": "p07-b-14-s08",
+      "speaker": "Simon",
+      "text": "The deposit is a hundred pounds per person. The refund conditions depend on when you cancel, so I'll send the full terms rather than summarize them from memory."
+    },
+    {
+      "id": "p07-b-14-s09",
+      "speaker": "Clara",
+      "text": "Please do. I'll check the flights and read the terms before deciding whether to book."
+    },
+    {
+      "id": "p07-b-14-s10",
+      "speaker": "Simon",
+      "text": "Certainly. Nothing has been reserved or charged."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-86b0af8c902a2c73",
+      "lemma": "cruise",
+      "pos": "n.",
+      "sense_zh": "乘船度假或游览的旅行",
+      "sentence_ids": [
+        "p07-b-14-s01"
+      ],
+      "forms": [
+        "cruise"
+      ],
+      "sense_id": "sense-staged-ox-86b0af8c902a2c73-p07-b-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-89cb55e5b2846a58",
+      "lemma": "depart",
+      "pos": "v.",
+      "sense_zh": "出发；离开",
+      "sentence_ids": [
+        "p07-b-14-s01"
+      ],
+      "forms": [
+        "depart"
+      ],
+      "sense_id": "sense-staged-ox-89cb55e5b2846a58-p07-b-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4e8a00f7e157765b",
+      "lemma": "domestic",
+      "pos": "adj.",
+      "sense_zh": "国内的",
+      "sentence_ids": [
+        "p07-b-14-s03"
+      ],
+      "forms": [
+        "domestic"
+      ],
+      "sense_id": "sense-staged-ox-4e8a00f7e157765b-p07-b-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e8c14075b1b5bfc7",
+      "lemma": "deck",
+      "pos": "n.",
+      "sense_zh": "船的甲板",
+      "sentence_ids": [
+        "p07-b-14-s05"
+      ],
+      "forms": [
+        "deck"
+      ],
+      "sense_id": "sense-staged-ox-e8c14075b1b5bfc7-p07-b-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17c191b6cd2a2536",
+      "lemma": "deposit",
+      "pos": "n.",
+      "sense_zh": "预付订金",
+      "sentence_ids": [
+        "p07-b-14-s07"
+      ],
+      "forms": [
+        "deposit"
+      ],
+      "sense_id": "sense-staged-ox-17c191b6cd2a2536-p07-b-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

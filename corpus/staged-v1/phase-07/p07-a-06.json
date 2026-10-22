@@ -1,0 +1,137 @@
+{
+  "id": "p07-a-06",
+  "title_zh": "分工准备蘑菇意面和生菜沙拉",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-dinner-preparation",
+    "label_zh": "分工准备晚饭",
+    "goal_zh": "商定晚餐分工、菜品和份量"
+  },
+  "participants": [
+    "Ben",
+    "Iris"
+  ],
+  "context_zh": "室友使用现有食材准备两人的晚餐，并商量桌面布置。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-06-s01",
+      "speaker": "Ben",
+      "text": "We've got mushrooms and a bunch of parsley. Shall we make pasta for the two of us?"
+    },
+    {
+      "id": "p07-a-06-s02",
+      "speaker": "Iris",
+      "text": "Yes. Mushrooms and parsley are a good combination. I'll start the sauce if you chop the herbs."
+    },
+    {
+      "id": "p07-a-06-s03",
+      "speaker": "Ben",
+      "text": "What about these salad leaves? I tried one, and it's quite bitter."
+    },
+    {
+      "id": "p07-a-06-s04",
+      "speaker": "Iris",
+      "text": "Let's use a few with the mild lettuce, rather than making the whole salad from them."
+    },
+    {
+      "id": "p07-a-06-s05",
+      "speaker": "Ben",
+      "text": "Good idea. I'll make enough salad for two and put the rest of the lettuce away."
+    },
+    {
+      "id": "p07-a-06-s06",
+      "speaker": "Iris",
+      "text": "I'll set the table while the sauce cooks. Can we use that little candle in its glass holder?"
+    },
+    {
+      "id": "p07-a-06-s07",
+      "speaker": "Ben",
+      "text": "Of course. I'll put it in the middle once I've finished chopping."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-452ca81191236e1e",
+      "lemma": "bunch",
+      "pos": "n.",
+      "sense_zh": "一束或一把聚在一起的食材",
+      "sentence_ids": [
+        "p07-a-06-s01"
+      ],
+      "forms": [
+        "bunch"
+      ],
+      "sense_id": "sense-staged-ox-452ca81191236e1e-p07-a-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ecc96bd241d8108",
+      "lemma": "combination",
+      "pos": "n.",
+      "sense_zh": "搭配组合",
+      "sentence_ids": [
+        "p07-a-06-s02"
+      ],
+      "forms": [
+        "combination"
+      ],
+      "sense_id": "sense-staged-ox-0ecc96bd241d8108-p07-a-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-146b2421592e317a",
+      "lemma": "chop",
+      "pos": "v.",
+      "sense_zh": "切碎",
+      "sentence_ids": [
+        "p07-a-06-s02"
+      ],
+      "forms": [
+        "chop"
+      ],
+      "sense_id": "sense-staged-ox-146b2421592e317a-p07-a-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d73704bc54dc1765",
+      "lemma": "bitter",
+      "pos": "adj.",
+      "sense_zh": "味苦的",
+      "sentence_ids": [
+        "p07-a-06-s03"
+      ],
+      "forms": [
+        "bitter"
+      ],
+      "sense_id": "sense-staged-ox-d73704bc54dc1765-p07-a-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10f47fc8f3529f11",
+      "lemma": "candle",
+      "pos": "n.",
+      "sense_zh": "蜡烛",
+      "sentence_ids": [
+        "p07-a-06-s06"
+      ],
+      "forms": [
+        "candle"
+      ],
+      "sense_id": "sense-staged-ox-10f47fc8f3529f11-p07-a-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

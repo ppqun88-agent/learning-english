@@ -1,0 +1,153 @@
+{
+  "id": "p07-a-05",
+  "title_zh": "先拍摄园中昆虫再请专家辨认",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "garden-insect-photo-identification",
+    "label_zh": "记录待辨认的花园昆虫",
+    "goal_zh": "描述昆虫可见特征，决定暂记为未辨认昆虫并补充原位照片和地点"
+  },
+  "participants": [
+    "Mae",
+    "Dev"
+  ],
+  "context_zh": "志愿者在社区花园做生物调查记录，遇到无法确定种类的昆虫。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-05-s01",
+      "speaker": "Mae",
+      "text": "There's a tiny bug on that bush. Should I put it on the survey sheet?"
+    },
+    {
+      "id": "p07-a-05-s02",
+      "speaker": "Dev",
+      "text": "Yes, but don't guess its name. This is a biological survey, so an uncertain record needs to be marked as uncertain."
+    },
+    {
+      "id": "p07-a-05-s03",
+      "speaker": "Mae",
+      "text": "If I look closely, I can see two pale spots on its back."
+    },
+    {
+      "id": "p07-a-05-s04",
+      "speaker": "Dev",
+      "text": "That may be a useful characteristic, but a photograph would help the specialist more."
+    },
+    {
+      "id": "p07-a-05-s05",
+      "speaker": "Mae",
+      "text": "Should we classify it as a beetle for now?"
+    },
+    {
+      "id": "p07-a-05-s06",
+      "speaker": "Dev",
+      "text": "Not until we're sure. Put it under unidentified insects and attach the photo."
+    },
+    {
+      "id": "p07-a-05-s07",
+      "speaker": "Mae",
+      "text": "All right. I'll photograph it where it is and record the location."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f2462627a536234e",
+      "lemma": "bug",
+      "pos": "n.",
+      "sense_zh": "小昆虫的非正式称呼",
+      "sentence_ids": [
+        "p07-a-05-s01"
+      ],
+      "forms": [
+        "bug"
+      ],
+      "sense_id": "sense-staged-ox-f2462627a536234e-p07-a-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e1d5be2a5b313844",
+      "lemma": "bush",
+      "pos": "n.",
+      "sense_zh": "灌木",
+      "sentence_ids": [
+        "p07-a-05-s01"
+      ],
+      "forms": [
+        "bush"
+      ],
+      "sense_id": "sense-staged-ox-e1d5be2a5b313844-p07-a-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a96e975935a5a33",
+      "lemma": "biological",
+      "pos": "adj.",
+      "sense_zh": "与生物有关的",
+      "sentence_ids": [
+        "p07-a-05-s02"
+      ],
+      "forms": [
+        "biological"
+      ],
+      "sense_id": "sense-staged-ox-7a96e975935a5a33-p07-a-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-462aa436e50db258",
+      "lemma": "closely",
+      "pos": "adv.",
+      "sense_zh": "仔细地",
+      "sentence_ids": [
+        "p07-a-05-s03"
+      ],
+      "forms": [
+        "closely"
+      ],
+      "sense_id": "sense-staged-ox-462aa436e50db258-p07-a-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60fd130b48a70c29",
+      "lemma": "characteristic",
+      "pos": "n.",
+      "sense_zh": "可用来辨认的特征",
+      "sentence_ids": [
+        "p07-a-05-s04"
+      ],
+      "forms": [
+        "characteristic"
+      ],
+      "sense_id": "sense-staged-ox-60fd130b48a70c29-p07-a-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2972545e49f5c4e0",
+      "lemma": "classify",
+      "pos": "v.",
+      "sense_zh": "归入类别",
+      "sentence_ids": [
+        "p07-a-05-s05"
+      ],
+      "forms": [
+        "classify"
+      ],
+      "sense_id": "sense-staged-ox-2972545e49f5c4e0-p07-a-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

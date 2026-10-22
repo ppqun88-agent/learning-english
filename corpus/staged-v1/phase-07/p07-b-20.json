@@ -1,0 +1,126 @@
+{
+  "id": "p07-b-20",
+  "title_zh": "先对照原始记录再判断报告差错",
+  "topic_id": "work",
+  "scenario": {
+    "id": "report-error-fair-check",
+    "label_zh": "先核查报告差错再判断责任",
+    "goal_zh": "区分失误与故意行为，并约定对照原始记录核查"
+  },
+  "participants": [
+    "Zoe",
+    "Martin"
+  ],
+  "context_zh": "两名同事发现内部报告数字不符，讨论如何公平查证，而不是未经证实给人定性。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-20-s01",
+      "speaker": "Zoe",
+      "text": "The totals in this report don't match the invoices. Do you think the change was deliberate?"
+    },
+    {
+      "id": "p07-b-20-s02",
+      "speaker": "Martin",
+      "text": "I don't know. Calling someone dishonest before we check the records would be unfair."
+    },
+    {
+      "id": "p07-b-20-s03",
+      "speaker": "Zoe",
+      "text": "But we can't just dismiss the difference as a typing error."
+    },
+    {
+      "id": "p07-b-20-s04",
+      "speaker": "Martin",
+      "text": "I agree. I don't deny that it's a serious problem. I only question whether we know the cause."
+    },
+    {
+      "id": "p07-b-20-s05",
+      "speaker": "Zoe",
+      "text": "Then let's compare the original spreadsheet with the version used for the report."
+    },
+    {
+      "id": "p07-b-20-s06",
+      "speaker": "Martin",
+      "text": "I'll collect the invoices. Could you ask which version the figures came from?"
+    },
+    {
+      "id": "p07-b-20-s07",
+      "speaker": "Zoe",
+      "text": "Yes. I'll ask about the process, without accusing anyone of changing the numbers on purpose."
+    },
+    {
+      "id": "p07-b-20-s08",
+      "speaker": "Martin",
+      "text": "Once we've checked, we can correct the report and explain what happened."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0364df215a8408f2",
+      "lemma": "deliberate",
+      "pos": "adj.",
+      "sense_zh": "故意的；有意为之的",
+      "sentence_ids": [
+        "p07-b-20-s01"
+      ],
+      "forms": [
+        "deliberate"
+      ],
+      "sense_id": "sense-staged-ox-0364df215a8408f2-p07-b-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-552b84609c365b15",
+      "lemma": "dishonest",
+      "pos": "adj.",
+      "sense_zh": "不诚实的",
+      "sentence_ids": [
+        "p07-b-20-s02"
+      ],
+      "forms": [
+        "dishonest"
+      ],
+      "sense_id": "sense-staged-ox-552b84609c365b15-p07-b-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-53484c74e46a4112",
+      "lemma": "dismiss",
+      "pos": "v.",
+      "sense_zh": "不予认真考虑；轻率排除",
+      "sentence_ids": [
+        "p07-b-20-s03"
+      ],
+      "forms": [
+        "dismiss"
+      ],
+      "sense_id": "sense-staged-ox-53484c74e46a4112-p07-b-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcb6042e5229ba7d",
+      "lemma": "deny",
+      "pos": "v.",
+      "sense_zh": "否认某事属实",
+      "sentence_ids": [
+        "p07-b-20-s04"
+      ],
+      "forms": [
+        "deny"
+      ],
+      "sense_id": "sense-staged-ox-bcb6042e5229ba7d-p07-b-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

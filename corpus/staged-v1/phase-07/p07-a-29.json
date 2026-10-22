@@ -1,0 +1,68 @@
+{
+  "id": "p07-a-29",
+  "title_zh": "先记录一周家用电量再比较",
+  "topic_id": "home",
+  "scenario": {
+    "id": "household-energy-trial-plan",
+    "label_zh": "安排家庭用电观察记录",
+    "goal_zh": "承认账单不能单独说明耗电原因，约定一周定时记录电表和取暖使用情况"
+  },
+  "participants": [
+    "Demi",
+    "Paul"
+  ],
+  "context_zh": "合租室友看到用电量上升，商量如何先收集可比较的记录而不猜测原因。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-29-s01",
+      "speaker": "Demi",
+      "text": "Our electricity consumption went up last month. Do you think the new heater caused it?"
+    },
+    {
+      "id": "p07-a-29-s02",
+      "speaker": "Paul",
+      "text": "It might have contributed, but we were both home more often too."
+    },
+    {
+      "id": "p07-a-29-s03",
+      "speaker": "Demi",
+      "text": "Then the bill alone won't tell us which change mattered most."
+    },
+    {
+      "id": "p07-a-29-s04",
+      "speaker": "Paul",
+      "text": "Let's record the meter reading at the same time each evening for a week, along with when the heater is on."
+    },
+    {
+      "id": "p07-a-29-s05",
+      "speaker": "Demi",
+      "text": "I'll make a shared note. We can look at the pattern before deciding what to change."
+    },
+    {
+      "id": "p07-a-29-s06",
+      "speaker": "Paul",
+      "text": "Agreed. I'll take the first reading tonight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7940ddd84d0b8a33",
+      "lemma": "consumption",
+      "pos": "n.",
+      "sense_zh": "能源消耗量",
+      "sentence_ids": [
+        "p07-a-29-s01"
+      ],
+      "forms": [
+        "consumption"
+      ],
+      "sense_id": "sense-staged-ox-7940ddd84d0b8a33-p07-a-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

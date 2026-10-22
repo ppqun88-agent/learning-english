@@ -1,0 +1,158 @@
+{
+  "id": "p07-b-13",
+  "title_zh": "缩小活动预约系统的首版交付范围",
+  "topic_id": "work",
+  "scenario": {
+    "id": "project-delivery",
+    "label_zh": "协调项目交付",
+    "goal_zh": "澄清依赖、范围、风险与承诺"
+  },
+  "participants": [
+    "Elise",
+    "Tariq"
+  ],
+  "context_zh": "虚构项目团队面对新增需求，协调活动预约系统的首版交付。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-13-s01",
+      "speaker": "Elise",
+      "text": "Demand for the new booking system is higher than we expected. Can we add group bookings before Friday's delivery?"
+    },
+    {
+      "id": "p07-b-13-s02",
+      "speaker": "Tariq",
+      "text": "That feature is dependent on a payment update we don't control. We can't promise it for Friday."
+    },
+    {
+      "id": "p07-b-13-s03",
+      "speaker": "Elise",
+      "text": "Individual bookings are crucial for the event launch. Could we release those first?"
+    },
+    {
+      "id": "p07-b-13-s04",
+      "speaker": "Tariq",
+      "text": "Yes. The most efficient approach is to test that smaller version thoroughly instead of adding an unfinished feature."
+    },
+    {
+      "id": "p07-b-13-s05",
+      "speaker": "Elise",
+      "text": "Would one shared test sheet help the team work more efficiently? We keep repeating the same checks."
+    },
+    {
+      "id": "p07-b-13-s06",
+      "speaker": "Tariq",
+      "text": "It would. I'll assign each test once and record any failures there."
+    },
+    {
+      "id": "p07-b-13-s07",
+      "speaker": "Elise",
+      "text": "Then Friday's version will handle individual bookings only. I'll tell the organisers that group bookings have no confirmed date."
+    },
+    {
+      "id": "p07-b-13-s08",
+      "speaker": "Tariq",
+      "text": "Agreed. I'll flag any test failure that threatens even that smaller delivery."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ea40fbfaa2967d1d",
+      "lemma": "demand",
+      "pos": "n.",
+      "sense_zh": "对产品或服务的需求",
+      "sentence_ids": [
+        "p07-b-13-s01"
+      ],
+      "forms": [
+        "demand"
+      ],
+      "sense_id": "sense-staged-ox-ea40fbfaa2967d1d-p07-b-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-33bb5cca2d2d9add",
+      "lemma": "delivery",
+      "pos": "n.",
+      "sense_zh": "项目成果的交付",
+      "sentence_ids": [
+        "p07-b-13-s01"
+      ],
+      "forms": [
+        "delivery"
+      ],
+      "sense_id": "sense-staged-ox-33bb5cca2d2d9add-p07-b-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5fdec9ccbf6d36bf",
+      "lemma": "dependent",
+      "pos": "adj.",
+      "sense_zh": "依赖于其他条件的",
+      "sentence_ids": [
+        "p07-b-13-s02"
+      ],
+      "forms": [
+        "dependent"
+      ],
+      "sense_id": "sense-staged-ox-5fdec9ccbf6d36bf-p07-b-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-702d809396442802",
+      "lemma": "crucial",
+      "pos": "adj.",
+      "sense_zh": "至关重要的",
+      "sentence_ids": [
+        "p07-b-13-s03"
+      ],
+      "forms": [
+        "crucial"
+      ],
+      "sense_id": "sense-staged-ox-702d809396442802-p07-b-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1f8f265e26192195",
+      "lemma": "efficient",
+      "pos": "adj.",
+      "sense_zh": "有效率的；避免浪费的",
+      "sentence_ids": [
+        "p07-b-13-s04"
+      ],
+      "forms": [
+        "efficient"
+      ],
+      "sense_id": "sense-staged-ox-1f8f265e26192195-p07-b-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88929492c01c1655",
+      "lemma": "efficiently",
+      "pos": "adv.",
+      "sense_zh": "高效地",
+      "sentence_ids": [
+        "p07-b-13-s05"
+      ],
+      "forms": [
+        "efficiently"
+      ],
+      "sense_id": "sense-staged-ox-88929492c01c1655-p07-b-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

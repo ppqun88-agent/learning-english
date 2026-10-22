@@ -1,0 +1,179 @@
+{
+  "id": "p07-a-20",
+  "title_zh": "选用较小场地并保留预算余量",
+  "topic_id": "work",
+  "scenario": {
+    "id": "event-budget",
+    "label_zh": "调整活动预算",
+    "goal_zh": "比较场地方案并明确预算取舍"
+  },
+  "participants": [
+    "Imani",
+    "Seth"
+  ],
+  "context_zh": "活动筹备者比较两个虚构场地的报价，为四十人的工作坊选择场地。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-20-s01",
+      "speaker": "Imani",
+      "text": "The larger hall has a capacity of a hundred, but we're expecting forty people."
+    },
+    {
+      "id": "p07-a-20-s02",
+      "speaker": "Seth",
+      "text": "The smaller room holds fifty and costs considerably less: three hundred pounds rather than six hundred."
+    },
+    {
+      "id": "p07-a-20-s03",
+      "speaker": "Imani",
+      "text": "Let's calculate the whole cost. Are chairs and cleaning included in both prices?"
+    },
+    {
+      "id": "p07-a-20-s04",
+      "speaker": "Seth",
+      "text": "Yes. I've checked the contract for each room. Both totals include them."
+    },
+    {
+      "id": "p07-a-20-s05",
+      "speaker": "Imani",
+      "text": "A three-hundred-pound saving is considerable. Still, we should make a conservative estimate of what we'll collect in ticket sales."
+    },
+    {
+      "id": "p07-a-20-s06",
+      "speaker": "Seth",
+      "text": "Agreed. If we budget for thirty paying guests, we won't depend on a full house."
+    },
+    {
+      "id": "p07-a-20-s07",
+      "speaker": "Imani",
+      "text": "That makes cost our main consideration, provided everyone can fit comfortably."
+    },
+    {
+      "id": "p07-a-20-s08",
+      "speaker": "Seth",
+      "text": "The smaller room's seated layout has space for fifty, so forty will fit."
+    },
+    {
+      "id": "p07-a-20-s09",
+      "speaker": "Imani",
+      "text": "Then let's choose that room and keep the saving as a reserve. I'll ask them for the booking form."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f61b8a289b3e88b8",
+      "lemma": "capacity",
+      "pos": "n.",
+      "sense_zh": "场地的容纳人数",
+      "sentence_ids": [
+        "p07-a-20-s01"
+      ],
+      "forms": [
+        "capacity"
+      ],
+      "sense_id": "sense-staged-ox-f61b8a289b3e88b8-p07-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a172593a465250b",
+      "lemma": "considerably",
+      "pos": "adv.",
+      "sense_zh": "相当大程度地",
+      "sentence_ids": [
+        "p07-a-20-s02"
+      ],
+      "forms": [
+        "considerably"
+      ],
+      "sense_id": "sense-staged-ox-7a172593a465250b-p07-a-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-566365213ead0b88",
+      "lemma": "calculate",
+      "pos": "v.",
+      "sense_zh": "计算",
+      "sentence_ids": [
+        "p07-a-20-s03"
+      ],
+      "forms": [
+        "calculate"
+      ],
+      "sense_id": "sense-staged-ox-566365213ead0b88-p07-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb31eaafed428149",
+      "lemma": "contract",
+      "pos": "n.",
+      "sense_zh": "合同",
+      "sentence_ids": [
+        "p07-a-20-s04"
+      ],
+      "forms": [
+        "contract"
+      ],
+      "sense_id": "sense-staged-ox-cb31eaafed428149-p07-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8d3007ec3928824a",
+      "lemma": "considerable",
+      "pos": "adj.",
+      "sense_zh": "相当大的",
+      "sentence_ids": [
+        "p07-a-20-s05"
+      ],
+      "forms": [
+        "considerable"
+      ],
+      "sense_id": "sense-staged-ox-8d3007ec3928824a-p07-a-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-597f693f6fbfbdff",
+      "lemma": "conservative",
+      "pos": "adj.",
+      "sense_zh": "保守谨慎的",
+      "sentence_ids": [
+        "p07-a-20-s05"
+      ],
+      "forms": [
+        "conservative"
+      ],
+      "sense_id": "sense-staged-ox-597f693f6fbfbdff-p07-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1179bd3c96471b78",
+      "lemma": "consideration",
+      "pos": "n.",
+      "sense_zh": "作决定时要考虑的因素",
+      "sentence_ids": [
+        "p07-a-20-s07"
+      ],
+      "forms": [
+        "consideration"
+      ],
+      "sense_id": "sense-staged-ox-1179bd3c96471b78-p07-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

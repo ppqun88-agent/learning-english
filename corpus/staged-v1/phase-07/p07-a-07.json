@@ -1,0 +1,137 @@
+{
+  "id": "p07-a-07",
+  "title_zh": "为旧漫画竞拍确定上限",
+  "topic_id": "services",
+  "scenario": {
+    "id": "vintage-comic-auction-limit",
+    "label_zh": "确定旧漫画竞拍预算",
+    "goal_zh": "检查漫画品相及拍卖费用，确定包含费用的出价上限而不声称竞拍成功"
+  },
+  "participants": [
+    "Jules",
+    "Nico"
+  ],
+  "context_zh": "两位朋友在虚构的旧书拍卖预展上讨论一本漫画的状况和出价上限，没有进行实际竞拍。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-07-s01",
+      "speaker": "Jules",
+      "text": "As a collector, would you pay much for this comic?"
+    },
+    {
+      "id": "p07-a-07-s02",
+      "speaker": "Nico",
+      "text": "It's a classic superhero story, but this copy is missing its back cover."
+    },
+    {
+      "id": "p07-a-07-s03",
+      "speaker": "Jules",
+      "text": "The opening price is ten dollars. I was thinking of trying for it."
+    },
+    {
+      "id": "p07-a-07-s04",
+      "speaker": "Nico",
+      "text": "What can you afford, including the auction fee?"
+    },
+    {
+      "id": "p07-a-07-s05",
+      "speaker": "Jules",
+      "text": "Twenty dollars altogether. I wouldn't spend another buck beyond that."
+    },
+    {
+      "id": "p07-a-07-s06",
+      "speaker": "Nico",
+      "text": "Then check the fee before you bid. Your limit needs to cover both."
+    },
+    {
+      "id": "p07-a-07-s07",
+      "speaker": "Jules",
+      "text": "The notice says there's no buyer's fee. I'll stop at twenty, even if someone else gets it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-aa7d623223c83a0f",
+      "lemma": "collector",
+      "pos": "n.",
+      "sense_zh": "收藏者",
+      "sentence_ids": [
+        "p07-a-07-s01"
+      ],
+      "forms": [
+        "collector"
+      ],
+      "sense_id": "sense-staged-ox-aa7d623223c83a0f-p07-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0293f63739161051",
+      "lemma": "comic",
+      "pos": "n.",
+      "sense_zh": "连环漫画书",
+      "sentence_ids": [
+        "p07-a-07-s01"
+      ],
+      "forms": [
+        "comic"
+      ],
+      "sense_id": "sense-staged-ox-0293f63739161051-p07-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-07d4407f831a1591",
+      "lemma": "classic",
+      "pos": "adj.",
+      "sense_zh": "公认经典的",
+      "sentence_ids": [
+        "p07-a-07-s02"
+      ],
+      "forms": [
+        "classic"
+      ],
+      "sense_id": "sense-staged-ox-07d4407f831a1591-p07-a-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6098c20476d1cd1",
+      "lemma": "buck",
+      "pos": "n.",
+      "sense_zh": "美元的非正式称呼",
+      "sentence_ids": [
+        "p07-a-07-s05"
+      ],
+      "forms": [
+        "buck"
+      ],
+      "sense_id": "sense-staged-ox-d6098c20476d1cd1-p07-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-460cd420c07d5571",
+      "lemma": "bid",
+      "pos": "v.",
+      "sense_zh": "在拍卖中出价",
+      "sentence_ids": [
+        "p07-a-07-s06"
+      ],
+      "forms": [
+        "bid"
+      ],
+      "sense_id": "sense-staged-ox-460cd420c07d5571-p07-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

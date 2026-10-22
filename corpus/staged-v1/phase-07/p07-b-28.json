@@ -1,0 +1,84 @@
+{
+  "id": "p07-b-28",
+  "title_zh": "不勉强走黑暗展道，改在明亮展厅等候",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "dark-museum-tour-alternative",
+    "label_zh": "改选不经过黑暗展道的参观方式",
+    "goal_zh": "说明对黑暗的顾虑并决定留在明亮展厅等候"
+  },
+  "participants": [
+    "Noor",
+    "Alex"
+  ],
+  "context_zh": "两位朋友在博物馆遇到一段黑暗体验展道，其中一人不愿进入。",
+  "author": "author-phase07-b",
+  "sentences": [
+    {
+      "id": "p07-b-28-s01",
+      "speaker": "Noor",
+      "text": "I don't dare go through that tunnel. I know it's only an exhibit, but I can't see the floor."
+    },
+    {
+      "id": "p07-b-28-s02",
+      "speaker": "Alex",
+      "text": "The darkness is part of the display. We don't have to go through it."
+    },
+    {
+      "id": "p07-b-28-s03",
+      "speaker": "Noor",
+      "text": "You were looking forward to it, though. I don't want to stop you."
+    },
+    {
+      "id": "p07-b-28-s04",
+      "speaker": "Alex",
+      "text": "I can take a quick look on my own if you're comfortable waiting here."
+    },
+    {
+      "id": "p07-b-28-s05",
+      "speaker": "Noor",
+      "text": "I am. I'll stay in this bright gallery and look at the photographs."
+    },
+    {
+      "id": "p07-b-28-s06",
+      "speaker": "Alex",
+      "text": "All right. I'll meet you by that bench in ten minutes, and we can visit the next room together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f727142041927bcf",
+      "lemma": "dare",
+      "pos": "v.",
+      "sense_zh": "有勇气或胆量做某事",
+      "sentence_ids": [
+        "p07-b-28-s01"
+      ],
+      "forms": [
+        "dare"
+      ],
+      "sense_id": "sense-staged-ox-f727142041927bcf-p07-b-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-443c750f5cde74d8",
+      "lemma": "darkness",
+      "pos": "n.",
+      "sense_zh": "黑暗；无光的状态",
+      "sentence_ids": [
+        "p07-b-28-s02"
+      ],
+      "forms": [
+        "darkness"
+      ],
+      "sense_id": "sense-staged-ox-443c750f5cde74d8-p07-b-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

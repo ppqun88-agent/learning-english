@@ -1,0 +1,174 @@
+{
+  "id": "p07-a-25",
+  "title_zh": "为展览争议报道选取平衡的短片段",
+  "topic_id": "work",
+  "scenario": {
+    "id": "exhibition-news-clip-edit",
+    "label_zh": "修改展览收费争议报道的片段选择",
+    "goal_zh": "补入画廊解释并保留居民异议，约定修订剪辑后核对引语再交电视台"
+  },
+  "participants": [
+    "Keira",
+    "Omar"
+  ],
+  "context_zh": "社区记者和编辑为虚构地方电视台准备一段展览报道，讨论应保留的不同观点。",
+  "author": "author-phase07-a",
+  "sentences": [
+    {
+      "id": "p07-a-25-s01",
+      "speaker": "Keira",
+      "text": "The local broadcaster wants a short piece about the new exhibition for tomorrow's broadcast."
+    },
+    {
+      "id": "p07-a-25-s02",
+      "speaker": "Omar",
+      "text": "Are we explaining the art, or the controversy over the entrance charge?"
+    },
+    {
+      "id": "p07-a-25-s03",
+      "speaker": "Keira",
+      "text": "Both, briefly. The charge is controversial because the gallery used to be free."
+    },
+    {
+      "id": "p07-a-25-s04",
+      "speaker": "Omar",
+      "text": "My chief concern is that our current edit includes three complaints but no explanation from the gallery."
+    },
+    {
+      "id": "p07-a-25-s05",
+      "speaker": "Keira",
+      "text": "We have the manager's interview. She says the charge helps cover the longer opening hours."
+    },
+    {
+      "id": "p07-a-25-s06",
+      "speaker": "Omar",
+      "text": "Then use a clip of that answer alongside one resident's objection. Don't make either speaker sound as if they represent everyone."
+    },
+    {
+      "id": "p07-a-25-s07",
+      "speaker": "Keira",
+      "text": "I'll revise the edit and keep the price and opening times on screen."
+    },
+    {
+      "id": "p07-a-25-s08",
+      "speaker": "Omar",
+      "text": "Send me that version before it goes to the station. I'll check the quotes against the full interviews."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2f3cbd2be68ef608",
+      "lemma": "broadcaster",
+      "pos": "n.",
+      "sense_zh": "广播电视播出机构",
+      "sentence_ids": [
+        "p07-a-25-s01"
+      ],
+      "forms": [
+        "broadcaster"
+      ],
+      "sense_id": "sense-staged-ox-2f3cbd2be68ef608-p07-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7d92c6f47ebf766c",
+      "lemma": "broadcast",
+      "pos": "n.",
+      "sense_zh": "广播或电视节目",
+      "sentence_ids": [
+        "p07-a-25-s01"
+      ],
+      "forms": [
+        "broadcast"
+      ],
+      "sense_id": "sense-staged-ox-7d92c6f47ebf766c-p07-a-25",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f5436898b704ef5",
+      "lemma": "controversy",
+      "pos": "n.",
+      "sense_zh": "公开争议",
+      "sentence_ids": [
+        "p07-a-25-s02"
+      ],
+      "forms": [
+        "controversy"
+      ],
+      "sense_id": "sense-staged-ox-5f5436898b704ef5-p07-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c105dcb522e6c935",
+      "lemma": "briefly",
+      "pos": "adv.",
+      "sense_zh": "简短地",
+      "sentence_ids": [
+        "p07-a-25-s03"
+      ],
+      "forms": [
+        "briefly"
+      ],
+      "sense_id": "sense-staged-ox-c105dcb522e6c935-p07-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5fe87bc57d201c0c",
+      "lemma": "controversial",
+      "pos": "adj.",
+      "sense_zh": "引发争议的",
+      "sentence_ids": [
+        "p07-a-25-s03"
+      ],
+      "forms": [
+        "controversial"
+      ],
+      "sense_id": "sense-staged-ox-5fe87bc57d201c0c-p07-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1cf406891f149061",
+      "lemma": "chief",
+      "pos": "adj.",
+      "sense_zh": "主要的",
+      "sentence_ids": [
+        "p07-a-25-s04"
+      ],
+      "forms": [
+        "chief"
+      ],
+      "sense_id": "sense-staged-ox-1cf406891f149061-p07-a-25",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3927f9f158840513",
+      "lemma": "clip",
+      "pos": "n.",
+      "sense_zh": "剪辑出的短视频片段",
+      "sentence_ids": [
+        "p07-a-25-s06"
+      ],
+      "forms": [
+        "clip"
+      ],
+      "sense_id": "sense-staged-ox-3927f9f158840513-p07-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
