@@ -1,0 +1,147 @@
+{
+  "id": "p06-b-14",
+  "title_zh": "交接临时接待助理的第一班工作",
+  "topic_id": "work",
+  "scenario": {
+    "id": "first-assistant-shift-handover",
+    "label_zh": "交接新助理首班职责",
+    "goal_zh": "让新来的临时员工了解工作内容和当班支持人员"
+  },
+  "participants": [
+    "Jules",
+    "Marcos"
+  ],
+  "context_zh": "临时接待助理朱尔斯第一天到社区办公楼值班，主管马科斯介绍工作范围和支援人员。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-14-s01",
+      "speaker": "Jules",
+      "text": "This is my first shift on reception. What time do I finish?"
+    },
+    {
+      "id": "p06-b-14-s02",
+      "speaker": "Marcos",
+      "text": "You're here till six. Nessa takes over then, and I'll be in the office upstairs until five."
+    },
+    {
+      "id": "p06-b-14-s03",
+      "speaker": "Jules",
+      "text": "Do I just give visitors a badge?"
+    },
+    {
+      "id": "p06-b-14-s04",
+      "speaker": "Marcos",
+      "text": "Check who they're meeting first. For security, don't let anyone through the inner door unless their host comes to collect them."
+    },
+    {
+      "id": "p06-b-14-s05",
+      "speaker": "Jules",
+      "text": "Where are the visitor forms?"
+    },
+    {
+      "id": "p06-b-14-s06",
+      "speaker": "Marcos",
+      "text": "In this drawer. There's a supply of spare forms in the cupboard behind you."
+    },
+    {
+      "id": "p06-b-14-s07",
+      "speaker": "Jules",
+      "text": "And if someone arrives without an appointment?"
+    },
+    {
+      "id": "p06-b-14-s08",
+      "speaker": "Marcos",
+      "text": "Call me before you issue a badge. After five, Nessa will be in the back office if you need help."
+    },
+    {
+      "id": "p06-b-14-s09",
+      "speaker": "Jules",
+      "text": "Got it. I'll check the appointment list first and call if anything is unclear."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1bd57ef2bbb108f4",
+      "lemma": "shift",
+      "pos": "n.",
+      "sense_zh": "工作班次",
+      "sentence_ids": [
+        "p06-b-14-s01"
+      ],
+      "forms": [
+        "shift"
+      ],
+      "sense_id": "sense-staged-ox-1bd57ef2bbb108f4-p06-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0788cc5bbaaeae86",
+      "lemma": "till",
+      "pos": "prep.",
+      "sense_zh": "直到某时间",
+      "sentence_ids": [
+        "p06-b-14-s02"
+      ],
+      "forms": [
+        "till"
+      ],
+      "sense_id": "sense-staged-ox-0788cc5bbaaeae86-p06-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f419c9bd3ca5c1e1",
+      "lemma": "security",
+      "pos": "n.",
+      "sense_zh": "安全防护",
+      "sentence_ids": [
+        "p06-b-14-s04"
+      ],
+      "forms": [
+        "security"
+      ],
+      "sense_id": "sense-staged-ox-f419c9bd3ca5c1e1-p06-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5784facd328fffa8",
+      "lemma": "unless",
+      "pos": "conj.",
+      "sense_zh": "除非",
+      "sentence_ids": [
+        "p06-b-14-s04"
+      ],
+      "forms": [
+        "unless"
+      ],
+      "sense_id": "sense-staged-ox-5784facd328fffa8-p06-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c828d7071154bb6b",
+      "lemma": "supply",
+      "pos": "n.",
+      "sense_zh": "储备量",
+      "sentence_ids": [
+        "p06-b-14-s06"
+      ],
+      "forms": [
+        "supply"
+      ],
+      "sense_id": "sense-staged-ox-c828d7071154bb6b-p06-b-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

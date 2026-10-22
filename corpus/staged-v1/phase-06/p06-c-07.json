@@ -1,0 +1,180 @@
+{
+  "id": "p06-c-07",
+  "title_zh": "表决采用活动室清洁轮值表",
+  "topic_id": "community",
+  "scenario": {
+    "id": "association-meeting-decision",
+    "label_zh": "表决活动室清洁安排",
+    "goal_zh": "居民协会讨论清洁轮值方案并明确采用决定和后续说明责任"
+  },
+  "participants": [
+    "Bea",
+    "Kofi",
+    "Lin"
+  ],
+  "context_zh": "小型居民协会的三名委员全部到场，讨论由协会自行管理的活动室清洁安排。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-07-s01",
+      "speaker": "Bea",
+      "text": "The next item on our agenda is the cleaning rota for the shared room."
+    },
+    {
+      "id": "p06-c-07-s02",
+      "speaker": "Kofi",
+      "text": "Does the association need the building manager's approval for that?"
+    },
+    {
+      "id": "p06-c-07-s03",
+      "speaker": "Bea",
+      "text": "Not for cleaning. Our agreement lets us manage this room, but changes to the building still need permission."
+    },
+    {
+      "id": "p06-c-07-s04",
+      "speaker": "Lin",
+      "text": "Then can we approve the rota today? Every household has already agreed to its week."
+    },
+    {
+      "id": "p06-c-07-s05",
+      "speaker": "Kofi",
+      "text": "I support it, as long as people can swap weeks when problems arise."
+    },
+    {
+      "id": "p06-c-07-s06",
+      "speaker": "Bea",
+      "text": "That is in the note at the bottom. Shall we take a vote on whether to adopt this rota? I am in favour."
+    },
+    {
+      "id": "p06-c-07-s07",
+      "speaker": "Kofi",
+      "text": "Yes from me too."
+    },
+    {
+      "id": "p06-c-07-s08",
+      "speaker": "Lin",
+      "text": "And me. I will put the rota on the noticeboard and explain how to arrange a swap."
+    },
+    {
+      "id": "p06-c-07-s09",
+      "speaker": "Bea",
+      "text": "Thank you. That is agreed by all three of us."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5d5667ed927d607d",
+      "lemma": "agenda",
+      "pos": "n.",
+      "sense_zh": "会议议程",
+      "sentence_ids": [
+        "p06-c-07-s01"
+      ],
+      "forms": [
+        "agenda"
+      ],
+      "sense_id": "sense-staged-ox-5d5667ed927d607d-p06-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4c3e84b3daf22426",
+      "lemma": "association",
+      "pos": "n.",
+      "sense_zh": "协会，社团",
+      "sentence_ids": [
+        "p06-c-07-s02"
+      ],
+      "forms": [
+        "association"
+      ],
+      "sense_id": "sense-staged-ox-4c3e84b3daf22426-p06-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c3ff22d3c594530",
+      "lemma": "approval",
+      "pos": "n.",
+      "sense_zh": "批准，同意",
+      "sentence_ids": [
+        "p06-c-07-s02"
+      ],
+      "forms": [
+        "approval"
+      ],
+      "sense_id": "sense-staged-ox-1c3ff22d3c594530-p06-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb7682bba3cc8651",
+      "lemma": "approve",
+      "pos": "v.",
+      "sense_zh": "正式同意或批准",
+      "sentence_ids": [
+        "p06-c-07-s04"
+      ],
+      "forms": [
+        "approve"
+      ],
+      "sense_id": "sense-staged-ox-cb7682bba3cc8651-p06-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bfe1e67103757c3f",
+      "lemma": "arise",
+      "pos": "v.",
+      "sense_zh": "问题等出现，发生",
+      "sentence_ids": [
+        "p06-c-07-s05"
+      ],
+      "forms": [
+        "arise"
+      ],
+      "sense_id": "sense-staged-ox-bfe1e67103757c3f-p06-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-794ee011881beaa0",
+      "lemma": "vote",
+      "pos": "n.",
+      "sense_zh": "表决",
+      "sentence_ids": [
+        "p06-c-07-s06"
+      ],
+      "forms": [
+        "vote"
+      ],
+      "sense_id": "sense-staged-ox-794ee011881beaa0-p06-c-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-81b0b715915c4e15",
+      "lemma": "adopt",
+      "pos": "v.",
+      "sense_zh": "正式采用某项安排",
+      "sentence_ids": [
+        "p06-c-07-s06"
+      ],
+      "forms": [
+        "adopt"
+      ],
+      "sense_id": "sense-staged-ox-81b0b715915c4e15-p06-c-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

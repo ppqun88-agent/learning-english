@@ -1,0 +1,126 @@
+{
+  "id": "p06-b-21",
+  "title_zh": "说明牙痛并确认牙医预约",
+  "topic_id": "health",
+  "scenario": {
+    "id": "dental-appointment-request",
+    "label_zh": "因牙痛预约牙医",
+    "goal_zh": "描述疼痛持续情况并确认可到诊时间"
+  },
+  "participants": [
+    "Bianca",
+    "Dental Receptionist"
+  ],
+  "context_zh": "虚构就诊沟通练习：比安卡因持续牙痛致电牙科前台，描述相关不适并预约检查。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-21-s01",
+      "speaker": "Bianca",
+      "text": "I've had toothache since Sunday, and there's an unpleasant taste in my mouth. Could I see a dentist?"
+    },
+    {
+      "id": "p06-b-21-s02",
+      "speaker": "Dental Receptionist",
+      "text": "We have an appointment at ten thirty tomorrow. Can you tell me which side hurts?"
+    },
+    {
+      "id": "p06-b-21-s03",
+      "speaker": "Bianca",
+      "text": "The lower left. I'm unable to chew on that side, and my tongue keeps catching on a rough edge."
+    },
+    {
+      "id": "p06-b-21-s04",
+      "speaker": "Dental Receptionist",
+      "text": "I'll add that to your notes. Does tomorrow morning work for you?"
+    },
+    {
+      "id": "p06-b-21-s05",
+      "speaker": "Bianca",
+      "text": "Yes. Will the dentist be able to treat it at that appointment?"
+    },
+    {
+      "id": "p06-b-21-s06",
+      "speaker": "Dental Receptionist",
+      "text": "They'll examine you first and explain what can be done. I can't promise a particular treatment in advance."
+    },
+    {
+      "id": "p06-b-21-s07",
+      "speaker": "Bianca",
+      "text": "I understand. Please book me in for ten thirty tomorrow."
+    },
+    {
+      "id": "p06-b-21-s08",
+      "speaker": "Dental Receptionist",
+      "text": "That's booked. Please come to reception when you arrive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0c441e705d1740f0",
+      "lemma": "unpleasant",
+      "pos": "adj.",
+      "sense_zh": "令人不舒服的",
+      "sentence_ids": [
+        "p06-b-21-s01"
+      ],
+      "forms": [
+        "unpleasant"
+      ],
+      "sense_id": "sense-staged-ox-0c441e705d1740f0-p06-b-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b3fac636e9ce04a",
+      "lemma": "unable",
+      "pos": "adj.",
+      "sense_zh": "不能够的",
+      "sentence_ids": [
+        "p06-b-21-s03"
+      ],
+      "forms": [
+        "unable"
+      ],
+      "sense_id": "sense-staged-ox-2b3fac636e9ce04a-p06-b-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0aa3032dba804a23",
+      "lemma": "tongue",
+      "pos": "n.",
+      "sense_zh": "舌头",
+      "sentence_ids": [
+        "p06-b-21-s03"
+      ],
+      "forms": [
+        "tongue"
+      ],
+      "sense_id": "sense-staged-ox-0aa3032dba804a23-p06-b-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bc703d2eed27f1c6",
+      "lemma": "treat",
+      "pos": "v.",
+      "sense_zh": "治疗",
+      "sentence_ids": [
+        "p06-b-21-s05"
+      ],
+      "forms": [
+        "treat"
+      ],
+      "sense_id": "sense-staged-ox-bc703d2eed27f1c6-p06-b-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

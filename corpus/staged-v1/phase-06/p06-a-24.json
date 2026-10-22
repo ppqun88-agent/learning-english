@@ -1,0 +1,126 @@
+{
+  "id": "p06-a-24",
+  "title_zh": "根据照片背面说明更正亲属标注",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "family-history-photo-identification",
+    "label_zh": "根据照片原注更正家族人物标注",
+    "goal_zh": "核对照片背面的姓名与亲属关系，确定更正后的相册说明并保留原注副本"
+  },
+  "participants": [
+    "Amy",
+    "Samir"
+  ],
+  "context_zh": "艾米和叔叔萨米尔整理家族相册，查看一张旧照片及背面的原有说明。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-24-s01",
+      "speaker": "Amy",
+      "text": "Remind me who the man beside Grandma is. This album calls him her brother."
+    },
+    {
+      "id": "p06-a-24-s02",
+      "speaker": "Samir",
+      "text": "That is Farid, her cousin. He was our oldest living relative when that picture was taken."
+    },
+    {
+      "id": "p06-a-24-s03",
+      "speaker": "Amy",
+      "text": "Are we related to the woman beside him too?"
+    },
+    {
+      "id": "p06-a-24-s04",
+      "speaker": "Samir",
+      "text": "No, she was his neighbour. Turn the photograph over; Grandma wrote their names on the back."
+    },
+    {
+      "id": "p06-a-24-s05",
+      "speaker": "Amy",
+      "text": "Yes, it says, \"My cousin Farid and our neighbour Salma.\" The album was originally labelled by someone who did not know them."
+    },
+    {
+      "id": "p06-a-24-s06",
+      "speaker": "Samir",
+      "text": "Then we should correct the caption and keep a photograph of Grandma's note with it."
+    },
+    {
+      "id": "p06-a-24-s07",
+      "speaker": "Amy",
+      "text": "I will change it to \"Grandma with her cousin Farid and their neighbour Salma.\" Does that match the note?"
+    },
+    {
+      "id": "p06-a-24-s08",
+      "speaker": "Samir",
+      "text": "It does. Use that caption and put the copy of the note on the next page."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e87b64f9b0070881",
+      "lemma": "remind",
+      "pos": "v.",
+      "sense_zh": "提醒；使想起",
+      "sentence_ids": [
+        "p06-a-24-s01"
+      ],
+      "forms": [
+        "remind"
+      ],
+      "sense_id": "sense-staged-ox-e87b64f9b0070881-p06-a-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f37e128c6d8c683",
+      "lemma": "relative",
+      "pos": "n.",
+      "sense_zh": "亲戚",
+      "sentence_ids": [
+        "p06-a-24-s02"
+      ],
+      "forms": [
+        "relative"
+      ],
+      "sense_id": "sense-staged-ox-0f37e128c6d8c683-p06-a-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-59a04f952868b0d5",
+      "lemma": "related",
+      "pos": "adj.",
+      "sense_zh": "有亲属关系的",
+      "sentence_ids": [
+        "p06-a-24-s03"
+      ],
+      "forms": [
+        "related"
+      ],
+      "sense_id": "sense-staged-ox-59a04f952868b0d5-p06-a-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e452cc63e2f53d6c",
+      "lemma": "originally",
+      "pos": "adv.",
+      "sense_zh": "起初；原先",
+      "sentence_ids": [
+        "p06-a-24-s05"
+      ],
+      "forms": [
+        "originally"
+      ],
+      "sense_id": "sense-staged-ox-e452cc63e2f53d6c-p06-a-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

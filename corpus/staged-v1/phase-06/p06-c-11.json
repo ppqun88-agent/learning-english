@@ -1,0 +1,105 @@
+{
+  "id": "p06-c-11",
+  "title_zh": "询问成瘾支持服务的首次联系办法",
+  "topic_id": "health",
+  "scenario": {
+    "id": "addiction-support-inquiry",
+    "label_zh": "询问成瘾支持服务",
+    "goal_zh": "了解支持机构的联络方式及费用援助咨询渠道，并确定首次联系的下一步"
+  },
+  "participants": [
+    "Faye",
+    "Receptionist Owen"
+  ],
+  "context_zh": "虚构沟通练习中，费伊向社区服务接待员询问成瘾支持的联络信息，不讨论个人诊断或治疗方案。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-11-s01",
+      "speaker": "Faye",
+      "text": "I am looking for someone to talk to about addiction. Is this the right desk?"
+    },
+    {
+      "id": "p06-c-11-s02",
+      "speaker": "Receptionist Owen",
+      "text": "I can give you the contact details for the local support agency. Their adviser can explain what they offer."
+    },
+    {
+      "id": "p06-c-11-s03",
+      "speaker": "Faye",
+      "text": "I am also worried about the cost. Is there any financial aid?"
+    },
+    {
+      "id": "p06-c-11-s04",
+      "speaker": "Receptionist Owen",
+      "text": "I do not know which arrangements would apply to you. The adviser can answer that before you book anything."
+    },
+    {
+      "id": "p06-c-11-s05",
+      "speaker": "Faye",
+      "text": "Could I have their number on paper? I would rather call from home."
+    },
+    {
+      "id": "p06-c-11-s06",
+      "speaker": "Receptionist Owen",
+      "text": "Certainly. Here it is, with the opening hours."
+    },
+    {
+      "id": "p06-c-11-s07",
+      "speaker": "Faye",
+      "text": "Thank you. I will call and ask about an initial conversation and the costs."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-eca2a82543b3b624",
+      "lemma": "addiction",
+      "pos": "n.",
+      "sense_zh": "成瘾",
+      "sentence_ids": [
+        "p06-c-11-s01"
+      ],
+      "forms": [
+        "addiction"
+      ],
+      "sense_id": "sense-staged-ox-eca2a82543b3b624-p06-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6177d400ba1a6ac2",
+      "lemma": "agency",
+      "pos": "n.",
+      "sense_zh": "提供某类服务的机构",
+      "sentence_ids": [
+        "p06-c-11-s02"
+      ],
+      "forms": [
+        "agency"
+      ],
+      "sense_id": "sense-staged-ox-6177d400ba1a6ac2-p06-c-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f39c6b33aaffbc9b",
+      "lemma": "aid",
+      "pos": "n.",
+      "sense_zh": "援助，帮助",
+      "sentence_ids": [
+        "p06-c-11-s03"
+      ],
+      "forms": [
+        "aid"
+      ],
+      "sense_id": "sense-staged-ox-f39c6b33aaffbc9b-p06-c-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

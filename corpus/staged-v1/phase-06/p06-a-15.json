@@ -1,0 +1,158 @@
+{
+  "id": "p06-a-15",
+  "title_zh": "先询问港口附近的小屋",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "coastal-cottage-choice",
+    "label_zh": "比较海边小屋并询问住宿条件",
+    "goal_zh": "根据无车出行需求比较两处房源，选定先询问港口附近小屋的短住与噪音条件"
+  },
+  "participants": [
+    "Nadia",
+    "Ellis"
+  ],
+  "context_zh": "纳迪娅和艾利斯比较两个虚构的海边小屋，希望度过无需开车的短假期。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-15-s01",
+      "speaker": "Nadia",
+      "text": "Which cottage should we ask about for our weekend away?"
+    },
+    {
+      "id": "p06-a-15-s02",
+      "speaker": "Ellis",
+      "text": "The remote one on the cliff looks beautiful, but the nearest shop is five miles away."
+    },
+    {
+      "id": "p06-a-15-s03",
+      "speaker": "Nadia",
+      "text": "We are not taking a car. The property near the port would be easier to reach."
+    },
+    {
+      "id": "p06-a-15-s04",
+      "speaker": "Ellis",
+      "text": "True. Its garden looks pleasant, and we could walk to dinner."
+    },
+    {
+      "id": "p06-a-15-s05",
+      "speaker": "Nadia",
+      "text": "I want a relaxing weekend, not two days of arranging taxis. Could we rent that one for just two nights?"
+    },
+    {
+      "id": "p06-a-15-s06",
+      "speaker": "Ellis",
+      "text": "The listing does not say. It also does not tell us whether the bedrooms face the busy road."
+    },
+    {
+      "id": "p06-a-15-s07",
+      "speaker": "Nadia",
+      "text": "Then let's ask about a two-night stay and the bedroom windows before we decide."
+    },
+    {
+      "id": "p06-a-15-s08",
+      "speaker": "Ellis",
+      "text": "Agreed. I'll contact the owner of the cottage near the port with both questions."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fd0ce53ed0b912a7",
+      "lemma": "remote",
+      "pos": "adj.",
+      "sense_zh": "偏远的",
+      "sentence_ids": [
+        "p06-a-15-s02"
+      ],
+      "forms": [
+        "remote"
+      ],
+      "sense_id": "sense-staged-ox-fd0ce53ed0b912a7-p06-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a59ad33467e016c",
+      "lemma": "property",
+      "pos": "n.",
+      "sense_zh": "房产；此处指小屋",
+      "sentence_ids": [
+        "p06-a-15-s03"
+      ],
+      "forms": [
+        "property"
+      ],
+      "sense_id": "sense-staged-ox-5a59ad33467e016c-p06-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3045277a6f46e95f",
+      "lemma": "port",
+      "pos": "n.",
+      "sense_zh": "港口",
+      "sentence_ids": [
+        "p06-a-15-s03"
+      ],
+      "forms": [
+        "port"
+      ],
+      "sense_id": "sense-staged-ox-3045277a6f46e95f-p06-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-38ffc963c7659940",
+      "lemma": "pleasant",
+      "pos": "adj.",
+      "sense_zh": "令人舒适愉快的",
+      "sentence_ids": [
+        "p06-a-15-s04"
+      ],
+      "forms": [
+        "pleasant"
+      ],
+      "sense_id": "sense-staged-ox-38ffc963c7659940-p06-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d334af9dec75a28",
+      "lemma": "relaxing",
+      "pos": "adj.",
+      "sense_zh": "令人放松的",
+      "sentence_ids": [
+        "p06-a-15-s05"
+      ],
+      "forms": [
+        "relaxing"
+      ],
+      "sense_id": "sense-staged-ox-3d334af9dec75a28-p06-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-82182066174fab0f",
+      "lemma": "rent",
+      "pos": "v.",
+      "sense_zh": "租用",
+      "sentence_ids": [
+        "p06-a-15-s05"
+      ],
+      "forms": [
+        "rent"
+      ],
+      "sense_id": "sense-staged-ox-82182066174fab0f-p06-a-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

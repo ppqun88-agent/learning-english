@@ -1,0 +1,163 @@
+{
+  "id": "p06-a-04",
+  "title_zh": "为能源展示区分预测与证据",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "classroom-energy-claim-revision",
+    "label_zh": "修订课堂能源展示的证据表述",
+    "goal_zh": "区分历史数据与预测，承认相关关系不等于因果，并约定修订图表标题和说明"
+  },
+  "participants": [
+    "Noah",
+    "Sami"
+  ],
+  "context_zh": "诺亚向同学萨米展示课堂报告草稿；两人讨论的图表和国家均为虚构教学材料。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-04-s01",
+      "speaker": "Noah",
+      "text": "Could you check this slide for my presentation on nuclear energy?"
+    },
+    {
+      "id": "p06-a-04-s02",
+      "speaker": "Sami",
+      "text": "Your chart shows energy prices for two years. Why does the title say that a new power station will lower bills?"
+    },
+    {
+      "id": "p06-a-04-s03",
+      "speaker": "Noah",
+      "text": "Prices fell in the year after it opened. I thought that would prove my point."
+    },
+    {
+      "id": "p06-a-04-s04",
+      "speaker": "Sami",
+      "text": "Not necessarily. Other things could have changed in the same year."
+    },
+    {
+      "id": "p06-a-04-s05",
+      "speaker": "Noah",
+      "text": "So I can describe the relation between the two events, but not say that one caused the other?"
+    },
+    {
+      "id": "p06-a-04-s06",
+      "speaker": "Sami",
+      "text": "Exactly. And your figure for next year is a prediction, not a recorded price."
+    },
+    {
+      "id": "p06-a-04-s07",
+      "speaker": "Noah",
+      "text": "I'll label it clearly and change the title to a question about prices."
+    },
+    {
+      "id": "p06-a-04-s08",
+      "speaker": "Sami",
+      "text": "That works. Put the possible alternative explanations underneath the chart too."
+    },
+    {
+      "id": "p06-a-04-s09",
+      "speaker": "Noah",
+      "text": "I will. Then the slide will show what we know and what still needs checking."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-06f64205f5967997",
+      "lemma": "presentation",
+      "pos": "n.",
+      "sense_zh": "口头展示",
+      "sentence_ids": [
+        "p06-a-04-s01"
+      ],
+      "forms": [
+        "presentation"
+      ],
+      "sense_id": "sense-staged-ox-06f64205f5967997-p06-a-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb310dae77f87dd3",
+      "lemma": "nuclear",
+      "pos": "adj.",
+      "sense_zh": "核能的",
+      "sentence_ids": [
+        "p06-a-04-s01"
+      ],
+      "forms": [
+        "nuclear"
+      ],
+      "sense_id": "sense-staged-ox-cb310dae77f87dd3-p06-a-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16e06f4acf6c408f",
+      "lemma": "prove",
+      "pos": "v.",
+      "sense_zh": "证明",
+      "sentence_ids": [
+        "p06-a-04-s03"
+      ],
+      "forms": [
+        "prove"
+      ],
+      "sense_id": "sense-staged-ox-16e06f4acf6c408f-p06-a-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef61b703692d0b9b",
+      "lemma": "necessarily",
+      "pos": "adv.",
+      "sense_zh": "必然地",
+      "sentence_ids": [
+        "p06-a-04-s04"
+      ],
+      "forms": [
+        "necessarily"
+      ],
+      "sense_id": "sense-staged-ox-ef61b703692d0b9b-p06-a-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-321e467ef92afa86",
+      "lemma": "relation",
+      "pos": "n.",
+      "sense_zh": "关系；联系",
+      "sentence_ids": [
+        "p06-a-04-s05"
+      ],
+      "forms": [
+        "relation"
+      ],
+      "sense_id": "sense-staged-ox-321e467ef92afa86-p06-a-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80a6662340c64453",
+      "lemma": "prediction",
+      "pos": "n.",
+      "sense_zh": "预测",
+      "sentence_ids": [
+        "p06-a-04-s06"
+      ],
+      "forms": [
+        "prediction"
+      ],
+      "sense_id": "sense-staged-ox-80a6662340c64453-p06-a-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

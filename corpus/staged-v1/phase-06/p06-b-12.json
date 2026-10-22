@@ -1,0 +1,137 @@
+{
+  "id": "p06-b-12",
+  "title_zh": "先查档案再说明历史人物身份",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "museum-worker-status-label",
+    "label_zh": "核对历史人物的展览用语",
+    "goal_zh": "区分雇佣仆役和被奴役者，决定先查人物记录再写说明"
+  },
+  "participants": [
+    "Dorian",
+    "Lena"
+  ],
+  "context_zh": "课堂模拟博物馆项目中，两名学生为一幅虚构历史人物画像拟写标签，避免把不同劳动身份混为一谈。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-12-s01",
+      "speaker": "Dorian",
+      "text": "The note calls him a servant in a royal household. Should our label say he was employed at the palace?"
+    },
+    {
+      "id": "p06-b-12-s02",
+      "speaker": "Lena",
+      "text": "It doesn't tell us which building he worked in, or whether he was paid. What else does it say?"
+    },
+    {
+      "id": "p06-b-12-s03",
+      "speaker": "Dorian",
+      "text": "The family made money from overseas trade, including the sale of enslaved people. Does that mean he was a slave?"
+    },
+    {
+      "id": "p06-b-12-s04",
+      "speaker": "Lena",
+      "text": "Not necessarily. A servant could be employed, while a slave was treated as property and denied freedom. We need evidence about this person."
+    },
+    {
+      "id": "p06-b-12-s05",
+      "speaker": "Dorian",
+      "text": "So we don't know the truth about his situation from this note alone."
+    },
+    {
+      "id": "p06-b-12-s06",
+      "speaker": "Lena",
+      "text": "Exactly. Let's check the household records in our source pack before we write the label."
+    },
+    {
+      "id": "p06-b-12-s07",
+      "speaker": "Dorian",
+      "text": "I'll look for his name in those records. For now, I'll leave the claim about his status out."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ed25b6947d9a4a77",
+      "lemma": "royal",
+      "pos": "adj.",
+      "sense_zh": "王室的",
+      "sentence_ids": [
+        "p06-b-12-s01"
+      ],
+      "forms": [
+        "royal"
+      ],
+      "sense_id": "sense-staged-ox-ed25b6947d9a4a77-p06-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e82eda1462e3426d",
+      "lemma": "servant",
+      "pos": "n.",
+      "sense_zh": "仆人",
+      "sentence_ids": [
+        "p06-b-12-s01"
+      ],
+      "forms": [
+        "servant"
+      ],
+      "sense_id": "sense-staged-ox-e82eda1462e3426d-p06-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-13b5b360b941517f",
+      "lemma": "trade",
+      "pos": "n.",
+      "sense_zh": "贸易",
+      "sentence_ids": [
+        "p06-b-12-s03"
+      ],
+      "forms": [
+        "trade"
+      ],
+      "sense_id": "sense-staged-ox-13b5b360b941517f-p06-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c662fbcbf3c1d623",
+      "lemma": "slave",
+      "pos": "n.",
+      "sense_zh": "被当作财产并剥夺自由的奴隶",
+      "sentence_ids": [
+        "p06-b-12-s04"
+      ],
+      "forms": [
+        "slave"
+      ],
+      "sense_id": "sense-staged-ox-c662fbcbf3c1d623-p06-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8412dfc98135e17",
+      "lemma": "truth",
+      "pos": "n.",
+      "sense_zh": "真实情况",
+      "sentence_ids": [
+        "p06-b-12-s05"
+      ],
+      "forms": [
+        "truth"
+      ],
+      "sense_id": "sense-staged-ox-f8412dfc98135e17-p06-b-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

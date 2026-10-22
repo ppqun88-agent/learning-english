@@ -1,0 +1,153 @@
+{
+  "id": "p06-b-09",
+  "title_zh": "分工翻译中学家长通知",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "school-notice-translation-plan",
+    "label_zh": "商定学校通知的翻译方式",
+    "goal_zh": "确认通知读者和口头摘要需求，约定翻译及核对分工"
+  },
+  "participants": [
+    "Priya",
+    "Ben"
+  ],
+  "context_zh": "中学行政人员普里娅与双语同事本准备解释一封选课通知，希望家长能听懂关键安排。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-09-s01",
+      "speaker": "Priya",
+      "text": "This notice explains how pupils choose subjects at secondary school. Could you translate it into Spanish?"
+    },
+    {
+      "id": "p06-b-09-s02",
+      "speaker": "Ben",
+      "text": "Yes. Do you need the whole document or just the dates?"
+    },
+    {
+      "id": "p06-b-09-s03",
+      "speaker": "Priya",
+      "text": "The whole document, please. Some parents find written English difficult, even when their spoken English is good."
+    },
+    {
+      "id": "p06-b-09-s04",
+      "speaker": "Ben",
+      "text": "I'll prepare a translation. Do you also want something short to read aloud at the meeting?"
+    },
+    {
+      "id": "p06-b-09-s05",
+      "speaker": "Priya",
+      "text": "That would help. Could you summarize the choices and the deadline in about a minute?"
+    },
+    {
+      "id": "p06-b-09-s06",
+      "speaker": "Ben",
+      "text": "Sure. I'll send you the full text and a separate summary tomorrow."
+    },
+    {
+      "id": "p06-b-09-s07",
+      "speaker": "Priya",
+      "text": "Thanks. I'll check the dates, and then we can ask Elena to check the Spanish before the meeting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4cdae6f0f8d4e50f",
+      "lemma": "secondary",
+      "pos": "adj.",
+      "sense_zh": "中等教育的",
+      "sentence_ids": [
+        "p06-b-09-s01"
+      ],
+      "forms": [
+        "secondary"
+      ],
+      "sense_id": "sense-staged-ox-4cdae6f0f8d4e50f-p06-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-66b42205cd75a103",
+      "lemma": "translate",
+      "pos": "v.",
+      "sense_zh": "翻译",
+      "sentence_ids": [
+        "p06-b-09-s01"
+      ],
+      "forms": [
+        "translate"
+      ],
+      "sense_id": "sense-staged-ox-66b42205cd75a103-p06-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-27e4f1246430c45b",
+      "lemma": "spoken",
+      "pos": "adj.",
+      "sense_zh": "口头表达的",
+      "sentence_ids": [
+        "p06-b-09-s03"
+      ],
+      "forms": [
+        "spoken"
+      ],
+      "sense_id": "sense-staged-ox-27e4f1246430c45b-p06-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb8277745a4fd5b3",
+      "lemma": "translation",
+      "pos": "n.",
+      "sense_zh": "译文",
+      "sentence_ids": [
+        "p06-b-09-s04"
+      ],
+      "forms": [
+        "translation"
+      ],
+      "sense_id": "sense-staged-ox-cb8277745a4fd5b3-p06-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e9f2d1b98580638e",
+      "lemma": "summarize",
+      "pos": "v.",
+      "sense_zh": "概述",
+      "sentence_ids": [
+        "p06-b-09-s05"
+      ],
+      "forms": [
+        "summarize"
+      ],
+      "sense_id": "sense-staged-ox-e9f2d1b98580638e-p06-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7ebdb234d1fe41bd",
+      "lemma": "summary",
+      "pos": "n.",
+      "sense_zh": "摘要",
+      "sentence_ids": [
+        "p06-b-09-s06"
+      ],
+      "forms": [
+        "summary"
+      ],
+      "sense_id": "sense-staged-ox-7ebdb234d1fe41bd-p06-b-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

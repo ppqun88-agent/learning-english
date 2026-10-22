@@ -1,0 +1,137 @@
+{
+  "id": "p06-b-04",
+  "title_zh": "先确认帆船课的天气条件",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-sailing-weather-check",
+    "label_zh": "核对初学帆船课的开课条件",
+    "goal_zh": "了解课程季节与天气限制，并约定确认可开课时段的下一步"
+  },
+  "participants": [
+    "Imogen",
+    "Sailing Instructor"
+  ],
+  "context_zh": "伊莫金致电帆船学校，询问秋季初学课程是否仍开课，以及眼下风浪会不会影响安排。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-04-s01",
+      "speaker": "Imogen",
+      "text": "Do you still offer beginner lessons in October?"
+    },
+    {
+      "id": "p06-b-04-s02",
+      "speaker": "Sailing Instructor",
+      "text": "Yes, until the end of the month, but the sea is too rough today."
+    },
+    {
+      "id": "p06-b-04-s03",
+      "speaker": "Imogen",
+      "text": "My brother is an experienced sailor. Could he take me out instead?"
+    },
+    {
+      "id": "p06-b-04-s04",
+      "speaker": "Sailing Instructor",
+      "text": "For safety, we'd recommend postponing your first outing. The forecast warns of sudden changes in the wind."
+    },
+    {
+      "id": "p06-b-04-s05",
+      "speaker": "Imogen",
+      "text": "That sounds sensible. I'd rather start with an instructor in calmer conditions."
+    },
+    {
+      "id": "p06-b-04-s06",
+      "speaker": "Sailing Instructor",
+      "text": "Call tomorrow after nine. We'll have the morning forecast and can discuss any lessons that can go ahead."
+    },
+    {
+      "id": "p06-b-04-s07",
+      "speaker": "Imogen",
+      "text": "All right. I won't book a time yet; I'll call tomorrow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-60d187fb6e865768",
+      "lemma": "rough",
+      "pos": "adj.",
+      "sense_zh": "海面波涛汹涌的",
+      "sentence_ids": [
+        "p06-b-04-s02"
+      ],
+      "forms": [
+        "rough"
+      ],
+      "sense_id": "sense-staged-ox-60d187fb6e865768-p06-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8886ea12542a6745",
+      "lemma": "sailor",
+      "pos": "n.",
+      "sense_zh": "驾驶帆船的人",
+      "sentence_ids": [
+        "p06-b-04-s03"
+      ],
+      "forms": [
+        "sailor"
+      ],
+      "sense_id": "sense-staged-ox-8886ea12542a6745-p06-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0bf440c2b929fb5e",
+      "lemma": "safety",
+      "pos": "n.",
+      "sense_zh": "安全",
+      "sentence_ids": [
+        "p06-b-04-s04"
+      ],
+      "forms": [
+        "safety"
+      ],
+      "sense_id": "sense-staged-ox-0bf440c2b929fb5e-p06-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21b235620e06f0ba",
+      "lemma": "sudden",
+      "pos": "adj.",
+      "sense_zh": "突然的",
+      "sentence_ids": [
+        "p06-b-04-s04"
+      ],
+      "forms": [
+        "sudden"
+      ],
+      "sense_id": "sense-staged-ox-21b235620e06f0ba-p06-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a38735d857cb3dd",
+      "lemma": "sensible",
+      "pos": "adj.",
+      "sense_zh": "明智合理的",
+      "sentence_ids": [
+        "p06-b-04-s05"
+      ],
+      "forms": [
+        "sensible"
+      ],
+      "sense_id": "sense-staged-ox-0a38735d857cb3dd-p06-b-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

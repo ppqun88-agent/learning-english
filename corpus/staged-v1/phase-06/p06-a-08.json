@@ -1,0 +1,174 @@
+{
+  "id": "p06-a-08",
+  "title_zh": "给户外工作坊留好雨天方案",
+  "topic_id": "community",
+  "scenario": {
+    "id": "outdoor-workshop-rain-plan",
+    "label_zh": "分工准备户外工作坊雨天方案",
+    "goal_zh": "确认室内备用场地，并约定场地决定时间及搬运和通知分工"
+  },
+  "participants": [
+    "Diane",
+    "Omar"
+  ],
+  "context_zh": "社区活动组织者黛安和志愿者奥马尔讨论周六工作坊，尚未发布最终场地通知。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-08-s01",
+      "speaker": "Diane",
+      "text": "I'm the organizer of Saturday's outdoor workshop. Could you help with the rain plan?"
+    },
+    {
+      "id": "p06-a-08-s02",
+      "speaker": "Omar",
+      "text": "Certainly. How many people want to participate?"
+    },
+    {
+      "id": "p06-a-08-s03",
+      "speaker": "Diane",
+      "text": "Twelve so far, possibly a few more. The hall can take twenty."
+    },
+    {
+      "id": "p06-a-08-s04",
+      "speaker": "Omar",
+      "text": "Then we should be prepared for everyone to move inside. Is the hall definitely available?"
+    },
+    {
+      "id": "p06-a-08-s05",
+      "speaker": "Diane",
+      "text": "Yes, I have the key. The planning is nearly finished, but I haven't assigned anyone to contact the group."
+    },
+    {
+      "id": "p06-a-08-s06",
+      "speaker": "Omar",
+      "text": "I can do that. You are very organized with the equipment, so why don't you handle moving it?"
+    },
+    {
+      "id": "p06-a-08-s07",
+      "speaker": "Diane",
+      "text": "That works. I'll decide on the venue at eight on Saturday and call you."
+    },
+    {
+      "id": "p06-a-08-s08",
+      "speaker": "Omar",
+      "text": "Then I'll send the group the final location. Until that call, I won't tell them that we're moving indoors."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-48c4dacabec824f0",
+      "lemma": "organizer",
+      "pos": "n.",
+      "sense_zh": "活动组织者",
+      "sentence_ids": [
+        "p06-a-08-s01"
+      ],
+      "forms": [
+        "organizer"
+      ],
+      "sense_id": "sense-staged-ox-48c4dacabec824f0-p06-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9e9c2df0ea14da7e",
+      "lemma": "outdoor",
+      "pos": "adj.",
+      "sense_zh": "户外的",
+      "sentence_ids": [
+        "p06-a-08-s01"
+      ],
+      "forms": [
+        "outdoor"
+      ],
+      "sense_id": "sense-staged-ox-9e9c2df0ea14da7e-p06-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1cf854a76ce4ac66",
+      "lemma": "participate",
+      "pos": "v.",
+      "sense_zh": "参加",
+      "sentence_ids": [
+        "p06-a-08-s02"
+      ],
+      "forms": [
+        "participate"
+      ],
+      "sense_id": "sense-staged-ox-1cf854a76ce4ac66-p06-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-01e9a1b119e0b84c",
+      "lemma": "possibly",
+      "pos": "adv.",
+      "sense_zh": "可能",
+      "sentence_ids": [
+        "p06-a-08-s03"
+      ],
+      "forms": [
+        "possibly"
+      ],
+      "sense_id": "sense-staged-ox-01e9a1b119e0b84c-p06-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f912c0f56616b040",
+      "lemma": "prepared",
+      "pos": "adj.",
+      "sense_zh": "准备好的",
+      "sentence_ids": [
+        "p06-a-08-s04"
+      ],
+      "forms": [
+        "prepared"
+      ],
+      "sense_id": "sense-staged-ox-f912c0f56616b040-p06-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6fb777f61629ccb2",
+      "lemma": "planning",
+      "pos": "n.",
+      "sense_zh": "筹划工作",
+      "sentence_ids": [
+        "p06-a-08-s05"
+      ],
+      "forms": [
+        "planning"
+      ],
+      "sense_id": "sense-staged-ox-6fb777f61629ccb2-p06-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6a98ba6fa69f22bf",
+      "lemma": "organized",
+      "pos": "adj.",
+      "sense_zh": "做事有条理的",
+      "sentence_ids": [
+        "p06-a-08-s06"
+      ],
+      "forms": [
+        "organized"
+      ],
+      "sense_id": "sense-staged-ox-6a98ba6fa69f22bf-p06-a-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

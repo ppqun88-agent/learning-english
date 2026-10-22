@@ -1,0 +1,84 @@
+{
+  "id": "p06-b-25",
+  "title_zh": "先检查轮胎再决定是否更换",
+  "topic_id": "services",
+  "scenario": {
+    "id": "garage-tire-assessment-request",
+    "label_zh": "预约检查汽车轮胎",
+    "goal_zh": "说明轮胎漏气现象并约定检查后再决定修补或更换"
+  },
+  "participants": [
+    "Wes",
+    "Garage Receptionist"
+  ],
+  "context_zh": "韦斯已把汽车停在维修店外，轮胎反复漏气，他想先确认能否检查而不是直接购买新胎。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-25-s01",
+      "speaker": "Wes",
+      "text": "My front tire keeps losing air overnight. The car is outside. Can someone check it today?"
+    },
+    {
+      "id": "p06-b-25-s02",
+      "speaker": "Garage Receptionist",
+      "text": "We can inspect it at two this afternoon. Have you noticed any damage?"
+    },
+    {
+      "id": "p06-b-25-s03",
+      "speaker": "Wes",
+      "text": "No, and I only bought it last month. Surely I don't need a new one already?"
+    },
+    {
+      "id": "p06-b-25-s04",
+      "speaker": "Garage Receptionist",
+      "text": "We can't tell until we've examined it. We'll call you with the findings and a price before doing any repairs."
+    },
+    {
+      "id": "p06-b-25-s05",
+      "speaker": "Wes",
+      "text": "That's fine. Please book the inspection for two. I'll leave the keys with you."
+    },
+    {
+      "id": "p06-b-25-s06",
+      "speaker": "Garage Receptionist",
+      "text": "Thank you. I'll put it on the schedule and make sure the mechanic knows to call first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-15c055d3dfe965e6",
+      "lemma": "tire",
+      "pos": "n.",
+      "sense_zh": "汽车轮胎（美式拼写）",
+      "sentence_ids": [
+        "p06-b-25-s01"
+      ],
+      "forms": [
+        "tire"
+      ],
+      "sense_id": "sense-staged-ox-15c055d3dfe965e6-p06-b-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9f3b5867b5b1efd0",
+      "lemma": "surely",
+      "pos": "adv.",
+      "sense_zh": "表示相信某事应当如此并寻求认同",
+      "sentence_ids": [
+        "p06-b-25-s03"
+      ],
+      "forms": [
+        "surely"
+      ],
+      "sense_id": "sense-staged-ox-9f3b5867b5b1efd0-p06-b-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p06-c-23",
+  "title_zh": "移开纸张并吸干桌上清水",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-water-spill-cleanup",
+    "label_zh": "清理课堂桌面泼水",
+    "goal_zh": "把学习材料移离积水并分工吸干桌面后继续课堂活动"
+  },
+  "participants": [
+    "Student Rosa",
+    "Teacher Chen"
+  ],
+  "context_zh": "罗莎在手工课桌面打翻一杯清水，桌上没有电器，老师协助她保护纸模型并清理。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-23-s01",
+      "speaker": "Student Rosa",
+      "text": "My desk is an absolute mess. I have knocked water over the paper models."
+    },
+    {
+      "id": "p06-c-23-s02",
+      "speaker": "Teacher Chen",
+      "text": "Put the dry models aside on this tray first. I will lift the wet sheet off the table."
+    },
+    {
+      "id": "p06-c-23-s03",
+      "speaker": "Student Rosa",
+      "text": "Shall I wipe it up with some paper?"
+    },
+    {
+      "id": "p06-c-23-s04",
+      "speaker": "Teacher Chen",
+      "text": "Use this cloth to absorb the puddle instead. Then we can see which sheets need replacing."
+    },
+    {
+      "id": "p06-c-23-s05",
+      "speaker": "Student Rosa",
+      "text": "The table is dry now, and these three models were not touched. I only need one new sheet."
+    },
+    {
+      "id": "p06-c-23-s06",
+      "speaker": "Teacher Chen",
+      "text": "Here you are. Keep the cup on the separate shelf while you finish."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3d69bee6fb43fa77",
+      "lemma": "absolute",
+      "pos": "adj.",
+      "sense_zh": "完全的，十足的；用于加强语气",
+      "sentence_ids": [
+        "p06-c-23-s01"
+      ],
+      "forms": [
+        "absolute"
+      ],
+      "sense_id": "sense-staged-ox-3d69bee6fb43fa77-p06-c-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30c2f786c9c5f945",
+      "lemma": "aside",
+      "pos": "adv.",
+      "sense_zh": "到一旁",
+      "sentence_ids": [
+        "p06-c-23-s02"
+      ],
+      "forms": [
+        "aside"
+      ],
+      "sense_id": "sense-staged-ox-30c2f786c9c5f945-p06-c-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-127a24710464c2c0",
+      "lemma": "absorb",
+      "pos": "v.",
+      "sense_zh": "吸收液体",
+      "sentence_ids": [
+        "p06-c-23-s04"
+      ],
+      "forms": [
+        "absorb"
+      ],
+      "sense_id": "sense-staged-ox-127a24710464c2c0-p06-c-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,189 @@
+{
+  "id": "p06-c-14",
+  "title_zh": "核对总价和取消条件后预订课程住宿",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "course-stay-price-and-arrival",
+    "label_zh": "核对短期课程住宿并预订",
+    "goal_zh": "比较住宿总价，核对取消条款和抵达时间后确认预订"
+  },
+  "participants": [
+    "Petra",
+    "Host Daniel"
+  ],
+  "context_zh": "佩特拉准备参加短期课程，向住宿接待员丹尼尔比较两种四晚住宿方案。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-14-s01",
+      "speaker": "Petra",
+      "text": "Could you tell me whether the course rate includes breakfast?"
+    },
+    {
+      "id": "p06-c-14-s02",
+      "speaker": "Host Daniel",
+      "text": "The room-only rate is fifty pounds a night. Breakfast costs an additional eight pounds each morning. Our breakfast package is fifty-five pounds a night."
+    },
+    {
+      "id": "p06-c-14-s03",
+      "speaker": "Petra",
+      "text": "Four nights with breakfast added separately would be two hundred and thirty-two pounds, then. The package would be two hundred and twenty for the same stay?"
+    },
+    {
+      "id": "p06-c-14-s04",
+      "speaker": "Host Daniel",
+      "text": "Correct. Additionally, that package includes the evening shuttle back from the college. There are no other fees."
+    },
+    {
+      "id": "p06-c-14-s05",
+      "speaker": "Petra",
+      "text": "That total is acceptable. Do I have to pay in advance?"
+    },
+    {
+      "id": "p06-c-14-s06",
+      "speaker": "Host Daniel",
+      "text": "No. Payment is due upon arrival. You can cancel without a charge until noon two days before arrival; after that, the first night is charged."
+    },
+    {
+      "id": "p06-c-14-s07",
+      "speaker": "Petra",
+      "text": "I arrive on Monday the twelfth, probably around nine in the evening. Is that too late?"
+    },
+    {
+      "id": "p06-c-14-s08",
+      "speaker": "Host Daniel",
+      "text": "No, our reception is open until ten. Would you like the package for four nights from that Monday?"
+    },
+    {
+      "id": "p06-c-14-s09",
+      "speaker": "Petra",
+      "text": "Yes, please book it under Petra Novak. I understand the cancellation charge."
+    },
+    {
+      "id": "p06-c-14-s10",
+      "speaker": "Host Daniel",
+      "text": "It is booked. I will email the written confirmation with the dates, total, and cancellation terms."
+    },
+    {
+      "id": "p06-c-14-s11",
+      "speaker": "Petra",
+      "text": "Thank you. I will check the email and let you know if my arrival time changes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1e462dabd7cbd9d6",
+      "lemma": "whether",
+      "pos": "conj.",
+      "sense_zh": "是否",
+      "sentence_ids": [
+        "p06-c-14-s01"
+      ],
+      "forms": [
+        "whether"
+      ],
+      "sense_id": "sense-staged-ox-1e462dabd7cbd9d6-p06-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b87038d8b40ffc54",
+      "lemma": "additional",
+      "pos": "adj.",
+      "sense_zh": "额外的，附加的",
+      "sentence_ids": [
+        "p06-c-14-s02"
+      ],
+      "forms": [
+        "additional"
+      ],
+      "sense_id": "sense-staged-ox-b87038d8b40ffc54-p06-c-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c3b41f3e37f6b36f",
+      "lemma": "additionally",
+      "pos": "adv.",
+      "sense_zh": "此外",
+      "sentence_ids": [
+        "p06-c-14-s04"
+      ],
+      "forms": [
+        "additionally"
+      ],
+      "sense_id": "sense-staged-ox-c3b41f3e37f6b36f-p06-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a30756592a08e8a1",
+      "lemma": "acceptable",
+      "pos": "adj.",
+      "sense_zh": "可接受的",
+      "sentence_ids": [
+        "p06-c-14-s05"
+      ],
+      "forms": [
+        "acceptable"
+      ],
+      "sense_id": "sense-staged-ox-a30756592a08e8a1-p06-c-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17382997464b3c0f",
+      "lemma": "advance",
+      "pos": "n.",
+      "sense_zh": "预先，提前；用于 in advance",
+      "sentence_ids": [
+        "p06-c-14-s05"
+      ],
+      "forms": [
+        "advance"
+      ],
+      "sense_id": "sense-staged-ox-17382997464b3c0f-p06-c-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-40b00ec58a559eb5",
+      "lemma": "upon",
+      "pos": "prep.",
+      "sense_zh": "在某事发生时",
+      "sentence_ids": [
+        "p06-c-14-s06"
+      ],
+      "forms": [
+        "upon"
+      ],
+      "sense_id": "sense-staged-ox-40b00ec58a559eb5-p06-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8b0552a4f251864a",
+      "lemma": "written",
+      "pos": "adj.",
+      "sense_zh": "书面的",
+      "sentence_ids": [
+        "p06-c-14-s10"
+      ],
+      "forms": [
+        "written"
+      ],
+      "sense_id": "sense-staged-ox-8b0552a4f251864a-p06-c-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

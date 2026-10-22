@@ -1,0 +1,126 @@
+{
+  "id": "p06-a-21",
+  "title_zh": "重返骑行先参加短程休闲组",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "cycling-club-return-plan",
+    "label_zh": "商定重返骑行的非竞赛体验",
+    "goal_zh": "澄清俱乐部有休闲路线，并约定先参加一次短程活动和在起点会合"
+  },
+  "participants": [
+    "Arun",
+    "Beth"
+  ],
+  "context_zh": "阿伦多年后想恢复骑行，向朋友贝丝询问俱乐部是否只有竞赛活动。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-21-s01",
+      "speaker": "Arun",
+      "text": "Does your club only do racing? I would like to ride again, but not against a clock."
+    },
+    {
+      "id": "p06-a-21-s02",
+      "speaker": "Beth",
+      "text": "No. Our Sunday group stops for coffee and waits for everyone at each turn."
+    },
+    {
+      "id": "p06-a-21-s03",
+      "speaker": "Arun",
+      "text": "I used to cycle regularly. Now I rarely get the bike out, so I am worried I will slow you down."
+    },
+    {
+      "id": "p06-a-21-s04",
+      "speaker": "Beth",
+      "text": "Come for the short route first. There is no prize for finishing before anyone else."
+    },
+    {
+      "id": "p06-a-21-s05",
+      "speaker": "Arun",
+      "text": "I would be proud of myself just for getting back on the bike. How far is the short route?"
+    },
+    {
+      "id": "p06-a-21-s06",
+      "speaker": "Beth",
+      "text": "Five miles, with a stop halfway. You can try it once without joining the club."
+    },
+    {
+      "id": "p06-a-21-s07",
+      "speaker": "Arun",
+      "text": "That sounds manageable. I will meet the short-route group this Sunday."
+    },
+    {
+      "id": "p06-a-21-s08",
+      "speaker": "Beth",
+      "text": "Great. I will wait with you at the start and introduce you to the ride leader."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c463fbe103105bc2",
+      "lemma": "racing",
+      "pos": "n.",
+      "sense_zh": "竞速比赛",
+      "sentence_ids": [
+        "p06-a-21-s01"
+      ],
+      "forms": [
+        "racing"
+      ],
+      "sense_id": "sense-staged-ox-c463fbe103105bc2-p06-a-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8e48d4b933d9b4fc",
+      "lemma": "regularly",
+      "pos": "adv.",
+      "sense_zh": "经常；有规律地",
+      "sentence_ids": [
+        "p06-a-21-s03"
+      ],
+      "forms": [
+        "regularly"
+      ],
+      "sense_id": "sense-staged-ox-8e48d4b933d9b4fc-p06-a-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6757f868c6b313f0",
+      "lemma": "rarely",
+      "pos": "adv.",
+      "sense_zh": "很少",
+      "sentence_ids": [
+        "p06-a-21-s03"
+      ],
+      "forms": [
+        "rarely"
+      ],
+      "sense_id": "sense-staged-ox-6757f868c6b313f0-p06-a-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a27a6e633596d36b",
+      "lemma": "proud",
+      "pos": "adj.",
+      "sense_zh": "自豪的",
+      "sentence_ids": [
+        "p06-a-21-s05"
+      ],
+      "forms": [
+        "proud"
+      ],
+      "sense_id": "sense-staged-ox-a27a6e633596d36b-p06-a-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p06-b-22",
+  "title_zh": "挑选舒适的保暖内搭",
+  "topic_id": "services",
+  "scenario": {
+    "id": "walking-clothes-layer-choice",
+    "label_zh": "选择舒适的徒步内搭",
+    "goal_zh": "说明试穿不适并改选宽松款，暂不购买不必要的衣物"
+  },
+  "participants": [
+    "Nico",
+    "Outdoor Shop Assistant"
+  ],
+  "context_zh": "尼科在户外用品店选择徒步时穿的保暖内搭，已按店内要求试穿，并询问是否还需要配套上衣。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-22-s01",
+      "speaker": "Nico",
+      "text": "I'm looking for thermal underwear, but these long johns feel tight around the waist."
+    },
+    {
+      "id": "p06-b-22-s02",
+      "speaker": "Outdoor Shop Assistant",
+      "text": "We have the same style one size larger. Would you like to try those?"
+    },
+    {
+      "id": "p06-b-22-s03",
+      "speaker": "Nico",
+      "text": "Please. This pair is too uncomfortable to wear all day."
+    },
+    {
+      "id": "p06-b-22-s04",
+      "speaker": "Outdoor Shop Assistant",
+      "text": "Here you are. The fitting room is still free."
+    },
+    {
+      "id": "p06-b-22-s05",
+      "speaker": "Nico",
+      "text": "These feel totally different. I can sit down comfortably now. Do I need the matching top as well?"
+    },
+    {
+      "id": "p06-b-22-s06",
+      "speaker": "Outdoor Shop Assistant",
+      "text": "You said you already have a warm base layer for your upper body. Another one may be unnecessary."
+    },
+    {
+      "id": "p06-b-22-s07",
+      "speaker": "Nico",
+      "text": "Then I'll just take the larger long johns and use the top I already own."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a506309b74c9a78b",
+      "lemma": "underwear",
+      "pos": "n.",
+      "sense_zh": "内衣",
+      "sentence_ids": [
+        "p06-b-22-s01"
+      ],
+      "forms": [
+        "underwear"
+      ],
+      "sense_id": "sense-staged-ox-a506309b74c9a78b-p06-b-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9fa5f0d0dae2ba87",
+      "lemma": "tight",
+      "pos": "adj.",
+      "sense_zh": "紧的",
+      "sentence_ids": [
+        "p06-b-22-s01"
+      ],
+      "forms": [
+        "tight"
+      ],
+      "sense_id": "sense-staged-ox-9fa5f0d0dae2ba87-p06-b-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db0c2093cbcd5538",
+      "lemma": "uncomfortable",
+      "pos": "adj.",
+      "sense_zh": "穿着不舒服的",
+      "sentence_ids": [
+        "p06-b-22-s03"
+      ],
+      "forms": [
+        "uncomfortable"
+      ],
+      "sense_id": "sense-staged-ox-db0c2093cbcd5538-p06-b-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-963a1906c7d8a1ab",
+      "lemma": "totally",
+      "pos": "adv.",
+      "sense_zh": "完全地",
+      "sentence_ids": [
+        "p06-b-22-s05"
+      ],
+      "forms": [
+        "totally"
+      ],
+      "sense_id": "sense-staged-ox-963a1906c7d8a1ab-p06-b-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51058593f2fc7aed",
+      "lemma": "unnecessary",
+      "pos": "adj.",
+      "sense_zh": "不必要的",
+      "sentence_ids": [
+        "p06-b-22-s06"
+      ],
+      "forms": [
+        "unnecessary"
+      ],
+      "sense_id": "sense-staged-ox-51058593f2fc7aed-p06-b-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

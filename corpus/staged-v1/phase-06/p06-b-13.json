@@ -1,0 +1,190 @@
+{
+  "id": "p06-b-13",
+  "title_zh": "分清手工材料并安排标签整理",
+  "topic_id": "community",
+  "scenario": {
+    "id": "craft-room-storage-sort",
+    "label_zh": "整理活动室手工材料",
+    "goal_zh": "区分材料归属和用途，商定存放及标签方式"
+  },
+  "participants": [
+    "Tessa",
+    "Omar"
+  ],
+  "context_zh": "两名社区中心志愿者整理共用手工活动室，需要把另一个小组的用品和本组材料分开。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-13-s01",
+      "speaker": "Tessa",
+      "text": "Is this set of brushes ours, or does it belong to the painting group?"
+    },
+    {
+      "id": "p06-b-13-s02",
+      "speaker": "Omar",
+      "text": "It's theirs. Our stuff is in the two boxes by the door."
+    },
+    {
+      "id": "p06-b-13-s03",
+      "speaker": "Tessa",
+      "text": "Then I'll leave their brushes on the top shelf. What should I do with this string?"
+    },
+    {
+      "id": "p06-b-13-s04",
+      "speaker": "Omar",
+      "text": "Keep it for making gift tags. There's a tin with spare scissors in the blue box; the string can go in there too."
+    },
+    {
+      "id": "p06-b-13-s05",
+      "speaker": "Tessa",
+      "text": "Found it. We've also got three partly used rolls of tape."
+    },
+    {
+      "id": "p06-b-13-s06",
+      "speaker": "Omar",
+      "text": "Put them together in the shallow tray, so we can finish those before opening a new roll."
+    },
+    {
+      "id": "p06-b-13-s07",
+      "speaker": "Tessa",
+      "text": "I'll stick a label on each container. That should stop us borrowing the other group's supplies by mistake."
+    },
+    {
+      "id": "p06-b-13-s08",
+      "speaker": "Omar",
+      "text": "Good idea. I'll put our two labelled boxes in the lower cupboard when you're done."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3546b663a76a7278",
+      "lemma": "set",
+      "pos": "n.",
+      "sense_zh": "一套物品",
+      "sentence_ids": [
+        "p06-b-13-s01"
+      ],
+      "forms": [
+        "set"
+      ],
+      "sense_id": "sense-staged-ox-3546b663a76a7278-p06-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-215fb25a47877bdf",
+      "lemma": "theirs",
+      "pos": "pron.",
+      "sense_zh": "他们的东西",
+      "sentence_ids": [
+        "p06-b-13-s02"
+      ],
+      "forms": [
+        "theirs"
+      ],
+      "sense_id": "sense-staged-ox-215fb25a47877bdf-p06-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17d978b27f6e35b9",
+      "lemma": "stuff",
+      "pos": "n.",
+      "sense_zh": "东西物品",
+      "sentence_ids": [
+        "p06-b-13-s02"
+      ],
+      "forms": [
+        "stuff"
+      ],
+      "sense_id": "sense-staged-ox-17d978b27f6e35b9-p06-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcc89d86244da06c",
+      "lemma": "shelf",
+      "pos": "n.",
+      "sense_zh": "架子",
+      "sentence_ids": [
+        "p06-b-13-s03"
+      ],
+      "forms": [
+        "shelf"
+      ],
+      "sense_id": "sense-staged-ox-bcc89d86244da06c-p06-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b46872617ceec24c",
+      "lemma": "string",
+      "pos": "n.",
+      "sense_zh": "细绳",
+      "sentence_ids": [
+        "p06-b-13-s03"
+      ],
+      "forms": [
+        "string"
+      ],
+      "sense_id": "sense-staged-ox-b46872617ceec24c-p06-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ca17010d07f88fe",
+      "lemma": "tin",
+      "pos": "n.",
+      "sense_zh": "金属收纳盒",
+      "sentence_ids": [
+        "p06-b-13-s04"
+      ],
+      "forms": [
+        "tin"
+      ],
+      "sense_id": "sense-staged-ox-2ca17010d07f88fe-p06-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-61ca7615873de3dc",
+      "lemma": "tape",
+      "pos": "n.",
+      "sense_zh": "胶带",
+      "sentence_ids": [
+        "p06-b-13-s05"
+      ],
+      "forms": [
+        "tape"
+      ],
+      "sense_id": "sense-staged-ox-61ca7615873de3dc-p06-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-86d497254ed25dfe",
+      "lemma": "stick",
+      "pos": "v.",
+      "sense_zh": "粘贴",
+      "sentence_ids": [
+        "p06-b-13-s07"
+      ],
+      "forms": [
+        "stick"
+      ],
+      "sense_id": "sense-staged-ox-86d497254ed25dfe-p06-b-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "id": "p06-c-19",
+  "title_zh": "缩短距离后继续练习击球",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-cricket-batting-practice",
+    "label_zh": "调整初学板球击球练习",
+    "goal_zh": "根据初学者遇到的困难改用更慢的近距离投球，并约定继续尝试"
+  },
+  "participants": [
+    "Ollie",
+    "Coach Farah"
+  ],
+  "context_zh": "奥利第一次参加板球体验，在多次没击中球后向教练法拉求助。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-19-s01",
+      "speaker": "Ollie",
+      "text": "I have barely touched the ball all morning. Maybe I am just not athletic enough for this."
+    },
+    {
+      "id": "p06-c-19-s02",
+      "speaker": "Coach Farah",
+      "text": "You are learning a new movement. Let me see how you are holding the bat."
+    },
+    {
+      "id": "p06-c-19-s03",
+      "speaker": "Ollie",
+      "text": "Like this. Should I stand closer?"
+    },
+    {
+      "id": "p06-c-19-s04",
+      "speaker": "Coach Farah",
+      "text": "Stay on that mark. I will move closer and send the ball more slowly so you have time to watch it."
+    },
+    {
+      "id": "p06-c-19-s05",
+      "speaker": "Ollie",
+      "text": "All right. I will have one more attempt before the break."
+    },
+    {
+      "id": "p06-c-19-s06",
+      "speaker": "Coach Farah",
+      "text": "Good. You do not have to abandon the whole activity because the first few tries were difficult."
+    },
+    {
+      "id": "p06-c-19-s07",
+      "speaker": "Ollie",
+      "text": "That slower ball was easier to follow. Could we do the same thing again?"
+    },
+    {
+      "id": "p06-c-19-s08",
+      "speaker": "Coach Farah",
+      "text": "Yes. We will keep this distance for a few more tries."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b7f61db029c97218",
+      "lemma": "barely",
+      "pos": "adv.",
+      "sense_zh": "几乎不，勉强",
+      "sentence_ids": [
+        "p06-c-19-s01"
+      ],
+      "forms": [
+        "barely"
+      ],
+      "sense_id": "sense-staged-ox-b7f61db029c97218-p06-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c308d8be7b80605b",
+      "lemma": "athletic",
+      "pos": "adj.",
+      "sense_zh": "擅长运动的",
+      "sentence_ids": [
+        "p06-c-19-s01"
+      ],
+      "forms": [
+        "athletic"
+      ],
+      "sense_id": "sense-staged-ox-c308d8be7b80605b-p06-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f73f34762eb0d7ca",
+      "lemma": "bat",
+      "pos": "n.",
+      "sense_zh": "球拍或击球用球棒",
+      "sentence_ids": [
+        "p06-c-19-s02"
+      ],
+      "forms": [
+        "bat"
+      ],
+      "sense_id": "sense-staged-ox-f73f34762eb0d7ca-p06-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a3937944981eea29",
+      "lemma": "attempt",
+      "pos": "n.",
+      "sense_zh": "尝试",
+      "sentence_ids": [
+        "p06-c-19-s05"
+      ],
+      "forms": [
+        "attempt"
+      ],
+      "sense_id": "sense-staged-ox-a3937944981eea29-p06-c-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7feb8d51b7482c3f",
+      "lemma": "abandon",
+      "pos": "v.",
+      "sense_zh": "放弃某项活动或打算",
+      "sentence_ids": [
+        "p06-c-19-s06"
+      ],
+      "forms": [
+        "abandon"
+      ],
+      "sense_id": "sense-staged-ox-7feb8d51b7482c3f-p06-c-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

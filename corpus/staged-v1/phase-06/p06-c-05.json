@@ -1,0 +1,105 @@
+{
+  "id": "p06-c-05",
+  "title_zh": "约好改短羊毛外套袖子",
+  "topic_id": "services",
+  "scenario": {
+    "id": "wool-coat-alteration-plan",
+    "label_zh": "约定外套改尺寸",
+    "goal_zh": "根据试穿结果确定外套袖长的调整并约好取件"
+  },
+  "participants": [
+    "Inez",
+    "Paul"
+  ],
+  "context_zh": "伊内兹带着过长的羊毛外套到裁缝店，请裁缝保罗评估袖长。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-05-s01",
+      "speaker": "Inez",
+      "text": "Can you alter this wool coat? The sleeves cover half my hands."
+    },
+    {
+      "id": "p06-c-05-s02",
+      "speaker": "Paul",
+      "text": "Certainly. Put it on, and I will mark the length with pins."
+    },
+    {
+      "id": "p06-c-05-s03",
+      "speaker": "Inez",
+      "text": "Could you adjust the left sleeve a little more? It still feels longer than the right one."
+    },
+    {
+      "id": "p06-c-05-s04",
+      "speaker": "Paul",
+      "text": "Try lowering both arms. How does it feel now?"
+    },
+    {
+      "id": "p06-c-05-s05",
+      "speaker": "Inez",
+      "text": "Much better. Please keep them at the lengths you have marked."
+    },
+    {
+      "id": "p06-c-05-s06",
+      "speaker": "Paul",
+      "text": "I can have it ready on Friday afternoon. The work will cost twenty pounds."
+    },
+    {
+      "id": "p06-c-05-s07",
+      "speaker": "Inez",
+      "text": "That is fine. I will come after three on Friday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2dd25d0bbb3fa8c4",
+      "lemma": "alter",
+      "pos": "v.",
+      "sense_zh": "改动衣服使其合身",
+      "sentence_ids": [
+        "p06-c-05-s01"
+      ],
+      "forms": [
+        "alter"
+      ],
+      "sense_id": "sense-staged-ox-2dd25d0bbb3fa8c4-p06-c-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3b13105e815dfe80",
+      "lemma": "wool",
+      "pos": "n.",
+      "sense_zh": "羊毛",
+      "sentence_ids": [
+        "p06-c-05-s01"
+      ],
+      "forms": [
+        "wool"
+      ],
+      "sense_id": "sense-staged-ox-3b13105e815dfe80-p06-c-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c7e592f65bffe985",
+      "lemma": "adjust",
+      "pos": "v.",
+      "sense_zh": "稍微调整",
+      "sentence_ids": [
+        "p06-c-05-s03"
+      ],
+      "forms": [
+        "adjust"
+      ],
+      "sense_id": "sense-staged-ox-c7e592f65bffe985-p06-c-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

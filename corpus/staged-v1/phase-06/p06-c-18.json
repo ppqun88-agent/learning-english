@@ -1,0 +1,142 @@
+{
+  "id": "p06-c-18",
+  "title_zh": "安排救助物资的临时存放和称重",
+  "topic_id": "community",
+  "scenario": {
+    "id": "flood-supply-sorting",
+    "label_zh": "分配洪水救助物资整理工作",
+    "goal_zh": "确认临时物资间和大件捐赠物的安放位置"
+  },
+  "participants": [
+    "Coordinator Pilar",
+    "Helper Dan"
+  ],
+  "context_zh": "洪水退去后，未受淹的山上社区中心整理捐赠物资，负责人向新帮手说明存放安排。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-18-s01",
+      "speaker": "Coordinator Pilar",
+      "text": "We are using the dry basement as a temporary store. There is adequate space there for the boxes, but leave the stairs clear."
+    },
+    {
+      "id": "p06-c-18-s02",
+      "speaker": "Helper Dan",
+      "text": "What about the donated tables outside? They will not fit through the stairwell."
+    },
+    {
+      "id": "p06-c-18-s03",
+      "speaker": "Coordinator Pilar",
+      "text": "Keep those in the ground-floor hall. The collection team will take them directly from there."
+    },
+    {
+      "id": "p06-c-18-s04",
+      "speaker": "Helper Dan",
+      "text": "Are these food boxes adequately labelled? I can see the contents, but not the dates."
+    },
+    {
+      "id": "p06-c-18-s05",
+      "speaker": "Coordinator Pilar",
+      "text": "Not yet. Put them aside for the team checking dates. For now, could you weigh this basket of blankets?"
+    },
+    {
+      "id": "p06-c-18-s06",
+      "speaker": "Helper Dan",
+      "text": "Yes. The basket is too heavy for that small scale, though."
+    },
+    {
+      "id": "p06-c-18-s07",
+      "speaker": "Coordinator Pilar",
+      "text": "Use the trolley scale by the door. Then write the weight on the collection sheet."
+    },
+    {
+      "id": "p06-c-18-s08",
+      "speaker": "Helper Dan",
+      "text": "Understood. Tables stay in the hall, boxes await the date check, and I will start with the blankets."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f15dd8db49611a27",
+      "lemma": "basement",
+      "pos": "n.",
+      "sense_zh": "地下室",
+      "sentence_ids": [
+        "p06-c-18-s01"
+      ],
+      "forms": [
+        "basement"
+      ],
+      "sense_id": "sense-staged-ox-f15dd8db49611a27-p06-c-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4fc64664c1d9b1f4",
+      "lemma": "adequate",
+      "pos": "adj.",
+      "sense_zh": "足够的，能满足需要的",
+      "sentence_ids": [
+        "p06-c-18-s01"
+      ],
+      "forms": [
+        "adequate"
+      ],
+      "sense_id": "sense-staged-ox-4fc64664c1d9b1f4-p06-c-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-846d3ce96aa7a2b9",
+      "lemma": "adequately",
+      "pos": "adv.",
+      "sense_zh": "充分地，达到要求地",
+      "sentence_ids": [
+        "p06-c-18-s04"
+      ],
+      "forms": [
+        "adequately"
+      ],
+      "sense_id": "sense-staged-ox-846d3ce96aa7a2b9-p06-c-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d44c00bef6968857",
+      "lemma": "weigh",
+      "pos": "v.",
+      "sense_zh": "称重量",
+      "sentence_ids": [
+        "p06-c-18-s05"
+      ],
+      "forms": [
+        "weigh"
+      ],
+      "sense_id": "sense-staged-ox-d44c00bef6968857-p06-c-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1a7374e978b4a521",
+      "lemma": "basket",
+      "pos": "n.",
+      "sense_zh": "篮子",
+      "sentence_ids": [
+        "p06-c-18-s05"
+      ],
+      "forms": [
+        "basket"
+      ],
+      "sense_id": "sense-staged-ox-1a7374e978b4a521-p06-c-18",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

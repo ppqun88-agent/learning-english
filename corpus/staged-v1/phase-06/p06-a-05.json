@@ -1,0 +1,158 @@
+{
+  "id": "p06-a-05",
+  "title_zh": "选一条安静的观鸟步道",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "guided-bird-walk-route",
+    "label_zh": "选择安静的湖边观鸟路线",
+    "goal_zh": "按观鸟兴趣选定步道及停留位置，并确认不离开小径靠近鸟巢"
+  },
+  "participants": [
+    "Erin",
+    "Ben"
+  ],
+  "context_zh": "游客埃琳向自然公园向导本咨询短程观鸟路线。鸟种和公园场景为虚构。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-05-s01",
+      "speaker": "Erin",
+      "text": "I'd like to spend an hour outdoors, somewhere away from the playground."
+    },
+    {
+      "id": "p06-a-05-s02",
+      "speaker": "Ben",
+      "text": "Try the path along the northern edge of the lake. It is usually peaceful in the morning."
+    },
+    {
+      "id": "p06-a-05-s03",
+      "speaker": "Erin",
+      "text": "Are the small brown birds near that path native to this area?"
+    },
+    {
+      "id": "p06-a-05-s04",
+      "speaker": "Ben",
+      "text": "Yes. They nest here every spring. You might also see a rare visitor, but I would not count on it."
+    },
+    {
+      "id": "p06-a-05-s05",
+      "speaker": "Erin",
+      "text": "The ordinary lake birds are enough for me. Can I leave the path to get a closer photograph?"
+    },
+    {
+      "id": "p06-a-05-s06",
+      "speaker": "Ben",
+      "text": "Please stay on it and use your zoom. The reeds beside it contain nests."
+    },
+    {
+      "id": "p06-a-05-s07",
+      "speaker": "Erin",
+      "text": "Understood. I'll take the lake path and watch from a distance."
+    },
+    {
+      "id": "p06-a-05-s08",
+      "speaker": "Ben",
+      "text": "Here it is on the map. The bench halfway along gives you a clear view."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2ffe7a62fa082ca0",
+      "lemma": "outdoors",
+      "pos": "adv.",
+      "sense_zh": "在户外",
+      "sentence_ids": [
+        "p06-a-05-s01"
+      ],
+      "forms": [
+        "outdoors"
+      ],
+      "sense_id": "sense-staged-ox-2ffe7a62fa082ca0-p06-a-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b376a29ed2f1ef77",
+      "lemma": "path",
+      "pos": "n.",
+      "sense_zh": "小径",
+      "sentence_ids": [
+        "p06-a-05-s02"
+      ],
+      "forms": [
+        "path"
+      ],
+      "sense_id": "sense-staged-ox-b376a29ed2f1ef77-p06-a-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d23eb733d2e47806",
+      "lemma": "northern",
+      "pos": "adj.",
+      "sense_zh": "北部的",
+      "sentence_ids": [
+        "p06-a-05-s02"
+      ],
+      "forms": [
+        "northern"
+      ],
+      "sense_id": "sense-staged-ox-d23eb733d2e47806-p06-a-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-40f3fb40899db33d",
+      "lemma": "peaceful",
+      "pos": "adj.",
+      "sense_zh": "安静的",
+      "sentence_ids": [
+        "p06-a-05-s02"
+      ],
+      "forms": [
+        "peaceful"
+      ],
+      "sense_id": "sense-staged-ox-40f3fb40899db33d-p06-a-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ac2b0bae86a3f99",
+      "lemma": "native",
+      "pos": "adj.",
+      "sense_zh": "本地原生的",
+      "sentence_ids": [
+        "p06-a-05-s03"
+      ],
+      "forms": [
+        "native"
+      ],
+      "sense_id": "sense-staged-ox-0ac2b0bae86a3f99-p06-a-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5384cf9866a5974d",
+      "lemma": "rare",
+      "pos": "adj.",
+      "sense_zh": "罕见的",
+      "sentence_ids": [
+        "p06-a-05-s04"
+      ],
+      "forms": [
+        "rare"
+      ],
+      "sense_id": "sense-staged-ox-5384cf9866a5974d-p06-a-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

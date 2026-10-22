@@ -1,0 +1,89 @@
+{
+  "id": "p06-c-30",
+  "title_zh": "确认成人零基础也能参加芭蕾体验课",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-dance-enrolment",
+    "label_zh": "报名舞蹈社团体验课",
+    "goal_zh": "确认零基础参加者可以独自参加并约好首次到场时间"
+  },
+  "participants": [
+    "Visitor Ren",
+    "Instructor Celia"
+  ],
+  "context_zh": "任在社区舞蹈社团咨询成人初学者体验课，西莉娅是该班教师。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-30-s01",
+      "speaker": "Visitor Ren",
+      "text": "I always associate ballet with children who started very young. Is this class really for adult beginners?"
+    },
+    {
+      "id": "p06-c-30-s02",
+      "speaker": "Instructor Celia",
+      "text": "Yes. No previous dance experience is needed; we start with the simplest movements."
+    },
+    {
+      "id": "p06-c-30-s03",
+      "speaker": "Visitor Ren",
+      "text": "Can I come on my own? None of my friends wants to try it."
+    },
+    {
+      "id": "p06-c-30-s04",
+      "speaker": "Instructor Celia",
+      "text": "Absolutely. You do not need a partner. The next taster session is Friday at six."
+    },
+    {
+      "id": "p06-c-30-s05",
+      "speaker": "Visitor Ren",
+      "text": "Then I would like to join that session. What should I bring?"
+    },
+    {
+      "id": "p06-c-30-s06",
+      "speaker": "Instructor Celia",
+      "text": "Comfortable clothes and socks are enough for the first visit. Come to the main studio ten minutes early."
+    },
+    {
+      "id": "p06-c-30-s07",
+      "speaker": "Visitor Ren",
+      "text": "Great. I will be there at five fifty on Friday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2d379f4090ef6911",
+      "lemma": "associate",
+      "pos": "v.",
+      "sense_zh": "把某事物与另一事物联系起来",
+      "sentence_ids": [
+        "p06-c-30-s01"
+      ],
+      "forms": [
+        "associate"
+      ],
+      "sense_id": "sense-staged-ox-2d379f4090ef6911-p06-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51fa47580890b37d",
+      "lemma": "ballet",
+      "pos": "n.",
+      "sense_zh": "芭蕾舞",
+      "sentence_ids": [
+        "p06-c-30-s01"
+      ],
+      "forms": [
+        "ballet"
+      ],
+      "sense_id": "sense-staged-ox-51fa47580890b37d-p06-c-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

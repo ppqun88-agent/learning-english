@@ -1,0 +1,105 @@
+{
+  "id": "p06-c-25",
+  "title_zh": "确认农场参观的宠物和围栏规则",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "farm-visit-animal-rules",
+    "label_zh": "核对农场参观规则",
+    "goal_zh": "确认宠物限制并了解观赏牲畜的位置"
+  },
+  "participants": [
+    "Visitor Noor",
+    "Guide Peter"
+  ],
+  "context_zh": "学习农业的努尔到教学农场咨询周末参观安排，导览员彼得说明参观范围和动物区规则。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-25-s01",
+      "speaker": "Visitor Noor",
+      "text": "I am studying agriculture, and I would like to see your crop trial on Saturday."
+    },
+    {
+      "id": "p06-c-25-s02",
+      "speaker": "Guide Peter",
+      "text": "Of course. That field covers one acre, and the visitor path goes around its edge."
+    },
+    {
+      "id": "p06-c-25-s03",
+      "speaker": "Visitor Noor",
+      "text": "Can I bring my dog if I keep her on a lead?"
+    },
+    {
+      "id": "p06-c-25-s04",
+      "speaker": "Guide Peter",
+      "text": "I am afraid pets cannot enter the farm. The animal area is part of the same visitor route."
+    },
+    {
+      "id": "p06-c-25-s05",
+      "speaker": "Visitor Noor",
+      "text": "I will leave her at home. Where can visitors see the goats?"
+    },
+    {
+      "id": "p06-c-25-s06",
+      "speaker": "Guide Peter",
+      "text": "From the path behind the wooden barrier. Please stay on the visitor side and do not feed them."
+    },
+    {
+      "id": "p06-c-25-s07",
+      "speaker": "Visitor Noor",
+      "text": "Thanks. I will follow the marked path around the field and then look at the goats from there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cf4260f00cebaf37",
+      "lemma": "agriculture",
+      "pos": "n.",
+      "sense_zh": "农业",
+      "sentence_ids": [
+        "p06-c-25-s01"
+      ],
+      "forms": [
+        "agriculture"
+      ],
+      "sense_id": "sense-staged-ox-cf4260f00cebaf37-p06-c-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-49b738c0fb4aa45a",
+      "lemma": "acre",
+      "pos": "n.",
+      "sense_zh": "英亩，土地面积单位",
+      "sentence_ids": [
+        "p06-c-25-s02"
+      ],
+      "forms": [
+        "acre"
+      ],
+      "sense_id": "sense-staged-ox-49b738c0fb4aa45a-p06-c-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9ca5580648dc2259",
+      "lemma": "barrier",
+      "pos": "n.",
+      "sense_zh": "阻挡或分隔区域的围栏或障碍物",
+      "sentence_ids": [
+        "p06-c-25-s06"
+      ],
+      "forms": [
+        "barrier"
+      ],
+      "sense_id": "sense-staged-ox-9ca5580648dc2259-p06-c-25",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

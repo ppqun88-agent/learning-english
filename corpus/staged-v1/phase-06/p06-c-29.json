@@ -1,0 +1,89 @@
+{
+  "id": "p06-c-29",
+  "title_zh": "查明申请页面为何仍显示待补材料",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "course-application-status-inquiry",
+    "label_zh": "询问课程申请材料状态",
+    "goal_zh": "核对申请材料是否收到，澄清页面更新延迟与录取决定的区别"
+  },
+  "participants": [
+    "Applicant Tessa",
+    "Administrator Malik"
+  ],
+  "context_zh": "泰莎已上传课程申请附件，但界面仍显示缺少材料，她向课程行政人员马利克查询。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-29-s01",
+      "speaker": "Applicant Tessa",
+      "text": "I am an applicant for the evening design course. Apparently my portfolio is missing, but I uploaded it yesterday."
+    },
+    {
+      "id": "p06-c-29-s02",
+      "speaker": "Administrator Malik",
+      "text": "Let me check your record. What is your application number?"
+    },
+    {
+      "id": "p06-c-29-s03",
+      "speaker": "Applicant Tessa",
+      "text": "D forty-two. I also have an email confirming the upload."
+    },
+    {
+      "id": "p06-c-29-s04",
+      "speaker": "Administrator Malik",
+      "text": "I can see the file now. The status page has not updated yet; your materials are complete."
+    },
+    {
+      "id": "p06-c-29-s05",
+      "speaker": "Applicant Tessa",
+      "text": "Does that mean I have a place on the course?"
+    },
+    {
+      "id": "p06-c-29-s06",
+      "speaker": "Administrator Malik",
+      "text": "Not yet. The tutors still have to review the applications. You do not need to upload the file again."
+    },
+    {
+      "id": "p06-c-29-s07",
+      "speaker": "Applicant Tessa",
+      "text": "Thanks for checking. I will keep the receipt and wait for the review email."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c4262a904e3b1124",
+      "lemma": "applicant",
+      "pos": "n.",
+      "sense_zh": "申请人",
+      "sentence_ids": [
+        "p06-c-29-s01"
+      ],
+      "forms": [
+        "applicant"
+      ],
+      "sense_id": "sense-staged-ox-c4262a904e3b1124-p06-c-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3018c3979693deeb",
+      "lemma": "apparently",
+      "pos": "adv.",
+      "sense_zh": "根据所见或所得信息似乎如此",
+      "sentence_ids": [
+        "p06-c-29-s01"
+      ],
+      "forms": [
+        "apparently"
+      ],
+      "sense_id": "sense-staged-ox-3018c3979693deeb-p06-c-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

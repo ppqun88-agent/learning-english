@@ -1,0 +1,200 @@
+{
+  "id": "p06-b-15",
+  "title_zh": "调整反光并试拍产品短片",
+  "topic_id": "work",
+  "scenario": {
+    "id": "product-film-lighting-rehearsal",
+    "label_zh": "试拍产品短片的灯光与提示",
+    "goal_zh": "调整反光和拍摄提示，完成一次试拍并约定检查录音"
+  },
+  "participants": [
+    "Mae",
+    "Rafi"
+  ],
+  "context_zh": "摄影师梅和同事拉菲在小型摄影棚试拍水瓶短片，开拍前需要处理反光和讲话提示。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-15-s01",
+      "speaker": "Mae",
+      "text": "Can we keep the studio silent while we record? The microphone is picking up every conversation."
+    },
+    {
+      "id": "p06-b-15-s02",
+      "speaker": "Rafi",
+      "text": "I'll close the door. Are we ready to shoot?"
+    },
+    {
+      "id": "p06-b-15-s03",
+      "speaker": "Mae",
+      "text": "Almost. Don't shine the lamp straight at the bottle; that shiny label is reflecting the light into the camera."
+    },
+    {
+      "id": "p06-b-15-s04",
+      "speaker": "Rafi",
+      "text": "How about this angle? I can still read the name on the screen."
+    },
+    {
+      "id": "p06-b-15-s05",
+      "speaker": "Mae",
+      "text": "That's better. The script says you turn the bottle once and then put it down."
+    },
+    {
+      "id": "p06-b-15-s06",
+      "speaker": "Rafi",
+      "text": "Should I keep talking throughout the shot, even while I turn it?"
+    },
+    {
+      "id": "p06-b-15-s07",
+      "speaker": "Mae",
+      "text": "Yes. My raised hand will be your signal to begin, and I'll lower it when we have enough."
+    },
+    {
+      "id": "p06-b-15-s08",
+      "speaker": "Rafi",
+      "text": "Okay. Let's try one take."
+    },
+    {
+      "id": "p06-b-15-s09",
+      "speaker": "Mae",
+      "text": "That's recorded. The label stayed clear, but let's listen to the sound before we move anything."
+    },
+    {
+      "id": "p06-b-15-s10",
+      "speaker": "Rafi",
+      "text": "Good idea. I'll leave the bottle and lamp where they are."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5484d191de764d4b",
+      "lemma": "studio",
+      "pos": "n.",
+      "sense_zh": "摄影棚",
+      "sentence_ids": [
+        "p06-b-15-s01"
+      ],
+      "forms": [
+        "studio"
+      ],
+      "sense_id": "sense-staged-ox-5484d191de764d4b-p06-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e432d86b977f875",
+      "lemma": "silent",
+      "pos": "adj.",
+      "sense_zh": "安静无声的",
+      "sentence_ids": [
+        "p06-b-15-s01"
+      ],
+      "forms": [
+        "silent"
+      ],
+      "sense_id": "sense-staged-ox-3e432d86b977f875-p06-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f5ee7ad0aad1a99c",
+      "lemma": "shoot",
+      "pos": "v.",
+      "sense_zh": "拍摄",
+      "sentence_ids": [
+        "p06-b-15-s02"
+      ],
+      "forms": [
+        "shoot"
+      ],
+      "sense_id": "sense-staged-ox-f5ee7ad0aad1a99c-p06-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4e658708ee2c40df",
+      "lemma": "shine",
+      "pos": "v.",
+      "sense_zh": "把光照向",
+      "sentence_ids": [
+        "p06-b-15-s03"
+      ],
+      "forms": [
+        "shine"
+      ],
+      "sense_id": "sense-staged-ox-4e658708ee2c40df-p06-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0506684780843f44",
+      "lemma": "shiny",
+      "pos": "adj.",
+      "sense_zh": "有光泽的",
+      "sentence_ids": [
+        "p06-b-15-s03"
+      ],
+      "forms": [
+        "shiny"
+      ],
+      "sense_id": "sense-staged-ox-0506684780843f44-p06-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe27e01586e17489",
+      "lemma": "script",
+      "pos": "n.",
+      "sense_zh": "拍摄脚本",
+      "sentence_ids": [
+        "p06-b-15-s05"
+      ],
+      "forms": [
+        "script"
+      ],
+      "sense_id": "sense-staged-ox-fe27e01586e17489-p06-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-01dfef487202465d",
+      "lemma": "throughout",
+      "pos": "prep.",
+      "sense_zh": "在整个期间",
+      "sentence_ids": [
+        "p06-b-15-s06"
+      ],
+      "forms": [
+        "throughout"
+      ],
+      "sense_id": "sense-staged-ox-01dfef487202465d-p06-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c4487f20a3f0d82",
+      "lemma": "signal",
+      "pos": "n.",
+      "sense_zh": "动作提示信号",
+      "sentence_ids": [
+        "p06-b-15-s07"
+      ],
+      "forms": [
+        "signal"
+      ],
+      "sense_id": "sense-staged-ox-1c4487f20a3f0d82-p06-b-15",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

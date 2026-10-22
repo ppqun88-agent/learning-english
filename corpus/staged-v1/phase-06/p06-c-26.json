@@ -1,0 +1,58 @@
+{
+  "id": "p06-c-26",
+  "title_zh": "课后请朋友顺路送到街口",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "post-class-lift-request",
+    "label_zh": "课后请求搭车",
+    "goal_zh": "说明临时交通困难并与朋友确认顺路搭车及下车位置"
+  },
+  "participants": [
+    "Hugo",
+    "Zara"
+  ],
+  "context_zh": "晚课结束后雨果的汽车无法启动，他已经安排修车人员处理，想请同学扎拉顺路送他回去。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-26-s01",
+      "speaker": "Hugo",
+      "text": "Could I beg a favour? My car will not start, and the garage is collecting it in the morning."
+    },
+    {
+      "id": "p06-c-26-s02",
+      "speaker": "Zara",
+      "text": "Do you need a lift? I am going past your street."
+    },
+    {
+      "id": "p06-c-26-s03",
+      "speaker": "Hugo",
+      "text": "Yes, please. You can drop me at the corner; there is no need to turn into the narrow lane."
+    },
+    {
+      "id": "p06-c-26-s04",
+      "speaker": "Zara",
+      "text": "That works. Get your bag, and we can leave now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d963412e84f573f4",
+      "lemma": "beg",
+      "pos": "v.",
+      "sense_zh": "恳求，请求；此处为客气地请求帮忙",
+      "sentence_ids": [
+        "p06-c-26-s01"
+      ],
+      "forms": [
+        "beg"
+      ],
+      "sense_id": "sense-staged-ox-d963412e84f573f4-p06-c-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,163 @@
+{
+  "id": "p06-c-03",
+  "title_zh": "改看战后重建的纪录片一集",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "documentary-family-viewing-choice",
+    "label_zh": "选择适合共同观看的纪录片集数",
+    "goal_zh": "了解纪录片中的战争画面后改选没有战斗内容的集数。"
+  },
+  "participants": [
+    "Mara",
+    "Colin"
+  ],
+  "context_zh": "两位家长在家庭观影前查看战争纪录片的分集说明，希望避开战斗画面。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-03-s01",
+      "speaker": "Mara",
+      "text": "Could we watch this history series with Mia tonight?"
+    },
+    {
+      "id": "p06-c-03-s02",
+      "speaker": "Colin",
+      "text": "Maybe, but episode one follows the arms trade, including footage of armed groups."
+    },
+    {
+      "id": "p06-c-03-s03",
+      "speaker": "Mara",
+      "text": "Is there a content warning?"
+    },
+    {
+      "id": "p06-c-03-s04",
+      "speaker": "Colin",
+      "text": "Yes. It says there is a violent scene near the beginning."
+    },
+    {
+      "id": "p06-c-03-s05",
+      "speaker": "Mara",
+      "text": "That does not sound suitable for a young viewer. What about episode three?"
+    },
+    {
+      "id": "p06-c-03-s06",
+      "speaker": "Colin",
+      "text": "That one follows a school being rebuilt after the war. I watched it yesterday; there are no battle scenes."
+    },
+    {
+      "id": "p06-c-03-s07",
+      "speaker": "Mara",
+      "text": "Does anyone fire a weapon in it? Even a brief scene would bother her."
+    },
+    {
+      "id": "p06-c-03-s08",
+      "speaker": "Colin",
+      "text": "No. It focuses on the teachers and the children returning to class."
+    },
+    {
+      "id": "p06-c-03-s09",
+      "speaker": "Mara",
+      "text": "Then let us watch episode three together and leave the first one for another evening."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-16505a4650cf28f5",
+      "lemma": "arms",
+      "pos": "n.",
+      "sense_zh": "武器，军火",
+      "sentence_ids": [
+        "p06-c-03-s02"
+      ],
+      "forms": [
+        "arms"
+      ],
+      "sense_id": "sense-staged-ox-16505a4650cf28f5-p06-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b5af60c22c0c6dd3",
+      "lemma": "armed",
+      "pos": "adj.",
+      "sense_zh": "携带武器的",
+      "sentence_ids": [
+        "p06-c-03-s02"
+      ],
+      "forms": [
+        "armed"
+      ],
+      "sense_id": "sense-staged-ox-b5af60c22c0c6dd3-p06-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c236b479e341aae0",
+      "lemma": "warning",
+      "pos": "n.",
+      "sense_zh": "提醒危险或不适内容的警告",
+      "sentence_ids": [
+        "p06-c-03-s03"
+      ],
+      "forms": [
+        "warning"
+      ],
+      "sense_id": "sense-staged-ox-c236b479e341aae0-p06-c-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ee11b7902befa6c3",
+      "lemma": "violent",
+      "pos": "adj.",
+      "sense_zh": "包含暴力行为的",
+      "sentence_ids": [
+        "p06-c-03-s04"
+      ],
+      "forms": [
+        "violent"
+      ],
+      "sense_id": "sense-staged-ox-ee11b7902befa6c3-p06-c-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45895a82a1585388",
+      "lemma": "viewer",
+      "pos": "n.",
+      "sense_zh": "电视或影片观众",
+      "sentence_ids": [
+        "p06-c-03-s05"
+      ],
+      "forms": [
+        "viewer"
+      ],
+      "sense_id": "sense-staged-ox-45895a82a1585388-p06-c-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2077222b88513114",
+      "lemma": "weapon",
+      "pos": "n.",
+      "sense_zh": "武器",
+      "sentence_ids": [
+        "p06-c-03-s07"
+      ],
+      "forms": [
+        "weapon"
+      ],
+      "sense_id": "sense-staged-ox-2077222b88513114-p06-c-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

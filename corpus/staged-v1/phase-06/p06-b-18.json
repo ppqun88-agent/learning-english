@@ -1,0 +1,137 @@
+{
+  "id": "p06-b-18",
+  "title_zh": "索取五十英镑预算内的印刷报价",
+  "topic_id": "services",
+  "scenario": {
+    "id": "printing-quote-scope-request",
+    "label_zh": "索取预算内的印刷报价",
+    "goal_zh": "说明印刷需求及含税预算，约定店员发送完整报价"
+  },
+  "participants": [
+    "Sonia",
+    "Print Shop Owner"
+  ],
+  "context_zh": "索尼娅为社区活动询问少量传单印刷，先说明数量、印制要求和含税预算，不在此时下单。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-18-s01",
+      "speaker": "Sonia",
+      "text": "Do you specialize in small print runs? I only need eighty leaflets."
+    },
+    {
+      "id": "p06-b-18-s02",
+      "speaker": "Print Shop Owner",
+      "text": "We do. What sort of paper and printing do you need?"
+    },
+    {
+      "id": "p06-b-18-s03",
+      "speaker": "Sonia",
+      "text": "Specifically, I'd like colour on the front and plain text on the back. Ordinary paper is fine."
+    },
+    {
+      "id": "p06-b-18-s04",
+      "speaker": "Print Shop Owner",
+      "text": "Do you have a spending limit?"
+    },
+    {
+      "id": "p06-b-18-s05",
+      "speaker": "Sonia",
+      "text": "My total budget is fifty pounds, including tax. I can collect them, so there's no delivery charge to add."
+    },
+    {
+      "id": "p06-b-18-s06",
+      "speaker": "Print Shop Owner",
+      "text": "Send me the file and I'll email a full quote. I won't start printing until you approve it."
+    },
+    {
+      "id": "p06-b-18-s07",
+      "speaker": "Sonia",
+      "text": "Thanks. I'll send the file today and wait for the quote before making a decision."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-61ac2fe1b86428da",
+      "lemma": "specialize",
+      "pos": "v.",
+      "sense_zh": "专门从事",
+      "sentence_ids": [
+        "p06-b-18-s01"
+      ],
+      "forms": [
+        "specialize"
+      ],
+      "sense_id": "sense-staged-ox-61ac2fe1b86428da-p06-b-18",
+      "cefr": "B1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5570d80d2cecd0db",
+      "lemma": "specifically",
+      "pos": "adv.",
+      "sense_zh": "具体来说",
+      "sentence_ids": [
+        "p06-b-18-s03"
+      ],
+      "forms": [
+        "specifically"
+      ],
+      "sense_id": "sense-staged-ox-5570d80d2cecd0db-p06-b-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-85abc4cc18e83d63",
+      "lemma": "spending",
+      "pos": "n.",
+      "sense_zh": "开支",
+      "sentence_ids": [
+        "p06-b-18-s04"
+      ],
+      "forms": [
+        "spending"
+      ],
+      "sense_id": "sense-staged-ox-85abc4cc18e83d63-p06-b-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0574ef158c6c87ac",
+      "lemma": "total",
+      "pos": "adj.",
+      "sense_zh": "总计的",
+      "sentence_ids": [
+        "p06-b-18-s05"
+      ],
+      "forms": [
+        "total"
+      ],
+      "sense_id": "sense-staged-ox-0574ef158c6c87ac-p06-b-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-09d7ee9167fd41fd",
+      "lemma": "tax",
+      "pos": "n.",
+      "sense_zh": "税",
+      "sentence_ids": [
+        "p06-b-18-s05"
+      ],
+      "forms": [
+        "tax"
+      ],
+      "sense_id": "sense-staged-ox-09d7ee9167fd41fd-p06-b-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

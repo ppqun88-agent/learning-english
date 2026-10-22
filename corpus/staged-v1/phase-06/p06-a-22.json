@@ -1,0 +1,168 @@
+{
+  "id": "p06-a-22",
+  "title_zh": "让短剧结尾的愤怒转为迟疑",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "short-play-ending-rehearsal",
+    "label_zh": "修改短剧结尾表演",
+    "goal_zh": "根据角色动机调整冲突场景和结尾的表演方式"
+  },
+  "participants": [
+    "Naomi",
+    "Oscar"
+  ],
+  "context_zh": "导演娜奥米与演员奥斯卡排练一部虚构短剧，讨论王子发现公主放走囚犯后的反应。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-22-s01",
+      "speaker": "Naomi",
+      "text": "Your performance has plenty of energy, but the final scene feels rushed."
+    },
+    {
+      "id": "p06-a-22-s02",
+      "speaker": "Oscar",
+      "text": "I thought the prince should be furious when he sees the empty cell."
+    },
+    {
+      "id": "p06-a-22-s03",
+      "speaker": "Naomi",
+      "text": "He is, at first. Then the princess tells him that the prisoner saved her life."
+    },
+    {
+      "id": "p06-a-22-s04",
+      "speaker": "Oscar",
+      "text": "So he has a reason to listen instead of calling the guards immediately."
+    },
+    {
+      "id": "p06-a-22-s05",
+      "speaker": "Naomi",
+      "text": "Exactly. His reaction should change when he hears that news."
+    },
+    {
+      "id": "p06-a-22-s06",
+      "speaker": "Oscar",
+      "text": "Should I pretend that I have not noticed her holding the key?"
+    },
+    {
+      "id": "p06-a-22-s07",
+      "speaker": "Naomi",
+      "text": "No. Look at the key, then at her. Let the audience see that you are deciding whether to believe her."
+    },
+    {
+      "id": "p06-a-22-s08",
+      "speaker": "Oscar",
+      "text": "I will lower my hand instead of ringing the bell. Then I can ask her what happened."
+    },
+    {
+      "id": "p06-a-22-s09",
+      "speaker": "Naomi",
+      "text": "Good. Let us try it from her entrance and give that decision time to register."
+    },
+    {
+      "id": "p06-a-22-s10",
+      "speaker": "Oscar",
+      "text": "Ready. I will begin beside the empty cell."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4217d33005b8012e",
+      "lemma": "performance",
+      "pos": "n.",
+      "sense_zh": "表演",
+      "sentence_ids": [
+        "p06-a-22-s01"
+      ],
+      "forms": [
+        "performance"
+      ],
+      "sense_id": "sense-staged-ox-4217d33005b8012e-p06-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f5d77a5ad53e957f",
+      "lemma": "prince",
+      "pos": "n.",
+      "sense_zh": "王子",
+      "sentence_ids": [
+        "p06-a-22-s02"
+      ],
+      "forms": [
+        "prince"
+      ],
+      "sense_id": "sense-staged-ox-f5d77a5ad53e957f-p06-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f55c2507c93165a1",
+      "lemma": "princess",
+      "pos": "n.",
+      "sense_zh": "公主",
+      "sentence_ids": [
+        "p06-a-22-s03"
+      ],
+      "forms": [
+        "princess"
+      ],
+      "sense_id": "sense-staged-ox-f55c2507c93165a1-p06-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b44460be9551b424",
+      "lemma": "prisoner",
+      "pos": "n.",
+      "sense_zh": "囚犯",
+      "sentence_ids": [
+        "p06-a-22-s03"
+      ],
+      "forms": [
+        "prisoner"
+      ],
+      "sense_id": "sense-staged-ox-b44460be9551b424-p06-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f9db223ae882b4d",
+      "lemma": "reaction",
+      "pos": "n.",
+      "sense_zh": "反应",
+      "sentence_ids": [
+        "p06-a-22-s05"
+      ],
+      "forms": [
+        "reaction"
+      ],
+      "sense_id": "sense-staged-ox-5f9db223ae882b4d-p06-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb96bec1188beead",
+      "lemma": "pretend",
+      "pos": "v.",
+      "sense_zh": "假装",
+      "sentence_ids": [
+        "p06-a-22-s06"
+      ],
+      "forms": [
+        "pretend"
+      ],
+      "sense_id": "sense-staged-ox-cb96bec1188beead-p06-a-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

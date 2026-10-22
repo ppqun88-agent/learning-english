@@ -1,0 +1,174 @@
+{
+  "id": "p06-b-11",
+  "title_zh": "约定与工会代表私下谈话",
+  "topic_id": "work",
+  "scenario": {
+    "id": "workplace-private-report-meeting",
+    "label_zh": "安排私下讨论职场不当言行",
+    "goal_zh": "说明对不当言行的担忧，并约定与工会代表私下讨论"
+  },
+  "participants": [
+    "Amira",
+    "Gareth"
+  ],
+  "context_zh": "虚构职场情景：阿米拉向工会代表加雷思询问如何私下讨论会议中的不当言论，尚未提交正式投诉。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-11-s01",
+      "speaker": "Amira",
+      "text": "The way I was treated at yesterday's meeting felt unfair. The comments were about my sex, not my work."
+    },
+    {
+      "id": "p06-b-11-s02",
+      "speaker": "Gareth",
+      "text": "I'm sorry you had that experience. As your union representative, I can listen and explain the options."
+    },
+    {
+      "id": "p06-b-11-s03",
+      "speaker": "Amira",
+      "text": "There were sexual jokes as well. I don't want the details passed around among the staff."
+    },
+    {
+      "id": "p06-b-11-s04",
+      "speaker": "Gareth",
+      "text": "I take concerns like this seriously. I won't forward your notes without discussing that with you first."
+    },
+    {
+      "id": "p06-b-11-s05",
+      "speaker": "Amira",
+      "text": "I feel strongly about it, but I'm not ready to make a formal complaint today."
+    },
+    {
+      "id": "p06-b-11-s06",
+      "speaker": "Gareth",
+      "text": "We can start with a private conversation. Are you free at four?"
+    },
+    {
+      "id": "p06-b-11-s07",
+      "speaker": "Amira",
+      "text": "Yes. I'll bring my notes, and we can discuss what I want to do next."
+    },
+    {
+      "id": "p06-b-11-s08",
+      "speaker": "Gareth",
+      "text": "I'll meet you in the small meeting room at four. We won't submit anything at that meeting unless you decide to."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c40826da7f82ea6f",
+      "lemma": "unfair",
+      "pos": "adj.",
+      "sense_zh": "不公平的",
+      "sentence_ids": [
+        "p06-b-11-s01"
+      ],
+      "forms": [
+        "unfair"
+      ],
+      "sense_id": "sense-staged-ox-c40826da7f82ea6f-p06-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-275ad262a9567c83",
+      "lemma": "sex",
+      "pos": "n.",
+      "sense_zh": "性别",
+      "sentence_ids": [
+        "p06-b-11-s01"
+      ],
+      "forms": [
+        "sex"
+      ],
+      "sense_id": "sense-staged-ox-275ad262a9567c83-p06-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b92b487ec2caa54b",
+      "lemma": "union",
+      "pos": "n.",
+      "sense_zh": "工会",
+      "sentence_ids": [
+        "p06-b-11-s02"
+      ],
+      "forms": [
+        "union"
+      ],
+      "sense_id": "sense-staged-ox-b92b487ec2caa54b-p06-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb4c33ef3e456f11",
+      "lemma": "sexual",
+      "pos": "adj.",
+      "sense_zh": "与性有关的",
+      "sentence_ids": [
+        "p06-b-11-s03"
+      ],
+      "forms": [
+        "sexual"
+      ],
+      "sense_id": "sense-staged-ox-eb4c33ef3e456f11-p06-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d718ff5811dfa06a",
+      "lemma": "staff",
+      "pos": "n.",
+      "sense_zh": "全体员工",
+      "sentence_ids": [
+        "p06-b-11-s03"
+      ],
+      "forms": [
+        "staff"
+      ],
+      "sense_id": "sense-staged-ox-d718ff5811dfa06a-p06-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-631ccf8bfdb68b50",
+      "lemma": "seriously",
+      "pos": "adv.",
+      "sense_zh": "认真地",
+      "sentence_ids": [
+        "p06-b-11-s04"
+      ],
+      "forms": [
+        "seriously"
+      ],
+      "sense_id": "sense-staged-ox-631ccf8bfdb68b50-p06-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5b172e323b8cf58d",
+      "lemma": "strongly",
+      "pos": "adv.",
+      "sense_zh": "强烈地",
+      "sentence_ids": [
+        "p06-b-11-s05"
+      ],
+      "forms": [
+        "strongly"
+      ],
+      "sense_id": "sense-staged-ox-5b172e323b8cf58d-p06-b-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

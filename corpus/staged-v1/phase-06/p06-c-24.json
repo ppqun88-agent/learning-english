@@ -1,0 +1,110 @@
+{
+  "id": "p06-c-24",
+  "title_zh": "按邮件附件启用线上展览访问",
+  "topic_id": "services",
+  "scenario": {
+    "id": "online-exhibition-access-help",
+    "label_zh": "解决线上展览访问问题",
+    "goal_zh": "找到邮件说明中的访问启用链接并确认展览可以打开"
+  },
+  "participants": [
+    "Visitor Emil",
+    "Support Jules"
+  ],
+  "context_zh": "埃米尔联系虚构线上画廊的支持人员，询问全球开放的展览为何仍显示欢迎页面。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-24-s01",
+      "speaker": "Visitor Emil",
+      "text": "Your email announced a worldwide launch today, but I still cannot enter the exhibition."
+    },
+    {
+      "id": "p06-c-24-s02",
+      "speaker": "Support Jules",
+      "text": "Does the page show a welcome message or an error?"
+    },
+    {
+      "id": "p06-c-24-s03",
+      "speaker": "Visitor Emil",
+      "text": "A welcome message. I clicked the main picture in the email."
+    },
+    {
+      "id": "p06-c-24-s04",
+      "speaker": "Support Jules",
+      "text": "The instructions are in the PDF attachment. Open that and use the link labelled Activate my visit."
+    },
+    {
+      "id": "p06-c-24-s05",
+      "speaker": "Visitor Emil",
+      "text": "Do I have to activate it every time?"
+    },
+    {
+      "id": "p06-c-24-s06",
+      "speaker": "Support Jules",
+      "text": "No, just for this first visit. After that, save the gallery address."
+    },
+    {
+      "id": "p06-c-24-s07",
+      "speaker": "Visitor Emil",
+      "text": "I have opened the link, and now I can see the first room. That was the step I missed."
+    },
+    {
+      "id": "p06-c-24-s08",
+      "speaker": "Support Jules",
+      "text": "Great. You can move between rooms using the arrows at the bottom."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1cc15b497d22c3e2",
+      "lemma": "worldwide",
+      "pos": "adj.",
+      "sense_zh": "面向全球的，世界范围的",
+      "sentence_ids": [
+        "p06-c-24-s01"
+      ],
+      "forms": [
+        "worldwide"
+      ],
+      "sense_id": "sense-staged-ox-1cc15b497d22c3e2-p06-c-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d628325ed7371b17",
+      "lemma": "attachment",
+      "pos": "n.",
+      "sense_zh": "电子邮件附件",
+      "sentence_ids": [
+        "p06-c-24-s04"
+      ],
+      "forms": [
+        "attachment"
+      ],
+      "sense_id": "sense-staged-ox-d628325ed7371b17-p06-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-888f428101561fcd",
+      "lemma": "activate",
+      "pos": "v.",
+      "sense_zh": "使开始运行或生效，启用",
+      "sentence_ids": [
+        "p06-c-24-s05"
+      ],
+      "forms": [
+        "activate"
+      ],
+      "sense_id": "sense-staged-ox-888f428101561fcd-p06-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

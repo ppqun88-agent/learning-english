@@ -1,0 +1,200 @@
+{
+  "id": "p06-a-20",
+  "title_zh": "先了解口译职业再考虑转行",
+  "topic_id": "work",
+  "scenario": {
+    "id": "career-change-discussion",
+    "label_zh": "讨论职业方向",
+    "goal_zh": "讨论转行念头并确定低风险了解行业的下一步。"
+  },
+  "participants": [
+    "Matt",
+    "Zia"
+  ],
+  "context_zh": "成人学员马特向职业顾问齐娅咨询转行口译，谈到的招聘广告和课程只是虚构练习材料。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-20-s01",
+      "speaker": "Matt",
+      "text": "I enjoy languages, but I do not know much about interpreting as a profession. Should I leave my shop job and train full-time?"
+    },
+    {
+      "id": "p06-a-20-s02",
+      "speaker": "Zia",
+      "text": "You do not need to quit your job just to explore it. What kind of interpreting interests you?"
+    },
+    {
+      "id": "p06-a-20-s03",
+      "speaker": "Matt",
+      "text": "Community work. This advert asks for qualified interpreters, but I only have a language-course certificate."
+    },
+    {
+      "id": "p06-a-20-s04",
+      "speaker": "Zia",
+      "text": "The qualification listed here is a specialist diploma. Your certificate is not the same one."
+    },
+    {
+      "id": "p06-a-20-s05",
+      "speaker": "Matt",
+      "text": "Would I qualify for the diploma course with my current certificate?"
+    },
+    {
+      "id": "p06-a-20-s06",
+      "speaker": "Zia",
+      "text": "We need to ask the course provider. There is a range of entry routes, but the advert does not explain them."
+    },
+    {
+      "id": "p06-a-20-s07",
+      "speaker": "Matt",
+      "text": "I would also like to know whether I enjoy the work before paying for a long course."
+    },
+    {
+      "id": "p06-a-20-s08",
+      "speaker": "Zia",
+      "text": "A practical introductory workshop could help. This careers guide is a useful resource for finding questions to ask."
+    },
+    {
+      "id": "p06-a-20-s09",
+      "speaker": "Matt",
+      "text": "Then I will read the guide and contact the provider about entry requirements and a workshop. I will keep my job for now."
+    },
+    {
+      "id": "p06-a-20-s10",
+      "speaker": "Zia",
+      "text": "Good. Bring their reply next time, and we can work out your options from that."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d59557dd044ceaba",
+      "lemma": "profession",
+      "pos": "n.",
+      "sense_zh": "职业",
+      "sentence_ids": [
+        "p06-a-20-s01"
+      ],
+      "forms": [
+        "profession"
+      ],
+      "sense_id": "sense-staged-ox-d59557dd044ceaba-p06-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2db5a0159675db66",
+      "lemma": "quit",
+      "pos": "v.",
+      "sense_zh": "辞去；离开",
+      "sentence_ids": [
+        "p06-a-20-s02"
+      ],
+      "forms": [
+        "quit"
+      ],
+      "sense_id": "sense-staged-ox-2db5a0159675db66-p06-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-baedf5d602ab003a",
+      "lemma": "qualified",
+      "pos": "adj.",
+      "sense_zh": "具备专业资格的",
+      "sentence_ids": [
+        "p06-a-20-s03"
+      ],
+      "forms": [
+        "qualified"
+      ],
+      "sense_id": "sense-staged-ox-baedf5d602ab003a-p06-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c30ac260ad99702e",
+      "lemma": "qualification",
+      "pos": "n.",
+      "sense_zh": "资格；资格证书",
+      "sentence_ids": [
+        "p06-a-20-s04"
+      ],
+      "forms": [
+        "qualification"
+      ],
+      "sense_id": "sense-staged-ox-c30ac260ad99702e-p06-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-958d58824e6104fd",
+      "lemma": "qualify",
+      "pos": "v.",
+      "sense_zh": "具有所需资格",
+      "sentence_ids": [
+        "p06-a-20-s05"
+      ],
+      "forms": [
+        "qualify"
+      ],
+      "sense_id": "sense-staged-ox-958d58824e6104fd-p06-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c3580363dd4b43c",
+      "lemma": "range",
+      "pos": "n.",
+      "sense_zh": "一系列；多种",
+      "sentence_ids": [
+        "p06-a-20-s06"
+      ],
+      "forms": [
+        "range"
+      ],
+      "sense_id": "sense-staged-ox-2c3580363dd4b43c-p06-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9c41d74e6303a4d5",
+      "lemma": "practical",
+      "pos": "adj.",
+      "sense_zh": "实践性的",
+      "sentence_ids": [
+        "p06-a-20-s08"
+      ],
+      "forms": [
+        "practical"
+      ],
+      "sense_id": "sense-staged-ox-9c41d74e6303a4d5-p06-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc0a53fc2dac13a3",
+      "lemma": "resource",
+      "pos": "n.",
+      "sense_zh": "有用的资料来源",
+      "sentence_ids": [
+        "p06-a-20-s08"
+      ],
+      "forms": [
+        "resource"
+      ],
+      "sense_id": "sense-staged-ox-fc0a53fc2dac13a3-p06-a-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

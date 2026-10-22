@@ -1,0 +1,126 @@
+{
+  "id": "p06-b-24",
+  "title_zh": "选择远离湖岸的扎营位置",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "lakeside-camp-location",
+    "label_zh": "选择湖边露营位置",
+    "goal_zh": "比较营地位置并避开湖边危险区域。"
+  },
+  "participants": [
+    "Dylan",
+    "Campsite Warden"
+  ],
+  "context_zh": "迪伦抵达湖边营地，向管理员比较两处空位，避免把帐篷搭在封闭湖岸附近。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-24-s01",
+      "speaker": "Dylan",
+      "text": "Can I put my tent on that flat patch beside the lake?"
+    },
+    {
+      "id": "p06-b-24-s02",
+      "speaker": "Campsite Warden",
+      "text": "Not there. The ground beyond that rope is closed because part of the bank has collapsed."
+    },
+    {
+      "id": "p06-b-24-s03",
+      "speaker": "Dylan",
+      "text": "Is there another spot with a view of the water?"
+    },
+    {
+      "id": "p06-b-24-s04",
+      "speaker": "Campsite Warden",
+      "text": "Try the southern edge of the field, beside the hedge. It's farther from the lake but sheltered from the wind."
+    },
+    {
+      "id": "p06-b-24-s05",
+      "speaker": "Dylan",
+      "text": "What about the open space near the gate?"
+    },
+    {
+      "id": "p06-b-24-s06",
+      "speaker": "Campsite Warden",
+      "text": "You could camp there, but people walk through it all evening."
+    },
+    {
+      "id": "p06-b-24-s07",
+      "speaker": "Dylan",
+      "text": "I'll use the place by the hedge, then, and keep all my equipment on this side of the rope."
+    },
+    {
+      "id": "p06-b-24-s08",
+      "speaker": "Campsite Warden",
+      "text": "That works. The marked path from there leads to the water tap."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-521aa8446234bba3",
+      "lemma": "tent",
+      "pos": "n.",
+      "sense_zh": "帐篷",
+      "sentence_ids": [
+        "p06-b-24-s01"
+      ],
+      "forms": [
+        "tent"
+      ],
+      "sense_id": "sense-staged-ox-521aa8446234bba3-p06-b-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-359b1a51f76c87ef",
+      "lemma": "rope",
+      "pos": "n.",
+      "sense_zh": "粗绳",
+      "sentence_ids": [
+        "p06-b-24-s02"
+      ],
+      "forms": [
+        "rope"
+      ],
+      "sense_id": "sense-staged-ox-359b1a51f76c87ef-p06-b-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1eccaa5a6160d75d",
+      "lemma": "spot",
+      "pos": "n.",
+      "sense_zh": "地点",
+      "sentence_ids": [
+        "p06-b-24-s03"
+      ],
+      "forms": [
+        "spot"
+      ],
+      "sense_id": "sense-staged-ox-1eccaa5a6160d75d-p06-b-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5bdb0e01379f1c75",
+      "lemma": "southern",
+      "pos": "adj.",
+      "sense_zh": "南部的",
+      "sentence_ids": [
+        "p06-b-24-s04"
+      ],
+      "forms": [
+        "southern"
+      ],
+      "sense_id": "sense-staged-ox-5bdb0e01379f1c75-p06-b-24",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

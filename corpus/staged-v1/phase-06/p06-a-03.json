@@ -1,0 +1,200 @@
+{
+  "id": "p06-a-03",
+  "title_zh": "把采访问题缩小到本地住房计划",
+  "topic_id": "society",
+  "scenario": {
+    "id": "student-news-interview-question",
+    "label_zh": "拟定校报地方住房采访问题",
+    "goal_zh": "把宽泛的政治采访题目缩小为住房计划的具体问题，并删去缺乏依据的群体立场表述"
+  },
+  "participants": [
+    "Lina",
+    "Amir"
+  ],
+  "context_zh": "在虚构的校报编辑练习中，编辑莉娜和学生记者阿米尔讨论采访一位地方政治人物的问题。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-03-s01",
+      "speaker": "Lina",
+      "text": "Our next interview is with a local politician. What do you want to ask?"
+    },
+    {
+      "id": "p06-a-03-s02",
+      "speaker": "Amir",
+      "text": "Why is poverty still a problem across the nation?"
+    },
+    {
+      "id": "p06-a-03-s03",
+      "speaker": "Lina",
+      "text": "That is a huge question. Our school paper mainly covers local politics."
+    },
+    {
+      "id": "p06-a-03-s04",
+      "speaker": "Amir",
+      "text": "Then I could ask about the council's housing policy. The official council report says ten new flats are planned."
+    },
+    {
+      "id": "p06-a-03-s05",
+      "speaker": "Lina",
+      "text": "Better. Ask who those flats are intended for and when people can apply."
+    },
+    {
+      "id": "p06-a-03-s06",
+      "speaker": "Amir",
+      "text": "Can I say that young people support the plan?"
+    },
+    {
+      "id": "p06-a-03-s07",
+      "speaker": "Lina",
+      "text": "We only spoke to three students. Their views don't represent all young people."
+    },
+    {
+      "id": "p06-a-03-s08",
+      "speaker": "Amir",
+      "text": "You're right. I'll remove that claim and keep the questions about the flats."
+    },
+    {
+      "id": "p06-a-03-s09",
+      "speaker": "Lina",
+      "text": "And let's put the same questions to the other political groups, so this isn't just publicity for one of them."
+    },
+    {
+      "id": "p06-a-03-s10",
+      "speaker": "Amir",
+      "text": "Agreed. I'll draft the housing questions first, then we can check that the wording is fair."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9f67f37d47bcf8f3",
+      "lemma": "politician",
+      "pos": "n.",
+      "sense_zh": "政治人物",
+      "sentence_ids": [
+        "p06-a-03-s01"
+      ],
+      "forms": [
+        "politician"
+      ],
+      "sense_id": "sense-staged-ox-9f67f37d47bcf8f3-p06-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-37af7c0fcb314888",
+      "lemma": "poverty",
+      "pos": "n.",
+      "sense_zh": "贫困",
+      "sentence_ids": [
+        "p06-a-03-s02"
+      ],
+      "forms": [
+        "poverty"
+      ],
+      "sense_id": "sense-staged-ox-37af7c0fcb314888-p06-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fff1bfa989af3200",
+      "lemma": "nation",
+      "pos": "n.",
+      "sense_zh": "国家",
+      "sentence_ids": [
+        "p06-a-03-s02"
+      ],
+      "forms": [
+        "nation"
+      ],
+      "sense_id": "sense-staged-ox-fff1bfa989af3200-p06-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c73a4880747e2f2",
+      "lemma": "politics",
+      "pos": "n.",
+      "sense_zh": "政治事务",
+      "sentence_ids": [
+        "p06-a-03-s03"
+      ],
+      "forms": [
+        "politics"
+      ],
+      "sense_id": "sense-staged-ox-1c73a4880747e2f2-p06-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea00a3ec307f3afa",
+      "lemma": "policy",
+      "pos": "n.",
+      "sense_zh": "政策",
+      "sentence_ids": [
+        "p06-a-03-s04"
+      ],
+      "forms": [
+        "policy"
+      ],
+      "sense_id": "sense-staged-ox-ea00a3ec307f3afa-p06-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6617535f8aa42c1a",
+      "lemma": "official",
+      "pos": "adj.",
+      "sense_zh": "官方的",
+      "sentence_ids": [
+        "p06-a-03-s04"
+      ],
+      "forms": [
+        "official"
+      ],
+      "sense_id": "sense-staged-ox-6617535f8aa42c1a-p06-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1b149a80a218a81c",
+      "lemma": "represent",
+      "pos": "v.",
+      "sense_zh": "代表",
+      "sentence_ids": [
+        "p06-a-03-s07"
+      ],
+      "forms": [
+        "represent"
+      ],
+      "sense_id": "sense-staged-ox-1b149a80a218a81c-p06-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fd1e3a4a4604e48a",
+      "lemma": "political",
+      "pos": "adj.",
+      "sense_zh": "政治的",
+      "sentence_ids": [
+        "p06-a-03-s09"
+      ],
+      "forms": [
+        "political"
+      ],
+      "sense_id": "sense-staged-ox-fd1e3a4a4604e48a-p06-a-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

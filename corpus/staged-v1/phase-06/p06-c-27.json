@@ -1,0 +1,95 @@
+{
+  "id": "p06-c-27",
+  "title_zh": "分配剩菜避免浪费",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-leftovers-plan",
+    "label_zh": "安排共享剩菜晚餐",
+    "goal_zh": "根据现有食物和个人偏好分配晚餐并商定处理多余食物"
+  },
+  "participants": [
+    "Lena",
+    "Omar"
+  ],
+  "context_zh": "合住者莉娜和奥马尔查看冰箱里今晚可以吃的剩菜。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-27-s01",
+      "speaker": "Lena",
+      "text": "There are two portions of vegetable stew and one of pasta. I do not want to waste any of it."
+    },
+    {
+      "id": "p06-c-27-s02",
+      "speaker": "Omar",
+      "text": "I would prefer the pasta. You can have whatever is in the blue container if you like it."
+    },
+    {
+      "id": "p06-c-27-s03",
+      "speaker": "Lena",
+      "text": "That is the stew, and it is plenty for me. What should we do with the extra portion?"
+    },
+    {
+      "id": "p06-c-27-s04",
+      "speaker": "Omar",
+      "text": "Freeze it tonight for another meal. Basically, we each eat one portion now and save the third."
+    },
+    {
+      "id": "p06-c-27-s05",
+      "speaker": "Lena",
+      "text": "Good. I will label the spare portion before putting it in the freezer, and then we can heat our dinner."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-23a29629227e461c",
+      "lemma": "waste",
+      "pos": "v.",
+      "sense_zh": "浪费，使有用的东西未得到使用",
+      "sentence_ids": [
+        "p06-c-27-s01"
+      ],
+      "forms": [
+        "waste"
+      ],
+      "sense_id": "sense-staged-ox-23a29629227e461c-p06-c-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2713215f5f184a66",
+      "lemma": "whatever",
+      "pos": "pron.",
+      "sense_zh": "任何所指的东西，无论什么",
+      "sentence_ids": [
+        "p06-c-27-s02"
+      ],
+      "forms": [
+        "whatever"
+      ],
+      "sense_id": "sense-staged-ox-2713215f5f184a66-p06-c-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-effbacd8a3186bb6",
+      "lemma": "basically",
+      "pos": "adv.",
+      "sense_zh": "基本上，概括来说",
+      "sentence_ids": [
+        "p06-c-27-s04"
+      ],
+      "forms": [
+        "basically"
+      ],
+      "sense_id": "sense-staged-ox-effbacd8a3186bb6-p06-c-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,120 @@
+{
+  "id": "p06-a-19",
+  "title_zh": "算清剧场筹款结余再询问坡道报价",
+  "topic_id": "community",
+  "scenario": {
+    "id": "theater-fundraiser-results",
+    "label_zh": "核对剧场筹款结果",
+    "goal_zh": "确认可用筹款和下一项空间改善工作"
+  },
+  "participants": [
+    "Asha",
+    "Toby"
+  ],
+  "context_zh": "社区剧场志愿者阿莎与财务志愿者托比一起核对虚构筹款活动的账目。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-19-s01",
+      "speaker": "Asha",
+      "text": "We sold four hundred pounds of tickets. How much did the event cost us?"
+    },
+    {
+      "id": "p06-a-19-s02",
+      "speaker": "Toby",
+      "text": "One hundred and fifty pounds, including thirty for printing and one hundred and twenty for the room."
+    },
+    {
+      "id": "p06-a-19-s03",
+      "speaker": "Asha",
+      "text": "What percentage of our costs went on printing?"
+    },
+    {
+      "id": "p06-a-19-s04",
+      "speaker": "Toby",
+      "text": "Twenty percent. Thirty is one fifth of one hundred and fifty."
+    },
+    {
+      "id": "p06-a-19-s05",
+      "speaker": "Asha",
+      "text": "So our profit was two hundred and fifty pounds after all the costs?"
+    },
+    {
+      "id": "p06-a-19-s06",
+      "speaker": "Toby",
+      "text": "Yes. That is the amount we can put towards improving the entrance."
+    },
+    {
+      "id": "p06-a-19-s07",
+      "speaker": "Asha",
+      "text": "The access group asked about a ramp. Can we tell them we will install one?"
+    },
+    {
+      "id": "p06-a-19-s08",
+      "speaker": "Toby",
+      "text": "Not yet. We need a proper assessment and a price first."
+    },
+    {
+      "id": "p06-a-19-s09",
+      "speaker": "Asha",
+      "text": "Then I will ask the building manager to arrange that and explain that we have two hundred and fifty pounds available."
+    },
+    {
+      "id": "p06-a-19-s10",
+      "speaker": "Toby",
+      "text": "Good. I will send you the income-and-cost summary to take with you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-13b7fb5549a676bc",
+      "lemma": "printing",
+      "pos": "n.",
+      "sense_zh": "印刷",
+      "sentence_ids": [
+        "p06-a-19-s02"
+      ],
+      "forms": [
+        "printing"
+      ],
+      "sense_id": "sense-staged-ox-13b7fb5549a676bc-p06-a-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-955b054b244f2892",
+      "lemma": "percentage",
+      "pos": "n.",
+      "sense_zh": "百分比",
+      "sentence_ids": [
+        "p06-a-19-s03"
+      ],
+      "forms": [
+        "percentage"
+      ],
+      "sense_id": "sense-staged-ox-955b054b244f2892-p06-a-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ca6de1263491574d",
+      "lemma": "profit",
+      "pos": "n.",
+      "sense_zh": "扣除成本后的收益",
+      "sentence_ids": [
+        "p06-a-19-s05"
+      ],
+      "forms": [
+        "profit"
+      ],
+      "sense_id": "sense-staged-ox-ca6de1263491574d-p06-a-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

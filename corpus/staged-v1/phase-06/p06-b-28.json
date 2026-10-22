@@ -1,0 +1,100 @@
+{
+  "id": "p06-b-28",
+  "title_zh": "挑选适合初学者的纸牌魔术",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-magic-practice-choice",
+    "label_zh": "选择初学魔术练习",
+    "goal_zh": "根据练习难度选择无需快速手法的纸牌魔术并约定先看示范"
+  },
+  "participants": [
+    "Harper",
+    "Magic Tutor"
+  ],
+  "context_zh": "哈珀想在家庭聚会上表演一个简单魔术，但不擅长快速手部动作，向兴趣课教师询问练习选择。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-28-s01",
+      "speaker": "Harper",
+      "text": "I'd like to learn a card trick, but my hands aren't quick enough for the one you just showed us."
+    },
+    {
+      "id": "p06-b-28-s02",
+      "speaker": "Magic Tutor",
+      "text": "Then try this one. In my beginner classes, people typically learn it in one session because it doesn't require fast movements."
+    },
+    {
+      "id": "p06-b-28-s03",
+      "speaker": "Harper",
+      "text": "Can I simply follow the steps on this sheet?"
+    },
+    {
+      "id": "p06-b-28-s04",
+      "speaker": "Magic Tutor",
+      "text": "Use the sheet to practise, but watch a demonstration first. The order matters, and the pictures don't show every movement."
+    },
+    {
+      "id": "p06-b-28-s05",
+      "speaker": "Harper",
+      "text": "All right. Could you show me slowly, and then watch while I try?"
+    },
+    {
+      "id": "p06-b-28-s06",
+      "speaker": "Magic Tutor",
+      "text": "Of course. Sit beside me so you can see the cards, and we'll go through it together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f4d6903607f8977f",
+      "lemma": "trick",
+      "pos": "n.",
+      "sense_zh": "魔术戏法",
+      "sentence_ids": [
+        "p06-b-28-s01"
+      ],
+      "forms": [
+        "trick"
+      ],
+      "sense_id": "sense-staged-ox-f4d6903607f8977f-p06-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e585211e4734da4",
+      "lemma": "typically",
+      "pos": "adv.",
+      "sense_zh": "通常",
+      "sentence_ids": [
+        "p06-b-28-s02"
+      ],
+      "forms": [
+        "typically"
+      ],
+      "sense_id": "sense-staged-ox-3e585211e4734da4-p06-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6ea322a9666e4503",
+      "lemma": "simply",
+      "pos": "adv.",
+      "sense_zh": "仅仅只需",
+      "sentence_ids": [
+        "p06-b-28-s03"
+      ],
+      "forms": [
+        "simply"
+      ],
+      "sense_id": "sense-staged-ox-6ea322a9666e4503-p06-b-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

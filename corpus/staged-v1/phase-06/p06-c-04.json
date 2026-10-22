@@ -1,0 +1,174 @@
+{
+  "id": "p06-c-04",
+  "title_zh": "在一小时内参观航空展厅",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "aviation-museum-route",
+    "label_zh": "确定航空展参观路线",
+    "goal_zh": "根据展品位置和可用时间选定航空展厅的参观路线"
+  },
+  "participants": [
+    "Theo",
+    "Ruth"
+  ],
+  "context_zh": "西奥向航空博物馆工作人员露丝询问旧飞机和机翼展品的位置。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-04-s01",
+      "speaker": "Theo",
+      "text": "I wonder which hall has the early passenger aircraft. We have to leave within an hour."
+    },
+    {
+      "id": "p06-c-04-s02",
+      "speaker": "Ruth",
+      "text": "Go to the western hall. The red arrow on this map points to its entrance."
+    },
+    {
+      "id": "p06-c-04-s03",
+      "speaker": "Theo",
+      "text": "Is that where I can see inside a wing? I saw a photograph of one with the cover removed."
+    },
+    {
+      "id": "p06-c-04-s04",
+      "speaker": "Ruth",
+      "text": "Yes. That display stands alongside the full-size aircraft, so you can look at both in the same hall."
+    },
+    {
+      "id": "p06-c-04-s05",
+      "speaker": "Theo",
+      "text": "Will we have time for the upstairs gallery as well?"
+    },
+    {
+      "id": "p06-c-04-s06",
+      "speaker": "Ruth",
+      "text": "Probably not if you want to stop and read the labels."
+    },
+    {
+      "id": "p06-c-04-s07",
+      "speaker": "Theo",
+      "text": "We will stay in the western hall, then. Could you show me the quickest way back to this exit?"
+    },
+    {
+      "id": "p06-c-04-s08",
+      "speaker": "Ruth",
+      "text": "Take this corridor straight back. You do not need to go upstairs."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-509985e0e4e3ea6a",
+      "lemma": "wonder",
+      "pos": "v.",
+      "sense_zh": "想知道，疑惑",
+      "sentence_ids": [
+        "p06-c-04-s01"
+      ],
+      "forms": [
+        "wonder"
+      ],
+      "sense_id": "sense-staged-ox-509985e0e4e3ea6a-p06-c-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f1fcb7a3c3f4b7b",
+      "lemma": "aircraft",
+      "pos": "n.",
+      "sense_zh": "飞机",
+      "sentence_ids": [
+        "p06-c-04-s01"
+      ],
+      "forms": [
+        "aircraft"
+      ],
+      "sense_id": "sense-staged-ox-2f1fcb7a3c3f4b7b-p06-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b919eaf3a3a2386f",
+      "lemma": "within",
+      "pos": "prep.",
+      "sense_zh": "在一段时间之内",
+      "sentence_ids": [
+        "p06-c-04-s01"
+      ],
+      "forms": [
+        "within"
+      ],
+      "sense_id": "sense-staged-ox-b919eaf3a3a2386f-p06-c-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6641ee9d35538296",
+      "lemma": "western",
+      "pos": "adj.",
+      "sense_zh": "位于西边的",
+      "sentence_ids": [
+        "p06-c-04-s02"
+      ],
+      "forms": [
+        "western"
+      ],
+      "sense_id": "sense-staged-ox-6641ee9d35538296-p06-c-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-efdef257d370940c",
+      "lemma": "arrow",
+      "pos": "n.",
+      "sense_zh": "指示方向的箭头符号",
+      "sentence_ids": [
+        "p06-c-04-s02"
+      ],
+      "forms": [
+        "arrow"
+      ],
+      "sense_id": "sense-staged-ox-efdef257d370940c-p06-c-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c4fe68af2997769",
+      "lemma": "wing",
+      "pos": "n.",
+      "sense_zh": "飞机的机翼",
+      "sentence_ids": [
+        "p06-c-04-s03"
+      ],
+      "forms": [
+        "wing"
+      ],
+      "sense_id": "sense-staged-ox-1c4fe68af2997769-p06-c-04",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-941264a6db5750a8",
+      "lemma": "alongside",
+      "pos": "prep.",
+      "sense_zh": "在某物旁边",
+      "sentence_ids": [
+        "p06-c-04-s04"
+      ],
+      "forms": [
+        "alongside"
+      ],
+      "sense_id": "sense-staged-ox-941264a6db5750a8-p06-c-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

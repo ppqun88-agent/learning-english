@@ -1,0 +1,121 @@
+{
+  "id": "p06-a-06",
+  "title_zh": "借好初次羽毛球体验的器材",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-badminton-equipment",
+    "label_zh": "确认初学羽毛球器材与集合点",
+    "goal_zh": "确认可借用的球拍归属，并约定到指定球网旁等待教练"
+  },
+  "participants": [
+    "Kai",
+    "Ruth"
+  ],
+  "context_zh": "初次参加社区羽毛球体验的凯前来问器材借用，教练鲁思指引他加入初学组。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-06-s01",
+      "speaker": "Kai",
+      "text": "Is this the queue for the beginner session?"
+    },
+    {
+      "id": "p06-a-06-s02",
+      "speaker": "Ruth",
+      "text": "Yes. Have you brought a racket?"
+    },
+    {
+      "id": "p06-a-06-s03",
+      "speaker": "Kai",
+      "text": "Neither my sister nor I own one. Can we borrow two?"
+    },
+    {
+      "id": "p06-a-06-s04",
+      "speaker": "Ruth",
+      "text": "Certainly. Choose from that basket. The rackets with blue handles are ours; the red ones belong to another club."
+    },
+    {
+      "id": "p06-a-06-s05",
+      "speaker": "Kai",
+      "text": "Thanks. Should we start at the court by the door?"
+    },
+    {
+      "id": "p06-a-06-s06",
+      "speaker": "Ruth",
+      "text": "Use the court at the far end. Its net is already up. I'll meet you there after you collect the rackets."
+    },
+    {
+      "id": "p06-a-06-s07",
+      "speaker": "Kai",
+      "text": "All right. We'll take two blue-handled ones and wait at the far court."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-11818ba8e1f12f62",
+      "lemma": "queue",
+      "pos": "n.",
+      "sense_zh": "等候的队伍",
+      "sentence_ids": [
+        "p06-a-06-s01"
+      ],
+      "forms": [
+        "queue"
+      ],
+      "sense_id": "sense-staged-ox-11818ba8e1f12f62-p06-a-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7095a74370029bfa",
+      "lemma": "nor",
+      "pos": "conj.",
+      "sense_zh": "也不；与 neither 搭配",
+      "sentence_ids": [
+        "p06-a-06-s03"
+      ],
+      "forms": [
+        "nor"
+      ],
+      "sense_id": "sense-staged-ox-7095a74370029bfa-p06-a-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f6ad1d7525cfb23",
+      "lemma": "ours",
+      "pos": "pron.",
+      "sense_zh": "我们的东西",
+      "sentence_ids": [
+        "p06-a-06-s04"
+      ],
+      "forms": [
+        "ours"
+      ],
+      "sense_id": "sense-staged-ox-0f6ad1d7525cfb23-p06-a-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9804f6d833620b5e",
+      "lemma": "net",
+      "pos": "n.",
+      "sense_zh": "球网",
+      "sentence_ids": [
+        "p06-a-06-s06"
+      ],
+      "forms": [
+        "net"
+      ],
+      "sense_id": "sense-staged-ox-9804f6d833620b5e-p06-a-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,184 @@
+{
+  "id": "p06-a-23",
+  "title_zh": "让短片开场更贴近人物日常",
+  "topic_id": "work",
+  "scenario": {
+    "id": "short-film-feedback",
+    "label_zh": "根据反馈调整影片开头",
+    "goal_zh": "剪辑者根据试映反馈调整短片开头。"
+  },
+  "participants": [
+    "Olive",
+    "Nico"
+  ],
+  "context_zh": "导演奥利夫与剪辑师尼科讨论虚构短片的试映反馈，决定尝试更安静的开场。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-23-s01",
+      "speaker": "Olive",
+      "text": "The test audience liked the main character, but several people found her opening argument too extreme."
+    },
+    {
+      "id": "p06-a-23-s02",
+      "speaker": "Nico",
+      "text": "The previous cut began with her missing the bus. Would that be better?"
+    },
+    {
+      "id": "p06-a-23-s03",
+      "speaker": "Olive",
+      "text": "Perhaps. Previously, I thought a loud argument would grab people immediately."
+    },
+    {
+      "id": "p06-a-23-s04",
+      "speaker": "Nico",
+      "text": "But the reality of her situation is quieter. She is worn out by small delays, not angry with everyone she meets."
+    },
+    {
+      "id": "p06-a-23-s05",
+      "speaker": "Olive",
+      "text": "I want the opening to reflect that. We could show her arriving late and quietly apologizing."
+    },
+    {
+      "id": "p06-a-23-s06",
+      "speaker": "Nico",
+      "text": "Viewers may find it easier to relate to that moment. It gives them a reason to care about her."
+    },
+    {
+      "id": "p06-a-23-s07",
+      "speaker": "Olive",
+      "text": "I still like the energy of the argument. I do not want to reject it without trying another version."
+    },
+    {
+      "id": "p06-a-23-s08",
+      "speaker": "Nico",
+      "text": "Can I persuade you to watch a cut with the bus scene first? We can compare the two openings side by side."
+    },
+    {
+      "id": "p06-a-23-s09",
+      "speaker": "Olive",
+      "text": "Yes. Keep the argument in the saved version and make a new cut starting at the bus stop."
+    },
+    {
+      "id": "p06-a-23-s10",
+      "speaker": "Nico",
+      "text": "I will. We can watch both tomorrow before choosing the final opening."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a2a9c7d1b4be3fa0",
+      "lemma": "previous",
+      "pos": "adj.",
+      "sense_zh": "先前的",
+      "sentence_ids": [
+        "p06-a-23-s02"
+      ],
+      "forms": [
+        "previous"
+      ],
+      "sense_id": "sense-staged-ox-a2a9c7d1b4be3fa0-p06-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2e9c0c08089255dc",
+      "lemma": "previously",
+      "pos": "adv.",
+      "sense_zh": "先前；以前",
+      "sentence_ids": [
+        "p06-a-23-s03"
+      ],
+      "forms": [
+        "previously"
+      ],
+      "sense_id": "sense-staged-ox-2e9c0c08089255dc-p06-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b3521858c44c3951",
+      "lemma": "reality",
+      "pos": "n.",
+      "sense_zh": "实际情况",
+      "sentence_ids": [
+        "p06-a-23-s04"
+      ],
+      "forms": [
+        "reality"
+      ],
+      "sense_id": "sense-staged-ox-b3521858c44c3951-p06-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe2e6d6fecf33908",
+      "lemma": "reflect",
+      "pos": "v.",
+      "sense_zh": "反映；体现",
+      "sentence_ids": [
+        "p06-a-23-s05"
+      ],
+      "forms": [
+        "reflect"
+      ],
+      "sense_id": "sense-staged-ox-fe2e6d6fecf33908-p06-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d3518d13f311153e",
+      "lemma": "relate",
+      "pos": "v.",
+      "sense_zh": "理解并产生共鸣",
+      "sentence_ids": [
+        "p06-a-23-s06"
+      ],
+      "forms": [
+        "relate"
+      ],
+      "sense_id": "sense-staged-ox-d3518d13f311153e-p06-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2654e679a4ac09b1",
+      "lemma": "reject",
+      "pos": "v.",
+      "sense_zh": "拒绝采用；舍弃",
+      "sentence_ids": [
+        "p06-a-23-s07"
+      ],
+      "forms": [
+        "reject"
+      ],
+      "sense_id": "sense-staged-ox-2654e679a4ac09b1-p06-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0cfc22d25fb2f7d",
+      "lemma": "persuade",
+      "pos": "v.",
+      "sense_zh": "说服",
+      "sentence_ids": [
+        "p06-a-23-s08"
+      ],
+      "forms": [
+        "persuade"
+      ],
+      "sense_id": "sense-staged-ox-b0cfc22d25fb2f7d-p06-a-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

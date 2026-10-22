@@ -1,0 +1,105 @@
+{
+  "id": "p06-c-17",
+  "title_zh": "把实验图表结论限制在观察范围内",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-culture-results-review",
+    "label_zh": "修订课堂实验结果说明",
+    "goal_zh": "依据所给实验图表区分观察与概括，并补充报告的限制"
+  },
+  "participants": [
+    "Student Amira",
+    "Teacher Lewis"
+  ],
+  "context_zh": "阿米拉与老师讨论一份虚构课堂练习的现成图表，没有实际培养微生物或操作化学品。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-17-s01",
+      "speaker": "Student Amira",
+      "text": "My conclusion says the acid killed all the bacteria. Does that match the chart?"
+    },
+    {
+      "id": "p06-c-17-s02",
+      "speaker": "Teacher Lewis",
+      "text": "Look at the heading. The chart shows slower growth in one sample, not the death of every organism."
+    },
+    {
+      "id": "p06-c-17-s03",
+      "speaker": "Student Amira",
+      "text": "So I have described something that was not measured."
+    },
+    {
+      "id": "p06-c-17-s04",
+      "speaker": "Teacher Lewis",
+      "text": "Exactly. A balanced report should explain both the result and what this single test cannot tell us."
+    },
+    {
+      "id": "p06-c-17-s05",
+      "speaker": "Student Amira",
+      "text": "I will write that growth was slower in this sample and remove the claim that everything died."
+    },
+    {
+      "id": "p06-c-17-s06",
+      "speaker": "Teacher Lewis",
+      "text": "Good. Also identify the sample and time period given in the worksheet."
+    },
+    {
+      "id": "p06-c-17-s07",
+      "speaker": "Student Amira",
+      "text": "I will add those details and say that we cannot generalize from this one chart."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-98ffe49d4ee44577",
+      "lemma": "acid",
+      "pos": "n.",
+      "sense_zh": "酸，酸性化学物质",
+      "sentence_ids": [
+        "p06-c-17-s01"
+      ],
+      "forms": [
+        "acid"
+      ],
+      "sense_id": "sense-staged-ox-98ffe49d4ee44577-p06-c-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-53003e54e165666d",
+      "lemma": "bacteria",
+      "pos": "n.",
+      "sense_zh": "细菌",
+      "sentence_ids": [
+        "p06-c-17-s01"
+      ],
+      "forms": [
+        "bacteria"
+      ],
+      "sense_id": "sense-staged-ox-53003e54e165666d-p06-c-17",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7068bfe4c5946249",
+      "lemma": "balanced",
+      "pos": "adj.",
+      "sense_zh": "全面而不过度偏向某一方面的",
+      "sentence_ids": [
+        "p06-c-17-s04"
+      ],
+      "forms": [
+        "balanced"
+      ],
+      "sense_id": "sense-staged-ox-7068bfe4c5946249-p06-c-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,163 @@
+{
+  "id": "p06-a-11",
+  "title_zh": "先试拍一张轻松的肖像照",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "portrait-session-comfort-plan",
+    "label_zh": "调整肖像试拍方式以减轻紧张",
+    "goal_zh": "照顾被拍者的紧张感，商定先边聊天边试拍一张并共同查看"
+  },
+  "participants": [
+    "Dean",
+    "Ines"
+  ],
+  "context_zh": "业余摄影师伊内丝为朋友迪恩拍摄个人肖像，迪恩不习惯面对镜头。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-11-s01",
+      "speaker": "Dean",
+      "text": "I need a portrait for my music-club profile, but I always freeze in front of a camera."
+    },
+    {
+      "id": "p06-a-11-s02",
+      "speaker": "Ines",
+      "text": "You don't have to stare at the lens. We can start with you sitting by the window."
+    },
+    {
+      "id": "p06-a-11-s03",
+      "speaker": "Dean",
+      "text": "Do you work as a photographer now?"
+    },
+    {
+      "id": "p06-a-11-s04",
+      "speaker": "Ines",
+      "text": "No, photography is still a hobby. I have a passion for it, though, especially pictures of people I know."
+    },
+    {
+      "id": "p06-a-11-s05",
+      "speaker": "Dean",
+      "text": "That makes me feel better. Please tell me if my smile looks forced."
+    },
+    {
+      "id": "p06-a-11-s06",
+      "speaker": "Ines",
+      "text": "I will. Just tell me about your last concert and let yourself smile naturally."
+    },
+    {
+      "id": "p06-a-11-s07",
+      "speaker": "Dean",
+      "text": "Talking about music might help me feel more relaxed. Can we check the first picture together?"
+    },
+    {
+      "id": "p06-a-11-s08",
+      "speaker": "Ines",
+      "text": "Absolutely. We'll take one test shot by the window, look at it, and change anything you dislike."
+    },
+    {
+      "id": "p06-a-11-s09",
+      "speaker": "Dean",
+      "text": "Great. I'll sit here and tell you about the drummer who forgot his sticks."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4204a3b2eab7bd23",
+      "lemma": "portrait",
+      "pos": "n.",
+      "sense_zh": "肖像照片",
+      "sentence_ids": [
+        "p06-a-11-s01"
+      ],
+      "forms": [
+        "portrait"
+      ],
+      "sense_id": "sense-staged-ox-4204a3b2eab7bd23-p06-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-19ef23f1df30636b",
+      "lemma": "photographer",
+      "pos": "n.",
+      "sense_zh": "摄影师",
+      "sentence_ids": [
+        "p06-a-11-s03"
+      ],
+      "forms": [
+        "photographer"
+      ],
+      "sense_id": "sense-staged-ox-19ef23f1df30636b-p06-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f45ea6a90e730d1f",
+      "lemma": "photography",
+      "pos": "n.",
+      "sense_zh": "摄影",
+      "sentence_ids": [
+        "p06-a-11-s04"
+      ],
+      "forms": [
+        "photography"
+      ],
+      "sense_id": "sense-staged-ox-f45ea6a90e730d1f-p06-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d4a0028a29287bf9",
+      "lemma": "passion",
+      "pos": "n.",
+      "sense_zh": "强烈的爱好；热情",
+      "sentence_ids": [
+        "p06-a-11-s04"
+      ],
+      "forms": [
+        "passion"
+      ],
+      "sense_id": "sense-staged-ox-d4a0028a29287bf9-p06-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d4286335d76d359e",
+      "lemma": "naturally",
+      "pos": "adv.",
+      "sense_zh": "自然地；不做作地",
+      "sentence_ids": [
+        "p06-a-11-s06"
+      ],
+      "forms": [
+        "naturally"
+      ],
+      "sense_id": "sense-staged-ox-d4286335d76d359e-p06-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-68d314d966154c1a",
+      "lemma": "relaxed",
+      "pos": "adj.",
+      "sense_zh": "放松的",
+      "sentence_ids": [
+        "p06-a-11-s07"
+      ],
+      "forms": [
+        "relaxed"
+      ],
+      "sense_id": "sense-staged-ox-68d314d966154c1a-p06-a-11",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

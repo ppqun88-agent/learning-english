@@ -1,0 +1,142 @@
+{
+  "id": "p06-b-05",
+  "title_zh": "约好橄榄球比赛的入场会合点",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "rugby-stadium-meeting",
+    "label_zh": "约好橄榄球赛观赛会合",
+    "goal_zh": "核对看台座位和进场安排并约定见面地点"
+  },
+  "participants": [
+    "Callum",
+    "Rosa"
+  ],
+  "context_zh": "卡勒姆第一次陪罗莎去看橄榄球比赛，两人在出发前核对球场入口和座位。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-05-s01",
+      "speaker": "Callum",
+      "text": "I've never watched rugby at the stadium before. Which entrance should I use?"
+    },
+    {
+      "id": "p06-b-05-s02",
+      "speaker": "Rosa",
+      "text": "The east entrance. Our tickets are for row C, seats twelve and thirteen."
+    },
+    {
+      "id": "p06-b-05-s03",
+      "speaker": "Callum",
+      "text": "Will I look out of place without a team shirt?"
+    },
+    {
+      "id": "p06-b-05-s04",
+      "speaker": "Rosa",
+      "text": "Not at all. You don't have to be a lifelong supporter to come along."
+    },
+    {
+      "id": "p06-b-05-s05",
+      "speaker": "Callum",
+      "text": "You always sound excited about this team."
+    },
+    {
+      "id": "p06-b-05-s06",
+      "speaker": "Rosa",
+      "text": "I love their team spirit, especially when a match isn't going well."
+    },
+    {
+      "id": "p06-b-05-s07",
+      "speaker": "Callum",
+      "text": "Then I'll meet you outside the east entrance at three."
+    },
+    {
+      "id": "p06-b-05-s08",
+      "speaker": "Rosa",
+      "text": "Perfect. That gives us half an hour to find our seats."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9539ad61804e51f1",
+      "lemma": "rugby",
+      "pos": "n.",
+      "sense_zh": "橄榄球运动",
+      "sentence_ids": [
+        "p06-b-05-s01"
+      ],
+      "forms": [
+        "rugby"
+      ],
+      "sense_id": "sense-staged-ox-9539ad61804e51f1-p06-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fd17acabebac358d",
+      "lemma": "stadium",
+      "pos": "n.",
+      "sense_zh": "体育场",
+      "sentence_ids": [
+        "p06-b-05-s01"
+      ],
+      "forms": [
+        "stadium"
+      ],
+      "sense_id": "sense-staged-ox-fd17acabebac358d-p06-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2d0b9857d569d143",
+      "lemma": "row",
+      "pos": "n.",
+      "sense_zh": "一排座位",
+      "sentence_ids": [
+        "p06-b-05-s02"
+      ],
+      "forms": [
+        "row"
+      ],
+      "sense_id": "sense-staged-ox-2d0b9857d569d143-p06-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc0a75013de0c00e",
+      "lemma": "supporter",
+      "pos": "n.",
+      "sense_zh": "球队支持者",
+      "sentence_ids": [
+        "p06-b-05-s04"
+      ],
+      "forms": [
+        "supporter"
+      ],
+      "sense_id": "sense-staged-ox-dc0a75013de0c00e-p06-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bafa2f3c76efc4ed",
+      "lemma": "spirit",
+      "pos": "n.",
+      "sense_zh": "团队精神",
+      "sentence_ids": [
+        "p06-b-05-s06"
+      ],
+      "forms": [
+        "spirit"
+      ],
+      "sense_id": "sense-staged-ox-bafa2f3c76efc4ed-p06-b-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

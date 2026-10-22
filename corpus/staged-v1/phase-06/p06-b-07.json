@@ -1,0 +1,132 @@
+{
+  "id": "p06-b-07",
+  "title_zh": "先练习陶土表面的处理方法",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "clay-sculpture-finishing-feedback",
+    "label_zh": "调整陶土作品的表面",
+    "goal_zh": "讨论作品边缘与表面处理，并约定先在余料上练习"
+  },
+  "participants": [
+    "Pavel",
+    "Jo"
+  ],
+  "context_zh": "陶艺初学者帕维尔正在制作尚未烧制的陶土鸟，请教师乔帮助改善触感。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-07-s01",
+      "speaker": "Pavel",
+      "text": "My sculpture looks all right from here, but the edge of the wing feels sharp."
+    },
+    {
+      "id": "p06-b-07-s02",
+      "speaker": "Jo",
+      "text": "The clay is still soft, so we can round that edge before it dries."
+    },
+    {
+      "id": "p06-b-07-s03",
+      "speaker": "Pavel",
+      "text": "I'd also like the surface to be smooth, rather than covered in fingerprints."
+    },
+    {
+      "id": "p06-b-07-s04",
+      "speaker": "Jo",
+      "text": "I can show you a technique using this damp sponge. Too much water would make the clay difficult to work with."
+    },
+    {
+      "id": "p06-b-07-s05",
+      "speaker": "Pavel",
+      "text": "Could I practise on a leftover piece first? I don't want to flatten the wing."
+    },
+    {
+      "id": "p06-b-07-s06",
+      "speaker": "Jo",
+      "text": "Of course. Try it on this scrap, and we'll look at the result together before you touch the bird."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-57f665eff7cca07f",
+      "lemma": "sculpture",
+      "pos": "n.",
+      "sense_zh": "雕塑作品",
+      "sentence_ids": [
+        "p06-b-07-s01"
+      ],
+      "forms": [
+        "sculpture"
+      ],
+      "sense_id": "sense-staged-ox-57f665eff7cca07f-p06-b-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0acb0dfeb1ee3caf",
+      "lemma": "sharp",
+      "pos": "adj.",
+      "sense_zh": "边缘尖锐的",
+      "sentence_ids": [
+        "p06-b-07-s01"
+      ],
+      "forms": [
+        "sharp"
+      ],
+      "sense_id": "sense-staged-ox-0acb0dfeb1ee3caf-p06-b-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9e43db01ce267edc",
+      "lemma": "surface",
+      "pos": "n.",
+      "sense_zh": "表面",
+      "sentence_ids": [
+        "p06-b-07-s03"
+      ],
+      "forms": [
+        "surface"
+      ],
+      "sense_id": "sense-staged-ox-9e43db01ce267edc-p06-b-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a17c89e486e4c07e",
+      "lemma": "smooth",
+      "pos": "adj.",
+      "sense_zh": "光滑的",
+      "sentence_ids": [
+        "p06-b-07-s03"
+      ],
+      "forms": [
+        "smooth"
+      ],
+      "sense_id": "sense-staged-ox-a17c89e486e4c07e-p06-b-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e08aeec1ede8b84c",
+      "lemma": "technique",
+      "pos": "n.",
+      "sense_zh": "操作技巧",
+      "sentence_ids": [
+        "p06-b-07-s04"
+      ],
+      "forms": [
+        "technique"
+      ],
+      "sense_id": "sense-staged-ox-e08aeec1ede8b84c-p06-b-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

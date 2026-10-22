@@ -1,0 +1,121 @@
+{
+  "id": "p06-c-21",
+  "title_zh": "在安全位置报告街头伤人事件",
+  "topic_id": "community",
+  "scenario": {
+    "id": "street-incident-emergency-call",
+    "label_zh": "报告街头事件并等候救援",
+    "goal_zh": "向接线员说明伤人事件的位置和可见情况，在安全位置等候救援"
+  },
+  "participants": [
+    "Caller Mina",
+    "Operator Lee"
+  ],
+  "context_zh": "这是一段虚构的紧急联络语言练习：米娜在商店内目击门外有人受伤，与接线员沟通。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-21-s01",
+      "speaker": "Caller Mina",
+      "text": "Someone has been attacked outside Green Street Library. Please send an ambulance."
+    },
+    {
+      "id": "p06-c-21-s02",
+      "speaker": "Operator Lee",
+      "text": "Are you in a safe place now?"
+    },
+    {
+      "id": "p06-c-21-s03",
+      "speaker": "Caller Mina",
+      "text": "Yes, inside the shop opposite. The victim is sitting by the library steps. The other man was very aggressive and is still shouting down the road."
+    },
+    {
+      "id": "p06-c-21-s04",
+      "speaker": "Operator Lee",
+      "text": "Stay inside and do not approach him. Which entrance to the library can you see?"
+    },
+    {
+      "id": "p06-c-21-s05",
+      "speaker": "Caller Mina",
+      "text": "The main entrance on Green Street, beside the bus stop. I can warn the shopkeeper not to let customers walk toward the shouting."
+    },
+    {
+      "id": "p06-c-21-s06",
+      "speaker": "Operator Lee",
+      "text": "Do that without leaving the shop. Help is being sent to the main library entrance. Stay on the line."
+    },
+    {
+      "id": "p06-c-21-s07",
+      "speaker": "Caller Mina",
+      "text": "I will stay here. The shopkeeper is keeping the door closed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-438d0594f3adb13d",
+      "lemma": "ambulance",
+      "pos": "n.",
+      "sense_zh": "救护车",
+      "sentence_ids": [
+        "p06-c-21-s01"
+      ],
+      "forms": [
+        "ambulance"
+      ],
+      "sense_id": "sense-staged-ox-438d0594f3adb13d-p06-c-21",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-156e5731ab71120f",
+      "lemma": "victim",
+      "pos": "n.",
+      "sense_zh": "受害者",
+      "sentence_ids": [
+        "p06-c-21-s03"
+      ],
+      "forms": [
+        "victim"
+      ],
+      "sense_id": "sense-staged-ox-156e5731ab71120f-p06-c-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-228d74b519848e3f",
+      "lemma": "aggressive",
+      "pos": "adj.",
+      "sense_zh": "咄咄逼人或有攻击性的",
+      "sentence_ids": [
+        "p06-c-21-s03"
+      ],
+      "forms": [
+        "aggressive"
+      ],
+      "sense_id": "sense-staged-ox-228d74b519848e3f-p06-c-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b024f989b4701f06",
+      "lemma": "warn",
+      "pos": "v.",
+      "sense_zh": "提醒可能的危险，警告",
+      "sentence_ids": [
+        "p06-c-21-s05"
+      ],
+      "forms": [
+        "warn"
+      ],
+      "sense_id": "sense-staged-ox-b024f989b4701f06-p06-c-21",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

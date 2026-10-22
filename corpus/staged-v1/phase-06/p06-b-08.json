@@ -1,0 +1,174 @@
+{
+  "id": "p06-b-08",
+  "title_zh": "商定同形材料的浮沉观察",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-floating-prediction",
+    "label_zh": "澄清浮沉实验的预测",
+    "goal_zh": "保持样本形状和大小相同，商定比较不同材料浮沉的观察记录"
+  },
+  "participants": [
+    "Luca",
+    "Ms Chen"
+  ],
+  "context_zh": "科学课上，卢卡想用两个物体的外形预测浮沉，陈老师请他缩小结论并设计下一次观察。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-08-s01",
+      "speaker": "Luca",
+      "text": "My theory is that objects with the same shape will behave similarly in water."
+    },
+    {
+      "id": "p06-b-08-s02",
+      "speaker": "Ms Chen",
+      "text": "That's a prediction we can test. Which objects do you want to use?"
+    },
+    {
+      "id": "p06-b-08-s03",
+      "speaker": "Luca",
+      "text": "These cubes. One is wood and the other is metal, but the similarity in shape should help us compare them."
+    },
+    {
+      "id": "p06-b-08-s04",
+      "speaker": "Ms Chen",
+      "text": "Good. Each cube is made from a different substance. Are they the same size, too?"
+    },
+    {
+      "id": "p06-b-08-s05",
+      "speaker": "Luca",
+      "text": "Yes, and both are solid, not hollow. I think they'll both sink."
+    },
+    {
+      "id": "p06-b-08-s06",
+      "speaker": "Ms Chen",
+      "text": "Write that down before we test them. A scientific report needs your observations, even if they disagree with your prediction."
+    },
+    {
+      "id": "p06-b-08-s07",
+      "speaker": "Luca",
+      "text": "I'll draw a table with one row for each cube and record what actually happens."
+    },
+    {
+      "id": "p06-b-08-s08",
+      "speaker": "Ms Chen",
+      "text": "Do that, then bring the table to the water tray. We'll test these two cubes first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-38c6bc60269261fb",
+      "lemma": "theory",
+      "pos": "n.",
+      "sense_zh": "用于解释或预测的初步看法",
+      "sentence_ids": [
+        "p06-b-08-s01"
+      ],
+      "forms": [
+        "theory"
+      ],
+      "sense_id": "sense-staged-ox-38c6bc60269261fb-p06-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d85604a36dfc629",
+      "lemma": "similarly",
+      "pos": "adv.",
+      "sense_zh": "相似地",
+      "sentence_ids": [
+        "p06-b-08-s01"
+      ],
+      "forms": [
+        "similarly"
+      ],
+      "sense_id": "sense-staged-ox-3d85604a36dfc629-p06-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3a72adea21579fef",
+      "lemma": "similarity",
+      "pos": "n.",
+      "sense_zh": "相似之处",
+      "sentence_ids": [
+        "p06-b-08-s03"
+      ],
+      "forms": [
+        "similarity"
+      ],
+      "sense_id": "sense-staged-ox-3a72adea21579fef-p06-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-633b56939ff2ac0f",
+      "lemma": "substance",
+      "pos": "n.",
+      "sense_zh": "物质",
+      "sentence_ids": [
+        "p06-b-08-s04"
+      ],
+      "forms": [
+        "substance"
+      ],
+      "sense_id": "sense-staged-ox-633b56939ff2ac0f-p06-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f5fdb4eb5590e00a",
+      "lemma": "solid",
+      "pos": "adj.",
+      "sense_zh": "实心的",
+      "sentence_ids": [
+        "p06-b-08-s05"
+      ],
+      "forms": [
+        "solid"
+      ],
+      "sense_id": "sense-staged-ox-f5fdb4eb5590e00a-p06-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-64df425dbeafc185",
+      "lemma": "sink",
+      "pos": "v.",
+      "sense_zh": "下沉",
+      "sentence_ids": [
+        "p06-b-08-s05"
+      ],
+      "forms": [
+        "sink"
+      ],
+      "sense_id": "sense-staged-ox-64df425dbeafc185-p06-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-769b7f6a3f3f6918",
+      "lemma": "scientific",
+      "pos": "adj.",
+      "sense_zh": "科学研究的",
+      "sentence_ids": [
+        "p06-b-08-s06"
+      ],
+      "forms": [
+        "scientific"
+      ],
+      "sense_id": "sense-staged-ox-769b7f6a3f3f6918-p06-b-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

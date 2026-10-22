@@ -1,0 +1,142 @@
+{
+  "id": "p06-c-20",
+  "title_zh": "商定父母周年聚餐的人数和时间",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "parents-anniversary-table",
+    "label_zh": "安排父母结婚周年聚餐",
+    "goal_zh": "确定参加人数并为家庭纪念日协调见面时间。"
+  },
+  "participants": [
+    "Daisy",
+    "Marco"
+  ],
+  "context_zh": "兄妹黛西和马尔科为父母结婚周年安排一顿小型家庭聚餐。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-20-s01",
+      "speaker": "Daisy",
+      "text": "Mum and Dad want their anniversary dinner to be a small affair, not a big party."
+    },
+    {
+      "id": "p06-c-20-s02",
+      "speaker": "Marco",
+      "text": "Then it is just them, us, and our partners. Six people altogether."
+    },
+    {
+      "id": "p06-c-20-s03",
+      "speaker": "Daisy",
+      "text": "Can everyone meet at the restaurant at seven on Saturday?"
+    },
+    {
+      "id": "p06-c-20-s04",
+      "speaker": "Marco",
+      "text": "Yes. I checked with both partners, and Mum and Dad said seven suits them."
+    },
+    {
+      "id": "p06-c-20-s05",
+      "speaker": "Daisy",
+      "text": "Would a single gold balloon by their chairs be too much?"
+    },
+    {
+      "id": "p06-c-20-s06",
+      "speaker": "Marco",
+      "text": "No, that would be nice. I will ask the restaurant if we can bring it when I reserve the table."
+    },
+    {
+      "id": "p06-c-20-s07",
+      "speaker": "Daisy",
+      "text": "And afterwards we can walk back to my flat for coffee, if they feel like it."
+    },
+    {
+      "id": "p06-c-20-s08",
+      "speaker": "Marco",
+      "text": "Good plan. I will request a table for six at seven, and you can bring the decoration once they confirm it is allowed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2cb8e42a159e5e20",
+      "lemma": "anniversary",
+      "pos": "n.",
+      "sense_zh": "周年纪念日",
+      "sentence_ids": [
+        "p06-c-20-s01"
+      ],
+      "forms": [
+        "anniversary"
+      ],
+      "sense_id": "sense-staged-ox-2cb8e42a159e5e20-p06-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4651c0b2a9069c8",
+      "lemma": "affair",
+      "pos": "n.",
+      "sense_zh": "某种场合或活动",
+      "sentence_ids": [
+        "p06-c-20-s01"
+      ],
+      "forms": [
+        "affair"
+      ],
+      "sense_id": "sense-staged-ox-c4651c0b2a9069c8-p06-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5442d1d71219cc55",
+      "lemma": "altogether",
+      "pos": "adv.",
+      "sense_zh": "总共",
+      "sentence_ids": [
+        "p06-c-20-s02"
+      ],
+      "forms": [
+        "altogether"
+      ],
+      "sense_id": "sense-staged-ox-5442d1d71219cc55-p06-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4ba6917cf599d944",
+      "lemma": "balloon",
+      "pos": "n.",
+      "sense_zh": "气球",
+      "sentence_ids": [
+        "p06-c-20-s05"
+      ],
+      "forms": [
+        "balloon"
+      ],
+      "sense_id": "sense-staged-ox-4ba6917cf599d944-p06-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2018212de1bcc295",
+      "lemma": "afterwards",
+      "pos": "adv.",
+      "sense_zh": "后来，之后",
+      "sentence_ids": [
+        "p06-c-20-s07"
+      ],
+      "forms": [
+        "afterwards"
+      ],
+      "sense_id": "sense-staged-ox-2018212de1bcc295-p06-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

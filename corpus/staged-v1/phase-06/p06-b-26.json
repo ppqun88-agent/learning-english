@@ -1,0 +1,105 @@
+{
+  "id": "p06-b-26",
+  "title_zh": "确认自行车换胎与取车时间",
+  "topic_id": "services",
+  "scenario": {
+    "id": "bicycle-repair-estimate",
+    "label_zh": "询问自行车维修安排",
+    "goal_zh": "检查车况、讨论维修必要性并确认取车时间。"
+  },
+  "participants": [
+    "Bea",
+    "Cycle Mechanic"
+  ],
+  "context_zh": "比娅把漏气的自行车送到维修店，维修师检查后说明需要更换的部件，两人商定取车安排。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-26-s01",
+      "speaker": "Cycle Mechanic",
+      "text": "The tyre is badly worn, and the inner tube has a split near the valve."
+    },
+    {
+      "id": "p06-b-26-s02",
+      "speaker": "Bea",
+      "text": "Could you repair them rather than replace them?"
+    },
+    {
+      "id": "p06-b-26-s03",
+      "speaker": "Cycle Mechanic",
+      "text": "The split won't hold a patch, and the outer rubber is cracking. I'd replace both. Parts and labour would be thirty pounds."
+    },
+    {
+      "id": "p06-b-26-s04",
+      "speaker": "Bea",
+      "text": "Okay, please do that. You said collection would be at five?"
+    },
+    {
+      "id": "p06-b-26-s05",
+      "speaker": "Cycle Mechanic",
+      "text": "Yes, though I can have it ready by four if that helps."
+    },
+    {
+      "id": "p06-b-26-s06",
+      "speaker": "Bea",
+      "text": "Could we switch the collection time to four, then? I need to get home before five."
+    },
+    {
+      "id": "p06-b-26-s07",
+      "speaker": "Cycle Mechanic",
+      "text": "Four it is. I'll replace both parts and check the wheel before you arrive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-10dc16681cb8ac4d",
+      "lemma": "tyre",
+      "pos": "n.",
+      "sense_zh": "轮胎（英式拼写）",
+      "sentence_ids": [
+        "p06-b-26-s01"
+      ],
+      "forms": [
+        "tyre"
+      ],
+      "sense_id": "sense-staged-ox-10dc16681cb8ac4d-p06-b-26",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a3afc2c9e4a9afa4",
+      "lemma": "tube",
+      "pos": "n.",
+      "sense_zh": "充气内胎",
+      "sentence_ids": [
+        "p06-b-26-s01"
+      ],
+      "forms": [
+        "tube"
+      ],
+      "sense_id": "sense-staged-ox-a3afc2c9e4a9afa4-p06-b-26",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-594bd949a9316ca6",
+      "lemma": "switch",
+      "pos": "v.",
+      "sense_zh": "更换或改变安排",
+      "sentence_ids": [
+        "p06-b-26-s06"
+      ],
+      "forms": [
+        "switch"
+      ],
+      "sense_id": "sense-staged-ox-594bd949a9316ca6-p06-b-26",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,174 @@
+{
+  "id": "p06-a-12",
+  "title_zh": "为读诗晚会选择开场作品和引文",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "poetry-reading-selection",
+    "label_zh": "安排读诗晚会开场与节目引文",
+    "goal_zh": "选定开场诗作，取得作者对短引文的同意，并确认出处信息和朗读分工"
+  },
+  "participants": [
+    "Wen",
+    "Felix"
+  ],
+  "context_zh": "社区读诗活动主持人温与受邀诗人费利克斯准备节目。作品《River Windows》是此虚构场景中的诗人原创。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-12-s01",
+      "speaker": "Wen",
+      "text": "You're our guest poet on Thursday. Which piece would you like to read first?"
+    },
+    {
+      "id": "p06-a-12-s02",
+      "speaker": "Felix",
+      "text": "River Windows. It is a short poem from my new booklet, and it is a pleasure to read aloud."
+    },
+    {
+      "id": "p06-a-12-s03",
+      "speaker": "Wen",
+      "text": "That sounds right for a poetry evening with several first-time visitors. Could I quote two lines in the programme?"
+    },
+    {
+      "id": "p06-a-12-s04",
+      "speaker": "Felix",
+      "text": "Yes, use the opening two lines. They give people the setting without giving away the ending."
+    },
+    {
+      "id": "p06-a-12-s05",
+      "speaker": "Wen",
+      "text": "Should the quotation have the title underneath it?"
+    },
+    {
+      "id": "p06-a-12-s06",
+      "speaker": "Felix",
+      "text": "Please add a full reference: my name, the title, and page four of the booklet."
+    },
+    {
+      "id": "p06-a-12-s07",
+      "speaker": "Wen",
+      "text": "I'll do that. I'll introduce you, and then you can read the whole piece."
+    },
+    {
+      "id": "p06-a-12-s08",
+      "speaker": "Felix",
+      "text": "Agreed. I'll bring my marked copy so I can begin straight after the introduction."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-84984bce157ce5e8",
+      "lemma": "poet",
+      "pos": "n.",
+      "sense_zh": "诗人",
+      "sentence_ids": [
+        "p06-a-12-s01"
+      ],
+      "forms": [
+        "poet"
+      ],
+      "sense_id": "sense-staged-ox-84984bce157ce5e8-p06-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63dc8e43588bdf08",
+      "lemma": "poem",
+      "pos": "n.",
+      "sense_zh": "诗",
+      "sentence_ids": [
+        "p06-a-12-s02"
+      ],
+      "forms": [
+        "poem"
+      ],
+      "sense_id": "sense-staged-ox-63dc8e43588bdf08-p06-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-500ac133a643507b",
+      "lemma": "pleasure",
+      "pos": "n.",
+      "sense_zh": "令人愉快的事",
+      "sentence_ids": [
+        "p06-a-12-s02"
+      ],
+      "forms": [
+        "pleasure"
+      ],
+      "sense_id": "sense-staged-ox-500ac133a643507b-p06-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17b09ddf562be925",
+      "lemma": "poetry",
+      "pos": "n.",
+      "sense_zh": "诗歌",
+      "sentence_ids": [
+        "p06-a-12-s03"
+      ],
+      "forms": [
+        "poetry"
+      ],
+      "sense_id": "sense-staged-ox-17b09ddf562be925-p06-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc4a0c4ac916a44b",
+      "lemma": "quote",
+      "pos": "v.",
+      "sense_zh": "引用",
+      "sentence_ids": [
+        "p06-a-12-s03"
+      ],
+      "forms": [
+        "quote"
+      ],
+      "sense_id": "sense-staged-ox-dc4a0c4ac916a44b-p06-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8214cca1b2e5cf24",
+      "lemma": "quotation",
+      "pos": "n.",
+      "sense_zh": "引文",
+      "sentence_ids": [
+        "p06-a-12-s05"
+      ],
+      "forms": [
+        "quotation"
+      ],
+      "sense_id": "sense-staged-ox-8214cca1b2e5cf24-p06-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-851554996d60823e",
+      "lemma": "reference",
+      "pos": "n.",
+      "sense_zh": "出处说明",
+      "sentence_ids": [
+        "p06-a-12-s06"
+      ],
+      "forms": [
+        "reference"
+      ],
+      "sense_id": "sense-staged-ox-851554996d60823e-p06-a-12",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,126 @@
+{
+  "id": "p06-a-09",
+  "title_zh": "核对贺卡与礼物包裹邮资",
+  "topic_id": "services",
+  "scenario": {
+    "id": "parcel-and-card-posting",
+    "label_zh": "办理礼物包裹与贺卡邮寄",
+    "goal_zh": "核对邮寄去向、标签和贺卡邮资并交寄"
+  },
+  "participants": [
+    "Sophie",
+    "Pat"
+  ],
+  "context_zh": "顾客索菲把一份礼物包裹和一张单独寄送的贺卡带到邮局，由柜员帕特核对。费用仅属虚构练习。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-09-s01",
+      "speaker": "Sophie",
+      "text": "This package and this card are both going to my aunt in Bristol."
+    },
+    {
+      "id": "p06-a-09-s02",
+      "speaker": "Pat",
+      "text": "The address on the package is clear. Could you add the postcode to the card as well?"
+    },
+    {
+      "id": "p06-a-09-s03",
+      "speaker": "Sophie",
+      "text": "Of course. There, I've copied it from the parcel label."
+    },
+    {
+      "id": "p06-a-09-s04",
+      "speaker": "Pat",
+      "text": "Thank you. The parcel postage is six pounds, plus one pound for the card. Seven pounds altogether."
+    },
+    {
+      "id": "p06-a-09-s05",
+      "speaker": "Sophie",
+      "text": "I'll pay by card. Do I tap here?"
+    },
+    {
+      "id": "p06-a-09-s06",
+      "speaker": "Pat",
+      "text": "Yes. Your payment has gone through. Here is your receipt."
+    },
+    {
+      "id": "p06-a-09-s07",
+      "speaker": "Sophie",
+      "text": "Thank you. Do you take both items now?"
+    },
+    {
+      "id": "p06-a-09-s08",
+      "speaker": "Pat",
+      "text": "Yes, I'll put them with today's outgoing post."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1049b0221546b708",
+      "lemma": "package",
+      "pos": "n.",
+      "sense_zh": "包裹",
+      "sentence_ids": [
+        "p06-a-09-s01"
+      ],
+      "forms": [
+        "package"
+      ],
+      "sense_id": "sense-staged-ox-1049b0221546b708-p06-a-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f46850fcaa831759",
+      "lemma": "plus",
+      "pos": "prep.",
+      "sense_zh": "加上",
+      "sentence_ids": [
+        "p06-a-09-s04"
+      ],
+      "forms": [
+        "plus"
+      ],
+      "sense_id": "sense-staged-ox-f46850fcaa831759-p06-a-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-78868f880a9d6bbc",
+      "lemma": "payment",
+      "pos": "n.",
+      "sense_zh": "付款",
+      "sentence_ids": [
+        "p06-a-09-s06"
+      ],
+      "forms": [
+        "payment"
+      ],
+      "sense_id": "sense-staged-ox-78868f880a9d6bbc-p06-a-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ff49363795e6a37d",
+      "lemma": "receipt",
+      "pos": "n.",
+      "sense_zh": "收据",
+      "sentence_ids": [
+        "p06-a-09-s06"
+      ],
+      "forms": [
+        "receipt"
+      ],
+      "sense_id": "sense-staged-ox-ff49363795e6a37d-p06-a-09",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

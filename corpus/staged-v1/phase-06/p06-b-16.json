@@ -1,0 +1,142 @@
+{
+  "id": "p06-b-16",
+  "title_zh": "为社区戏剧安排角色试演",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "community-play-casting",
+    "label_zh": "确认角色分配和排练",
+    "goal_zh": "剧团根据角色要求讨论试演人选及排练时间。"
+  },
+  "participants": [
+    "Ellis",
+    "Mo"
+  ],
+  "context_zh": "社区剧团的新成员埃利斯担心在陌生人面前表演，导演莫和他讨论适合试演的角色与排练时间。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-16-s01",
+      "speaker": "Ellis",
+      "text": "I'd like to join the play, but I'm shy around people I don't know."
+    },
+    {
+      "id": "p06-b-16-s02",
+      "speaker": "Mo",
+      "text": "We can start with a reading in a small group. You have a real talent for changing your voice."
+    },
+    {
+      "id": "p06-b-16-s03",
+      "speaker": "Ellis",
+      "text": "Does that mean you want me to play the stranger who arrives in scene two?"
+    },
+    {
+      "id": "p06-b-16-s04",
+      "speaker": "Mo",
+      "text": "Possibly. His voice has to be different from everyone else's, and that's your strength."
+    },
+    {
+      "id": "p06-b-16-s05",
+      "speaker": "Ellis",
+      "text": "The others are so talented. I'm worried I'll slow them down."
+    },
+    {
+      "id": "p06-b-16-s06",
+      "speaker": "Mo",
+      "text": "They all need rehearsal too. Would you read the part with Nina and me on Tuesday at seven?"
+    },
+    {
+      "id": "p06-b-16-s07",
+      "speaker": "Ellis",
+      "text": "Yes, I'd be comfortable with that. I'll read the scene beforehand."
+    },
+    {
+      "id": "p06-b-16-s08",
+      "speaker": "Mo",
+      "text": "Good. We'll try that role on Tuesday, then decide together whether it suits you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7bd17e32d525f71f",
+      "lemma": "shy",
+      "pos": "adj.",
+      "sense_zh": "羞怯的",
+      "sentence_ids": [
+        "p06-b-16-s01"
+      ],
+      "forms": [
+        "shy"
+      ],
+      "sense_id": "sense-staged-ox-7bd17e32d525f71f-p06-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21a56bcb0e027b7a",
+      "lemma": "talent",
+      "pos": "n.",
+      "sense_zh": "天赋才能",
+      "sentence_ids": [
+        "p06-b-16-s02"
+      ],
+      "forms": [
+        "talent"
+      ],
+      "sense_id": "sense-staged-ox-21a56bcb0e027b7a-p06-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-35df6c8b11d4fdcc",
+      "lemma": "stranger",
+      "pos": "n.",
+      "sense_zh": "陌生人",
+      "sentence_ids": [
+        "p06-b-16-s03"
+      ],
+      "forms": [
+        "stranger"
+      ],
+      "sense_id": "sense-staged-ox-35df6c8b11d4fdcc-p06-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-979acd912b227f48",
+      "lemma": "strength",
+      "pos": "n.",
+      "sense_zh": "长处",
+      "sentence_ids": [
+        "p06-b-16-s04"
+      ],
+      "forms": [
+        "strength"
+      ],
+      "sense_id": "sense-staged-ox-979acd912b227f48-p06-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7914e8061c72f3ac",
+      "lemma": "talented",
+      "pos": "adj.",
+      "sense_zh": "有才能的",
+      "sentence_ids": [
+        "p06-b-16-s05"
+      ],
+      "forms": [
+        "talented"
+      ],
+      "sense_id": "sense-staged-ox-7914e8061c72f3ac-p06-b-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

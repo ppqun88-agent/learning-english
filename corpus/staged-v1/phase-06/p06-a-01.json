@@ -1,0 +1,142 @@
+{
+  "id": "p06-a-01",
+  "title_zh": "选一本适合讨论双重视角的小说",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "reading-group-book-choice",
+    "label_zh": "选择读书小组作品",
+    "goal_zh": "比较故事题材与讨论安排后选定共读作品"
+  },
+  "participants": [
+    "Mara",
+    "Ivo"
+  ],
+  "context_zh": "读书小组成员玛拉和伊沃正在选择下个月的共读作品；书名及情节均为虚构。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-01-s01",
+      "speaker": "Mara",
+      "text": "Do you have a recommendation for our next reading-group book?"
+    },
+    {
+      "id": "p06-a-01-s02",
+      "speaker": "Ivo",
+      "text": "The Night Ferry. Its narrative moves between a mother and her adult son."
+    },
+    {
+      "id": "p06-a-01-s03",
+      "speaker": "Mara",
+      "text": "Is the plot hard to follow?"
+    },
+    {
+      "id": "p06-a-01-s04",
+      "speaker": "Ivo",
+      "text": "Not really. It's about their search for a missing letter, rather than a complicated mystery."
+    },
+    {
+      "id": "p06-a-01-s05",
+      "speaker": "Mara",
+      "text": "Personally, I'd prefer that to another crime novel. Is it a long book?"
+    },
+    {
+      "id": "p06-a-01-s06",
+      "speaker": "Ivo",
+      "text": "Only 180 pages. I found the ending powerful, especially when the son finally reads the letter."
+    },
+    {
+      "id": "p06-a-01-s07",
+      "speaker": "Mara",
+      "text": "Then let's read that. We can discuss the two viewpoints at our meeting on the last Thursday."
+    },
+    {
+      "id": "p06-a-01-s08",
+      "speaker": "Ivo",
+      "text": "Agreed. I'll put the title and date in our group message."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-73455551ee08fdec",
+      "lemma": "recommendation",
+      "pos": "n.",
+      "sense_zh": "推荐的作品",
+      "sentence_ids": [
+        "p06-a-01-s01"
+      ],
+      "forms": [
+        "recommendation"
+      ],
+      "sense_id": "sense-staged-ox-73455551ee08fdec-p06-a-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c600a1faf3adb83",
+      "lemma": "narrative",
+      "pos": "n.",
+      "sense_zh": "故事的叙述",
+      "sentence_ids": [
+        "p06-a-01-s02"
+      ],
+      "forms": [
+        "narrative"
+      ],
+      "sense_id": "sense-staged-ox-7c600a1faf3adb83-p06-a-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1ab6257761a701ac",
+      "lemma": "plot",
+      "pos": "n.",
+      "sense_zh": "故事情节",
+      "sentence_ids": [
+        "p06-a-01-s03"
+      ],
+      "forms": [
+        "plot"
+      ],
+      "sense_id": "sense-staged-ox-1ab6257761a701ac-p06-a-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce58dd44effb44d2",
+      "lemma": "personally",
+      "pos": "adv.",
+      "sense_zh": "就个人而言",
+      "sentence_ids": [
+        "p06-a-01-s05"
+      ],
+      "forms": [
+        "personally"
+      ],
+      "sense_id": "sense-staged-ox-ce58dd44effb44d2-p06-a-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7838a3c375425f0d",
+      "lemma": "powerful",
+      "pos": "adj.",
+      "sense_zh": "有强烈感染力的",
+      "sentence_ids": [
+        "p06-a-01-s06"
+      ],
+      "forms": [
+        "powerful"
+      ],
+      "sense_id": "sense-staged-ox-7838a3c375425f0d-p06-a-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

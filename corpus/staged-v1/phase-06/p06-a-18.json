@@ -1,0 +1,147 @@
+{
+  "id": "p06-a-18",
+  "title_zh": "区分短片媒体预览和公开发布",
+  "topic_id": "work",
+  "scenario": {
+    "id": "short-film-publicity-schedule",
+    "label_zh": "协调短片预览与公开宣传日程",
+    "goal_zh": "区分媒体预览、公开放映与上线时间，并分工准备宣传材料和发送前核对"
+  },
+  "participants": [
+    "Gus",
+    "Ella"
+  ],
+  "context_zh": "短片宣传协调员格斯与剪辑师埃拉核对已完成影片的宣传安排，所有项目和时间均为虚构。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-18-s01",
+      "speaker": "Gus",
+      "text": "Can we start telling people about the film now?"
+    },
+    {
+      "id": "p06-a-18-s02",
+      "speaker": "Ella",
+      "text": "Yes. Production is finished, and the producer has approved this final version."
+    },
+    {
+      "id": "p06-a-18-s03",
+      "speaker": "Gus",
+      "text": "Good. The local press have asked for a preview. I can offer them a private screening on Thursday."
+    },
+    {
+      "id": "p06-a-18-s04",
+      "speaker": "Ella",
+      "text": "That works, but the public screening is on Friday. We will release the film online the following Monday."
+    },
+    {
+      "id": "p06-a-18-s05",
+      "speaker": "Gus",
+      "text": "Then I will put all three dates in the invitation so nobody confuses them."
+    },
+    {
+      "id": "p06-a-18-s06",
+      "speaker": "Ella",
+      "text": "How will we promote the public screening? We do not have money for paid adverts."
+    },
+    {
+      "id": "p06-a-18-s07",
+      "speaker": "Gus",
+      "text": "With the approved poster on our club page and a short announcement at the library. I will handle both."
+    },
+    {
+      "id": "p06-a-18-s08",
+      "speaker": "Ella",
+      "text": "Great. I will prepare the preview link for the journalists. Send me your invitation before it goes out."
+    },
+    {
+      "id": "p06-a-18-s09",
+      "speaker": "Gus",
+      "text": "I will. You can check the dates and the link together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9cbbfac2c75bc3d8",
+      "lemma": "production",
+      "pos": "n.",
+      "sense_zh": "影片制作",
+      "sentence_ids": [
+        "p06-a-18-s02"
+      ],
+      "forms": [
+        "production"
+      ],
+      "sense_id": "sense-staged-ox-9cbbfac2c75bc3d8-p06-a-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-de61ecda34ce5f7a",
+      "lemma": "producer",
+      "pos": "n.",
+      "sense_zh": "制片人",
+      "sentence_ids": [
+        "p06-a-18-s02"
+      ],
+      "forms": [
+        "producer"
+      ],
+      "sense_id": "sense-staged-ox-de61ecda34ce5f7a-p06-a-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08faf24c9e1ded3f",
+      "lemma": "press",
+      "pos": "n.",
+      "sense_zh": "新闻媒体；新闻界",
+      "sentence_ids": [
+        "p06-a-18-s03"
+      ],
+      "forms": [
+        "press"
+      ],
+      "sense_id": "sense-staged-ox-08faf24c9e1ded3f-p06-a-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0eadc79f86e142c1",
+      "lemma": "release",
+      "pos": "v.",
+      "sense_zh": "公开发布",
+      "sentence_ids": [
+        "p06-a-18-s04"
+      ],
+      "forms": [
+        "release"
+      ],
+      "sense_id": "sense-staged-ox-0eadc79f86e142c1-p06-a-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-29cbf59c774f01aa",
+      "lemma": "promote",
+      "pos": "v.",
+      "sense_zh": "宣传",
+      "sentence_ids": [
+        "p06-a-18-s06"
+      ],
+      "forms": [
+        "promote"
+      ],
+      "sense_id": "sense-staged-ox-29cbf59c774f01aa-p06-a-18",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

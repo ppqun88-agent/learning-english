@@ -1,0 +1,105 @@
+{
+  "id": "p06-c-10",
+  "title_zh": "用信件限定祖辈移民展板的描述",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "family-migration-exhibit-text",
+    "label_zh": "修订家族移民经历展览说明",
+    "goal_zh": "核对人物经历与历史材料，限定有证据支持的影响描述并安排补充出处"
+  },
+  "participants": [
+    "Luca",
+    "Helen"
+  ],
+  "context_zh": "卢卡正在为家族移民经历课堂展览撰写说明，海伦老师与他一起查看家族保存的信件和日期。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-10-s01",
+      "speaker": "Luca",
+      "text": "I want this panel to be about my ancestor Elena, who moved here in 1912."
+    },
+    {
+      "id": "p06-c-10-s02",
+      "speaker": "Helen",
+      "text": "Which part of her life can you support with these letters?"
+    },
+    {
+      "id": "p06-c-10-s03",
+      "speaker": "Luca",
+      "text": "Her youth in the new town. She was nineteen when she arrived, and she describes finding work at a laundry."
+    },
+    {
+      "id": "p06-c-10-s04",
+      "speaker": "Helen",
+      "text": "Then focus on that aspect of her experience. Your draft says she changed the whole town, but the letters do not show that."
+    },
+    {
+      "id": "p06-c-10-s05",
+      "speaker": "Luca",
+      "text": "You are right. They tell us what happened to her, not what happened to everyone else."
+    },
+    {
+      "id": "p06-c-10-s06",
+      "speaker": "Helen",
+      "text": "Keep the arrival date and the laundry job. Add the dates of the letters beside those details."
+    },
+    {
+      "id": "p06-c-10-s07",
+      "speaker": "Luca",
+      "text": "I will remove the claim about the town and put a source note under each quotation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1d08564adc1fc073",
+      "lemma": "ancestor",
+      "pos": "n.",
+      "sense_zh": "祖先，祖辈",
+      "sentence_ids": [
+        "p06-c-10-s01"
+      ],
+      "forms": [
+        "ancestor"
+      ],
+      "sense_id": "sense-staged-ox-1d08564adc1fc073-p06-c-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-414dc645e131023a",
+      "lemma": "youth",
+      "pos": "n.",
+      "sense_zh": "青年时期",
+      "sentence_ids": [
+        "p06-c-10-s03"
+      ],
+      "forms": [
+        "youth"
+      ],
+      "sense_id": "sense-staged-ox-414dc645e131023a-p06-c-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3247b2bb619c10c2",
+      "lemma": "aspect",
+      "pos": "n.",
+      "sense_zh": "某事物的一个方面",
+      "sentence_ids": [
+        "p06-c-10-s04"
+      ],
+      "forms": [
+        "aspect"
+      ],
+      "sense_id": "sense-staged-ox-3247b2bb619c10c2-p06-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

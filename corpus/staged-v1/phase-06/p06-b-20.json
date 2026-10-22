@@ -1,0 +1,116 @@
+{
+  "id": "p06-b-20",
+  "title_zh": "请医生回电讨论反复喉咙痛",
+  "topic_id": "health",
+  "scenario": {
+    "id": "clinic-throat-callback-request",
+    "label_zh": "请求医生回电讨论喉咙不适",
+    "goal_zh": "说明症状及持续时间，确认可接听时段并请接待员转交医生回电请求"
+  },
+  "participants": [
+    "Owen",
+    "Clinic Receptionist"
+  ],
+  "context_zh": "虚构就诊沟通练习：欧文向诊所说明反复出现的喉咙不适，希望医生评估是否需要治疗，接待员只安排回电。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-20-s01",
+      "speaker": "Owen",
+      "text": "Could I speak to a doctor? I suffer from a sore throat most mornings, and it's been happening for two weeks."
+    },
+    {
+      "id": "p06-b-20-s02",
+      "speaker": "Clinic Receptionist",
+      "text": "I'll pass that on. Is that the main symptom you want to discuss?"
+    },
+    {
+      "id": "p06-b-20-s03",
+      "speaker": "Owen",
+      "text": "Yes. It usually eases later in the day, but I'd like to know whether I need treatment."
+    },
+    {
+      "id": "p06-b-20-s04",
+      "speaker": "Clinic Receptionist",
+      "text": "The doctor will need to discuss it with you. Could you take a call between two and three today?"
+    },
+    {
+      "id": "p06-b-20-s05",
+      "speaker": "Owen",
+      "text": "Yes, I'll keep my phone with me."
+    },
+    {
+      "id": "p06-b-20-s06",
+      "speaker": "Clinic Receptionist",
+      "text": "I'll request that callback and include what you've told me. If the doctor needs to see you, we'll arrange that after the call."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-216c1483fab3bdf0",
+      "lemma": "suffer",
+      "pos": "v.",
+      "sense_zh": "受身体不适困扰",
+      "sentence_ids": [
+        "p06-b-20-s01"
+      ],
+      "forms": [
+        "suffer"
+      ],
+      "sense_id": "sense-staged-ox-216c1483fab3bdf0-p06-b-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-03782cf82e51bb00",
+      "lemma": "throat",
+      "pos": "n.",
+      "sense_zh": "喉咙",
+      "sentence_ids": [
+        "p06-b-20-s01"
+      ],
+      "forms": [
+        "throat"
+      ],
+      "sense_id": "sense-staged-ox-03782cf82e51bb00-p06-b-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e0ff8ddd6eb0457c",
+      "lemma": "symptom",
+      "pos": "n.",
+      "sense_zh": "症状",
+      "sentence_ids": [
+        "p06-b-20-s02"
+      ],
+      "forms": [
+        "symptom"
+      ],
+      "sense_id": "sense-staged-ox-e0ff8ddd6eb0457c-p06-b-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9792773b165a045a",
+      "lemma": "treatment",
+      "pos": "n.",
+      "sense_zh": "治疗",
+      "sentence_ids": [
+        "p06-b-20-s03"
+      ],
+      "forms": [
+        "treatment"
+      ],
+      "sense_id": "sense-staged-ox-9792773b165a045a-p06-b-20",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

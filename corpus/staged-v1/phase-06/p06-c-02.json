@@ -1,0 +1,179 @@
+{
+  "id": "p06-c-02",
+  "title_zh": "把报告中的增长改为同口径比较",
+  "topic_id": "work",
+  "scenario": {
+    "id": "report-data-reconciliation",
+    "label_zh": "核对报告版本与数据口径",
+    "goal_zh": "查明两个报告数字不同的原因并约定修订可比较的数据和说明"
+  },
+  "participants": [
+    "Samir",
+    "Elise"
+  ],
+  "context_zh": "分析员萨米尔与项目同事埃莉斯检查一份虚构月度报告，发现图表可能使用了不同数据范围。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-02-s01",
+      "speaker": "Samir",
+      "text": "Which version did you send to the team? My chart ends in June, but yours includes July."
+    },
+    {
+      "id": "p06-c-02-s02",
+      "speaker": "Elise",
+      "text": "I sent the file you shared this morning. I thought the extra column had been checked."
+    },
+    {
+      "id": "p06-c-02-s03",
+      "speaker": "Samir",
+      "text": "As the analyst, I should have marked it as unfinished. July includes two shops that were not in the June total."
+    },
+    {
+      "id": "p06-c-02-s04",
+      "speaker": "Elise",
+      "text": "So the apparent rise might just reflect the extra shops?"
+    },
+    {
+      "id": "p06-c-02-s05",
+      "speaker": "Samir",
+      "text": "Yes. We need the actual sales figures for the same shops in both months."
+    },
+    {
+      "id": "p06-c-02-s06",
+      "speaker": "Elise",
+      "text": "I can copy those figures from the shop reports. Will you check that I have entered them accurately?"
+    },
+    {
+      "id": "p06-c-02-s07",
+      "speaker": "Samir",
+      "text": "Of course. Accuracy matters more than getting this out before lunch."
+    },
+    {
+      "id": "p06-c-02-s08",
+      "speaker": "Elise",
+      "text": "And we should state our assumption that every shop recorded returns in the same way."
+    },
+    {
+      "id": "p06-c-02-s09",
+      "speaker": "Samir",
+      "text": "Agreed. Replace the chart, add that note, and send the draft back to me before it goes to the team."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5e9f8e997712fd78",
+      "lemma": "version",
+      "pos": "n.",
+      "sense_zh": "某文件的版本",
+      "sentence_ids": [
+        "p06-c-02-s01"
+      ],
+      "forms": [
+        "version"
+      ],
+      "sense_id": "sense-staged-ox-5e9f8e997712fd78-p06-c-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c415fd9ebdb695d2",
+      "lemma": "analyst",
+      "pos": "n.",
+      "sense_zh": "分析员",
+      "sentence_ids": [
+        "p06-c-02-s03"
+      ],
+      "forms": [
+        "analyst"
+      ],
+      "sense_id": "sense-staged-ox-c415fd9ebdb695d2-p06-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c854ec9a1e58f91",
+      "lemma": "apparent",
+      "pos": "adj.",
+      "sense_zh": "表面上的，看似存在的",
+      "sentence_ids": [
+        "p06-c-02-s04"
+      ],
+      "forms": [
+        "apparent"
+      ],
+      "sense_id": "sense-staged-ox-5c854ec9a1e58f91-p06-c-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea72c4d72bc2a89b",
+      "lemma": "actual",
+      "pos": "adj.",
+      "sense_zh": "实际的，真实的",
+      "sentence_ids": [
+        "p06-c-02-s05"
+      ],
+      "forms": [
+        "actual"
+      ],
+      "sense_id": "sense-staged-ox-ea72c4d72bc2a89b-p06-c-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-989bbc41f24cf2da",
+      "lemma": "accurately",
+      "pos": "adv.",
+      "sense_zh": "准确地",
+      "sentence_ids": [
+        "p06-c-02-s06"
+      ],
+      "forms": [
+        "accurately"
+      ],
+      "sense_id": "sense-staged-ox-989bbc41f24cf2da-p06-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2786329da7f7121b",
+      "lemma": "accuracy",
+      "pos": "n.",
+      "sense_zh": "准确性",
+      "sentence_ids": [
+        "p06-c-02-s07"
+      ],
+      "forms": [
+        "accuracy"
+      ],
+      "sense_id": "sense-staged-ox-2786329da7f7121b-p06-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7e492b8d0e0fa04e",
+      "lemma": "assumption",
+      "pos": "n.",
+      "sense_zh": "未经证实而暂时采用的假设",
+      "sentence_ids": [
+        "p06-c-02-s08"
+      ],
+      "forms": [
+        "assumption"
+      ],
+      "sense_id": "sense-staged-ox-7e492b8d0e0fa04e-p06-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

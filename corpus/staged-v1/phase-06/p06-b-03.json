@@ -1,0 +1,142 @@
+{
+  "id": "p06-b-03",
+  "title_zh": "选定周五晚共同看的电影",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "friends-film-night",
+    "label_zh": "商定朋友电影之夜",
+    "goal_zh": "兼顾时间与喜好选定影片"
+  },
+  "participants": [
+    "Hana",
+    "Lewis"
+  ],
+  "context_zh": "哈娜和刘易斯为周五晚选电影，希望在十点前看完，也不想看过于夸张的喜剧。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-03-s01",
+      "speaker": "Hana",
+      "text": "We've got time for one film on Friday. Would you like a romantic comedy?"
+    },
+    {
+      "id": "p06-b-03-s02",
+      "speaker": "Lewis",
+      "text": "Maybe, but not one where everyone behaves in a silly way just to create a problem."
+    },
+    {
+      "id": "p06-b-03-s03",
+      "speaker": "Hana",
+      "text": "What about The Last Orchard? The setting is a small village, and the couple used to run a farm together."
+    },
+    {
+      "id": "p06-b-03-s04",
+      "speaker": "Lewis",
+      "text": "Is it mainly about their relationship?"
+    },
+    {
+      "id": "p06-b-03-s05",
+      "speaker": "Hana",
+      "text": "Yes. The main theme is giving someone a second chance."
+    },
+    {
+      "id": "p06-b-03-s06",
+      "speaker": "Lewis",
+      "text": "Though I usually prefer mysteries, that sounds good. How long is it?"
+    },
+    {
+      "id": "p06-b-03-s07",
+      "speaker": "Hana",
+      "text": "Ninety minutes. If we start at eight, we'll finish well before ten."
+    },
+    {
+      "id": "p06-b-03-s08",
+      "speaker": "Lewis",
+      "text": "Let's watch that one. I'll bring something to eat."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5162a63e1eaeb970",
+      "lemma": "romantic",
+      "pos": "adj.",
+      "sense_zh": "爱情题材的",
+      "sentence_ids": [
+        "p06-b-03-s01"
+      ],
+      "forms": [
+        "romantic"
+      ],
+      "sense_id": "sense-staged-ox-5162a63e1eaeb970-p06-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-95edb957f7757c4c",
+      "lemma": "silly",
+      "pos": "adj.",
+      "sense_zh": "愚蠢可笑的",
+      "sentence_ids": [
+        "p06-b-03-s02"
+      ],
+      "forms": [
+        "silly"
+      ],
+      "sense_id": "sense-staged-ox-95edb957f7757c4c-p06-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2628e45532e38735",
+      "lemma": "setting",
+      "pos": "n.",
+      "sense_zh": "故事发生的环境",
+      "sentence_ids": [
+        "p06-b-03-s03"
+      ],
+      "forms": [
+        "setting"
+      ],
+      "sense_id": "sense-staged-ox-2628e45532e38735-p06-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d17a2fc8fbb346c3",
+      "lemma": "theme",
+      "pos": "n.",
+      "sense_zh": "作品主题",
+      "sentence_ids": [
+        "p06-b-03-s05"
+      ],
+      "forms": [
+        "theme"
+      ],
+      "sense_id": "sense-staged-ox-d17a2fc8fbb346c3-p06-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c427e9a09dad5ea",
+      "lemma": "though",
+      "pos": "conj.",
+      "sense_zh": "虽然",
+      "sentence_ids": [
+        "p06-b-03-s06"
+      ],
+      "forms": [
+        "though"
+      ],
+      "sense_id": "sense-staged-ox-2c427e9a09dad5ea-p06-b-03",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

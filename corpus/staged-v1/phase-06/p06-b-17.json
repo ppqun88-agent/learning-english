@@ -1,0 +1,137 @@
+{
+  "id": "p06-b-17",
+  "title_zh": "点一个按偏好制作的面包卷",
+  "topic_id": "food",
+  "scenario": {
+    "id": "cafe-sandwich-filling-order",
+    "label_zh": "点购指定配料的三明治",
+    "goal_zh": "核对面包和馅料口味后确定制作方式"
+  },
+  "participants": [
+    "Faye",
+    "Deli Assistant"
+  ],
+  "context_zh": "费伊在熟食柜台买午餐，询问面包和酱料，想要味道温和的现做三明治。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-17-s01",
+      "speaker": "Faye",
+      "text": "Could I have a roll with a slice of cheese and some tomato, please?"
+    },
+    {
+      "id": "p06-b-17-s02",
+      "speaker": "Deli Assistant",
+      "text": "Of course. Would you like our red pepper sauce?"
+    },
+    {
+      "id": "p06-b-17-s03",
+      "speaker": "Faye",
+      "text": "Is it spicy? I prefer something mild."
+    },
+    {
+      "id": "p06-b-17-s04",
+      "speaker": "Deli Assistant",
+      "text": "It has quite a lot of chilli. I can use butter instead."
+    },
+    {
+      "id": "p06-b-17-s05",
+      "speaker": "Faye",
+      "text": "Butter, please. Could you warm the bread slightly first? I don't want it toasted."
+    },
+    {
+      "id": "p06-b-17-s06",
+      "speaker": "Deli Assistant",
+      "text": "Certainly. I'll warm the roll, spread a little butter inside, and add the cheese and tomato."
+    },
+    {
+      "id": "p06-b-17-s07",
+      "speaker": "Faye",
+      "text": "That's exactly what I'd like. No sauce, thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2534bf2fc14bb972",
+      "lemma": "roll",
+      "pos": "n.",
+      "sense_zh": "小面包卷",
+      "sentence_ids": [
+        "p06-b-17-s01"
+      ],
+      "forms": [
+        "roll"
+      ],
+      "sense_id": "sense-staged-ox-2534bf2fc14bb972-p06-b-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a9d06b6919203fd4",
+      "lemma": "slice",
+      "pos": "n.",
+      "sense_zh": "薄片",
+      "sentence_ids": [
+        "p06-b-17-s01"
+      ],
+      "forms": [
+        "slice"
+      ],
+      "sense_id": "sense-staged-ox-a9d06b6919203fd4-p06-b-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6a4dae6f9c3378f0",
+      "lemma": "spicy",
+      "pos": "adj.",
+      "sense_zh": "辛辣的",
+      "sentence_ids": [
+        "p06-b-17-s03"
+      ],
+      "forms": [
+        "spicy"
+      ],
+      "sense_id": "sense-staged-ox-6a4dae6f9c3378f0-p06-b-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e115105ccad898de",
+      "lemma": "slightly",
+      "pos": "adv.",
+      "sense_zh": "稍微",
+      "sentence_ids": [
+        "p06-b-17-s05"
+      ],
+      "forms": [
+        "slightly"
+      ],
+      "sense_id": "sense-staged-ox-e115105ccad898de-p06-b-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a3c3a2c2fc6d1a0",
+      "lemma": "spread",
+      "pos": "v.",
+      "sense_zh": "涂抹",
+      "sentence_ids": [
+        "p06-b-17-s06"
+      ],
+      "forms": [
+        "spread"
+      ],
+      "sense_id": "sense-staged-ox-7a3c3a2c2fc6d1a0-p06-b-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

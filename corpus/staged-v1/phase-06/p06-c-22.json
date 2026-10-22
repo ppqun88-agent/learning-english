@@ -1,0 +1,84 @@
+{
+  "id": "p06-c-22",
+  "title_zh": "预约律师电话咨询上诉问题",
+  "topic_id": "services",
+  "scenario": {
+    "id": "legal-appeal-appointment-inquiry",
+    "label_zh": "预约上诉问题法律咨询",
+    "goal_zh": "说明咨询上诉的目的并确认与律师通话的预约时间"
+  },
+  "participants": [
+    "Andre",
+    "Receptionist Hazel"
+  ],
+  "context_zh": "虚构服务对话中，安德烈致电律师事务所请求预约，不讨论应否上诉或法律结论。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-22-s01",
+      "speaker": "Andre",
+      "text": "I need to speak to an attorney about an appeal. Can I arrange a telephone appointment?"
+    },
+    {
+      "id": "p06-c-22-s02",
+      "speaker": "Receptionist Hazel",
+      "text": "Certainly. We have Tuesday at ten thirty or Wednesday at two."
+    },
+    {
+      "id": "p06-c-22-s03",
+      "speaker": "Andre",
+      "text": "Tuesday at ten thirty would work. What should I have with me?"
+    },
+    {
+      "id": "p06-c-22-s04",
+      "speaker": "Receptionist Hazel",
+      "text": "Have the decision letter ready so the attorney can understand what you are asking about. I cannot advise you on the appeal myself."
+    },
+    {
+      "id": "p06-c-22-s05",
+      "speaker": "Andre",
+      "text": "Understood. Please book Tuesday under Andre Bell."
+    },
+    {
+      "id": "p06-c-22-s06",
+      "speaker": "Receptionist Hazel",
+      "text": "Your telephone appointment is booked for Tuesday at ten thirty. I will send the confirmation and the office contact details."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3b7b3edbab4efe5a",
+      "lemma": "attorney",
+      "pos": "n.",
+      "sense_zh": "律师",
+      "sentence_ids": [
+        "p06-c-22-s01"
+      ],
+      "forms": [
+        "attorney"
+      ],
+      "sense_id": "sense-staged-ox-3b7b3edbab4efe5a-p06-c-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-046288e092f45249",
+      "lemma": "appeal",
+      "pos": "n.",
+      "sense_zh": "请求重新审理或改变裁定的上诉",
+      "sentence_ids": [
+        "p06-c-22-s01"
+      ],
+      "forms": [
+        "appeal"
+      ],
+      "sense_id": "sense-staged-ox-046288e092f45249-p06-c-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

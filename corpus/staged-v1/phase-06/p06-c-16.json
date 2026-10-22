@@ -1,0 +1,163 @@
+{
+  "id": "p06-c-16",
+  "title_zh": "让科幻动画的开场交代清楚来访者",
+  "topic_id": "work",
+  "scenario": {
+    "id": "short-film-feedback",
+    "label_zh": "根据反馈调整影片开头",
+    "goal_zh": "剪辑者根据试映反馈调整短片开头。"
+  },
+  "participants": [
+    "Director Zoya",
+    "Editor Ben"
+  ],
+  "context_zh": "导演卓娅看完剪辑师本的科幻动画新版本后，讨论如何让观众理解开场的来访角色。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-16-s01",
+      "speaker": "Director Zoya",
+      "text": "The animation is beautiful, but I thought the visitor was a ghost until the spaceship appeared."
+    },
+    {
+      "id": "p06-c-16-s02",
+      "speaker": "Editor Ben",
+      "text": "I wanted the alien to seem mysterious. Should I show the ship sooner?"
+    },
+    {
+      "id": "p06-c-16-s03",
+      "speaker": "Director Zoya",
+      "text": "Yes. The audience needs to know this is a living being from another planet, not someone returning from the dead."
+    },
+    {
+      "id": "p06-c-16-s04",
+      "speaker": "Editor Ben",
+      "text": "Would a brief view of the ship before the door opens be enough?"
+    },
+    {
+      "id": "p06-c-16-s05",
+      "speaker": "Director Zoya",
+      "text": "I think so. The door opening onto a whole forest is an astonishing image; keep that reveal."
+    },
+    {
+      "id": "p06-c-16-s06",
+      "speaker": "Editor Ben",
+      "text": "And the audio track? At the moment there is a whisper before we see anything."
+    },
+    {
+      "id": "p06-c-16-s07",
+      "speaker": "Director Zoya",
+      "text": "Replace the whisper with the engine slowing down. Save the amusing sneeze for when the visitor steps into the flowers."
+    },
+    {
+      "id": "p06-c-16-s08",
+      "speaker": "Editor Ben",
+      "text": "That gives the sneeze a reason. I will add the ship first, change the sound, and keep the forest reveal."
+    },
+    {
+      "id": "p06-c-16-s09",
+      "speaker": "Director Zoya",
+      "text": "Good. Let us watch the revised opening together before you work on the next scene."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7df45a6f242a741e",
+      "lemma": "animation",
+      "pos": "n.",
+      "sense_zh": "动画影像或动画制作",
+      "sentence_ids": [
+        "p06-c-16-s01"
+      ],
+      "forms": [
+        "animation"
+      ],
+      "sense_id": "sense-staged-ox-7df45a6f242a741e-p06-c-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-65a10b20ec469fe6",
+      "lemma": "alien",
+      "pos": "n.",
+      "sense_zh": "外星生物",
+      "sentence_ids": [
+        "p06-c-16-s02"
+      ],
+      "forms": [
+        "alien"
+      ],
+      "sense_id": "sense-staged-ox-65a10b20ec469fe6-p06-c-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-91e9a30d1f851d90",
+      "lemma": "being",
+      "pos": "n.",
+      "sense_zh": "生物，有生命的存在",
+      "sentence_ids": [
+        "p06-c-16-s03"
+      ],
+      "forms": [
+        "being"
+      ],
+      "sense_id": "sense-staged-ox-91e9a30d1f851d90-p06-c-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb2cc879773f4de3",
+      "lemma": "astonishing",
+      "pos": "adj.",
+      "sense_zh": "令人惊讶的",
+      "sentence_ids": [
+        "p06-c-16-s05"
+      ],
+      "forms": [
+        "astonishing"
+      ],
+      "sense_id": "sense-staged-ox-eb2cc879773f4de3-p06-c-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ada97d0cc05b37cf",
+      "lemma": "audio",
+      "pos": "adj.",
+      "sense_zh": "声音的，音频的",
+      "sentence_ids": [
+        "p06-c-16-s06"
+      ],
+      "forms": [
+        "audio"
+      ],
+      "sense_id": "sense-staged-ox-ada97d0cc05b37cf-p06-c-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-847943b3fd8b351f",
+      "lemma": "amusing",
+      "pos": "adj.",
+      "sense_zh": "有趣好笑的",
+      "sentence_ids": [
+        "p06-c-16-s07"
+      ],
+      "forms": [
+        "amusing"
+      ],
+      "sense_id": "sense-staged-ox-847943b3fd8b351f-p06-c-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

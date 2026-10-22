@@ -1,0 +1,137 @@
+{
+  "id": "p06-b-06",
+  "title_zh": "留在步道边观察潮池小鱼",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "rock-pool-observation-position",
+    "label_zh": "选择潮池观察位置",
+    "goal_zh": "辨认浅水中的动物并决定留在步道旁安静观察"
+  },
+  "participants": [
+    "Ada",
+    "Coastal Ranger"
+  ],
+  "context_zh": "游客艾达在海岸木步道旁发现一个潮池，向管理员询问看到的动物并选择观察位置。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-06-s01",
+      "speaker": "Ada",
+      "text": "Is that something moving under the sand?"
+    },
+    {
+      "id": "p06-b-06-s02",
+      "speaker": "Coastal Ranger",
+      "text": "Yes, a tiny fish. Look beside the empty shell."
+    },
+    {
+      "id": "p06-b-06-s03",
+      "speaker": "Ada",
+      "text": "I can see its tail now. Oh, there are several more behind it!"
+    },
+    {
+      "id": "p06-b-06-s04",
+      "speaker": "Coastal Ranger",
+      "text": "They blend in until they move."
+    },
+    {
+      "id": "p06-b-06-s05",
+      "speaker": "Ada",
+      "text": "What a lovely sight. Can I get closer by stepping down into the pool?"
+    },
+    {
+      "id": "p06-b-06-s06",
+      "speaker": "Coastal Ranger",
+      "text": "Please stay on the boardwalk. You can see them clearly from the low rail on your left."
+    },
+    {
+      "id": "p06-b-06-s07",
+      "speaker": "Ada",
+      "text": "I'll watch from there, then. I don't want to disturb them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bef4d18cc68351d7",
+      "lemma": "sand",
+      "pos": "n.",
+      "sense_zh": "沙子",
+      "sentence_ids": [
+        "p06-b-06-s01"
+      ],
+      "forms": [
+        "sand"
+      ],
+      "sense_id": "sense-staged-ox-bef4d18cc68351d7-p06-b-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b66ce9856e3c603",
+      "lemma": "tiny",
+      "pos": "adj.",
+      "sense_zh": "极小的",
+      "sentence_ids": [
+        "p06-b-06-s02"
+      ],
+      "forms": [
+        "tiny"
+      ],
+      "sense_id": "sense-staged-ox-6b66ce9856e3c603-p06-b-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5dd45d1aad630b69",
+      "lemma": "shell",
+      "pos": "n.",
+      "sense_zh": "贝壳",
+      "sentence_ids": [
+        "p06-b-06-s02"
+      ],
+      "forms": [
+        "shell"
+      ],
+      "sense_id": "sense-staged-ox-5dd45d1aad630b69-p06-b-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-88232a3b9fe8c527",
+      "lemma": "tail",
+      "pos": "n.",
+      "sense_zh": "动物的尾巴",
+      "sentence_ids": [
+        "p06-b-06-s03"
+      ],
+      "forms": [
+        "tail"
+      ],
+      "sense_id": "sense-staged-ox-88232a3b9fe8c527-p06-b-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cca3c86b066981e2",
+      "lemma": "sight",
+      "pos": "n.",
+      "sense_zh": "看见的景象",
+      "sentence_ids": [
+        "p06-b-06-s05"
+      ],
+      "forms": [
+        "sight"
+      ],
+      "sense_id": "sense-staged-ox-cca3c86b066981e2-p06-b-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

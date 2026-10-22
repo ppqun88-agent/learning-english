@@ -1,0 +1,142 @@
+{
+  "id": "p06-a-13",
+  "title_zh": "发现花园库房危险物品后报告",
+  "topic_id": "community",
+  "scenario": {
+    "id": "garden-shed-hazard-report",
+    "label_zh": "报告社区花园库房的危险物品",
+    "goal_zh": "描述发现的物品并避免接触，限制访客进入库房并联系负责人处理"
+  },
+  "participants": [
+    "Mei",
+    "Hugh"
+  ],
+  "context_zh": "社区花园志愿者梅和当值负责人休发现开放库房里有不宜让访客接触的物品，决定交由管理人员处理。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-13-s01",
+      "speaker": "Mei",
+      "text": "I found a tin of rat poison on the floor of the garden shed. I have not touched it."
+    },
+    {
+      "id": "p06-a-13-s02",
+      "speaker": "Hugh",
+      "text": "Thanks for telling me. People from the neighbourhood will be here soon, so we need to keep them out of the shed."
+    },
+    {
+      "id": "p06-a-13-s03",
+      "speaker": "Mei",
+      "text": "There is also a tray of berries beside it. Are those poisonous?"
+    },
+    {
+      "id": "p06-a-13-s04",
+      "speaker": "Hugh",
+      "text": "I don't know. Leave both things alone and let the garden manager identify them."
+    },
+    {
+      "id": "p06-a-13-s05",
+      "speaker": "Mei",
+      "text": "Does the manager require this kind of product to be locked away?"
+    },
+    {
+      "id": "p06-a-13-s06",
+      "speaker": "Hugh",
+      "text": "Yes. It needs proper storage, not an open shelf. I'll close the shed and call her now."
+    },
+    {
+      "id": "p06-a-13-s07",
+      "speaker": "Mei",
+      "text": "I'll stay at the entrance and direct visitors to the main garden until she arrives."
+    },
+    {
+      "id": "p06-a-13-s08",
+      "speaker": "Hugh",
+      "text": "Thank you. Tell them the shed is closed, but do not ask anyone to move the tin."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-07b279f20bb3a0e5",
+      "lemma": "poison",
+      "pos": "n.",
+      "sense_zh": "毒药；有毒物质",
+      "sentence_ids": [
+        "p06-a-13-s01"
+      ],
+      "forms": [
+        "poison"
+      ],
+      "sense_id": "sense-staged-ox-07b279f20bb3a0e5-p06-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2d57745c528f3256",
+      "lemma": "neighbourhood",
+      "pos": "n.",
+      "sense_zh": "周边社区",
+      "sentence_ids": [
+        "p06-a-13-s02"
+      ],
+      "forms": [
+        "neighbourhood"
+      ],
+      "sense_id": "sense-staged-ox-2d57745c528f3256-p06-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cde0cf73c5e53f20",
+      "lemma": "poisonous",
+      "pos": "adj.",
+      "sense_zh": "有毒的",
+      "sentence_ids": [
+        "p06-a-13-s03"
+      ],
+      "forms": [
+        "poisonous"
+      ],
+      "sense_id": "sense-staged-ox-cde0cf73c5e53f20-p06-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4cb6f1270fe716ca",
+      "lemma": "require",
+      "pos": "v.",
+      "sense_zh": "要求",
+      "sentence_ids": [
+        "p06-a-13-s05"
+      ],
+      "forms": [
+        "require"
+      ],
+      "sense_id": "sense-staged-ox-4cb6f1270fe716ca-p06-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ba6b7fe9ac507f26",
+      "lemma": "proper",
+      "pos": "adj.",
+      "sense_zh": "合适的；符合要求的",
+      "sentence_ids": [
+        "p06-a-13-s06"
+      ],
+      "forms": [
+        "proper"
+      ],
+      "sense_id": "sense-staged-ox-ba6b7fe9ac507f26-p06-a-13",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

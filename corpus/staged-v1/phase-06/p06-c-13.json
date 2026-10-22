@@ -1,0 +1,163 @@
+{
+  "id": "p06-c-13",
+  "title_zh": "选择面向工作交流的口语试课",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "language-tutor-practice-plan",
+    "label_zh": "选择适合初学者的口语班",
+    "goal_zh": "确认教师、练习内容和每周课程时间"
+  },
+  "participants": [
+    "Jun",
+    "Tutor Beth"
+  ],
+  "context_zh": "君想提高与商店顾客交谈的能力，向贝丝老师询问初学口语班。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-13-s01",
+      "speaker": "Jun",
+      "text": "I want to acquire the language skills I need to talk to customers. Is your class suitable for a beginner?"
+    },
+    {
+      "id": "p06-c-13-s02",
+      "speaker": "Tutor Beth",
+      "text": "Yes. I teach it myself. What would you like to accomplish in the first month?"
+    },
+    {
+      "id": "p06-c-13-s03",
+      "speaker": "Jun",
+      "text": "I would like to explain where things are and answer simple questions about prices. I am not trying to copy a particular accent."
+    },
+    {
+      "id": "p06-c-13-s04",
+      "speaker": "Tutor Beth",
+      "text": "That is a useful goal. My approach is to practise short conversations, then repeat them with a small change."
+    },
+    {
+      "id": "p06-c-13-s05",
+      "speaker": "Jun",
+      "text": "Could we use situations from my shop rather than a restaurant?"
+    },
+    {
+      "id": "p06-c-13-s06",
+      "speaker": "Tutor Beth",
+      "text": "Certainly. I can adapt the activities to your work. A few minutes of practice between classes would be beneficial too."
+    },
+    {
+      "id": "p06-c-13-s07",
+      "speaker": "Jun",
+      "text": "When does the class meet?"
+    },
+    {
+      "id": "p06-c-13-s08",
+      "speaker": "Tutor Beth",
+      "text": "Every Tuesday at six. You can attend one trial lesson before deciding about the full course."
+    },
+    {
+      "id": "p06-c-13-s09",
+      "speaker": "Jun",
+      "text": "I will come next Tuesday at six, then. I can bring examples of questions customers ask."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8fae22bb05f3395e",
+      "lemma": "acquire",
+      "pos": "v.",
+      "sense_zh": "获得，逐渐学到技能",
+      "sentence_ids": [
+        "p06-c-13-s01"
+      ],
+      "forms": [
+        "acquire"
+      ],
+      "sense_id": "sense-staged-ox-8fae22bb05f3395e-p06-c-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8d1fc3704193b12f",
+      "lemma": "accomplish",
+      "pos": "v.",
+      "sense_zh": "完成，实现目标",
+      "sentence_ids": [
+        "p06-c-13-s02"
+      ],
+      "forms": [
+        "accomplish"
+      ],
+      "sense_id": "sense-staged-ox-8d1fc3704193b12f-p06-c-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9ea0ff59cb0ba886",
+      "lemma": "accent",
+      "pos": "n.",
+      "sense_zh": "口音",
+      "sentence_ids": [
+        "p06-c-13-s03"
+      ],
+      "forms": [
+        "accent"
+      ],
+      "sense_id": "sense-staged-ox-9ea0ff59cb0ba886-p06-c-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08959b894452a6d4",
+      "lemma": "approach",
+      "pos": "n.",
+      "sense_zh": "处理或学习某事的方法",
+      "sentence_ids": [
+        "p06-c-13-s04"
+      ],
+      "forms": [
+        "approach"
+      ],
+      "sense_id": "sense-staged-ox-08959b894452a6d4-p06-c-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac50b4a0fd881a00",
+      "lemma": "adapt",
+      "pos": "v.",
+      "sense_zh": "调整使其适合某种用途",
+      "sentence_ids": [
+        "p06-c-13-s06"
+      ],
+      "forms": [
+        "adapt"
+      ],
+      "sense_id": "sense-staged-ox-ac50b4a0fd881a00-p06-c-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2db35ae053d9c311",
+      "lemma": "beneficial",
+      "pos": "adj.",
+      "sense_zh": "有益的",
+      "sentence_ids": [
+        "p06-c-13-s06"
+      ],
+      "forms": [
+        "beneficial"
+      ],
+      "sense_id": "sense-staged-ox-2db35ae053d9c311-p06-c-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

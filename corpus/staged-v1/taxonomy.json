@@ -34,6 +34,12 @@
   ],
   "scenarios": [
     {
+      "id": "addiction-support-inquiry",
+      "label_zh": "询问成瘾支持服务",
+      "goal_zh": "了解支持机构的联络方式及费用援助咨询渠道，并确定首次联系的下一步",
+      "topic_id": "health"
+    },
+    {
       "id": "airport-pickup-location",
       "label_zh": "协调机场接人",
       "goal_zh": "确认机场接人地点、到达时间及联络方式。",
@@ -70,6 +76,12 @@
       "topic_id": "work"
     },
     {
+      "id": "association-meeting-decision",
+      "label_zh": "表决活动室清洁安排",
+      "goal_zh": "居民协会讨论清洁轮值方案并明确采用决定和后续说明责任",
+      "topic_id": "community"
+    },
+    {
       "id": "athlete-training-goal",
       "label_zh": "设定跑步训练目标",
       "goal_zh": "根据以往成绩选定具体目标而不只关注名次",
@@ -80,6 +92,12 @@
       "label_zh": "协调秋季一日游日期",
       "goal_zh": "在工作安排限制下确定秋季一日游的日期。",
       "topic_id": "travel"
+    },
+    {
+      "id": "aviation-museum-route",
+      "label_zh": "确定航空展参观路线",
+      "goal_zh": "根据展品位置和可用时间选定航空展厅的参观路线",
+      "topic_id": "leisure"
     },
     {
       "id": "award-winning-author-workshop",
@@ -100,6 +118,18 @@
       "topic_id": "services"
     },
     {
+      "id": "beginner-badminton-equipment",
+      "label_zh": "确认初学羽毛球器材与集合点",
+      "goal_zh": "确认可借用的球拍归属，并约定到指定球网旁等待教练",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "beginner-cricket-batting-practice",
+      "label_zh": "调整初学板球击球练习",
+      "goal_zh": "根据初学者遇到的困难改用更慢的近距离投球，并约定继续尝试",
+      "topic_id": "leisure"
+    },
+    {
       "id": "beginner-dance-enrolment",
       "label_zh": "报名舞蹈社团体验课",
       "goal_zh": "确认零基础参加者可以独自参加并约好首次到场时间",
@@ -115,6 +145,12 @@
       "id": "beginner-guitar-loan",
       "label_zh": "咨询初学吉他借用",
       "goal_zh": "先通过借用体验再决定是否购买",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "beginner-magic-practice-choice",
+      "label_zh": "选择初学魔术练习",
+      "goal_zh": "根据练习难度选择无需快速手法的纸牌魔术并约定先看示范",
       "topic_id": "leisure"
     },
     {
@@ -175,6 +211,12 @@
       "id": "cafe-lunch-ingredients",
       "label_zh": "选择午餐配料",
       "goal_zh": "询问汤品和沙拉的配料后完成午餐点单。",
+      "topic_id": "food"
+    },
+    {
+      "id": "cafe-sandwich-filling-order",
+      "label_zh": "点购指定配料的三明治",
+      "goal_zh": "核对面包和馅料口味后确定制作方式",
       "topic_id": "food"
     },
     {
@@ -274,6 +316,24 @@
       "topic_id": "travel"
     },
     {
+      "id": "classroom-culture-results-review",
+      "label_zh": "修订课堂实验结果说明",
+      "goal_zh": "依据所给实验图表区分观察与概括，并补充报告的限制",
+      "topic_id": "learning"
+    },
+    {
+      "id": "classroom-energy-claim-revision",
+      "label_zh": "修订课堂能源展示的证据表述",
+      "goal_zh": "区分历史数据与预测，承认相关关系不等于因果，并约定修订图表标题和说明",
+      "topic_id": "reasoning"
+    },
+    {
+      "id": "classroom-floating-prediction",
+      "label_zh": "澄清浮沉实验的预测",
+      "goal_zh": "保持样本形状和大小相同，商定比较不同材料浮沉的观察记录",
+      "topic_id": "learning"
+    },
+    {
       "id": "classroom-orbit-model-plan",
       "label_zh": "规划课堂轨道模型",
       "goal_zh": "根据演示目的选择简易轨道模型，说明比例局限并分工制作",
@@ -298,6 +358,18 @@
       "topic_id": "learning"
     },
     {
+      "id": "classroom-water-spill-cleanup",
+      "label_zh": "清理课堂桌面泼水",
+      "goal_zh": "把学习材料移离积水并分工吸干桌面后继续课堂活动",
+      "topic_id": "learning"
+    },
+    {
+      "id": "clay-sculpture-finishing-feedback",
+      "label_zh": "调整陶土作品的表面",
+      "goal_zh": "讨论作品边缘与表面处理，并约定先在余料上练习",
+      "topic_id": "leisure"
+    },
+    {
       "id": "clinic-examination-cooperation",
       "label_zh": "配合诊所护士检查",
       "goal_zh": "说明身体不适并理解检查期间的要求。",
@@ -307,6 +379,12 @@
       "id": "clinic-symptom-message",
       "label_zh": "预约并转达症状及用药问题",
       "goal_zh": "说明发热等症状并请求医生回电核对用药问题",
+      "topic_id": "health"
+    },
+    {
+      "id": "clinic-throat-callback-request",
+      "label_zh": "请求医生回电讨论喉咙不适",
+      "goal_zh": "说明症状及持续时间，确认可接听时段并请接待员转交医生回电请求",
       "topic_id": "health"
     },
     {
@@ -320,6 +398,18 @@
       "label_zh": "预约修补正式服装",
       "goal_zh": "说明衣物破损并约定修补和取件",
       "topic_id": "services"
+    },
+    {
+      "id": "club-annual-equipment-review",
+      "label_zh": "安排年度设备审查",
+      "goal_zh": "核对设备清单与状况评估的区别，并安排检查后再确定维修预算",
+      "topic_id": "work"
+    },
+    {
+      "id": "coastal-cottage-choice",
+      "label_zh": "比较海边小屋并询问住宿条件",
+      "goal_zh": "根据无车出行需求比较两处房源，选定先询问港口附近小屋的短住与噪音条件",
+      "topic_id": "travel"
     },
     {
       "id": "coastal-cycle-weather",
@@ -430,6 +520,12 @@
       "topic_id": "society"
     },
     {
+      "id": "course-application-status-inquiry",
+      "label_zh": "询问课程申请材料状态",
+      "goal_zh": "核对申请材料是否收到，澄清页面更新延迟与录取决定的区别",
+      "topic_id": "learning"
+    },
+    {
       "id": "course-application-upload-support",
       "label_zh": "协助提交课程申请附件",
       "goal_zh": "解决附件未上传的问题，提交课程申请并确认收到自动回执",
@@ -460,10 +556,22 @@
       "topic_id": "leisure"
     },
     {
+      "id": "craft-room-storage-sort",
+      "label_zh": "整理活动室手工材料",
+      "goal_zh": "区分材料归属和用途，商定存放及标签方式",
+      "topic_id": "community"
+    },
+    {
       "id": "curtain-colour-fabric-choice",
       "label_zh": "比较窗帘材质与配色",
       "goal_zh": "比较窗帘的材质、透光性和颜色后选定样品。",
       "topic_id": "home"
+    },
+    {
+      "id": "cycling-club-return-plan",
+      "label_zh": "商定重返骑行的非竞赛体验",
+      "goal_zh": "澄清俱乐部有休闲路线，并约定先参加一次短程活动和在起点会合",
+      "topic_id": "leisure"
     },
     {
       "id": "dental-appointment-request",
@@ -499,6 +607,12 @@
       "id": "economic-news-claim-check",
       "label_zh": "核对经济报道的结论范围",
       "goal_zh": "区分单一行业出口数据和整体经济结论并修订报道标题。",
+      "topic_id": "reasoning"
+    },
+    {
+      "id": "employment-survey-headline-limits",
+      "label_zh": "限定就业调查标题的结论",
+      "goal_zh": "核对样本与统计口径，删除无法支持的全市趋势结论",
       "topic_id": "reasoning"
     },
     {
@@ -554,6 +668,12 @@
       "label_zh": "询问工厂学徒岗位",
       "goal_zh": "核实岗位经验要求、培训机会和报酬",
       "topic_id": "work"
+    },
+    {
+      "id": "family-history-photo-identification",
+      "label_zh": "根据照片原注更正家族人物标注",
+      "goal_zh": "核对照片背面的姓名与亲属关系，确定更正后的相册说明并保留原注副本",
+      "topic_id": "relationships"
     },
     {
       "id": "family-hospital-visit",
@@ -730,6 +850,12 @@
       "topic_id": "community"
     },
     {
+      "id": "gallery-exhibition-lighting-plan",
+      "label_zh": "调整展览画作照明",
+      "goal_zh": "比较画作在不同照明角度下的观看效果并确定安装调整",
+      "topic_id": "work"
+    },
+    {
       "id": "gallery-print-gift-choice",
       "label_zh": "在画廊挑选礼物画作",
       "goal_zh": "按收礼人喜好选定画作和边框颜色",
@@ -740,6 +866,24 @@
       "label_zh": "预约检查汽车异响",
       "goal_zh": "描述驾驶中的异响并确认送检及反馈时间",
       "topic_id": "services"
+    },
+    {
+      "id": "garage-tire-assessment-request",
+      "label_zh": "预约检查汽车轮胎",
+      "goal_zh": "说明轮胎漏气现象并约定检查后再决定修补或更换",
+      "topic_id": "services"
+    },
+    {
+      "id": "garden-seedling-spacing",
+      "label_zh": "调整幼苗种植间距",
+      "goal_zh": "根据种子包装说明和当前光照确定花盆与幼苗安排",
+      "topic_id": "home"
+    },
+    {
+      "id": "garden-shed-hazard-report",
+      "label_zh": "报告社区花园库房的危险物品",
+      "goal_zh": "描述发现的物品并避免接触，限制访客进入库房并联系负责人处理",
+      "topic_id": "community"
     },
     {
       "id": "geography-trip-journal",
@@ -760,10 +904,22 @@
       "topic_id": "services"
     },
     {
+      "id": "guided-bird-walk-route",
+      "label_zh": "选择安静的湖边观鸟路线",
+      "goal_zh": "按观鸟兴趣选定步道及停留位置，并确认不离开小径靠近鸟巢",
+      "topic_id": "nature"
+    },
+    {
       "id": "guided-expedition-departure-check",
       "label_zh": "核对带队探险出发安排",
       "goal_zh": "确认领队经验、出发时间与装备检查后前往集合点。",
       "topic_id": "leisure"
+    },
+    {
+      "id": "health-event-poster-review",
+      "label_zh": "修订健康宣传活动海报",
+      "goal_zh": "核对活动海报的称谓、费用信息和尊重性措辞，并安排专业人员复核健康内容",
+      "topic_id": "community"
     },
     {
       "id": "heater-label-comparison",
@@ -856,6 +1012,12 @@
       "topic_id": "nature"
     },
     {
+      "id": "interfaith-visit-participation-check",
+      "label_zh": "确认跨信仰开放活动的参与方式",
+      "goal_zh": "澄清来访者不必参加祈祷，并商定其参加欢迎环节与等候的安排",
+      "topic_id": "community"
+    },
+    {
       "id": "island-hotel-arrival",
       "label_zh": "确认海岛旅馆到达方式",
       "goal_zh": "核实码头步行距离、船程和客房楼层",
@@ -908,6 +1070,12 @@
       "label_zh": "协商夜间电视音量",
       "goal_zh": "说明噪声影响并商定当天停止观看",
       "topic_id": "home"
+    },
+    {
+      "id": "legal-appeal-appointment-inquiry",
+      "label_zh": "预约上诉问题法律咨询",
+      "goal_zh": "说明咨询上诉的目的并确认与律师通话的预约时间",
+      "topic_id": "services"
     },
     {
       "id": "library-membership-proof",
@@ -1024,6 +1192,12 @@
       "topic_id": "relationships"
     },
     {
+      "id": "misplaced-notebook-apology",
+      "label_zh": "纠正误指责并道歉",
+      "goal_zh": "承认自己拿错物品造成误会并向朋友道歉，约定归还物品",
+      "topic_id": "relationships"
+    },
+    {
       "id": "missing-keys-habit",
       "label_zh": "寻找钥匙并调整放置习惯",
       "goal_zh": "根据最后使用情况找到钥匙并商定固定存放位置",
@@ -1084,6 +1258,12 @@
       "topic_id": "learning"
     },
     {
+      "id": "museum-worker-status-label",
+      "label_zh": "核对历史人物的展览用语",
+      "goal_zh": "区分雇佣仆役和被奴役者，决定先查人物记录再写说明",
+      "topic_id": "learning"
+    },
+    {
       "id": "mystery-scene-rehearsal",
       "label_zh": "排练悬疑剧片段",
       "goal_zh": "澄清虚构案件的角色关系并确定继续排练的位置。",
@@ -1136,6 +1316,18 @@
       "label_zh": "接待办公访客",
       "goal_zh": "核对预约并安排访客等候和前往会议室",
       "topic_id": "work"
+    },
+    {
+      "id": "online-exhibition-access-help",
+      "label_zh": "解决线上展览访问问题",
+      "goal_zh": "找到邮件说明中的访问启用链接并确认展览可以打开",
+      "topic_id": "services"
+    },
+    {
+      "id": "outdoor-workshop-rain-plan",
+      "label_zh": "分工准备户外工作坊雨天方案",
+      "goal_zh": "确认室内备用场地，并约定场地决定时间及搬运和通知分工",
+      "topic_id": "community"
     },
     {
       "id": "outfit-fitting-choice",
@@ -1198,10 +1390,22 @@
       "topic_id": "home"
     },
     {
+      "id": "pipe-noise-inspection-booking",
+      "label_zh": "预约检查水管敲击声和水压变化",
+      "goal_zh": "描述声音发生时机及可见状况，确认上门检查时间而不提前断定故障原因",
+      "topic_id": "home"
+    },
+    {
       "id": "poem-reprint-permission-check",
       "label_zh": "核对诗歌转载案例中的许可",
       "goal_zh": "依据课堂案例给出的许可条件判断所述转载并修正一概而论的说法",
       "topic_id": "society"
+    },
+    {
+      "id": "poetry-reading-selection",
+      "label_zh": "安排读诗晚会开场与节目引文",
+      "goal_zh": "选定开场诗作，取得作者对短引文的同意，并确认出处信息和朗读分工",
+      "topic_id": "leisure"
     },
     {
       "id": "polite-work-request-refusal",
@@ -1228,6 +1432,24 @@
       "topic_id": "services"
     },
     {
+      "id": "portrait-session-comfort-plan",
+      "label_zh": "调整肖像试拍方式以减轻紧张",
+      "goal_zh": "照顾被拍者的紧张感，商定先边聊天边试拍一张并共同查看",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "post-class-lift-request",
+      "label_zh": "课后请求搭车",
+      "goal_zh": "说明临时交通困难并与朋友确认顺路搭车及下车位置",
+      "topic_id": "relationships"
+    },
+    {
+      "id": "post-operation-visitor-help",
+      "label_zh": "商定术后探视中的帮助方式",
+      "goal_zh": "尊重病人的隐私与陪伴需要，约定请护士前来并在谈话后安静陪伴",
+      "topic_id": "health"
+    },
+    {
       "id": "presentation-display-connection",
       "label_zh": "连接演示设备",
       "goal_zh": "检查屏幕连接与控制方式后确认开始演示。",
@@ -1238,6 +1460,18 @@
       "label_zh": "讨论演讲失误后的支持方式",
       "goal_zh": "倾听演讲失误后的感受并约定不打断的练习方式。",
       "topic_id": "relationships"
+    },
+    {
+      "id": "printing-quote-scope-request",
+      "label_zh": "索取预算内的印刷报价",
+      "goal_zh": "说明印刷需求及含税预算，约定店员发送完整报价",
+      "topic_id": "services"
+    },
+    {
+      "id": "product-film-lighting-rehearsal",
+      "label_zh": "试拍产品短片的灯光与提示",
+      "goal_zh": "调整反光和拍摄提示，完成一次试拍并约定检查录音",
+      "topic_id": "work"
     },
     {
       "id": "prototype-backup-agreement",
@@ -1306,6 +1540,12 @@
       "topic_id": "travel"
     },
     {
+      "id": "report-data-reconciliation",
+      "label_zh": "核对报告版本与数据口径",
+      "goal_zh": "查明两个报告数字不同的原因并约定修订可比较的数据和说明",
+      "topic_id": "work"
+    },
+    {
       "id": "restaurant-booking-date-correction",
       "label_zh": "更正餐厅预约日期误会",
       "goal_zh": "凭预约确认邮件核对日期并为当晚用餐找到可行安排",
@@ -1324,10 +1564,28 @@
       "topic_id": "food"
     },
     {
+      "id": "retirement-volunteer-role",
+      "label_zh": "选择退休后的志愿职责",
+      "goal_zh": "确认适合的图书整理工作并约定试做，长期值班安排仍待决定",
+      "topic_id": "community"
+    },
+    {
       "id": "riverside-walking-directions",
       "label_zh": "核实到公园的步行路线",
       "goal_zh": "借助地图确认路口方向和过河位置",
       "topic_id": "travel"
+    },
+    {
+      "id": "robot-demo-scan-troubleshooting",
+      "label_zh": "排查课堂机器人的扫描演示",
+      "goal_zh": "依据错误提示更新软件，重新扫描并确认演示恢复",
+      "topic_id": "learning"
+    },
+    {
+      "id": "rock-pool-observation-position",
+      "label_zh": "选择潮池观察位置",
+      "goal_zh": "辨认浅水中的动物并决定留在步道旁安静观察",
+      "topic_id": "nature"
     },
     {
       "id": "roof-leak-inspection-appointment",
@@ -1354,6 +1612,12 @@
       "topic_id": "home"
     },
     {
+      "id": "rugby-stadium-meeting",
+      "label_zh": "约好橄榄球赛观赛会合",
+      "goal_zh": "核对看台座位和进场安排并约定见面地点",
+      "topic_id": "leisure"
+    },
+    {
       "id": "rural-cottage-route-choice",
       "label_zh": "选择乡间住宿与探索范围",
       "goal_zh": "比较两处乡间住宿的位置并决定先询问靠近村庄的小屋。",
@@ -1372,9 +1636,21 @@
       "topic_id": "services"
     },
     {
+      "id": "school-behaviour-response-discussion",
+      "label_zh": "就课堂行为处理约定先了解情况",
+      "goal_zh": "听取家长对全班处罚的担忧，并约定询问相关师生后再决定回应方式",
+      "topic_id": "learning"
+    },
+    {
       "id": "school-invention-prototype-plan",
       "label_zh": "规划学校发明项目的原型",
       "goal_zh": "从日常问题出发选定原型材料并说明可观察的测试方法",
+      "topic_id": "learning"
+    },
+    {
+      "id": "school-notice-translation-plan",
+      "label_zh": "商定学校通知的翻译方式",
+      "goal_zh": "确认通知读者和口头摘要需求，约定翻译及核对分工",
       "topic_id": "learning"
     },
     {
@@ -1406,6 +1682,12 @@
       "label_zh": "选择春季海边短途旅行",
       "goal_zh": "比较山地和海岸的季节条件并确定出游目的地",
       "topic_id": "travel"
+    },
+    {
+      "id": "secondhand-piano-purchase",
+      "label_zh": "挑选二手练习钢琴",
+      "goal_zh": "核对二手钢琴的来源、声音和价格后决定是否购买",
+      "topic_id": "services"
     },
     {
       "id": "seed-trial-design",
@@ -1444,6 +1726,12 @@
       "topic_id": "home"
     },
     {
+      "id": "shared-leftovers-plan",
+      "label_zh": "安排共享剩菜晚餐",
+      "goal_zh": "根据现有食物和个人偏好分配晚餐并商定处理多余食物",
+      "topic_id": "food"
+    },
+    {
       "id": "shared-lunch-portion-division",
       "label_zh": "平均分装共享午餐",
       "goal_zh": "将食物分成四份并确认每人的份量相同。",
@@ -1462,6 +1750,12 @@
       "topic_id": "nature"
     },
     {
+      "id": "shirt-button-sewing-help",
+      "label_zh": "请同伴指导缝回纽扣",
+      "goal_zh": "确认纽扣位置与针线工具，并约定先在碎布上练习再处理衬衫",
+      "topic_id": "home"
+    },
+    {
       "id": "shirt-ironing-and-folding",
       "label_zh": "商量衬衫熨烫与折叠",
       "goal_zh": "明确衬衫熨烫和折叠的先后顺序及分工",
@@ -1471,6 +1765,12 @@
       "id": "short-film-feedback",
       "label_zh": "根据反馈调整影片开头",
       "goal_zh": "剪辑者根据试映反馈调整短片开头。",
+      "topic_id": "work"
+    },
+    {
+      "id": "short-film-publicity-schedule",
+      "label_zh": "协调短片预览与公开宣传日程",
+      "goal_zh": "区分媒体预览、公开放映与上线时间，并分工准备宣传材料和发送前核对",
       "topic_id": "work"
     },
     {
@@ -1570,6 +1870,12 @@
       "topic_id": "travel"
     },
     {
+      "id": "statue-display-moving-plan",
+      "label_zh": "安排雕像展台评估与搬运",
+      "goal_zh": "说明雕像重量与现有底座问题，约定先评估底座再由专业人员搬运",
+      "topic_id": "community"
+    },
+    {
       "id": "stomach-symptom-assessment",
       "label_zh": "说明胃部不适并等候检查",
       "goal_zh": "向护士描述胃部不适和体温并明确等待医生评估",
@@ -1592,6 +1898,18 @@
       "label_zh": "缩小叙事作业的题材",
       "goal_zh": "选定真实经历中的具体事件并拟定题目",
       "topic_id": "learning"
+    },
+    {
+      "id": "street-incident-emergency-call",
+      "label_zh": "报告街头事件并等候救援",
+      "goal_zh": "向接线员说明伤人事件的位置和可见情况，在安全位置等候救援",
+      "topic_id": "community"
+    },
+    {
+      "id": "student-news-interview-question",
+      "label_zh": "拟定校报地方住房采访问题",
+      "goal_zh": "把宽泛的政治采访题目缩小为住房计划的具体问题，并删去缺乏依据的群体立场表述",
+      "topic_id": "society"
     },
     {
       "id": "student-presentation-support-plan",
@@ -1690,6 +2008,12 @@
       "topic_id": "services"
     },
     {
+      "id": "walking-clothes-layer-choice",
+      "label_zh": "选择舒适的徒步内搭",
+      "goal_zh": "说明试穿不适并改选宽松款，暂不购买不必要的衣物",
+      "topic_id": "services"
+    },
+    {
       "id": "walking-fall-assistance",
       "label_zh": "摔倒后寻求帮助",
       "goal_zh": "说明不适并请同伴联系现场急救员",
@@ -1742,6 +2066,18 @@
       "label_zh": "初步讨论冬季度假航班",
       "goal_zh": "讨论假期长度、旅行兴趣与直飞航班的便利性，并约定先核对铁路日期再选择航班",
       "topic_id": "travel"
+    },
+    {
+      "id": "wool-coat-alteration-plan",
+      "label_zh": "约定外套改尺寸",
+      "goal_zh": "根据试穿结果确定外套袖长的调整并约好取件",
+      "topic_id": "services"
+    },
+    {
+      "id": "workplace-private-report-meeting",
+      "label_zh": "安排私下讨论职场不当言行",
+      "goal_zh": "说明对不当言行的担忧，并约定与工会代表私下讨论",
+      "topic_id": "work"
     },
     {
       "id": "workshop-pilot-resource-agreement",

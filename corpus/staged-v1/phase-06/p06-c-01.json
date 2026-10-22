@@ -1,0 +1,184 @@
+{
+  "id": "p06-c-01",
+  "title_zh": "决定购买适合练习的二手钢琴",
+  "topic_id": "services",
+  "scenario": {
+    "id": "secondhand-piano-purchase",
+    "label_zh": "挑选二手练习钢琴",
+    "goal_zh": "核对二手钢琴的来源、声音和价格后决定是否购买"
+  },
+  "participants": [
+    "Nadia",
+    "Graham"
+  ],
+  "context_zh": "娜迪娅在二手乐器店挑选练习用钢琴，格雷厄姆是店员。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-01-s01",
+      "speaker": "Nadia",
+      "text": "Is this a used piano, or has it only been on display?"
+    },
+    {
+      "id": "p06-c-01-s02",
+      "speaker": "Graham",
+      "text": "Used. We bought it at an auction, then had our technician check and tune it."
+    },
+    {
+      "id": "p06-c-01-s03",
+      "speaker": "Nadia",
+      "text": "Is it a valuable antique? I need something to play, not something to collect."
+    },
+    {
+      "id": "p06-c-01-s04",
+      "speaker": "Graham",
+      "text": "No, it is an ordinary practice piano. You can try it now."
+    },
+    {
+      "id": "p06-c-01-s05",
+      "speaker": "Nadia",
+      "text": "The lower notes sound much clearer than on the other one. I value a clear sound more than an impressive label."
+    },
+    {
+      "id": "p06-c-01-s06",
+      "speaker": "Graham",
+      "text": "This one is four hundred pounds, including local delivery. The other one is three hundred."
+    },
+    {
+      "id": "p06-c-01-s07",
+      "speaker": "Nadia",
+      "text": "Four hundred is still affordable for me. Is the difference worth an extra hundred pounds?"
+    },
+    {
+      "id": "p06-c-01-s08",
+      "speaker": "Graham",
+      "text": "Only if you prefer playing this one. The cheaper piano is not a bargain if you dislike its sound."
+    },
+    {
+      "id": "p06-c-01-s09",
+      "speaker": "Nadia",
+      "text": "Then I will take this one. Could you arrange delivery for next Thursday?"
+    },
+    {
+      "id": "p06-c-01-s10",
+      "speaker": "Graham",
+      "text": "Yes. Thursday morning is available; I will put that on your order."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1a13d28959904973",
+      "lemma": "used",
+      "pos": "adj.",
+      "sense_zh": "二手的，使用过的",
+      "sentence_ids": [
+        "p06-c-01-s01"
+      ],
+      "forms": [
+        "used"
+      ],
+      "sense_id": "sense-staged-ox-1a13d28959904973-p06-c-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9bc9520c8f32c495",
+      "lemma": "auction",
+      "pos": "n.",
+      "sense_zh": "拍卖",
+      "sentence_ids": [
+        "p06-c-01-s02"
+      ],
+      "forms": [
+        "auction"
+      ],
+      "sense_id": "sense-staged-ox-9bc9520c8f32c495-p06-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cd28af7782092e5a",
+      "lemma": "valuable",
+      "pos": "adj.",
+      "sense_zh": "值钱的，贵重的",
+      "sentence_ids": [
+        "p06-c-01-s03"
+      ],
+      "forms": [
+        "valuable"
+      ],
+      "sense_id": "sense-staged-ox-cd28af7782092e5a-p06-c-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e533c5b2ea17ff9d",
+      "lemma": "value",
+      "pos": "v.",
+      "sense_zh": "重视，珍视",
+      "sentence_ids": [
+        "p06-c-01-s05"
+      ],
+      "forms": [
+        "value"
+      ],
+      "sense_id": "sense-staged-ox-e533c5b2ea17ff9d-p06-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-129ea990020b3b6d",
+      "lemma": "affordable",
+      "pos": "adj.",
+      "sense_zh": "负担得起的",
+      "sentence_ids": [
+        "p06-c-01-s07"
+      ],
+      "forms": [
+        "affordable"
+      ],
+      "sense_id": "sense-staged-ox-129ea990020b3b6d-p06-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4307dd69f6e4363",
+      "lemma": "worth",
+      "pos": "adj.",
+      "sense_zh": "值得某个价钱的",
+      "sentence_ids": [
+        "p06-c-01-s07"
+      ],
+      "forms": [
+        "worth"
+      ],
+      "sense_id": "sense-staged-ox-b4307dd69f6e4363-p06-c-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0c5bf6641e982c5",
+      "lemma": "bargain",
+      "pos": "n.",
+      "sense_zh": "价格划算的东西",
+      "sentence_ids": [
+        "p06-c-01-s08"
+      ],
+      "forms": [
+        "bargain"
+      ],
+      "sense_id": "sense-staged-ox-b0c5bf6641e982c5-p06-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

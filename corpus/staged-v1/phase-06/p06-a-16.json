@@ -1,0 +1,158 @@
+{
+  "id": "p06-a-16",
+  "title_zh": "问清跨信仰活动是否必须参与祈祷",
+  "topic_id": "community",
+  "scenario": {
+    "id": "interfaith-visit-participation-check",
+    "label_zh": "确认跨信仰开放活动的参与方式",
+    "goal_zh": "澄清来访者不必参加祈祷，并商定其参加欢迎环节与等候的安排"
+  },
+  "participants": [
+    "Rose",
+    "Dan"
+  ],
+  "context_zh": "居民罗丝准备参加当地教堂的跨信仰开放日，向负责接待的丹咨询参与方式。场所安排为虚构。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-16-s01",
+      "speaker": "Rose",
+      "text": "I saw your invitation to the open day. Can I come if I do not follow a religion?"
+    },
+    {
+      "id": "p06-a-16-s02",
+      "speaker": "Dan",
+      "text": "Of course. It is a social occasion, not a test of anyone's beliefs. The aim is to bring neighbours together."
+    },
+    {
+      "id": "p06-a-16-s03",
+      "speaker": "Rose",
+      "text": "The programme includes a prayer. Would I be expected to pray with everyone?"
+    },
+    {
+      "id": "p06-a-16-s04",
+      "speaker": "Dan",
+      "text": "No. You can listen quietly, or wait in the courtyard until that part is over."
+    },
+    {
+      "id": "p06-a-16-s05",
+      "speaker": "Rose",
+      "text": "Thank you. I want to be respectful, but I am not comfortable joining a religious ceremony."
+    },
+    {
+      "id": "p06-a-16-s06",
+      "speaker": "Dan",
+      "text": "That is fine. The priest will explain the choices before it begins, and you can ask me anything at the welcome desk."
+    },
+    {
+      "id": "p06-a-16-s07",
+      "speaker": "Rose",
+      "text": "Then I'll come for the welcome talk and wait in the courtyard during the prayer."
+    },
+    {
+      "id": "p06-a-16-s08",
+      "speaker": "Dan",
+      "text": "You're very welcome. I'll show you where the courtyard entrance is when you arrive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-42d9299493dd5835",
+      "lemma": "religion",
+      "pos": "n.",
+      "sense_zh": "宗教信仰",
+      "sentence_ids": [
+        "p06-a-16-s01"
+      ],
+      "forms": [
+        "religion"
+      ],
+      "sense_id": "sense-staged-ox-42d9299493dd5835-p06-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a020c7668be767d9",
+      "lemma": "occasion",
+      "pos": "n.",
+      "sense_zh": "特别的活动；场合",
+      "sentence_ids": [
+        "p06-a-16-s02"
+      ],
+      "forms": [
+        "occasion"
+      ],
+      "sense_id": "sense-staged-ox-a020c7668be767d9-p06-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ac36e455c7d10ead",
+      "lemma": "prayer",
+      "pos": "n.",
+      "sense_zh": "祈祷",
+      "sentence_ids": [
+        "p06-a-16-s03"
+      ],
+      "forms": [
+        "prayer"
+      ],
+      "sense_id": "sense-staged-ox-ac36e455c7d10ead-p06-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1e2ca9458cd633d4",
+      "lemma": "pray",
+      "pos": "v.",
+      "sense_zh": "祈祷",
+      "sentence_ids": [
+        "p06-a-16-s03"
+      ],
+      "forms": [
+        "pray"
+      ],
+      "sense_id": "sense-staged-ox-1e2ca9458cd633d4-p06-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21d4e3fea3e0a851",
+      "lemma": "religious",
+      "pos": "adj.",
+      "sense_zh": "宗教的",
+      "sentence_ids": [
+        "p06-a-16-s05"
+      ],
+      "forms": [
+        "religious"
+      ],
+      "sense_id": "sense-staged-ox-21d4e3fea3e0a851-p06-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92b024a3d400ec0d",
+      "lemma": "priest",
+      "pos": "n.",
+      "sense_zh": "神父",
+      "sentence_ids": [
+        "p06-a-16-s06"
+      ],
+      "forms": [
+        "priest"
+      ],
+      "sense_id": "sense-staged-ox-92b024a3d400ec0d-p06-a-16",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

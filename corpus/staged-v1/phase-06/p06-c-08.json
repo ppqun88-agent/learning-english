@@ -1,0 +1,179 @@
+{
+  "id": "p06-c-08",
+  "title_zh": "承认拿错笔记本并为误指责道歉",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "misplaced-notebook-apology",
+    "label_zh": "纠正误指责并道歉",
+    "goal_zh": "承认自己拿错物品造成误会并向朋友道歉，约定归还物品"
+  },
+  "participants": [
+    "Evan",
+    "Rosa"
+  ],
+  "context_zh": "埃文发现自己误拿了罗莎的笔记本，此前却指责罗莎拿走了他的。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-08-s01",
+      "speaker": "Evan",
+      "text": "Rosa, I found your notebook in my bag. I accidentally picked it up after class."
+    },
+    {
+      "id": "p06-c-08-s02",
+      "speaker": "Rosa",
+      "text": "Then why did you tell everyone I had taken yours? I was really upset."
+    },
+    {
+      "id": "p06-c-08-s03",
+      "speaker": "Evan",
+      "text": "I had no right to accuse you. I saw an empty space on my desk and jumped to a conclusion."
+    },
+    {
+      "id": "p06-c-08-s04",
+      "speaker": "Rosa",
+      "text": "It was not just the missing notebook. You would not listen when I explained."
+    },
+    {
+      "id": "p06-c-08-s05",
+      "speaker": "Evan",
+      "text": "I need to acknowledge that too. My anger was not an excuse to speak to you like that."
+    },
+    {
+      "id": "p06-c-08-s06",
+      "speaker": "Rosa",
+      "text": "I appreciate you saying so, but the others still think I took it."
+    },
+    {
+      "id": "p06-c-08-s07",
+      "speaker": "Evan",
+      "text": "I am ashamed of that. You deserve an apology in front of the same people. May I explain what happened before class tomorrow?"
+    },
+    {
+      "id": "p06-c-08-s08",
+      "speaker": "Rosa",
+      "text": "Yes, please. And bring my notebook; I need it for the lesson."
+    },
+    {
+      "id": "p06-c-08-s09",
+      "speaker": "Evan",
+      "text": "I will. I will also make clear that none of this was your fault."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ef845f10d2426634",
+      "lemma": "accidentally",
+      "pos": "adv.",
+      "sense_zh": "意外地，无意中",
+      "sentence_ids": [
+        "p06-c-08-s01"
+      ],
+      "forms": [
+        "accidentally"
+      ],
+      "sense_id": "sense-staged-ox-ef845f10d2426634-p06-c-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-60118e3eb8e04901",
+      "lemma": "upset",
+      "pos": "adj.",
+      "sense_zh": "难过的，不快的",
+      "sentence_ids": [
+        "p06-c-08-s02"
+      ],
+      "forms": [
+        "upset"
+      ],
+      "sense_id": "sense-staged-ox-60118e3eb8e04901-p06-c-08",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-044988fbf6a2f78b",
+      "lemma": "accuse",
+      "pos": "v.",
+      "sense_zh": "指责某人做错事",
+      "sentence_ids": [
+        "p06-c-08-s03"
+      ],
+      "forms": [
+        "accuse"
+      ],
+      "sense_id": "sense-staged-ox-044988fbf6a2f78b-p06-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45d105e4e38aa198",
+      "lemma": "acknowledge",
+      "pos": "v.",
+      "sense_zh": "承认事实或问题",
+      "sentence_ids": [
+        "p06-c-08-s05"
+      ],
+      "forms": [
+        "acknowledge"
+      ],
+      "sense_id": "sense-staged-ox-45d105e4e38aa198-p06-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-734e54ce6ae247c4",
+      "lemma": "anger",
+      "pos": "n.",
+      "sense_zh": "愤怒",
+      "sentence_ids": [
+        "p06-c-08-s05"
+      ],
+      "forms": [
+        "anger"
+      ],
+      "sense_id": "sense-staged-ox-734e54ce6ae247c4-p06-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-424d223e21cda03a",
+      "lemma": "ashamed",
+      "pos": "adj.",
+      "sense_zh": "感到羞愧的",
+      "sentence_ids": [
+        "p06-c-08-s07"
+      ],
+      "forms": [
+        "ashamed"
+      ],
+      "sense_id": "sense-staged-ox-424d223e21cda03a-p06-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d5c4f9bfee7e2786",
+      "lemma": "apology",
+      "pos": "n.",
+      "sense_zh": "道歉",
+      "sentence_ids": [
+        "p06-c-08-s07"
+      ],
+      "forms": [
+        "apology"
+      ],
+      "sense_id": "sense-staged-ox-d5c4f9bfee7e2786-p06-c-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

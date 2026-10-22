@@ -1,0 +1,163 @@
+{
+  "id": "p06-a-10",
+  "title_zh": "分工煮一锅咖喱蔬菜汤",
+  "topic_id": "food",
+  "scenario": {
+    "id": "soup-cooking-and-portioning",
+    "label_zh": "分工煮汤并安排剩余份量",
+    "goal_zh": "确定汤的配料、调味与口感，分配烹饪工作并约定保存多余份量"
+  },
+  "participants": [
+    "Lucia",
+    "Finn"
+  ],
+  "context_zh": "室友露西亚和芬恩准备用蔬菜煮汤，两人协调口味、烹饪分工和多余份量。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-10-s01",
+      "speaker": "Lucia",
+      "text": "Shall we make soup with these carrots and lentils?"
+    },
+    {
+      "id": "p06-a-10-s02",
+      "speaker": "Finn",
+      "text": "Yes. I'll soften the onion in this pan while you get the large pot ready."
+    },
+    {
+      "id": "p06-a-10-s03",
+      "speaker": "Lucia",
+      "text": "How much curry powder do you want? I like it, but not too much."
+    },
+    {
+      "id": "p06-a-10-s04",
+      "speaker": "Finn",
+      "text": "Just a little. I am not particularly keen on very spicy soup either."
+    },
+    {
+      "id": "p06-a-10-s05",
+      "speaker": "Lucia",
+      "text": "All right. Is this enough stock, or should I open another carton?"
+    },
+    {
+      "id": "p06-a-10-s06",
+      "speaker": "Finn",
+      "text": "That's plenty. Pour half into the pot first; we can add the rest if the soup is too thick."
+    },
+    {
+      "id": "p06-a-10-s07",
+      "speaker": "Lucia",
+      "text": "Then I'll add the carrots and lentils once the onion is ready. This looks like more than two servings."
+    },
+    {
+      "id": "p06-a-10-s08",
+      "speaker": "Finn",
+      "text": "It is. We can eat half tonight and put the extra portions in the fridge for tomorrow."
+    },
+    {
+      "id": "p06-a-10-s09",
+      "speaker": "Lucia",
+      "text": "Good. I'll get the containers out while you stir the onion."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3ee00edcf4c8f216",
+      "lemma": "pan",
+      "pos": "n.",
+      "sense_zh": "平底锅",
+      "sentence_ids": [
+        "p06-a-10-s02"
+      ],
+      "forms": [
+        "pan"
+      ],
+      "sense_id": "sense-staged-ox-3ee00edcf4c8f216-p06-a-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5dbd58ebe6a2a35d",
+      "lemma": "pot",
+      "pos": "n.",
+      "sense_zh": "深锅",
+      "sentence_ids": [
+        "p06-a-10-s02"
+      ],
+      "forms": [
+        "pot"
+      ],
+      "sense_id": "sense-staged-ox-5dbd58ebe6a2a35d-p06-a-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44ed986bbb5b8b03",
+      "lemma": "powder",
+      "pos": "n.",
+      "sense_zh": "粉末；粉状调料",
+      "sentence_ids": [
+        "p06-a-10-s03"
+      ],
+      "forms": [
+        "powder"
+      ],
+      "sense_id": "sense-staged-ox-44ed986bbb5b8b03-p06-a-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f154395d4c8a14db",
+      "lemma": "particularly",
+      "pos": "adv.",
+      "sense_zh": "特别地",
+      "sentence_ids": [
+        "p06-a-10-s04"
+      ],
+      "forms": [
+        "particularly"
+      ],
+      "sense_id": "sense-staged-ox-f154395d4c8a14db-p06-a-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ea49e9aa0e912d9",
+      "lemma": "plenty",
+      "pos": "pron.",
+      "sense_zh": "足够的量",
+      "sentence_ids": [
+        "p06-a-10-s06"
+      ],
+      "forms": [
+        "plenty"
+      ],
+      "sense_id": "sense-staged-ox-3ea49e9aa0e912d9-p06-a-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-470c70006a3bb9a2",
+      "lemma": "pour",
+      "pos": "v.",
+      "sense_zh": "倒；倾倒",
+      "sentence_ids": [
+        "p06-a-10-s06"
+      ],
+      "forms": [
+        "pour"
+      ],
+      "sense_id": "sense-staged-ox-470c70006a3bb9a2-p06-a-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

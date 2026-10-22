@@ -1,0 +1,163 @@
+{
+  "id": "p06-c-09",
+  "title_zh": "先借笔记试讲展示开场",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "student-presentation-support-plan",
+    "label_zh": "约定先练习课堂展示的开场",
+    "goal_zh": "说明公开发言顾虑，并同意借助笔记向同伴试讲开场"
+  },
+  "participants": [
+    "Niko",
+    "Asha"
+  ],
+  "context_zh": "尼科准备课堂展示时感到紧张，同学阿莎提出先听他试讲开场。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-09-s01",
+      "speaker": "Niko",
+      "text": "I feel anxious every time I imagine standing in front of the class."
+    },
+    {
+      "id": "p06-c-09-s02",
+      "speaker": "Asha",
+      "text": "Is it remembering your points, or having everyone look at you?"
+    },
+    {
+      "id": "p06-c-09-s03",
+      "speaker": "Niko",
+      "text": "Both. The anxiety gets worse when I lose my place, and then there is an awkward silence."
+    },
+    {
+      "id": "p06-c-09-s04",
+      "speaker": "Asha",
+      "text": "Could you put the first three points on a card and try the opening with me?"
+    },
+    {
+      "id": "p06-c-09-s05",
+      "speaker": "Niko",
+      "text": "Yes, but please do not correct me halfway through."
+    },
+    {
+      "id": "p06-c-09-s06",
+      "speaker": "Asha",
+      "text": "I can assure you that I will wait until you finish. We can talk about it afterward."
+    },
+    {
+      "id": "p06-c-09-s07",
+      "speaker": "Niko",
+      "text": "Thanks. Would you also accompany me to the classroom tomorrow?"
+    },
+    {
+      "id": "p06-c-09-s08",
+      "speaker": "Asha",
+      "text": "Of course. For now, get your notes and start whenever you are ready."
+    },
+    {
+      "id": "p06-c-09-s09",
+      "speaker": "Niko",
+      "text": "All right. Here is my card. I will try just the first minute."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-202f242b651be31e",
+      "lemma": "anxious",
+      "pos": "adj.",
+      "sense_zh": "焦虑的，担心的",
+      "sentence_ids": [
+        "p06-c-09-s01"
+      ],
+      "forms": [
+        "anxious"
+      ],
+      "sense_id": "sense-staged-ox-202f242b651be31e-p06-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cf9dda9afecda2d7",
+      "lemma": "anxiety",
+      "pos": "n.",
+      "sense_zh": "焦虑，担忧",
+      "sentence_ids": [
+        "p06-c-09-s03"
+      ],
+      "forms": [
+        "anxiety"
+      ],
+      "sense_id": "sense-staged-ox-cf9dda9afecda2d7-p06-c-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8620b3a7f10b1a2f",
+      "lemma": "awkward",
+      "pos": "adj.",
+      "sense_zh": "令人尴尬的",
+      "sentence_ids": [
+        "p06-c-09-s03"
+      ],
+      "forms": [
+        "awkward"
+      ],
+      "sense_id": "sense-staged-ox-8620b3a7f10b1a2f-p06-c-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-01fb143d17c26a24",
+      "lemma": "assure",
+      "pos": "v.",
+      "sense_zh": "向某人保证，使其放心",
+      "sentence_ids": [
+        "p06-c-09-s06"
+      ],
+      "forms": [
+        "assure"
+      ],
+      "sense_id": "sense-staged-ox-01fb143d17c26a24-p06-c-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0e7964c0ff3c78cf",
+      "lemma": "afterward",
+      "pos": "adv.",
+      "sense_zh": "后来，之后",
+      "sentence_ids": [
+        "p06-c-09-s06"
+      ],
+      "forms": [
+        "afterward"
+      ],
+      "sense_id": "sense-staged-ox-0e7964c0ff3c78cf-p06-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-795e4de079b75e78",
+      "lemma": "accompany",
+      "pos": "v.",
+      "sense_zh": "陪同",
+      "sentence_ids": [
+        "p06-c-09-s07"
+      ],
+      "forms": [
+        "accompany"
+      ],
+      "sense_id": "sense-staged-ox-795e4de079b75e78-p06-c-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

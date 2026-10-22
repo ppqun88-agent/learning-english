@@ -1,0 +1,137 @@
+{
+  "id": "p06-c-28",
+  "title_zh": "先评估社团设备再编维修预算",
+  "topic_id": "work",
+  "scenario": {
+    "id": "club-annual-equipment-review",
+    "label_zh": "安排年度设备审查",
+    "goal_zh": "核对设备清单与状况评估的区别，并安排检查后再确定维修预算"
+  },
+  "participants": [
+    "Treasurer Bethan",
+    "Manager Isaac"
+  ],
+  "context_zh": "小型表演社团的财务负责人贝森和管理员艾萨克准备年度设备记录。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-28-s01",
+      "speaker": "Treasurer Bethan",
+      "text": "Our accountant needs the equipment list by Friday. Do we check every item annually?"
+    },
+    {
+      "id": "p06-c-28-s02",
+      "speaker": "Manager Isaac",
+      "text": "Yes. I have counted the chairs and lights, but the piano still needs a condition assessment."
+    },
+    {
+      "id": "p06-c-28-s03",
+      "speaker": "Treasurer Bethan",
+      "text": "It is the club's most valuable asset. A price on a list will not tell us whether it needs work."
+    },
+    {
+      "id": "p06-c-28-s04",
+      "speaker": "Manager Isaac",
+      "text": "Exactly. Do you anticipate any major repairs this year?"
+    },
+    {
+      "id": "p06-c-28-s05",
+      "speaker": "Treasurer Bethan",
+      "text": "I cannot say yet. One key sticks, but we should get the technician's report before putting a repair figure in the budget."
+    },
+    {
+      "id": "p06-c-28-s06",
+      "speaker": "Manager Isaac",
+      "text": "I will arrange that inspection and mark the condition as not yet assessed. You can send the counted items to the accountant now."
+    },
+    {
+      "id": "p06-c-28-s07",
+      "speaker": "Treasurer Bethan",
+      "text": "Agreed. I will explain that the piano report will follow, rather than inventing a cost."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d42c0ffdc102af1f",
+      "lemma": "accountant",
+      "pos": "n.",
+      "sense_zh": "会计师，会计人员",
+      "sentence_ids": [
+        "p06-c-28-s01"
+      ],
+      "forms": [
+        "accountant"
+      ],
+      "sense_id": "sense-staged-ox-d42c0ffdc102af1f-p06-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f53d2c4c45778ad",
+      "lemma": "annually",
+      "pos": "adv.",
+      "sense_zh": "每年一次地",
+      "sentence_ids": [
+        "p06-c-28-s01"
+      ],
+      "forms": [
+        "annually"
+      ],
+      "sense_id": "sense-staged-ox-2f53d2c4c45778ad-p06-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f2c78bdcf32b132a",
+      "lemma": "assessment",
+      "pos": "n.",
+      "sense_zh": "评估",
+      "sentence_ids": [
+        "p06-c-28-s02"
+      ],
+      "forms": [
+        "assessment"
+      ],
+      "sense_id": "sense-staged-ox-f2c78bdcf32b132a-p06-c-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f96739355bcd42e2",
+      "lemma": "asset",
+      "pos": "n.",
+      "sense_zh": "有价值的财产或资产",
+      "sentence_ids": [
+        "p06-c-28-s03"
+      ],
+      "forms": [
+        "asset"
+      ],
+      "sense_id": "sense-staged-ox-f96739355bcd42e2-p06-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4558156f76d230e",
+      "lemma": "anticipate",
+      "pos": "v.",
+      "sense_zh": "预料，预计",
+      "sentence_ids": [
+        "p06-c-28-s04"
+      ],
+      "forms": [
+        "anticipate"
+      ],
+      "sense_id": "sense-staged-ox-b4558156f76d230e-p06-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

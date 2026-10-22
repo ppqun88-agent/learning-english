@@ -1,0 +1,158 @@
+{
+  "id": "p06-b-02",
+  "title_zh": "让课堂机器人重新读出条码",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "robot-demo-scan-troubleshooting",
+    "label_zh": "排查课堂机器人的扫描演示",
+    "goal_zh": "依据错误提示更新软件，重新扫描并确认演示恢复"
+  },
+  "participants": [
+    "Noor",
+    "Mr Bell"
+  ],
+  "context_zh": "机器人课上，学生努尔向教师贝尔先生求助，设备能够移动却无法读取练习卡的条码。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-02-s01",
+      "speaker": "Noor",
+      "text": "The robot moves, but it won't scan this card."
+    },
+    {
+      "id": "p06-b-02-s02",
+      "speaker": "Mr Bell",
+      "text": "What does the message on the screen say?"
+    },
+    {
+      "id": "p06-b-02-s03",
+      "speaker": "Noor",
+      "text": "It says the software is too old for this type of code. Is that a technical problem we can fix here?"
+    },
+    {
+      "id": "p06-b-02-s04",
+      "speaker": "Mr Bell",
+      "text": "Yes. These classroom tablets already have the approved installer. Let's update the scanner program."
+    },
+    {
+      "id": "p06-b-02-s05",
+      "speaker": "Noor",
+      "text": "It's finished. Shall I hold the same card in front of the camera?"
+    },
+    {
+      "id": "p06-b-02-s06",
+      "speaker": "Mr Bell",
+      "text": "Yes, keep it inside the square on the screen."
+    },
+    {
+      "id": "p06-b-02-s07",
+      "speaker": "Noor",
+      "text": "It read the code successfully this time, and the name is correct."
+    },
+    {
+      "id": "p06-b-02-s08",
+      "speaker": "Mr Bell",
+      "text": "Good. Use that card for your demonstration, and keep the error message in your project notes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1ab8e0d36941007e",
+      "lemma": "robot",
+      "pos": "n.",
+      "sense_zh": "机器人",
+      "sentence_ids": [
+        "p06-b-02-s01"
+      ],
+      "forms": [
+        "robot"
+      ],
+      "sense_id": "sense-staged-ox-1ab8e0d36941007e-p06-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6971cefe487decc9",
+      "lemma": "scan",
+      "pos": "v.",
+      "sense_zh": "扫描读取",
+      "sentence_ids": [
+        "p06-b-02-s01"
+      ],
+      "forms": [
+        "scan"
+      ],
+      "sense_id": "sense-staged-ox-6971cefe487decc9-p06-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d8d16879a2660fe5",
+      "lemma": "software",
+      "pos": "n.",
+      "sense_zh": "软件",
+      "sentence_ids": [
+        "p06-b-02-s03"
+      ],
+      "forms": [
+        "software"
+      ],
+      "sense_id": "sense-staged-ox-d8d16879a2660fe5-p06-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44402c1711b861ef",
+      "lemma": "technical",
+      "pos": "adj.",
+      "sense_zh": "技术上的",
+      "sentence_ids": [
+        "p06-b-02-s03"
+      ],
+      "forms": [
+        "technical"
+      ],
+      "sense_id": "sense-staged-ox-44402c1711b861ef-p06-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a5730f3185302a26",
+      "lemma": "update",
+      "pos": "v.",
+      "sense_zh": "更新软件",
+      "sentence_ids": [
+        "p06-b-02-s04"
+      ],
+      "forms": [
+        "update"
+      ],
+      "sense_id": "sense-staged-ox-a5730f3185302a26-p06-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d9a30b4b049ad1a7",
+      "lemma": "successfully",
+      "pos": "adv.",
+      "sense_zh": "成功地",
+      "sentence_ids": [
+        "p06-b-02-s07"
+      ],
+      "forms": [
+        "successfully"
+      ],
+      "sense_id": "sense-staged-ox-d9a30b4b049ad1a7-p06-b-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

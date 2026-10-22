@@ -1,0 +1,137 @@
+{
+  "id": "p06-b-01",
+  "title_zh": "商定退休后的图书馆志愿工作",
+  "topic_id": "community",
+  "scenario": {
+    "id": "retirement-volunteer-role",
+    "label_zh": "选择退休后的志愿职责",
+    "goal_zh": "确认适合的图书整理工作并约定试做，长期值班安排仍待决定"
+  },
+  "participants": [
+    "Evan",
+    "Mina"
+  ],
+  "context_zh": "埃文即将退休，向图书馆志愿协调员米娜询问每周能承担的一项工作。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-01-s01",
+      "speaker": "Evan",
+      "text": "I'm going to retire in June. Could I help here one morning a week?"
+    },
+    {
+      "id": "p06-b-01-s02",
+      "speaker": "Mina",
+      "text": "Certainly. Several retired volunteers help us, and nobody has to commit to more than they can manage."
+    },
+    {
+      "id": "p06-b-01-s03",
+      "speaker": "Evan",
+      "text": "I could take responsibility for sorting returned books, but I don't want to run a group."
+    },
+    {
+      "id": "p06-b-01-s04",
+      "speaker": "Mina",
+      "text": "We respect that. Sorting would be a suitable role, and someone would work alongside you at first."
+    },
+    {
+      "id": "p06-b-01-s05",
+      "speaker": "Evan",
+      "text": "Could I try it before I promise to come every week?"
+    },
+    {
+      "id": "p06-b-01-s06",
+      "speaker": "Mina",
+      "text": "Yes. Come in next Thursday at nine for a trial morning."
+    },
+    {
+      "id": "p06-b-01-s07",
+      "speaker": "Evan",
+      "text": "Thanks. I'll try that, then decide about a regular morning in June."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-92cbecad6d2263f5",
+      "lemma": "retire",
+      "pos": "v.",
+      "sense_zh": "退休",
+      "sentence_ids": [
+        "p06-b-01-s01"
+      ],
+      "forms": [
+        "retire"
+      ],
+      "sense_id": "sense-staged-ox-92cbecad6d2263f5-p06-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0340c54cd62f082e",
+      "lemma": "retired",
+      "pos": "adj.",
+      "sense_zh": "已退休的",
+      "sentence_ids": [
+        "p06-b-01-s02"
+      ],
+      "forms": [
+        "retired"
+      ],
+      "sense_id": "sense-staged-ox-0340c54cd62f082e-p06-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d14913ef1d16527e",
+      "lemma": "responsibility",
+      "pos": "n.",
+      "sense_zh": "负责某项工作的责任",
+      "sentence_ids": [
+        "p06-b-01-s03"
+      ],
+      "forms": [
+        "responsibility"
+      ],
+      "sense_id": "sense-staged-ox-d14913ef1d16527e-p06-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7fbd39fdd1fd9b3a",
+      "lemma": "respect",
+      "pos": "v.",
+      "sense_zh": "尊重他人的意愿",
+      "sentence_ids": [
+        "p06-b-01-s04"
+      ],
+      "forms": [
+        "respect"
+      ],
+      "sense_id": "sense-staged-ox-7fbd39fdd1fd9b3a-p06-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-654b4c53a1806518",
+      "lemma": "suitable",
+      "pos": "adj.",
+      "sense_zh": "适合的",
+      "sentence_ids": [
+        "p06-b-01-s04"
+      ],
+      "forms": [
+        "suitable"
+      ],
+      "sense_id": "sense-staged-ox-654b4c53a1806518-p06-b-01",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

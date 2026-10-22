@@ -1,0 +1,142 @@
+{
+  "id": "p06-c-12",
+  "title_zh": "修订健康宣传晚会海报并交专业人员复核",
+  "topic_id": "community",
+  "scenario": {
+    "id": "health-event-poster-review",
+    "label_zh": "修订健康宣传活动海报",
+    "goal_zh": "核对活动海报的称谓、费用信息和尊重性措辞，并安排专业人员复核健康内容"
+  },
+  "participants": [
+    "Sana",
+    "Miles"
+  ],
+  "context_zh": "社区活动组织者萨娜与迈尔斯审阅一张虚构的健康宣传晚会海报，重点是活动信息及尊重参与者的表达。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-12-s01",
+      "speaker": "Sana",
+      "text": "The heading says HIV and AIDS awareness evening. Is the rest of the poster ready?"
+    },
+    {
+      "id": "p06-c-12-s02",
+      "speaker": "Miles",
+      "text": "Almost. Have we described the speakers appropriately? This draft calls Leila a doctor, but she is a nurse."
+    },
+    {
+      "id": "p06-c-12-s03",
+      "speaker": "Sana",
+      "text": "Good catch. Use the job title she supplied. And this photograph of a crying stranger is not appropriate; it makes assumptions about people's lives."
+    },
+    {
+      "id": "p06-c-12-s04",
+      "speaker": "Miles",
+      "text": "I will replace it with a photograph of the venue. Shall we mention the workshops under the main talk?"
+    },
+    {
+      "id": "p06-c-12-s05",
+      "speaker": "Sana",
+      "text": "Yes. The main talk and the associated activities are all free. That needs to be clear."
+    },
+    {
+      "id": "p06-c-12-s06",
+      "speaker": "Miles",
+      "text": "I can make those changes now. Who checks the health information?"
+    },
+    {
+      "id": "p06-c-12-s07",
+      "speaker": "Sana",
+      "text": "Leila has agreed to review it. Send the new draft to her and wait for her response before we print."
+    },
+    {
+      "id": "p06-c-12-s08",
+      "speaker": "Miles",
+      "text": "Understood. I will correct her title, change the photograph, and mark the whole file as a draft."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ecf8590c6728b764",
+      "lemma": "AIDS",
+      "pos": "n.",
+      "sense_zh": "艾滋病",
+      "sentence_ids": [
+        "p06-c-12-s01"
+      ],
+      "forms": [
+        "AIDS"
+      ],
+      "sense_id": "sense-staged-ox-ecf8590c6728b764-p06-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c61c834e4b9f9f6",
+      "lemma": "awareness",
+      "pos": "n.",
+      "sense_zh": "对某事的了解和意识",
+      "sentence_ids": [
+        "p06-c-12-s01"
+      ],
+      "forms": [
+        "awareness"
+      ],
+      "sense_id": "sense-staged-ox-1c61c834e4b9f9f6-p06-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-61ac2b62c5bfe834",
+      "lemma": "appropriately",
+      "pos": "adv.",
+      "sense_zh": "恰当地",
+      "sentence_ids": [
+        "p06-c-12-s02"
+      ],
+      "forms": [
+        "appropriately"
+      ],
+      "sense_id": "sense-staged-ox-61ac2b62c5bfe834-p06-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c7aceca8bc7a0a5",
+      "lemma": "appropriate",
+      "pos": "adj.",
+      "sense_zh": "合适的，恰当的",
+      "sentence_ids": [
+        "p06-c-12-s03"
+      ],
+      "forms": [
+        "appropriate"
+      ],
+      "sense_id": "sense-staged-ox-7c7aceca8bc7a0a5-p06-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a4aa7d4afde4f960",
+      "lemma": "associated",
+      "pos": "adj.",
+      "sense_zh": "相关的，配套的",
+      "sentence_ids": [
+        "p06-c-12-s05"
+      ],
+      "forms": [
+        "associated"
+      ],
+      "sense_id": "sense-staged-ox-a4aa7d4afde4f960-p06-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

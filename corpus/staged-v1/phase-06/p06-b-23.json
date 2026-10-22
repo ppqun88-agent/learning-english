@@ -1,0 +1,105 @@
+{
+  "id": "p06-b-23",
+  "title_zh": "试穿后选宽版运动鞋",
+  "topic_id": "services",
+  "scenario": {
+    "id": "sports-shoe-fitting",
+    "label_zh": "试穿运动鞋并确认尺码",
+    "goal_zh": "比较试穿感受并选定合脚的一双鞋"
+  },
+  "participants": [
+    "Yara",
+    "Sports Shop Assistant"
+  ],
+  "context_zh": "雅拉试穿运动鞋时发现前端挤脚，店员提供同款不同宽度供她比较。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-23-s01",
+      "speaker": "Yara",
+      "text": "My big toe is pressed against the side of this shoe. The length seems fine, though."
+    },
+    {
+      "id": "p06-b-23-s02",
+      "speaker": "Sports Shop Assistant",
+      "text": "That's the standard width. We also have a wider version in the same size."
+    },
+    {
+      "id": "p06-b-23-s03",
+      "speaker": "Yara",
+      "text": "Could I try it? I don't want a longer shoe just to get more room at the front."
+    },
+    {
+      "id": "p06-b-23-s04",
+      "speaker": "Sports Shop Assistant",
+      "text": "Certainly. Walk around in these and tell me how they feel."
+    },
+    {
+      "id": "p06-b-23-s05",
+      "speaker": "Yara",
+      "text": "Unlike the first pair, these don't squeeze my toes. My heels aren't slipping either."
+    },
+    {
+      "id": "p06-b-23-s06",
+      "speaker": "Sports Shop Assistant",
+      "text": "Would you like this pair?"
+    },
+    {
+      "id": "p06-b-23-s07",
+      "speaker": "Yara",
+      "text": "Yes, I'll take the wider ones in this size."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7f90aa6a71958676",
+      "lemma": "toe",
+      "pos": "n.",
+      "sense_zh": "脚趾",
+      "sentence_ids": [
+        "p06-b-23-s01"
+      ],
+      "forms": [
+        "toe"
+      ],
+      "sense_id": "sense-staged-ox-7f90aa6a71958676-p06-b-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef40f1453e47b995",
+      "lemma": "standard",
+      "pos": "adj.",
+      "sense_zh": "标准规格的",
+      "sentence_ids": [
+        "p06-b-23-s02"
+      ],
+      "forms": [
+        "standard"
+      ],
+      "sense_id": "sense-staged-ox-ef40f1453e47b995-p06-b-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa691e1393d458b7",
+      "lemma": "unlike",
+      "pos": "prep.",
+      "sense_zh": "与……不同",
+      "sentence_ids": [
+        "p06-b-23-s05"
+      ],
+      "forms": [
+        "unlike"
+      ],
+      "sense_id": "sense-staged-ox-aa691e1393d458b7-p06-b-23",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

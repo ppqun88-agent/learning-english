@@ -1,0 +1,158 @@
+{
+  "id": "p06-b-19",
+  "title_zh": "缩小就业调查标题的结论范围",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "employment-survey-headline-limits",
+    "label_zh": "限定就业调查标题的结论",
+    "goal_zh": "核对样本与统计口径，删除无法支持的全市趋势结论"
+  },
+  "participants": [
+    "Jin",
+    "Marta"
+  ],
+  "context_zh": "两名学生审核一份虚构求职俱乐部调查的报告标题，避免把少量成员的情况写成全市就业趋势。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-19-s01",
+      "speaker": "Jin",
+      "text": "At the start of this month, forty residents in our survey were unemployed. Eight have since found work. Can our headline say unemployment is falling across the city?"
+    },
+    {
+      "id": "p06-b-19-s02",
+      "speaker": "Marta",
+      "text": "No. That's a statistic about one job club, not a measure of the whole city."
+    },
+    {
+      "id": "p06-b-19-s03",
+      "speaker": "Jin",
+      "text": "But doesn't it show a positive trend?"
+    },
+    {
+      "id": "p06-b-19-s04",
+      "speaker": "Marta",
+      "text": "We only have this month's survey. We don't have a comparable result from last month."
+    },
+    {
+      "id": "p06-b-19-s05",
+      "speaker": "Jin",
+      "text": "And it's unlikely that this one club represents everyone looking for work."
+    },
+    {
+      "id": "p06-b-19-s06",
+      "speaker": "Marta",
+      "text": "Right. We should therefore keep the headline about the people we actually surveyed."
+    },
+    {
+      "id": "p06-b-19-s07",
+      "speaker": "Jin",
+      "text": "I'll change it to 'Eight survey participants found work this month' and explain the sample underneath."
+    },
+    {
+      "id": "p06-b-19-s08",
+      "speaker": "Marta",
+      "text": "That matches our evidence. Let's use that version."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-eb76e82eff4d5250",
+      "lemma": "unemployed",
+      "pos": "adj.",
+      "sense_zh": "失业的",
+      "sentence_ids": [
+        "p06-b-19-s01"
+      ],
+      "forms": [
+        "unemployed"
+      ],
+      "sense_id": "sense-staged-ox-eb76e82eff4d5250-p06-b-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c501323d1bcf3e2b",
+      "lemma": "unemployment",
+      "pos": "n.",
+      "sense_zh": "失业情况",
+      "sentence_ids": [
+        "p06-b-19-s01"
+      ],
+      "forms": [
+        "unemployment"
+      ],
+      "sense_id": "sense-staged-ox-c501323d1bcf3e2b-p06-b-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-34c3146bd9ec9223",
+      "lemma": "statistic",
+      "pos": "n.",
+      "sense_zh": "一项统计数字",
+      "sentence_ids": [
+        "p06-b-19-s02"
+      ],
+      "forms": [
+        "statistic"
+      ],
+      "sense_id": "sense-staged-ox-34c3146bd9ec9223-p06-b-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-47f3ff85ba462b5b",
+      "lemma": "trend",
+      "pos": "n.",
+      "sense_zh": "变化趋势",
+      "sentence_ids": [
+        "p06-b-19-s03"
+      ],
+      "forms": [
+        "trend"
+      ],
+      "sense_id": "sense-staged-ox-47f3ff85ba462b5b-p06-b-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-87e23c9414431669",
+      "lemma": "unlikely",
+      "pos": "adj.",
+      "sense_zh": "不太可能的",
+      "sentence_ids": [
+        "p06-b-19-s05"
+      ],
+      "forms": [
+        "unlikely"
+      ],
+      "sense_id": "sense-staged-ox-87e23c9414431669-p06-b-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a843de771a2de53d",
+      "lemma": "therefore",
+      "pos": "adv.",
+      "sense_zh": "因此",
+      "sentence_ids": [
+        "p06-b-19-s06"
+      ],
+      "forms": [
+        "therefore"
+      ],
+      "sense_id": "sense-staged-ox-a843de771a2de53d-p06-b-19",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p06-c-15",
+  "title_zh": "调整画廊灯光以保留画作效果",
+  "topic_id": "work",
+  "scenario": {
+    "id": "gallery-exhibition-lighting-plan",
+    "label_zh": "调整展览画作照明",
+    "goal_zh": "比较画作在不同照明角度下的观看效果并确定安装调整"
+  },
+  "participants": [
+    "Curator Mei",
+    "Installer Tomas"
+  ],
+  "context_zh": "策展人梅与灯光安装员托马斯在布展现场查看一幅抽象画。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-15-s01",
+      "speaker": "Curator Mei",
+      "text": "This abstract painting looks quite different under the artificial light. The pale shapes almost disappear."
+    },
+    {
+      "id": "p06-c-15-s02",
+      "speaker": "Installer Tomas",
+      "text": "The lamp is pointing straight at the surface. I can change the angle and let you compare."
+    },
+    {
+      "id": "p06-c-15-s03",
+      "speaker": "Curator Mei",
+      "text": "Please do. The artist wants the shapes to emerge slowly; that is an artistic choice we need to preserve."
+    },
+    {
+      "id": "p06-c-15-s04",
+      "speaker": "Installer Tomas",
+      "text": "How about this position? Stand by the doorway and see what a visitor would see."
+    },
+    {
+      "id": "p06-c-15-s05",
+      "speaker": "Curator Mei",
+      "text": "That is better. The pale shapes are visible now, and there is no bright reflection across the artwork."
+    },
+    {
+      "id": "p06-c-15-s06",
+      "speaker": "Installer Tomas",
+      "text": "Shall I secure the lamp here?"
+    },
+    {
+      "id": "p06-c-15-s07",
+      "speaker": "Curator Mei",
+      "text": "Yes. Keep this position, and I will check it once more after the other room lights are on."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9eba8c0b7804f31b",
+      "lemma": "abstract",
+      "pos": "adj.",
+      "sense_zh": "抽象的，非写实的",
+      "sentence_ids": [
+        "p06-c-15-s01"
+      ],
+      "forms": [
+        "abstract"
+      ],
+      "sense_id": "sense-staged-ox-9eba8c0b7804f31b-p06-c-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2341bbe8ccbd8277",
+      "lemma": "artificial",
+      "pos": "adj.",
+      "sense_zh": "人工的，非自然产生的",
+      "sentence_ids": [
+        "p06-c-15-s01"
+      ],
+      "forms": [
+        "artificial"
+      ],
+      "sense_id": "sense-staged-ox-2341bbe8ccbd8277-p06-c-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44163938b804a981",
+      "lemma": "angle",
+      "pos": "n.",
+      "sense_zh": "角度",
+      "sentence_ids": [
+        "p06-c-15-s02"
+      ],
+      "forms": [
+        "angle"
+      ],
+      "sense_id": "sense-staged-ox-44163938b804a981-p06-c-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3f66e579f2f5f2e6",
+      "lemma": "artistic",
+      "pos": "adj.",
+      "sense_zh": "艺术上的",
+      "sentence_ids": [
+        "p06-c-15-s03"
+      ],
+      "forms": [
+        "artistic"
+      ],
+      "sense_id": "sense-staged-ox-3f66e579f2f5f2e6-p06-c-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e630884174f85a7d",
+      "lemma": "artwork",
+      "pos": "n.",
+      "sense_zh": "艺术作品",
+      "sentence_ids": [
+        "p06-c-15-s05"
+      ],
+      "forms": [
+        "artwork"
+      ],
+      "sense_id": "sense-staged-ox-e630884174f85a7d-p06-c-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

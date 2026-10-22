@@ -1,0 +1,142 @@
+{
+  "id": "p06-a-02",
+  "title_zh": "请朋友帮忙缝回纽扣",
+  "topic_id": "home",
+  "scenario": {
+    "id": "shirt-button-sewing-help",
+    "label_zh": "请同伴指导缝回纽扣",
+    "goal_zh": "确认纽扣位置与针线工具，并约定先在碎布上练习再处理衬衫"
+  },
+  "participants": [
+    "Ada",
+    "Jo"
+  ],
+  "context_zh": "艾达想保留一件旧衬衫，请会缝纫的朋友乔帮忙处理掉落的纽扣。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-02-s01",
+      "speaker": "Ada",
+      "text": "Can you help me sew this button back on? I want to keep the shirt."
+    },
+    {
+      "id": "p06-a-02-s02",
+      "speaker": "Jo",
+      "text": "Of course. I like these old-fashioned buttons. Where did this one come off?"
+    },
+    {
+      "id": "p06-a-02-s03",
+      "speaker": "Ada",
+      "text": "The cuff. The tailor left a pin where the button should go."
+    },
+    {
+      "id": "p06-a-02-s04",
+      "speaker": "Jo",
+      "text": "Good, we have the position. I'll remove that and thread a needle."
+    },
+    {
+      "id": "p06-a-02-s05",
+      "speaker": "Ada",
+      "text": "My stitches never look neat. Could I watch you do the first few?"
+    },
+    {
+      "id": "p06-a-02-s06",
+      "speaker": "Jo",
+      "text": "Yes. Then you can try. Don't pull the thread too tight or the button won't sit properly."
+    },
+    {
+      "id": "p06-a-02-s07",
+      "speaker": "Ada",
+      "text": "Let's practise on this scrap of cloth first. I don't want to spoil the cuff."
+    },
+    {
+      "id": "p06-a-02-s08",
+      "speaker": "Jo",
+      "text": "Good idea. I'll show you here before we touch the shirt."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bb971f8bbb5ef0e9",
+      "lemma": "old-fashioned",
+      "pos": "adj.",
+      "sense_zh": "老式的",
+      "sentence_ids": [
+        "p06-a-02-s02"
+      ],
+      "forms": [
+        "old-fashioned"
+      ],
+      "sense_id": "sense-staged-ox-bb971f8bbb5ef0e9-p06-a-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f8e09664b90ff06",
+      "lemma": "pin",
+      "pos": "n.",
+      "sense_zh": "大头针",
+      "sentence_ids": [
+        "p06-a-02-s03"
+      ],
+      "forms": [
+        "pin"
+      ],
+      "sense_id": "sense-staged-ox-0f8e09664b90ff06-p06-a-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-adf2012f1518a100",
+      "lemma": "needle",
+      "pos": "n.",
+      "sense_zh": "缝纫针",
+      "sentence_ids": [
+        "p06-a-02-s04"
+      ],
+      "forms": [
+        "needle"
+      ],
+      "sense_id": "sense-staged-ox-adf2012f1518a100-p06-a-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f9f333ac26e0871",
+      "lemma": "neat",
+      "pos": "adj.",
+      "sense_zh": "整齐的",
+      "sentence_ids": [
+        "p06-a-02-s05"
+      ],
+      "forms": [
+        "neat"
+      ],
+      "sense_id": "sense-staged-ox-8f9f333ac26e0871-p06-a-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b4787fecc8f2b20",
+      "lemma": "properly",
+      "pos": "adv.",
+      "sense_zh": "正确地；合适地",
+      "sentence_ids": [
+        "p06-a-02-s06"
+      ],
+      "forms": [
+        "properly"
+      ],
+      "sense_id": "sense-staged-ox-0b4787fecc8f2b20-p06-a-02",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

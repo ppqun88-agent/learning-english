@@ -1,0 +1,136 @@
+{
+  "id": "p06-a-25",
+  "title_zh": "试听后更换间歇失灵的音箱",
+  "topic_id": "services",
+  "scenario": {
+    "id": "portable-speaker-return-choice",
+    "label_zh": "选择故障音箱的替代品",
+    "goal_zh": "说明音箱故障，试听同价替代型号后确认更换"
+  },
+  "participants": [
+    "Pavel",
+    "Imogen"
+  ],
+  "context_zh": "顾客帕维尔带着购买凭证退换一台音箱，店员伊玛现场试听同价替代型号。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-25-s01",
+      "speaker": "Pavel",
+      "text": "This speaker makes an odd crackling sound when I use it on battery power."
+    },
+    {
+      "id": "p06-a-25-s02",
+      "speaker": "Imogen",
+      "text": "Does it happen when the cable is connected too?"
+    },
+    {
+      "id": "p06-a-25-s03",
+      "speaker": "Pavel",
+      "text": "No, it works perfectly then. But I bought it to use away from a socket."
+    },
+    {
+      "id": "p06-a-25-s04",
+      "speaker": "Imogen",
+      "text": "Obviously, it needs to work on its battery as well. Your receipt is here, so we can arrange an exchange."
+    },
+    {
+      "id": "p06-a-25-s05",
+      "speaker": "Pavel",
+      "text": "I need a reliable connection for my dance class. Could we try the other model before I choose?"
+    },
+    {
+      "id": "p06-a-25-s06",
+      "speaker": "Imogen",
+      "text": "Certainly. It is the same price. I have unplugged it now; connect your phone and play a track."
+    },
+    {
+      "id": "p06-a-25-s07",
+      "speaker": "Pavel",
+      "text": "The music is clear. I have walked across the shop, and it has not cut out or crackled."
+    },
+    {
+      "id": "p06-a-25-s08",
+      "speaker": "Imogen",
+      "text": "Would you like this model instead, then?"
+    },
+    {
+      "id": "p06-a-25-s09",
+      "speaker": "Pavel",
+      "text": "Yes, please. This is the one I want."
+    },
+    {
+      "id": "p06-a-25-s10",
+      "speaker": "Imogen",
+      "text": "All right. I have recorded the exchange. Here is your replacement and the updated receipt."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f2294694ace18578",
+      "lemma": "odd",
+      "pos": "adj.",
+      "sense_zh": "奇怪的；异常的",
+      "sentence_ids": [
+        "p06-a-25-s01"
+      ],
+      "forms": [
+        "odd"
+      ],
+      "sense_id": "sense-staged-ox-f2294694ace18578-p06-a-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08119be702ace36c",
+      "lemma": "perfectly",
+      "pos": "adv.",
+      "sense_zh": "完全地；毫无问题地",
+      "sentence_ids": [
+        "p06-a-25-s03"
+      ],
+      "forms": [
+        "perfectly"
+      ],
+      "sense_id": "sense-staged-ox-08119be702ace36c-p06-a-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0487ea953a9856e5",
+      "lemma": "obviously",
+      "pos": "adv.",
+      "sense_zh": "显然",
+      "sentence_ids": [
+        "p06-a-25-s04"
+      ],
+      "forms": [
+        "obviously"
+      ],
+      "sense_id": "sense-staged-ox-0487ea953a9856e5-p06-a-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2113b6ec803926c0",
+      "lemma": "reliable",
+      "pos": "adj.",
+      "sense_zh": "可靠的",
+      "sentence_ids": [
+        "p06-a-25-s05"
+      ],
+      "forms": [
+        "reliable"
+      ],
+      "sense_id": "sense-staged-ox-2113b6ec803926c0-p06-a-25",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

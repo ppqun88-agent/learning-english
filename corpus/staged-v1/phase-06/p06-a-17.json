@@ -1,0 +1,152 @@
+{
+  "id": "p06-a-17",
+  "title_zh": "处理课堂冲突前先听取经过",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "school-behaviour-response-discussion",
+    "label_zh": "就课堂行为处理约定先了解情况",
+    "goal_zh": "听取家长对全班处罚的担忧，并约定询问相关师生后再决定回应方式"
+  },
+  "participants": [
+    "Sara",
+    "Morgan"
+  ],
+  "context_zh": "虚构的小学场景中，家长莎拉向校长摩根提出对全班留堂安排的担忧，双方约定先了解情况。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-17-s01",
+      "speaker": "Sara",
+      "text": "Are you the principal? I would like to discuss what happened in my son's class."
+    },
+    {
+      "id": "p06-a-17-s02",
+      "speaker": "Morgan",
+      "text": "Yes. Please sit down and tell me your concern."
+    },
+    {
+      "id": "p06-a-17-s03",
+      "speaker": "Sara",
+      "text": "I came to protest against the decision to keep the whole class inside at break. My son says only two children were involved."
+    },
+    {
+      "id": "p06-a-17-s04",
+      "speaker": "Morgan",
+      "text": "I have not heard everyone's account yet. What did he tell you?"
+    },
+    {
+      "id": "p06-a-17-s05",
+      "speaker": "Sara",
+      "text": "He said there was an argument over a ball. He is only in his first year of primary school, so he may have missed some of it."
+    },
+    {
+      "id": "p06-a-17-s06",
+      "speaker": "Morgan",
+      "text": "Thank you for explaining that. I do not want to punish children without understanding what happened."
+    },
+    {
+      "id": "p06-a-17-s07",
+      "speaker": "Sara",
+      "text": "Could you speak to the teacher before deciding on any punishment?"
+    },
+    {
+      "id": "p06-a-17-s08",
+      "speaker": "Morgan",
+      "text": "Yes. I will speak to the teacher and the children today. There will be no whole-class penalty while we review it."
+    },
+    {
+      "id": "p06-a-17-s09",
+      "speaker": "Sara",
+      "text": "That is what I was asking for. Please let me know what you find out."
+    },
+    {
+      "id": "p06-a-17-s10",
+      "speaker": "Morgan",
+      "text": "I will call you after I have heard their accounts."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5c46fb62e6d32dd5",
+      "lemma": "principal",
+      "pos": "n.",
+      "sense_zh": "校长",
+      "sentence_ids": [
+        "p06-a-17-s01"
+      ],
+      "forms": [
+        "principal"
+      ],
+      "sense_id": "sense-staged-ox-5c46fb62e6d32dd5-p06-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9c57eb6c46b80013",
+      "lemma": "protest",
+      "pos": "v.",
+      "sense_zh": "提出抗议",
+      "sentence_ids": [
+        "p06-a-17-s03"
+      ],
+      "forms": [
+        "protest"
+      ],
+      "sense_id": "sense-staged-ox-9c57eb6c46b80013-p06-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dd0fc5dc8fc38e5a",
+      "lemma": "primary",
+      "pos": "adj.",
+      "sense_zh": "小学教育的",
+      "sentence_ids": [
+        "p06-a-17-s05"
+      ],
+      "forms": [
+        "primary"
+      ],
+      "sense_id": "sense-staged-ox-dd0fc5dc8fc38e5a-p06-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2d3de28a15a300a",
+      "lemma": "punish",
+      "pos": "v.",
+      "sense_zh": "惩罚",
+      "sentence_ids": [
+        "p06-a-17-s06"
+      ],
+      "forms": [
+        "punish"
+      ],
+      "sense_id": "sense-staged-ox-d2d3de28a15a300a-p06-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-48d682dd4a3e6bca",
+      "lemma": "punishment",
+      "pos": "n.",
+      "sense_zh": "惩罚",
+      "sentence_ids": [
+        "p06-a-17-s07"
+      ],
+      "forms": [
+        "punishment"
+      ],
+      "sense_id": "sense-staged-ox-48d682dd4a3e6bca-p06-a-17",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

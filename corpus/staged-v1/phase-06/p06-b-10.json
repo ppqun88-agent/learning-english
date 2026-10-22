@@ -1,0 +1,121 @@
+{
+  "id": "p06-b-10",
+  "title_zh": "给窗边幼苗留出合适空间",
+  "topic_id": "home",
+  "scenario": {
+    "id": "garden-seedling-spacing",
+    "label_zh": "调整幼苗种植间距",
+    "goal_zh": "根据种子包装说明和当前光照确定花盆与幼苗安排"
+  },
+  "participants": [
+    "Nadia",
+    "Felix"
+  ],
+  "context_zh": "纳迪娅在家育苗，朋友费利克斯和她一起查看种子包装说明，决定花盆位置和间距。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-10-s01",
+      "speaker": "Nadia",
+      "text": "The packet says one seed per pot, but I put three in this one. Now all three have sprouted."
+    },
+    {
+      "id": "p06-b-10-s02",
+      "speaker": "Felix",
+      "text": "There's another empty pot here. Let's follow the spacing instructions rather than crowd them together."
+    },
+    {
+      "id": "p06-b-10-s03",
+      "speaker": "Nadia",
+      "text": "The soil is still damp. Should I leave the pots on this windowsill?"
+    },
+    {
+      "id": "p06-b-10-s04",
+      "speaker": "Felix",
+      "text": "Yes, that's the bright spot the packet recommends. Plants here tend to lean towards the window, so we can watch how these grow."
+    },
+    {
+      "id": "p06-b-10-s05",
+      "speaker": "Nadia",
+      "text": "Will they survive outside yet? The nights are still cold."
+    },
+    {
+      "id": "p06-b-10-s06",
+      "speaker": "Felix",
+      "text": "The packet says to wait until after the last frost. Let's keep them inside for now."
+    },
+    {
+      "id": "p06-b-10-s07",
+      "speaker": "Nadia",
+      "text": "All right. I'll separate the extra seedlings into their own pots and leave enough space between them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4ce272d8f21d1fe8",
+      "lemma": "seed",
+      "pos": "n.",
+      "sense_zh": "种子",
+      "sentence_ids": [
+        "p06-b-10-s01"
+      ],
+      "forms": [
+        "seed"
+      ],
+      "sense_id": "sense-staged-ox-4ce272d8f21d1fe8-p06-b-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d889a1c27d4509b2",
+      "lemma": "soil",
+      "pos": "n.",
+      "sense_zh": "土壤",
+      "sentence_ids": [
+        "p06-b-10-s03"
+      ],
+      "forms": [
+        "soil"
+      ],
+      "sense_id": "sense-staged-ox-d889a1c27d4509b2-p06-b-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0de36e1d4989db88",
+      "lemma": "tend",
+      "pos": "v.",
+      "sense_zh": "往往会",
+      "sentence_ids": [
+        "p06-b-10-s04"
+      ],
+      "forms": [
+        "tend"
+      ],
+      "sense_id": "sense-staged-ox-0de36e1d4989db88-p06-b-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e83b95ddfee28237",
+      "lemma": "survive",
+      "pos": "v.",
+      "sense_zh": "存活",
+      "sentence_ids": [
+        "p06-b-10-s05"
+      ],
+      "forms": [
+        "survive"
+      ],
+      "sense_id": "sense-staged-ox-e83b95ddfee28237-p06-b-10",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

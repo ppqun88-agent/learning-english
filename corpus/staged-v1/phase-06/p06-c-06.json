@@ -1,0 +1,179 @@
+{
+  "id": "p06-c-06",
+  "title_zh": "明确社区活动入口和接待分工",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-event-welcome",
+    "label_zh": "安排社区活动迎宾",
+    "goal_zh": "确认入口与电梯位置并分配接待工作"
+  },
+  "participants": [
+    "Yasmin",
+    "Joel"
+  ],
+  "context_zh": "社区活动负责人亚斯敏向首次来帮忙的乔尔交接迎宾工作。",
+  "author": "author-phase06-c",
+  "sentences": [
+    {
+      "id": "p06-c-06-s01",
+      "speaker": "Yasmin",
+      "text": "You are our new volunteer, right? Here is a badge so visitors know they can ask you for help."
+    },
+    {
+      "id": "p06-c-06-s02",
+      "speaker": "Joel",
+      "text": "Thanks. Should I stand by the front steps?"
+    },
+    {
+      "id": "p06-c-06-s03",
+      "speaker": "Yasmin",
+      "text": "Use the side entrance instead. People arrive with various needs, and that entrance leads straight to the lift."
+    },
+    {
+      "id": "p06-c-06-s04",
+      "speaker": "Joel",
+      "text": "Can the lift accommodate someone with a wheelchair and a companion?"
+    },
+    {
+      "id": "p06-c-06-s05",
+      "speaker": "Yasmin",
+      "text": "Yes, both can travel together. Please ask before offering any physical assistance."
+    },
+    {
+      "id": "p06-c-06-s06",
+      "speaker": "Joel",
+      "text": "Who should I contact if someone needs more help than I can give?"
+    },
+    {
+      "id": "p06-c-06-s07",
+      "speaker": "Yasmin",
+      "text": "I will assign Lian to the lift area. Call her whenever you are unsure; she knows the building well."
+    },
+    {
+      "id": "p06-c-06-s08",
+      "speaker": "Joel",
+      "text": "All right. I will welcome people at the side door and direct them to Lian when needed."
+    },
+    {
+      "id": "p06-c-06-s09",
+      "speaker": "Yasmin",
+      "text": "Exactly. I will stay at the registration desk just inside that door."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ba55a1bf059b4ed7",
+      "lemma": "volunteer",
+      "pos": "n.",
+      "sense_zh": "志愿者",
+      "sentence_ids": [
+        "p06-c-06-s01"
+      ],
+      "forms": [
+        "volunteer"
+      ],
+      "sense_id": "sense-staged-ox-ba55a1bf059b4ed7-p06-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-adeee3d9858a23c6",
+      "lemma": "badge",
+      "pos": "n.",
+      "sense_zh": "标明身份的徽章或胸牌",
+      "sentence_ids": [
+        "p06-c-06-s01"
+      ],
+      "forms": [
+        "badge"
+      ],
+      "sense_id": "sense-staged-ox-adeee3d9858a23c6-p06-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f45e7df50540a25c",
+      "lemma": "various",
+      "pos": "adj.",
+      "sense_zh": "各种不同的",
+      "sentence_ids": [
+        "p06-c-06-s03"
+      ],
+      "forms": [
+        "various"
+      ],
+      "sense_id": "sense-staged-ox-f45e7df50540a25c-p06-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b93c71305a6ad4be",
+      "lemma": "accommodate",
+      "pos": "v.",
+      "sense_zh": "容纳",
+      "sentence_ids": [
+        "p06-c-06-s04"
+      ],
+      "forms": [
+        "accommodate"
+      ],
+      "sense_id": "sense-staged-ox-b93c71305a6ad4be-p06-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-810da4ae233d6965",
+      "lemma": "assistance",
+      "pos": "n.",
+      "sense_zh": "帮助，协助",
+      "sentence_ids": [
+        "p06-c-06-s05"
+      ],
+      "forms": [
+        "assistance"
+      ],
+      "sense_id": "sense-staged-ox-810da4ae233d6965-p06-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b3e7a6d88c91ec49",
+      "lemma": "assign",
+      "pos": "v.",
+      "sense_zh": "指派人员承担某项工作",
+      "sentence_ids": [
+        "p06-c-06-s07"
+      ],
+      "forms": [
+        "assign"
+      ],
+      "sense_id": "sense-staged-ox-b3e7a6d88c91ec49-p06-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-570c2179da35fa88",
+      "lemma": "whenever",
+      "pos": "conj.",
+      "sense_zh": "每当，无论何时",
+      "sentence_ids": [
+        "p06-c-06-s07"
+      ],
+      "forms": [
+        "whenever"
+      ],
+      "sense_id": "sense-staged-ox-570c2179da35fa88-p06-c-06",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

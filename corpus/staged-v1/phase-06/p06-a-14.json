@@ -1,0 +1,147 @@
+{
+  "id": "p06-a-14",
+  "title_zh": "预约检查反复敲响的水管",
+  "topic_id": "home",
+  "scenario": {
+    "id": "pipe-noise-inspection-booking",
+    "label_zh": "预约检查水管敲击声和水压变化",
+    "goal_zh": "描述声音发生时机及可见状况，确认上门检查时间而不提前断定故障原因"
+  },
+  "participants": [
+    "Hana",
+    "Vic"
+  ],
+  "context_zh": "住户哈娜给维修人员维克打电话，说明水管声音与水压的变化；尚未确定原因。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-14-s01",
+      "speaker": "Hana",
+      "text": "There is a repeated knocking sound behind my kitchen wall."
+    },
+    {
+      "id": "p06-a-14-s02",
+      "speaker": "Vic",
+      "text": "Does it occur when you turn the tap off, or at other times too?"
+    },
+    {
+      "id": "p06-a-14-s03",
+      "speaker": "Hana",
+      "text": "Mostly just after I turn it off. I think it is the pipe under the sink."
+    },
+    {
+      "id": "p06-a-14-s04",
+      "speaker": "Vic",
+      "text": "Have you noticed any change in the water pressure?"
+    },
+    {
+      "id": "p06-a-14-s05",
+      "speaker": "Hana",
+      "text": "It seems weaker this week. Is the cause obvious from that?"
+    },
+    {
+      "id": "p06-a-14-s06",
+      "speaker": "Vic",
+      "text": "No, I need to inspect it before I can say. Is there any water on the floor?"
+    },
+    {
+      "id": "p06-a-14-s07",
+      "speaker": "Hana",
+      "text": "No. The cupboard and floor are dry. Could you come tomorrow morning?"
+    },
+    {
+      "id": "p06-a-14-s08",
+      "speaker": "Vic",
+      "text": "I can come between nine and ten. Please leave the cupboard accessible, but do not take anything apart."
+    },
+    {
+      "id": "p06-a-14-s09",
+      "speaker": "Hana",
+      "text": "That time works. I'll be here to show you where I hear it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-81f2560edff2b711",
+      "lemma": "repeated",
+      "pos": "adj.",
+      "sense_zh": "反复出现的",
+      "sentence_ids": [
+        "p06-a-14-s01"
+      ],
+      "forms": [
+        "repeated"
+      ],
+      "sense_id": "sense-staged-ox-81f2560edff2b711-p06-a-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-35e399c998d9e809",
+      "lemma": "occur",
+      "pos": "v.",
+      "sense_zh": "发生",
+      "sentence_ids": [
+        "p06-a-14-s02"
+      ],
+      "forms": [
+        "occur"
+      ],
+      "sense_id": "sense-staged-ox-35e399c998d9e809-p06-a-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ab3b9386417d0a6",
+      "lemma": "pipe",
+      "pos": "n.",
+      "sense_zh": "管道",
+      "sentence_ids": [
+        "p06-a-14-s03"
+      ],
+      "forms": [
+        "pipe"
+      ],
+      "sense_id": "sense-staged-ox-2ab3b9386417d0a6-p06-a-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-68d4d9627c0e6ec8",
+      "lemma": "pressure",
+      "pos": "n.",
+      "sense_zh": "水压",
+      "sentence_ids": [
+        "p06-a-14-s04"
+      ],
+      "forms": [
+        "pressure"
+      ],
+      "sense_id": "sense-staged-ox-68d4d9627c0e6ec8-p06-a-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92c73764b6044893",
+      "lemma": "obvious",
+      "pos": "adj.",
+      "sense_zh": "明显的",
+      "sentence_ids": [
+        "p06-a-14-s05"
+      ],
+      "forms": [
+        "obvious"
+      ],
+      "sense_id": "sense-staged-ox-92c73764b6044893-p06-a-14",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

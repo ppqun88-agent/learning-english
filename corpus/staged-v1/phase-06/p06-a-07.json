@@ -1,0 +1,163 @@
+{
+  "id": "p06-a-07",
+  "title_zh": "探视时先找护士再安静陪伴",
+  "topic_id": "health",
+  "scenario": {
+    "id": "post-operation-visitor-help",
+    "label_zh": "商定术后探视中的帮助方式",
+    "goal_zh": "尊重病人的隐私与陪伴需要，约定请护士前来并在谈话后安静陪伴"
+  },
+  "participants": [
+    "Mira",
+    "Leon"
+  ],
+  "context_zh": "虚构的医院探视场景中，朋友米拉来看术后的莱昂；对话不提供诊断或治疗建议。",
+  "author": "author-phase06-a",
+  "sentences": [
+    {
+      "id": "p06-a-07-s01",
+      "speaker": "Mira",
+      "text": "How are you feeling after the operation?"
+    },
+    {
+      "id": "p06-a-07-s02",
+      "speaker": "Leon",
+      "text": "Tired. It's still painful when I move, and I'd rather not talk much."
+    },
+    {
+      "id": "p06-a-07-s03",
+      "speaker": "Mira",
+      "text": "You look pale. Shall I ask the nurse to come over?"
+    },
+    {
+      "id": "p06-a-07-s04",
+      "speaker": "Leon",
+      "text": "Yes, please. I want to tell her how I feel before she gets busy."
+    },
+    {
+      "id": "p06-a-07-s05",
+      "speaker": "Mira",
+      "text": "Would you like me to call your family as well?"
+    },
+    {
+      "id": "p06-a-07-s06",
+      "speaker": "Leon",
+      "text": "Not yet. I'd like this conversation with the nurse to be private."
+    },
+    {
+      "id": "p06-a-07-s07",
+      "speaker": "Mira",
+      "text": "Of course. I ought to ask what you need instead of making plans for you."
+    },
+    {
+      "id": "p06-a-07-s08",
+      "speaker": "Leon",
+      "text": "Could you remain here afterwards, just for a little while?"
+    },
+    {
+      "id": "p06-a-07-s09",
+      "speaker": "Mira",
+      "text": "Yes. I'll find the nurse now, step outside while you talk, and come back when you're ready."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1a94a2fcd444f49f",
+      "lemma": "operation",
+      "pos": "n.",
+      "sense_zh": "外科手术",
+      "sentence_ids": [
+        "p06-a-07-s01"
+      ],
+      "forms": [
+        "operation"
+      ],
+      "sense_id": "sense-staged-ox-1a94a2fcd444f49f-p06-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4506c647e6552551",
+      "lemma": "painful",
+      "pos": "adj.",
+      "sense_zh": "疼痛的",
+      "sentence_ids": [
+        "p06-a-07-s02"
+      ],
+      "forms": [
+        "painful"
+      ],
+      "sense_id": "sense-staged-ox-4506c647e6552551-p06-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0290bad9bef9290",
+      "lemma": "pale",
+      "pos": "adj.",
+      "sense_zh": "脸色苍白的",
+      "sentence_ids": [
+        "p06-a-07-s03"
+      ],
+      "forms": [
+        "pale"
+      ],
+      "sense_id": "sense-staged-ox-b0290bad9bef9290-p06-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a202685de83621f7",
+      "lemma": "private",
+      "pos": "adj.",
+      "sense_zh": "不让他人听到的；私下的",
+      "sentence_ids": [
+        "p06-a-07-s06"
+      ],
+      "forms": [
+        "private"
+      ],
+      "sense_id": "sense-staged-ox-a202685de83621f7-p06-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-96dbd0c307015b47",
+      "lemma": "ought",
+      "pos": "modal v.",
+      "sense_zh": "应该",
+      "sentence_ids": [
+        "p06-a-07-s07"
+      ],
+      "forms": [
+        "ought"
+      ],
+      "sense_id": "sense-staged-ox-96dbd0c307015b47-p06-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ae9c0cd928f9d8a",
+      "lemma": "remain",
+      "pos": "v.",
+      "sense_zh": "留下",
+      "sentence_ids": [
+        "p06-a-07-s08"
+      ],
+      "forms": [
+        "remain"
+      ],
+      "sense_id": "sense-staged-ox-5ae9c0cd928f9d8a-p06-a-07",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,95 @@
+{
+  "id": "p06-b-27",
+  "title_zh": "搬雕像前先评估展台",
+  "topic_id": "community",
+  "scenario": {
+    "id": "statue-display-moving-plan",
+    "label_zh": "安排雕像展台评估与搬运",
+    "goal_zh": "说明雕像重量与现有底座问题，约定先评估底座再由专业人员搬运"
+  },
+  "participants": [
+    "Leonie",
+    "Facilities Manager"
+  ],
+  "context_zh": "社区展馆即将接收一尊石雕，策展人莱奥妮和设施主管讨论旧展台的外观及承重问题，不自行移动重物。",
+  "author": "author-phase06-b",
+  "sentences": [
+    {
+      "id": "p06-b-27-s01",
+      "speaker": "Leonie",
+      "text": "The delivery sheet says the statue weighs half a ton. Can we put it on the old display stand?"
+    },
+    {
+      "id": "p06-b-27-s02",
+      "speaker": "Facilities Manager",
+      "text": "We don't know whether that stand can support it. We need a proper assessment before arranging the move."
+    },
+    {
+      "id": "p06-b-27-s03",
+      "speaker": "Leonie",
+      "text": "It's an ugly stand anyway, with that bright plastic cover. Could we use a different base?"
+    },
+    {
+      "id": "p06-b-27-s04",
+      "speaker": "Facilities Manager",
+      "text": "Possibly, but appearance isn't the main issue. I'll ask our facilities engineer to assess the options, then get the specialist movers involved."
+    },
+    {
+      "id": "p06-b-27-s05",
+      "speaker": "Leonie",
+      "text": "Please do. I'll tell the delivery team to hold it at their warehouse until we have an approved base and a moving plan."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c1a054bceee948ee",
+      "lemma": "statue",
+      "pos": "n.",
+      "sense_zh": "雕像",
+      "sentence_ids": [
+        "p06-b-27-s01"
+      ],
+      "forms": [
+        "statue"
+      ],
+      "sense_id": "sense-staged-ox-c1a054bceee948ee-p06-b-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-184011eb88c24bd0",
+      "lemma": "ton",
+      "pos": "n.",
+      "sense_zh": "吨（重量单位）",
+      "sentence_ids": [
+        "p06-b-27-s01"
+      ],
+      "forms": [
+        "ton"
+      ],
+      "sense_id": "sense-staged-ox-184011eb88c24bd0-p06-b-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9bceb5b8ea369d55",
+      "lemma": "ugly",
+      "pos": "adj.",
+      "sense_zh": "难看的",
+      "sentence_ids": [
+        "p06-b-27-s03"
+      ],
+      "forms": [
+        "ugly"
+      ],
+      "sense_id": "sense-staged-ox-9bceb5b8ea369d55-p06-b-27",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
