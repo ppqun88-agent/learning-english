@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/ppqun88-agent/wordlists",
+  "upstream": "https://github.com/imfiiish/wordlists",
+  "commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+  "files": {
+    "data/en/categories.json": "82809c2188e0ccbb13ae57ab115c0e7203e84f1b0b6d1368edacb5b8ca70108d",
+    "data/en/archive/Oxford.json": "33c97bb9ccd3d5c63998b917846678f0781829fb96e9cd1013c1d23b8e62d0f5",
+    "data/en/definitions.json": "8d110f0fb99c50f7624a8809a320f6df53b55c127d82c4a9bdc67ce9da99ca97",
+    "LICENSE": "0aab984a4ee9927dbab7d6d98d4e833c089a7d064da81988ae5aa925667ea7f3",
+    "sources/en/ECDICT/LICENSE": "f8552dd246f61a4e064569eae6194a01c6b3d63b03bf27c6ca863593c549ed0f"
+  },
+  "vendored": {
+    "data/reference/ecdict-definitions.json": "data/en/definitions.json"
+  },
+  "oxford_redistribution": "Not vendored. Pinned local import only; publisher rights are not replaced by repository MIT license."
+}

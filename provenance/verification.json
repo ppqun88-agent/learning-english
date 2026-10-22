@@ -1,0 +1,14 @@
+{
+  "verified_date_utc": "2026-10-22",
+  "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+  "definition_entries_excluding_meta": 7009,
+  "oxford_unique_lemmas": 5062,
+  "oxford_source_records": 6187,
+  "oxford_missing_phonetics_unique_lemmas": 64,
+  "unit_tests_passed": 9,
+  "cli_import": "passed",
+  "cli_form_validation_smoke": "passed; semantic_status remains NOT VERIFIED",
+  "semantic_reviews_completed": 0,
+  "full_dialogue_collection_generated": false,
+  "note": "Counts are source-resource audit results, not approved learning targets or learner mastery. Local generated Oxford files are excluded from Git."
+}
