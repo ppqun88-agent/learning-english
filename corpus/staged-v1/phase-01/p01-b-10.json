@@ -1,0 +1,169 @@
+{
+  "id": "p01-b-10",
+  "title_zh": "没有经验也能来跳舞",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-dance-enrolment",
+    "label_zh": "报名舞蹈社团体验课",
+    "goal_zh": "确认零基础参加者可以独自参加并约好首次到场时间"
+  },
+  "participants": [
+    "Sophie",
+    "Luis"
+  ],
+  "context_zh": "初学者向舞蹈社团的联系人询问，担心自己没有搭档也没有经验。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-10-s01",
+      "speaker": "Sophie",
+      "text": "Is your club open to complete beginners?"
+    },
+    {
+      "id": "p01-b-10-s02",
+      "speaker": "Luis",
+      "text": "Absolutely. Have you ever tried salsa?"
+    },
+    {
+      "id": "p01-b-10-s03",
+      "speaker": "Sophie",
+      "text": "No. I like watching dancing, but I have never learned to dance myself."
+    },
+    {
+      "id": "p01-b-10-s04",
+      "speaker": "Luis",
+      "text": "You do not need to be an experienced dancer. We start with a few steps, and you can join without a partner."
+    },
+    {
+      "id": "p01-b-10-s05",
+      "speaker": "Sophie",
+      "text": "That sounds exciting. I was worried everyone would already know what to do."
+    },
+    {
+      "id": "p01-b-10-s06",
+      "speaker": "Luis",
+      "text": "The first half hour is just for beginners. Come at seven and I will introduce you to the teacher."
+    },
+    {
+      "id": "p01-b-10-s07",
+      "speaker": "Sophie",
+      "text": "Thanks. I am actually excited now. See you on Thursday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4e58984c1469439e",
+      "lemma": "club",
+      "pos": "n.",
+      "sense_zh": "社团",
+      "sentence_ids": [
+        "p01-b-10-s01"
+      ],
+      "forms": [
+        "club"
+      ],
+      "sense_id": "sense-staged-ox-4e58984c1469439e-p01-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f13f7cba38bace59",
+      "lemma": "dance",
+      "pos": "v.",
+      "sense_zh": "跳舞",
+      "sentence_ids": [
+        "p01-b-10-s03"
+      ],
+      "forms": [
+        "dance"
+      ],
+      "sense_id": "sense-staged-ox-f13f7cba38bace59-p01-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6fd0a67d82a1f438",
+      "lemma": "dancer",
+      "pos": "n.",
+      "sense_zh": "跳舞的人",
+      "sentence_ids": [
+        "p01-b-10-s04"
+      ],
+      "forms": [
+        "dancer"
+      ],
+      "sense_id": "sense-staged-ox-6fd0a67d82a1f438-p01-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9d6b3b846faa9561",
+      "lemma": "dancing",
+      "pos": "n.",
+      "sense_zh": "舞蹈活动",
+      "sentence_ids": [
+        "p01-b-10-s03"
+      ],
+      "forms": [
+        "dancing"
+      ],
+      "sense_id": "sense-staged-ox-9d6b3b846faa9561-p01-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6a62779cd7ace333",
+      "lemma": "ever",
+      "pos": "adv.",
+      "sense_zh": "曾经",
+      "sentence_ids": [
+        "p01-b-10-s02"
+      ],
+      "forms": [
+        "ever"
+      ],
+      "sense_id": "sense-staged-ox-6a62779cd7ace333-p01-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a973653439e83494",
+      "lemma": "excited",
+      "pos": "adj.",
+      "sense_zh": "感到兴奋的",
+      "sentence_ids": [
+        "p01-b-10-s07"
+      ],
+      "forms": [
+        "excited"
+      ],
+      "sense_id": "sense-staged-ox-a973653439e83494-p01-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-264a4c595aa93bc5",
+      "lemma": "exciting",
+      "pos": "adj.",
+      "sense_zh": "令人兴奋的",
+      "sentence_ids": [
+        "p01-b-10-s05"
+      ],
+      "forms": [
+        "exciting"
+      ],
+      "sense_id": "sense-staged-ox-264a4c595aa93bc5-p01-b-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

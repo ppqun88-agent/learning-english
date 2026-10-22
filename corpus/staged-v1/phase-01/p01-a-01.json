@@ -1,0 +1,206 @@
+{
+  "id": "p01-a-01",
+  "title_zh": "约好机场接人地点",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "airport-pickup-location",
+    "label_zh": "协调机场接人",
+    "goal_zh": "确认机场接人地点、到达时间及联络方式。"
+  },
+  "participants": [
+    "Leah",
+    "Ravi"
+  ],
+  "context_zh": "拉维即将飞来探望莉娅，两人通电话确认接机地点，避免在航站楼外找不到对方。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-01-s01",
+      "speaker": "Leah",
+      "text": "What time will you arrive at the airport?"
+    },
+    {
+      "id": "p01-a-01-s02",
+      "speaker": "Ravi",
+      "text": "Just after three. Is there a bus to your street?"
+    },
+    {
+      "id": "p01-a-01-s03",
+      "speaker": "Leah",
+      "text": "There is, but I'll pick you up in my car."
+    },
+    {
+      "id": "p01-a-01-s04",
+      "speaker": "Ravi",
+      "text": "Thanks. Shall I wait by the main entrance?"
+    },
+    {
+      "id": "p01-a-01-s05",
+      "speaker": "Leah",
+      "text": "Use the short-stay parking area instead. I'll text you its address."
+    },
+    {
+      "id": "p01-a-01-s06",
+      "speaker": "Ravi",
+      "text": "Okay. I'll call when I've collected my suitcase."
+    },
+    {
+      "id": "p01-a-01-s07",
+      "speaker": "Leah",
+      "text": "Perfect. Have a good flight."
+    },
+    {
+      "id": "p01-a-01-s08",
+      "speaker": "Ravi",
+      "text": "Thanks, and bye for now!"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dc0ee7a78656201b",
+      "lemma": "address",
+      "pos": "n.",
+      "sense_zh": "地址",
+      "sentence_ids": [
+        "p01-a-01-s05"
+      ],
+      "forms": [
+        "address"
+      ],
+      "sense_id": "sense-staged-ox-dc0ee7a78656201b-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f4d7e0b7325cc573",
+      "lemma": "airport",
+      "pos": "n.",
+      "sense_zh": "机场",
+      "sentence_ids": [
+        "p01-a-01-s01"
+      ],
+      "forms": [
+        "airport"
+      ],
+      "sense_id": "sense-staged-ox-f4d7e0b7325cc573-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74874a21ee0fdda8",
+      "lemma": "arrive",
+      "pos": "v.",
+      "sense_zh": "到达",
+      "sentence_ids": [
+        "p01-a-01-s01"
+      ],
+      "forms": [
+        "arrive"
+      ],
+      "sense_id": "sense-staged-ox-74874a21ee0fdda8-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-90086516902276b1",
+      "lemma": "at",
+      "pos": "prep.",
+      "sense_zh": "在某地点",
+      "sentence_ids": [
+        "p01-a-01-s01"
+      ],
+      "forms": [
+        "at"
+      ],
+      "sense_id": "sense-staged-ox-90086516902276b1-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-817d48e722d02f83",
+      "lemma": "bus",
+      "pos": "n.",
+      "sense_zh": "公共汽车",
+      "sentence_ids": [
+        "p01-a-01-s02"
+      ],
+      "forms": [
+        "bus"
+      ],
+      "sense_id": "sense-staged-ox-817d48e722d02f83-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae3971c55a633dfa",
+      "lemma": "car",
+      "pos": "n.",
+      "sense_zh": "汽车",
+      "sentence_ids": [
+        "p01-a-01-s03"
+      ],
+      "forms": [
+        "car"
+      ],
+      "sense_id": "sense-staged-ox-ae3971c55a633dfa-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c0f6377068d55fb",
+      "lemma": "by",
+      "pos": "prep.",
+      "sense_zh": "在……旁边",
+      "sentence_ids": [
+        "p01-a-01-s04"
+      ],
+      "forms": [
+        "by"
+      ],
+      "sense_id": "sense-staged-ox-3c0f6377068d55fb-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-926b6d05b5611f3a",
+      "lemma": "call",
+      "pos": "v.",
+      "sense_zh": "打电话",
+      "sentence_ids": [
+        "p01-a-01-s06"
+      ],
+      "forms": [
+        "call"
+      ],
+      "sense_id": "sense-staged-ox-926b6d05b5611f3a-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-287b0a30b0d828d3",
+      "lemma": "bye",
+      "pos": "exclam.",
+      "sense_zh": "再见",
+      "sentence_ids": [
+        "p01-a-01-s08"
+      ],
+      "forms": [
+        "bye"
+      ],
+      "sense_id": "sense-staged-ox-287b0a30b0d828d3-p01-a-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

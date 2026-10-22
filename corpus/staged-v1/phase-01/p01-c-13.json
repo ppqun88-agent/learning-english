@@ -1,0 +1,223 @@
+{
+  "id": "p01-c-13",
+  "title_zh": "在门口认识新邻居",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "new-neighbour-introductions",
+    "label_zh": "介绍新邻居及同住者",
+    "goal_zh": "确认彼此身份并约定归还借用物品"
+  },
+  "participants": [
+    "Alex",
+    "Mei",
+    "Sofia"
+  ],
+  "context_zh": "新邻居搬家当天在楼道里认识对门住户。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-13-s01",
+      "speaker": "Alex",
+      "text": "Hello, I am Alex from the flat across the hall."
+    },
+    {
+      "id": "p01-c-13-s02",
+      "speaker": "Mei",
+      "text": "Hi, I am Mei; it is nice to meet you."
+    },
+    {
+      "id": "p01-c-13-s03",
+      "speaker": "Alex",
+      "text": "Let me introduce my girlfriend, Sofia; we have just moved in together."
+    },
+    {
+      "id": "p01-c-13-s04",
+      "speaker": "Sofia",
+      "text": "Everyone has been so friendly, especially the man who lent us a trolley."
+    },
+    {
+      "id": "p01-c-13-s05",
+      "speaker": "Mei",
+      "text": "That is my husband, Dan; he is downstairs parking the van."
+    },
+    {
+      "id": "p01-c-13-s06",
+      "speaker": "Sofia",
+      "text": "Please thank him for us; is the blue trolley his?"
+    },
+    {
+      "id": "p01-c-13-s07",
+      "speaker": "Mei",
+      "text": "Yes, just leave it outside our door when you are done."
+    },
+    {
+      "id": "p01-c-13-s08",
+      "speaker": "Alex",
+      "text": "We will bring it back this afternoon, and thanks for making us feel welcome."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-04385280742edc44",
+      "lemma": "hello",
+      "pos": "exclam.",
+      "sense_zh": "你好",
+      "sentence_ids": [
+        "p01-c-13-s01"
+      ],
+      "forms": [
+        "hello"
+      ],
+      "sense_id": "sense-staged-ox-04385280742edc44-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bb510b19c8598fc1",
+      "lemma": "hi",
+      "pos": "exclam.",
+      "sense_zh": "嗨；你好",
+      "sentence_ids": [
+        "p01-c-13-s02"
+      ],
+      "forms": [
+        "hi"
+      ],
+      "sense_id": "sense-staged-ox-bb510b19c8598fc1-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-227a0d0f0590dabe",
+      "lemma": "introduce",
+      "pos": "v.",
+      "sense_zh": "介绍",
+      "sentence_ids": [
+        "p01-c-13-s03"
+      ],
+      "forms": [
+        "introduce"
+      ],
+      "sense_id": "sense-staged-ox-227a0d0f0590dabe-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a2c1312f55d10f46",
+      "lemma": "girlfriend",
+      "pos": "n.",
+      "sense_zh": "女朋友",
+      "sentence_ids": [
+        "p01-c-13-s03"
+      ],
+      "forms": [
+        "girlfriend"
+      ],
+      "sense_id": "sense-staged-ox-a2c1312f55d10f46-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1f22093f19dfa289",
+      "lemma": "husband",
+      "pos": "n.",
+      "sense_zh": "丈夫",
+      "sentence_ids": [
+        "p01-c-13-s05"
+      ],
+      "forms": [
+        "husband"
+      ],
+      "sense_id": "sense-staged-ox-1f22093f19dfa289-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7574cb2d5f644b55",
+      "lemma": "friendly",
+      "pos": "adj.",
+      "sense_zh": "友好的",
+      "sentence_ids": [
+        "p01-c-13-s04"
+      ],
+      "forms": [
+        "friendly"
+      ],
+      "sense_id": "sense-staged-ox-7574cb2d5f644b55-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3f0968d5a398019a",
+      "lemma": "he",
+      "pos": "pron.",
+      "sense_zh": "他（主格）",
+      "sentence_ids": [
+        "p01-c-13-s05"
+      ],
+      "forms": [
+        "he"
+      ],
+      "sense_id": "sense-staged-ox-3f0968d5a398019a-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6e3bc783ff5fe04f",
+      "lemma": "him",
+      "pos": "pron.",
+      "sense_zh": "他（宾格）",
+      "sentence_ids": [
+        "p01-c-13-s06"
+      ],
+      "forms": [
+        "him"
+      ],
+      "sense_id": "sense-staged-ox-6e3bc783ff5fe04f-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-138552dc7c17db63",
+      "lemma": "his",
+      "pos": "pron.",
+      "sense_zh": "他的东西",
+      "sentence_ids": [
+        "p01-c-13-s06"
+      ],
+      "forms": [
+        "his"
+      ],
+      "sense_id": "sense-staged-ox-138552dc7c17db63-p01-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-99ea7e687d4b4b08",
+      "lemma": "I",
+      "pos": "pron.",
+      "sense_zh": "我（主格）",
+      "sentence_ids": [
+        "p01-c-13-s01"
+      ],
+      "forms": [
+        "I"
+      ],
+      "sense_id": "sense-staged-ox-99ea7e687d4b4b08-p01-c-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

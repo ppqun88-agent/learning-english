@@ -1,0 +1,190 @@
+{
+  "id": "p01-a-07",
+  "title_zh": "挑一项运动体验课",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "sports-taster-choice",
+    "label_zh": "选择社区运动课程",
+    "goal_zh": "选择适合初学者的社区运动体验课并确认用品。"
+  },
+  "participants": [
+    "Jon",
+    "Coordinator"
+  ],
+  "context_zh": "一位成年人在社区活动日询问初学者课程，工作人员帮助他比较两种球类活动。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-07-s01",
+      "speaker": "Jon",
+      "text": "I'm looking for an activity for an adult who has never played team sports."
+    },
+    {
+      "id": "p01-a-07-s02",
+      "speaker": "Coordinator",
+      "text": "We have beginner sessions for baseball and basketball."
+    },
+    {
+      "id": "p01-a-07-s03",
+      "speaker": "Jon",
+      "text": "Could I try both sessions?"
+    },
+    {
+      "id": "p01-a-07-s04",
+      "speaker": "Coordinator",
+      "text": "Yes. Baseball is in the morning, and basketball is in the afternoon."
+    },
+    {
+      "id": "p01-a-07-s05",
+      "speaker": "Jon",
+      "text": "Do I need to bring a ball?"
+    },
+    {
+      "id": "p01-a-07-s06",
+      "speaker": "Coordinator",
+      "text": "No, we provide the equipment. Just bring comfortable shoes and a bottle of water."
+    },
+    {
+      "id": "p01-a-07-s07",
+      "speaker": "Jon",
+      "text": "Great. I'll sign up for the morning first and see how I feel."
+    },
+    {
+      "id": "p01-a-07-s08",
+      "speaker": "Coordinator",
+      "text": "That works. Please arrive ten minutes early so we can introduce you to the coach."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fb22979ca7c33b68",
+      "lemma": "activity",
+      "pos": "n.",
+      "sense_zh": "活动",
+      "sentence_ids": [
+        "p01-a-07-s01"
+      ],
+      "forms": [
+        "activity"
+      ],
+      "sense_id": "sense-staged-ox-fb22979ca7c33b68-p01-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1f536421b7cd8d0b",
+      "lemma": "adult",
+      "pos": "n.",
+      "sense_zh": "成年人",
+      "sentence_ids": [
+        "p01-a-07-s01"
+      ],
+      "forms": [
+        "adult"
+      ],
+      "sense_id": "sense-staged-ox-1f536421b7cd8d0b-p01-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed896f08ad3a1514",
+      "lemma": "baseball",
+      "pos": "n.",
+      "sense_zh": "棒球运动",
+      "sentence_ids": [
+        "p01-a-07-s02"
+      ],
+      "forms": [
+        "baseball"
+      ],
+      "sense_id": "sense-staged-ox-ed896f08ad3a1514-p01-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f520bb2ce6a863c8",
+      "lemma": "basketball",
+      "pos": "n.",
+      "sense_zh": "篮球运动",
+      "sentence_ids": [
+        "p01-a-07-s02"
+      ],
+      "forms": [
+        "basketball"
+      ],
+      "sense_id": "sense-staged-ox-f520bb2ce6a863c8-p01-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-68793ba330cfdd6f",
+      "lemma": "ball",
+      "pos": "n.",
+      "sense_zh": "球",
+      "sentence_ids": [
+        "p01-a-07-s05"
+      ],
+      "forms": [
+        "ball"
+      ],
+      "sense_id": "sense-staged-ox-68793ba330cfdd6f-p01-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f38563f8aef4241",
+      "lemma": "both",
+      "pos": "det.",
+      "sense_zh": "两个都",
+      "sentence_ids": [
+        "p01-a-07-s03"
+      ],
+      "forms": [
+        "both"
+      ],
+      "sense_id": "sense-staged-ox-0f38563f8aef4241-p01-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9e32f5c3c19b9cfe",
+      "lemma": "afternoon",
+      "pos": "n.",
+      "sense_zh": "下午",
+      "sentence_ids": [
+        "p01-a-07-s04"
+      ],
+      "forms": [
+        "afternoon"
+      ],
+      "sense_id": "sense-staged-ox-9e32f5c3c19b9cfe-p01-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-147c1466cd20acea",
+      "lemma": "bottle",
+      "pos": "n.",
+      "sense_zh": "瓶子",
+      "sentence_ids": [
+        "p01-a-07-s06"
+      ],
+      "forms": [
+        "bottle"
+      ],
+      "sense_id": "sense-staged-ox-147c1466cd20acea-p01-a-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

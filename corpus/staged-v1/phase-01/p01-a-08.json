@@ -1,0 +1,200 @@
+{
+  "id": "p01-a-08",
+  "title_zh": "为受伤的小鸟求助",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "injured-bird-help",
+    "label_zh": "联系动物救助人员",
+    "goal_zh": "路人发现受伤小鸟，安全求助并与救助者协调。"
+  },
+  "participants": [
+    "Lena",
+    "Mo"
+  ],
+  "context_zh": "两名路人在路边发现似乎受伤的小鸟；其中一人联系救助人员，另一人让行人保持距离。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-08-s01",
+      "speaker": "Lena",
+      "text": "There's a bird beside the path. It keeps trying to fly, but it can't."
+    },
+    {
+      "id": "p01-a-08-s02",
+      "speaker": "Mo",
+      "text": "I'll phone the animal rescue centre. Is anyone already helping it?"
+    },
+    {
+      "id": "p01-a-08-s03",
+      "speaker": "Lena",
+      "text": "No. It looks afraid, so I'm keeping my distance."
+    },
+    {
+      "id": "p01-a-08-s04",
+      "speaker": "Mo",
+      "text": "Good. Could you ask people to stay away while I call?"
+    },
+    {
+      "id": "p01-a-08-s05",
+      "speaker": "Lena",
+      "text": "Yes. Should I put it in a box?"
+    },
+    {
+      "id": "p01-a-08-s06",
+      "speaker": "Mo",
+      "text": "Let's ask first. I don't want us to hurt it."
+    },
+    {
+      "id": "p01-a-08-s07",
+      "speaker": "Lena",
+      "text": "All right. What did they say?"
+    },
+    {
+      "id": "p01-a-08-s08",
+      "speaker": "Mo",
+      "text": "A rescuer is coming. She's got a small carrier under her arm, so we'll recognize her."
+    },
+    {
+      "id": "p01-a-08-s09",
+      "speaker": "Lena",
+      "text": "Do we need to carry the bird to the entrance?"
+    },
+    {
+      "id": "p01-a-08-s10",
+      "speaker": "Mo",
+      "text": "No, she said to leave it where it is. I'll meet her and bring her here."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-aa360cce377ce5d1",
+      "lemma": "animal",
+      "pos": "n.",
+      "sense_zh": "动物",
+      "sentence_ids": [
+        "p01-a-08-s02"
+      ],
+      "forms": [
+        "animal"
+      ],
+      "sense_id": "sense-staged-ox-aa360cce377ce5d1-p01-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d1c1fca639262be",
+      "lemma": "bird",
+      "pos": "n.",
+      "sense_zh": "鸟",
+      "sentence_ids": [
+        "p01-a-08-s01"
+      ],
+      "forms": [
+        "bird"
+      ],
+      "sense_id": "sense-staged-ox-5d1c1fca639262be-p01-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cd773813b6d93c33",
+      "lemma": "afraid",
+      "pos": "adj.",
+      "sense_zh": "害怕的",
+      "sentence_ids": [
+        "p01-a-08-s03"
+      ],
+      "forms": [
+        "afraid"
+      ],
+      "sense_id": "sense-staged-ox-cd773813b6d93c33-p01-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21f52dcb36070899",
+      "lemma": "arm",
+      "pos": "n.",
+      "sense_zh": "手臂",
+      "sentence_ids": [
+        "p01-a-08-s08"
+      ],
+      "forms": [
+        "arm"
+      ],
+      "sense_id": "sense-staged-ox-21f52dcb36070899-p01-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c597b7e4e4b9fd1e",
+      "lemma": "away",
+      "pos": "adv.",
+      "sense_zh": "保持距离，离开近处",
+      "sentence_ids": [
+        "p01-a-08-s04"
+      ],
+      "forms": [
+        "away"
+      ],
+      "sense_id": "sense-staged-ox-c597b7e4e4b9fd1e-p01-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-39e9c00341ed8e05",
+      "lemma": "carry",
+      "pos": "v.",
+      "sense_zh": "搬运或携带",
+      "sentence_ids": [
+        "p01-a-08-s09"
+      ],
+      "forms": [
+        "carry"
+      ],
+      "sense_id": "sense-staged-ox-39e9c00341ed8e05-p01-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c440937f8722f092",
+      "lemma": "anyone",
+      "pos": "pron.",
+      "sense_zh": "任何人，用于询问是否有人",
+      "sentence_ids": [
+        "p01-a-08-s02"
+      ],
+      "forms": [
+        "anyone"
+      ],
+      "sense_id": "sense-staged-ox-c440937f8722f092-p01-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f4a1a68000a43ee",
+      "lemma": "box",
+      "pos": "n.",
+      "sense_zh": "盒子或箱子",
+      "sentence_ids": [
+        "p01-a-08-s05"
+      ],
+      "forms": [
+        "box"
+      ],
+      "sense_id": "sense-staged-ox-2f4a1a68000a43ee-p01-a-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

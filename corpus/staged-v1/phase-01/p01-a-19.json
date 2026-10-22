@@ -1,0 +1,174 @@
+{
+  "id": "p01-a-19",
+  "title_zh": "挑一个都能出门的周末",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "autumn-day-trip-date",
+    "label_zh": "协调秋季一日游日期",
+    "goal_zh": "在工作安排限制下确定秋季一日游的日期。"
+  },
+  "participants": [
+    "Hugo",
+    "Mei"
+  ],
+  "context_zh": "两位朋友计划秋天去山里走走，其中一人周末常要工作，因此先约定一个有空的星期日。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-19-s01",
+      "speaker": "Hugo",
+      "text": "What about a day in the hills this autumn?"
+    },
+    {
+      "id": "p01-a-19-s02",
+      "speaker": "Mei",
+      "text": "I'd love that, but September is very busy at work."
+    },
+    {
+      "id": "p01-a-19-s03",
+      "speaker": "Hugo",
+      "text": "Would October be better?"
+    },
+    {
+      "id": "p01-a-19-s04",
+      "speaker": "Mei",
+      "text": "Yes. Any time after the tenth should work."
+    },
+    {
+      "id": "p01-a-19-s05",
+      "speaker": "Hugo",
+      "text": "Saturday the seventeenth?"
+    },
+    {
+      "id": "p01-a-19-s06",
+      "speaker": "Mei",
+      "text": "I cannot do Saturdays. Sunday is the best day for me."
+    },
+    {
+      "id": "p01-a-19-s07",
+      "speaker": "Hugo",
+      "text": "Then let's keep the eighteenth free and check the weather nearer the time."
+    },
+    {
+      "id": "p01-a-19-s08",
+      "speaker": "Mei",
+      "text": "Perfect. I'll put it in my calendar."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-42784db9ecd3adae",
+      "lemma": "about",
+      "pos": "prep.",
+      "sense_zh": "关于；what about 用于提出建议",
+      "sentence_ids": [
+        "p01-a-19-s01"
+      ],
+      "forms": [
+        "about"
+      ],
+      "sense_id": "sense-staged-ox-42784db9ecd3adae-p01-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77686f79b466b07a",
+      "lemma": "after",
+      "pos": "prep.",
+      "sense_zh": "在某时间之后",
+      "sentence_ids": [
+        "p01-a-19-s04"
+      ],
+      "forms": [
+        "after"
+      ],
+      "sense_id": "sense-staged-ox-77686f79b466b07a-p01-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e90f92df67dc3715",
+      "lemma": "autumn",
+      "pos": "n.",
+      "sense_zh": "秋天",
+      "sentence_ids": [
+        "p01-a-19-s01"
+      ],
+      "forms": [
+        "autumn"
+      ],
+      "sense_id": "sense-staged-ox-e90f92df67dc3715-p01-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d1ef8eff8bfe4a51",
+      "lemma": "best",
+      "pos": "adj.",
+      "sense_zh": "最好的，最合适的",
+      "sentence_ids": [
+        "p01-a-19-s06"
+      ],
+      "forms": [
+        "best"
+      ],
+      "sense_id": "sense-staged-ox-d1ef8eff8bfe4a51-p01-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fa2585db55d8ec61",
+      "lemma": "busy",
+      "pos": "adj.",
+      "sense_zh": "忙碌的",
+      "sentence_ids": [
+        "p01-a-19-s02"
+      ],
+      "forms": [
+        "busy"
+      ],
+      "sense_id": "sense-staged-ox-fa2585db55d8ec61-p01-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8c4380a32596da59",
+      "lemma": "but",
+      "pos": "conj.",
+      "sense_zh": "但是",
+      "sentence_ids": [
+        "p01-a-19-s02"
+      ],
+      "forms": [
+        "but"
+      ],
+      "sense_id": "sense-staged-ox-8c4380a32596da59-p01-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-69e0b3efac1d2aae",
+      "lemma": "cannot",
+      "pos": "v.",
+      "sense_zh": "不能，can 的完整否定形式",
+      "sentence_ids": [
+        "p01-a-19-s06"
+      ],
+      "forms": [
+        "cannot"
+      ],
+      "sense_id": "sense-staged-ox-69e0b3efac1d2aae-p01-a-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

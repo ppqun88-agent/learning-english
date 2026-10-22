@@ -1,0 +1,111 @@
+{
+  "id": "p01-c-17",
+  "title_zh": "先借吉他试试看",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-guitar-loan",
+    "label_zh": "咨询初学吉他借用",
+    "goal_zh": "先通过借用体验再决定是否购买"
+  },
+  "participants": [
+    "Pavel",
+    "Tutor Rose"
+  ],
+  "context_zh": "初学者在音乐教室询问入门前是否必须买琴。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-17-s01",
+      "speaker": "Pavel",
+      "text": "I would like to try the guitar as a hobby, but I do not own one."
+    },
+    {
+      "id": "p01-c-17-s02",
+      "speaker": "Tutor Rose",
+      "text": "You can borrow one here before you decide whether to buy."
+    },
+    {
+      "id": "p01-c-17-s03",
+      "speaker": "Pavel",
+      "text": "Where can I get a smaller one to try?"
+    },
+    {
+      "id": "p01-c-17-s04",
+      "speaker": "Tutor Rose",
+      "text": "I can give you this one for the lesson; sit down and see whether it feels comfortable."
+    },
+    {
+      "id": "p01-c-17-s05",
+      "speaker": "Pavel",
+      "text": "Thanks, that takes the pressure off buying something I have never played."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c37a39705ebf9e9f",
+      "lemma": "guitar",
+      "pos": "n.",
+      "sense_zh": "吉他",
+      "sentence_ids": [
+        "p01-c-17-s01"
+      ],
+      "forms": [
+        "guitar"
+      ],
+      "sense_id": "sense-staged-ox-c37a39705ebf9e9f-p01-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bde35fbafe8d6f20",
+      "lemma": "hobby",
+      "pos": "n.",
+      "sense_zh": "业余爱好",
+      "sentence_ids": [
+        "p01-c-17-s01"
+      ],
+      "forms": [
+        "hobby"
+      ],
+      "sense_id": "sense-staged-ox-bde35fbafe8d6f20-p01-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5e3a7ede07c75e7a",
+      "lemma": "get",
+      "pos": "v.",
+      "sense_zh": "获得；取得",
+      "sentence_ids": [
+        "p01-c-17-s03"
+      ],
+      "forms": [
+        "get"
+      ],
+      "sense_id": "sense-staged-ox-5e3a7ede07c75e7a-p01-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a475d343d79bb285",
+      "lemma": "give",
+      "pos": "v.",
+      "sense_zh": "给；交给",
+      "sentence_ids": [
+        "p01-c-17-s04"
+      ],
+      "forms": [
+        "give"
+      ],
+      "sense_id": "sense-staged-ox-a475d343d79bb285-p01-c-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

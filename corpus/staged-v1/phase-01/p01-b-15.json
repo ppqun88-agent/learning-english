@@ -1,0 +1,132 @@
+{
+  "id": "p01-b-15",
+  "title_zh": "预约查看皮肤干斑",
+  "topic_id": "health",
+  "scenario": {
+    "id": "routine-clinic-booking",
+    "label_zh": "描述问题并预约就诊",
+    "goal_zh": "准确说明不适位置并确认预约时间"
+  },
+  "participants": [
+    "Mei",
+    "Dylan"
+  ],
+  "context_zh": "来电者想让医生查看脸上一块持续数周的干燥皮肤；接待员只登记和安排时间。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-15-s01",
+      "speaker": "Mei",
+      "text": "I would like to see a doctor about a dry patch on my face."
+    },
+    {
+      "id": "p01-b-15-s02",
+      "speaker": "Dylan",
+      "text": "Where exactly is the patch? I will put that in the booking notes."
+    },
+    {
+      "id": "p01-b-15-s03",
+      "speaker": "Mei",
+      "text": "Beside my left ear, not near my eye. I feel fine otherwise, but it has been there for a few weeks."
+    },
+    {
+      "id": "p01-b-15-s04",
+      "speaker": "Dylan",
+      "text": "Thank you. There is an appointment tomorrow at ten. Would that suit you?"
+    },
+    {
+      "id": "p01-b-15-s05",
+      "speaker": "Mei",
+      "text": "Yes, I can be there then."
+    },
+    {
+      "id": "p01-b-15-s06",
+      "speaker": "Dylan",
+      "text": "You are booked in. Please arrive a few minutes before ten."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dd30463057eb77b7",
+      "lemma": "ear",
+      "pos": "n.",
+      "sense_zh": "耳朵",
+      "sentence_ids": [
+        "p01-b-15-s03"
+      ],
+      "forms": [
+        "ear"
+      ],
+      "sense_id": "sense-staged-ox-dd30463057eb77b7-p01-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54215f6cde1afa45",
+      "lemma": "doctor",
+      "pos": "n.",
+      "sense_zh": "医生",
+      "sentence_ids": [
+        "p01-b-15-s01"
+      ],
+      "forms": [
+        "doctor"
+      ],
+      "sense_id": "sense-staged-ox-54215f6cde1afa45-p01-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-293efc93df525dc8",
+      "lemma": "eye",
+      "pos": "n.",
+      "sense_zh": "眼睛",
+      "sentence_ids": [
+        "p01-b-15-s03"
+      ],
+      "forms": [
+        "eye"
+      ],
+      "sense_id": "sense-staged-ox-293efc93df525dc8-p01-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb14ac3642ccc00e",
+      "lemma": "face",
+      "pos": "n.",
+      "sense_zh": "脸",
+      "sentence_ids": [
+        "p01-b-15-s01"
+      ],
+      "forms": [
+        "face"
+      ],
+      "sense_id": "sense-staged-ox-cb14ac3642ccc00e-p01-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7fc35757c1fb134f",
+      "lemma": "feel",
+      "pos": "v.",
+      "sense_zh": "感觉",
+      "sentence_ids": [
+        "p01-b-15-s03"
+      ],
+      "forms": [
+        "feel"
+      ],
+      "sense_id": "sense-staged-ox-7fc35757c1fb134f-p01-b-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

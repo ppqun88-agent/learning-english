@@ -1,0 +1,158 @@
+{
+  "id": "p01-a-16",
+  "title_zh": "修好异响的自行车",
+  "topic_id": "services",
+  "scenario": {
+    "id": "bicycle-repair-estimate",
+    "label_zh": "询问自行车维修安排",
+    "goal_zh": "检查车况、讨论维修必要性并确认取车时间。"
+  },
+  "participants": [
+    "Owner",
+    "Mechanic"
+  ],
+  "context_zh": "车主担心前轮异响意味着昂贵维修，技师检查后说明处理办法，并与车主约好取车时间。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-16-s01",
+      "speaker": "Owner",
+      "text": "Can you look at my bicycle? The front wheel makes a strange noise."
+    },
+    {
+      "id": "p01-a-16-s02",
+      "speaker": "Mechanic",
+      "text": "Sure. Bring the bike over here."
+    },
+    {
+      "id": "p01-a-16-s03",
+      "speaker": "Owner",
+      "text": "Is it bad?"
+    },
+    {
+      "id": "p01-a-16-s04",
+      "speaker": "Mechanic",
+      "text": "The wheel is loose. An adjustment is a better option than a new wheel."
+    },
+    {
+      "id": "p01-a-16-s05",
+      "speaker": "Owner",
+      "text": "How long will it take?"
+    },
+    {
+      "id": "p01-a-16-s06",
+      "speaker": "Mechanic",
+      "text": "About half an hour, but I'm about to take my lunch break."
+    },
+    {
+      "id": "p01-a-16-s07",
+      "speaker": "Owner",
+      "text": "That's fine. Can I come back at two?"
+    },
+    {
+      "id": "p01-a-16-s08",
+      "speaker": "Mechanic",
+      "text": "Yes. I'll check the brakes as well and have it ready then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9e23409dd1d8bf99",
+      "lemma": "bicycle",
+      "pos": "n.",
+      "sense_zh": "自行车",
+      "sentence_ids": [
+        "p01-a-16-s01"
+      ],
+      "forms": [
+        "bicycle"
+      ],
+      "sense_id": "sense-staged-ox-9e23409dd1d8bf99-p01-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f18c559ed83f62f7",
+      "lemma": "bike",
+      "pos": "n.",
+      "sense_zh": "自行车，较口语的说法",
+      "sentence_ids": [
+        "p01-a-16-s02"
+      ],
+      "forms": [
+        "bike"
+      ],
+      "sense_id": "sense-staged-ox-f18c559ed83f62f7-p01-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4350ca843d6c538",
+      "lemma": "bad",
+      "pos": "adj.",
+      "sense_zh": "严重的，糟糕的",
+      "sentence_ids": [
+        "p01-a-16-s03"
+      ],
+      "forms": [
+        "bad"
+      ],
+      "sense_id": "sense-staged-ox-b4350ca843d6c538-p01-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ac9c69dd097f03e",
+      "lemma": "better",
+      "pos": "adj.",
+      "sense_zh": "更好的",
+      "sentence_ids": [
+        "p01-a-16-s04"
+      ],
+      "forms": [
+        "better"
+      ],
+      "sense_id": "sense-staged-ox-0ac9c69dd097f03e-p01-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed3ecb3f02b267aa",
+      "lemma": "back",
+      "pos": "adv.",
+      "sense_zh": "回到原处",
+      "sentence_ids": [
+        "p01-a-16-s07"
+      ],
+      "forms": [
+        "back"
+      ],
+      "sense_id": "sense-staged-ox-ed3ecb3f02b267aa-p01-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d09214a739acbd1",
+      "lemma": "break",
+      "pos": "n.",
+      "sense_zh": "短暂休息",
+      "sentence_ids": [
+        "p01-a-16-s06"
+      ],
+      "forms": [
+        "break"
+      ],
+      "sense_id": "sense-staged-ox-1d09214a739acbd1-p01-a-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

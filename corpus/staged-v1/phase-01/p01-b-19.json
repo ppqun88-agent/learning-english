@@ -1,0 +1,158 @@
+{
+  "id": "p01-b-19",
+  "title_zh": "用四十分钟看一个展厅",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "short-museum-visit",
+    "label_zh": "选择短时间博物馆参观路线",
+    "goal_zh": "根据时间和孩子的学习兴趣选定一个展厅"
+  },
+  "participants": [
+    "Beth",
+    "Ravi"
+  ],
+  "context_zh": "一位家长带孩子到博物馆，只能停留四十分钟，向服务台工作人员询问。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-19-s01",
+      "speaker": "Beth",
+      "text": "Does the guided tour start soon? We have about forty minutes before our train."
+    },
+    {
+      "id": "p01-b-19-s02",
+      "speaker": "Ravi",
+      "text": "It starts in ten minutes, but it takes two hours."
+    },
+    {
+      "id": "p01-b-19-s03",
+      "speaker": "Beth",
+      "text": "Oh dear, that is too long for us. My son is learning about Indian culture at school. Is there a gallery we could visit on our own?"
+    },
+    {
+      "id": "p01-b-19-s04",
+      "speaker": "Ravi",
+      "text": "Yes, the India gallery is upstairs. The museum is famous for its textiles, and there are some beautiful carvings there too."
+    },
+    {
+      "id": "p01-b-19-s05",
+      "speaker": "Beth",
+      "text": "He loves animals. Is there anything he might particularly like?"
+    },
+    {
+      "id": "p01-b-19-s06",
+      "speaker": "Ravi",
+      "text": "The wooden elephant is my favourite piece. It is just inside the gallery, so you will not miss it."
+    },
+    {
+      "id": "p01-b-19-s07",
+      "speaker": "Beth",
+      "text": "That sounds fantastic. We will go straight there."
+    },
+    {
+      "id": "p01-b-19-s08",
+      "speaker": "Ravi",
+      "text": "Here is a map. The stairs are on your left."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-37bb10088dea531a",
+      "lemma": "dear",
+      "pos": "exclam.",
+      "sense_zh": "哎呀，表示失望或担忧",
+      "sentence_ids": [
+        "p01-b-19-s03"
+      ],
+      "forms": [
+        "dear"
+      ],
+      "sense_id": "sense-staged-ox-37bb10088dea531a-p01-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4e3b2f1083b4397c",
+      "lemma": "favourite",
+      "pos": "adj.",
+      "sense_zh": "最喜爱的",
+      "sentence_ids": [
+        "p01-b-19-s06"
+      ],
+      "forms": [
+        "favourite"
+      ],
+      "sense_id": "sense-staged-ox-4e3b2f1083b4397c-p01-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b4140958426e07b",
+      "lemma": "culture",
+      "pos": "n.",
+      "sense_zh": "文化",
+      "sentence_ids": [
+        "p01-b-19-s03"
+      ],
+      "forms": [
+        "culture"
+      ],
+      "sense_id": "sense-staged-ox-4b4140958426e07b-p01-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-abe4d280ad042394",
+      "lemma": "famous",
+      "pos": "adj.",
+      "sense_zh": "著名的",
+      "sentence_ids": [
+        "p01-b-19-s04"
+      ],
+      "forms": [
+        "famous"
+      ],
+      "sense_id": "sense-staged-ox-abe4d280ad042394-p01-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-14366d6cc5c73104",
+      "lemma": "fantastic",
+      "pos": "adj.",
+      "sense_zh": "极好的",
+      "sentence_ids": [
+        "p01-b-19-s07"
+      ],
+      "forms": [
+        "fantastic"
+      ],
+      "sense_id": "sense-staged-ox-14366d6cc5c73104-p01-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63b1baa64e4df5f4",
+      "lemma": "elephant",
+      "pos": "n.",
+      "sense_zh": "大象",
+      "sentence_ids": [
+        "p01-b-19-s06"
+      ],
+      "forms": [
+        "elephant"
+      ],
+      "sense_id": "sense-staged-ox-63b1baa64e4df5f4-p01-b-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,148 @@
+{
+  "id": "p01-c-15",
+  "title_zh": "摔倒后请人帮忙",
+  "topic_id": "health",
+  "scenario": {
+    "id": "walking-fall-assistance",
+    "label_zh": "摔倒后寻求帮助",
+    "goal_zh": "说明不适并请同伴联系现场急救员"
+  },
+  "participants": [
+    "Grace",
+    "Imran"
+  ],
+  "context_zh": "步行活动中一名参加者绊倒，同伴过来查看。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-15-s01",
+      "speaker": "Grace",
+      "text": "You fell quite hard; did you hit your head?"
+    },
+    {
+      "id": "p01-c-15-s02",
+      "speaker": "Imran",
+      "text": "No, I caught myself with my hand, but there is a strange feeling in my left foot."
+    },
+    {
+      "id": "p01-c-15-s03",
+      "speaker": "Grace",
+      "text": "Do you want help getting up?"
+    },
+    {
+      "id": "p01-c-15-s04",
+      "speaker": "Imran",
+      "text": "Not yet; I am fine sitting here, but I would like the first-aid volunteer to check it."
+    },
+    {
+      "id": "p01-c-15-s05",
+      "speaker": "Grace",
+      "text": "Stay where you are; I will ask someone to bring the volunteer over."
+    },
+    {
+      "id": "p01-c-15-s06",
+      "speaker": "Imran",
+      "text": "Thanks, and could you keep my bag out of the path?"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a54f2aaf472efcdd",
+      "lemma": "feeling",
+      "pos": "n.",
+      "sense_zh": "身体感觉",
+      "sentence_ids": [
+        "p01-c-15-s02"
+      ],
+      "forms": [
+        "feeling"
+      ],
+      "sense_id": "sense-staged-ox-a54f2aaf472efcdd-p01-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb9ac7e60e0c558a",
+      "lemma": "fine",
+      "pos": "adj.",
+      "sense_zh": "还好的；可以的",
+      "sentence_ids": [
+        "p01-c-15-s04"
+      ],
+      "forms": [
+        "fine"
+      ],
+      "sense_id": "sense-staged-ox-eb9ac7e60e0c558a-p01-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4cdf833cf74a2885",
+      "lemma": "help",
+      "pos": "n.",
+      "sense_zh": "帮助",
+      "sentence_ids": [
+        "p01-c-15-s03"
+      ],
+      "forms": [
+        "help"
+      ],
+      "sense_id": "sense-staged-ox-4cdf833cf74a2885-p01-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-79b9e0656a44bae3",
+      "lemma": "head",
+      "pos": "n.",
+      "sense_zh": "头部",
+      "sentence_ids": [
+        "p01-c-15-s01"
+      ],
+      "forms": [
+        "head"
+      ],
+      "sense_id": "sense-staged-ox-79b9e0656a44bae3-p01-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17c3539c7104ed36",
+      "lemma": "foot",
+      "pos": "n.",
+      "sense_zh": "脚",
+      "sentence_ids": [
+        "p01-c-15-s02"
+      ],
+      "forms": [
+        "foot"
+      ],
+      "sense_id": "sense-staged-ox-17c3539c7104ed36-p01-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2137e2d2981f28d6",
+      "lemma": "hand",
+      "pos": "n.",
+      "sense_zh": "手",
+      "sentence_ids": [
+        "p01-c-15-s02"
+      ],
+      "forms": [
+        "hand"
+      ],
+      "sense_id": "sense-staged-ox-2137e2d2981f28d6-p01-c-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,228 @@
+{
+  "id": "p01-c-04",
+  "title_zh": "找回孩子落下的外套",
+  "topic_id": "services",
+  "scenario": {
+    "id": "child-lost-clothing",
+    "label_zh": "认领遗失外套",
+    "goal_zh": "凭衣物与同行人的描述找回失物"
+  },
+  "participants": [
+    "Tessa",
+    "Marco",
+    "Lucy"
+  ],
+  "context_zh": "家长带孩子回到商场服务台寻找外套。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-04-s01",
+      "speaker": "Tessa",
+      "text": "Hi, can you help me find a jacket my daughter left near the cafe?"
+    },
+    {
+      "id": "p01-c-04-s02",
+      "speaker": "Marco",
+      "text": "Of course; what color is it?"
+    },
+    {
+      "id": "p01-c-04-s03",
+      "speaker": "Tessa",
+      "text": "It is gray, and there should be a red hat in one pocket."
+    },
+    {
+      "id": "p01-c-04-s04",
+      "speaker": "Marco",
+      "text": "Was your daughter the girl with short hair and blue jeans?"
+    },
+    {
+      "id": "p01-c-04-s05",
+      "speaker": "Tessa",
+      "text": "Yes, her name is Lucy; she asked you about it earlier."
+    },
+    {
+      "id": "p01-c-04-s06",
+      "speaker": "Marco",
+      "text": "I remember; someone brought the jacket to the desk a moment ago."
+    },
+    {
+      "id": "p01-c-04-s07",
+      "speaker": "Lucy",
+      "text": "Hey, that is mine, with the little star on the sleeve!"
+    },
+    {
+      "id": "p01-c-04-s08",
+      "speaker": "Marco",
+      "text": "Here you are; please check the pocket before you go."
+    },
+    {
+      "id": "p01-c-04-s09",
+      "speaker": "Tessa",
+      "text": "The hat is here too, thank you so much."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8f667962ff088b56",
+      "lemma": "find",
+      "pos": "v.",
+      "sense_zh": "找到",
+      "sentence_ids": [
+        "p01-c-04-s01"
+      ],
+      "forms": [
+        "find"
+      ],
+      "sense_id": "sense-staged-ox-8f667962ff088b56-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-34f26acfa42edaf8",
+      "lemma": "gray",
+      "pos": "adj.",
+      "sense_zh": "灰色的（美式拼写）",
+      "sentence_ids": [
+        "p01-c-04-s03"
+      ],
+      "forms": [
+        "gray"
+      ],
+      "sense_id": "sense-staged-ox-34f26acfa42edaf8-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce2dc431c32aeed5",
+      "lemma": "hat",
+      "pos": "n.",
+      "sense_zh": "帽子",
+      "sentence_ids": [
+        "p01-c-04-s03"
+      ],
+      "forms": [
+        "hat"
+      ],
+      "sense_id": "sense-staged-ox-ce2dc431c32aeed5-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-484b81e2b3de1b44",
+      "lemma": "jacket",
+      "pos": "n.",
+      "sense_zh": "夹克；外套",
+      "sentence_ids": [
+        "p01-c-04-s01"
+      ],
+      "forms": [
+        "jacket"
+      ],
+      "sense_id": "sense-staged-ox-484b81e2b3de1b44-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-443d1eff8a700593",
+      "lemma": "jeans",
+      "pos": "n.",
+      "sense_zh": "牛仔裤",
+      "sentence_ids": [
+        "p01-c-04-s04"
+      ],
+      "forms": [
+        "jeans"
+      ],
+      "sense_id": "sense-staged-ox-443d1eff8a700593-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2165930e7aa6a9da",
+      "lemma": "hair",
+      "pos": "n.",
+      "sense_zh": "头发",
+      "sentence_ids": [
+        "p01-c-04-s04"
+      ],
+      "forms": [
+        "hair"
+      ],
+      "sense_id": "sense-staged-ox-2165930e7aa6a9da-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6925e29480662924",
+      "lemma": "girl",
+      "pos": "n.",
+      "sense_zh": "女孩",
+      "sentence_ids": [
+        "p01-c-04-s04"
+      ],
+      "forms": [
+        "girl"
+      ],
+      "sense_id": "sense-staged-ox-6925e29480662924-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7abd08f3723d046a",
+      "lemma": "her",
+      "pos": "det.",
+      "sense_zh": "她的",
+      "sentence_ids": [
+        "p01-c-04-s05"
+      ],
+      "forms": [
+        "her"
+      ],
+      "sense_id": "sense-staged-ox-7abd08f3723d046a-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d6ec1ba57d3e13b",
+      "lemma": "here",
+      "pos": "adv.",
+      "sense_zh": "在这里",
+      "sentence_ids": [
+        "p01-c-04-s09"
+      ],
+      "forms": [
+        "here"
+      ],
+      "sense_id": "sense-staged-ox-5d6ec1ba57d3e13b-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c937b4ef7ac3d6f",
+      "lemma": "hey",
+      "pos": "exclam.",
+      "sense_zh": "嘿（引起注意或表示突然认出）",
+      "sentence_ids": [
+        "p01-c-04-s07"
+      ],
+      "forms": [
+        "hey"
+      ],
+      "sense_id": "sense-staged-ox-2c937b4ef7ac3d6f-p01-c-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

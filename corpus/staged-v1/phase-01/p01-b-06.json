@@ -1,0 +1,169 @@
+{
+  "id": "p01-b-06",
+  "title_zh": "为冬季婚礼选外套",
+  "topic_id": "services",
+  "scenario": {
+    "id": "winter-clothes-selection",
+    "label_zh": "购买合适的冬装",
+    "goal_zh": "在保暖、搭配和价格之间选定一件外套"
+  },
+  "participants": [
+    "Hannah",
+    "Grace"
+  ],
+  "context_zh": "顾客参加冬季婚礼，需要一件能穿在礼服外面的暖外套。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-06-s01",
+      "speaker": "Hannah",
+      "text": "I need some warm clothes for a winter wedding. This dress is lovely, but it is very thin."
+    },
+    {
+      "id": "p01-b-06-s02",
+      "speaker": "Grace",
+      "text": "A long coat would work over it. What colour would you like?"
+    },
+    {
+      "id": "p01-b-06-s03",
+      "speaker": "Hannah",
+      "text": "Something dark. I like this blue one, but it is too expensive for me."
+    },
+    {
+      "id": "p01-b-06-s04",
+      "speaker": "Grace",
+      "text": "The grey one beside it is in the sale."
+    },
+    {
+      "id": "p01-b-06-s05",
+      "speaker": "Hannah",
+      "text": "Why is it so cheap? Is there something wrong with it?"
+    },
+    {
+      "id": "p01-b-06-s06",
+      "speaker": "Grace",
+      "text": "No, it is last winter's style. Try it on and see how it fits over your dress."
+    },
+    {
+      "id": "p01-b-06-s07",
+      "speaker": "Hannah",
+      "text": "There is plenty of room, and it feels warm. I will choose this one."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1a243b4cb526f77c",
+      "lemma": "clothes",
+      "pos": "n.",
+      "sense_zh": "衣服",
+      "sentence_ids": [
+        "p01-b-06-s01"
+      ],
+      "forms": [
+        "clothes"
+      ],
+      "sense_id": "sense-staged-ox-1a243b4cb526f77c-p01-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6abbd8ee85432363",
+      "lemma": "coat",
+      "pos": "n.",
+      "sense_zh": "外套",
+      "sentence_ids": [
+        "p01-b-06-s02"
+      ],
+      "forms": [
+        "coat"
+      ],
+      "sense_id": "sense-staged-ox-6abbd8ee85432363-p01-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a7b7b48a0845d2e",
+      "lemma": "colour",
+      "pos": "n.",
+      "sense_zh": "颜色",
+      "sentence_ids": [
+        "p01-b-06-s02"
+      ],
+      "forms": [
+        "colour"
+      ],
+      "sense_id": "sense-staged-ox-2a7b7b48a0845d2e-p01-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f2c610d39b669e08",
+      "lemma": "dress",
+      "pos": "n.",
+      "sense_zh": "连衣裙",
+      "sentence_ids": [
+        "p01-b-06-s01"
+      ],
+      "forms": [
+        "dress"
+      ],
+      "sense_id": "sense-staged-ox-f2c610d39b669e08-p01-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e947c683f6616770",
+      "lemma": "cheap",
+      "pos": "adj.",
+      "sense_zh": "价格低的",
+      "sentence_ids": [
+        "p01-b-06-s05"
+      ],
+      "forms": [
+        "cheap"
+      ],
+      "sense_id": "sense-staged-ox-e947c683f6616770-p01-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2469abc8a642b1cb",
+      "lemma": "expensive",
+      "pos": "adj.",
+      "sense_zh": "昂贵的",
+      "sentence_ids": [
+        "p01-b-06-s03"
+      ],
+      "forms": [
+        "expensive"
+      ],
+      "sense_id": "sense-staged-ox-2469abc8a642b1cb-p01-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bffd75be5cc0dcd1",
+      "lemma": "choose",
+      "pos": "v.",
+      "sense_zh": "选择",
+      "sentence_ids": [
+        "p01-b-06-s07"
+      ],
+      "forms": [
+        "choose"
+      ],
+      "sense_id": "sense-staged-ox-bffd75be5cc0dcd1-p01-b-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

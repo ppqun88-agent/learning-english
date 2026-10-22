@@ -1,0 +1,190 @@
+{
+  "id": "p01-a-04",
+  "title_zh": "带宝宝去参加生日聚会",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "family-newborn-visit",
+    "label_zh": "安排家庭探访",
+    "goal_zh": "安排带新生儿探望亲人的日期并核对生日。"
+  },
+  "participants": [
+    "Ella",
+    "Max"
+  ],
+  "context_zh": "兄妹商量何时带刚出生的孩子探望姨妈，并确认生日聚会的时间。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-04-s01",
+      "speaker": "Ella",
+      "text": "Are we visiting our aunt in April?"
+    },
+    {
+      "id": "p01-a-04-s02",
+      "speaker": "Max",
+      "text": "No, her birthday is in August. That's when she's having the party."
+    },
+    {
+      "id": "p01-a-04-s03",
+      "speaker": "Ella",
+      "text": "Right. I keep mixing up her birthday and Mum's."
+    },
+    {
+      "id": "p01-a-04-s04",
+      "speaker": "Max",
+      "text": "Do you want to bring the baby?"
+    },
+    {
+      "id": "p01-a-04-s05",
+      "speaker": "Ella",
+      "text": "Yes. He was born just two weeks ago, so we need a quiet place to stay."
+    },
+    {
+      "id": "p01-a-04-s06",
+      "speaker": "Max",
+      "text": "By August, he'll be a little older. What age will he be then?"
+    },
+    {
+      "id": "p01-a-04-s07",
+      "speaker": "Ella",
+      "text": "About four months. I'll ask if we can use the spare room."
+    },
+    {
+      "id": "p01-a-04-s08",
+      "speaker": "Max",
+      "text": "Good idea. We can keep the visit short if he's tired."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2cf16b501c77e197",
+      "lemma": "birthday",
+      "pos": "n.",
+      "sense_zh": "生日",
+      "sentence_ids": [
+        "p01-a-04-s02"
+      ],
+      "forms": [
+        "birthday"
+      ],
+      "sense_id": "sense-staged-ox-2cf16b501c77e197-p01-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e120e36794b6fa2c",
+      "lemma": "April",
+      "pos": "n.",
+      "sense_zh": "四月",
+      "sentence_ids": [
+        "p01-a-04-s01"
+      ],
+      "forms": [
+        "April"
+      ],
+      "sense_id": "sense-staged-ox-e120e36794b6fa2c-p01-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ccdcf2a115d4e38d",
+      "lemma": "August",
+      "pos": "n.",
+      "sense_zh": "八月",
+      "sentence_ids": [
+        "p01-a-04-s02"
+      ],
+      "forms": [
+        "August"
+      ],
+      "sense_id": "sense-staged-ox-ccdcf2a115d4e38d-p01-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-72884993ff282c57",
+      "lemma": "aunt",
+      "pos": "n.",
+      "sense_zh": "姑母或姨母等女性长辈亲属；此处指姨妈",
+      "sentence_ids": [
+        "p01-a-04-s01"
+      ],
+      "forms": [
+        "aunt"
+      ],
+      "sense_id": "sense-staged-ox-72884993ff282c57-p01-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6af733926ee118c",
+      "lemma": "baby",
+      "pos": "n.",
+      "sense_zh": "婴儿",
+      "sentence_ids": [
+        "p01-a-04-s04"
+      ],
+      "forms": [
+        "baby"
+      ],
+      "sense_id": "sense-staged-ox-f6af733926ee118c-p01-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92890969251450b4",
+      "lemma": "born",
+      "pos": "v.",
+      "sense_zh": "出生，通常用于 be born",
+      "sentence_ids": [
+        "p01-a-04-s05"
+      ],
+      "forms": [
+        "born"
+      ],
+      "sense_id": "sense-staged-ox-92890969251450b4-p01-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-266608db4ad6e554",
+      "lemma": "age",
+      "pos": "n.",
+      "sense_zh": "年龄",
+      "sentence_ids": [
+        "p01-a-04-s06"
+      ],
+      "forms": [
+        "age"
+      ],
+      "sense_id": "sense-staged-ox-266608db4ad6e554-p01-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ade9e841ae818450",
+      "lemma": "ago",
+      "pos": "adv.",
+      "sense_zh": "以前",
+      "sentence_ids": [
+        "p01-a-04-s05"
+      ],
+      "forms": [
+        "ago"
+      ],
+      "sense_id": "sense-staged-ox-ade9e841ae818450-p01-a-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

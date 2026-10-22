@@ -1,0 +1,174 @@
+{
+  "id": "p01-a-11",
+  "title_zh": "确定社区短剧的演员",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "community-play-casting",
+    "label_zh": "确认角色分配和排练",
+    "goal_zh": "剧团根据角色要求讨论试演人选及排练时间。"
+  },
+  "participants": [
+    "Tess",
+    "Omar"
+  ],
+  "context_zh": "两位社区剧团组织者回顾试演表现，借助外貌描述确认人选，并安排首次排练。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-11-s01",
+      "speaker": "Tess",
+      "text": "Did you find an actor to play the older brother?"
+    },
+    {
+      "id": "p01-a-11-s02",
+      "speaker": "Omar",
+      "text": "Yes, Leo, the blond man who read first."
+    },
+    {
+      "id": "p01-a-11-s03",
+      "speaker": "Tess",
+      "text": "I liked his audition. Who will play his sister?"
+    },
+    {
+      "id": "p01-a-11-s04",
+      "speaker": "Omar",
+      "text": "Nina, the actress with the blonde hair. They worked well together."
+    },
+    {
+      "id": "p01-a-11-s05",
+      "speaker": "Tess",
+      "text": "And the little boy in the final scene?"
+    },
+    {
+      "id": "p01-a-11-s06",
+      "speaker": "Omar",
+      "text": "Sam has that part, and his father will stay for rehearsals."
+    },
+    {
+      "id": "p01-a-11-s07",
+      "speaker": "Tess",
+      "text": "Good. When do we begin?"
+    },
+    {
+      "id": "p01-a-11-s08",
+      "speaker": "Omar",
+      "text": "Monday at six. I'll send the cast the schedule."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-665bf97bbd3083b0",
+      "lemma": "actor",
+      "pos": "n.",
+      "sense_zh": "男演员；也可泛指演员，此处指男性",
+      "sentence_ids": [
+        "p01-a-11-s01"
+      ],
+      "forms": [
+        "actor"
+      ],
+      "sense_id": "sense-staged-ox-665bf97bbd3083b0-p01-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-23005f5ca4c0670a",
+      "lemma": "actress",
+      "pos": "n.",
+      "sense_zh": "女演员",
+      "sentence_ids": [
+        "p01-a-11-s04"
+      ],
+      "forms": [
+        "actress"
+      ],
+      "sense_id": "sense-staged-ox-23005f5ca4c0670a-p01-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a23eccaa35c7d193",
+      "lemma": "blond",
+      "pos": "adj.",
+      "sense_zh": "金发的",
+      "sentence_ids": [
+        "p01-a-11-s02"
+      ],
+      "forms": [
+        "blond"
+      ],
+      "sense_id": "sense-staged-ox-a23eccaa35c7d193-p01-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b61ba5db451e51f3",
+      "lemma": "blonde",
+      "pos": "adj.",
+      "sense_zh": "金发的",
+      "sentence_ids": [
+        "p01-a-11-s04"
+      ],
+      "forms": [
+        "blonde"
+      ],
+      "sense_id": "sense-staged-ox-b61ba5db451e51f3-p01-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f19e7025e034fe04",
+      "lemma": "boy",
+      "pos": "n.",
+      "sense_zh": "男孩",
+      "sentence_ids": [
+        "p01-a-11-s05"
+      ],
+      "forms": [
+        "boy"
+      ],
+      "sense_id": "sense-staged-ox-f19e7025e034fe04-p01-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-23127b696b83feac",
+      "lemma": "brother",
+      "pos": "n.",
+      "sense_zh": "兄弟，此处指哥哥",
+      "sentence_ids": [
+        "p01-a-11-s01"
+      ],
+      "forms": [
+        "brother"
+      ],
+      "sense_id": "sense-staged-ox-23127b696b83feac-p01-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-71ff0a55e373d305",
+      "lemma": "begin",
+      "pos": "v.",
+      "sense_zh": "开始",
+      "sentence_ids": [
+        "p01-a-11-s07"
+      ],
+      "forms": [
+        "begin"
+      ],
+      "sense_id": "sense-staged-ox-71ff0a55e373d305-p01-a-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

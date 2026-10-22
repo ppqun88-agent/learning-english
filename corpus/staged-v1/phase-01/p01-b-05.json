@@ -1,0 +1,196 @@
+{
+  "id": "p01-b-05",
+  "title_zh": "全月总数较高，不代表每周都高",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "exam-answer-check",
+    "label_zh": "核对图表试题答案",
+    "goal_zh": "区分月度总数与每周比较并核对试题答案"
+  },
+  "participants": [
+    "Rosa",
+    "Malik"
+  ],
+  "context_zh": "学生带着练习试卷询问题目答案；图表中四月第三周的星期六售票六十张，星期日四十五张，但全月星期日总数较高。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-05-s01",
+      "speaker": "Rosa",
+      "text": "Can we check this question before the exam? Why is this statement false?"
+    },
+    {
+      "id": "p01-b-05-s02",
+      "speaker": "Malik",
+      "text": "Read the statement aloud."
+    },
+    {
+      "id": "p01-b-05-s03",
+      "speaker": "Rosa",
+      "text": "\"The museum sold more tickets on Sundays than on Saturdays in every week of April.\""
+    },
+    {
+      "id": "p01-b-05-s04",
+      "speaker": "Malik",
+      "text": "Now look at the third week in the chart. How many tickets were sold on each day?"
+    },
+    {
+      "id": "p01-b-05-s05",
+      "speaker": "Rosa",
+      "text": "Sixty on Saturday and forty-five on Sunday. I was looking at the monthly totals."
+    },
+    {
+      "id": "p01-b-05-s06",
+      "speaker": "Malik",
+      "text": "That is a common mistake. What is the difference between the monthly total and what the question asks?"
+    },
+    {
+      "id": "p01-b-05-s07",
+      "speaker": "Rosa",
+      "text": "Sunday sales were higher for the month as a whole, but not in every week."
+    },
+    {
+      "id": "p01-b-05-s08",
+      "speaker": "Malik",
+      "text": "Exactly. That is the fact the chart supports."
+    },
+    {
+      "id": "p01-b-05-s09",
+      "speaker": "Rosa",
+      "text": "So the statement is false, and the answer key is correct. Next time I will check the wording as well as the numbers."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fa5cfc74140141b3",
+      "lemma": "chart",
+      "pos": "n.",
+      "sense_zh": "图表",
+      "sentence_ids": [
+        "p01-b-05-s04"
+      ],
+      "forms": [
+        "chart"
+      ],
+      "sense_id": "sense-staged-ox-fa5cfc74140141b3-p01-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-862750169ef4662e",
+      "lemma": "check",
+      "pos": "v.",
+      "sense_zh": "核对",
+      "sentence_ids": [
+        "p01-b-05-s01"
+      ],
+      "forms": [
+        "check"
+      ],
+      "sense_id": "sense-staged-ox-862750169ef4662e-p01-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7afe86020f94df21",
+      "lemma": "common",
+      "pos": "adj.",
+      "sense_zh": "常见的",
+      "sentence_ids": [
+        "p01-b-05-s06"
+      ],
+      "forms": [
+        "common"
+      ],
+      "sense_id": "sense-staged-ox-7afe86020f94df21-p01-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-860a8c96da1f2d5e",
+      "lemma": "correct",
+      "pos": "adj.",
+      "sense_zh": "正确的",
+      "sentence_ids": [
+        "p01-b-05-s09"
+      ],
+      "forms": [
+        "correct"
+      ],
+      "sense_id": "sense-staged-ox-860a8c96da1f2d5e-p01-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2d98959f9e573f9f",
+      "lemma": "difference",
+      "pos": "n.",
+      "sense_zh": "区别",
+      "sentence_ids": [
+        "p01-b-05-s06"
+      ],
+      "forms": [
+        "difference"
+      ],
+      "sense_id": "sense-staged-ox-2d98959f9e573f9f-p01-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4797abfee534a1b2",
+      "lemma": "exam",
+      "pos": "n.",
+      "sense_zh": "考试",
+      "sentence_ids": [
+        "p01-b-05-s01"
+      ],
+      "forms": [
+        "exam"
+      ],
+      "sense_id": "sense-staged-ox-4797abfee534a1b2-p01-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43632fa776fb2a10",
+      "lemma": "false",
+      "pos": "adj.",
+      "sense_zh": "不真实的；与事实不符的",
+      "sentence_ids": [
+        "p01-b-05-s01",
+        "p01-b-05-s09"
+      ],
+      "forms": [
+        "false"
+      ],
+      "sense_id": "sense-staged-ox-43632fa776fb2a10-p01-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-846a2e28e61950cc",
+      "lemma": "fact",
+      "pos": "n.",
+      "sense_zh": "有依据的事实",
+      "sentence_ids": [
+        "p01-b-05-s08"
+      ],
+      "forms": [
+        "fact"
+      ],
+      "sense_id": "sense-staged-ox-846a2e28e61950cc-p01-b-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

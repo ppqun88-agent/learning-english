@@ -1,0 +1,206 @@
+{
+  "id": "p01-b-04",
+  "title_zh": "先理解口语练习",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-speaking-practice",
+    "label_zh": "澄清课堂练习要求",
+    "goal_zh": "理解口语任务并开始一段有实际目的的练习"
+  },
+  "participants": [
+    "Lina",
+    "Omar"
+  ],
+  "context_zh": "社区英语课上，一名学生不清楚如何开始口语练习，老师示范任务而不要求背稿。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-04-s01",
+      "speaker": "Lina",
+      "text": "Before we start, please move your desk next to a partner. We need space in the middle of the classroom."
+    },
+    {
+      "id": "p01-b-04-s02",
+      "speaker": "Omar",
+      "text": "What should we do with this picture?"
+    },
+    {
+      "id": "p01-b-04-s03",
+      "speaker": "Lina",
+      "text": "Use it to start a conversation. One person has lost a bag, and the other works at the station."
+    },
+    {
+      "id": "p01-b-04-s04",
+      "speaker": "Omar",
+      "text": "So we write a dialogue first?"
+    },
+    {
+      "id": "p01-b-04-s05",
+      "speaker": "Lina",
+      "text": "No, try speaking first. You can describe the bag without knowing every word."
+    },
+    {
+      "id": "p01-b-04-s06",
+      "speaker": "Omar",
+      "text": "Can you give us an example?"
+    },
+    {
+      "id": "p01-b-04-s07",
+      "speaker": "Lina",
+      "text": "You could say, \"My bag is small and blue.\" Then explain where you last saw it."
+    },
+    {
+      "id": "p01-b-04-s08",
+      "speaker": "Omar",
+      "text": "That helps. I will put my dictionary away and try asking my partner."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7660714cfb487141",
+      "lemma": "classroom",
+      "pos": "n.",
+      "sense_zh": "教室",
+      "sentence_ids": [
+        "p01-b-04-s01"
+      ],
+      "forms": [
+        "classroom"
+      ],
+      "sense_id": "sense-staged-ox-7660714cfb487141-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-475a95f9782017c7",
+      "lemma": "dictionary",
+      "pos": "n.",
+      "sense_zh": "词典",
+      "sentence_ids": [
+        "p01-b-04-s08"
+      ],
+      "forms": [
+        "dictionary"
+      ],
+      "sense_id": "sense-staged-ox-475a95f9782017c7-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-18822b09816185e3",
+      "lemma": "dialogue",
+      "pos": "n.",
+      "sense_zh": "对话",
+      "sentence_ids": [
+        "p01-b-04-s04"
+      ],
+      "forms": [
+        "dialogue"
+      ],
+      "sense_id": "sense-staged-ox-18822b09816185e3-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92b852f4873ea67b",
+      "lemma": "conversation",
+      "pos": "n.",
+      "sense_zh": "交谈",
+      "sentence_ids": [
+        "p01-b-04-s03"
+      ],
+      "forms": [
+        "conversation"
+      ],
+      "sense_id": "sense-staged-ox-92b852f4873ea67b-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c9061349757adb84",
+      "lemma": "describe",
+      "pos": "v.",
+      "sense_zh": "描述",
+      "sentence_ids": [
+        "p01-b-04-s05"
+      ],
+      "forms": [
+        "describe"
+      ],
+      "sense_id": "sense-staged-ox-c9061349757adb84-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2411bc0d447d07e0",
+      "lemma": "example",
+      "pos": "n.",
+      "sense_zh": "例子",
+      "sentence_ids": [
+        "p01-b-04-s06"
+      ],
+      "forms": [
+        "example"
+      ],
+      "sense_id": "sense-staged-ox-2411bc0d447d07e0-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c693a3554184097a",
+      "lemma": "explain",
+      "pos": "v.",
+      "sense_zh": "说明",
+      "sentence_ids": [
+        "p01-b-04-s07"
+      ],
+      "forms": [
+        "explain"
+      ],
+      "sense_id": "sense-staged-ox-c693a3554184097a-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-93eeb6166036ad51",
+      "lemma": "do",
+      "pos": "v.",
+      "sense_zh": "做；进行",
+      "sentence_ids": [
+        "p01-b-04-s02"
+      ],
+      "forms": [
+        "do"
+      ],
+      "sense_id": "sense-staged-ox-93eeb6166036ad51-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ab90d3da6fa3272c",
+      "lemma": "desk",
+      "pos": "n.",
+      "sense_zh": "课桌",
+      "sentence_ids": [
+        "p01-b-04-s01"
+      ],
+      "forms": [
+        "desk"
+      ],
+      "sense_id": "sense-staged-ox-ab90d3da6fa3272c-p01-b-04",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

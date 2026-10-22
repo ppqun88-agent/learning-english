@@ -1,0 +1,121 @@
+{
+  "id": "p01-b-17",
+  "title_zh": "确认价格标签的币种",
+  "topic_id": "services",
+  "scenario": {
+    "id": "souvenir-price-currency",
+    "label_zh": "核对纪念品价格和币种",
+    "goal_zh": "看懂手写价签后确定付款方式"
+  },
+  "participants": [
+    "Zoe",
+    "Marco"
+  ],
+  "context_zh": "游客在纪念品商店询问一本笔记本的价格，手写货币符号不够清楚。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-17-s01",
+      "speaker": "Zoe",
+      "text": "How much does this notebook cost? I cannot quite read the label."
+    },
+    {
+      "id": "p01-b-17-s02",
+      "speaker": "Marco",
+      "text": "It is eighteen euros."
+    },
+    {
+      "id": "p01-b-17-s03",
+      "speaker": "Zoe",
+      "text": "Oh, is that a euro sign? I thought it was a dollar sign."
+    },
+    {
+      "id": "p01-b-17-s04",
+      "speaker": "Marco",
+      "text": "Yes, sorry about the handwriting. All our prices are in euros."
+    },
+    {
+      "id": "p01-b-17-s05",
+      "speaker": "Zoe",
+      "text": "I only have dollars in cash. Can I pay by card?"
+    },
+    {
+      "id": "p01-b-17-s06",
+      "speaker": "Marco",
+      "text": "Certainly. I can take your payment here."
+    },
+    {
+      "id": "p01-b-17-s07",
+      "speaker": "Zoe",
+      "text": "Great, I will take the notebook."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ddcf66b5517f8f0c",
+      "lemma": "dollar",
+      "pos": "n.",
+      "sense_zh": "元；美元等货币的单位",
+      "sentence_ids": [
+        "p01-b-17-s03"
+      ],
+      "forms": [
+        "dollar"
+      ],
+      "sense_id": "sense-staged-ox-ddcf66b5517f8f0c-p01-b-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcf53aa5eb0904ff",
+      "lemma": "euro",
+      "pos": "n.",
+      "sense_zh": "欧元",
+      "sentence_ids": [
+        "p01-b-17-s03"
+      ],
+      "forms": [
+        "euro"
+      ],
+      "sense_id": "sense-staged-ox-bcf53aa5eb0904ff-p01-b-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3281b8884609a856",
+      "lemma": "eighteen",
+      "pos": "number",
+      "sense_zh": "十八",
+      "sentence_ids": [
+        "p01-b-17-s02"
+      ],
+      "forms": [
+        "eighteen"
+      ],
+      "sense_id": "sense-staged-ox-3281b8884609a856-p01-b-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-95ab2cdc8b6188f3",
+      "lemma": "cost",
+      "pos": "v.",
+      "sense_zh": "价格为；花费",
+      "sentence_ids": [
+        "p01-b-17-s01"
+      ],
+      "forms": [
+        "cost"
+      ],
+      "sense_id": "sense-staged-ox-95ab2cdc8b6188f3-p01-b-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

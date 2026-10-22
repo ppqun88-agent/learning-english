@@ -1,0 +1,227 @@
+{
+  "id": "p01-c-11",
+  "title_zh": "给作业选一个能研究的问题",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "school-project-question",
+    "label_zh": "确定作业研究问题",
+    "goal_zh": "把宽泛兴趣缩小为可查证的研究问题"
+  },
+  "participants": [
+    "Pupil Leo",
+    "Teacher Chen"
+  ],
+  "context_zh": "学生在图书馆请老师帮助确定研究作业的切入点。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-11-s01",
+      "speaker": "Pupil Leo",
+      "text": "For my homework, can I write about the history of our river?"
+    },
+    {
+      "id": "p01-c-11-s02",
+      "speaker": "Teacher Chen",
+      "text": "Yes, and you could connect it to geography by showing how its route has changed."
+    },
+    {
+      "id": "p01-c-11-s03",
+      "speaker": "Pupil Leo",
+      "text": "That sounds interesting, but I am more interested in the old bridge."
+    },
+    {
+      "id": "p01-c-11-s04",
+      "speaker": "Teacher Chen",
+      "text": "Then make that your starting point; your interest will help you stay with the research."
+    },
+    {
+      "id": "p01-c-11-s05",
+      "speaker": "Pupil Leo",
+      "text": "How can I check when the bridge was built?"
+    },
+    {
+      "id": "p01-c-11-s06",
+      "speaker": "Teacher Chen",
+      "text": "Start with the town museum website, rather than a random page on the internet."
+    },
+    {
+      "id": "p01-c-11-s07",
+      "speaker": "Pupil Leo",
+      "text": "It is hard to read the date in this old photograph; can I just guess?"
+    },
+    {
+      "id": "p01-c-11-s08",
+      "speaker": "Teacher Chen",
+      "text": "Use the photograph as a clue, but look for a dated record before you state a year."
+    },
+    {
+      "id": "p01-c-11-s09",
+      "speaker": "Pupil Leo",
+      "text": "All right, I will ask the museum whether they have the original building records."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3844b5f052a4f7d9",
+      "lemma": "geography",
+      "pos": "n.",
+      "sense_zh": "地理学",
+      "sentence_ids": [
+        "p01-c-11-s02"
+      ],
+      "forms": [
+        "geography"
+      ],
+      "sense_id": "sense-staged-ox-3844b5f052a4f7d9-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8bf81bbc99ab1cec",
+      "lemma": "history",
+      "pos": "n.",
+      "sense_zh": "历史",
+      "sentence_ids": [
+        "p01-c-11-s01"
+      ],
+      "forms": [
+        "history"
+      ],
+      "sense_id": "sense-staged-ox-8bf81bbc99ab1cec-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc8fb3060efbe326",
+      "lemma": "homework",
+      "pos": "n.",
+      "sense_zh": "家庭作业",
+      "sentence_ids": [
+        "p01-c-11-s01"
+      ],
+      "forms": [
+        "homework"
+      ],
+      "sense_id": "sense-staged-ox-fc8fb3060efbe326-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2ab4d4656c0dd06",
+      "lemma": "interesting",
+      "pos": "adj.",
+      "sense_zh": "有趣的",
+      "sentence_ids": [
+        "p01-c-11-s03"
+      ],
+      "forms": [
+        "interesting"
+      ],
+      "sense_id": "sense-staged-ox-d2ab4d4656c0dd06-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6c12e24b5e0a0770",
+      "lemma": "interested",
+      "pos": "adj.",
+      "sense_zh": "感兴趣的",
+      "sentence_ids": [
+        "p01-c-11-s03"
+      ],
+      "forms": [
+        "interested"
+      ],
+      "sense_id": "sense-staged-ox-6c12e24b5e0a0770-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6e27ce155f339cb9",
+      "lemma": "interest",
+      "pos": "n.",
+      "sense_zh": "兴趣",
+      "sentence_ids": [
+        "p01-c-11-s04"
+      ],
+      "forms": [
+        "interest"
+      ],
+      "sense_id": "sense-staged-ox-6e27ce155f339cb9-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c8ff9e996fc9e5eb",
+      "lemma": "internet",
+      "pos": "n.",
+      "sense_zh": "互联网",
+      "sentence_ids": [
+        "p01-c-11-s06"
+      ],
+      "forms": [
+        "internet"
+      ],
+      "sense_id": "sense-staged-ox-c8ff9e996fc9e5eb-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f7a8f80cc03c377",
+      "lemma": "guess",
+      "pos": "v.",
+      "sense_zh": "猜测",
+      "sentence_ids": [
+        "p01-c-11-s07"
+      ],
+      "forms": [
+        "guess"
+      ],
+      "sense_id": "sense-staged-ox-8f7a8f80cc03c377-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-27cfab642509fb6a",
+      "lemma": "hard",
+      "pos": "adj.",
+      "sense_zh": "困难的",
+      "sentence_ids": [
+        "p01-c-11-s07"
+      ],
+      "forms": [
+        "hard"
+      ],
+      "sense_id": "sense-staged-ox-27cfab642509fb6a-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0e81c834b812a330",
+      "lemma": "how",
+      "pos": "adv.",
+      "sense_zh": "如何",
+      "sentence_ids": [
+        "p01-c-11-s05"
+      ],
+      "forms": [
+        "how"
+      ],
+      "sense_id": "sense-staged-ox-0e81c834b812a330-p01-c-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

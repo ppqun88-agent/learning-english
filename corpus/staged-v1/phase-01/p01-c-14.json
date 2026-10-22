@@ -1,0 +1,158 @@
+{
+  "id": "p01-c-14",
+  "title_zh": "协调探望祖父的时间",
+  "topic_id": "health",
+  "scenario": {
+    "id": "family-hospital-visit",
+    "label_zh": "协调家人探访安排",
+    "goal_zh": "避免多人同时探视并照顾陪护者"
+  },
+  "participants": [
+    "Eva",
+    "Tom"
+  ],
+  "context_zh": "兄妹通过电话商量探望住院祖父及接送祖母。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-14-s01",
+      "speaker": "Eva",
+      "text": "Our grandfather sounded much stronger on the phone today."
+    },
+    {
+      "id": "p01-c-14-s02",
+      "speaker": "Tom",
+      "text": "I am happy to hear that; when are you going to the hospital?"
+    },
+    {
+      "id": "p01-c-14-s03",
+      "speaker": "Eva",
+      "text": "At three, but our grandmother wants someone to collect her first."
+    },
+    {
+      "id": "p01-c-14-s04",
+      "speaker": "Tom",
+      "text": "I can do that; does Lily want to come too?"
+    },
+    {
+      "id": "p01-c-14-s05",
+      "speaker": "Eva",
+      "text": "Yes, but she is nervous about visiting a grandparent in hospital."
+    },
+    {
+      "id": "p01-c-14-s06",
+      "speaker": "Tom",
+      "text": "Then let us explain what the ward is like before she goes in."
+    },
+    {
+      "id": "p01-c-14-s07",
+      "speaker": "Eva",
+      "text": "I will check the visiting limit so we do not all turn up at once."
+    },
+    {
+      "id": "p01-c-14-s08",
+      "speaker": "Tom",
+      "text": "Send me the time after you check, and I will arrange the lift with her."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2088cc2589cb9621",
+      "lemma": "grandfather",
+      "pos": "n.",
+      "sense_zh": "祖父；外祖父",
+      "sentence_ids": [
+        "p01-c-14-s01"
+      ],
+      "forms": [
+        "grandfather"
+      ],
+      "sense_id": "sense-staged-ox-2088cc2589cb9621-p01-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0d53d1adeca24d26",
+      "lemma": "grandmother",
+      "pos": "n.",
+      "sense_zh": "祖母；外祖母",
+      "sentence_ids": [
+        "p01-c-14-s03"
+      ],
+      "forms": [
+        "grandmother"
+      ],
+      "sense_id": "sense-staged-ox-0d53d1adeca24d26-p01-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-689411fee5acb649",
+      "lemma": "grandparent",
+      "pos": "n.",
+      "sense_zh": "祖父母或外祖父母中的一位",
+      "sentence_ids": [
+        "p01-c-14-s05"
+      ],
+      "forms": [
+        "grandparent"
+      ],
+      "sense_id": "sense-staged-ox-689411fee5acb649-p01-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-574d22a88d6967e8",
+      "lemma": "hospital",
+      "pos": "n.",
+      "sense_zh": "医院",
+      "sentence_ids": [
+        "p01-c-14-s02"
+      ],
+      "forms": [
+        "hospital"
+      ],
+      "sense_id": "sense-staged-ox-574d22a88d6967e8-p01-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-29b647893196c94b",
+      "lemma": "happy",
+      "pos": "adj.",
+      "sense_zh": "高兴的",
+      "sentence_ids": [
+        "p01-c-14-s02"
+      ],
+      "forms": [
+        "happy"
+      ],
+      "sense_id": "sense-staged-ox-29b647893196c94b-p01-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74dd0732d5f71901",
+      "lemma": "hear",
+      "pos": "v.",
+      "sense_zh": "听到；得知",
+      "sentence_ids": [
+        "p01-c-14-s02"
+      ],
+      "forms": [
+        "hear"
+      ],
+      "sense_id": "sense-staged-ox-74dd0732d5f71901-p01-c-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

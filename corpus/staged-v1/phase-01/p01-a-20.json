@@ -1,0 +1,126 @@
+{
+  "id": "p01-a-20",
+  "title_zh": "试穿一双徒步靴",
+  "topic_id": "services",
+  "scenario": {
+    "id": "walking-boot-fitting",
+    "label_zh": "判断鞋子尺寸并购买",
+    "goal_zh": "试穿徒步靴并判断尺寸及是否购买。"
+  },
+  "participants": [
+    "Customer",
+    "Shop assistant"
+  ],
+  "context_zh": "顾客想买棕色徒步靴，但一只鞋的脚跟处偏松，店员让她比较小半码的鞋。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-20-s01",
+      "speaker": "Customer",
+      "text": "Do you have a brown pair in this style?"
+    },
+    {
+      "id": "p01-a-20-s02",
+      "speaker": "Shop assistant",
+      "text": "Yes. Try this pair."
+    },
+    {
+      "id": "p01-a-20-s03",
+      "speaker": "Customer",
+      "text": "The left boot feels fine, but the right one is too big."
+    },
+    {
+      "id": "p01-a-20-s04",
+      "speaker": "Shop assistant",
+      "text": "Is your heel moving when you walk?"
+    },
+    {
+      "id": "p01-a-20-s05",
+      "speaker": "Customer",
+      "text": "Yes, quite a lot."
+    },
+    {
+      "id": "p01-a-20-s06",
+      "speaker": "Shop assistant",
+      "text": "Let's try half a size smaller. Walk to the mirror and back so you can compare."
+    },
+    {
+      "id": "p01-a-20-s07",
+      "speaker": "Customer",
+      "text": "These feel much more secure. I think I will buy them."
+    },
+    {
+      "id": "p01-a-20-s08",
+      "speaker": "Shop assistant",
+      "text": "Great. I'll bring the box to the till."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d0f99c46a9691c76",
+      "lemma": "boot",
+      "pos": "n.",
+      "sense_zh": "靴子",
+      "sentence_ids": [
+        "p01-a-20-s03"
+      ],
+      "forms": [
+        "boot"
+      ],
+      "sense_id": "sense-staged-ox-d0f99c46a9691c76-p01-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a00268f03897398",
+      "lemma": "brown",
+      "pos": "adj.",
+      "sense_zh": "棕色的",
+      "sentence_ids": [
+        "p01-a-20-s01"
+      ],
+      "forms": [
+        "brown"
+      ],
+      "sense_id": "sense-staged-ox-0a00268f03897398-p01-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-402b4f54eb099565",
+      "lemma": "big",
+      "pos": "adj.",
+      "sense_zh": "大的；此处指尺寸过大",
+      "sentence_ids": [
+        "p01-a-20-s03"
+      ],
+      "forms": [
+        "big"
+      ],
+      "sense_id": "sense-staged-ox-402b4f54eb099565-p01-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a880100b15df7ba3",
+      "lemma": "buy",
+      "pos": "v.",
+      "sense_zh": "购买",
+      "sentence_ids": [
+        "p01-a-20-s07"
+      ],
+      "forms": [
+        "buy"
+      ],
+      "sense_id": "sense-staged-ox-a880100b15df7ba3-p01-a-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

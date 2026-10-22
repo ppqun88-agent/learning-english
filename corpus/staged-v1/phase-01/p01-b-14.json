@@ -1,0 +1,190 @@
+{
+  "id": "p01-b-14",
+  "title_zh": "客人来之前收拾房间",
+  "topic_id": "home",
+  "scenario": {
+    "id": "shared-house-cleanup",
+    "label_zh": "分配合租房清洁工作",
+    "goal_zh": "明确待清洁区域和离开房间前的操作"
+  },
+  "participants": [
+    "Eva",
+    "Noah"
+  ],
+  "context_zh": "室友准备招待来访者，需要在有限时间里清理共用空间。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-14-s01",
+      "speaker": "Eva",
+      "text": "I have been out all day. What still needs doing before the guests arrive?"
+    },
+    {
+      "id": "p01-b-14-s02",
+      "speaker": "Noah",
+      "text": "The kitchen is ready, but the hall is dirty. I spilled some soil while moving the plants."
+    },
+    {
+      "id": "p01-b-14-s03",
+      "speaker": "Eva",
+      "text": "I can clean that. Have we got time?"
+    },
+    {
+      "id": "p01-b-14-s04",
+      "speaker": "Noah",
+      "text": "Yes. The clock in the hall is twenty minutes fast. It is only half past four."
+    },
+    {
+      "id": "p01-b-14-s05",
+      "speaker": "Eva",
+      "text": "Good. I will get the brush from downstairs."
+    },
+    {
+      "id": "p01-b-14-s06",
+      "speaker": "Noah",
+      "text": "Thanks. Please close the cupboard door when you finish. The cat keeps getting inside."
+    },
+    {
+      "id": "p01-b-14-s07",
+      "speaker": "Eva",
+      "text": "Will do. Is everything else ready?"
+    },
+    {
+      "id": "p01-b-14-s08",
+      "speaker": "Noah",
+      "text": "Almost. You do the hall, and I will put fresh towels in the bathroom."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a0dc914a5300346b",
+      "lemma": "clean",
+      "pos": "v.",
+      "sense_zh": "清理干净",
+      "sentence_ids": [
+        "p01-b-14-s03"
+      ],
+      "forms": [
+        "clean"
+      ],
+      "sense_id": "sense-staged-ox-a0dc914a5300346b-p01-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-941878a1b42d632b",
+      "lemma": "dirty",
+      "pos": "adj.",
+      "sense_zh": "脏的",
+      "sentence_ids": [
+        "p01-b-14-s02"
+      ],
+      "forms": [
+        "dirty"
+      ],
+      "sense_id": "sense-staged-ox-941878a1b42d632b-p01-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-21382768e2144402",
+      "lemma": "door",
+      "pos": "n.",
+      "sense_zh": "门",
+      "sentence_ids": [
+        "p01-b-14-s06"
+      ],
+      "forms": [
+        "door"
+      ],
+      "sense_id": "sense-staged-ox-21382768e2144402-p01-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7df73c459caca900",
+      "lemma": "downstairs",
+      "pos": "adv.",
+      "sense_zh": "在楼下",
+      "sentence_ids": [
+        "p01-b-14-s05"
+      ],
+      "forms": [
+        "downstairs"
+      ],
+      "sense_id": "sense-staged-ox-7df73c459caca900-p01-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b31ade0eddd65831",
+      "lemma": "close",
+      "pos": "v.",
+      "sense_zh": "关上",
+      "sentence_ids": [
+        "p01-b-14-s06"
+      ],
+      "forms": [
+        "close"
+      ],
+      "sense_id": "sense-staged-ox-b31ade0eddd65831-p01-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7fc301fd4408daf8",
+      "lemma": "day",
+      "pos": "n.",
+      "sense_zh": "一天；白天",
+      "sentence_ids": [
+        "p01-b-14-s01"
+      ],
+      "forms": [
+        "day"
+      ],
+      "sense_id": "sense-staged-ox-7fc301fd4408daf8-p01-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f557afa3089e3d70",
+      "lemma": "everything",
+      "pos": "pron.",
+      "sense_zh": "所有事物",
+      "sentence_ids": [
+        "p01-b-14-s07"
+      ],
+      "forms": [
+        "everything"
+      ],
+      "sense_id": "sense-staged-ox-f557afa3089e3d70-p01-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b8d9ce94faeee40",
+      "lemma": "clock",
+      "pos": "n.",
+      "sense_zh": "钟",
+      "sentence_ids": [
+        "p01-b-14-s04"
+      ],
+      "forms": [
+        "clock"
+      ],
+      "sense_id": "sense-staged-ox-0b8d9ce94faeee40-p01-b-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,132 @@
+{
+  "id": "p01-c-18",
+  "title_zh": "选择适合初学者的骑马体验",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-riding-choice",
+    "label_zh": "选择初学骑马体验",
+    "goal_zh": "比较时长价格并说明对速度的顾虑"
+  },
+  "participants": [
+    "Visitor Kim",
+    "Guide Ali"
+  ],
+  "context_zh": "游客第一次咨询骑马活动，担心路线过长和速度过快。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-18-s01",
+      "speaker": "Visitor Kim",
+      "text": "I have never ridden a horse; which trip is suitable for a beginner?"
+    },
+    {
+      "id": "p01-c-18-s02",
+      "speaker": "Guide Ali",
+      "text": "The short guided ride is forty pounds; the full-day trip is a hundred."
+    },
+    {
+      "id": "p01-c-18-s03",
+      "speaker": "Visitor Kim",
+      "text": "The short one sounds better, but I hate the idea of going too fast."
+    },
+    {
+      "id": "p01-c-18-s04",
+      "speaker": "Guide Ali",
+      "text": "We start in the yard, and if you are not comfortable, you can stay there with the instructor."
+    },
+    {
+      "id": "p01-c-18-s05",
+      "speaker": "Visitor Kim",
+      "text": "Could I watch the introduction before I book?"
+    },
+    {
+      "id": "p01-c-18-s06",
+      "speaker": "Guide Ali",
+      "text": "Of course, the next group starts in ten minutes; you can stand by the fence with me."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-62dc593809584a07",
+      "lemma": "horse",
+      "pos": "n.",
+      "sense_zh": "马",
+      "sentence_ids": [
+        "p01-c-18-s01"
+      ],
+      "forms": [
+        "horse"
+      ],
+      "sense_id": "sense-staged-ox-62dc593809584a07-p01-c-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-300a5fd7add55dda",
+      "lemma": "forty",
+      "pos": "number",
+      "sense_zh": "四十",
+      "sentence_ids": [
+        "p01-c-18-s02"
+      ],
+      "forms": [
+        "forty"
+      ],
+      "sense_id": "sense-staged-ox-300a5fd7add55dda-p01-c-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0775f33097155195",
+      "lemma": "hundred",
+      "pos": "number",
+      "sense_zh": "一百",
+      "sentence_ids": [
+        "p01-c-18-s02"
+      ],
+      "forms": [
+        "hundred"
+      ],
+      "sense_id": "sense-staged-ox-0775f33097155195-p01-c-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6135f77a9fd8927",
+      "lemma": "hate",
+      "pos": "v.",
+      "sense_zh": "非常不喜欢",
+      "sentence_ids": [
+        "p01-c-18-s03"
+      ],
+      "forms": [
+        "hate"
+      ],
+      "sense_id": "sense-staged-ox-b6135f77a9fd8927-p01-c-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-24c8a424f840ef17",
+      "lemma": "if",
+      "pos": "conj.",
+      "sense_zh": "如果",
+      "sentence_ids": [
+        "p01-c-18-s04"
+      ],
+      "forms": [
+        "if"
+      ],
+      "sense_id": "sense-staged-ox-24c8a424f840ef17-p01-c-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

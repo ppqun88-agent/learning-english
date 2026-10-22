@@ -1,0 +1,163 @@
+{
+  "id": "p01-a-14",
+  "title_zh": "先了解烘焙工作再转行",
+  "topic_id": "work",
+  "scenario": {
+    "id": "career-change-discussion",
+    "label_zh": "讨论职业方向",
+    "goal_zh": "讨论转行念头并确定低风险了解行业的下一步。"
+  },
+  "participants": [
+    "Jess",
+    "Mina"
+  ],
+  "context_zh": "杰丝想从办公室工作转向烘焙，朋友帮她区分职业兴趣和经营店铺的责任。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-14-s01",
+      "speaker": "Jess",
+      "text": "I keep thinking about a career in baking."
+    },
+    {
+      "id": "p01-a-14-s02",
+      "speaker": "Mina",
+      "text": "What attracts you to it?"
+    },
+    {
+      "id": "p01-a-14-s03",
+      "speaker": "Jess",
+      "text": "I work as an office assistant, and I miss making things with my hands."
+    },
+    {
+      "id": "p01-a-14-s04",
+      "speaker": "Mina",
+      "text": "Do you want to become a baker, or open your own business?"
+    },
+    {
+      "id": "p01-a-14-s05",
+      "speaker": "Jess",
+      "text": "The first one, at least for now. I don't want to be a manager."
+    },
+    {
+      "id": "p01-a-14-s06",
+      "speaker": "Mina",
+      "text": "Then perhaps talk to someone who does the job before you leave your current one."
+    },
+    {
+      "id": "p01-a-14-s07",
+      "speaker": "Jess",
+      "text": "Do you really believe I could make the change?"
+    },
+    {
+      "id": "p01-a-14-s08",
+      "speaker": "Mina",
+      "text": "I do, but let's find out what the training and working hours are like."
+    },
+    {
+      "id": "p01-a-14-s09",
+      "speaker": "Jess",
+      "text": "Fair enough. I'll ask the bakery near my office if someone has time for a chat."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3b2e71d01f2f7aa8",
+      "lemma": "as",
+      "pos": "prep.",
+      "sense_zh": "作为，以某种身份",
+      "sentence_ids": [
+        "p01-a-14-s03"
+      ],
+      "forms": [
+        "as"
+      ],
+      "sense_id": "sense-staged-ox-3b2e71d01f2f7aa8-p01-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-58151779b94a14e3",
+      "lemma": "become",
+      "pos": "v.",
+      "sense_zh": "成为",
+      "sentence_ids": [
+        "p01-a-14-s04"
+      ],
+      "forms": [
+        "become"
+      ],
+      "sense_id": "sense-staged-ox-58151779b94a14e3-p01-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e9d0d75db9cc5da3",
+      "lemma": "career",
+      "pos": "n.",
+      "sense_zh": "职业生涯或职业方向",
+      "sentence_ids": [
+        "p01-a-14-s01"
+      ],
+      "forms": [
+        "career"
+      ],
+      "sense_id": "sense-staged-ox-e9d0d75db9cc5da3-p01-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6daabaf81120cca2",
+      "lemma": "business",
+      "pos": "n.",
+      "sense_zh": "企业或生意",
+      "sentence_ids": [
+        "p01-a-14-s04"
+      ],
+      "forms": [
+        "business"
+      ],
+      "sense_id": "sense-staged-ox-6daabaf81120cca2-p01-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-39c125ff1708ae3f",
+      "lemma": "believe",
+      "pos": "v.",
+      "sense_zh": "相信",
+      "sentence_ids": [
+        "p01-a-14-s07"
+      ],
+      "forms": [
+        "believe"
+      ],
+      "sense_id": "sense-staged-ox-39c125ff1708ae3f-p01-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5cb824cb2588f9f8",
+      "lemma": "be",
+      "pos": "v.",
+      "sense_zh": "是，成为某种身份的人",
+      "sentence_ids": [
+        "p01-a-14-s05"
+      ],
+      "forms": [
+        "be"
+      ],
+      "sense_id": "sense-staged-ox-5cb824cb2588f9f8-p01-a-14",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

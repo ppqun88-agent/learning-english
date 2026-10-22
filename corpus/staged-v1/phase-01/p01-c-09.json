@@ -1,0 +1,143 @@
+{
+  "id": "p01-c-09",
+  "title_zh": "把假期定在六月",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "summer-holiday-timing",
+    "label_zh": "选择暑期出游月份",
+    "goal_zh": "协调请假月份并决定是否先看航班"
+  },
+  "participants": [
+    "Ada",
+    "Leon"
+  ],
+  "context_zh": "两位伴侣在年初商量夏季出游计划。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-09-s01",
+      "speaker": "Ada",
+      "text": "It is only January, but should we choose our summer holiday dates now?"
+    },
+    {
+      "id": "p01-c-09-s02",
+      "speaker": "Leon",
+      "text": "Yes, I cannot take time off in July because of the shop opening."
+    },
+    {
+      "id": "p01-c-09-s03",
+      "speaker": "Ada",
+      "text": "Could we go in June instead?"
+    },
+    {
+      "id": "p01-c-09-s04",
+      "speaker": "Leon",
+      "text": "That works for me; would you rather fly somewhere or take the train?"
+    },
+    {
+      "id": "p01-c-09-s05",
+      "speaker": "Ada",
+      "text": "Let us compare the travel times first, then choose a place we can reach without losing a whole day."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-332057eec8ef7bd0",
+      "lemma": "fly",
+      "pos": "v.",
+      "sense_zh": "乘飞机旅行",
+      "sentence_ids": [
+        "p01-c-09-s04"
+      ],
+      "forms": [
+        "fly"
+      ],
+      "sense_id": "sense-staged-ox-332057eec8ef7bd0-p01-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-425981fa0c5a9590",
+      "lemma": "holiday",
+      "pos": "n.",
+      "sense_zh": "假期",
+      "sentence_ids": [
+        "p01-c-09-s01"
+      ],
+      "forms": [
+        "holiday"
+      ],
+      "sense_id": "sense-staged-ox-425981fa0c5a9590-p01-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b67b26386ca66e57",
+      "lemma": "July",
+      "pos": "n.",
+      "sense_zh": "七月",
+      "sentence_ids": [
+        "p01-c-09-s02"
+      ],
+      "forms": [
+        "July"
+      ],
+      "sense_id": "sense-staged-ox-b67b26386ca66e57-p01-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-903b10935dc5e46a",
+      "lemma": "June",
+      "pos": "n.",
+      "sense_zh": "六月",
+      "sentence_ids": [
+        "p01-c-09-s03"
+      ],
+      "forms": [
+        "June"
+      ],
+      "sense_id": "sense-staged-ox-903b10935dc5e46a-p01-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d7cc7060c29e9b93",
+      "lemma": "January",
+      "pos": "n.",
+      "sense_zh": "一月",
+      "sentence_ids": [
+        "p01-c-09-s01"
+      ],
+      "forms": [
+        "January"
+      ],
+      "sense_id": "sense-staged-ox-d7cc7060c29e9b93-p01-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-023534a5f9c70082",
+      "lemma": "go",
+      "pos": "v.",
+      "sense_zh": "去；前往",
+      "sentence_ids": [
+        "p01-c-09-s03"
+      ],
+      "forms": [
+        "go"
+      ],
+      "sense_id": "sense-staged-ox-023534a5f9c70082-p01-c-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

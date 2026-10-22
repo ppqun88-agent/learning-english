@@ -1,0 +1,179 @@
+{
+  "id": "p01-b-07",
+  "title_zh": "把标志做得容易辨认",
+  "topic_id": "work",
+  "scenario": {
+    "id": "small-company-logo-revision",
+    "label_zh": "修改小公司标志",
+    "goal_zh": "澄清图案和颜色需求并约定提供可比较的草图"
+  },
+  "participants": [
+    "Alex",
+    "Jules"
+  ],
+  "context_zh": "自行车维修公司的负责人查看设计师的标志草图，希望缩小后仍然清楚。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-07-s01",
+      "speaker": "Alex",
+      "text": "Can we look at the logo on your computer? It is hard to see on my phone."
+    },
+    {
+      "id": "p01-b-07-s02",
+      "speaker": "Jules",
+      "text": "Sure. Here is the larger version."
+    },
+    {
+      "id": "p01-b-07-s03",
+      "speaker": "Alex",
+      "text": "I like the shape, but there is too much detail inside the wheel."
+    },
+    {
+      "id": "p01-b-07-s04",
+      "speaker": "Jules",
+      "text": "I can draw a simpler wheel. Do you want to keep the green?"
+    },
+    {
+      "id": "p01-b-07-s05",
+      "speaker": "Alex",
+      "text": "Yes. That color is already on our vans. The company name needs to be easier to read, though."
+    },
+    {
+      "id": "p01-b-07-s06",
+      "speaker": "Jules",
+      "text": "Your original description asked for the name inside the wheel. Would you be happy with it underneath?"
+    },
+    {
+      "id": "p01-b-07-s07",
+      "speaker": "Alex",
+      "text": "Yes, if that makes it clearer on a small label."
+    },
+    {
+      "id": "p01-b-07-s08",
+      "speaker": "Jules",
+      "text": "Then I will create two versions, with the name underneath in different sizes. You can compare them tomorrow."
+    },
+    {
+      "id": "p01-b-07-s09",
+      "speaker": "Alex",
+      "text": "Perfect. Please show both at label size as well as full size."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9e9b765c4713ebff",
+      "lemma": "color",
+      "pos": "n.",
+      "sense_zh": "颜色",
+      "sentence_ids": [
+        "p01-b-07-s05"
+      ],
+      "forms": [
+        "color"
+      ],
+      "sense_id": "sense-staged-ox-9e9b765c4713ebff-p01-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3eb9c88bd0760ec4",
+      "lemma": "company",
+      "pos": "n.",
+      "sense_zh": "公司",
+      "sentence_ids": [
+        "p01-b-07-s05"
+      ],
+      "forms": [
+        "company"
+      ],
+      "sense_id": "sense-staged-ox-3eb9c88bd0760ec4-p01-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f37c193613f3df7",
+      "lemma": "computer",
+      "pos": "n.",
+      "sense_zh": "电脑",
+      "sentence_ids": [
+        "p01-b-07-s01"
+      ],
+      "forms": [
+        "computer"
+      ],
+      "sense_id": "sense-staged-ox-5f37c193613f3df7-p01-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-668c128a9ce3510d",
+      "lemma": "create",
+      "pos": "v.",
+      "sense_zh": "创作；制作",
+      "sentence_ids": [
+        "p01-b-07-s08"
+      ],
+      "forms": [
+        "create"
+      ],
+      "sense_id": "sense-staged-ox-668c128a9ce3510d-p01-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a214d8d7d433962",
+      "lemma": "draw",
+      "pos": "v.",
+      "sense_zh": "画",
+      "sentence_ids": [
+        "p01-b-07-s04"
+      ],
+      "forms": [
+        "draw"
+      ],
+      "sense_id": "sense-staged-ox-5a214d8d7d433962-p01-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c17d91c6a60e125",
+      "lemma": "detail",
+      "pos": "n.",
+      "sense_zh": "细节",
+      "sentence_ids": [
+        "p01-b-07-s03"
+      ],
+      "forms": [
+        "detail"
+      ],
+      "sense_id": "sense-staged-ox-0c17d91c6a60e125-p01-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e34042e0a7e84fc6",
+      "lemma": "description",
+      "pos": "n.",
+      "sense_zh": "描述",
+      "sentence_ids": [
+        "p01-b-07-s06"
+      ],
+      "forms": [
+        "description"
+      ],
+      "sense_id": "sense-staged-ox-e34042e0a7e84fc6-p01-b-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

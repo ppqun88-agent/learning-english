@@ -1,0 +1,158 @@
+{
+  "id": "p01-a-13",
+  "title_zh": "为社区博客约一场艺术访谈",
+  "topic_id": "work",
+  "scenario": {
+    "id": "artist-interview-plan",
+    "label_zh": "策划艺术家采访",
+    "goal_zh": "为社区博客安排艺术家访谈和作品拍摄。"
+  },
+  "participants": [
+    "Editor",
+    "Writer"
+  ],
+  "context_zh": "社区博客的编辑和撰稿人想报道一幅新壁画，需要确定采访内容并先获得拍摄许可。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-13-s01",
+      "speaker": "Editor",
+      "text": "The new mural is amazing. Do you know who painted it?"
+    },
+    {
+      "id": "p01-a-13-s02",
+      "speaker": "Writer",
+      "text": "A local artist called Rosa. She lives near the school."
+    },
+    {
+      "id": "p01-a-13-s03",
+      "speaker": "Editor",
+      "text": "Could you interview her for our blog?"
+    },
+    {
+      "id": "p01-a-13-s04",
+      "speaker": "Writer",
+      "text": "Yes. Should the article focus on the mural or her life?"
+    },
+    {
+      "id": "p01-a-13-s05",
+      "speaker": "Editor",
+      "text": "Start with the mural. I want readers who know nothing about art to feel welcome."
+    },
+    {
+      "id": "p01-a-13-s06",
+      "speaker": "Writer",
+      "text": "Can I take a camera, or does she prefer not to be photographed?"
+    },
+    {
+      "id": "p01-a-13-s07",
+      "speaker": "Editor",
+      "text": "Ask her when you arrange the interview. We can use a photo of the wall if she doesn't want to appear."
+    },
+    {
+      "id": "p01-a-13-s08",
+      "speaker": "Writer",
+      "text": "Good idea. I'll contact her today and send you an outline once she replies."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c12f7d046c602e7c",
+      "lemma": "art",
+      "pos": "n.",
+      "sense_zh": "艺术",
+      "sentence_ids": [
+        "p01-a-13-s05"
+      ],
+      "forms": [
+        "art"
+      ],
+      "sense_id": "sense-staged-ox-c12f7d046c602e7c-p01-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b3906c3f6fdc5811",
+      "lemma": "artist",
+      "pos": "n.",
+      "sense_zh": "艺术家",
+      "sentence_ids": [
+        "p01-a-13-s02"
+      ],
+      "forms": [
+        "artist"
+      ],
+      "sense_id": "sense-staged-ox-b3906c3f6fdc5811-p01-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d3ce1019848783d7",
+      "lemma": "article",
+      "pos": "n.",
+      "sense_zh": "文章",
+      "sentence_ids": [
+        "p01-a-13-s04"
+      ],
+      "forms": [
+        "article"
+      ],
+      "sense_id": "sense-staged-ox-d3ce1019848783d7-p01-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b9a30f114d01621",
+      "lemma": "blog",
+      "pos": "n.",
+      "sense_zh": "博客",
+      "sentence_ids": [
+        "p01-a-13-s03"
+      ],
+      "forms": [
+        "blog"
+      ],
+      "sense_id": "sense-staged-ox-7b9a30f114d01621-p01-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08d016a4da48acce",
+      "lemma": "camera",
+      "pos": "n.",
+      "sense_zh": "照相机",
+      "sentence_ids": [
+        "p01-a-13-s06"
+      ],
+      "forms": [
+        "camera"
+      ],
+      "sense_id": "sense-staged-ox-08d016a4da48acce-p01-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a7755f42b7e50537",
+      "lemma": "amazing",
+      "pos": "adj.",
+      "sense_zh": "令人惊叹的",
+      "sentence_ids": [
+        "p01-a-13-s01"
+      ],
+      "forms": [
+        "amazing"
+      ],
+      "sense_id": "sense-staged-ox-a7755f42b7e50537-p01-a-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

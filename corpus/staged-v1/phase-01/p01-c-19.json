@@ -1,0 +1,190 @@
+{
+  "id": "p01-c-19",
+  "title_zh": "为朋友挑一条围巾",
+  "topic_id": "services",
+  "scenario": {
+    "id": "scarf-gift-choice",
+    "label_zh": "挑选礼物围巾",
+    "goal_zh": "根据收礼人的衣服颜色选定围巾"
+  },
+  "participants": [
+    "Customer Jo",
+    "Assistant Finn"
+  ],
+  "context_zh": "顾客在英国服装店为朋友挑礼物，店员帮助比较颜色。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-19-s01",
+      "speaker": "Customer Jo",
+      "text": "I am looking for a scarf for my friend, but I only have a photo of her coat."
+    },
+    {
+      "id": "p01-c-19-s02",
+      "speaker": "Assistant Finn",
+      "text": "The grey one in the middle might work with that dark blue."
+    },
+    {
+      "id": "p01-c-19-s03",
+      "speaker": "Customer Jo",
+      "text": "That is a good idea; can you hold it next to the photo?"
+    },
+    {
+      "id": "p01-c-19-s04",
+      "speaker": "Assistant Finn",
+      "text": "Certainly; imagine it with the coat open so you can see the blue behind it."
+    },
+    {
+      "id": "p01-c-19-s05",
+      "speaker": "Customer Jo",
+      "text": "Yes, that is just what I wanted, not too bright."
+    },
+    {
+      "id": "p01-c-19-s06",
+      "speaker": "Assistant Finn",
+      "text": "I can wrap it as a gift at the till."
+    },
+    {
+      "id": "p01-c-19-s07",
+      "speaker": "Customer Jo",
+      "text": "Thank you; I will take it."
+    },
+    {
+      "id": "p01-c-19-s08",
+      "speaker": "Assistant Finn",
+      "text": "You are welcome; goodbye, and I hope your friend likes it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4bece689daf19ac4",
+      "lemma": "for",
+      "pos": "prep.",
+      "sense_zh": "给；为了（表示接受者）",
+      "sentence_ids": [
+        "p01-c-19-s01"
+      ],
+      "forms": [
+        "for"
+      ],
+      "sense_id": "sense-staged-ox-4bece689daf19ac4-p01-c-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-574ec7a33dc6f106",
+      "lemma": "goodbye",
+      "pos": "exclam.",
+      "sense_zh": "再见",
+      "sentence_ids": [
+        "p01-c-19-s08"
+      ],
+      "forms": [
+        "goodbye"
+      ],
+      "sense_id": "sense-staged-ox-574ec7a33dc6f106-p01-c-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e5503055737061c",
+      "lemma": "grey",
+      "pos": "adj.",
+      "sense_zh": "灰色的（英式拼写）",
+      "sentence_ids": [
+        "p01-c-19-s02"
+      ],
+      "forms": [
+        "grey"
+      ],
+      "sense_id": "sense-staged-ox-3e5503055737061c-p01-c-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b8821c2095a392a",
+      "lemma": "have",
+      "pos": "v.",
+      "sense_zh": "拥有",
+      "sentence_ids": [
+        "p01-c-19-s01"
+      ],
+      "forms": [
+        "have"
+      ],
+      "sense_id": "sense-staged-ox-7b8821c2095a392a-p01-c-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a710b2c39440dc43",
+      "lemma": "idea",
+      "pos": "n.",
+      "sense_zh": "主意；想法",
+      "sentence_ids": [
+        "p01-c-19-s03"
+      ],
+      "forms": [
+        "idea"
+      ],
+      "sense_id": "sense-staged-ox-a710b2c39440dc43-p01-c-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a992fc60d285348",
+      "lemma": "imagine",
+      "pos": "v.",
+      "sense_zh": "想象",
+      "sentence_ids": [
+        "p01-c-19-s04"
+      ],
+      "forms": [
+        "imagine"
+      ],
+      "sense_id": "sense-staged-ox-8a992fc60d285348-p01-c-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-477abd3a3ca51ce7",
+      "lemma": "in",
+      "pos": "prep.",
+      "sense_zh": "在……里",
+      "sentence_ids": [
+        "p01-c-19-s02"
+      ],
+      "forms": [
+        "in"
+      ],
+      "sense_id": "sense-staged-ox-477abd3a3ca51ce7-p01-c-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d8423961d471febf",
+      "lemma": "just",
+      "pos": "adv.",
+      "sense_zh": "正好；恰好",
+      "sentence_ids": [
+        "p01-c-19-s05"
+      ],
+      "forms": [
+        "just"
+      ],
+      "sense_id": "sense-staged-ox-d8423961d471febf-p01-c-19",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

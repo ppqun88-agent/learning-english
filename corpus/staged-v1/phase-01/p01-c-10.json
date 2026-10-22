@@ -1,0 +1,153 @@
+{
+  "id": "p01-c-10",
+  "title_zh": "到岛上旅馆之前",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "island-hotel-arrival",
+    "label_zh": "确认海岛旅馆到达方式",
+    "goal_zh": "核实码头步行距离、船程和客房楼层"
+  },
+  "participants": [
+    "Clara",
+    "Receptionist Dev"
+  ],
+  "context_zh": "旅客打电话给岛上的旅馆，确认抵达后如何搬运行李。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-10-s01",
+      "speaker": "Clara",
+      "text": "How far is your hotel from the ferry terminal?"
+    },
+    {
+      "id": "p01-c-10-s02",
+      "speaker": "Receptionist Dev",
+      "text": "About a kilometre, but we can collect you if you have heavy bags."
+    },
+    {
+      "id": "p01-c-10-s03",
+      "speaker": "Clara",
+      "text": "That would help; the boat takes an hour to reach the island, so we should arrive at two."
+    },
+    {
+      "id": "p01-c-10-s04",
+      "speaker": "Receptionist Dev",
+      "text": "I will arrange a pickup, and your room will be ready by then."
+    },
+    {
+      "id": "p01-c-10-s05",
+      "speaker": "Clara",
+      "text": "Our booking says the fourth floor; is there a lift?"
+    },
+    {
+      "id": "p01-c-10-s06",
+      "speaker": "Receptionist Dev",
+      "text": "Yes, the driver will bring your bags inside, and the lift is beside reception."
+    },
+    {
+      "id": "p01-c-10-s07",
+      "speaker": "Clara",
+      "text": "Perfect, I will call if the boat is delayed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d6693a374fdb38e6",
+      "lemma": "hotel",
+      "pos": "n.",
+      "sense_zh": "旅馆",
+      "sentence_ids": [
+        "p01-c-10-s01"
+      ],
+      "forms": [
+        "hotel"
+      ],
+      "sense_id": "sense-staged-ox-d6693a374fdb38e6-p01-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-42a90c9f236cb89d",
+      "lemma": "island",
+      "pos": "n.",
+      "sense_zh": "岛屿",
+      "sentence_ids": [
+        "p01-c-10-s03"
+      ],
+      "forms": [
+        "island"
+      ],
+      "sense_id": "sense-staged-ox-42a90c9f236cb89d-p01-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-727cc41941c0243a",
+      "lemma": "hour",
+      "pos": "n.",
+      "sense_zh": "小时",
+      "sentence_ids": [
+        "p01-c-10-s03"
+      ],
+      "forms": [
+        "hour"
+      ],
+      "sense_id": "sense-staged-ox-727cc41941c0243a-p01-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0a8fc3f0e65e62b",
+      "lemma": "kilometre",
+      "pos": "n.",
+      "sense_zh": "千米",
+      "sentence_ids": [
+        "p01-c-10-s02"
+      ],
+      "forms": [
+        "kilometre"
+      ],
+      "sense_id": "sense-staged-ox-b0a8fc3f0e65e62b-p01-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d4ee7052ebe28cfc",
+      "lemma": "from",
+      "pos": "prep.",
+      "sense_zh": "距；离",
+      "sentence_ids": [
+        "p01-c-10-s01"
+      ],
+      "forms": [
+        "from"
+      ],
+      "sense_id": "sense-staged-ox-d4ee7052ebe28cfc-p01-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-492a852645653d31",
+      "lemma": "fourth",
+      "pos": "number",
+      "sense_zh": "第四",
+      "sentence_ids": [
+        "p01-c-10-s05"
+      ],
+      "forms": [
+        "fourth"
+      ],
+      "sense_id": "sense-staged-ox-492a852645653d31-p01-c-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

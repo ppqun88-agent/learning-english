@@ -1,0 +1,184 @@
+{
+  "id": "p01-b-09",
+  "title_zh": "为社区音乐会摆座位",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "community-concert-seating",
+    "label_zh": "安排音乐会座位和散场",
+    "goal_zh": "核对座位布置、观众人数和活动后的收尾职责"
+  },
+  "participants": [
+    "Tessa",
+    "Mo"
+  ],
+  "context_zh": "两位志愿者在社区音乐会开始前检查座位安排。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-09-s01",
+      "speaker": "Tessa",
+      "text": "We have sold eighty tickets for the concert. Have we put out enough chairs?"
+    },
+    {
+      "id": "p01-b-09-s02",
+      "speaker": "Mo",
+      "text": "Yes, but we cannot use this plan. It blocks the side exit."
+    },
+    {
+      "id": "p01-b-09-s03",
+      "speaker": "Tessa",
+      "text": "Could we take one chair out of each row and add a row at the back?"
+    },
+    {
+      "id": "p01-b-09-s04",
+      "speaker": "Mo",
+      "text": "That should leave the side clear. I will measure the space before we move anything."
+    },
+    {
+      "id": "p01-b-09-s05",
+      "speaker": "Tessa",
+      "text": "Good. We need a clear path from every seat."
+    },
+    {
+      "id": "p01-b-09-s06",
+      "speaker": "Mo",
+      "text": "Where will the volunteers sit?"
+    },
+    {
+      "id": "p01-b-09-s07",
+      "speaker": "Tessa",
+      "text": "There are four extra chairs by the sound desk. Everybody helping tonight is on this list."
+    },
+    {
+      "id": "p01-b-09-s08",
+      "speaker": "Mo",
+      "text": "All right. And when does the event end? We need time to stack the chairs."
+    },
+    {
+      "id": "p01-b-09-s09",
+      "speaker": "Tessa",
+      "text": "The music finishes at nine. The hall is ours until ten, so we have an hour to clear up."
+    },
+    {
+      "id": "p01-b-09-s10",
+      "speaker": "Mo",
+      "text": "That works. I will start by checking the back row."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-822373177f62039b",
+      "lemma": "concert",
+      "pos": "n.",
+      "sense_zh": "音乐会",
+      "sentence_ids": [
+        "p01-b-09-s01"
+      ],
+      "forms": [
+        "concert"
+      ],
+      "sense_id": "sense-staged-ox-822373177f62039b-p01-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0eef00ed17798106",
+      "lemma": "event",
+      "pos": "n.",
+      "sense_zh": "有组织的活动",
+      "sentence_ids": [
+        "p01-b-09-s08"
+      ],
+      "forms": [
+        "event"
+      ],
+      "sense_id": "sense-staged-ox-0eef00ed17798106-p01-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bee81621cf462242",
+      "lemma": "end",
+      "pos": "v.",
+      "sense_zh": "结束",
+      "sentence_ids": [
+        "p01-b-09-s08"
+      ],
+      "forms": [
+        "end"
+      ],
+      "sense_id": "sense-staged-ox-bee81621cf462242-p01-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-31849358dd1ca716",
+      "lemma": "everybody",
+      "pos": "pron.",
+      "sense_zh": "所有人",
+      "sentence_ids": [
+        "p01-b-09-s07"
+      ],
+      "forms": [
+        "everybody"
+      ],
+      "sense_id": "sense-staged-ox-31849358dd1ca716-p01-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eee737092ecba7c7",
+      "lemma": "every",
+      "pos": "det.",
+      "sense_zh": "每一个",
+      "sentence_ids": [
+        "p01-b-09-s05"
+      ],
+      "forms": [
+        "every"
+      ],
+      "sense_id": "sense-staged-ox-eee737092ecba7c7-p01-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ecef0be147eb4b82",
+      "lemma": "each",
+      "pos": "det.",
+      "sense_zh": "每一个",
+      "sentence_ids": [
+        "p01-b-09-s03"
+      ],
+      "forms": [
+        "each"
+      ],
+      "sense_id": "sense-staged-ox-ecef0be147eb4b82-p01-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8e6d152899891f29",
+      "lemma": "eighty",
+      "pos": "number",
+      "sense_zh": "八十",
+      "sentence_ids": [
+        "p01-b-09-s01"
+      ],
+      "forms": [
+        "eighty"
+      ],
+      "sense_id": "sense-staged-ox-8e6d152899891f29-p01-b-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

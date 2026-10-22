@@ -1,0 +1,142 @@
+{
+  "id": "p01-a-12",
+  "title_zh": "把短片开头剪得更紧凑",
+  "topic_id": "work",
+  "scenario": {
+    "id": "short-film-feedback",
+    "label_zh": "根据反馈调整影片开头",
+    "goal_zh": "剪辑者根据试映反馈调整短片开头。"
+  },
+  "participants": [
+    "Alex",
+    "Drew"
+  ],
+  "context_zh": "剪辑者请同事试看短片，同事说明注意力下降的原因，两人确定下一版的修改方向。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-12-s01",
+      "speaker": "Alex",
+      "text": "Does the beginning feel too slow to you?"
+    },
+    {
+      "id": "p01-a-12-s02",
+      "speaker": "Drew",
+      "text": "I was bored before anyone even spoke."
+    },
+    {
+      "id": "p01-a-12-s03",
+      "speaker": "Alex",
+      "text": "I worried about that. I wanted to show where the story takes place."
+    },
+    {
+      "id": "p01-a-12-s04",
+      "speaker": "Drew",
+      "text": "The street shots are lovely, but five in a row become boring."
+    },
+    {
+      "id": "p01-a-12-s05",
+      "speaker": "Alex",
+      "text": "So should I start with the action, when the cyclist drops the bag?"
+    },
+    {
+      "id": "p01-a-12-s06",
+      "speaker": "Drew",
+      "text": "Yes. We can learn about the place while we watch him."
+    },
+    {
+      "id": "p01-a-12-s07",
+      "speaker": "Alex",
+      "text": "Okay. I'll cut the first minute, then we can watch it again."
+    },
+    {
+      "id": "p01-a-12-s08",
+      "speaker": "Drew",
+      "text": "Sounds good. Keep the shot of the unattended bike at the end, though."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1cf4dde809681bdb",
+      "lemma": "action",
+      "pos": "n.",
+      "sense_zh": "故事或影片中发生的动作与事件",
+      "sentence_ids": [
+        "p01-a-12-s05"
+      ],
+      "forms": [
+        "action"
+      ],
+      "sense_id": "sense-staged-ox-1cf4dde809681bdb-p01-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a550351e0571568",
+      "lemma": "boring",
+      "pos": "adj.",
+      "sense_zh": "令人感到无聊的",
+      "sentence_ids": [
+        "p01-a-12-s04"
+      ],
+      "forms": [
+        "boring"
+      ],
+      "sense_id": "sense-staged-ox-2a550351e0571568-p01-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-093deaa39c13b915",
+      "lemma": "bored",
+      "pos": "adj.",
+      "sense_zh": "感到无聊的",
+      "sentence_ids": [
+        "p01-a-12-s02"
+      ],
+      "forms": [
+        "bored"
+      ],
+      "sense_id": "sense-staged-ox-093deaa39c13b915-p01-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41a59cd517038ea4",
+      "lemma": "beginning",
+      "pos": "n.",
+      "sense_zh": "开头",
+      "sentence_ids": [
+        "p01-a-12-s01"
+      ],
+      "forms": [
+        "beginning"
+      ],
+      "sense_id": "sense-staged-ox-41a59cd517038ea4-p01-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b3f4a1c5b65cca1a",
+      "lemma": "again",
+      "pos": "adv.",
+      "sense_zh": "再一次",
+      "sentence_ids": [
+        "p01-a-12-s07"
+      ],
+      "forms": [
+        "again"
+      ],
+      "sense_id": "sense-staged-ox-b3f4a1c5b65cca1a-p01-a-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

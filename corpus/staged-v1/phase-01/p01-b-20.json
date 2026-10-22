@@ -1,0 +1,169 @@
+{
+  "id": "p01-b-20",
+  "title_zh": "给不同早餐习惯共用一张购物单",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-breakfast-planning",
+    "label_zh": "商量共享早餐采购",
+    "goal_zh": "兼顾不同早餐偏好并确定共用与自用食材"
+  },
+  "participants": [
+    "Sam",
+    "Nell"
+  ],
+  "context_zh": "室友准备采购，想一起承担基础食材费用，但不强求早餐完全一样。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-20-s01",
+      "speaker": "Sam",
+      "text": "Can we discuss the shopping list? Everyone seems to want a different breakfast."
+    },
+    {
+      "id": "p01-b-20-s02",
+      "speaker": "Nell",
+      "text": "I know. I want a more varied diet, but I do not want three separate shopping trips."
+    },
+    {
+      "id": "p01-b-20-s03",
+      "speaker": "Sam",
+      "text": "We can share bread and fruit, then buy our own toppings."
+    },
+    {
+      "id": "p01-b-20-s04",
+      "speaker": "Nell",
+      "text": "That works. I usually have one egg on toast after my morning exercise."
+    },
+    {
+      "id": "p01-b-20-s05",
+      "speaker": "Sam",
+      "text": "I prefer toast with butter. Is it all right if I keep a little in the fridge?"
+    },
+    {
+      "id": "p01-b-20-s06",
+      "speaker": "Nell",
+      "text": "Of course. I am not trying to remove all the fat from our food. I just want more choice than cereal."
+    },
+    {
+      "id": "p01-b-20-s07",
+      "speaker": "Sam",
+      "text": "Good. Bread and fruit go on the shared list, and we can pay for the other things separately."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6b7cd69d4a395cda",
+      "lemma": "diet",
+      "pos": "n.",
+      "sense_zh": "日常饮食",
+      "sentence_ids": [
+        "p01-b-20-s02"
+      ],
+      "forms": [
+        "diet"
+      ],
+      "sense_id": "sense-staged-ox-6b7cd69d4a395cda-p01-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-350d0a6c0ed7f7e2",
+      "lemma": "fat",
+      "pos": "n.",
+      "sense_zh": "脂肪",
+      "sentence_ids": [
+        "p01-b-20-s06"
+      ],
+      "forms": [
+        "fat"
+      ],
+      "sense_id": "sense-staged-ox-350d0a6c0ed7f7e2-p01-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-42713c819c1510d2",
+      "lemma": "exercise",
+      "pos": "n.",
+      "sense_zh": "体育锻炼",
+      "sentence_ids": [
+        "p01-b-20-s04"
+      ],
+      "forms": [
+        "exercise"
+      ],
+      "sense_id": "sense-staged-ox-42713c819c1510d2-p01-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9ba4628d7f8f15d8",
+      "lemma": "discuss",
+      "pos": "v.",
+      "sense_zh": "讨论",
+      "sentence_ids": [
+        "p01-b-20-s01"
+      ],
+      "forms": [
+        "discuss"
+      ],
+      "sense_id": "sense-staged-ox-9ba4628d7f8f15d8-p01-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b1e86a6b10bb72de",
+      "lemma": "different",
+      "pos": "adj.",
+      "sense_zh": "不同的",
+      "sentence_ids": [
+        "p01-b-20-s01"
+      ],
+      "forms": [
+        "different"
+      ],
+      "sense_id": "sense-staged-ox-b1e86a6b10bb72de-p01-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c71bf90108890a81",
+      "lemma": "everyone",
+      "pos": "pron.",
+      "sense_zh": "每个人",
+      "sentence_ids": [
+        "p01-b-20-s01"
+      ],
+      "forms": [
+        "everyone"
+      ],
+      "sense_id": "sense-staged-ox-c71bf90108890a81-p01-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ddd1a0d07d1c70a0",
+      "lemma": "egg",
+      "pos": "n.",
+      "sense_zh": "鸡蛋",
+      "sentence_ids": [
+        "p01-b-20-s04"
+      ],
+      "forms": [
+        "egg"
+      ],
+      "sense_id": "sense-staged-ox-ddd1a0d07d1c70a0-p01-b-20",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

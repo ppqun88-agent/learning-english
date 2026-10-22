@@ -1,0 +1,200 @@
+{
+  "id": "p01-a-15",
+  "title_zh": "约好一起听现场音乐",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "live-music-evening",
+    "label_zh": "安排现场音乐之夜",
+    "goal_zh": "朋友相约听现场音乐并核对场地与购买专辑安排。"
+  },
+  "participants": [
+    "Finn",
+    "Ruby"
+  ],
+  "context_zh": "两位朋友商量去酒吧听一支喜欢的乐队，也确认同行的人、饮品和买唱片的安排。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-15-s01",
+      "speaker": "Finn",
+      "text": "Our favourite band is playing at the Lantern on Friday."
+    },
+    {
+      "id": "p01-a-15-s02",
+      "speaker": "Ruby",
+      "text": "Is that the bar near the station?"
+    },
+    {
+      "id": "p01-a-15-s03",
+      "speaker": "Finn",
+      "text": "Yes. I've heard the sound is awesome since they changed the speakers."
+    },
+    {
+      "id": "p01-a-15-s04",
+      "speaker": "Ruby",
+      "text": "Can I bring my boyfriend? He likes their music too."
+    },
+    {
+      "id": "p01-a-15-s05",
+      "speaker": "Finn",
+      "text": "Of course. Does he drink beer? They have a new local one."
+    },
+    {
+      "id": "p01-a-15-s06",
+      "speaker": "Ruby",
+      "text": "He does, but I'm driving. I'll have something without alcohol."
+    },
+    {
+      "id": "p01-a-15-s07",
+      "speaker": "Finn",
+      "text": "No problem. They also sell soft drinks."
+    },
+    {
+      "id": "p01-a-15-s08",
+      "speaker": "Ruby",
+      "text": "Are they selling the new CD at the show?"
+    },
+    {
+      "id": "p01-a-15-s09",
+      "speaker": "Finn",
+      "text": "I think so, but I'll check with the venue. Shall we meet outside at seven?"
+    },
+    {
+      "id": "p01-a-15-s10",
+      "speaker": "Ruby",
+      "text": "Seven works. See you there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c23c7787568701e4",
+      "lemma": "band",
+      "pos": "n.",
+      "sense_zh": "乐队",
+      "sentence_ids": [
+        "p01-a-15-s01"
+      ],
+      "forms": [
+        "band"
+      ],
+      "sense_id": "sense-staged-ox-c23c7787568701e4-p01-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-287d74a3a3827aa2",
+      "lemma": "bar",
+      "pos": "n.",
+      "sense_zh": "酒吧",
+      "sentence_ids": [
+        "p01-a-15-s02"
+      ],
+      "forms": [
+        "bar"
+      ],
+      "sense_id": "sense-staged-ox-287d74a3a3827aa2-p01-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4857034679f7c075",
+      "lemma": "beer",
+      "pos": "n.",
+      "sense_zh": "啤酒",
+      "sentence_ids": [
+        "p01-a-15-s05"
+      ],
+      "forms": [
+        "beer"
+      ],
+      "sense_id": "sense-staged-ox-4857034679f7c075-p01-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b136747557e565cd",
+      "lemma": "CD",
+      "pos": "n.",
+      "sense_zh": "光盘；此处指音乐唱片",
+      "sentence_ids": [
+        "p01-a-15-s08"
+      ],
+      "forms": [
+        "CD"
+      ],
+      "sense_id": "sense-staged-ox-b136747557e565cd-p01-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-27ed588dda316c0a",
+      "lemma": "bring",
+      "pos": "v.",
+      "sense_zh": "带来，带某人同行",
+      "sentence_ids": [
+        "p01-a-15-s04"
+      ],
+      "forms": [
+        "bring"
+      ],
+      "sense_id": "sense-staged-ox-27ed588dda316c0a-p01-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea3b0fb4ce6f4fa0",
+      "lemma": "boyfriend",
+      "pos": "n.",
+      "sense_zh": "男朋友",
+      "sentence_ids": [
+        "p01-a-15-s04"
+      ],
+      "forms": [
+        "boyfriend"
+      ],
+      "sense_id": "sense-staged-ox-ea3b0fb4ce6f4fa0-p01-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c0f6cf9adb11a457",
+      "lemma": "also",
+      "pos": "adv.",
+      "sense_zh": "也",
+      "sentence_ids": [
+        "p01-a-15-s07"
+      ],
+      "forms": [
+        "also"
+      ],
+      "sense_id": "sense-staged-ox-c0f6cf9adb11a457-p01-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3a0f12e010ee3628",
+      "lemma": "awesome",
+      "pos": "adj.",
+      "sense_zh": "极好的，令人赞叹的",
+      "sentence_ids": [
+        "p01-a-15-s03"
+      ],
+      "forms": [
+        "awesome"
+      ],
+      "sense_id": "sense-staged-ox-3a0f12e010ee3628-p01-a-15",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

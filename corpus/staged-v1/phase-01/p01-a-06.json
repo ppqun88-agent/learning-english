@@ -1,0 +1,163 @@
+{
+  "id": "p01-a-06",
+  "title_zh": "改正多收的咖啡钱",
+  "topic_id": "services",
+  "scenario": {
+    "id": "cafe-bill-correction",
+    "label_zh": "核对并更正餐饮账单",
+    "goal_zh": "发现账单错误后核实费用与付款方式。"
+  },
+  "participants": [
+    "Customer",
+    "Server"
+  ],
+  "context_zh": "顾客发现账单上多算了一杯咖啡，服务员核对后更正金额，双方平静地完成付款。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-06-s01",
+      "speaker": "Customer",
+      "text": "Excuse me, I think there's a mistake on my bill."
+    },
+    {
+      "id": "p01-a-06-s02",
+      "speaker": "Server",
+      "text": "Let me see. We charged you for two coffees, but you only had one."
+    },
+    {
+      "id": "p01-a-06-s03",
+      "speaker": "Customer",
+      "text": "Could you change it? I know it is only a dollar, but every cent counts."
+    },
+    {
+      "id": "p01-a-06-s04",
+      "speaker": "Server",
+      "text": "Of course. The correct total is seven dollars."
+    },
+    {
+      "id": "p01-a-06-s05",
+      "speaker": "Customer",
+      "text": "Thanks. I wasn't angry with you; I just couldn't get anyone's attention."
+    },
+    {
+      "id": "p01-a-06-s06",
+      "speaker": "Server",
+      "text": "You shouldn't have had to wait so long for an answer. I'm sorry."
+    },
+    {
+      "id": "p01-a-06-s07",
+      "speaker": "Customer",
+      "text": "Can I pay by card?"
+    },
+    {
+      "id": "p01-a-06-s08",
+      "speaker": "Server",
+      "text": "Yes. Tap it here."
+    },
+    {
+      "id": "p01-a-06-s09",
+      "speaker": "Customer",
+      "text": "All done. Thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c5df93e55e1ecc9e",
+      "lemma": "bill",
+      "pos": "n.",
+      "sense_zh": "账单",
+      "sentence_ids": [
+        "p01-a-06-s01"
+      ],
+      "forms": [
+        "bill"
+      ],
+      "sense_id": "sense-staged-ox-c5df93e55e1ecc9e-p01-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-27418fe377c2a916",
+      "lemma": "cent",
+      "pos": "n.",
+      "sense_zh": "分，货币单位",
+      "sentence_ids": [
+        "p01-a-06-s03"
+      ],
+      "forms": [
+        "cent"
+      ],
+      "sense_id": "sense-staged-ox-27418fe377c2a916-p01-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2812a9b419cf6f6d",
+      "lemma": "card",
+      "pos": "n.",
+      "sense_zh": "用于付款的银行卡",
+      "sentence_ids": [
+        "p01-a-06-s07"
+      ],
+      "forms": [
+        "card"
+      ],
+      "sense_id": "sense-staged-ox-2812a9b419cf6f6d-p01-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-108edd22fbbe36bb",
+      "lemma": "answer",
+      "pos": "n.",
+      "sense_zh": "答复",
+      "sentence_ids": [
+        "p01-a-06-s06"
+      ],
+      "forms": [
+        "answer"
+      ],
+      "sense_id": "sense-staged-ox-108edd22fbbe36bb-p01-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1fd0149ed3817bc5",
+      "lemma": "change",
+      "pos": "v.",
+      "sense_zh": "更改",
+      "sentence_ids": [
+        "p01-a-06-s03"
+      ],
+      "forms": [
+        "change"
+      ],
+      "sense_id": "sense-staged-ox-1fd0149ed3817bc5-p01-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0d22702b05b2be46",
+      "lemma": "angry",
+      "pos": "adj.",
+      "sense_zh": "生气的",
+      "sentence_ids": [
+        "p01-a-06-s05"
+      ],
+      "forms": [
+        "angry"
+      ],
+      "sense_id": "sense-staged-ox-0d22702b05b2be46-p01-a-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

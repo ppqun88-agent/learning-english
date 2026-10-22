@@ -1,0 +1,111 @@
+{
+  "id": "p01-a-18",
+  "title_zh": "找到介绍城市历史的展厅",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "museum-history-room",
+    "label_zh": "询问博物馆展览位置",
+    "goal_zh": "向博物馆工作人员询问地方历史展览与资料。"
+  },
+  "participants": [
+    "Visitor",
+    "Museum guide"
+  ],
+  "context_zh": "一位游客拿着介绍某座城市历史的书，想看对应时期的展品，工作人员为她指路。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-18-s01",
+      "speaker": "Visitor",
+      "text": "This book says the city became the capital in the nineteenth century. Which room covers that period?"
+    },
+    {
+      "id": "p01-a-18-s02",
+      "speaker": "Museum guide",
+      "text": "Room four, upstairs. There is a model of the old city centre there."
+    },
+    {
+      "id": "p01-a-18-s03",
+      "speaker": "Visitor",
+      "text": "Lovely. Does it show the street where the palace stood?"
+    },
+    {
+      "id": "p01-a-18-s04",
+      "speaker": "Museum guide",
+      "text": "Yes. The model has a button beside each landmark. Press one to hear its story."
+    },
+    {
+      "id": "p01-a-18-s05",
+      "speaker": "Visitor",
+      "text": "That sounds helpful. I'll start there, thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-88fce2fb19918101",
+      "lemma": "centre",
+      "pos": "n.",
+      "sense_zh": "中心区域；英式拼写",
+      "sentence_ids": [
+        "p01-a-18-s02"
+      ],
+      "forms": [
+        "centre"
+      ],
+      "sense_id": "sense-staged-ox-88fce2fb19918101-p01-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d5ddf1be9559e28",
+      "lemma": "century",
+      "pos": "n.",
+      "sense_zh": "世纪，一百年",
+      "sentence_ids": [
+        "p01-a-18-s01"
+      ],
+      "forms": [
+        "century"
+      ],
+      "sense_id": "sense-staged-ox-1d5ddf1be9559e28-p01-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-50fc09ed71db3f3c",
+      "lemma": "capital",
+      "pos": "n.",
+      "sense_zh": "首都",
+      "sentence_ids": [
+        "p01-a-18-s01"
+      ],
+      "forms": [
+        "capital"
+      ],
+      "sense_id": "sense-staged-ox-50fc09ed71db3f3c-p01-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eebc63cca7db6010",
+      "lemma": "book",
+      "pos": "n.",
+      "sense_zh": "书",
+      "sentence_ids": [
+        "p01-a-18-s01"
+      ],
+      "forms": [
+        "book"
+      ],
+      "sense_id": "sense-staged-ox-eebc63cca7db6010-p01-a-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

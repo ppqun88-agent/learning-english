@@ -1,0 +1,195 @@
+{
+  "id": "p01-b-11",
+  "title_zh": "准时到医院的路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "hospital-journey-route",
+    "label_zh": "询问医院交通路线",
+    "goal_zh": "比较开车与公交并确认下车位置"
+  },
+  "participants": [
+    "Asha",
+    "Rob"
+  ],
+  "context_zh": "酒店客人要去市医院探望亲属，向熟悉当地路线的工作人员问路。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-11-s01",
+      "speaker": "Asha",
+      "text": "How far is the hospital from here? I need to be there by nine."
+    },
+    {
+      "id": "p01-b-11-s02",
+      "speaker": "Rob",
+      "text": "It is on the other side of the city. Were you planning to drive?"
+    },
+    {
+      "id": "p01-b-11-s03",
+      "speaker": "Asha",
+      "text": "I could, but I would rather avoid the morning traffic."
+    },
+    {
+      "id": "p01-b-11-s04",
+      "speaker": "Rob",
+      "text": "The number eleven bus has its own lane for most of the way. It is usually a fast trip."
+    },
+    {
+      "id": "p01-b-11-s05",
+      "speaker": "Asha",
+      "text": "Where do I catch it?"
+    },
+    {
+      "id": "p01-b-11-s06",
+      "speaker": "Rob",
+      "text": "Walk down this road to the library. The stop is just outside, on this side."
+    },
+    {
+      "id": "p01-b-11-s07",
+      "speaker": "Asha",
+      "text": "Does it stop at the main hospital entrance?"
+    },
+    {
+      "id": "p01-b-11-s08",
+      "speaker": "Rob",
+      "text": "No, at the east entrance. From there, follow the signs to reception."
+    },
+    {
+      "id": "p01-b-11-s09",
+      "speaker": "Asha",
+      "text": "Thanks. I will leave early so I have time to find the right building."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0750b2a38ed74dc1",
+      "lemma": "city",
+      "pos": "n.",
+      "sense_zh": "城市",
+      "sentence_ids": [
+        "p01-b-11-s02"
+      ],
+      "forms": [
+        "city"
+      ],
+      "sense_id": "sense-staged-ox-0750b2a38ed74dc1-p01-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df28db334394e6be",
+      "lemma": "east",
+      "pos": "adj.",
+      "sense_zh": "东面的",
+      "sentence_ids": [
+        "p01-b-11-s08"
+      ],
+      "forms": [
+        "east"
+      ],
+      "sense_id": "sense-staged-ox-df28db334394e6be-p01-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0d3381280bbb4681",
+      "lemma": "far",
+      "pos": "adv.",
+      "sense_zh": "距离远",
+      "sentence_ids": [
+        "p01-b-11-s01"
+      ],
+      "forms": [
+        "far"
+      ],
+      "sense_id": "sense-staged-ox-0d3381280bbb4681-p01-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70218d3095218ef9",
+      "lemma": "down",
+      "pos": "prep.",
+      "sense_zh": "沿着",
+      "sentence_ids": [
+        "p01-b-11-s06"
+      ],
+      "forms": [
+        "down"
+      ],
+      "sense_id": "sense-staged-ox-70218d3095218ef9-p01-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2824a1066b957a8e",
+      "lemma": "early",
+      "pos": "adv.",
+      "sense_zh": "提早",
+      "sentence_ids": [
+        "p01-b-11-s09"
+      ],
+      "forms": [
+        "early"
+      ],
+      "sense_id": "sense-staged-ox-2824a1066b957a8e-p01-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e7c642b635939e33",
+      "lemma": "drive",
+      "pos": "v.",
+      "sense_zh": "开车",
+      "sentence_ids": [
+        "p01-b-11-s02"
+      ],
+      "forms": [
+        "drive"
+      ],
+      "sense_id": "sense-staged-ox-e7c642b635939e33-p01-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-79376a2784acf1ad",
+      "lemma": "eleven",
+      "pos": "number",
+      "sense_zh": "十一",
+      "sentence_ids": [
+        "p01-b-11-s04"
+      ],
+      "forms": [
+        "eleven"
+      ],
+      "sense_id": "sense-staged-ox-79376a2784acf1ad-p01-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bde3c1fb50a05528",
+      "lemma": "fast",
+      "pos": "adj.",
+      "sense_zh": "快速的",
+      "sentence_ids": [
+        "p01-b-11-s04"
+      ],
+      "forms": [
+        "fast"
+      ],
+      "sense_id": "sense-staged-ox-bde3c1fb50a05528-p01-b-11",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

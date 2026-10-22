@@ -1,0 +1,148 @@
+{
+  "id": "p01-c-06",
+  "title_zh": "在小院里种什么",
+  "topic_id": "home",
+  "scenario": {
+    "id": "small-garden-planting",
+    "label_zh": "选择小院种植物",
+    "goal_zh": "根据光照与围墙高度选定种植位置"
+  },
+  "participants": [
+    "Arun",
+    "Beth"
+  ],
+  "context_zh": "刚搬家的两人商量怎样利用小院里的空花坛。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-06-s01",
+      "speaker": "Arun",
+      "text": "Now that we have a house with a garden, I would love to grow something."
+    },
+    {
+      "id": "p01-c-06-s02",
+      "speaker": "Beth",
+      "text": "The wall is quite high, so that corner gets very little sun."
+    },
+    {
+      "id": "p01-c-06-s03",
+      "speaker": "Arun",
+      "text": "What about the space by the kitchen window?"
+    },
+    {
+      "id": "p01-c-06-s04",
+      "speaker": "Beth",
+      "text": "That gets plenty of light; we could put a flower bed there."
+    },
+    {
+      "id": "p01-c-06-s05",
+      "speaker": "Arun",
+      "text": "I would like something with green leaves all year as well."
+    },
+    {
+      "id": "p01-c-06-s06",
+      "speaker": "Beth",
+      "text": "Let us measure that sunny space and ask at the garden centre before we buy anything."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ee503e5798dbc4e8",
+      "lemma": "garden",
+      "pos": "n.",
+      "sense_zh": "花园",
+      "sentence_ids": [
+        "p01-c-06-s01"
+      ],
+      "forms": [
+        "garden"
+      ],
+      "sense_id": "sense-staged-ox-ee503e5798dbc4e8-p01-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dd0fa4e77029f85b",
+      "lemma": "flower",
+      "pos": "n.",
+      "sense_zh": "花",
+      "sentence_ids": [
+        "p01-c-06-s04"
+      ],
+      "forms": [
+        "flower"
+      ],
+      "sense_id": "sense-staged-ox-dd0fa4e77029f85b-p01-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8aea87c7f44124a4",
+      "lemma": "grow",
+      "pos": "v.",
+      "sense_zh": "种植",
+      "sentence_ids": [
+        "p01-c-06-s01"
+      ],
+      "forms": [
+        "grow"
+      ],
+      "sense_id": "sense-staged-ox-8aea87c7f44124a4-p01-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c9de35e9c60d461",
+      "lemma": "green",
+      "pos": "adj.",
+      "sense_zh": "绿色的",
+      "sentence_ids": [
+        "p01-c-06-s05"
+      ],
+      "forms": [
+        "green"
+      ],
+      "sense_id": "sense-staged-ox-7c9de35e9c60d461-p01-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ef7413a2ded3f3b",
+      "lemma": "high",
+      "pos": "adj.",
+      "sense_zh": "高的",
+      "sentence_ids": [
+        "p01-c-06-s02"
+      ],
+      "forms": [
+        "high"
+      ],
+      "sense_id": "sense-staged-ox-3ef7413a2ded3f3b-p01-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-59e63a5ccb4a0351",
+      "lemma": "house",
+      "pos": "n.",
+      "sense_zh": "房屋",
+      "sentence_ids": [
+        "p01-c-06-s01"
+      ],
+      "forms": [
+        "house"
+      ],
+      "sense_id": "sense-staged-ox-59e63a5ccb4a0351-p01-c-06",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

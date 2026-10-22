@@ -1,0 +1,234 @@
+{
+  "id": "p01-a-05",
+  "title_zh": "在咖啡馆挑一份点心",
+  "topic_id": "food",
+  "scenario": {
+    "id": "cafe-snack-order",
+    "label_zh": "询问并点购点心",
+    "goal_zh": "询问甜点口味和配料，完成简餐点单。"
+  },
+  "participants": [
+    "Customer",
+    "Server"
+  ],
+  "context_zh": "顾客第一次来到一家咖啡馆，想选水果、饮料和一份蛋糕，并询问配料。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-05-s01",
+      "speaker": "Customer",
+      "text": "Is this the cafe that makes its own cake?"
+    },
+    {
+      "id": "p01-a-05-s02",
+      "speaker": "Server",
+      "text": "It is. Today we have chocolate or carrot cake."
+    },
+    {
+      "id": "p01-a-05-s03",
+      "speaker": "Customer",
+      "text": "Does the carrot one contain any butter?"
+    },
+    {
+      "id": "p01-a-05-s04",
+      "speaker": "Server",
+      "text": "Yes. The chocolate one is made with oil instead."
+    },
+    {
+      "id": "p01-a-05-s05",
+      "speaker": "Customer",
+      "text": "I'll have a slice of that and an apple, please."
+    },
+    {
+      "id": "p01-a-05-s06",
+      "speaker": "Server",
+      "text": "Certainly. Would you like a drink?"
+    },
+    {
+      "id": "p01-a-05-s07",
+      "speaker": "Customer",
+      "text": "A small coffee. Could you add some milk?"
+    },
+    {
+      "id": "p01-a-05-s08",
+      "speaker": "Server",
+      "text": "Of course. And would you prefer a banana? The apples are quite sharp today."
+    },
+    {
+      "id": "p01-a-05-s09",
+      "speaker": "Customer",
+      "text": "No, I like sharp apples. I'll keep the apple, thanks."
+    },
+    {
+      "id": "p01-a-05-s10",
+      "speaker": "Server",
+      "text": "All right. Take a seat and I'll bring everything over."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-56c18ec32c78a525",
+      "lemma": "a, an",
+      "pos": "indefinite article",
+      "sense_zh": "不定冠词，表示一个非特指的人或物",
+      "sentence_ids": [
+        "p01-a-05-s05"
+      ],
+      "forms": [
+        "a",
+        "an"
+      ],
+      "forms_rationale_zh": "来源把不定冠词 a 与 an 合并为一个词头；a 用在辅音音素前，an 用在元音音素前，不是两条独立覆盖。",
+      "sense_id": "sense-staged-ox-56c18ec32c78a525-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0e3be32a35543d53",
+      "lemma": "apple",
+      "pos": "n.",
+      "sense_zh": "苹果",
+      "sentence_ids": [
+        "p01-a-05-s05"
+      ],
+      "forms": [
+        "apple"
+      ],
+      "sense_id": "sense-staged-ox-0e3be32a35543d53-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84af7c6e560a6f3c",
+      "lemma": "banana",
+      "pos": "n.",
+      "sense_zh": "香蕉",
+      "sentence_ids": [
+        "p01-a-05-s08"
+      ],
+      "forms": [
+        "banana"
+      ],
+      "sense_id": "sense-staged-ox-84af7c6e560a6f3c-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-492f274b81e24d29",
+      "lemma": "cafe",
+      "pos": "n.",
+      "sense_zh": "咖啡馆",
+      "sentence_ids": [
+        "p01-a-05-s01"
+      ],
+      "forms": [
+        "cafe"
+      ],
+      "sense_id": "sense-staged-ox-492f274b81e24d29-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84000b783e515689",
+      "lemma": "cake",
+      "pos": "n.",
+      "sense_zh": "蛋糕",
+      "sentence_ids": [
+        "p01-a-05-s01"
+      ],
+      "forms": [
+        "cake"
+      ],
+      "sense_id": "sense-staged-ox-84000b783e515689-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f854931b311bc0af",
+      "lemma": "butter",
+      "pos": "n.",
+      "sense_zh": "黄油",
+      "sentence_ids": [
+        "p01-a-05-s03"
+      ],
+      "forms": [
+        "butter"
+      ],
+      "sense_id": "sense-staged-ox-f854931b311bc0af-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-518f4d1f038fede5",
+      "lemma": "add",
+      "pos": "v.",
+      "sense_zh": "添加",
+      "sentence_ids": [
+        "p01-a-05-s07"
+      ],
+      "forms": [
+        "add"
+      ],
+      "sense_id": "sense-staged-ox-518f4d1f038fede5-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-04d32c378e48f379",
+      "lemma": "any",
+      "pos": "det.",
+      "sense_zh": "任何数量的，用于疑问句询问是否有",
+      "sentence_ids": [
+        "p01-a-05-s03"
+      ],
+      "forms": [
+        "any"
+      ],
+      "sense_id": "sense-staged-ox-04d32c378e48f379-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2910c0c486819b3",
+      "lemma": "and",
+      "pos": "conj.",
+      "sense_zh": "和，连接并列成分",
+      "sentence_ids": [
+        "p01-a-05-s05"
+      ],
+      "forms": [
+        "and"
+      ],
+      "sense_id": "sense-staged-ox-d2910c0c486819b3-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a7e6d2441b5a56dd",
+      "lemma": "carrot",
+      "pos": "n.",
+      "sense_zh": "胡萝卜",
+      "sentence_ids": [
+        "p01-a-05-s02"
+      ],
+      "forms": [
+        "carrot"
+      ],
+      "sense_id": "sense-staged-ox-a7e6d2441b5a56dd-p01-a-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

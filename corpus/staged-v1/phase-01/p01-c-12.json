@@ -1,0 +1,195 @@
+{
+  "id": "p01-c-12",
+  "title_zh": "面试前练习举例",
+  "topic_id": "work",
+  "scenario": {
+    "id": "job-interview-example",
+    "label_zh": "准备求职面试例子",
+    "goal_zh": "把笼统自我评价改成具体工作例子"
+  },
+  "participants": [
+    "Dina",
+    "Malik"
+  ],
+  "context_zh": "求职者请朋友帮忙练习面试回答。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-12-s01",
+      "speaker": "Dina",
+      "text": "I have an interview for a reception job tomorrow, and I hope I do not freeze."
+    },
+    {
+      "id": "p01-c-12-s02",
+      "speaker": "Malik",
+      "text": "What would you say if they asked why you would be good at it?"
+    },
+    {
+      "id": "p01-c-12-s03",
+      "speaker": "Dina",
+      "text": "I would say I am organised and polite."
+    },
+    {
+      "id": "p01-c-12-s04",
+      "speaker": "Malik",
+      "text": "That is a start; however, a real example would make your answer stronger."
+    },
+    {
+      "id": "p01-c-12-s05",
+      "speaker": "Dina",
+      "text": "At the sports club, I check bookings and explain delays to visitors."
+    },
+    {
+      "id": "p01-c-12-s06",
+      "speaker": "Malik",
+      "text": "That is useful; it shows a future employer how you handle people."
+    },
+    {
+      "id": "p01-c-12-s07",
+      "speaker": "Dina",
+      "text": "Do I have to describe every part of my role?"
+    },
+    {
+      "id": "p01-c-12-s08",
+      "speaker": "Malik",
+      "text": "No, choose one important moment and explain what you did."
+    },
+    {
+      "id": "p01-c-12-s09",
+      "speaker": "Dina",
+      "text": "I will use the day two teams arrived for the same court and practise explaining how I sorted it out."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7111d8187677ec1d",
+      "lemma": "job",
+      "pos": "n.",
+      "sense_zh": "工作；职位",
+      "sentence_ids": [
+        "p01-c-12-s01"
+      ],
+      "forms": [
+        "job"
+      ],
+      "sense_id": "sense-staged-ox-7111d8187677ec1d-p01-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8066792045e5a9d9",
+      "lemma": "interview",
+      "pos": "n.",
+      "sense_zh": "面试",
+      "sentence_ids": [
+        "p01-c-12-s01"
+      ],
+      "forms": [
+        "interview"
+      ],
+      "sense_id": "sense-staged-ox-8066792045e5a9d9-p01-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-000d27f3a52fc451",
+      "lemma": "future",
+      "pos": "adj.",
+      "sense_zh": "未来的",
+      "sentence_ids": [
+        "p01-c-12-s06"
+      ],
+      "forms": [
+        "future"
+      ],
+      "sense_id": "sense-staged-ox-000d27f3a52fc451-p01-c-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f1f63ff91f553d33",
+      "lemma": "hope",
+      "pos": "v.",
+      "sense_zh": "希望",
+      "sentence_ids": [
+        "p01-c-12-s01"
+      ],
+      "forms": [
+        "hope"
+      ],
+      "sense_id": "sense-staged-ox-f1f63ff91f553d33-p01-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b2aa6e1284009eea",
+      "lemma": "important",
+      "pos": "adj.",
+      "sense_zh": "重要的",
+      "sentence_ids": [
+        "p01-c-12-s08"
+      ],
+      "forms": [
+        "important"
+      ],
+      "sense_id": "sense-staged-ox-b2aa6e1284009eea-p01-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8bf7bd3af5f2b3bc",
+      "lemma": "good",
+      "pos": "adj.",
+      "sense_zh": "擅长的；能力好的",
+      "sentence_ids": [
+        "p01-c-12-s02"
+      ],
+      "forms": [
+        "good"
+      ],
+      "sense_id": "sense-staged-ox-8bf7bd3af5f2b3bc-p01-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d868a4398fd9867c",
+      "lemma": "however",
+      "pos": "adv.",
+      "sense_zh": "然而",
+      "sentence_ids": [
+        "p01-c-12-s04"
+      ],
+      "forms": [
+        "however"
+      ],
+      "sense_id": "sense-staged-ox-d868a4398fd9867c-p01-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26978bc53a4d40c3",
+      "lemma": "have to",
+      "pos": "modal v.",
+      "sense_zh": "必须；不得不",
+      "sentence_ids": [
+        "p01-c-12-s07"
+      ],
+      "forms": [
+        "have to"
+      ],
+      "sense_id": "sense-staged-ox-26978bc53a4d40c3-p01-c-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

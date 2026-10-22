@@ -1,0 +1,185 @@
+{
+  "id": "p01-b-03",
+  "title_zh": "选择晚间摄影课",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "evening-course-enrolment",
+    "label_zh": "选择并报名晚间课程",
+    "goal_zh": "核对开课时间和难度后提交报名表"
+  },
+  "participants": [
+    "Priya",
+    "Ben"
+  ],
+  "context_zh": "一位白天上班的人到学院咨询适合初学者的晚间摄影课程。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-03-s01",
+      "speaker": "Priya",
+      "text": "Does the college offer a photography course in the evening? I work until five."
+    },
+    {
+      "id": "p01-b-03-s02",
+      "speaker": "Ben",
+      "text": "Yes. A new class starts in February, on Tuesday evenings."
+    },
+    {
+      "id": "p01-b-03-s03",
+      "speaker": "Priya",
+      "text": "Would it be difficult for someone who only uses a phone camera?"
+    },
+    {
+      "id": "p01-b-03-s04",
+      "speaker": "Ben",
+      "text": "No. You can use a phone for the first few weeks. The teacher starts with easy tasks, like taking a clear photo of a cup."
+    },
+    {
+      "id": "p01-b-03-s05",
+      "speaker": "Priya",
+      "text": "That sounds right for me. How do I sign up?"
+    },
+    {
+      "id": "p01-b-03-s06",
+      "speaker": "Ben",
+      "text": "Please complete this form. We will email you the room number before the first lesson."
+    },
+    {
+      "id": "p01-b-03-s07",
+      "speaker": "Priya",
+      "text": "Great. I will fill it in now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4434d9f85ab4750c",
+      "lemma": "class",
+      "pos": "n.",
+      "sense_zh": "教学班",
+      "sentence_ids": [
+        "p01-b-03-s02"
+      ],
+      "forms": [
+        "class"
+      ],
+      "sense_id": "sense-staged-ox-4434d9f85ab4750c-p01-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-34d085bf84e98f99",
+      "lemma": "course",
+      "pos": "n.",
+      "sense_zh": "课程",
+      "sentence_ids": [
+        "p01-b-03-s01"
+      ],
+      "forms": [
+        "course"
+      ],
+      "sense_id": "sense-staged-ox-34d085bf84e98f99-p01-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-89c46827b2213a34",
+      "lemma": "college",
+      "pos": "n.",
+      "sense_zh": "学院",
+      "sentence_ids": [
+        "p01-b-03-s01"
+      ],
+      "forms": [
+        "college"
+      ],
+      "sense_id": "sense-staged-ox-89c46827b2213a34-p01-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43a9a045ae4e8739",
+      "lemma": "easy",
+      "pos": "adj.",
+      "sense_zh": "容易的",
+      "sentence_ids": [
+        "p01-b-03-s04"
+      ],
+      "forms": [
+        "easy"
+      ],
+      "sense_id": "sense-staged-ox-43a9a045ae4e8739-p01-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da6b2f5d51799fd8",
+      "lemma": "difficult",
+      "pos": "adj.",
+      "sense_zh": "困难的",
+      "sentence_ids": [
+        "p01-b-03-s03"
+      ],
+      "forms": [
+        "difficult"
+      ],
+      "sense_id": "sense-staged-ox-da6b2f5d51799fd8-p01-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3b3e6c3c9df53162",
+      "lemma": "complete",
+      "pos": "v.",
+      "sense_zh": "填写完成",
+      "sentence_ids": [
+        "p01-b-03-s06"
+      ],
+      "forms": [
+        "complete"
+      ],
+      "sense_id": "sense-staged-ox-3b3e6c3c9df53162-p01-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d37eb3633f8fd67e",
+      "lemma": "email",
+      "pos": "v.",
+      "sense_zh": "发送电子邮件给",
+      "sentence_ids": [
+        "p01-b-03-s06"
+      ],
+      "forms": [
+        "email"
+      ],
+      "sense_id": "sense-staged-ox-d37eb3633f8fd67e-p01-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-af6b24e85b5e9459",
+      "lemma": "February",
+      "pos": "n.",
+      "sense_zh": "二月",
+      "sentence_ids": [
+        "p01-b-03-s02"
+      ],
+      "forms": [
+        "February"
+      ],
+      "sense_id": "sense-staged-ox-af6b24e85b5e9459-p01-b-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

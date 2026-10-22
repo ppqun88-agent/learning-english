@@ -1,0 +1,148 @@
+{
+  "id": "p01-c-07",
+  "title_zh": "午餐别点太多",
+  "topic_id": "food",
+  "scenario": {
+    "id": "small-lunch-order",
+    "label_zh": "选择合适午餐分量",
+    "goal_zh": "在饥饿程度与分量之间选定午餐"
+  },
+  "participants": [
+    "Sam",
+    "Lena"
+  ],
+  "context_zh": "两位同事在咖啡馆看菜单，避免点得过多。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-07-s01",
+      "speaker": "Sam",
+      "text": "I am hungry, but I do not want a huge lunch."
+    },
+    {
+      "id": "p01-c-07-s02",
+      "speaker": "Lena",
+      "text": "The fish comes with potatoes and vegetables, so that is quite a lot of food."
+    },
+    {
+      "id": "p01-c-07-s03",
+      "speaker": "Sam",
+      "text": "Could I order half a portion?"
+    },
+    {
+      "id": "p01-c-07-s04",
+      "speaker": "Lena",
+      "text": "Let us ask; otherwise the hot soup looks good."
+    },
+    {
+      "id": "p01-c-07-s05",
+      "speaker": "Sam",
+      "text": "Soup and a small roll should be enough without leaving me too full."
+    },
+    {
+      "id": "p01-c-07-s06",
+      "speaker": "Lena",
+      "text": "I will have that too; we can save the fish for another day."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f291549dab190ae9",
+      "lemma": "fish",
+      "pos": "n.",
+      "sense_zh": "鱼肉",
+      "sentence_ids": [
+        "p01-c-07-s02"
+      ],
+      "forms": [
+        "fish"
+      ],
+      "sense_id": "sense-staged-ox-f291549dab190ae9-p01-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a8b7007623499d04",
+      "lemma": "food",
+      "pos": "n.",
+      "sense_zh": "食物",
+      "sentence_ids": [
+        "p01-c-07-s02"
+      ],
+      "forms": [
+        "food"
+      ],
+      "sense_id": "sense-staged-ox-a8b7007623499d04-p01-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7cda03256534d5d9",
+      "lemma": "full",
+      "pos": "adj.",
+      "sense_zh": "吃饱的",
+      "sentence_ids": [
+        "p01-c-07-s05"
+      ],
+      "forms": [
+        "full"
+      ],
+      "sense_id": "sense-staged-ox-7cda03256534d5d9-p01-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a1863207c6bdf88",
+      "lemma": "hungry",
+      "pos": "adj.",
+      "sense_zh": "饥饿的",
+      "sentence_ids": [
+        "p01-c-07-s01"
+      ],
+      "forms": [
+        "hungry"
+      ],
+      "sense_id": "sense-staged-ox-5a1863207c6bdf88-p01-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5cc02108f2066c01",
+      "lemma": "hot",
+      "pos": "adj.",
+      "sense_zh": "热的",
+      "sentence_ids": [
+        "p01-c-07-s04"
+      ],
+      "forms": [
+        "hot"
+      ],
+      "sense_id": "sense-staged-ox-5cc02108f2066c01-p01-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5159400bc5154f04",
+      "lemma": "half",
+      "pos": "det.",
+      "sense_zh": "一半的",
+      "sentence_ids": [
+        "p01-c-07-s03"
+      ],
+      "forms": [
+        "half"
+      ],
+      "sense_id": "sense-staged-ox-5159400bc5154f04-p01-c-07",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

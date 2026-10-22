@@ -1,0 +1,100 @@
+{
+  "id": "p01-b-18",
+  "title_zh": "请邻居看看盆栽",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "neighbour-plant-check",
+    "label_zh": "请求帮助检查盆栽",
+    "goal_zh": "说明植物的问题并约定邻居查看的时间"
+  },
+  "participants": [
+    "Owen",
+    "Bea"
+  ],
+  "context_zh": "一位不擅长养植物的人向熟悉园艺的邻居求助，没有自行诊断或大量浇水。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-18-s01",
+      "speaker": "Owen",
+      "text": "Could you come over and look at my plant? I am afraid it is going to die."
+    },
+    {
+      "id": "p01-b-18-s02",
+      "speaker": "Bea",
+      "text": "What has changed?"
+    },
+    {
+      "id": "p01-b-18-s03",
+      "speaker": "Owen",
+      "text": "The leaves are turning yellow. Even the new ones look bad."
+    },
+    {
+      "id": "p01-b-18-s04",
+      "speaker": "Bea",
+      "text": "I can have a look after work. Has the pot been sitting in water?"
+    },
+    {
+      "id": "p01-b-18-s05",
+      "speaker": "Owen",
+      "text": "I am not sure. I will leave it as it is so you can see. Is six all right?"
+    },
+    {
+      "id": "p01-b-18-s06",
+      "speaker": "Bea",
+      "text": "Yes. I will knock when I get home."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f23c6b417d9e1a62",
+      "lemma": "die",
+      "pos": "v.",
+      "sense_zh": "死亡；枯死",
+      "sentence_ids": [
+        "p01-b-18-s01"
+      ],
+      "forms": [
+        "die"
+      ],
+      "sense_id": "sense-staged-ox-f23c6b417d9e1a62-p01-b-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f2992b6eb0611c26",
+      "lemma": "come",
+      "pos": "v.",
+      "sense_zh": "来",
+      "sentence_ids": [
+        "p01-b-18-s01"
+      ],
+      "forms": [
+        "come"
+      ],
+      "sense_id": "sense-staged-ox-f2992b6eb0611c26-p01-b-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a0ce7eca292c76c",
+      "lemma": "even",
+      "pos": "adv.",
+      "sense_zh": "甚至",
+      "sentence_ids": [
+        "p01-b-18-s03"
+      ],
+      "forms": [
+        "even"
+      ],
+      "sense_id": "sense-staged-ox-5a0ce7eca292c76c-p01-b-18",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

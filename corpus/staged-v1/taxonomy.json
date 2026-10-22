@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {
+      "id": "learning",
+      "label_zh": "学习与技能",
+      "scope_zh": "课程、课堂、语言学习、技能训练与学习安排"
+    },
+    {
+      "id": "health",
+      "label_zh": "健康与照护",
+      "scope_zh": "日常身体状况、就诊沟通、探视和照护安排；不提供个体化诊疗建议"
+    },
+    {
+      "id": "relationships",
+      "label_zh": "家庭与人际",
+      "scope_zh": "家庭活动、个人经历、社交往来与关系沟通"
+    },
+    {
+      "id": "leisure",
+      "label_zh": "文娱与运动",
+      "scope_zh": "影视、音乐、艺术、兴趣活动和体育运动的选择与参与"
+    },
+    {
+      "id": "nature",
+      "label_zh": "自然与环境",
+      "scope_zh": "动物、植物、天气、自然观察和环境保护"
+    },
+    {
+      "id": "society",
+      "label_zh": "社会与公共事务",
+      "scope_zh": "新闻、社会制度、公共决策与公民事务"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "airport-pickup-location",
+      "label_zh": "协调机场接人",
+      "goal_zh": "确认机场接人地点、到达时间及联络方式。",
+      "topic_id": "travel"
+    },
+    {
+      "id": "apartment-viewing-layout",
+      "label_zh": "了解公寓布局",
+      "goal_zh": "看房时询问房间位置及卫浴设施。",
+      "topic_id": "home"
+    },
+    {
+      "id": "artist-interview-plan",
+      "label_zh": "策划艺术家采访",
+      "goal_zh": "为社区博客安排艺术家访谈和作品拍摄。",
+      "topic_id": "work"
+    },
+    {
+      "id": "autumn-day-trip-date",
+      "label_zh": "协调秋季一日游日期",
+      "goal_zh": "在工作安排限制下确定秋季一日游的日期。",
+      "topic_id": "travel"
+    },
+    {
+      "id": "beginner-dance-enrolment",
+      "label_zh": "报名舞蹈社团体验课",
+      "goal_zh": "确认零基础参加者可以独自参加并约好首次到场时间",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "beginner-guitar-loan",
+      "label_zh": "咨询初学吉他借用",
+      "goal_zh": "先通过借用体验再决定是否购买",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "beginner-riding-choice",
+      "label_zh": "选择初学骑马体验",
+      "goal_zh": "比较时长价格并说明对速度的顾虑",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "bicycle-repair-estimate",
+      "label_zh": "询问自行车维修安排",
+      "goal_zh": "检查车况、讨论维修必要性并确认取车时间。",
+      "topic_id": "services"
+    },
+    {
+      "id": "building-alarm-evacuation",
+      "label_zh": "按指示离开报警大楼",
+      "goal_zh": "放下物品并沿安全路线到集合点",
+      "topic_id": "community"
+    },
+    {
+      "id": "cafe-bill-correction",
+      "label_zh": "核对并更正餐饮账单",
+      "goal_zh": "发现账单错误后核实费用与付款方式。",
+      "topic_id": "services"
+    },
+    {
+      "id": "cafe-drink-correction",
+      "label_zh": "点餐并调整座位",
+      "goal_zh": "选好餐点并找到不受冷风影响的座位",
+      "topic_id": "food"
+    },
+    {
+      "id": "cafe-snack-order",
+      "label_zh": "询问并点购点心",
+      "goal_zh": "询问甜点口味和配料，完成简餐点单。",
+      "topic_id": "food"
+    },
+    {
+      "id": "career-change-discussion",
+      "label_zh": "讨论职业方向",
+      "goal_zh": "讨论转行念头并确定低风险了解行业的下一步。",
+      "topic_id": "work"
+    },
+    {
+      "id": "cat-sitting-handover",
+      "label_zh": "向朋友交接宠物照护",
+      "goal_zh": "向代为照看猫的朋友说明喂养安排。",
+      "topic_id": "nature"
+    },
+    {
+      "id": "child-lost-clothing",
+      "label_zh": "认领遗失外套",
+      "goal_zh": "凭衣物与同行人的描述找回失物",
+      "topic_id": "services"
+    },
+    {
+      "id": "classroom-speaking-practice",
+      "label_zh": "澄清课堂练习要求",
+      "goal_zh": "理解口语任务并开始一段有实际目的的练习",
+      "topic_id": "learning"
+    },
+    {
+      "id": "community-concert-seating",
+      "label_zh": "安排音乐会座位和散场",
+      "goal_zh": "核对座位布置、观众人数和活动后的收尾职责",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "community-play-casting",
+      "label_zh": "确认角色分配和排练",
+      "goal_zh": "剧团根据角色要求讨论试演人选及排练时间。",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "community-room-furniture",
+      "label_zh": "安排共享活动室的家具",
+      "goal_zh": "讨论社区活动室家具尺寸和使用需要。",
+      "topic_id": "community"
+    },
+    {
+      "id": "dessert-wait-drinks",
+      "label_zh": "点甜点及饮料",
+      "goal_zh": "确认等候时间并说明饮料偏好",
+      "topic_id": "food"
+    },
+    {
+      "id": "evening-course-enrolment",
+      "label_zh": "选择并报名晚间课程",
+      "goal_zh": "核对开课时间和难度后提交报名表",
+      "topic_id": "learning"
+    },
+    {
+      "id": "exam-answer-check",
+      "label_zh": "核对图表试题答案",
+      "goal_zh": "区分月度总数与每周比较并核对试题答案",
+      "topic_id": "learning"
+    },
+    {
+      "id": "family-hospital-visit",
+      "label_zh": "协调家人探访安排",
+      "goal_zh": "避免多人同时探视并照顾陪护者",
+      "topic_id": "health"
+    },
+    {
+      "id": "family-newborn-visit",
+      "label_zh": "安排家庭探访",
+      "goal_zh": "安排带新生儿探望亲人的日期并核对生日。",
+      "topic_id": "relationships"
+    },
+    {
+      "id": "farm-visit-animal-rules",
+      "label_zh": "核对农场参观规则",
+      "goal_zh": "确认宠物限制并了解观赏牲畜的位置",
+      "topic_id": "nature"
+    },
+    {
+      "id": "festival-volunteer-shift",
+      "label_zh": "报名节庆志愿班次",
+      "goal_zh": "选择合适班次并确认报名资料",
+      "topic_id": "community"
+    },
+    {
+      "id": "flat-key-handover",
+      "label_zh": "接收新住处钥匙",
+      "goal_zh": "分清钥匙并确认备用钥匙存放",
+      "topic_id": "home"
+    },
+    {
+      "id": "friends-film-night",
+      "label_zh": "商定朋友电影之夜",
+      "goal_zh": "兼顾时间与喜好选定影片",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "hill-walk-route-choice",
+      "label_zh": "调整山间步行路线",
+      "goal_zh": "考虑天色和路面条件后改走短路线",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "home-film-choice",
+      "label_zh": "商量在家看电影",
+      "goal_zh": "在不出门的前提下选定双方都想看的影片",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "hospital-journey-route",
+      "label_zh": "询问医院交通路线",
+      "goal_zh": "比较开车与公交并确认下车位置",
+      "topic_id": "travel"
+    },
+    {
+      "id": "injured-bird-help",
+      "label_zh": "联系动物救助人员",
+      "goal_zh": "路人发现受伤小鸟，安全求助并与救助者协调。",
+      "topic_id": "nature"
+    },
+    {
+      "id": "island-hotel-arrival",
+      "label_zh": "确认海岛旅馆到达方式",
+      "goal_zh": "核实码头步行距离、船程和客房楼层",
+      "topic_id": "travel"
+    },
+    {
+      "id": "job-interview-example",
+      "label_zh": "准备求职面试例子",
+      "goal_zh": "把笼统自我评价改成具体工作例子",
+      "topic_id": "work"
+    },
+    {
+      "id": "live-music-evening",
+      "label_zh": "安排现场音乐之夜",
+      "goal_zh": "朋友相约听现场音乐并核对场地与购买专辑安排。",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "lost-bag-identification",
+      "label_zh": "描述并领取遗失物",
+      "goal_zh": "向失物招领处描述背包并确认领取位置。",
+      "topic_id": "services"
+    },
+    {
+      "id": "museum-history-room",
+      "label_zh": "询问博物馆展览位置",
+      "goal_zh": "向博物馆工作人员询问地方历史展览与资料。",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "neighbour-plant-check",
+      "label_zh": "请求帮助检查盆栽",
+      "goal_zh": "说明植物的问题并约定邻居查看的时间",
+      "topic_id": "nature"
+    },
+    {
+      "id": "new-neighbour-introductions",
+      "label_zh": "介绍新邻居及同住者",
+      "goal_zh": "确认彼此身份并约定归还借用物品",
+      "topic_id": "relationships"
+    },
+    {
+      "id": "routine-clinic-booking",
+      "label_zh": "描述问题并预约就诊",
+      "goal_zh": "准确说明不适位置并确认预约时间",
+      "topic_id": "health"
+    },
+    {
+      "id": "scarf-gift-choice",
+      "label_zh": "挑选礼物围巾",
+      "goal_zh": "根据收礼人的衣服颜色选定围巾",
+      "topic_id": "services"
+    },
+    {
+      "id": "school-project-question",
+      "label_zh": "确定作业研究问题",
+      "goal_zh": "把宽泛兴趣缩小为可查证的研究问题",
+      "topic_id": "learning"
+    },
+    {
+      "id": "seaside-boat-trip",
+      "label_zh": "选择海边游览方式",
+      "goal_zh": "比较海边游览方式并决定是否乘船。",
+      "topic_id": "travel"
+    },
+    {
+      "id": "shared-breakfast-planning",
+      "label_zh": "商量共享早餐采购",
+      "goal_zh": "兼顾不同早餐偏好并确定共用与自用食材",
+      "topic_id": "food"
+    },
+    {
+      "id": "shared-dinner-preparation",
+      "label_zh": "分工准备晚饭",
+      "goal_zh": "商定晚餐分工、菜品和份量",
+      "topic_id": "food"
+    },
+    {
+      "id": "shared-house-cleanup",
+      "label_zh": "分配合租房清洁工作",
+      "goal_zh": "明确待清洁区域和离开房间前的操作",
+      "topic_id": "home"
+    },
+    {
+      "id": "short-film-feedback",
+      "label_zh": "根据反馈调整影片开头",
+      "goal_zh": "剪辑者根据试映反馈调整短片开头。",
+      "topic_id": "work"
+    },
+    {
+      "id": "short-museum-visit",
+      "label_zh": "选择短时间博物馆参观路线",
+      "goal_zh": "根据时间和孩子的学习兴趣选定一个展厅",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "small-company-logo-revision",
+      "label_zh": "修改小公司标志",
+      "goal_zh": "澄清图案和颜色需求并约定提供可比较的草图",
+      "topic_id": "work"
+    },
+    {
+      "id": "small-garden-planting",
+      "label_zh": "选择小院种植物",
+      "goal_zh": "根据光照与围墙高度选定种植位置",
+      "topic_id": "home"
+    },
+    {
+      "id": "small-lunch-order",
+      "label_zh": "选择合适午餐分量",
+      "goal_zh": "在饥饿程度与分量之间选定午餐",
+      "topic_id": "food"
+    },
+    {
+      "id": "souvenir-price-currency",
+      "label_zh": "核对纪念品价格和币种",
+      "goal_zh": "看懂手写价签后确定付款方式",
+      "topic_id": "services"
+    },
+    {
+      "id": "sports-taster-choice",
+      "label_zh": "选择社区运动课程",
+      "goal_zh": "选择适合初学者的社区运动体验课并确认用品。",
+      "topic_id": "leisure"
+    },
+    {
+      "id": "summer-holiday-timing",
+      "label_zh": "选择暑期出游月份",
+      "goal_zh": "协调请假月份并决定是否先看航班",
+      "topic_id": "travel"
+    },
+    {
+      "id": "walking-boot-fitting",
+      "label_zh": "判断鞋子尺寸并购买",
+      "goal_zh": "试穿徒步靴并判断尺寸及是否购买。",
+      "topic_id": "services"
+    },
+    {
+      "id": "walking-fall-assistance",
+      "label_zh": "摔倒后寻求帮助",
+      "goal_zh": "说明不适并请同伴联系现场急救员",
+      "topic_id": "health"
+    },
+    {
+      "id": "winter-clothes-selection",
+      "label_zh": "购买合适的冬装",
+      "goal_zh": "在保暖、搭配和价格之间选定一件外套",
+      "topic_id": "services"
+    },
+    {
+      "id": "winter-family-meeting",
+      "label_zh": "协调冬季家庭聚餐",
+      "goal_zh": "商定聚餐日期、用餐时间及长辈接送",
+      "topic_id": "relationships"
+    },
+    {
+      "id": "youth-football-registration",
+      "label_zh": "加入青少年足球队",
+      "goal_zh": "核实年龄要求并了解初次训练安排",
+      "topic_id": "leisure"
+    }
+  ]
+}

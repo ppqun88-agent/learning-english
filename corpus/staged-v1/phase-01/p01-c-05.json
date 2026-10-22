@@ -1,0 +1,164 @@
+{
+  "id": "p01-c-05",
+  "title_zh": "领新住处的钥匙",
+  "topic_id": "home",
+  "scenario": {
+    "id": "flat-key-handover",
+    "label_zh": "接收新住处钥匙",
+    "goal_zh": "分清钥匙并确认备用钥匙存放"
+  },
+  "participants": [
+    "Mina",
+    "Jon"
+  ],
+  "context_zh": "房客搬进新公寓，房东说明两把钥匙的用途。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-05-s01",
+      "speaker": "Mina",
+      "text": "Is this the key to my flat on the fifth floor?"
+    },
+    {
+      "id": "p01-c-05-s02",
+      "speaker": "Jon",
+      "text": "Yes, and the smaller one opens the front door downstairs."
+    },
+    {
+      "id": "p01-c-05-s03",
+      "speaker": "Mina",
+      "text": "Can I keep a spare set with my sister?"
+    },
+    {
+      "id": "p01-c-05-s04",
+      "speaker": "Jon",
+      "text": "Certainly; I have put both sets in this envelope."
+    },
+    {
+      "id": "p01-c-05-s05",
+      "speaker": "Jon",
+      "text": "There are four keys altogether, so you and your sister can each have a complete set."
+    },
+    {
+      "id": "p01-c-05-s06",
+      "speaker": "Mina",
+      "text": "Thanks, it will be lovely to come home without borrowing someone else's keys."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c0bee9ba4ce14fe4",
+      "lemma": "flat",
+      "pos": "n.",
+      "sense_zh": "公寓",
+      "sentence_ids": [
+        "p01-c-05-s01"
+      ],
+      "forms": [
+        "flat"
+      ],
+      "sense_id": "sense-staged-ox-c0bee9ba4ce14fe4-p01-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57bd322dab5bef98",
+      "lemma": "home",
+      "pos": "adv.",
+      "sense_zh": "回家；到家",
+      "sentence_ids": [
+        "p01-c-05-s06"
+      ],
+      "forms": [
+        "home"
+      ],
+      "sense_id": "sense-staged-ox-57bd322dab5bef98-p01-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0a10519637d447de",
+      "lemma": "front",
+      "pos": "adj.",
+      "sense_zh": "正面的；前面的",
+      "sentence_ids": [
+        "p01-c-05-s02"
+      ],
+      "forms": [
+        "front"
+      ],
+      "sense_id": "sense-staged-ox-0a10519637d447de-p01-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8ebe3340891ac7c0",
+      "lemma": "key",
+      "pos": "n.",
+      "sense_zh": "钥匙",
+      "sentence_ids": [
+        "p01-c-05-s01"
+      ],
+      "forms": [
+        "key"
+      ],
+      "sense_id": "sense-staged-ox-8ebe3340891ac7c0-p01-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a79f4ec731a9854e",
+      "lemma": "keep",
+      "pos": "v.",
+      "sense_zh": "存放；保留",
+      "sentence_ids": [
+        "p01-c-05-s03"
+      ],
+      "forms": [
+        "keep"
+      ],
+      "sense_id": "sense-staged-ox-a79f4ec731a9854e-p01-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6511895f4c74d3fe",
+      "lemma": "fifth",
+      "pos": "number",
+      "sense_zh": "第五",
+      "sentence_ids": [
+        "p01-c-05-s01"
+      ],
+      "forms": [
+        "fifth"
+      ],
+      "sense_id": "sense-staged-ox-6511895f4c74d3fe-p01-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a1cdde902e3d519d",
+      "lemma": "four",
+      "pos": "number",
+      "sense_zh": "四",
+      "sentence_ids": [
+        "p01-c-05-s05"
+      ],
+      "forms": [
+        "four"
+      ],
+      "sense_id": "sense-staged-ox-a1cdde902e3d519d-p01-c-05",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

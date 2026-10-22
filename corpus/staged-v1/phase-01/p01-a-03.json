@@ -1,0 +1,179 @@
+{
+  "id": "p01-a-03",
+  "title_zh": "在失物招领处找背包",
+  "topic_id": "services",
+  "scenario": {
+    "id": "lost-bag-identification",
+    "label_zh": "描述并领取遗失物",
+    "goal_zh": "向失物招领处描述背包并确认领取位置。"
+  },
+  "participants": [
+    "Nora",
+    "Station worker"
+  ],
+  "context_zh": "旅客在车站丢了包，工作人员先核对外观，再指引她去正确的服务柜台。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-03-s01",
+      "speaker": "Nora",
+      "text": "Could I ask about a bag I left here this morning?"
+    },
+    {
+      "id": "p01-a-03-s02",
+      "speaker": "Station worker",
+      "text": "Of course. What does it look like?"
+    },
+    {
+      "id": "p01-a-03-s03",
+      "speaker": "Nora",
+      "text": "It's black, with a blue pocket on the front."
+    },
+    {
+      "id": "p01-a-03-s04",
+      "speaker": "Station worker",
+      "text": "Where did you last have it?"
+    },
+    {
+      "id": "p01-a-03-s05",
+      "speaker": "Nora",
+      "text": "In the seating area, behind the ticket machines."
+    },
+    {
+      "id": "p01-a-03-s06",
+      "speaker": "Station worker",
+      "text": "A cleaner found one there. The lost-property desk is across the hall."
+    },
+    {
+      "id": "p01-a-03-s07",
+      "speaker": "Nora",
+      "text": "Do I need to show anything to collect it?"
+    },
+    {
+      "id": "p01-a-03-s08",
+      "speaker": "Station worker",
+      "text": "Tell them what's inside and show your ID. They'll check that it belongs to you."
+    },
+    {
+      "id": "p01-a-03-s09",
+      "speaker": "Nora",
+      "text": "Thank you. I'll go there now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-62ccc40672988231",
+      "lemma": "bag",
+      "pos": "n.",
+      "sense_zh": "包",
+      "sentence_ids": [
+        "p01-a-03-s01"
+      ],
+      "forms": [
+        "bag"
+      ],
+      "sense_id": "sense-staged-ox-62ccc40672988231-p01-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb69f27de3722e2a",
+      "lemma": "black",
+      "pos": "adj.",
+      "sense_zh": "黑色的",
+      "sentence_ids": [
+        "p01-a-03-s03"
+      ],
+      "forms": [
+        "black"
+      ],
+      "sense_id": "sense-staged-ox-eb69f27de3722e2a-p01-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8bd802c3c76daae2",
+      "lemma": "blue",
+      "pos": "adj.",
+      "sense_zh": "蓝色的",
+      "sentence_ids": [
+        "p01-a-03-s03"
+      ],
+      "forms": [
+        "blue"
+      ],
+      "sense_id": "sense-staged-ox-8bd802c3c76daae2-p01-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-49fbd7e4e124688d",
+      "lemma": "behind",
+      "pos": "prep.",
+      "sense_zh": "在……后面",
+      "sentence_ids": [
+        "p01-a-03-s05"
+      ],
+      "forms": [
+        "behind"
+      ],
+      "sense_id": "sense-staged-ox-49fbd7e4e124688d-p01-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1eb2db1f2b1ea378",
+      "lemma": "across",
+      "pos": "prep.",
+      "sense_zh": "在……另一边",
+      "sentence_ids": [
+        "p01-a-03-s06"
+      ],
+      "forms": [
+        "across"
+      ],
+      "sense_id": "sense-staged-ox-1eb2db1f2b1ea378-p01-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5a1fa6166166d4de",
+      "lemma": "area",
+      "pos": "n.",
+      "sense_zh": "区域",
+      "sentence_ids": [
+        "p01-a-03-s05"
+      ],
+      "forms": [
+        "area"
+      ],
+      "sense_id": "sense-staged-ox-5a1fa6166166d4de-p01-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a75a3aacc8ec6b1",
+      "lemma": "ask",
+      "pos": "v.",
+      "sense_zh": "询问",
+      "sentence_ids": [
+        "p01-a-03-s01"
+      ],
+      "forms": [
+        "ask"
+      ],
+      "sense_id": "sense-staged-ox-2a75a3aacc8ec6b1-p01-a-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

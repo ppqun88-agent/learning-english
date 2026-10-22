@@ -1,0 +1,243 @@
+{
+  "id": "p01-c-03",
+  "title_zh": "加入青少年足球训练",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "youth-football-registration",
+    "label_zh": "加入青少年足球队",
+    "goal_zh": "核实年龄要求并了解初次训练安排"
+  },
+  "participants": [
+    "Eli",
+    "Coach May"
+  ],
+  "context_zh": "新学员向教练询问加入社区足球队的要求。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-03-s01",
+      "speaker": "Eli",
+      "text": "I am fourteen; am I old enough to join the football team?"
+    },
+    {
+      "id": "p01-c-03-s02",
+      "speaker": "Coach May",
+      "text": "Yes, this team is for players aged thirteen to sixteen."
+    },
+    {
+      "id": "p01-c-03-s03",
+      "speaker": "Eli",
+      "text": "I want to improve, but I have not played in a proper game before."
+    },
+    {
+      "id": "p01-c-03-s04",
+      "speaker": "Coach May",
+      "text": "That is fine; your first session will be in the gym, where we practise passing."
+    },
+    {
+      "id": "p01-c-03-s05",
+      "speaker": "Eli",
+      "text": "Do I need to run fast already?"
+    },
+    {
+      "id": "p01-c-03-s06",
+      "speaker": "Coach May",
+      "text": "No, we build up slowly, because your health matters more than your speed."
+    },
+    {
+      "id": "p01-c-03-s07",
+      "speaker": "Eli",
+      "text": "I want to be more active and stay healthy, so that suits me."
+    },
+    {
+      "id": "p01-c-03-s08",
+      "speaker": "Coach May",
+      "text": "The final activity is a short match, and we finish at six."
+    },
+    {
+      "id": "p01-c-03-s09",
+      "speaker": "Eli",
+      "text": "Thanks, I will bring my trainers and arrive a little early."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-45777edafaf1bbf4",
+      "lemma": "football",
+      "pos": "n.",
+      "sense_zh": "足球运动",
+      "sentence_ids": [
+        "p01-c-03-s01"
+      ],
+      "forms": [
+        "football"
+      ],
+      "sense_id": "sense-staged-ox-45777edafaf1bbf4-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-209913db18e022b9",
+      "lemma": "game",
+      "pos": "n.",
+      "sense_zh": "比赛",
+      "sentence_ids": [
+        "p01-c-03-s03"
+      ],
+      "forms": [
+        "game"
+      ],
+      "sense_id": "sense-staged-ox-209913db18e022b9-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e85e8ea94e57800a",
+      "lemma": "gym",
+      "pos": "n.",
+      "sense_zh": "体育馆",
+      "sentence_ids": [
+        "p01-c-03-s04"
+      ],
+      "forms": [
+        "gym"
+      ],
+      "sense_id": "sense-staged-ox-e85e8ea94e57800a-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d237997fb3de2e37",
+      "lemma": "join",
+      "pos": "v.",
+      "sense_zh": "加入",
+      "sentence_ids": [
+        "p01-c-03-s01"
+      ],
+      "forms": [
+        "join"
+      ],
+      "sense_id": "sense-staged-ox-d237997fb3de2e37-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-540b18e8feca0034",
+      "lemma": "health",
+      "pos": "n.",
+      "sense_zh": "健康",
+      "sentence_ids": [
+        "p01-c-03-s06"
+      ],
+      "forms": [
+        "health"
+      ],
+      "sense_id": "sense-staged-ox-540b18e8feca0034-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f4adc9f8dd25f914",
+      "lemma": "healthy",
+      "pos": "adj.",
+      "sense_zh": "健康的",
+      "sentence_ids": [
+        "p01-c-03-s07"
+      ],
+      "forms": [
+        "healthy"
+      ],
+      "sense_id": "sense-staged-ox-f4adc9f8dd25f914-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-159527c17c1c94ee",
+      "lemma": "improve",
+      "pos": "v.",
+      "sense_zh": "提高；进步",
+      "sentence_ids": [
+        "p01-c-03-s03"
+      ],
+      "forms": [
+        "improve"
+      ],
+      "sense_id": "sense-staged-ox-159527c17c1c94ee-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-64da6e86f03e4a59",
+      "lemma": "final",
+      "pos": "adj.",
+      "sense_zh": "最后的",
+      "sentence_ids": [
+        "p01-c-03-s08"
+      ],
+      "forms": [
+        "final"
+      ],
+      "sense_id": "sense-staged-ox-64da6e86f03e4a59-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e58fe3c8d7a15516",
+      "lemma": "finish",
+      "pos": "v.",
+      "sense_zh": "结束",
+      "sentence_ids": [
+        "p01-c-03-s08"
+      ],
+      "forms": [
+        "finish"
+      ],
+      "sense_id": "sense-staged-ox-e58fe3c8d7a15516-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e153efdb88f84d12",
+      "lemma": "first",
+      "pos": "number",
+      "sense_zh": "第一",
+      "sentence_ids": [
+        "p01-c-03-s04"
+      ],
+      "forms": [
+        "first"
+      ],
+      "sense_id": "sense-staged-ox-e153efdb88f84d12-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-caf71e811d692ed6",
+      "lemma": "fourteen",
+      "pos": "number",
+      "sense_zh": "十四",
+      "sentence_ids": [
+        "p01-c-03-s01"
+      ],
+      "forms": [
+        "fourteen"
+      ],
+      "sense_id": "sense-staged-ox-caf71e811d692ed6-p01-c-03",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

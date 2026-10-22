@@ -1,0 +1,195 @@
+{
+  "id": "p01-a-17",
+  "title_zh": "给活动室留下足够空间",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-room-furniture",
+    "label_zh": "安排共享活动室的家具",
+    "goal_zh": "讨论社区活动室家具尺寸和使用需要。"
+  },
+  "participants": [
+    "Dev",
+    "Ruth"
+  ],
+  "context_zh": "社区中心的两位志愿者讨论添置座椅，但必须兼顾舞蹈课的活动空间。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-17-s01",
+      "speaker": "Dev",
+      "text": "Can we build a bench along this wall?"
+    },
+    {
+      "id": "p01-a-17-s02",
+      "speaker": "Ruth",
+      "text": "Maybe, but the dance class needs floor space."
+    },
+    {
+      "id": "p01-a-17-s03",
+      "speaker": "Dev",
+      "text": "This building has three other rooms. Could they use one?"
+    },
+    {
+      "id": "p01-a-17-s04",
+      "speaker": "Ruth",
+      "text": "All three rooms are booked in the evenings."
+    },
+    {
+      "id": "p01-a-17-s05",
+      "speaker": "Dev",
+      "text": "Then let's use a folding chair for each person instead of a fixed bench."
+    },
+    {
+      "id": "p01-a-17-s06",
+      "speaker": "Ruth",
+      "text": "Good. Leave the center of the room clear."
+    },
+    {
+      "id": "p01-a-17-s07",
+      "speaker": "Dev",
+      "text": "How much space does each dancer need?"
+    },
+    {
+      "id": "p01-a-17-s08",
+      "speaker": "Ruth",
+      "text": "Enough to turn their body without hitting anyone. Let's ask the teacher to test the layout."
+    },
+    {
+      "id": "p01-a-17-s09",
+      "speaker": "Dev",
+      "text": "I agree. We shouldn't order furniture until she's checked it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bc4441b0789fa7ed",
+      "lemma": "build",
+      "pos": "v.",
+      "sense_zh": "建造",
+      "sentence_ids": [
+        "p01-a-17-s01"
+      ],
+      "forms": [
+        "build"
+      ],
+      "sense_id": "sense-staged-ox-bc4441b0789fa7ed-p01-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9582cc66fdcdea3e",
+      "lemma": "building",
+      "pos": "n.",
+      "sense_zh": "建筑物",
+      "sentence_ids": [
+        "p01-a-17-s03"
+      ],
+      "forms": [
+        "building"
+      ],
+      "sense_id": "sense-staged-ox-9582cc66fdcdea3e-p01-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-81f481b2b8b06942",
+      "lemma": "center",
+      "pos": "n.",
+      "sense_zh": "中心位置；美式拼写",
+      "sentence_ids": [
+        "p01-a-17-s06"
+      ],
+      "forms": [
+        "center"
+      ],
+      "sense_id": "sense-staged-ox-81f481b2b8b06942-p01-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ad9bad7820648e22",
+      "lemma": "chair",
+      "pos": "n.",
+      "sense_zh": "椅子",
+      "sentence_ids": [
+        "p01-a-17-s05"
+      ],
+      "forms": [
+        "chair"
+      ],
+      "sense_id": "sense-staged-ox-ad9bad7820648e22-p01-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7dfcb38f2a297492",
+      "lemma": "all",
+      "pos": "det.",
+      "sense_zh": "所有的，全部的",
+      "sentence_ids": [
+        "p01-a-17-s04"
+      ],
+      "forms": [
+        "all"
+      ],
+      "sense_id": "sense-staged-ox-7dfcb38f2a297492-p01-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c140a92640db0dae",
+      "lemma": "can",
+      "pos": "modal v.",
+      "sense_zh": "可以，询问某事是否可行",
+      "sentence_ids": [
+        "p01-a-17-s01"
+      ],
+      "forms": [
+        "can"
+      ],
+      "sense_id": "sense-staged-ox-c140a92640db0dae-p01-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9a66704872f8a748",
+      "lemma": "agree",
+      "pos": "v.",
+      "sense_zh": "同意",
+      "sentence_ids": [
+        "p01-a-17-s09"
+      ],
+      "forms": [
+        "agree"
+      ],
+      "sense_id": "sense-staged-ox-9a66704872f8a748-p01-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c1dd9b59ac682ff",
+      "lemma": "body",
+      "pos": "n.",
+      "sense_zh": "身体",
+      "sentence_ids": [
+        "p01-a-17-s08"
+      ],
+      "forms": [
+        "body"
+      ],
+      "sense_id": "sense-staged-ox-0c1dd9b59ac682ff-p01-a-17",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

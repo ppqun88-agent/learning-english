@@ -1,0 +1,190 @@
+{
+  "id": "p01-a-02",
+  "title_zh": "看房时问清布局",
+  "topic_id": "home",
+  "scenario": {
+    "id": "apartment-viewing-layout",
+    "label_zh": "了解公寓布局",
+    "goal_zh": "看房时询问房间位置及卫浴设施。"
+  },
+  "participants": [
+    "Maya",
+    "Landlord"
+  ],
+  "context_zh": "租客查看一套楼上的公寓，想知道房间的位置和洗浴设施，房东带她逐一查看。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-02-s01",
+      "speaker": "Maya",
+      "text": "Is this the apartment above the bakery?"
+    },
+    {
+      "id": "p01-a-02-s02",
+      "speaker": "Landlord",
+      "text": "Yes. The bakery is directly below us, but it closes at five."
+    },
+    {
+      "id": "p01-a-02-s03",
+      "speaker": "Maya",
+      "text": "That's good. Which door leads to the bedroom?"
+    },
+    {
+      "id": "p01-a-02-s04",
+      "speaker": "Landlord",
+      "text": "The one between the kitchen and the bathroom."
+    },
+    {
+      "id": "p01-a-02-s05",
+      "speaker": "Maya",
+      "text": "Is the bed included, or would I need my own?"
+    },
+    {
+      "id": "p01-a-02-s06",
+      "speaker": "Landlord",
+      "text": "It's included. You can try it if you like."
+    },
+    {
+      "id": "p01-a-02-s07",
+      "speaker": "Maya",
+      "text": "Thanks. One more thing: is there a bath, or only a shower?"
+    },
+    {
+      "id": "p01-a-02-s08",
+      "speaker": "Landlord",
+      "text": "Both. Let me show you before we discuss the rent."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e4c30b24f80e57db",
+      "lemma": "above",
+      "pos": "prep.",
+      "sense_zh": "在……上方",
+      "sentence_ids": [
+        "p01-a-02-s01"
+      ],
+      "forms": [
+        "above"
+      ],
+      "sense_id": "sense-staged-ox-e4c30b24f80e57db-p01-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f97ee2909162ab1",
+      "lemma": "apartment",
+      "pos": "n.",
+      "sense_zh": "公寓",
+      "sentence_ids": [
+        "p01-a-02-s01"
+      ],
+      "forms": [
+        "apartment"
+      ],
+      "sense_id": "sense-staged-ox-5f97ee2909162ab1-p01-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-869a7128868ede3b",
+      "lemma": "bathroom",
+      "pos": "n.",
+      "sense_zh": "浴室",
+      "sentence_ids": [
+        "p01-a-02-s04"
+      ],
+      "forms": [
+        "bathroom"
+      ],
+      "sense_id": "sense-staged-ox-869a7128868ede3b-p01-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-55dc120a04e4af1a",
+      "lemma": "bath",
+      "pos": "n.",
+      "sense_zh": "浴缸",
+      "sentence_ids": [
+        "p01-a-02-s07"
+      ],
+      "forms": [
+        "bath"
+      ],
+      "sense_id": "sense-staged-ox-55dc120a04e4af1a-p01-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-07606e576440228d",
+      "lemma": "bedroom",
+      "pos": "n.",
+      "sense_zh": "卧室",
+      "sentence_ids": [
+        "p01-a-02-s03"
+      ],
+      "forms": [
+        "bedroom"
+      ],
+      "sense_id": "sense-staged-ox-07606e576440228d-p01-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb6d43df5ac92f3f",
+      "lemma": "bed",
+      "pos": "n.",
+      "sense_zh": "床",
+      "sentence_ids": [
+        "p01-a-02-s05"
+      ],
+      "forms": [
+        "bed"
+      ],
+      "sense_id": "sense-staged-ox-cb6d43df5ac92f3f-p01-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-77955e24a158d60f",
+      "lemma": "below",
+      "pos": "prep.",
+      "sense_zh": "在……下面",
+      "sentence_ids": [
+        "p01-a-02-s02"
+      ],
+      "forms": [
+        "below"
+      ],
+      "sense_id": "sense-staged-ox-77955e24a158d60f-p01-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-50fe03f48f6112d1",
+      "lemma": "between",
+      "pos": "prep.",
+      "sense_zh": "在两者之间",
+      "sentence_ids": [
+        "p01-a-02-s04"
+      ],
+      "forms": [
+        "between"
+      ],
+      "sense_id": "sense-staged-ox-50fe03f48f6112d1-p01-a-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

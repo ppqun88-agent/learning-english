@@ -1,0 +1,211 @@
+{
+  "id": "p01-b-01",
+  "title_zh": "一起准备六人晚餐",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-dinner-preparation",
+    "label_zh": "分工准备晚饭",
+    "goal_zh": "商定晚餐分工、菜品和份量"
+  },
+  "participants": [
+    "Maya",
+    "Jon"
+  ],
+  "context_zh": "两位室友在客人到来前准备晚餐，其中一位客人不吃肉。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-01-s01",
+      "speaker": "Maya",
+      "text": "There are six of us for dinner. I cannot do all the cooking on my own."
+    },
+    {
+      "id": "p01-b-01-s02",
+      "speaker": "Jon",
+      "text": "I will help. Where should I start?"
+    },
+    {
+      "id": "p01-b-01-s03",
+      "speaker": "Maya",
+      "text": "Please cut these tomatoes while I cook the chicken."
+    },
+    {
+      "id": "p01-b-01-s04",
+      "speaker": "Jon",
+      "text": "Sure. Are we serving it with rice?"
+    },
+    {
+      "id": "p01-b-01-s05",
+      "speaker": "Maya",
+      "text": "Yes, and this vegetable dish is for Sam. He does not eat meat."
+    },
+    {
+      "id": "p01-b-01-s06",
+      "speaker": "Jon",
+      "text": "It smells delicious. Does it need anything on top?"
+    },
+    {
+      "id": "p01-b-01-s07",
+      "speaker": "Maya",
+      "text": "A little cheese. There is some in the fridge."
+    },
+    {
+      "id": "p01-b-01-s08",
+      "speaker": "Jon",
+      "text": "Do we have enough food for six people?"
+    },
+    {
+      "id": "p01-b-01-s09",
+      "speaker": "Maya",
+      "text": "With the rice and salad, yes. Thanks for helping. I will put the plates out."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ad5fcc2b6dca3d12",
+      "lemma": "cheese",
+      "pos": "n.",
+      "sense_zh": "奶酪",
+      "sentence_ids": [
+        "p01-b-01-s07"
+      ],
+      "forms": [
+        "cheese"
+      ],
+      "sense_id": "sense-staged-ox-ad5fcc2b6dca3d12-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-254b63d9712c92f0",
+      "lemma": "chicken",
+      "pos": "n.",
+      "sense_zh": "鸡肉",
+      "sentence_ids": [
+        "p01-b-01-s03"
+      ],
+      "forms": [
+        "chicken"
+      ],
+      "sense_id": "sense-staged-ox-254b63d9712c92f0-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-69255bab6e30da4c",
+      "lemma": "cook",
+      "pos": "v.",
+      "sense_zh": "烹饪",
+      "sentence_ids": [
+        "p01-b-01-s03"
+      ],
+      "forms": [
+        "cook"
+      ],
+      "sense_id": "sense-staged-ox-69255bab6e30da4c-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5833a2214e8a2b73",
+      "lemma": "cooking",
+      "pos": "n.",
+      "sense_zh": "烹饪工作",
+      "sentence_ids": [
+        "p01-b-01-s01"
+      ],
+      "forms": [
+        "cooking"
+      ],
+      "sense_id": "sense-staged-ox-5833a2214e8a2b73-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1681ae2b09defcfd",
+      "lemma": "cut",
+      "pos": "v.",
+      "sense_zh": "切",
+      "sentence_ids": [
+        "p01-b-01-s03"
+      ],
+      "forms": [
+        "cut"
+      ],
+      "sense_id": "sense-staged-ox-1681ae2b09defcfd-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df5c9276a5c211ff",
+      "lemma": "dinner",
+      "pos": "n.",
+      "sense_zh": "晚餐",
+      "sentence_ids": [
+        "p01-b-01-s01"
+      ],
+      "forms": [
+        "dinner"
+      ],
+      "sense_id": "sense-staged-ox-df5c9276a5c211ff-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5990b6ea0abab71a",
+      "lemma": "dish",
+      "pos": "n.",
+      "sense_zh": "一道菜",
+      "sentence_ids": [
+        "p01-b-01-s05"
+      ],
+      "forms": [
+        "dish"
+      ],
+      "sense_id": "sense-staged-ox-5990b6ea0abab71a-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ca4f8ab391cabdcf",
+      "lemma": "delicious",
+      "pos": "adj.",
+      "sense_zh": "美味的",
+      "sentence_ids": [
+        "p01-b-01-s06"
+      ],
+      "forms": [
+        "delicious"
+      ],
+      "sense_id": "sense-staged-ox-ca4f8ab391cabdcf-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-82e8c2a3e7548a3f",
+      "lemma": "enough",
+      "pos": "det.",
+      "sense_zh": "足够的",
+      "sentence_ids": [
+        "p01-b-01-s08"
+      ],
+      "forms": [
+        "enough"
+      ],
+      "sense_id": "sense-staged-ox-82e8c2a3e7548a3f-p01-b-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "id": "p01-a-09",
+  "title_zh": "交代照看猫的安排",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "cat-sitting-handover",
+    "label_zh": "向朋友交接宠物照护",
+    "goal_zh": "向代为照看猫的朋友说明喂养安排。"
+  },
+  "participants": [
+    "Priya",
+    "Sam"
+  ],
+  "context_zh": "主人离家前告诉朋友猫的日常习惯，并给出需要帮助时的联系方式。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-09-s01",
+      "speaker": "Priya",
+      "text": "Thanks for looking after my cat. She always waits by the kitchen door at six."
+    },
+    {
+      "id": "p01-a-09-s02",
+      "speaker": "Sam",
+      "text": "Is that when I should feed her?"
+    },
+    {
+      "id": "p01-a-09-s03",
+      "speaker": "Priya",
+      "text": "Yes. One pouch is enough, even if she asks for another pouch."
+    },
+    {
+      "id": "p01-a-09-s04",
+      "speaker": "Sam",
+      "text": "Any other advice?"
+    },
+    {
+      "id": "p01-a-09-s05",
+      "speaker": "Priya",
+      "text": "Keep the bedroom window shut. She likes climbing onto the roof."
+    },
+    {
+      "id": "p01-a-09-s06",
+      "speaker": "Sam",
+      "text": "Got it. Should I call if anything seems wrong?"
+    },
+    {
+      "id": "p01-a-09-s07",
+      "speaker": "Priya",
+      "text": "Please do. My number and the vet's number are on the fridge."
+    },
+    {
+      "id": "p01-a-09-s08",
+      "speaker": "Sam",
+      "text": "Okay. I'll send you a photo once she's settled."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-141c05f42e7dc9f0",
+      "lemma": "cat",
+      "pos": "n.",
+      "sense_zh": "猫",
+      "sentence_ids": [
+        "p01-a-09-s01"
+      ],
+      "forms": [
+        "cat"
+      ],
+      "sense_id": "sense-staged-ox-141c05f42e7dc9f0-p01-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-94419556c5256dd6",
+      "lemma": "advice",
+      "pos": "n.",
+      "sense_zh": "建议",
+      "sentence_ids": [
+        "p01-a-09-s04"
+      ],
+      "forms": [
+        "advice"
+      ],
+      "sense_id": "sense-staged-ox-94419556c5256dd6-p01-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84bf7d77e30c4e20",
+      "lemma": "always",
+      "pos": "adv.",
+      "sense_zh": "总是",
+      "sentence_ids": [
+        "p01-a-09-s01"
+      ],
+      "forms": [
+        "always"
+      ],
+      "sense_id": "sense-staged-ox-84bf7d77e30c4e20-p01-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-739606b6a702bde0",
+      "lemma": "anything",
+      "pos": "pron.",
+      "sense_zh": "任何事物，用于条件句",
+      "sentence_ids": [
+        "p01-a-09-s06"
+      ],
+      "forms": [
+        "anything"
+      ],
+      "sense_id": "sense-staged-ox-739606b6a702bde0-p01-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-73f5241eb6a3d882",
+      "lemma": "another",
+      "pos": "det.",
+      "sense_zh": "再一个，额外的一个",
+      "sentence_ids": [
+        "p01-a-09-s03"
+      ],
+      "forms": [
+        "another"
+      ],
+      "sense_id": "sense-staged-ox-73f5241eb6a3d882-p01-a-09",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

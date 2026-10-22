@@ -1,0 +1,132 @@
+{
+  "id": "p01-b-16",
+  "title_zh": "天黑前不走湿滑的台阶",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "hill-walk-route-choice",
+    "label_zh": "调整山间步行路线",
+    "goal_zh": "考虑天色和路面条件后改走短路线"
+  },
+  "participants": [
+    "Finn",
+    "Iris"
+  ],
+  "context_zh": "两位朋友下午散步，原计划登上山顶的旧塔，但时间和路况不合适。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-16-s01",
+      "speaker": "Finn",
+      "text": "Shall we climb up to the old tower? The view should be lovely."
+    },
+    {
+      "id": "p01-b-16-s02",
+      "speaker": "Iris",
+      "text": "It will be dark in an hour. I do not want to come back down those steps without a light."
+    },
+    {
+      "id": "p01-b-16-s03",
+      "speaker": "Finn",
+      "text": "They look wet, too. It rained during lunch."
+    },
+    {
+      "id": "p01-b-16-s04",
+      "speaker": "Iris",
+      "text": "Exactly. I would rather miss the view than fall on the way down."
+    },
+    {
+      "id": "p01-b-16-s05",
+      "speaker": "Finn",
+      "text": "It is getting cool as well. Let us take the short path back and come earlier another day."
+    },
+    {
+      "id": "p01-b-16-s06",
+      "speaker": "Iris",
+      "text": "Agreed. We can still get a cup of tea before the cafe shuts."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f8cddc351e1d420a",
+      "lemma": "climb",
+      "pos": "v.",
+      "sense_zh": "攀登",
+      "sentence_ids": [
+        "p01-b-16-s01"
+      ],
+      "forms": [
+        "climb"
+      ],
+      "sense_id": "sense-staged-ox-f8cddc351e1d420a-p01-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44e5f46458ffd7b5",
+      "lemma": "dark",
+      "pos": "adj.",
+      "sense_zh": "昏暗的；天黑的",
+      "sentence_ids": [
+        "p01-b-16-s02"
+      ],
+      "forms": [
+        "dark"
+      ],
+      "sense_id": "sense-staged-ox-44e5f46458ffd7b5-p01-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-208e451ca3986e66",
+      "lemma": "fall",
+      "pos": "v.",
+      "sense_zh": "摔倒",
+      "sentence_ids": [
+        "p01-b-16-s04"
+      ],
+      "forms": [
+        "fall"
+      ],
+      "sense_id": "sense-staged-ox-208e451ca3986e66-p01-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-04a94b66b63f5c31",
+      "lemma": "cool",
+      "pos": "adj.",
+      "sense_zh": "凉爽的；微冷的",
+      "sentence_ids": [
+        "p01-b-16-s05"
+      ],
+      "forms": [
+        "cool"
+      ],
+      "sense_id": "sense-staged-ox-04a94b66b63f5c31-p01-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9d1b2898f21c2ab0",
+      "lemma": "during",
+      "pos": "prep.",
+      "sense_zh": "在……期间",
+      "sentence_ids": [
+        "p01-b-16-s03"
+      ],
+      "forms": [
+        "during"
+      ],
+      "sense_id": "sense-staged-ox-9d1b2898f21c2ab0-p01-b-16",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

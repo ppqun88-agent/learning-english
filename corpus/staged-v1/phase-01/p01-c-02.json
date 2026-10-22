@@ -1,0 +1,164 @@
+{
+  "id": "p01-c-02",
+  "title_zh": "选一部周五看的电影",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "friends-film-night",
+    "label_zh": "商定朋友电影之夜",
+    "goal_zh": "兼顾时间与喜好选定影片"
+  },
+  "participants": [
+    "Nina",
+    "Owen"
+  ],
+  "context_zh": "两位朋友想邀请共同的朋友一起看电影。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-02-s01",
+      "speaker": "Nina",
+      "text": "Are you free on Friday evening?"
+    },
+    {
+      "id": "p01-c-02-s02",
+      "speaker": "Owen",
+      "text": "Yes; is this about the film your friend suggested?"
+    },
+    {
+      "id": "p01-c-02-s03",
+      "speaker": "Nina",
+      "text": "It is, but I would rather watch something funny after such a long week."
+    },
+    {
+      "id": "p01-c-02-s04",
+      "speaker": "Owen",
+      "text": "How about the comedy at the small cinema?"
+    },
+    {
+      "id": "p01-c-02-s05",
+      "speaker": "Nina",
+      "text": "Great, watching that together should be fun."
+    },
+    {
+      "id": "p01-c-02-s06",
+      "speaker": "Owen",
+      "text": "I will check the evening times and send you the link before we buy tickets."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a7a356a00d472dce",
+      "lemma": "film",
+      "pos": "n.",
+      "sense_zh": "电影",
+      "sentence_ids": [
+        "p01-c-02-s02"
+      ],
+      "forms": [
+        "film"
+      ],
+      "sense_id": "sense-staged-ox-a7a356a00d472dce-p01-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-40af911929e05e86",
+      "lemma": "funny",
+      "pos": "adj.",
+      "sense_zh": "滑稽的；好笑的",
+      "sentence_ids": [
+        "p01-c-02-s03"
+      ],
+      "forms": [
+        "funny"
+      ],
+      "sense_id": "sense-staged-ox-40af911929e05e86-p01-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eeb661c45f7598b2",
+      "lemma": "fun",
+      "pos": "n.",
+      "sense_zh": "乐趣",
+      "sentence_ids": [
+        "p01-c-02-s05"
+      ],
+      "forms": [
+        "fun"
+      ],
+      "sense_id": "sense-staged-ox-eeb661c45f7598b2-p01-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4fac0aa690848662",
+      "lemma": "friend",
+      "pos": "n.",
+      "sense_zh": "朋友",
+      "sentence_ids": [
+        "p01-c-02-s02"
+      ],
+      "forms": [
+        "friend"
+      ],
+      "sense_id": "sense-staged-ox-4fac0aa690848662-p01-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7103ca5d64f2d6ec",
+      "lemma": "Friday",
+      "pos": "n.",
+      "sense_zh": "星期五",
+      "sentence_ids": [
+        "p01-c-02-s01"
+      ],
+      "forms": [
+        "Friday"
+      ],
+      "sense_id": "sense-staged-ox-7103ca5d64f2d6ec-p01-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d727cad1029210ea",
+      "lemma": "free",
+      "pos": "adj.",
+      "sense_zh": "有空的",
+      "sentence_ids": [
+        "p01-c-02-s01"
+      ],
+      "forms": [
+        "free"
+      ],
+      "sense_id": "sense-staged-ox-d727cad1029210ea-p01-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26ef02901b3e61c2",
+      "lemma": "great",
+      "pos": "adj.",
+      "sense_zh": "很好的",
+      "sentence_ids": [
+        "p01-c-02-s05"
+      ],
+      "forms": [
+        "great"
+      ],
+      "sense_id": "sense-staged-ox-26ef02901b3e61c2-p01-c-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

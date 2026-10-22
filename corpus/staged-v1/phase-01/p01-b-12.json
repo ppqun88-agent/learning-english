@@ -1,0 +1,153 @@
+{
+  "id": "p01-b-12",
+  "title_zh": "带狗参观农场的规则",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "farm-visit-animal-rules",
+    "label_zh": "核对农场参观规则",
+    "goal_zh": "确认宠物限制并了解观赏牲畜的位置"
+  },
+  "participants": [
+    "Nadia",
+    "Gareth"
+  ],
+  "context_zh": "游客带着狗来到乡间农场的接待处，入场前询问规则。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-12-s01",
+      "speaker": "Nadia",
+      "text": "We are staying in the country this week. Is your farm open to visitors today?"
+    },
+    {
+      "id": "p01-b-12-s02",
+      "speaker": "Gareth",
+      "text": "Yes. I am the farmer here. The marked path takes you past the animals and back to the shop."
+    },
+    {
+      "id": "p01-b-12-s03",
+      "speaker": "Nadia",
+      "text": "Can our dog come with us? He is on a lead."
+    },
+    {
+      "id": "p01-b-12-s04",
+      "speaker": "Gareth",
+      "text": "Not into the animal fields, please. You can take turns visiting while one of you stays with him by the shop."
+    },
+    {
+      "id": "p01-b-12-s05",
+      "speaker": "Nadia",
+      "text": "Is it dangerous to walk near the cattle?"
+    },
+    {
+      "id": "p01-b-12-s06",
+      "speaker": "Gareth",
+      "text": "Stay on the marked path and keep the gates shut. That cow by the fence has a young calf, so give her space."
+    },
+    {
+      "id": "p01-b-12-s07",
+      "speaker": "Nadia",
+      "text": "Understood. I will stay here with the dog first, and my partner can follow the path."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-916007896853b8aa",
+      "lemma": "country",
+      "pos": "n.",
+      "sense_zh": "乡下",
+      "sentence_ids": [
+        "p01-b-12-s01"
+      ],
+      "forms": [
+        "country"
+      ],
+      "sense_id": "sense-staged-ox-916007896853b8aa-p01-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f53a270ae722adc9",
+      "lemma": "cow",
+      "pos": "n.",
+      "sense_zh": "母牛",
+      "sentence_ids": [
+        "p01-b-12-s06"
+      ],
+      "forms": [
+        "cow"
+      ],
+      "sense_id": "sense-staged-ox-f53a270ae722adc9-p01-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe86525853add4b7",
+      "lemma": "farm",
+      "pos": "n.",
+      "sense_zh": "农场",
+      "sentence_ids": [
+        "p01-b-12-s01"
+      ],
+      "forms": [
+        "farm"
+      ],
+      "sense_id": "sense-staged-ox-fe86525853add4b7-p01-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e670f299252a0bcd",
+      "lemma": "farmer",
+      "pos": "n.",
+      "sense_zh": "农民；农场经营者",
+      "sentence_ids": [
+        "p01-b-12-s02"
+      ],
+      "forms": [
+        "farmer"
+      ],
+      "sense_id": "sense-staged-ox-e670f299252a0bcd-p01-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b24e1d7402b8097",
+      "lemma": "dog",
+      "pos": "n.",
+      "sense_zh": "狗",
+      "sentence_ids": [
+        "p01-b-12-s03"
+      ],
+      "forms": [
+        "dog"
+      ],
+      "sense_id": "sense-staged-ox-0b24e1d7402b8097-p01-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a682ec978c4ab0ea",
+      "lemma": "dangerous",
+      "pos": "adj.",
+      "sense_zh": "危险的",
+      "sentence_ids": [
+        "p01-b-12-s05"
+      ],
+      "forms": [
+        "dangerous"
+      ],
+      "sense_id": "sense-staged-ox-a682ec978c4ab0ea-p01-b-12",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

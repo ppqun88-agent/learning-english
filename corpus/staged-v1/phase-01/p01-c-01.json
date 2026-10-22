@@ -1,0 +1,216 @@
+{
+  "id": "p01-c-01",
+  "title_zh": "报名做节庆志愿者",
+  "topic_id": "community",
+  "scenario": {
+    "id": "festival-volunteer-shift",
+    "label_zh": "报名节庆志愿班次",
+    "goal_zh": "选择合适班次并确认报名资料"
+  },
+  "participants": [
+    "Rosa",
+    "Ben"
+  ],
+  "context_zh": "居民在社区活动中心询问节庆志愿者岗位。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-01-s01",
+      "speaker": "Rosa",
+      "text": "Do you still need volunteers for the festival?"
+    },
+    {
+      "id": "p01-c-01-s02",
+      "speaker": "Ben",
+      "text": "Yes, we have a few places left on the afternoon team."
+    },
+    {
+      "id": "p01-c-01-s03",
+      "speaker": "Rosa",
+      "text": "I can help at the entrance, but I need some training."
+    },
+    {
+      "id": "p01-c-01-s04",
+      "speaker": "Ben",
+      "text": "That takes fifteen minutes, and you will work with a group of three experienced volunteers."
+    },
+    {
+      "id": "p01-c-01-s05",
+      "speaker": "Rosa",
+      "text": "Will the entrance be busy?"
+    },
+    {
+      "id": "p01-c-01-s06",
+      "speaker": "Ben",
+      "text": "We expect about fifty visitors in the first hour, so nobody will be on their own."
+    },
+    {
+      "id": "p01-c-01-s07",
+      "speaker": "Rosa",
+      "text": "That sounds manageable; where do I sign up?"
+    },
+    {
+      "id": "p01-c-01-s08",
+      "speaker": "Ben",
+      "text": "Please fill in this form and include a phone number we can reach you on that day."
+    },
+    {
+      "id": "p01-c-01-s09",
+      "speaker": "Rosa",
+      "text": "Is there any other information you need?"
+    },
+    {
+      "id": "p01-c-01-s10",
+      "speaker": "Ben",
+      "text": "Just your preferred shift; I will put you down for the afternoon once you finish."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4d8ee65aa0d6c242",
+      "lemma": "festival",
+      "pos": "n.",
+      "sense_zh": "节庆活动",
+      "sentence_ids": [
+        "p01-c-01-s01"
+      ],
+      "forms": [
+        "festival"
+      ],
+      "sense_id": "sense-staged-ox-4d8ee65aa0d6c242-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc946f47d8b5ee94",
+      "lemma": "few",
+      "pos": "det.",
+      "sense_zh": "少量；几个",
+      "sentence_ids": [
+        "p01-c-01-s02"
+      ],
+      "forms": [
+        "few"
+      ],
+      "sense_id": "sense-staged-ox-dc946f47d8b5ee94-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a6971db2a6d5bef0",
+      "lemma": "fifteen",
+      "pos": "number",
+      "sense_zh": "十五",
+      "sentence_ids": [
+        "p01-c-01-s04"
+      ],
+      "forms": [
+        "fifteen"
+      ],
+      "sense_id": "sense-staged-ox-a6971db2a6d5bef0-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d74efc14dae454dc",
+      "lemma": "fifty",
+      "pos": "number",
+      "sense_zh": "五十",
+      "sentence_ids": [
+        "p01-c-01-s06"
+      ],
+      "forms": [
+        "fifty"
+      ],
+      "sense_id": "sense-staged-ox-d74efc14dae454dc-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b50b0be08c511161",
+      "lemma": "fill",
+      "pos": "v.",
+      "sense_zh": "填写",
+      "sentence_ids": [
+        "p01-c-01-s08"
+      ],
+      "forms": [
+        "fill"
+      ],
+      "sense_id": "sense-staged-ox-b50b0be08c511161-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-471880340ddb46d4",
+      "lemma": "form",
+      "pos": "n.",
+      "sense_zh": "表格",
+      "sentence_ids": [
+        "p01-c-01-s08"
+      ],
+      "forms": [
+        "form"
+      ],
+      "sense_id": "sense-staged-ox-471880340ddb46d4-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-40fab726e0c25acd",
+      "lemma": "group",
+      "pos": "n.",
+      "sense_zh": "小组",
+      "sentence_ids": [
+        "p01-c-01-s04"
+      ],
+      "forms": [
+        "group"
+      ],
+      "sense_id": "sense-staged-ox-40fab726e0c25acd-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41cd6ba4b09d742a",
+      "lemma": "include",
+      "pos": "v.",
+      "sense_zh": "包含；填写在内",
+      "sentence_ids": [
+        "p01-c-01-s08"
+      ],
+      "forms": [
+        "include"
+      ],
+      "sense_id": "sense-staged-ox-41cd6ba4b09d742a-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae9d9be9acb41d8f",
+      "lemma": "information",
+      "pos": "n.",
+      "sense_zh": "信息；资料",
+      "sentence_ids": [
+        "p01-c-01-s09"
+      ],
+      "forms": [
+        "information"
+      ],
+      "sense_id": "sense-staged-ox-ae9d9be9acb41d8f-p01-c-01",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

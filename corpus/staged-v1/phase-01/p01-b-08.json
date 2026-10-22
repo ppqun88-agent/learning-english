@@ -1,0 +1,148 @@
+{
+  "id": "p01-b-08",
+  "title_zh": "今晚在家看哪部电影",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "home-film-choice",
+    "label_zh": "商量在家看电影",
+    "goal_zh": "在不出门的前提下选定双方都想看的影片"
+  },
+  "participants": [
+    "Jamie",
+    "Casey"
+  ],
+  "context_zh": "两位室友下班后都不想出门，打算从家里的影碟中选一部电影。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-08-s01",
+      "speaker": "Jamie",
+      "text": "Do you still want to go to the cinema this evening?"
+    },
+    {
+      "id": "p01-b-08-s02",
+      "speaker": "Casey",
+      "text": "Honestly, I would rather stay home. I have been out all day."
+    },
+    {
+      "id": "p01-b-08-s03",
+      "speaker": "Jamie",
+      "text": "Same here. We could watch a DVD. I still have that old comedy you like."
+    },
+    {
+      "id": "p01-b-08-s04",
+      "speaker": "Casey",
+      "text": "My favorite! But you have seen it twice. Would you enjoy it again?"
+    },
+    {
+      "id": "p01-b-08-s05",
+      "speaker": "Jamie",
+      "text": "Yes, especially the train scene. That is easy to decide, then. I will get the player ready."
+    },
+    {
+      "id": "p01-b-08-s06",
+      "speaker": "Casey",
+      "text": "And I will make the popcorn."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b46ffd3af7e81bfa",
+      "lemma": "cinema",
+      "pos": "n.",
+      "sense_zh": "电影院",
+      "sentence_ids": [
+        "p01-b-08-s01"
+      ],
+      "forms": [
+        "cinema"
+      ],
+      "sense_id": "sense-staged-ox-b46ffd3af7e81bfa-p01-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26d3053a4e95c5e7",
+      "lemma": "DVD",
+      "pos": "n.",
+      "sense_zh": "数字影碟",
+      "sentence_ids": [
+        "p01-b-08-s03"
+      ],
+      "forms": [
+        "DVD"
+      ],
+      "sense_id": "sense-staged-ox-26d3053a4e95c5e7-p01-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-655c789636732f55",
+      "lemma": "evening",
+      "pos": "n.",
+      "sense_zh": "晚上",
+      "sentence_ids": [
+        "p01-b-08-s01"
+      ],
+      "forms": [
+        "evening"
+      ],
+      "sense_id": "sense-staged-ox-655c789636732f55-p01-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2ed73b9cacd2dab1",
+      "lemma": "enjoy",
+      "pos": "v.",
+      "sense_zh": "喜欢；享受",
+      "sentence_ids": [
+        "p01-b-08-s04"
+      ],
+      "forms": [
+        "enjoy"
+      ],
+      "sense_id": "sense-staged-ox-2ed73b9cacd2dab1-p01-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1b0ac475b6a6fef7",
+      "lemma": "favorite",
+      "pos": "n.",
+      "sense_zh": "特别喜爱的事物",
+      "sentence_ids": [
+        "p01-b-08-s04"
+      ],
+      "forms": [
+        "favorite"
+      ],
+      "sense_id": "sense-staged-ox-1b0ac475b6a6fef7-p01-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-29d67882c1f56dd5",
+      "lemma": "decide",
+      "pos": "v.",
+      "sense_zh": "决定",
+      "sentence_ids": [
+        "p01-b-08-s05"
+      ],
+      "forms": [
+        "decide"
+      ],
+      "sense_id": "sense-staged-ox-29d67882c1f56dd5-p01-b-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

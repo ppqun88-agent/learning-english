@@ -1,0 +1,190 @@
+{
+  "id": "p01-b-13",
+  "title_zh": "把家庭聚餐安排早一点",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "winter-family-meeting",
+    "label_zh": "协调冬季家庭聚餐",
+    "goal_zh": "商定聚餐日期、用餐时间及长辈接送"
+  },
+  "participants": [
+    "Leah",
+    "Tom"
+  ],
+  "context_zh": "一对伴侣为十二月的家庭聚餐协调一位亲属带孩子来访以及长辈的交通。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-13-s01",
+      "speaker": "Leah",
+      "text": "When should we get the family together for a meal in December?"
+    },
+    {
+      "id": "p01-b-13-s02",
+      "speaker": "Tom",
+      "text": "My cousin Mia can come on the tenth, but she needs to leave by eight."
+    },
+    {
+      "id": "p01-b-13-s03",
+      "speaker": "Leah",
+      "text": "Is she bringing her daughter?"
+    },
+    {
+      "id": "p01-b-13-s04",
+      "speaker": "Tom",
+      "text": "Yes. She will be the only child here, so let us eat early and keep the meal short."
+    },
+    {
+      "id": "p01-b-13-s05",
+      "speaker": "Leah",
+      "text": "What about your father? He does not like driving after dark."
+    },
+    {
+      "id": "p01-b-13-s06",
+      "speaker": "Tom",
+      "text": "My dad can stay with us. I will collect him in the afternoon."
+    },
+    {
+      "id": "p01-b-13-s07",
+      "speaker": "Leah",
+      "text": "Then I will tell Mia we are eating at five."
+    },
+    {
+      "id": "p01-b-13-s08",
+      "speaker": "Tom",
+      "text": "Great. I will get the spare room ready that morning."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-de39368cf96b5246",
+      "lemma": "cousin",
+      "pos": "n.",
+      "sense_zh": "堂亲或表亲",
+      "sentence_ids": [
+        "p01-b-13-s02"
+      ],
+      "forms": [
+        "cousin"
+      ],
+      "sense_id": "sense-staged-ox-de39368cf96b5246-p01-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a1385d33dd9dad02",
+      "lemma": "dad",
+      "pos": "n.",
+      "sense_zh": "爸爸",
+      "sentence_ids": [
+        "p01-b-13-s06"
+      ],
+      "forms": [
+        "dad"
+      ],
+      "sense_id": "sense-staged-ox-a1385d33dd9dad02-p01-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0cdae5e951c24aaa",
+      "lemma": "child",
+      "pos": "n.",
+      "sense_zh": "儿童",
+      "sentence_ids": [
+        "p01-b-13-s04"
+      ],
+      "forms": [
+        "child"
+      ],
+      "sense_id": "sense-staged-ox-0cdae5e951c24aaa-p01-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa37c4654d477e4b",
+      "lemma": "family",
+      "pos": "n.",
+      "sense_zh": "家庭；家人",
+      "sentence_ids": [
+        "p01-b-13-s01"
+      ],
+      "forms": [
+        "family"
+      ],
+      "sense_id": "sense-staged-ox-aa37c4654d477e4b-p01-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a7b4607baa0fbff1",
+      "lemma": "daughter",
+      "pos": "n.",
+      "sense_zh": "女儿",
+      "sentence_ids": [
+        "p01-b-13-s03"
+      ],
+      "forms": [
+        "daughter"
+      ],
+      "sense_id": "sense-staged-ox-a7b4607baa0fbff1-p01-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3e156d371b538013",
+      "lemma": "father",
+      "pos": "n.",
+      "sense_zh": "父亲",
+      "sentence_ids": [
+        "p01-b-13-s05"
+      ],
+      "forms": [
+        "father"
+      ],
+      "sense_id": "sense-staged-ox-3e156d371b538013-p01-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b1ee0402b206d7c",
+      "lemma": "December",
+      "pos": "n.",
+      "sense_zh": "十二月",
+      "sentence_ids": [
+        "p01-b-13-s01"
+      ],
+      "forms": [
+        "December"
+      ],
+      "sense_id": "sense-staged-ox-7b1ee0402b206d7c-p01-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c00e0a30993883ba",
+      "lemma": "eight",
+      "pos": "number",
+      "sense_zh": "八；八点",
+      "sentence_ids": [
+        "p01-b-13-s02"
+      ],
+      "forms": [
+        "eight"
+      ],
+      "sense_id": "sense-staged-ox-c00e0a30993883ba-p01-b-13",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

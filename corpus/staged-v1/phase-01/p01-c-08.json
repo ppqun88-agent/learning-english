@@ -1,0 +1,138 @@
+{
+  "id": "p01-c-08",
+  "title_zh": "等甜点时先点饮料",
+  "topic_id": "food",
+  "scenario": {
+    "id": "dessert-wait-drinks",
+    "label_zh": "点甜点及饮料",
+    "goal_zh": "确认等候时间并说明饮料偏好"
+  },
+  "participants": [
+    "Server Pia",
+    "Noah"
+  ],
+  "context_zh": "顾客在甜品店点水果甜点和饮料。",
+  "author": "author-phase01-c",
+  "sentences": [
+    {
+      "id": "p01-c-08-s01",
+      "speaker": "Server Pia",
+      "text": "The fruit plate will take about five minutes; can I bring you a drink first?"
+    },
+    {
+      "id": "p01-c-08-s02",
+      "speaker": "Noah",
+      "text": "Yes, a glass of orange juice, please, with no ice."
+    },
+    {
+      "id": "p01-c-08-s03",
+      "speaker": "Server Pia",
+      "text": "Certainly; would you like ice cream with the fruit?"
+    },
+    {
+      "id": "p01-c-08-s04",
+      "speaker": "Noah",
+      "text": "A small scoop of vanilla, please; I am happy to wait for them together."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ef5299da03b953c9",
+      "lemma": "fruit",
+      "pos": "n.",
+      "sense_zh": "水果",
+      "sentence_ids": [
+        "p01-c-08-s01"
+      ],
+      "forms": [
+        "fruit"
+      ],
+      "sense_id": "sense-staged-ox-ef5299da03b953c9-p01-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-07402fe8f122e414",
+      "lemma": "glass",
+      "pos": "n.",
+      "sense_zh": "玻璃杯；一杯的量",
+      "sentence_ids": [
+        "p01-c-08-s02"
+      ],
+      "forms": [
+        "glass"
+      ],
+      "sense_id": "sense-staged-ox-07402fe8f122e414-p01-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-847c61640d5dd0e8",
+      "lemma": "juice",
+      "pos": "n.",
+      "sense_zh": "果汁",
+      "sentence_ids": [
+        "p01-c-08-s02"
+      ],
+      "forms": [
+        "juice"
+      ],
+      "sense_id": "sense-staged-ox-847c61640d5dd0e8-p01-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4095f426cf9fed52",
+      "lemma": "ice",
+      "pos": "n.",
+      "sense_zh": "冰块",
+      "sentence_ids": [
+        "p01-c-08-s02"
+      ],
+      "forms": [
+        "ice"
+      ],
+      "sense_id": "sense-staged-ox-4095f426cf9fed52-p01-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f953a45f01de6339",
+      "lemma": "ice cream",
+      "pos": "n.",
+      "sense_zh": "冰淇淋",
+      "sentence_ids": [
+        "p01-c-08-s03"
+      ],
+      "forms": [
+        "ice cream"
+      ],
+      "sense_id": "sense-staged-ox-f953a45f01de6339-p01-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6290dde62523bc21",
+      "lemma": "five",
+      "pos": "number",
+      "sense_zh": "五",
+      "sentence_ids": [
+        "p01-c-08-s01"
+      ],
+      "forms": [
+        "five"
+      ],
+      "sense_id": "sense-staged-ox-6290dde62523bc21-p01-c-08",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

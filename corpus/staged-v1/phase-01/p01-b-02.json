@@ -1,0 +1,222 @@
+{
+  "id": "p01-b-02",
+  "title_zh": "在咖啡馆换一个座位",
+  "topic_id": "food",
+  "scenario": {
+    "id": "cafe-drink-correction",
+    "label_zh": "点餐并调整座位",
+    "goal_zh": "选好餐点并找到不受冷风影响的座位"
+  },
+  "participants": [
+    "Nora",
+    "Eli"
+  ],
+  "context_zh": "客人想在咖啡馆坐一会儿，点餐时发现门边的座位太冷。",
+  "author": "author-phase01-b",
+  "sentences": [
+    {
+      "id": "p01-b-02-s01",
+      "speaker": "Nora",
+      "text": "I would like a coffee and something small to eat."
+    },
+    {
+      "id": "p01-b-02-s02",
+      "speaker": "Eli",
+      "text": "The chocolate cake is fresh. Would you like a slice?"
+    },
+    {
+      "id": "p01-b-02-s03",
+      "speaker": "Nora",
+      "text": "Yes, without cream, please. And could I have a proper cup? I am staying here."
+    },
+    {
+      "id": "p01-b-02-s04",
+      "speaker": "Eli",
+      "text": "Of course. Anything else?"
+    },
+    {
+      "id": "p01-b-02-s05",
+      "speaker": "Nora",
+      "text": "Just a glass of water. It is rather cold by the door. May I move to that table?"
+    },
+    {
+      "id": "p01-b-02-s06",
+      "speaker": "Eli",
+      "text": "Certainly. The customer who was sitting there has left. I will wipe it for you."
+    },
+    {
+      "id": "p01-b-02-s07",
+      "speaker": "Nora",
+      "text": "Thanks. I was hoping to sit and read while I drink my coffee."
+    },
+    {
+      "id": "p01-b-02-s08",
+      "speaker": "Eli",
+      "text": "That table is ready now. I will bring everything over."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-558883d29b956a43",
+      "lemma": "coffee",
+      "pos": "n.",
+      "sense_zh": "咖啡",
+      "sentence_ids": [
+        "p01-b-02-s01"
+      ],
+      "forms": [
+        "coffee"
+      ],
+      "sense_id": "sense-staged-ox-558883d29b956a43-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d33b771ce79de00d",
+      "lemma": "chocolate",
+      "pos": "n.",
+      "sense_zh": "巧克力",
+      "sentence_ids": [
+        "p01-b-02-s02"
+      ],
+      "forms": [
+        "chocolate"
+      ],
+      "sense_id": "sense-staged-ox-d33b771ce79de00d-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce49d629bb9b627c",
+      "lemma": "cream",
+      "pos": "n.",
+      "sense_zh": "奶油",
+      "sentence_ids": [
+        "p01-b-02-s03"
+      ],
+      "forms": [
+        "cream"
+      ],
+      "sense_id": "sense-staged-ox-ce49d629bb9b627c-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-af13300cb23de07c",
+      "lemma": "cup",
+      "pos": "n.",
+      "sense_zh": "杯子",
+      "sentence_ids": [
+        "p01-b-02-s03"
+      ],
+      "forms": [
+        "cup"
+      ],
+      "sense_id": "sense-staged-ox-af13300cb23de07c-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0554e2cb0e932ff2",
+      "lemma": "drink",
+      "pos": "v.",
+      "sense_zh": "喝",
+      "sentence_ids": [
+        "p01-b-02-s07"
+      ],
+      "forms": [
+        "drink"
+      ],
+      "sense_id": "sense-staged-ox-0554e2cb0e932ff2-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cbbb3ec0aed6b860",
+      "lemma": "cold",
+      "pos": "adj.",
+      "sense_zh": "寒冷的",
+      "sentence_ids": [
+        "p01-b-02-s05"
+      ],
+      "forms": [
+        "cold"
+      ],
+      "sense_id": "sense-staged-ox-cbbb3ec0aed6b860-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-661e8e449af005fb",
+      "lemma": "eat",
+      "pos": "v.",
+      "sense_zh": "吃",
+      "sentence_ids": [
+        "p01-b-02-s01"
+      ],
+      "forms": [
+        "eat"
+      ],
+      "sense_id": "sense-staged-ox-661e8e449af005fb-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4ec4251094389280",
+      "lemma": "else",
+      "pos": "adv.",
+      "sense_zh": "另外；其他",
+      "sentence_ids": [
+        "p01-b-02-s04"
+      ],
+      "forms": [
+        "else"
+      ],
+      "sense_id": "sense-staged-ox-4ec4251094389280-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d3744573cf86eb77",
+      "lemma": "customer",
+      "pos": "n.",
+      "sense_zh": "顾客",
+      "sentence_ids": [
+        "p01-b-02-s06"
+      ],
+      "forms": [
+        "customer"
+      ],
+      "sense_id": "sense-staged-ox-d3744573cf86eb77-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-277a900774ae1eda",
+      "lemma": "could",
+      "pos": "modal v.",
+      "sense_zh": "用于礼貌提出请求",
+      "sentence_ids": [
+        "p01-b-02-s03"
+      ],
+      "forms": [
+        "could"
+      ],
+      "sense_id": "sense-staged-ox-277a900774ae1eda-p01-b-02",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

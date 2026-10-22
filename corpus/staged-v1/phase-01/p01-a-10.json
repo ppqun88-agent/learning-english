@@ -1,0 +1,169 @@
+{
+  "id": "p01-a-10",
+  "title_zh": "决定怎样游览海边",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "seaside-boat-trip",
+    "label_zh": "选择海边游览方式",
+    "goal_zh": "比较海边游览方式并决定是否乘船。"
+  },
+  "participants": [
+    "Ben",
+    "Aisha"
+  ],
+  "context_zh": "两位朋友抵达海边后讨论要不要乘观光船，其中一位容易晕船，因此两人调整了计划。",
+  "author": "author-phase01-a",
+  "sentences": [
+    {
+      "id": "p01-a-10-s01",
+      "speaker": "Ben",
+      "text": "This beach is beautiful. Shall we stay here for a while?"
+    },
+    {
+      "id": "p01-a-10-s02",
+      "speaker": "Aisha",
+      "text": "Yes. I came for the fresh air, not a busy schedule."
+    },
+    {
+      "id": "p01-a-10-s03",
+      "speaker": "Ben",
+      "text": "There is a boat that goes around the island, though."
+    },
+    {
+      "id": "p01-a-10-s04",
+      "speaker": "Aisha",
+      "text": "I'd rather not go because I get seasick."
+    },
+    {
+      "id": "p01-a-10-s05",
+      "speaker": "Ben",
+      "text": "No problem. We can walk along the shore instead."
+    },
+    {
+      "id": "p01-a-10-s06",
+      "speaker": "Aisha",
+      "text": "That sounds lovely. Can we get lunch before the walk?"
+    },
+    {
+      "id": "p01-a-10-s07",
+      "speaker": "Ben",
+      "text": "Definitely. Let's try that little place near the harbour."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dd4e603200e6a0fc",
+      "lemma": "beach",
+      "pos": "n.",
+      "sense_zh": "海滩",
+      "sentence_ids": [
+        "p01-a-10-s01"
+      ],
+      "forms": [
+        "beach"
+      ],
+      "sense_id": "sense-staged-ox-dd4e603200e6a0fc-p01-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f113ee875c27436",
+      "lemma": "beautiful",
+      "pos": "adj.",
+      "sense_zh": "美丽的",
+      "sentence_ids": [
+        "p01-a-10-s01"
+      ],
+      "forms": [
+        "beautiful"
+      ],
+      "sense_id": "sense-staged-ox-5f113ee875c27436-p01-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-548122ab3d53aa76",
+      "lemma": "air",
+      "pos": "n.",
+      "sense_zh": "空气",
+      "sentence_ids": [
+        "p01-a-10-s02"
+      ],
+      "forms": [
+        "air"
+      ],
+      "sense_id": "sense-staged-ox-548122ab3d53aa76-p01-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fed94ba28cccb3f4",
+      "lemma": "boat",
+      "pos": "n.",
+      "sense_zh": "船",
+      "sentence_ids": [
+        "p01-a-10-s03"
+      ],
+      "forms": [
+        "boat"
+      ],
+      "sense_id": "sense-staged-ox-fed94ba28cccb3f4-p01-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9a3e27ca94d3c434",
+      "lemma": "around",
+      "pos": "prep.",
+      "sense_zh": "围绕，绕着",
+      "sentence_ids": [
+        "p01-a-10-s03"
+      ],
+      "forms": [
+        "around"
+      ],
+      "sense_id": "sense-staged-ox-9a3e27ca94d3c434-p01-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fff9e71781b89950",
+      "lemma": "because",
+      "pos": "conj.",
+      "sense_zh": "因为",
+      "sentence_ids": [
+        "p01-a-10-s04"
+      ],
+      "forms": [
+        "because"
+      ],
+      "sense_id": "sense-staged-ox-fff9e71781b89950-p01-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ee179ac152243aa6",
+      "lemma": "before",
+      "pos": "prep.",
+      "sense_zh": "在……之前",
+      "sentence_ids": [
+        "p01-a-10-s06"
+      ],
+      "forms": [
+        "before"
+      ],
+      "sense_id": "sense-staged-ox-ee179ac152243aa6-p01-a-10",
+      "cefr": "A1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
