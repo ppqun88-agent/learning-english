@@ -1,0 +1,116 @@
+{
+  "id": "p04-b-25",
+  "title_zh": "按楼内说明把回收物和垃圾分开",
+  "topic_id": "home",
+  "scenario": {
+    "id": "household-recycling-sort",
+    "label_zh": "核对家庭垃圾分类位置",
+    "goal_zh": "根据楼内说明分清瓶子、包装和电池的处理位置"
+  },
+  "participants": [
+    "Oscar",
+    "Yara"
+  ],
+  "context_zh": "新室友查看公寓楼的回收指引，确认瓶子、软包装和电池分别放在哪里。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-25-s01",
+      "speaker": "Oscar",
+      "text": "Can we recycle this bottle with the glass? It looks clear, but I think it is made of plastic."
+    },
+    {
+      "id": "p04-b-25-s02",
+      "speaker": "Yara",
+      "text": "It is plastic. The leaflet for our building says bottles go in the blue bin, not the glass bin."
+    },
+    {
+      "id": "p04-b-25-s03",
+      "speaker": "Oscar",
+      "text": "What about this dirty food wrapper?"
+    },
+    {
+      "id": "p04-b-25-s04",
+      "speaker": "Yara",
+      "text": "The same leaflet puts that with ordinary rubbish. The batteries go in a separate box by the entrance."
+    },
+    {
+      "id": "p04-b-25-s05",
+      "speaker": "Oscar",
+      "text": "All right. I will put the bottle in blue, the wrapper in the rubbish, and take the batteries downstairs."
+    },
+    {
+      "id": "p04-b-25-s06",
+      "speaker": "Yara",
+      "text": "Thanks. I will leave the leaflet here so we can check the next time we are unsure."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-00c500fcf810dd67",
+      "lemma": "recycle",
+      "pos": "v.",
+      "sense_zh": "回收利用",
+      "sentence_ids": [
+        "p04-b-25-s01"
+      ],
+      "forms": [
+        "recycle"
+      ],
+      "sense_id": "sense-staged-ox-00c500fcf810dd67-p04-b-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a2b9ee7154a513a6",
+      "lemma": "plastic",
+      "pos": "n.",
+      "sense_zh": "塑料",
+      "sentence_ids": [
+        "p04-b-25-s01"
+      ],
+      "forms": [
+        "plastic"
+      ],
+      "sense_id": "sense-staged-ox-a2b9ee7154a513a6-p04-b-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e6e28148c1acfc57",
+      "lemma": "rubbish",
+      "pos": "n.",
+      "sense_zh": "垃圾",
+      "sentence_ids": [
+        "p04-b-25-s04"
+      ],
+      "forms": [
+        "rubbish"
+      ],
+      "sense_id": "sense-staged-ox-e6e28148c1acfc57-p04-b-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70062258e237fa67",
+      "lemma": "separate",
+      "pos": "adj.",
+      "sense_zh": "单独的",
+      "sentence_ids": [
+        "p04-b-25-s04"
+      ],
+      "forms": [
+        "separate"
+      ],
+      "sense_id": "sense-staged-ox-70062258e237fa67-p04-b-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

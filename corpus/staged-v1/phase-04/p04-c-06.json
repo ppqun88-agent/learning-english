@@ -1,0 +1,95 @@
+{
+  "id": "p04-c-06",
+  "title_zh": "因皮肤不适预约咨询",
+  "topic_id": "health",
+  "scenario": {
+    "id": "skin-irritation-appointment",
+    "label_zh": "因皮肤不适预约咨询",
+    "goal_zh": "说明皮肤不适的起始时间及清洁用品变化并预约咨询"
+  },
+  "participants": [
+    "Kai",
+    "Ruth"
+  ],
+  "context_zh": "凯打电话给诊所，描述皮肤不适及近期换过清洁用品的情况。此为虚构就诊沟通。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-06-s01",
+      "speaker": "Kai",
+      "text": "The skin on my hands has been itchy since Monday. Could I speak to someone about it?"
+    },
+    {
+      "id": "p04-c-06-s02",
+      "speaker": "Ruth",
+      "text": "Have you changed any products you use on your hands?"
+    },
+    {
+      "id": "p04-c-06-s03",
+      "speaker": "Kai",
+      "text": "I started using a different soap on Sunday. I can bring the bottle."
+    },
+    {
+      "id": "p04-c-06-s04",
+      "speaker": "Ruth",
+      "text": "That would help the clinician understand what you used. We have an appointment tomorrow at ten."
+    },
+    {
+      "id": "p04-c-06-s05",
+      "speaker": "Kai",
+      "text": "I'll take that appointment. Thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-42bb38aa44a05547",
+      "lemma": "skin",
+      "pos": "n.",
+      "sense_zh": "皮肤",
+      "sentence_ids": [
+        "p04-c-06-s01"
+      ],
+      "forms": [
+        "skin"
+      ],
+      "sense_id": "sense-staged-ox-42bb38aa44a05547-p04-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6c97ab4cad601e51",
+      "lemma": "soap",
+      "pos": "n.",
+      "sense_zh": "肥皂；清洁皂",
+      "sentence_ids": [
+        "p04-c-06-s03"
+      ],
+      "forms": [
+        "soap"
+      ],
+      "sense_id": "sense-staged-ox-6c97ab4cad601e51-p04-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2bdbb32b1ca4b4c6",
+      "lemma": "since",
+      "pos": "prep.",
+      "sense_zh": "自从某个时间起",
+      "sentence_ids": [
+        "p04-c-06-s01"
+      ],
+      "forms": [
+        "since"
+      ],
+      "sense_id": "sense-staged-ox-2bdbb32b1ca4b4c6-p04-c-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

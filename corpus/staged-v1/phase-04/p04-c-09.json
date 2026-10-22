@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-09",
+  "title_zh": "处理烤焦食物后的厨房清洁",
+  "topic_id": "home",
+  "scenario": {
+    "id": "kitchen-toast-smoke-cleanup",
+    "label_zh": "处理烤焦食物后的厨房清洁",
+    "goal_zh": "确认灶具已经关闭并等锅冷却后清洁厨房"
+  },
+  "participants": [
+    "Jules",
+    "Asha"
+  ],
+  "context_zh": "室友把平底锅里的面包烤焦了；灶具已关闭，烟气已经散去，两人商量后续清洁。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-09-s01",
+      "speaker": "Jules",
+      "text": "I can still smell the bread I burned."
+    },
+    {
+      "id": "p04-c-09-s02",
+      "speaker": "Asha",
+      "text": "The smoke has cleared now. Is the stove definitely off?"
+    },
+    {
+      "id": "p04-c-09-s03",
+      "speaker": "Jules",
+      "text": "Yes, I checked it. The empty pan is still hot, though."
+    },
+    {
+      "id": "p04-c-09-s04",
+      "speaker": "Asha",
+      "text": "Then don't touch it yet. We can wash it once it's cool."
+    },
+    {
+      "id": "p04-c-09-s05",
+      "speaker": "Jules",
+      "text": "I'll wipe the table while we wait. Could you shut the cupboard so I can reach that corner?"
+    },
+    {
+      "id": "p04-c-09-s06",
+      "speaker": "Asha",
+      "text": "Sure. I'll do the dishes after you finish the table."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3818b9be0ddc2fe1",
+      "lemma": "smell",
+      "pos": "v.",
+      "sense_zh": "闻到",
+      "sentence_ids": [
+        "p04-c-09-s01"
+      ],
+      "forms": [
+        "smell"
+      ],
+      "sense_id": "sense-staged-ox-3818b9be0ddc2fe1-p04-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74d86b9159f7150d",
+      "lemma": "smoke",
+      "pos": "n.",
+      "sense_zh": "烟",
+      "sentence_ids": [
+        "p04-c-09-s02"
+      ],
+      "forms": [
+        "smoke"
+      ],
+      "sense_id": "sense-staged-ox-74d86b9159f7150d-p04-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc3abf94e5de0f30",
+      "lemma": "stove",
+      "pos": "n.",
+      "sense_zh": "炉灶",
+      "sentence_ids": [
+        "p04-c-09-s02"
+      ],
+      "forms": [
+        "stove"
+      ],
+      "sense_id": "sense-staged-ox-dc3abf94e5de0f30-p04-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef5f99536b0587d9",
+      "lemma": "touch",
+      "pos": "v.",
+      "sense_zh": "触碰",
+      "sentence_ids": [
+        "p04-c-09-s04"
+      ],
+      "forms": [
+        "touch"
+      ],
+      "sense_id": "sense-staged-ox-ef5f99536b0587d9-p04-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-688388de82cf1978",
+      "lemma": "shut",
+      "pos": "v.",
+      "sense_zh": "关上",
+      "sentence_ids": [
+        "p04-c-09-s05"
+      ],
+      "forms": [
+        "shut"
+      ],
+      "sense_id": "sense-staged-ox-688388de82cf1978-p04-c-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

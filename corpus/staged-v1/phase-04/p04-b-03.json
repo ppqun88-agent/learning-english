@@ -1,0 +1,147 @@
+{
+  "id": "p04-b-03",
+  "title_zh": "选一幅带黑框的画作送礼",
+  "topic_id": "services",
+  "scenario": {
+    "id": "gallery-print-gift-choice",
+    "label_zh": "在画廊挑选礼物画作",
+    "goal_zh": "按收礼人喜好选定画作和边框颜色"
+  },
+  "participants": [
+    "Nina",
+    "Hugo"
+  ],
+  "context_zh": "顾客在画廊寻找给姐姐的礼物，确认画作类型后选定作品和边框。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-03-s01",
+      "speaker": "Nina",
+      "text": "I was going to get my sister an ordinary birthday card, but I would like something she can keep."
+    },
+    {
+      "id": "p04-b-03-s02",
+      "speaker": "Hugo",
+      "text": "Does she like art? I can recommend this small painting of the harbour."
+    },
+    {
+      "id": "p04-b-03-s03",
+      "speaker": "Nina",
+      "text": "Who is the painter?"
+    },
+    {
+      "id": "p04-b-03-s04",
+      "speaker": "Hugo",
+      "text": "A local artist called Eva Chen. Your sister may know her work from the town exhibition."
+    },
+    {
+      "id": "p04-b-03-s05",
+      "speaker": "Nina",
+      "text": "Is this an original painting, or a copy?"
+    },
+    {
+      "id": "p04-b-03-s06",
+      "speaker": "Hugo",
+      "text": "It is an original painting. The copies are on the other wall."
+    },
+    {
+      "id": "p04-b-03-s07",
+      "speaker": "Nina",
+      "text": "I will take it with the black frame. It will suit her blue room."
+    },
+    {
+      "id": "p04-b-03-s08",
+      "speaker": "Hugo",
+      "text": "Of course. Shall I pack it in a gift box?"
+    },
+    {
+      "id": "p04-b-03-s09",
+      "speaker": "Nina",
+      "text": "Yes, please. I am taking it to her tomorrow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1360f8a8cef0d3c3",
+      "lemma": "ordinary",
+      "pos": "adj.",
+      "sense_zh": "普通的",
+      "sentence_ids": [
+        "p04-b-03-s01"
+      ],
+      "forms": [
+        "ordinary"
+      ],
+      "sense_id": "sense-staged-ox-1360f8a8cef0d3c3-p04-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d9e8debeecb7d958",
+      "lemma": "recommend",
+      "pos": "v.",
+      "sense_zh": "推荐",
+      "sentence_ids": [
+        "p04-b-03-s02"
+      ],
+      "forms": [
+        "recommend"
+      ],
+      "sense_id": "sense-staged-ox-d9e8debeecb7d958-p04-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0baebfb3a40835ff",
+      "lemma": "painter",
+      "pos": "n.",
+      "sense_zh": "画家",
+      "sentence_ids": [
+        "p04-b-03-s03"
+      ],
+      "forms": [
+        "painter"
+      ],
+      "sense_id": "sense-staged-ox-0baebfb3a40835ff-p04-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eefcd52554a5286e",
+      "lemma": "original",
+      "pos": "adj.",
+      "sense_zh": "原作的；非复制的",
+      "sentence_ids": [
+        "p04-b-03-s05"
+      ],
+      "forms": [
+        "original"
+      ],
+      "sense_id": "sense-staged-ox-eefcd52554a5286e-p04-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4676afd2361f462",
+      "lemma": "pack",
+      "pos": "v.",
+      "sense_zh": "包装",
+      "sentence_ids": [
+        "p04-b-03-s08"
+      ],
+      "forms": [
+        "pack"
+      ],
+      "sense_id": "sense-staged-ox-c4676afd2361f462-p04-b-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

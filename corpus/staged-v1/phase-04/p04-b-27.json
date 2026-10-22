@@ -1,0 +1,121 @@
+{
+  "id": "p04-b-27",
+  "title_zh": "核对工厂学徒岗位和工资条件",
+  "topic_id": "work",
+  "scenario": {
+    "id": "factory-apprentice-job-inquiry",
+    "label_zh": "询问工厂学徒岗位",
+    "goal_zh": "核实岗位经验要求、培训机会和报酬"
+  },
+  "participants": [
+    "Niko",
+    "Daisy"
+  ],
+  "context_zh": "求职者询问一份虚构的工厂学徒职位，确认培训和薪酬条件后准备申请。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-27-s01",
+      "speaker": "Niko",
+      "text": "Could you explain the apprentice role at your factory? I have no experience with machines."
+    },
+    {
+      "id": "p04-b-27-s02",
+      "speaker": "Daisy",
+      "text": "You would help the fitting team while learning from a supervisor. We train new starters, so experience is not required."
+    },
+    {
+      "id": "p04-b-27-s03",
+      "speaker": "Niko",
+      "text": "What is the starting salary, and can it rise during the training?"
+    },
+    {
+      "id": "p04-b-27-s04",
+      "speaker": "Daisy",
+      "text": "It starts at twenty-two thousand pounds a year. It increases after you pass each of the two training assessments."
+    },
+    {
+      "id": "p04-b-27-s05",
+      "speaker": "Niko",
+      "text": "I have a profile on your jobs website already. Can I use that to apply?"
+    },
+    {
+      "id": "p04-b-27-s06",
+      "speaker": "Daisy",
+      "text": "Yes. Update your details, select this vacancy, and add a short explanation of why you want the training."
+    },
+    {
+      "id": "p04-b-27-s07",
+      "speaker": "Niko",
+      "text": "Thank you. I will update it and prepare that explanation tonight."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-400b7161681882f0",
+      "lemma": "role",
+      "pos": "n.",
+      "sense_zh": "工作职责；岗位",
+      "sentence_ids": [
+        "p04-b-27-s01"
+      ],
+      "forms": [
+        "role"
+      ],
+      "sense_id": "sense-staged-ox-400b7161681882f0-p04-b-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5e73f4f71bda5ece",
+      "lemma": "salary",
+      "pos": "n.",
+      "sense_zh": "薪水",
+      "sentence_ids": [
+        "p04-b-27-s03"
+      ],
+      "forms": [
+        "salary"
+      ],
+      "sense_id": "sense-staged-ox-5e73f4f71bda5ece-p04-b-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ab4bbd945bda79f",
+      "lemma": "rise",
+      "pos": "v.",
+      "sense_zh": "增加；上涨",
+      "sentence_ids": [
+        "p04-b-27-s03"
+      ],
+      "forms": [
+        "rise"
+      ],
+      "sense_id": "sense-staged-ox-5ab4bbd945bda79f-p04-b-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1b58db1f14f59e82",
+      "lemma": "profile",
+      "pos": "n.",
+      "sense_zh": "个人资料简介",
+      "sentence_ids": [
+        "p04-b-27-s05"
+      ],
+      "forms": [
+        "profile"
+      ],
+      "sense_id": "sense-staged-ox-1b58db1f14f59e82-p04-b-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

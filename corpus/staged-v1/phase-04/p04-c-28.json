@@ -1,0 +1,105 @@
+{
+  "id": "p04-c-28",
+  "title_zh": "借工具修好松动支架",
+  "topic_id": "home",
+  "scenario": {
+    "id": "shelf-bracket-tool-help",
+    "label_zh": "借工具修好松动支架",
+    "goal_zh": "确认所需工具并约好一起固定架子"
+  },
+  "participants": [
+    "Cora",
+    "Dev"
+  ],
+  "context_zh": "室友借合适的工具合作固定松动的架子支架，并在收回工具前检查结果。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-28-s01",
+      "speaker": "Cora",
+      "text": "This shelf bracket is loose. Do you have a tool that fits these screws?"
+    },
+    {
+      "id": "p04-c-28-s02",
+      "speaker": "Dev",
+      "text": "My small screwdriver should fit. Have you taken everything off the shelf?"
+    },
+    {
+      "id": "p04-c-28-s03",
+      "speaker": "Cora",
+      "text": "Yes. Any tip for keeping the bracket in place while I tighten it?"
+    },
+    {
+      "id": "p04-c-28-s04",
+      "speaker": "Dev",
+      "text": "An extra pair of hands would help. I'll hold it while you turn the screwdriver."
+    },
+    {
+      "id": "p04-c-28-s05",
+      "speaker": "Cora",
+      "text": "Thanks. Let's do it now, before I put the books back."
+    },
+    {
+      "id": "p04-c-28-s06",
+      "speaker": "Dev",
+      "text": "Those screws feel tight. Give the bracket a gentle shake now. Does it still move?"
+    },
+    {
+      "id": "p04-c-28-s07",
+      "speaker": "Cora",
+      "text": "No, it stays in place. Thanks. I'll return your screwdriver before I put the books back."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-45a5c4b38ad190e5",
+      "lemma": "tool",
+      "pos": "n.",
+      "sense_zh": "工具",
+      "sentence_ids": [
+        "p04-c-28-s01"
+      ],
+      "forms": [
+        "tool"
+      ],
+      "sense_id": "sense-staged-ox-45a5c4b38ad190e5-p04-c-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b89ceebaa95508a5",
+      "lemma": "tip",
+      "pos": "n.",
+      "sense_zh": "实用建议；小窍门",
+      "sentence_ids": [
+        "p04-c-28-s03"
+      ],
+      "forms": [
+        "tip"
+      ],
+      "sense_id": "sense-staged-ox-b89ceebaa95508a5-p04-c-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-62ebd269ab62cf3a",
+      "lemma": "shake",
+      "pos": "n.",
+      "sense_zh": "摇动",
+      "sentence_ids": [
+        "p04-c-28-s06"
+      ],
+      "forms": [
+        "shake"
+      ],
+      "sense_id": "sense-staged-ox-62ebd269ab62cf3a-p04-c-28",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

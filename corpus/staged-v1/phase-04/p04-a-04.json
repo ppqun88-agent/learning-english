@@ -1,0 +1,95 @@
+{
+  "id": "p04-a-04",
+  "title_zh": "把飞进屋里的飞蛾放出去",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "indoor-insect-release",
+    "label_zh": "让飞入室内的昆虫离开",
+    "goal_zh": "确认室内昆虫的位置并协作打开通道让它离开"
+  },
+  "participants": [
+    "Tessa",
+    "Hugo"
+  ],
+  "context_zh": "两位室友发现一只飞蛾，商量让它离开房间。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-04-s01",
+      "speaker": "Tessa",
+      "text": "There is an insect inside the house, just above the curtain."
+    },
+    {
+      "id": "p04-a-04-s02",
+      "speaker": "Hugo",
+      "text": "It is a moth. Please do not kill it."
+    },
+    {
+      "id": "p04-a-04-s03",
+      "speaker": "Tessa",
+      "text": "I was only going to open the window. Could you move the curtain?"
+    },
+    {
+      "id": "p04-a-04-s04",
+      "speaker": "Hugo",
+      "text": "Sure. There it goes, out into the garden."
+    },
+    {
+      "id": "p04-a-04-s05",
+      "speaker": "Tessa",
+      "text": "Good. I will close the window now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3194b9ba3288cbf9",
+      "lemma": "insect",
+      "pos": "n.",
+      "sense_zh": "昆虫",
+      "sentence_ids": [
+        "p04-a-04-s01"
+      ],
+      "forms": [
+        "insect"
+      ],
+      "sense_id": "sense-staged-ox-3194b9ba3288cbf9-p04-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-958e5cb2ba21d6ad",
+      "lemma": "inside",
+      "pos": "prep.",
+      "sense_zh": "在……里面",
+      "sentence_ids": [
+        "p04-a-04-s01"
+      ],
+      "forms": [
+        "inside"
+      ],
+      "sense_id": "sense-staged-ox-958e5cb2ba21d6ad-p04-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e252b9e65baf7790",
+      "lemma": "kill",
+      "pos": "v.",
+      "sense_zh": "杀死",
+      "sentence_ids": [
+        "p04-a-04-s02"
+      ],
+      "forms": [
+        "kill"
+      ],
+      "sense_id": "sense-staged-ox-e252b9e65baf7790-p04-a-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

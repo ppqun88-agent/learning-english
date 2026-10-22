@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-14",
+  "title_zh": "核对历史制服展品说明",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "museum-uniform-label-check",
+    "label_zh": "核对历史制服展品说明",
+    "goal_zh": "区分可证实的服装细节与未经证实的个人身份"
+  },
+  "participants": [
+    "Zoe",
+    "Mr Bell"
+  ],
+  "context_zh": "学生为地方历史展写说明，在老师帮助下核对制服照片能支持哪些描述。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-14-s01",
+      "speaker": "Zoe",
+      "text": "Can I say this uniform belonged to the soldier in the photograph?"
+    },
+    {
+      "id": "p04-c-14-s02",
+      "speaker": "Mr Bell",
+      "text": "Not yet. The photo is one source, but it doesn't connect him to this particular coat."
+    },
+    {
+      "id": "p04-c-14-s03",
+      "speaker": "Zoe",
+      "text": "What about the silver badge? The one in the photograph looks the same."
+    },
+    {
+      "id": "p04-c-14-s04",
+      "speaker": "Mr Bell",
+      "text": "We can describe the matching symbol, but we shouldn't identify the owner from that alone."
+    },
+    {
+      "id": "p04-c-14-s05",
+      "speaker": "Zoe",
+      "text": "Then I'll label it as a uniform of the same period and leave the owner's name unknown."
+    },
+    {
+      "id": "p04-c-14-s06",
+      "speaker": "Mr Bell",
+      "text": "Good. I'll help you check the museum record before we add anything more."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-73eb43052c695140",
+      "lemma": "soldier",
+      "pos": "n.",
+      "sense_zh": "士兵",
+      "sentence_ids": [
+        "p04-c-14-s01"
+      ],
+      "forms": [
+        "soldier"
+      ],
+      "sense_id": "sense-staged-ox-73eb43052c695140-p04-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63f41f3d6d830352",
+      "lemma": "uniform",
+      "pos": "n.",
+      "sense_zh": "制服",
+      "sentence_ids": [
+        "p04-c-14-s01"
+      ],
+      "forms": [
+        "uniform"
+      ],
+      "sense_id": "sense-staged-ox-63f41f3d6d830352-p04-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e4988f9fbff86763",
+      "lemma": "symbol",
+      "pos": "n.",
+      "sense_zh": "标志；符号",
+      "sentence_ids": [
+        "p04-c-14-s04"
+      ],
+      "forms": [
+        "symbol"
+      ],
+      "sense_id": "sense-staged-ox-e4988f9fbff86763-p04-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-967ba55577e41ff8",
+      "lemma": "silver",
+      "pos": "adj.",
+      "sense_zh": "银制的",
+      "sentence_ids": [
+        "p04-c-14-s03"
+      ],
+      "forms": [
+        "silver"
+      ],
+      "sense_id": "sense-staged-ox-967ba55577e41ff8-p04-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9ff460b932005405",
+      "lemma": "source",
+      "pos": "n.",
+      "sense_zh": "资料来源",
+      "sentence_ids": [
+        "p04-c-14-s02"
+      ],
+      "forms": [
+        "source"
+      ],
+      "sense_id": "sense-staged-ox-9ff460b932005405-p04-c-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

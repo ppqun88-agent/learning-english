@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-24",
+  "title_zh": "安排青少年课程活动",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "teenage-class-planning",
+    "label_zh": "安排青少年课程活动",
+    "goal_zh": "根据学期进度调整教学单元并给学生独立完成的空间"
+  },
+  "participants": [
+    "David",
+    "Salma"
+  ],
+  "context_zh": "两位教师商量下一个教学单元，为青少年学生安排更多独立活动。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-24-s01",
+      "speaker": "David",
+      "text": "How is the teaching going with your teenage students?"
+    },
+    {
+      "id": "p04-c-24-s02",
+      "speaker": "Salma",
+      "text": "Better this term. They talk more when I give them time to work together."
+    },
+    {
+      "id": "p04-c-24-s03",
+      "speaker": "David",
+      "text": "What's in the next unit?"
+    },
+    {
+      "id": "p04-c-24-s04",
+      "speaker": "Salma",
+      "text": "Planning a short radio programme. I was going to choose all the topics."
+    },
+    {
+      "id": "p04-c-24-s05",
+      "speaker": "David",
+      "text": "Could they choose the topics themselves? That might give them more reason to speak."
+    },
+    {
+      "id": "p04-c-24-s06",
+      "speaker": "Salma",
+      "text": "Yes. I'll give them three broad options, then let each group decide and plan its own programme."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ce3d444fb5db9654",
+      "lemma": "teaching",
+      "pos": "n.",
+      "sense_zh": "教学",
+      "sentence_ids": [
+        "p04-c-24-s01"
+      ],
+      "forms": [
+        "teaching"
+      ],
+      "sense_id": "sense-staged-ox-ce3d444fb5db9654-p04-c-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c91dbd24cf0a761",
+      "lemma": "teenage",
+      "pos": "adj.",
+      "sense_zh": "青少年的",
+      "sentence_ids": [
+        "p04-c-24-s01"
+      ],
+      "forms": [
+        "teenage"
+      ],
+      "sense_id": "sense-staged-ox-2c91dbd24cf0a761-p04-c-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f757c9e5c6f4cc2",
+      "lemma": "term",
+      "pos": "n.",
+      "sense_zh": "学期",
+      "sentence_ids": [
+        "p04-c-24-s02"
+      ],
+      "forms": [
+        "term"
+      ],
+      "sense_id": "sense-staged-ox-4f757c9e5c6f4cc2-p04-c-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-65c137cb2b8a7ffe",
+      "lemma": "themselves",
+      "pos": "pron.",
+      "sense_zh": "他们自己",
+      "sentence_ids": [
+        "p04-c-24-s05"
+      ],
+      "forms": [
+        "themselves"
+      ],
+      "sense_id": "sense-staged-ox-65c137cb2b8a7ffe-p04-c-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4b55534b372d1214",
+      "lemma": "unit",
+      "pos": "n.",
+      "sense_zh": "教学单元",
+      "sentence_ids": [
+        "p04-c-24-s03"
+      ],
+      "forms": [
+        "unit"
+      ],
+      "sense_id": "sense-staged-ox-4b55534b372d1214-p04-c-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p04-c-02",
+  "title_zh": "试穿运动鞋并确认尺码",
+  "topic_id": "services",
+  "scenario": {
+    "id": "sports-shoe-fitting",
+    "label_zh": "试穿运动鞋并确认尺码",
+    "goal_zh": "比较试穿感受并选定合脚的一双鞋"
+  },
+  "participants": [
+    "Andre",
+    "Nina"
+  ],
+  "context_zh": "安德烈试穿室内足球运动鞋，与店员比较脚趾空间和内衬触感。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-02-s01",
+      "speaker": "Andre",
+      "text": "I need shoes for indoor soccer. Can I try this pair?"
+    },
+    {
+      "id": "p04-c-02-s02",
+      "speaker": "Nina",
+      "text": "Certainly. What size do you usually wear?"
+    },
+    {
+      "id": "p04-c-02-s03",
+      "speaker": "Andre",
+      "text": "Nine, but this sneaker is tight across my toes."
+    },
+    {
+      "id": "p04-c-02-s04",
+      "speaker": "Nina",
+      "text": "Let's try a ten. Keep the same sock on so you can compare the fit."
+    },
+    {
+      "id": "p04-c-02-s05",
+      "speaker": "Andre",
+      "text": "That feels better, and the lining is soft. My heel stays in place when I walk."
+    },
+    {
+      "id": "p04-c-02-s06",
+      "speaker": "Nina",
+      "text": "Would you like to try the other foot too?"
+    },
+    {
+      "id": "p04-c-02-s07",
+      "speaker": "Andre",
+      "text": "Yes, please. That one fits as well. I'll take the pair."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2b97828a127684c3",
+      "lemma": "sneaker",
+      "pos": "n.",
+      "sense_zh": "运动鞋",
+      "sentence_ids": [
+        "p04-c-02-s03"
+      ],
+      "forms": [
+        "sneaker"
+      ],
+      "sense_id": "sense-staged-ox-2b97828a127684c3-p04-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84eccac7a6d53a89",
+      "lemma": "sock",
+      "pos": "n.",
+      "sense_zh": "袜子",
+      "sentence_ids": [
+        "p04-c-02-s04"
+      ],
+      "forms": [
+        "sock"
+      ],
+      "sense_id": "sense-staged-ox-84eccac7a6d53a89-p04-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb3761f94d694e59",
+      "lemma": "size",
+      "pos": "n.",
+      "sense_zh": "服装或鞋的尺码",
+      "sentence_ids": [
+        "p04-c-02-s02"
+      ],
+      "forms": [
+        "size"
+      ],
+      "sense_id": "sense-staged-ox-eb3761f94d694e59-p04-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43bcfff79700cf93",
+      "lemma": "soft",
+      "pos": "adj.",
+      "sense_zh": "柔软的",
+      "sentence_ids": [
+        "p04-c-02-s05"
+      ],
+      "forms": [
+        "soft"
+      ],
+      "sense_id": "sense-staged-ox-43bcfff79700cf93-p04-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80c0acac6e77e37a",
+      "lemma": "soccer",
+      "pos": "n.",
+      "sense_zh": "足球运动",
+      "sentence_ids": [
+        "p04-c-02-s01"
+      ],
+      "forms": [
+        "soccer"
+      ],
+      "sense_id": "sense-staged-ox-80c0acac6e77e37a-p04-c-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

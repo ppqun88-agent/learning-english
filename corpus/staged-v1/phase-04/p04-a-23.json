@@ -1,0 +1,100 @@
+{
+  "id": "p04-a-23",
+  "title_zh": "为读书小组选择以回忆为线索的小说",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "reading-group-book-choice",
+    "label_zh": "选择读书小组作品",
+    "goal_zh": "比较故事题材与讨论安排后选定共读作品"
+  },
+  "participants": [
+    "Cora",
+    "Miles"
+  ],
+  "context_zh": "读书小组成员比较两本作品的题材和篇幅，选定下一次讨论用书。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-23-s01",
+      "speaker": "Cora",
+      "text": "Should we choose the detective story or this shorter novel for next month?"
+    },
+    {
+      "id": "p04-a-23-s02",
+      "speaker": "Miles",
+      "text": "What is the shorter one about?"
+    },
+    {
+      "id": "p04-a-23-s03",
+      "speaker": "Cora",
+      "text": "A woman returns to her childhood home. Her memory of one summer changes as she talks to old friends."
+    },
+    {
+      "id": "p04-a-23-s04",
+      "speaker": "Miles",
+      "text": "That sounds interesting. Is it mostly about her childhood, then?"
+    },
+    {
+      "id": "p04-a-23-s05",
+      "speaker": "Cora",
+      "text": "Yes, and it is under two hundred pages. We should have plenty to discuss at our meeting on the sixth."
+    },
+    {
+      "id": "p04-a-23-s06",
+      "speaker": "Miles",
+      "text": "Let us choose that one. I will tell the group so everyone has time to find a copy."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ea033eddd9b21fa5",
+      "lemma": "novel",
+      "pos": "n.",
+      "sense_zh": "小说",
+      "sentence_ids": [
+        "p04-a-23-s01"
+      ],
+      "forms": [
+        "novel"
+      ],
+      "sense_id": "sense-staged-ox-ea033eddd9b21fa5-p04-a-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fdda185f6ba76feb",
+      "lemma": "memory",
+      "pos": "n.",
+      "sense_zh": "对过去事情的记忆；回忆",
+      "sentence_ids": [
+        "p04-a-23-s03"
+      ],
+      "forms": [
+        "memory"
+      ],
+      "sense_id": "sense-staged-ox-fdda185f6ba76feb-p04-a-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a4b0dd1b4de2e40f",
+      "lemma": "mostly",
+      "pos": "adv.",
+      "sense_zh": "主要地；大部分",
+      "sentence_ids": [
+        "p04-a-23-s04"
+      ],
+      "forms": [
+        "mostly"
+      ],
+      "sense_id": "sense-staged-ox-a4b0dd1b4de2e40f-p04-a-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

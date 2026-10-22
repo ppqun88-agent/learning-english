@@ -1,0 +1,148 @@
+{
+  "id": "p04-a-16",
+  "title_zh": "确定湖边自然观察路线和带队人",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "lakeside-nature-walk-route",
+    "label_zh": "核对湖边自然观察的短路线",
+    "goal_zh": "原领队缺席时确认替代带队人、步行路段和集合安排"
+  },
+  "participants": [
+    "Gareth",
+    "Amina"
+  ],
+  "context_zh": "自然观察小组原领队临时缺席，两位成员核对一条熟悉的短路线。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-16-s01",
+      "speaker": "Gareth",
+      "text": "Our group leader cannot come today. Could you lead the nature walk instead?"
+    },
+    {
+      "id": "p04-a-16-s02",
+      "speaker": "Amina",
+      "text": "I can, if we stay on the path I know beside the lake."
+    },
+    {
+      "id": "p04-a-16-s03",
+      "speaker": "Gareth",
+      "text": "How far is it from here to the viewing point?"
+    },
+    {
+      "id": "p04-a-16-s04",
+      "speaker": "Amina",
+      "text": "About one kilometer. The path gets narrow near the reeds, so we will need to walk in a line there."
+    },
+    {
+      "id": "p04-a-16-s05",
+      "speaker": "Gareth",
+      "text": "That is fine. We can turn back at the viewing point rather than go all the way round."
+    },
+    {
+      "id": "p04-a-16-s06",
+      "speaker": "Amina",
+      "text": "Agreed. Tell the others we will meet at this gate in ten minutes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e62c4fd4d6d1a3d4",
+      "lemma": "leader",
+      "pos": "n.",
+      "sense_zh": "带队人；领队",
+      "sentence_ids": [
+        "p04-a-16-s01"
+      ],
+      "forms": [
+        "leader"
+      ],
+      "sense_id": "sense-staged-ox-e62c4fd4d6d1a3d4-p04-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9532f60e543b0833",
+      "lemma": "lead",
+      "pos": "v.",
+      "sense_zh": "带领",
+      "sentence_ids": [
+        "p04-a-16-s01"
+      ],
+      "forms": [
+        "lead"
+      ],
+      "sense_id": "sense-staged-ox-9532f60e543b0833-p04-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-264748ed54d154cd",
+      "lemma": "nature",
+      "pos": "n.",
+      "sense_zh": "自然界",
+      "sentence_ids": [
+        "p04-a-16-s01"
+      ],
+      "forms": [
+        "nature"
+      ],
+      "sense_id": "sense-staged-ox-264748ed54d154cd-p04-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-02470777f997847a",
+      "lemma": "lake",
+      "pos": "n.",
+      "sense_zh": "湖泊",
+      "sentence_ids": [
+        "p04-a-16-s02"
+      ],
+      "forms": [
+        "lake"
+      ],
+      "sense_id": "sense-staged-ox-02470777f997847a-p04-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0fb7d73e8cf75d1a",
+      "lemma": "kilometer",
+      "pos": "n.",
+      "sense_zh": "千米",
+      "sentence_ids": [
+        "p04-a-16-s04"
+      ],
+      "forms": [
+        "kilometer"
+      ],
+      "sense_id": "sense-staged-ox-0fb7d73e8cf75d1a-p04-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c34d4065b15fd521",
+      "lemma": "narrow",
+      "pos": "adj.",
+      "sense_zh": "狭窄的",
+      "sentence_ids": [
+        "p04-a-16-s04"
+      ],
+      "forms": [
+        "narrow"
+      ],
+      "sense_id": "sense-staged-ox-c34d4065b15fd521-p04-a-16",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

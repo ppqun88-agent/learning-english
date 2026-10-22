@@ -1,0 +1,158 @@
+{
+  "id": "p04-b-11",
+  "title_zh": "弄清听力中的指代并重听地点名称",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "language-practice-clarification",
+    "label_zh": "澄清语言练习内容",
+    "goal_zh": "弄清听力练习的意思并确定重听的方法。"
+  },
+  "participants": [
+    "Amal",
+    "Jo"
+  ],
+  "context_zh": "语言学习者与老师讨论一段活动通知录音，确定需要重听的两处内容。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-11-s01",
+      "speaker": "Amal",
+      "text": "I understand more of the recording now, but I am stuck on one particular sentence."
+    },
+    {
+      "id": "p04-b-11-s02",
+      "speaker": "Jo",
+      "text": "Which one?"
+    },
+    {
+      "id": "p04-b-11-s03",
+      "speaker": "Amal",
+      "text": "The speaker says they will meet in the hall. Does the word “they” refer to the musicians or the audience?"
+    },
+    {
+      "id": "p04-b-11-s04",
+      "speaker": "Jo",
+      "text": "The musicians. She mentions them in the sentence just before that."
+    },
+    {
+      "id": "p04-b-11-s05",
+      "speaker": "Amal",
+      "text": "That makes sense. I also need to pronounce the name of the hall when I give the announcement."
+    },
+    {
+      "id": "p04-b-11-s06",
+      "speaker": "Jo",
+      "text": "Let us replay the first line. She says the name slowly there, so you can repeat it after her."
+    },
+    {
+      "id": "p04-b-11-s07",
+      "speaker": "Amal",
+      "text": "Then can we listen to the two sentences about the musicians together?"
+    },
+    {
+      "id": "p04-b-11-s08",
+      "speaker": "Jo",
+      "text": "Yes. You are making progress: you have identified exactly which parts need another listen."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-52b5e35413fa405e",
+      "lemma": "recording",
+      "pos": "n.",
+      "sense_zh": "录音",
+      "sentence_ids": [
+        "p04-b-11-s01"
+      ],
+      "forms": [
+        "recording"
+      ],
+      "sense_id": "sense-staged-ox-52b5e35413fa405e-p04-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fa9991550b68d0fa",
+      "lemma": "particular",
+      "pos": "adj.",
+      "sense_zh": "特定的",
+      "sentence_ids": [
+        "p04-b-11-s01"
+      ],
+      "forms": [
+        "particular"
+      ],
+      "sense_id": "sense-staged-ox-fa9991550b68d0fa-p04-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2e004916be6312bb",
+      "lemma": "refer",
+      "pos": "v.",
+      "sense_zh": "指的是；指代",
+      "sentence_ids": [
+        "p04-b-11-s03"
+      ],
+      "forms": [
+        "refer"
+      ],
+      "sense_id": "sense-staged-ox-2e004916be6312bb-p04-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ebbca7a989d936f",
+      "lemma": "sense",
+      "pos": "n.",
+      "sense_zh": "道理；意义",
+      "sentence_ids": [
+        "p04-b-11-s05"
+      ],
+      "forms": [
+        "sense"
+      ],
+      "sense_id": "sense-staged-ox-3ebbca7a989d936f-p04-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4883d39f77e2b219",
+      "lemma": "pronounce",
+      "pos": "v.",
+      "sense_zh": "发音；读出",
+      "sentence_ids": [
+        "p04-b-11-s05"
+      ],
+      "forms": [
+        "pronounce"
+      ],
+      "sense_id": "sense-staged-ox-4883d39f77e2b219-p04-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1009cc04928a9b8e",
+      "lemma": "progress",
+      "pos": "n.",
+      "sense_zh": "进步",
+      "sentence_ids": [
+        "p04-b-11-s08"
+      ],
+      "forms": [
+        "progress"
+      ],
+      "sense_id": "sense-staged-ox-1009cc04928a9b8e-p04-b-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p04-a-28",
+  "title_zh": "询问住房法律咨询的其他可约时间",
+  "topic_id": "services",
+  "scenario": {
+    "id": "housing-law-consultation-inquiry",
+    "label_zh": "查询住房法律咨询的可约时间",
+    "goal_zh": "说明需要住房法律咨询并在两个时段均不适合时请求查询晚间时间"
+  },
+  "participants": [
+    "Daniela",
+    "Receptionist"
+  ],
+  "context_zh": "虚构咨询中心接待员帮助租客查询时间；只涉及咨询安排，不解释法律或提出法律判断。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-28-s01",
+      "speaker": "Daniela",
+      "text": "Do you have anyone who deals with housing law? I would like to speak to a lawyer."
+    },
+    {
+      "id": "p04-a-28-s02",
+      "speaker": "Receptionist",
+      "text": "Yes. Is this a new matter or something we have helped you with before?"
+    },
+    {
+      "id": "p04-a-28-s03",
+      "speaker": "Daniela",
+      "text": "It is new. There is a problem with my landlord, and I want to explain it in a calm manner, but I am quite upset."
+    },
+    {
+      "id": "p04-a-28-s04",
+      "speaker": "Receptionist",
+      "text": "You can bring written notes if that helps. We have Tuesday at two or Thursday at eleven."
+    },
+    {
+      "id": "p04-a-28-s05",
+      "speaker": "Daniela",
+      "text": "Neither appointment fits my work schedule. Is an evening call possible?"
+    },
+    {
+      "id": "p04-a-28-s06",
+      "speaker": "Receptionist",
+      "text": "I will ask about evening availability and call you back. What number should I use?"
+    },
+    {
+      "id": "p04-a-28-s07",
+      "speaker": "Daniela",
+      "text": "Please use the number on my contact form. I will wait for your call."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-74ffbb538ea58a71",
+      "lemma": "law",
+      "pos": "n.",
+      "sense_zh": "法律",
+      "sentence_ids": [
+        "p04-a-28-s01"
+      ],
+      "forms": [
+        "law"
+      ],
+      "sense_id": "sense-staged-ox-74ffbb538ea58a71-p04-a-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-49c47017d7232626",
+      "lemma": "lawyer",
+      "pos": "n.",
+      "sense_zh": "律师",
+      "sentence_ids": [
+        "p04-a-28-s01"
+      ],
+      "forms": [
+        "lawyer"
+      ],
+      "sense_id": "sense-staged-ox-49c47017d7232626-p04-a-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-94dc68eef98e15fe",
+      "lemma": "matter",
+      "pos": "n.",
+      "sense_zh": "待处理的事情；事务",
+      "sentence_ids": [
+        "p04-a-28-s02"
+      ],
+      "forms": [
+        "matter"
+      ],
+      "sense_id": "sense-staged-ox-94dc68eef98e15fe-p04-a-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bba882423a9d9ecd",
+      "lemma": "manner",
+      "pos": "n.",
+      "sense_zh": "方式；态度",
+      "sentence_ids": [
+        "p04-a-28-s03"
+      ],
+      "forms": [
+        "manner"
+      ],
+      "sense_id": "sense-staged-ox-bba882423a9d9ecd-p04-a-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d74a4c8421f70826",
+      "lemma": "neither",
+      "pos": "det.",
+      "sense_zh": "两者都不",
+      "sentence_ids": [
+        "p04-a-28-s05"
+      ],
+      "forms": [
+        "neither"
+      ],
+      "sense_id": "sense-staged-ox-d74a4c8421f70826-p04-a-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

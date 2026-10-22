@@ -1,0 +1,95 @@
+{
+  "id": "p04-a-31",
+  "title_zh": "根据园区照片寻找猴群所在区域",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "zoo-monkey-viewing-location",
+    "label_zh": "根据照片询问猴群的观赏位置",
+    "goal_zh": "确认照片中的猴子所在展区并问清前往观赏区的路线"
+  },
+  "participants": [
+    "Lena",
+    "Keeper"
+  ],
+  "context_zh": "访客向园区工作人员询问宣传照片里的猴子及前往观赏区的路线。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-31-s01",
+      "speaker": "Lena",
+      "text": "My daughter wants to see the monkey in this image. Is it here at the zoo?"
+    },
+    {
+      "id": "p04-a-31-s02",
+      "speaker": "Keeper",
+      "text": "Yes. That is Oscar, a male monkey from our forest enclosure."
+    },
+    {
+      "id": "p04-a-31-s03",
+      "speaker": "Lena",
+      "text": "Which way is that? We have only found the bird house so far."
+    },
+    {
+      "id": "p04-a-31-s04",
+      "speaker": "Keeper",
+      "text": "Follow this path past the bird house, then turn right. His group has an outdoor viewing area there."
+    },
+    {
+      "id": "p04-a-31-s05",
+      "speaker": "Lena",
+      "text": "Thank you. We will go there next."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4e6f409627815f63",
+      "lemma": "monkey",
+      "pos": "n.",
+      "sense_zh": "猴子",
+      "sentence_ids": [
+        "p04-a-31-s01"
+      ],
+      "forms": [
+        "monkey"
+      ],
+      "sense_id": "sense-staged-ox-4e6f409627815f63-p04-a-31",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-18f97e646718637c",
+      "lemma": "image",
+      "pos": "n.",
+      "sense_zh": "图像；照片",
+      "sentence_ids": [
+        "p04-a-31-s01"
+      ],
+      "forms": [
+        "image"
+      ],
+      "sense_id": "sense-staged-ox-18f97e646718637c-p04-a-31",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb65e12757a02221",
+      "lemma": "male",
+      "pos": "adj.",
+      "sense_zh": "雄性的",
+      "sentence_ids": [
+        "p04-a-31-s02"
+      ],
+      "forms": [
+        "male"
+      ],
+      "sense_id": "sense-staged-ox-cb65e12757a02221-p04-a-31",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

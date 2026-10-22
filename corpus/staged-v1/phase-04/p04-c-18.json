@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-18",
+  "title_zh": "整理玩具架并区分去留",
+  "topic_id": "home",
+  "scenario": {
+    "id": "toy-shelf-cleanup",
+    "label_zh": "整理玩具架并区分去留",
+    "goal_zh": "把玩具、捐赠物和垃圾分开并整理上层架子"
+  },
+  "participants": [
+    "Rosa",
+    "Finn"
+  ],
+  "context_zh": "家长与孩子一起整理玩具架，把留下、捐赠和丢弃的物品分开。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-18-s01",
+      "speaker": "Rosa",
+      "text": "Let's tidy this shelf before we get another toy out."
+    },
+    {
+      "id": "p04-c-18-s02",
+      "speaker": "Finn",
+      "text": "Can I throw the broken boxes away?"
+    },
+    {
+      "id": "p04-c-18-s03",
+      "speaker": "Rosa",
+      "text": "Yes, those can go in the trash. But put the things you no longer play with in this separate bag."
+    },
+    {
+      "id": "p04-c-18-s04",
+      "speaker": "Finn",
+      "text": "For the donation box? I'll put my old cars in there."
+    },
+    {
+      "id": "p04-c-18-s05",
+      "speaker": "Rosa",
+      "text": "Good idea. Your puzzles can stay on the top shelf."
+    },
+    {
+      "id": "p04-c-18-s06",
+      "speaker": "Finn",
+      "text": "There. The puzzles are back, the cars are in the bag, and I can see the floor again."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ca6ae790299c8b5c",
+      "lemma": "toy",
+      "pos": "n.",
+      "sense_zh": "玩具",
+      "sentence_ids": [
+        "p04-c-18-s01"
+      ],
+      "forms": [
+        "toy"
+      ],
+      "sense_id": "sense-staged-ox-ca6ae790299c8b5c-p04-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ba1292d928750d60",
+      "lemma": "tidy",
+      "pos": "v.",
+      "sense_zh": "整理",
+      "sentence_ids": [
+        "p04-c-18-s01"
+      ],
+      "forms": [
+        "tidy"
+      ],
+      "sense_id": "sense-staged-ox-ba1292d928750d60-p04-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb51a92dcb2ac86c",
+      "lemma": "trash",
+      "pos": "n.",
+      "sense_zh": "垃圾",
+      "sentence_ids": [
+        "p04-c-18-s03"
+      ],
+      "forms": [
+        "trash"
+      ],
+      "sense_id": "sense-staged-ox-cb51a92dcb2ac86c-p04-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-75d79577fa464186",
+      "lemma": "throw",
+      "pos": "v.",
+      "sense_zh": "扔；丢弃",
+      "sentence_ids": [
+        "p04-c-18-s02"
+      ],
+      "forms": [
+        "throw"
+      ],
+      "sense_id": "sense-staged-ox-75d79577fa464186-p04-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2bf7d59aebd180f9",
+      "lemma": "top",
+      "pos": "adj.",
+      "sense_zh": "最上面的",
+      "sentence_ids": [
+        "p04-c-18-s05"
+      ],
+      "forms": [
+        "top"
+      ],
+      "sense_id": "sense-staged-ox-2bf7d59aebd180f9-p04-c-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

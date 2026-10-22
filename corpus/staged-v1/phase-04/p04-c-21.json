@@ -1,0 +1,137 @@
+{
+  "id": "p04-c-21",
+  "title_zh": "询问钟塔导览和步行路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "tower-walking-tour-choice",
+    "label_zh": "询问钟塔导览和步行路线",
+    "goal_zh": "核对旅游咨询处提供的导览并确认到钟塔的路线"
+  },
+  "participants": [
+    "Petra",
+    "Nico"
+  ],
+  "context_zh": "游客在咨询处询问钟塔步行导览的内容，并确认从广场出发的路线。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-21-s01",
+      "speaker": "Petra",
+      "text": "Is there a tour that includes the old tower?"
+    },
+    {
+      "id": "p04-c-21-s02",
+      "speaker": "Nico",
+      "text": "Yes, at two. The guide explains how tourism has changed the town, as well as the tower's history."
+    },
+    {
+      "id": "p04-c-21-s03",
+      "speaker": "Petra",
+      "text": "That sounds interesting. Where does it start?"
+    },
+    {
+      "id": "p04-c-21-s04",
+      "speaker": "Nico",
+      "text": "At the tower entrance. Walk straight across the square, then take the narrow street beside the bakery."
+    },
+    {
+      "id": "p04-c-21-s05",
+      "speaker": "Petra",
+      "text": "Which side of the street is the entrance on?"
+    },
+    {
+      "id": "p04-c-21-s06",
+      "speaker": "Nico",
+      "text": "The left, just after the fountain."
+    },
+    {
+      "id": "p04-c-21-s07",
+      "speaker": "Petra",
+      "text": "Thanks. I'll go that way and meet the guide at two."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a9618fc602078bf3",
+      "lemma": "tour",
+      "pos": "n.",
+      "sense_zh": "导览；游览",
+      "sentence_ids": [
+        "p04-c-21-s01"
+      ],
+      "forms": [
+        "tour"
+      ],
+      "sense_id": "sense-staged-ox-a9618fc602078bf3-p04-c-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea73bb41004ddf10",
+      "lemma": "tourism",
+      "pos": "n.",
+      "sense_zh": "旅游业",
+      "sentence_ids": [
+        "p04-c-21-s02"
+      ],
+      "forms": [
+        "tourism"
+      ],
+      "sense_id": "sense-staged-ox-ea73bb41004ddf10-p04-c-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c0ec2da48144e2c7",
+      "lemma": "tower",
+      "pos": "n.",
+      "sense_zh": "塔",
+      "sentence_ids": [
+        "p04-c-21-s01"
+      ],
+      "forms": [
+        "tower"
+      ],
+      "sense_id": "sense-staged-ox-c0ec2da48144e2c7-p04-c-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-351881cabf7b2f3c",
+      "lemma": "straight",
+      "pos": "adv.",
+      "sense_zh": "径直；直行地",
+      "sentence_ids": [
+        "p04-c-21-s04"
+      ],
+      "forms": [
+        "straight"
+      ],
+      "sense_id": "sense-staged-ox-351881cabf7b2f3c-p04-c-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-614c1c1c00b98732",
+      "lemma": "side",
+      "pos": "n.",
+      "sense_zh": "一边；一侧",
+      "sentence_ids": [
+        "p04-c-21-s05"
+      ],
+      "forms": [
+        "side"
+      ],
+      "sense_id": "sense-staged-ox-614c1c1c00b98732-p04-c-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

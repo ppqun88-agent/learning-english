@@ -1,0 +1,158 @@
+{
+  "id": "p04-a-10",
+  "title_zh": "先了解出版翻译工作再考虑转行",
+  "topic_id": "work",
+  "scenario": {
+    "id": "career-change-discussion",
+    "label_zh": "讨论职业方向",
+    "goal_zh": "讨论转行念头并确定低风险了解行业的下一步。"
+  },
+  "participants": [
+    "Marco",
+    "Sian"
+  ],
+  "context_zh": "朋友讨论转入出版行业的想法，商定先向从业者请教。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-10-s01",
+      "speaker": "Marco",
+      "text": "I would like to move into the publishing industry, perhaps as a translator."
+    },
+    {
+      "id": "p04-a-10-s02",
+      "speaker": "Sian",
+      "text": "Would you want a staff job or independent work?"
+    },
+    {
+      "id": "p04-a-10-s03",
+      "speaker": "Marco",
+      "text": "Independent work appeals to me, but I do not know how people find clients."
+    },
+    {
+      "id": "p04-a-10-s04",
+      "speaker": "Sian",
+      "text": "My cousin translates books for an international publisher. I could ask if she would talk to you."
+    },
+    {
+      "id": "p04-a-10-s05",
+      "speaker": "Marco",
+      "text": "That would be a useful opportunity. I want to know what the work would involve day to day."
+    },
+    {
+      "id": "p04-a-10-s06",
+      "speaker": "Sian",
+      "text": "She has worked for small firms and a major publisher, so she could explain both."
+    },
+    {
+      "id": "p04-a-10-s07",
+      "speaker": "Marco",
+      "text": "Great. I will write down a few questions before I speak to her."
+    },
+    {
+      "id": "p04-a-10-s08",
+      "speaker": "Sian",
+      "text": "I will ask her whether she has time for a short call next week."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-93a345240cd3f23c",
+      "lemma": "industry",
+      "pos": "n.",
+      "sense_zh": "行业",
+      "sentence_ids": [
+        "p04-a-10-s01"
+      ],
+      "forms": [
+        "industry"
+      ],
+      "sense_id": "sense-staged-ox-93a345240cd3f23c-p04-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db6cf6a783e8428d",
+      "lemma": "independent",
+      "pos": "adj.",
+      "sense_zh": "独立的；不受雇于某一机构的",
+      "sentence_ids": [
+        "p04-a-10-s02"
+      ],
+      "forms": [
+        "independent"
+      ],
+      "sense_id": "sense-staged-ox-db6cf6a783e8428d-p04-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0819625b770470c3",
+      "lemma": "international",
+      "pos": "adj.",
+      "sense_zh": "国际的；跨国的",
+      "sentence_ids": [
+        "p04-a-10-s04"
+      ],
+      "forms": [
+        "international"
+      ],
+      "sense_id": "sense-staged-ox-0819625b770470c3-p04-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7756446b58374a86",
+      "lemma": "opportunity",
+      "pos": "n.",
+      "sense_zh": "机会",
+      "sentence_ids": [
+        "p04-a-10-s05"
+      ],
+      "forms": [
+        "opportunity"
+      ],
+      "sense_id": "sense-staged-ox-7756446b58374a86-p04-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e02a66bc8d04ac6e",
+      "lemma": "involve",
+      "pos": "v.",
+      "sense_zh": "涉及；包含",
+      "sentence_ids": [
+        "p04-a-10-s05"
+      ],
+      "forms": [
+        "involve"
+      ],
+      "sense_id": "sense-staged-ox-e02a66bc8d04ac6e-p04-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4feb862ba63d56e1",
+      "lemma": "major",
+      "pos": "adj.",
+      "sense_zh": "重要的；规模大的",
+      "sentence_ids": [
+        "p04-a-10-s06"
+      ],
+      "forms": [
+        "major"
+      ],
+      "sense_id": "sense-staged-ox-4feb862ba63d56e1-p04-a-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

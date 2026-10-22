@@ -1,0 +1,116 @@
+{
+  "id": "p04-b-21",
+  "title_zh": "先等教练确认周六帆船课的天气",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-sailing-weather-check",
+    "label_zh": "核对初学帆船课的开课条件",
+    "goal_zh": "了解课程季节与天气限制，并约定确认可开课时段的下一步"
+  },
+  "participants": [
+    "Dara",
+    "Joel"
+  ],
+  "context_zh": "初学者咨询帆船课程，得知季节内仍需按天气决定是否开课。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-21-s01",
+      "speaker": "Dara",
+      "text": "I would like to learn to sail. Is the sailing season already over?"
+    },
+    {
+      "id": "p04-b-21-s02",
+      "speaker": "Joel",
+      "text": "Not here. We offer beginner lessons until the end of October, when conditions allow."
+    },
+    {
+      "id": "p04-b-21-s03",
+      "speaker": "Dara",
+      "text": "Is there any possibility of a lesson this Saturday?"
+    },
+    {
+      "id": "p04-b-21-s04",
+      "speaker": "Joel",
+      "text": "There is space, but the instructor will check the forecast on Friday before confirming the session."
+    },
+    {
+      "id": "p04-b-21-s05",
+      "speaker": "Dara",
+      "text": "Then I will call on Friday afternoon. I would prefer to wait rather than book a different day now."
+    },
+    {
+      "id": "p04-b-21-s06",
+      "speaker": "Joel",
+      "text": "That is fine. We can discuss the available times once the instructor has checked."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a06dbbb0ee0c582d",
+      "lemma": "sail",
+      "pos": "v.",
+      "sense_zh": "驾驶帆船；乘帆船航行",
+      "sentence_ids": [
+        "p04-b-21-s01"
+      ],
+      "forms": [
+        "sail"
+      ],
+      "sense_id": "sense-staged-ox-a06dbbb0ee0c582d-p04-b-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce126552fc678d06",
+      "lemma": "sailing",
+      "pos": "n.",
+      "sense_zh": "帆船运动",
+      "sentence_ids": [
+        "p04-b-21-s01"
+      ],
+      "forms": [
+        "sailing"
+      ],
+      "sense_id": "sense-staged-ox-ce126552fc678d06-p04-b-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bcc3cac0f0d6af48",
+      "lemma": "season",
+      "pos": "n.",
+      "sense_zh": "适合某活动的季节",
+      "sentence_ids": [
+        "p04-b-21-s01"
+      ],
+      "forms": [
+        "season"
+      ],
+      "sense_id": "sense-staged-ox-bcc3cac0f0d6af48-p04-b-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-42911b82d464fa39",
+      "lemma": "possibility",
+      "pos": "n.",
+      "sense_zh": "可能性",
+      "sentence_ids": [
+        "p04-b-21-s03"
+      ],
+      "forms": [
+        "possibility"
+      ],
+      "sense_id": "sense-staged-ox-42911b82d464fa39-p04-b-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

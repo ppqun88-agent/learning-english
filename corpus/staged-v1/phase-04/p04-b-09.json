@@ -1,0 +1,142 @@
+{
+  "id": "p04-b-09",
+  "title_zh": "报告屋顶漏水并约定检查时间",
+  "topic_id": "home",
+  "scenario": {
+    "id": "roof-leak-inspection-appointment",
+    "label_zh": "预约屋顶漏水检查",
+    "goal_zh": "说明漏水情况及已采取的隔离措施，约定检查时间并在检查后讨论维修选项"
+  },
+  "participants": [
+    "Gareth",
+    "Lina"
+  ],
+  "context_zh": "屋主致电维修人员，说明已经采取的隔离安排并预约检查。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-09-s01",
+      "speaker": "Gareth",
+      "text": "I am the owner of the house on Mill Lane. Water is coming through the roof into the spare room."
+    },
+    {
+      "id": "p04-b-09-s02",
+      "speaker": "Lina",
+      "text": "Is anyone using that room now?"
+    },
+    {
+      "id": "p04-b-09-s03",
+      "speaker": "Gareth",
+      "text": "No. An electrician has already turned off the power to it, and we are keeping the door closed."
+    },
+    {
+      "id": "p04-b-09-s04",
+      "speaker": "Lina",
+      "text": "Good to know. Has the water reached any furniture?"
+    },
+    {
+      "id": "p04-b-09-s05",
+      "speaker": "Gareth",
+      "text": "We moved the furniture earlier to protect it. Can you stop more water getting in?"
+    },
+    {
+      "id": "p04-b-09-s06",
+      "speaker": "Lina",
+      "text": "I need to inspect the roof before I can say what work will prevent another leak. I can come at two today."
+    },
+    {
+      "id": "p04-b-09-s07",
+      "speaker": "Gareth",
+      "text": "Two is fine. We will stay out of the room until you have checked it."
+    },
+    {
+      "id": "p04-b-09-s08",
+      "speaker": "Lina",
+      "text": "I will inspect it then and explain the repair options before starting work."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-16630b682316f3ba",
+      "lemma": "owner",
+      "pos": "n.",
+      "sense_zh": "所有者；屋主",
+      "sentence_ids": [
+        "p04-b-09-s01"
+      ],
+      "forms": [
+        "owner"
+      ],
+      "sense_id": "sense-staged-ox-16630b682316f3ba-p04-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe6787817bd4afb8",
+      "lemma": "roof",
+      "pos": "n.",
+      "sense_zh": "屋顶",
+      "sentence_ids": [
+        "p04-b-09-s01"
+      ],
+      "forms": [
+        "roof"
+      ],
+      "sense_id": "sense-staged-ox-fe6787817bd4afb8-p04-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41452843cc1fc469",
+      "lemma": "power",
+      "pos": "n.",
+      "sense_zh": "电力供应",
+      "sentence_ids": [
+        "p04-b-09-s03"
+      ],
+      "forms": [
+        "power"
+      ],
+      "sense_id": "sense-staged-ox-41452843cc1fc469-p04-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e309091c93343a20",
+      "lemma": "protect",
+      "pos": "v.",
+      "sense_zh": "保护",
+      "sentence_ids": [
+        "p04-b-09-s05"
+      ],
+      "forms": [
+        "protect"
+      ],
+      "sense_id": "sense-staged-ox-e309091c93343a20-p04-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a200c4c9d22e68d3",
+      "lemma": "prevent",
+      "pos": "v.",
+      "sense_zh": "防止",
+      "sentence_ids": [
+        "p04-b-09-s06"
+      ],
+      "forms": [
+        "prevent"
+      ],
+      "sense_id": "sense-staged-ox-a200c4c9d22e68d3-p04-b-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

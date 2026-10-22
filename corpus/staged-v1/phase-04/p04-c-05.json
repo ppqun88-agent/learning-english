@@ -1,0 +1,143 @@
+{
+  "id": "p04-c-05",
+  "title_zh": "确认首次滑雪课的练习安排",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "first-ski-lesson-plan",
+    "label_zh": "确认首次滑雪课的练习安排",
+    "goal_zh": "说明滑雪经验并确认教练带领的低速入门练习"
+  },
+  "participants": [
+    "Beth",
+    "Maya"
+  ],
+  "context_zh": "贝丝在滑雪学校说明自己经验很少，并确认入门训练有教练陪同。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-05-s01",
+      "speaker": "Beth",
+      "text": "I can ski a little, but downhill skiing still makes me nervous."
+    },
+    {
+      "id": "p04-c-05-s02",
+      "speaker": "Maya",
+      "text": "Then today's training will start on this gentle slope."
+    },
+    {
+      "id": "p04-c-05-s03",
+      "speaker": "Beth",
+      "text": "Will a trainer stay with me? I get worried about my speed."
+    },
+    {
+      "id": "p04-c-05-s04",
+      "speaker": "Maya",
+      "text": "Yes, I'll be beside you. We'll move slowly and practise stopping before we try anything longer."
+    },
+    {
+      "id": "p04-c-05-s05",
+      "speaker": "Beth",
+      "text": "That sounds manageable. Let's start here."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0653d383eaf275c2",
+      "lemma": "ski",
+      "pos": "v.",
+      "sense_zh": "滑雪",
+      "sentence_ids": [
+        "p04-c-05-s01"
+      ],
+      "forms": [
+        "ski"
+      ],
+      "sense_id": "sense-staged-ox-0653d383eaf275c2-p04-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a962318fbf4cfd76",
+      "lemma": "skiing",
+      "pos": "n.",
+      "sense_zh": "滑雪运动",
+      "sentence_ids": [
+        "p04-c-05-s01"
+      ],
+      "forms": [
+        "skiing"
+      ],
+      "sense_id": "sense-staged-ox-a962318fbf4cfd76-p04-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fedf06b2279a394b",
+      "lemma": "slowly",
+      "pos": "adv.",
+      "sense_zh": "缓慢地",
+      "sentence_ids": [
+        "p04-c-05-s04"
+      ],
+      "forms": [
+        "slowly"
+      ],
+      "sense_id": "sense-staged-ox-fedf06b2279a394b-p04-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b481c70ce525f75",
+      "lemma": "speed",
+      "pos": "n.",
+      "sense_zh": "速度",
+      "sentence_ids": [
+        "p04-c-05-s03"
+      ],
+      "forms": [
+        "speed"
+      ],
+      "sense_id": "sense-staged-ox-2b481c70ce525f75-p04-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df416d4d3178ba68",
+      "lemma": "training",
+      "pos": "n.",
+      "sense_zh": "训练",
+      "sentence_ids": [
+        "p04-c-05-s02"
+      ],
+      "forms": [
+        "training"
+      ],
+      "sense_id": "sense-staged-ox-df416d4d3178ba68-p04-c-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10ffb722aa19b1df",
+      "lemma": "trainer",
+      "pos": "n.",
+      "sense_zh": "教练；训练员",
+      "sentence_ids": [
+        "p04-c-05-s03"
+      ],
+      "forms": [
+        "trainer"
+      ],
+      "sense_id": "sense-staged-ox-10ffb722aa19b1df-p04-c-05",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

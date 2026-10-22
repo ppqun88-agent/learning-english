@@ -1,0 +1,95 @@
+{
+  "id": "p04-b-05",
+  "title_zh": "从铁路博物馆的区域展厅开始参观",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "museum-history-room",
+    "label_zh": "询问博物馆展览位置",
+    "goal_zh": "向博物馆工作人员询问地方历史展览与资料。"
+  },
+  "participants": [
+    "Sofia",
+    "Marcus"
+  ],
+  "context_zh": "一名海外游客询问美国一座铁路博物馆展示哪些地方的历史。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-05-s01",
+      "speaker": "Sofia",
+      "text": "I live overseas and I am visiting for a few days. Does this railroad museum cover the whole country?"
+    },
+    {
+      "id": "p04-b-05-s02",
+      "speaker": "Marcus",
+      "text": "No, it focuses on this region and the towns that grew around the railway lines."
+    },
+    {
+      "id": "p04-b-05-s03",
+      "speaker": "Sofia",
+      "text": "That is what I wanted to learn about. Where should I start?"
+    },
+    {
+      "id": "p04-b-05-s04",
+      "speaker": "Marcus",
+      "text": "The gallery on your left has a map of the early routes. The engine shed comes after that."
+    },
+    {
+      "id": "p04-b-05-s05",
+      "speaker": "Sofia",
+      "text": "Great. I will start with the map, then visit the shed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3b872f510eb71469",
+      "lemma": "overseas",
+      "pos": "adv.",
+      "sense_zh": "在海外；从海外",
+      "sentence_ids": [
+        "p04-b-05-s01"
+      ],
+      "forms": [
+        "overseas"
+      ],
+      "sense_id": "sense-staged-ox-3b872f510eb71469-p04-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eeb1dddda1b3cd09",
+      "lemma": "railroad",
+      "pos": "n.",
+      "sense_zh": "铁路",
+      "sentence_ids": [
+        "p04-b-05-s01"
+      ],
+      "forms": [
+        "railroad"
+      ],
+      "sense_id": "sense-staged-ox-eeb1dddda1b3cd09-p04-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-223b573b68070229",
+      "lemma": "region",
+      "pos": "n.",
+      "sense_zh": "地区",
+      "sentence_ids": [
+        "p04-b-05-s02"
+      ],
+      "forms": [
+        "region"
+      ],
+      "sense_id": "sense-staged-ox-223b573b68070229-p04-b-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

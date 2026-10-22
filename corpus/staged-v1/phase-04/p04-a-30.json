@@ -1,0 +1,84 @@
+{
+  "id": "p04-a-30",
+  "title_zh": "先约一次午休短走再考虑装备",
+  "topic_id": "health",
+  "scenario": {
+    "id": "walking-habit-small-step",
+    "label_zh": "商量改变久坐习惯的第一步",
+    "goal_zh": "约定一次午间短距离散步并澄清不需要先购买设备"
+  },
+  "participants": [
+    "Omar",
+    "Clare"
+  ],
+  "context_zh": "朋友想改变久坐的日常习惯，两人约定从一起散步开始。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-30-s01",
+      "speaker": "Omar",
+      "text": "My lifestyle has become very inactive since I started working from home."
+    },
+    {
+      "id": "p04-a-30-s02",
+      "speaker": "Clare",
+      "text": "Would you like to join me for a short walk at lunchtime?"
+    },
+    {
+      "id": "p04-a-30-s03",
+      "speaker": "Omar",
+      "text": "Yes. Do I need a fitness watch or anything like that?"
+    },
+    {
+      "id": "p04-a-30-s04",
+      "speaker": "Clare",
+      "text": "That is not necessary for walking with me. We can just go round the block and see how you like it."
+    },
+    {
+      "id": "p04-a-30-s05",
+      "speaker": "Omar",
+      "text": "Let us try tomorrow at half past twelve."
+    },
+    {
+      "id": "p04-a-30-s06",
+      "speaker": "Clare",
+      "text": "Great. I will meet you outside your building."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2763d98b1ac8e931",
+      "lemma": "lifestyle",
+      "pos": "n.",
+      "sense_zh": "生活方式",
+      "sentence_ids": [
+        "p04-a-30-s01"
+      ],
+      "forms": [
+        "lifestyle"
+      ],
+      "sense_id": "sense-staged-ox-2763d98b1ac8e931-p04-a-30",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d40f1112e584c8d0",
+      "lemma": "necessary",
+      "pos": "adj.",
+      "sense_zh": "必要的",
+      "sentence_ids": [
+        "p04-a-30-s04"
+      ],
+      "forms": [
+        "necessary"
+      ],
+      "sense_id": "sense-staged-ox-d40f1112e584c8d0-p04-a-30",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

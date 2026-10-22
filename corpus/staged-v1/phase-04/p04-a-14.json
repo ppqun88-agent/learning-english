@@ -1,0 +1,137 @@
+{
+  "id": "p04-a-14",
+  "title_zh": "了解数学入门课并安排试听",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "mathematics-course-preview",
+    "label_zh": "了解数学入门课程并安排试听",
+    "goal_zh": "核对课程内容和先备知识后约定先试听再决定报名"
+  },
+  "participants": [
+    "Iona",
+    "Peter"
+  ],
+  "context_zh": "多年未学数学的成年人向课程教师了解难度和试听安排。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-14-s01",
+      "speaker": "Iona",
+      "text": "I have not done any maths for years. Would your evening course be too difficult?"
+    },
+    {
+      "id": "p04-a-14-s02",
+      "speaker": "Peter",
+      "text": "It is a gentle introduction. We start with things like comparing prices and reading graphs."
+    },
+    {
+      "id": "p04-a-14-s03",
+      "speaker": "Iona",
+      "text": "How much knowledge do I need before the first class?"
+    },
+    {
+      "id": "p04-a-14-s04",
+      "speaker": "Peter",
+      "text": "Just basic arithmetic. We use everyday examples to make mathematics less abstract."
+    },
+    {
+      "id": "p04-a-14-s05",
+      "speaker": "Iona",
+      "text": "Could I sit in on a lecture before I sign up?"
+    },
+    {
+      "id": "p04-a-14-s06",
+      "speaker": "Peter",
+      "text": "Certainly. Come to Tuesday’s session at six, and see how you find it."
+    },
+    {
+      "id": "p04-a-14-s07",
+      "speaker": "Iona",
+      "text": "Thank you. I will come on Tuesday and decide afterwards."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-42de48ebcb124398",
+      "lemma": "maths",
+      "pos": "n.",
+      "sense_zh": "数学（英式用语）",
+      "sentence_ids": [
+        "p04-a-14-s01"
+      ],
+      "forms": [
+        "maths"
+      ],
+      "sense_id": "sense-staged-ox-42de48ebcb124398-p04-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e6ff9cb8758dc62f",
+      "lemma": "introduction",
+      "pos": "n.",
+      "sense_zh": "初步介绍；入门内容",
+      "sentence_ids": [
+        "p04-a-14-s02"
+      ],
+      "forms": [
+        "introduction"
+      ],
+      "sense_id": "sense-staged-ox-e6ff9cb8758dc62f-p04-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-370508b1e17e8f8e",
+      "lemma": "knowledge",
+      "pos": "n.",
+      "sense_zh": "知识",
+      "sentence_ids": [
+        "p04-a-14-s03"
+      ],
+      "forms": [
+        "knowledge"
+      ],
+      "sense_id": "sense-staged-ox-370508b1e17e8f8e-p04-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1e358559bb6ee899",
+      "lemma": "mathematics",
+      "pos": "n.",
+      "sense_zh": "数学",
+      "sentence_ids": [
+        "p04-a-14-s04"
+      ],
+      "forms": [
+        "mathematics"
+      ],
+      "sense_id": "sense-staged-ox-1e358559bb6ee899-p04-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4bcb148c3ecb3a95",
+      "lemma": "lecture",
+      "pos": "n.",
+      "sense_zh": "讲课；讲座",
+      "sentence_ids": [
+        "p04-a-14-s05"
+      ],
+      "forms": [
+        "lecture"
+      ],
+      "sense_id": "sense-staged-ox-4bcb148c3ecb3a95-p04-a-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

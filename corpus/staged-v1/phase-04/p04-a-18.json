@@ -1,0 +1,121 @@
+{
+  "id": "p04-a-18",
+  "title_zh": "调整桌面照明并给门留出空间",
+  "topic_id": "home",
+  "scenario": {
+    "id": "home-desk-fitting",
+    "label_zh": "调整书桌位置与照明",
+    "goal_zh": "根据桌面尺寸、照明和通道空间安排书桌。"
+  },
+  "participants": [
+    "Harper",
+    "Milan"
+  ],
+  "context_zh": "室友帮助调整书桌、电脑与台灯的位置。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-18-s01",
+      "speaker": "Harper",
+      "text": "There is hardly any room for my laptop beside this lamp."
+    },
+    {
+      "id": "p04-a-18-s02",
+      "speaker": "Milan",
+      "text": "Could the lamp go on the shelf above the desk?"
+    },
+    {
+      "id": "p04-a-18-s03",
+      "speaker": "Harper",
+      "text": "Yes, but its lowest setting is too low for reading. Can we increase the brightness?"
+    },
+    {
+      "id": "p04-a-18-s04",
+      "speaker": "Milan",
+      "text": "This switch does that. Is this better?"
+    },
+    {
+      "id": "p04-a-18-s05",
+      "speaker": "Harper",
+      "text": "Much better. Now the screen fits, but the chair blocks the door."
+    },
+    {
+      "id": "p04-a-18-s06",
+      "speaker": "Milan",
+      "text": "The desk is only a metre wide. We could move it against that wall and keep the doorway clear."
+    },
+    {
+      "id": "p04-a-18-s07",
+      "speaker": "Harper",
+      "text": "Let us do that. I will unplug everything before we move it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cb5c06b978c01ed2",
+      "lemma": "laptop",
+      "pos": "n.",
+      "sense_zh": "笔记本电脑",
+      "sentence_ids": [
+        "p04-a-18-s01"
+      ],
+      "forms": [
+        "laptop"
+      ],
+      "sense_id": "sense-staged-ox-cb5c06b978c01ed2-p04-a-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0ca67fb5fd22fa2c",
+      "lemma": "lamp",
+      "pos": "n.",
+      "sense_zh": "台灯；灯",
+      "sentence_ids": [
+        "p04-a-18-s01"
+      ],
+      "forms": [
+        "lamp"
+      ],
+      "sense_id": "sense-staged-ox-0ca67fb5fd22fa2c-p04-a-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-317dcb7f3030a3d5",
+      "lemma": "low",
+      "pos": "adj.",
+      "sense_zh": "强度低的；亮度低的",
+      "sentence_ids": [
+        "p04-a-18-s03"
+      ],
+      "forms": [
+        "low"
+      ],
+      "sense_id": "sense-staged-ox-317dcb7f3030a3d5-p04-a-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a67bd2f0cce1a178",
+      "lemma": "increase",
+      "pos": "v.",
+      "sense_zh": "增加；提高",
+      "sentence_ids": [
+        "p04-a-18-s03"
+      ],
+      "forms": [
+        "increase"
+      ],
+      "sense_id": "sense-staged-ox-a67bd2f0cce1a178-p04-a-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

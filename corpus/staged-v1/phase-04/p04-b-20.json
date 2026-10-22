@@ -1,0 +1,100 @@
+{
+  "id": "p04-b-20",
+  "title_zh": "把下次跑步目标定为三十二分钟内",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "athlete-training-goal",
+    "label_zh": "设定跑步训练目标",
+    "goal_zh": "根据以往成绩选定具体目标而不只关注名次"
+  },
+  "participants": [
+    "Evan",
+    "Salma"
+  ],
+  "context_zh": "业余跑者和教练根据上次五公里成绩商量下次比赛目标。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-20-s01",
+      "speaker": "Evan",
+      "text": "I was the last runner in my group again. Perhaps I should give up running."
+    },
+    {
+      "id": "p04-b-20-s02",
+      "speaker": "Salma",
+      "text": "What was your time in the previous race?"
+    },
+    {
+      "id": "p04-b-20-s03",
+      "speaker": "Evan",
+      "text": "Thirty-four minutes. Yesterday I finished in thirty-two minutes and ten seconds."
+    },
+    {
+      "id": "p04-b-20-s04",
+      "speaker": "Salma",
+      "text": "That is almost two minutes faster. Your position depends on who else enters, but your time shows your progress."
+    },
+    {
+      "id": "p04-b-20-s05",
+      "speaker": "Evan",
+      "text": "Then I want to get under thirty-two minutes next time, rather than aim for a place."
+    },
+    {
+      "id": "p04-b-20-s06",
+      "speaker": "Salma",
+      "text": "That is a clear goal. We can plan your sessions around it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fc32fb73bfa8e3cd",
+      "lemma": "runner",
+      "pos": "n.",
+      "sense_zh": "跑步者",
+      "sentence_ids": [
+        "p04-b-20-s01"
+      ],
+      "forms": [
+        "runner"
+      ],
+      "sense_id": "sense-staged-ox-fc32fb73bfa8e3cd-p04-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4cbd520eb8fd612b",
+      "lemma": "running",
+      "pos": "n.",
+      "sense_zh": "跑步运动",
+      "sentence_ids": [
+        "p04-b-20-s01"
+      ],
+      "forms": [
+        "running"
+      ],
+      "sense_id": "sense-staged-ox-4cbd520eb8fd612b-p04-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92e25f812674987a",
+      "lemma": "race",
+      "pos": "n.",
+      "sense_zh": "赛跑比赛",
+      "sentence_ids": [
+        "p04-b-20-s02"
+      ],
+      "forms": [
+        "race"
+      ],
+      "sense_id": "sense-staged-ox-92e25f812674987a-p04-b-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

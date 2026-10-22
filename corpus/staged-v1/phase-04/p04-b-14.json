@@ -1,0 +1,137 @@
+{
+  "id": "p04-b-14",
+  "title_zh": "凭刻字认领母亲留下的戒指",
+  "topic_id": "services",
+  "scenario": {
+    "id": "lost-ring-identification",
+    "label_zh": "描述并认领遗失戒指",
+    "goal_zh": "凭外观和刻字核实遗失戒指的归属并领取"
+  },
+  "participants": [
+    "Hazel",
+    "Owen"
+  ],
+  "context_zh": "访客向场馆失物招领处描述遗失戒指，并用细节核实归属。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-14-s01",
+      "speaker": "Hazel",
+      "text": "Has anyone handed in a silver ring? I put it in my coat pocket during the workshop, and now it is gone."
+    },
+    {
+      "id": "p04-b-14-s02",
+      "speaker": "Owen",
+      "text": "We have one. Before I show it to you, can you describe a detail that would help identify it?"
+    },
+    {
+      "id": "p04-b-14-s03",
+      "speaker": "Hazel",
+      "text": "There is a small blue stone, and the letters M and H are inside. It was my mother’s most treasured possession."
+    },
+    {
+      "id": "p04-b-14-s04",
+      "speaker": "Owen",
+      "text": "Those details match. Is this the one?"
+    },
+    {
+      "id": "p04-b-14-s05",
+      "speaker": "Hazel",
+      "text": "Yes. I recognize the little scratch beside the stone."
+    },
+    {
+      "id": "p04-b-14-s06",
+      "speaker": "Owen",
+      "text": "A cleaner found it under a chair. You can sign this collection record and take it."
+    },
+    {
+      "id": "p04-b-14-s07",
+      "speaker": "Hazel",
+      "text": "Thank you. I was about to search the whole room again. I will sign here."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d8af4e6a10ec2ee1",
+      "lemma": "ring",
+      "pos": "n.",
+      "sense_zh": "戒指",
+      "sentence_ids": [
+        "p04-b-14-s01"
+      ],
+      "forms": [
+        "ring"
+      ],
+      "sense_id": "sense-staged-ox-d8af4e6a10ec2ee1-p04-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b053aec891405ff",
+      "lemma": "pocket",
+      "pos": "n.",
+      "sense_zh": "口袋",
+      "sentence_ids": [
+        "p04-b-14-s01"
+      ],
+      "forms": [
+        "pocket"
+      ],
+      "sense_id": "sense-staged-ox-7b053aec891405ff-p04-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2963c2266e882ce9",
+      "lemma": "possession",
+      "pos": "n.",
+      "sense_zh": "个人拥有的物品",
+      "sentence_ids": [
+        "p04-b-14-s03"
+      ],
+      "forms": [
+        "possession"
+      ],
+      "sense_id": "sense-staged-ox-2963c2266e882ce9-p04-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f01df1b1078949c7",
+      "lemma": "recognize",
+      "pos": "v.",
+      "sense_zh": "认出",
+      "sentence_ids": [
+        "p04-b-14-s05"
+      ],
+      "forms": [
+        "recognize"
+      ],
+      "sense_id": "sense-staged-ox-f01df1b1078949c7-p04-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bfd28f85f8153e41",
+      "lemma": "search",
+      "pos": "v.",
+      "sense_zh": "搜索；查找",
+      "sentence_ids": [
+        "p04-b-14-s07"
+      ],
+      "forms": [
+        "search"
+      ],
+      "sense_id": "sense-staged-ox-bfd28f85f8153e41-p04-b-14",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

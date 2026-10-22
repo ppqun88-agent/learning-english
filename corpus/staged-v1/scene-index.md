@@ -28,6 +28,14 @@
 
 - [安排慈善晚会的捐款台 · p03-b-08](phase-03/dialogues.md#dialogue-p03-b-08)：phase-03，5 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 分工筹备慈善抽奖 · charity-raffle-planning
+
+沟通目标：确定筹款用途、奖品和筹备分工，并约定售票前核对活动规则
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [分工筹办阅读项目的慈善抽奖 · p04-b-07](phase-04/dialogues.md#dialogue-p04-b-07)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 安排社区活动迎宾 · community-event-welcome
 
 沟通目标：确认入口与电梯位置并分配接待工作
@@ -64,9 +72,18 @@
 
 沟通目标：确定照片、印量和线上发布安排
 
-1 篇已接受对话，9 个不同已选义项。
+2 篇已接受对话，16 个不同已选义项。
 
 - [控制筹款海报的印刷成本 · p02-b-15](phase-02/dialogues.md#dialogue-p02-b-15)：phase-02，9 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+- [确定筹款海报印量与发布分工 · p04-b-08](phase-04/dialogues.md#dialogue-p04-b-08)：phase-04，7 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 加入传统节庆志愿活动 · heritage-festival-volunteering
+
+沟通目标：了解社团目标和节庆习俗并约定首次帮忙的工作
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [加入传统节庆志愿活动 · p04-c-15](phase-04/dialogues.md#dialogue-p04-c-15)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 核对图书馆入会材料 · library-membership-proof
 
@@ -91,6 +108,14 @@
 1 篇已接受对话，2 个不同已选义项。
 
 - [请访客不要把烟放在长椅上 · p03-b-17](phase-03/dialogues.md#dialogue-p03-b-17)：phase-03，2 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 协商入口处的吸烟问题 · shared-entrance-smoking-request
+
+沟通目标：说明烟气影响并请来访者移到指定区域
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [协商入口处的吸烟问题 · p04-c-10](phase-04/dialogues.md#dialogue-p04-c-10)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 核对剧场筹款结果 · theater-fundraiser-results
 
@@ -153,6 +178,14 @@
 
 - [核对晚饭还缺什么 · p03-c-17](phase-03/dialogues.md#dialogue-p03-c-17)：phase-03，6 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 试味后选择奶昔 · milkshake-counter-choice
+
+沟通目标：询问奶昔种类和甜度并完成点单
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [试味后选择奶昔 · p04-c-17](phase-04/dialogues.md#dialogue-p04-c-17)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 顺路帮邻居买食品 · neighbour-grocery-errand
 
 沟通目标：确认购物品种、数量和替代购买地点
@@ -173,9 +206,10 @@
 
 沟通目标：核对酱汁、配菜和调味需求后完成点餐
 
-1 篇已接受对话，9 个不同已选义项。
+2 篇已接受对话，12 个不同已选义项。
 
 - [点一份清淡的鱼餐 · p02-b-01](phase-02/dialogues.md#dialogue-p02-b-01)：phase-02，9 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+- [点一份调味清淡的鱼配米饭 · p04-a-25](phase-04/dialogues.md#dialogue-p04-a-25)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 点汤及配餐饮料 · restaurant-soup-and-wine-order
 
@@ -189,18 +223,20 @@
 
 沟通目标：兼顾不同早餐偏好并确定共用与自用食材
 
-1 篇已接受对话，7 个不同已选义项。
+2 篇已接受对话，10 个不同已选义项。
 
 - [给不同早餐习惯共用一张购物单 · p01-b-20](phase-01/dialogues.md#dialogue-p01-b-20)：phase-01，7 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [商量早餐果酱并补上公用餐刀 · p04-a-24](phase-04/dialogues.md#dialogue-p04-a-24)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 分工准备晚饭 · shared-dinner-preparation
 
 沟通目标：商定晚餐分工、菜品和份量
 
-2 篇已接受对话，14 个不同已选义项。
+3 篇已接受对话，22 个不同已选义项。
 
 - [一起准备六人晚餐 · p01-b-01](phase-01/dialogues.md#dialogue-p01-b-01)：phase-01，9 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 - [两个人分工做牛肉晚饭 · p03-b-01](phase-03/dialogues.md#dialogue-p03-b-01)：phase-03，5 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [把六人份食谱减半做晚饭 · p04-b-01](phase-04/dialogues.md#dialogue-p04-b-01)：phase-04，8 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 选择合适午餐分量 · small-lunch-order
 
@@ -251,26 +287,54 @@
 
 沟通目标：避免多人同时探视并照顾陪护者
 
-1 篇已接受对话，6 个不同已选义项。
+2 篇已接受对话，9 个不同已选义项。
 
 - [协调探望祖父的时间 · p01-c-14](phase-01/dialogues.md#dialogue-p01-c-14)：phase-01，6 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [错开医院探视让家人休息 · p04-b-18](phase-04/dialogues.md#dialogue-p04-b-18)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 描述问题并预约就诊 · routine-clinic-booking
 
 沟通目标：准确说明不适位置并确认预约时间
 
-1 篇已接受对话，5 个不同已选义项。
+3 篇已接受对话，14 个不同已选义项。
 
 - [预约查看皮肤干斑 · p01-b-15](phase-01/dialogues.md#dialogue-p01-b-15)：phase-01，5 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [预约颈部不适检查 · p04-a-03](phase-04/dialogues.md#dialogue-p04-a-03)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+- [说明手腕疼痛并预约医生 · p04-b-02](phase-04/dialogues.md#dialogue-p04-b-02)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 因皮肤不适预约咨询 · skin-irritation-appointment
+
+沟通目标：说明皮肤不适的起始时间及清洁用品变化并预约咨询
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [因皮肤不适预约咨询 · p04-c-06](phase-04/dialogues.md#dialogue-p04-c-06)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 说明胃部不适并等候检查 · stomach-symptom-assessment
+
+沟通目标：向护士描述胃部不适和体温并明确等待医生评估
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [说明胃部不适并等候检查 · p04-c-07](phase-04/dialogues.md#dialogue-p04-c-07)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 摔倒后寻求帮助 · walking-fall-assistance
 
 沟通目标：说明不适并请同伴联系现场急救员
 
-2 篇已接受对话，13 个不同已选义项。
+3 篇已接受对话，18 个不同已选义项。
 
 - [摔倒后请人帮忙 · p01-c-15](phase-01/dialogues.md#dialogue-p01-c-15)：phase-01，6 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 - [摔倒后请同伴联系急救员 · p03-a-16](phase-03/dialogues.md#dialogue-p03-a-16)：phase-03，7 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [散步摔倒后请同伴联系急救员 · p04-a-01](phase-04/dialogues.md#dialogue-p04-a-01)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 商量改变久坐习惯的第一步 · walking-habit-small-step
+
+沟通目标：约定一次午间短距离散步并澄清不需要先购买设备
+
+1 篇已接受对话，2 个不同已选义项。
+
+- [先约一次午休短走再考虑装备 · p04-a-30](phase-04/dialogues.md#dialogue-p04-a-30)：phase-04，2 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ## 居家生活
 
@@ -288,9 +352,11 @@
 
 沟通目标：核对通道尺寸并协调柜子移动和暂放位置
 
-1 篇已接受对话，7 个不同已选义项。
+3 篇已接受对话，17 个不同已选义项。
 
 - [给柜子找一个合适的位置 · p03-c-14](phase-03/dialogues.md#dialogue-p03-c-14)：phase-03，7 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [请搬运人员把柜子暂放在毯子上 · p04-a-20](phase-04/dialogues.md#dialogue-p04-a-20)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+- [先挪开圆桌再把柜子移到窗边 · p04-b-24](phase-04/dialogues.md#dialogue-p04-b-24)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 接收新住处钥匙 · flat-key-handover
 
@@ -304,17 +370,35 @@
 
 沟通目标：根据桌面尺寸、照明和通道空间安排书桌。
 
-1 篇已接受对话，8 个不同已选义项。
+2 篇已接受对话，12 个不同已选义项。
 
 - [调整书桌位置 · p02-a-09](phase-02/dialogues.md#dialogue-p02-a-09)：phase-02，8 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+- [调整桌面照明并给门留出空间 · p04-a-18](phase-04/dialogues.md#dialogue-p04-a-18)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 核对家庭垃圾分类位置 · household-recycling-sort
+
+沟通目标：根据楼内说明分清瓶子、包装和电池的处理位置
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [按楼内说明把回收物和垃圾分开 · p04-b-25](phase-04/dialogues.md#dialogue-p04-b-25)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 处理烤焦食物后的厨房清洁 · kitchen-toast-smoke-cleanup
+
+沟通目标：确认灶具已经关闭并等锅冷却后清洁厨房
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [处理烤焦食物后的厨房清洁 · p04-c-09](phase-04/dialogues.md#dialogue-p04-c-09)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 协商夜间电视音量 · late-night-television-noise
 
 沟通目标：说明噪声影响并商定当天停止观看
 
-1 篇已接受对话，9 个不同已选义项。
+2 篇已接受对话，14 个不同已选义项。
 
 - [协商夜间电视音量 · p02-c-03](phase-02/dialogues.md#dialogue-p02-c-03)：phase-02，9 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+- [向邻居反映深夜电视声 · p04-a-22](phase-04/dialogues.md#dialogue-p04-a-22)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 寻找钥匙并调整放置习惯 · missing-keys-habit
 
@@ -323,6 +407,14 @@
 1 篇已接受对话，3 个不同已选义项。
 
 - [找到钥匙后换个存放地方 · p03-c-25](phase-03/dialogues.md#dialogue-p03-c-25)：phase-03，3 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 预约屋顶漏水检查 · roof-leak-inspection-appointment
+
+沟通目标：说明漏水情况及已采取的隔离措施，约定检查时间并在检查后讨论维修选项
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [报告屋顶漏水并约定检查时间 · p04-b-09](phase-04/dialogues.md#dialogue-p04-b-09)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 选择房间墙面颜色 · room-repainting-colour-choice
 
@@ -349,6 +441,14 @@
 - [客人来之前收拾房间 · p01-b-14](phase-01/dialogues.md#dialogue-p01-b-14)：phase-01，8 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 - [清理橱柜时分好垃圾 · p03-b-03](phase-03/dialogues.md#dialogue-p03-b-03)：phase-03，5 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 借工具修好松动支架 · shelf-bracket-tool-help
+
+沟通目标：确认所需工具并约好一起固定架子
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [借工具修好松动支架 · p04-c-28](phase-04/dialogues.md#dialogue-p04-c-28)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 选择小院种植物 · small-garden-planting
 
 沟通目标：根据光照与围墙高度选定种植位置
@@ -356,6 +456,22 @@
 1 篇已接受对话，6 个不同已选义项。
 
 - [在小院里种什么 · p01-c-06](phase-01/dialogues.md#dialogue-p01-c-06)：phase-01，6 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+
+### 请室友帮忙移走窗边蜘蛛 · spider-window-removal
+
+沟通目标：辨认窗边蜘蛛并商定不直接用手接触的移走办法
+
+1 篇已接受对话，2 个不同已选义项。
+
+- [请室友帮忙移走窗边蜘蛛 · p04-c-19](phase-04/dialogues.md#dialogue-p04-c-19)：phase-04，2 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 整理玩具架并区分去留 · toy-shelf-cleanup
+
+沟通目标：把玩具、捐赠物和垃圾分开并整理上层架子
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [整理玩具架并区分去留 · p04-c-18](phase-04/dialogues.md#dialogue-p04-c-18)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 规划后院小路位置 · yard-path-layout-help
 
@@ -384,6 +500,14 @@
 1 篇已接受对话，9 个不同已选义项。
 
 - [确认作家工作坊适合初学者 · p03-a-11](phase-03/dialogues.md#dialogue-p03-a-11)：phase-03，9 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 规划课堂轨道模型 · classroom-orbit-model-plan
+
+沟通目标：根据演示目的选择简易轨道模型，说明比例局限并分工制作
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [为物理课选择能看清轨道的模型 · p04-b-12](phase-04/dialogues.md#dialogue-p04-b-12)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 澄清课堂练习要求 · classroom-speaking-practice
 
@@ -478,10 +602,11 @@
 
 沟通目标：弄清听力练习的意思并确定重听的方法。
 
-2 篇已接受对话，17 个不同已选义项。
+3 篇已接受对话，23 个不同已选义项。
 
 - [弄懂听力练习中的回答 · p02-a-01](phase-02/dialogues.md#dialogue-p02-a-01)：phase-02，9 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 - [把听不懂的视频片段听清楚 · p03-a-02](phase-03/dialogues.md#dialogue-p03-a-02)：phase-03，8 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [弄清听力中的指代并重听地点名称 · p04-b-11](phase-04/dialogues.md#dialogue-p04-b-11)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 选择适合初学者的口语班 · language-tutor-practice-plan
 
@@ -490,6 +615,54 @@
 1 篇已接受对话，9 个不同已选义项。
 
 - [选择适合初学者的口语班 · p02-c-08](phase-02/dialogues.md#dialogue-p02-c-08)：phase-02，9 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+
+### 根据数学作业反馈安排练习 · math-feedback-study-plan
+
+沟通目标：找出计算失误的位置并商定重做与检查的具体步骤
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [把一次数学低分变成具体练习计划 · p04-a-13](phase-04/dialogues.md#dialogue-p04-a-13)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 澄清数学题并完成解题 · math-problem-support
+
+沟通目标：指出卡住的步骤并在同伴支持下核对解法
+
+1 篇已接受对话，7 个不同已选义项。
+
+- [澄清数学题并完成解题 · p04-c-13](phase-04/dialogues.md#dialogue-p04-c-13)：phase-04，7 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 了解数学入门课程并安排试听 · mathematics-course-preview
+
+沟通目标：核对课程内容和先备知识后约定先试听再决定报名
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [了解数学入门课并安排试听 · p04-a-14](phase-04/dialogues.md#dialogue-p04-a-14)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 核对历史制服展品说明 · museum-uniform-label-check
+
+沟通目标：区分可证实的服装细节与未经证实的个人身份
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [核对历史制服展品说明 · p04-c-14](phase-04/dialogues.md#dialogue-p04-c-14)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 核对并更正测验分数 · quiz-score-correction
+
+沟通目标：根据答卷逐项核对并更正漏计的得分
+
+1 篇已接受对话，1 个不同已选义项。
+
+- [核对答卷后改正漏计的一分 · p04-b-29](phase-04/dialogues.md#dialogue-p04-b-29)：phase-04，1 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 规划学校发明项目的原型 · school-invention-prototype-plan
+
+沟通目标：从日常问题出发选定原型材料并说明可观察的测试方法
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [确定学校发明展示的原型和测试方法 · p04-a-12](phase-04/dialogues.md#dialogue-p04-a-12)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 确定作业研究问题 · school-project-question
 
@@ -539,6 +712,22 @@
 
 - [缩小叙事作业的题材 · p02-c-14](phase-02/dialogues.md#dialogue-p02-c-14)：phase-02，8 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 
+### 制定小组学习任务目标 · study-task-target-plan
+
+沟通目标：把宽泛的学习目标分成可执行任务并约定先试一种策略
+
+1 篇已接受对话，10 个不同已选义项。
+
+- [制定小组学习任务目标 · p04-c-23](phase-04/dialogues.md#dialogue-p04-c-23)：phase-04，10 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 安排青少年课程活动 · teenage-class-planning
+
+沟通目标：根据学期进度调整教学单元并给学生独立完成的空间
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [安排青少年课程活动 · p04-c-24](phase-04/dialogues.md#dialogue-p04-c-24)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 核对并修改写作练习 · writing-exercise-revision
 
 沟通目标：澄清题目要求后修订段落中的不清楚表达
@@ -555,9 +744,10 @@
 
 沟通目标：根据以往成绩选定具体目标而不只关注名次
 
-1 篇已接受对话，7 个不同已选义项。
+2 篇已接受对话，10 个不同已选义项。
 
 - [为业余跑者设定训练目标 · p03-a-12](phase-03/dialogues.md#dialogue-p03-a-12)：phase-03，7 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [把下次跑步目标定为三十二分钟内 · p04-b-20](phase-04/dialogues.md#dialogue-p04-b-20)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 报名舞蹈社团体验课 · beginner-dance-enrolment
 
@@ -567,13 +757,22 @@
 
 - [没有经验也能来跳舞 · p01-b-10](phase-01/dialogues.md#dialogue-p01-b-10)：phase-01，7 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 
+### 澄清初学舞蹈动作并获得反馈 · beginner-dance-step-practice
+
+沟通目标：弄清第一组舞步的顺序并请教练单独示范转向
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [在初学舞蹈课上澄清动作 · p04-a-15](phase-04/dialogues.md#dialogue-p04-a-15)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 咨询初学吉他借用 · beginner-guitar-loan
 
 沟通目标：先通过借用体验再决定是否购买
 
-1 篇已接受对话，4 个不同已选义项。
+2 篇已接受对话，11 个不同已选义项。
 
 - [先借吉他试试看 · p01-c-17](phase-01/dialogues.md#dialogue-p01-c-17)：phase-01，4 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [先借吉他体验再决定购买 · p04-a-05](phase-04/dialogues.md#dialogue-p04-a-05)：phase-04，7 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 选择初学骑马体验 · beginner-riding-choice
 
@@ -582,6 +781,14 @@
 1 篇已接受对话，5 个不同已选义项。
 
 - [选择适合初学者的骑马体验 · p01-c-18](phase-01/dialogues.md#dialogue-p01-c-18)：phase-01，5 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+
+### 核对初学帆船课的开课条件 · beginner-sailing-weather-check
+
+沟通目标：了解课程季节与天气限制，并约定确认可开课时段的下一步
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [先等教练确认周六帆船课的天气 · p04-b-21](phase-04/dialogues.md#dialogue-p04-b-21)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 确认运河垂钓活动集合安排 · canal-fishing-trip
 
@@ -595,9 +802,10 @@
 
 沟通目标：确认替补伴奏并确定困难声部的练习方式
 
-1 篇已接受对话，10 个不同已选义项。
+2 篇已接受对话，15 个不同已选义项。
 
 - [排练前解决合唱难点 · p02-b-09](phase-02/dialogues.md#dialogue-p02-b-09)：phase-02，10 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+- [安排合唱排练与伴奏 · p04-c-11](phase-04/dialogues.md#dialogue-p04-c-11)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 根据海边天气调整骑行 · coastal-cycle-weather
 
@@ -607,6 +815,14 @@
 
 - [缩短海边骑行路线 · p02-b-18](phase-02/dialogues.md#dialogue-p02-b-18)：phase-02，3 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 - [海边起风后缩短骑行 · p03-b-13](phase-03/dialogues.md#dialogue-p03-b-13)：phase-03，5 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 调整喜剧台词的音量与停顿 · comedy-audibility-rehearsal
+
+沟通目标：降低伴奏音量并约定在观众笑声后继续说台词
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [排练时给观众的笑声留出时间 · p04-a-07](phase-04/dialogues.md#dialogue-p04-a-07)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 安排音乐会座位和散场 · community-concert-seating
 
@@ -621,9 +837,10 @@
 
 沟通目标：剧团根据角色要求讨论试演人选及排练时间。
 
-1 篇已接受对话，7 个不同已选义项。
+2 篇已接受对话，11 个不同已选义项。
 
 - [确定社区短剧的演员 · p01-a-11](phase-01/dialogues.md#dialogue-p01-a-11)：phase-01，7 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [确认孩子能否试演国王角色 · p04-a-29](phase-04/dialogues.md#dialogue-p04-a-29)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 查看音乐会节目安排 · concert-programme-check
 
@@ -641,6 +858,14 @@
 
 - [为生日演出询问歌曲点播 · p02-c-01](phase-02/dialogues.md#dialogue-p02-c-01)：phase-02，11 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 
+### 根据云量安排短暂观月 · evening-moon-viewing-plan
+
+沟通目标：商定先等候云层移动并约定看不到时改到晚餐后
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [等云散后在阳台短暂观月 · p04-a-17](phase-04/dialogues.md#dialogue-p04-a-17)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 排练奇幻舞台战斗场景 · fantasy-play-battle-rehearsal
 
 沟通目标：澄清虚构角色的情境并确定以音效表现台外战斗时的入场方式
@@ -653,9 +878,18 @@
 
 沟通目标：核实新手参与方式及教练安排后预约体验
 
-1 篇已接受对话，3 个不同已选义项。
+2 篇已接受对话，4 个不同已选义项。
 
 - [了解第一次飞行体验 · p03-c-20](phase-03/dialogues.md#dialogue-p03-c-20)：phase-03，3 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [预约由教练陪同的首次飞行体验 · p04-b-30](phase-04/dialogues.md#dialogue-p04-b-30)：phase-04，1 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 确认首次滑雪课的练习安排 · first-ski-lesson-plan
+
+沟通目标：说明滑雪经验并确认教练带领的低速入门练习
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [确认首次滑雪课的练习安排 · p04-c-05](phase-04/dialogues.md#dialogue-p04-c-05)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 确认首次游泳的场馆规则 · first-swimming-session
 
@@ -695,19 +929,21 @@
 
 沟通目标：考虑天色和路面条件后改走短路线
 
-3 篇已接受对话，20 个不同已选义项。
+4 篇已接受对话，26 个不同已选义项。
 
 - [天黑前不走湿滑的台阶 · p01-b-16](phase-01/dialogues.md#dialogue-p01-b-16)：phase-01，5 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 - [选择可当天走完的海岸山路 · p02-a-12](phase-02/dialogues.md#dialogue-p02-a-12)：phase-02，7 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 - [天黑前改走短路 · p03-c-13](phase-03/dialogues.md#dialogue-p03-c-13)：phase-03，8 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [调整山间步行路线 · p04-c-04](phase-04/dialogues.md#dialogue-p04-c-04)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 商量在家看电影 · home-film-choice
 
 沟通目标：在不出门的前提下选定双方都想看的影片
 
-1 篇已接受对话，6 个不同已选义项。
+2 篇已接受对话，11 个不同已选义项。
 
 - [今晚在家看哪部电影 · p01-b-08](phase-01/dialogues.md#dialogue-p01-b-08)：phase-01，6 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [选第一部轻松的影片在家看 · p04-b-22](phase-04/dialogues.md#dialogue-p04-b-22)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 选择湖边露营位置 · lakeside-camp-location
 
@@ -729,9 +965,10 @@
 
 沟通目标：朋友相约听现场音乐并核对场地与购买专辑安排。
 
-1 篇已接受对话，8 个不同已选义项。
+2 篇已接受对话，15 个不同已选义项。
 
 - [约好一起听现场音乐 · p01-a-15](phase-01/dialogues.md#dialogue-p01-a-15)：phase-01，8 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [改去酒吧听摇滚乐队 · p04-b-13](phase-04/dialogues.md#dialogue-p04-b-13)：phase-04，7 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 安排晨间散步 · morning-walk-meeting-plan
 
@@ -753,9 +990,10 @@
 
 沟通目标：向博物馆工作人员询问地方历史展览与资料。
 
-1 篇已接受对话，4 个不同已选义项。
+2 篇已接受对话，7 个不同已选义项。
 
 - [找到介绍城市历史的展厅 · p01-a-18](phase-01/dialogues.md#dialogue-p01-a-18)：phase-01，4 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [从铁路博物馆的区域展厅开始参观 · p04-b-05](phase-04/dialogues.md#dialogue-p04-b-05)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 排练悬疑剧片段 · mystery-scene-rehearsal
 
@@ -777,9 +1015,10 @@
 
 沟通目标：比较故事题材与讨论安排后选定共读作品
 
-1 篇已接受对话，6 个不同已选义项。
+2 篇已接受对话，9 个不同已选义项。
 
 - [为读书小组选一本小说 · p03-c-18](phase-03/dialogues.md#dialogue-p03-c-18)：phase-03，6 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [为读书小组选择以回忆为线索的小说 · p04-a-23](phase-04/dialogues.md#dialogue-p04-a-23)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 选择短时间博物馆参观路线 · short-museum-visit
 
@@ -836,6 +1075,14 @@
 - [带狗参观农场的规则 · p01-b-12](phase-01/dialogues.md#dialogue-p01-b-12)：phase-01，6 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 - [参观农场先问喂食规则 · p02-b-17](phase-02/dialogues.md#dialogue-p02-b-17)：phase-02，3 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 
+### 让飞入室内的昆虫离开 · indoor-insect-release
+
+沟通目标：确认室内昆虫的位置并协作打开通道让它离开
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [把飞进屋里的飞蛾放出去 · p04-a-04](phase-04/dialogues.md#dialogue-p04-a-04)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 联系动物救助人员 · injured-bird-help
 
 沟通目标：路人发现受伤小鸟，安全求助并与救助者协调。
@@ -844,6 +1091,14 @@
 
 - [为受伤的小鸟求助 · p01-a-08](phase-01/dialogues.md#dialogue-p01-a-08)：phase-01，8 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 - [在公园找到小鸟后求助 · p03-a-13](phase-03/dialogues.md#dialogue-p03-a-13)：phase-03，5 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 核对湖边自然观察的短路线 · lakeside-nature-walk-route
+
+沟通目标：原领队缺席时确认替代带队人、步行路段和集合安排
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [确定湖边自然观察路线和带队人 · p04-a-16](phase-04/dialogues.md#dialogue-p04-a-16)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 请求帮助检查盆栽 · neighbour-plant-check
 
@@ -869,6 +1124,14 @@
 
 - [避开池边的小动物 · p03-c-10](phase-03/dialogues.md#dialogue-p03-c-10)：phase-03，6 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 安排初次接触收容所的狗 · shelter-dog-first-meeting
+
+沟通目标：说明养狗顾虑并同意在工作人员陪同下先短暂见面
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [先在工作人员陪同下认识一只狗 · p04-b-15](phase-04/dialogues.md#dialogue-p04-b-15)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 交接农场鸭群喂养 · volunteer-duck-feeding
 
 沟通目标：识别照护对象并核对工作人员安排的喂食位置
@@ -885,6 +1148,14 @@
 
 - [到动物园观景窗等候棕熊 · p03-a-17](phase-03/dialogues.md#dialogue-p03-a-17)：phase-03，4 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 根据照片询问猴群的观赏位置 · zoo-monkey-viewing-location
+
+沟通目标：确认照片中的猴子所在展区并问清前往观赏区的路线
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [根据园区照片寻找猴群所在区域 · p04-a-31](phase-04/dialogues.md#dialogue-p04-a-31)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ## 研究与论证
 
 调查、证据与推理边界
@@ -897,9 +1168,25 @@
 
 - [查证旧地图上的聚落 · p03-c-02](phase-03/dialogues.md#dialogue-p03-c-02)：phase-03，6 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 讨论调查证据 · survey-evidence
+
+沟通目标：核对样本、局限与结论的依据
+
+1 篇已接受对话，8 个不同已选义项。
+
+- [给环境调查报道加上样本限制 · p04-b-10](phase-04/dialogues.md#dialogue-p04-b-10)：phase-04，8 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ## 家庭与人际
 
 家庭活动、个人经历、社交往来与关系沟通
+
+### 按新喜好挑选生日服饰礼物 · birthday-outfit-gift
+
+沟通目标：核对收礼人穿衣习惯的变化并决定礼物和包装方式
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [按新喜好挑选生日服饰礼物 · p04-c-25](phase-04/dialogues.md#dialogue-p04-c-25)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 借用面试服装 · borrow-clothes-for-interview
 
@@ -941,6 +1228,14 @@
 
 - [安排亲人周中来访 · p03-a-09](phase-03/dialogues.md#dialogue-p03-a-09)：phase-03，7 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 核对错投信件的收件人 · misdelivered-mail-return
+
+沟通目标：确认信件所属邻居及送还时的敲门和楼门关闭安排
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [把错投的信件送到正确邻居家 · p04-a-19](phase-04/dialogues.md#dialogue-p04-a-19)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 向邻居领取代收包裹 · neighbour-parcel-collection
 
 沟通目标：说明包裹特征并确认代收包裹的归属。
@@ -971,9 +1266,10 @@
 
 沟通目标：商定人数、食物和礼物以完成惊喜聚会准备
 
-1 篇已接受对话，7 个不同已选义项。
+2 篇已接受对话，10 个不同已选义项。
 
 - [分工准备生日惊喜 · p02-b-08](phase-02/dialogues.md#dialogue-p02-b-08)：phase-02，7 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+- [分工准备六个人的生日惊喜 · p04-b-28](phase-04/dialogues.md#dialogue-p04-b-28)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 安排叔叔的生日午餐 · uncle-birthday-lunch
 
@@ -982,6 +1278,14 @@
 1 篇已接受对话，10 个不同已选义项。
 
 - [安排叔叔的生日午餐 · p02-c-06](phase-02/dialogues.md#dialogue-p02-c-06)：phase-02，10 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+
+### 确认婚礼邀请安排 · wedding-guest-invitation
+
+沟通目标：邀请朋友及其伴侣参加婚礼并澄清着装要求
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [确认婚礼邀请和轻松的着装要求 · p04-a-06](phase-04/dialogues.md#dialogue-p04-a-06)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 协调冬季家庭聚餐 · winter-family-meeting
 
@@ -1003,6 +1307,14 @@
 
 - [挑选预算内的洗衣机 · p02-a-05](phase-02/dialogues.md#dialogue-p02-a-05)：phase-02，4 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 
+### 报告被抢走的包 · bag-theft-report
+
+沟通目标：向工作人员描述抢包经过并请其联系警方
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [报告被抢走的包 · p04-c-26](phase-04/dialogues.md#dialogue-p04-c-26)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 询问自行车维修安排 · bicycle-repair-estimate
 
 沟通目标：检查车况、讨论维修必要性并确认取车时间。
@@ -1018,6 +1330,14 @@
 1 篇已接受对话，6 个不同已选义项。
 
 - [改正多收的咖啡钱 · p01-a-06](phase-01/dialogues.md#dialogue-p01-a-06)：phase-01，6 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+
+### 核对租车费用 · car-hire-cost-check
+
+沟通目标：确认每日费率、服务和自付费用，并索取完整报价供决定
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [租车前核对每天费用和还车要求 · p04-b-06](phase-04/dialogues.md#dialogue-p04-b-06)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 认领遗失外套 · child-lost-clothing
 
@@ -1079,9 +1399,10 @@
 
 沟通目标：按收礼人喜好选定画作和边框颜色
 
-1 篇已接受对话，4 个不同已选义项。
+2 篇已接受对话，9 个不同已选义项。
 
 - [挑选一幅装框的礼物画 · p03-c-16](phase-03/dialogues.md#dialogue-p03-c-16)：phase-03，4 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [选一幅带黑框的画作送礼 · p04-b-03](phase-04/dialogues.md#dialogue-p04-b-03)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 预约检查汽车异响 · garage-engine-noise-booking
 
@@ -1091,6 +1412,14 @@
 
 - [预约检查发动机声音 · p03-c-08](phase-03/dialogues.md#dialogue-p03-c-08)：phase-03，5 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 排查访客手机的无线连接 · guest-wifi-troubleshooting
+
+沟通目标：选对访客无线网络并打开登录页面后确认已连通
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [让访客手机连上正确的无线网络 · p04-a-21](phase-04/dialogues.md#dialogue-p04-a-21)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 比较电暖器标签 · heater-label-comparison
 
 沟通目标：核对供电要求和功能后选定适合房间的型号
@@ -1098,6 +1427,14 @@
 1 篇已接受对话，6 个不同已选义项。
 
 - [核对电暖器的功能 · p03-c-07](phase-03/dialogues.md#dialogue-p03-c-07)：phase-03，6 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 查询住房法律咨询的可约时间 · housing-law-consultation-inquiry
+
+沟通目标：说明需要住房法律咨询并在两个时段均不适合时请求查询晚间时间
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [询问住房法律咨询的其他可约时间 · p04-a-28](phase-04/dialogues.md#dialogue-p04-a-28)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 按描述领取遗失手袋 · lost-bag-collection-description
 
@@ -1114,6 +1451,22 @@
 1 篇已接受对话，7 个不同已选义项。
 
 - [在失物招领处找背包 · p01-a-03](phase-01/dialogues.md#dialogue-p01-a-03)：phase-01，7 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+
+### 描述并认领遗失的首饰袋 · lost-jewellery-identification
+
+沟通目标：凭首饰袋外观和内装物特征核实归属并办理领取
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [凭刻字认领遗失的首饰袋 · p04-a-09](phase-04/dialogues.md#dialogue-p04-a-09)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 描述并认领遗失戒指 · lost-ring-identification
+
+沟通目标：凭外观和刻字核实遗失戒指的归属并领取
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [凭刻字认领母亲留下的戒指 · p04-b-14](phase-04/dialogues.md#dialogue-p04-b-14)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 查询并认领遗失钱包 · lost-wallet-report
 
@@ -1139,6 +1492,14 @@
 
 - [找回下载后看不见的文件 · p03-c-04](phase-03/dialogues.md#dialogue-p03-c-04)：phase-03，7 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 比较礼物项链的材质与长度 · necklace-gift-fitting
+
+沟通目标：核对项链材质并借镜子比较长度后选定礼物
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [借镜子比较送给姐姐的项链 · p04-a-08](phase-04/dialogues.md#dialogue-p04-a-08)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 挑选合身的上班服装 · outfit-fitting-choice
 
 沟通目标：根据着装要求、身高和预算选择裤装与搭配
@@ -1146,6 +1507,22 @@
 1 篇已接受对话，11 个不同已选义项。
 
 - [挑选合身的上班服装 · p02-c-02](phase-02/dialogues.md#dialogue-p02-c-02)：phase-02，11 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+
+### 办理礼物包裹与贺卡邮寄 · parcel-and-card-posting
+
+沟通目标：核对邮寄去向、标签和贺卡邮资并交寄
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [办理礼物包裹与贺卡邮寄 · p04-c-03](phase-04/dialogues.md#dialogue-p04-c-03)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 挑选露台铺路砖样品 · paving-sample-comparison
+
+沟通目标：说明材质与形状需求，比较厚度并选定带回家检查开门空间的样品
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [挑选露台铺路砖样品 · p04-c-01](phase-04/dialogues.md#dialogue-p04-c-01)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 更正餐厅预约日期误会 · restaurant-booking-date-correction
 
@@ -1155,6 +1532,14 @@
 
 - [澄清订餐日期的误会 · p03-a-21](phase-03/dialogues.md#dialogue-p03-a-21)：phase-03，4 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 核对打折商品的实付金额 · sale-discount-total-check
+
+沟通目标：算清折扣后的金额并完成预算内的购买
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [核对折后价格并买下外套 · p04-b-19](phase-04/dialogues.md#dialogue-p04-b-19)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 挑选礼物围巾 · scarf-gift-choice
 
 沟通目标：根据收礼人的衣服颜色选定围巾
@@ -1162,6 +1547,14 @@
 1 篇已接受对话，8 个不同已选义项。
 
 - [为朋友挑一条围巾 · p01-c-19](phase-01/dialogues.md#dialogue-p01-c-19)：phase-01，8 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+
+### 核实异常的配送延误 · service-delay-expectations
+
+沟通目标：比较平时配送情况并确认客服下一步查询安排
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [核实异常的配送延误 · p04-c-27](phase-04/dialogues.md#dialogue-p04-c-27)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 核对纪念品价格和币种 · souvenir-price-currency
 
@@ -1171,6 +1564,14 @@
 
 - [确认价格标签的币种 · p01-b-17](phase-01/dialogues.md#dialogue-p01-b-17)：phase-01，4 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 
+### 试穿运动鞋并确认尺码 · sports-shoe-fitting
+
+沟通目标：比较试穿感受并选定合脚的一双鞋
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [试穿运动鞋并确认尺码 · p04-c-02](phase-04/dialogues.md#dialogue-p04-c-02)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 使用店内余额换购物品 · store-credit-replacement
 
 沟通目标：核对店内余额并请店员预留替代商品。
@@ -1178,6 +1579,14 @@
 1 篇已接受对话，3 个不同已选义项。
 
 - [用退货余额预留替代商品 · p03-b-26](phase-03/dialogues.md#dialogue-p03-b-26)：phase-03，3 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 协助首次使用平板设备 · tablet-first-use-help
+
+沟通目标：说明设备操作困难并练习打开视频通话应用
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [协助首次使用平板设备 · p04-c-16](phase-04/dialogues.md#dialogue-p04-c-16)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 判断鞋子尺寸并购买 · walking-boot-fitting
 
@@ -1206,6 +1615,14 @@
 1 篇已接受对话，4 个不同已选义项。
 
 - [问清公共场馆的资助范围 · p03-c-22](phase-03/dialogues.md#dialogue-p03-c-22)：phase-03，4 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 准备地方公共问答的采访问题 · local-press-question-preparation
+
+沟通目标：把宽泛的全国议题缩小为图书馆重开进度及责任人的具体提问
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [为市长问答准备一条地方问题 · p04-a-11](phase-04/dialogues.md#dialogue-p04-a-11)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ## 出行与住宿
 
@@ -1236,6 +1653,14 @@
 
 - [赶上最后一班接驳车 · p02-a-13](phase-02/dialogues.md#dialogue-p02-a-13)：phase-02，7 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 
+### 选择城市轨道交通日票 · city-transit-day-pass
+
+沟通目标：确认旅客可购买的车票和地下站台方向
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [选择城市轨道交通日票 · p04-c-20](phase-04/dialogues.md#dialogue-p04-c-20)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 确认古城步行路线 · historic-town-walking-route
 
 沟通目标：根据封路情况确认到城堡的替代步行路线。
@@ -1252,6 +1677,22 @@
 
 - [准时到医院的路线 · p01-b-11](phase-01/dialogues.md#dialogue-p01-b-11)：phase-01，8 条已审目标用法；[词语与证据反查](phase-01/words.md)。
 
+### 索取双床房的备用寝具 · hotel-extra-linen-request
+
+沟通目标：核对房型和备用毛巾床单位置并安排送到客房
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [索取双床房的备用寝具 · p04-c-08](phase-04/dialogues.md#dialogue-p04-c-08)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 核对住宿优惠套餐的包含项目 · hotel-package-comparison
+
+沟通目标：了解早餐和设施是否包含后选择不加付费接送的套餐
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [核对周末住宿套餐并决定不要机场接送 · p04-a-26](phase-04/dialogues.md#dialogue-p04-a-26)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 因客房故障申请换房 · hotel-room-fault-replacement
 
 沟通目标：向前台说明房内问题并确认替代房间。
@@ -1267,6 +1708,30 @@
 1 篇已接受对话，6 个不同已选义项。
 
 - [到岛上旅馆之前 · p01-c-10](phase-01/dialogues.md#dialogue-p01-c-10)：phase-01，6 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+
+### 遇封路时核对摩托车绕行路线 · motorcycle-road-closure-directions
+
+沟通目标：了解桥梁封闭情况并确认替代路线和停车后步行的安排
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [骑摩托车遇封桥后问清绕行和停车位置 · p04-a-27](phase-04/dialogues.md#dialogue-p04-a-27)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 安排携行李旅客接送 · nervous-traveller-transfer
+
+沟通目标：说明肩部受伤带来的行李搬运需求，核对上车及通行条件并约定接送时间
+
+1 篇已接受对话，6 个不同已选义项。
+
+- [安排携行李旅客接送 · p04-c-22](phase-04/dialogues.md#dialogue-p04-c-22)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 核对宫殿与旧监狱导览路线 · palace-and-prison-tour-route
+
+沟通目标：确认历史导览涉及的建筑、入内范围及集合安排
+
+1 篇已接受对话，3 个不同已选义项。
+
+- [确认历史导览的建筑与集合点 · p04-b-26](phase-04/dialogues.md#dialogue-p04-b-26)：phase-04，3 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 入住时选择安静客房 · quiet-hotel-room
 
@@ -1300,6 +1765,14 @@
 
 - [选择春季海边短途旅行 · p02-c-05](phase-02/dialogues.md#dialogue-p02-c-05)：phase-02，9 条已审目标用法；[词语与证据反查](phase-02/words.md)。
 
+### 核对列车出发与站台 · station-departure-platform
+
+沟通目标：核实列车班次、到达时间、站台和已订座位后确认上车安排
+
+1 篇已接受对话，7 个不同已选义项。
+
+- [确认去海港的列车站台与座位 · p04-b-04](phase-04/dialogues.md#dialogue-p04-b-04)：phase-04，7 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 选择暑期出游月份 · summer-holiday-timing
 
 沟通目标：协调请假月份并决定是否先看航班
@@ -1315,6 +1788,14 @@
 1 篇已接受对话，7 个不同已选义项。
 
 - [问路去剧院及寻找洗手间 · p02-c-10](phase-02/dialogues.md#dialogue-p02-c-10)：phase-02，7 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+
+### 询问钟塔导览和步行路线 · tower-walking-tour-choice
+
+沟通目标：核对旅游咨询处提供的导览并确认到钟塔的路线
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [询问钟塔导览和步行路线 · p04-c-21](phase-04/dialogues.md#dialogue-p04-c-21)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 堵车时改为步行赶火车 · traffic-delayed-station-transfer
 
@@ -1356,9 +1837,10 @@
 
 沟通目标：讨论转行念头并确定低风险了解行业的下一步。
 
-1 篇已接受对话，6 个不同已选义项。
+2 篇已接受对话，12 个不同已选义项。
 
 - [先了解烘焙工作再转行 · p01-a-14](phase-01/dialogues.md#dialogue-p01-a-14)：phase-01，6 条已审目标用法；[词语与证据反查](phase-01/words.md)。
+- [先了解出版翻译工作再考虑转行 · p04-a-10](phase-04/dialogues.md#dialogue-p04-a-10)：phase-04，6 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 修改卡通角色草图 · cartoon-character-sketch
 
@@ -1368,6 +1850,14 @@
 
 - [修改活动海报上的卡通角色 · p03-b-18](phase-03/dialogues.md#dialogue-p03-b-18)：phase-03，5 条已审目标用法；[词语与证据反查](phase-03/words.md)。
 
+### 确定向同事道歉的下一步 · colleague-apology-next-step
+
+沟通目标：承认打断同事的问题并确定先倾听和可兑现的改进行动
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [决定先听取同事的不满再道歉 · p04-b-17](phase-04/dialogues.md#dialogue-p04-b-17)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
 ### 调整社区课程宣传方式 · community-course-advertising-review
 
 沟通目标：核对报名咨询来源并选择下一期课程的广告渠道
@@ -1375,6 +1865,14 @@
 1 篇已接受对话，5 个不同已选义项。
 
 - [根据咨询来源调整课程宣传 · p03-a-20](phase-03/dialogues.md#dialogue-p03-a-20)：phase-03，5 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+
+### 调整社区讲座的讲法 · community-talk-rehearsal
+
+沟通目标：澄清讲座结构和重点后决定重练开场
+
+1 篇已接受对话，5 个不同已选义项。
+
+- [调整社区讲座的讲法 · p04-c-12](phase-04/dialogues.md#dialogue-p04-c-12)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 交接会议接待安排 · conference-welcome-handover
 
@@ -1396,9 +1894,10 @@
 
 沟通目标：核实岗位经验要求、培训机会和报酬
 
-1 篇已接受对话，8 个不同已选义项。
+2 篇已接受对话，12 个不同已选义项。
 
 - [了解工厂学徒岗位 · p03-c-05](phase-03/dialogues.md#dialogue-p03-c-05)：phase-03，8 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [核对工厂学徒岗位和工资条件 · p04-b-27](phase-04/dialogues.md#dialogue-p04-b-27)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 交接新助理首班职责 · first-assistant-shift-handover
 
@@ -1428,9 +1927,18 @@
 
 沟通目标：核对预约并安排访客等候和前往会议室
 
-1 篇已接受对话，7 个不同已选义项。
+2 篇已接受对话，9 个不同已选义项。
 
 - [在前台接待预约访客 · p03-a-05](phase-03/dialogues.md#dialogue-p03-a-05)：phase-03，7 条已审目标用法；[词语与证据反查](phase-03/words.md)。
+- [核对改时通知并等待会面 · p04-b-23](phase-04/dialogues.md#dialogue-p04-b-23)：phase-04，2 条已审目标用法；[词语与证据反查](phase-04/words.md)。
+
+### 修改拒绝工作请求的措辞 · polite-work-request-refusal
+
+沟通目标：把拒绝临时加班的草稿改为明确有礼且时间承诺可行的回复
+
+1 篇已接受对话，4 个不同已选义项。
+
+- [把拒绝临时加班的回复写得清楚有礼 · p04-b-16](phase-04/dialogues.md#dialogue-p04-b-16)：phase-04，4 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 连接演示设备 · presentation-display-connection
 
@@ -1460,9 +1968,10 @@
 
 沟通目标：确认替班人员及常规工作的交接内容
 
-1 篇已接受对话，5 个不同已选义项。
+2 篇已接受对话，10 个不同已选义项。
 
 - [请病假并交接早班 · p02-b-19](phase-02/dialogues.md#dialogue-p02-b-19)：phase-02，5 条已审目标用法；[词语与证据反查](phase-02/words.md)。
+- [生病请假并确认今天的替班 · p04-a-02](phase-04/dialogues.md#dialogue-p04-a-02)：phase-04，5 条已审目标用法；[词语与证据反查](phase-04/words.md)。
 
 ### 修改小公司标志 · small-company-logo-revision
 

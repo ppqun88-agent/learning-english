@@ -1,0 +1,137 @@
+{
+  "id": "p04-b-19",
+  "title_zh": "核对折后价格并买下外套",
+  "topic_id": "services",
+  "scenario": {
+    "id": "sale-discount-total-check",
+    "label_zh": "核对打折商品的实付金额",
+    "goal_zh": "算清折扣后的金额并完成预算内的购买"
+  },
+  "participants": [
+    "Adele",
+    "Finn"
+  ],
+  "context_zh": "顾客确认一件原价五十英镑外套的折扣，核对价格是否在预算内后完成购买。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-19-s01",
+      "speaker": "Adele",
+      "text": "Is this coat included in the sale? The label says fifty pounds."
+    },
+    {
+      "id": "p04-b-19-s02",
+      "speaker": "Finn",
+      "text": "Yes. Twenty per cent of fifty pounds is ten pounds, so you pay forty."
+    },
+    {
+      "id": "p04-b-19-s03",
+      "speaker": "Adele",
+      "text": "So I save ten pounds. Good. I cannot spend a penny more than forty today."
+    },
+    {
+      "id": "p04-b-19-s04",
+      "speaker": "Finn",
+      "text": "Forty is the total. Would you like to try it on before you decide?"
+    },
+    {
+      "id": "p04-b-19-s05",
+      "speaker": "Adele",
+      "text": "I tried it earlier, and it fits. I will take it. Here is my card."
+    },
+    {
+      "id": "p04-b-19-s06",
+      "speaker": "Finn",
+      "text": "Thank you. Here is your receipt. I hope you enjoy wearing it."
+    },
+    {
+      "id": "p04-b-19-s07",
+      "speaker": "Adele",
+      "text": "Yes, I am pleased with it. It is comfortable even over my jumper."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3f4af9c64a842a28",
+      "lemma": "sale",
+      "pos": "n.",
+      "sense_zh": "降价促销",
+      "sentence_ids": [
+        "p04-b-19-s01"
+      ],
+      "forms": [
+        "sale"
+      ],
+      "sense_id": "sense-staged-ox-3f4af9c64a842a28-p04-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0546a4e4f1cf999c",
+      "lemma": "per cent",
+      "pos": "n.",
+      "sense_zh": "百分比中的百分数单位",
+      "sentence_ids": [
+        "p04-b-19-s02"
+      ],
+      "forms": [
+        "per cent"
+      ],
+      "sense_id": "sense-staged-ox-0546a4e4f1cf999c-p04-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1a622472e8ba82d9",
+      "lemma": "save",
+      "pos": "v.",
+      "sense_zh": "节省金钱",
+      "sentence_ids": [
+        "p04-b-19-s03"
+      ],
+      "forms": [
+        "save"
+      ],
+      "sense_id": "sense-staged-ox-1a622472e8ba82d9-p04-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea6f959de730ab8d",
+      "lemma": "penny",
+      "pos": "n.",
+      "sense_zh": "便士",
+      "sentence_ids": [
+        "p04-b-19-s03"
+      ],
+      "forms": [
+        "penny"
+      ],
+      "sense_id": "sense-staged-ox-ea6f959de730ab8d-p04-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c3b2150b6c97ee95",
+      "lemma": "pleased",
+      "pos": "adj.",
+      "sense_zh": "满意的；高兴的",
+      "sentence_ids": [
+        "p04-b-19-s07"
+      ],
+      "forms": [
+        "pleased"
+      ],
+      "sense_id": "sense-staged-ox-c3b2150b6c97ee95-p04-b-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

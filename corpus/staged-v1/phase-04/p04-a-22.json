@@ -1,0 +1,137 @@
+{
+  "id": "p04-a-22",
+  "title_zh": "向邻居反映深夜电视声",
+  "topic_id": "home",
+  "scenario": {
+    "id": "late-night-television-noise",
+    "label_zh": "协商夜间电视音量",
+    "goal_zh": "说明噪声影响并商定当天停止观看"
+  },
+  "participants": [
+    "Martin",
+    "Elena"
+  ],
+  "context_zh": "邻居说明深夜电视声穿过墙壁影响睡眠，住户同意今晚关机。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-22-s01",
+      "speaker": "Martin",
+      "text": "Hi, may I ask you about the television? The noise is coming straight through our bedroom wall."
+    },
+    {
+      "id": "p04-a-22-s02",
+      "speaker": "Elena",
+      "text": "Oh, sorry. I did not realise it was so noisy next door."
+    },
+    {
+      "id": "p04-a-22-s03",
+      "speaker": "Martin",
+      "text": "Would you mind turning it down? We are trying to sleep."
+    },
+    {
+      "id": "p04-a-22-s04",
+      "speaker": "Elena",
+      "text": "Of course. If I make it less loud, would that help?"
+    },
+    {
+      "id": "p04-a-22-s05",
+      "speaker": "Martin",
+      "text": "It might, but the wall carries the deeper sounds even at a low volume."
+    },
+    {
+      "id": "p04-a-22-s06",
+      "speaker": "Elena",
+      "text": "I understand. I will turn it off now and finish the programme tomorrow."
+    },
+    {
+      "id": "p04-a-22-s07",
+      "speaker": "Martin",
+      "text": "Thank you. I appreciate it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7edba398f3044247",
+      "lemma": "may",
+      "pos": "modal v.",
+      "sense_zh": "用于礼貌地请求许可",
+      "sentence_ids": [
+        "p04-a-22-s01"
+      ],
+      "forms": [
+        "may"
+      ],
+      "sense_id": "sense-staged-ox-7edba398f3044247-p04-a-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7fad4d0b7fd48043",
+      "lemma": "noise",
+      "pos": "n.",
+      "sense_zh": "噪声",
+      "sentence_ids": [
+        "p04-a-22-s01"
+      ],
+      "forms": [
+        "noise"
+      ],
+      "sense_id": "sense-staged-ox-7fad4d0b7fd48043-p04-a-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7e03134a808f4359",
+      "lemma": "noisy",
+      "pos": "adj.",
+      "sense_zh": "嘈杂的",
+      "sentence_ids": [
+        "p04-a-22-s02"
+      ],
+      "forms": [
+        "noisy"
+      ],
+      "sense_id": "sense-staged-ox-7e03134a808f4359-p04-a-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e4436ee22a5bcd08",
+      "lemma": "mind",
+      "pos": "v.",
+      "sense_zh": "介意",
+      "sentence_ids": [
+        "p04-a-22-s03"
+      ],
+      "forms": [
+        "mind"
+      ],
+      "sense_id": "sense-staged-ox-e4436ee22a5bcd08-p04-a-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3d26d3fc51a97052",
+      "lemma": "less",
+      "pos": "adv.",
+      "sense_zh": "较少地；程度较低地",
+      "sentence_ids": [
+        "p04-a-22-s04"
+      ],
+      "forms": [
+        "less"
+      ],
+      "sense_id": "sense-staged-ox-3d26d3fc51a97052-p04-a-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

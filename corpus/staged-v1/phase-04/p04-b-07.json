@@ -1,0 +1,132 @@
+{
+  "id": "p04-b-07",
+  "title_zh": "分工筹办阅读项目的慈善抽奖",
+  "topic_id": "community",
+  "scenario": {
+    "id": "charity-raffle-planning",
+    "label_zh": "分工筹备慈善抽奖",
+    "goal_zh": "确定筹款用途、奖品和筹备分工，并约定售票前核对活动规则"
+  },
+  "participants": [
+    "Bea",
+    "Arun"
+  ],
+  "context_zh": "社区阅读组织的两位成员商量抽奖活动的筹备职责。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-07-s01",
+      "speaker": "Bea",
+      "text": "Our organization needs to raise money for the new reading group. Could we hold a raffle at the fair?"
+    },
+    {
+      "id": "p04-b-07-s02",
+      "speaker": "Arun",
+      "text": "Yes. The bookshop has offered a box of books as a prize."
+    },
+    {
+      "id": "p04-b-07-s03",
+      "speaker": "Bea",
+      "text": "Who will organize the tickets and the draw?"
+    },
+    {
+      "id": "p04-b-07-s04",
+      "speaker": "Arun",
+      "text": "I can handle the tickets. Would you ask our president to lead the draw?"
+    },
+    {
+      "id": "p04-b-07-s05",
+      "speaker": "Bea",
+      "text": "I will ask her today. We should explain that the money will buy books for the group."
+    },
+    {
+      "id": "p04-b-07-s06",
+      "speaker": "Arun",
+      "text": "Agreed. I will prepare the ticket design, and we can check the event rules with the fair manager before selling any."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a2e5a9671a4890c8",
+      "lemma": "organization",
+      "pos": "n.",
+      "sense_zh": "组织；团体",
+      "sentence_ids": [
+        "p04-b-07-s01"
+      ],
+      "forms": [
+        "organization"
+      ],
+      "sense_id": "sense-staged-ox-a2e5a9671a4890c8-p04-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5ba2d109f604fa24",
+      "lemma": "raise",
+      "pos": "v.",
+      "sense_zh": "筹集资金",
+      "sentence_ids": [
+        "p04-b-07-s01"
+      ],
+      "forms": [
+        "raise"
+      ],
+      "sense_id": "sense-staged-ox-5ba2d109f604fa24-p04-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7861f5464448e3a1",
+      "lemma": "prize",
+      "pos": "n.",
+      "sense_zh": "奖品",
+      "sentence_ids": [
+        "p04-b-07-s02"
+      ],
+      "forms": [
+        "prize"
+      ],
+      "sense_id": "sense-staged-ox-7861f5464448e3a1-p04-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f899f078209aeb54",
+      "lemma": "organize",
+      "pos": "v.",
+      "sense_zh": "组织安排",
+      "sentence_ids": [
+        "p04-b-07-s03"
+      ],
+      "forms": [
+        "organize"
+      ],
+      "sense_id": "sense-staged-ox-f899f078209aeb54-p04-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-731b13b75f7f3987",
+      "lemma": "president",
+      "pos": "n.",
+      "sense_zh": "团体会长",
+      "sentence_ids": [
+        "p04-b-07-s04"
+      ],
+      "forms": [
+        "president"
+      ],
+      "sense_id": "sense-staged-ox-731b13b75f7f3987-p04-b-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

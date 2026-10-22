@@ -1,0 +1,174 @@
+{
+  "id": "p04-b-08",
+  "title_zh": "确定筹款海报印量与发布分工",
+  "topic_id": "community",
+  "scenario": {
+    "id": "fundraiser-poster-planning",
+    "label_zh": "安排筹款活动海报",
+    "goal_zh": "确定照片、印量和线上发布安排"
+  },
+  "participants": [
+    "Tessa",
+    "Dev"
+  ],
+  "context_zh": "两位志愿者检查筹款海报，准备打印并发布。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-08-s01",
+      "speaker": "Tessa",
+      "text": "Can we use this photo for the fundraiser poster? Everyone in it has agreed."
+    },
+    {
+      "id": "p04-b-08-s02",
+      "speaker": "Dev",
+      "text": "Yes. It clearly shows the reading room we want to improve. How many copies should we print?"
+    },
+    {
+      "id": "p04-b-08-s03",
+      "speaker": "Tessa",
+      "text": "Twenty for the library and local shops. They have agreed to display them in public areas."
+    },
+    {
+      "id": "p04-b-08-s04",
+      "speaker": "Dev",
+      "text": "The printer can produce twenty, but I need to replace the empty ink cartridge first."
+    },
+    {
+      "id": "p04-b-08-s05",
+      "speaker": "Tessa",
+      "text": "Is there anything else to check in the printing process?"
+    },
+    {
+      "id": "p04-b-08-s06",
+      "speaker": "Dev",
+      "text": "I will print one test copy to check the date and the size before doing the rest."
+    },
+    {
+      "id": "p04-b-08-s07",
+      "speaker": "Tessa",
+      "text": "Good. Once we approve that, I will put the same design on our website."
+    },
+    {
+      "id": "p04-b-08-s08",
+      "speaker": "Dev",
+      "text": "Then I will handle the paper copies. Let us check the test together this afternoon."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-55038911fbcd761b",
+      "lemma": "poster",
+      "pos": "n.",
+      "sense_zh": "海报",
+      "sentence_ids": [
+        "p04-b-08-s01"
+      ],
+      "forms": [
+        "poster"
+      ],
+      "sense_id": "sense-staged-ox-55038911fbcd761b-p04-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f4b7e148cd530b2d",
+      "lemma": "print",
+      "pos": "v.",
+      "sense_zh": "打印",
+      "sentence_ids": [
+        "p04-b-08-s02"
+      ],
+      "forms": [
+        "print"
+      ],
+      "sense_id": "sense-staged-ox-f4b7e148cd530b2d-p04-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8f31725b28532d65",
+      "lemma": "public",
+      "pos": "adj.",
+      "sense_zh": "公众使用的",
+      "sentence_ids": [
+        "p04-b-08-s03"
+      ],
+      "forms": [
+        "public"
+      ],
+      "sense_id": "sense-staged-ox-8f31725b28532d65-p04-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc7755331ccd880d",
+      "lemma": "printer",
+      "pos": "n.",
+      "sense_zh": "打印机",
+      "sentence_ids": [
+        "p04-b-08-s04"
+      ],
+      "forms": [
+        "printer"
+      ],
+      "sense_id": "sense-staged-ox-fc7755331ccd880d-p04-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-67160e071e90adf1",
+      "lemma": "produce",
+      "pos": "v.",
+      "sense_zh": "生产；制作出",
+      "sentence_ids": [
+        "p04-b-08-s04"
+      ],
+      "forms": [
+        "produce"
+      ],
+      "sense_id": "sense-staged-ox-67160e071e90adf1-p04-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-11dd88c5cbb6c3e7",
+      "lemma": "replace",
+      "pos": "v.",
+      "sense_zh": "更换",
+      "sentence_ids": [
+        "p04-b-08-s04"
+      ],
+      "forms": [
+        "replace"
+      ],
+      "sense_id": "sense-staged-ox-11dd88c5cbb6c3e7-p04-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d40eff8a438973b9",
+      "lemma": "process",
+      "pos": "n.",
+      "sense_zh": "过程",
+      "sentence_ids": [
+        "p04-b-08-s05"
+      ],
+      "forms": [
+        "process"
+      ],
+      "sense_id": "sense-staged-ox-d40eff8a438973b9-p04-b-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

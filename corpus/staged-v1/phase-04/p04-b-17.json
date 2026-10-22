@@ -1,0 +1,121 @@
+{
+  "id": "p04-b-17",
+  "title_zh": "决定先听取同事的不满再道歉",
+  "topic_id": "work",
+  "scenario": {
+    "id": "colleague-apology-next-step",
+    "label_zh": "确定向同事道歉的下一步",
+    "goal_zh": "承认打断同事的问题并确定先倾听和可兑现的改进行动"
+  },
+  "participants": [
+    "Kian",
+    "Rose"
+  ],
+  "context_zh": "同事之间的讨论受到打断后，一位员工向朋友商量如何修复合作关系。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-17-s01",
+      "speaker": "Kian",
+      "text": "I interrupted Amira twice in the meeting. I did not realize how upset she was until she spoke to me afterwards."
+    },
+    {
+      "id": "p04-b-17-s02",
+      "speaker": "Rose",
+      "text": "How did you respond?"
+    },
+    {
+      "id": "p04-b-17-s03",
+      "speaker": "Kian",
+      "text": "I said I was only trying to help. That made things worse. I care about our working relationship."
+    },
+    {
+      "id": "p04-b-17-s04",
+      "speaker": "Rose",
+      "text": "Then start by listening, not by defending yourself. What can you honestly offer to do differently?"
+    },
+    {
+      "id": "p04-b-17-s05",
+      "speaker": "Kian",
+      "text": "I can promise to let her finish before I ask questions."
+    },
+    {
+      "id": "p04-b-17-s06",
+      "speaker": "Rose",
+      "text": "That is specific. Tell her you are sorry, ask what she wanted to say, and give her time to answer."
+    },
+    {
+      "id": "p04-b-17-s07",
+      "speaker": "Kian",
+      "text": "I will ask whether she has a few minutes after lunch. I will listen first."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f7208311bd8764a5",
+      "lemma": "realize",
+      "pos": "v.",
+      "sense_zh": "意识到",
+      "sentence_ids": [
+        "p04-b-17-s01"
+      ],
+      "forms": [
+        "realize"
+      ],
+      "sense_id": "sense-staged-ox-f7208311bd8764a5-p04-b-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-241aab9d48c7836c",
+      "lemma": "respond",
+      "pos": "v.",
+      "sense_zh": "回应",
+      "sentence_ids": [
+        "p04-b-17-s02"
+      ],
+      "forms": [
+        "respond"
+      ],
+      "sense_id": "sense-staged-ox-241aab9d48c7836c-p04-b-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d5c98f14422ea387",
+      "lemma": "relationship",
+      "pos": "n.",
+      "sense_zh": "关系",
+      "sentence_ids": [
+        "p04-b-17-s03"
+      ],
+      "forms": [
+        "relationship"
+      ],
+      "sense_id": "sense-staged-ox-d5c98f14422ea387-p04-b-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-639750e6cb59b934",
+      "lemma": "promise",
+      "pos": "v.",
+      "sense_zh": "承诺",
+      "sentence_ids": [
+        "p04-b-17-s05"
+      ],
+      "forms": [
+        "promise"
+      ],
+      "sense_id": "sense-staged-ox-639750e6cb59b934-p04-b-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

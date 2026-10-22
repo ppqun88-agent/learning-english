@@ -1,0 +1,79 @@
+{
+  "id": "p04-b-23",
+  "title_zh": "核对改时通知并等待会面",
+  "topic_id": "work",
+  "scenario": {
+    "id": "office-visitor-reception",
+    "label_zh": "接待办公访客",
+    "goal_zh": "核对预约并安排访客等候和前往会议室"
+  },
+  "participants": [
+    "Megan",
+    "Nabil"
+  ],
+  "context_zh": "访客到达办公室前台，得知会议推迟，选择在接待区等候。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-23-s01",
+      "speaker": "Megan",
+      "text": "I have a ten o’clock appointment with Mr Lim. His secretary arranged it yesterday."
+    },
+    {
+      "id": "p04-b-23-s02",
+      "speaker": "Nabil",
+      "text": "Welcome. Did you receive our message about the new time? The meeting is now at ten fifteen."
+    },
+    {
+      "id": "p04-b-23-s03",
+      "speaker": "Megan",
+      "text": "I missed the message, but I can wait. Is the meeting still in room three?"
+    },
+    {
+      "id": "p04-b-23-s04",
+      "speaker": "Nabil",
+      "text": "Yes. Please take a chair here, and I will let Mr Lim know you have arrived. I will take you up when he is ready."
+    },
+    {
+      "id": "p04-b-23-s05",
+      "speaker": "Megan",
+      "text": "Thank you. I will wait here."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8cd5d7b581020b08",
+      "lemma": "secretary",
+      "pos": "n.",
+      "sense_zh": "秘书",
+      "sentence_ids": [
+        "p04-b-23-s01"
+      ],
+      "forms": [
+        "secretary"
+      ],
+      "sense_id": "sense-staged-ox-8cd5d7b581020b08-p04-b-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4827cbe296a56d1d",
+      "lemma": "receive",
+      "pos": "v.",
+      "sense_zh": "收到",
+      "sentence_ids": [
+        "p04-b-23-s02"
+      ],
+      "forms": [
+        "receive"
+      ],
+      "sense_id": "sense-staged-ox-4827cbe296a56d1d-p04-b-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

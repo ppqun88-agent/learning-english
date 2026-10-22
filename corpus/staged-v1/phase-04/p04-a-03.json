@@ -1,0 +1,116 @@
+{
+  "id": "p04-a-03",
+  "title_zh": "预约颈部不适检查",
+  "topic_id": "health",
+  "scenario": {
+    "id": "routine-clinic-booking",
+    "label_zh": "描述问题并预约就诊",
+    "goal_zh": "准确说明不适位置并确认预约时间"
+  },
+  "participants": [
+    "Leila",
+    "Receptionist"
+  ],
+  "context_zh": "患者与诊所接待员核对预约时间及应向医生提供的信息；不讨论诊断或用药调整。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-03-s01",
+      "speaker": "Leila",
+      "text": "Could I book an appointment? My neck has been sore since yesterday."
+    },
+    {
+      "id": "p04-a-03-s02",
+      "speaker": "Receptionist",
+      "text": "Is there anything you want me to add to the booking note?"
+    },
+    {
+      "id": "p04-a-03-s03",
+      "speaker": "Leila",
+      "text": "The pain is mild, but it does not feel normal. I also have a question about my medicine."
+    },
+    {
+      "id": "p04-a-03-s04",
+      "speaker": "Receptionist",
+      "text": "Please mention that to the doctor and bring the name of the medicine. Can you come at ten tomorrow?"
+    },
+    {
+      "id": "p04-a-03-s05",
+      "speaker": "Leila",
+      "text": "Yes, ten is fine."
+    },
+    {
+      "id": "p04-a-03-s06",
+      "speaker": "Receptionist",
+      "text": "You are booked for ten tomorrow morning with Dr Lee."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5ebe847034dc7d41",
+      "lemma": "neck",
+      "pos": "n.",
+      "sense_zh": "颈部",
+      "sentence_ids": [
+        "p04-a-03-s01"
+      ],
+      "forms": [
+        "neck"
+      ],
+      "sense_id": "sense-staged-ox-5ebe847034dc7d41-p04-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41d69c17663f5103",
+      "lemma": "normal",
+      "pos": "adj.",
+      "sense_zh": "正常的",
+      "sentence_ids": [
+        "p04-a-03-s03"
+      ],
+      "forms": [
+        "normal"
+      ],
+      "sense_id": "sense-staged-ox-41d69c17663f5103-p04-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-094a6b9f9ed27258",
+      "lemma": "medicine",
+      "pos": "n.",
+      "sense_zh": "药物",
+      "sentence_ids": [
+        "p04-a-03-s03"
+      ],
+      "forms": [
+        "medicine"
+      ],
+      "sense_id": "sense-staged-ox-094a6b9f9ed27258-p04-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16a7f34c4f3b420c",
+      "lemma": "mention",
+      "pos": "v.",
+      "sense_zh": "提到；向人说明",
+      "sentence_ids": [
+        "p04-a-03-s04"
+      ],
+      "forms": [
+        "mention"
+      ],
+      "sense_id": "sense-staged-ox-16a7f34c4f3b420c-p04-a-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

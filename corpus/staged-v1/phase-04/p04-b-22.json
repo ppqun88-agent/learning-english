@@ -1,0 +1,137 @@
+{
+  "id": "p04-b-22",
+  "title_zh": "选第一部轻松的影片在家看",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "home-film-choice",
+    "label_zh": "商量在家看电影",
+    "goal_zh": "在不出门的前提下选定双方都想看的影片"
+  },
+  "participants": [
+    "Alina",
+    "Jonah"
+  ],
+  "context_zh": "两位朋友不想出门，比较同一系列的两部电影并选定不吓人的一部。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-22-s01",
+      "speaker": "Alina",
+      "text": "Let us stay in tonight. Which film should we watch?"
+    },
+    {
+      "id": "p04-b-22-s02",
+      "speaker": "Jonah",
+      "text": "The second one in the Harbour House series is available. Shall I put it on the big screen?"
+    },
+    {
+      "id": "p04-b-22-s03",
+      "speaker": "Alina",
+      "text": "Is it scary? I do not want anything that will keep me awake."
+    },
+    {
+      "id": "p04-b-22-s04",
+      "speaker": "Jonah",
+      "text": "The review I read mentions a frightening scene in a dark cellar."
+    },
+    {
+      "id": "p04-b-22-s05",
+      "speaker": "Alina",
+      "text": "Then not that one. What about the first film? You said it was a comedy."
+    },
+    {
+      "id": "p04-b-22-s06",
+      "speaker": "Jonah",
+      "text": "It is. There is a mystery, but no horror. I enjoyed it enough to watch it again."
+    },
+    {
+      "id": "p04-b-22-s07",
+      "speaker": "Alina",
+      "text": "Good. Let us watch the first one on the television, then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5ce144681dab6f4f",
+      "lemma": "series",
+      "pos": "n.",
+      "sense_zh": "系列作品",
+      "sentence_ids": [
+        "p04-b-22-s02"
+      ],
+      "forms": [
+        "series"
+      ],
+      "sense_id": "sense-staged-ox-5ce144681dab6f4f-p04-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-67103099c852ed79",
+      "lemma": "screen",
+      "pos": "n.",
+      "sense_zh": "屏幕",
+      "sentence_ids": [
+        "p04-b-22-s02"
+      ],
+      "forms": [
+        "screen"
+      ],
+      "sense_id": "sense-staged-ox-67103099c852ed79-p04-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c368ec67d0bf222",
+      "lemma": "scary",
+      "pos": "adj.",
+      "sense_zh": "吓人的",
+      "sentence_ids": [
+        "p04-b-22-s03"
+      ],
+      "forms": [
+        "scary"
+      ],
+      "sense_id": "sense-staged-ox-3c368ec67d0bf222-p04-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0d9c58ae0f8daff3",
+      "lemma": "review",
+      "pos": "n.",
+      "sense_zh": "评论",
+      "sentence_ids": [
+        "p04-b-22-s04"
+      ],
+      "forms": [
+        "review"
+      ],
+      "sense_id": "sense-staged-ox-0d9c58ae0f8daff3-p04-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-90b25d185f505b05",
+      "lemma": "scene",
+      "pos": "n.",
+      "sense_zh": "电影中的场景；片段",
+      "sentence_ids": [
+        "p04-b-22-s04"
+      ],
+      "forms": [
+        "scene"
+      ],
+      "sense_id": "sense-staged-ox-90b25d185f505b05-p04-b-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

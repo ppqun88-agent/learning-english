@@ -1,0 +1,159 @@
+{
+  "id": "p04-c-22",
+  "title_zh": "安排携行李旅客接送",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "nervous-traveller-transfer",
+    "label_zh": "安排携行李旅客接送",
+    "goal_zh": "说明肩部受伤带来的行李搬运需求，核对上车及通行条件并约定接送时间"
+  },
+  "participants": [
+    "Gareth",
+    "Rina"
+  ],
+  "context_zh": "一位肩部受伤的旅客向旅馆工作人员询问带行李前往车站的接送安排。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-22-s01",
+      "speaker": "Gareth",
+      "text": "Do you offer help for a traveller with a shoulder injury? I have two heavy bags."
+    },
+    {
+      "id": "p04-c-22-s02",
+      "speaker": "Rina",
+      "text": "Yes. We can transport you and your bags to the station in our small van."
+    },
+    {
+      "id": "p04-c-22-s03",
+      "speaker": "Gareth",
+      "text": "Is the vehicle easy to get into? I can walk, but I cannot lift the bags."
+    },
+    {
+      "id": "p04-c-22-s04",
+      "speaker": "Rina",
+      "text": "It has a wide sliding door. Come and look before you decide. I'll carry the bags."
+    },
+    {
+      "id": "p04-c-22-s05",
+      "speaker": "Gareth",
+      "text": "Are there any stairs between this desk and the pickup point?"
+    },
+    {
+      "id": "p04-c-22-s06",
+      "speaker": "Rina",
+      "text": "No, it's level all the way out of the side entrance."
+    },
+    {
+      "id": "p04-c-22-s07",
+      "speaker": "Gareth",
+      "text": "I've seen the van through the window. That should work for me. I'll bring my bags to the desk at ten."
+    },
+    {
+      "id": "p04-c-22-s08",
+      "speaker": "Rina",
+      "text": "Ten is fine. I'll arrange for the driver to meet you here."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e65f4ebd616506c9",
+      "lemma": "traveller",
+      "pos": "n.",
+      "sense_zh": "旅行者；旅客",
+      "sentence_ids": [
+        "p04-c-22-s01"
+      ],
+      "forms": [
+        "traveller"
+      ],
+      "sense_id": "sense-staged-ox-e65f4ebd616506c9-p04-c-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a00e8c5d20d284af",
+      "lemma": "van",
+      "pos": "n.",
+      "sense_zh": "厢式小型货车或客货车",
+      "sentence_ids": [
+        "p04-c-22-s02"
+      ],
+      "forms": [
+        "van"
+      ],
+      "sense_id": "sense-staged-ox-a00e8c5d20d284af-p04-c-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b7cfcc0f515e7fc3",
+      "lemma": "vehicle",
+      "pos": "n.",
+      "sense_zh": "车辆",
+      "sentence_ids": [
+        "p04-c-22-s03"
+      ],
+      "forms": [
+        "vehicle"
+      ],
+      "sense_id": "sense-staged-ox-b7cfcc0f515e7fc3-p04-c-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-297fdf5f47e1b1b4",
+      "lemma": "transport",
+      "pos": "v.",
+      "sense_zh": "运送",
+      "sentence_ids": [
+        "p04-c-22-s02"
+      ],
+      "forms": [
+        "transport"
+      ],
+      "sense_id": "sense-staged-ox-297fdf5f47e1b1b4-p04-c-22",
+      "cefr": "B1",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2021b36983721a66",
+      "lemma": "shoulder",
+      "pos": "n.",
+      "sense_zh": "肩膀",
+      "sentence_ids": [
+        "p04-c-22-s01"
+      ],
+      "forms": [
+        "shoulder"
+      ],
+      "sense_id": "sense-staged-ox-2021b36983721a66-p04-c-22",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-069da25e2ffb9cba",
+      "lemma": "stair",
+      "pos": "n.",
+      "sense_zh": "楼梯",
+      "sentence_ids": [
+        "p04-c-22-s05"
+      ],
+      "forms": [
+        "stairs"
+      ],
+      "sense_id": "sense-staged-ox-069da25e2ffb9cba-p04-c-22",
+      "forms_rationale_zh": "此处采用 stair 的正常屈折形式 stairs，词性及选定义项不变。",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

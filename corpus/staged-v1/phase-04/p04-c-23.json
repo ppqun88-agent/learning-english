@@ -1,0 +1,227 @@
+{
+  "id": "p04-c-23",
+  "title_zh": "制定小组学习任务目标",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "study-task-target-plan",
+    "label_zh": "制定小组学习任务目标",
+    "goal_zh": "把宽泛的学习目标分成可执行任务并约定先试一种策略"
+  },
+  "participants": [
+    "Mei",
+    "Oscar"
+  ],
+  "context_zh": "两名同学把一周的学习目标拆成短时段，并明确如何判断自己是否真正理解。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-23-s01",
+      "speaker": "Mei",
+      "text": "What's our target for this week?"
+    },
+    {
+      "id": "p04-c-23-s02",
+      "speaker": "Oscar",
+      "text": "To finish chapter six, but that's such a big task after work."
+    },
+    {
+      "id": "p04-c-23-s03",
+      "speaker": "Mei",
+      "text": "My first thought was to split it over five evenings."
+    },
+    {
+      "id": "p04-c-23-s04",
+      "speaker": "Oscar",
+      "text": "I suppose we could, but we both work late on Tuesday. What's your suggestion for that day?"
+    },
+    {
+      "id": "p04-c-23-s05",
+      "speaker": "Mei",
+      "text": "Let's leave Tuesday free. A better strategy might be three short sessions and one review on Sunday."
+    },
+    {
+      "id": "p04-c-23-s06",
+      "speaker": "Oscar",
+      "text": "I like your thinking. What would a successful week look like, apart from getting through the pages?"
+    },
+    {
+      "id": "p04-c-23-s07",
+      "speaker": "Mei",
+      "text": "If we can each explain the three main ideas without the book, we'll know we've understood them."
+    },
+    {
+      "id": "p04-c-23-s08",
+      "speaker": "Oscar",
+      "text": "Then let's take one idea per session. I think we can succeed if we keep each session short."
+    },
+    {
+      "id": "p04-c-23-s09",
+      "speaker": "Mei",
+      "text": "Agreed. We'll start with the first idea tonight and test ourselves on Sunday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8d4d5cd5cbced2d8",
+      "lemma": "target",
+      "pos": "n.",
+      "sense_zh": "目标",
+      "sentence_ids": [
+        "p04-c-23-s01"
+      ],
+      "forms": [
+        "target"
+      ],
+      "sense_id": "sense-staged-ox-8d4d5cd5cbced2d8-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8de73ac020853b0f",
+      "lemma": "task",
+      "pos": "n.",
+      "sense_zh": "任务",
+      "sentence_ids": [
+        "p04-c-23-s02"
+      ],
+      "forms": [
+        "task"
+      ],
+      "sense_id": "sense-staged-ox-8de73ac020853b0f-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-74bb1d5990c89c17",
+      "lemma": "strategy",
+      "pos": "n.",
+      "sense_zh": "策略；行动计划",
+      "sentence_ids": [
+        "p04-c-23-s05"
+      ],
+      "forms": [
+        "strategy"
+      ],
+      "sense_id": "sense-staged-ox-74bb1d5990c89c17-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-537551e73c19f0e9",
+      "lemma": "succeed",
+      "pos": "v.",
+      "sense_zh": "成功；达到目标",
+      "sentence_ids": [
+        "p04-c-23-s08"
+      ],
+      "forms": [
+        "succeed"
+      ],
+      "sense_id": "sense-staged-ox-537551e73c19f0e9-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f4f9b73463bd8a46",
+      "lemma": "successful",
+      "pos": "adj.",
+      "sense_zh": "成功的；达到目标的",
+      "sentence_ids": [
+        "p04-c-23-s06"
+      ],
+      "forms": [
+        "successful"
+      ],
+      "sense_id": "sense-staged-ox-f4f9b73463bd8a46-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12b9a1351ea29813",
+      "lemma": "thinking",
+      "pos": "n.",
+      "sense_zh": "思路；思考方式",
+      "sentence_ids": [
+        "p04-c-23-s06"
+      ],
+      "forms": [
+        "thinking"
+      ],
+      "sense_id": "sense-staged-ox-12b9a1351ea29813-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1e64275157a3d526",
+      "lemma": "thought",
+      "pos": "n.",
+      "sense_zh": "想法",
+      "sentence_ids": [
+        "p04-c-23-s03"
+      ],
+      "forms": [
+        "thought"
+      ],
+      "sense_id": "sense-staged-ox-1e64275157a3d526-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d3831335f4b7284e",
+      "lemma": "suggestion",
+      "pos": "n.",
+      "sense_zh": "建议",
+      "sentence_ids": [
+        "p04-c-23-s04"
+      ],
+      "forms": [
+        "suggestion"
+      ],
+      "sense_id": "sense-staged-ox-d3831335f4b7284e-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f5b0bb9ed723d5b0",
+      "lemma": "suppose",
+      "pos": "v.",
+      "sense_zh": "认为；推测",
+      "sentence_ids": [
+        "p04-c-23-s04"
+      ],
+      "forms": [
+        "suppose"
+      ],
+      "sense_id": "sense-staged-ox-f5b0bb9ed723d5b0-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-772b20f29aba591e",
+      "lemma": "such",
+      "pos": "det.",
+      "sense_zh": "如此的；这样的",
+      "sentence_ids": [
+        "p04-c-23-s02"
+      ],
+      "forms": [
+        "such"
+      ],
+      "sense_id": "sense-staged-ox-772b20f29aba591e-p04-c-23",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

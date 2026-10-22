@@ -1,0 +1,121 @@
+{
+  "id": "p04-b-24",
+  "title_zh": "先挪开圆桌再把柜子移到窗边",
+  "topic_id": "home",
+  "scenario": {
+    "id": "cabinet-moving-plan",
+    "label_zh": "协作搬动柜子",
+    "goal_zh": "核对通道尺寸并协调柜子移动和暂放位置"
+  },
+  "participants": [
+    "Hana",
+    "Lewis"
+  ],
+  "context_zh": "两位室友需要暂时移动柜子，好让原位置的地板晾干。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-24-s01",
+      "speaker": "Hana",
+      "text": "The cabinet is seventy centimetres wide, and the doorway is eighty. It should fit, but that round table is in the way."
+    },
+    {
+      "id": "p04-b-24-s02",
+      "speaker": "Lewis",
+      "text": "I will move the table first. Where should the cabinet go?"
+    },
+    {
+      "id": "p04-b-24-s03",
+      "speaker": "Hana",
+      "text": "Beside the window, just until the floor dries."
+    },
+    {
+      "id": "p04-b-24-s04",
+      "speaker": "Lewis",
+      "text": "Shall I pull from this end while you guide it?"
+    },
+    {
+      "id": "p04-b-24-s05",
+      "speaker": "Hana",
+      "text": "Yes. Go slowly. I can push gently from the other side if it gets stuck."
+    },
+    {
+      "id": "p04-b-24-s06",
+      "speaker": "Lewis",
+      "text": "There, it is through. Is this position far enough from the wet floor?"
+    },
+    {
+      "id": "p04-b-24-s07",
+      "speaker": "Hana",
+      "text": "Yes. Leave it there for now. We can put it back when the floor is dry."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7f14c74bdf5958cb",
+      "lemma": "round",
+      "pos": "adj.",
+      "sense_zh": "圆形的",
+      "sentence_ids": [
+        "p04-b-24-s01"
+      ],
+      "forms": [
+        "round"
+      ],
+      "sense_id": "sense-staged-ox-7f14c74bdf5958cb-p04-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe65f59b20c51aff",
+      "lemma": "pull",
+      "pos": "v.",
+      "sense_zh": "拉",
+      "sentence_ids": [
+        "p04-b-24-s04"
+      ],
+      "forms": [
+        "pull"
+      ],
+      "sense_id": "sense-staged-ox-fe65f59b20c51aff-p04-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-19249d01768795dc",
+      "lemma": "push",
+      "pos": "v.",
+      "sense_zh": "推",
+      "sentence_ids": [
+        "p04-b-24-s05"
+      ],
+      "forms": [
+        "push"
+      ],
+      "sense_id": "sense-staged-ox-19249d01768795dc-p04-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a554146e67798948",
+      "lemma": "position",
+      "pos": "n.",
+      "sense_zh": "位置",
+      "sentence_ids": [
+        "p04-b-24-s06"
+      ],
+      "forms": [
+        "position"
+      ],
+      "sense_id": "sense-staged-ox-a554146e67798948-p04-b-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

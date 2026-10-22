@@ -1,0 +1,142 @@
+{
+  "id": "p04-a-15",
+  "title_zh": "在初学舞蹈课上澄清动作",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-dance-step-practice",
+    "label_zh": "澄清初学舞蹈动作并获得反馈",
+    "goal_zh": "弄清第一组舞步的顺序并请教练单独示范转向"
+  },
+  "participants": [
+    "Noor",
+    "Diego"
+  ],
+  "context_zh": "初学者向当日教练确认第一组舞步并请求个别反馈。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-15-s01",
+      "speaker": "Noor",
+      "text": "Are you the instructor for the beginners’ class?"
+    },
+    {
+      "id": "p04-a-15-s02",
+      "speaker": "Diego",
+      "text": "Yes. Come over here; we are just starting."
+    },
+    {
+      "id": "p04-a-15-s03",
+      "speaker": "Noor",
+      "text": "I missed your first instruction. Do we step to the left or jump?"
+    },
+    {
+      "id": "p04-a-15-s04",
+      "speaker": "Diego",
+      "text": "Step to the left first. Watch the movement once before you try it."
+    },
+    {
+      "id": "p04-a-15-s05",
+      "speaker": "Noor",
+      "text": "Like this? I keep turning the wrong way."
+    },
+    {
+      "id": "p04-a-15-s06",
+      "speaker": "Diego",
+      "text": "Almost. I will give you some individual feedback while the others practise."
+    },
+    {
+      "id": "p04-a-15-s07",
+      "speaker": "Noor",
+      "text": "Thanks. Please show me the turn again slowly."
+    },
+    {
+      "id": "p04-a-15-s08",
+      "speaker": "Diego",
+      "text": "Of course. Start with your feet together and watch which way I face."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2a098922a5111635",
+      "lemma": "instructor",
+      "pos": "n.",
+      "sense_zh": "教练；指导老师",
+      "sentence_ids": [
+        "p04-a-15-s01"
+      ],
+      "forms": [
+        "instructor"
+      ],
+      "sense_id": "sense-staged-ox-2a098922a5111635-p04-a-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d63c3ced2071bd6d",
+      "lemma": "instruction",
+      "pos": "n.",
+      "sense_zh": "指令；操作要求",
+      "sentence_ids": [
+        "p04-a-15-s03"
+      ],
+      "forms": [
+        "instruction"
+      ],
+      "sense_id": "sense-staged-ox-d63c3ced2071bd6d-p04-a-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a3e9034f7999a4c9",
+      "lemma": "jump",
+      "pos": "v.",
+      "sense_zh": "跳",
+      "sentence_ids": [
+        "p04-a-15-s03"
+      ],
+      "forms": [
+        "jump"
+      ],
+      "sense_id": "sense-staged-ox-a3e9034f7999a4c9-p04-a-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9129cea5add9ec83",
+      "lemma": "movement",
+      "pos": "n.",
+      "sense_zh": "动作",
+      "sentence_ids": [
+        "p04-a-15-s04"
+      ],
+      "forms": [
+        "movement"
+      ],
+      "sense_id": "sense-staged-ox-9129cea5add9ec83-p04-a-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fcbad862728f1485",
+      "lemma": "individual",
+      "pos": "adj.",
+      "sense_zh": "单独的；针对个人的",
+      "sentence_ids": [
+        "p04-a-15-s06"
+      ],
+      "forms": [
+        "individual"
+      ],
+      "sense_id": "sense-staged-ox-fcbad862728f1485-p04-a-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,121 @@
+{
+  "id": "p04-a-08",
+  "title_zh": "借镜子比较送给姐姐的项链",
+  "topic_id": "services",
+  "scenario": {
+    "id": "necklace-gift-fitting",
+    "label_zh": "比较礼物项链的材质与长度",
+    "goal_zh": "核对项链材质并借镜子比较长度后选定礼物"
+  },
+  "participants": [
+    "Ava",
+    "Clerk"
+  ],
+  "context_zh": "顾客在美国一家饰品店为姐姐挑选项链，确认材质和长度后决定购买。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-08-s01",
+      "speaker": "Ava",
+      "text": "I am looking for jewelry for my sister. She likes simple designs."
+    },
+    {
+      "id": "p04-a-08-s02",
+      "speaker": "Clerk",
+      "text": "How about this short silver necklace?"
+    },
+    {
+      "id": "p04-a-08-s03",
+      "speaker": "Ava",
+      "text": "Is it solid silver, or is there another metal underneath?"
+    },
+    {
+      "id": "p04-a-08-s04",
+      "speaker": "Clerk",
+      "text": "It is solid silver. This longer one is silver too."
+    },
+    {
+      "id": "p04-a-08-s05",
+      "speaker": "Ava",
+      "text": "Could I use a mirror to compare the lengths? We are about the same height."
+    },
+    {
+      "id": "p04-a-08-s06",
+      "speaker": "Clerk",
+      "text": "Of course. There is one beside you."
+    },
+    {
+      "id": "p04-a-08-s07",
+      "speaker": "Ava",
+      "text": "The shorter one would be ideal for her. I will take it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6e4830ae539d09ca",
+      "lemma": "jewelry",
+      "pos": "n.",
+      "sense_zh": "珠宝首饰（美式拼写）",
+      "sentence_ids": [
+        "p04-a-08-s01"
+      ],
+      "forms": [
+        "jewelry"
+      ],
+      "sense_id": "sense-staged-ox-6e4830ae539d09ca-p04-a-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a90575577453d5b8",
+      "lemma": "metal",
+      "pos": "n.",
+      "sense_zh": "金属",
+      "sentence_ids": [
+        "p04-a-08-s03"
+      ],
+      "forms": [
+        "metal"
+      ],
+      "sense_id": "sense-staged-ox-a90575577453d5b8-p04-a-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26e052101a683778",
+      "lemma": "mirror",
+      "pos": "n.",
+      "sense_zh": "镜子",
+      "sentence_ids": [
+        "p04-a-08-s05"
+      ],
+      "forms": [
+        "mirror"
+      ],
+      "sense_id": "sense-staged-ox-26e052101a683778-p04-a-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ae0eb7f2a7730997",
+      "lemma": "ideal",
+      "pos": "adj.",
+      "sense_zh": "理想的；十分合适的",
+      "sentence_ids": [
+        "p04-a-08-s07"
+      ],
+      "forms": [
+        "ideal"
+      ],
+      "sense_id": "sense-staged-ox-ae0eb7f2a7730997-p04-a-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

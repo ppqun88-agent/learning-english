@@ -1,0 +1,68 @@
+{
+  "id": "p04-b-30",
+  "title_zh": "预约由教练陪同的首次飞行体验",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "first-flight-lesson-inquiry",
+    "label_zh": "询问首次飞行体验课",
+    "goal_zh": "核实新手参与方式及教练安排后预约体验"
+  },
+  "participants": [
+    "Rowan",
+    "Leila"
+  ],
+  "context_zh": "一位没有飞行经验的顾客询问体验课的教练安排并预约。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-30-s01",
+      "speaker": "Rowan",
+      "text": "Can someone with no experience take a trial flight, or is it only for people training to be a pilot?"
+    },
+    {
+      "id": "p04-b-30-s02",
+      "speaker": "Leila",
+      "text": "Beginners are welcome. You sit with a qualified instructor, who explains the controls and remains in charge throughout."
+    },
+    {
+      "id": "p04-b-30-s03",
+      "speaker": "Rowan",
+      "text": "That sounds right for me. Do you have a place on Sunday morning?"
+    },
+    {
+      "id": "p04-b-30-s04",
+      "speaker": "Leila",
+      "text": "There is one at ten. The session includes a briefing before the flight."
+    },
+    {
+      "id": "p04-b-30-s05",
+      "speaker": "Rowan",
+      "text": "Please book that place for me."
+    },
+    {
+      "id": "p04-b-30-s06",
+      "speaker": "Leila",
+      "text": "You are booked for ten on Sunday. I will send the arrival instructions and the weather-cancellation details."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-96fa39fa62ad5a08",
+      "lemma": "pilot",
+      "pos": "n.",
+      "sense_zh": "飞行员",
+      "sentence_ids": [
+        "p04-b-30-s01"
+      ],
+      "forms": [
+        "pilot"
+      ],
+      "sense_id": "sense-staged-ox-96fa39fa62ad5a08-p04-b-30",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

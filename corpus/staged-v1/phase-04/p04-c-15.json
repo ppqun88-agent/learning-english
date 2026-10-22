@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-15",
+  "title_zh": "加入传统节庆志愿活动",
+  "topic_id": "community",
+  "scenario": {
+    "id": "heritage-festival-volunteering",
+    "label_zh": "加入传统节庆志愿活动",
+    "goal_zh": "了解社团目标和节庆习俗并约定首次帮忙的工作"
+  },
+  "participants": [
+    "Nadia",
+    "Colin"
+  ],
+  "context_zh": "新人想参加当地历史社团的节庆志愿活动，询问活动是否欢迎外来居民。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-15-s01",
+      "speaker": "Nadia",
+      "text": "I'd like to help at the festival. Is your society only for people who grew up here?"
+    },
+    {
+      "id": "p04-c-15-s02",
+      "speaker": "Colin",
+      "text": "Not at all. We're united by an interest in the town, not by where we were born."
+    },
+    {
+      "id": "p04-c-15-s03",
+      "speaker": "Nadia",
+      "text": "I saw the traditional clothes in last year's photos. Is the festival mainly a performance?"
+    },
+    {
+      "id": "p04-c-15-s04",
+      "speaker": "Colin",
+      "text": "There's music, but the lunch is a social event for everyone. Sharing bread at one long table is a local tradition."
+    },
+    {
+      "id": "p04-c-15-s05",
+      "speaker": "Nadia",
+      "text": "That sounds welcoming. I could help set up the tables."
+    },
+    {
+      "id": "p04-c-15-s06",
+      "speaker": "Colin",
+      "text": "Lovely. Meet us outside the hall at nine on Saturday, and we'll show you where everything goes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3d2670fc5883903b",
+      "lemma": "tradition",
+      "pos": "n.",
+      "sense_zh": "传统；习俗",
+      "sentence_ids": [
+        "p04-c-15-s04"
+      ],
+      "forms": [
+        "tradition"
+      ],
+      "sense_id": "sense-staged-ox-3d2670fc5883903b-p04-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-db5f5fd105f1d5fd",
+      "lemma": "traditional",
+      "pos": "adj.",
+      "sense_zh": "传统的",
+      "sentence_ids": [
+        "p04-c-15-s03"
+      ],
+      "forms": [
+        "traditional"
+      ],
+      "sense_id": "sense-staged-ox-db5f5fd105f1d5fd-p04-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-38163be120b412c2",
+      "lemma": "society",
+      "pos": "n.",
+      "sense_zh": "社团；协会",
+      "sentence_ids": [
+        "p04-c-15-s01"
+      ],
+      "forms": [
+        "society"
+      ],
+      "sense_id": "sense-staged-ox-38163be120b412c2-p04-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dafc79b2c0da211a",
+      "lemma": "social",
+      "pos": "adj.",
+      "sense_zh": "社交的",
+      "sentence_ids": [
+        "p04-c-15-s04"
+      ],
+      "forms": [
+        "social"
+      ],
+      "sense_id": "sense-staged-ox-dafc79b2c0da211a-p04-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-41e99c839c06cc24",
+      "lemma": "united",
+      "pos": "adj.",
+      "sense_zh": "因共同目标而团结的",
+      "sentence_ids": [
+        "p04-c-15-s02"
+      ],
+      "forms": [
+        "united"
+      ],
+      "sense_id": "sense-staged-ox-41e99c839c06cc24-p04-c-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

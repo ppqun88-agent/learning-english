@@ -1,0 +1,95 @@
+{
+  "id": "p04-c-27",
+  "title_zh": "核实异常的配送延误",
+  "topic_id": "services",
+  "scenario": {
+    "id": "service-delay-expectations",
+    "label_zh": "核实异常的配送延误",
+    "goal_zh": "比较平时配送情况并确认客服下一步查询安排"
+  },
+  "participants": [
+    "Nell",
+    "Arlo"
+  ],
+  "context_zh": "顾客向客服查询比平时长得多的配送等待，客服确认进一步查询和回复安排。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-27-s01",
+      "speaker": "Nell",
+      "text": "My parcel hasn't moved for a week. Is that a typical wait for this service?"
+    },
+    {
+      "id": "p04-c-27-s02",
+      "speaker": "Arlo",
+      "text": "No, that's unusual. This route normally takes two working days."
+    },
+    {
+      "id": "p04-c-27-s03",
+      "speaker": "Nell",
+      "text": "That's surprising. The tracking page still says it's on schedule."
+    },
+    {
+      "id": "p04-c-27-s04",
+      "speaker": "Arlo",
+      "text": "I can see why that's confusing. I'll ask the depot to check where it is and send you an update by tomorrow afternoon."
+    },
+    {
+      "id": "p04-c-27-s05",
+      "speaker": "Nell",
+      "text": "Please use the email on my order. I'll wait for that update before arranging another delivery."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-616ffafe54435dba",
+      "lemma": "typical",
+      "pos": "adj.",
+      "sense_zh": "通常的；有代表性的",
+      "sentence_ids": [
+        "p04-c-27-s01"
+      ],
+      "forms": [
+        "typical"
+      ],
+      "sense_id": "sense-staged-ox-616ffafe54435dba-p04-c-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4d40c5f701c47383",
+      "lemma": "unusual",
+      "pos": "adj.",
+      "sense_zh": "不寻常的",
+      "sentence_ids": [
+        "p04-c-27-s02"
+      ],
+      "forms": [
+        "unusual"
+      ],
+      "sense_id": "sense-staged-ox-4d40c5f701c47383-p04-c-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-55612a1839dc39bd",
+      "lemma": "surprising",
+      "pos": "adj.",
+      "sense_zh": "令人惊讶的",
+      "sentence_ids": [
+        "p04-c-27-s03"
+      ],
+      "forms": [
+        "surprising"
+      ],
+      "sense_id": "sense-staged-ox-55612a1839dc39bd-p04-c-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

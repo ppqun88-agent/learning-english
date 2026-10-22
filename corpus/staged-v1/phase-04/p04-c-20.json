@@ -1,0 +1,153 @@
+{
+  "id": "p04-c-20",
+  "title_zh": "选择城市轨道交通日票",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "city-transit-day-pass",
+    "label_zh": "选择城市轨道交通日票",
+    "goal_zh": "确认旅客可购买的车票和地下站台方向"
+  },
+  "participants": [
+    "Evan",
+    "Clerk Jo"
+  ],
+  "context_zh": "短期商务旅客在车站咨询日票及市中心方向的站台。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-20-s01",
+      "speaker": "Evan",
+      "text": "I'm a business traveler here for two days. Can visitors buy a day pass for public transportation?"
+    },
+    {
+      "id": "p04-c-20-s02",
+      "speaker": "Clerk Jo",
+      "text": "Yes. You don't need a local address."
+    },
+    {
+      "id": "p04-c-20-s03",
+      "speaker": "Evan",
+      "text": "Does it cover the subway as well as buses?"
+    },
+    {
+      "id": "p04-c-20-s04",
+      "speaker": "Clerk Jo",
+      "text": "It does. You can buy it at this machine, then use the underground platform downstairs."
+    },
+    {
+      "id": "p04-c-20-s05",
+      "speaker": "Evan",
+      "text": "Which way is the train to the city center?"
+    },
+    {
+      "id": "p04-c-20-s06",
+      "speaker": "Clerk Jo",
+      "text": "Walk toward the blue sign. Trains for the center leave from track two."
+    },
+    {
+      "id": "p04-c-20-s07",
+      "speaker": "Evan",
+      "text": "Great. I'll get a day pass and head down there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-baa35659428be186",
+      "lemma": "subway",
+      "pos": "n.",
+      "sense_zh": "地铁",
+      "sentence_ids": [
+        "p04-c-20-s03"
+      ],
+      "forms": [
+        "subway"
+      ],
+      "sense_id": "sense-staged-ox-baa35659428be186-p04-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00b94172b157ccd3",
+      "lemma": "underground",
+      "pos": "adj.",
+      "sense_zh": "地下的",
+      "sentence_ids": [
+        "p04-c-20-s04"
+      ],
+      "forms": [
+        "underground"
+      ],
+      "sense_id": "sense-staged-ox-00b94172b157ccd3-p04-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8e228851442b6153",
+      "lemma": "toward",
+      "pos": "prep.",
+      "sense_zh": "朝；向",
+      "sentence_ids": [
+        "p04-c-20-s06"
+      ],
+      "forms": [
+        "toward"
+      ],
+      "sense_id": "sense-staged-ox-8e228851442b6153-p04-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8927220327f9df9d",
+      "lemma": "traveler",
+      "pos": "n.",
+      "sense_zh": "旅行者；旅客",
+      "sentence_ids": [
+        "p04-c-20-s01"
+      ],
+      "forms": [
+        "traveler"
+      ],
+      "sense_id": "sense-staged-ox-8927220327f9df9d-p04-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ce25cdbee402d4b7",
+      "lemma": "transportation",
+      "pos": "n.",
+      "sense_zh": "交通运输",
+      "sentence_ids": [
+        "p04-c-20-s01"
+      ],
+      "forms": [
+        "transportation"
+      ],
+      "sense_id": "sense-staged-ox-ce25cdbee402d4b7-p04-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0f4b4b4f61952db",
+      "lemma": "track",
+      "pos": "n.",
+      "sense_zh": "铁路轨道",
+      "sentence_ids": [
+        "p04-c-20-s06"
+      ],
+      "forms": [
+        "track"
+      ],
+      "sense_id": "sense-staged-ox-a0f4b4b4f61952db-p04-c-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

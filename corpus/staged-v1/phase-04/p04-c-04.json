@@ -1,0 +1,143 @@
+{
+  "id": "p04-c-04",
+  "title_zh": "调整山间步行路线",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "hill-walk-route-choice",
+    "label_zh": "调整山间步行路线",
+    "goal_zh": "考虑天色和路面条件后改走短路线"
+  },
+  "participants": [
+    "Sana",
+    "Ellis"
+  ],
+  "context_zh": "两名徒步者发现天色转暗，决定放弃山顶景色并沿较短路线返回。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-04-s01",
+      "speaker": "Sana",
+      "text": "The sky has suddenly gone dark. Do you think a storm is coming?"
+    },
+    {
+      "id": "p04-c-04-s02",
+      "speaker": "Ellis",
+      "text": "Maybe. We still have a long climb before we get a view of the valley."
+    },
+    {
+      "id": "p04-c-04-s03",
+      "speaker": "Sana",
+      "text": "I'd rather miss the view than be up there in bad weather."
+    },
+    {
+      "id": "p04-c-04-s04",
+      "speaker": "Ellis",
+      "text": "Agreed. The path towards the village is shorter, and the surface looks firmer than this muddy trail."
+    },
+    {
+      "id": "p04-c-04-s05",
+      "speaker": "Sana",
+      "text": "Let's take that path now. We can come back for the hill another day."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a87567991a157e4b",
+      "lemma": "sky",
+      "pos": "n.",
+      "sense_zh": "天空",
+      "sentence_ids": [
+        "p04-c-04-s01"
+      ],
+      "forms": [
+        "sky"
+      ],
+      "sense_id": "sense-staged-ox-a87567991a157e4b-p04-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-22077fe483173a5a",
+      "lemma": "storm",
+      "pos": "n.",
+      "sense_zh": "暴风雨",
+      "sentence_ids": [
+        "p04-c-04-s01"
+      ],
+      "forms": [
+        "storm"
+      ],
+      "sense_id": "sense-staged-ox-22077fe483173a5a-p04-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7c1feec1c0886fb2",
+      "lemma": "valley",
+      "pos": "n.",
+      "sense_zh": "山谷",
+      "sentence_ids": [
+        "p04-c-04-s02"
+      ],
+      "forms": [
+        "valley"
+      ],
+      "sense_id": "sense-staged-ox-7c1feec1c0886fb2-p04-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08eff366d84bbfe2",
+      "lemma": "view",
+      "pos": "n.",
+      "sense_zh": "景色",
+      "sentence_ids": [
+        "p04-c-04-s02"
+      ],
+      "forms": [
+        "view"
+      ],
+      "sense_id": "sense-staged-ox-08eff366d84bbfe2-p04-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d1481c48eee5249d",
+      "lemma": "towards",
+      "pos": "prep.",
+      "sense_zh": "朝着；向",
+      "sentence_ids": [
+        "p04-c-04-s04"
+      ],
+      "forms": [
+        "towards"
+      ],
+      "sense_id": "sense-staged-ox-d1481c48eee5249d-p04-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3660ec20cf5dbbed",
+      "lemma": "suddenly",
+      "pos": "adv.",
+      "sense_zh": "突然",
+      "sentence_ids": [
+        "p04-c-04-s01"
+      ],
+      "forms": [
+        "suddenly"
+      ],
+      "sense_id": "sense-staged-ox-3660ec20cf5dbbed-p04-c-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

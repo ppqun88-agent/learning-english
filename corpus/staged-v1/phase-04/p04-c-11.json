@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-11",
+  "title_zh": "安排合唱排练与伴奏",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "choir-rehearsal-plan",
+    "label_zh": "安排合唱排练与伴奏",
+    "goal_zh": "确认替补伴奏并确定困难声部的练习方式"
+  },
+  "participants": [
+    "Priya",
+    "Tomas"
+  ],
+  "context_zh": "合唱团原伴奏者缺席，团员确认替补人员并安排困难段落的练习。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-11-s01",
+      "speaker": "Priya",
+      "text": "Ada can't come tonight. Can you play the piano for our singing practice?"
+    },
+    {
+      "id": "p04-c-11-s02",
+      "speaker": "Tomas",
+      "text": "Yes. I have the music. Shall we start with the last verse?"
+    },
+    {
+      "id": "p04-c-11-s03",
+      "speaker": "Priya",
+      "text": "Please. My voice keeps dropping out on the high part."
+    },
+    {
+      "id": "p04-c-11-s04",
+      "speaker": "Tomas",
+      "text": "We'll try it quietly first, before everyone goes onto the stage."
+    },
+    {
+      "id": "p04-c-11-s05",
+      "speaker": "Priya",
+      "text": "That takes some pressure off. You've even got a smile out of me."
+    },
+    {
+      "id": "p04-c-11-s06",
+      "speaker": "Tomas",
+      "text": "Good. I'll play the difficult line once, and then you can join me."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4398e19bace3643c",
+      "lemma": "singing",
+      "pos": "n.",
+      "sense_zh": "歌唱",
+      "sentence_ids": [
+        "p04-c-11-s01"
+      ],
+      "forms": [
+        "singing"
+      ],
+      "sense_id": "sense-staged-ox-4398e19bace3643c-p04-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d42a70b9561c09b6",
+      "lemma": "voice",
+      "pos": "n.",
+      "sense_zh": "嗓音",
+      "sentence_ids": [
+        "p04-c-11-s03"
+      ],
+      "forms": [
+        "voice"
+      ],
+      "sense_id": "sense-staged-ox-d42a70b9561c09b6-p04-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-725368950c0382ef",
+      "lemma": "stage",
+      "pos": "n.",
+      "sense_zh": "舞台",
+      "sentence_ids": [
+        "p04-c-11-s04"
+      ],
+      "forms": [
+        "stage"
+      ],
+      "sense_id": "sense-staged-ox-725368950c0382ef-p04-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1c018d1d7a87a0e9",
+      "lemma": "smile",
+      "pos": "n.",
+      "sense_zh": "微笑",
+      "sentence_ids": [
+        "p04-c-11-s05"
+      ],
+      "forms": [
+        "smile"
+      ],
+      "sense_id": "sense-staged-ox-1c018d1d7a87a0e9-p04-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-46c2fd3a91599d54",
+      "lemma": "shall",
+      "pos": "modal v.",
+      "sense_zh": "用于提出共同做某事的建议",
+      "sentence_ids": [
+        "p04-c-11-s02"
+      ],
+      "forms": [
+        "shall"
+      ],
+      "sense_id": "sense-staged-ox-46c2fd3a91599d54-p04-c-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

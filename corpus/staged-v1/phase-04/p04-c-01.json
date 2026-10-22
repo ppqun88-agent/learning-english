@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-01",
+  "title_zh": "挑选露台铺路砖样品",
+  "topic_id": "services",
+  "scenario": {
+    "id": "paving-sample-comparison",
+    "label_zh": "挑选露台铺路砖样品",
+    "goal_zh": "说明材质与形状需求，比较厚度并选定带回家检查开门空间的样品"
+  },
+  "participants": [
+    "Mara",
+    "Ivo"
+  ],
+  "context_zh": "玛拉到建材店借铺路砖样品，准备回家核对露台门下的空间。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-01-s01",
+      "speaker": "Mara",
+      "text": "We need a stone tile for our little patio. Can I compare these samples?"
+    },
+    {
+      "id": "p04-c-01-s02",
+      "speaker": "Ivo",
+      "text": "Of course. What shape do you want?"
+    },
+    {
+      "id": "p04-c-01-s03",
+      "speaker": "Mara",
+      "text": "A square tile would line up with the path. This one looks rather thin."
+    },
+    {
+      "id": "p04-c-01-s04",
+      "speaker": "Ivo",
+      "text": "It's two centimetres thick. The other sample is three."
+    },
+    {
+      "id": "p04-c-01-s05",
+      "speaker": "Mara",
+      "text": "I'll take the thicker sample home and check that the door can still open over it."
+    },
+    {
+      "id": "p04-c-01-s06",
+      "speaker": "Ivo",
+      "text": "Here you are. Bring it back when you've measured the space."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5f5a5b663893d322",
+      "lemma": "shape",
+      "pos": "n.",
+      "sense_zh": "形状",
+      "sentence_ids": [
+        "p04-c-01-s02"
+      ],
+      "forms": [
+        "shape"
+      ],
+      "sense_id": "sense-staged-ox-5f5a5b663893d322-p04-c-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-84236caf0da3495b",
+      "lemma": "square",
+      "pos": "adj.",
+      "sense_zh": "正方形的",
+      "sentence_ids": [
+        "p04-c-01-s03"
+      ],
+      "forms": [
+        "square"
+      ],
+      "sense_id": "sense-staged-ox-84236caf0da3495b-p04-c-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e204f57a01e6d9da",
+      "lemma": "stone",
+      "pos": "n.",
+      "sense_zh": "石料",
+      "sentence_ids": [
+        "p04-c-01-s01"
+      ],
+      "forms": [
+        "stone"
+      ],
+      "sense_id": "sense-staged-ox-e204f57a01e6d9da-p04-c-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fa0bae8213b9e356",
+      "lemma": "thick",
+      "pos": "adj.",
+      "sense_zh": "厚的；有某一厚度的",
+      "sentence_ids": [
+        "p04-c-01-s04"
+      ],
+      "forms": [
+        "thick"
+      ],
+      "sense_id": "sense-staged-ox-fa0bae8213b9e356-p04-c-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6f1232486b8b1a2d",
+      "lemma": "thin",
+      "pos": "adj.",
+      "sense_zh": "薄的",
+      "sentence_ids": [
+        "p04-c-01-s03"
+      ],
+      "forms": [
+        "thin"
+      ],
+      "sense_id": "sense-staged-ox-6f1232486b8b1a2d-p04-c-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-17",
+  "title_zh": "试味后选择奶昔",
+  "topic_id": "food",
+  "scenario": {
+    "id": "milkshake-counter-choice",
+    "label_zh": "试味后选择奶昔",
+    "goal_zh": "询问奶昔种类和甜度并完成点单"
+  },
+  "participants": [
+    "Miles",
+    "Vera"
+  ],
+  "context_zh": "顾客在饮品柜台试尝草莓奶昔，确认甜度后点了一小杯。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-17-s01",
+      "speaker": "Miles",
+      "text": "What sort of shake is that pink one?"
+    },
+    {
+      "id": "p04-c-17-s02",
+      "speaker": "Vera",
+      "text": "Strawberry. We have a variety of fruit flavours as well as chocolate."
+    },
+    {
+      "id": "p04-c-17-s03",
+      "speaker": "Miles",
+      "text": "Could I taste the strawberry before I decide?"
+    },
+    {
+      "id": "p04-c-17-s04",
+      "speaker": "Vera",
+      "text": "Certainly. Here's a little sample and a spoon."
+    },
+    {
+      "id": "p04-c-17-s05",
+      "speaker": "Miles",
+      "text": "That's sweet, but not too sweet for me. I'll have a small one, please."
+    },
+    {
+      "id": "p04-c-17-s06",
+      "speaker": "Vera",
+      "text": "One small strawberry shake. I'll make it now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-cbc4f691599f7d24",
+      "lemma": "spoon",
+      "pos": "n.",
+      "sense_zh": "勺子",
+      "sentence_ids": [
+        "p04-c-17-s04"
+      ],
+      "forms": [
+        "spoon"
+      ],
+      "sense_id": "sense-staged-ox-cbc4f691599f7d24-p04-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a5869096e599f1b4",
+      "lemma": "taste",
+      "pos": "v.",
+      "sense_zh": "品尝",
+      "sentence_ids": [
+        "p04-c-17-s03"
+      ],
+      "forms": [
+        "taste"
+      ],
+      "sense_id": "sense-staged-ox-a5869096e599f1b4-p04-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5cb4159458624f30",
+      "lemma": "sweet",
+      "pos": "adj.",
+      "sense_zh": "甜的",
+      "sentence_ids": [
+        "p04-c-17-s05"
+      ],
+      "forms": [
+        "sweet"
+      ],
+      "sense_id": "sense-staged-ox-5cb4159458624f30-p04-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-edd7bfd928c35c38",
+      "lemma": "variety",
+      "pos": "n.",
+      "sense_zh": "多种多样的种类",
+      "sentence_ids": [
+        "p04-c-17-s02"
+      ],
+      "forms": [
+        "variety"
+      ],
+      "sense_id": "sense-staged-ox-edd7bfd928c35c38-p04-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-80990b7a7cec8896",
+      "lemma": "sort",
+      "pos": "n.",
+      "sense_zh": "种类",
+      "sentence_ids": [
+        "p04-c-17-s01"
+      ],
+      "forms": [
+        "sort"
+      ],
+      "sense_id": "sense-staged-ox-80990b7a7cec8896-p04-c-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

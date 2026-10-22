@@ -1,0 +1,137 @@
+{
+  "id": "p04-a-02",
+  "title_zh": "生病请假并确认今天的替班",
+  "topic_id": "work",
+  "scenario": {
+    "id": "sick-day-shift-cover",
+    "label_zh": "协调病假期间的班次交接",
+    "goal_zh": "确认替班人员及常规工作的交接内容"
+  },
+  "participants": [
+    "Yasmin",
+    "Owen"
+  ],
+  "context_zh": "员工因病致电同事，确认日常任务由谁接手。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-02-s01",
+      "speaker": "Yasmin",
+      "text": "I am too ill to come in today. Can you manage without me?"
+    },
+    {
+      "id": "p04-a-02-s02",
+      "speaker": "Owen",
+      "text": "Yes. I can cover the front desk, and Priya has offered to do the deliveries."
+    },
+    {
+      "id": "p04-a-02-s03",
+      "speaker": "Yasmin",
+      "text": "Thanks. I normally print the delivery list before nine."
+    },
+    {
+      "id": "p04-a-02-s04",
+      "speaker": "Owen",
+      "text": "I will print it now. Is the latest copy in the shared folder?"
+    },
+    {
+      "id": "p04-a-02-s05",
+      "speaker": "Yasmin",
+      "text": "Yes, under today’s date. Should I choose illness as the reason on the absence form?"
+    },
+    {
+      "id": "p04-a-02-s06",
+      "speaker": "Owen",
+      "text": "Yes. I will also tell the afternoon manager that you are away."
+    },
+    {
+      "id": "p04-a-02-s07",
+      "speaker": "Yasmin",
+      "text": "Good, that is everything for this morning. Thank you for covering."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7784f3101efc25be",
+      "lemma": "ill",
+      "pos": "adj.",
+      "sense_zh": "生病的",
+      "sentence_ids": [
+        "p04-a-02-s01"
+      ],
+      "forms": [
+        "ill"
+      ],
+      "sense_id": "sense-staged-ox-7784f3101efc25be-p04-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44e1adea0925c33f",
+      "lemma": "manage",
+      "pos": "v.",
+      "sense_zh": "设法应付",
+      "sentence_ids": [
+        "p04-a-02-s01"
+      ],
+      "forms": [
+        "manage"
+      ],
+      "sense_id": "sense-staged-ox-44e1adea0925c33f-p04-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1fb108557035217f",
+      "lemma": "normally",
+      "pos": "adv.",
+      "sense_zh": "通常",
+      "sentence_ids": [
+        "p04-a-02-s03"
+      ],
+      "forms": [
+        "normally"
+      ],
+      "sense_id": "sense-staged-ox-1fb108557035217f-p04-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ed7ca9d2e0075f73",
+      "lemma": "illness",
+      "pos": "n.",
+      "sense_zh": "疾病；生病",
+      "sentence_ids": [
+        "p04-a-02-s05"
+      ],
+      "forms": [
+        "illness"
+      ],
+      "sense_id": "sense-staged-ox-ed7ca9d2e0075f73-p04-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ffd098c6ad686f45",
+      "lemma": "manager",
+      "pos": "n.",
+      "sense_zh": "经理；负责人",
+      "sentence_ids": [
+        "p04-a-02-s06"
+      ],
+      "forms": [
+        "manager"
+      ],
+      "sense_id": "sense-staged-ox-ffd098c6ad686f45-p04-a-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

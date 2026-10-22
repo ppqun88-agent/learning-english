@@ -1,0 +1,190 @@
+{
+  "id": "p04-b-10",
+  "title_zh": "给环境调查报道加上样本限制",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "survey-evidence",
+    "label_zh": "讨论调查证据",
+    "goal_zh": "核对样本、局限与结论的依据"
+  },
+  "participants": [
+    "Lena",
+    "Dr Bell"
+  ],
+  "context_zh": "记者与研究者核对一项虚构的近期调查，避免把受访者意见写成全城事实。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-10-s01",
+      "speaker": "Lena",
+      "text": "I am the reporter working on your recent survey. Can I say that air pollution worries half the city?"
+    },
+    {
+      "id": "p04-b-10-s02",
+      "speaker": "Dr Bell",
+      "text": "Not from these results. Forty percent of the people who answered mentioned it, not half."
+    },
+    {
+      "id": "p04-b-10-s03",
+      "speaker": "Lena",
+      "text": "And the people who answered are not necessarily like the whole population?"
+    },
+    {
+      "id": "p04-b-10-s04",
+      "speaker": "Dr Bell",
+      "text": "Exactly. We invited members of two neighbourhood groups. As a researcher, I need to make that limit clear."
+    },
+    {
+      "id": "p04-b-10-s05",
+      "speaker": "Lena",
+      "text": "Can the survey predict whether air quality will get worse?"
+    },
+    {
+      "id": "p04-b-10-s06",
+      "speaker": "Dr Bell",
+      "text": "No. We asked people what worried them. We did not measure the air."
+    },
+    {
+      "id": "p04-b-10-s07",
+      "speaker": "Lena",
+      "text": "Then I will describe the respondents and avoid a forecast. Can you check that paragraph before we publish it?"
+    },
+    {
+      "id": "p04-b-10-s08",
+      "speaker": "Dr Bell",
+      "text": "Yes. Send me the paragraph, and I will check that it matches the findings."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fb065ee3478759da",
+      "lemma": "reporter",
+      "pos": "n.",
+      "sense_zh": "记者",
+      "sentence_ids": [
+        "p04-b-10-s01"
+      ],
+      "forms": [
+        "reporter"
+      ],
+      "sense_id": "sense-staged-ox-fb065ee3478759da-p04-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bf1baf8976796f2d",
+      "lemma": "recent",
+      "pos": "adj.",
+      "sense_zh": "最近的",
+      "sentence_ids": [
+        "p04-b-10-s01"
+      ],
+      "forms": [
+        "recent"
+      ],
+      "sense_id": "sense-staged-ox-bf1baf8976796f2d-p04-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-58e82fa218d3cfca",
+      "lemma": "pollution",
+      "pos": "n.",
+      "sense_zh": "污染",
+      "sentence_ids": [
+        "p04-b-10-s01"
+      ],
+      "forms": [
+        "pollution"
+      ],
+      "sense_id": "sense-staged-ox-58e82fa218d3cfca-p04-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8460a5d4ccfbdbae",
+      "lemma": "percent",
+      "pos": "n.",
+      "sense_zh": "百分比中的百分数单位",
+      "sentence_ids": [
+        "p04-b-10-s02"
+      ],
+      "forms": [
+        "percent"
+      ],
+      "sense_id": "sense-staged-ox-8460a5d4ccfbdbae-p04-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b363eaeb7883f33d",
+      "lemma": "population",
+      "pos": "n.",
+      "sense_zh": "人口；全体居民",
+      "sentence_ids": [
+        "p04-b-10-s03"
+      ],
+      "forms": [
+        "population"
+      ],
+      "sense_id": "sense-staged-ox-b363eaeb7883f33d-p04-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d669dd56ab6eb084",
+      "lemma": "researcher",
+      "pos": "n.",
+      "sense_zh": "研究人员",
+      "sentence_ids": [
+        "p04-b-10-s04"
+      ],
+      "forms": [
+        "researcher"
+      ],
+      "sense_id": "sense-staged-ox-d669dd56ab6eb084-p04-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16ba107933e1b3e7",
+      "lemma": "predict",
+      "pos": "v.",
+      "sense_zh": "预测",
+      "sentence_ids": [
+        "p04-b-10-s05"
+      ],
+      "forms": [
+        "predict"
+      ],
+      "sense_id": "sense-staged-ox-16ba107933e1b3e7-p04-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9e331912b416415",
+      "lemma": "publish",
+      "pos": "v.",
+      "sense_zh": "发表；出版",
+      "sentence_ids": [
+        "p04-b-10-s07"
+      ],
+      "forms": [
+        "publish"
+      ],
+      "sense_id": "sense-staged-ox-b9e331912b416415-p04-b-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

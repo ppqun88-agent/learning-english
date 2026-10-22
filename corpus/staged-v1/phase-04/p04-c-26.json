@@ -1,0 +1,105 @@
+{
+  "id": "p04-c-26",
+  "title_zh": "报告被抢走的包",
+  "topic_id": "services",
+  "scenario": {
+    "id": "bag-theft-report",
+    "label_zh": "报告被抢走的包",
+    "goal_zh": "向工作人员描述抢包经过并请其联系警方"
+  },
+  "participants": [
+    "Amir",
+    "Desk Officer May"
+  ],
+  "context_zh": "乘客在车站服务台报告刚刚亲眼看到的抢包事件，请工作人员联系警方。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-26-s01",
+      "speaker": "Amir",
+      "text": "I saw a man steal my bag from the seat next to me. He ran out of the station."
+    },
+    {
+      "id": "p04-c-26-s02",
+      "speaker": "Desk Officer May",
+      "text": "Can you describe him and tell me which exit he used?"
+    },
+    {
+      "id": "p04-c-26-s03",
+      "speaker": "Amir",
+      "text": "The thief had a yellow jacket and went through the doors by the cafe."
+    },
+    {
+      "id": "p04-c-26-s04",
+      "speaker": "Desk Officer May",
+      "text": "Did you notice any writing on the jacket?"
+    },
+    {
+      "id": "p04-c-26-s05",
+      "speaker": "Amir",
+      "text": "Unfortunately, no. It happened so quickly."
+    },
+    {
+      "id": "p04-c-26-s06",
+      "speaker": "Desk Officer May",
+      "text": "Stay here with me. I'll contact the police and pass on the description."
+    },
+    {
+      "id": "p04-c-26-s07",
+      "speaker": "Amir",
+      "text": "Thank you. I can show you exactly where I was sitting."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4faebcac192bc9c9",
+      "lemma": "steal",
+      "pos": "v.",
+      "sense_zh": "偷窃",
+      "sentence_ids": [
+        "p04-c-26-s01"
+      ],
+      "forms": [
+        "steal"
+      ],
+      "sense_id": "sense-staged-ox-4faebcac192bc9c9-p04-c-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6420fdd6f479778e",
+      "lemma": "thief",
+      "pos": "n.",
+      "sense_zh": "小偷",
+      "sentence_ids": [
+        "p04-c-26-s03"
+      ],
+      "forms": [
+        "thief"
+      ],
+      "sense_id": "sense-staged-ox-6420fdd6f479778e-p04-c-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-03c237dd966530f2",
+      "lemma": "unfortunately",
+      "pos": "adv.",
+      "sense_zh": "遗憾地；不幸地",
+      "sentence_ids": [
+        "p04-c-26-s05"
+      ],
+      "forms": [
+        "unfortunately"
+      ],
+      "sense_id": "sense-staged-ox-03c237dd966530f2-p04-c-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

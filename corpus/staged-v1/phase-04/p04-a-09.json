@@ -1,0 +1,163 @@
+{
+  "id": "p04-a-09",
+  "title_zh": "凭刻字认领遗失的首饰袋",
+  "topic_id": "services",
+  "scenario": {
+    "id": "lost-jewellery-identification",
+    "label_zh": "描述并认领遗失的首饰袋",
+    "goal_zh": "凭首饰袋外观和内装物特征核实归属并办理领取"
+  },
+  "participants": [
+    "Ruth",
+    "Imran"
+  ],
+  "context_zh": "访客到英国一家休闲中心的失物处查询首饰袋并核对内容。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-09-s01",
+      "speaker": "Ruth",
+      "text": "My jewellery pouch is missing. I think I left it in the changing room."
+    },
+    {
+      "id": "p04-a-09-s02",
+      "speaker": "Imran",
+      "text": "We have a box of lost property. Can you describe the pouch?"
+    },
+    {
+      "id": "p04-a-09-s03",
+      "speaker": "Ruth",
+      "text": "It is green, with a tiny white flower on the front."
+    },
+    {
+      "id": "p04-a-09-s04",
+      "speaker": "Imran",
+      "text": "We have one like that. Can you identify something inside it?"
+    },
+    {
+      "id": "p04-a-09-s05",
+      "speaker": "Ruth",
+      "text": "A silver ring with the date 12 June on the inside."
+    },
+    {
+      "id": "p04-a-09-s06",
+      "speaker": "Imran",
+      "text": "Yes, that ring is here. Is there another item in the pouch?"
+    },
+    {
+      "id": "p04-a-09-s07",
+      "speaker": "Ruth",
+      "text": "A small gold chain. This is definitely mine."
+    },
+    {
+      "id": "p04-a-09-s08",
+      "speaker": "Imran",
+      "text": "That matches. Please sign this collection record, and I can give it back to you."
+    },
+    {
+      "id": "p04-a-09-s09",
+      "speaker": "Ruth",
+      "text": "Here you are. Thank you for keeping it safe."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bed369e2b285f270",
+      "lemma": "jewellery",
+      "pos": "n.",
+      "sense_zh": "珠宝首饰（英式拼写）",
+      "sentence_ids": [
+        "p04-a-09-s01"
+      ],
+      "forms": [
+        "jewellery"
+      ],
+      "sense_id": "sense-staged-ox-bed369e2b285f270-p04-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-99171d842cee7212",
+      "lemma": "missing",
+      "pos": "adj.",
+      "sense_zh": "不见的；找不到的",
+      "sentence_ids": [
+        "p04-a-09-s01"
+      ],
+      "forms": [
+        "missing"
+      ],
+      "sense_id": "sense-staged-ox-99171d842cee7212-p04-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08eb018188ae63d5",
+      "lemma": "lost",
+      "pos": "adj.",
+      "sense_zh": "遗失的",
+      "sentence_ids": [
+        "p04-a-09-s02"
+      ],
+      "forms": [
+        "lost"
+      ],
+      "sense_id": "sense-staged-ox-08eb018188ae63d5-p04-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-96aa3d2fd42fc113",
+      "lemma": "identify",
+      "pos": "v.",
+      "sense_zh": "辨认；确认身份或物品",
+      "sentence_ids": [
+        "p04-a-09-s04"
+      ],
+      "forms": [
+        "identify"
+      ],
+      "sense_id": "sense-staged-ox-96aa3d2fd42fc113-p04-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5b37c16e458a487a",
+      "lemma": "item",
+      "pos": "n.",
+      "sense_zh": "一件物品",
+      "sentence_ids": [
+        "p04-a-09-s06"
+      ],
+      "forms": [
+        "item"
+      ],
+      "sense_id": "sense-staged-ox-5b37c16e458a487a-p04-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ee0426499c4e2e3e",
+      "lemma": "mine",
+      "pos": "pron.",
+      "sense_zh": "我的东西",
+      "sentence_ids": [
+        "p04-a-09-s07"
+      ],
+      "forms": [
+        "mine"
+      ],
+      "sense_id": "sense-staged-ox-ee0426499c4e2e3e-p04-a-09",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

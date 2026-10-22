@@ -1,0 +1,174 @@
+{
+  "id": "p04-b-13",
+  "title_zh": "改去酒吧听摇滚乐队",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "live-music-evening",
+    "label_zh": "安排现场音乐之夜",
+    "goal_zh": "朋友相约听现场音乐并核对场地与购买专辑安排。"
+  },
+  "participants": [
+    "Milo",
+    "Beth"
+  ],
+  "context_zh": "两位朋友发现原想去的演出取消，另选一个现场音乐场所。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-13-s01",
+      "speaker": "Milo",
+      "text": "Are the singers still going to perform at the arts centre tonight?"
+    },
+    {
+      "id": "p04-b-13-s02",
+      "speaker": "Beth",
+      "text": "Sadly, the show has been cancelled. There is a band at the Fox pub instead."
+    },
+    {
+      "id": "p04-b-13-s03",
+      "speaker": "Milo",
+      "text": "What kind of music do they play? I would rather hear rock than pop tonight."
+    },
+    {
+      "id": "p04-b-13-s04",
+      "speaker": "Beth",
+      "text": "Then you will like them. They are a professional band, and the show starts at eight."
+    },
+    {
+      "id": "p04-b-13-s05",
+      "speaker": "Milo",
+      "text": "Do they sell their album there? I heard one song online and liked it."
+    },
+    {
+      "id": "p04-b-13-s06",
+      "speaker": "Beth",
+      "text": "Yes, at a table near the stage. We can get a copy after the show."
+    },
+    {
+      "id": "p04-b-13-s07",
+      "speaker": "Milo",
+      "text": "Let us meet outside the Fox at seven thirty, then."
+    },
+    {
+      "id": "p04-b-13-s08",
+      "speaker": "Beth",
+      "text": "See you there. That should give us time to find a table."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-08111eb0fe273555",
+      "lemma": "perform",
+      "pos": "v.",
+      "sense_zh": "表演",
+      "sentence_ids": [
+        "p04-b-13-s01"
+      ],
+      "forms": [
+        "perform"
+      ],
+      "sense_id": "sense-staged-ox-08111eb0fe273555-p04-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f89ad277e7c1e3ad",
+      "lemma": "sadly",
+      "pos": "adv.",
+      "sense_zh": "令人遗憾地",
+      "sentence_ids": [
+        "p04-b-13-s02"
+      ],
+      "forms": [
+        "sadly"
+      ],
+      "sense_id": "sense-staged-ox-f89ad277e7c1e3ad-p04-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-161411ce798debef",
+      "lemma": "pub",
+      "pos": "n.",
+      "sense_zh": "酒吧；酒馆",
+      "sentence_ids": [
+        "p04-b-13-s02"
+      ],
+      "forms": [
+        "pub"
+      ],
+      "sense_id": "sense-staged-ox-161411ce798debef-p04-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-53ce026576ef897d",
+      "lemma": "rather",
+      "pos": "adv.",
+      "sense_zh": "宁愿；更愿意",
+      "sentence_ids": [
+        "p04-b-13-s03"
+      ],
+      "forms": [
+        "rather"
+      ],
+      "sense_id": "sense-staged-ox-53ce026576ef897d-p04-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b16f05eea63e8313",
+      "lemma": "rock",
+      "pos": "n.",
+      "sense_zh": "摇滚乐",
+      "sentence_ids": [
+        "p04-b-13-s03"
+      ],
+      "forms": [
+        "rock"
+      ],
+      "sense_id": "sense-staged-ox-b16f05eea63e8313-p04-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f9e92c9c467a5881",
+      "lemma": "pop",
+      "pos": "n.",
+      "sense_zh": "流行音乐",
+      "sentence_ids": [
+        "p04-b-13-s03"
+      ],
+      "forms": [
+        "pop"
+      ],
+      "sense_id": "sense-staged-ox-f9e92c9c467a5881-p04-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5478c56b7497135e",
+      "lemma": "professional",
+      "pos": "adj.",
+      "sense_zh": "职业的",
+      "sentence_ids": [
+        "p04-b-13-s04"
+      ],
+      "forms": [
+        "professional"
+      ],
+      "sense_id": "sense-staged-ox-5478c56b7497135e-p04-b-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p04-b-12",
+  "title_zh": "为物理课选择能看清轨道的模型",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-orbit-model-plan",
+    "label_zh": "规划课堂轨道模型",
+    "goal_zh": "根据演示目的选择简易轨道模型，说明比例局限并分工制作"
+  },
+  "participants": [
+    "Theo",
+    "Rina"
+  ],
+  "context_zh": "两位学生准备一个简易课堂演示，确认展示目的并避免误导观众。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-12-s01",
+      "speaker": "Theo",
+      "text": "Our physics professor wants a model for tomorrow. Should we build the whole solar system?"
+    },
+    {
+      "id": "p04-b-12-s02",
+      "speaker": "Rina",
+      "text": "What is the purpose of the demonstration?"
+    },
+    {
+      "id": "p04-b-12-s03",
+      "speaker": "Theo",
+      "text": "To show how a planet moves around a star, not to compare the planets."
+    },
+    {
+      "id": "p04-b-12-s04",
+      "speaker": "Rina",
+      "text": "Then use one large ball in the middle and a smaller one on a circular track."
+    },
+    {
+      "id": "p04-b-12-s05",
+      "speaker": "Theo",
+      "text": "Why only two balls?"
+    },
+    {
+      "id": "p04-b-12-s06",
+      "speaker": "Rina",
+      "text": "First, people can see the motion more clearly. Secondly, we can finish it today. We must also say the sizes and distances are not to scale."
+    },
+    {
+      "id": "p04-b-12-s07",
+      "speaker": "Theo",
+      "text": "Agreed. I will make the track, and you can prepare the explanation about the model."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a25fc4cf4d03f3b6",
+      "lemma": "physics",
+      "pos": "n.",
+      "sense_zh": "物理学",
+      "sentence_ids": [
+        "p04-b-12-s01"
+      ],
+      "forms": [
+        "physics"
+      ],
+      "sense_id": "sense-staged-ox-a25fc4cf4d03f3b6-p04-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-de31bd60ad3c04cb",
+      "lemma": "professor",
+      "pos": "n.",
+      "sense_zh": "教授",
+      "sentence_ids": [
+        "p04-b-12-s01"
+      ],
+      "forms": [
+        "professor"
+      ],
+      "sense_id": "sense-staged-ox-de31bd60ad3c04cb-p04-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0aa3c0548e82d1cb",
+      "lemma": "purpose",
+      "pos": "n.",
+      "sense_zh": "目的",
+      "sentence_ids": [
+        "p04-b-12-s02"
+      ],
+      "forms": [
+        "purpose"
+      ],
+      "sense_id": "sense-staged-ox-0aa3c0548e82d1cb-p04-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fd105b3a00831ca8",
+      "lemma": "planet",
+      "pos": "n.",
+      "sense_zh": "行星",
+      "sentence_ids": [
+        "p04-b-12-s03"
+      ],
+      "forms": [
+        "planet"
+      ],
+      "sense_id": "sense-staged-ox-fd105b3a00831ca8-p04-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-518a15402bae19b1",
+      "lemma": "secondly",
+      "pos": "adv.",
+      "sense_zh": "第二；其次",
+      "sentence_ids": [
+        "p04-b-12-s06"
+      ],
+      "forms": [
+        "secondly"
+      ],
+      "sense_id": "sense-staged-ox-518a15402bae19b1-p04-b-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

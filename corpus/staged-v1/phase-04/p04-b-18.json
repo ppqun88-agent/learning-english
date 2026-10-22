@@ -1,0 +1,100 @@
+{
+  "id": "p04-b-18",
+  "title_zh": "错开医院探视让家人休息",
+  "topic_id": "health",
+  "scenario": {
+    "id": "family-hospital-visit",
+    "label_zh": "协调家人探访安排",
+    "goal_zh": "避免多人同时探视并照顾陪护者"
+  },
+  "participants": [
+    "Nora",
+    "Felix"
+  ],
+  "context_zh": "兄妹在医院协调探视时间，避免多人同时进入病房。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-18-s01",
+      "speaker": "Nora",
+      "text": "Dad has finally fallen asleep. Can we talk quietly out here?"
+    },
+    {
+      "id": "p04-b-18-s02",
+      "speaker": "Felix",
+      "text": "Of course. Would it be better if I came back later?"
+    },
+    {
+      "id": "p04-b-18-s03",
+      "speaker": "Nora",
+      "text": "Yes. He needs some peace, and Mum is arriving in a few minutes."
+    },
+    {
+      "id": "p04-b-18-s04",
+      "speaker": "Felix",
+      "text": "I will come at four, after Mum leaves. You have been here all morning. Can you rest while she sits with him?"
+    },
+    {
+      "id": "p04-b-18-s05",
+      "speaker": "Nora",
+      "text": "I will go home for an hour. Thanks for coming later instead of joining us all at once."
+    },
+    {
+      "id": "p04-b-18-s06",
+      "speaker": "Felix",
+      "text": "No problem. I will see you at four unless you text me to change it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0d660d212e97fc91",
+      "lemma": "quietly",
+      "pos": "adv.",
+      "sense_zh": "轻声地",
+      "sentence_ids": [
+        "p04-b-18-s01"
+      ],
+      "forms": [
+        "quietly"
+      ],
+      "sense_id": "sense-staged-ox-0d660d212e97fc91-p04-b-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ffe5076e8f0f7900",
+      "lemma": "peace",
+      "pos": "n.",
+      "sense_zh": "安静；清静",
+      "sentence_ids": [
+        "p04-b-18-s03"
+      ],
+      "forms": [
+        "peace"
+      ],
+      "sense_id": "sense-staged-ox-ffe5076e8f0f7900-p04-b-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-070033c5b11a70ba",
+      "lemma": "rest",
+      "pos": "v.",
+      "sense_zh": "休息",
+      "sentence_ids": [
+        "p04-b-18-s04"
+      ],
+      "forms": [
+        "rest"
+      ],
+      "sense_id": "sense-staged-ox-070033c5b11a70ba-p04-b-18",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

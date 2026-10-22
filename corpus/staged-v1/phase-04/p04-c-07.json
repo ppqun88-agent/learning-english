@@ -1,0 +1,100 @@
+{
+  "id": "p04-c-07",
+  "title_zh": "说明胃部不适并等候检查",
+  "topic_id": "health",
+  "scenario": {
+    "id": "stomach-symptom-assessment",
+    "label_zh": "说明胃部不适并等候检查",
+    "goal_zh": "向护士描述胃部不适和体温并明确等待医生评估"
+  },
+  "participants": [
+    "Omar",
+    "Leah"
+  ],
+  "context_zh": "奥马尔在诊所向护士说明胃部不适，等候医生评估原因。此为虚构就诊沟通，不作诊断。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-07-s01",
+      "speaker": "Omar",
+      "text": "My stomach has hurt since last night, and I feel hot."
+    },
+    {
+      "id": "p04-c-07-s02",
+      "speaker": "Leah",
+      "text": "I'll check your temperature. Have you been able to drink anything?"
+    },
+    {
+      "id": "p04-c-07-s03",
+      "speaker": "Omar",
+      "text": "A little water. Could this be a virus?"
+    },
+    {
+      "id": "p04-c-07-s04",
+      "speaker": "Leah",
+      "text": "We can't tell the cause from that alone. I'll record what you've told me for the doctor."
+    },
+    {
+      "id": "p04-c-07-s05",
+      "speaker": "Omar",
+      "text": "All right. Where should I wait?"
+    },
+    {
+      "id": "p04-c-07-s06",
+      "speaker": "Leah",
+      "text": "In this room, please. I'll let the doctor know you're ready."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-56deb1acf8ffae1c",
+      "lemma": "stomach",
+      "pos": "n.",
+      "sense_zh": "胃；腹部",
+      "sentence_ids": [
+        "p04-c-07-s01"
+      ],
+      "forms": [
+        "stomach"
+      ],
+      "sense_id": "sense-staged-ox-56deb1acf8ffae1c-p04-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0900b092e65f9ec1",
+      "lemma": "temperature",
+      "pos": "n.",
+      "sense_zh": "体温",
+      "sentence_ids": [
+        "p04-c-07-s02"
+      ],
+      "forms": [
+        "temperature"
+      ],
+      "sense_id": "sense-staged-ox-0900b092e65f9ec1-p04-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5adf79023b8fd37d",
+      "lemma": "virus",
+      "pos": "n.",
+      "sense_zh": "病毒",
+      "sentence_ids": [
+        "p04-c-07-s03"
+      ],
+      "forms": [
+        "virus"
+      ],
+      "sense_id": "sense-staged-ox-5adf79023b8fd37d-p04-c-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p04-b-28",
+  "title_zh": "分工准备六个人的生日惊喜",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "surprise-birthday-planning",
+    "label_zh": "安排生日惊喜与分工",
+    "goal_zh": "商定人数、食物和礼物以完成惊喜聚会准备"
+  },
+  "participants": [
+    "Benji",
+    "Isla"
+  ],
+  "context_zh": "两位朋友为玛雅安排小型惊喜聚会，敲定食物和礼物并保持保密。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-28-s01",
+      "speaker": "Benji",
+      "text": "There will be six of us for Maya’s birthday. Can you keep the party a secret until she arrives?"
+    },
+    {
+      "id": "p04-b-28-s02",
+      "speaker": "Isla",
+      "text": "Of course. Perhaps we should order pizza rather than try to cook while we hide the decorations."
+    },
+    {
+      "id": "p04-b-28-s03",
+      "speaker": "Benji",
+      "text": "Good idea. I will order three pizzas and collect the cake. Could you pick a gift from the art shop?"
+    },
+    {
+      "id": "p04-b-28-s04",
+      "speaker": "Isla",
+      "text": "She asked for a sketchbook last week. I will get that and bring it in a plain bag."
+    },
+    {
+      "id": "p04-b-28-s05",
+      "speaker": "Benji",
+      "text": "Perfect. Come at six to help me set up. Maya will arrive at seven."
+    },
+    {
+      "id": "p04-b-28-s06",
+      "speaker": "Isla",
+      "text": "Six it is. I will tell the others to arrive before her too."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9e44e4fb08dea50b",
+      "lemma": "secret",
+      "pos": "n.",
+      "sense_zh": "秘密",
+      "sentence_ids": [
+        "p04-b-28-s01"
+      ],
+      "forms": [
+        "secret"
+      ],
+      "sense_id": "sense-staged-ox-9e44e4fb08dea50b-p04-b-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-242ed62645cb98e0",
+      "lemma": "perhaps",
+      "pos": "adv.",
+      "sense_zh": "也许；或许",
+      "sentence_ids": [
+        "p04-b-28-s02"
+      ],
+      "forms": [
+        "perhaps"
+      ],
+      "sense_id": "sense-staged-ox-242ed62645cb98e0-p04-b-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-53b8ba5a521727d1",
+      "lemma": "pick",
+      "pos": "v.",
+      "sense_zh": "挑选",
+      "sentence_ids": [
+        "p04-b-28-s03"
+      ],
+      "forms": [
+        "pick"
+      ],
+      "sense_id": "sense-staged-ox-53b8ba5a521727d1-p04-b-28",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

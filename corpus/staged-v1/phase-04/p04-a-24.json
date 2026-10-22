@@ -1,0 +1,100 @@
+{
+  "id": "p04-a-24",
+  "title_zh": "商量早餐果酱并补上公用餐刀",
+  "topic_id": "food",
+  "scenario": {
+    "id": "shared-breakfast-planning",
+    "label_zh": "商量共享早餐采购",
+    "goal_zh": "兼顾不同早餐偏好并确定共用与自用食材"
+  },
+  "participants": [
+    "Felix",
+    "Joanna"
+  ],
+  "context_zh": "合住者按各自口味商量早餐采购和公用餐具。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-24-s01",
+      "speaker": "Felix",
+      "text": "I am buying breakfast things. Do you want jam for your toast?"
+    },
+    {
+      "id": "p04-a-24-s02",
+      "speaker": "Joanna",
+      "text": "Yes, but not a very sweet one. Which of these three has the least sugar?"
+    },
+    {
+      "id": "p04-a-24-s03",
+      "speaker": "Felix",
+      "text": "The raspberry one, according to the labels. I will get that and some plain bread."
+    },
+    {
+      "id": "p04-a-24-s04",
+      "speaker": "Joanna",
+      "text": "Good. I will use the jam, and you can keep your own peanut butter."
+    },
+    {
+      "id": "p04-a-24-s05",
+      "speaker": "Felix",
+      "text": "We also need another knife. The only one on the table is usually covered in peanut butter."
+    },
+    {
+      "id": "p04-a-24-s06",
+      "speaker": "Joanna",
+      "text": "I will buy a second one today so we have separate knives for the two jars."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-360b77db733b0cce",
+      "lemma": "jam",
+      "pos": "n.",
+      "sense_zh": "果酱",
+      "sentence_ids": [
+        "p04-a-24-s01"
+      ],
+      "forms": [
+        "jam"
+      ],
+      "sense_id": "sense-staged-ox-360b77db733b0cce-p04-a-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fea6f5bb880308d8",
+      "lemma": "least",
+      "pos": "det.",
+      "sense_zh": "最少的",
+      "sentence_ids": [
+        "p04-a-24-s02"
+      ],
+      "forms": [
+        "least"
+      ],
+      "sense_id": "sense-staged-ox-fea6f5bb880308d8-p04-a-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-686ebcebc6014637",
+      "lemma": "knife",
+      "pos": "n.",
+      "sense_zh": "餐刀",
+      "sentence_ids": [
+        "p04-a-24-s05"
+      ],
+      "forms": [
+        "knife"
+      ],
+      "sense_id": "sense-staged-ox-686ebcebc6014637-p04-a-24",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

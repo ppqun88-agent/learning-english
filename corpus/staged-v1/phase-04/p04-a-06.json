@@ -1,0 +1,132 @@
+{
+  "id": "p04-a-06",
+  "title_zh": "确认婚礼邀请和轻松的着装要求",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "wedding-guest-invitation",
+    "label_zh": "确认婚礼邀请安排",
+    "goal_zh": "邀请朋友及其伴侣参加婚礼并澄清着装要求"
+  },
+  "participants": [
+    "Nadia",
+    "Beth"
+  ],
+  "context_zh": "新人向朋友发出小型婚礼邀请，并说明可以携伴参加。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-06-s01",
+      "speaker": "Nadia",
+      "text": "Sam and I plan to marry in July. We would love you to come."
+    },
+    {
+      "id": "p04-a-06-s02",
+      "speaker": "Beth",
+      "text": "What lovely news! Is the wedding here in town?"
+    },
+    {
+      "id": "p04-a-06-s03",
+      "speaker": "Nadia",
+      "text": "Yes, in the garden behind the old library. I will send you an invitation with the date and address."
+    },
+    {
+      "id": "p04-a-06-s04",
+      "speaker": "Beth",
+      "text": "Thank you. Should I wear something very formal?"
+    },
+    {
+      "id": "p04-a-06-s05",
+      "speaker": "Nadia",
+      "text": "No, it will be quite informal. And we would like to invite Jo as well."
+    },
+    {
+      "id": "p04-a-06-s06",
+      "speaker": "Beth",
+      "text": "I will tell him. We would both love to be there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1a2719d13898b15e",
+      "lemma": "marry",
+      "pos": "v.",
+      "sense_zh": "结婚",
+      "sentence_ids": [
+        "p04-a-06-s01"
+      ],
+      "forms": [
+        "marry"
+      ],
+      "sense_id": "sense-staged-ox-1a2719d13898b15e-p04-a-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0f58946b8786a691",
+      "lemma": "lovely",
+      "pos": "adj.",
+      "sense_zh": "令人愉快的；美好的",
+      "sentence_ids": [
+        "p04-a-06-s02"
+      ],
+      "forms": [
+        "lovely"
+      ],
+      "sense_id": "sense-staged-ox-0f58946b8786a691-p04-a-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4f01a81981c1d305",
+      "lemma": "invitation",
+      "pos": "n.",
+      "sense_zh": "邀请函",
+      "sentence_ids": [
+        "p04-a-06-s03"
+      ],
+      "forms": [
+        "invitation"
+      ],
+      "sense_id": "sense-staged-ox-4f01a81981c1d305-p04-a-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb7dd65dd26f03f7",
+      "lemma": "informal",
+      "pos": "adj.",
+      "sense_zh": "非正式的",
+      "sentence_ids": [
+        "p04-a-06-s05"
+      ],
+      "forms": [
+        "informal"
+      ],
+      "sense_id": "sense-staged-ox-cb7dd65dd26f03f7-p04-a-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9400f744dc2036d3",
+      "lemma": "invite",
+      "pos": "v.",
+      "sense_zh": "邀请",
+      "sentence_ids": [
+        "p04-a-06-s05"
+      ],
+      "forms": [
+        "invite"
+      ],
+      "sense_id": "sense-staged-ox-9400f744dc2036d3-p04-a-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

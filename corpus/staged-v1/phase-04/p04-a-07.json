@@ -1,0 +1,116 @@
+{
+  "id": "p04-a-07",
+  "title_zh": "排练时给观众的笑声留出时间",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "comedy-audibility-rehearsal",
+    "label_zh": "调整喜剧台词的音量与停顿",
+    "goal_zh": "降低伴奏音量并约定在观众笑声后继续说台词"
+  },
+  "participants": [
+    "Callum",
+    "Zoe"
+  ],
+  "context_zh": "两位演员排练喜剧，发现背景音乐和过快的接话影响台词。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-07-s01",
+      "speaker": "Callum",
+      "text": "The music is too loud. I cannot hear the end of your joke."
+    },
+    {
+      "id": "p04-a-07-s02",
+      "speaker": "Zoe",
+      "text": "I will turn it down. Should I speak more loudly too?"
+    },
+    {
+      "id": "p04-a-07-s03",
+      "speaker": "Callum",
+      "text": "A little, but the bigger problem is the timing. Wait for the laughter to stop before your next line."
+    },
+    {
+      "id": "p04-a-07-s04",
+      "speaker": "Zoe",
+      "text": "So I should look at you and pause, rather than talk over the audience?"
+    },
+    {
+      "id": "p04-a-07-s05",
+      "speaker": "Callum",
+      "text": "Exactly. Let us try that bit again with the music lower."
+    },
+    {
+      "id": "p04-a-07-s06",
+      "speaker": "Zoe",
+      "text": "Ready. Start from your entrance."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e2d1c3cdb0106baa",
+      "lemma": "loud",
+      "pos": "adj.",
+      "sense_zh": "声音大的",
+      "sentence_ids": [
+        "p04-a-07-s01"
+      ],
+      "forms": [
+        "loud"
+      ],
+      "sense_id": "sense-staged-ox-e2d1c3cdb0106baa-p04-a-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a6ceec0819c5d516",
+      "lemma": "joke",
+      "pos": "n.",
+      "sense_zh": "笑话；逗趣的话",
+      "sentence_ids": [
+        "p04-a-07-s01"
+      ],
+      "forms": [
+        "joke"
+      ],
+      "sense_id": "sense-staged-ox-a6ceec0819c5d516-p04-a-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-67dfc2240629c433",
+      "lemma": "loudly",
+      "pos": "adv.",
+      "sense_zh": "大声地",
+      "sentence_ids": [
+        "p04-a-07-s02"
+      ],
+      "forms": [
+        "loudly"
+      ],
+      "sense_id": "sense-staged-ox-67dfc2240629c433-p04-a-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e9bee30b658c5f4e",
+      "lemma": "laughter",
+      "pos": "n.",
+      "sense_zh": "笑声",
+      "sentence_ids": [
+        "p04-a-07-s03"
+      ],
+      "forms": [
+        "laughter"
+      ],
+      "sense_id": "sense-staged-ox-e9bee30b658c5f4e-p04-a-07",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

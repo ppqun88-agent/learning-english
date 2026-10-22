@@ -1,0 +1,137 @@
+{
+  "id": "p04-a-27",
+  "title_zh": "骑摩托车遇封桥后问清绕行和停车位置",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "motorcycle-road-closure-directions",
+    "label_zh": "遇封路时核对摩托车绕行路线",
+    "goal_zh": "了解桥梁封闭情况并确认替代路线和停车后步行的安排"
+  },
+  "participants": [
+    "Nikhil",
+    "Officer Price"
+  ],
+  "context_zh": "骑手向封路现场的警员询问路线，并决定停好车后步行到目的地。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-27-s01",
+      "speaker": "Nikhil",
+      "text": "Excuse me, officer. Can I take my motorcycle across the bridge?"
+    },
+    {
+      "id": "p04-a-27-s02",
+      "speaker": "Officer Price",
+      "text": "No, the notice by the barrier explains that it is closed to all traffic today."
+    },
+    {
+      "id": "p04-a-27-s03",
+      "speaker": "Nikhil",
+      "text": "Is it likely to open this afternoon? I need to get to the museum."
+    },
+    {
+      "id": "p04-a-27-s04",
+      "speaker": "Officer Price",
+      "text": "Not today. Use the north bridge, then turn left into Market Street."
+    },
+    {
+      "id": "p04-a-27-s05",
+      "speaker": "Nikhil",
+      "text": "There seems to be nowhere to park by the museum entrance."
+    },
+    {
+      "id": "p04-a-27-s06",
+      "speaker": "Officer Price",
+      "text": "There is a public car park at the end of Market Street, with spaces for motorcycles."
+    },
+    {
+      "id": "p04-a-27-s07",
+      "speaker": "Nikhil",
+      "text": "Thanks. I will go that way, park there, and walk the last bit."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8edaacad8a683992",
+      "lemma": "officer",
+      "pos": "n.",
+      "sense_zh": "警官；警员",
+      "sentence_ids": [
+        "p04-a-27-s01"
+      ],
+      "forms": [
+        "officer"
+      ],
+      "sense_id": "sense-staged-ox-8edaacad8a683992-p04-a-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f25f6c6e8d5323b8",
+      "lemma": "motorcycle",
+      "pos": "n.",
+      "sense_zh": "摩托车",
+      "sentence_ids": [
+        "p04-a-27-s01"
+      ],
+      "forms": [
+        "motorcycle"
+      ],
+      "sense_id": "sense-staged-ox-f25f6c6e8d5323b8-p04-a-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8b8929fdb195970f",
+      "lemma": "notice",
+      "pos": "n.",
+      "sense_zh": "告示；通知",
+      "sentence_ids": [
+        "p04-a-27-s02"
+      ],
+      "forms": [
+        "notice"
+      ],
+      "sense_id": "sense-staged-ox-8b8929fdb195970f-p04-a-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-65017949bc5149e2",
+      "lemma": "likely",
+      "pos": "adj.",
+      "sense_zh": "可能的",
+      "sentence_ids": [
+        "p04-a-27-s03"
+      ],
+      "forms": [
+        "likely"
+      ],
+      "sense_id": "sense-staged-ox-65017949bc5149e2-p04-a-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-37c2899500013c29",
+      "lemma": "nowhere",
+      "pos": "adv.",
+      "sense_zh": "没有任何地方",
+      "sentence_ids": [
+        "p04-a-27-s05"
+      ],
+      "forms": [
+        "nowhere"
+      ],
+      "sense_id": "sense-staged-ox-37c2899500013c29-p04-a-27",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "id": "p04-a-12",
+  "title_zh": "确定学校发明展示的原型和测试方法",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "school-invention-prototype-plan",
+    "label_zh": "规划学校发明项目的原型",
+    "goal_zh": "从日常问题出发选定原型材料并说明可观察的测试方法"
+  },
+  "participants": [
+    "Priya",
+    "Mr Chen"
+  ],
+  "context_zh": "学生与老师讨论学校展示项目，选用简单材料测试桌面电线固定夹。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-12-s01",
+      "speaker": "Priya",
+      "text": "The brief says we should invent something that solves an everyday problem. Does it have to be complicated?"
+    },
+    {
+      "id": "p04-a-12-s02",
+      "speaker": "Mr Chen",
+      "text": "No. What small problem would you like to solve?"
+    },
+    {
+      "id": "p04-a-12-s03",
+      "speaker": "Priya",
+      "text": "My charging cable keeps falling behind my desk. My invention could be a clip that holds it at the edge."
+    },
+    {
+      "id": "p04-a-12-s04",
+      "speaker": "Mr Chen",
+      "text": "That sounds manageable. What material would you use for the first model?"
+    },
+    {
+      "id": "p04-a-12-s05",
+      "speaker": "Priya",
+      "text": "Thick cardboard, before I try anything stronger. Can I make it in the lab?"
+    },
+    {
+      "id": "p04-a-12-s06",
+      "speaker": "Mr Chen",
+      "text": "Yes, during project time. How will you test whether it works?"
+    },
+    {
+      "id": "p04-a-12-s07",
+      "speaker": "Priya",
+      "text": "My method will be to try it on three desk edges and record whether the cable stays in place."
+    },
+    {
+      "id": "p04-a-12-s08",
+      "speaker": "Mr Chen",
+      "text": "Good. Bring a sketch tomorrow, and we will check the shape before you build it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8b7ca7de40e0b391",
+      "lemma": "invent",
+      "pos": "v.",
+      "sense_zh": "发明；设计出新事物",
+      "sentence_ids": [
+        "p04-a-12-s01"
+      ],
+      "forms": [
+        "invent"
+      ],
+      "sense_id": "sense-staged-ox-8b7ca7de40e0b391-p04-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c17ce9a88d2f76f4",
+      "lemma": "invention",
+      "pos": "n.",
+      "sense_zh": "发明物；新设计",
+      "sentence_ids": [
+        "p04-a-12-s03"
+      ],
+      "forms": [
+        "invention"
+      ],
+      "sense_id": "sense-staged-ox-c17ce9a88d2f76f4-p04-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9bfc5ebd089f33cc",
+      "lemma": "material",
+      "pos": "n.",
+      "sense_zh": "材料",
+      "sentence_ids": [
+        "p04-a-12-s04"
+      ],
+      "forms": [
+        "material"
+      ],
+      "sense_id": "sense-staged-ox-9bfc5ebd089f33cc-p04-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eee03799d58e8bb2",
+      "lemma": "lab",
+      "pos": "n.",
+      "sense_zh": "实验室",
+      "sentence_ids": [
+        "p04-a-12-s05"
+      ],
+      "forms": [
+        "lab"
+      ],
+      "sense_id": "sense-staged-ox-eee03799d58e8bb2-p04-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30227dfee18e19e8",
+      "lemma": "method",
+      "pos": "n.",
+      "sense_zh": "方法",
+      "sentence_ids": [
+        "p04-a-12-s07"
+      ],
+      "forms": [
+        "method"
+      ],
+      "sense_id": "sense-staged-ox-30227dfee18e19e8-p04-a-12",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

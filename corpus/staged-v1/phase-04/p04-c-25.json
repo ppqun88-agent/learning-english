@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-25",
+  "title_zh": "按新喜好挑选生日服饰礼物",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "birthday-outfit-gift",
+    "label_zh": "按新喜好挑选生日服饰礼物",
+    "goal_zh": "核对收礼人穿衣习惯的变化并决定礼物和包装方式"
+  },
+  "participants": [
+    "Emilia",
+    "Dylan"
+  ],
+  "context_zh": "兄妹商量给父亲的生日礼物，发现他的着装习惯已经改变，改选他现在会用的物品。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-25-s01",
+      "speaker": "Emilia",
+      "text": "I'd like Dad's gift to be a surprise. What about a tie for his grey suit?"
+    },
+    {
+      "id": "p04-c-25-s02",
+      "speaker": "Dylan",
+      "text": "He used to wear ties every day, but he hasn't worn one since he changed jobs."
+    },
+    {
+      "id": "p04-c-25-s03",
+      "speaker": "Emilia",
+      "text": "I was surprised to see him in that bright yellow shirt last week."
+    },
+    {
+      "id": "p04-c-25-s04",
+      "speaker": "Dylan",
+      "text": "He loves it. Maybe a casual shirt would be more useful than another tie."
+    },
+    {
+      "id": "p04-c-25-s05",
+      "speaker": "Emilia",
+      "text": "Good point. I'll choose a green one in the same style and have it wrapped."
+    },
+    {
+      "id": "p04-c-25-s06",
+      "speaker": "Dylan",
+      "text": "Great. I'll check the size on his yellow shirt so you don't have to guess."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-6ddaeb378c2f750b",
+      "lemma": "surprise",
+      "pos": "n.",
+      "sense_zh": "令人意外的事物；惊喜",
+      "sentence_ids": [
+        "p04-c-25-s01"
+      ],
+      "forms": [
+        "surprise"
+      ],
+      "sense_id": "sense-staged-ox-6ddaeb378c2f750b-p04-c-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3949e24a84504b0a",
+      "lemma": "surprised",
+      "pos": "adj.",
+      "sense_zh": "感到惊讶的",
+      "sentence_ids": [
+        "p04-c-25-s03"
+      ],
+      "forms": [
+        "surprised"
+      ],
+      "sense_id": "sense-staged-ox-3949e24a84504b0a-p04-c-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5e9edea1b91f4ff3",
+      "lemma": "used to",
+      "pos": "modal v.",
+      "sense_zh": "过去经常做而现在已不再做",
+      "sentence_ids": [
+        "p04-c-25-s02"
+      ],
+      "forms": [
+        "used to"
+      ],
+      "sense_id": "sense-staged-ox-5e9edea1b91f4ff3-p04-c-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5b86f78ef7e355ac",
+      "lemma": "tie",
+      "pos": "n.",
+      "sense_zh": "领带",
+      "sentence_ids": [
+        "p04-c-25-s01"
+      ],
+      "forms": [
+        "tie"
+      ],
+      "sense_id": "sense-staged-ox-5b86f78ef7e355ac-p04-c-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c89d535ef0cc452c",
+      "lemma": "suit",
+      "pos": "n.",
+      "sense_zh": "西装；套装",
+      "sentence_ids": [
+        "p04-c-25-s01"
+      ],
+      "forms": [
+        "suit"
+      ],
+      "sense_id": "sense-staged-ox-c89d535ef0cc452c-p04-c-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

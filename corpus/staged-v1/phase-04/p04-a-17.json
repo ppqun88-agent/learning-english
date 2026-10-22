@@ -1,0 +1,111 @@
+{
+  "id": "p04-a-17",
+  "title_zh": "等云散后在阳台短暂观月",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "evening-moon-viewing-plan",
+    "label_zh": "根据云量安排短暂观月",
+    "goal_zh": "商定先等候云层移动并约定看不到时改到晚餐后"
+  },
+  "participants": [
+    "Jules",
+    "Finn"
+  ],
+  "context_zh": "两位朋友根据眼前天色决定晚餐前在阳台观察月亮。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-17-s01",
+      "speaker": "Jules",
+      "text": "It is nearly dark. Shall we take the telescope onto the balcony?"
+    },
+    {
+      "id": "p04-a-17-s02",
+      "speaker": "Finn",
+      "text": "There is a cloud in front of the moon at the moment."
+    },
+    {
+      "id": "p04-a-17-s03",
+      "speaker": "Jules",
+      "text": "It might move soon. The view through your telescope was incredible last time."
+    },
+    {
+      "id": "p04-a-17-s04",
+      "speaker": "Finn",
+      "text": "Let us give it ten minutes. If the cloud stays, we can try after dinner."
+    },
+    {
+      "id": "p04-a-17-s05",
+      "speaker": "Jules",
+      "text": "Sounds good. I will bring out two chairs while we wait."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2cb48c9a26c5e339",
+      "lemma": "nearly",
+      "pos": "adv.",
+      "sense_zh": "几乎；接近",
+      "sentence_ids": [
+        "p04-a-17-s01"
+      ],
+      "forms": [
+        "nearly"
+      ],
+      "sense_id": "sense-staged-ox-2cb48c9a26c5e339-p04-a-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-98425b194fa41e55",
+      "lemma": "moon",
+      "pos": "n.",
+      "sense_zh": "月亮",
+      "sentence_ids": [
+        "p04-a-17-s02"
+      ],
+      "forms": [
+        "moon"
+      ],
+      "sense_id": "sense-staged-ox-98425b194fa41e55-p04-a-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-20b81e376a5c16fd",
+      "lemma": "might",
+      "pos": "modal v.",
+      "sense_zh": "可能",
+      "sentence_ids": [
+        "p04-a-17-s03"
+      ],
+      "forms": [
+        "might"
+      ],
+      "sense_id": "sense-staged-ox-20b81e376a5c16fd-p04-a-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d88e32258288594e",
+      "lemma": "incredible",
+      "pos": "adj.",
+      "sense_zh": "令人惊叹的",
+      "sentence_ids": [
+        "p04-a-17-s03"
+      ],
+      "forms": [
+        "incredible"
+      ],
+      "sense_id": "sense-staged-ox-d88e32258288594e-p04-a-17",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

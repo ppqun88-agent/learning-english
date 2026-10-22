@@ -1,0 +1,116 @@
+{
+  "id": "p04-a-11",
+  "title_zh": "为市长问答准备一条地方问题",
+  "topic_id": "society",
+  "scenario": {
+    "id": "local-press-question-preparation",
+    "label_zh": "准备地方公共问答的采访问题",
+    "goal_zh": "把宽泛的全国议题缩小为图书馆重开进度及责任人的具体提问"
+  },
+  "participants": [
+    "Anika",
+    "Joel"
+  ],
+  "context_zh": "虚构地方报社的记者与编辑准备公共问答问题；不涉及真实新闻或人物。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-11-s01",
+      "speaker": "Anika",
+      "text": "As the new journalist on the local desk, what should I ask at tomorrow’s meeting?"
+    },
+    {
+      "id": "p04-a-11-s02",
+      "speaker": "Joel",
+      "text": "The mayor is taking questions about public services. Our readers keep asking about the closed library."
+    },
+    {
+      "id": "p04-a-11-s03",
+      "speaker": "Anika",
+      "text": "Should I ask about national spending plans first?"
+    },
+    {
+      "id": "p04-a-11-s04",
+      "speaker": "Joel",
+      "text": "Other media are covering that. We can ask when residents will get a clear reopening date."
+    },
+    {
+      "id": "p04-a-11-s05",
+      "speaker": "Anika",
+      "text": "I will ask what still needs to happen before the library can reopen."
+    },
+    {
+      "id": "p04-a-11-s06",
+      "speaker": "Joel",
+      "text": "Good. And if the answer is vague, ask who is responsible for the next step."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d59b3ee4b524ee4f",
+      "lemma": "journalist",
+      "pos": "n.",
+      "sense_zh": "新闻记者",
+      "sentence_ids": [
+        "p04-a-11-s01"
+      ],
+      "forms": [
+        "journalist"
+      ],
+      "sense_id": "sense-staged-ox-d59b3ee4b524ee4f-p04-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3035980101dcf41",
+      "lemma": "mayor",
+      "pos": "n.",
+      "sense_zh": "市长",
+      "sentence_ids": [
+        "p04-a-11-s02"
+      ],
+      "forms": [
+        "mayor"
+      ],
+      "sense_id": "sense-staged-ox-e3035980101dcf41-p04-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b900181cdf5a8952",
+      "lemma": "national",
+      "pos": "adj.",
+      "sense_zh": "全国的；国家层面的",
+      "sentence_ids": [
+        "p04-a-11-s03"
+      ],
+      "forms": [
+        "national"
+      ],
+      "sense_id": "sense-staged-ox-b900181cdf5a8952-p04-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-df9186f1df1d2439",
+      "lemma": "media",
+      "pos": "n.",
+      "sense_zh": "新闻媒体",
+      "sentence_ids": [
+        "p04-a-11-s04"
+      ],
+      "forms": [
+        "media"
+      ],
+      "sense_id": "sense-staged-ox-df9186f1df1d2439-p04-a-11",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

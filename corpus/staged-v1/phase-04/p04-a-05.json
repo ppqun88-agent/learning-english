@@ -1,0 +1,169 @@
+{
+  "id": "p04-a-05",
+  "title_zh": "先借吉他体验再决定购买",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "beginner-guitar-loan",
+    "label_zh": "咨询初学吉他借用",
+    "goal_zh": "先通过借用体验再决定是否购买"
+  },
+  "participants": [
+    "Ellis",
+    "Maya"
+  ],
+  "context_zh": "喜欢爵士乐的初学者向乐手朋友咨询并借用吉他。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-05-s01",
+      "speaker": "Ellis",
+      "text": "I love jazz, but I have only ever been a listener. I would like to try playing."
+    },
+    {
+      "id": "p04-a-05-s02",
+      "speaker": "Maya",
+      "text": "Have you thought about learning a musical instrument?"
+    },
+    {
+      "id": "p04-a-05-s03",
+      "speaker": "Ellis",
+      "text": "The guitar, maybe. You are a musician. Do you think it is a good place to start?"
+    },
+    {
+      "id": "p04-a-05-s04",
+      "speaker": "Maya",
+      "text": "It can be. You do not need to buy one straight away."
+    },
+    {
+      "id": "p04-a-05-s05",
+      "speaker": "Ellis",
+      "text": "That helps. I am nervous about spending money before I know if I enjoy it."
+    },
+    {
+      "id": "p04-a-05-s06",
+      "speaker": "Maya",
+      "text": "I can lend you my spare guitar for a month. We can try a few chords on Saturday."
+    },
+    {
+      "id": "p04-a-05-s07",
+      "speaker": "Ellis",
+      "text": "Thank you. I will try that before I decide whether to buy one."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3a7a8e943e677b39",
+      "lemma": "jazz",
+      "pos": "n.",
+      "sense_zh": "爵士乐",
+      "sentence_ids": [
+        "p04-a-05-s01"
+      ],
+      "forms": [
+        "jazz"
+      ],
+      "sense_id": "sense-staged-ox-3a7a8e943e677b39-p04-a-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a45d8562d8e53805",
+      "lemma": "listener",
+      "pos": "n.",
+      "sense_zh": "听众；聆听者",
+      "sentence_ids": [
+        "p04-a-05-s01"
+      ],
+      "forms": [
+        "listener"
+      ],
+      "sense_id": "sense-staged-ox-a45d8562d8e53805-p04-a-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d7aed7ddbb1e09fa",
+      "lemma": "musical",
+      "pos": "adj.",
+      "sense_zh": "音乐的",
+      "sentence_ids": [
+        "p04-a-05-s02"
+      ],
+      "forms": [
+        "musical"
+      ],
+      "sense_id": "sense-staged-ox-d7aed7ddbb1e09fa-p04-a-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-409d4ef72aa44d91",
+      "lemma": "instrument",
+      "pos": "n.",
+      "sense_zh": "乐器",
+      "sentence_ids": [
+        "p04-a-05-s02"
+      ],
+      "forms": [
+        "instrument"
+      ],
+      "sense_id": "sense-staged-ox-409d4ef72aa44d91-p04-a-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa1b564f11934c9b",
+      "lemma": "musician",
+      "pos": "n.",
+      "sense_zh": "音乐家；乐手",
+      "sentence_ids": [
+        "p04-a-05-s03"
+      ],
+      "forms": [
+        "musician"
+      ],
+      "sense_id": "sense-staged-ox-aa1b564f11934c9b-p04-a-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-04d5cd48924310b4",
+      "lemma": "nervous",
+      "pos": "adj.",
+      "sense_zh": "紧张不安的",
+      "sentence_ids": [
+        "p04-a-05-s05"
+      ],
+      "forms": [
+        "nervous"
+      ],
+      "sense_id": "sense-staged-ox-04d5cd48924310b4-p04-a-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ddb377dfaa765dba",
+      "lemma": "lend",
+      "pos": "v.",
+      "sense_zh": "借给",
+      "sentence_ids": [
+        "p04-a-05-s06"
+      ],
+      "forms": [
+        "lend"
+      ],
+      "sense_id": "sense-staged-ox-ddb377dfaa765dba-p04-a-05",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

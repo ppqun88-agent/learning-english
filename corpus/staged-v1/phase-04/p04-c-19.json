@@ -1,0 +1,79 @@
+{
+  "id": "p04-c-19",
+  "title_zh": "请室友帮忙移走窗边蜘蛛",
+  "topic_id": "home",
+  "scenario": {
+    "id": "spider-window-removal",
+    "label_zh": "请室友帮忙移走窗边蜘蛛",
+    "goal_zh": "辨认窗边蜘蛛并商定不直接用手接触的移走办法"
+  },
+  "participants": [
+    "Hugo",
+    "Lena"
+  ],
+  "context_zh": "室友发现窗边的小蜘蛛，向同伴请求帮助把它移走。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-19-s01",
+      "speaker": "Hugo",
+      "text": "There's a strange shadow moving beside the window. Could you have a look?"
+    },
+    {
+      "id": "p04-c-19-s02",
+      "speaker": "Lena",
+      "text": "It's a small spider on the curtain."
+    },
+    {
+      "id": "p04-c-19-s03",
+      "speaker": "Hugo",
+      "text": "I'm not keen on getting close to it. Can you help me move it?"
+    },
+    {
+      "id": "p04-c-19-s04",
+      "speaker": "Lena",
+      "text": "Sure. Bring me that clear container and a piece of card. I won't need to pick it up with my fingers."
+    },
+    {
+      "id": "p04-c-19-s05",
+      "speaker": "Hugo",
+      "text": "Here you go. I'll open the outside door for you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bb429a7067f3c70d",
+      "lemma": "spider",
+      "pos": "n.",
+      "sense_zh": "蜘蛛",
+      "sentence_ids": [
+        "p04-c-19-s02"
+      ],
+      "forms": [
+        "spider"
+      ],
+      "sense_id": "sense-staged-ox-bb429a7067f3c70d-p04-c-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-231baf9e1efb2207",
+      "lemma": "strange",
+      "pos": "adj.",
+      "sense_zh": "奇怪的；陌生的",
+      "sentence_ids": [
+        "p04-c-19-s01"
+      ],
+      "forms": [
+        "strange"
+      ],
+      "sense_id": "sense-staged-ox-231baf9e1efb2207-p04-c-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

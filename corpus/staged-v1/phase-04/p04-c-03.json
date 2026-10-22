@@ -1,0 +1,158 @@
+{
+  "id": "p04-c-03",
+  "title_zh": "办理礼物包裹与贺卡邮寄",
+  "topic_id": "services",
+  "scenario": {
+    "id": "parcel-and-card-posting",
+    "label_zh": "办理礼物包裹与贺卡邮寄",
+    "goal_zh": "核对邮寄去向、标签和贺卡邮资并交寄"
+  },
+  "participants": [
+    "Rowan",
+    "Elena"
+  ],
+  "context_zh": "罗文在邮寄柜台寄送礼物包裹，并为随行的一张贺卡购买邮票。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-03-s01",
+      "speaker": "Rowan",
+      "text": "I'd like to ship this box to another state. It contains several small gifts."
+    },
+    {
+      "id": "p04-c-03-s02",
+      "speaker": "Elena",
+      "text": "Have you written the full address on the label?"
+    },
+    {
+      "id": "p04-c-03-s03",
+      "speaker": "Rowan",
+      "text": "Yes. Could I also get a stamp for this card?"
+    },
+    {
+      "id": "p04-c-03-s04",
+      "speaker": "Elena",
+      "text": "Yes, sir. I'll weigh the box first, then give you the total."
+    },
+    {
+      "id": "p04-c-03-s05",
+      "speaker": "Rowan",
+      "text": "That's fine. Here's my card for the payment."
+    },
+    {
+      "id": "p04-c-03-s06",
+      "speaker": "Elena",
+      "text": "The payment went through. Please sign this receipt for the insured parcel."
+    },
+    {
+      "id": "p04-c-03-s07",
+      "speaker": "Rowan",
+      "text": "Done. I'll leave the box and the stamped card with you."
+    },
+    {
+      "id": "p04-c-03-s08",
+      "speaker": "Elena",
+      "text": "Thank you. Both will go out with today's collection."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c8009edcb13105ef",
+      "lemma": "ship",
+      "pos": "v.",
+      "sense_zh": "运送；邮寄",
+      "sentence_ids": [
+        "p04-c-03-s01"
+      ],
+      "forms": [
+        "ship"
+      ],
+      "sense_id": "sense-staged-ox-c8009edcb13105ef-p04-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c22ec358391a5c7b",
+      "lemma": "stamp",
+      "pos": "n.",
+      "sense_zh": "邮票",
+      "sentence_ids": [
+        "p04-c-03-s03"
+      ],
+      "forms": [
+        "stamp"
+      ],
+      "sense_id": "sense-staged-ox-c22ec358391a5c7b-p04-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-47c097dc6e344466",
+      "lemma": "sign",
+      "pos": "v.",
+      "sense_zh": "签名",
+      "sentence_ids": [
+        "p04-c-03-s06"
+      ],
+      "forms": [
+        "sign"
+      ],
+      "sense_id": "sense-staged-ox-47c097dc6e344466-p04-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3b610b360a8021a9",
+      "lemma": "sir",
+      "pos": "n.",
+      "sense_zh": "先生（礼貌称呼）",
+      "sentence_ids": [
+        "p04-c-03-s04"
+      ],
+      "forms": [
+        "sir"
+      ],
+      "sense_id": "sense-staged-ox-3b610b360a8021a9-p04-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b38c078ef0b6ba1b",
+      "lemma": "several",
+      "pos": "det.",
+      "sense_zh": "几个；若干",
+      "sentence_ids": [
+        "p04-c-03-s01"
+      ],
+      "forms": [
+        "several"
+      ],
+      "sense_id": "sense-staged-ox-b38c078ef0b6ba1b-p04-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-98a5f059ca1d3af4",
+      "lemma": "state",
+      "pos": "n.",
+      "sense_zh": "州",
+      "sentence_ids": [
+        "p04-c-03-s01"
+      ],
+      "forms": [
+        "state"
+      ],
+      "sense_id": "sense-staged-ox-98a5f059ca1d3af4-p04-c-03",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

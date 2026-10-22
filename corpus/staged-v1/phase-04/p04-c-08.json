@@ -1,0 +1,132 @@
+{
+  "id": "p04-c-08",
+  "title_zh": "索取双床房的备用寝具",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "hotel-extra-linen-request",
+    "label_zh": "索取双床房的备用寝具",
+    "goal_zh": "核对房型和备用毛巾床单位置并安排送到客房"
+  },
+  "participants": [
+    "Luca",
+    "Dora"
+  ],
+  "context_zh": "旅客向前台询问双床房的备用寝具，并请求补送毛巾。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-08-s01",
+      "speaker": "Luca",
+      "text": "We're in the twin room, number twelve. Could we have another towel and a spare sheet?"
+    },
+    {
+      "id": "p04-c-08-s02",
+      "speaker": "Dora",
+      "text": "Of course. Did you check the cupboard by the door?"
+    },
+    {
+      "id": "p04-c-08-s03",
+      "speaker": "Luca",
+      "text": "Yes. I thought there might be one somewhere in there, but it's empty."
+    },
+    {
+      "id": "p04-c-08-s04",
+      "speaker": "Dora",
+      "text": "That's the usual place for spare linen. I'm sorry it wasn't filled."
+    },
+    {
+      "id": "p04-c-08-s05",
+      "speaker": "Luca",
+      "text": "No problem. We'll be in the room for the next hour."
+    },
+    {
+      "id": "p04-c-08-s06",
+      "speaker": "Dora",
+      "text": "I'll bring the towel and sheet up in a few minutes."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8af6e6684b1ad35f",
+      "lemma": "sheet",
+      "pos": "n.",
+      "sense_zh": "床单",
+      "sentence_ids": [
+        "p04-c-08-s01"
+      ],
+      "forms": [
+        "sheet"
+      ],
+      "sense_id": "sense-staged-ox-8af6e6684b1ad35f-p04-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8fa1f96d7c96478",
+      "lemma": "towel",
+      "pos": "n.",
+      "sense_zh": "毛巾",
+      "sentence_ids": [
+        "p04-c-08-s01"
+      ],
+      "forms": [
+        "towel"
+      ],
+      "sense_id": "sense-staged-ox-f8fa1f96d7c96478-p04-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4be8faca553e470d",
+      "lemma": "twin",
+      "pos": "adj.",
+      "sense_zh": "有两张单人床的",
+      "sentence_ids": [
+        "p04-c-08-s01"
+      ],
+      "forms": [
+        "twin"
+      ],
+      "sense_id": "sense-staged-ox-4be8faca553e470d-p04-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d5833d2557dbf8b8",
+      "lemma": "usual",
+      "pos": "adj.",
+      "sense_zh": "通常的；惯常的",
+      "sentence_ids": [
+        "p04-c-08-s04"
+      ],
+      "forms": [
+        "usual"
+      ],
+      "sense_id": "sense-staged-ox-d5833d2557dbf8b8-p04-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fcba5b5c7887facc",
+      "lemma": "somewhere",
+      "pos": "adv.",
+      "sense_zh": "在某处",
+      "sentence_ids": [
+        "p04-c-08-s03"
+      ],
+      "forms": [
+        "somewhere"
+      ],
+      "sense_id": "sense-staged-ox-fcba5b5c7887facc-p04-c-08",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

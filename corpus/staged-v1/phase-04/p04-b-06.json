@@ -1,0 +1,153 @@
+{
+  "id": "p04-b-06",
+  "title_zh": "租车前核对每天费用和还车要求",
+  "topic_id": "services",
+  "scenario": {
+    "id": "car-hire-cost-check",
+    "label_zh": "核对租车费用",
+    "goal_zh": "确认每日费率、服务和自付费用，并索取完整报价供决定"
+  },
+  "participants": [
+    "Marta",
+    "Ken"
+  ],
+  "context_zh": "顾客向租车柜台询问报价中包含什么，尚未完成租车。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-06-s01",
+      "speaker": "Marta",
+      "text": "What is the daily rate for this small car?"
+    },
+    {
+      "id": "p04-b-06-s02",
+      "speaker": "Ken",
+      "text": "Forty-five pounds per day. That includes basic cover and roadside help."
+    },
+    {
+      "id": "p04-b-06-s03",
+      "speaker": "Marta",
+      "text": "Do you charge extra for that service?"
+    },
+    {
+      "id": "p04-b-06-s04",
+      "speaker": "Ken",
+      "text": "No. We provide a phone number you can use if the car breaks down."
+    },
+    {
+      "id": "p04-b-06-s05",
+      "speaker": "Marta",
+      "text": "And what about petrol and parking?"
+    },
+    {
+      "id": "p04-b-06-s06",
+      "speaker": "Ken",
+      "text": "You pay for both. The tank is full now, and you must return it full."
+    },
+    {
+      "id": "p04-b-06-s07",
+      "speaker": "Marta",
+      "text": "All right. Please show me the full three-day quote and the cover details before I decide."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4e4d55a127a46190",
+      "lemma": "rate",
+      "pos": "n.",
+      "sense_zh": "收费标准",
+      "sentence_ids": [
+        "p04-b-06-s01"
+      ],
+      "forms": [
+        "rate"
+      ],
+      "sense_id": "sense-staged-ox-4e4d55a127a46190-p04-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b6b152bc9bb11714",
+      "lemma": "per",
+      "pos": "prep.",
+      "sense_zh": "每",
+      "sentence_ids": [
+        "p04-b-06-s02"
+      ],
+      "forms": [
+        "per"
+      ],
+      "sense_id": "sense-staged-ox-b6b152bc9bb11714-p04-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b7fadadc2a6b60e0",
+      "lemma": "service",
+      "pos": "n.",
+      "sense_zh": "服务",
+      "sentence_ids": [
+        "p04-b-06-s03"
+      ],
+      "forms": [
+        "service"
+      ],
+      "sense_id": "sense-staged-ox-b7fadadc2a6b60e0-p04-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d414cc4efa8f341c",
+      "lemma": "provide",
+      "pos": "v.",
+      "sense_zh": "提供",
+      "sentence_ids": [
+        "p04-b-06-s04"
+      ],
+      "forms": [
+        "provide"
+      ],
+      "sense_id": "sense-staged-ox-d414cc4efa8f341c-p04-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-856c47f30513bc96",
+      "lemma": "petrol",
+      "pos": "n.",
+      "sense_zh": "汽油",
+      "sentence_ids": [
+        "p04-b-06-s05"
+      ],
+      "forms": [
+        "petrol"
+      ],
+      "sense_id": "sense-staged-ox-856c47f30513bc96-p04-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bba7f183a8dbfc71",
+      "lemma": "parking",
+      "pos": "n.",
+      "sense_zh": "停车",
+      "sentence_ids": [
+        "p04-b-06-s05"
+      ],
+      "forms": [
+        "parking"
+      ],
+      "sense_id": "sense-staged-ox-bba7f183a8dbfc71-p04-b-06",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p04-b-26",
+  "title_zh": "确认历史导览的建筑与集合点",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "palace-and-prison-tour-route",
+    "label_zh": "核对宫殿与旧监狱导览路线",
+    "goal_zh": "确认历史导览涉及的建筑、入内范围及集合安排"
+  },
+  "participants": [
+    "Pia",
+    "Simon"
+  ],
+  "context_zh": "游客向一座虚构古城的导览员询问参观路线和是否进入建筑内部。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-26-s01",
+      "speaker": "Pia",
+      "text": "Does the walking tour include the old palace?"
+    },
+    {
+      "id": "p04-b-26-s02",
+      "speaker": "Simon",
+      "text": "Yes. We stop outside it and explain why the queen moved her court there. Then we visit the former prison across the square."
+    },
+    {
+      "id": "p04-b-26-s03",
+      "speaker": "Pia",
+      "text": "Do we go inside both buildings?"
+    },
+    {
+      "id": "p04-b-26-s04",
+      "speaker": "Simon",
+      "text": "Only the prison. The palace rooms are closed today, but the outside is part of the tour."
+    },
+    {
+      "id": "p04-b-26-s05",
+      "speaker": "Pia",
+      "text": "That is fine. Where does the tour meet?"
+    },
+    {
+      "id": "p04-b-26-s06",
+      "speaker": "Simon",
+      "text": "Beside the clock in the square, at two."
+    },
+    {
+      "id": "p04-b-26-s07",
+      "speaker": "Pia",
+      "text": "I will meet you by the clock at two, then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-44354168038e2bdb",
+      "lemma": "palace",
+      "pos": "n.",
+      "sense_zh": "宫殿",
+      "sentence_ids": [
+        "p04-b-26-s01"
+      ],
+      "forms": [
+        "palace"
+      ],
+      "sense_id": "sense-staged-ox-44354168038e2bdb-p04-b-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1fd70f78f9189fb3",
+      "lemma": "queen",
+      "pos": "n.",
+      "sense_zh": "女王",
+      "sentence_ids": [
+        "p04-b-26-s02"
+      ],
+      "forms": [
+        "queen"
+      ],
+      "sense_id": "sense-staged-ox-1fd70f78f9189fb3-p04-b-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-46150dfbbf860e49",
+      "lemma": "prison",
+      "pos": "n.",
+      "sense_zh": "监狱",
+      "sentence_ids": [
+        "p04-b-26-s02"
+      ],
+      "forms": [
+        "prison"
+      ],
+      "sense_id": "sense-staged-ox-46150dfbbf860e49-p04-b-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "id": "p04-a-29",
+  "title_zh": "确认孩子能否试演国王角色",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "community-play-casting",
+    "label_zh": "确认角色分配和排练",
+    "goal_zh": "剧团根据角色要求讨论试演人选及排练时间。"
+  },
+  "participants": [
+    "Beatrice",
+    "Amos"
+  ],
+  "context_zh": "家长向社区剧团负责人询问角色要求、试演和排练时间。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-29-s01",
+      "speaker": "Beatrice",
+      "text": "My son wants to try for the king, but he is the youngest kid in the group. Is that a problem?"
+    },
+    {
+      "id": "p04-a-29-s02",
+      "speaker": "Amos",
+      "text": "No. The role needs a clear voice, not a tall actor."
+    },
+    {
+      "id": "p04-a-29-s03",
+      "speaker": "Beatrice",
+      "text": "He will feel lucky just to have a chance. When should he come?"
+    },
+    {
+      "id": "p04-a-29-s04",
+      "speaker": "Amos",
+      "text": "The audition is on Wednesday at four. If he gets the part, rehearsals will be at the same time each week."
+    },
+    {
+      "id": "p04-a-29-s05",
+      "speaker": "Beatrice",
+      "text": "That works for us. He will practise the short speech you sent."
+    },
+    {
+      "id": "p04-a-29-s06",
+      "speaker": "Amos",
+      "text": "Good. Wish him luck, and remind him to bring the script on Wednesday."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b31975dbdda9e480",
+      "lemma": "king",
+      "pos": "n.",
+      "sense_zh": "国王",
+      "sentence_ids": [
+        "p04-a-29-s01"
+      ],
+      "forms": [
+        "king"
+      ],
+      "sense_id": "sense-staged-ox-b31975dbdda9e480-p04-a-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-edb25c195e1547ab",
+      "lemma": "kid",
+      "pos": "n.",
+      "sense_zh": "孩子（非正式用语）",
+      "sentence_ids": [
+        "p04-a-29-s01"
+      ],
+      "forms": [
+        "kid"
+      ],
+      "sense_id": "sense-staged-ox-edb25c195e1547ab-p04-a-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a5d47a2f47ca6826",
+      "lemma": "lucky",
+      "pos": "adj.",
+      "sense_zh": "幸运的",
+      "sentence_ids": [
+        "p04-a-29-s03"
+      ],
+      "forms": [
+        "lucky"
+      ],
+      "sense_id": "sense-staged-ox-a5d47a2f47ca6826-p04-a-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8ecce3f2bbe2531d",
+      "lemma": "luck",
+      "pos": "n.",
+      "sense_zh": "好运",
+      "sentence_ids": [
+        "p04-a-29-s06"
+      ],
+      "forms": [
+        "luck"
+      ],
+      "sense_id": "sense-staged-ox-8ecce3f2bbe2531d-p04-a-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

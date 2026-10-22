@@ -1,0 +1,90 @@
+{
+  "id": "p04-c-10",
+  "title_zh": "协商入口处的吸烟问题",
+  "topic_id": "community",
+  "scenario": {
+    "id": "shared-entrance-smoking-request",
+    "label_zh": "协商入口处的吸烟问题",
+    "goal_zh": "说明烟气影响并请来访者移到指定区域"
+  },
+  "participants": [
+    "Mina",
+    "Rob"
+  ],
+  "context_zh": "住户平静地向入口处的来访者说明吸烟造成的影响，并指引到指定区域。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-10-s01",
+      "speaker": "Mina",
+      "text": "Excuse me. I'm unhappy about the smoking right beside our entrance. The smoke comes into the hall."
+    },
+    {
+      "id": "p04-c-10-s02",
+      "speaker": "Rob",
+      "text": "Sorry, I didn't know. You don't need to shout."
+    },
+    {
+      "id": "p04-c-10-s03",
+      "speaker": "Mina",
+      "text": "I wasn't trying to. It's hard to hear over that delivery truck. The smoking area is across the courtyard."
+    },
+    {
+      "id": "p04-c-10-s04",
+      "speaker": "Rob",
+      "text": "Thanks for explaining. I'll put this out and move over there."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7c4eb2f6d085f5b8",
+      "lemma": "smoking",
+      "pos": "n.",
+      "sense_zh": "吸烟行为",
+      "sentence_ids": [
+        "p04-c-10-s01"
+      ],
+      "forms": [
+        "smoking"
+      ],
+      "sense_id": "sense-staged-ox-7c4eb2f6d085f5b8-p04-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e5958c9e4c20ea77",
+      "lemma": "unhappy",
+      "pos": "adj.",
+      "sense_zh": "不高兴的；不满的",
+      "sentence_ids": [
+        "p04-c-10-s01"
+      ],
+      "forms": [
+        "unhappy"
+      ],
+      "sense_id": "sense-staged-ox-e5958c9e4c20ea77-p04-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d2da760fb3300a80",
+      "lemma": "shout",
+      "pos": "v.",
+      "sense_zh": "大声喊叫",
+      "sentence_ids": [
+        "p04-c-10-s02"
+      ],
+      "forms": [
+        "shout"
+      ],
+      "sense_id": "sense-staged-ox-d2da760fb3300a80-p04-c-10",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

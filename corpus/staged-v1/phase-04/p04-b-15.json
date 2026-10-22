@@ -1,0 +1,153 @@
+{
+  "id": "p04-b-15",
+  "title_zh": "先在工作人员陪同下认识一只狗",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "shelter-dog-first-meeting",
+    "label_zh": "安排初次接触收容所的狗",
+    "goal_zh": "说明养狗顾虑并同意在工作人员陪同下先短暂见面"
+  },
+  "participants": [
+    "Jules",
+    "Mina"
+  ],
+  "context_zh": "一位考虑养宠物的人向收容所说明自己的顾虑，决定先短暂见面。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-15-s01",
+      "speaker": "Jules",
+      "text": "I moved into a house recently, and I am thinking about getting a pet. But I am a little scared of large dogs."
+    },
+    {
+      "id": "p04-b-15-s02",
+      "speaker": "Mina",
+      "text": "You do not have to choose one today. What kind of personality would suit you?"
+    },
+    {
+      "id": "p04-b-15-s03",
+      "speaker": "Jules",
+      "text": "A calm dog. How does this small one react when someone new arrives?"
+    },
+    {
+      "id": "p04-b-15-s04",
+      "speaker": "Mina",
+      "text": "He usually watches for a while before coming closer. We can meet him together in the quiet room."
+    },
+    {
+      "id": "p04-b-15-s05",
+      "speaker": "Jules",
+      "text": "He does seem calm from here. Could you stay with me for the first few minutes?"
+    },
+    {
+      "id": "p04-b-15-s06",
+      "speaker": "Mina",
+      "text": "Of course. We will start with a short visit, and you can tell me when you want to stop."
+    },
+    {
+      "id": "p04-b-15-s07",
+      "speaker": "Jules",
+      "text": "That sounds good. Let us try the short visit before discussing anything else."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-941417d5d143beb3",
+      "lemma": "recently",
+      "pos": "adv.",
+      "sense_zh": "最近",
+      "sentence_ids": [
+        "p04-b-15-s01"
+      ],
+      "forms": [
+        "recently"
+      ],
+      "sense_id": "sense-staged-ox-941417d5d143beb3-p04-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d6572c267d13c9a8",
+      "lemma": "pet",
+      "pos": "n.",
+      "sense_zh": "宠物",
+      "sentence_ids": [
+        "p04-b-15-s01"
+      ],
+      "forms": [
+        "pet"
+      ],
+      "sense_id": "sense-staged-ox-d6572c267d13c9a8-p04-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ea5015cec8b7a5ba",
+      "lemma": "scared",
+      "pos": "adj.",
+      "sense_zh": "害怕的",
+      "sentence_ids": [
+        "p04-b-15-s01"
+      ],
+      "forms": [
+        "scared"
+      ],
+      "sense_id": "sense-staged-ox-ea5015cec8b7a5ba-p04-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08749f3d574f4510",
+      "lemma": "personality",
+      "pos": "n.",
+      "sense_zh": "性格",
+      "sentence_ids": [
+        "p04-b-15-s02"
+      ],
+      "forms": [
+        "personality"
+      ],
+      "sense_id": "sense-staged-ox-08749f3d574f4510-p04-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d714e73849731a50",
+      "lemma": "react",
+      "pos": "v.",
+      "sense_zh": "作出反应",
+      "sentence_ids": [
+        "p04-b-15-s03"
+      ],
+      "forms": [
+        "react"
+      ],
+      "sense_id": "sense-staged-ox-d714e73849731a50-p04-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dc339a7f12066dd7",
+      "lemma": "seem",
+      "pos": "v.",
+      "sense_zh": "似乎；看起来",
+      "sentence_ids": [
+        "p04-b-15-s05"
+      ],
+      "forms": [
+        "seem"
+      ],
+      "sense_id": "sense-staged-ox-dc339a7f12066dd7-p04-b-15",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

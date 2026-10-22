@@ -1,0 +1,153 @@
+{
+  "id": "p04-a-20",
+  "title_zh": "请搬运人员把柜子暂放在毯子上",
+  "topic_id": "home",
+  "scenario": {
+    "id": "cabinet-moving-plan",
+    "label_zh": "协作搬动柜子",
+    "goal_zh": "核对通道尺寸并协调柜子移动和暂放位置"
+  },
+  "participants": [
+    "Gwen",
+    "Pavel"
+  ],
+  "context_zh": "住户与搬运负责人核对柜子、门口宽度及室内暂放位置。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-20-s01",
+      "speaker": "Gwen",
+      "text": "The cabinet is still on the lorry. I cannot lift it by myself."
+    },
+    {
+      "id": "p04-a-20-s02",
+      "speaker": "Pavel",
+      "text": "Please leave it to the moving crew. We have two people and the right equipment."
+    },
+    {
+      "id": "p04-a-20-s03",
+      "speaker": "Gwen",
+      "text": "I measured the front doorway. The cabinet should fit if we take its doors off."
+    },
+    {
+      "id": "p04-a-20-s04",
+      "speaker": "Pavel",
+      "text": "Good. Where would you like us to put it?"
+    },
+    {
+      "id": "p04-a-20-s05",
+      "speaker": "Gwen",
+      "text": "Not in the middle of the hall. That would make it impossible to get to the kitchen."
+    },
+    {
+      "id": "p04-a-20-s06",
+      "speaker": "Pavel",
+      "text": "There is enough room by the wall. We can lower it onto that thick blanket until you choose its final position."
+    },
+    {
+      "id": "p04-a-20-s07",
+      "speaker": "Gwen",
+      "text": "That works. I will clear the shoes away and show the crew the space."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5bdcb783030a0133",
+      "lemma": "lorry",
+      "pos": "n.",
+      "sense_zh": "卡车；货车",
+      "sentence_ids": [
+        "p04-a-20-s01"
+      ],
+      "forms": [
+        "lorry"
+      ],
+      "sense_id": "sense-staged-ox-5bdcb783030a0133-p04-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-08bd9466f2f48ae9",
+      "lemma": "lift",
+      "pos": "v.",
+      "sense_zh": "抬起；举起",
+      "sentence_ids": [
+        "p04-a-20-s01"
+      ],
+      "forms": [
+        "lift"
+      ],
+      "sense_id": "sense-staged-ox-08bd9466f2f48ae9-p04-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ba87bf97a40fb608",
+      "lemma": "myself",
+      "pos": "pron.",
+      "sense_zh": "我自己",
+      "sentence_ids": [
+        "p04-a-20-s01"
+      ],
+      "forms": [
+        "myself"
+      ],
+      "sense_id": "sense-staged-ox-ba87bf97a40fb608-p04-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5fddcef350335bc7",
+      "lemma": "middle",
+      "pos": "n.",
+      "sense_zh": "中间",
+      "sentence_ids": [
+        "p04-a-20-s05"
+      ],
+      "forms": [
+        "middle"
+      ],
+      "sense_id": "sense-staged-ox-5fddcef350335bc7-p04-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-22c2b119b37be463",
+      "lemma": "impossible",
+      "pos": "adj.",
+      "sense_zh": "不可能的；无法做到的",
+      "sentence_ids": [
+        "p04-a-20-s05"
+      ],
+      "forms": [
+        "impossible"
+      ],
+      "sense_id": "sense-staged-ox-22c2b119b37be463-p04-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-552aa15215588441",
+      "lemma": "onto",
+      "pos": "prep.",
+      "sense_zh": "到……之上",
+      "sentence_ids": [
+        "p04-a-20-s06"
+      ],
+      "forms": [
+        "onto"
+      ],
+      "sense_id": "sense-staged-ox-552aa15215588441-p04-a-20",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

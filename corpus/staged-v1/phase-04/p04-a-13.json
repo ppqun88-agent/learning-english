@@ -1,0 +1,137 @@
+{
+  "id": "p04-a-13",
+  "title_zh": "把一次数学低分变成具体练习计划",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "math-feedback-study-plan",
+    "label_zh": "根据数学作业反馈安排练习",
+    "goal_zh": "找出计算失误的位置并商定重做与检查的具体步骤"
+  },
+  "participants": [
+    "Ethan",
+    "Val"
+  ],
+  "context_zh": "学习者因数学成绩失望，辅导老师帮助他找出错误类型并安排练习。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-13-s01",
+      "speaker": "Ethan",
+      "text": "I got a low mark in math again. Perhaps I am just not intelligent enough."
+    },
+    {
+      "id": "p04-a-13-s02",
+      "speaker": "Val",
+      "text": "Let us look at the work before we decide what went wrong."
+    },
+    {
+      "id": "p04-a-13-s03",
+      "speaker": "Ethan",
+      "text": "Most of these mistakes are in the last step. I suppose I was lazy."
+    },
+    {
+      "id": "p04-a-13-s04",
+      "speaker": "Val",
+      "text": "That label does not help us. You understood the questions, but you rushed the final calculations."
+    },
+    {
+      "id": "p04-a-13-s05",
+      "speaker": "Ethan",
+      "text": "So I should check each last step instead of starting another whole page?"
+    },
+    {
+      "id": "p04-a-13-s06",
+      "speaker": "Val",
+      "text": "Yes. Learning takes practice, and today we can focus on just that part."
+    },
+    {
+      "id": "p04-a-13-s07",
+      "speaker": "Ethan",
+      "text": "All right. I will redo these three answers slowly, then check them with you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-54723ab3b05cfef2",
+      "lemma": "mark",
+      "pos": "n.",
+      "sense_zh": "作业或考试的分数",
+      "sentence_ids": [
+        "p04-a-13-s01"
+      ],
+      "forms": [
+        "mark"
+      ],
+      "sense_id": "sense-staged-ox-54723ab3b05cfef2-p04-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cde99d5a6b58612f",
+      "lemma": "math",
+      "pos": "n.",
+      "sense_zh": "数学（美式用语）",
+      "sentence_ids": [
+        "p04-a-13-s01"
+      ],
+      "forms": [
+        "math"
+      ],
+      "sense_id": "sense-staged-ox-cde99d5a6b58612f-p04-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fd26d297ceb67d12",
+      "lemma": "intelligent",
+      "pos": "adj.",
+      "sense_zh": "聪明的；理解力强的",
+      "sentence_ids": [
+        "p04-a-13-s01"
+      ],
+      "forms": [
+        "intelligent"
+      ],
+      "sense_id": "sense-staged-ox-fd26d297ceb67d12-p04-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-87e4e095d6e06805",
+      "lemma": "lazy",
+      "pos": "adj.",
+      "sense_zh": "懒惰的",
+      "sentence_ids": [
+        "p04-a-13-s03"
+      ],
+      "forms": [
+        "lazy"
+      ],
+      "sense_id": "sense-staged-ox-87e4e095d6e06805-p04-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6afffd71e74b483a",
+      "lemma": "learning",
+      "pos": "n.",
+      "sense_zh": "学习",
+      "sentence_ids": [
+        "p04-a-13-s06"
+      ],
+      "forms": [
+        "learning"
+      ],
+      "sense_id": "sense-staged-ox-6afffd71e74b483a-p04-a-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p04-a-21",
+  "title_zh": "让访客手机连上正确的无线网络",
+  "topic_id": "services",
+  "scenario": {
+    "id": "guest-wifi-troubleshooting",
+    "label_zh": "排查访客手机的无线连接",
+    "goal_zh": "选对访客无线网络并打开登录页面后确认已连通"
+  },
+  "participants": [
+    "Freya",
+    "Receptionist"
+  ],
+  "context_zh": "访客向接待员求助，通过选择访客网络和打开登录页恢复连接。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-21-s01",
+      "speaker": "Freya",
+      "text": "My mobile will not connect. None of these saved networks works here."
+    },
+    {
+      "id": "p04-a-21-s02",
+      "speaker": "Receptionist",
+      "text": "Choose the network called Visitor instead. Your saved ones are from other places."
+    },
+    {
+      "id": "p04-a-21-s03",
+      "speaker": "Freya",
+      "text": "I have chosen it, but the page is blank. Is something wrong with the phone itself?"
+    },
+    {
+      "id": "p04-a-21-s04",
+      "speaker": "Receptionist",
+      "text": "Try the sign-in link on this information page."
+    },
+    {
+      "id": "p04-a-21-s05",
+      "speaker": "Freya",
+      "text": "That has opened the welcome screen. Do I press Continue?"
+    },
+    {
+      "id": "p04-a-21-s06",
+      "speaker": "Receptionist",
+      "text": "Yes, that completes the connection."
+    },
+    {
+      "id": "p04-a-21-s07",
+      "speaker": "Freya",
+      "text": "It is working now. Thank you."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-516d58efdb46de39",
+      "lemma": "mobile",
+      "pos": "n.",
+      "sense_zh": "手机",
+      "sentence_ids": [
+        "p04-a-21-s01"
+      ],
+      "forms": [
+        "mobile"
+      ],
+      "sense_id": "sense-staged-ox-516d58efdb46de39-p04-a-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eabe6bf154af6739",
+      "lemma": "none",
+      "pos": "pron.",
+      "sense_zh": "一个也没有；没有任何一个",
+      "sentence_ids": [
+        "p04-a-21-s01"
+      ],
+      "forms": [
+        "none"
+      ],
+      "sense_id": "sense-staged-ox-eabe6bf154af6739-p04-a-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-618fe0186b85cdf3",
+      "lemma": "network",
+      "pos": "n.",
+      "sense_zh": "计算机或通信网络",
+      "sentence_ids": [
+        "p04-a-21-s02"
+      ],
+      "forms": [
+        "network"
+      ],
+      "sense_id": "sense-staged-ox-618fe0186b85cdf3-p04-a-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3ff21275686281e9",
+      "lemma": "itself",
+      "pos": "pron.",
+      "sense_zh": "它本身",
+      "sentence_ids": [
+        "p04-a-21-s03"
+      ],
+      "forms": [
+        "itself"
+      ],
+      "sense_id": "sense-staged-ox-3ff21275686281e9-p04-a-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-12ee4b1cc21903b8",
+      "lemma": "link",
+      "pos": "n.",
+      "sense_zh": "网页链接",
+      "sentence_ids": [
+        "p04-a-21-s04"
+      ],
+      "forms": [
+        "link"
+      ],
+      "sense_id": "sense-staged-ox-12ee4b1cc21903b8-p04-a-21",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,169 @@
+{
+  "id": "p04-c-13",
+  "title_zh": "澄清数学题并完成解题",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "math-problem-support",
+    "label_zh": "澄清数学题并完成解题",
+    "goal_zh": "指出卡住的步骤并在同伴支持下核对解法"
+  },
+  "participants": [
+    "Amy",
+    "Noel"
+  ],
+  "context_zh": "艾米做数学题时在第二步卡住，同伴帮她理解每组人数和总人数的关系。",
+  "author": "author-phase04-c",
+  "sentences": [
+    {
+      "id": "p04-c-13-s01",
+      "speaker": "Amy",
+      "text": "I feel stupid. I can't solve this problem about twelve students in three equal groups."
+    },
+    {
+      "id": "p04-c-13-s02",
+      "speaker": "Noel",
+      "text": "You're not stupid. Show me the step where you get stuck."
+    },
+    {
+      "id": "p04-c-13-s03",
+      "speaker": "Amy",
+      "text": "I know there are three groups, but I keep multiplying twelve by three."
+    },
+    {
+      "id": "p04-c-13-s04",
+      "speaker": "Noel",
+      "text": "Try a simple drawing. Share the twelve dots between three circles."
+    },
+    {
+      "id": "p04-c-13-s05",
+      "speaker": "Amy",
+      "text": "Four in each circle. So the solution is four students in each group, not thirty-six."
+    },
+    {
+      "id": "p04-c-13-s06",
+      "speaker": "Noel",
+      "text": "Yes. How would you check your understanding?"
+    },
+    {
+      "id": "p04-c-13-s07",
+      "speaker": "Amy",
+      "text": "Four plus four plus four makes twelve. Thanks for the support. I'll try the next one myself."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-890754af540a7904",
+      "lemma": "simple",
+      "pos": "adj.",
+      "sense_zh": "简单的",
+      "sentence_ids": [
+        "p04-c-13-s04"
+      ],
+      "forms": [
+        "simple"
+      ],
+      "sense_id": "sense-staged-ox-890754af540a7904-p04-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5cd92a8c79a5a8d1",
+      "lemma": "solve",
+      "pos": "v.",
+      "sense_zh": "解答；解决",
+      "sentence_ids": [
+        "p04-c-13-s01"
+      ],
+      "forms": [
+        "solve"
+      ],
+      "sense_id": "sense-staged-ox-5cd92a8c79a5a8d1-p04-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8a792ceeb903637f",
+      "lemma": "solution",
+      "pos": "n.",
+      "sense_zh": "解答",
+      "sentence_ids": [
+        "p04-c-13-s05"
+      ],
+      "forms": [
+        "solution"
+      ],
+      "sense_id": "sense-staged-ox-8a792ceeb903637f-p04-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4128ee846bf98a9c",
+      "lemma": "step",
+      "pos": "n.",
+      "sense_zh": "步骤",
+      "sentence_ids": [
+        "p04-c-13-s02"
+      ],
+      "forms": [
+        "step"
+      ],
+      "sense_id": "sense-staged-ox-4128ee846bf98a9c-p04-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-38260d62fbcbed46",
+      "lemma": "stupid",
+      "pos": "adj.",
+      "sense_zh": "愚笨的",
+      "sentence_ids": [
+        "p04-c-13-s01"
+      ],
+      "forms": [
+        "stupid"
+      ],
+      "sense_id": "sense-staged-ox-38260d62fbcbed46-p04-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a8ece58cac15e8a9",
+      "lemma": "understanding",
+      "pos": "n.",
+      "sense_zh": "理解",
+      "sentence_ids": [
+        "p04-c-13-s06"
+      ],
+      "forms": [
+        "understanding"
+      ],
+      "sense_id": "sense-staged-ox-a8ece58cac15e8a9-p04-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2799d9e782f6e6dd",
+      "lemma": "support",
+      "pos": "n.",
+      "sense_zh": "帮助；支持",
+      "sentence_ids": [
+        "p04-c-13-s07"
+      ],
+      "forms": [
+        "support"
+      ],
+      "sense_id": "sense-staged-ox-2799d9e782f6e6dd-p04-c-13",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

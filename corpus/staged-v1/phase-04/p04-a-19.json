@@ -1,0 +1,116 @@
+{
+  "id": "p04-a-19",
+  "title_zh": "把错投的信件送到正确邻居家",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "misdelivered-mail-return",
+    "label_zh": "核对错投信件的收件人",
+    "goal_zh": "确认信件所属邻居及送还时的敲门和楼门关闭安排"
+  },
+  "participants": [
+    "Theo",
+    "Mrs Bell"
+  ],
+  "context_zh": "住户发现别人的信件，向熟悉楼内住户的邻居核对收件人。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-19-s01",
+      "speaker": "Theo",
+      "text": "This is not my mail. Do you know someone called Helen Price?"
+    },
+    {
+      "id": "p04-a-19-s02",
+      "speaker": "Mrs Bell",
+      "text": "Yes, she is the lady in number six. She moved in last week."
+    },
+    {
+      "id": "p04-a-19-s03",
+      "speaker": "Theo",
+      "text": "I will take it upstairs. Should I knock, or is there a doorbell?"
+    },
+    {
+      "id": "p04-a-19-s04",
+      "speaker": "Mrs Bell",
+      "text": "There is no bell yet, so knock. She said she would be home this morning."
+    },
+    {
+      "id": "p04-a-19-s05",
+      "speaker": "Theo",
+      "text": "Thanks. I will leave the building door shut while I go up."
+    },
+    {
+      "id": "p04-a-19-s06",
+      "speaker": "Mrs Bell",
+      "text": "Good. Please lock it when you leave; the catch does not always hold."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-58c62a5496c2c40c",
+      "lemma": "mail",
+      "pos": "n.",
+      "sense_zh": "邮件；信件",
+      "sentence_ids": [
+        "p04-a-19-s01"
+      ],
+      "forms": [
+        "mail"
+      ],
+      "sense_id": "sense-staged-ox-58c62a5496c2c40c-p04-a-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-788583bcfe82139e",
+      "lemma": "lady",
+      "pos": "n.",
+      "sense_zh": "女士",
+      "sentence_ids": [
+        "p04-a-19-s02"
+      ],
+      "forms": [
+        "lady"
+      ],
+      "sense_id": "sense-staged-ox-788583bcfe82139e-p04-a-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e711c242fb43aeb3",
+      "lemma": "knock",
+      "pos": "v.",
+      "sense_zh": "敲门",
+      "sentence_ids": [
+        "p04-a-19-s03"
+      ],
+      "forms": [
+        "knock"
+      ],
+      "sense_id": "sense-staged-ox-e711c242fb43aeb3-p04-a-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c6ea30daf7378ec1",
+      "lemma": "lock",
+      "pos": "v.",
+      "sense_zh": "锁上",
+      "sentence_ids": [
+        "p04-a-19-s06"
+      ],
+      "forms": [
+        "lock"
+      ],
+      "sense_id": "sense-staged-ox-c6ea30daf7378ec1-p04-a-19",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

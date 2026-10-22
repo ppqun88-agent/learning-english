@@ -1,0 +1,142 @@
+{
+  "id": "p04-b-02",
+  "title_zh": "说明手腕疼痛并预约医生",
+  "topic_id": "health",
+  "scenario": {
+    "id": "routine-clinic-booking",
+    "label_zh": "描述问题并预约就诊",
+    "goal_zh": "准确说明不适位置并确认预约时间"
+  },
+  "participants": [
+    "Elena",
+    "Clive"
+  ],
+  "context_zh": "一位新患者致电诊所，说明手腕疼痛并确认就诊安排；对话不作诊断。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-02-s01",
+      "speaker": "Elena",
+      "text": "Hello. Is this reception? I would like an appointment."
+    },
+    {
+      "id": "p04-b-02-s02",
+      "speaker": "Clive",
+      "text": "Yes. Are you already registered with us?"
+    },
+    {
+      "id": "p04-b-02-s03",
+      "speaker": "Elena",
+      "text": "No, I am a new patient. I have pain in my right wrist, especially when I lift things."
+    },
+    {
+      "id": "p04-b-02-s04",
+      "speaker": "Clive",
+      "text": "I will put that in the message for the clinician. What kind of work do you do?"
+    },
+    {
+      "id": "p04-b-02-s05",
+      "speaker": "Elena",
+      "text": "Mostly physical work in a warehouse. I do not know whether the problem is serious, but it is affecting my work."
+    },
+    {
+      "id": "p04-b-02-s06",
+      "speaker": "Clive",
+      "text": "The clinician can assess that. There is an appointment at eleven today. Can you attend?"
+    },
+    {
+      "id": "p04-b-02-s07",
+      "speaker": "Elena",
+      "text": "Yes, I can be there at eleven."
+    },
+    {
+      "id": "p04-b-02-s08",
+      "speaker": "Clive",
+      "text": "I have booked that for you. Please arrive ten minutes early to register."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-576509184be77796",
+      "lemma": "reception",
+      "pos": "n.",
+      "sense_zh": "接待处",
+      "sentence_ids": [
+        "p04-b-02-s01"
+      ],
+      "forms": [
+        "reception"
+      ],
+      "sense_id": "sense-staged-ox-576509184be77796-p04-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57841b79848a1a2c",
+      "lemma": "patient",
+      "pos": "n.",
+      "sense_zh": "患者",
+      "sentence_ids": [
+        "p04-b-02-s03"
+      ],
+      "forms": [
+        "patient"
+      ],
+      "sense_id": "sense-staged-ox-57841b79848a1a2c-p04-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-50def8e03e562d1e",
+      "lemma": "pain",
+      "pos": "n.",
+      "sense_zh": "疼痛",
+      "sentence_ids": [
+        "p04-b-02-s03"
+      ],
+      "forms": [
+        "pain"
+      ],
+      "sense_id": "sense-staged-ox-50def8e03e562d1e-p04-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5978b3cc188c3ba3",
+      "lemma": "physical",
+      "pos": "adj.",
+      "sense_zh": "体力的",
+      "sentence_ids": [
+        "p04-b-02-s05"
+      ],
+      "forms": [
+        "physical"
+      ],
+      "sense_id": "sense-staged-ox-5978b3cc188c3ba3-p04-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0bc6f7634082c7d2",
+      "lemma": "serious",
+      "pos": "adj.",
+      "sense_zh": "严重的",
+      "sentence_ids": [
+        "p04-b-02-s05"
+      ],
+      "forms": [
+        "serious"
+      ],
+      "sense_id": "sense-staged-ox-0bc6f7634082c7d2-p04-b-02",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

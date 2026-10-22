@@ -1,0 +1,58 @@
+{
+  "id": "p04-b-29",
+  "title_zh": "核对答卷后改正漏计的一分",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "quiz-score-correction",
+    "label_zh": "核对并更正测验分数",
+    "goal_zh": "根据答卷逐项核对并更正漏计的得分"
+  },
+  "participants": [
+    "Sana",
+    "Mr Wu"
+  ],
+  "context_zh": "学生发现测验总分可能少算，和老师逐项检查。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-29-s01",
+      "speaker": "Sana",
+      "text": "Could we check my score? There are eight ticks on the page, but the total says seven."
+    },
+    {
+      "id": "p04-b-29-s02",
+      "speaker": "Mr Wu",
+      "text": "Let me count them. You are right; I missed the last answer when I added them."
+    },
+    {
+      "id": "p04-b-29-s03",
+      "speaker": "Sana",
+      "text": "So it should be eight out of ten?"
+    },
+    {
+      "id": "p04-b-29-s04",
+      "speaker": "Mr Wu",
+      "text": "Yes. I have corrected the total on your paper and in my record. Thank you for checking."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-976322c560f77ea5",
+      "lemma": "score",
+      "pos": "n.",
+      "sense_zh": "得分",
+      "sentence_ids": [
+        "p04-b-29-s01"
+      ],
+      "forms": [
+        "score"
+      ],
+      "sense_id": "sense-staged-ox-976322c560f77ea5-p04-b-29",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

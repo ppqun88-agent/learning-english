@@ -1,0 +1,132 @@
+{
+  "id": "p04-a-01",
+  "title_zh": "散步摔倒后请同伴联系急救员",
+  "topic_id": "health",
+  "scenario": {
+    "id": "walking-fall-assistance",
+    "label_zh": "摔倒后寻求帮助",
+    "goal_zh": "说明不适并请同伴联系现场急救员"
+  },
+  "participants": [
+    "Rosa",
+    "Ben"
+  ],
+  "context_zh": "散步者跌倒后向同行朋友说明情况；对话只练习现场求助沟通。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-01-s01",
+      "speaker": "Rosa",
+      "text": "I slipped on that step and hurt my knee."
+    },
+    {
+      "id": "p04-a-01-s02",
+      "speaker": "Ben",
+      "text": "Can you tell me where the pain is?"
+    },
+    {
+      "id": "p04-a-01-s03",
+      "speaker": "Rosa",
+      "text": "Just here. I would rather not try to walk yet."
+    },
+    {
+      "id": "p04-a-01-s04",
+      "speaker": "Ben",
+      "text": "There is a first-aid tent by the gate. I will call them immediately."
+    },
+    {
+      "id": "p04-a-01-s05",
+      "speaker": "Rosa",
+      "text": "Please tell them about the knee injury and ask them to come here."
+    },
+    {
+      "id": "p04-a-01-s06",
+      "speaker": "Ben",
+      "text": "I will. You do not have to go looking for medical help on your own."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e0e240b2a66ad016",
+      "lemma": "hurt",
+      "pos": "v.",
+      "sense_zh": "使身体受伤",
+      "sentence_ids": [
+        "p04-a-01-s01"
+      ],
+      "forms": [
+        "hurt"
+      ],
+      "sense_id": "sense-staged-ox-e0e240b2a66ad016-p04-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8b0a2973edfb9a81",
+      "lemma": "knee",
+      "pos": "n.",
+      "sense_zh": "膝盖",
+      "sentence_ids": [
+        "p04-a-01-s01"
+      ],
+      "forms": [
+        "knee"
+      ],
+      "sense_id": "sense-staged-ox-8b0a2973edfb9a81-p04-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fae24935014cf3b1",
+      "lemma": "immediately",
+      "pos": "adv.",
+      "sense_zh": "立即",
+      "sentence_ids": [
+        "p04-a-01-s04"
+      ],
+      "forms": [
+        "immediately"
+      ],
+      "sense_id": "sense-staged-ox-fae24935014cf3b1-p04-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ba9f89f901c931ce",
+      "lemma": "injury",
+      "pos": "n.",
+      "sense_zh": "身体损伤",
+      "sentence_ids": [
+        "p04-a-01-s05"
+      ],
+      "forms": [
+        "injury"
+      ],
+      "sense_id": "sense-staged-ox-ba9f89f901c931ce-p04-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c286bf3f535d4b8a",
+      "lemma": "medical",
+      "pos": "adj.",
+      "sense_zh": "医疗的",
+      "sentence_ids": [
+        "p04-a-01-s06"
+      ],
+      "forms": [
+        "medical"
+      ],
+      "sense_id": "sense-staged-ox-c286bf3f535d4b8a-p04-a-01",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

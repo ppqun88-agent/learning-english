@@ -1,0 +1,100 @@
+{
+  "id": "p04-a-26",
+  "title_zh": "核对周末住宿套餐并决定不要机场接送",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "hotel-package-comparison",
+    "label_zh": "核对住宿优惠套餐的包含项目",
+    "goal_zh": "了解早餐和设施是否包含后选择不加付费接送的套餐"
+  },
+  "participants": [
+    "Megan",
+    "Hotel Agent"
+  ],
+  "context_zh": "旅客向旅馆咨询优惠套餐包含的餐饮和设施，并选定不加接送的方案。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-26-s01",
+      "speaker": "Megan",
+      "text": "I saw your weekend offer. Is the included breakfast served in the restaurant?"
+    },
+    {
+      "id": "p04-a-26-s02",
+      "speaker": "Hotel Agent",
+      "text": "Yes, from seven until eleven on both mornings."
+    },
+    {
+      "id": "p04-a-26-s03",
+      "speaker": "Megan",
+      "text": "What about the other facilities?"
+    },
+    {
+      "id": "p04-a-26-s04",
+      "speaker": "Hotel Agent",
+      "text": "You can use all the hotel facilities, including the pool and gym. Airport transfers cost extra."
+    },
+    {
+      "id": "p04-a-26-s05",
+      "speaker": "Megan",
+      "text": "Then I would like the weekend package without a transfer. We will arrive by train."
+    },
+    {
+      "id": "p04-a-26-s06",
+      "speaker": "Hotel Agent",
+      "text": "Certainly. I will check the rooms for your dates next."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9fc954d8a1642e21",
+      "lemma": "offer",
+      "pos": "n.",
+      "sense_zh": "优惠方案",
+      "sentence_ids": [
+        "p04-a-26-s01"
+      ],
+      "forms": [
+        "offer"
+      ],
+      "sense_id": "sense-staged-ox-9fc954d8a1642e21-p04-a-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5b83d3b7f42d3956",
+      "lemma": "included",
+      "pos": "adj.",
+      "sense_zh": "已包含在内的",
+      "sentence_ids": [
+        "p04-a-26-s01"
+      ],
+      "forms": [
+        "included"
+      ],
+      "sense_id": "sense-staged-ox-5b83d3b7f42d3956-p04-a-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b2252c3c3be0af1b",
+      "lemma": "including",
+      "pos": "prep.",
+      "sense_zh": "包括",
+      "sentence_ids": [
+        "p04-a-26-s04"
+      ],
+      "forms": [
+        "including"
+      ],
+      "sense_id": "sense-staged-ox-b2252c3c3be0af1b-p04-a-26",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "p04-a-25",
+  "title_zh": "点一份调味清淡的鱼配米饭",
+  "topic_id": "food",
+  "scenario": {
+    "id": "restaurant-meal-order",
+    "label_zh": "在餐厅选择清淡餐点",
+    "goal_zh": "核对酱汁、配菜和调味需求后完成点餐"
+  },
+  "participants": [
+    "Isaac",
+    "Server"
+  ],
+  "context_zh": "顾客询问比奶油意面清淡的选项，并确认配菜和调味。",
+  "author": "author-phase04-a",
+  "sentences": [
+    {
+      "id": "p04-a-25-s01",
+      "speaker": "Isaac",
+      "text": "Is there a lighter option than the pasta with cream sauce?"
+    },
+    {
+      "id": "p04-a-25-s02",
+      "speaker": "Server",
+      "text": "We have grilled fish with rice and vegetables."
+    },
+    {
+      "id": "p04-a-25-s03",
+      "speaker": "Isaac",
+      "text": "That sounds good. Could I have lemon on the side instead of a sauce?"
+    },
+    {
+      "id": "p04-a-25-s04",
+      "speaker": "Server",
+      "text": "Certainly. Would you like a little olive oil over the vegetables?"
+    },
+    {
+      "id": "p04-a-25-s05",
+      "speaker": "Isaac",
+      "text": "Yes, just a little. I will have the fish with rice and vegetables, please."
+    },
+    {
+      "id": "p04-a-25-s06",
+      "speaker": "Server",
+      "text": "Of course. Lemon on the side and a little oil on the vegetables."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5792483ec1d34a20",
+      "lemma": "option",
+      "pos": "n.",
+      "sense_zh": "可选择的事物；选项",
+      "sentence_ids": [
+        "p04-a-25-s01"
+      ],
+      "forms": [
+        "option"
+      ],
+      "sense_id": "sense-staged-ox-5792483ec1d34a20-p04-a-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-76b25e6da90aef71",
+      "lemma": "lemon",
+      "pos": "n.",
+      "sense_zh": "柠檬",
+      "sentence_ids": [
+        "p04-a-25-s03"
+      ],
+      "forms": [
+        "lemon"
+      ],
+      "sense_id": "sense-staged-ox-76b25e6da90aef71-p04-a-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1e5375beb9c42ba5",
+      "lemma": "oil",
+      "pos": "n.",
+      "sense_zh": "食用油",
+      "sentence_ids": [
+        "p04-a-25-s04"
+      ],
+      "forms": [
+        "oil"
+      ],
+      "sense_id": "sense-staged-ox-1e5375beb9c42ba5-p04-a-25",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

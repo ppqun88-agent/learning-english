@@ -1,0 +1,169 @@
+{
+  "id": "p04-b-04",
+  "title_zh": "确认去海港的列车站台与座位",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "station-departure-platform",
+    "label_zh": "核对列车出发与站台",
+    "goal_zh": "核实列车班次、到达时间、站台和已订座位后确认上车安排"
+  },
+  "participants": [
+    "Ibrahim",
+    "Ruth"
+  ],
+  "context_zh": "旅客在车站询问列车班次，并核对车票上的座位。",
+  "author": "author-phase04-b",
+  "sentences": [
+    {
+      "id": "p04-b-04-s01",
+      "speaker": "Ibrahim",
+      "text": "Does the railway schedule show a regular train to the harbour, or just the weekend service?"
+    },
+    {
+      "id": "p04-b-04-s02",
+      "speaker": "Ruth",
+      "text": "There is a train every hour on weekdays. The next one leaves at ten twenty."
+    },
+    {
+      "id": "p04-b-04-s03",
+      "speaker": "Ibrahim",
+      "text": "Will it reach the harbour before eleven?"
+    },
+    {
+      "id": "p04-b-04-s04",
+      "speaker": "Ruth",
+      "text": "Yes, at ten fifty. It leaves from platform four."
+    },
+    {
+      "id": "p04-b-04-s05",
+      "speaker": "Ibrahim",
+      "text": "My ticket says coach B, seat twelve. Is that near the front?"
+    },
+    {
+      "id": "p04-b-04-s06",
+      "speaker": "Ruth",
+      "text": "It is the second coach from the front. Each passenger with a reservation has a coach letter on the ticket."
+    },
+    {
+      "id": "p04-b-04-s07",
+      "speaker": "Ibrahim",
+      "text": "Thanks. I will go to platform four and look for coach B."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8ec9aa425744d63c",
+      "lemma": "railway",
+      "pos": "n.",
+      "sense_zh": "铁路",
+      "sentence_ids": [
+        "p04-b-04-s01"
+      ],
+      "forms": [
+        "railway"
+      ],
+      "sense_id": "sense-staged-ox-8ec9aa425744d63c-p04-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-23d223775685eb8e",
+      "lemma": "schedule",
+      "pos": "n.",
+      "sense_zh": "时刻表",
+      "sentence_ids": [
+        "p04-b-04-s01"
+      ],
+      "forms": [
+        "schedule"
+      ],
+      "sense_id": "sense-staged-ox-23d223775685eb8e-p04-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f630bdc84096492d",
+      "lemma": "regular",
+      "pos": "adj.",
+      "sense_zh": "定期的；按固定时间运行的",
+      "sentence_ids": [
+        "p04-b-04-s01"
+      ],
+      "forms": [
+        "regular"
+      ],
+      "sense_id": "sense-staged-ox-f630bdc84096492d-p04-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4306c14b3dc92eb",
+      "lemma": "reach",
+      "pos": "v.",
+      "sense_zh": "到达",
+      "sentence_ids": [
+        "p04-b-04-s03"
+      ],
+      "forms": [
+        "reach"
+      ],
+      "sense_id": "sense-staged-ox-b4306c14b3dc92eb-p04-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17ae895421b26103",
+      "lemma": "platform",
+      "pos": "n.",
+      "sense_zh": "站台",
+      "sentence_ids": [
+        "p04-b-04-s04"
+      ],
+      "forms": [
+        "platform"
+      ],
+      "sense_id": "sense-staged-ox-17ae895421b26103-p04-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cc629177762934a0",
+      "lemma": "seat",
+      "pos": "n.",
+      "sense_zh": "座位",
+      "sentence_ids": [
+        "p04-b-04-s05"
+      ],
+      "forms": [
+        "seat"
+      ],
+      "sense_id": "sense-staged-ox-cc629177762934a0-p04-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cfa2ed9001e70c84",
+      "lemma": "passenger",
+      "pos": "n.",
+      "sense_zh": "乘客",
+      "sentence_ids": [
+        "p04-b-04-s06"
+      ],
+      "forms": [
+        "passenger"
+      ],
+      "sense_id": "sense-staged-ox-cfa2ed9001e70c84-p04-b-04",
+      "cefr": "A2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
