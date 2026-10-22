@@ -1,0 +1,140 @@
+{
+  "id": "pilot01-journey",
+  "title_zh": "错过火车后的替代路线",
+  "context_zh": "旅客在车站寻找可行的替代行程。",
+  "sentences": [
+    {
+      "id": "pilot01-journey-s01",
+      "speaker": "Passenger",
+      "text": "I missed my train. Is there another route to York?"
+    },
+    {
+      "id": "pilot01-journey-s02",
+      "speaker": "Clerk",
+      "text": "You can take a bus, but the journey will take longer."
+    },
+    {
+      "id": "pilot01-journey-s03",
+      "speaker": "Passenger",
+      "text": "Where is the bus stop, and how much is the fare?"
+    },
+    {
+      "id": "pilot01-journey-s04",
+      "speaker": "Clerk",
+      "text": "It is opposite the station. You can pay the driver with a card."
+    },
+    {
+      "id": "pilot01-journey-s05",
+      "speaker": "Passenger",
+      "text": "Is the service direct, or do I need to transfer?"
+    },
+    {
+      "id": "pilot01-journey-s06",
+      "speaker": "Clerk",
+      "text": "It is direct. Allow extra time because there is a delay on the main road."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-50553bf92fae40c9",
+      "lemma": "route",
+      "forms": [
+        "route"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s01"
+      ]
+    },
+    {
+      "target_id": "ox-4c142adaa4eb8597",
+      "lemma": "journey",
+      "forms": [
+        "journey"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s02"
+      ]
+    },
+    {
+      "target_id": "ox-e4a06efdd1491d8b",
+      "lemma": "fare",
+      "forms": [
+        "fare"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s03"
+      ]
+    },
+    {
+      "target_id": "ox-90c5c963686feb89",
+      "lemma": "opposite",
+      "forms": [
+        "opposite"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s04"
+      ]
+    },
+    {
+      "target_id": "ox-da807c4317cac42a",
+      "lemma": "station",
+      "forms": [
+        "station"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s04"
+      ]
+    },
+    {
+      "target_id": "ox-688e2ad31497fefa",
+      "lemma": "driver",
+      "forms": [
+        "driver"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s04"
+      ]
+    },
+    {
+      "target_id": "ox-d18d31dec05cdc15",
+      "lemma": "direct",
+      "forms": [
+        "direct"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s05",
+        "pilot01-journey-s06"
+      ]
+    },
+    {
+      "target_id": "ox-ed91b8616abb6677",
+      "lemma": "transfer",
+      "forms": [
+        "transfer"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s05"
+      ]
+    },
+    {
+      "target_id": "ox-b284d675072328c7",
+      "lemma": "extra",
+      "forms": [
+        "extra"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s06"
+      ]
+    },
+    {
+      "target_id": "ox-bb9872b1e698f9a2",
+      "lemma": "delay",
+      "forms": [
+        "delay"
+      ],
+      "sentence_ids": [
+        "pilot01-journey-s06"
+      ]
+    }
+  ]
+}

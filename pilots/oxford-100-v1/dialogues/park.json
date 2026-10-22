@@ -1,0 +1,139 @@
+{
+  "id": "pilot01-park",
+  "title_zh": "讨论社区公园方案",
+  "context_zh": "居民比较设施用途并明确责任。",
+  "sentences": [
+    {
+      "id": "pilot01-park-s01",
+      "speaker": "Resident",
+      "text": "The proposal would turn this empty site into a public garden."
+    },
+    {
+      "id": "pilot01-park-s02",
+      "speaker": "Planner",
+      "text": "Yes. We want to create a space that the whole community can enjoy."
+    },
+    {
+      "id": "pilot01-park-s03",
+      "speaker": "Resident",
+      "text": "How will you ensure that people with limited mobility can use it?"
+    },
+    {
+      "id": "pilot01-park-s04",
+      "speaker": "Planner",
+      "text": "The entrance will be level, and the paths will be wide."
+    },
+    {
+      "id": "pilot01-park-s05",
+      "speaker": "Resident",
+      "text": "Who will be responsible for maintenance?"
+    },
+    {
+      "id": "pilot01-park-s06",
+      "speaker": "Planner",
+      "text": "The council. We will publish a schedule and invite residents to report any damage."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bc8916750988d9e1",
+      "lemma": "proposal",
+      "forms": [
+        "proposal"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s01"
+      ]
+    },
+    {
+      "target_id": "ox-2699b3e791efbdbc",
+      "lemma": "site",
+      "forms": [
+        "site"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s01"
+      ]
+    },
+    {
+      "target_id": "ox-36b8b08ad851b155",
+      "lemma": "community",
+      "forms": [
+        "community"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s02"
+      ]
+    },
+    {
+      "target_id": "ox-2aef217d1094417f",
+      "lemma": "ensure",
+      "forms": [
+        "ensure"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s03"
+      ]
+    },
+    {
+      "target_id": "ox-c2ea84005b65bb8b",
+      "lemma": "mobility",
+      "forms": [
+        "mobility"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s03"
+      ]
+    },
+    {
+      "target_id": "ox-32830eb691513074",
+      "lemma": "entrance",
+      "forms": [
+        "entrance"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s04"
+      ]
+    },
+    {
+      "target_id": "ox-90d3f69147f768f1",
+      "lemma": "level",
+      "forms": [
+        "level"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s04"
+      ]
+    },
+    {
+      "target_id": "ox-50fa621ca290e402",
+      "lemma": "responsible",
+      "forms": [
+        "responsible"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s05"
+      ]
+    },
+    {
+      "target_id": "ox-6ff4751f7e402065",
+      "lemma": "maintenance",
+      "forms": [
+        "maintenance"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s05"
+      ]
+    },
+    {
+      "target_id": "ox-404a091df68c9929",
+      "lemma": "damage",
+      "forms": [
+        "damage"
+      ],
+      "sentence_ids": [
+        "pilot01-park-s06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "pilot01-booking",
+  "title_zh": "修改旅馆预订",
+  "context_zh": "预订变更，核对房型、时间和费用。",
+  "sentences": [
+    {
+      "id": "pilot01-booking-s01",
+      "speaker": "Guest",
+      "text": "I have a reservation for Friday, but I need to change the date to Saturday."
+    },
+    {
+      "id": "pilot01-booking-s02",
+      "speaker": "Receptionist",
+      "text": "Of course. Would you like a single room or a double room?"
+    },
+    {
+      "id": "pilot01-booking-s03",
+      "speaker": "Guest",
+      "text": "A single room, please. Is breakfast included in the price?"
+    },
+    {
+      "id": "pilot01-booking-s04",
+      "speaker": "Receptionist",
+      "text": "Yes. Your room will be ready after three. Please bring your passport."
+    },
+    {
+      "id": "pilot01-booking-s05",
+      "speaker": "Guest",
+      "text": "My flight arrives at midnight. Can I still check in?"
+    },
+    {
+      "id": "pilot01-booking-s06",
+      "speaker": "Receptionist",
+      "text": "Certainly. I will send you a confirmation by email."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1896dd84cff928cb",
+      "lemma": "reservation",
+      "forms": [
+        "reservation"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s01"
+      ]
+    },
+    {
+      "target_id": "ox-5bd31d3e75d105f5",
+      "lemma": "date",
+      "forms": [
+        "date"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s01"
+      ]
+    },
+    {
+      "target_id": "ox-a17ad01d2de69d4d",
+      "lemma": "single",
+      "forms": [
+        "single"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s02",
+        "pilot01-booking-s03"
+      ]
+    },
+    {
+      "target_id": "ox-60885e9ebbf7c1c4",
+      "lemma": "double",
+      "forms": [
+        "double"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s02"
+      ]
+    },
+    {
+      "target_id": "ox-a50881cdc4c327d3",
+      "lemma": "breakfast",
+      "forms": [
+        "breakfast"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s03"
+      ]
+    },
+    {
+      "target_id": "ox-ad20770a7aac9e30",
+      "lemma": "price",
+      "forms": [
+        "price"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s03"
+      ]
+    },
+    {
+      "target_id": "ox-ed2901da05e10c80",
+      "lemma": "passport",
+      "forms": [
+        "passport"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s04"
+      ]
+    },
+    {
+      "target_id": "ox-9d9d98c48f7af2a7",
+      "lemma": "flight",
+      "forms": [
+        "flight"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s05"
+      ]
+    },
+    {
+      "target_id": "ox-1738911668a2097b",
+      "lemma": "midnight",
+      "forms": [
+        "midnight"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s05"
+      ]
+    },
+    {
+      "target_id": "ox-87f2ab6602e3fe93",
+      "lemma": "confirmation",
+      "forms": [
+        "confirmation"
+      ],
+      "sentence_ids": [
+        "pilot01-booking-s06"
+      ]
+    }
+  ]
+}

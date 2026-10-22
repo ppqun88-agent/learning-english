@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "formal_pass": true,
+  "formal_document_count": 10,
+  "document_count": 10,
+  "selected_count": 100,
+  "distinct_lemma_count": 100,
+  "assigned_once_count": 100,
+  "stored_formal_checked_count": 100,
+  "review_record_count": 100,
+  "semantic_review_pass_count": 100,
+  "semantic_review_revise_count": 0,
+  "review_records_complete": true,
+  "semantic_status": "NOT CERTIFIED: independent review records are reported claims; this checker only validates structure, source identity, assignment and lexical evidence.",
+  "errors": [],
+  "review_errors": []
+}

@@ -1,0 +1,2507 @@
+[
+  {
+    "target_id": "ox-1896dd84cff928cb",
+    "lemma": "reservation",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w001",
+    "sense_zh": "预订",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“预订”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s01"
+    ],
+    "approved_forms": [
+      "reservation"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-5bd31d3e75d105f5",
+    "lemma": "date",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w002",
+    "sense_zh": "日期",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“日期”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s01"
+    ],
+    "approved_forms": [
+      "date"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-a17ad01d2de69d4d",
+    "lemma": "single",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w003",
+    "sense_zh": "单人的",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 A2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“单人的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s02",
+      "pilot01-booking-s03"
+    ],
+    "approved_forms": [
+      "single"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-60885e9ebbf7c1c4",
+    "lemma": "double",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w004",
+    "sense_zh": "双人的",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 A2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“双人的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s02"
+    ],
+    "approved_forms": [
+      "double"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-a50881cdc4c327d3",
+    "lemma": "breakfast",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w005",
+    "sense_zh": "早餐",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“早餐”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s03"
+    ],
+    "approved_forms": [
+      "breakfast"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-ad20770a7aac9e30",
+    "lemma": "price",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w006",
+    "sense_zh": "价格",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“价格”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s03"
+    ],
+    "approved_forms": [
+      "price"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-ed2901da05e10c80",
+    "lemma": "passport",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w007",
+    "sense_zh": "护照",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“护照”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s04"
+    ],
+    "approved_forms": [
+      "passport"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-9d9d98c48f7af2a7",
+    "lemma": "flight",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w008",
+    "sense_zh": "航班",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“航班”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s05"
+    ],
+    "approved_forms": [
+      "flight"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-1738911668a2097b",
+    "lemma": "midnight",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w009",
+    "sense_zh": "午夜",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“午夜”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s05"
+    ],
+    "approved_forms": [
+      "midnight"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-87f2ab6602e3fe93",
+    "lemma": "confirmation",
+    "list": "Oxford5000",
+    "cefr": "C1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w010",
+    "sense_zh": "确认信息",
+    "selection_reason": "用于“修改旅馆预订”的真实沟通任务；保留该词的 C1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“确认信息”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-booking",
+    "sentence_ids": [
+      "pilot01-booking-s06"
+    ],
+    "approved_forms": [
+      "confirmation"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-1df0d41b1e6d6d03",
+    "lemma": "leak",
+    "list": "Oxford5000",
+    "cefr": "C1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w011",
+    "sense_zh": "漏水处或漏水现象",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 C1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“漏水处或漏水现象”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s01"
+    ],
+    "approved_forms": [
+      "leak"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-5c50f62a4e622ea7",
+    "lemma": "kitchen",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w012",
+    "sense_zh": "厨房",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“厨房”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s01"
+    ],
+    "approved_forms": [
+      "kitchen"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-015a7ee984e777b5",
+    "lemma": "water",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w013",
+    "sense_zh": "水",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“水”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s02"
+    ],
+    "approved_forms": [
+      "water"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-9bc2fe0abbb2bf85",
+    "lemma": "floor",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w014",
+    "sense_zh": "地面",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“地面”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s01"
+    ],
+    "approved_forms": [
+      "floor"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-d8362e04b8d757de",
+    "lemma": "wet",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w015",
+    "sense_zh": "湿的",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 A2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“湿的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s01"
+    ],
+    "approved_forms": [
+      "wet"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-a71a5b3209f11808",
+    "lemma": "repair",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w016",
+    "sense_zh": "维修",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“维修”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s02"
+    ],
+    "approved_forms": [
+      "repair"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-e1132ee76d3c259d",
+    "lemma": "safe",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w017",
+    "sense_zh": "安全的",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 A2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“安全的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s03"
+    ],
+    "approved_forms": [
+      "safe"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-c61f1fbf5c474097",
+    "lemma": "access",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w018",
+    "sense_zh": "进入的机会或权限",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "give someone access 表示给予进入条件；本处是进入住所，不是登录账户。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s05"
+    ],
+    "approved_forms": [
+      "access"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-6de7025ea439fa72",
+    "lemma": "confirm",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w019",
+    "sense_zh": "确认",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 B1 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“确认”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s06"
+    ],
+    "approved_forms": [
+      "confirm"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-e0354eeffdbd81ed",
+    "lemma": "appointment",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w020",
+    "sense_zh": "约定的会面时间",
+    "selection_reason": "用于“报修漏水”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“约定的会面时间”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-repair",
+    "sentence_ids": [
+      "pilot01-repair-s06"
+    ],
+    "approved_forms": [
+      "appointment"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-a22a4087d47f6a10",
+    "lemma": "share",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w021",
+    "sense_zh": "共同享用",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 A1 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“共同享用”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s01"
+    ],
+    "approved_forms": [
+      "share"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-0a3fa36287f80e90",
+    "lemma": "salad",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w022",
+    "sense_zh": "沙拉",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“沙拉”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s01",
+      "pilot01-lunch-s04"
+    ],
+    "approved_forms": [
+      "salad"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-e18d77e7a1872301",
+    "lemma": "bread",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w023",
+    "sense_zh": "面包",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“面包”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s01"
+    ],
+    "approved_forms": [
+      "bread"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-2c0dd018fda30fb7",
+    "lemma": "nut",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w024",
+    "sense_zh": "坚果",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "对话以规则复数 nuts 表示坚果；只标此食品义项。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s02",
+      "pilot01-lunch-s03"
+    ],
+    "approved_forms": [
+      "nuts"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-0562c7a5022bacff",
+    "lemma": "ingredient",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w025",
+    "sense_zh": "配料",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "对话以规则复数 ingredients 表示配料；不把复数当新词。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s02"
+    ],
+    "approved_forms": [
+      "ingredients"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-03a6827e7887e555",
+    "lemma": "contain",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w026",
+    "sense_zh": "含有",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 A2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“含有”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s03"
+    ],
+    "approved_forms": [
+      "contain"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-9f7c3e941eee53a6",
+    "lemma": "serve",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w027",
+    "sense_zh": "端上食物",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 A2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“端上食物”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s04"
+    ],
+    "approved_forms": [
+      "serve"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-b74b1e205eff4d84",
+    "lemma": "instead",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "adv.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w028",
+    "sense_zh": "作为替代",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 A2 / adv. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“作为替代”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s04"
+    ],
+    "approved_forms": [
+      "instead"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-67ec5e876036e824",
+    "lemma": "chef",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w029",
+    "sense_zh": "厨师",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“厨师”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s05"
+    ],
+    "approved_forms": [
+      "chef"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-4724dcfa60c8e29d",
+    "lemma": "concern",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w030",
+    "sense_zh": "担忧",
+    "selection_reason": "用于“有饮食限制的午餐”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“担忧”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-lunch",
+    "sentence_ids": [
+      "pilot01-lunch-s06"
+    ],
+    "approved_forms": [
+      "concern"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-50553bf92fae40c9",
+    "lemma": "route",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w031",
+    "sense_zh": "路线",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“路线”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s01"
+    ],
+    "approved_forms": [
+      "route"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-4c142adaa4eb8597",
+    "lemma": "journey",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w032",
+    "sense_zh": "旅程",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“旅程”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s02"
+    ],
+    "approved_forms": [
+      "journey"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-e4a06efdd1491d8b",
+    "lemma": "fare",
+    "list": "Oxford5000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w033",
+    "sense_zh": "车费",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“车费”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s03"
+    ],
+    "approved_forms": [
+      "fare"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-90c5c963686feb89",
+    "lemma": "opposite",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "prep.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w034",
+    "sense_zh": "在对面",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 A1 / prep. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“在对面”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s04"
+    ],
+    "approved_forms": [
+      "opposite"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-da807c4317cac42a",
+    "lemma": "station",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w035",
+    "sense_zh": "车站",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“车站”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s04"
+    ],
+    "approved_forms": [
+      "station"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-688e2ad31497fefa",
+    "lemma": "driver",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w036",
+    "sense_zh": "司机",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“司机”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s04"
+    ],
+    "approved_forms": [
+      "driver"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-d18d31dec05cdc15",
+    "lemma": "direct",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w037",
+    "sense_zh": "直达的",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 A2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "be direct 为形容词，指不换乘的，不是动词“指导”。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s05",
+      "pilot01-journey-s06"
+    ],
+    "approved_forms": [
+      "direct"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-ed91b8616abb6677",
+    "lemma": "transfer",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w038",
+    "sense_zh": "换乘",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 B2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“换乘”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s05"
+    ],
+    "approved_forms": [
+      "transfer"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-b284d675072328c7",
+    "lemma": "extra",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w039",
+    "sense_zh": "额外的",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 A1 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“额外的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s06"
+    ],
+    "approved_forms": [
+      "extra"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-bb9872b1e698f9a2",
+    "lemma": "delay",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w040",
+    "sense_zh": "延误",
+    "selection_reason": "用于“错过火车后的替代路线”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“延误”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-journey",
+    "sentence_ids": [
+      "pilot01-journey-s06"
+    ],
+    "approved_forms": [
+      "delay"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-61c635a60158d8f1",
+    "lemma": "budget",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w041",
+    "sense_zh": "预算",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“预算”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s01"
+    ],
+    "approved_forms": [
+      "budget"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-1b75a3d185b62ba9",
+    "lemma": "expense",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w042",
+    "sense_zh": "费用",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“费用”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s01"
+    ],
+    "approved_forms": [
+      "expense"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-8af6173d1bd6530b",
+    "lemma": "reduce",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w043",
+    "sense_zh": "减少",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 A2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“减少”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s01"
+    ],
+    "approved_forms": [
+      "reduce"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-32ba514a6692694c",
+    "lemma": "venue",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w044",
+    "sense_zh": "活动场地",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“活动场地”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s02",
+      "pilot01-budget-s06"
+    ],
+    "approved_forms": [
+      "venue"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-253b3444eddb8a4d",
+    "lemma": "estimate",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w045",
+    "sense_zh": "估算",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“估算”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s02"
+    ],
+    "approved_forms": [
+      "estimate"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-c4e7f4158270d4a8",
+    "lemma": "affect",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w046",
+    "sense_zh": "影响",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 A2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“影响”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s03"
+    ],
+    "approved_forms": [
+      "affect"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-589852eb7d7f2701",
+    "lemma": "quality",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w047",
+    "sense_zh": "质量",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“质量”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s03"
+    ],
+    "approved_forms": [
+      "quality"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-cadfa135f3766295",
+    "lemma": "priority",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w048",
+    "sense_zh": "优先考虑的事",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“优先考虑的事”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s04"
+    ],
+    "approved_forms": [
+      "priority"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-154a8d39cf6abd3e",
+    "lemma": "compare",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w049",
+    "sense_zh": "比较",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 A1 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“比较”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s05"
+    ],
+    "approved_forms": [
+      "compare"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-e36818f27c626e6d",
+    "lemma": "decision",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w050",
+    "sense_zh": "决定",
+    "selection_reason": "用于“团队缩减活动预算”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“决定”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-budget",
+    "sentence_ids": [
+      "pilot01-budget-s05"
+    ],
+    "approved_forms": [
+      "decision"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-1eedceb6fb96d13b",
+    "lemma": "survey",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w051",
+    "sense_zh": "调查",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“调查”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s01"
+    ],
+    "approved_forms": [
+      "survey"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-39d5556e1526fec0",
+    "lemma": "evidence",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w052",
+    "sense_zh": "证据",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "evidence supports... 中 evidence 为不可数名词。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s02"
+    ],
+    "approved_forms": [
+      "evidence"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-81c1d1f2fe0c87f4",
+    "lemma": "conclusion",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w053",
+    "sense_zh": "结论",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“结论”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s02"
+    ],
+    "approved_forms": [
+      "conclusion"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-6d8604e6136523a0",
+    "lemma": "sample",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w054",
+    "sense_zh": "样本",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“样本”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s02"
+    ],
+    "approved_forms": [
+      "sample"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-dfd33657c3ce558f",
+    "lemma": "limitation",
+    "list": "Oxford5000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w055",
+    "sense_zh": "局限",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“局限”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s03"
+    ],
+    "approved_forms": [
+      "limitation"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-4bc0db422b07e127",
+    "lemma": "assume",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w056",
+    "sense_zh": "假定",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 B2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“假定”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s04"
+    ],
+    "approved_forms": [
+      "assume"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-6150bb58115eaf8d",
+    "lemma": "pattern",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w057",
+    "sense_zh": "规律或模式",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“规律或模式”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s05"
+    ],
+    "approved_forms": [
+      "pattern"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-18aaba4a646eb3a3",
+    "lemma": "research",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w058",
+    "sense_zh": "研究",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "further research 在此为不可数名词，不加 a。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s05"
+    ],
+    "approved_forms": [
+      "research"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-5d70681ca4aef44a",
+    "lemma": "distinction",
+    "list": "Oxford5000",
+    "cefr": "C1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w059",
+    "sense_zh": "区别",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 C1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“区别”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s06"
+    ],
+    "approved_forms": [
+      "distinction"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-9513cbba3e62a8d2",
+    "lemma": "accurate",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w060",
+    "sense_zh": "准确的",
+    "selection_reason": "用于“讨论调查结果”的真实沟通任务；保留该词的 B2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“准确的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-evidence",
+    "sentence_ids": [
+      "pilot01-evidence-s06"
+    ],
+    "approved_forms": [
+      "accurate"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-51c7b82de58458f5",
+    "lemma": "charge",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w061",
+    "sense_zh": "扣收的费用",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "a charge on a statement 指账单上的扣费，不是指控或充电。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s01"
+    ],
+    "approved_forms": [
+      "charge"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-e1c642934b59a706",
+    "lemma": "bank",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w062",
+    "sense_zh": "银行",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "bank 在 bank statement 中指金融机构，不是河岸。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s01"
+    ],
+    "approved_forms": [
+      "bank"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-d25d6b51f26b19f3",
+    "lemma": "statement",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w063",
+    "sense_zh": "银行账单",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "bank statement 是银行账单，不是一般声明。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s01"
+    ],
+    "approved_forms": [
+      "statement"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-3b408396df4a85bf",
+    "lemma": "amount",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w064",
+    "sense_zh": "金额",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“金额”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s02"
+    ],
+    "approved_forms": [
+      "amount"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-9bb001bfdec9b46e",
+    "lemma": "annual",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w065",
+    "sense_zh": "每年的",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 B2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“每年的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s03"
+    ],
+    "approved_forms": [
+      "annual"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-acce8f2a46bf8ee8",
+    "lemma": "subscription",
+    "list": "Oxford5000",
+    "cefr": "C1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w066",
+    "sense_zh": "订阅",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 C1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“订阅”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s03"
+    ],
+    "approved_forms": [
+      "subscription"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-43e18e1961d09be7",
+    "lemma": "record",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w067",
+    "sense_zh": "书面记录",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "a record of... 是名词，指留存的记录；不要按动词“录制”理解。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s04"
+    ],
+    "approved_forms": [
+      "record"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-d4096d3d8ec4a681",
+    "lemma": "request",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w068",
+    "sense_zh": "请求",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 B1 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“请求”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s05"
+    ],
+    "approved_forms": [
+      "request"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-29dcf5a054b0a590",
+    "lemma": "response",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w069",
+    "sense_zh": "答复",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“答复”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s06"
+    ],
+    "approved_forms": [
+      "response"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-9a826964a6df4f80",
+    "lemma": "dispute",
+    "list": "Oxford5000",
+    "cefr": "C1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w070",
+    "sense_zh": "争议",
+    "selection_reason": "用于“核对银行账单”的真实沟通任务；保留该词的 C1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“争议”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-bank",
+    "sentence_ids": [
+      "pilot01-bank-s06"
+    ],
+    "approved_forms": [
+      "dispute"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-e7c56948b12ce760",
+    "lemma": "draft",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w071",
+    "sense_zh": "草稿",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“草稿”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s01"
+    ],
+    "approved_forms": [
+      "draft"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-4b3c21acd5ce91a0",
+    "lemma": "suggest",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w072",
+    "sense_zh": "建议",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 A2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“建议”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s02"
+    ],
+    "approved_forms": [
+      "suggest"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-cb7d0a1764dfa56b",
+    "lemma": "benefit",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w073",
+    "sense_zh": "好处",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“好处”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s03"
+    ],
+    "approved_forms": [
+      "benefit"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-6c4e4a590a0199e1",
+    "lemma": "remove",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w074",
+    "sense_zh": "删除",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 A2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“删除”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s03"
+    ],
+    "approved_forms": [
+      "remove"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-a1324e777ab5c3c2",
+    "lemma": "feedback",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w075",
+    "sense_zh": "反馈",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "helpful feedback 在此为不可数名词，不加 a。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s04"
+    ],
+    "approved_forms": [
+      "feedback"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-635cb3b553a111cb",
+    "lemma": "argument",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w076",
+    "sense_zh": "论证（支持观点的理由）",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "too brief / strong enough 描述论证是否充分；不是争吵，也不只指单一结论。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s04"
+    ],
+    "approved_forms": [
+      "argument"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-555badd8cb69cf1e",
+    "lemma": "brief",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w077",
+    "sense_zh": "简短的",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 B2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "too brief 是形容词“过于简短”，不是动词“向某人介绍情况”。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s04"
+    ],
+    "approved_forms": [
+      "brief"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-498e800408a76f6a",
+    "lemma": "revise",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w078",
+    "sense_zh": "修改",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 B1 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“修改”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s06"
+    ],
+    "approved_forms": [
+      "revise"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-21ffbcbb90263048",
+    "lemma": "reasonable",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w079",
+    "sense_zh": "合理的",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 B2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“合理的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s06"
+    ],
+    "approved_forms": [
+      "reasonable"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-920a964508cd7d1e",
+    "lemma": "flexible",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w080",
+    "sense_zh": "灵活的",
+    "selection_reason": "用于“给同事反馈”的真实沟通任务；保留该词的 B2 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“灵活的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-feedback",
+    "sentence_ids": [
+      "pilot01-feedback-s07"
+    ],
+    "approved_forms": [
+      "flexible"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-bc8916750988d9e1",
+    "lemma": "proposal",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w081",
+    "sense_zh": "提议",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“提议”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s01"
+    ],
+    "approved_forms": [
+      "proposal"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-2699b3e791efbdbc",
+    "lemma": "site",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w082",
+    "sense_zh": "地点",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“地点”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s01"
+    ],
+    "approved_forms": [
+      "site"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-36b8b08ad851b155",
+    "lemma": "community",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w083",
+    "sense_zh": "社区",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“社区”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s02"
+    ],
+    "approved_forms": [
+      "community"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-2aef217d1094417f",
+    "lemma": "ensure",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w084",
+    "sense_zh": "确保",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 B2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "ensure that + 从句，表示确保某种结果。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s03"
+    ],
+    "approved_forms": [
+      "ensure"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-c2ea84005b65bb8b",
+    "lemma": "mobility",
+    "list": "Oxford5000",
+    "cefr": "C1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w085",
+    "sense_zh": "行动能力",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 C1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“行动能力”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s03"
+    ],
+    "approved_forms": [
+      "mobility"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-32830eb691513074",
+    "lemma": "entrance",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w086",
+    "sense_zh": "入口",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“入口”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s04"
+    ],
+    "approved_forms": [
+      "entrance"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-90d3f69147f768f1",
+    "lemma": "level",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w087",
+    "sense_zh": "平坦的",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 B1 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "be level 为形容词表语，指平坦无高差，不是名词“级别”。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s04"
+    ],
+    "approved_forms": [
+      "level"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-50fa621ca290e402",
+    "lemma": "responsible",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "adj.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w088",
+    "sense_zh": "负责的",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 B1 / adj. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“负责的”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s05"
+    ],
+    "approved_forms": [
+      "responsible"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-6ff4751f7e402065",
+    "lemma": "maintenance",
+    "list": "Oxford5000",
+    "cefr": "C1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w089",
+    "sense_zh": "维护",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 C1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“维护”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s05"
+    ],
+    "approved_forms": [
+      "maintenance"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-404a091df68c9929",
+    "lemma": "damage",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w090",
+    "sense_zh": "损坏",
+    "selection_reason": "用于“讨论社区公园方案”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "any damage 为不可数名词，表示损坏，不是 damages 赔偿金。",
+    "scene_id": "pilot01-park",
+    "sentence_ids": [
+      "pilot01-park-s06"
+    ],
+    "approved_forms": [
+      "damage"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-4cd27ab4167fdca0",
+    "lemma": "risk",
+    "list": "Oxford3000",
+    "cefr": "B1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w091",
+    "sense_zh": "风险",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 B1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“风险”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s02"
+    ],
+    "approved_forms": [
+      "risk"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-cb87074e3038b571",
+    "lemma": "depend",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w092",
+    "sense_zh": "依赖",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 A2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "depend on 是固定介词搭配，表示依赖。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s02"
+    ],
+    "approved_forms": [
+      "depend"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-1a8f34c9f5a2b6cc",
+    "lemma": "design",
+    "list": "Oxford3000",
+    "cefr": "A1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w093",
+    "sense_zh": "设计",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 A1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“设计”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s04"
+    ],
+    "approved_forms": [
+      "design"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-7f16e25407f37792",
+    "lemma": "component",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w094",
+    "sense_zh": "部件",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“部件”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s02"
+    ],
+    "approved_forms": [
+      "component"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-6eec8b4a761015f2",
+    "lemma": "alternative",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w095",
+    "sense_zh": "替代方案",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“替代方案”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s03"
+    ],
+    "approved_forms": [
+      "alternative"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-c6fc26466468f7c1",
+    "lemma": "permission",
+    "list": "Oxford3000",
+    "cefr": "A2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w096",
+    "sense_zh": "许可",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 A2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“许可”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s04"
+    ],
+    "approved_forms": [
+      "permission"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-bb1a90dc64481eb9",
+    "lemma": "requirement",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w097",
+    "sense_zh": "要求",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“要求”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s04"
+    ],
+    "approved_forms": [
+      "requirement"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-c1f051d9b09b929a",
+    "lemma": "scope",
+    "list": "Oxford5000",
+    "cefr": "C1",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w098",
+    "sense_zh": "范围",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 C1 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“范围”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s05"
+    ],
+    "approved_forms": [
+      "scope"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-70bcd2a2ebd16b9c",
+    "lemma": "commitment",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "n.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w099",
+    "sense_zh": "承诺",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 B2 / n. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“承诺”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s05"
+    ],
+    "approved_forms": [
+      "commitment"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  },
+  {
+    "target_id": "ox-599f976dc5971f83",
+    "lemma": "assess",
+    "list": "Oxford3000",
+    "cefr": "B2",
+    "pos": "v.",
+    "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+    "pilot_id": "p01-w100",
+    "sense_zh": "评估",
+    "selection_reason": "用于“协调项目交付”的真实沟通任务；保留该词的 B2 / v. 来源记录，测试语境中的义项选择。",
+    "usage_note_zh": "本批只覆盖“评估”这一用法，不代表该词其他词性或义项已掌握。",
+    "scene_id": "pilot01-schedule",
+    "sentence_ids": [
+      "pilot01-schedule-s06"
+    ],
+    "approved_forms": [
+      "assess"
+    ],
+    "selected": true,
+    "assigned": true,
+    "written": true,
+    "formal_checked": true,
+    "semantic_reviewed": true,
+    "return_reason": ""
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "id": "pilot01-repair",
+  "title_zh": "报修漏水",
+  "context_zh": "租客向房东说明问题并约定维修。",
+  "sentences": [
+    {
+      "id": "pilot01-repair-s01",
+      "speaker": "Tenant",
+      "text": "There is a leak under the kitchen sink. The floor is wet."
+    },
+    {
+      "id": "pilot01-repair-s02",
+      "speaker": "Landlord",
+      "text": "Can you turn off the water? I will arrange a repair."
+    },
+    {
+      "id": "pilot01-repair-s03",
+      "speaker": "Tenant",
+      "text": "Yes. Is it safe to use the socket beside the sink?"
+    },
+    {
+      "id": "pilot01-repair-s04",
+      "speaker": "Landlord",
+      "text": "Please do not use it. Keep that area clear until someone checks it."
+    },
+    {
+      "id": "pilot01-repair-s05",
+      "speaker": "Tenant",
+      "text": "I can give the plumber access tomorrow morning."
+    },
+    {
+      "id": "pilot01-repair-s06",
+      "speaker": "Landlord",
+      "text": "Thank you. I will confirm the appointment this afternoon."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1df0d41b1e6d6d03",
+      "lemma": "leak",
+      "forms": [
+        "leak"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s01"
+      ]
+    },
+    {
+      "target_id": "ox-5c50f62a4e622ea7",
+      "lemma": "kitchen",
+      "forms": [
+        "kitchen"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s01"
+      ]
+    },
+    {
+      "target_id": "ox-015a7ee984e777b5",
+      "lemma": "water",
+      "forms": [
+        "water"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s02"
+      ]
+    },
+    {
+      "target_id": "ox-9bc2fe0abbb2bf85",
+      "lemma": "floor",
+      "forms": [
+        "floor"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s01"
+      ]
+    },
+    {
+      "target_id": "ox-d8362e04b8d757de",
+      "lemma": "wet",
+      "forms": [
+        "wet"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s01"
+      ]
+    },
+    {
+      "target_id": "ox-a71a5b3209f11808",
+      "lemma": "repair",
+      "forms": [
+        "repair"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s02"
+      ]
+    },
+    {
+      "target_id": "ox-e1132ee76d3c259d",
+      "lemma": "safe",
+      "forms": [
+        "safe"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s03"
+      ]
+    },
+    {
+      "target_id": "ox-c61f1fbf5c474097",
+      "lemma": "access",
+      "forms": [
+        "access"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s05"
+      ]
+    },
+    {
+      "target_id": "ox-6de7025ea439fa72",
+      "lemma": "confirm",
+      "forms": [
+        "confirm"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s06"
+      ]
+    },
+    {
+      "target_id": "ox-e0354eeffdbd81ed",
+      "lemma": "appointment",
+      "forms": [
+        "appointment"
+      ],
+      "sentence_ids": [
+        "pilot01-repair-s06"
+      ]
+    }
+  ]
+}

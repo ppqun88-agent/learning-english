@@ -1,0 +1,502 @@
+[
+  {
+    "pilot_id": "p01-w001",
+    "status": "pass",
+    "note": "have a reservation for Friday 中 reservation 是可数名词，指旅馆预订；for 接预订日期，义项与场景相符。"
+  },
+  {
+    "pilot_id": "p01-w002",
+    "status": "pass",
+    "note": "复审：change the date to Saturday 中 date 为日期名词，to Saturday 已补明新日期；改期请求现在能与末尾确认衔接，原返工项已关闭。"
+  },
+  {
+    "pilot_id": "p01-w003",
+    "status": "pass",
+    "note": "single 修饰 room，是表示单人房的形容词；询问房型与回答重复同一结构，证据充分。"
+  },
+  {
+    "pilot_id": "p01-w004",
+    "status": "pass",
+    "note": "double 修饰 room，是双人房的形容词，不是倍数动词；与 single room 对举自然。"
+  },
+  {
+    "pilot_id": "p01-w005",
+    "status": "pass",
+    "note": "breakfast 是 included 的主语，为餐食名词；询问房费是否含早餐是自然搭配。"
+  },
+  {
+    "pilot_id": "p01-w006",
+    "status": "pass",
+    "note": "in the price 中 price 是价格名词，承接房间费用而非奖金；included in the price 搭配准确。"
+  },
+  {
+    "pilot_id": "p01-w007",
+    "status": "pass",
+    "note": "your passport 中 passport 为护照名词，bring 后接具体证件；酒店入住场景能支持这一义项，不应理解为所有酒店统一规则。"
+  },
+  {
+    "pilot_id": "p01-w008",
+    "status": "pass",
+    "note": "my flight arrives 中 flight 是航班名词，作 arrives 的主语；与晚到入住的追问衔接清楚。"
+  },
+  {
+    "pilot_id": "p01-w009",
+    "status": "pass",
+    "note": "at midnight 用名词构成时间介词短语，表示午夜；不是形容词修饰语，晚到语境明确。"
+  },
+  {
+    "pilot_id": "p01-w010",
+    "status": "pass",
+    "note": "复审：a confirmation by email 是确认信息的可数名词用法，符合中文释义；s01 已明确改到 Saturday，现可在核对房型和抵达时间后发送确认，原篇章闭环问题已关闭。"
+  },
+  {
+    "pilot_id": "p01-w011",
+    "status": "pass",
+    "note": "a leak under the kitchen sink 中 leak 为可数名词，地板湿的后句支持漏水义，而非泄密义。"
+  },
+  {
+    "pilot_id": "p01-w012",
+    "status": "pass",
+    "note": "kitchen sink 中 kitchen 是名词作前置修饰语，仍为厨房义；不是把定语功能误当形容词词性。"
+  },
+  {
+    "pilot_id": "p01-w013",
+    "status": "pass",
+    "note": "turn off the water 是关闭供水的自然说法；water 为不可数名词，中文水可接受，教学时宜解释此处实指供水。"
+  },
+  {
+    "pilot_id": "p01-w014",
+    "status": "pass",
+    "note": "the floor is wet 中 floor 作主语，指室内地面而不是楼层；漏水情境消除多义歧义。"
+  },
+  {
+    "pilot_id": "p01-w015",
+    "status": "pass",
+    "note": "wet 在 is 后作表语形容词，指地面被水弄湿；符合漏水后的状态。"
+  },
+  {
+    "pilot_id": "p01-w016",
+    "status": "pass",
+    "note": "arrange a repair 中 repair 是可数名词，指一次维修工作，不是动词；安排维修搭配自然。"
+  },
+  {
+    "pilot_id": "p01-w017",
+    "status": "pass",
+    "note": "Is it safe to use... 中 safe 是表语形容词，指使用插座是否安全，不是保险箱名词；下一轮劝暂勿使用，衔接合理。"
+  },
+  {
+    "pilot_id": "p01-w018",
+    "status": "pass",
+    "note": "give the plumber access 中 access 为不可数名词，指允许维修人员进入；地点由租屋上下文补足，不是及物动词。"
+  },
+  {
+    "pilot_id": "p01-w019",
+    "status": "pass",
+    "note": "will confirm the appointment 中 confirm 为及物动词，宾语是约定时间；下午确认与明早上门的时序成立。"
+  },
+  {
+    "pilot_id": "p01-w020",
+    "status": "pass",
+    "note": "the appointment 是 confirm 的名词宾语，指维修上门预约，不是职位任命；tomorrow morning 提供会面时间背景。"
+  },
+  {
+    "pilot_id": "p01-w021",
+    "status": "pass",
+    "note": "Shall we share a salad... 中 share 为动词原形，指两人分着吃；不是信息分享义或股份名词。"
+  },
+  {
+    "pilot_id": "p01-w022",
+    "status": "pass",
+    "note": "a salad / serve the salad 都以名词指一份沙拉，首次引入后用 the 回指，点餐对话连贯。"
+  },
+  {
+    "pilot_id": "p01-w023",
+    "status": "pass",
+    "note": "some bread 中 bread 为不可数食物名词；与 a salad 的可数性对比正确，没有误用 a bread。"
+  },
+  {
+    "pilot_id": "p01-w024",
+    "status": "pass",
+    "note": "allergy to nuts / contain any nuts 中 nuts 为 nut 的已批准复数形式，指坚果类食物；过敏与配料追问提供双重语义证据。"
+  },
+  {
+    "pilot_id": "p01-w025",
+    "status": "pass",
+    "note": "ask about the ingredients 中 ingredients 为 ingredient 的已批准复数形式，指菜品配料而非抽象要素；点餐语境明确。"
+  },
+  {
+    "pilot_id": "p01-w026",
+    "status": "pass",
+    "note": "does the dressing contain... 中 contain 为助动词后的动词原形，宾语 nuts，表示含有成分，非容纳人数义。"
+  },
+  {
+    "pilot_id": "p01-w027",
+    "status": "pass",
+    "note": "serve the salad without it 中 serve 是提供、端上食物的及物动词；it 回指 dressing，后续核实交叉接触，不把去酱等同绝对安全。"
+  },
+  {
+    "pilot_id": "p01-w028",
+    "status": "pass",
+    "note": "instead 放在 bring olive oil 之后作副词，表示用橄榄油替代原酱汁；不是误用 instead of 的介词结构。"
+  },
+  {
+    "pilot_id": "p01-w029",
+    "status": "pass",
+    "note": "the chef 中 chef 为厨师名词，check with the chef 是向厨师核实的自然搭配。"
+  },
+  {
+    "pilot_id": "p01-w030",
+    "status": "pass",
+    "note": "your concern 为 explain 的名词宾语，回指过敏及交叉接触担忧；不是动词 concern，指代清楚。"
+  },
+  {
+    "pilot_id": "p01-w031",
+    "status": "pass",
+    "note": "another route to York 中 route 为可数名词，指到目的地的路线；错过火车后询问替代路线自然。"
+  },
+  {
+    "pilot_id": "p01-w032",
+    "status": "pass",
+    "note": "the journey will take longer 中 journey 为旅程名词，指乘巴士的旅途；take longer 衡量耗时，搭配自然。"
+  },
+  {
+    "pilot_id": "p01-w033",
+    "status": "pass",
+    "note": "how much is the fare 中 fare 为交通票价名词，由 bus stop 明确公交语境，与车费义吻合。"
+  },
+  {
+    "pilot_id": "p01-w034",
+    "status": "pass",
+    "note": "opposite the station 中 opposite 直接带名词短语作介词，表示在车站对面；不是 opposite side 中的形容词用法。"
+  },
+  {
+    "pilot_id": "p01-w035",
+    "status": "pass",
+    "note": "the station 为 opposite 的宾语，指前文错过火车所在的车站；不是工作站或广播台义。"
+  },
+  {
+    "pilot_id": "p01-w036",
+    "status": "pass",
+    "note": "pay the driver with a card 中 driver 是收款司机的名词，pay somebody with a card 结构自然；为特定场景设定而非普遍支付规则。"
+  },
+  {
+    "pilot_id": "p01-w037",
+    "status": "pass",
+    "note": "Is the service direct / It is direct 中 direct 均在系动词后作形容词，表示直达；or do I need to transfer 明确排除指挥动词或直接副词义。"
+  },
+  {
+    "pilot_id": "p01-w038",
+    "status": "pass",
+    "note": "need to transfer 中 transfer 为不定式动词，指交通换乘；与 direct 对比有效，虽英式口语也常说 change，当前说法可接受。"
+  },
+  {
+    "pilot_id": "p01-w039",
+    "status": "pass",
+    "note": "extra time 中 extra 是修饰 time 的形容词，意为额外的；allow extra time 是预留时间的自然搭配。"
+  },
+  {
+    "pilot_id": "p01-w040",
+    "status": "pass",
+    "note": "a delay on the main road 中 delay 为可数名词，指道路造成的延误；与 allow extra time 的建议逻辑相连。"
+  },
+  {
+    "pilot_id": "p01-w041",
+    "status": "pass",
+    "note": "our budget is limited 中 budget 为预算名词作主语，描述活动可用资金，非廉价的形容词用法。"
+  },
+  {
+    "pilot_id": "p01-w042",
+    "status": "pass",
+    "note": "which expense can we reduce 中 expense 为可数费用项目名词，回答缩小场地对应支出项目；单数此处有明确询问作用。"
+  },
+  {
+    "pilot_id": "p01-w043",
+    "status": "pass",
+    "note": "can we reduce 中 reduce 是情态动词后的原形，宾语 expense，表示减少费用；词义和句法均匹配。"
+  },
+  {
+    "pilot_id": "p01-w044",
+    "status": "pass",
+    "note": "a smaller venue / each venue 中 venue 是活动场地名词；末句以场地代指经营方询价属自然转喻，不是词义偏移。"
+  },
+  {
+    "pilot_id": "p01-w045",
+    "status": "pass",
+    "note": "the current estimate 中 estimate 为估算名词，包含大厅的费用项目；与后续详细报价区别合理，不是估计动词。"
+  },
+  {
+    "pilot_id": "p01-w046",
+    "status": "pass",
+    "note": "Would that affect the quality 中 affect 为及物动词，表示场地变化影响活动质量；不是 effect 名词混淆。"
+  },
+  {
+    "pilot_id": "p01-w047",
+    "status": "pass",
+    "note": "the quality of the event 中 quality 为不可数质量名词，of 短语明确所属对象；与观众规模的取舍衔接自然。"
+  },
+  {
+    "pilot_id": "p01-w048",
+    "status": "pass",
+    "note": "our priority is useful discussion 中 priority 是优先事项名词，用 is 明示讨论质量的重要性，符合优先考虑的事义。"
+  },
+  {
+    "pilot_id": "p01-w049",
+    "status": "pass",
+    "note": "let us compare the options 中 compare 为动词原形，直接接比较对象；不是要求必须带 with，复数 options 已给出比较集合。"
+  },
+  {
+    "pilot_id": "p01-w050",
+    "status": "pass",
+    "note": "make a decision 是自然的动词名词搭配，decision 为可数名词；before 说明比较后再决定，交际目的清晰。"
+  },
+  {
+    "pilot_id": "p01-w051",
+    "status": "pass",
+    "note": "the survey suggests 中 survey 为调查名词作主语，后文 forty people replied 支持问卷调查语境；不是测绘或动词用法。"
+  },
+  {
+    "pilot_id": "p01-w052",
+    "status": "pass",
+    "note": "what evidence supports 中 evidence 为不可数证据名词，没有误用 an 或复数；询问支持结论的依据自然。"
+  },
+  {
+    "pilot_id": "p01-w053",
+    "status": "pass",
+    "note": "that conclusion 指前句骑行者压力较低的推论，conclusion 为名词，不是文章结束部分；that 回指明确。"
+  },
+  {
+    "pilot_id": "p01-w054",
+    "status": "pass",
+    "note": "how large was the sample 中 sample 为样本名词；forty people replied 回答样本量，而非商品样品义。"
+  },
+  {
+    "pilot_id": "p01-w055",
+    "status": "pass",
+    "note": "That is a limitation 中 limitation 是可数名词，指小样本造成的研究局限；不是对人的行动限制，回指成立。"
+  },
+  {
+    "pilot_id": "p01-w056",
+    "status": "pass",
+    "note": "should not assume that... 中 assume 为动词，后接 that 内容从句，指未经充分依据便假定因果；否定与谨慎解读一致。"
+  },
+  {
+    "pilot_id": "p01-w057",
+    "status": "pass",
+    "note": "describe the pattern 中 pattern 为观察结果的模式名词，前文关联而非因果提供语境；规律或模式这一释义可用，但不可解作已证明普遍定律。"
+  },
+  {
+    "pilot_id": "p01-w058",
+    "status": "pass",
+    "note": "further research 中 research 为不可数名词，指进一步研究，没有不当冠词或复数；与小样本局限的回应自然。"
+  },
+  {
+    "pilot_id": "p01-w059",
+    "status": "pass",
+    "note": "that distinction 回指描述关联与认定因果的区别，distinction 为名词宾语；即使未显式说 correlation，前两轮已充分建立对照。"
+  },
+  {
+    "pilot_id": "p01-w060",
+    "status": "pass",
+    "note": "the claim is accurate 中 accurate 作表语形容词，指论断表述准确；区别关联和因果可支持这一写作目的，非保证研究结论必然真实。"
+  },
+  {
+    "pilot_id": "p01-w061",
+    "status": "pass",
+    "note": "a charge on my bank statement 中 charge 是账单扣费的可数名词，非指控、责任或充电；后文金额与订阅提供明确义项证据。"
+  },
+  {
+    "pilot_id": "p01-w062",
+    "status": "pass",
+    "note": "bank statement 中 bank 是银行义名词作前置修饰语，不因定语功能改判为形容词；账单和扣费排除河岸义。"
+  },
+  {
+    "pilot_id": "p01-w063",
+    "status": "pass",
+    "note": "bank statement 中 statement 是银行账单名词，非口头声明；后续核对金额与扣费说明支持该金融语境义项。"
+  },
+  {
+    "pilot_id": "p01-w064",
+    "status": "pass",
+    "note": "the amount 与不认识的扣费承接，amount 是金额名词而非一般数量动词；check the amount 搭配自然。"
+  },
+  {
+    "pilot_id": "p01-w065",
+    "status": "pass",
+    "note": "annual 修饰 subscription，为每年的形容词，说明按年订阅；不是 annual 作年刊名词。"
+  },
+  {
+    "pilot_id": "p01-w066",
+    "status": "pass",
+    "note": "my annual subscription 中 subscription 为订阅名词，it 回指该订阅并谈取消；扣费缘由仍用 might 保留不确定性。"
+  },
+  {
+    "pilot_id": "p01-w067",
+    "status": "pass",
+    "note": "a record of the cancellation 中 record 是记录名词，不是录制动词或纪录；下句 an email 为书面记录释义提供具体支持。"
+  },
+  {
+    "pilot_id": "p01-w068",
+    "status": "pass",
+    "note": "Can I request a refund 中 request 为情态动词后的及物动词，宾语 refund；不是 a request for 中的名词结构。"
+  },
+  {
+    "pilot_id": "p01-w069",
+    "status": "pass",
+    "note": "its response 中 response 为公司答复的名词，its 回指 company；keep a copy 与保存书面回复的建议自然。"
+  },
+  {
+    "pilot_id": "p01-w070",
+    "status": "pass",
+    "note": "raise a dispute 中 dispute 为可数名词，指对扣费提出争议，非动词争辩；in case 表示条件性后续，并未无根据承诺退款。"
+  },
+  {
+    "pilot_id": "p01-w071",
+    "status": "pass",
+    "note": "discuss the draft 中 draft 是草稿名词，后文 introduction/final section 确认书面报告语境；不是气流或征召义。"
+  },
+  {
+    "pilot_id": "p01-w072",
+    "status": "pass",
+    "note": "What would you suggest 中 suggest 为情态动词后的原形，疑问词 what 为其宾语；建议内容由下一轮具体说明。"
+  },
+  {
+    "pilot_id": "p01-w073",
+    "status": "pass",
+    "note": "explain the benefit to the reader 中 benefit 为好处名词；to the reader 可理解为给读者说明，或读者所得益处，当前宽泛释义成立；若教学要专指读者获益，可改为 explain how this would help the reader。"
+  },
+  {
+    "pilot_id": "p01-w074",
+    "status": "pass",
+    "note": "remove the repeated examples 中 remove 为及物动词，指删去稿件重复例子；文本编辑语境支持删除义，不是搬走实物。"
+  },
+  {
+    "pilot_id": "p01-w075",
+    "status": "pass",
+    "note": "helpful feedback 中 feedback 为不可数名词，不加 a；指前一轮的具体修改意见，反馈义准确。"
+  },
+  {
+    "pilot_id": "p01-w076",
+    "status": "pass",
+    "note": "复审：argument 为论证名词，too brief / strong enough 描述论证展开与说服力；sense_zh 已改为“论证（支持观点的理由）”，usage_note 同步区分争吵及单一结论，原义项精度问题已关闭。"
+  },
+  {
+    "pilot_id": "p01-w077",
+    "status": "pass",
+    "note": "too brief 中 brief 在系动词后作形容词，指论证篇幅简短，不是简报名词；与担心解释不足的语境相符。"
+  },
+  {
+    "pilot_id": "p01-w078",
+    "status": "pass",
+    "note": "will revise it today 中 revise 为及物动词，it 回指草稿，表示修改；不是英式备考复习义。"
+  },
+  {
+    "pilot_id": "p01-w079",
+    "status": "pass",
+    "note": "a reasonable deadline 中 reasonable 作形容词，表示期限安排合理；tomorrow 与 today 修改的时间关系可成立。"
+  },
+  {
+    "pilot_id": "p01-w080",
+    "status": "pass",
+    "note": "being flexible 中 flexible 作表语形容词，指愿意配合修改安排而非材料易弯；作者接受建议并协商期限提供交际证据。"
+  },
+  {
+    "pilot_id": "p01-w081",
+    "status": "pass",
+    "note": "the proposal would turn... 中 proposal 为提议名词作主语，would 表示尚未实施的方案；非求婚义，内容从句提供明确语境。"
+  },
+  {
+    "pilot_id": "p01-w082",
+    "status": "pass",
+    "note": "this empty site 中 site 为地点、地块名词，turn into a public garden 支持实体场地义；不是网站义。"
+  },
+  {
+    "pilot_id": "p01-w083",
+    "status": "pass",
+    "note": "the whole community 中 community 为社区居民整体的名词，而不是单指建筑区域；中文社区可包含人群，enjoy 的主语所指自然。"
+  },
+  {
+    "pilot_id": "p01-w084",
+    "status": "pass",
+    "note": "will you ensure that... 中 ensure 为及物动词，接 that 从句表示确保可使用；后文入口和道路设计回应保障措施。"
+  },
+  {
+    "pilot_id": "p01-w085",
+    "status": "pass",
+    "note": "limited mobility 中 mobility 为不可数名词，指身体行动能力，非社会流动性；无障碍入口与宽路的回应消除歧义。"
+  },
+  {
+    "pilot_id": "p01-w086",
+    "status": "pass",
+    "note": "the entrance will be level 中 entrance 为入口名词作主语，非进入动作或使着迷动词；公园设施语境明确。"
+  },
+  {
+    "pilot_id": "p01-w087",
+    "status": "pass",
+    "note": "will be level 中 level 为表语形容词，指入口平坦，非水平名词或使平整动词；宽路与行动便利语境一致，但这句话不构成全面无障碍认证。"
+  },
+  {
+    "pilot_id": "p01-w088",
+    "status": "pass",
+    "note": "be responsible for maintenance 中 responsible 为形容词，for 引出负责事项；不是泛指有责任心，回答 council 明确责任主体。"
+  },
+  {
+    "pilot_id": "p01-w089",
+    "status": "pass",
+    "note": "for maintenance 中 maintenance 为不可数维护名词，与负责主体相连；后续安排维护日程和报损支持持续维护义。"
+  },
+  {
+    "pilot_id": "p01-w090",
+    "status": "pass",
+    "note": "report any damage 中 damage 为不可数损坏名词，any 可修饰不可数名词；不是法律赔偿金 damages 或损坏动词。"
+  },
+  {
+    "pilot_id": "p01-w091",
+    "status": "pass",
+    "note": "There is a risk 中 risk 为可数风险名词，后句依赖供应商交货解释具体风险；并非动词冒险。"
+  },
+  {
+    "pilot_id": "p01-w092",
+    "status": "pass",
+    "note": "We depend on a supplier for one component 中 depend 为动词，on 标示依赖对象、for 标示所需物；依赖义及搭配完整。"
+  },
+  {
+    "pilot_id": "p01-w093",
+    "status": "pass",
+    "note": "change the design 中 design 为设计名词宾语，因替代部件可能需改设计；不是设计动词，技术讨论因果合理。"
+  },
+  {
+    "pilot_id": "p01-w094",
+    "status": "pass",
+    "note": "one component 中 component 为单数部件名词，one 体现可数性；供应商供件与迟交风险衔接自然。"
+  },
+  {
+    "pilot_id": "p01-w095",
+    "status": "pass",
+    "note": "an alternative 中 alternative 为名词，指未到货时的替代方案，不是 alternative component 中的形容词；if it does not arrive 回指原部件。"
+  },
+  {
+    "pilot_id": "p01-w096",
+    "status": "pass",
+    "note": "need permission to change... 中 permission 为不可数许可名词，to 从句说明获准的动作；未误用 a permission。"
+  },
+  {
+    "pilot_id": "p01-w097",
+    "status": "pass",
+    "note": "a separate requirement 中 requirement 为可数要求名词，that 回指须获设计变更许可的条件，区别于找到替代部件，逻辑可成立。"
+  },
+  {
+    "pilot_id": "p01-w098",
+    "status": "pass",
+    "note": "clarify the scope 中 scope 为范围名词，项目交付语境支持工作范围义，非施展余地；before 承诺前明确范围的顺序合理。"
+  },
+  {
+    "pilot_id": "p01-w099",
+    "status": "pass",
+    "note": "make a commitment 中 commitment 为可数承诺名词，承接周一交付时间讨论，非忠诚投入的不可数用法。"
+  },
+  {
+    "pilot_id": "p01-w100",
+    "status": "pass",
+    "note": "will assess the impact 中 assess 为及物动词，表示评估变更的影响；后续给出可行时间线呼应交付问题。"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "target_id": "ox-2c0dd018fda30fb7",
+    "lemma": "nut",
+    "forms": [
+      "nuts"
+    ],
+    "reason": "Explicit regular noun plural approval for this pilot; lexical form only, not semantic certification."
+  },
+  {
+    "target_id": "ox-0562c7a5022bacff",
+    "lemma": "ingredient",
+    "forms": [
+      "ingredients"
+    ],
+    "reason": "Explicit regular noun plural approval for this pilot; lexical form only, not semantic certification."
+  }
+]

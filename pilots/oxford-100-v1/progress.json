@@ -1,0 +1,47 @@
+{
+  "batch_id": "oxford-100-v1",
+  "status": "reviewed_pilot_not_full_curriculum",
+  "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+  "selected_distinct_lemmas": 100,
+  "dialogues": 10,
+  "sentences": 61,
+  "evidence_links": 105,
+  "unit_tests_passed": 20,
+  "first_review": {
+    "pass": 97,
+    "revise": 3
+  },
+  "repair_actions": 2,
+  "final_independent_AI_review": {
+    "pass": 100,
+    "revise": 0
+  },
+  "unresolved_blocking_language_issues": [],
+  "limitations": [
+    "Independent AI review, not human expert certification",
+    "Source CEFR is POS-level metadata, not verified sense/dialogue difficulty",
+    "benefit prepositional attachment has two compatible readings; broad chosen sense remains correct",
+    "Only selected senses covered; no claim of learning outcomes or learner mastery"
+  ],
+  "next_step": "User may review learning experience; no need for user to perform word-by-word quality control. Expand only after pilot feedback.",
+  "files_sha256": {
+    "README.md": "71e249b488f2143d9c65fa1e8ec9a140002d25752406687234fc463d09af700d",
+    "dialogues/bank.json": "ca06e11f754d4759a62c8a78389318a9262600bcf54fe7751bc35e748d523a41",
+    "dialogues/booking.json": "58459a1c387ba308605148a2c100d7dc9431c2f59bca0edf93d9fd136dcff098",
+    "dialogues/budget.json": "289f86025e0f11fd4d8a99e6cd205f6646760a7b685eb81dd545725be67605d8",
+    "dialogues/evidence.json": "b854f7f9e73c86061a646691d512d861142ed350cf41084bf2cb30ed564901f0",
+    "dialogues/feedback.json": "f86d30e6afe9051e471875b513498890e75fb30bc3e31fbaed4104e90b652d04",
+    "dialogues/journey.json": "840a69aab48c85f281147c8986e7e23dfc41477dbfa9925ff595c3dc9855faed",
+    "dialogues/lunch.json": "a63e8a3ac3272d60bdf2bb6f985162c484b590edf7ca75fccf5bba24b965e55b",
+    "dialogues/park.json": "582a1def59567b78f9e6eabeabdc8071d40c3aaadbd7791ce93c3265634e5b19",
+    "dialogues/repair.json": "27c4a849febaf2a619507cca7b28282ea5fa453a7eca681312412435a8313587",
+    "dialogues/schedule.json": "a0e889023f6c4b52b240668adf3b29dc78e91bf5cc2f890b30008130f2845bb5",
+    "dialogues.md": "f84cb3750ffd8850a9aadf1358e199f78370addde7f66a1c6ca96133dbd6fa81",
+    "form-approvals.json": "2659b379510de4bf84fc32dc75a64b43b55a65e0a707aec15c09966e755af536",
+    "review-summary.md": "bd1dc4e95b0b7588ed3f75e9480393b2745b1a659f0820d4da6ac025bb488200",
+    "reviews.json": "0904e83b4e113a05593b18c0de8f612412d255011551eb44b1b228c1844a61c6",
+    "selection.csv": "3648567dcf7e64ff18b99ba2350b3384b0e232d81de947fd0c69e38c85080cc4",
+    "selection.json": "5386f991c12446f6e369c74a65e19ada7528819d01066ca74f0c0fda38b2b690",
+    "validation.json": "1a5737d74dee094a440b20aa60e59005bbe9602c7366069e5e6c323df44d568f"
+  }
+}

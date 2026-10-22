@@ -1,0 +1,139 @@
+{
+  "id": "pilot01-schedule",
+  "title_zh": "协调项目交付",
+  "context_zh": "团队说明依赖关系，协商可实现的承诺。",
+  "sentences": [
+    {
+      "id": "pilot01-schedule-s01",
+      "speaker": "Lead",
+      "text": "Can we deliver the update on Monday?"
+    },
+    {
+      "id": "pilot01-schedule-s02",
+      "speaker": "Engineer",
+      "text": "There is a risk. We depend on a supplier for one component."
+    },
+    {
+      "id": "pilot01-schedule-s03",
+      "speaker": "Lead",
+      "text": "Is there an alternative if it does not arrive?"
+    },
+    {
+      "id": "pilot01-schedule-s04",
+      "speaker": "Engineer",
+      "text": "Yes, but we need permission to change the design. That is a separate requirement."
+    },
+    {
+      "id": "pilot01-schedule-s05",
+      "speaker": "Lead",
+      "text": "Let us clarify the scope before we make a commitment."
+    },
+    {
+      "id": "pilot01-schedule-s06",
+      "speaker": "Engineer",
+      "text": "Agreed. I will assess the impact and send you a realistic timeline."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4cd27ab4167fdca0",
+      "lemma": "risk",
+      "forms": [
+        "risk"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s02"
+      ]
+    },
+    {
+      "target_id": "ox-cb87074e3038b571",
+      "lemma": "depend",
+      "forms": [
+        "depend"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s02"
+      ]
+    },
+    {
+      "target_id": "ox-1a8f34c9f5a2b6cc",
+      "lemma": "design",
+      "forms": [
+        "design"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s04"
+      ]
+    },
+    {
+      "target_id": "ox-7f16e25407f37792",
+      "lemma": "component",
+      "forms": [
+        "component"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s02"
+      ]
+    },
+    {
+      "target_id": "ox-6eec8b4a761015f2",
+      "lemma": "alternative",
+      "forms": [
+        "alternative"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s03"
+      ]
+    },
+    {
+      "target_id": "ox-c6fc26466468f7c1",
+      "lemma": "permission",
+      "forms": [
+        "permission"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s04"
+      ]
+    },
+    {
+      "target_id": "ox-bb1a90dc64481eb9",
+      "lemma": "requirement",
+      "forms": [
+        "requirement"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s04"
+      ]
+    },
+    {
+      "target_id": "ox-c1f051d9b09b929a",
+      "lemma": "scope",
+      "forms": [
+        "scope"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s05"
+      ]
+    },
+    {
+      "target_id": "ox-70bcd2a2ebd16b9c",
+      "lemma": "commitment",
+      "forms": [
+        "commitment"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s05"
+      ]
+    },
+    {
+      "target_id": "ox-599f976dc5971f83",
+      "lemma": "assess",
+      "forms": [
+        "assess"
+      ],
+      "sentence_ids": [
+        "pilot01-schedule-s06"
+      ]
+    }
+  ]
+}

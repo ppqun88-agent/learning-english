@@ -1,0 +1,139 @@
+{
+  "id": "pilot01-bank",
+  "title_zh": "核对银行账单",
+  "context_zh": "客户发现不熟悉的扣费，客服核对而不作无根据保证。",
+  "sentences": [
+    {
+      "id": "pilot01-bank-s01",
+      "speaker": "Customer",
+      "text": "There is a charge on my bank statement that I do not recognize."
+    },
+    {
+      "id": "pilot01-bank-s02",
+      "speaker": "Adviser",
+      "text": "Let us check the amount and the name of the company."
+    },
+    {
+      "id": "pilot01-bank-s03",
+      "speaker": "Customer",
+      "text": "It might be my annual subscription, but I thought I had cancelled it."
+    },
+    {
+      "id": "pilot01-bank-s04",
+      "speaker": "Adviser",
+      "text": "Do you have a record of the cancellation?"
+    },
+    {
+      "id": "pilot01-bank-s05",
+      "speaker": "Customer",
+      "text": "Yes, I have an email. Can I request a refund?"
+    },
+    {
+      "id": "pilot01-bank-s06",
+      "speaker": "Adviser",
+      "text": "You can contact the company first. Keep a copy of its response in case you need to raise a dispute."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-51c7b82de58458f5",
+      "lemma": "charge",
+      "forms": [
+        "charge"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s01"
+      ]
+    },
+    {
+      "target_id": "ox-e1c642934b59a706",
+      "lemma": "bank",
+      "forms": [
+        "bank"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s01"
+      ]
+    },
+    {
+      "target_id": "ox-d25d6b51f26b19f3",
+      "lemma": "statement",
+      "forms": [
+        "statement"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s01"
+      ]
+    },
+    {
+      "target_id": "ox-3b408396df4a85bf",
+      "lemma": "amount",
+      "forms": [
+        "amount"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s02"
+      ]
+    },
+    {
+      "target_id": "ox-9bb001bfdec9b46e",
+      "lemma": "annual",
+      "forms": [
+        "annual"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s03"
+      ]
+    },
+    {
+      "target_id": "ox-acce8f2a46bf8ee8",
+      "lemma": "subscription",
+      "forms": [
+        "subscription"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s03"
+      ]
+    },
+    {
+      "target_id": "ox-43e18e1961d09be7",
+      "lemma": "record",
+      "forms": [
+        "record"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s04"
+      ]
+    },
+    {
+      "target_id": "ox-d4096d3d8ec4a681",
+      "lemma": "request",
+      "forms": [
+        "request"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s05"
+      ]
+    },
+    {
+      "target_id": "ox-29dcf5a054b0a590",
+      "lemma": "response",
+      "forms": [
+        "response"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s06"
+      ]
+    },
+    {
+      "target_id": "ox-9a826964a6df4f80",
+      "lemma": "dispute",
+      "forms": [
+        "dispute"
+      ],
+      "sentence_ids": [
+        "pilot01-bank-s06"
+      ]
+    }
+  ]
+}

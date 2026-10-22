@@ -1,0 +1,144 @@
+{
+  "id": "pilot01-feedback",
+  "title_zh": "给同事反馈",
+  "context_zh": "同事礼貌指出报告的问题，并约定修改方式。",
+  "sentences": [
+    {
+      "id": "pilot01-feedback-s01",
+      "speaker": "Manager",
+      "text": "Could we discuss the draft? The introduction is clear, but the final section needs work."
+    },
+    {
+      "id": "pilot01-feedback-s02",
+      "speaker": "Writer",
+      "text": "What would you suggest?"
+    },
+    {
+      "id": "pilot01-feedback-s03",
+      "speaker": "Manager",
+      "text": "Please explain the benefit to the reader and remove the repeated examples."
+    },
+    {
+      "id": "pilot01-feedback-s04",
+      "speaker": "Writer",
+      "text": "That is helpful feedback. I was worried that the argument was too brief."
+    },
+    {
+      "id": "pilot01-feedback-s05",
+      "speaker": "Manager",
+      "text": "It is strong enough. A concise version will be easier to follow."
+    },
+    {
+      "id": "pilot01-feedback-s06",
+      "speaker": "Writer",
+      "text": "I will revise it today. Is tomorrow a reasonable deadline?"
+    },
+    {
+      "id": "pilot01-feedback-s07",
+      "speaker": "Manager",
+      "text": "Yes. Thank you for being flexible."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e7c56948b12ce760",
+      "lemma": "draft",
+      "forms": [
+        "draft"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s01"
+      ]
+    },
+    {
+      "target_id": "ox-4b3c21acd5ce91a0",
+      "lemma": "suggest",
+      "forms": [
+        "suggest"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s02"
+      ]
+    },
+    {
+      "target_id": "ox-cb7d0a1764dfa56b",
+      "lemma": "benefit",
+      "forms": [
+        "benefit"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s03"
+      ]
+    },
+    {
+      "target_id": "ox-6c4e4a590a0199e1",
+      "lemma": "remove",
+      "forms": [
+        "remove"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s03"
+      ]
+    },
+    {
+      "target_id": "ox-a1324e777ab5c3c2",
+      "lemma": "feedback",
+      "forms": [
+        "feedback"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s04"
+      ]
+    },
+    {
+      "target_id": "ox-635cb3b553a111cb",
+      "lemma": "argument",
+      "forms": [
+        "argument"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s04"
+      ]
+    },
+    {
+      "target_id": "ox-555badd8cb69cf1e",
+      "lemma": "brief",
+      "forms": [
+        "brief"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s04"
+      ]
+    },
+    {
+      "target_id": "ox-498e800408a76f6a",
+      "lemma": "revise",
+      "forms": [
+        "revise"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s06"
+      ]
+    },
+    {
+      "target_id": "ox-21ffbcbb90263048",
+      "lemma": "reasonable",
+      "forms": [
+        "reasonable"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s06"
+      ]
+    },
+    {
+      "target_id": "ox-920a964508cd7d1e",
+      "lemma": "flexible",
+      "forms": [
+        "flexible"
+      ],
+      "sentence_ids": [
+        "pilot01-feedback-s07"
+      ]
+    }
+  ]
+}

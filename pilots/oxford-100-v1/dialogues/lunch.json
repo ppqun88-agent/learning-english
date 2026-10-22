@@ -1,0 +1,141 @@
+{
+  "id": "pilot01-lunch",
+  "title_zh": "有饮食限制的午餐",
+  "context_zh": "朋友一起点餐，确认食物成分。",
+  "sentences": [
+    {
+      "id": "pilot01-lunch-s01",
+      "speaker": "Maya",
+      "text": "Shall we share a salad and some bread?"
+    },
+    {
+      "id": "pilot01-lunch-s02",
+      "speaker": "Leo",
+      "text": "Yes, but I have an allergy to nuts. Could we ask about the ingredients?"
+    },
+    {
+      "id": "pilot01-lunch-s03",
+      "speaker": "Maya",
+      "text": "Excuse me, does the dressing contain any nuts?"
+    },
+    {
+      "id": "pilot01-lunch-s04",
+      "speaker": "Server",
+      "text": "Yes. We can serve the salad without it and bring olive oil instead."
+    },
+    {
+      "id": "pilot01-lunch-s05",
+      "speaker": "Leo",
+      "text": "Thank you. Could you also check with the chef about cross-contact?"
+    },
+    {
+      "id": "pilot01-lunch-s06",
+      "speaker": "Server",
+      "text": "Certainly. I will explain your concern before you order."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a22a4087d47f6a10",
+      "lemma": "share",
+      "forms": [
+        "share"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s01"
+      ]
+    },
+    {
+      "target_id": "ox-0a3fa36287f80e90",
+      "lemma": "salad",
+      "forms": [
+        "salad"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s01",
+        "pilot01-lunch-s04"
+      ]
+    },
+    {
+      "target_id": "ox-e18d77e7a1872301",
+      "lemma": "bread",
+      "forms": [
+        "bread"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s01"
+      ]
+    },
+    {
+      "target_id": "ox-2c0dd018fda30fb7",
+      "lemma": "nut",
+      "forms": [
+        "nuts"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s02",
+        "pilot01-lunch-s03"
+      ]
+    },
+    {
+      "target_id": "ox-0562c7a5022bacff",
+      "lemma": "ingredient",
+      "forms": [
+        "ingredients"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s02"
+      ]
+    },
+    {
+      "target_id": "ox-03a6827e7887e555",
+      "lemma": "contain",
+      "forms": [
+        "contain"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s03"
+      ]
+    },
+    {
+      "target_id": "ox-9f7c3e941eee53a6",
+      "lemma": "serve",
+      "forms": [
+        "serve"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s04"
+      ]
+    },
+    {
+      "target_id": "ox-b74b1e205eff4d84",
+      "lemma": "instead",
+      "forms": [
+        "instead"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s04"
+      ]
+    },
+    {
+      "target_id": "ox-67ec5e876036e824",
+      "lemma": "chef",
+      "forms": [
+        "chef"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s05"
+      ]
+    },
+    {
+      "target_id": "ox-4724dcfa60c8e29d",
+      "lemma": "concern",
+      "forms": [
+        "concern"
+      ],
+      "sentence_ids": [
+        "pilot01-lunch-s06"
+      ]
+    }
+  ]
+}

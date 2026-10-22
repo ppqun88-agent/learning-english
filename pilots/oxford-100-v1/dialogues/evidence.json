@@ -1,0 +1,139 @@
+{
+  "id": "pilot01-evidence",
+  "title_zh": "讨论调查结果",
+  "context_zh": "同事避免将相关性误说成因果关系。",
+  "sentences": [
+    {
+      "id": "pilot01-evidence-s01",
+      "speaker": "Nora",
+      "text": "The survey suggests that people who cycle to work feel less stressed."
+    },
+    {
+      "id": "pilot01-evidence-s02",
+      "speaker": "Sam",
+      "text": "What evidence supports that conclusion? How large was the sample?"
+    },
+    {
+      "id": "pilot01-evidence-s03",
+      "speaker": "Nora",
+      "text": "Only forty people replied. That is a limitation."
+    },
+    {
+      "id": "pilot01-evidence-s04",
+      "speaker": "Sam",
+      "text": "Then we should not assume that cycling caused the difference."
+    },
+    {
+      "id": "pilot01-evidence-s05",
+      "speaker": "Nora",
+      "text": "Right. We can describe the pattern, but we need further research."
+    },
+    {
+      "id": "pilot01-evidence-s06",
+      "speaker": "Sam",
+      "text": "Let us include that distinction in the report so the claim is accurate."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1eedceb6fb96d13b",
+      "lemma": "survey",
+      "forms": [
+        "survey"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s01"
+      ]
+    },
+    {
+      "target_id": "ox-39d5556e1526fec0",
+      "lemma": "evidence",
+      "forms": [
+        "evidence"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s02"
+      ]
+    },
+    {
+      "target_id": "ox-81c1d1f2fe0c87f4",
+      "lemma": "conclusion",
+      "forms": [
+        "conclusion"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s02"
+      ]
+    },
+    {
+      "target_id": "ox-6d8604e6136523a0",
+      "lemma": "sample",
+      "forms": [
+        "sample"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s02"
+      ]
+    },
+    {
+      "target_id": "ox-dfd33657c3ce558f",
+      "lemma": "limitation",
+      "forms": [
+        "limitation"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s03"
+      ]
+    },
+    {
+      "target_id": "ox-4bc0db422b07e127",
+      "lemma": "assume",
+      "forms": [
+        "assume"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s04"
+      ]
+    },
+    {
+      "target_id": "ox-6150bb58115eaf8d",
+      "lemma": "pattern",
+      "forms": [
+        "pattern"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s05"
+      ]
+    },
+    {
+      "target_id": "ox-18aaba4a646eb3a3",
+      "lemma": "research",
+      "forms": [
+        "research"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s05"
+      ]
+    },
+    {
+      "target_id": "ox-5d70681ca4aef44a",
+      "lemma": "distinction",
+      "forms": [
+        "distinction"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s06"
+      ]
+    },
+    {
+      "target_id": "ox-9513cbba3e62a8d2",
+      "lemma": "accurate",
+      "forms": [
+        "accurate"
+      ],
+      "sentence_ids": [
+        "pilot01-evidence-s06"
+      ]
+    }
+  ]
+}

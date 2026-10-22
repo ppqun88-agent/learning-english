@@ -1,0 +1,140 @@
+{
+  "id": "pilot01-budget",
+  "title_zh": "团队缩减活动预算",
+  "context_zh": "同事比较方案，在费用和实际效果之间取舍。",
+  "sentences": [
+    {
+      "id": "pilot01-budget-s01",
+      "speaker": "Ava",
+      "text": "Our budget is limited. Which expense can we reduce?"
+    },
+    {
+      "id": "pilot01-budget-s02",
+      "speaker": "Ben",
+      "text": "We could choose a smaller venue. The current estimate includes a large hall."
+    },
+    {
+      "id": "pilot01-budget-s03",
+      "speaker": "Ava",
+      "text": "Would that affect the quality of the event?"
+    },
+    {
+      "id": "pilot01-budget-s04",
+      "speaker": "Ben",
+      "text": "Not necessarily. Our priority is useful discussion, not a large audience."
+    },
+    {
+      "id": "pilot01-budget-s05",
+      "speaker": "Ava",
+      "text": "Then let us compare the options before we make a decision."
+    },
+    {
+      "id": "pilot01-budget-s06",
+      "speaker": "Ben",
+      "text": "Agreed. I will ask each venue for a detailed quote."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-61c635a60158d8f1",
+      "lemma": "budget",
+      "forms": [
+        "budget"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s01"
+      ]
+    },
+    {
+      "target_id": "ox-1b75a3d185b62ba9",
+      "lemma": "expense",
+      "forms": [
+        "expense"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s01"
+      ]
+    },
+    {
+      "target_id": "ox-8af6173d1bd6530b",
+      "lemma": "reduce",
+      "forms": [
+        "reduce"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s01"
+      ]
+    },
+    {
+      "target_id": "ox-32ba514a6692694c",
+      "lemma": "venue",
+      "forms": [
+        "venue"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s02",
+        "pilot01-budget-s06"
+      ]
+    },
+    {
+      "target_id": "ox-253b3444eddb8a4d",
+      "lemma": "estimate",
+      "forms": [
+        "estimate"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s02"
+      ]
+    },
+    {
+      "target_id": "ox-c4e7f4158270d4a8",
+      "lemma": "affect",
+      "forms": [
+        "affect"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s03"
+      ]
+    },
+    {
+      "target_id": "ox-589852eb7d7f2701",
+      "lemma": "quality",
+      "forms": [
+        "quality"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s03"
+      ]
+    },
+    {
+      "target_id": "ox-cadfa135f3766295",
+      "lemma": "priority",
+      "forms": [
+        "priority"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s04"
+      ]
+    },
+    {
+      "target_id": "ox-154a8d39cf6abd3e",
+      "lemma": "compare",
+      "forms": [
+        "compare"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s05"
+      ]
+    },
+    {
+      "target_id": "ox-e36818f27c626e6d",
+      "lemma": "decision",
+      "forms": [
+        "decision"
+      ],
+      "sentence_ids": [
+        "pilot01-budget-s05"
+      ]
+    }
+  ]
+}
