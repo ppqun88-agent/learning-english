@@ -1,0 +1,137 @@
+{
+  "id": "p09-a-27",
+  "title_zh": "确定太空展图像顺序与比例说明",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "space-exhibit-photo-sequence",
+    "label_zh": "太空模型展图卡顺序与比例说明安排",
+    "goal_zh": "依据给定图卡确定发射与入轨图像的顺序、选定清晰照片，并约定重排图卡及补充非等比例展示说明"
+  },
+  "participants": [
+    "Hugo",
+    "Zara"
+  ],
+  "context_zh": "学生用虚构教学图卡布置太空模型展示，核对的是图卡所示顺序。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-27-s01",
+      "speaker": "Hugo",
+      "text": "Our sequence starts with the satellite already in orbit, then shows the launch. Is that deliberate?"
+    },
+    {
+      "id": "p09-a-27-s02",
+      "speaker": "Zara",
+      "text": "No, I mixed up the cards. The rocket on the launch pad should come first."
+    },
+    {
+      "id": "p09-a-27-s03",
+      "speaker": "Hugo",
+      "text": "Then the launch, followed by the card showing the satellite in orbit, as the numbered guide says."
+    },
+    {
+      "id": "p09-a-27-s04",
+      "speaker": "Zara",
+      "text": "Yes. Which launch photo should we use?"
+    },
+    {
+      "id": "p09-a-27-s05",
+      "speaker": "Hugo",
+      "text": "This shot is clearer. You can see the whole rocket rather than only a cloud of smoke."
+    },
+    {
+      "id": "p09-a-27-s06",
+      "speaker": "Zara",
+      "text": "Good choice. We also need to say these drawings are not to scale. The model Earth and the satellite look almost the same size."
+    },
+    {
+      "id": "p09-a-27-s07",
+      "speaker": "Hugo",
+      "text": "Agreed. I'll use this photo, put the cards in that order, and add the scale note below them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1fe981c5934d3834",
+      "lemma": "satellite",
+      "pos": "n.",
+      "sense_zh": "人造卫星",
+      "sentence_ids": [
+        "p09-a-27-s01"
+      ],
+      "forms": [
+        "satellite"
+      ],
+      "sense_id": "sense-staged-ox-1fe981c5934d3834-p09-a-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9d1028f037ea8638",
+      "lemma": "rocket",
+      "pos": "n.",
+      "sense_zh": "火箭",
+      "sentence_ids": [
+        "p09-a-27-s02"
+      ],
+      "forms": [
+        "rocket"
+      ],
+      "sense_id": "sense-staged-ox-9d1028f037ea8638-p09-a-27",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c928c8d80648eb3",
+      "lemma": "sequence",
+      "pos": "n.",
+      "sense_zh": "顺序",
+      "sentence_ids": [
+        "p09-a-27-s01"
+      ],
+      "forms": [
+        "sequence"
+      ],
+      "sense_id": "sense-staged-ox-2c928c8d80648eb3-p09-a-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5bc200eee37b31b1",
+      "lemma": "shot",
+      "pos": "n.",
+      "sense_zh": "照片；拍摄画面",
+      "sentence_ids": [
+        "p09-a-27-s05"
+      ],
+      "forms": [
+        "shot"
+      ],
+      "sense_id": "sense-staged-ox-5bc200eee37b31b1-p09-a-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c3330a41f06a1a8",
+      "lemma": "scale",
+      "pos": "n.",
+      "sense_zh": "绘图或模型的比例",
+      "sentence_ids": [
+        "p09-a-27-s06"
+      ],
+      "forms": [
+        "scale"
+      ],
+      "sense_id": "sense-staged-ox-3c3330a41f06a1a8-p09-a-27",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

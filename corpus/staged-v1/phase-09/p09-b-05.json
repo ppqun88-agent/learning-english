@@ -1,0 +1,121 @@
+{
+  "id": "p09-b-05",
+  "title_zh": "约定按实际幅度描述销售趋势",
+  "topic_id": "work",
+  "scenario": {
+    "id": "weekly-sales-trend-wording",
+    "label_zh": "约定按实际幅度描述销售趋势",
+    "goal_zh": "核对每周销售图的变化，并约定区分先前平稳期与近期的小幅下降"
+  },
+  "participants": [
+    "Asha",
+    "Bram"
+  ],
+  "context_zh": "同事检查一张虚构商店销售图，避免把轻微变化夸大为崩跌。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-05-s01",
+      "speaker": "Asha",
+      "text": "I've described April sales as a collapse. Does that sound too strong?"
+    },
+    {
+      "id": "p09-b-05-s02",
+      "speaker": "Bram",
+      "text": "Much too strong. The line shows a slight fall in the final week, not a collapse."
+    },
+    {
+      "id": "p09-b-05-s03",
+      "speaker": "Asha",
+      "text": "What about the first three weeks? The figures aren't exactly identical."
+    },
+    {
+      "id": "p09-b-05-s04",
+      "speaker": "Bram",
+      "text": "They're close enough to call sales steady during that period. Look at March: sales rose steadily every week then."
+    },
+    {
+      "id": "p09-b-05-s05",
+      "speaker": "Asha",
+      "text": "So April ended somewhat below where it began, after three fairly stable weeks."
+    },
+    {
+      "id": "p09-b-05-s06",
+      "speaker": "Bram",
+      "text": "Exactly. Keep March separate so readers don't think the upward trend continued all through April."
+    },
+    {
+      "id": "p09-b-05-s07",
+      "speaker": "Asha",
+      "text": "I'll replace 'collapse' with that more precise description and label the two months clearly."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-615213a14ba5da2c",
+      "lemma": "slight",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-615213a14ba5da2c-p09-b-05",
+      "sense_zh": "轻微的；少量的",
+      "sentence_ids": [
+        "p09-b-05-s02"
+      ],
+      "forms": [
+        "slight"
+      ]
+    },
+    {
+      "target_id": "ox-57859ffa6852b95a",
+      "lemma": "steady",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-57859ffa6852b95a-p09-b-05",
+      "sense_zh": "稳定的",
+      "sentence_ids": [
+        "p09-b-05-s04"
+      ],
+      "forms": [
+        "steady"
+      ]
+    },
+    {
+      "target_id": "ox-6db83dc58c7bf30f",
+      "lemma": "steadily",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-6db83dc58c7bf30f-p09-b-05",
+      "sense_zh": "持续而稳定地",
+      "sentence_ids": [
+        "p09-b-05-s04"
+      ],
+      "forms": [
+        "steadily"
+      ]
+    },
+    {
+      "target_id": "ox-778bd427c63277f5",
+      "lemma": "somewhat",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-778bd427c63277f5-p09-b-05",
+      "sense_zh": "有些；稍微",
+      "sentence_ids": [
+        "p09-b-05-s05"
+      ],
+      "forms": [
+        "somewhat"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

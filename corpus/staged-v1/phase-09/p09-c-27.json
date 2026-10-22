@@ -1,0 +1,142 @@
+{
+  "id": "p09-c-27",
+  "title_zh": "纠正虚构案件报道中的事实断言",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-court-report-evidence-words",
+    "label_zh": "修正虚构案件报道中的指控和证实状态",
+    "goal_zh": "区分指控和已证实事实，依据课堂材料选择保留归属及否认信息的报道句"
+  },
+  "participants": [
+    "Esme",
+    "Victor"
+  ],
+  "context_zh": "新闻写作课讨论完全虚构的案件材料，不代表现实指控或法律意见。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-27-s01",
+      "speaker": "Esme",
+      "text": "My opening says the accused took the missing camera. Is that supported by our exercise file?"
+    },
+    {
+      "id": "p09-c-27-s02",
+      "speaker": "Victor",
+      "text": "No. That's the accusation, not a finding. The file says the hearing hasn't happened yet."
+    },
+    {
+      "id": "p09-c-27-s03",
+      "speaker": "Esme",
+      "text": "Two witnesses allege that they saw him leave with a black bag. Could that support the sentence?"
+    },
+    {
+      "id": "p09-c-27-s04",
+      "speaker": "Victor",
+      "text": "It supports reporting what they say, not what was in the bag. The allegation about the camera is still disputed."
+    },
+    {
+      "id": "p09-c-27-s05",
+      "speaker": "Esme",
+      "text": "He allegedly took the camera, then. Does that make the sentence accurate enough?"
+    },
+    {
+      "id": "p09-c-27-s06",
+      "speaker": "Victor",
+      "text": "Not by itself. Tell readers who made the claim and include his denial; the file gives us both."
+    },
+    {
+      "id": "p09-c-27-s07",
+      "speaker": "Esme",
+      "text": "Then I'll write that two witnesses say he left with a black bag, and that he denies taking the camera."
+    },
+    {
+      "id": "p09-c-27-s08",
+      "speaker": "Victor",
+      "text": "Use that. It states the accounts without presenting the accusation as a proven event."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5c1c1c3bf0d1066d",
+      "lemma": "accused",
+      "pos": "n.",
+      "sense_zh": "被告；被指控者",
+      "sentence_ids": [
+        "p09-c-27-s01"
+      ],
+      "forms": [
+        "accused"
+      ],
+      "sense_id": "sense-staged-ox-5c1c1c3bf0d1066d-p09-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7a7b4b76baff735a",
+      "lemma": "accusation",
+      "pos": "n.",
+      "sense_zh": "指控",
+      "sentence_ids": [
+        "p09-c-27-s02"
+      ],
+      "forms": [
+        "accusation"
+      ],
+      "sense_id": "sense-staged-ox-7a7b4b76baff735a-p09-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-51088dccbc52deff",
+      "lemma": "allege",
+      "pos": "v.",
+      "sense_zh": "声称；指控但未证实",
+      "sentence_ids": [
+        "p09-c-27-s03"
+      ],
+      "forms": [
+        "allege"
+      ],
+      "sense_id": "sense-staged-ox-51088dccbc52deff-p09-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c05e4a4e84098954",
+      "lemma": "allegation",
+      "pos": "n.",
+      "sense_zh": "未经证实的指控",
+      "sentence_ids": [
+        "p09-c-27-s04"
+      ],
+      "forms": [
+        "allegation"
+      ],
+      "sense_id": "sense-staged-ox-c05e4a4e84098954-p09-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-71bfded8bdf9d909",
+      "lemma": "allegedly",
+      "pos": "adv.",
+      "sense_zh": "据称；据指控",
+      "sentence_ids": [
+        "p09-c-27-s05"
+      ],
+      "forms": [
+        "allegedly"
+      ],
+      "sense_id": "sense-staged-ox-71bfded8bdf9d909-p09-c-27",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

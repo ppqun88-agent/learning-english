@@ -1,0 +1,121 @@
+{
+  "id": "p09-c-01",
+  "title_zh": "选定温室的短环线",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "greenhouse-accessible-fern-loop",
+    "label_zh": "选择温室蕨类短环线",
+    "goal_zh": "核对蕨类展区位置与路线长度，选择从旁边的门进入短环线"
+  },
+  "participants": [
+    "Inez",
+    "Rafi"
+  ],
+  "context_zh": "游客在植物园服务台询问温室内的短路线。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-01-s01",
+      "speaker": "Inez",
+      "text": "I'd like to see the tropical plants, but I only have twenty minutes."
+    },
+    {
+      "id": "p09-c-01-s02",
+      "speaker": "Rafi",
+      "text": "There's an abundance of ferns in the east greenhouse. You can see that section without walking through the whole building."
+    },
+    {
+      "id": "p09-c-01-s03",
+      "speaker": "Inez",
+      "text": "I tend to wander when I visit gardens. Is there a marked route?"
+    },
+    {
+      "id": "p09-c-01-s04",
+      "speaker": "Rafi",
+      "text": "Yes. The green arrows make a short loop. The entrance is adjacent to this desk, through the glass door."
+    },
+    {
+      "id": "p09-c-01-s05",
+      "speaker": "Inez",
+      "text": "Does the loop bring me back here?"
+    },
+    {
+      "id": "p09-c-01-s06",
+      "speaker": "Rafi",
+      "text": "It does, and it takes about fifteen minutes at an easy pace."
+    },
+    {
+      "id": "p09-c-01-s07",
+      "speaker": "Inez",
+      "text": "Perfect. I'll take that loop and leave the other rooms for next time."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4336208cb105d331",
+      "lemma": "tropical",
+      "pos": "adj.",
+      "sense_zh": "热带的",
+      "sentence_ids": [
+        "p09-c-01-s01"
+      ],
+      "forms": [
+        "tropical"
+      ],
+      "sense_id": "sense-staged-ox-4336208cb105d331-p09-c-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef8dcc96096738cf",
+      "lemma": "abundance",
+      "pos": "n.",
+      "sense_zh": "大量；丰富",
+      "sentence_ids": [
+        "p09-c-01-s02"
+      ],
+      "forms": [
+        "abundance"
+      ],
+      "sense_id": "sense-staged-ox-ef8dcc96096738cf-p09-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fcbba18e2fa65325",
+      "lemma": "wander",
+      "pos": "v.",
+      "sense_zh": "漫步；闲逛",
+      "sentence_ids": [
+        "p09-c-01-s03"
+      ],
+      "forms": [
+        "wander"
+      ],
+      "sense_id": "sense-staged-ox-fcbba18e2fa65325-p09-c-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-802faad875429def",
+      "lemma": "adjacent",
+      "pos": "adj.",
+      "sense_zh": "紧邻的",
+      "sentence_ids": [
+        "p09-c-01-s04"
+      ],
+      "forms": [
+        "adjacent"
+      ],
+      "sense_id": "sense-staged-ox-802faad875429def-p09-c-01",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

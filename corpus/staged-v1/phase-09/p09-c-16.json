@@ -1,0 +1,132 @@
+{
+  "id": "p09-c-16",
+  "title_zh": "核对肖像画说明中的买主财富与购藏记录",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "museum-portrait-acquisition-label",
+    "label_zh": "根据购藏记录核对富商所购肖像画的说明",
+    "goal_zh": "区分有记录的购藏信息和未经证实的审美动机，约定保留来源并删除推测"
+  },
+  "participants": [
+    "Lin",
+    "George"
+  ],
+  "context_zh": "博物馆志愿者根据虚构馆藏卡讨论展品说明。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-16-s01",
+      "speaker": "Lin",
+      "text": "The label says this wealthy merchant bought the portrait to impress his rivals. Do we have a source for that?"
+    },
+    {
+      "id": "p09-c-16-s02",
+      "speaker": "George",
+      "text": "No. The archive records his wealth and the date of the acquisition, but not his motive."
+    },
+    {
+      "id": "p09-c-16-s03",
+      "speaker": "Lin",
+      "text": "Then we should remove that sentence. The purchase is documented, whereas the rivalry is only a story from a later guidebook."
+    },
+    {
+      "id": "p09-c-16-s04",
+      "speaker": "George",
+      "text": "Could we say he bought it for its aesthetic value?"
+    },
+    {
+      "id": "p09-c-16-s05",
+      "speaker": "Lin",
+      "text": "That's another guess about what he thought. We can describe the colours without claiming to know why he bought it."
+    },
+    {
+      "id": "p09-c-16-s06",
+      "speaker": "George",
+      "text": "You're right. I'll keep the acquisition date, cite the archive card, and cut the sentence about his motive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-25cfb47105349c89",
+      "lemma": "wealthy",
+      "pos": "adj.",
+      "sense_zh": "富裕的",
+      "sentence_ids": [
+        "p09-c-16-s01"
+      ],
+      "forms": [
+        "wealthy"
+      ],
+      "sense_id": "sense-staged-ox-25cfb47105349c89-p09-c-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c7abee1fe3426fbe",
+      "lemma": "wealth",
+      "pos": "n.",
+      "sense_zh": "财富",
+      "sentence_ids": [
+        "p09-c-16-s02"
+      ],
+      "forms": [
+        "wealth"
+      ],
+      "sense_id": "sense-staged-ox-c7abee1fe3426fbe-p09-c-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4e31cc0568dea1cf",
+      "lemma": "acquisition",
+      "pos": "n.",
+      "sense_zh": "购得；取得",
+      "sentence_ids": [
+        "p09-c-16-s02"
+      ],
+      "forms": [
+        "acquisition"
+      ],
+      "sense_id": "sense-staged-ox-4e31cc0568dea1cf-p09-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e5dce33757c6855a",
+      "lemma": "whereas",
+      "pos": "conj.",
+      "sense_zh": "然而；相比之下",
+      "sentence_ids": [
+        "p09-c-16-s03"
+      ],
+      "forms": [
+        "whereas"
+      ],
+      "sense_id": "sense-staged-ox-e5dce33757c6855a-p09-c-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5fd62139cc24735b",
+      "lemma": "aesthetic",
+      "pos": "adj.",
+      "sense_zh": "审美的",
+      "sentence_ids": [
+        "p09-c-16-s04"
+      ],
+      "forms": [
+        "aesthetic"
+      ],
+      "sense_id": "sense-staged-ox-5fd62139cc24735b-p09-c-16",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

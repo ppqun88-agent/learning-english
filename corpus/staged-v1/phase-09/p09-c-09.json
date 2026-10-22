@@ -1,0 +1,132 @@
+{
+  "id": "p09-c-09",
+  "title_zh": "商定联合社团申请临时活动室",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-shared-hall-request-alliance",
+    "label_zh": "组成合作小组并决定共同提出场地请求",
+    "goal_zh": "说明洪水后共同的场地困难，商定以合作小组名义提出共享活动室请求"
+  },
+  "participants": [
+    "Dalia",
+    "Mick"
+  ],
+  "context_zh": "虚构社区洪水后，两名社团负责人商议场地，不涉及真实灾情。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-09-s01",
+      "speaker": "Dalia",
+      "text": "In the aftermath of the flood, three clubs have lost their meeting rooms. Could we ask for the empty library room together?"
+    },
+    {
+      "id": "p09-c-09-s02",
+      "speaker": "Mick",
+      "text": "Yes. The drama club would be a useful ally; they already know the building manager."
+    },
+    {
+      "id": "p09-c-09-s03",
+      "speaker": "Dalia",
+      "text": "I'd like this to unite the clubs, not start an argument about who gets the best evening."
+    },
+    {
+      "id": "p09-c-09-s04",
+      "speaker": "Mick",
+      "text": "Then the alliance needs one shared request and a timetable we can all accept."
+    },
+    {
+      "id": "p09-c-09-s05",
+      "speaker": "Dalia",
+      "text": "We can show unity without pretending our needs are identical. Let's ask for a trial month with different evenings."
+    },
+    {
+      "id": "p09-c-09-s06",
+      "speaker": "Mick",
+      "text": "Agreed. I'll draft that request for all three clubs to check before it goes to the manager."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-de83e871c4bc8a3a",
+      "lemma": "aftermath",
+      "pos": "n.",
+      "sense_zh": "灾难之后的一段时期及其后果",
+      "sentence_ids": [
+        "p09-c-09-s01"
+      ],
+      "forms": [
+        "aftermath"
+      ],
+      "sense_id": "sense-staged-ox-de83e871c4bc8a3a-p09-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6678e39bf52f1195",
+      "lemma": "ally",
+      "pos": "n.",
+      "sense_zh": "盟友；支持者",
+      "sentence_ids": [
+        "p09-c-09-s02"
+      ],
+      "forms": [
+        "ally"
+      ],
+      "sense_id": "sense-staged-ox-6678e39bf52f1195-p09-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d77f4519006b627a",
+      "lemma": "unite",
+      "pos": "v.",
+      "sense_zh": "使团结",
+      "sentence_ids": [
+        "p09-c-09-s03"
+      ],
+      "forms": [
+        "unite"
+      ],
+      "sense_id": "sense-staged-ox-d77f4519006b627a-p09-c-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e7f656d8f22441b1",
+      "lemma": "alliance",
+      "pos": "n.",
+      "sense_zh": "合作联盟",
+      "sentence_ids": [
+        "p09-c-09-s04"
+      ],
+      "forms": [
+        "alliance"
+      ],
+      "sense_id": "sense-staged-ox-e7f656d8f22441b1-p09-c-09",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d20dbe765b87f2f8",
+      "lemma": "unity",
+      "pos": "n.",
+      "sense_zh": "团结一致",
+      "sentence_ids": [
+        "p09-c-09-s05"
+      ],
+      "forms": [
+        "unity"
+      ],
+      "sense_id": "sense-staged-ox-d20dbe765b87f2f8-p09-c-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

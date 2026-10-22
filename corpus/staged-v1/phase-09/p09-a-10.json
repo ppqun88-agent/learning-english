@@ -1,0 +1,142 @@
+{
+  "id": "p09-a-10",
+  "title_zh": "核对参加条件并完成语言咖啡馆登记",
+  "topic_id": "community",
+  "scenario": {
+    "id": "regional-language-cafe-registration",
+    "label_zh": "区域语言咖啡馆活动登记",
+    "goal_zh": "确认活动向当地居民开放且登记免费，为参加者登记下周二的语言咖啡馆名额"
+  },
+  "participants": [
+    "Safa",
+    "Helen"
+  ],
+  "context_zh": "虚构社区服务练习中，一名居民向区域中心询问普通语言交流活动。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-10-s01",
+      "speaker": "Safa",
+      "text": "Is the language cafe at this regional centre only for students?"
+    },
+    {
+      "id": "p09-a-10-s02",
+      "speaker": "Helen",
+      "text": "No. Any local resident can join. You do not need to be studying at a college."
+    },
+    {
+      "id": "p09-a-10-s03",
+      "speaker": "Safa",
+      "text": "I arrived as a refugee last year. Do you need documents about that?"
+    },
+    {
+      "id": "p09-a-10-s04",
+      "speaker": "Helen",
+      "text": "Not for this activity. We just need a name for the list and your preferred session."
+    },
+    {
+      "id": "p09-a-10-s05",
+      "speaker": "Safa",
+      "text": "Can I register for next Tuesday, under Safa?"
+    },
+    {
+      "id": "p09-a-10-s06",
+      "speaker": "Helen",
+      "text": "Yes. Registration is free, and there is still a place."
+    },
+    {
+      "id": "p09-a-10-s07",
+      "speaker": "Safa",
+      "text": "Tuesday, please. I'll come to the welcome desk at six."
+    },
+    {
+      "id": "p09-a-10-s08",
+      "speaker": "Helen",
+      "text": "I've added Safa to Tuesday's list. Six at the welcome desk is correct."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7e527fefb84c6976",
+      "lemma": "refugee",
+      "pos": "n.",
+      "sense_zh": "难民",
+      "sentence_ids": [
+        "p09-a-10-s03"
+      ],
+      "forms": [
+        "refugee"
+      ],
+      "sense_id": "sense-staged-ox-7e527fefb84c6976-p09-a-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-45426cc1f41b4773",
+      "lemma": "resident",
+      "pos": "n.",
+      "sense_zh": "当地居民",
+      "sentence_ids": [
+        "p09-a-10-s02"
+      ],
+      "forms": [
+        "resident"
+      ],
+      "sense_id": "sense-staged-ox-45426cc1f41b4773-p09-a-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f45c9a552775fe25",
+      "lemma": "register",
+      "pos": "v.",
+      "sense_zh": "报名；登记",
+      "sentence_ids": [
+        "p09-a-10-s05"
+      ],
+      "forms": [
+        "register"
+      ],
+      "sense_id": "sense-staged-ox-f45c9a552775fe25-p09-a-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b4954120c20f02b6",
+      "lemma": "registration",
+      "pos": "n.",
+      "sense_zh": "报名登记",
+      "sentence_ids": [
+        "p09-a-10-s06"
+      ],
+      "forms": [
+        "registration"
+      ],
+      "sense_id": "sense-staged-ox-b4954120c20f02b6-p09-a-10",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b4b4ac576ffb680",
+      "lemma": "regional",
+      "pos": "adj.",
+      "sense_zh": "区域性的",
+      "sentence_ids": [
+        "p09-a-10-s01"
+      ],
+      "forms": [
+        "regional"
+      ],
+      "sense_id": "sense-staged-ox-7b4b4ac576ffb680-p09-a-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "id": "p09-c-23",
+  "title_zh": "请求临床人员解答诊疗前用药问题",
+  "topic_id": "health",
+  "scenario": {
+    "id": "fictional-preprocedure-medication-message",
+    "label_zh": "请求临床人员回电解答诊疗前用药疑问",
+    "goal_zh": "说明计划接受诊疗及用药疑问，请接待员安排临床人员当日回电"
+  },
+  "participants": [
+    "Nadia",
+    "Receptionist"
+  ],
+  "context_zh": "虚构诊所咨询语言练习，仅请求转交疑问，不给出用药或诊疗建议。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-23-s01",
+      "speaker": "Nadia",
+      "text": "I'm due to undergo a procedure on Friday, and I have a question about a vitamin supplement I take."
+    },
+    {
+      "id": "p09-c-23-s02",
+      "speaker": "Receptionist",
+      "text": "I can ask a clinician to call you. Do you need an assessment for a new problem today?"
+    },
+    {
+      "id": "p09-c-23-s03",
+      "speaker": "Nadia",
+      "text": "No. I don't have acute pain or a new symptom. I just don't understand the preparation letter."
+    },
+    {
+      "id": "p09-c-23-s04",
+      "speaker": "Receptionist",
+      "text": "What part would you like the clinician to explain?"
+    },
+    {
+      "id": "p09-c-23-s05",
+      "speaker": "Nadia",
+      "text": "It says a nurse will administer the medicine here. I'm unsure what I'm supposed to bring from home."
+    },
+    {
+      "id": "p09-c-23-s06",
+      "speaker": "Receptionist",
+      "text": "I'll put that question in the message. It's vital that the clinical team, rather than reception, answers the medication question."
+    },
+    {
+      "id": "p09-c-23-s07",
+      "speaker": "Nadia",
+      "text": "Could they call today? I'll be available after two."
+    },
+    {
+      "id": "p09-c-23-s08",
+      "speaker": "Receptionist",
+      "text": "I'll request a call after two today. I can't confirm a time until the team responds."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0de15fe2f7783e16",
+      "lemma": "undergo",
+      "pos": "v.",
+      "sense_zh": "接受；经历",
+      "sentence_ids": [
+        "p09-c-23-s01"
+      ],
+      "forms": [
+        "undergo"
+      ],
+      "sense_id": "sense-staged-ox-0de15fe2f7783e16-p09-c-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-99434740a6ad4444",
+      "lemma": "vitamin",
+      "pos": "n.",
+      "sense_zh": "维生素",
+      "sentence_ids": [
+        "p09-c-23-s01"
+      ],
+      "forms": [
+        "vitamin"
+      ],
+      "sense_id": "sense-staged-ox-99434740a6ad4444-p09-c-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e718b67610d060bd",
+      "lemma": "acute",
+      "pos": "adj.",
+      "sense_zh": "剧烈的；急性的",
+      "sentence_ids": [
+        "p09-c-23-s03"
+      ],
+      "forms": [
+        "acute"
+      ],
+      "sense_id": "sense-staged-ox-e718b67610d060bd-p09-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fec5df87a64531ba",
+      "lemma": "administer",
+      "pos": "v.",
+      "sense_zh": "给予药物",
+      "sentence_ids": [
+        "p09-c-23-s05"
+      ],
+      "forms": [
+        "administer"
+      ],
+      "sense_id": "sense-staged-ox-fec5df87a64531ba-p09-c-23",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bab8a40ae24ea1c1",
+      "lemma": "vital",
+      "pos": "adj.",
+      "sense_zh": "至关重要的",
+      "sentence_ids": [
+        "p09-c-23-s06"
+      ],
+      "forms": [
+        "vital"
+      ],
+      "sense_id": "sense-staged-ox-bab8a40ae24ea1c1-p09-c-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

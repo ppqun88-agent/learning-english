@@ -1,0 +1,137 @@
+{
+  "id": "p09-c-10",
+  "title_zh": "选择线上宇宙展览的文字预览",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "planetarium-virtual-access-preview",
+    "label_zh": "选择可访问的线上宇宙展览预览",
+    "goal_zh": "确认线上展览有可访问的文字说明，选择先看预览而不报名夜间现场活动"
+  },
+  "participants": [
+    "Hugo",
+    "Salma"
+  ],
+  "context_zh": "游客因时间限制向天文馆工作人员询问线上替代内容。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-10-s01",
+      "speaker": "Hugo",
+      "text": "The universe gallery looks fascinating, but I can't stay for tonight's show."
+    },
+    {
+      "id": "p09-c-10-s02",
+      "speaker": "Salma",
+      "text": "There's a virtual exhibition on our website. It covers the same five sections."
+    },
+    {
+      "id": "p09-c-10-s03",
+      "speaker": "Hugo",
+      "text": "The screens show such vast distances. Is there an explanation I can read at my own pace?"
+    },
+    {
+      "id": "p09-c-10-s04",
+      "speaker": "Salma",
+      "text": "Yes. Each visual display has a separate text description, and the text pages are accessible to screen readers."
+    },
+    {
+      "id": "p09-c-10-s05",
+      "speaker": "Hugo",
+      "text": "Can I preview one section without registering for anything?"
+    },
+    {
+      "id": "p09-c-10-s06",
+      "speaker": "Salma",
+      "text": "Certainly. Choose the free preview from the gallery page; no account is needed."
+    },
+    {
+      "id": "p09-c-10-s07",
+      "speaker": "Hugo",
+      "text": "I'll start with that. I won't book the evening show today."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-871c87cd5fb7450d",
+      "lemma": "universe",
+      "pos": "n.",
+      "sense_zh": "宇宙",
+      "sentence_ids": [
+        "p09-c-10-s01"
+      ],
+      "forms": [
+        "universe"
+      ],
+      "sense_id": "sense-staged-ox-871c87cd5fb7450d-p09-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-44ba7db51e5d52fb",
+      "lemma": "virtual",
+      "pos": "adj.",
+      "sense_zh": "通过计算机呈现的；虚拟的",
+      "sentence_ids": [
+        "p09-c-10-s02"
+      ],
+      "forms": [
+        "virtual"
+      ],
+      "sense_id": "sense-staged-ox-44ba7db51e5d52fb-p09-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-63dde7e2eb28065c",
+      "lemma": "vast",
+      "pos": "adj.",
+      "sense_zh": "极其广阔的",
+      "sentence_ids": [
+        "p09-c-10-s03"
+      ],
+      "forms": [
+        "vast"
+      ],
+      "sense_id": "sense-staged-ox-63dde7e2eb28065c-p09-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5e1093ded6320fe4",
+      "lemma": "visual",
+      "pos": "adj.",
+      "sense_zh": "视觉的",
+      "sentence_ids": [
+        "p09-c-10-s04"
+      ],
+      "forms": [
+        "visual"
+      ],
+      "sense_id": "sense-staged-ox-5e1093ded6320fe4-p09-c-10",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4df0262132a1deb8",
+      "lemma": "accessible",
+      "pos": "adj.",
+      "sense_zh": "可访问并使用的",
+      "sentence_ids": [
+        "p09-c-10-s04"
+      ],
+      "forms": [
+        "accessible"
+      ],
+      "sense_id": "sense-staged-ox-4df0262132a1deb8-p09-c-10",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

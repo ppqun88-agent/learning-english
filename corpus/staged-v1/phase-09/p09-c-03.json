@@ -1,0 +1,142 @@
+{
+  "id": "p09-c-03",
+  "title_zh": "降低开场伴奏音量并试唱后保留设置",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "choir-quiet-opening-rehearsal",
+    "label_zh": "试唱后调整开场曲伴奏和轻声提示",
+    "goal_zh": "比较开场曲的慢速变奏，试唱后保留较低音量并约定用轻声提示开始"
+  },
+  "participants": [
+    "Bea",
+    "Leon"
+  ],
+  "context_zh": "合唱排练中，歌手与伴奏者调整开场。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-03-s01",
+      "speaker": "Bea",
+      "text": "Could we start with the slower variation of this tune? The first line feels rushed."
+    },
+    {
+      "id": "p09-c-03-s02",
+      "speaker": "Leon",
+      "text": "Let's try it. I'll keep the melody the same but vary the rhythm in the left hand."
+    },
+    {
+      "id": "p09-c-03-s03",
+      "speaker": "Bea",
+      "text": "Before we sing, can you lower the volume a little? I can't hear the people behind me."
+    },
+    {
+      "id": "p09-c-03-s04",
+      "speaker": "Leon",
+      "text": "I've turned it down. Ready for the opening line?"
+    },
+    {
+      "id": "p09-c-03-s05",
+      "speaker": "Bea",
+      "text": "That run was much easier to hear. Let's keep that setting."
+    },
+    {
+      "id": "p09-c-03-s06",
+      "speaker": "Leon",
+      "text": "Shall I count us in loudly?"
+    },
+    {
+      "id": "p09-c-03-s07",
+      "speaker": "Bea",
+      "text": "Please whisper the count. The audience shouldn't hear it."
+    },
+    {
+      "id": "p09-c-03-s08",
+      "speaker": "Leon",
+      "text": "All right. A quiet count, then the slower opening."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-34b7719c2ec18f09",
+      "lemma": "variation",
+      "pos": "n.",
+      "sense_zh": "乐曲的变奏",
+      "sentence_ids": [
+        "p09-c-03-s01"
+      ],
+      "forms": [
+        "variation"
+      ],
+      "sense_id": "sense-staged-ox-34b7719c2ec18f09-p09-c-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f77e6558582a3d5",
+      "lemma": "tune",
+      "pos": "n.",
+      "sense_zh": "曲调",
+      "sentence_ids": [
+        "p09-c-03-s01"
+      ],
+      "forms": [
+        "tune"
+      ],
+      "sense_id": "sense-staged-ox-2f77e6558582a3d5-p09-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4421187a4cda25c",
+      "lemma": "vary",
+      "pos": "v.",
+      "sense_zh": "改变；使有变化",
+      "sentence_ids": [
+        "p09-c-03-s02"
+      ],
+      "forms": [
+        "vary"
+      ],
+      "sense_id": "sense-staged-ox-c4421187a4cda25c-p09-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dac219fcade42f90",
+      "lemma": "volume",
+      "pos": "n.",
+      "sense_zh": "音量",
+      "sentence_ids": [
+        "p09-c-03-s03"
+      ],
+      "forms": [
+        "volume"
+      ],
+      "sense_id": "sense-staged-ox-dac219fcade42f90-p09-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7ac615e48acfc18e",
+      "lemma": "whisper",
+      "pos": "v.",
+      "sense_zh": "低声说",
+      "sentence_ids": [
+        "p09-c-03-s07"
+      ],
+      "forms": [
+        "whisper"
+      ],
+      "sense_id": "sense-staged-ox-7ac615e48acfc18e-p09-c-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

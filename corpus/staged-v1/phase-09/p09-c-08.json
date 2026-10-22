@@ -1,0 +1,116 @@
+{
+  "id": "p09-c-08",
+  "title_zh": "选定有舞台改编的共读小说并限制剧透",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "reading-group-adaptation-perspective",
+    "label_zh": "选择有改编版本的小说并限定讨论章节",
+    "goal_zh": "确认小说的暴力呈现方式，选定共读并约定先讨论开头而不透露结局"
+  },
+  "participants": [
+    "Suki",
+    "Paul"
+  ],
+  "context_zh": "读书会组织者选择下一本作品，书名与内容均为虚构。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-08-s01",
+      "speaker": "Suki",
+      "text": "Would The Glass Harbour work for our next meeting? I liked the stage adaptation."
+    },
+    {
+      "id": "p09-c-08-s02",
+      "speaker": "Paul",
+      "text": "Possibly. Is there much violence in the novel? Some members asked us to avoid graphic descriptions."
+    },
+    {
+      "id": "p09-c-08-s03",
+      "speaker": "Suki",
+      "text": "The attack happens off the page. We hear about its effects later, but there's no detailed description of it."
+    },
+    {
+      "id": "p09-c-08-s04",
+      "speaker": "Paul",
+      "text": "Good. I want to watch the mystery unfold without knowing who did it."
+    },
+    {
+      "id": "p09-c-08-s05",
+      "speaker": "Suki",
+      "text": "Then let's keep the ending unknown until everyone has finished. At the first meeting, we can discuss only the opening chapters."
+    },
+    {
+      "id": "p09-c-08-s06",
+      "speaker": "Paul",
+      "text": "That works for me. Let's choose it and put the chapter limit in the invitation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bd79e40012678469",
+      "lemma": "adaptation",
+      "pos": "n.",
+      "sense_zh": "改编作品",
+      "sentence_ids": [
+        "p09-c-08-s01"
+      ],
+      "forms": [
+        "adaptation"
+      ],
+      "sense_id": "sense-staged-ox-bd79e40012678469-p09-c-08",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-26204819cfdbb5db",
+      "lemma": "violence",
+      "pos": "n.",
+      "sense_zh": "暴力",
+      "sentence_ids": [
+        "p09-c-08-s02"
+      ],
+      "forms": [
+        "violence"
+      ],
+      "sense_id": "sense-staged-ox-26204819cfdbb5db-p09-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-702a9568c7fb3fef",
+      "lemma": "unfold",
+      "pos": "v.",
+      "sense_zh": "逐渐展开",
+      "sentence_ids": [
+        "p09-c-08-s04"
+      ],
+      "forms": [
+        "unfold"
+      ],
+      "sense_id": "sense-staged-ox-702a9568c7fb3fef-p09-c-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-39ee9de1e95eae85",
+      "lemma": "unknown",
+      "pos": "adj.",
+      "sense_zh": "未知的",
+      "sentence_ids": [
+        "p09-c-08-s05"
+      ],
+      "forms": [
+        "unknown"
+      ],
+      "sense_id": "sense-staged-ox-39ee9de1e95eae85-p09-c-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

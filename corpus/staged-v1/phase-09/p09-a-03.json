@@ -1,0 +1,100 @@
+{
+  "id": "p09-a-03",
+  "title_zh": "发现厨房老鼠后约定停用与报修",
+  "topic_id": "home",
+  "scenario": {
+    "id": "shared-kitchen-pest-report",
+    "label_zh": "共用厨房害虫报告",
+    "goal_zh": "说明老鼠出现的位置，约定停用厨房并联系管理员处理暴露食材和害虫"
+  },
+  "participants": [
+    "Hana",
+    "Luis"
+  ],
+  "context_zh": "合租者在共用厨房发现害虫，商量通知管理员。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-03-s01",
+      "speaker": "Hana",
+      "text": "I just saw a rat go behind the fridge."
+    },
+    {
+      "id": "p09-a-03-s02",
+      "speaker": "Luis",
+      "text": "Was the bowl of raw vegetables on the counter uncovered?"
+    },
+    {
+      "id": "p09-a-03-s03",
+      "speaker": "Hana",
+      "text": "Yes. I won't use those for dinner. We need to tell everyone not to use the kitchen for now."
+    },
+    {
+      "id": "p09-a-03-s04",
+      "speaker": "Luis",
+      "text": "I'll call the building manager and ask how they plan to get rid of the rats."
+    },
+    {
+      "id": "p09-a-03-s05",
+      "speaker": "Hana",
+      "text": "Please mention the uncovered food too. I do not want us guessing which things are safe to keep."
+    },
+    {
+      "id": "p09-a-03-s06",
+      "speaker": "Luis",
+      "text": "I will. You message the house group, and I'll ask the manager to arrange a visit."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-11c5cb4021e3c441",
+      "lemma": "raw",
+      "pos": "adj.",
+      "sense_zh": "未烹煮的；生的",
+      "sentence_ids": [
+        "p09-a-03-s02"
+      ],
+      "forms": [
+        "raw"
+      ],
+      "sense_id": "sense-staged-ox-11c5cb4021e3c441-p09-a-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c950e5dd755fa7bd",
+      "lemma": "rat",
+      "pos": "n.",
+      "sense_zh": "老鼠",
+      "sentence_ids": [
+        "p09-a-03-s01"
+      ],
+      "forms": [
+        "rat"
+      ],
+      "sense_id": "sense-staged-ox-c950e5dd755fa7bd-p09-a-03",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b19c584094871555",
+      "lemma": "rid",
+      "pos": "v.",
+      "sense_zh": "使摆脱；除去",
+      "sentence_ids": [
+        "p09-a-03-s04"
+      ],
+      "forms": [
+        "rid"
+      ],
+      "sense_id": "sense-staged-ox-b19c584094871555-p09-a-03",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

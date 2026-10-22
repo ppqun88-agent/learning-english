@@ -1,0 +1,100 @@
+{
+  "id": "p09-c-19",
+  "title_zh": "商定暂停加料并询问堆肥箱的堆积问题",
+  "topic_id": "home",
+  "scenario": {
+    "id": "compost-bin-layer-check",
+    "label_zh": "发现堆积后约定向园艺负责人询问",
+    "goal_zh": "描述堆肥表面的积水与纸层，约定拍照请园艺负责人查看再继续加料"
+  },
+  "participants": [
+    "Luca",
+    "Evie"
+  ],
+  "context_zh": "合住者检查共享花园的堆肥箱，不提供具体堆肥技术结论。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-19-s01",
+      "speaker": "Luca",
+      "text": "There's a worm near the lid, and water has started to accumulate on top."
+    },
+    {
+      "id": "p09-c-19-s02",
+      "speaker": "Evie",
+      "text": "I can see an accumulation of wet paper too. Did we add all yesterday's packing material?"
+    },
+    {
+      "id": "p09-c-19-s03",
+      "speaker": "Luca",
+      "text": "Only the plain cardboard. I don't know whether the layers are right."
+    },
+    {
+      "id": "p09-c-19-s04",
+      "speaker": "Evie",
+      "text": "Neither do I. Let's stop adding anything until Jo has looked at it; she manages the garden."
+    },
+    {
+      "id": "p09-c-19-s05",
+      "speaker": "Luca",
+      "text": "I'll take a photo of the top and ask her about the water and paper."
+    },
+    {
+      "id": "p09-c-19-s06",
+      "speaker": "Evie",
+      "text": "Good. I'll leave the new cardboard in the dry box for now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5a7295b36535517d",
+      "lemma": "worm",
+      "pos": "n.",
+      "sense_zh": "蠕虫；蚯蚓",
+      "sentence_ids": [
+        "p09-c-19-s01"
+      ],
+      "forms": [
+        "worm"
+      ],
+      "sense_id": "sense-staged-ox-5a7295b36535517d-p09-c-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-67caef0fe8c8b385",
+      "lemma": "accumulate",
+      "pos": "v.",
+      "sense_zh": "积聚",
+      "sentence_ids": [
+        "p09-c-19-s01"
+      ],
+      "forms": [
+        "accumulate"
+      ],
+      "sense_id": "sense-staged-ox-67caef0fe8c8b385-p09-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b38cf1a01e76b142",
+      "lemma": "accumulation",
+      "pos": "n.",
+      "sense_zh": "堆积；积聚物",
+      "sentence_ids": [
+        "p09-c-19-s02"
+      ],
+      "forms": [
+        "accumulation"
+      ],
+      "sense_id": "sense-staged-ox-b38cf1a01e76b142-p09-c-19",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

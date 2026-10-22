@@ -1,0 +1,78 @@
+{
+  "id": "p09-c-34",
+  "title_zh": "预约私下咨询流产相关信息",
+  "topic_id": "health",
+  "scenario": {
+    "id": "fictional-private-options-consultation",
+    "label_zh": "请求私下咨询流产相关信息并确认预约",
+    "goal_zh": "说明希望私下了解流产相关信息且不在前台详谈，确认与临床人员的咨询时间"
+  },
+  "participants": [
+    "Rina",
+    "Receptionist"
+  ],
+  "context_zh": "虚构诊所预约语言练习，不涉及个体化医疗建议或实际服务安排。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-34-s01",
+      "speaker": "Rina",
+      "text": "I'd like information about abortion, but I don't want to discuss my circumstances at the front desk."
+    },
+    {
+      "id": "p09-c-34-s02",
+      "speaker": "Receptionist",
+      "text": "You don't need to explain them here. I can help you arrange a private appointment with a clinician."
+    },
+    {
+      "id": "p09-c-34-s03",
+      "speaker": "Rina",
+      "text": "Is the appointment for information, or does booking it mean I've agreed to a procedure?"
+    },
+    {
+      "id": "p09-c-34-s04",
+      "speaker": "Receptionist",
+      "text": "It's an information appointment. Booking it doesn't commit you to treatment."
+    },
+    {
+      "id": "p09-c-34-s05",
+      "speaker": "Rina",
+      "text": "In that case, is Thursday morning available?"
+    },
+    {
+      "id": "p09-c-34-s06",
+      "speaker": "Receptionist",
+      "text": "Yes, at ten. Would you like that slot?"
+    },
+    {
+      "id": "p09-c-34-s07",
+      "speaker": "Rina",
+      "text": "Yes, please."
+    },
+    {
+      "id": "p09-c-34-s08",
+      "speaker": "Receptionist",
+      "text": "That's booked for Thursday at ten. The clinician will speak with you in a private room."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b241988f6bb354ab",
+      "lemma": "abortion",
+      "pos": "n.",
+      "sense_zh": "人工流产；终止妊娠",
+      "sentence_ids": [
+        "p09-c-34-s01"
+      ],
+      "forms": [
+        "abortion"
+      ],
+      "sense_id": "sense-staged-ox-b241988f6bb354ab-p09-c-34",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

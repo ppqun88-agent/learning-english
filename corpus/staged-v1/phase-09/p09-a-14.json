@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-14",
+  "title_zh": "用具体服务事例准备志愿者提名",
+  "topic_id": "community",
+  "scenario": {
+    "id": "volunteer-award-nomination-evidence",
+    "label_zh": "志愿者表彰提名的证据",
+    "goal_zh": "以具体服务记录支持提名，说明奖项不含现金并分工准备提名文字和核对事实"
+  },
+  "participants": [
+    "Clara",
+    "Yusuf"
+  ],
+  "context_zh": "社区组织者准备年度志愿者表彰提名。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-14-s01",
+      "speaker": "Clara",
+      "text": "Ana deserves recognition for keeping the reading club going all winter."
+    },
+    {
+      "id": "p09-a-14-s02",
+      "speaker": "Yusuf",
+      "text": "She has a remarkable ability to make new readers feel welcome. Can we give an example?"
+    },
+    {
+      "id": "p09-a-14-s03",
+      "speaker": "Clara",
+      "text": "She made large-print copies for three sessions and arranged lifts for people who could not walk here."
+    },
+    {
+      "id": "p09-a-14-s04",
+      "speaker": "Yusuf",
+      "text": "That is stronger than simply saying she has a good reputation. What is the reward this year?"
+    },
+    {
+      "id": "p09-a-14-s05",
+      "speaker": "Clara",
+      "text": "A certificate and a tree planted in her name, not a cash prize."
+    },
+    {
+      "id": "p09-a-14-s06",
+      "speaker": "Yusuf",
+      "text": "Then I'll draft the nomination around those two examples."
+    },
+    {
+      "id": "p09-a-14-s07",
+      "speaker": "Clara",
+      "text": "Good. I'll check the dates in the club records before we submit it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2b933eb82f27e1d1",
+      "lemma": "recognition",
+      "pos": "n.",
+      "sense_zh": "对贡献的认可；表彰",
+      "sentence_ids": [
+        "p09-a-14-s01"
+      ],
+      "forms": [
+        "recognition"
+      ],
+      "sense_id": "sense-staged-ox-2b933eb82f27e1d1-p09-a-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b592501f1cc6bf04",
+      "lemma": "remarkable",
+      "pos": "adj.",
+      "sense_zh": "非凡的；值得注意的",
+      "sentence_ids": [
+        "p09-a-14-s02"
+      ],
+      "forms": [
+        "remarkable"
+      ],
+      "sense_id": "sense-staged-ox-b592501f1cc6bf04-p09-a-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5f8f1f096f6142ae",
+      "lemma": "reputation",
+      "pos": "n.",
+      "sense_zh": "名声；声誉",
+      "sentence_ids": [
+        "p09-a-14-s04"
+      ],
+      "forms": [
+        "reputation"
+      ],
+      "sense_id": "sense-staged-ox-5f8f1f096f6142ae-p09-a-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-20cc474f1350c5a7",
+      "lemma": "reward",
+      "pos": "n.",
+      "sense_zh": "对贡献的奖赏",
+      "sentence_ids": [
+        "p09-a-14-s04"
+      ],
+      "forms": [
+        "reward"
+      ],
+      "sense_id": "sense-staged-ox-20cc474f1350c5a7-p09-a-14",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

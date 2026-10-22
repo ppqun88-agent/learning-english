@@ -1,0 +1,116 @@
+{
+  "id": "p09-a-02",
+  "title_zh": "商定课程调查的评分题与邀请方式",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "course-survey-rating-question-design",
+    "label_zh": "课程满意度问题设计",
+    "goal_zh": "区分课程评分与活动排序，决定采用单项评分题并随机邀请学员"
+  },
+  "participants": [
+    "Nadia",
+    "Evan"
+  ],
+  "context_zh": "两位课程组织者拟定课后问卷，尚未发送。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-02-s01",
+      "speaker": "Nadia",
+      "text": "How should we measure satisfaction with the course?"
+    },
+    {
+      "id": "p09-a-02-s02",
+      "speaker": "Evan",
+      "text": "Would you like people to rank the activities from best to worst?"
+    },
+    {
+      "id": "p09-a-02-s03",
+      "speaker": "Nadia",
+      "text": "That tells us which activity they prefer, not whether they liked the course overall."
+    },
+    {
+      "id": "p09-a-02-s04",
+      "speaker": "Evan",
+      "text": "Then ask for one rating from one to five, followed by an optional comment."
+    },
+    {
+      "id": "p09-a-02-s05",
+      "speaker": "Nadia",
+      "text": "Good. We should invite a random sample of students, not just the people who stayed to chat."
+    },
+    {
+      "id": "p09-a-02-s06",
+      "speaker": "Evan",
+      "text": "Agreed. I'll use the full attendance list to draw the names, and we'll keep the question about the course as a whole."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-442399e4ef164333",
+      "lemma": "random",
+      "pos": "adj.",
+      "sense_zh": "随机选择的",
+      "sentence_ids": [
+        "p09-a-02-s05"
+      ],
+      "forms": [
+        "random"
+      ],
+      "sense_id": "sense-staged-ox-442399e4ef164333-p09-a-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1255fc076e3c5104",
+      "lemma": "rank",
+      "pos": "v.",
+      "sense_zh": "把事物按顺序排列",
+      "sentence_ids": [
+        "p09-a-02-s02"
+      ],
+      "forms": [
+        "rank"
+      ],
+      "sense_id": "sense-staged-ox-1255fc076e3c5104-p09-a-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-16e612c371ddf774",
+      "lemma": "rating",
+      "pos": "n.",
+      "sense_zh": "评分",
+      "sentence_ids": [
+        "p09-a-02-s04"
+      ],
+      "forms": [
+        "rating"
+      ],
+      "sense_id": "sense-staged-ox-16e612c371ddf774-p09-a-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c1fa0a1c6f699a9",
+      "lemma": "satisfaction",
+      "pos": "n.",
+      "sense_zh": "满意程度",
+      "sentence_ids": [
+        "p09-a-02-s01"
+      ],
+      "forms": [
+        "satisfaction"
+      ],
+      "sense_id": "sense-staged-ox-5c1fa0a1c6f699a9-p09-a-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

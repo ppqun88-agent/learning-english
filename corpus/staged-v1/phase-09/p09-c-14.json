@@ -1,0 +1,116 @@
+{
+  "id": "p09-c-14",
+  "title_zh": "缩小小麦气候项目的比较范围",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "crop-project-source-comparison",
+    "label_zh": "限定小麦气候研究的资料比较范围",
+    "goal_zh": "区分长期变暖资料和单年产量，约定比较同一地区的多年记录并保留其他影响因素"
+  },
+  "participants": [
+    "Eli",
+    "Zara"
+  ],
+  "context_zh": "两名学生讨论课堂农业研究选题，不报告现实气候新闻或提供种植建议。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-14-s01",
+      "speaker": "Eli",
+      "text": "I'd like our agricultural project to ask how warming might affect wheat production."
+    },
+    {
+      "id": "p09-c-14-s02",
+      "speaker": "Zara",
+      "text": "Then we need more than last year's harvest figure. One poor harvest doesn't establish a long-term pattern."
+    },
+    {
+      "id": "p09-c-14-s03",
+      "speaker": "Eli",
+      "text": "Could we compare the class dataset's temperature records with its harvest records for the same region?"
+    },
+    {
+      "id": "p09-c-14-s04",
+      "speaker": "Zara",
+      "text": "Yes, over the full twenty years. We should also note the years with floods or changes in irrigation."
+    },
+    {
+      "id": "p09-c-14-s05",
+      "speaker": "Eli",
+      "text": "So we shouldn't describe every decline as an adverse effect of higher temperatures."
+    },
+    {
+      "id": "p09-c-14-s06",
+      "speaker": "Zara",
+      "text": "Exactly. Let's build the comparison first and list those other possible influences beside it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-41b73df2e6b38628",
+      "lemma": "agricultural",
+      "pos": "adj.",
+      "sense_zh": "农业的",
+      "sentence_ids": [
+        "p09-c-14-s01"
+      ],
+      "forms": [
+        "agricultural"
+      ],
+      "sense_id": "sense-staged-ox-41b73df2e6b38628-p09-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-062930bc94a6e811",
+      "lemma": "warming",
+      "pos": "n.",
+      "sense_zh": "变暖",
+      "sentence_ids": [
+        "p09-c-14-s01"
+      ],
+      "forms": [
+        "warming"
+      ],
+      "sense_id": "sense-staged-ox-062930bc94a6e811-p09-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bfc080837d07198f",
+      "lemma": "wheat",
+      "pos": "n.",
+      "sense_zh": "小麦",
+      "sentence_ids": [
+        "p09-c-14-s01"
+      ],
+      "forms": [
+        "wheat"
+      ],
+      "sense_id": "sense-staged-ox-bfc080837d07198f-p09-c-14",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b188c91bd86b8943",
+      "lemma": "adverse",
+      "pos": "adj.",
+      "sense_zh": "不利的",
+      "sentence_ids": [
+        "p09-c-14-s05"
+      ],
+      "forms": [
+        "adverse"
+      ],
+      "sense_id": "sense-staged-ox-b188c91bd86b8943-p09-c-14",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

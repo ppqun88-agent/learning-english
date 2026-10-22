@@ -1,0 +1,142 @@
+{
+  "id": "p09-b-30",
+  "title_zh": "约定为角色转变补足动机并调整场景次序",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "character-transition-motive-edit",
+    "label_zh": "约定为角色转变补足动机并调整场景次序",
+    "goal_zh": "指出角色转变过快的问题，并约定将警告放在冒险决定前、补充试探性行动"
+  },
+  "participants": [
+    "Verity",
+    "Omar"
+  ],
+  "context_zh": "两位写作者讨论原创虚构短剧的情节，不涉及已有作品改写。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-30-s01",
+      "speaker": "Verity",
+      "text": "Mara's main trait is caution, but in the next scene she takes a huge risk. Does the transition feel convincing?"
+    },
+    {
+      "id": "p09-b-30-s02",
+      "speaker": "Omar",
+      "text": "Not yet. One friendly conversation can't transform her entire outlook. What changes her mind?"
+    },
+    {
+      "id": "p09-b-30-s03",
+      "speaker": "Verity",
+      "text": "She subsequently learns that the bridge is closing. In the current draft, that news comes after she's already decided to leave."
+    },
+    {
+      "id": "p09-b-30-s04",
+      "speaker": "Omar",
+      "text": "Move the warning earlier. Then her decision has a reason, rather than just serving the plot."
+    },
+    {
+      "id": "p09-b-30-s05",
+      "speaker": "Verity",
+      "text": "And in the subsequent scene, she could test the first part of the route before committing to the whole journey."
+    },
+    {
+      "id": "p09-b-30-s06",
+      "speaker": "Omar",
+      "text": "Yes. That preserves her caution while showing why she's willing to act."
+    },
+    {
+      "id": "p09-b-30-s07",
+      "speaker": "Verity",
+      "text": "I'll move the warning before the decision and add that small test afterwards."
+    },
+    {
+      "id": "p09-b-30-s08",
+      "speaker": "Omar",
+      "text": "Good. Then we can read the three scenes together and see whether the change feels earned."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-62a18f2c77d10d3a",
+      "lemma": "trait",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-62a18f2c77d10d3a-p09-b-30",
+      "sense_zh": "性格特点",
+      "sentence_ids": [
+        "p09-b-30-s01"
+      ],
+      "forms": [
+        "trait"
+      ]
+    },
+    {
+      "target_id": "ox-6387657c1694f84e",
+      "lemma": "transition",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-6387657c1694f84e-p09-b-30",
+      "sense_zh": "转变；过渡",
+      "sentence_ids": [
+        "p09-b-30-s01"
+      ],
+      "forms": [
+        "transition"
+      ]
+    },
+    {
+      "target_id": "ox-7b27d2d1fe3d8cc3",
+      "lemma": "transform",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-7b27d2d1fe3d8cc3-p09-b-30",
+      "sense_zh": "彻底改变",
+      "sentence_ids": [
+        "p09-b-30-s02"
+      ],
+      "forms": [
+        "transform"
+      ]
+    },
+    {
+      "target_id": "ox-cf96462d3a3a5591",
+      "lemma": "subsequently",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-cf96462d3a3a5591-p09-b-30",
+      "sense_zh": "随后",
+      "sentence_ids": [
+        "p09-b-30-s03"
+      ],
+      "forms": [
+        "subsequently"
+      ]
+    },
+    {
+      "target_id": "ox-2dc0d8dbf946f1fe",
+      "lemma": "subsequent",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-2dc0d8dbf946f1fe-p09-b-30",
+      "sense_zh": "随后的",
+      "sentence_ids": [
+        "p09-b-30-s05"
+      ],
+      "forms": [
+        "subsequent"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

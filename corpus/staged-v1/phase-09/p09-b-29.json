@@ -1,0 +1,112 @@
+{
+  "id": "p09-b-29",
+  "title_zh": "纠正课堂贸易表格的重量和金额单位",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "market-data-unit-reconciliation",
+    "label_zh": "纠正课堂贸易表格的重量和金额单位",
+    "goal_zh": "区分货物重量与交易金额，并纠正把一万亿误读为十亿的错误"
+  },
+  "participants": [
+    "Ronan",
+    "Suki"
+  ],
+  "context_zh": "学生核对虚构贸易课堂数据，金额使用案例设定的credits单位，不涉及投资建议。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-29-s01",
+      "speaker": "Ronan",
+      "text": "My summary says trading between the two ports was worth one billion credits. Can you check it?"
+    },
+    {
+      "id": "p09-b-29-s02",
+      "speaker": "Suki",
+      "text": "The heading says 'value in trillions of credits', and the entry is 1.0. That's one trillion, not one billion."
+    },
+    {
+      "id": "p09-b-29-s03",
+      "speaker": "Ronan",
+      "text": "Right, a thousand billion. I missed the unit above the column."
+    },
+    {
+      "id": "p09-b-29-s04",
+      "speaker": "Suki",
+      "text": "You've also copied a weight into the money column. This row says one tonne of grain; it doesn't give the price."
+    },
+    {
+      "id": "p09-b-29-s05",
+      "speaker": "Ronan",
+      "text": "So I should keep the weight separate and mark the value as not provided."
+    },
+    {
+      "id": "p09-b-29-s06",
+      "speaker": "Suki",
+      "text": "Exactly. We can't turn a quantity of grain into a price without more information."
+    },
+    {
+      "id": "p09-b-29-s07",
+      "speaker": "Ronan",
+      "text": "I've corrected both cells now: one trillion credits for the total, and one tonne with no value listed for that shipment."
+    },
+    {
+      "id": "p09-b-29-s08",
+      "speaker": "Suki",
+      "text": "Those match the table. Let's keep the units in the headings when we copy it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b39e7f6e82b637db",
+      "lemma": "trading",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-b39e7f6e82b637db-p09-b-29",
+      "sense_zh": "贸易；交易活动",
+      "sentence_ids": [
+        "p09-b-29-s01"
+      ],
+      "forms": [
+        "trading"
+      ]
+    },
+    {
+      "target_id": "ox-e4e922e2afe30abf",
+      "lemma": "trillion",
+      "pos": "number",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-e4e922e2afe30abf-p09-b-29",
+      "sense_zh": "万亿",
+      "sentence_ids": [
+        "p09-b-29-s02",
+        "p09-b-29-s07"
+      ],
+      "forms": [
+        "trillion"
+      ]
+    },
+    {
+      "target_id": "ox-961258e2201bc7fe",
+      "lemma": "tonne",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-961258e2201bc7fe-p09-b-29",
+      "sense_zh": "公吨",
+      "sentence_ids": [
+        "p09-b-29-s04",
+        "p09-b-29-s07"
+      ],
+      "forms": [
+        "tonne"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

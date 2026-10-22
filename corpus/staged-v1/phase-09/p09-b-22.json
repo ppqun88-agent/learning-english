@@ -1,0 +1,158 @@
+{
+  "id": "p09-b-22",
+  "title_zh": "约定用先写后轮流发言改善青年讨论课",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "teen-debate-participation-plan",
+    "label_zh": "约定用先写后轮流发言改善青年讨论课",
+    "goal_zh": "识别试教中少数人垄断发言的问题，并约定先独立写想法再轮流分享"
+  },
+  "participants": [
+    "Zoe",
+    "Hamish"
+  ],
+  "context_zh": "两位青年活动带领者根据一次试教商量讨论课的参与方式。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-22-s01",
+      "speaker": "Zoe",
+      "text": "The group are all in their teens, but one teen answered almost every question today."
+    },
+    {
+      "id": "p09-b-22-s02",
+      "speaker": "Hamish",
+      "text": "I noticed a tendency for the quieter members to wait until someone else spoke."
+    },
+    {
+      "id": "p09-b-22-s03",
+      "speaker": "Zoe",
+      "text": "How can we stimulate discussion without putting them on the spot?"
+    },
+    {
+      "id": "p09-b-22-s04",
+      "speaker": "Hamish",
+      "text": "Let's tackle that by giving everyone two minutes to write an idea first. Then we can invite one idea from each person."
+    },
+    {
+      "id": "p09-b-22-s05",
+      "speaker": "Zoe",
+      "text": "That might strengthen their confidence, especially if passing is allowed."
+    },
+    {
+      "id": "p09-b-22-s06",
+      "speaker": "Hamish",
+      "text": "Yes. We'll make it clear that nobody has to speak, and the first volunteer doesn't get every turn."
+    },
+    {
+      "id": "p09-b-22-s07",
+      "speaker": "Zoe",
+      "text": "Let's try that next session. I'll prepare the opening question and explain the order."
+    },
+    {
+      "id": "p09-b-22-s08",
+      "speaker": "Hamish",
+      "text": "And I'll watch whether more people get a chance, rather than assuming it worked."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5cd1f8a030237f04",
+      "lemma": "teens",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-5cd1f8a030237f04-p09-b-22",
+      "sense_zh": "十三至十九岁的年龄段",
+      "sentence_ids": [
+        "p09-b-22-s01"
+      ],
+      "forms": [
+        "teens"
+      ]
+    },
+    {
+      "target_id": "ox-0db2a767f711f64c",
+      "lemma": "teen",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-0db2a767f711f64c-p09-b-22",
+      "sense_zh": "青少年",
+      "sentence_ids": [
+        "p09-b-22-s01"
+      ],
+      "forms": [
+        "teen"
+      ]
+    },
+    {
+      "target_id": "ox-742afdeb7fe0a6ff",
+      "lemma": "tendency",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-742afdeb7fe0a6ff-p09-b-22",
+      "sense_zh": "倾向",
+      "sentence_ids": [
+        "p09-b-22-s02"
+      ],
+      "forms": [
+        "tendency"
+      ]
+    },
+    {
+      "target_id": "ox-bdbdd75ccafef404",
+      "lemma": "stimulate",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-bdbdd75ccafef404-p09-b-22",
+      "sense_zh": "激发；促进",
+      "sentence_ids": [
+        "p09-b-22-s03"
+      ],
+      "forms": [
+        "stimulate"
+      ]
+    },
+    {
+      "target_id": "ox-61f37c4e68345f01",
+      "lemma": "tackle",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-61f37c4e68345f01-p09-b-22",
+      "sense_zh": "着手解决",
+      "sentence_ids": [
+        "p09-b-22-s04"
+      ],
+      "forms": [
+        "tackle"
+      ]
+    },
+    {
+      "target_id": "ox-33a7d0cb3ac7b654",
+      "lemma": "strengthen",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-33a7d0cb3ac7b654-p09-b-22",
+      "sense_zh": "增强",
+      "sentence_ids": [
+        "p09-b-22-s05"
+      ],
+      "forms": [
+        "strengthen"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

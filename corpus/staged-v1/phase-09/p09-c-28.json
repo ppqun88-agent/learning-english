@@ -1,0 +1,121 @@
+{
+  "id": "p09-c-28",
+  "title_zh": "找到工作坊管理员并取消重复报名",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "workshop-registration-admin-contact",
+    "label_zh": "找到工作坊管理员并取消重复报名",
+    "goal_zh": "确认取消重复报名属于管理事务，保留一个名额并取得取消记录"
+  },
+  "participants": [
+    "Harper",
+    "Sol"
+  ],
+  "context_zh": "学员到课程服务台处理自己重复提交的工作坊报名。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-28-s01",
+      "speaker": "Harper",
+      "text": "I seem to have registered twice for the pottery workshop. Can I withdraw the second booking without losing the first?"
+    },
+    {
+      "id": "p09-c-28-s02",
+      "speaker": "Sol",
+      "text": "Yes. That's an administrative matter rather than a teaching question. I'm the course administrator; I can check both references."
+    },
+    {
+      "id": "p09-c-28-s03",
+      "speaker": "Harper",
+      "text": "Here they are. Both are in my name for the same Saturday session."
+    },
+    {
+      "id": "p09-c-28-s04",
+      "speaker": "Sol",
+      "text": "I can see the duplicate. Neither booking has a payment attached. Shall I cancel the later one and retain the earlier place?"
+    },
+    {
+      "id": "p09-c-28-s05",
+      "speaker": "Harper",
+      "text": "Yes, please. I only need one place."
+    },
+    {
+      "id": "p09-c-28-s06",
+      "speaker": "Sol",
+      "text": "Done. Here's the cancellation record for the later booking, and the earlier one is still active."
+    },
+    {
+      "id": "p09-c-28-s07",
+      "speaker": "Harper",
+      "text": "The two references match. Thank you for sorting it out."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-65fc604b0989e1ad",
+      "lemma": "workshop",
+      "pos": "n.",
+      "sense_zh": "实践工作坊；研习班",
+      "sentence_ids": [
+        "p09-c-28-s01"
+      ],
+      "forms": [
+        "workshop"
+      ],
+      "sense_id": "sense-staged-ox-65fc604b0989e1ad-p09-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c4756f0d43f4e278",
+      "lemma": "withdraw",
+      "pos": "v.",
+      "sense_zh": "退出；撤回",
+      "sentence_ids": [
+        "p09-c-28-s01"
+      ],
+      "forms": [
+        "withdraw"
+      ],
+      "sense_id": "sense-staged-ox-c4756f0d43f4e278-p09-c-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b84658a9edbbc189",
+      "lemma": "administrative",
+      "pos": "adj.",
+      "sense_zh": "行政管理的",
+      "sentence_ids": [
+        "p09-c-28-s02"
+      ],
+      "forms": [
+        "administrative"
+      ],
+      "sense_id": "sense-staged-ox-b84658a9edbbc189-p09-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a10df0729bf59520",
+      "lemma": "administrator",
+      "pos": "n.",
+      "sense_zh": "管理人员",
+      "sentence_ids": [
+        "p09-c-28-s02"
+      ],
+      "forms": [
+        "administrator"
+      ],
+      "sense_id": "sense-staged-ox-a10df0729bf59520-p09-c-28",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

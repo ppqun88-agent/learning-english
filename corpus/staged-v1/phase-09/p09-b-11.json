@@ -1,0 +1,135 @@
+{
+  "id": "p09-b-11",
+  "title_zh": "约定按证据范围修改溪流保护告示",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "stream-habitat-notice-scope",
+    "label_zh": "约定按证据范围修改溪流保护告示",
+    "goal_zh": "区分已记录的踩踏破坏与尚未评估的生存风险，并约定告示要求游客留在步道上"
+  },
+  "participants": [
+    "Petra",
+    "Wes"
+  ],
+  "context_zh": "保护区志愿者与管理员依虚构观察记录修改告示。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-11-s01",
+      "speaker": "Petra",
+      "text": "I've written that visitors are a threat to the survival of every species in the stream. Is that too broad?"
+    },
+    {
+      "id": "p09-b-11-s02",
+      "speaker": "Wes",
+      "text": "Yes. Our survey recorded plants damaged by trampling beside the stream. It didn't assess the survival of every animal and plant."
+    },
+    {
+      "id": "p09-b-11-s03",
+      "speaker": "Petra",
+      "text": "Could we say that trampling can threaten plants along the bank?"
+    },
+    {
+      "id": "p09-b-11-s04",
+      "speaker": "Wes",
+      "text": "Yes, and connect that directly to what we want people to do: stay on the path."
+    },
+    {
+      "id": "p09-b-11-s05",
+      "speaker": "Petra",
+      "text": "I'll mention the trampling damage we recorded, ask visitors to stay on the path, and remove the claim about every species."
+    },
+    {
+      "id": "p09-b-11-s06",
+      "speaker": "Wes",
+      "text": "Good. Put the survey date underneath, so the notice is clear about its evidence."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-103d9d8294bf7d95",
+      "lemma": "threat",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-103d9d8294bf7d95-p09-b-11",
+      "sense_zh": "威胁",
+      "sentence_ids": [
+        "p09-b-11-s01"
+      ],
+      "forms": [
+        "threat"
+      ]
+    },
+    {
+      "target_id": "ox-036e06c8edf3ba0d",
+      "lemma": "survival",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-036e06c8edf3ba0d-p09-b-11",
+      "sense_zh": "生存；存活",
+      "sentence_ids": [
+        "p09-b-11-s01",
+        "p09-b-11-s02"
+      ],
+      "forms": [
+        "survival"
+      ]
+    },
+    {
+      "target_id": "ox-2ab5a680fd4fcbd1",
+      "lemma": "species",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-2ab5a680fd4fcbd1-p09-b-11",
+      "sense_zh": "物种",
+      "sentence_ids": [
+        "p09-b-11-s01",
+        "p09-b-11-s05"
+      ],
+      "forms": [
+        "species"
+      ]
+    },
+    {
+      "target_id": "ox-99dc9d08a4ea4caf",
+      "lemma": "stream",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-99dc9d08a4ea4caf-p09-b-11",
+      "sense_zh": "小溪",
+      "sentence_ids": [
+        "p09-b-11-s01",
+        "p09-b-11-s02"
+      ],
+      "forms": [
+        "stream"
+      ]
+    },
+    {
+      "target_id": "ox-3957bcea773c92f8",
+      "lemma": "threaten",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-3957bcea773c92f8-p09-b-11",
+      "sense_zh": "威胁；危及",
+      "sentence_ids": [
+        "p09-b-11-s03"
+      ],
+      "forms": [
+        "threaten"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

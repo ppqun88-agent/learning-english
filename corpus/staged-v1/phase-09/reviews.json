@@ -1,0 +1,5478 @@
+[
+  {
+    "dialogue_id": "p09-a-01",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "f986d21806f70d8a094218066bf3ae0f3c7509fbd715074643ed8743dfaa8424",
+    "status": "accepted",
+    "rationale": "完整重读版本2：s01观察扶手晃动，s02只讨论加固底座的可能，s03询问整个入口重建，s04拒绝未经检查作判断。新标题正确把隔离对象写为入口台阶、检查对象写为扶手底座；新目标分开底座加固与整个入口重建，并以约定对应s05–s07的封闭、联系维修队与暂不重开承诺。任务连贯，未声称检查或维修已经完成。",
+    "targets": [
+      {
+        "target_id": "ox-2468bc42e8ded047",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-01-s01"
+        ],
+        "forms": [
+          "rail"
+        ],
+        "rationale": "重读s01，The rail作名词主语，手放上即晃动以及入口台阶背景明确为扶手；不是铁轨义。"
+      },
+      {
+        "target_id": "ox-bb93d642f6a46074",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-01-s03"
+        ],
+        "forms": [
+          "rebuild"
+        ],
+        "rationale": "重读s03，have to rebuild the whole entrance用动词指重建整个入口，疑问与s04未知回应保留未决定状态；版本2目标不再误指重建扶手。"
+      },
+      {
+        "target_id": "ox-a3d5d31c0027c6e8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-01-s02"
+        ],
+        "forms": [
+          "reinforce"
+        ],
+        "rationale": "重读s02，reinforce the base为加固底座的及物动词搭配，may be able与先检查的条件使建议范围准确。"
+      },
+      {
+        "target_id": "ox-565f87a3eff3612b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-01-s05"
+        ],
+        "forms": [
+          "secure"
+        ],
+        "rationale": "重读s05，secure the temporary barrier across these steps表示把临时围栏固定牢靠，动词宾语及位置明确，行动仍是承诺。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-02",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "ccf35857fb9d5a8e7037070b7a6ae959bf23cef8b79668ea88a9bb3e92c42232",
+    "status": "accepted",
+    "rationale": "从整体课程满意度转向活动排序的区别明确，最终决定一至五分单项评分及随机邀请方式。标题和目标描述的是商定问卷方案，s06保留未来抽取名单，未声称已发送或收回问卷。",
+    "targets": [
+      {
+        "target_id": "ox-442399e4ef164333",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-02-s05"
+        ],
+        "forms": [
+          "random"
+        ],
+        "rationale": "s05的random sample修饰学员样本，s06从完整出席名单抽名字支持随机选择义，而非随意挑熟人。"
+      },
+      {
+        "target_id": "ox-1255fc076e3c5104",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-02-s02"
+        ],
+        "forms": [
+          "rank"
+        ],
+        "rationale": "s02中rank the activities from best to worst是及物排序动词，s03明确区分活动排序与课程整体满意度。"
+      },
+      {
+        "target_id": "ox-16e612c371ddf774",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-02-s04"
+        ],
+        "forms": [
+          "rating"
+        ],
+        "rationale": "s04中one rating from one to five的可数名词指一个量表评分，不是排序名次。"
+      },
+      {
+        "target_id": "ox-5c1fa0a1c6f699a9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-02-s01"
+        ],
+        "forms": [
+          "satisfaction"
+        ],
+        "rationale": "s01中measure satisfaction with the course以不可数名词表示对课程的满意程度，搭配自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-03",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "3672d1519b1190564adffb762d24266f422d8b695705ecd2fc9a8d7eae8c5a07",
+    "status": "accepted",
+    "rationale": "合租者从具体目击位置谈到裸露食物及停用厨房，结尾分工通知住户和联系管理员。标题与目标均是约定后续措施，不把拟联系管理员误写成已经除虫；不擅自给食品安全判断。",
+    "targets": [
+      {
+        "target_id": "ox-11c5cb4021e3c441",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-03-s02"
+        ],
+        "forms": [
+          "raw"
+        ],
+        "rationale": "s02中raw vegetables形容未烹煮蔬菜，后续食材暴露问题与该义不冲突。"
+      },
+      {
+        "target_id": "ox-c950e5dd755fa7bd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-03-s01"
+        ],
+        "forms": [
+          "rat"
+        ],
+        "rationale": "s01中a rat是看到钻到冰箱后面的老鼠，单数可数名词自然；后文泛指鼠患合理。"
+      },
+      {
+        "target_id": "ox-b19c584094871555",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-03-s04"
+        ],
+        "forms": [
+          "rid"
+        ],
+        "rationale": "s04中get rid of the rats使用固定表达表示除去鼠患；所选rid动词来源及中文除去义适合此结构。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-04",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "699ed5bad2484401689753f190225851dbee4259258b550fff95b05444a63ed3",
+    "status": "accepted",
+    "rationale": "产能约束解释了两百套不能全在周五交付，双方明确提出一百套周五、余量周一并等待客户答复。标题、目标都是拟定分批交付提议，不宣称客户已接受。",
+    "targets": [
+      {
+        "target_id": "ox-edc6a58f112a5bb3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-04-s03"
+        ],
+        "forms": [
+          "realistic"
+        ],
+        "rationale": "s03中a realistic date询问日期是否现实可行，s04产能答复具体支持该形容词义。"
+      },
+      {
+        "target_id": "ox-f9eccb79baca4684",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-04-s04"
+        ],
+        "forms": [
+          "reasonably"
+        ],
+        "rationale": "s04的reasonably修饰promise，意为依据能力合理承诺，而不是程度上的相当。"
+      },
+      {
+        "target_id": "ox-810119a736726f14",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-04-s05"
+        ],
+        "forms": [
+          "reckon"
+        ],
+        "rationale": "s05中I reckon后接从句表示说话者估计客户可以分批使用，s06提醒需询问而非当成事实。"
+      },
+      {
+        "target_id": "ox-529ea23be946a119",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-04-s01"
+        ],
+        "forms": [
+          "rapid"
+        ],
+        "rationale": "s01中rapid response以形容词修饰回复，表示客户要求快速回应交期。"
+      },
+      {
+        "target_id": "ox-192e4f387f07e4b7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-04-s02"
+        ],
+        "forms": [
+          "rapidly"
+        ],
+        "rationale": "s02中coming in rapidly用副词描述订单涌入速度，符合迅速地。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-05",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "9f3aeecfe8a043116656d1fc11f20cae9c1f2c517776b79c710f72d8d943b0d6",
+    "status": "accepted",
+    "rationale": "顾客比较家中两个房间，店内移离金属架后现场试听清晰，结尾决定保留收音机并回家再试。标题和目标未把店内改善说成家中问题已解决；仅在问题持续或重现时联系店员的条件清楚。",
+    "targets": [
+      {
+        "target_id": "ox-be19e60c37fe05c9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-05-s01"
+        ],
+        "forms": [
+          "recall"
+        ],
+        "rationale": "s01中recall showing me以动名词补语表示记得先前演示调台，s02回答I do承接自然。"
+      },
+      {
+        "target_id": "ox-f6d28943437b3ca4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-05-s01"
+        ],
+        "forms": [
+          "receiver"
+        ],
+        "rationale": "s01的radio receiver是可数设备名词，后续调台、信号和试听共同限定为无线电接收机。"
+      },
+      {
+        "target_id": "ox-022e7d3feaee52c9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-05-s03"
+        ],
+        "forms": [
+          "relatively"
+        ],
+        "rationale": "s03中relatively weak后有compared with the bedroom，副词明确表达两处信号强弱的相对比较。"
+      },
+      {
+        "target_id": "ox-92855aed1f418ee4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-05-s05"
+        ],
+        "forms": [
+          "remarkably"
+        ],
+        "rationale": "s05中remarkably clear加强对试听清晰度的惊讶评价，副词修饰形容词，符合出乎意料地清晰。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-06",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "6492d121b4e5c64e59623afd6985198f4342d3d915eebf7f563f65f1dbadf7f0",
+    "status": "accepted",
+    "rationale": "虚构商科案例清楚区分收入和利润，晚间成本资料支撑暂时提前关门并一个月后复核的课堂方案。标题与目标均限定案例中的方案选择，不假称实际经营调整或普遍建议已经实施。",
+    "targets": [
+      {
+        "target_id": "ox-0050329ed1e872c6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-06-s01"
+        ],
+        "forms": [
+          "recession"
+        ],
+        "rationale": "s01中a recession作主语，描述案例中的经济衰退降低消费，所选名词义明确。"
+      },
+      {
+        "target_id": "ox-fe83ee033fb89732",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-06-s02"
+        ],
+        "forms": [
+          "retail"
+        ],
+        "rationale": "s02句首Retail作行业名词主语，与restaurants or factories的其他行业资料对照，支持零售业义；普通句首大写不改词形。"
+      },
+      {
+        "target_id": "ox-43e152fe901278d6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-06-s03"
+        ],
+        "forms": [
+          "revenue"
+        ],
+        "rationale": "s03中的reduction in revenue指销售收入下降，s04明确界定为成本前收入而非利润。"
+      },
+      {
+        "target_id": "ox-e3989938e7da5a04",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-06-s03"
+        ],
+        "forms": [
+          "reduction"
+        ],
+        "rationale": "s03中a twenty percent reduction in revenue为减少幅度的名词结构，百分比修饰和in搭配自然。"
+      },
+      {
+        "target_id": "ox-eb20c8cb31063562",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-06-s06"
+        ],
+        "forms": [
+          "short-term"
+        ],
+        "rationale": "s06的short-term plan用带连字符形容词修饰计划，一个月后复核具体体现短期。"
+      },
+      {
+        "target_id": "ox-cb4716b94a640dc8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-06-s01"
+        ],
+        "forms": [
+          "scenario"
+        ],
+        "rationale": "s01中In this scenario指课堂设定的虚构商店情境，不是预测实际经济走势。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-07",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "6617fe8b32c68382d7509085e45938134de21753990fa04b2ae96f3659f2deaf",
+    "status": "accepted",
+    "rationale": "从删除求助、选择昨日备份到恢复完成及首尾试听形成完整操作链。s04明确恢复完成，s05–s06确认自我介绍、致谢和十八分钟长度，支持标题与目标的找回和核对；复制回项目目录仍只是结尾承诺。",
+    "targets": [
+      {
+        "target_id": "ox-0ff3eedda62d6da7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-07-s01"
+        ],
+        "forms": [
+          "recover"
+        ],
+        "rationale": "s01中recover it的宾语回指误删访谈录音，动词明确指找回数据，不是健康恢复。"
+      },
+      {
+        "target_id": "ox-e9b72c5c589830e9",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-07-s04"
+        ],
+        "forms": [
+          "recovery"
+        ],
+        "rationale": "s04中The recovery has finished把恢复过程作为名词主语，并由文件出现和试听验证其完成。"
+      },
+      {
+        "target_id": "ox-638f67b12b3d24a6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-07-s02"
+        ],
+        "forms": [
+          "restore"
+        ],
+        "rationale": "s02中restore the file to a separate folder承接昨日备份，及物动词与目标位置搭配符合从备份恢复文件义。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-08",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "a7d28b0c35a8d87c92d59a1a07a37e6c49135d424a2df036b9889195fa15371a",
+    "status": "accepted",
+    "rationale": "求职者问清志愿教学经验相关性，找到具名课程咨询人的工作邮箱位置后决定准备针对性简历。s09的Found it只完成找到联系方式，不误称已投递简历或获聘，符合标题与目标。",
+    "targets": [
+      {
+        "target_id": "ox-0b9b043ca48a298c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-08-s01"
+        ],
+        "forms": [
+          "recruit"
+        ],
+        "rationale": "s01的recruit an assistant是及物动词招聘人员，后续申请开放时间限定尚在招聘。"
+      },
+      {
+        "target_id": "ox-4c16f2583de6f351",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-08-s02"
+        ],
+        "forms": [
+          "recruitment"
+        ],
+        "rationale": "s02的recruitment notice以招聘这一名词作前置修饰语，明确指岗位公告，选择B2记录而非另一C1记录。"
+      },
+      {
+        "target_id": "ox-352cb5add8b4fc7d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-08-s03"
+        ],
+        "forms": [
+          "relevant"
+        ],
+        "rationale": "s03中Is ... experience relevant以形容词作表语，s04说明初学者教学任务，支持与岗位相关义。"
+      },
+      {
+        "target_id": "ox-4d13e9ad120c1ba8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-08-s05"
+        ],
+        "forms": [
+          "résumé"
+        ],
+        "rationale": "s05中on my résumé是求职文件名词，围绕经历应如何呈现的讨论明确为简历，不是摘要。"
+      },
+      {
+        "target_id": "ox-0d1078b67b849abe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-08-s06"
+        ],
+        "forms": [
+          "senior"
+        ],
+        "rationale": "s06中senior tutor修饰职务，介绍可回答课程问题的资深导师，不是年龄较大的泛指。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-09",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "8e2625314cd264201b7753d49928d25e6906bfd57a91fe65a654c8bdfdee490d",
+    "status": "accepted",
+    "rationale": "暂停时队员表达判罚不满，队长制止猜测对方心理，承诺赛后私下询问并让队员回到比赛。标题与目标的赛后询问仅为约定，未误称裁判已经解释或改判；场景标签指拟采用的沟通方式。",
+    "targets": [
+      {
+        "target_id": "ox-c7f034a9bc8570a7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-09-s01"
+        ],
+        "forms": [
+          "referee"
+        ],
+        "rationale": "s01中The referee给球权的行为限定为比赛裁判，名词角色清楚。"
+      },
+      {
+        "target_id": "ox-287be356b8cf220f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-09-s03"
+        ],
+        "forms": [
+          "rival"
+        ],
+        "rationale": "s03中rival captain以形容词限定对手队长，所选竞争对手的义及形容词来源匹配。"
+      },
+      {
+        "target_id": "ox-5d0edca512950190",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-09-s04"
+        ],
+        "forms": [
+          "resist"
+        ],
+        "rationale": "s04的resist the temptation to shout是自然及物搭配，指克制冲动，不是抵抗实体力量。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-10",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "2541e724a12d52c4c44927eb35b81e6e51f8bd335d11eddf8cc3a18dff3ab70a",
+    "status": "accepted",
+    "rationale": "活动条件、无需身份文件、免费登记、下周二及六点集合依次问清。s08明确已把Safa加入周二名单，足以支持标题与目标的完成登记，而不把有空位误当成功；虚构普通社区活动不泛化难民政策。",
+    "targets": [
+      {
+        "target_id": "ox-7e527fefb84c6976",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-10-s03"
+        ],
+        "forms": [
+          "refugee"
+        ],
+        "rationale": "s03中as a refugee以可数身份名词描述本人去年抵达的经历，没有把该身份与报名资格混同。"
+      },
+      {
+        "target_id": "ox-45426cc1f41b4773",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-10-s02"
+        ],
+        "forms": [
+          "resident"
+        ],
+        "rationale": "s02中Any local resident指任何当地居民，名词作主语，说明面向人群。"
+      },
+      {
+        "target_id": "ox-f45c9a552775fe25",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-10-s05"
+        ],
+        "forms": [
+          "register"
+        ],
+        "rationale": "s05中register for next Tuesday是动词报名加for活动时间，s08提供登记完成的回应。"
+      },
+      {
+        "target_id": "ox-b4954120c20f02b6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-10-s06"
+        ],
+        "forms": [
+          "registration"
+        ],
+        "rationale": "s06句首Registration作名词主语，is free说明报名不收费，普通首字母大写与声明词形兼容。"
+      },
+      {
+        "target_id": "ox-7b4b4ac576ffb680",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-10-s01"
+        ],
+        "forms": [
+          "regional"
+        ],
+        "rationale": "s01中regional centre以形容词表示区域中心，符合区域性的义，不指具体方言。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-11",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "c22d3c1109c7c7eede1c4ecda295250930dc13668bb8357d417c24b89290d1c7",
+    "status": "accepted",
+    "rationale": "私下修复关系的对话听取失业玩笑造成的伤害，承认后悔并接受删评、不再开玩笑及暂留空间的请求。标题“答应”和目标“同意”准确保留承诺状态，没有虚称评论已删除或关系已和好。",
+    "targets": [
+      {
+        "target_id": "ox-ba1ded0f7c3b5fd1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-11-s04"
+        ],
+        "forms": [
+          "regret"
+        ],
+        "rationale": "s04的regret posting it后接动名词表示后悔既成发帖行为，动词义和语法均贴合。"
+      },
+      {
+        "target_id": "ox-30a8a0b184b05ca7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-11-s03"
+        ],
+        "forms": [
+          "regard"
+        ],
+        "rationale": "s03中regard it as harmless采用regard A as B结构，表示把评论看作无害，而不是尊重义。"
+      },
+      {
+        "target_id": "ox-ef3ccbcdb594403b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-11-s01"
+        ],
+        "forms": [
+          "remark"
+        ],
+        "rationale": "s01的Your remark under my photo以名词指照片下的具体评论，后文delete the comment明确回指同一言语。"
+      },
+      {
+        "target_id": "ox-de6d494cec1458ea",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-11-s01"
+        ],
+        "forms": [
+          "ridiculous"
+        ],
+        "rationale": "s01中feel ridiculous是感到自己可笑、难堪的表语形容词，公开评论的情境支持该感受。"
+      },
+      {
+        "target_id": "ox-430c15f1492ff76b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-11-s03"
+        ],
+        "forms": [
+          "sensitive"
+        ],
+        "rationale": "s03的sensitive about losing that job表达对失业话题敏感易受伤，about搭配及形容词义自然。"
+      },
+      {
+        "target_id": "ox-628630ecbf2c1a78",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-11-s04"
+        ],
+        "forms": [
+          "self"
+        ],
+        "rationale": "s04中my usual self为名词短语，否认昨日是平常状态但不拿它作借口，符合所选自我状态义。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-12",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "8d74c23853a3f1a9a6e9c03c9caf690c5ca5149a694962feae97c5bfbe51ab37",
+    "status": "accepted",
+    "rationale": "先核对旋钮调节空气，再依据给定房间规则限定设备周围区域，结尾约定讲师操作与观众在线外。标题确认的是操作和进入限制，不声称已经布置现场；设备说明与规章来自虚构课堂资料。",
+    "targets": [
+      {
+        "target_id": "ox-9ccebf09b81f05bb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-12-s01"
+        ],
+        "forms": [
+          "regulate"
+        ],
+        "rationale": "s01的regulate the flow of air用及物动词表示调节气流，s02设备说明回应限定具体功能。"
+      },
+      {
+        "target_id": "ox-633a30294c53004b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-12-s04"
+        ],
+        "forms": [
+          "regulation"
+        ],
+        "rationale": "s04中The safety regulation作名词主语，requires引出留空区域要求，明确是安全规定而非调节过程。"
+      },
+      {
+        "target_id": "ox-b42954166c94c68e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-12-s05"
+        ],
+        "forms": [
+          "restrict"
+        ],
+        "rationale": "s05中restrict access to the marked area指限制人们进入标线内区域；s06允许线外观看消除了范围歧义。"
+      },
+      {
+        "target_id": "ox-57ceba431aa19113",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-12-s06"
+        ],
+        "forms": [
+          "restriction"
+        ],
+        "rationale": "s06中The restriction回指上述进入限制，并以applies to说明作用范围，名词义清楚。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-13",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "b4fa245156e80046e6c779e9347fa3c1ec85b7943bc0e3aec5a8173c407c72ac",
+    "status": "accepted",
+    "rationale": "兄妹协调照护者散步休息，五点半至六点半恰为一小时，接替者能留到七点，时间无冲突。标题和目标准确写愿意接替、回来时间和电话联络，未声称已经完成一小时照护。",
+    "targets": [
+      {
+        "target_id": "ox-8f6f4c05844166b3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-13-s05"
+        ],
+        "forms": [
+          "relief"
+        ],
+        "rationale": "s05中It is a relief to know...将能依赖家人的消息表述为宽慰，名词搭配自然。"
+      },
+      {
+        "target_id": "ox-c771f8a0cb0aacab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-13-s01"
+        ],
+        "forms": [
+          "relieve"
+        ],
+        "rationale": "s01的relieve me for an hour以人为宾语并给时长，后文兄长留下陪父亲明确是临时接替工作，不是治疗症状。"
+      },
+      {
+        "target_id": "ox-faed6d004eda2406",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-13-s04"
+        ],
+        "forms": [
+          "relieved"
+        ],
+        "rationale": "s04中am relieved to hear that为情感形容词作表语，因听到妹妹已经吃饭而感到放心。"
+      },
+      {
+        "target_id": "ox-9ec8d7f5ca358d36",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-13-s05"
+        ],
+        "forms": [
+          "rely"
+        ],
+        "rationale": "s05的rely on you表示信赖并依靠亲人帮忙，on介词与照护交接语境吻合。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-14",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "72d67f556a9928c65c2617ce77b04ce24aefc9b0904fbc395989d160d25976c1",
+    "status": "accepted",
+    "rationale": "具体的大字材料及接送例子替代空泛夸奖，说明非现金奖赏后分工起草提名和核对日期。标题及目标都是准备与分工，不把尚未提交的提名写成已获奖，Ana的贡献与待核记录区分清楚。",
+    "targets": [
+      {
+        "target_id": "ox-2b933eb82f27e1d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-14-s01"
+        ],
+        "forms": [
+          "recognition"
+        ],
+        "rationale": "s01中deserves recognition for...用不可数名词表达贡献值得认可、表彰，并非辨认身份。"
+      },
+      {
+        "target_id": "ox-b592501f1cc6bf04",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-14-s02"
+        ],
+        "forms": [
+          "remarkable"
+        ],
+        "rationale": "s02中a remarkable ability赞扬让新读者受欢迎的出色能力，形容词修饰ability，随后要求具体例子。"
+      },
+      {
+        "target_id": "ox-5f8f1f096f6142ae",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-14-s04"
+        ],
+        "forms": [
+          "reputation"
+        ],
+        "rationale": "s04的a good reputation指已有好名声，并明确指出这不如具体服务事例有力。"
+      },
+      {
+        "target_id": "ox-20cc474f1350c5a7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-14-s04"
+        ],
+        "forms": [
+          "reward"
+        ],
+        "rationale": "s04中the reward作名词询问贡献获得的奖赏，s05证书及纪念植树直接回答，不涉及现金报酬。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-15",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "525ce0f5c28e43bcfe1066f966140208a56ad61e9b137eddc5dd09f3df6f4202",
+    "status": "accepted",
+    "rationale": "虚构新闻练习把匿名指控、惊人金额和未获文件与已核实事实严格区分，决定暂不使用丑闻标题，索证并给机构回应机会。目标是安排核实而非已取得记录或回应，结尾保留未验证状态。",
+    "targets": [
+      {
+        "target_id": "ox-b28471992c1dd590",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-15-s02"
+        ],
+        "forms": [
+          "reporting"
+        ],
+        "rationale": "s02中Careful reporting作名词短语主语，指需核查事实的新闻报道工作，不是现在分词动作。"
+      },
+      {
+        "target_id": "ox-329b7c27decafd86",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-15-s05"
+        ],
+        "forms": [
+          "representative"
+        ],
+        "rationale": "s05中a representative of the arts centre是可数机构代表名词，拟联系其回应具体指控。"
+      },
+      {
+        "target_id": "ox-d39db28f0a247d50",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-15-s04"
+        ],
+        "forms": [
+          "reveal"
+        ],
+        "rationale": "s04的what the records reveal是间接疑问从句，动词指记录能够显示的信息，未断言已有文件证明指控。"
+      },
+      {
+        "target_id": "ox-1fc43e0bd0f99432",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-15-s01"
+        ],
+        "forms": [
+          "scandal"
+        ],
+        "rationale": "s01中calls ... a scandal以名词作宾语补足语，明确归属于匿名消息的丑闻定性，后文拒绝未经证实的标题。"
+      },
+      {
+        "target_id": "ox-b0f6344b97e426a8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-15-s03"
+        ],
+        "forms": [
+          "shocking"
+        ],
+        "rationale": "s03中the amount ... is shocking用形容词表达金额令人震惊，并紧接无文件的证据限制，不混同shocked。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-16",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "dcff5d2f682018097b27106202c2cb3d3ae9d72434e6723acc3abcae2c880a99",
+    "status": "accepted",
+    "rationale": "位置由平台、红标记、岸外两米和浅水逐步明确，工作人员承诺派救助队，游客同意留在平台旁步道等候。标题的报告和等候及目标的派员承诺均有对应发言，没有把承诺写成救助完成。",
+    "targets": [
+      {
+        "target_id": "ox-156383bc1786961b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-16-s04"
+        ],
+        "forms": [
+          "rescue"
+        ],
+        "rationale": "s04中rescue team中的rescue为表示救助工作的名词作定语，名词来源符合该复合结构。"
+      },
+      {
+        "target_id": "ox-23230f2c1dbb77fa",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-16-s01"
+        ],
+        "forms": [
+          "reserve"
+        ],
+        "rationale": "s01的coastal reserve是游客所处的海岸自然保护区名词，工作人员及动物救助语境排除储备或预约义。"
+      },
+      {
+        "target_id": "ox-f335733d44be7092",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-16-s03"
+        ],
+        "forms": [
+          "shallow"
+        ],
+        "rationale": "s03中shallow water以形容词描述水深较浅，用于定位鸟的位置，而非抽象肤浅。"
+      },
+      {
+        "target_id": "ox-53cd4f29f3e4644f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-16-s02"
+        ],
+        "forms": [
+          "shore"
+        ],
+        "rationale": "s02中on the shore与farther out in the water对照，shore为岸边名词，s03进一步给距岸距离。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-17",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "1fd4595fd67311d29121703bcc943d4d3223527fbcd7c0e7a73e842143f6f00d",
+    "status": "accepted",
+    "rationale": "退休搬家引出月底辞去俱乐部秘书职务，周五交接清单和月底前责任均明确，寻找接任者留待清单解释岗位后。标题和目标的辞职日期与交接安排有据，不误报已经有人接任。",
+    "targets": [
+      {
+        "target_id": "ox-fbad99089a8de8ee",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-17-s03"
+        ],
+        "forms": [
+          "resign"
+        ],
+        "rationale": "s03的resign as secretary用动词加as职务，明确辞去秘书职务并给月底时间。"
+      },
+      {
+        "target_id": "ox-c5ca240bc919d67e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-17-s01"
+        ],
+        "forms": [
+          "retirement"
+        ],
+        "rationale": "s01中My retirement starts next month以名词指即将开始的退休，与随后辞去志愿职务有所区分。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-18",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "6d38c74257a7d025ce5a51f08813cc63ebee73eb8db9d4a5893b75291575824f",
+    "status": "accepted",
+    "rationale": "纸质与线上双日历导致冲突，客人已有四点备选时间，双方接受错开录音并由s06现场核对线上日历完成更新。标题和目标的解决、调换及确认更新均已落地；停用墙上日历仍是下一步承诺。",
+    "targets": [
+      {
+        "target_id": "ox-51e799b9cc454e0a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-18-s01"
+        ],
+        "forms": [
+          "resolve"
+        ],
+        "rationale": "s01中resolve this的this回指两点的预约冲突，及物动词解决问题义自然，后续确实形成不取消录音的办法。"
+      },
+      {
+        "target_id": "ox-18a0e804596d7add",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-18-s04"
+        ],
+        "forms": [
+          "settle"
+        ],
+        "rationale": "s04中that would settle it以方案作主语、冲突作宾语，动词表示解决争议，不是定居或付款。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-19",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "b2fcbea10c808d67f90fdcf2ed83360883c3f5e2879cb5b6049a2f0866b2d349",
+    "status": "accepted",
+    "rationale": "完整重读版本2：度假村240加估计往返车费60为约300；城内酒店330含接送，暂差30，早餐仍未知。新标题“并约定索取”准确对应s06提议与s07承诺，没有把商量变成向住宿方已发出的请求。目标保持可能节省及先问完整报价再预订，比较和结尾自然。",
+    "targets": [
+      {
+        "target_id": "ox-f1def162585fe511",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-19-s01"
+        ],
+        "forms": [
+          "resort"
+        ],
+        "rationale": "重读s01，rural resort是提供两晚住宿的可数度假村名词，与城内酒店作为两个住宿选项比较。"
+      },
+      {
+        "target_id": "ox-c73a285578413dd5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-19-s01"
+        ],
+        "forms": [
+          "rural"
+        ],
+        "rationale": "重读s01，rural修饰度假村的乡村位置，与hotel in town形成地点对照，形容词义明确。"
+      },
+      {
+        "target_id": "ox-dbd6b84bec8b8081",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-19-s02"
+        ],
+        "forms": [
+          "roughly"
+        ],
+        "rationale": "重读s02，roughly限定sixty pounds为近似车费，according to this estimate及后面的about维持估算性质。"
+      },
+      {
+        "target_id": "ox-6b0bee3c854334e8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-19-s04"
+        ],
+        "forms": [
+          "saving"
+        ],
+        "rationale": "重读s04，a saving of only about thirty pounds为名词节省金额，330与约300的差值支持且s07未将它说成最终已省款。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-20",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "0e15df38e86148cc5922b8b1da8183fa5838974d74761e453e981fac21fa3000",
+    "status": "accepted",
+    "rationale": "完整重读版本2：s01–s03指出日记不能解释革命起因，s04–s06提出保留抵达日期及较窄首冬描述，s07答应写入草稿并印刷前请学者核对。新场景标签“修订安排”和目标开头“约定”涵盖全部待执行修改，不再暗示已改稿或已获学者确认；标题的限定解释已由谈话中明确的新表述实现。",
+    "targets": [
+      {
+        "target_id": "ox-00e036e08d9e0d35",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-20-s04"
+        ],
+        "forms": [
+          "retain"
+        ],
+        "rationale": "重读s04，We should retain the arrival date是编辑建议中的及物动词保留，名词宾语清楚，尚非完成态。"
+      },
+      {
+        "target_id": "ox-1bb30b90cdca5da6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-20-s05"
+        ],
+        "forms": [
+          "revision"
+        ],
+        "rationale": "重读s05，this revision指随后明确说出的替代展签句子，名词表示拟修订表述，s06评价其与摘录吻合。"
+      },
+      {
+        "target_id": "ox-0e9b6b3bfaf5764c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-20-s01"
+        ],
+        "forms": [
+          "revolution"
+        ],
+        "rationale": "重读s01，the revolution began以革命事件名词讨论起因；后文否定证据足够，中文革命义不混入其他变革。"
+      },
+      {
+        "target_id": "ox-97f94bbe836cbb6e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-20-s06"
+        ],
+        "forms": [
+          "scholar"
+        ],
+        "rationale": "重读s06，visiting scholar为可用完整日记核对措辞的学者名词，can check不是已经确认。"
+      },
+      {
+        "target_id": "ox-1d5de6d409d4b93f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-20-s03"
+        ],
+        "forms": [
+          "significance"
+        ],
+        "rationale": "重读s03，giving the diary a significance表示赋予日记证据尚未建立的解释意义，名词及中文重要性、意义吻合。"
+      },
+      {
+        "target_id": "ox-8e053c13197d4bfc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-20-s02"
+        ],
+        "forms": [
+          "settler"
+        ],
+        "rationale": "重读s02，a settler who arrived ten years before it happened指移居定居的日记作者，名词和相对时间清晰。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-21",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "c451d3d818071535d489efc19d76469d3b3061b8de207c23e65b08902355d73e",
+    "status": "accepted",
+    "rationale": "从合奏时失去节奏的困难出发，在现有慢曲中选定熟悉蓝页歌曲，并约定先拍节奏再加乐器。标题与目标准确区分已经选曲和待实施练习，没有声称技巧已掌握。",
+    "targets": [
+      {
+        "target_id": "ox-9353042dc36afddf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-21-s01"
+        ],
+        "forms": [
+          "rhythm"
+        ],
+        "rationale": "s01中lose the rhythm指合奏时跟不上节奏，与能找音符形成音乐技能对比。"
+      },
+      {
+        "target_id": "ox-f8f7d491846f7e4c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-21-s02"
+        ],
+        "forms": [
+          "selection"
+        ],
+        "rationale": "s02的a selection of slower pieces为可供选用的一组曲目，名词义不是已经作出的选择动作。"
+      },
+      {
+        "target_id": "ox-90dec4a26a8fa0d3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-21-s03"
+        ],
+        "forms": [
+          "select"
+        ],
+        "rationale": "s03的select that one for today是及物选择动词，that one回指蓝页熟悉歌曲，s04明确接受。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-22",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "36ed70ff6c6aca0517f7884a9528726127e6b0ab4b10945b13e47c7345360123",
+    "status": "accepted",
+    "rationale": "纸塔易损、箱子次日可用与已到货车产生真实取舍，双方决定延后一天，分别承诺通知画廊和司机。标题仅说决定延后，目标的决定统摄等箱子后搬运及通知，未声称通知已经送达或运输已完成。",
+    "targets": [
+      {
+        "target_id": "ox-ccfda6bee880a8cd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-22-s02"
+        ],
+        "forms": [
+          "risky"
+        ],
+        "rationale": "s02中That is risky的That回指无箱搬运，形容词由转弯损坏纸塔的具体风险解释。"
+      },
+      {
+        "target_id": "ox-3c32ab5172d0e526",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-22-s03"
+        ],
+        "forms": [
+          "rush"
+        ],
+        "rationale": "s03中rush this以搬运任务作宾语，表示因司机等候而仓促处理，不是单纯快速奔跑。"
+      },
+      {
+        "target_id": "ox-2a8180dd194d3b4a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-22-s02"
+        ],
+        "forms": [
+          "ruin"
+        ],
+        "rationale": "s02中could ruin the thin paper towers以及物动词表示毁坏纸模型，could明确是风险而非损坏已发生。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-23",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "dda8c25f418853e0ca233bc4b81dacc86bd5cbe072f6c24bc2d28be20d58db80",
+    "status": "accepted",
+    "rationale": "戏剧人员为台外劫案情节选择更轻声的现场呼喊代替过响录音和巨响，演员确认听到后转身再说台词。标题是调整声音提示，目标描述选定声效与约定反应，不含真实犯罪操作或完成演出之断言。",
+    "targets": [
+      {
+        "target_id": "ox-d8389b33cc03d226",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-23-s01"
+        ],
+        "forms": [
+          "rob"
+        ],
+        "rationale": "s01中characters rob a shop用及物动词以被抢场所作宾语，符合rob而不是steal的搭配。"
+      },
+      {
+        "target_id": "ox-f87946dc92d9bb25",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-23-s02"
+        ],
+        "forms": [
+          "robbery"
+        ],
+        "rationale": "s02中the robbery为剧情里抢劫事件的名词，承接前句两个角色抢店行为。"
+      },
+      {
+        "target_id": "ox-00b6a2ad76acb7f1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-23-s02"
+        ],
+        "forms": [
+          "scream"
+        ],
+        "rationale": "s02中a scream comes from offstage把尖叫声作为可数名词主语，非动词来源，场外声音用于叙事。"
+      },
+      {
+        "target_id": "ox-4d649f567cd0d868",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-23-s03"
+        ],
+        "forms": [
+          "scare"
+        ],
+        "rationale": "s03中will scare people为及物动词使观众惊恐，主语是过响录音，正是后文降低音量的理由。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-24",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "1e1c9e3a1835288ffb44a20b59f1ca4497caa74bfff5f8d0a6cdea1a94c58f51",
+    "status": "accepted",
+    "rationale": "完整重读版本2：s02确认关系是主线，s03–s04认为性感标签误导且需说明慢节奏，s05–s06明确选片并承诺改海报。新目标“补充慢节奏说明”准确对应add a note，不再假设已有说明可保留；约定语气覆盖删词和添注。标题的宣传定位是已商定的口头定位，不宣称海报文件已修改。",
+    "targets": [
+      {
+        "target_id": "ox-159bce2b67ab538d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-24-s01"
+        ],
+        "forms": [
+          "romance"
+        ],
+        "rationale": "重读s01，a romance作影片类型名词，s02主线关系及s05 quiet romance均支持爱情故事或爱情片义。"
+      },
+      {
+        "target_id": "ox-0b4973a553abbe51",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-24-s03"
+        ],
+        "forms": [
+          "sexy"
+        ],
+        "rationale": "重读s03，sexy在a sexy film中作形容词，为被质疑的性感宣传标签；否定适配性并不改变词本身的性吸引力义。"
+      },
+      {
+        "target_id": "ox-659c717bc2532ae3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-24-s04"
+        ],
+        "forms": [
+          "screening"
+        ],
+        "rationale": "重读s04，this screening为即将举办的电影放映名词，海报、影片及成人影迷选择语境排除筛查义。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-25",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "ef662d4cd5dc74453cccbd0470b9a9c1bbdb468c7cedb4c21dc90f6007e59ae8",
+    "status": "accepted",
+    "rationale": "盆底露根、狭窄阳台及新位置更阴形成同一选盆任务，朋友不猜测处理方法而决定让店员先看。标题和目标均准确为约定或决定请求查看，未宣称店员已经检查、推荐或售出花盆。",
+    "targets": [
+      {
+        "target_id": "ox-feef07320a95196f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-25-s01"
+        ],
+        "forms": [
+          "root"
+        ],
+        "rationale": "s01的a root sticking out through the hole指穿出盆底孔的植物根，可数名词和所选实物义吻合。"
+      },
+      {
+        "target_id": "ox-abf828206c05112f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-25-s01"
+        ],
+        "forms": [
+          "rose"
+        ],
+        "rationale": "s01中this rose为带来的整株玫瑰植物，根、花盆及阳台位置共同排除只指一枝花的理解。"
+      },
+      {
+        "target_id": "ox-a10884363915711a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-25-s05"
+        ],
+        "forms": [
+          "shade"
+        ],
+        "rationale": "s05中much more shade用不可数名词比较墙边遮阴程度，后句explain the light承接光照而非色调。"
+      },
+      {
+        "target_id": "ox-d55bf67a543bbe21",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-25-s03"
+        ],
+        "forms": [
+          "shaped"
+        ],
+        "rationale": "s03的specially shaped pots以形容词修饰花盆，指具有特制形状以适合窄阳台，不是句子的过去时谓语。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-26",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "503a242906864d9b0a3a5ee3f8e43f3702b806f3b34bb94dea76fb7f39d49073",
+    "status": "accepted",
+    "rationale": "完整重读版本2：s01–s03区分桌面划痕与完好桌腿及脚垫，s04–s05说明仅用干布轻擦而无变化；s06店员要求照片并承诺检查，s07顾客同意停擦和发图。新目标“同意停止擦拭”准确对应承诺，不再声称已停下；标题“约定店方查看”也没有夸大为检查已完成。",
+    "targets": [
+      {
+        "target_id": "ox-b6cb191ad0cb6146",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-26-s04"
+        ],
+        "forms": [
+          "rub"
+        ],
+        "rationale": "重读s04，rub the mark with anything是擦拭痕迹的及物动词结构，s05用干布的回答提供实际工具与动作语境。"
+      },
+      {
+        "target_id": "ox-2524f658b4487873",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-26-s03"
+        ],
+        "forms": [
+          "rubber"
+        ],
+        "rationale": "重读s03，rubber feet中rubber为材质形容词，表示四个橡胶脚垫；其完好与桌面划痕是不同部位。"
+      },
+      {
+        "target_id": "ox-b9c185ae4f6734ad",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-26-s01"
+        ],
+        "forms": [
+          "scratch"
+        ],
+        "rationale": "重读s01，a scratch across the top指新桌面上的一道划痕，可数名词词性与中文痕迹义一致。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-27",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "23b54f239bea5f4ea3f7def815a871d1f20be46fdbacf25c84b1205e47d22cc9",
+    "status": "accepted",
+    "rationale": "完整重读版本2：原图卡把入轨置于发射前，s02–s03据编号指南确定发射台、发射、入轨的顺序，s05–s06选定清晰照片并同意说明比例失真。新目标区分已经确定顺序及选片，与s07尚待重排图卡和添注的承诺，标题“确定”同样准确；没有把约定误当布展完成。",
+    "targets": [
+      {
+        "target_id": "ox-1fe981c5934d3834",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-27-s01"
+        ],
+        "forms": [
+          "satellite"
+        ],
+        "rationale": "重读s01，the satellite already in orbit为人造卫星名词，发射与入轨图卡上下文使对象明确。"
+      },
+      {
+        "target_id": "ox-9d1028f037ea8638",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-27-s02"
+        ],
+        "forms": [
+          "rocket"
+        ],
+        "rationale": "重读s02，the rocket on the launch pad指发射前的火箭，名词义及用于图卡排序的实体一致。"
+      },
+      {
+        "target_id": "ox-2c928c8d80648eb3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-27-s01"
+        ],
+        "forms": [
+          "sequence"
+        ],
+        "rationale": "重读s01，Our sequence starts with...以名词指现有图卡次序；其倒置由后文建议纠正，符合顺序义。"
+      },
+      {
+        "target_id": "ox-5bc200eee37b31b1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-27-s05"
+        ],
+        "forms": [
+          "shot"
+        ],
+        "rationale": "重读s05，This shot是前句launch photo选择的回答，清晰度和完整火箭画面限定为照片名词。"
+      },
+      {
+        "target_id": "ox-3c3330a41f06a1a8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-27-s06"
+        ],
+        "forms": [
+          "scale"
+        ],
+        "rationale": "重读s06，drawings are not to scale使用绘图比例的名词固定搭配，同大小地球和卫星解释为何要加注而非改称真实尺寸。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-28",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "175bc94e98ab0d8349a7c33580525b3c9ef834b5b53a63e8a2f67542a601f97f",
+    "status": "accepted",
+    "rationale": "现场量尺确认八十厘米，柜门可全开且顾客认可尺寸与表面处理，s07明确已签验收单，s08交回副本。标题和目标的核对后签收具有完成证据，不把索签名当已签署。",
+    "targets": [
+      {
+        "target_id": "ox-c4a426aa5c927201",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-28-s05"
+        ],
+        "forms": [
+          "satisfied"
+        ],
+        "rationale": "s05中am satisfied with the size and the finish为形容词表示顾客满意，with引出满意对象。"
+      },
+      {
+        "target_id": "ox-039d3e7fd7b6944a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-28-s04"
+        ],
+        "forms": [
+          "satisfy"
+        ],
+        "rationale": "s04中satisfy the requirements用及物动词表示产品满足先前约定要求，与s05人的满意状态区分。"
+      },
+      {
+        "target_id": "ox-9dc318b0c4b878f7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-28-s06"
+        ],
+        "forms": [
+          "signature"
+        ],
+        "rationale": "s06中your signature on this delivery inspection form以名词指表格上的签名，s07确认实际签署。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-29",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "e9b7cde18b361fce4a80b871bc589797d3c1ba88244271199fcf3aefe029a3bb",
+    "status": "accepted",
+    "rationale": "完整重读版本2：转行者询问课程与学费帮助，顾问说明有限资助名额、非自动符合资格以及条件清单所在位置，s07确认已看到链接而尚待阅读。新标题与目标均为找到查看入口，不再虚构索要清单；新目标也未把能查资助信息说成已确认个人资格或获批。全篇语用和虚构情境边界清楚。",
+    "targets": [
+      {
+        "target_id": "ox-111b0bb76f0b3270",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-29-s04"
+        ],
+        "forms": [
+          "scheme"
+        ],
+        "rationale": "重读s04，scholarship scheme以名词指有组织的资助方案，限额及覆盖课程费的说明支持正常英式计划义。"
+      },
+      {
+        "target_id": "ox-6215076a45112d21",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-29-s04"
+        ],
+        "forms": [
+          "scholarship"
+        ],
+        "rationale": "重读s04，scholarship为方案所提供的学习资助名词，课程费用覆盖说明确定选定义，而非学术研究成就。"
+      },
+      {
+        "target_id": "ox-a4888960989702a1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-29-s03"
+        ],
+        "forms": [
+          "seek"
+        ],
+        "rationale": "重读s03，seek work直接以work为宾语表示寻找画廊工作，动词搭配无多余介词且符合求职任务。"
+      },
+      {
+        "target_id": "ox-b00b84717bcd37fd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-29-s01"
+        ],
+        "forms": [
+          "seeker"
+        ],
+        "rationale": "重读s01，a job seeker为可数人称名词短语，求职者自身身份和转行目标明确。"
+      },
+      {
+        "target_id": "ox-ebef3297219ca491",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-29-s01"
+        ],
+        "forms": [
+          "sector"
+        ],
+        "rationale": "重读s01，the arts sector为艺术行业名词，s03具体提画廊工作，使行业、领域义自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-30",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "731d77346762e4b38a07bcbd8b31216a5e9315099685428e7925642093ad4550",
+    "status": "accepted",
+    "rationale": "议员提交与参议院通过被明确区分，s06已将状态框改成等待表决并移除实施箭头，s07核对成功。标题和目标的课堂图表修正有实际完成陈述；未虚称议案通过。senator明确选择允许的C1来源，不冒充另一B2记录。",
+    "targets": [
+      {
+        "target_id": "ox-a0f3ee50baac0314",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-30-s02"
+        ],
+        "forms": [
+          "senate"
+        ],
+        "rationale": "s02中the senate指集体审议机构名词，是否批准的问题在s03被否定，与单个议员区分清楚。"
+      },
+      {
+        "target_id": "ox-09003216b088086a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-30-s01"
+        ],
+        "forms": [
+          "senator"
+        ],
+        "rationale": "s01中the senator为提交议案的参议员名词，s03的One member确认个人角色；选定ox-09003216b088086a的C1记录与用法相容。"
+      },
+      {
+        "target_id": "ox-460a5e936cd3a76a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-30-s01"
+        ],
+        "forms": [
+          "resolution"
+        ],
+        "rationale": "s01中submitted a resolution asking for...为提交审议的正式决议案名词，尚待表决的语境支持所选中文而非已通过决议。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-31",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "d3d5c265621463933562d7da7d54d092cbb56f6413cbb36aab4ee5ab6dba385a",
+    "status": "accepted",
+    "rationale": "受损的是学校礼堂屋顶，实际安置点改为体育中心，毛毯二十减十二缺八条算术一致。标题是向同事请求查库存，s05有明确请求；目标准确为约定查库存和运输后回报，结尾特意不说已发货。",
+    "targets": [
+      {
+        "target_id": "ox-ac101fb143b02f97",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-31-s01"
+        ],
+        "forms": [
+          "severe"
+        ],
+        "rationale": "s01中severe storm以形容词表示猛烈风暴，导致居民离家与后文屋顶受损提供严重程度语境。"
+      },
+      {
+        "target_id": "ox-f1617cd125eb4338",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-31-s02"
+        ],
+        "forms": [
+          "severely"
+        ],
+        "rationale": "s02中severely damaged以副词修饰受损程度，指屋顶严重损坏，不把形容词用于副词位置。"
+      },
+      {
+        "target_id": "ox-5c2525959c48ed16",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-31-s03"
+        ],
+        "forms": [
+          "shortage"
+        ],
+        "rationale": "s03中a shortage of blankets为名词短缺搭配，十二条对二十条需求明确缺口。"
+      },
+      {
+        "target_id": "ox-c72ebc933a3f555f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-31-s02"
+        ],
+        "forms": [
+          "shelter"
+        ],
+        "rationale": "s02中the temporary shelter指更新中列出的体育中心安置点，名词义是庇护场所而非提供庇护的动词。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-32",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "8acd965af31ba3972afd4ca26ed31b3ef2de067b026e31c5d844e6b8a265d1a5",
+    "status": "accepted",
+    "rationale": "摄制组在已许可前院内比较门口画面，否决占用人行道的机位，在监视器上认可新位置后决定使用。标题与目标的选定位置及开拍安排可由s06–s07支持，实际固定相机、排练和开拍均仍为后续步骤。",
+    "targets": [
+      {
+        "target_id": "ox-7c16e7039ca61635",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-32-s01"
+        ],
+        "forms": [
+          "shooting"
+        ],
+        "rationale": "s01中today's shooting由演员、相机与取景背景明确为影片拍摄名词，而非枪击。"
+      },
+      {
+        "target_id": "ox-a4c55c3c05acbd94",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-32-s01"
+        ],
+        "forms": [
+          "shortly"
+        ],
+        "rationale": "s01中will be here shortly以时间副词说明演员不久到场，不是简短或唐突地说话。"
+      },
+      {
+        "target_id": "ox-9555b1413b019b8b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-32-s02"
+        ],
+        "forms": [
+          "shadow"
+        ],
+        "rationale": "s02中casts a shadow over the doorway指树投下的具体阴影，名词与cast搭配自然。"
+      },
+      {
+        "target_id": "ox-fa3ed382b9870b21",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-32-s03"
+        ],
+        "forms": [
+          "sidewalk"
+        ],
+        "rationale": "s03中onto the sidewalk为拟移动相机到人行道的名词地点，s04拒绝堵住行人；美式词形在此无拼写冲突。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-33",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "b628842d340294d797a2cc6a187b01409b23ae662a2b9506edac806fb07af929",
+    "status": "accepted",
+    "rationale": "兄弟姐妹两天未回复杂探访信息造成失落，朋友拒绝把无回应等同拒绝，最终决定发一次简短不催促的询问并暂不安排。标题与目标准确是理解和约定，未说对方已回复或同意探访。",
+    "targets": [
+      {
+        "target_id": "ox-0d09982b5f7b7bc6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-33-s01"
+        ],
+        "forms": [
+          "sibling"
+        ],
+        "rationale": "s01的my only sibling为不指定性别的兄弟或姐妹名词，中文保持这一范围，没有凭空定性为弟弟或姐姐。"
+      },
+      {
+        "target_id": "ox-25f7328312e64679",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-33-s02"
+        ],
+        "forms": [
+          "shame"
+        ],
+        "rationale": "s02中It is a shame...为表示遗憾的固定名词结构，指尚无法安排探访，不是道德羞耻。"
+      },
+      {
+        "target_id": "ox-0c0c50332cf81be4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-33-s03"
+        ],
+        "forms": [
+          "silence"
+        ],
+        "rationale": "s03中reading the silence as a sign指解读没有回复的沉默，s04明确这种解释未获证实，符合所选名词义。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-34",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "b6eeaabc922eb9ce41167a780d85ffb14f3a3d14a65eba704b06b59bdf383b49",
+    "status": "accepted",
+    "rationale": "家中咖啡馆比预期早停业引起震惊，朋友提出不强迫讨论、陪同取素描本的具体帮助，双方确认周六十点。标题及目标均保留陪同取物的约定状态，未把感受推为法律指控或宣称物品已取回。",
+    "targets": [
+      {
+        "target_id": "ox-260b7259898f2b62",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-34-s03"
+        ],
+        "forms": [
+          "shocked"
+        ],
+        "rationale": "s03中am still shocked by how quickly...以情绪形容词作表语，描述Lena对骤然停业速度的震惊。"
+      },
+      {
+        "target_id": "ox-993e87e399a6d985",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-34-s02"
+        ],
+        "forms": [
+          "shock"
+        ],
+        "rationale": "s02中must have been a shock为名词表示这件事带来的震惊经历，与s03个人感受相呼应而非医学休克。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-35",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "90918c7b951ec2f033eb525fabcbc836be1b9490bba202a754e1f0e658f069dd",
+    "status": "accepted",
+    "rationale": "学员具体指出第二个例子后缺少试做时间，教师承认移除停顿的问题，约定下次每例后练习并提问。标题和目标准确区分本周提速反馈与下次课程调整承诺，不误称教学改善已实施。",
+    "targets": [
+      {
+        "target_id": "ox-b8c688034428d024",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-35-s01"
+        ],
+        "forms": [
+          "seminar"
+        ],
+        "rationale": "s01中the seminar指正在讨论的成人研讨课，后文例题、方法与练习使教学语境明确。"
+      },
+      {
+        "target_id": "ox-9017846dd9c946d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-35-s05"
+        ],
+        "forms": [
+          "session"
+        ],
+        "rationale": "s05中the next session指下一节课程，不是整个学期，随后教师承诺具体课堂流程。"
+      },
+      {
+        "target_id": "ox-c61350d4e01f45d2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-35-s04"
+        ],
+        "forms": [
+          "significant"
+        ],
+        "rationale": "s04的a significant change形容变化明显且影响练习，与上周每例停顿对照，非统计检验术语。"
+      },
+      {
+        "target_id": "ox-5898dc8c15fd0015",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-35-s01"
+        ],
+        "forms": [
+          "significantly"
+        ],
+        "rationale": "s01中significantly faster以副词修饰比较级，表达本周速度明显更快，不暗示统计显著。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-a-36",
+    "reviewer": "reviewer-phase09-a",
+    "dialogue_sha256": "e590c83d6772474d2170d78ff62febe02e1ccf2317ee17e707efd8c5fcd5ea4a",
+    "status": "accepted",
+    "rationale": "店员读出全真丝标签并将两条围巾折好供比较，顾客选定薄款真丝围巾并接受小礼封包装。标题和目标都是核对材质与选定旅行礼物，不声称付款或交付已完成。",
+    "targets": [
+      {
+        "target_id": "ox-0a232e59f7607cc7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-a-36-s01"
+        ],
+        "forms": [
+          "silk"
+        ],
+        "rationale": "s01中Is it silk以物质名词作表语询问面料，s02全真丝标签和羊毛对照支持真丝面料义，而非颜色或品牌。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-01",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "09f3a480a51d53412427bfb2b1d32b6655993ee2497bf077dfc57fd0e1e4fc78",
+    "status": "accepted",
+    "rationale": "The exchange sensitively moves from bereavement and unwanted message burden to Elias accepting Marta’s offer to collect his ordered sandwich. s07–s08 establish an agreement and continued privacy, not a completed collection; the Chinese title and goal preserve that distinction. Both speakers maintain their roles and the final acceptance closes the request.",
+    "targets": [
+      {
+        "target_id": "ox-01a71ca11e7ad10a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-01-s01"
+        ],
+        "forms": [
+          "terribly"
+        ],
+        "rationale": "s01 uses terribly as an intensifying adverb before sorry in a conventional condolence; 非常/极其 matches the degree, not an assessment that something was done badly."
+      },
+      {
+        "target_id": "ox-3d97173515ddccfb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-01-s02"
+        ],
+        "forms": [
+          "tough"
+        ],
+        "rationale": "s02 attributes tough to week and explains the brother’s death, so the adjective means 艰难的 rather than physically hard."
+      },
+      {
+        "target_id": "ox-d4174899fbf65351",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-01-s03"
+        ],
+        "forms": [
+          "sympathy"
+        ],
+        "rationale": "s03 makes sympathy the noun object of pass on in the context of colleagues’ condolences; 同情与慰问 fits this message of support."
+      },
+      {
+        "target_id": "ox-c972d6fab7a8c4f3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-01-s04"
+        ],
+        "forms": [
+          "sincere"
+        ],
+        "rationale": "s04 uses sincere predicatively of their concern, explicitly affirming its genuineness despite Elias’s inability to reply; 真诚的 is accurate."
+      },
+      {
+        "target_id": "ox-5f63df0c0269dfa3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-01-s05"
+        ],
+        "forms": [
+          "suffering"
+        ],
+        "rationale": "s05 uses the noun suffering as the object of take away to refer to grief; 痛苦 matches the acknowledged limit of practical help."
+      },
+      {
+        "target_id": "ox-9e06b1845ebb8424",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-01-s06"
+        ],
+        "forms": [
+          "sympathetic"
+        ],
+        "rationale": "s06 describes Marta as sympathetic because she does not demand explanations; the predicate adjective conveys 体谅他人的/有同情心的, not merely agreement with an opinion."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-02",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "e72f4e6db4adc4446cdd2603ce927b7ab9cdb7d7949639b7e8e044038fc9d56a",
+    "status": "accepted",
+    "rationale": "Jonah describes a stiff folding-chair joint, and Farah schedules inspection after ten followed by a telephone quote. The final request reserves authorization for repairs; no repair or price is falsely reported as completed. The title and goal accurately name the metal chair and agreed inspection-before-quote sequence.",
+    "targets": [
+      {
+        "target_id": "ox-d712974fdc145d5a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-02-s01"
+        ],
+        "forms": [
+          "steel"
+        ],
+        "rationale": "s01 uses steel as the material noun after is to identify the frame; 钢 is the intended material rather than a figurative verb."
+      },
+      {
+        "target_id": "ox-f496c81d0f6c1220",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-02-s02"
+        ],
+        "forms": [
+          "specialist"
+        ],
+        "rationale": "s02 uses a specialist in metal furniture for a person with relevant expertise; the count noun and in-complement support 专业人员."
+      },
+      {
+        "target_id": "ox-819f5d8f1c2cc296",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-02-s03"
+        ],
+        "forms": [
+          "stiff"
+        ],
+        "rationale": "s03 calls the folding joint stiff and fears forcing it, making the adjective mean difficult to move, exactly 难以活动的/不灵活的."
+      },
+      {
+        "target_id": "ox-5c20b7e8ebb93138",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-02-s04"
+        ],
+        "forms": [
+          "skilled"
+        ],
+        "rationale": "s04 uses the natural adjective construction skilled at working on old joints to describe the repairer’s competence; 熟练的/有技能的 fits."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-03",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "d8dd862324e8689034ee1c00e6e0185e70dd73c0958a4e5dc8fb8ff052cdbf90",
+    "status": "accepted",
+    "rationale": "The teacher distinguishes a skull model from a brain and a tissue photograph from a whole muscle. Lina commits in s05 to correcting both labels, with a source-page request in s06. The Chinese title and goal correctly claim an agreed correction, not already changed labels; entities and evidence are consistent.",
+    "targets": [
+      {
+        "target_id": "ox-2936e9c89e257efd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-03-s02"
+        ],
+        "forms": [
+          "textbook"
+        ],
+        "rationale": "s02 directs Lina to a picture in your textbook; textbook is the count noun for the class reference book, matching 教科书."
+      },
+      {
+        "target_id": "ox-66dbc3d118e8e81e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-03-s02",
+          "p09-b-03-s03"
+        ],
+        "forms": [
+          "skull"
+        ],
+        "rationale": "s02 contrasts the hard outer skull with the brain inside; s03 correctly identifies the model as the skull. Both noun uses teach 头骨 rather than brain or head."
+      },
+      {
+        "target_id": "ox-971fcdd171896ca5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-03-s04"
+        ],
+        "forms": [
+          "tissue"
+        ],
+        "rationale": "s04 quotes muscle tissue and contrasts the close-up with an entire muscle. The biological mass noun accurately matches 组织（构成生物身体的细胞群）."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-04",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "0cdd34618155bc08b33b33d03910d31f546d8083a5a46a1d9f9bde26ed420327",
+    "status": "accepted",
+    "rationale": "Two cafe workers respond to a spilled paper-cup drink: a barrier is already in place, while wiping, sweeping and mopping are assigned for the next step. s06–s07 explicitly retain the barrier until drying and joint checking. The Chinese goal distinguishes the completed isolation from the planned cleaning and reopening.",
+    "targets": [
+      {
+        "target_id": "ox-7194eec84ee19d8e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-04-s01"
+        ],
+        "forms": [
+          "spill"
+        ],
+        "rationale": "s01 uses saw a customer spill a drink, the bare infinitive after perception verb saw plus object. Spill is transitive and means causing liquid to come out, matching 使液体洒出."
+      },
+      {
+        "target_id": "ox-e302855716adfebe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-04-s02"
+        ],
+        "forms": [
+          "slip"
+        ],
+        "rationale": "s02 uses could slip on that for the risk from wet flooring; the intransitive verb naturally means 滑倒/打滑."
+      },
+      {
+        "target_id": "ox-8173ecb87b9cbbdf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-04-s03"
+        ],
+        "forms": [
+          "slide"
+        ],
+        "rationale": "s03 asks to slide the empty tray towards me, a natural transitive movement request over a surface. The selected verb, not the noun alternative, supports 使平稳滑动."
+      },
+      {
+        "target_id": "ox-26a1687d15f8b840",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-04-s04"
+        ],
+        "forms": [
+          "sticky"
+        ],
+        "rationale": "s04 uses sticky as a predicate adjective of the tabletop after the drink spill; 黏的 describes its tactile condition."
+      },
+      {
+        "target_id": "ox-0e093c67a3c0dff3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-04-s05"
+        ],
+        "forms": [
+          "sweep"
+        ],
+        "rationale": "s05 asks to sweep up the dry crumbs before mopping. The verb with up and crumbs denotes cleaning debris with a sweeping action, accurately 清扫."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-05",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "ee31bc2f07921bf8e99b3661e10569d26f4276728f7afdc56a3ee1327e94efdd",
+    "status": "accepted",
+    "rationale": "The colleagues replace an exaggerated collapse claim with a small late-April fall after a near-steady period, separately identifying March’s rise. s07 commits to revising wording and month labels without pretending the edit is complete. The Chinese title and goal match this evidence-bounded wording agreement.",
+    "targets": [
+      {
+        "target_id": "ox-615213a14ba5da2c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-05-s02"
+        ],
+        "forms": [
+          "slight"
+        ],
+        "rationale": "s02 modifies fall with slight while rejecting collapse; the attributive adjective precisely teaches 轻微的/少量的 for the small decrease."
+      },
+      {
+        "target_id": "ox-57859ffa6852b95a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-05-s04"
+        ],
+        "forms": [
+          "steady"
+        ],
+        "rationale": "s04 calls the close first-three-week figures steady, with exactly identical explicitly unnecessary in s03. The adjective means 稳定的 in this bounded interval."
+      },
+      {
+        "target_id": "ox-6db83dc58c7bf30f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-05-s04"
+        ],
+        "forms": [
+          "steadily"
+        ],
+        "rationale": "s04 uses rose steadily every week for March. The adverb modifies rose, conveying a continuing regular increase and matching 持续而稳定地."
+      },
+      {
+        "target_id": "ox-778bd427c63277f5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-05-s05"
+        ],
+        "forms": [
+          "somewhat"
+        ],
+        "rationale": "s05 uses somewhat below to qualify the extent of April’s decrease. This degree adverb supports 有些/稍微 without implying a collapse."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-06",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "59b497bd035abc7b16e598991a6a6e5a48de4feb8c61ce205581e324125589e8",
+    "status": "accepted",
+    "rationale": "The stallholders check unsold colours and an eighty-pound budget, then agree to spend fifty pounds only on sold-out blue mugs and retain thirty. Mei will order tomorrow, so the title and goal correctly report a decision rather than a placed order. The numerical and inventory details support the choice.",
+    "targets": [
+      {
+        "target_id": "ox-bd1d319ab6c993c6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-06-s01"
+        ],
+        "forms": [
+          "stall"
+        ],
+        "rationale": "s01 uses the stall as the count noun for the market selling place being packed away; the next-Saturday market plan supports 摊位."
+      },
+      {
+        "target_id": "ox-bb46ba8747350466",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-06-s02"
+        ],
+        "forms": [
+          "stock"
+        ],
+        "rationale": "s02 uses plenty of stock left for remaining mugs of other colours. Stock is the inventory mass noun, so 存货 fits rather than financial shares."
+      },
+      {
+        "target_id": "ox-cf09b8ef2aa32fe6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-06-s04"
+        ],
+        "forms": [
+          "sum"
+        ],
+        "rationale": "s04 uses a sum of eighty pounds as the object of set aside, identifying a reserved amount of money. The chosen noun entry matches 一笔金额, not the verb to calculate."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-07",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "b1bc9cec6a831cde5b14e9750a6c3368947ec9949b92f370567eaf60ee9224a2",
+    "status": "accepted",
+    "rationale": "Selma questions an unsupported whole-cafe environmental slogan, while Ravi supplies narrower installation evidence for solar hot water. They agree to replace the broad claim before printing, not certify the business or claim the edit is complete. Both Chinese title and goal accurately describe this proposed narrowing and its evidence.",
+    "targets": [
+      {
+        "target_id": "ox-1b6f99e97db98ccf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-07-s01"
+        ],
+        "forms": [
+          "slogan"
+        ],
+        "rationale": "s01 identifies the quoted short promotional phrase as the new slogan. The noun means 宣传标语 and naturally frames the wording review."
+      },
+      {
+        "target_id": "ox-5bdfc95074081d52",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-07-s01"
+        ],
+        "forms": [
+          "sustainable"
+        ],
+        "rationale": "s01 uses sustainable as an adjective modifying café in a quoted environmental claim. Later turns challenge its evidential breadth, not its meaning; 可持续的/不破坏环境资源的 correctly identifies the environmental sense without endorsing the claim."
+      },
+      {
+        "target_id": "ox-84618146ba2edebf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-07-s02",
+          "p09-b-07-s04"
+        ],
+        "forms": [
+          "solar"
+        ],
+        "rationale": "s02 solar panels and s04 solar energy both use the adjective for energy from sunlight. The local water-heating function makes 太阳能的 exact in both mapped sentences."
+      },
+      {
+        "target_id": "ox-c24e2810df6b8bd8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-07-s03"
+        ],
+        "forms": [
+          "so-called"
+        ],
+        "rationale": "s03 uses so-called green business skeptically, reinforced by cannot explain its claims. The adjective expresses doubt about the label’s truth, matching 所谓的（表示怀疑其名实相符）."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-08",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "0ea696a18b740f58ae2fdfd66f2e184463e8ed043b9d21051048b27cc5b63b3c",
+    "status": "accepted",
+    "rationale": "The rehearsal exchange acknowledges a specific last-verse mistake, gives proportionate encouragement and fixes a fifteen-minute Thursday lunch practice at twelve thirty. The ending narrows practice to the transition and requests the marked copy. The title and goal accurately describe an agreed future practice, not a successful performance.",
+    "targets": [
+      {
+        "target_id": "ox-c366ac98f076c9c4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-08-s01"
+        ],
+        "forms": [
+          "somehow"
+        ],
+        "rationale": "s01 somehow lost my place signals that Dylan cannot explain the mistake despite knowing the verse yesterday. The adverb matches 不知怎么地."
+      },
+      {
+        "target_id": "ox-e830b4bda8d5dcd8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-08-s02"
+        ],
+        "forms": [
+          "super"
+        ],
+        "rationale": "s02 the opening sounded super uses the informal evaluative adjective after sounded, meaning 极好的. Its upbeat register is appropriate between bandmates."
+      },
+      {
+        "target_id": "ox-33a9479419c06e3f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-08-s03"
+        ],
+        "forms": [
+          "sometime"
+        ],
+        "rationale": "s03 sometime this week asks for an initially unspecified time within the week. The single-word temporal adverb matches 在某个未确定的时间, later made specific by the answer."
+      },
+      {
+        "target_id": "ox-844962eab8c86725",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-08-s04"
+        ],
+        "forms": [
+          "spare"
+        ],
+        "rationale": "s04 can spare fifteen minutes uses a transitive verb for making limited time available. The selected C1 verb source, rather than the B2 adjective alternative, accurately supports 抽出（时间）."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-09",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "62bc25f85391cc3e45543443b3d7510219713bdc109d884792e05d0d81c39ce2",
+    "status": "accepted",
+    "rationale": "The designers distinguish optional wireless capability from a limited offline demonstration. They settle on local recording and indicator activation, with comparison to a displayed value and later written results; they do not claim testing has succeeded. The Chinese title and goal correctly describe the selected offline scope and future test.",
+    "targets": [
+      {
+        "target_id": "ox-c9cbdc56ea652f17",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-09-s01"
+        ],
+        "forms": [
+          "sophisticated"
+        ],
+        "rationale": "s01 calls the version quite sophisticated before listing wireless transmission and local storage; the predicate adjective means 复杂而先进的 for the device rather than social refinement."
+      },
+      {
+        "target_id": "ox-cd8d5900f7b79aef",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-09-s01"
+        ],
+        "forms": [
+          "transmit"
+        ],
+        "rationale": "s01 can transmit readings to a phone uses a transitive verb with data as object and phone as destination. It precisely teaches 传送（信号或信息）."
+      },
+      {
+        "target_id": "ox-07608f8802e5e1ee",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-09-s02"
+        ],
+        "forms": [
+          "technological"
+        ],
+        "rationale": "s02 technological feature modifies feature and contrasts available technology with actual demonstration needs; the adjective matches 技术的."
+      },
+      {
+        "target_id": "ox-8cebdd2c950a6e35",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-09-s03"
+        ],
+        "forms": [
+          "testing"
+        ],
+        "rationale": "s03 doing basic testing treats testing as an activity noun modified by basic and object of doing; 测试 fits the ongoing verification work, not a progressive verb."
+      },
+      {
+        "target_id": "ox-579cdb41234ba22c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-09-s04"
+        ],
+        "forms": [
+          "trial"
+        ],
+        "rationale": "s04 the first trial is a count noun for the planned experimental run, explicitly offline; 试验/试用 fits rather than a legal proceeding."
+      },
+      {
+        "target_id": "ox-37ddc7ea2fadba61",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-09-s04"
+        ],
+        "forms": [
+          "trigger"
+        ],
+        "rationale": "s04 asks whether a sensor can trigger the indicator light, meaning cause it to activate. The selected verb is parallel to record and matches 触发/引发 rather than the noun alternative."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-10",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "cbea692d1a1aafedee82dee5d728bd7626846926cfa31c2ede7d95134f731650",
+    "status": "accepted",
+    "rationale": "The guide explains that an audio account describes a temple-associated belief rather than requiring assent. Hana chooses the open-courtyard tour without the separate ceremony and receives a meeting time. The Chinese title and goal identify this choice accurately and do not imply that the tour or ceremony has already occurred.",
+    "targets": [
+      {
+        "target_id": "ox-405029f966f4d67f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-10-s01"
+        ],
+        "forms": [
+          "soul"
+        ],
+        "rationale": "s01 the soul leaving the body uses the count noun within a reported religious belief. 灵魂 is the exact sense, and the next turn explicitly avoids presenting the belief as mandatory fact."
+      },
+      {
+        "target_id": "ox-9cf1d89c61749856",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-10-s02"
+        ],
+        "forms": [
+          "temple"
+        ],
+        "rationale": "s02 this temple identifies the religious site associated with the belief, developed by courtyard and ceremony in later turns. The noun means 寺庙, not the side of the head."
+      },
+      {
+        "target_id": "ox-4b273430a82ae587",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-10-s03"
+        ],
+        "forms": [
+          "spiritual"
+        ],
+        "rationale": "s03 spiritual importance modifies importance in Hana’s interest in the temple’s meaning without ritual participation; 精神或宗教方面的 correctly captures this adjective."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-11",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "2e376bcc2d361d1022a12151a6c284c23afd5a507a0b44a7e384547d53f14470",
+    "status": "accepted",
+    "rationale": "The draft’s every-species survival assertion is challenged because the survey only recorded trampled plants beside the stream. Petra agrees to cite recorded damage and ask visitors to remain on the path; Wes requests the survey date. The Chinese title and goal accurately describe a revision agreement and explicitly preserve the unassessed survival boundary.",
+    "targets": [
+      {
+        "target_id": "ox-103d9d8294bf7d95",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-11-s01"
+        ],
+        "forms": [
+          "threat"
+        ],
+        "rationale": "s01 a threat to the survival uses threat as a noun in the conventional threat to construction. It means 威胁 even though the dialogue subsequently rejects the draft’s overbroad factual claim."
+      },
+      {
+        "target_id": "ox-036e06c8edf3ba0d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-11-s01",
+          "p09-b-11-s02"
+        ],
+        "forms": [
+          "survival"
+        ],
+        "rationale": "s01 survival of every species and s02 survival of every animal and plant use the mass noun for continued living. 生存/存活 is exact, and the second sentence explicitly says that outcome was not assessed."
+      },
+      {
+        "target_id": "ox-2ab5a680fd4fcbd1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-11-s01",
+          "p09-b-11-s05"
+        ],
+        "forms": [
+          "species"
+        ],
+        "rationale": "s01 every species uses the noun’s unchanged singular form for a biological kind; s05 removes the claim about every species. Both references match 物种 and are not merely a vocabulary list."
+      },
+      {
+        "target_id": "ox-99dc9d08a4ea4caf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-11-s01",
+          "p09-b-11-s02"
+        ],
+        "forms": [
+          "stream"
+        ],
+        "rationale": "s01 in the stream and s02 beside the stream identify a small watercourse and its bank. The noun matches 小溪, with the spatial difference relevant to the evidence correction."
+      },
+      {
+        "target_id": "ox-3957bcea773c92f8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-11-s03"
+        ],
+        "forms": [
+          "threaten"
+        ],
+        "rationale": "s03 trampling can threaten plants uses the transitive verb for endangering plants, matching 威胁/危及. The modal and narrowed object avoid the original universal survival claim."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-12",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "7a75fbbfbc06b2e3177301c6e6f3f0fc8fd21aada5c27c44401ecd1591064ab3",
+    "status": "accepted",
+    "rationale": "Noah distinguishes a draft from a received application, identifies attendance details and a writing sample, and explains the final submission step. Elena decides to read first, then complete missing details, withholding submission until she has read everything. The Chinese wording describes the chosen order rather than an already submitted or received application; the context expressly preserves draft status.",
+    "targets": [
+      {
+        "target_id": "ox-f494e29978474900",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-12-s01"
+        ],
+        "forms": [
+          "status"
+        ],
+        "rationale": "s01 application status says draft uses status as the noun for the application’s current state. 状态 is accurate, not social standing."
+      },
+      {
+        "target_id": "ox-2d1c63e9dc27a5e0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-12-s02",
+          "p09-b-12-s07"
+        ],
+        "forms": [
+          "submit"
+        ],
+        "rationale": "s02 need to submit it and s07 will not submit it until reading use submit as a transitive verb for formally sending the application. 提交 fits both, and neither mapped statement claims the action has occurred."
+      },
+      {
+        "target_id": "ox-40e8f81961a611dd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-12-s03"
+        ],
+        "forms": [
+          "specify"
+        ],
+        "rationale": "s03 asks me to specify which evening uses specify with an embedded question requiring exact availability. The verb means 明确说明 and naturally motivates the clarification about both evenings."
+      },
+      {
+        "target_id": "ox-73fdd40a909abe25",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-12-s05"
+        ],
+        "forms": [
+          "terms"
+        ],
+        "rationale": "s05 course terms refers to the provisions to be read before final submission, not academic periods or vocabulary. The plural noun accurately teaches 条款/条件."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-13",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "7b44a41f8ba16049b12d5dccaf803656246e40c74427fb06575597deb227198e",
+    "status": "accepted",
+    "rationale": "Milo asks about attending tennis and then about rain; Jo explains covered waiting space and uncertainty about resumption. The explicit unpaid status and Milo’s final decision support the Chinese title and goal of postponing purchase until a weather update, without inventing a ticket purchase, cancellation or guaranteed full match.",
+    "targets": [
+      {
+        "target_id": "ox-4e1051d274aca8b2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-13-s01"
+        ],
+        "forms": [
+          "tournament"
+        ],
+        "rationale": "s01 this tennis tournament denotes an organized tennis competition, later including its final. The noun is supported by 锦标赛 in the chosen Chinese gloss."
+      },
+      {
+        "target_id": "ox-9f9c09c818acc300",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-13-s01"
+        ],
+        "forms": [
+          "sporting"
+        ],
+        "rationale": "s01 a sporting event uses sporting attributively for an event involving sport. 体育运动的 is the appropriate adjective sense rather than fair-minded."
+      },
+      {
+        "target_id": "ox-cfeacedd04647f73",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-13-s02"
+        ],
+        "forms": [
+          "spectator"
+        ],
+        "rationale": "s02 spectator ticket uses the noun spectator as an attributive modifier identifying a ticket for an observer rather than a player. 观众 fits the access explanation and novice visitor context."
+      },
+      {
+        "target_id": "ox-9ec76bbf55821a16",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-13-s03"
+        ],
+        "forms": [
+          "spectacular"
+        ],
+        "rationale": "s03 looks spectacular in the photographs uses a predicate adjective for an impressive-looking final. 壮观的/精彩的 matches Milo’s visual enthusiasm without guaranteeing future play."
+      },
+      {
+        "target_id": "ox-77efd6f6f02dcb95",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-13-s04"
+        ],
+        "forms": [
+          "suspend"
+        ],
+        "rationale": "s04 officials may suspend play uses suspend as a transitive verb for temporary interruption during rain, with resume later in the same turn. 暂停 is exact."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-14",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "1978ad3e2a007294b3bbdf91d9d61bccb4fae21bfd8ec5306edc2378ee1e7f0f",
+    "status": "accepted",
+    "rationale": "The archive colleagues separate a box absent from its shelf from an unproved theft claim. They agree to check electronic requests and ask the reading-room team before comparing findings. The Chinese title and goal correctly report a future evidence-gathering plan, not a located box or confirmed theft, and the two assigned searches give a practical ending.",
+    "targets": [
+      {
+        "target_id": "ox-3cf98554c56c72c7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-14-s01"
+        ],
+        "forms": [
+          "suspect"
+        ],
+        "rationale": "s01 I suspect someone borrowed it uses suspect as a verb introducing an unproved proposition. 猜想/怀疑 matches the tentative explanation, not the noun for an accused person."
+      },
+      {
+        "target_id": "ox-ace117d14c5fee3b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-14-s02"
+        ],
+        "forms": [
+          "speculate"
+        ],
+        "rationale": "s02 let us not speculate about who took it uses the natural speculate about construction for conjecture without records. 推测 accurately reflects the discouraged activity."
+      },
+      {
+        "target_id": "ox-b4193f08f3eec104",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-14-s03"
+        ],
+        "forms": [
+          "theft"
+        ],
+        "rationale": "s03 report a theft uses the count noun for an alleged stealing incident in a question. 盗窃 is exact; s04 prevents readers treating the suggested report as established fact."
+      },
+      {
+        "target_id": "ox-b4869182111185ab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-14-s04"
+        ],
+        "forms": [
+          "speculation"
+        ],
+        "rationale": "s04 that is speculation uses the noun predicatively to classify the theft conclusion as conjecture. 猜测 fits because no evidence of stealing has been found."
+      },
+      {
+        "target_id": "ox-4c9fbca3d3681866",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-14-s05"
+        ],
+        "forms": [
+          "trace"
+        ],
+        "rationale": "s05 trace the box through the electronic requests uses trace as a transitive verb for following its whereabouts via records. 追查/追踪去向 matches, with the action still proposed rather than completed."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-15",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "a7dc564cc80a5025f1b7fc567648da240506970d56c2bf4467ba609c6fa8aa4d",
+    "status": "accepted",
+    "rationale": "The friends distinguish cinnamon aroma from optional chilli heat, then notice that the soup is physically too hot. Rosie proposes waiting and eating bread first, while both reject extra chilli. The Chinese title and goal correctly describe their choice to let soup cool and avoid additional chilli, not a claim that it has already cooled.",
+    "targets": [
+      {
+        "target_id": "ox-69a79aa4e0e6450f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-15-s01"
+        ],
+        "forms": [
+          "spice"
+        ],
+        "rationale": "s01 asks which spice creates the soup’s warm sweet aroma and s02 names cinnamon. The count noun means 香料 rather than only chilli or spiciness."
+      },
+      {
+        "target_id": "ox-ed6719234311ef3e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-15-s03"
+        ],
+        "forms": [
+          "steam"
+        ],
+        "rationale": "s03 a lot of steam coming off it uses steam as a mass noun for hot vapour rising from soup. 蒸汽 is supported by the temperature discussion."
+      },
+      {
+        "target_id": "ox-ec171ab68ec530c0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-15-s04"
+        ],
+        "forms": [
+          "swallow"
+        ],
+        "rationale": "s04 too hot to swallow comfortably uses the verb for taking the spoonful down the throat. 吞咽 is literal here, not a figurative acceptance of a story."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-16",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "41ca3056115e82e11c9e6bd2718d0aaf7d478f6115a897961991a451dba03221",
+    "status": "accepted",
+    "rationale": "Tomas apologizes for his conduct rather than blaming the tense rehearsal, and Yara explains the impact of both insults and staring. They explicitly agree that either person may request a pause without mockery. The Chinese title and goal correctly describe the apology and future alternative, without claiming all hurt has disappeared.",
+    "targets": [
+      {
+        "target_id": "ox-94331809e3ed242a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-16-s01"
+        ],
+        "forms": [
+          "tension"
+        ],
+        "rationale": "s01 a lot of tension in the room refers to interpersonal strain during the rehearsal. The mass noun matches 紧张气氛 rather than physical tautness."
+      },
+      {
+        "target_id": "ox-844d9615f60802d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-16-s02"
+        ],
+        "forms": [
+          "spite"
+        ],
+        "rationale": "s02 out of spite is the conventional noun phrase for malicious or resentful motivation. It is framed as Yara’s felt interpretation, and 恶意/怨恨 is the right sense, not the unrelated in spite of construction."
+      },
+      {
+        "target_id": "ox-8ddf0e352a64bf07",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-16-s03"
+        ],
+        "forms": [
+          "swear"
+        ],
+        "rationale": "s03 should not swear at you uses swear with at for directing offensive language at someone. 咒骂/说脏话 fits the admission of bad conduct; it is not the sense of making an oath."
+      },
+      {
+        "target_id": "ox-d18bfd018052a03e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-16-s04"
+        ],
+        "forms": [
+          "stare"
+        ],
+        "rationale": "s04 stare at me without saying anything uses the intransitive verb with at for a fixed prolonged look. 盯着看 matches Yara’s discomfort and Tomas’s later reference to glaring."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-17",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "ceb5455d86c7ae4543c260c4f667e92c626e5bc83fb2a7c4da1084469d1ee1fc",
+    "status": "accepted",
+    "rationale": "The committee’s disagreement is tied to a concrete offer: programme branding plus approval of speeches. Nell and Karim choose to request removal of the speech condition and return the response to the committee, explicitly withholding funding acceptance. The Chinese title and goal correctly describe a request they will make, not sponsor agreement or secured independence.",
+    "targets": [
+      {
+        "target_id": "ox-dd5f17f2bdf39045",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-17-s01"
+        ],
+        "forms": [
+          "split"
+        ],
+        "rationale": "s01 there is a split in the committee over this offer uses split as a count noun for disagreement, immediately explained as two opposing groups. 分歧/意见分裂 fits the selected noun source."
+      },
+      {
+        "target_id": "ox-670efec35780c511",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-17-s02"
+        ],
+        "forms": [
+          "sponsor"
+        ],
+        "rationale": "s02 what does the sponsor want uses sponsor as the noun for the entity offering funding in return for conditions. 赞助者 fits, rather than the source’s alternative verb."
+      },
+      {
+        "target_id": "ox-0d417189c1ea266f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-17-s04"
+        ],
+        "forms": [
+          "stance"
+        ],
+        "rationale": "s04 our stance should be clear uses stance as a noun for the club’s policy position, then states that position. 立场 is accurate, not bodily posture."
+      },
+      {
+        "target_id": "ox-144da6967f9db7fc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-17-s04"
+        ],
+        "forms": [
+          "sponsorship"
+        ],
+        "rationale": "s04 sponsorship does not buy control uses the activity noun for provision of financial support and denies an entitlement in return. 赞助 matches the funding discussion."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-18",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "9101473ea9a3f548463fb303f1634ef2ec9d555b99802a8787fff4e30751f5bf",
+    "status": "accepted",
+    "rationale": "The dialogue has a concrete attribution problem rather than a disconnected list: Luis represents the council, Mara the campaign and Dev the school, with Dev’s answer mistakenly filed under Luis. The sheet supplies titles and the recording supplies utterances and order. A correction and subsequent check are agreed, accurately reflected by the Chinese title and goal; neither is falsely completed.",
+    "targets": [
+      {
+        "target_id": "ox-b13ea30d56ded405",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-18-s02"
+        ],
+        "forms": [
+          "spokesman"
+        ],
+        "rationale": "s02 the council spokesman identifies Luis’s speaking role, with him and he explicitly supporting the gendered noun 男发言人. The organization is corrected from school to council."
+      },
+      {
+        "target_id": "ox-e12d300e4645dde0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-18-s03"
+        ],
+        "forms": [
+          "spokeswoman"
+        ],
+        "rationale": "s03 the campaign spokeswoman identifies Mara as the campaign’s representative, and s04 confirms the attribution. The gendered count noun matches 女发言人 in this role description."
+      },
+      {
+        "target_id": "ox-59d84c55b2a3ae23",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-18-s04"
+        ],
+        "forms": [
+          "spokesperson"
+        ],
+        "rationale": "s04 the school’s spokesperson identifies Dev’s representative role without marking gender. 发言人 matches the gender-neutral noun and the institutional distinction required for the correction."
+      },
+      {
+        "target_id": "ox-280c4f1c239d37f3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-18-s05"
+        ],
+        "forms": [
+          "timing"
+        ],
+        "rationale": "s05 the timing on the recording refers to when the speakers’ turns occurred, just after first and last are identified. The noun is about recorded temporal sequence, matching the 时序 part of the selected gloss."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-19",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "2c76fababfa3794e3fcac65e4646c660107d22f26c360a7cc643d9fdd053e530",
+    "status": "accepted",
+    "rationale": "Amir explicitly locates the leak at the service-sink tap beside, not inside, the display tank; the tank temperature and system remain normal. The temporary catch container and closure are already in place, and a three-o’clock inspection is agreed without dismantling. The Chinese title and goal preserve the exact leaking entity and distinguish temporary measures from future inspection.",
+    "targets": [
+      {
+        "target_id": "ox-7c88b3de04202edb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-19-s01",
+          "p09-b-19-s03",
+          "p09-b-19-s06",
+          "p09-b-19-s07"
+        ],
+        "forms": [
+          "tap"
+        ],
+        "rationale": "s01 locates the dripping tap over the sink; s03 isolates the leak to it, and s06–s07 agree on inspection without taking it apart. Every mapped use is the British English count noun 水龙头, not a tapping action."
+      },
+      {
+        "target_id": "ox-30012def56552538",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-19-s01",
+          "p09-b-19-s02"
+        ],
+        "forms": [
+          "tank"
+        ],
+        "rationale": "s01 display tank and s02 the tank itself identify the aquarium container separate from the service sink. The noun fits 水箱/鱼缸 and does not imply that the aquarium is leaking."
+      },
+      {
+        "target_id": "ox-e72b916bc4b6523e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-19-s03"
+        ],
+        "forms": [
+          "stable"
+        ],
+        "rationale": "s03 temperature is stable uses a predicate adjective to report no temperature change in the aquarium. 稳定的 is exact and compatible with the separate tap fault."
+      },
+      {
+        "target_id": "ox-d01c6378b9432a29",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-19-s05"
+        ],
+        "forms": [
+          "temporary"
+        ],
+        "rationale": "s05 a temporary container uses the adjective to characterize a provisional drip-catching arrangement. 临时的 fits the short-term use pending inspection."
+      },
+      {
+        "target_id": "ox-eede54104245a8ca",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-19-s05"
+        ],
+        "forms": [
+          "temporarily"
+        ],
+        "rationale": "s05 closed that work area temporarily uses an adverb modifying the closure’s duration, distinct from the temporary container adjective. 暂时地 accurately conveys that access restriction is not permanent."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-20",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "8bcb77681679a3d64ca55972514ff53b81185e60c486653bd042194eeef03bc9",
+    "status": "accepted",
+    "rationale": "Greta checks steepness, tree cover and the extra walking time before choosing the mostly level lakeside route to the same viewpoint. Owen gives blue-sign directions, while no arrival is claimed. The Chinese title and goal correctly name the chosen gentler route and the length-versus-climb trade-off.",
+    "targets": [
+      {
+        "target_id": "ox-4c0fe14e1d5d96cd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-20-s01"
+        ],
+        "forms": [
+          "slope"
+        ],
+        "rationale": "s01 go up that slope uses the count noun for the inclined ground on the shorter route. 斜坡 fits the selected noun entry rather than the alternative verb."
+      },
+      {
+        "target_id": "ox-8f1cae45ba8cba67",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-20-s02"
+        ],
+        "forms": [
+          "steep"
+        ],
+        "rationale": "s02 quite steep near the top describes the route’s gradient and is contrasted with mostly level. The adjective teaches 陡峭的, not a steep price or change."
+      },
+      {
+        "target_id": "ox-0b37a92e2934fac2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-20-s03"
+        ],
+        "forms": [
+          "surround"
+        ],
+        "rationale": "s03 do the trees surround the whole lake uses surround as a transitive verb asking whether trees encircle the water. 环绕 fits, and the reply appropriately limits coverage to three sides."
+      },
+      {
+        "target_id": "ox-82033a03e40cb5e2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-20-s03"
+        ],
+        "forms": [
+          "surrounding"
+        ],
+        "rationale": "s03 the surrounding hills uses surrounding attributively for hills around the lake. 周围的 is accurate; this is an adjective rather than the progressive verb form."
+      },
+      {
+        "target_id": "ox-b343ad6045f2e5cc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-20-s06"
+        ],
+        "forms": [
+          "stretch"
+        ],
+        "rationale": "s06 one long stretch beside the water uses a count noun for a continuous portion of the route before the turn. 一段路程或区域 fits the selected noun sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-21",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "f99d563f328b26b94daef7818f248f077585af9f293821fa44cfbb7bdb9c7a03",
+    "status": "accepted",
+    "rationale": "The advisor distinguishes detailed classroom description and checked scores from control of alternative explanations. Beatrice acknowledges unrecorded extra practice and agrees to report association and limitations, not establish causation. The title and goal correctly describe a planned narrowing and limitation section; no completed edit or proven seating effect is asserted.",
+    "targets": [
+      {
+        "target_id": "ox-2ead58637428bf76",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-21-s01"
+        ],
+        "forms": [
+          "thesis"
+        ],
+        "rationale": "s01 the conclusion of my thesis identifies an academic dissertation under an advisor’s review. The noun fits 学位论文 rather than merely an isolated proposition."
+      },
+      {
+        "target_id": "ox-75f16f4dd1fcf9d8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-21-s02"
+        ],
+        "forms": [
+          "thorough"
+        ],
+        "rationale": "s02 description of the classroom is thorough uses a predicate adjective praising detail and care while separating it from causal proof. 详尽的/周密的 is accurate."
+      },
+      {
+        "target_id": "ox-1d0e949c19cc4a5a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-21-s02"
+        ],
+        "forms": [
+          "sufficient"
+        ],
+        "rationale": "s02 not sufficient evidence of cause and effect uses sufficient attributively with evidence to mean enough for the claim. 足够的 fits the explicitly denied evidential threshold."
+      },
+      {
+        "target_id": "ox-5c7ba806331d2e6f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-21-s03"
+        ],
+        "forms": [
+          "thoroughly"
+        ],
+        "rationale": "s03 checked the scores thoroughly uses an adverb modifying checked for careful comprehensive checking. 仔细而全面地 is appropriate, though that checking alone does not prove causation."
+      },
+      {
+        "target_id": "ox-6890ae12a8398013",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-21-s04"
+        ],
+        "forms": [
+          "sufficiently"
+        ],
+        "rationale": "s04 sufficiently carefully is a degree adverb modifying carefully, asking whether recording was careful enough to assess alternatives. 足够地 accurately distinguishes it from the adjective sufficient."
+      },
+      {
+        "target_id": "ox-d3891bb7127b7d93",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-21-s06"
+        ],
+        "forms": [
+          "thus"
+        ],
+        "rationale": "s06 thus introduces the evidence-limited conclusion after the observed sequence and the acknowledged missing controls. The connective adverb means 因此; its formal tone fits academic feedback."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-22",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "fbe6b92ae0f81154e4fcc30260df8eb49daa61e79ae70c4c182128a60ea799c8",
+    "status": "accepted",
+    "rationale": "The facilitators identify one participant dominating responses and quieter participants waiting. They agree to private writing followed by invitations in turn, explicitly allow passing and will observe participation rather than assume success. The Chinese title and goal describe the agreed method and do not claim it has already improved the next session; British collective agreement in the group are is natural.",
+    "targets": [
+      {
+        "target_id": "ox-5cd1f8a030237f04",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-22-s01"
+        ],
+        "forms": [
+          "teens"
+        ],
+        "rationale": "s01 in their teens is the conventional plural noun phrase for the thirteen-to-nineteen age range. The Chinese gloss correctly distinguishes this age period from the separate noun teen for a person."
+      },
+      {
+        "target_id": "ox-0db2a767f711f64c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-22-s01"
+        ],
+        "forms": [
+          "teen"
+        ],
+        "rationale": "s01 one teen answered almost every question uses teen as the singular count noun for one adolescent. 青少年 fits, and the source’s adjective alternative is not selected."
+      },
+      {
+        "target_id": "ox-742afdeb7fe0a6ff",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-22-s02"
+        ],
+        "forms": [
+          "tendency"
+        ],
+        "rationale": "s02 a tendency for the quieter members to wait is the noun construction for an observed behavioral inclination. 倾向 matches and does not turn the observation into an inevitable rule."
+      },
+      {
+        "target_id": "ox-bdbdd75ccafef404",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-22-s03"
+        ],
+        "forms": [
+          "stimulate"
+        ],
+        "rationale": "s03 stimulate discussion is a natural transitive collocation for encouraging discussion. 激发/促进 fits the facilitator’s question without implying force or physical stimulation."
+      },
+      {
+        "target_id": "ox-61f37c4e68345f01",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-22-s04"
+        ],
+        "forms": [
+          "tackle"
+        ],
+        "rationale": "s04 tackle that by giving everyone two minutes uses the verb for addressing the participation problem with a specific method. 着手解决 fits, not the noun for sports equipment or a physical tackle."
+      },
+      {
+        "target_id": "ox-33a7d0cb3ac7b654",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-22-s05"
+        ],
+        "forms": [
+          "strengthen"
+        ],
+        "rationale": "s05 might strengthen their confidence uses a transitive verb for making confidence stronger. 增强 matches, with might correctly leaving the effect uncertain."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-23",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "691ee49911b8120a4ae1f04630ab73c91e8eedaa65501a01bec62dc7b2bbdc43",
+    "status": "accepted",
+    "rationale": "The traveller verifies a running nine-o’clock airport bus, learns it will not serve her sister’s suburb and checks the precise two-piece luggage allowance. She selects that service and receives boarding and purchase directions. The Chinese title and goal accurately describe the route choice rather than completed ticket payment or boarding.",
+    "targets": [
+      {
+        "target_id": "ox-0a8784f32873ab39",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-23-s01"
+        ],
+        "forms": [
+          "strike"
+        ],
+        "rationale": "s01 the rail strike names industrial action affecting railway travel. The noun means 罢工 and explains the bus alternative, not a blow or verb action."
+      },
+      {
+        "target_id": "ox-fd6e091a590d6ece",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-23-s02"
+        ],
+        "forms": [
+          "terminal"
+        ],
+        "rationale": "s02 terminal two identifies the airport building reached by the bus. The selected noun matches 航站楼, not the C1 adjective alternative."
+      },
+      {
+        "target_id": "ox-bac7c75d9707a46d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-23-s03"
+        ],
+        "forms": [
+          "suburb"
+        ],
+        "rationale": "s03 the suburb of Belton uses a count noun for the outlying residential district where Nora’s sister lives. 郊区 fits the stop enquiry."
+      },
+      {
+        "target_id": "ox-e38b8d8ef75a500a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-23-s04"
+        ],
+        "forms": [
+          "strictly"
+        ],
+        "rationale": "s04 strictly an airport service restricts the bus’s purpose and destinations on that day. The adverb means 仅限于/完全是, not a manner of enforcing a rule."
+      },
+      {
+        "target_id": "ox-4a2c7cab7d10891d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-23-s06"
+        ],
+        "forms": [
+          "strict"
+        ],
+        "rationale": "s06 a strict one-suitcase limit uses the adjective to mark an enforced luggage constraint while separately allowing a small bag. 严格的 correctly modifies limit."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-24",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "b56ea63ba666819f3f47de155d4190519df2004f7250fdb83ad58117e8fed03f",
+    "status": "accepted",
+    "rationale": "Sofia and Cal compare coloured print versions of the same portrait, notice shared brushwork and weigh gallery impact against her mother’s restful room. Sofia selects the blue one and will ask the assistant for it; the Chinese title and goal claim selection for a gift, not completed payment or delivery. The shared shoulder detail supports the portrait context.",
+    "targets": [
+      {
+        "target_id": "ox-d6d44145bca1cb01",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-24-s01"
+        ],
+        "forms": [
+          "striking"
+        ],
+        "rationale": "s01 the red version is striking is immediately explained by noticing it on entering. The adjective means 引人注目的, not an ongoing action of striking."
+      },
+      {
+        "target_id": "ox-0614660ad213de7d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-24-s02"
+        ],
+        "forms": [
+          "tone"
+        ],
+        "rationale": "s02 the softer tone of this blue one refers to its visual colour quality, contrasted with the bold red version. The noun is 色调 rather than voice or attitude."
+      },
+      {
+        "target_id": "ox-785f001ca9cc2243",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-24-s03"
+        ],
+        "forms": [
+          "stroke"
+        ],
+        "rationale": "s03 one stroke of the brush suggests the whole shoulder uses the count noun for a brush mark in the picture. 一笔/笔画 accurately names the artistic mark, not a medical event."
+      },
+      {
+        "target_id": "ox-064984474e8681fe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-24-s05"
+        ],
+        "forms": [
+          "stunning"
+        ],
+        "rationale": "s05 the red one is stunning on this wall evaluates its impressive beauty while deciding another version better suits the recipient. 极美的/令人惊艳的 fits the adjective without implying a physical stunning action."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-25",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "55ec59ac550bba76a2188a4bec006bc1bbfb7493992066cbcb770502bc70a1a8",
+    "status": "accepted",
+    "rationale": "Ruth reports difficulty dressing after surgery and an existing surgeon recommendation, then requests a therapist conversation before choosing an appointment. Dan will pass on her number and availability but explicitly says the therapist must confirm call timing. The Chinese title and goal correctly describe a callback request, not a booked visit or confirmed callback time, and no diagnosis or treatment prescription is offered.",
+    "targets": [
+      {
+        "target_id": "ox-bc857bf560841ad6",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-25-s01"
+        ],
+        "forms": [
+          "surgery"
+        ],
+        "rationale": "s01 had surgery last month uses the mass noun for an operation, with postoperative everyday difficulties providing context. 外科手术 matches, not a doctor’s office."
+      },
+      {
+        "target_id": "ox-c34f366a9dad631a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-25-s01"
+        ],
+        "forms": [
+          "struggle"
+        ],
+        "rationale": "s01 struggle with ordinary things like getting dressed uses the verb with with for difficulty managing daily tasks. 费力地做/艰难应对 fits the selected verb source."
+      },
+      {
+        "target_id": "ox-030f7d1ceac2a6ef",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-25-s02"
+        ],
+        "forms": [
+          "surgeon"
+        ],
+        "rationale": "s02 spoken to the surgeon identifies the medical professional associated with the operation, and s03 supplies her recommendation. The count noun accurately means 外科医生."
+      },
+      {
+        "target_id": "ox-3da6943bf303987c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-25-s03"
+        ],
+        "forms": [
+          "therapy"
+        ],
+        "rationale": "s03 contact your service about therapy uses the noun for treatment or rehabilitation assistance in the postoperative context. 治疗 fits without the dialogue selecting or prescribing a particular regimen."
+      },
+      {
+        "target_id": "ox-88ed520ee13862ca",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-25-s04",
+          "p09-b-25-s08"
+        ],
+        "forms": [
+          "therapist"
+        ],
+        "rationale": "s04 identifies the professional who can explain assessment and needs; s08 says the same therapist must confirm her own callback time. Both count-noun uses match 治疗师 and preserve the distinction from the receptionist and surgeon."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-26",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "2a641188cb9984efad1b6d9d485b0052392dc481ee3305f391086f68475a0f9d",
+    "status": "accepted",
+    "rationale": "The friends move beyond the cover’s courage framing to the fictional film’s survivor narration, accident, fear and grief. Concern about younger viewers leads to an explicit agreement to use a familiar light-hearted short instead. The Chinese title and goal correctly report rejecting the shipwreck film for this family screening and choosing an alternative, not a screening already held.",
+    "targets": [
+      {
+        "target_id": "ox-572bb83076e88090",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-26-s01"
+        ],
+        "forms": [
+          "tale"
+        ],
+        "rationale": "s01 a tale of courage at sea is a noun phrase in a cover description, meaning a story about courage. 故事 is exact, and the next turns investigate whether that framing is sufficient for selection."
+      },
+      {
+        "target_id": "ox-0e7ddc769282ee9e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-26-s02"
+        ],
+        "forms": [
+          "survivor"
+        ],
+        "rationale": "s02 the only survivor of a shipwreck is the count noun for the person who lived through the disaster and narrates the film. 幸存者 matches this role."
+      },
+      {
+        "target_id": "ox-533c8cb0bd7e7504",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-26-s02"
+        ],
+        "forms": [
+          "tragedy"
+        ],
+        "rationale": "s02 describes it as a tragedy contrasts the film’s genre with cheerful adventure. The noun specifically means 悲剧作品, supported by loss and grief rather than merely an unfortunate event."
+      },
+      {
+        "target_id": "ox-f3918a5ad75325c8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-26-s04"
+        ],
+        "forms": [
+          "terror"
+        ],
+        "rationale": "s04 his terror during the storm uses the mass noun for the survivor’s intense fear. 极度恐惧 is accurate; this is not political terrorism."
+      },
+      {
+        "target_id": "ox-6a3bd749d091e2e0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-26-s05"
+        ],
+        "forms": [
+          "terrify"
+        ],
+        "rationale": "s05 could terrify the younger children is a transitive verb for causing intense fear in viewers. 使极度害怕 matches and could preserves that this is an anticipated reaction."
+      },
+      {
+        "target_id": "ox-f2eb81f326ab9341",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-26-s05"
+        ],
+        "forms": [
+          "tragic"
+        ],
+        "rationale": "s05 a tragic story uses the adjective for a sorrowful disaster narrative, supported by sole survival and grief. 悲惨的/悲剧性的 is appropriate to their viewing decision."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-27",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "8dc2b95e9c85dc353d3f9346ca0989005d4eaa93b9cc383e0a51d2258e0a36ed",
+    "status": "accepted",
+    "rationale": "The volunteers first consider recycling a damaged coat, then notice the attached contact request and an apparently sentimental photograph caught in its pocket. They agree to keep the coat and tag together and contact the donor before disposal. The Chinese title and goal correctly state the decision and objects; no donor reply, retrieval or recycling is invented.",
+    "targets": [
+      {
+        "target_id": "ox-168cc7e35951457d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-27-s01"
+        ],
+        "forms": [
+          "thumb"
+        ],
+        "rationale": "s01 put my thumb right through it uses thumb as the body-part noun to illustrate the size of the coat’s hole. 拇指 is literal and fits the practical inspection."
+      },
+      {
+        "target_id": "ox-9807f14dbf8f4aaf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-27-s02",
+          "p09-b-27-s07"
+        ],
+        "forms": [
+          "tag"
+        ],
+        "rationale": "s02 read the tag refers to the attached written contact request, and s07 keeps that tag attached. Both noun uses mean 标签 rather than the alternative tagging verb."
+      },
+      {
+        "target_id": "ox-6ed67565948b0694",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-27-s04"
+        ],
+        "forms": [
+          "tear"
+        ],
+        "rationale": "s04 do not tear it while pulling it out uses tear as the transitive verb for ripping the caught photograph. 撕破 fits the risk and clearly differs from the homographic noun for a tear from the eye."
+      },
+      {
+        "target_id": "ox-39e23bfba165331f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-27-s05"
+        ],
+        "forms": [
+          "treasure"
+        ],
+        "rationale": "s05 a real treasure to the person refers to a potentially cherished family photograph, supported by Dad’s last picture. The count noun matches 珍爱之物/珍宝; may keeps its sentimental value an inference."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-28",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "f7f8187a066544ed6ae35a8e53c474948f226d20c59ad03ac227ddc459a4c2c0",
+    "status": "accepted",
+    "rationale": "In an explicitly fictional evidence exercise, the tutor separates a cavalry unit’s pictured location from participation in an attack and an unestablished motive. Mina commits to removing both the rider’s label and the incident characterization while retaining supported location and uncertainty. The Chinese title and goal accurately describe a planned removal, not a proven identity or completed edit.",
+    "targets": [
+      {
+        "target_id": "ox-bb0668a1a0dec5df",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-28-s01"
+        ],
+        "forms": [
+          "terrorist"
+        ],
+        "rationale": "s01 labelled the rider a terrorist uses the count noun as an object complement for the alleged identity. 恐怖分子 is correct semantically, and subsequent turns reject the unsupported attribution rather than endorse it."
+      },
+      {
+        "target_id": "ox-aef6a3b201de1b5e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-28-s03"
+        ],
+        "forms": [
+          "troop"
+        ],
+        "rationale": "s03 a cavalry troop uses troop as a singular count noun for a unit of mounted soldiers. The selected sense 一队骑兵 is supported explicitly by cavalry, not confused with an individual soldier."
+      },
+      {
+        "target_id": "ox-d9dee9e6a4df41b5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-28-s03"
+        ],
+        "forms": [
+          "territory"
+        ],
+        "rationale": "s03 in the northern territory locates the unit within a geographical area in the fictional materials. 地区/领土 fits this noun, and location alone is correctly not treated as responsibility."
+      },
+      {
+        "target_id": "ox-3d14d94a550cfe93",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-28-s05"
+        ],
+        "forms": [
+          "terrorism"
+        ],
+        "rationale": "s05 describe the incident as terrorism uses the mass noun for the proposed class of violent activity, explicitly saying the image cannot establish it. 恐怖主义/恐怖活动 matches without alleging it as fact."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-29",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "f99fb0180f67c1a8b4a0a8595c18b36b56abc8a50823446adb9a43bc6bf75a31",
+    "status": "accepted",
+    "rationale": "The pair distinguish value measured in trillions from weight measured in tonnes and refuse to infer a missing shipment price. Unlike the prospective revisions elsewhere, s07 explicitly says both cells have been corrected and s08 verifies they match the table. Therefore the Chinese title and goal’s correction outcome is actually achieved, including the one-trillion versus one-billion distinction.",
+    "targets": [
+      {
+        "target_id": "ox-b39e7f6e82b637db",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-29-s01"
+        ],
+        "forms": [
+          "trading"
+        ],
+        "rationale": "s01 trading between the two ports is a nominal subject denoting exchange activity, assigned a value in the student summary. 贸易/交易活动 fits the noun source; the amount is then corrected without changing the meaning of trading."
+      },
+      {
+        "target_id": "ox-e4e922e2afe30abf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-29-s02",
+          "p09-b-29-s07"
+        ],
+        "forms": [
+          "trillion"
+        ],
+        "rationale": "s02 one trillion is the numerical amount inferred from a 1.0 entry under a trillions heading, and s07 repeats the corrected total. s03 specifies a thousand billion, confirming the number means 万亿 rather than 十亿."
+      },
+      {
+        "target_id": "ox-961258e2201bc7fe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-29-s04",
+          "p09-b-29-s07"
+        ],
+        "forms": [
+          "tonne"
+        ],
+        "rationale": "s04 one tonne of grain and s07 one tonne with no value listed use the unit noun for metric mass. 公吨 is correct, and the dialogue explicitly prevents treating this weight as currency."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-30",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "e1a930d60c72c505b33577ba727f415c8b15a401e9ada9844c3c30842864d718",
+    "status": "accepted",
+    "rationale": "The writers diagnose an abrupt move from caution to risk and notice that motivating bridge-closure news currently arrives after the decision. They agree to move the warning earlier and insert a small route test before full commitment, then reread. The Chinese title and goal accurately describe this revision plan, not an already transformed character or completed rewrite.",
+    "targets": [
+      {
+        "target_id": "ox-62a18f2c77d10d3a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-30-s01"
+        ],
+        "forms": [
+          "trait"
+        ],
+        "rationale": "s01 Mara’s main trait is caution uses the count noun for a stable character quality. 性格特点 matches the characterization issue driving the revision."
+      },
+      {
+        "target_id": "ox-6387657c1694f84e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-30-s01"
+        ],
+        "forms": [
+          "transition"
+        ],
+        "rationale": "s01 does the transition feel convincing refers to the narrative movement from caution to risk-taking. The noun means 转变/过渡 and is clarified by the proposed motivation and scene order."
+      },
+      {
+        "target_id": "ox-7b27d2d1fe3d8cc3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-30-s02"
+        ],
+        "forms": [
+          "transform"
+        ],
+        "rationale": "s02 cannot transform her entire outlook uses a transitive verb for fundamentally changing someone’s perspective. 彻底改变 fits the scale marked by entire and the critique of an insufficient cause."
+      },
+      {
+        "target_id": "ox-cf96462d3a3a5591",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-30-s03"
+        ],
+        "forms": [
+          "subsequently"
+        ],
+        "rationale": "s03 she subsequently learns places the bridge news later in the current draft, explicitly after the decision. The temporal adverb means 随后, with its placement problem central to the discussion."
+      },
+      {
+        "target_id": "ox-2dc0d8dbf946f1fe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-30-s05"
+        ],
+        "forms": [
+          "subsequent"
+        ],
+        "rationale": "s05 in the subsequent scene uses the adjective for a later scene in the proposed sequence. 随后的 is accurate and distinct from the prior adverbial use."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-31",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "a8d066e817748fc1b39d12f3a4f015e85c7b07a721de1af9adca967acbeebce6",
+    "status": "accepted",
+    "rationale": "Freshly reread all six turns, the complete metadata and the selected target in content version 2. s01 reports the maker’s Aruni affiliation, and repaired s03 now consistently retains that affiliation, the maker’s name and the collection location while explicitly distinguishing the missing information about other makers’ patterns. Dr Bell’s question and advice therefore support a precise evidence-limitation lesson rather than contradicting the catalogue. s04 proposes asking the curator; s05 agrees to do so and to limit the label to this basket until an answer exists. The Chinese title and goal correctly describe checking the known affiliation and an agreement to seek broader evidence, not an obtained curator confirmation, completed relabelling or established typical tribal design. The fictional museum-course context, speaker roles and closing endorsement remain coherent.",
+    "targets": [
+      {
+        "target_id": "ox-5c4b493bf78f65b7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-31-s01",
+          "p09-b-31-s05"
+        ],
+        "forms": [
+          "tribe"
+        ],
+        "rationale": "s01 a member of the Aruni tribe uses tribe as a singular count noun naming the fictional social group; repaired s03 confirms that affiliation is actually recorded. In s05 the whole tribe is the same noun with a collective scope, explicitly contrasted with one basket to avoid unsupported generalization. Both mapped forms are tribe, the selected B2 noun source ox-5c4b493bf78f65b7 fits, and 部族/部落 accurately expresses the intended sense."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-b-32",
+    "reviewer": "reviewer-phase09-b",
+    "dialogue_sha256": "fa8815f2bcaafd0374ee4a7f9bb700fdf4690dc8438143552b830c97a310027d",
+    "status": "accepted",
+    "rationale": "The owner supplies two pre-portioned tubs, rejects extra treats, and instructs the sitter to check the pet’s location before shutting the cupboard. Lucie agrees and fixes the first visit for eight tomorrow, with the owner available for questions. The title establishes the cat-care setting for the pronoun he, and the goal correctly describes confirming instructions and agreeing future checks rather than feeding or checking already completed.",
+    "targets": [
+      {
+        "target_id": "ox-053a583633ed6e04",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-32-s02"
+        ],
+        "forms": [
+          "starve"
+        ],
+        "rationale": "s02 will not starve between meals uses the intransitive verb in an anxious, colloquially exaggerated question about going without food. 挨饿/因缺乏食物而受苦 fits; the next turn explains the begging behavior without asserting actual starvation."
+      },
+      {
+        "target_id": "ox-df46652a84201cf3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-32-s03"
+        ],
+        "forms": [
+          "spoil"
+        ],
+        "rationale": "s03 do not spoil him with extra treats uses the transitive verb for overindulging the pet. 宠坏/溺爱 is the selected sense, not causing the food itself to decay."
+      },
+      {
+        "target_id": "ox-42b781a4dad0e700",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-b-32-s05"
+        ],
+        "forms": [
+          "trap"
+        ],
+        "rationale": "s05 do not trap him inside when you shut the door uses trap as a transitive verb for accidentally confining the pet in the cupboard. 使困住 fits and is distinguished from the noun for a trapping device."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-01",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "cb1f079900f5d79efebbdd32ceb84f4c40e770a8a6a17841a135fa90338f2e79",
+    "status": "accepted",
+    "rationale": "服务台问路从二十分钟限制自然推进到十五分钟蕨类环线；s04交代入口，s06确认返回位置和时长，s07明确选择。标题与目标只称选定路线，没有声称已经游览。",
+    "targets": [
+      {
+        "target_id": "ox-4336208cb105d331",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-01-s01"
+        ],
+        "forms": [
+          "tropical"
+        ],
+        "rationale": "s01的 tropical 直接修饰 plants，表热带植物，形容词与热带的义项一致。"
+      },
+      {
+        "target_id": "ox-ef8dcc96096738cf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-01-s02"
+        ],
+        "forms": [
+          "abundance"
+        ],
+        "rationale": "s02的 an abundance of ferns 用名词结构表示蕨类数量丰富，为推荐展区提供理由。"
+      },
+      {
+        "target_id": "ox-fcbba18e2fa65325",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-01-s03"
+        ],
+        "forms": [
+          "wander"
+        ],
+        "rationale": "s03的 tend to wander 是动词不定式，指在花园无固定路线闲逛，与随后索取标记路线衔接。"
+      },
+      {
+        "target_id": "ox-802faad875429def",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-01-s04"
+        ],
+        "forms": [
+          "adjacent"
+        ],
+        "rationale": "s04的 is adjacent to this desk 是形容词加 to 的标准搭配，说明入口紧邻服务台。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-02",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "5b979ea26aeee8d21ff95daff0acd96b81635383dd7f9b03a92dc24458514d5f",
+    "status": "accepted",
+    "rationale": "双方核对明确限定为演练的学校地图，蓝线经北门到高处停车场，红区隧道禁止进入。s05至s07约定课堂检查方式，标题和目标准确描述路线核对而非实际疏散完成。",
+    "targets": [
+      {
+        "target_id": "ox-a310c2fbd8e26292",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-02-s01"
+        ],
+        "forms": [
+          "tsunami"
+        ],
+        "rationale": "s01的 tsunami alert 中 tsunami 作名词修饰语，标明海啸警报而不是一般天气警告。"
+      },
+      {
+        "target_id": "ox-2c879c50e25db066",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-02-s01"
+        ],
+        "forms": [
+          "alert"
+        ],
+        "rationale": "s01的 the tsunami alert appears 中 alert 是中心名词，指演练中出现的警报，非警觉的形容词。"
+      },
+      {
+        "target_id": "ox-9f520d2e0ab4c0b2",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-02-s02"
+        ],
+        "forms": [
+          "via"
+        ],
+        "rationale": "s02的 via the north gate 用介词引入途中经过的北门，与到达上方停车场区分清楚。"
+      },
+      {
+        "target_id": "ox-061fce9b6cc4e941",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-02-s02"
+        ],
+        "forms": [
+          "upper"
+        ],
+        "rationale": "s02的 upper 修饰 car park，表示较高位置，和地图上的集合点描述一致。"
+      },
+      {
+        "target_id": "ox-b55d8993af2445b0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-02-s03"
+        ],
+        "forms": [
+          "tunnel"
+        ],
+        "rationale": "s03的 the tunnel 是可数名词，指地图上看似更短但随后明确禁入的隧道。"
+      },
+      {
+        "target_id": "ox-6b2212e3f0ebb4ed",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-02-s04"
+        ],
+        "forms": [
+          "zone"
+        ],
+        "rationale": "s04的 the red zone 用 zone 指地图划出的红色区域，inside 的空间关系自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-03",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "5599830197aa21e0c62b7b48b12752d48e0a8ea038bc63e08c7c29f30714e4bb",
+    "status": "accepted",
+    "rationale": "排练以第一句过快和听不清同伴为实际问题，降低音量后s05明确反馈已试唱且决定保留设置，s07至s08另行约定轻声数拍。标题与目标的试唱、保留和约定状态均有依据。",
+    "targets": [
+      {
+        "target_id": "ox-34b7719c2ec18f09",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-03-s01"
+        ],
+        "forms": [
+          "variation"
+        ],
+        "rationale": "s01的 the slower variation of this tune 以 variation 作可数名词指这首曲子的慢速变奏，s02的节奏变化补足音乐语境。"
+      },
+      {
+        "target_id": "ox-2f77e6558582a3d5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-03-s01"
+        ],
+        "forms": [
+          "tune"
+        ],
+        "rationale": "s01的 this tune 指正在排练的曲调，是名词而非调音动词。"
+      },
+      {
+        "target_id": "ox-c4421187a4cda25c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-03-s02"
+        ],
+        "forms": [
+          "vary"
+        ],
+        "rationale": "s02的 vary the rhythm 是及物动词搭配，指改变左手伴奏节奏，和保持 melody 不变形成明确对照。"
+      },
+      {
+        "target_id": "ox-dac219fcade42f90",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-03-s03"
+        ],
+        "forms": [
+          "volume"
+        ],
+        "rationale": "s03的 lower the volume 是自然的调低音量搭配，听不清后排歌手解释了该名词的具体义项。"
+      },
+      {
+        "target_id": "ox-7ac615e48acfc18e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-03-s07"
+        ],
+        "forms": [
+          "whisper"
+        ],
+        "rationale": "s07的 Please whisper the count 用 whisper 作及物祈使动词，要求轻声说出数拍，避免让观众听到。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-04",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "38367a442fc9620ccaf101fb43127f5ae4a1fed6b20af4ed4916ace55577b733",
+    "status": "accepted",
+    "rationale": "对话围绕未经同意拿相机及造成无法使用的影响，明确否定只归咎时机的说法；相机已归还，今后先问获得回应前不拿是新承诺。标题和目标不夸大为信任已完全恢复。",
+    "targets": [
+      {
+        "target_id": "ox-635375ca250aa7fc",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-04-s02"
+        ],
+        "forms": [
+          "truly"
+        ],
+        "rationale": "s02的 truly 修饰 sorry，加强真诚道歉，与承认错误相符，副词和确实、真诚的中文释义合适。"
+      },
+      {
+        "target_id": "ox-e44cad0a45be6d83",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-04-s03"
+        ],
+        "forms": [
+          "unfortunate"
+        ],
+        "rationale": "s03的 called the timing unfortunate 将 unfortunate 用作宾语补足语，重述对方把时机称为不凑巧，随后否定这种推卸，并非叙述者认可借口。"
+      },
+      {
+        "target_id": "ox-af51991f716e2cc7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-04-s05"
+        ],
+        "forms": [
+          "trust"
+        ],
+        "rationale": "s05的 trust you with my things 是动词 trust 的自然人称宾语和 with 搭配，表达对朋友保管或使用物品的信任。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-05",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "8f13ddd1eb5daa7acd4a97c7b1a5826df8372cff294570c68554b26eefc20a3b",
+    "status": "accepted",
+    "rationale": "先区分整套档案可检索的长期目标和扫描手写页的不确定性，再确定一箱、五封信的有限测试。周五带检索结果是明确承诺，标题与目标只主张限定范围及安排复核，不暗示已取得结果。",
+    "targets": [
+      {
+        "target_id": "ox-b37fa070d82d9ad8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-05-s01"
+        ],
+        "forms": [
+          "ultimate"
+        ],
+        "rationale": "s01的 ultimate goal 用形容词指最终目标，与 this month 的有限工作量形成明确对照。"
+      },
+      {
+        "target_id": "ox-7b8cec506d95f8c3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-05-s01"
+        ],
+        "forms": [
+          "undertake"
+        ],
+        "rationale": "s01的 undertake that much work 是承担这么多工作的及物用法，疑问句检验团队能力，中文承担、着手做适切。"
+      },
+      {
+        "target_id": "ox-85f137dce8b0d6e4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-05-s02"
+        ],
+        "forms": [
+          "uncertainty"
+        ],
+        "rationale": "s02的 uncertainty about how well... 用不可数名词指扫描效果尚不清楚，about 从句准确限定不确定性来源。"
+      },
+      {
+        "target_id": "ox-cc1a9e72844e3678",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-05-s05"
+        ],
+        "forms": [
+          "ultimately"
+        ],
+        "rationale": "s05句首 Ultimately 是评价最终决策依据的副词，表示归根结底应由检索结果决定，首字母大写不改变所列词形。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-06",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "85a6d603dff5eb88cb3725578c9f99bc3e53aa99534d0252207c93c7bddb735e",
+    "status": "accepted",
+    "rationale": "通话准确区分可见伤口、看起来无意识和并未目击事发经过；接线员确认记录，来电者承诺留在线上。标题、目标均未声称救援派出或诊断已确认，虚构练习语境保持清楚。",
+    "targets": [
+      {
+        "target_id": "ox-ce6eba4862586332",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-06-s01"
+        ],
+        "forms": [
+          "urgent"
+        ],
+        "rationale": "s01的 urgent help 以形容词限定需要的帮助十分紧急，和车站倒地人员的可见情况吻合。"
+      },
+      {
+        "target_id": "ox-70e63d4ceef9e542",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-06-s03"
+        ],
+        "forms": [
+          "unconscious"
+        ],
+        "rationale": "s03的 appears unconscious 以形容词描述看起来失去知觉；appears 保留来电者观察而非确诊的边界。"
+      },
+      {
+        "target_id": "ox-8d1e3c63f8ca954f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-06-s05"
+        ],
+        "forms": [
+          "witness"
+        ],
+        "rationale": "s05的 not a witness to what happened 是名词 witness 的标准 to 搭配，明确不是事发经过的目击者。"
+      },
+      {
+        "target_id": "ox-54fbfc9473cbb059",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-06-s05"
+        ],
+        "forms": [
+          "wound"
+        ],
+        "rationale": "s05的 a wound 是可数名词，描述可见伤口，并未把 wind 的过去式同形词误作目标。"
+      },
+      {
+        "target_id": "ox-b0269353a893d620",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-06-s05"
+        ],
+        "forms": [
+          "wrist"
+        ],
+        "rationale": "s05的 on his wrist 用名词 wrist 标明伤口所在的手腕部位，所有格和介词自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-07",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "df1edbb3bdf757339a35e429dbf9c2c72a83a18aba1a27d4d64b45a222b830d9",
+    "status": "accepted",
+    "rationale": "账户已有余额但尚未启用的矛盾得到解释；s05明确一页打印完成，s07确认看到该记录和新余额。标题与目标关于启用、测试和核对使用记录都有完成态证据，不只依靠工作人员指令。",
+    "targets": [
+      {
+        "target_id": "ox-877850d463f9ee9c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-07-s01"
+        ],
+        "forms": [
+          "weird"
+        ],
+        "rationale": "s01的 This is weird 以表语形容词表达账户与打印机显示冲突让人觉得奇怪，口语自然。"
+      },
+      {
+        "target_id": "ox-b8548dc47c3ce770",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-07-s02"
+        ],
+        "forms": [
+          "activation"
+        ],
+        "rationale": "s02的 activation is not complete 用名词指打印额度尚未启用的流程状态，后续按钮和成功打印具体化该义项。"
+      },
+      {
+        "target_id": "ox-2b5fa673233bf681",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-07-s03"
+        ],
+        "forms": [
+          "useless"
+        ],
+        "rationale": "s03的 receipt seemed useless 以表语形容词重述读者原以为收据无用，s04说明其中的按钮后纠正这种看法，语义连贯。"
+      },
+      {
+        "target_id": "ox-520a5fbacbb5f467",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-07-s06"
+        ],
+        "forms": [
+          "usage"
+        ],
+        "rationale": "s06的 usage tab 中 usage 是名词修饰语，标签下列出作业和余额，明确是使用情况而非语言用法。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-08",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "f6354a6932f36dece61125c7c8364355be6c2d157fabbbc751562a4fd36740f6",
+    "status": "accepted",
+    "rationale": "读书会先核对作品是否有详细暴力描写，再选书并限定首次讨论开头章节；s03提供具体内容说明，s06接受选择和章节限制。标题准确指舞台改编的小说，目标不暗示邀请已发出或已读完。",
+    "targets": [
+      {
+        "target_id": "ox-bd79e40012678469",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-08-s01"
+        ],
+        "forms": [
+          "adaptation"
+        ],
+        "rationale": "s01的 the stage adaptation 是名词词组，指小说改编的舞台作品，liked 的宾语不是抽象适应过程。"
+      },
+      {
+        "target_id": "ox-26204819cfdbb5db",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-08-s02"
+        ],
+        "forms": [
+          "violence"
+        ],
+        "rationale": "s02的 much violence 以不可数名词询问小说暴力内容的量，s03解释并无详细描写，和暴力义项相符。"
+      },
+      {
+        "target_id": "ox-702a9568c7fb3fef",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-08-s04"
+        ],
+        "forms": [
+          "unfold"
+        ],
+        "rationale": "s04的 watch the mystery unfold 采用感知动词加宾语及动词原形，unfold 表示谜情逐步展开而非展开实物。"
+      },
+      {
+        "target_id": "ox-39ee9de1e95eae85",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-08-s05"
+        ],
+        "forms": [
+          "unknown"
+        ],
+        "rationale": "s05的 keep the ending unknown 让形容词作宾语补足语，指不提前公开结局，和避免剧透的约定一致。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-09",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "f7ad64916496427907a387a4ce09e68bd4ceef36f8a0ab1b50c37e2733a246d2",
+    "status": "accepted",
+    "rationale": "两名负责人因共同失去场地而商议合作，确定共享请求及错开晚间的试用月方案；联盟、共同请求和s06的起草承诺支持合作小组安排，但仍明确须三社团检查后才送管理员。标题与目标限于商定联合申请，不称已经获批或提交。",
+    "targets": [
+      {
+        "target_id": "ox-de83e871c4bc8a3a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-09-s01"
+        ],
+        "forms": [
+          "aftermath"
+        ],
+        "rationale": "s01的 in the aftermath of the flood 是固定名词结构，场地丧失具体体现洪水后续影响及灾后时期。"
+      },
+      {
+        "target_id": "ox-6678e39bf52f1195",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-09-s02"
+        ],
+        "forms": [
+          "ally"
+        ],
+        "rationale": "s02的 a useful ally 用名词指戏剧社团作为支持伙伴，would 明确这是对潜在合作价值的判断。"
+      },
+      {
+        "target_id": "ox-d77f4519006b627a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-09-s03"
+        ],
+        "forms": [
+          "unite"
+        ],
+        "rationale": "s03的 unite the clubs 是使社团团结的及物动词用法，紧接避免争抢好时段的对照而有明确沟通目的。"
+      },
+      {
+        "target_id": "ox-e7f656d8f22441b1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-09-s04"
+        ],
+        "forms": [
+          "alliance"
+        ],
+        "rationale": "s04的 the alliance 是名词，指本次共同请求所组成的合作联盟，需共同时间表使词义具体而非军事含义。"
+      },
+      {
+        "target_id": "ox-d20dbe765b87f2f8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-09-s05"
+        ],
+        "forms": [
+          "unity"
+        ],
+        "rationale": "s05的 show unity 用不可数名词表示共同立场，后接需求不必完全一样，准确说明团结而非同质化。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-10",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "9ed42162c6a67b007ef7681db3298bcf91ee5efac90e3ed8c0f30c1e5d371a77",
+    "status": "accepted",
+    "rationale": "游客因不能留到晚间而询问线上替代，工作人员确认五个同主题部分、文字说明和读屏可用性，并说明免注册预览。s07选择预览且今天不订晚场，标题与目标准确区分已选择和未报名。",
+    "targets": [
+      {
+        "target_id": "ox-871c87cd5fb7450d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-10-s01"
+        ],
+        "forms": [
+          "universe"
+        ],
+        "rationale": "s01的 universe gallery 中 universe 是名词修饰语，指以宇宙为主题的展厅，后文空间尺度解释相衔接。"
+      },
+      {
+        "target_id": "ox-44ba7db51e5d52fb",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-10-s02"
+        ],
+        "forms": [
+          "virtual"
+        ],
+        "rationale": "s02的 virtual exhibition 用形容词说明展览通过网站呈现，与现场晚间演出形成替代选择。"
+      },
+      {
+        "target_id": "ox-63dde7e2eb28065c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-10-s03"
+        ],
+        "forms": [
+          "vast"
+        ],
+        "rationale": "s03的 vast distances 以形容词形容宇宙尺度距离极大，中文极其广阔的能对应此处空间范围。"
+      },
+      {
+        "target_id": "ox-5e1093ded6320fe4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-10-s04"
+        ],
+        "forms": [
+          "visual"
+        ],
+        "rationale": "s04的 visual display 用形容词表示视觉展示，并和独立文字说明对照，词性、义项明确。"
+      },
+      {
+        "target_id": "ox-4df0262132a1deb8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-10-s04"
+        ],
+        "forms": [
+          "accessible"
+        ],
+        "rationale": "s04的 accessible to screen readers 用形容词加 to 指文字可供读屏软件访问使用，非地理上容易到达。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-11",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "2c073243a147744ebd975bad770e4aa101a7e9ba03079bcadd89297a5fb89522",
+    "status": "accepted",
+    "rationale": "边框看似歪斜引出按铅笔标记移动和水平仪核验；s03确认移动完成，s04及s06确认竖直和从门口看笔直，随后才承诺标出固定点。标题与目标关于对齐并保留位置有依据，未声称已安装。",
+    "targets": [
+      {
+        "target_id": "ox-65364d2f33f44a28",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-11-s01"
+        ],
+        "forms": [
+          "aluminium"
+        ],
+        "rationale": "s01的 aluminium frame 以材料名词作前置修饰，表示铝框；aluminium 的英式拼写和所选 UK 来源记录一致。"
+      },
+      {
+        "target_id": "ox-a4d407cd7c3e9e8d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-11-s02"
+        ],
+        "forms": [
+          "align"
+        ],
+        "rationale": "s02的 align the frame with the pencil marks 是自然的及物动词加 with 搭配，明确使物理边框与标记对齐。"
+      },
+      {
+        "target_id": "ox-d54c816dc2ed0ce8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-11-s04"
+        ],
+        "forms": [
+          "vertical"
+        ],
+        "rationale": "s04的 It is vertical 是形容词表语，水平仪气泡居中支持左边缘竖直，而不是仅称水平。"
+      },
+      {
+        "target_id": "ox-17284882f7c8f0bd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-11-s05"
+        ],
+        "forms": [
+          "alignment"
+        ],
+        "rationale": "s05的 the alignment 用名词指刚调整后的对齐状态，要求从门口再检查的语境具体自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-12",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "b014a31456973c7569050e46914c7f3538805e4091fc63a33aa9ec671e93611f",
+    "status": "accepted",
+    "rationale": "完整复读第二版：s01明确说工厂的装配岗位，context也同样限定，原先工厂实体缺失已消除。工资咨询自然推进到纠正人数图含义，再请求完整岗位说明；s06只是承诺发送，s07保留收到并阅读后才决定申请。标题、情景及目标准确描述核对和索取，不声称资料已收到或岗位已接受。",
+    "targets": [
+      {
+        "target_id": "ox-1b02e3d2c8477ff4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-12-s01"
+        ],
+        "forms": [
+          "weekly"
+        ],
+        "rationale": "s01以weekly形容wage，明确装配岗位海报列出的每周工资；位置和意义均为形容词每周的，不是频率副词。"
+      },
+      {
+        "target_id": "ox-d184394b23fae0b4",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-12-s01"
+        ],
+        "forms": [
+          "wage"
+        ],
+        "rationale": "s01的the weekly wage是名词短语，询问其是基本报酬还是包含加班；s02区分两者，工资义及单数搭配自然。"
+      },
+      {
+        "target_id": "ox-e5411b2918b4435f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-12-s03"
+        ],
+        "forms": [
+          "upward"
+        ],
+        "rationale": "s03中goes upward用方向副词描述图表线向上，quite sharply修饰上升形态；s04另行澄清指标，未把上升误当工资增长。"
+      },
+      {
+        "target_id": "ox-a9a27e343546cf07",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-12-s04"
+        ],
+        "forms": [
+          "workforce"
+        ],
+        "rationale": "s04的size of our workforce用集合名词表示工厂雇主的全体员工人数，over five years明确时间范围，和所选劳动力、全体员工义相符。"
+      },
+      {
+        "target_id": "ox-39bb5bc8adbe9011",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-12-s05"
+        ],
+        "forms": [
+          "workplace"
+        ],
+        "rationale": "s05的training and safety in the workplace中workplace是场所名词，指前文已明确的工厂工作环境，询问相关资料自然且不作安全结论。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-13",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "42535857659479ea990c1c3eb6fc1e0deb0135bfd17f56dbf7e7f4705e8d12e6",
+    "status": "accepted",
+    "rationale": "组织者明确每次自愿单独安排，新志愿者选定本周六十点与Idris协助签到，计划改变可直接联系Idris。标题与目标精确描述分工、参与边界与联络人，没有声称已经到场或长期承诺。",
+    "targets": [
+      {
+        "target_id": "ox-e885ca5b02154bf7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-13-s01"
+        ],
+        "forms": [
+          "willing"
+        ],
+        "rationale": "s01的 willing to help 是形容词加不定式，表愿意帮忙但不等于每周保证，后半句保持范围。"
+      },
+      {
+        "target_id": "ox-7d9ba3fe14e987d0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-13-s02"
+        ],
+        "forms": [
+          "voluntary"
+        ],
+        "rationale": "s02的 It is voluntary 是形容词表语，说明参加是自愿的，并用每次单独安排解释。"
+      },
+      {
+        "target_id": "ox-069d37e857c88836",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-13-s04"
+        ],
+        "forms": [
+          "whoever"
+        ],
+        "rationale": "s04的 Whoever takes the reception desk 引出自由关系从句作主语，代词指任何承担接待职责的人；随后明确本周是Idris，中文语境义准确。"
+      },
+      {
+        "target_id": "ox-d8db3cda8bfae4cd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-13-s05"
+        ],
+        "forms": [
+          "whom"
+        ],
+        "rationale": "s05的 To whom should I send a message 将宾格疑问代词置于介词后，语法正确；此处较正式的问法仍适合首次向组织者咨询。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-14",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "8f75f8645867f038912694fd4df5099570d0c8427b535235db95285095252b21",
+    "status": "accepted",
+    "rationale": "两人将变暖与小麦生产的宽问题收窄到同地区二十年课堂记录，并约定注明洪水、灌溉变化等其他影响。标题和目标只称商定比较范围而非证实因果或已经完成分析，体现真实研究协作任务。",
+    "targets": [
+      {
+        "target_id": "ox-41b73df2e6b38628",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-14-s01"
+        ],
+        "forms": [
+          "agricultural"
+        ],
+        "rationale": "s01的 agricultural project 用形容词说明项目属于农业主题，随后的 wheat production 给出具体对象。"
+      },
+      {
+        "target_id": "ox-062930bc94a6e811",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-14-s01"
+        ],
+        "forms": [
+          "warming"
+        ],
+        "rationale": "s01的 warming 作 how 从句主语，是表示变暖现象的名词，might affect 保留效果待研究的状态。"
+      },
+      {
+        "target_id": "ox-bfc080837d07198f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-14-s01"
+        ],
+        "forms": [
+          "wheat"
+        ],
+        "rationale": "s01的 wheat production 以不可数作物名词限定生产对象为小麦，后续收成数据保持同一对象。"
+      },
+      {
+        "target_id": "ox-b188c91bd86b8943",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-14-s05"
+        ],
+        "forms": [
+          "adverse"
+        ],
+        "rationale": "s05的 an adverse effect 是常见形容词加名词搭配，指不利影响；否定把每次减产都这样归因，中文义项与论证边界吻合。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-15",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "570d67b1fff2cc05cbd89b507fccf0db425840f9be9fe78af0c7066a37dc8888",
+    "status": "accepted",
+    "rationale": "摘要讨论清楚区分八位自行车活动受访者、全社区和未访谈司机及商户。s05至s07同意把结论限定为已访者并交代招募位置，标题与目标吻合；编辑是承诺，目标用商定而不误报已发布修订稿。",
+    "targets": [
+      {
+        "target_id": "ox-9fa8d1f52ca08229",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-15-s01"
+        ],
+        "forms": [
+          "universal"
+        ],
+        "rationale": "s01的 universal support 用形容词提出全体普遍支持的草稿说法，后文指出该说法没有证据；作为被纠正的主张不影响该词义教学。"
+      },
+      {
+        "target_id": "ox-cce8eb59f02d784b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-15-s02"
+        ],
+        "forms": [
+          "viewpoint"
+        ],
+        "rationale": "s02的 one viewpoint 是可数名词，指自行车活动受访者呈现的一类立场，并与全社区范围对照。"
+      },
+      {
+        "target_id": "ox-bc1c869e57346b6f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-15-s03"
+        ],
+        "forms": [
+          "widespread"
+        ],
+        "rationale": "s03的 support is widespread 中 widespread 作表语形容词，询问支持是否广泛存在，s04拒绝无证据扩大样本范围。"
+      },
+      {
+        "target_id": "ox-be9fd1f4cdfbd1e8",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-15-s04"
+        ],
+        "forms": [
+          "widely"
+        ],
+        "rationale": "s04的 widely discussed 以副词修饰过去分词，表示讨论范围广；may 和 discussion is not agreement 明确与赞同程度区分。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-16",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "51972e58634965d8d3f169abae64dba85ba43bef9492b9ef67c8757da4e10c4e",
+    "status": "accepted",
+    "rationale": "完整复读第二版：新标题明确说买主财富，情景标签明确富商所购肖像画，不再把购买者当作画中人。s02有财富和购入日期记录，s03区分记录与后出传说，s04至s05拒绝改用审美动机猜测，s06承诺保留日期、加来源并删动机。目标准确限定为约定修改，未称已改完展签。",
+    "targets": [
+      {
+        "target_id": "ox-25cfb47105349c89",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-16-s01"
+        ],
+        "forms": [
+          "wealthy"
+        ],
+        "rationale": "s01用wealthy修饰merchant表富裕买主；s02明确档案记录他的wealth，故不是凭肖像本身推断画中人的财富。"
+      },
+      {
+        "target_id": "ox-c7abee1fe3426fbe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-16-s02"
+        ],
+        "forms": [
+          "wealth"
+        ],
+        "rationale": "s02的his wealth是不可数名词，指富商财富这一记录内容，和购藏日期并列，而不是泛指大量信息的引申用法。"
+      },
+      {
+        "target_id": "ox-4e31cc0568dea1cf",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-16-s02"
+        ],
+        "forms": [
+          "acquisition"
+        ],
+        "rationale": "s02的date of the acquisition用名词表示取得这幅肖像的购买行为，s03的purchase和s06保留日期使语义连续清晰。"
+      },
+      {
+        "target_id": "ox-e5dce33757c6855a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-16-s03"
+        ],
+        "forms": [
+          "whereas"
+        ],
+        "rationale": "s03的whereas连接购买有文献记录与竞争故事仅来自后出导览书两个分句，承担对照连词功能，符合然而、相比之下。"
+      },
+      {
+        "target_id": "ox-5fd62139cc24735b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-16-s04"
+        ],
+        "forms": [
+          "aesthetic"
+        ],
+        "rationale": "s04的aesthetic value用形容词限定作品的审美价值；买画为审美这一说法以提问提出，下一句明确它仍是猜测，教学义项没有被当作事实。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-17",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "e6571474c392d226589a4f71f8518958de329c34517cd4e68a4f0889c6d9d206",
+    "status": "accepted",
+    "rationale": "完整复读第二版：s01明确Moss是橱窗照片里的狗，context同样指明，物种与标题、情景均已匹配。喜爱照片引出收养询问，食物相关攻击性与经验不足引出适合性评估和陪同会面；s06提供周六十一点，s07接受并明确当天不带回家。目标准确区分约见和收养决定，未声称评估或收养完成。",
+    "targets": [
+      {
+        "target_id": "ox-e15d5ba2816d9e7d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-17-s01"
+        ],
+        "forms": [
+          "affection"
+        ],
+        "rationale": "s01的felt real affection for him用不可数名词加for表示对Moss的喜爱，him回指已明确的狗，saw it中的it回指照片，句意可辨。"
+      },
+      {
+        "target_id": "ox-aa0de5203dc4c0d7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-17-s01"
+        ],
+        "forms": [
+          "adoption"
+        ],
+        "rationale": "s01的available for adoption用名词表示收养可用性，s02随即说明会面与评估须在决定前，非采用做法的抽象义。"
+      },
+      {
+        "target_id": "ox-2fbb90c3ebbdee15",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-17-s03"
+        ],
+        "forms": [
+          "aggression"
+        ],
+        "rationale": "s03的aggression around food用名词指描述中与食物有关的攻击性行为，非对人的未经支持诊断；来访者经验不足与下一步陪同要求一致。"
+      },
+      {
+        "target_id": "ox-1e670a04b41ae7c3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-17-s04"
+        ],
+        "forms": [
+          "welfare"
+        ],
+        "rationale": "s04的His welfare用名词指狗的健康和福祉，与suitable match并列，说明优先考虑合适安置而非快速交付，中文释义准确。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-18",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "b01e9bc9ae56f1e3230f7a5f6afe567b2351c9ee3d06d074e3ae895eab53414b",
+    "status": "accepted",
+    "rationale": "来访者询问狼的观赏及追踪可能性，工作人员说明山脊关闭、平台开放且不保证看到，给出黄线左侧路线。s05接受平台和留在步道的边界，标题与目标未误称已看到狼或开放山脊。",
+    "targets": [
+      {
+        "target_id": "ox-bd0aca26b047f18a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-18-s01"
+        ],
+        "forms": [
+          "wolf"
+        ],
+        "rationale": "s01的 a wolf 是单数可数动物名词，处在转述有人看见的结构中，未把未经确认的目击当作保证。"
+      },
+      {
+        "target_id": "ox-3cb0c8c21b5de365",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-18-s04"
+        ],
+        "forms": [
+          "wherever"
+        ],
+        "rationale": "s04句首 Wherever 引出让步地点从句，与后面的 stay 指令相连，连接词义为无论何处，句首大写正常。"
+      },
+      {
+        "target_id": "ox-3cf0c31eb00c579c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-18-s04"
+        ],
+        "forms": [
+          "wildlife"
+        ],
+        "rationale": "s04的 see wildlife 用不可数集合名词表示保护区野生动物，后面的 give it space 在集合指称下自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-19",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "6d9abe7c81a67a70175c77c607e595316a656c8d938be17d056e348bc6c5a62c",
+    "status": "accepted",
+    "rationale": "对话从可见虫体、积水和湿纸层转向承认不懂层次设置，约定先停止添料并拍照问园艺负责人Jo。标题、目标保留商定与将来咨询状态，没有把拍照或Jo的查看说成已经完成；堆肥箱实体由context_zh明确。",
+    "targets": [
+      {
+        "target_id": "ox-5a7295b36535517d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-19-s01"
+        ],
+        "forms": [
+          "worm"
+        ],
+        "rationale": "s01的 a worm near the lid 用可数名词指箱盖附近的蠕虫，堆肥箱语境支持虫体义而非电脑病毒。"
+      },
+      {
+        "target_id": "ox-67caef0fe8c8b385",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-19-s01"
+        ],
+        "forms": [
+          "accumulate"
+        ],
+        "rationale": "s01的 water has started to accumulate 用不及物动词表示水逐渐积聚，不要求额外宾语。"
+      },
+      {
+        "target_id": "ox-b38cf1a01e76b142",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-19-s02"
+        ],
+        "forms": [
+          "accumulation"
+        ],
+        "rationale": "s02的 an accumulation of wet paper 是名词加 of 物质短语，指已经堆积的湿纸，区别s01积聚过程的动词。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-20",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "b72a3048edad6dc6b7634eb97ec18c48febaed974030a42468a163ec06651bab",
+    "status": "accepted",
+    "rationale": "球员把失利等同于一月无效，教练指出首次打完全场的真实进步，同时接受传球薄弱点。s06至s07约定下次先练十分钟传球，标题与目标不把进步误报为赢球，也不称训练已执行。",
+    "targets": [
+      {
+        "target_id": "ox-59573f2615b1f2d1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-20-s01"
+        ],
+        "forms": [
+          "victory"
+        ],
+        "rationale": "s01的 get a victory 用可数名词指获得一场胜利，否定结果与s02的 we lost 保持一致；搭配可接受。"
+      },
+      {
+        "target_id": "ox-904236d5898cf4f7",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-20-s02"
+        ],
+        "forms": [
+          "accomplishment"
+        ],
+        "rationale": "s02的 an accomplishment 将首次完成全场称为一项成就，名词表语有具体已完成事项支持。"
+      },
+      {
+        "target_id": "ox-3cd09742c0b81c36",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-20-s03"
+        ],
+        "forms": [
+          "weakness"
+        ],
+        "rationale": "s03的 passing is still a weakness 用可数名词指技能弱点，丢球三次给出实际依据。"
+      },
+      {
+        "target_id": "ox-ddeb6e2304d2a293",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-20-s04"
+        ],
+        "forms": [
+          "wise"
+        ],
+        "rationale": "s04的 it would be wise to practise... 以形容词评价先练短传的决定明智，不是在给人贴聪明标签。"
+      },
+      {
+        "target_id": "ox-a0849bf7afac18fd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-20-s05"
+        ],
+        "forms": [
+          "wisdom"
+        ],
+        "rationale": "s05的 piece of wisdom 是常用量词结构，引用旧教练的一条经验之谈，名词不可数义与中文匹配。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-21",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "f2506576b837e18e13edab1ed9daca0a89fab3ea356c62878a90a1009e8e6a6f",
+    "status": "accepted",
+    "rationale": "咨询明确区分申请材料齐全的收件通知与独立录取决定。s05索取时间，s06只承诺向招生团队询问发送时间表，s07等待信息和决定；目标仅称索取而非已经确认日期或拿到录取。",
+    "targets": [
+      {
+        "target_id": "ox-8454a46bc8db6c32",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-21-s01"
+        ],
+        "forms": [
+          "academy"
+        ],
+        "rationale": "s01的 the academy 用名词指背景中的专门艺术学院，消息和申请均来自该机构。"
+      },
+      {
+        "target_id": "ox-4ac90fd4fe2434ea",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-21-s01"
+        ],
+        "forms": [
+          "acceptance"
+        ],
+        "rationale": "s01的 acceptance letter 中 acceptance 作名词修饰语，提问是否录取信，随后明确不是，录取义仍清晰。"
+      },
+      {
+        "target_id": "ox-468124c7688381f0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-21-s02"
+        ],
+        "forms": [
+          "admission"
+        ],
+        "rationale": "s02的 admission decision 中 admission 是入学准许的名词，不是承认事实或入场费；separate message 明确尚未决定。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-22",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "524a009eacad6827b6fbaa14ad283849fef94fe0ae91d34dbbdcb1b942323f62",
+    "status": "accepted",
+    "rationale": "完整复读第二版：全文明确两名学员讨论虚构旅行练习，s01与s02比较六日出发和十日生效，s05提出答案，s07再次明确旅客先询问是写在练习中的下一步。新learning主题、标题、情景标签及目标均表述核对材料和商定答案，已消除将课堂建议当成本人暂缓订票的状态错误；未假称联系机构或获日期修正。",
+    "targets": [
+      {
+        "target_id": "ox-05f51a15612e6ac0",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-22-s02"
+        ],
+        "forms": [
+          "visa"
+        ],
+        "rationale": "s02的The visa shown in the exercise用名词指练习所示签证文件，shown限定了证据来源，不是签发动作或实际个人证件操作。"
+      },
+      {
+        "target_id": "ox-988edfc38ff12ded",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-22-s02"
+        ],
+        "forms": [
+          "valid"
+        ],
+        "rationale": "s02的is valid from the tenth用形容词表语加起始日期表示有效期从十日开始，和第六日出发形成明确对照，义项有效的成立。"
+      },
+      {
+        "target_id": "ox-43a6ac6f88fdc218",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-22-s03"
+        ],
+        "forms": [
+          "unexpected"
+        ],
+        "rationale": "s03的an unexpected problem用形容词表示没料到的日期不符，后句只读截止日漏读生效日解释意外缘由，搭配自然。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-23",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "dca2ccae06682a76907d2dc31f43cc1bcb521e25a7af107dadc889acce790902",
+    "status": "accepted",
+    "rationale": "完整复读第二版：标题与新情景标签均用诊疗而非手术，符合s01未限定种类的procedure。来电者表达维生素与准备信中的用药疑问，接待员明确应由临床团队解答；s07请求当日两点后回电，s08只承诺代为请求并说明尚不能确认。标题、目标及context均保持请求状态，不声称疑问已传达、回电已排定或医疗建议已给出。",
+    "targets": [
+      {
+        "target_id": "ox-0de15fe2f7783e16",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-23-s01"
+        ],
+        "forms": [
+          "undergo"
+        ],
+        "rationale": "s01的due to undergo a procedure以及物动词表示计划接受诊疗，目标undergo后接程序名词自然，既不等同已完成，也不必限定手术。"
+      },
+      {
+        "target_id": "ox-99434740a6ad4444",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-23-s01"
+        ],
+        "forms": [
+          "vitamin"
+        ],
+        "rationale": "s01的a vitamin supplement以名词vitamin修饰supplement说明维生素补充剂，来电只是提出相关疑问，没有隐含剂量或停药指示。"
+      },
+      {
+        "target_id": "ox-e718b67610d060bd",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-23-s03"
+        ],
+        "forms": [
+          "acute"
+        ],
+        "rationale": "s03的acute pain以形容词限定急性或剧烈疼痛，在否定句中回答是否有新问题的询问，和中文选定义项吻合。"
+      },
+      {
+        "target_id": "ox-fec5df87a64531ba",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-23-s05"
+        ],
+        "forms": [
+          "administer"
+        ],
+        "rationale": "s05的a nurse will administer the medicine以及物动词表护士给予药物，来源为来电者转述准备信，非接待员擅自指示用药。"
+      },
+      {
+        "target_id": "ox-bab8a40ae24ea1c1",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-23-s06"
+        ],
+        "forms": [
+          "vital"
+        ],
+        "rationale": "s06的It is vital that the clinical team...以形容词强调由临床团队回答的重要性，that从句准确补出至关重要的事项。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-24",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "71fdfb93642905d6717b0d9be4ed1db036ea0c3b36501a9cc6ddb1a1d2f4145e",
+    "status": "accepted",
+    "rationale": "完整复读第二版：新标签只称约定私下了解流程并先核对笔记，与s05请求旁室会面、解释流程和阅读笔记，s06同意私谈且转交前另核对的承诺一致。标题及目标也保留请求和将来会面状态，已去除流程已明确和请求转交的错误；结尾仅确认第一步，不假称完成正式投诉、公开发信或授予转发权限。",
+    "targets": [
+      {
+        "target_id": "ox-618604c0c3e70c4c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-24-s01"
+        ],
+        "forms": [
+          "abuse"
+        ],
+        "rationale": "s01的verbal abuse以不可数名词表示昨天会议中的言语辱骂，verbal明确所选恶言伤害义，不是物品滥用。"
+      },
+      {
+        "target_id": "ox-fecd3d62a15cd479",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-24-s01"
+        ],
+        "forms": [
+          "unacceptable"
+        ],
+        "rationale": "s01的was unacceptable以形容词表语表达当事人对辱骂行为不能接受的判断，后文求助方式与此判断自然相连。"
+      },
+      {
+        "target_id": "ox-e043ee3cd5c861ec",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-24-s04"
+        ],
+        "forms": [
+          "urge"
+        ],
+        "rationale": "s04的would urge you to decide采用动词urge加宾语及to不定式，表达力劝在了解流程后自己决定分享范围，未替当事人决定发送。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-25",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "cf8bef9cf9dea8bef6b843259c33df369726c91949e3b917861e44b1ec23149d",
+    "status": "accepted",
+    "rationale": "讨论把适应性器材附加费的废除提案列入会员议程，分清受邀倡议者只发言、不作为会员投票的权限。s05至s06明确介绍成本、听取发言、提问再表决的顺序，标题和目标不称费用已废除或表决已完成。",
+    "targets": [
+      {
+        "target_id": "ox-c253ada37923df2b",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-25-s01"
+        ],
+        "forms": [
+          "abolish"
+        ],
+        "rationale": "s01的 abolish the extra fee 用及物动词表示正式取消一项收费安排，would like 和 proposal 表明仍是提案。"
+      },
+      {
+        "target_id": "ox-33efa42000c5ae77",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-25-s02"
+        ],
+        "forms": [
+          "activist"
+        ],
+        "rationale": "s02的 The activist we invited 以名词指听取残障运动员障碍经历的倡议者，指人义清晰，不把她描述为具有投票权的会员。"
+      },
+      {
+        "target_id": "ox-b25ec3dd474d651e",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-25-s03"
+        ],
+        "forms": [
+          "advocate"
+        ],
+        "rationale": "s03的 advocate removing the fee 用及物动词接动名词，说明说话者支持取消费用，避免错误接to不定式。"
+      },
+      {
+        "target_id": "ox-458959c46f8261ea",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-25-s05"
+        ],
+        "forms": [
+          "voting"
+        ],
+        "rationale": "s05的 before voting begins 用名词 voting 作从句主语，表示投票表决活动，不是进行时动词或形容词。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-26",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "09bb51e9660a0ef190afe3f213f8872015d39e6b6add8cb846f4307e5b981b36",
+    "status": "accepted",
+    "rationale": "资金用途问题以给定资助协议回答，明确总额二百英镑、每次每人十英镑凭收据且余款不可挪用；双方随后分清核票、留记录和最终报告责任。标题、目标均准确描述核对与分工，未将未来改表或提交说成完成。",
+    "targets": [
+      {
+        "target_id": "ox-3547fad676324594",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-26-s01"
+        ],
+        "forms": [
+          "allocation"
+        ],
+        "rationale": "s01的 a travel allocation of two hundred pounds 用名词指已拨的出行款项，具体金额令其不同于抽象分配动作。"
+      },
+      {
+        "target_id": "ox-cf11266a92e62b71",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-26-s01"
+        ],
+        "forms": [
+          "allocate"
+        ],
+        "rationale": "s01的 allocate any of it to refreshments 用及物动词加 to 说明把部分钱分配给茶点用途，问题随后被否定，搭配和所选义项成立。"
+      },
+      {
+        "target_id": "ox-dcdac814fb3d3386",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-26-s02"
+        ],
+        "forms": [
+          "accordance"
+        ],
+        "rationale": "s02的 in accordance with this agreement 中 accordance 是固定介词结构里的名词，表达依照协议；省略回答结合后句表示协议不允许挪作茶点。"
+      },
+      {
+        "target_id": "ox-2f1fe36d6ea336be",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-26-s03"
+        ],
+        "forms": [
+          "allowance"
+        ],
+        "rationale": "s03的 travel allowance 用名词指参与者每次出行补助，十英镑与凭收据条件使津贴义明确。"
+      },
+      {
+        "target_id": "ox-f182915181910008",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-26-s05"
+        ],
+        "forms": [
+          "accordingly"
+        ],
+        "rationale": "s05的 adjust the worksheet accordingly 用副词表示根据刚澄清的用途相应改表，指代前文规则自然。"
+      },
+      {
+        "target_id": "ox-7b65d3956ccee980",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-26-s06"
+        ],
+        "forms": [
+          "accountability"
+        ],
+        "rationale": "s06的 For accountability 用抽象名词说明保留收据及核对者姓名是为了责任可追踪，不是会计总额。"
+      },
+      {
+        "target_id": "ox-a3779553ff5489e3",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-26-s07"
+        ],
+        "forms": [
+          "accountable"
+        ],
+        "rationale": "s07的 accountable for the final report 用形容词加 for 问最终报告责任人，s08清楚回答Oscar，语义和分工一致。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-27",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "e496808eb09d4b211510a2bd5094b1376eeca39323d33a7666967967a51bbc6a",
+    "status": "accepted",
+    "rationale": "课堂报道修订逐步区分摄像机失窃指控、目击黑包的证言及被指控者否认。s07明确提出保留归属和否认的新句，s08选定该句；标题和目标指纠正写法而非证明案件事实，不夸大审理状态。",
+    "targets": [
+      {
+        "target_id": "ox-5c1c1c3bf0d1066d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-27-s01"
+        ],
+        "forms": [
+          "accused"
+        ],
+        "rationale": "s01的 the accused 是所选名词用法，指被指控的人，作为 took 从句主语而非在修饰另一个名词。"
+      },
+      {
+        "target_id": "ox-7a7b4b76baff735a",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-27-s02"
+        ],
+        "forms": [
+          "accusation"
+        ],
+        "rationale": "s02的 the accusation 与 not a finding 对照，用名词指尚未被认定事实的指控。"
+      },
+      {
+        "target_id": "ox-51088dccbc52deff",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-27-s03"
+        ],
+        "forms": [
+          "allege"
+        ],
+        "rationale": "s03的 Two witnesses allege that... 以动词接that从句，报告证人的未证实声称，后文限制只能报道其所说内容。"
+      },
+      {
+        "target_id": "ox-c05e4a4e84098954",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-27-s04"
+        ],
+        "forms": [
+          "allegation"
+        ],
+        "rationale": "s04的 The allegation about the camera 用名词加 about 指相机方面的指控，still disputed 明确未获证实。"
+      },
+      {
+        "target_id": "ox-71bfded8bdf9d909",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-27-s05"
+        ],
+        "forms": [
+          "allegedly"
+        ],
+        "rationale": "s05的 allegedly 修饰 took，表达据称而不是作者保证事实；后文说明仍需来源及否认，正确教出该副词的证据局限。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-28",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "afdcfc2317284ce5202a1bca86ddd85b99fd14540681eb57ec9417ed1e866732",
+    "status": "accepted",
+    "rationale": "学员提出保留早一次报名、撤去重复报名，管理人员核对编号且确认无付款后取得明确同意。s06取消完成并出示记录，s07核对两编号，标题和目标的保留名额与取得取消记录均有实证而非承诺。",
+    "targets": [
+      {
+        "target_id": "ox-65fc604b0989e1ad",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-28-s01"
+        ],
+        "forms": [
+          "workshop"
+        ],
+        "rationale": "s01的 pottery workshop 以名词指陶艺实践课程，注册和Saturday session 建立研习班义，不是工厂车间。"
+      },
+      {
+        "target_id": "ox-c4756f0d43f4e278",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-28-s01"
+        ],
+        "forms": [
+          "withdraw"
+        ],
+        "rationale": "s01的 withdraw the second booking 用及物动词表达撤回第二份重复报名，与保留first和后续cancel同一对象，中文撤回符合本处意图。"
+      },
+      {
+        "target_id": "ox-b84658a9edbbc189",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-28-s02"
+        ],
+        "forms": [
+          "administrative"
+        ],
+        "rationale": "s02的 an administrative matter 用形容词说明报名处理属于管理事务，并与teaching question形成自然对照。"
+      },
+      {
+        "target_id": "ox-a10df0729bf59520",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-28-s02"
+        ],
+        "forms": [
+          "administrator"
+        ],
+        "rationale": "s02的 course administrator 用名词指负责课程管理的人，随后核对编号并取消重复项，角色和权限连贯。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-29",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "a45174a1bffeb0dd9b8e99f2b94be3b648db52435e4c5dd8352e2743341074a0",
+    "status": "accepted",
+    "rationale": "家长与教师核对两日缺课只错过演示，商定提出录像加两题、周五提交的小调整，并先私下征询学生。s07明确不把细节说成已替学生定好，标题的商定与目标的先商量保留这一边界，不假称学生已同意。",
+    "targets": [
+      {
+        "target_id": "ox-7cf4c5fc216c3828",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-29-s01"
+        ],
+        "forms": [
+          "absent"
+        ],
+        "rationale": "s01的 was absent on Monday and Tuesday 用形容词表语表示两日未到课，具体时间明确，不是心不在焉义。"
+      },
+      {
+        "target_id": "ox-d65d1a771972231f",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-29-s02"
+        ],
+        "forms": [
+          "absence"
+        ],
+        "rationale": "s02的 Her absence 用名词作主语指前述缺席，说明漏掉演示的后果，与形容词 absent 区分清楚。"
+      },
+      {
+        "target_id": "ox-4eda9da3fa884a10",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-29-s02"
+        ],
+        "forms": [
+          "adjustment"
+        ],
+        "rationale": "s02的 A small adjustment 用可数名词指补课安排的小修改，s04和s06具体说明内容量与期限的调整。"
+      },
+      {
+        "target_id": "ox-2db83cafc2cdf148",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-29-s03"
+        ],
+        "forms": [
+          "adolescent"
+        ],
+        "rationale": "s03的 As an adolescent 用带冠词的名词指青少年本人，不是修饰另一个名词的形容词；背景十六岁与角色吻合。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-30",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "cdb75658004f5e39da1de5993d941b7ae0368c455aaf85bfa32b13c279947e07",
+    "status": "accepted",
+    "rationale": "抬起灯罩发现电线可见，引出是否拔电的核对；s03确认已先拔电且未碰线，双方决定不回推不自行测试并送修。标题与目标准确区分已拔电、发现问题与将来送检，不假称维修完成。",
+    "targets": [
+      {
+        "target_id": "ox-ba665a4154fe80db",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-30-s01"
+        ],
+        "forms": [
+          "upwards"
+        ],
+        "rationale": "s01的 tilted the shade upwards 用方向副词说明灯罩向上倾斜，英式 upwards 与来源 UK 记录和家庭口语相符。"
+      },
+      {
+        "target_id": "ox-92da32abf4fdf25c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-30-s01"
+        ],
+        "forms": [
+          "wire"
+        ],
+        "rationale": "s01的 a wire 是可数名词，灯具和插电核对使电线义明确，并非电报或动词接线。"
+      },
+      {
+        "target_id": "ox-0870653c1da53c6c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-30-s01"
+        ],
+        "forms": [
+          "visible"
+        ],
+        "rationale": "s01的 is visible 用形容词表语表示可以看到电线，behind the fitting 指定位置；并不额外声称已诊断具体故障。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-31",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "acc18825191bce2305d05c10a0f7a2dd4f812ad6e6b0e23978a932d22786a38a",
+    "status": "accepted",
+    "rationale": "店员说明相似杯形与不同手绘图案，顾客明确选蓝条纹并要求保护制作者标签；店员答应礼盒加纸且杯上不贴胶带。s07确认选款和包装方案，标题与目标只称选定及约定，不声称已付款或已包装完成。",
+    "targets": [
+      {
+        "target_id": "ox-38b393520c77fc37",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-31-s01"
+        ],
+        "forms": [
+          "alike"
+        ],
+        "rationale": "s01的 look alike 用 alike 作连系动词后的表语形容词，指两只杯子看起来相像，不是动作以同样方式进行的副词。"
+      },
+      {
+        "target_id": "ox-fc1cdfa26b4e07fe",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-31-s02"
+        ],
+        "forms": [
+          "unique"
+        ],
+        "rationale": "s02的 each painted pattern is unique 以形容词表语说明每个手绘图案独特，随后条纹与圆点的对比具体化差异。"
+      },
+      {
+        "target_id": "ox-10d36aaaa568d64d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-31-s04"
+        ],
+        "forms": [
+          "wrap"
+        ],
+        "rationale": "s04的 Would you like me to wrap it 用及物动词及代词宾语询问礼物包装，后续商定纸和礼盒保持同一对象。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-32",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "71dded9d38f480c8bd122dcad06464b10cc3a8370cecff2a8025cd8bd3e56e0c",
+    "status": "accepted",
+    "rationale": "赶工提案要求取消测试，与承诺受测产品相矛盾；团队明确保留检查并改为检测期间预备包装，未完成则如实报告。标题与目标对应拒绝原方案和选择并行准备，未把准备、测试或交付说成已经完成。",
+    "targets": [
+      {
+        "target_id": "ox-e246629ad1fcd183",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-32-s01"
+        ],
+        "forms": [
+          "accelerate"
+        ],
+        "rationale": "s01的 accelerate production 用及物动词表示加快生产，by skipping...说明提出的方式，后文拒绝该方式而非否认词义。"
+      },
+      {
+        "target_id": "ox-da490ec48b297d2d",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-32-s02"
+        ],
+        "forms": [
+          "absurd"
+        ],
+        "rationale": "s02的 It would be absurd to promise... 用形容词评价取消测试却承诺测试过的产品不合逻辑，语义具体而非单纯骂人。"
+      },
+      {
+        "target_id": "ox-c853382040803130",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-32-s02"
+        ],
+        "forms": [
+          "adhere"
+        ],
+        "rationale": "s02的 adhere to the agreed checks 保留必需介词to，动词表示遵守既定检查而不是物体粘附，和留测试的决定一致。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-33",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "476af2ca6ea8eeab928b2975c134e40e462844e1613fa14ae40d6ef70915eb2a",
+    "status": "accepted",
+    "rationale": "居民先说明城市共享花园愿景且此次只问流程，助理提供周二三点十五分钟会面并约定提前五分钟接待、先送一页提纲。双方接受具体时间，标题与目标准确称会面确认，不把提纲发送或建设批准当作完成。",
+    "targets": [
+      {
+        "target_id": "ox-07c0c8f369d2d50c",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-33-s01"
+        ],
+        "forms": [
+          "urban"
+        ],
+        "rationale": "s01的 urban garden 用形容词说明城市里的花园，空地和居民共同种植语境清楚。"
+      },
+      {
+        "target_id": "ox-e736b9213f491a13",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-33-s01"
+        ],
+        "forms": [
+          "aide"
+        ],
+        "rationale": "s01的 the councillor’s aide 是名词，指议员助理；s02确认身份，随后预约和接待行为符合该角色。"
+      },
+      {
+        "target_id": "ox-def7ae5d56267923",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-33-s03"
+        ],
+        "forms": [
+          "vision"
+        ],
+        "rationale": "s03的 Our vision 用名词指未来希望建立的共同种植场所，后文明确尚非建设批准，因此不是视觉或既存设施。"
+      },
+      {
+        "target_id": "ox-617b7eb41596c8d5",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-33-s04"
+        ],
+        "forms": [
+          "albeit"
+        ],
+        "rationale": "s04的 albeit a short one 用连词引入省略让步结构，承认有时段但较短，十五分钟给出准确内容；正式行政语域可接受。"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "p09-c-34",
+    "reviewer": "reviewer-phase09-c",
+    "dialogue_sha256": "79fac3da0b7e1cb82a20f423d6b4243e4d8c4e6573efe7e201eddf9f1ea9d63c",
+    "status": "accepted",
+    "rationale": "来访者要求私下了解人工流产信息，接待员区分信息咨询与同意治疗，再提供周四十点并在接受后明确已预约。标题与目标关于私下咨询时间的确认有s08完成态依据，不把预约等同于手术同意或提供医疗建议。",
+    "targets": [
+      {
+        "target_id": "ox-b241988f6bb354ab",
+        "status": "accepted",
+        "sentence_ids": [
+          "p09-c-34-s01"
+        ],
+        "forms": [
+          "abortion"
+        ],
+        "rationale": "s01的 information about abortion 以名词表示人工终止妊娠这一信息咨询主题，后文procedure和treatment只用于澄清未作承诺，所选义项准确且语气尊重。"
+      }
+    ]
+  }
+]

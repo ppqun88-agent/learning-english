@@ -1,0 +1,126 @@
+{
+  "id": "p09-b-18",
+  "title_zh": "约定按署名表更正联合说明会采访稿",
+  "topic_id": "work",
+  "scenario": {
+    "id": "joint-briefing-speaker-attribution",
+    "label_zh": "约定按署名表更正联合说明会采访稿",
+    "goal_zh": "核对三位发言人的机构身份与发言次序，并约定据此更正采访稿"
+  },
+  "participants": [
+    "Pia",
+    "Lewis"
+  ],
+  "context_zh": "虚构联合说明会后，两位记者依现场署名表和录音核对三位发言人。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-18-s01",
+      "speaker": "Pia",
+      "text": "I've mixed up the speakers in my notes. Was Luis speaking for the school?"
+    },
+    {
+      "id": "p09-b-18-s02",
+      "speaker": "Lewis",
+      "text": "No. The name sheet lists him as the council spokesman. He spoke first about the road closure."
+    },
+    {
+      "id": "p09-b-18-s03",
+      "speaker": "Pia",
+      "text": "Then Mara was the campaign spokeswoman, asking for a crossing near the school?"
+    },
+    {
+      "id": "p09-b-18-s04",
+      "speaker": "Lewis",
+      "text": "Exactly. And Dev was the school's spokesperson. Dev spoke last, about the entrance pupils use."
+    },
+    {
+      "id": "p09-b-18-s05",
+      "speaker": "Pia",
+      "text": "That explains the timing on the recording. I'd put Dev's answer under Luis's name."
+    },
+    {
+      "id": "p09-b-18-s06",
+      "speaker": "Lewis",
+      "text": "Use the name sheet for their titles and the recording for who said what. Don't attribute the campaign's demand to the council."
+    },
+    {
+      "id": "p09-b-18-s07",
+      "speaker": "Pia",
+      "text": "I'll correct those three attributions before sending the draft back to you."
+    },
+    {
+      "id": "p09-b-18-s08",
+      "speaker": "Lewis",
+      "text": "Thanks. I'll check the corrected version against the recording."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b13ea30d56ded405",
+      "lemma": "spokesman",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-b13ea30d56ded405-p09-b-18",
+      "sense_zh": "男发言人",
+      "sentence_ids": [
+        "p09-b-18-s02"
+      ],
+      "forms": [
+        "spokesman"
+      ]
+    },
+    {
+      "target_id": "ox-e12d300e4645dde0",
+      "lemma": "spokeswoman",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-e12d300e4645dde0-p09-b-18",
+      "sense_zh": "女发言人",
+      "sentence_ids": [
+        "p09-b-18-s03"
+      ],
+      "forms": [
+        "spokeswoman"
+      ]
+    },
+    {
+      "target_id": "ox-59d84c55b2a3ae23",
+      "lemma": "spokesperson",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-59d84c55b2a3ae23-p09-b-18",
+      "sense_zh": "发言人",
+      "sentence_ids": [
+        "p09-b-18-s04"
+      ],
+      "forms": [
+        "spokesperson"
+      ]
+    },
+    {
+      "target_id": "ox-280c4f1c239d37f3",
+      "lemma": "timing",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-280c4f1c239d37f3-p09-b-18",
+      "sense_zh": "事件发生的时间安排或时序",
+      "sentence_ids": [
+        "p09-b-18-s05"
+      ],
+      "forms": [
+        "timing"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

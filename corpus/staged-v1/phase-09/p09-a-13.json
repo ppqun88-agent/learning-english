@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-13",
+  "title_zh": "约定接替照护一小时并确认联络方式",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "caregiver-break-handover-agreement",
+    "label_zh": "照护者短时休息交接",
+    "goal_zh": "确认亲人愿意接替一小时，约定回来时间与电话联络以便照护者出门休息"
+  },
+  "participants": [
+    "Nora",
+    "Felix"
+  ],
+  "context_zh": "虚构家庭照护场景中，成年兄妹协调陪伴父亲的时间，不涉及治疗决定。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-13-s01",
+      "speaker": "Nora",
+      "text": "Could you relieve me for an hour? I have been here with Dad all afternoon."
+    },
+    {
+      "id": "p09-a-13-s02",
+      "speaker": "Felix",
+      "text": "Of course. I can stay until seven. Have you had anything to eat?"
+    },
+    {
+      "id": "p09-a-13-s03",
+      "speaker": "Nora",
+      "text": "Yes, he and I had soup together. I just need some fresh air."
+    },
+    {
+      "id": "p09-a-13-s04",
+      "speaker": "Felix",
+      "text": "I am relieved to hear that. You sounded as though you had not stopped all day."
+    },
+    {
+      "id": "p09-a-13-s05",
+      "speaker": "Nora",
+      "text": "It is a relief to know I can rely on you. I will be back by six thirty."
+    },
+    {
+      "id": "p09-a-13-s06",
+      "speaker": "Felix",
+      "text": "Go and enjoy the walk. Keep your phone with you, and I will call if either of us needs you."
+    },
+    {
+      "id": "p09-a-13-s07",
+      "speaker": "Nora",
+      "text": "Thanks. It is five thirty now, so that gives me the hour. I'll keep the phone on."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8f6f4c05844166b3",
+      "lemma": "relief",
+      "pos": "n.",
+      "sense_zh": "宽慰；安心",
+      "sentence_ids": [
+        "p09-a-13-s05"
+      ],
+      "forms": [
+        "relief"
+      ],
+      "sense_id": "sense-staged-ox-8f6f4c05844166b3-p09-a-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c771f8a0cb0aacab",
+      "lemma": "relieve",
+      "pos": "v.",
+      "sense_zh": "接替某人工作以让其休息",
+      "sentence_ids": [
+        "p09-a-13-s01"
+      ],
+      "forms": [
+        "relieve"
+      ],
+      "sense_id": "sense-staged-ox-c771f8a0cb0aacab-p09-a-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-faed6d004eda2406",
+      "lemma": "relieved",
+      "pos": "adj.",
+      "sense_zh": "感到宽慰的",
+      "sentence_ids": [
+        "p09-a-13-s04"
+      ],
+      "forms": [
+        "relieved"
+      ],
+      "sense_id": "sense-staged-ox-faed6d004eda2406-p09-a-13",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9ec8d7f5ca358d36",
+      "lemma": "rely",
+      "pos": "v.",
+      "sense_zh": "依靠；信赖",
+      "sentence_ids": [
+        "p09-a-13-s05"
+      ],
+      "forms": [
+        "rely"
+      ],
+      "sense_id": "sense-staged-ox-9ec8d7f5ca358d36-p09-a-13",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

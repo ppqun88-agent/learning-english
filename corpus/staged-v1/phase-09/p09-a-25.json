@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-25",
+  "title_zh": "约定先请店员查看玫瑰根系再选盆",
+  "topic_id": "home",
+  "scenario": {
+    "id": "rose-pot-position-choice",
+    "label_zh": "玫瑰盆栽根系查看请求",
+    "goal_zh": "描述盆底根系和阳台光照，决定请工作人员查看后再选购花盆"
+  },
+  "participants": [
+    "Demi",
+    "Ash"
+  ],
+  "context_zh": "朋友在园艺店入口查看带来的盆栽与陈列花盆，尚未得到园艺人员意见。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-25-s01",
+      "speaker": "Demi",
+      "text": "There is a root sticking out through the hole under this rose. Does it need a bigger pot?"
+    },
+    {
+      "id": "p09-a-25-s02",
+      "speaker": "Ash",
+      "text": "I do not know. Let us ask the staff to look before we buy one."
+    },
+    {
+      "id": "p09-a-25-s03",
+      "speaker": "Demi",
+      "text": "These specially shaped pots would fit along my narrow balcony."
+    },
+    {
+      "id": "p09-a-25-s04",
+      "speaker": "Ash",
+      "text": "Would they leave the plant in the same position?"
+    },
+    {
+      "id": "p09-a-25-s05",
+      "speaker": "Demi",
+      "text": "No. There is much more shade along that wall than where it sits now."
+    },
+    {
+      "id": "p09-a-25-s06",
+      "speaker": "Ash",
+      "text": "Then mention that as well. A pot that fits the space may not solve the problem."
+    },
+    {
+      "id": "p09-a-25-s07",
+      "speaker": "Demi",
+      "text": "Good point. I'll show the staff the root and explain the light before choosing a pot."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-feef07320a95196f",
+      "lemma": "root",
+      "pos": "n.",
+      "sense_zh": "植物的根",
+      "sentence_ids": [
+        "p09-a-25-s01"
+      ],
+      "forms": [
+        "root"
+      ],
+      "sense_id": "sense-staged-ox-feef07320a95196f-p09-a-25",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-abf828206c05112f",
+      "lemma": "rose",
+      "pos": "n.",
+      "sense_zh": "玫瑰植株",
+      "sentence_ids": [
+        "p09-a-25-s01"
+      ],
+      "forms": [
+        "rose"
+      ],
+      "sense_id": "sense-staged-ox-abf828206c05112f-p09-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a10884363915711a",
+      "lemma": "shade",
+      "pos": "n.",
+      "sense_zh": "阴凉处；遮阴",
+      "sentence_ids": [
+        "p09-a-25-s05"
+      ],
+      "forms": [
+        "shade"
+      ],
+      "sense_id": "sense-staged-ox-a10884363915711a-p09-a-25",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d55bf67a543bbe21",
+      "lemma": "shaped",
+      "pos": "adj.",
+      "sense_zh": "具有某种形状的",
+      "sentence_ids": [
+        "p09-a-25-s03"
+      ],
+      "forms": [
+        "shaped"
+      ],
+      "sense_id": "sense-staged-ox-d55bf67a543bbe21-p09-a-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

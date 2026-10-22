@@ -1,0 +1,121 @@
+{
+  "id": "p09-c-17",
+  "title_zh": "先了解狗的收养评估并约好见面",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "shelter-adoption-first-visit-boundary",
+    "label_zh": "了解收养评估并选择先见面而不带走狗",
+    "goal_zh": "说明对狗的行为及福利的担忧，确认需要评估并约定先在工作人员陪同下见面"
+  },
+  "participants": [
+    "Sana",
+    "Kit"
+  ],
+  "context_zh": "虚构动物收容所咨询，访客询问照片中的狗 Moss，不在本次对话中办理收养。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-17-s01",
+      "speaker": "Sana",
+      "text": "Is Moss, the dog in your window photo, available for adoption? I felt real affection for him when I saw it."
+    },
+    {
+      "id": "p09-c-17-s02",
+      "speaker": "Kit",
+      "text": "He's looking for a home, but we arrange a meeting and an assessment before any decision."
+    },
+    {
+      "id": "p09-c-17-s03",
+      "speaker": "Sana",
+      "text": "His description mentions aggression around food. I don't have experience with that."
+    },
+    {
+      "id": "p09-c-17-s04",
+      "speaker": "Kit",
+      "text": "Thank you for telling me. His welfare and a suitable match matter more than a quick placement."
+    },
+    {
+      "id": "p09-c-17-s05",
+      "speaker": "Sana",
+      "text": "Could I meet him with a member of staff rather than take him out on my own?"
+    },
+    {
+      "id": "p09-c-17-s06",
+      "speaker": "Kit",
+      "text": "Yes. We can arrange a supervised meeting here on Saturday at eleven, with no commitment to adopt."
+    },
+    {
+      "id": "p09-c-17-s07",
+      "speaker": "Sana",
+      "text": "Let's do that. I'll come to learn more, not to take him home that day."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e15d5ba2816d9e7d",
+      "lemma": "affection",
+      "pos": "n.",
+      "sense_zh": "喜爱；亲切感情",
+      "sentence_ids": [
+        "p09-c-17-s01"
+      ],
+      "forms": [
+        "affection"
+      ],
+      "sense_id": "sense-staged-ox-e15d5ba2816d9e7d-p09-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-aa0de5203dc4c0d7",
+      "lemma": "adoption",
+      "pos": "n.",
+      "sense_zh": "收养",
+      "sentence_ids": [
+        "p09-c-17-s01"
+      ],
+      "forms": [
+        "adoption"
+      ],
+      "sense_id": "sense-staged-ox-aa0de5203dc4c0d7-p09-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2fbb90c3ebbdee15",
+      "lemma": "aggression",
+      "pos": "n.",
+      "sense_zh": "攻击性行为",
+      "sentence_ids": [
+        "p09-c-17-s03"
+      ],
+      "forms": [
+        "aggression"
+      ],
+      "sense_id": "sense-staged-ox-2fbb90c3ebbdee15-p09-c-17",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1e670a04b41ae7c3",
+      "lemma": "welfare",
+      "pos": "n.",
+      "sense_zh": "健康与福祉",
+      "sentence_ids": [
+        "p09-c-17-s04"
+      ],
+      "forms": [
+        "welfare"
+      ],
+      "sense_id": "sense-staged-ox-1e670a04b41ae7c3-p09-c-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

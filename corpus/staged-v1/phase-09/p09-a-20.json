@@ -1,0 +1,153 @@
+{
+  "id": "p09-a-20",
+  "title_zh": "限定虚构日记展签的解释并约定核对",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "revolution-exhibit-caption-evidence",
+    "label_zh": "虚构定居者日记展签修订安排",
+    "goal_zh": "约定在草稿中保留定居者抵达日期、删去日记解释革命起因的无依据说法，并在印刷前请学者核对修订稿"
+  },
+  "participants": [
+    "Pavel",
+    "Ruth"
+  ],
+  "context_zh": "博物馆写作课堂使用虚构地区、日记与革命材料练习展签编辑，并非真实历史陈述。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-20-s01",
+      "speaker": "Pavel",
+      "text": "Our caption says this diary explains why the revolution began. Does the source card support that?"
+    },
+    {
+      "id": "p09-a-20-s02",
+      "speaker": "Ruth",
+      "text": "No. It only identifies the writer as a settler who arrived ten years before it happened."
+    },
+    {
+      "id": "p09-a-20-s03",
+      "speaker": "Pavel",
+      "text": "Then we are giving the diary a significance that the evidence does not establish."
+    },
+    {
+      "id": "p09-a-20-s04",
+      "speaker": "Ruth",
+      "text": "We should retain the arrival date, but remove the claim about the cause of the revolution."
+    },
+    {
+      "id": "p09-a-20-s05",
+      "speaker": "Pavel",
+      "text": "Would this revision work: \"This diary records one family's first winter in the region\"?"
+    },
+    {
+      "id": "p09-a-20-s06",
+      "speaker": "Ruth",
+      "text": "That matches the extract. The visiting scholar can check the wording against the full diary."
+    },
+    {
+      "id": "p09-a-20-s07",
+      "speaker": "Pavel",
+      "text": "Agreed. I'll keep the date and use that narrower sentence in the draft, then ask her to check it before we print anything."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-00e036e08d9e0d35",
+      "lemma": "retain",
+      "pos": "v.",
+      "sense_zh": "保留",
+      "sentence_ids": [
+        "p09-a-20-s04"
+      ],
+      "forms": [
+        "retain"
+      ],
+      "sense_id": "sense-staged-ox-00e036e08d9e0d35-p09-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1bb30b90cdca5da6",
+      "lemma": "revision",
+      "pos": "n.",
+      "sense_zh": "修改后的表述；修订",
+      "sentence_ids": [
+        "p09-a-20-s05"
+      ],
+      "forms": [
+        "revision"
+      ],
+      "sense_id": "sense-staged-ox-1bb30b90cdca5da6-p09-a-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0e9b6b3bfaf5764c",
+      "lemma": "revolution",
+      "pos": "n.",
+      "sense_zh": "革命",
+      "sentence_ids": [
+        "p09-a-20-s01"
+      ],
+      "forms": [
+        "revolution"
+      ],
+      "sense_id": "sense-staged-ox-0e9b6b3bfaf5764c-p09-a-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-97f94bbe836cbb6e",
+      "lemma": "scholar",
+      "pos": "n.",
+      "sense_zh": "学者",
+      "sentence_ids": [
+        "p09-a-20-s06"
+      ],
+      "forms": [
+        "scholar"
+      ],
+      "sense_id": "sense-staged-ox-97f94bbe836cbb6e-p09-a-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1d5de6d409d4b93f",
+      "lemma": "significance",
+      "pos": "n.",
+      "sense_zh": "重要性；意义",
+      "sentence_ids": [
+        "p09-a-20-s03"
+      ],
+      "forms": [
+        "significance"
+      ],
+      "sense_id": "sense-staged-ox-1d5de6d409d4b93f-p09-a-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8e053c13197d4bfc",
+      "lemma": "settler",
+      "pos": "n.",
+      "sense_zh": "移居当地定居的人",
+      "sentence_ids": [
+        "p09-a-20-s02"
+      ],
+      "forms": [
+        "settler"
+      ],
+      "sense_id": "sense-staged-ox-8e053c13197d4bfc-p09-a-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

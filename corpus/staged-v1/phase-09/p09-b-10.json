@@ -1,0 +1,100 @@
+{
+  "id": "p09-b-10",
+  "title_zh": "选择不参加仪式的寺庙导览",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "temple-audio-tour-interpretation",
+    "label_zh": "选择不参加仪式的寺庙导览",
+    "goal_zh": "澄清语音导览是在介绍当地信仰，并选定只参观开放庭院而不参加仪式"
+  },
+  "participants": [
+    "Hana",
+    "Guide Arun"
+  ],
+  "context_zh": "虚构旅行场景：访客询问寺庙导览内容与可自由选择的参观范围。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-10-s01",
+      "speaker": "Hana",
+      "text": "The audio guide mentions the soul leaving the body. Is the tour asking visitors to accept that belief?"
+    },
+    {
+      "id": "p09-b-10-s02",
+      "speaker": "Guide Arun",
+      "text": "No. It's explaining one belief associated with this temple, not telling visitors what they must believe."
+    },
+    {
+      "id": "p09-b-10-s03",
+      "speaker": "Hana",
+      "text": "I'm interested in its spiritual importance, but I don't want to take part in a ceremony."
+    },
+    {
+      "id": "p09-b-10-s04",
+      "speaker": "Guide Arun",
+      "text": "That's fine. The public tour stays in the open courtyard. Joining the ceremony is a separate choice."
+    },
+    {
+      "id": "p09-b-10-s05",
+      "speaker": "Hana",
+      "text": "Then I'll take the courtyard tour and skip the ceremony."
+    },
+    {
+      "id": "p09-b-10-s06",
+      "speaker": "Guide Arun",
+      "text": "Of course. Meet me beside the information board at two."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-405029f966f4d67f",
+      "lemma": "soul",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-405029f966f4d67f-p09-b-10",
+      "sense_zh": "灵魂",
+      "sentence_ids": [
+        "p09-b-10-s01"
+      ],
+      "forms": [
+        "soul"
+      ]
+    },
+    {
+      "target_id": "ox-9cf1d89c61749856",
+      "lemma": "temple",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-9cf1d89c61749856-p09-b-10",
+      "sense_zh": "寺庙",
+      "sentence_ids": [
+        "p09-b-10-s02"
+      ],
+      "forms": [
+        "temple"
+      ]
+    },
+    {
+      "target_id": "ox-4b273430a82ae587",
+      "lemma": "spiritual",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-4b273430a82ae587-p09-b-10",
+      "sense_zh": "精神或宗教方面的",
+      "sentence_ids": [
+        "p09-b-10-s03"
+      ],
+      "forms": [
+        "spiritual"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

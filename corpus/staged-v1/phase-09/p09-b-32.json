@@ -1,0 +1,110 @@
+{
+  "id": "p09-b-32",
+  "title_zh": "确认代喂猫的份量与关门检查",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "pet-care-feeding-and-door-handover",
+    "label_zh": "确认代喂猫的份量与关门检查",
+    "goal_zh": "核对主人准备的喂食安排，并约定不给额外零食、关门前确认猫的位置"
+  },
+  "participants": [
+    "Arthur",
+    "Lucie"
+  ],
+  "context_zh": "虚构宠物照看交接：照看者按主人留下的既有安排执行，不提供兽医建议。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-32-s01",
+      "speaker": "Arthur",
+      "text": "The two labelled tubs are for tomorrow: one in the morning and one in the evening."
+    },
+    {
+      "id": "p09-b-32-s02",
+      "speaker": "Lucie",
+      "text": "He keeps asking for food. Are you sure he won't starve between meals?"
+    },
+    {
+      "id": "p09-b-32-s03",
+      "speaker": "Arthur",
+      "text": "He does that even when he's just eaten. Please use the portions I've left and don't spoil him with extra treats."
+    },
+    {
+      "id": "p09-b-32-s04",
+      "speaker": "Lucie",
+      "text": "Understood. Is there anything else I should check before I leave?"
+    },
+    {
+      "id": "p09-b-32-s05",
+      "speaker": "Arthur",
+      "text": "He likes hiding in the cupboard. Make sure you don't trap him inside when you shut the door."
+    },
+    {
+      "id": "p09-b-32-s06",
+      "speaker": "Lucie",
+      "text": "I'll check where he is before closing it, and stick to the two tubs. What if I'm unsure about anything?"
+    },
+    {
+      "id": "p09-b-32-s07",
+      "speaker": "Arthur",
+      "text": "Call me rather than guessing. I'll have my phone with me."
+    },
+    {
+      "id": "p09-b-32-s08",
+      "speaker": "Lucie",
+      "text": "All right. I'll come at eight tomorrow morning for the first visit."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-053a583633ed6e04",
+      "lemma": "starve",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-053a583633ed6e04-p09-b-32",
+      "sense_zh": "挨饿；因缺乏食物而受苦",
+      "sentence_ids": [
+        "p09-b-32-s02"
+      ],
+      "forms": [
+        "starve"
+      ]
+    },
+    {
+      "target_id": "ox-df46652a84201cf3",
+      "lemma": "spoil",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-df46652a84201cf3-p09-b-32",
+      "sense_zh": "宠坏；溺爱",
+      "sentence_ids": [
+        "p09-b-32-s03"
+      ],
+      "forms": [
+        "spoil"
+      ]
+    },
+    {
+      "target_id": "ox-42b781a4dad0e700",
+      "lemma": "trap",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-42b781a4dad0e700-p09-b-32",
+      "sense_zh": "使困住",
+      "sentence_ids": [
+        "p09-b-32-s05"
+      ],
+      "forms": [
+        "trap"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,126 @@
+{
+  "id": "p09-b-17",
+  "title_zh": "决定先要求赞助方取消发言稿审批条件",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-sponsorship-editorial-boundary",
+    "label_zh": "决定先要求赞助方取消发言稿审批条件",
+    "goal_zh": "说明社团对赞助条件的分歧，并决定先要求保留独立发言权而不立即接受资助"
+  },
+  "participants": [
+    "Nell",
+    "Karim"
+  ],
+  "context_zh": "虚构社区社团讨论企业提出的活动赞助条件。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-17-s01",
+      "speaker": "Nell",
+      "text": "There's a split in the committee over this offer. Half of us want the money; the others dislike the conditions."
+    },
+    {
+      "id": "p09-b-17-s02",
+      "speaker": "Karim",
+      "text": "What exactly does the sponsor want?"
+    },
+    {
+      "id": "p09-b-17-s03",
+      "speaker": "Nell",
+      "text": "A logo on the programme, which seems fine, but also the right to approve every speech."
+    },
+    {
+      "id": "p09-b-17-s04",
+      "speaker": "Karim",
+      "text": "Our stance should be clear: sponsorship doesn't buy control over what members say."
+    },
+    {
+      "id": "p09-b-17-s05",
+      "speaker": "Nell",
+      "text": "Then should we reject the whole offer?"
+    },
+    {
+      "id": "p09-b-17-s06",
+      "speaker": "Karim",
+      "text": "Let's first ask them to remove the speech-approval condition. We can keep the logo arrangement on the table."
+    },
+    {
+      "id": "p09-b-17-s07",
+      "speaker": "Nell",
+      "text": "Agreed. I'll send that request, but I won't accept the funding on the club's behalf."
+    },
+    {
+      "id": "p09-b-17-s08",
+      "speaker": "Karim",
+      "text": "Good. We'll bring their response back to the committee."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-dd5f17f2bdf39045",
+      "lemma": "split",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-dd5f17f2bdf39045-p09-b-17",
+      "sense_zh": "分歧；意见分裂",
+      "sentence_ids": [
+        "p09-b-17-s01"
+      ],
+      "forms": [
+        "split"
+      ]
+    },
+    {
+      "target_id": "ox-670efec35780c511",
+      "lemma": "sponsor",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-670efec35780c511-p09-b-17",
+      "sense_zh": "赞助者",
+      "sentence_ids": [
+        "p09-b-17-s02"
+      ],
+      "forms": [
+        "sponsor"
+      ]
+    },
+    {
+      "target_id": "ox-0d417189c1ea266f",
+      "lemma": "stance",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-0d417189c1ea266f-p09-b-17",
+      "sense_zh": "立场",
+      "sentence_ids": [
+        "p09-b-17-s04"
+      ],
+      "forms": [
+        "stance"
+      ]
+    },
+    {
+      "target_id": "ox-144da6967f9db7fc",
+      "lemma": "sponsorship",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-144da6967f9db7fc-p09-b-17",
+      "sense_zh": "赞助",
+      "sentence_ids": [
+        "p09-b-17-s04"
+      ],
+      "forms": [
+        "sponsorship"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

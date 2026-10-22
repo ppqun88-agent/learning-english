@@ -1,0 +1,100 @@
+{
+  "id": "p09-a-22",
+  "title_zh": "为保护模型决定延后搬运",
+  "topic_id": "work",
+  "scenario": {
+    "id": "fragile-model-moving-delay",
+    "label_zh": "易损模型搬运延期",
+    "goal_zh": "说明立即搬运的风险，决定等合适箱子到位再搬并通知接收方延期"
+  },
+  "participants": [
+    "Jules",
+    "Amir"
+  ],
+  "context_zh": "展览制作人员准备搬运一个纸制建筑模型。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-22-s01",
+      "speaker": "Jules",
+      "text": "The driver is waiting. Can we carry the model out without a box?"
+    },
+    {
+      "id": "p09-a-22-s02",
+      "speaker": "Amir",
+      "text": "That is risky. One sharp turn could ruin the thin paper towers."
+    },
+    {
+      "id": "p09-a-22-s03",
+      "speaker": "Jules",
+      "text": "I do not want to rush this just because the van is here."
+    },
+    {
+      "id": "p09-a-22-s04",
+      "speaker": "Amir",
+      "text": "Neither do I. The fitted box will be ready tomorrow. We should move the model then."
+    },
+    {
+      "id": "p09-a-22-s05",
+      "speaker": "Jules",
+      "text": "Agreed. I'll tell the gallery the delivery will be a day late and explain why."
+    },
+    {
+      "id": "p09-a-22-s06",
+      "speaker": "Amir",
+      "text": "I'll let the driver know we are not loading it today, and I'll check the box before tomorrow's trip."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ccfda6bee880a8cd",
+      "lemma": "risky",
+      "pos": "adj.",
+      "sense_zh": "有风险的",
+      "sentence_ids": [
+        "p09-a-22-s02"
+      ],
+      "forms": [
+        "risky"
+      ],
+      "sense_id": "sense-staged-ox-ccfda6bee880a8cd-p09-a-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3c32ab5172d0e526",
+      "lemma": "rush",
+      "pos": "v.",
+      "sense_zh": "仓促处理",
+      "sentence_ids": [
+        "p09-a-22-s03"
+      ],
+      "forms": [
+        "rush"
+      ],
+      "sense_id": "sense-staged-ox-3c32ab5172d0e526-p09-a-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2a8180dd194d3b4a",
+      "lemma": "ruin",
+      "pos": "v.",
+      "sense_zh": "毁坏",
+      "sentence_ids": [
+        "p09-a-22-s02"
+      ],
+      "forms": [
+        "ruin"
+      ],
+      "sense_id": "sense-staged-ox-2a8180dd194d3b4a-p09-a-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

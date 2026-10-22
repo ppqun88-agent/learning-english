@@ -1,0 +1,158 @@
+{
+  "id": "p09-b-01",
+  "title_zh": "约好为丧亲同事代领午餐",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "bereaved-colleague-support-choice",
+    "label_zh": "约好为丧亲同事代领午餐",
+    "goal_zh": "听取丧亲同事对慰问方式的感受，并约定代领午餐而不转发私人消息"
+  },
+  "participants": [
+    "Marta",
+    "Elias"
+  ],
+  "context_zh": "虚构办公室场景：同事失去亲人后返回工作岗位，两人讨论怎样提供他真正需要的支持。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-01-s01",
+      "speaker": "Marta",
+      "text": "I'm terribly sorry about your brother, Elias. Would you rather I left you alone today?"
+    },
+    {
+      "id": "p09-b-01-s02",
+      "speaker": "Elias",
+      "text": "No, stay. It's been a tough week since he died, but being on my own isn't helping."
+    },
+    {
+      "id": "p09-b-01-s03",
+      "speaker": "Marta",
+      "text": "People have been asking me to pass on their sympathy. I haven't shared your message with anyone."
+    },
+    {
+      "id": "p09-b-01-s04",
+      "speaker": "Elias",
+      "text": "Thank you. I know their concern is sincere. I just can't face answering twenty messages."
+    },
+    {
+      "id": "p09-b-01-s05",
+      "speaker": "Marta",
+      "text": "Would it help if I collected your lunch? I know that won't take away your suffering."
+    },
+    {
+      "id": "p09-b-01-s06",
+      "speaker": "Elias",
+      "text": "It would. You've been sympathetic without making me explain everything."
+    },
+    {
+      "id": "p09-b-01-s07",
+      "speaker": "Marta",
+      "text": "Then I'll pick up the sandwich you ordered. And your message stays between us."
+    },
+    {
+      "id": "p09-b-01-s08",
+      "speaker": "Elias",
+      "text": "Yes, please. That's all I need for now."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-01a71ca11e7ad10a",
+      "lemma": "terribly",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-01a71ca11e7ad10a-p09-b-01",
+      "sense_zh": "非常；极其",
+      "sentence_ids": [
+        "p09-b-01-s01"
+      ],
+      "forms": [
+        "terribly"
+      ]
+    },
+    {
+      "target_id": "ox-3d97173515ddccfb",
+      "lemma": "tough",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-3d97173515ddccfb-p09-b-01",
+      "sense_zh": "艰难的",
+      "sentence_ids": [
+        "p09-b-01-s02"
+      ],
+      "forms": [
+        "tough"
+      ]
+    },
+    {
+      "target_id": "ox-d4174899fbf65351",
+      "lemma": "sympathy",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-d4174899fbf65351-p09-b-01",
+      "sense_zh": "同情与慰问",
+      "sentence_ids": [
+        "p09-b-01-s03"
+      ],
+      "forms": [
+        "sympathy"
+      ]
+    },
+    {
+      "target_id": "ox-c972d6fab7a8c4f3",
+      "lemma": "sincere",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-c972d6fab7a8c4f3-p09-b-01",
+      "sense_zh": "真诚的",
+      "sentence_ids": [
+        "p09-b-01-s04"
+      ],
+      "forms": [
+        "sincere"
+      ]
+    },
+    {
+      "target_id": "ox-5f63df0c0269dfa3",
+      "lemma": "suffering",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-5f63df0c0269dfa3-p09-b-01",
+      "sense_zh": "痛苦",
+      "sentence_ids": [
+        "p09-b-01-s05"
+      ],
+      "forms": [
+        "suffering"
+      ]
+    },
+    {
+      "target_id": "ox-9e06b1845ebb8424",
+      "lemma": "sympathetic",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-9e06b1845ebb8424-p09-b-01",
+      "sense_zh": "体谅他人的；有同情心的",
+      "sentence_ids": [
+        "p09-b-01-s06"
+      ],
+      "forms": [
+        "sympathetic"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

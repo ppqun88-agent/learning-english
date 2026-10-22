@@ -1,0 +1,100 @@
+{
+  "id": "p09-b-15",
+  "title_zh": "决定不给汤加辣并先放凉",
+  "topic_id": "food",
+  "scenario": {
+    "id": "soup-spice-and-cooling-choice",
+    "label_zh": "决定不给汤加辣并先放凉",
+    "goal_zh": "说明汤的调味和温度感受，并决定不加辣椒、放凉后再喝"
+  },
+  "participants": [
+    "Rosie",
+    "Ben"
+  ],
+  "context_zh": "两位朋友在午餐桌旁尝汤并商量是否额外调味。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-15-s01",
+      "speaker": "Rosie",
+      "text": "What's the spice in this soup? It smells warm and sweet, but not like chilli."
+    },
+    {
+      "id": "p09-b-15-s02",
+      "speaker": "Ben",
+      "text": "The recipe uses cinnamon. There are chilli flakes on the table if you want some heat."
+    },
+    {
+      "id": "p09-b-15-s03",
+      "speaker": "Rosie",
+      "text": "No, I like it as it is. There's still a lot of steam coming off it, though."
+    },
+    {
+      "id": "p09-b-15-s04",
+      "speaker": "Ben",
+      "text": "I tried a spoonful too soon. It was too hot to swallow comfortably."
+    },
+    {
+      "id": "p09-b-15-s05",
+      "speaker": "Rosie",
+      "text": "Let's leave it for a few minutes and eat the bread first. I'm not adding any chilli."
+    },
+    {
+      "id": "p09-b-15-s06",
+      "speaker": "Ben",
+      "text": "Same here. The flavour's strong enough already."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-69a79aa4e0e6450f",
+      "lemma": "spice",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-69a79aa4e0e6450f-p09-b-15",
+      "sense_zh": "香料",
+      "sentence_ids": [
+        "p09-b-15-s01"
+      ],
+      "forms": [
+        "spice"
+      ]
+    },
+    {
+      "target_id": "ox-ed6719234311ef3e",
+      "lemma": "steam",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-ed6719234311ef3e-p09-b-15",
+      "sense_zh": "蒸汽",
+      "sentence_ids": [
+        "p09-b-15-s03"
+      ],
+      "forms": [
+        "steam"
+      ]
+    },
+    {
+      "target_id": "ox-ec171ab68ec530c0",
+      "lemma": "swallow",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-ec171ab68ec530c0-p09-b-15",
+      "sense_zh": "吞咽",
+      "sentence_ids": [
+        "p09-b-15-s04"
+      ],
+      "forms": [
+        "swallow"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,121 @@
+{
+  "id": "p09-c-07",
+  "title_zh": "启用图书馆打印额度并核对记录",
+  "topic_id": "services",
+  "scenario": {
+    "id": "library-print-credit-activation",
+    "label_zh": "启用打印额度并核对使用记录",
+    "goal_zh": "发现打印额度未启用，完成启用和一页测试后核对使用记录"
+  },
+  "participants": [
+    "Ellis",
+    "Noor"
+  ],
+  "context_zh": "读者在图书馆服务台处理打印额度问题。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-07-s01",
+      "speaker": "Ellis",
+      "text": "This is weird. My account shows five pounds of credit, but the printer says I have none."
+    },
+    {
+      "id": "p09-c-07-s02",
+      "speaker": "Noor",
+      "text": "The credit is there, but activation isn't complete. Did you open the confirmation message?"
+    },
+    {
+      "id": "p09-c-07-s03",
+      "speaker": "Ellis",
+      "text": "No. I thought the credit would be ready as soon as I paid. The receipt seemed useless."
+    },
+    {
+      "id": "p09-c-07-s04",
+      "speaker": "Noor",
+      "text": "It contains an activation button. Open it while you're signed in, then try one page."
+    },
+    {
+      "id": "p09-c-07-s05",
+      "speaker": "Ellis",
+      "text": "That worked. The page has printed. Where can I check what it cost?"
+    },
+    {
+      "id": "p09-c-07-s06",
+      "speaker": "Noor",
+      "text": "Open the usage tab. It lists each print job and the remaining credit."
+    },
+    {
+      "id": "p09-c-07-s07",
+      "speaker": "Ellis",
+      "text": "I can see the one-page job and the new balance now. Thanks."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-877850d463f9ee9c",
+      "lemma": "weird",
+      "pos": "adj.",
+      "sense_zh": "奇怪的",
+      "sentence_ids": [
+        "p09-c-07-s01"
+      ],
+      "forms": [
+        "weird"
+      ],
+      "sense_id": "sense-staged-ox-877850d463f9ee9c-p09-c-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b8548dc47c3ce770",
+      "lemma": "activation",
+      "pos": "n.",
+      "sense_zh": "启用",
+      "sentence_ids": [
+        "p09-c-07-s02"
+      ],
+      "forms": [
+        "activation"
+      ],
+      "sense_id": "sense-staged-ox-b8548dc47c3ce770-p09-c-07",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2b5fa673233bf681",
+      "lemma": "useless",
+      "pos": "adj.",
+      "sense_zh": "无用的",
+      "sentence_ids": [
+        "p09-c-07-s03"
+      ],
+      "forms": [
+        "useless"
+      ],
+      "sense_id": "sense-staged-ox-2b5fa673233bf681-p09-c-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-520a5fbacbb5f467",
+      "lemma": "usage",
+      "pos": "n.",
+      "sense_zh": "使用情况",
+      "sentence_ids": [
+        "p09-c-07-s06"
+      ],
+      "forms": [
+        "usage"
+      ],
+      "sense_id": "sense-staged-ox-520a5fbacbb5f467-p09-c-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

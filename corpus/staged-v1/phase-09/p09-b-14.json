@@ -1,0 +1,137 @@
+{
+  "id": "p09-b-14",
+  "title_zh": "约定先查借阅记录再判断档案箱去向",
+  "topic_id": "work",
+  "scenario": {
+    "id": "missing-archive-box-evidence",
+    "label_zh": "约定先查借阅记录再判断档案箱去向",
+    "goal_zh": "区分档案箱不在原位与失窃猜测，并约定先追查借阅记录"
+  },
+  "participants": [
+    "Nadia",
+    "Felix"
+  ],
+  "context_zh": "档案室同事发现一个箱子不在架上，避免在没有证据时指责他人。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-14-s01",
+      "speaker": "Nadia",
+      "text": "The photograph box is gone. I suspect someone borrowed it without signing it out."
+    },
+    {
+      "id": "p09-b-14-s02",
+      "speaker": "Felix",
+      "text": "Possibly, but let's not speculate about who took it. Have you checked yesterday's loan records?"
+    },
+    {
+      "id": "p09-b-14-s03",
+      "speaker": "Nadia",
+      "text": "Only the paper sheet. There's nothing on it. Should I report a theft?"
+    },
+    {
+      "id": "p09-b-14-s04",
+      "speaker": "Felix",
+      "text": "We don't know that anything was stolen. At the moment, that's speculation."
+    },
+    {
+      "id": "p09-b-14-s05",
+      "speaker": "Nadia",
+      "text": "Right. Can we trace the box through the electronic requests?"
+    },
+    {
+      "id": "p09-b-14-s06",
+      "speaker": "Felix",
+      "text": "Yes. I'll check those while you ask the reading-room team whether they have it."
+    },
+    {
+      "id": "p09-b-14-s07",
+      "speaker": "Nadia",
+      "text": "Agreed. We'll compare what we find before describing it as stolen."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3cf98554c56c72c7",
+      "lemma": "suspect",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-3cf98554c56c72c7-p09-b-14",
+      "sense_zh": "猜想；怀疑",
+      "sentence_ids": [
+        "p09-b-14-s01"
+      ],
+      "forms": [
+        "suspect"
+      ]
+    },
+    {
+      "target_id": "ox-ace117d14c5fee3b",
+      "lemma": "speculate",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-ace117d14c5fee3b-p09-b-14",
+      "sense_zh": "推测",
+      "sentence_ids": [
+        "p09-b-14-s02"
+      ],
+      "forms": [
+        "speculate"
+      ]
+    },
+    {
+      "target_id": "ox-b4193f08f3eec104",
+      "lemma": "theft",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-b4193f08f3eec104-p09-b-14",
+      "sense_zh": "盗窃",
+      "sentence_ids": [
+        "p09-b-14-s03"
+      ],
+      "forms": [
+        "theft"
+      ]
+    },
+    {
+      "target_id": "ox-b4869182111185ab",
+      "lemma": "speculation",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-b4869182111185ab-p09-b-14",
+      "sense_zh": "猜测",
+      "sentence_ids": [
+        "p09-b-14-s04"
+      ],
+      "forms": [
+        "speculation"
+      ]
+    },
+    {
+      "target_id": "ox-4c9fbca3d3681866",
+      "lemma": "trace",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-4c9fbca3d3681866-p09-b-14",
+      "sense_zh": "追查；追踪去向",
+      "sentence_ids": [
+        "p09-b-14-s05"
+      ],
+      "forms": [
+        "trace"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

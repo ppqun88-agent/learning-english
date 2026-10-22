@@ -1,0 +1,137 @@
+{
+  "id": "p09-a-04",
+  "title_zh": "订单增长后商定分批交付提议",
+  "topic_id": "work",
+  "scenario": {
+    "id": "rapid-order-growth-deadline-check",
+    "label_zh": "快速增长订单的交期核对",
+    "goal_zh": "依据包装能力确定可合理承诺的数量，并决定向客户提出分批交付"
+  },
+  "participants": [
+    "Priya",
+    "Dan"
+  ],
+  "context_zh": "两位小型印刷工作室同事在回复客户前核对产能。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-04-s01",
+      "speaker": "Priya",
+      "text": "The client wants a rapid response about the delivery date."
+    },
+    {
+      "id": "p09-a-04-s02",
+      "speaker": "Dan",
+      "text": "Orders are coming in rapidly, but we still have only two people packing them."
+    },
+    {
+      "id": "p09-a-04-s03",
+      "speaker": "Priya",
+      "text": "Is Friday a realistic date for all two hundred sets?"
+    },
+    {
+      "id": "p09-a-04-s04",
+      "speaker": "Dan",
+      "text": "No. We can reasonably promise a hundred by Friday. The rest would need until Monday."
+    },
+    {
+      "id": "p09-a-04-s05",
+      "speaker": "Priya",
+      "text": "I reckon they could use the first hundred at the opening and the rest next week."
+    },
+    {
+      "id": "p09-a-04-s06",
+      "speaker": "Dan",
+      "text": "Maybe, but let's ask rather than assume. Offer those two dates and explain the quantities."
+    },
+    {
+      "id": "p09-a-04-s07",
+      "speaker": "Priya",
+      "text": "Agreed. I'll send that proposal now and wait for their answer before confirming the job."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-edc6a58f112a5bb3",
+      "lemma": "realistic",
+      "pos": "adj.",
+      "sense_zh": "现实可行的",
+      "sentence_ids": [
+        "p09-a-04-s03"
+      ],
+      "forms": [
+        "realistic"
+      ],
+      "sense_id": "sense-staged-ox-edc6a58f112a5bb3-p09-a-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f9eccb79baca4684",
+      "lemma": "reasonably",
+      "pos": "adv.",
+      "sense_zh": "合理地；有充分依据地",
+      "sentence_ids": [
+        "p09-a-04-s04"
+      ],
+      "forms": [
+        "reasonably"
+      ],
+      "sense_id": "sense-staged-ox-f9eccb79baca4684-p09-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-810119a736726f14",
+      "lemma": "reckon",
+      "pos": "v.",
+      "sense_zh": "认为；估计",
+      "sentence_ids": [
+        "p09-a-04-s05"
+      ],
+      "forms": [
+        "reckon"
+      ],
+      "sense_id": "sense-staged-ox-810119a736726f14-p09-a-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-529ea23be946a119",
+      "lemma": "rapid",
+      "pos": "adj.",
+      "sense_zh": "迅速的",
+      "sentence_ids": [
+        "p09-a-04-s01"
+      ],
+      "forms": [
+        "rapid"
+      ],
+      "sense_id": "sense-staged-ox-529ea23be946a119-p09-a-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-192e4f387f07e4b7",
+      "lemma": "rapidly",
+      "pos": "adv.",
+      "sense_zh": "迅速地",
+      "sentence_ids": [
+        "p09-a-04-s02"
+      ],
+      "forms": [
+        "rapidly"
+      ],
+      "sense_id": "sense-staged-ox-192e4f387f07e4b7-p09-a-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

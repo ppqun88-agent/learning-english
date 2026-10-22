@@ -1,0 +1,89 @@
+{
+  "id": "p09-a-17",
+  "title_zh": "约定俱乐部秘书辞职日期和交接清单",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-secretary-retirement-handover",
+    "label_zh": "俱乐部秘书退休搬家交接",
+    "goal_zh": "明确秘书将在月底辞职，约定先列出交接清单再寻找接任者"
+  },
+  "participants": [
+    "Arthur",
+    "Bea"
+  ],
+  "context_zh": "虚构社区俱乐部中，现任秘书与主席商量离任交接，尚未向全体成员发送通知。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-17-s01",
+      "speaker": "Arthur",
+      "text": "My retirement starts next month, and I will be moving closer to my daughter."
+    },
+    {
+      "id": "p09-a-17-s02",
+      "speaker": "Bea",
+      "text": "Does that mean you want to leave the club committee as well?"
+    },
+    {
+      "id": "p09-a-17-s03",
+      "speaker": "Arthur",
+      "text": "Yes. I need to resign as secretary at the end of this month."
+    },
+    {
+      "id": "p09-a-17-s04",
+      "speaker": "Bea",
+      "text": "Thank you for telling me early. Could you list the monthly tasks and where the records are kept?"
+    },
+    {
+      "id": "p09-a-17-s05",
+      "speaker": "Arthur",
+      "text": "Certainly. I'll have a handover list ready by Friday, but I don't know anyone who could take over."
+    },
+    {
+      "id": "p09-a-17-s06",
+      "speaker": "Bea",
+      "text": "That is fine. Let's use your list to explain the role before we ask for volunteers."
+    },
+    {
+      "id": "p09-a-17-s07",
+      "speaker": "Arthur",
+      "text": "Agreed. I will stay responsible for the records until the last day of the month."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-fbad99089a8de8ee",
+      "lemma": "resign",
+      "pos": "v.",
+      "sense_zh": "辞去职务",
+      "sentence_ids": [
+        "p09-a-17-s03"
+      ],
+      "forms": [
+        "resign"
+      ],
+      "sense_id": "sense-staged-ox-fbad99089a8de8ee-p09-a-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c5ca240bc919d67e",
+      "lemma": "retirement",
+      "pos": "n.",
+      "sense_zh": "退休",
+      "sentence_ids": [
+        "p09-a-17-s01"
+      ],
+      "forms": [
+        "retirement"
+      ],
+      "sense_id": "sense-staged-ox-c5ca240bc919d67e-p09-a-17",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

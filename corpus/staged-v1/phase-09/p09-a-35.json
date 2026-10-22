@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-35",
+  "title_zh": "反馈研讨课提速并约定增加提问停顿",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "seminar-session-pace-feedback",
+    "label_zh": "研讨课节奏反馈与调整",
+    "goal_zh": "说明本周课程节奏明显加快及练习不足，约定下次课每个例子后留出提问时间"
+  },
+  "participants": [
+    "Sana",
+    "Victor"
+  ],
+  "context_zh": "成人课程学员向讲师反馈本周研讨课节奏。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-35-s01",
+      "speaker": "Sana",
+      "text": "Could we talk about the seminar? This week felt significantly faster than the first one."
+    },
+    {
+      "id": "p09-a-35-s02",
+      "speaker": "Victor",
+      "text": "I covered more examples, so that is useful to hear. Where did you lose track?"
+    },
+    {
+      "id": "p09-a-35-s03",
+      "speaker": "Sana",
+      "text": "After the second example. There was no time to try the method before you moved on."
+    },
+    {
+      "id": "p09-a-35-s04",
+      "speaker": "Victor",
+      "text": "That is a significant change from last week, when we paused after each example. I should not have removed all those pauses."
+    },
+    {
+      "id": "p09-a-35-s05",
+      "speaker": "Sana",
+      "text": "Could we have a moment for questions in the next session, even if it means fewer examples?"
+    },
+    {
+      "id": "p09-a-35-s06",
+      "speaker": "Victor",
+      "text": "Yes. I will pause after each example, let you try the step, and take questions before moving on."
+    },
+    {
+      "id": "p09-a-35-s07",
+      "speaker": "Sana",
+      "text": "That sounds better. I would rather understand two examples than rush through four."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b8c688034428d024",
+      "lemma": "seminar",
+      "pos": "n.",
+      "sense_zh": "研讨课",
+      "sentence_ids": [
+        "p09-a-35-s01"
+      ],
+      "forms": [
+        "seminar"
+      ],
+      "sense_id": "sense-staged-ox-b8c688034428d024-p09-a-35",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9017846dd9c946d1",
+      "lemma": "session",
+      "pos": "n.",
+      "sense_zh": "一节课程；一次活动",
+      "sentence_ids": [
+        "p09-a-35-s05"
+      ],
+      "forms": [
+        "session"
+      ],
+      "sense_id": "sense-staged-ox-9017846dd9c946d1-p09-a-35",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c61350d4e01f45d2",
+      "lemma": "significant",
+      "pos": "adj.",
+      "sense_zh": "显著的；重要的",
+      "sentence_ids": [
+        "p09-a-35-s04"
+      ],
+      "forms": [
+        "significant"
+      ],
+      "sense_id": "sense-staged-ox-c61350d4e01f45d2-p09-a-35",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5898dc8c15fd0015",
+      "lemma": "significantly",
+      "pos": "adv.",
+      "sense_zh": "显著地；明显地",
+      "sentence_ids": [
+        "p09-a-35-s01"
+      ],
+      "forms": [
+        "significantly"
+      ],
+      "sense_id": "sense-staged-ox-5898dc8c15fd0015-p09-a-35",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

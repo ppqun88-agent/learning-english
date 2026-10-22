@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-19",
+  "title_zh": "核算住宿交通估价并约定索取费用明细",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "rural-resort-cost-comparison",
+    "label_zh": "乡间度假村费用比较",
+    "goal_zh": "把交通加入两处住宿估价，确认可能节省约三十英镑并决定先索取完整报价再预订"
+  },
+  "participants": [
+    "Elena",
+    "Max"
+  ],
+  "context_zh": "朋友为虚构周末行程比较宣传单价格，所有金额仅用于对话练习。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-19-s01",
+      "speaker": "Elena",
+      "text": "The rural resort is two hundred and forty pounds for two nights. The hotel in town is three hundred and thirty."
+    },
+    {
+      "id": "p09-a-19-s02",
+      "speaker": "Max",
+      "text": "The resort has no station pickup. A return taxi would be roughly sixty pounds, according to this estimate."
+    },
+    {
+      "id": "p09-a-19-s03",
+      "speaker": "Elena",
+      "text": "So the total would be about three hundred, not two hundred and forty."
+    },
+    {
+      "id": "p09-a-19-s04",
+      "speaker": "Max",
+      "text": "Right. The hotel includes its station shuttle, so the resort would offer a saving of only about thirty pounds."
+    },
+    {
+      "id": "p09-a-19-s05",
+      "speaker": "Elena",
+      "text": "And we have not checked whether breakfast costs extra at the resort."
+    },
+    {
+      "id": "p09-a-19-s06",
+      "speaker": "Max",
+      "text": "Shall we ask for a full price, including breakfast, before booking either one?"
+    },
+    {
+      "id": "p09-a-19-s07",
+      "speaker": "Elena",
+      "text": "Yes. I'll ask for that breakdown. Thirty pounds is only a possible difference until we know all the charges."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f1def162585fe511",
+      "lemma": "resort",
+      "pos": "n.",
+      "sense_zh": "度假村",
+      "sentence_ids": [
+        "p09-a-19-s01"
+      ],
+      "forms": [
+        "resort"
+      ],
+      "sense_id": "sense-staged-ox-f1def162585fe511-p09-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c73a285578413dd5",
+      "lemma": "rural",
+      "pos": "adj.",
+      "sense_zh": "乡村的",
+      "sentence_ids": [
+        "p09-a-19-s01"
+      ],
+      "forms": [
+        "rural"
+      ],
+      "sense_id": "sense-staged-ox-c73a285578413dd5-p09-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dbd6b84bec8b8081",
+      "lemma": "roughly",
+      "pos": "adv.",
+      "sense_zh": "大约",
+      "sentence_ids": [
+        "p09-a-19-s02"
+      ],
+      "forms": [
+        "roughly"
+      ],
+      "sense_id": "sense-staged-ox-dbd6b84bec8b8081-p09-a-19",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b0bee3c854334e8",
+      "lemma": "saving",
+      "pos": "n.",
+      "sense_zh": "省下的金额",
+      "sentence_ids": [
+        "p09-a-19-s04"
+      ],
+      "forms": [
+        "saving"
+      ],
+      "sense_id": "sense-staged-ox-6b0bee3c854334e8-p09-a-19",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

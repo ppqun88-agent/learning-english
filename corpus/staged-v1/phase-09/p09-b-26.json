@@ -1,0 +1,153 @@
+{
+  "id": "p09-b-26",
+  "title_zh": "放弃事故题材影片作为家庭放映",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "sensitive-film-screening-choice",
+    "label_zh": "放弃事故题材影片作为家庭放映",
+    "goal_zh": "核对虚构影片的幸存者视角与悲剧内容，并决定改用轻松短片安排家庭放映"
+  },
+  "participants": [
+    "Esther",
+    "Malik"
+  ],
+  "context_zh": "朋友根据一份虚构电影目录选择家庭聚会影片，片名和情节均为教学创作。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-26-s01",
+      "speaker": "Esther",
+      "text": "Would The Last Crossing work for family night? The cover calls it a tale of courage at sea."
+    },
+    {
+      "id": "p09-b-26-s02",
+      "speaker": "Malik",
+      "text": "It's told by the only survivor of a shipwreck. The catalogue describes it as a tragedy, not a cheerful adventure."
+    },
+    {
+      "id": "p09-b-26-s03",
+      "speaker": "Esther",
+      "text": "Does it actually show the accident?"
+    },
+    {
+      "id": "p09-b-26-s04",
+      "speaker": "Malik",
+      "text": "Briefly, yes. Much of the film is about his terror during the storm and his grief afterwards."
+    },
+    {
+      "id": "p09-b-26-s05",
+      "speaker": "Esther",
+      "text": "That could terrify the younger children. I don't think this is the right evening for a tragic story."
+    },
+    {
+      "id": "p09-b-26-s06",
+      "speaker": "Malik",
+      "text": "Agreed. We could use the light-hearted short film we watched last week instead."
+    },
+    {
+      "id": "p09-b-26-s07",
+      "speaker": "Esther",
+      "text": "Let's do that. We know it suits the group, and nobody has to sit through the shipwreck film."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-572bb83076e88090",
+      "lemma": "tale",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-572bb83076e88090-p09-b-26",
+      "sense_zh": "故事",
+      "sentence_ids": [
+        "p09-b-26-s01"
+      ],
+      "forms": [
+        "tale"
+      ]
+    },
+    {
+      "target_id": "ox-0e7ddc769282ee9e",
+      "lemma": "survivor",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-0e7ddc769282ee9e-p09-b-26",
+      "sense_zh": "幸存者",
+      "sentence_ids": [
+        "p09-b-26-s02"
+      ],
+      "forms": [
+        "survivor"
+      ]
+    },
+    {
+      "target_id": "ox-533c8cb0bd7e7504",
+      "lemma": "tragedy",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-533c8cb0bd7e7504-p09-b-26",
+      "sense_zh": "悲剧作品",
+      "sentence_ids": [
+        "p09-b-26-s02"
+      ],
+      "forms": [
+        "tragedy"
+      ]
+    },
+    {
+      "target_id": "ox-f3918a5ad75325c8",
+      "lemma": "terror",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-f3918a5ad75325c8-p09-b-26",
+      "sense_zh": "极度恐惧",
+      "sentence_ids": [
+        "p09-b-26-s04"
+      ],
+      "forms": [
+        "terror"
+      ]
+    },
+    {
+      "target_id": "ox-6a3bd749d091e2e0",
+      "lemma": "terrify",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-6a3bd749d091e2e0-p09-b-26",
+      "sense_zh": "使极度害怕",
+      "sentence_ids": [
+        "p09-b-26-s05"
+      ],
+      "forms": [
+        "terrify"
+      ]
+    },
+    {
+      "target_id": "ox-f2eb81f326ab9341",
+      "lemma": "tragic",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-f2eb81f326ab9341-p09-b-26",
+      "sense_zh": "悲惨的；悲剧性的",
+      "sentence_ids": [
+        "p09-b-26-s05"
+      ],
+      "forms": [
+        "tragic"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

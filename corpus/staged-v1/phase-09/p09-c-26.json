@@ -1,0 +1,179 @@
+{
+  "id": "p09-c-26",
+  "title_zh": "核对出行补助用途并明确记录责任",
+  "topic_id": "work",
+  "scenario": {
+    "id": "grant-travel-allocation-record",
+    "label_zh": "核对补助用途及责任并分配记录工作",
+    "goal_zh": "按给定资助条件保留出行预算，明确单次补助上限、记录分工和最终负责者"
+  },
+  "participants": [
+    "Imani",
+    "Oscar"
+  ],
+  "context_zh": "虚构项目预算交接练习，金额仅为情景材料。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-26-s01",
+      "speaker": "Imani",
+      "text": "The grant gives us a travel allocation of two hundred pounds. Can we allocate any of it to refreshments?"
+    },
+    {
+      "id": "p09-c-26-s02",
+      "speaker": "Oscar",
+      "text": "Not in accordance with this agreement. That money is reserved for participants' journeys."
+    },
+    {
+      "id": "p09-c-26-s03",
+      "speaker": "Imani",
+      "text": "Understood. The travel allowance is ten pounds per person for each session, with receipts, isn't it?"
+    },
+    {
+      "id": "p09-c-26-s04",
+      "speaker": "Oscar",
+      "text": "Yes. Those are the limits in the letter. If fewer people claim, we record the unused balance rather than spend it elsewhere."
+    },
+    {
+      "id": "p09-c-26-s05",
+      "speaker": "Imani",
+      "text": "I'll adjust the worksheet accordingly and keep the refreshments on a separate line."
+    },
+    {
+      "id": "p09-c-26-s06",
+      "speaker": "Oscar",
+      "text": "For accountability, each payment needs a receipt and the name of the person who checked it."
+    },
+    {
+      "id": "p09-c-26-s07",
+      "speaker": "Imani",
+      "text": "I'll check the receipts. Who is accountable for the final report?"
+    },
+    {
+      "id": "p09-c-26-s08",
+      "speaker": "Oscar",
+      "text": "I am. You keep the payment records, and I'll reconcile the total before submitting the report."
+    },
+    {
+      "id": "p09-c-26-s09",
+      "speaker": "Imani",
+      "text": "Agreed. I'll bring you the records after each session."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-3547fad676324594",
+      "lemma": "allocation",
+      "pos": "n.",
+      "sense_zh": "分配的款项",
+      "sentence_ids": [
+        "p09-c-26-s01"
+      ],
+      "forms": [
+        "allocation"
+      ],
+      "sense_id": "sense-staged-ox-3547fad676324594-p09-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cf11266a92e62b71",
+      "lemma": "allocate",
+      "pos": "v.",
+      "sense_zh": "分配；拨出",
+      "sentence_ids": [
+        "p09-c-26-s01"
+      ],
+      "forms": [
+        "allocate"
+      ],
+      "sense_id": "sense-staged-ox-cf11266a92e62b71-p09-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-dcdac814fb3d3386",
+      "lemma": "accordance",
+      "pos": "n.",
+      "sense_zh": "依照；符合（用于 in accordance with）",
+      "sentence_ids": [
+        "p09-c-26-s02"
+      ],
+      "forms": [
+        "accordance"
+      ],
+      "sense_id": "sense-staged-ox-dcdac814fb3d3386-p09-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2f1fe36d6ea336be",
+      "lemma": "allowance",
+      "pos": "n.",
+      "sense_zh": "补助；津贴",
+      "sentence_ids": [
+        "p09-c-26-s03"
+      ],
+      "forms": [
+        "allowance"
+      ],
+      "sense_id": "sense-staged-ox-2f1fe36d6ea336be-p09-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f182915181910008",
+      "lemma": "accordingly",
+      "pos": "adv.",
+      "sense_zh": "据此；相应地",
+      "sentence_ids": [
+        "p09-c-26-s05"
+      ],
+      "forms": [
+        "accordingly"
+      ],
+      "sense_id": "sense-staged-ox-f182915181910008-p09-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b65d3956ccee980",
+      "lemma": "accountability",
+      "pos": "n.",
+      "sense_zh": "可追责性；责任落实",
+      "sentence_ids": [
+        "p09-c-26-s06"
+      ],
+      "forms": [
+        "accountability"
+      ],
+      "sense_id": "sense-staged-ox-7b65d3956ccee980-p09-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a3779553ff5489e3",
+      "lemma": "accountable",
+      "pos": "adj.",
+      "sense_zh": "负有责任的",
+      "sentence_ids": [
+        "p09-c-26-s07"
+      ],
+      "forms": [
+        "accountable"
+      ],
+      "sense_id": "sense-staged-ox-a3779553ff5489e3-p09-c-26",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

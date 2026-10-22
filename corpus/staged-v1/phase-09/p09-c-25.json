@@ -1,0 +1,116 @@
+{
+  "id": "p09-c-25",
+  "title_zh": "商定俱乐部取消费用提案的表决程序",
+  "topic_id": "community",
+  "scenario": {
+    "id": "club-fee-abolition-vote-proposal",
+    "label_zh": "安排废除俱乐部费用提案的投票程序",
+    "goal_zh": "区分邀请嘉宾发言和会员表决的权限，约定先介绍提案再投票"
+  },
+  "participants": [
+    "Jules",
+    "Neri"
+  ],
+  "context_zh": "虚构运动俱乐部讨论会员会议流程，不涉及现实政治活动。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-25-s01",
+      "speaker": "Jules",
+      "text": "I'd like the club to abolish the extra fee for using the adapted equipment. Can we put that proposal on the agenda?"
+    },
+    {
+      "id": "p09-c-25-s02",
+      "speaker": "Neri",
+      "text": "Yes. The activist we invited could explain the barriers she's heard about from disabled athletes."
+    },
+    {
+      "id": "p09-c-25-s03",
+      "speaker": "Jules",
+      "text": "I advocate removing the fee, but I don't want her to feel responsible for persuading every member."
+    },
+    {
+      "id": "p09-c-25-s04",
+      "speaker": "Neri",
+      "text": "Agreed. She's our guest, not a voting member. We can invite her to speak without asking her to defend our budget."
+    },
+    {
+      "id": "p09-c-25-s05",
+      "speaker": "Jules",
+      "text": "Then let's introduce the costs ourselves, hear her contribution, and allow questions before voting begins."
+    },
+    {
+      "id": "p09-c-25-s06",
+      "speaker": "Neri",
+      "text": "That order works. I'll add the proposal and the voting procedure to the agenda for members to read beforehand."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c253ada37923df2b",
+      "lemma": "abolish",
+      "pos": "v.",
+      "sense_zh": "正式废除",
+      "sentence_ids": [
+        "p09-c-25-s01"
+      ],
+      "forms": [
+        "abolish"
+      ],
+      "sense_id": "sense-staged-ox-c253ada37923df2b-p09-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-33efa42000c5ae77",
+      "lemma": "activist",
+      "pos": "n.",
+      "sense_zh": "积极倡议某项事业的人",
+      "sentence_ids": [
+        "p09-c-25-s02"
+      ],
+      "forms": [
+        "activist"
+      ],
+      "sense_id": "sense-staged-ox-33efa42000c5ae77-p09-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b25ec3dd474d651e",
+      "lemma": "advocate",
+      "pos": "v.",
+      "sense_zh": "公开支持；主张",
+      "sentence_ids": [
+        "p09-c-25-s03"
+      ],
+      "forms": [
+        "advocate"
+      ],
+      "sense_id": "sense-staged-ox-b25ec3dd474d651e-p09-c-25",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-458959c46f8261ea",
+      "lemma": "voting",
+      "pos": "n.",
+      "sense_zh": "投票表决",
+      "sentence_ids": [
+        "p09-c-25-s05"
+      ],
+      "forms": [
+        "voting"
+      ],
+      "sense_id": "sense-staged-ox-458959c46f8261ea-p09-c-25",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,73 @@
+{
+  "id": "p09-a-36",
+  "title_zh": "核对材质后选定便于旅行的真丝围巾",
+  "topic_id": "services",
+  "scenario": {
+    "id": "silk-scarf-shade-choice",
+    "label_zh": "旅行围巾材质与体积选择",
+    "goal_zh": "查看材质标签并比较收纳体积，选定较薄的真丝围巾作为旅行礼物"
+  },
+  "participants": [
+    "Dina",
+    "Shop assistant"
+  ],
+  "context_zh": "顾客为经常出行的成年朋友挑选轻便围巾。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-36-s01",
+      "speaker": "Dina",
+      "text": "This scarf feels very light. Is it silk, or a fabric that just looks like it?"
+    },
+    {
+      "id": "p09-a-36-s02",
+      "speaker": "Shop assistant",
+      "text": "The label says one hundred percent silk. This other scarf is wool and takes up more space."
+    },
+    {
+      "id": "p09-a-36-s03",
+      "speaker": "Dina",
+      "text": "The gift is for a friend who travels with one small bag. Could you fold both so I can compare them?"
+    },
+    {
+      "id": "p09-a-36-s04",
+      "speaker": "Shop assistant",
+      "text": "Of course. Here they are side by side."
+    },
+    {
+      "id": "p09-a-36-s05",
+      "speaker": "Dina",
+      "text": "The thinner one will fit more easily. I will take the silk scarf, please."
+    },
+    {
+      "id": "p09-a-36-s06",
+      "speaker": "Shop assistant",
+      "text": "Certainly. Would you like it in a small gift envelope rather than a box?"
+    },
+    {
+      "id": "p09-a-36-s07",
+      "speaker": "Dina",
+      "text": "Yes, that would be perfect for the bag."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0a232e59f7607cc7",
+      "lemma": "silk",
+      "pos": "n.",
+      "sense_zh": "丝；真丝面料",
+      "sentence_ids": [
+        "p09-a-36-s01"
+      ],
+      "forms": [
+        "silk"
+      ],
+      "sense_id": "sense-staged-ox-0a232e59f7607cc7-p09-a-36",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

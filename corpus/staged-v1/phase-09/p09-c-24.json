@@ -1,0 +1,105 @@
+{
+  "id": "p09-c-24",
+  "title_zh": "请求私下了解职场投诉流程",
+  "topic_id": "work",
+  "scenario": {
+    "id": "workplace-abuse-private-report",
+    "label_zh": "约定私下了解职场投诉流程并先核对笔记",
+    "goal_zh": "说明不愿在公开会议中处理辱骂问题，请代表在私下会面时解释流程并先核对记录"
+  },
+  "participants": [
+    "Leah",
+    "Union representative"
+  ],
+  "context_zh": "虚构工作场所支持咨询，不涉及真实个人指控。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-24-s01",
+      "speaker": "Leah",
+      "text": "The verbal abuse in yesterday's meeting was unacceptable. I want to report it, but not in another meeting with everyone there."
+    },
+    {
+      "id": "p09-c-24-s02",
+      "speaker": "Union representative",
+      "text": "We can talk privately first. You don't have to give me the full account in this reception area."
+    },
+    {
+      "id": "p09-c-24-s03",
+      "speaker": "Leah",
+      "text": "My colleague keeps saying I should send a message to the whole office."
+    },
+    {
+      "id": "p09-c-24-s04",
+      "speaker": "Union representative",
+      "text": "I would urge you to decide what you're comfortable sharing after we discuss the reporting process."
+    },
+    {
+      "id": "p09-c-24-s05",
+      "speaker": "Leah",
+      "text": "Could we meet in the side room now? I'd like you to explain the process and read the notes I've brought before anything is sent."
+    },
+    {
+      "id": "p09-c-24-s06",
+      "speaker": "Union representative",
+      "text": "Yes. We'll talk there, and I won't pass on your notes without checking with you."
+    },
+    {
+      "id": "p09-c-24-s07",
+      "speaker": "Leah",
+      "text": "Thank you. That's the first step I want."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-618604c0c3e70c4c",
+      "lemma": "abuse",
+      "pos": "n.",
+      "sense_zh": "辱骂；恶言伤害",
+      "sentence_ids": [
+        "p09-c-24-s01"
+      ],
+      "forms": [
+        "abuse"
+      ],
+      "sense_id": "sense-staged-ox-618604c0c3e70c4c-p09-c-24",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fecd3d62a15cd479",
+      "lemma": "unacceptable",
+      "pos": "adj.",
+      "sense_zh": "不能接受的",
+      "sentence_ids": [
+        "p09-c-24-s01"
+      ],
+      "forms": [
+        "unacceptable"
+      ],
+      "sense_id": "sense-staged-ox-fecd3d62a15cd479-p09-c-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e043ee3cd5c861ec",
+      "lemma": "urge",
+      "pos": "v.",
+      "sense_zh": "敦促；力劝",
+      "sentence_ids": [
+        "p09-c-24-s04"
+      ],
+      "forms": [
+        "urge"
+      ],
+      "sense_id": "sense-staged-ox-e043ee3cd5c861ec-p09-c-24",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

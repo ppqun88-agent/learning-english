@@ -1,0 +1,105 @@
+{
+  "id": "p09-c-04",
+  "title_zh": "为擅借相机道歉并明确以后先问",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "friend-broken-camera-trust-repair",
+    "label_zh": "承认擅借相机并商定修复信任的边界",
+    "goal_zh": "承认未经允许拿走相机造成影响，并同意今后先征得物主同意"
+  },
+  "participants": [
+    "Nina",
+    "Cal"
+  ],
+  "context_zh": "朋友发现相机被擅自借走，两人谈清边界。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-04-s01",
+      "speaker": "Nina",
+      "text": "You took my camera without asking. I needed it for my sister's visit."
+    },
+    {
+      "id": "p09-c-04-s02",
+      "speaker": "Cal",
+      "text": "I'm truly sorry. I assumed you wouldn't mind, and that was wrong."
+    },
+    {
+      "id": "p09-c-04-s03",
+      "speaker": "Nina",
+      "text": "You called the timing unfortunate in your message. The problem wasn't the timing."
+    },
+    {
+      "id": "p09-c-04-s04",
+      "speaker": "Cal",
+      "text": "You're right. It was my decision. I've brought it back, with the battery charged."
+    },
+    {
+      "id": "p09-c-04-s05",
+      "speaker": "Nina",
+      "text": "I need to be able to trust you with my things."
+    },
+    {
+      "id": "p09-c-04-s06",
+      "speaker": "Cal",
+      "text": "From now on, I'll ask before borrowing anything. If you don't reply, I won't take it."
+    },
+    {
+      "id": "p09-c-04-s07",
+      "speaker": "Nina",
+      "text": "That's what I need. Thank you for bringing it back."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-635375ca250aa7fc",
+      "lemma": "truly",
+      "pos": "adv.",
+      "sense_zh": "真诚地；确实",
+      "sentence_ids": [
+        "p09-c-04-s02"
+      ],
+      "forms": [
+        "truly"
+      ],
+      "sense_id": "sense-staged-ox-635375ca250aa7fc-p09-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e44cad0a45be6d83",
+      "lemma": "unfortunate",
+      "pos": "adj.",
+      "sense_zh": "不凑巧的；令人遗憾的",
+      "sentence_ids": [
+        "p09-c-04-s03"
+      ],
+      "forms": [
+        "unfortunate"
+      ],
+      "sense_id": "sense-staged-ox-e44cad0a45be6d83-p09-c-04",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-af51991f716e2cc7",
+      "lemma": "trust",
+      "pos": "v.",
+      "sense_zh": "信任",
+      "sentence_ids": [
+        "p09-c-04-s05"
+      ],
+      "forms": [
+        "trust"
+      ],
+      "sense_id": "sense-staged-ox-af51991f716e2cc7-p09-c-04",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

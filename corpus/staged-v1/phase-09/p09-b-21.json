@@ -1,0 +1,158 @@
+{
+  "id": "p09-b-21",
+  "title_zh": "约定缩小论文的因果结论并补写限制",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "thesis-evidence-limit-revision",
+    "label_zh": "约定缩小论文的因果结论并补写限制",
+    "goal_zh": "区分论文描述的细致程度与因果证据的不足，并约定修改结论及补写研究限制"
+  },
+  "participants": [
+    "Beatrice",
+    "Dr Han"
+  ],
+  "context_zh": "学生与导师讨论虚构小样本课堂项目的论文，不涉及真实研究结论。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-21-s01",
+      "speaker": "Beatrice",
+      "text": "Could you look at the conclusion of my thesis? I say the new seating plan caused the higher scores."
+    },
+    {
+      "id": "p09-b-21-s02",
+      "speaker": "Dr Han",
+      "text": "Your description of the classroom is thorough, but that isn't sufficient evidence of cause and effect."
+    },
+    {
+      "id": "p09-b-21-s03",
+      "speaker": "Beatrice",
+      "text": "I checked the scores thoroughly. Every pupil improved."
+    },
+    {
+      "id": "p09-b-21-s04",
+      "speaker": "Dr Han",
+      "text": "I can see that. But did you record other changes sufficiently carefully, such as extra practice before the second test?"
+    },
+    {
+      "id": "p09-b-21-s05",
+      "speaker": "Beatrice",
+      "text": "No. I only recorded the seating and the scores. So I can't rule out extra practice."
+    },
+    {
+      "id": "p09-b-21-s06",
+      "speaker": "Dr Han",
+      "text": "Exactly. The scores rose after the seating changed; thus, you can describe an association, not establish the cause."
+    },
+    {
+      "id": "p09-b-21-s07",
+      "speaker": "Beatrice",
+      "text": "I'll narrow the conclusion to that association and add the missing information as a limitation."
+    },
+    {
+      "id": "p09-b-21-s08",
+      "speaker": "Dr Han",
+      "text": "Good. Keep the careful description. It will help readers understand exactly what you observed."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2ead58637428bf76",
+      "lemma": "thesis",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-2ead58637428bf76-p09-b-21",
+      "sense_zh": "学位论文",
+      "sentence_ids": [
+        "p09-b-21-s01"
+      ],
+      "forms": [
+        "thesis"
+      ]
+    },
+    {
+      "target_id": "ox-75f16f4dd1fcf9d8",
+      "lemma": "thorough",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-75f16f4dd1fcf9d8-p09-b-21",
+      "sense_zh": "详尽的；周密的",
+      "sentence_ids": [
+        "p09-b-21-s02"
+      ],
+      "forms": [
+        "thorough"
+      ]
+    },
+    {
+      "target_id": "ox-1d0e949c19cc4a5a",
+      "lemma": "sufficient",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-1d0e949c19cc4a5a-p09-b-21",
+      "sense_zh": "足够的",
+      "sentence_ids": [
+        "p09-b-21-s02"
+      ],
+      "forms": [
+        "sufficient"
+      ]
+    },
+    {
+      "target_id": "ox-5c7ba806331d2e6f",
+      "lemma": "thoroughly",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-5c7ba806331d2e6f-p09-b-21",
+      "sense_zh": "仔细而全面地",
+      "sentence_ids": [
+        "p09-b-21-s03"
+      ],
+      "forms": [
+        "thoroughly"
+      ]
+    },
+    {
+      "target_id": "ox-6890ae12a8398013",
+      "lemma": "sufficiently",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-6890ae12a8398013-p09-b-21",
+      "sense_zh": "足够地",
+      "sentence_ids": [
+        "p09-b-21-s04"
+      ],
+      "forms": [
+        "sufficiently"
+      ]
+    },
+    {
+      "target_id": "ox-d3891bb7127b7d93",
+      "lemma": "thus",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-d3891bb7127b7d93-p09-b-21",
+      "sense_zh": "因此",
+      "sentence_ids": [
+        "p09-b-21-s06"
+      ],
+      "forms": [
+        "thus"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

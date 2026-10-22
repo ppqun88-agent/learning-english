@@ -1,0 +1,137 @@
+{
+  "id": "p09-a-29",
+  "title_zh": "询问转行课程资助并找到资格清单入口",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "career-course-scholarship-inquiry",
+    "label_zh": "转行学习的资助条件询问",
+    "goal_zh": "说明求职和转行目标，了解资助并非自动获批且需核对条件，并找到资格清单的查看入口"
+  },
+  "participants": [
+    "Noel",
+    "Farah"
+  ],
+  "context_zh": "虚构成人教育咨询练习中，求职者询问课程资助，不构成真实资助资格或财务建议。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-29-s01",
+      "speaker": "Noel",
+      "text": "I am a job seeker hoping to move into the arts sector. Is this course only for people who already work there?"
+    },
+    {
+      "id": "p09-a-29-s02",
+      "speaker": "Farah",
+      "text": "No. It is designed for people changing careers as well."
+    },
+    {
+      "id": "p09-a-29-s03",
+      "speaker": "Noel",
+      "text": "I want to seek work in a gallery, but I cannot afford the full fee. Is there any help?"
+    },
+    {
+      "id": "p09-a-29-s04",
+      "speaker": "Farah",
+      "text": "There is a scholarship scheme. It covers the course fee for some applicants, but places are limited."
+    },
+    {
+      "id": "p09-a-29-s05",
+      "speaker": "Noel",
+      "text": "Does being unemployed mean I automatically qualify for a scholarship?"
+    },
+    {
+      "id": "p09-a-29-s06",
+      "speaker": "Farah",
+      "text": "No. You need to check the full conditions and submit an application. The eligibility checklist is linked at the bottom of the course page."
+    },
+    {
+      "id": "p09-a-29-s07",
+      "speaker": "Noel",
+      "text": "I can see the link. I'll read the checklist first rather than assume the fee will be covered."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-111b0bb76f0b3270",
+      "lemma": "scheme",
+      "pos": "n.",
+      "sense_zh": "有组织的计划；资助方案",
+      "sentence_ids": [
+        "p09-a-29-s04"
+      ],
+      "forms": [
+        "scheme"
+      ],
+      "sense_id": "sense-staged-ox-111b0bb76f0b3270-p09-a-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6215076a45112d21",
+      "lemma": "scholarship",
+      "pos": "n.",
+      "sense_zh": "奖学金；学习资助",
+      "sentence_ids": [
+        "p09-a-29-s04"
+      ],
+      "forms": [
+        "scholarship"
+      ],
+      "sense_id": "sense-staged-ox-6215076a45112d21-p09-a-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a4888960989702a1",
+      "lemma": "seek",
+      "pos": "v.",
+      "sense_zh": "寻求；寻找",
+      "sentence_ids": [
+        "p09-a-29-s03"
+      ],
+      "forms": [
+        "seek"
+      ],
+      "sense_id": "sense-staged-ox-a4888960989702a1-p09-a-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b00b84717bcd37fd",
+      "lemma": "seeker",
+      "pos": "n.",
+      "sense_zh": "寻求者",
+      "sentence_ids": [
+        "p09-a-29-s01"
+      ],
+      "forms": [
+        "seeker"
+      ],
+      "sense_id": "sense-staged-ox-b00b84717bcd37fd-p09-a-29",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ebef3297219ca491",
+      "lemma": "sector",
+      "pos": "n.",
+      "sense_zh": "行业；领域",
+      "sentence_ids": [
+        "p09-a-29-s01"
+      ],
+      "forms": [
+        "sector"
+      ],
+      "sense_id": "sense-staged-ox-ebef3297219ca491-p09-a-29",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

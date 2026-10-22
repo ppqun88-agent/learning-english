@@ -1,0 +1,127 @@
+{
+  "id": "p09-b-27",
+  "title_zh": "决定先联系捐赠者再处理外套与照片",
+  "topic_id": "community",
+  "scenario": {
+    "id": "donated-coat-label-handling",
+    "label_zh": "决定先联系捐赠者再处理外套与照片",
+    "goal_zh": "检查捐赠外套时发现附有纪念说明的照片，并决定保留标签、先联系捐赠者再处理"
+  },
+  "participants": [
+    "Faye",
+    "Imran"
+  ],
+  "context_zh": "社区志愿者整理捐赠衣物，在有破损的外套中发现一张照片。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-27-s01",
+      "speaker": "Faye",
+      "text": "There's a hole in this coat. I can put my thumb right through it. Should it go in the recycling pile?"
+    },
+    {
+      "id": "p09-b-27-s02",
+      "speaker": "Imran",
+      "text": "Not yet. Read the tag: 'Please contact me before recycling.' There's a phone number underneath."
+    },
+    {
+      "id": "p09-b-27-s03",
+      "speaker": "Faye",
+      "text": "And there's a photograph tucked into the pocket. It's caught on the lining."
+    },
+    {
+      "id": "p09-b-27-s04",
+      "speaker": "Imran",
+      "text": "Don't tear it while you're pulling it out. Let's leave it there for now."
+    },
+    {
+      "id": "p09-b-27-s05",
+      "speaker": "Faye",
+      "text": "I can read the note on the back: 'Dad's last picture'. This may be a real treasure to the person who donated the coat."
+    },
+    {
+      "id": "p09-b-27-s06",
+      "speaker": "Imran",
+      "text": "Then we should ask them about both the photograph and the coat before doing anything else."
+    },
+    {
+      "id": "p09-b-27-s07",
+      "speaker": "Faye",
+      "text": "Agreed. I'll put the whole coat in the hold box with the tag still attached, and call the donor."
+    },
+    {
+      "id": "p09-b-27-s08",
+      "speaker": "Imran",
+      "text": "Thanks. We won't send it for recycling until we've spoken to them."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-168cc7e35951457d",
+      "lemma": "thumb",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-168cc7e35951457d-p09-b-27",
+      "sense_zh": "拇指",
+      "sentence_ids": [
+        "p09-b-27-s01"
+      ],
+      "forms": [
+        "thumb"
+      ]
+    },
+    {
+      "target_id": "ox-9807f14dbf8f4aaf",
+      "lemma": "tag",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-9807f14dbf8f4aaf-p09-b-27",
+      "sense_zh": "标签",
+      "sentence_ids": [
+        "p09-b-27-s02",
+        "p09-b-27-s07"
+      ],
+      "forms": [
+        "tag"
+      ]
+    },
+    {
+      "target_id": "ox-6ed67565948b0694",
+      "lemma": "tear",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-6ed67565948b0694-p09-b-27",
+      "sense_zh": "撕破",
+      "sentence_ids": [
+        "p09-b-27-s04"
+      ],
+      "forms": [
+        "tear"
+      ]
+    },
+    {
+      "target_id": "ox-39e23bfba165331f",
+      "lemma": "treasure",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-39e23bfba165331f-p09-b-27",
+      "sense_zh": "珍爱之物；珍宝",
+      "sentence_ids": [
+        "p09-b-27-s05"
+      ],
+      "forms": [
+        "treasure"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

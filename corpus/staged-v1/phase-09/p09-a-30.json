@@ -1,0 +1,105 @@
+{
+  "id": "p09-a-30",
+  "title_zh": "修正虚构参议院提案的表决状态",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-senate-resolution-classification",
+    "label_zh": "虚构参议院提案与通过状态",
+    "goal_zh": "区分议员提交提案和参议院通过决议，将课堂图表状态改为等待表决"
+  },
+  "participants": [
+    "Dara",
+    "Colin"
+  ],
+  "context_zh": "公民教育课堂使用完全虚构的参议院卡片练习机构与程序用语，不涉及现实政治新闻。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-30-s01",
+      "speaker": "Dara",
+      "text": "This card says the senator has submitted a resolution asking for longer library hours."
+    },
+    {
+      "id": "p09-a-30-s02",
+      "speaker": "Colin",
+      "text": "So can I write that the senate has approved the change?"
+    },
+    {
+      "id": "p09-a-30-s03",
+      "speaker": "Dara",
+      "text": "No. The next card says the vote is scheduled for Thursday. One member has proposed it, but the chamber has not decided."
+    },
+    {
+      "id": "p09-a-30-s04",
+      "speaker": "Colin",
+      "text": "Then the status should be \"awaiting a vote,\" not \"approved.\""
+    },
+    {
+      "id": "p09-a-30-s05",
+      "speaker": "Dara",
+      "text": "Exactly. We can show the proposal reaching the chamber without drawing an arrow to implementation."
+    },
+    {
+      "id": "p09-a-30-s06",
+      "speaker": "Colin",
+      "text": "I have changed the status box to \"awaiting a vote\" and removed that final arrow."
+    },
+    {
+      "id": "p09-a-30-s07",
+      "speaker": "Dara",
+      "text": "That now matches the cards. Leave the result open until the exercise gives us the vote."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a0f3ee50baac0314",
+      "lemma": "senate",
+      "pos": "n.",
+      "sense_zh": "参议院",
+      "sentence_ids": [
+        "p09-a-30-s02"
+      ],
+      "forms": [
+        "senate"
+      ],
+      "sense_id": "sense-staged-ox-a0f3ee50baac0314-p09-a-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-09003216b088086a",
+      "lemma": "senator",
+      "pos": "n.",
+      "sense_zh": "参议员",
+      "sentence_ids": [
+        "p09-a-30-s01"
+      ],
+      "forms": [
+        "senator"
+      ],
+      "sense_id": "sense-staged-ox-09003216b088086a-p09-a-30",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-460a5e936cd3a76a",
+      "lemma": "resolution",
+      "pos": "n.",
+      "sense_zh": "提交审议的正式决议案",
+      "sentence_ids": [
+        "p09-a-30-s01"
+      ],
+      "forms": [
+        "resolution"
+      ],
+      "sense_id": "sense-staged-ox-460a5e936cd3a76a-p09-a-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

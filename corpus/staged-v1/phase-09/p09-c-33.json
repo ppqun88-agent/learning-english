@@ -1,0 +1,121 @@
+{
+  "id": "p09-c-33",
+  "title_zh": "确认社区花园提案的短时会面",
+  "topic_id": "community",
+  "scenario": {
+    "id": "community-chair-briefing-support",
+    "label_zh": "确认短时会面及助理接待安排",
+    "goal_zh": "向议员助理说明城市花园设想，确认短时会面并约定先交一页说明"
+  },
+  "participants": [
+    "Alma",
+    "Brent"
+  ],
+  "context_zh": "虚构社区提案预约，不涉及真实议员或政治游说。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-33-s01",
+      "speaker": "Alma",
+      "text": "I'm hoping to discuss an urban garden on the empty lot. Are you the councillor's aide?"
+    },
+    {
+      "id": "p09-c-33-s02",
+      "speaker": "Brent",
+      "text": "Yes. What would you want the meeting to focus on?"
+    },
+    {
+      "id": "p09-c-33-s03",
+      "speaker": "Alma",
+      "text": "Our vision is a place where residents can grow food together. At this stage, we're asking about the process, not approval to build."
+    },
+    {
+      "id": "p09-c-33-s04",
+      "speaker": "Brent",
+      "text": "We have a slot on Tuesday at three, albeit a short one. You would have fifteen minutes."
+    },
+    {
+      "id": "p09-c-33-s05",
+      "speaker": "Alma",
+      "text": "That's enough for an initial conversation. Could I send a one-page outline first?"
+    },
+    {
+      "id": "p09-c-33-s06",
+      "speaker": "Brent",
+      "text": "Please do. I'll include it in the briefing and meet you at reception at five to three."
+    },
+    {
+      "id": "p09-c-33-s07",
+      "speaker": "Alma",
+      "text": "Thank you. I'll send the outline and come to reception then."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-07c0c8f369d2d50c",
+      "lemma": "urban",
+      "pos": "adj.",
+      "sense_zh": "城市的",
+      "sentence_ids": [
+        "p09-c-33-s01"
+      ],
+      "forms": [
+        "urban"
+      ],
+      "sense_id": "sense-staged-ox-07c0c8f369d2d50c-p09-c-33",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e736b9213f491a13",
+      "lemma": "aide",
+      "pos": "n.",
+      "sense_zh": "助理",
+      "sentence_ids": [
+        "p09-c-33-s01"
+      ],
+      "forms": [
+        "aide"
+      ],
+      "sense_id": "sense-staged-ox-e736b9213f491a13-p09-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-def7ae5d56267923",
+      "lemma": "vision",
+      "pos": "n.",
+      "sense_zh": "对未来的构想",
+      "sentence_ids": [
+        "p09-c-33-s03"
+      ],
+      "forms": [
+        "vision"
+      ],
+      "sense_id": "sense-staged-ox-def7ae5d56267923-p09-c-33",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-617b7eb41596c8d5",
+      "lemma": "albeit",
+      "pos": "conj.",
+      "sense_zh": "虽然；尽管",
+      "sentence_ids": [
+        "p09-c-33-s04"
+      ],
+      "forms": [
+        "albeit"
+      ],
+      "sense_id": "sense-staged-ox-617b7eb41596c8d5-p09-c-33",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

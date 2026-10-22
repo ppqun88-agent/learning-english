@@ -1,0 +1,100 @@
+{
+  "id": "p09-c-32",
+  "title_zh": "拒绝跳过测试来加快生产",
+  "topic_id": "work",
+  "scenario": {
+    "id": "production-test-schedule-boundary",
+    "label_zh": "拒绝不现实加速并保留检验步骤",
+    "goal_zh": "说明赶工提案不现实，保留既定测试步骤并改为提前准备包装"
+  },
+  "participants": [
+    "Duncan",
+    "Mei"
+  ],
+  "context_zh": "制造团队讨论虚构内部试产排程，不涉及安全关键系统操作。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-32-s01",
+      "speaker": "Duncan",
+      "text": "Could we accelerate production by skipping the final test on the trial batch?"
+    },
+    {
+      "id": "p09-c-32-s02",
+      "speaker": "Mei",
+      "text": "It would be absurd to promise a tested product after removing the test. We need to adhere to the agreed checks."
+    },
+    {
+      "id": "p09-c-32-s03",
+      "speaker": "Duncan",
+      "text": "I know. I'm trying to find a way to meet the earlier collection time."
+    },
+    {
+      "id": "p09-c-32-s04",
+      "speaker": "Mei",
+      "text": "We can prepare the empty boxes while testing is under way. That saves time without changing what we check."
+    },
+    {
+      "id": "p09-c-32-s05",
+      "speaker": "Duncan",
+      "text": "Let's do that. Keep the tests, and I'll organise the packing materials in advance."
+    },
+    {
+      "id": "p09-c-32-s06",
+      "speaker": "Mei",
+      "text": "Good. If the batch isn't ready, we'll report that rather than mark an unfinished check as complete."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-e246629ad1fcd183",
+      "lemma": "accelerate",
+      "pos": "v.",
+      "sense_zh": "加快",
+      "sentence_ids": [
+        "p09-c-32-s01"
+      ],
+      "forms": [
+        "accelerate"
+      ],
+      "sense_id": "sense-staged-ox-e246629ad1fcd183-p09-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-da490ec48b297d2d",
+      "lemma": "absurd",
+      "pos": "adj.",
+      "sense_zh": "荒谬的；不合道理的",
+      "sentence_ids": [
+        "p09-c-32-s02"
+      ],
+      "forms": [
+        "absurd"
+      ],
+      "sense_id": "sense-staged-ox-da490ec48b297d2d-p09-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c853382040803130",
+      "lemma": "adhere",
+      "pos": "v.",
+      "sense_zh": "遵守（与 to 连用）",
+      "sentence_ids": [
+        "p09-c-32-s02"
+      ],
+      "forms": [
+        "adhere"
+      ],
+      "sense_id": "sense-staged-ox-c853382040803130-p09-c-32",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

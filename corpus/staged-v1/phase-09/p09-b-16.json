@@ -1,0 +1,121 @@
+{
+  "id": "p09-b-16",
+  "title_zh": "为排练中的咒骂道歉并约定改用暂停",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "rehearsal-insult-apology-boundary",
+    "label_zh": "为排练中的咒骂道歉并约定改用暂停",
+    "goal_zh": "听取排练冲突造成的感受，承认咒骂冒犯，并约定以后用暂停请求代替"
+  },
+  "participants": [
+    "Tomas",
+    "Yara"
+  ],
+  "context_zh": "虚构业余剧团场景：一位成员为排练争执中的言语向队友道歉。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-16-s01",
+      "speaker": "Tomas",
+      "text": "I'm sorry I shouted at you in rehearsal. There was a lot of tension in the room, but that wasn't your fault."
+    },
+    {
+      "id": "p09-b-16-s02",
+      "speaker": "Yara",
+      "text": "It felt as if you wanted to hurt me out of spite because I'd questioned your idea."
+    },
+    {
+      "id": "p09-b-16-s03",
+      "speaker": "Tomas",
+      "text": "I was embarrassed and reacted badly. I shouldn't swear at you just because we disagree."
+    },
+    {
+      "id": "p09-b-16-s04",
+      "speaker": "Yara",
+      "text": "And when you stare at me without saying anything afterwards, I don't know whether it's safe to speak."
+    },
+    {
+      "id": "p09-b-16-s05",
+      "speaker": "Tomas",
+      "text": "I understand. If I need a break, I'll say so instead of shouting or glaring."
+    },
+    {
+      "id": "p09-b-16-s06",
+      "speaker": "Yara",
+      "text": "All right. Let's agree that either of us can ask for a pause, without being mocked for it."
+    },
+    {
+      "id": "p09-b-16-s07",
+      "speaker": "Tomas",
+      "text": "Agreed. And I'm sorry for what I said, not just for making the rehearsal awkward."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-94331809e3ed242a",
+      "lemma": "tension",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-94331809e3ed242a-p09-b-16",
+      "sense_zh": "紧张气氛",
+      "sentence_ids": [
+        "p09-b-16-s01"
+      ],
+      "forms": [
+        "tension"
+      ]
+    },
+    {
+      "target_id": "ox-844d9615f60802d1",
+      "lemma": "spite",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-844d9615f60802d1-p09-b-16",
+      "sense_zh": "恶意；怨恨",
+      "sentence_ids": [
+        "p09-b-16-s02"
+      ],
+      "forms": [
+        "spite"
+      ]
+    },
+    {
+      "target_id": "ox-8ddf0e352a64bf07",
+      "lemma": "swear",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-8ddf0e352a64bf07-p09-b-16",
+      "sense_zh": "咒骂；说脏话",
+      "sentence_ids": [
+        "p09-b-16-s03"
+      ],
+      "forms": [
+        "swear"
+      ]
+    },
+    {
+      "target_id": "ox-d18bfd018052a03e",
+      "lemma": "stare",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-d18bfd018052a03e-p09-b-16",
+      "sense_zh": "盯着看",
+      "sentence_ids": [
+        "p09-b-16-s04"
+      ],
+      "forms": [
+        "stare"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,110 @@
+{
+  "id": "p09-b-06",
+  "title_zh": "决定只补进售罄的蓝色杯子",
+  "topic_id": "work",
+  "scenario": {
+    "id": "market-stall-restock-limit",
+    "label_zh": "决定只补进售罄的蓝色杯子",
+    "goal_zh": "核对市集摊位的存货与补货资金，并决定只补进售罄的蓝色杯子"
+  },
+  "participants": [
+    "Otis",
+    "Mei"
+  ],
+  "context_zh": "市集摊主与搭档在收摊后安排下一次摆摊的存货。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-06-s01",
+      "speaker": "Otis",
+      "text": "Before we pack up the stall, can we check what we need for next Saturday?"
+    },
+    {
+      "id": "p09-b-06-s02",
+      "speaker": "Mei",
+      "text": "We've sold all the blue mugs, but there's plenty of stock left in the other colours."
+    },
+    {
+      "id": "p09-b-06-s03",
+      "speaker": "Otis",
+      "text": "I'd like to order another box of every colour."
+    },
+    {
+      "id": "p09-b-06-s04",
+      "speaker": "Mei",
+      "text": "We've set aside a sum of eighty pounds for restocking. That won't cover four boxes."
+    },
+    {
+      "id": "p09-b-06-s05",
+      "speaker": "Otis",
+      "text": "How much is one box of blue mugs?"
+    },
+    {
+      "id": "p09-b-06-s06",
+      "speaker": "Mei",
+      "text": "Fifty pounds, including delivery. And we already have enough red, green and white ones for another market."
+    },
+    {
+      "id": "p09-b-06-s07",
+      "speaker": "Otis",
+      "text": "Then let's order just the blue ones and keep the remaining thirty pounds for now."
+    },
+    {
+      "id": "p09-b-06-s08",
+      "speaker": "Mei",
+      "text": "Agreed. I'll place that order tomorrow."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bd1d319ab6c993c6",
+      "lemma": "stall",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-bd1d319ab6c993c6-p09-b-06",
+      "sense_zh": "摊位",
+      "sentence_ids": [
+        "p09-b-06-s01"
+      ],
+      "forms": [
+        "stall"
+      ]
+    },
+    {
+      "target_id": "ox-bb46ba8747350466",
+      "lemma": "stock",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-bb46ba8747350466-p09-b-06",
+      "sense_zh": "存货",
+      "sentence_ids": [
+        "p09-b-06-s02"
+      ],
+      "forms": [
+        "stock"
+      ]
+    },
+    {
+      "target_id": "ox-cf09b8ef2aa32fe6",
+      "lemma": "sum",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-cf09b8ef2aa32fe6-p09-b-06",
+      "sense_zh": "一笔金额",
+      "sentence_ids": [
+        "p09-b-06-s04"
+      ],
+      "forms": [
+        "sum"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

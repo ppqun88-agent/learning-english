@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-31",
+  "title_zh": "说明临时安置点毛毯短缺并请求库存核对",
+  "topic_id": "community",
+  "scenario": {
+    "id": "storm-shelter-blanket-shortage",
+    "label_zh": "风暴安置点物资短缺沟通",
+    "goal_zh": "说明场地受损与安置点毛毯缺口，约定向仓库询问库存后回报是否能够供货"
+  },
+  "participants": [
+    "Imani",
+    "Peter"
+  ],
+  "context_zh": "虚构应急沟通练习中，两位社区工作人员协调风暴后的物资，不提供真实灾情或现场救援指令。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-31-s01",
+      "speaker": "Imani",
+      "text": "The severe storm has forced more families to leave their homes. Can we use the school hall?"
+    },
+    {
+      "id": "p09-a-31-s02",
+      "speaker": "Peter",
+      "text": "No. The roof was severely damaged. The sports centre is the temporary shelter listed on our update."
+    },
+    {
+      "id": "p09-a-31-s03",
+      "speaker": "Imani",
+      "text": "The team there reports a shortage of blankets. They have twelve, but they need twenty."
+    },
+    {
+      "id": "p09-a-31-s04",
+      "speaker": "Peter",
+      "text": "So they are asking for eight more. I can check the supply warehouse."
+    },
+    {
+      "id": "p09-a-31-s05",
+      "speaker": "Imani",
+      "text": "Please do, but do not promise a delivery before you know what is available."
+    },
+    {
+      "id": "p09-a-31-s06",
+      "speaker": "Peter",
+      "text": "Understood. I'll ask about stock and transport, then call you with a confirmed answer."
+    },
+    {
+      "id": "p09-a-31-s07",
+      "speaker": "Imani",
+      "text": "Thanks. I'll tell the shelter team we are checking, not that the blankets are already on the way."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ac101fb143b02f97",
+      "lemma": "severe",
+      "pos": "adj.",
+      "sense_zh": "严重的；猛烈的",
+      "sentence_ids": [
+        "p09-a-31-s01"
+      ],
+      "forms": [
+        "severe"
+      ],
+      "sense_id": "sense-staged-ox-ac101fb143b02f97-p09-a-31",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f1617cd125eb4338",
+      "lemma": "severely",
+      "pos": "adv.",
+      "sense_zh": "严重地",
+      "sentence_ids": [
+        "p09-a-31-s02"
+      ],
+      "forms": [
+        "severely"
+      ],
+      "sense_id": "sense-staged-ox-f1617cd125eb4338-p09-a-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5c2525959c48ed16",
+      "lemma": "shortage",
+      "pos": "n.",
+      "sense_zh": "短缺",
+      "sentence_ids": [
+        "p09-a-31-s03"
+      ],
+      "forms": [
+        "shortage"
+      ],
+      "sense_id": "sense-staged-ox-5c2525959c48ed16-p09-a-31",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-c72ebc933a3f555f",
+      "lemma": "shelter",
+      "pos": "n.",
+      "sense_zh": "临时庇护场所；安置点",
+      "sentence_ids": [
+        "p09-a-31-s02"
+      ],
+      "forms": [
+        "shelter"
+      ],
+      "sense_id": "sense-staged-ox-c72ebc933a3f555f-p09-a-31",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

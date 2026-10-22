@@ -1,0 +1,153 @@
+{
+  "id": "p09-c-02",
+  "title_zh": "核对海啸演练的地图路线",
+  "topic_id": "community",
+  "scenario": {
+    "id": "coastal-school-drill-map-route",
+    "label_zh": "按演练图核对海啸演练路线",
+    "goal_zh": "依据学校提供的演练图，确认警报提示、禁入区域和前往高处集合点的路线"
+  },
+  "participants": [
+    "Mara",
+    "Jun"
+  ],
+  "context_zh": "两名教师核对虚构沿海学校桌面演练材料；不是现实灾害指引。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-02-s01",
+      "speaker": "Mara",
+      "text": "In this exercise, the tsunami alert appears while the class is in the sports hall. Which route does the school map show?"
+    },
+    {
+      "id": "p09-c-02-s02",
+      "speaker": "Jun",
+      "text": "The blue route goes via the north gate to the upper car park. That's the marked assembly point."
+    },
+    {
+      "id": "p09-c-02-s03",
+      "speaker": "Mara",
+      "text": "One pupil might suggest the tunnel because it looks shorter."
+    },
+    {
+      "id": "p09-c-02-s04",
+      "speaker": "Jun",
+      "text": "The tunnel is inside the red zone on this exercise map. The instructions say not to enter it."
+    },
+    {
+      "id": "p09-c-02-s05",
+      "speaker": "Mara",
+      "text": "Then I'll ask the class to trace the blue route, not choose a shortcut."
+    },
+    {
+      "id": "p09-c-02-s06",
+      "speaker": "Jun",
+      "text": "Good. We'll show the alert first, then have them mark the north gate and the car park on their copies."
+    },
+    {
+      "id": "p09-c-02-s07",
+      "speaker": "Mara",
+      "text": "Agreed. That checks whether they've understood this school's plan."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-a310c2fbd8e26292",
+      "lemma": "tsunami",
+      "pos": "n.",
+      "sense_zh": "海啸",
+      "sentence_ids": [
+        "p09-c-02-s01"
+      ],
+      "forms": [
+        "tsunami"
+      ],
+      "sense_id": "sense-staged-ox-a310c2fbd8e26292-p09-c-02",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2c879c50e25db066",
+      "lemma": "alert",
+      "pos": "n.",
+      "sense_zh": "警报",
+      "sentence_ids": [
+        "p09-c-02-s01"
+      ],
+      "forms": [
+        "alert"
+      ],
+      "sense_id": "sense-staged-ox-2c879c50e25db066-p09-c-02",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9f520d2e0ab4c0b2",
+      "lemma": "via",
+      "pos": "prep.",
+      "sense_zh": "经由",
+      "sentence_ids": [
+        "p09-c-02-s02"
+      ],
+      "forms": [
+        "via"
+      ],
+      "sense_id": "sense-staged-ox-9f520d2e0ab4c0b2-p09-c-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-061fce9b6cc4e941",
+      "lemma": "upper",
+      "pos": "adj.",
+      "sense_zh": "位置较高的",
+      "sentence_ids": [
+        "p09-c-02-s02"
+      ],
+      "forms": [
+        "upper"
+      ],
+      "sense_id": "sense-staged-ox-061fce9b6cc4e941-p09-c-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b55d8993af2445b0",
+      "lemma": "tunnel",
+      "pos": "n.",
+      "sense_zh": "隧道",
+      "sentence_ids": [
+        "p09-c-02-s03"
+      ],
+      "forms": [
+        "tunnel"
+      ],
+      "sense_id": "sense-staged-ox-b55d8993af2445b0-p09-c-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-6b2212e3f0ebb4ed",
+      "lemma": "zone",
+      "pos": "n.",
+      "sense_zh": "划定的区域",
+      "sentence_ids": [
+        "p09-c-02-s04"
+      ],
+      "forms": [
+        "zone"
+      ],
+      "sense_id": "sense-staged-ox-6b2212e3f0ebb4ed-p09-c-02",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

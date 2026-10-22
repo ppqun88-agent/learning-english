@@ -1,0 +1,100 @@
+{
+  "id": "p09-a-24",
+  "title_zh": "选定成人影迷放映影片并修正宣传定位",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "adult-film-club-screening-description",
+    "label_zh": "成人影迷活动放映简介",
+    "goal_zh": "选定以人物关系为主的爱情片，约定删去海报上夸大的性感宣传标签并补充慢节奏说明"
+  },
+  "participants": [
+    "Tessa",
+    "Malik"
+  ],
+  "context_zh": "成年影迷小组为仅限成人的周末活动选择虚构电影并讨论简介。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-24-s01",
+      "speaker": "Tessa",
+      "text": "Is this a romance, or is the love story just a small part of it?"
+    },
+    {
+      "id": "p09-a-24-s02",
+      "speaker": "Malik",
+      "text": "The relationship is the main story, but most of it is quiet conversation."
+    },
+    {
+      "id": "p09-a-24-s03",
+      "speaker": "Tessa",
+      "text": "Then calling it a sexy film on our poster seems misleading. The trailer makes it look much more heated than it is."
+    },
+    {
+      "id": "p09-a-24-s04",
+      "speaker": "Malik",
+      "text": "I agree. For this screening, people should know they are choosing a slow character drama."
+    },
+    {
+      "id": "p09-a-24-s05",
+      "speaker": "Tessa",
+      "text": "That sounds right for our adult group. Shall we choose it and describe it as a quiet romance?"
+    },
+    {
+      "id": "p09-a-24-s06",
+      "speaker": "Malik",
+      "text": "Yes. I'll remove the word from the poster and add a note about the pace, so people know what to expect."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-159bce2b67ab538d",
+      "lemma": "romance",
+      "pos": "n.",
+      "sense_zh": "爱情故事；爱情片",
+      "sentence_ids": [
+        "p09-a-24-s01"
+      ],
+      "forms": [
+        "romance"
+      ],
+      "sense_id": "sense-staged-ox-159bce2b67ab538d-p09-a-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0b4973a553abbe51",
+      "lemma": "sexy",
+      "pos": "adj.",
+      "sense_zh": "性感的；有性吸引力的",
+      "sentence_ids": [
+        "p09-a-24-s03"
+      ],
+      "forms": [
+        "sexy"
+      ],
+      "sense_id": "sense-staged-ox-0b4973a553abbe51-p09-a-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-659c717bc2532ae3",
+      "lemma": "screening",
+      "pos": "n.",
+      "sense_zh": "电影放映",
+      "sentence_ids": [
+        "p09-a-24-s04"
+      ],
+      "forms": [
+        "screening"
+      ],
+      "sense_id": "sense-staged-ox-659c717bc2532ae3-p09-a-24",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

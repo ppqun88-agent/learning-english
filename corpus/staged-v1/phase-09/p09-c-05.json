@@ -1,0 +1,121 @@
+{
+  "id": "p09-c-05",
+  "title_zh": "限定档案试办并安排复核",
+  "topic_id": "work",
+  "scenario": {
+    "id": "archive-pilot-goal-and-review",
+    "label_zh": "限定档案试办范围和复核承诺",
+    "goal_zh": "明确长期目标与当前小规模试办的区别，约定先测试检索并据结果决定是否扩展"
+  },
+  "participants": [
+    "Omar",
+    "Tess"
+  ],
+  "context_zh": "档案团队讨论试办范围，避免承诺尚无依据的推广。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-05-s01",
+      "speaker": "Omar",
+      "text": "Our ultimate goal is to make the whole archive searchable, but can we undertake that much work this month?"
+    },
+    {
+      "id": "p09-c-05-s02",
+      "speaker": "Tess",
+      "text": "No. There's still uncertainty about how well the scanner handles handwritten pages."
+    },
+    {
+      "id": "p09-c-05-s03",
+      "speaker": "Omar",
+      "text": "Then let's start with one box. We can test whether people can find five named letters."
+    },
+    {
+      "id": "p09-c-05-s04",
+      "speaker": "Tess",
+      "text": "That would tell us more than simply counting scanned pages."
+    },
+    {
+      "id": "p09-c-05-s05",
+      "speaker": "Omar",
+      "text": "Ultimately, the search results should decide whether we expand, not the launch date."
+    },
+    {
+      "id": "p09-c-05-s06",
+      "speaker": "Tess",
+      "text": "Agreed. I'll choose the box today and bring the search results to Friday's meeting."
+    },
+    {
+      "id": "p09-c-05-s07",
+      "speaker": "Omar",
+      "text": "I'll write up that limited plan. We aren't promising the full archive yet."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b37fa070d82d9ad8",
+      "lemma": "ultimate",
+      "pos": "adj.",
+      "sense_zh": "最终的；长远的",
+      "sentence_ids": [
+        "p09-c-05-s01"
+      ],
+      "forms": [
+        "ultimate"
+      ],
+      "sense_id": "sense-staged-ox-b37fa070d82d9ad8-p09-c-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-7b8cec506d95f8c3",
+      "lemma": "undertake",
+      "pos": "v.",
+      "sense_zh": "承担；着手做",
+      "sentence_ids": [
+        "p09-c-05-s01"
+      ],
+      "forms": [
+        "undertake"
+      ],
+      "sense_id": "sense-staged-ox-7b8cec506d95f8c3-p09-c-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-85f137dce8b0d6e4",
+      "lemma": "uncertainty",
+      "pos": "n.",
+      "sense_zh": "不确定性",
+      "sentence_ids": [
+        "p09-c-05-s02"
+      ],
+      "forms": [
+        "uncertainty"
+      ],
+      "sense_id": "sense-staged-ox-85f137dce8b0d6e4-p09-c-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cc1a9e72844e3678",
+      "lemma": "ultimately",
+      "pos": "adv.",
+      "sense_zh": "归根结底；最终",
+      "sentence_ids": [
+        "p09-c-05-s05"
+      ],
+      "forms": [
+        "ultimately"
+      ],
+      "sense_id": "sense-staged-ox-cc1a9e72844e3678-p09-c-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

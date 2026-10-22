@@ -1,0 +1,105 @@
+{
+  "id": "p09-c-31",
+  "title_zh": "区分相似手工杯并选定礼物包装",
+  "topic_id": "services",
+  "scenario": {
+    "id": "handmade-mug-gift-identification",
+    "label_zh": "区分相似手工杯并选定礼物包装",
+    "goal_zh": "比较两只外形相似但图案不同的杯子，选定蓝色条纹款并约定用礼盒包装且不在杯身贴胶带"
+  },
+  "participants": [
+    "Orla",
+    "Mateo"
+  ],
+  "context_zh": "顾客在手工艺店挑选礼物。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-31-s01",
+      "speaker": "Orla",
+      "text": "These two mugs look alike from here. Are they printed from the same design?"
+    },
+    {
+      "id": "p09-c-31-s02",
+      "speaker": "Mateo",
+      "text": "No. The shapes match, but each painted pattern is unique. This one has a blue stripe; that one has little blue dots."
+    },
+    {
+      "id": "p09-c-31-s03",
+      "speaker": "Orla",
+      "text": "I'll take the stripe. My brother prefers simple patterns."
+    },
+    {
+      "id": "p09-c-31-s04",
+      "speaker": "Mateo",
+      "text": "Would you like me to wrap it?"
+    },
+    {
+      "id": "p09-c-31-s05",
+      "speaker": "Orla",
+      "text": "Yes, but could you avoid sticking tape to the mug? He likes to keep the maker's label."
+    },
+    {
+      "id": "p09-c-31-s06",
+      "speaker": "Mateo",
+      "text": "Certainly. I'll put it in this gift box with paper around it and no tape on the mug."
+    },
+    {
+      "id": "p09-c-31-s07",
+      "speaker": "Orla",
+      "text": "That will be perfect. The striped one in that box, please."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-38b393520c77fc37",
+      "lemma": "alike",
+      "pos": "adj.",
+      "sense_zh": "相像的",
+      "sentence_ids": [
+        "p09-c-31-s01"
+      ],
+      "forms": [
+        "alike"
+      ],
+      "sense_id": "sense-staged-ox-38b393520c77fc37-p09-c-31",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fc1cdfa26b4e07fe",
+      "lemma": "unique",
+      "pos": "adj.",
+      "sense_zh": "独一无二的",
+      "sentence_ids": [
+        "p09-c-31-s02"
+      ],
+      "forms": [
+        "unique"
+      ],
+      "sense_id": "sense-staged-ox-fc1cdfa26b4e07fe-p09-c-31",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-10d36aaaa568d64d",
+      "lemma": "wrap",
+      "pos": "v.",
+      "sense_zh": "包裹；包装",
+      "sentence_ids": [
+        "p09-c-31-s04"
+      ],
+      "forms": [
+        "wrap"
+      ],
+      "sense_id": "sense-staged-ox-10d36aaaa568d64d-p09-c-31",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

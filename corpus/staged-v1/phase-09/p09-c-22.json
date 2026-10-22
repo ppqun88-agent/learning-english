@@ -1,0 +1,105 @@
+{
+  "id": "p09-c-22",
+  "title_zh": "核对旅行练习日期并商定先核实再订票的答案",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "classroom-visa-date-answer-check",
+    "label_zh": "核对虚构旅行材料并商定练习答案",
+    "goal_zh": "比较课堂材料中签证生效日和拟出发日，商定在练习答案中建议旅客先向签发机构核实再订票"
+  },
+  "participants": [
+    "Arun",
+    "Faye"
+  ],
+  "context_zh": "两名学员核对虚构旅行练习材料并商量答案，不提供现实签证或入境法律意见。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-22-s01",
+      "speaker": "Arun",
+      "text": "Could you look at the dates on this fictional travel exercise? The trip starts on the sixth."
+    },
+    {
+      "id": "p09-c-22-s02",
+      "speaker": "Faye",
+      "text": "The visa shown in the exercise is valid from the tenth, not the sixth."
+    },
+    {
+      "id": "p09-c-22-s03",
+      "speaker": "Arun",
+      "text": "That's an unexpected problem. I read the end date and missed the start date."
+    },
+    {
+      "id": "p09-c-22-s04",
+      "speaker": "Faye",
+      "text": "Then we shouldn't treat the document as covering the proposed departure."
+    },
+    {
+      "id": "p09-c-22-s05",
+      "speaker": "Arun",
+      "text": "For my answer, I'll say the traveller should ask the issuing office to clarify the dates before booking."
+    },
+    {
+      "id": "p09-c-22-s06",
+      "speaker": "Faye",
+      "text": "Yes. Don't invent an exception or assume the date can be changed."
+    },
+    {
+      "id": "p09-c-22-s07",
+      "speaker": "Arun",
+      "text": "Agreed. In our answer, the traveller's next step is to ask, not to buy a ticket."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-05f51a15612e6ac0",
+      "lemma": "visa",
+      "pos": "n.",
+      "sense_zh": "签证",
+      "sentence_ids": [
+        "p09-c-22-s02"
+      ],
+      "forms": [
+        "visa"
+      ],
+      "sense_id": "sense-staged-ox-05f51a15612e6ac0-p09-c-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-988edfc38ff12ded",
+      "lemma": "valid",
+      "pos": "adj.",
+      "sense_zh": "有效的",
+      "sentence_ids": [
+        "p09-c-22-s02"
+      ],
+      "forms": [
+        "valid"
+      ],
+      "sense_id": "sense-staged-ox-988edfc38ff12ded-p09-c-22",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43a6ac6f88fdc218",
+      "lemma": "unexpected",
+      "pos": "adj.",
+      "sense_zh": "出乎意料的",
+      "sentence_ids": [
+        "p09-c-22-s03"
+      ],
+      "forms": [
+        "unexpected"
+      ],
+      "sense_id": "sense-staged-ox-43a6ac6f88fdc218-p09-c-22",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

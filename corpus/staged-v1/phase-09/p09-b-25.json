@@ -1,0 +1,143 @@
+{
+  "id": "p09-b-25",
+  "title_zh": "请康复服务安排治疗师回电",
+  "topic_id": "health",
+  "scenario": {
+    "id": "post-surgery-therapy-role-inquiry",
+    "label_zh": "请康复服务安排治疗师回电",
+    "goal_zh": "说明术后日常活动困难，澄清希望先与治疗师讨论评估，并请求服务方安排回电"
+  },
+  "participants": [
+    "Ruth",
+    "Receptionist Dan"
+  ],
+  "context_zh": "虚构术后服务沟通练习：来电者只询问评估和回电流程，对话不提供诊断或治疗方案。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-25-s01",
+      "speaker": "Ruth",
+      "text": "I had surgery last month, and I still struggle with ordinary things like getting dressed. I'm not sure whom to contact."
+    },
+    {
+      "id": "p09-b-25-s02",
+      "speaker": "Receptionist Dan",
+      "text": "Have you already spoken to the surgeon about the difficulties?"
+    },
+    {
+      "id": "p09-b-25-s03",
+      "speaker": "Ruth",
+      "text": "Yes. She suggested I contact your service about therapy, but I don't know what the first visit involves."
+    },
+    {
+      "id": "p09-b-25-s04",
+      "speaker": "Receptionist Dan",
+      "text": "The therapist can explain the assessment and discuss your needs. I can ask her to call you before you book anything."
+    },
+    {
+      "id": "p09-b-25-s05",
+      "speaker": "Ruth",
+      "text": "Please do. I'd rather talk it through first than choose an appointment without understanding it."
+    },
+    {
+      "id": "p09-b-25-s06",
+      "speaker": "Receptionist Dan",
+      "text": "Certainly. Is the number on your referral still the best one?"
+    },
+    {
+      "id": "p09-b-25-s07",
+      "speaker": "Ruth",
+      "text": "Yes, and I'm available after two this afternoon."
+    },
+    {
+      "id": "p09-b-25-s08",
+      "speaker": "Receptionist Dan",
+      "text": "I'll pass on that number and your availability. The therapist will need to confirm when she can call."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bc857bf560841ad6",
+      "lemma": "surgery",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-bc857bf560841ad6-p09-b-25",
+      "sense_zh": "外科手术",
+      "sentence_ids": [
+        "p09-b-25-s01"
+      ],
+      "forms": [
+        "surgery"
+      ]
+    },
+    {
+      "target_id": "ox-c34f366a9dad631a",
+      "lemma": "struggle",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-c34f366a9dad631a-p09-b-25",
+      "sense_zh": "费力地做；艰难应对",
+      "sentence_ids": [
+        "p09-b-25-s01"
+      ],
+      "forms": [
+        "struggle"
+      ]
+    },
+    {
+      "target_id": "ox-030f7d1ceac2a6ef",
+      "lemma": "surgeon",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-030f7d1ceac2a6ef-p09-b-25",
+      "sense_zh": "外科医生",
+      "sentence_ids": [
+        "p09-b-25-s02"
+      ],
+      "forms": [
+        "surgeon"
+      ]
+    },
+    {
+      "target_id": "ox-3da6943bf303987c",
+      "lemma": "therapy",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-3da6943bf303987c-p09-b-25",
+      "sense_zh": "治疗",
+      "sentence_ids": [
+        "p09-b-25-s03"
+      ],
+      "forms": [
+        "therapy"
+      ]
+    },
+    {
+      "target_id": "ox-88ed520ee13862ca",
+      "lemma": "therapist",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-88ed520ee13862ca-p09-b-25",
+      "sense_zh": "治疗师",
+      "sentence_ids": [
+        "p09-b-25-s04",
+        "p09-b-25-s08"
+      ],
+      "forms": [
+        "therapist"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

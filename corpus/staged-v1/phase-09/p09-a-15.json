@@ -1,0 +1,142 @@
+{
+  "id": "p09-a-15",
+  "title_zh": "暂缓虚构丑闻标题并安排核实",
+  "topic_id": "society",
+  "scenario": {
+    "id": "fictional-news-grant-allegation-check",
+    "label_zh": "虚构资助指控的报道核查",
+    "goal_zh": "区分未证实的指控和已知资料，约定索取付款证据与当事方回应后再决定报道措辞"
+  },
+  "participants": [
+    "Grace",
+    "Leon"
+  ],
+  "context_zh": "虚构新闻编辑练习中，两人处理关于艺术资助的匿名指控，内容不是现实新闻。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-15-s01",
+      "speaker": "Grace",
+      "text": "This anonymous message calls the missing arts grant a scandal. Shall that be our headline?"
+    },
+    {
+      "id": "p09-a-15-s02",
+      "speaker": "Leon",
+      "text": "Not yet. Careful reporting means checking whether the money is actually missing."
+    },
+    {
+      "id": "p09-a-15-s03",
+      "speaker": "Grace",
+      "text": "The amount in the message is shocking, but there is no document attached."
+    },
+    {
+      "id": "p09-a-15-s04",
+      "speaker": "Leon",
+      "text": "Ask the sender what the records reveal and whether we can see those records ourselves."
+    },
+    {
+      "id": "p09-a-15-s05",
+      "speaker": "Grace",
+      "text": "Should I also contact a representative of the arts centre?"
+    },
+    {
+      "id": "p09-a-15-s06",
+      "speaker": "Leon",
+      "text": "Yes. Ask about the payment schedule and give them the specific claim to answer."
+    },
+    {
+      "id": "p09-a-15-s07",
+      "speaker": "Grace",
+      "text": "I'll request the records and their response. Until then, I'll leave that headline out."
+    },
+    {
+      "id": "p09-a-15-s08",
+      "speaker": "Leon",
+      "text": "Good. An allegation in a message is not a finding we have verified."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b28471992c1dd590",
+      "lemma": "reporting",
+      "pos": "n.",
+      "sense_zh": "新闻报道工作",
+      "sentence_ids": [
+        "p09-a-15-s02"
+      ],
+      "forms": [
+        "reporting"
+      ],
+      "sense_id": "sense-staged-ox-b28471992c1dd590-p09-a-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-329b7c27decafd86",
+      "lemma": "representative",
+      "pos": "n.",
+      "sense_zh": "机构代表",
+      "sentence_ids": [
+        "p09-a-15-s05"
+      ],
+      "forms": [
+        "representative"
+      ],
+      "sense_id": "sense-staged-ox-329b7c27decafd86-p09-a-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d39db28f0a247d50",
+      "lemma": "reveal",
+      "pos": "v.",
+      "sense_zh": "揭示；显示",
+      "sentence_ids": [
+        "p09-a-15-s04"
+      ],
+      "forms": [
+        "reveal"
+      ],
+      "sense_id": "sense-staged-ox-d39db28f0a247d50-p09-a-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-1fc43e0bd0f99432",
+      "lemma": "scandal",
+      "pos": "n.",
+      "sense_zh": "丑闻",
+      "sentence_ids": [
+        "p09-a-15-s01"
+      ],
+      "forms": [
+        "scandal"
+      ],
+      "sense_id": "sense-staged-ox-1fc43e0bd0f99432-p09-a-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0f6344b97e426a8",
+      "lemma": "shocking",
+      "pos": "adj.",
+      "sense_zh": "令人震惊的",
+      "sentence_ids": [
+        "p09-a-15-s03"
+      ],
+      "forms": [
+        "shocking"
+      ],
+      "sense_id": "sense-staged-ox-b0f6344b97e426a8-p09-a-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

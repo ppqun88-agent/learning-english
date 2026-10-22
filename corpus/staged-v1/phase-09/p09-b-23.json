@@ -1,0 +1,142 @@
+{
+  "id": "p09-b-23",
+  "title_zh": "选定罢工期间可直达机场的巴士",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "strike-airport-transfer-check",
+    "label_zh": "选定罢工期间可直达机场的巴士",
+    "goal_zh": "核对机场巴士的当日停靠点和行李限制，并选定不在郊区停靠的直达班次"
+  },
+  "participants": [
+    "Nora",
+    "Ticket Clerk Sam"
+  ],
+  "context_zh": "虚构交通咨询：旅客在铁路罢工日询问巴士，所有班次信息只属于对话情境。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-23-s01",
+      "speaker": "Nora",
+      "text": "With the rail strike today, can I take your nine o'clock bus to the airport?"
+    },
+    {
+      "id": "p09-b-23-s02",
+      "speaker": "Ticket Clerk Sam",
+      "text": "Yes. That service is running and goes directly to terminal two."
+    },
+    {
+      "id": "p09-b-23-s03",
+      "speaker": "Nora",
+      "text": "Does it stop in the suburb of Belton? My sister lives there."
+    },
+    {
+      "id": "p09-b-23-s04",
+      "speaker": "Ticket Clerk Sam",
+      "text": "No. It's strictly an airport service today. The town bus still serves Belton, but it doesn't go to the airport."
+    },
+    {
+      "id": "p09-b-23-s05",
+      "speaker": "Nora",
+      "text": "Then I'll visit her another day. Is one suitcase and a small backpack all right?"
+    },
+    {
+      "id": "p09-b-23-s06",
+      "speaker": "Ticket Clerk Sam",
+      "text": "Yes. We have a strict one-suitcase limit per passenger, plus one small bag you can keep with you."
+    },
+    {
+      "id": "p09-b-23-s07",
+      "speaker": "Nora",
+      "text": "That works. I'll take the nine o'clock airport bus."
+    },
+    {
+      "id": "p09-b-23-s08",
+      "speaker": "Ticket Clerk Sam",
+      "text": "Board at bay six. Tickets are sold at the machine beside the bay."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0a8784f32873ab39",
+      "lemma": "strike",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-0a8784f32873ab39-p09-b-23",
+      "sense_zh": "罢工",
+      "sentence_ids": [
+        "p09-b-23-s01"
+      ],
+      "forms": [
+        "strike"
+      ]
+    },
+    {
+      "target_id": "ox-fd6e091a590d6ece",
+      "lemma": "terminal",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-fd6e091a590d6ece-p09-b-23",
+      "sense_zh": "航站楼",
+      "sentence_ids": [
+        "p09-b-23-s02"
+      ],
+      "forms": [
+        "terminal"
+      ]
+    },
+    {
+      "target_id": "ox-bac7c75d9707a46d",
+      "lemma": "suburb",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-bac7c75d9707a46d-p09-b-23",
+      "sense_zh": "郊区",
+      "sentence_ids": [
+        "p09-b-23-s03"
+      ],
+      "forms": [
+        "suburb"
+      ]
+    },
+    {
+      "target_id": "ox-e38b8d8ef75a500a",
+      "lemma": "strictly",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-e38b8d8ef75a500a-p09-b-23",
+      "sense_zh": "仅限于；完全是",
+      "sentence_ids": [
+        "p09-b-23-s04"
+      ],
+      "forms": [
+        "strictly"
+      ]
+    },
+    {
+      "target_id": "ox-4a2c7cab7d10891d",
+      "lemma": "strict",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-4a2c7cab7d10891d-p09-b-23",
+      "sense_zh": "严格的",
+      "sentence_ids": [
+        "p09-b-23-s06"
+      ],
+      "forms": [
+        "strict"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

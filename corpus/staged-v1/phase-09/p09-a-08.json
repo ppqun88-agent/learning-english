@@ -1,0 +1,147 @@
+{
+  "id": "p09-a-08",
+  "title_zh": "核对助理招聘要求并约定准备简历",
+  "topic_id": "work",
+  "scenario": {
+    "id": "assistant-vacancy-application-clarification",
+    "label_zh": "助理职位申请要求澄清",
+    "goal_zh": "确认相关经验可以来自志愿工作，找到招聘咨询人并决定准备针对岗位的简历"
+  },
+  "participants": [
+    "Leah",
+    "Marcus"
+  ],
+  "context_zh": "求职者向工作坊的人事联系人询问已公布的助理岗位。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-08-s01",
+      "speaker": "Leah",
+      "text": "Are you still hoping to recruit an assistant for the weekend workshops?"
+    },
+    {
+      "id": "p09-a-08-s02",
+      "speaker": "Marcus",
+      "text": "Yes. The recruitment notice is on our website, and applications stay open until Friday."
+    },
+    {
+      "id": "p09-a-08-s03",
+      "speaker": "Leah",
+      "text": "My paid work is in a shop. Is my volunteer teaching experience relevant?"
+    },
+    {
+      "id": "p09-a-08-s04",
+      "speaker": "Marcus",
+      "text": "Yes. We need someone who can explain a task clearly to beginners."
+    },
+    {
+      "id": "p09-a-08-s05",
+      "speaker": "Leah",
+      "text": "Should I include that on my résumé rather than listing every shop duty?"
+    },
+    {
+      "id": "p09-a-08-s06",
+      "speaker": "Marcus",
+      "text": "Include both, but give a clear example from the teaching. Our senior tutor, Eva Chen, can answer questions about the classes."
+    },
+    {
+      "id": "p09-a-08-s07",
+      "speaker": "Leah",
+      "text": "Could you point me to her work email on the notice?"
+    },
+    {
+      "id": "p09-a-08-s08",
+      "speaker": "Marcus",
+      "text": "It is under the heading \"Questions about the role.\""
+    },
+    {
+      "id": "p09-a-08-s09",
+      "speaker": "Leah",
+      "text": "Found it. I'll prepare a résumé focused on those examples and contact Eva if I need to clarify the class duties."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0b9b043ca48a298c",
+      "lemma": "recruit",
+      "pos": "v.",
+      "sense_zh": "招聘",
+      "sentence_ids": [
+        "p09-a-08-s01"
+      ],
+      "forms": [
+        "recruit"
+      ],
+      "sense_id": "sense-staged-ox-0b9b043ca48a298c-p09-a-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4c16f2583de6f351",
+      "lemma": "recruitment",
+      "pos": "n.",
+      "sense_zh": "招聘",
+      "sentence_ids": [
+        "p09-a-08-s02"
+      ],
+      "forms": [
+        "recruitment"
+      ],
+      "sense_id": "sense-staged-ox-4c16f2583de6f351-p09-a-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-352cb5add8b4fc7d",
+      "lemma": "relevant",
+      "pos": "adj.",
+      "sense_zh": "与岗位相关的",
+      "sentence_ids": [
+        "p09-a-08-s03"
+      ],
+      "forms": [
+        "relevant"
+      ],
+      "sense_id": "sense-staged-ox-352cb5add8b4fc7d-p09-a-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4d13e9ad120c1ba8",
+      "lemma": "résumé",
+      "pos": "n.",
+      "sense_zh": "求职简历",
+      "sentence_ids": [
+        "p09-a-08-s05"
+      ],
+      "forms": [
+        "résumé"
+      ],
+      "sense_id": "sense-staged-ox-4d13e9ad120c1ba8-p09-a-08",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0d1078b67b849abe",
+      "lemma": "senior",
+      "pos": "adj.",
+      "sense_zh": "资深的；级别较高的",
+      "sentence_ids": [
+        "p09-a-08-s06"
+      ],
+      "forms": [
+        "senior"
+      ],
+      "sense_id": "sense-staged-ox-0d1078b67b849abe-p09-a-08",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

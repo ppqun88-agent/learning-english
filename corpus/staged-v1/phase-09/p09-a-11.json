@@ -1,0 +1,158 @@
+{
+  "id": "p09-a-11",
+  "title_zh": "承认公开玩笑的伤害并答应删评",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "public-joke-apology-request",
+    "label_zh": "公开玩笑后的道歉与请求",
+    "goal_zh": "听取朋友对公开评论的感受，承认评论不妥并同意删掉它和不再拿这件事开玩笑"
+  },
+  "participants": [
+    "Iris",
+    "Sam"
+  ],
+  "context_zh": "朋友私下讨论一条让当事人难堪的社交媒体评论。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-11-s01",
+      "speaker": "Iris",
+      "text": "Your remark under my photo made me feel ridiculous in front of everyone."
+    },
+    {
+      "id": "p09-a-11-s02",
+      "speaker": "Sam",
+      "text": "I meant it as a joke, but I can hear that it hurt you."
+    },
+    {
+      "id": "p09-a-11-s03",
+      "speaker": "Iris",
+      "text": "You may regard it as harmless. I am sensitive about losing that job, and you know it."
+    },
+    {
+      "id": "p09-a-11-s04",
+      "speaker": "Sam",
+      "text": "I regret posting it. I was not my usual self yesterday, but that is not an excuse."
+    },
+    {
+      "id": "p09-a-11-s05",
+      "speaker": "Iris",
+      "text": "Please delete it. I do not want a big public apology that draws more attention to it."
+    },
+    {
+      "id": "p09-a-11-s06",
+      "speaker": "Sam",
+      "text": "I will delete the comment and stop joking about the job. Is there anything else you need from me now?"
+    },
+    {
+      "id": "p09-a-11-s07",
+      "speaker": "Iris",
+      "text": "Just some space. We can talk again later."
+    },
+    {
+      "id": "p09-a-11-s08",
+      "speaker": "Sam",
+      "text": "Okay. I won't push you to make me feel better about it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ba1ded0f7c3b5fd1",
+      "lemma": "regret",
+      "pos": "v.",
+      "sense_zh": "后悔做了某事",
+      "sentence_ids": [
+        "p09-a-11-s04"
+      ],
+      "forms": [
+        "regret"
+      ],
+      "sense_id": "sense-staged-ox-ba1ded0f7c3b5fd1-p09-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-30a8a0b184b05ca7",
+      "lemma": "regard",
+      "pos": "v.",
+      "sense_zh": "把某事看作",
+      "sentence_ids": [
+        "p09-a-11-s03"
+      ],
+      "forms": [
+        "regard"
+      ],
+      "sense_id": "sense-staged-ox-30a8a0b184b05ca7-p09-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ef3ccbcdb594403b",
+      "lemma": "remark",
+      "pos": "n.",
+      "sense_zh": "评论；言语",
+      "sentence_ids": [
+        "p09-a-11-s01"
+      ],
+      "forms": [
+        "remark"
+      ],
+      "sense_id": "sense-staged-ox-ef3ccbcdb594403b-p09-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-de6d494cec1458ea",
+      "lemma": "ridiculous",
+      "pos": "adj.",
+      "sense_zh": "可笑的；令人难堪的",
+      "sentence_ids": [
+        "p09-a-11-s01"
+      ],
+      "forms": [
+        "ridiculous"
+      ],
+      "sense_id": "sense-staged-ox-de6d494cec1458ea-p09-a-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-430c15f1492ff76b",
+      "lemma": "sensitive",
+      "pos": "adj.",
+      "sense_zh": "对某事敏感、容易受伤的",
+      "sentence_ids": [
+        "p09-a-11-s03"
+      ],
+      "forms": [
+        "sensitive"
+      ],
+      "sense_id": "sense-staged-ox-430c15f1492ff76b-p09-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-628630ecbf2c1a78",
+      "lemma": "self",
+      "pos": "n.",
+      "sense_zh": "一个人平常的状态或样子",
+      "sentence_ids": [
+        "p09-a-11-s04"
+      ],
+      "forms": [
+        "self"
+      ],
+      "sense_id": "sense-staged-ox-628630ecbf2c1a78-p09-a-11",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,110 @@
+{
+  "id": "p09-a-28",
+  "title_zh": "核对定制架子后签收",
+  "topic_id": "services",
+  "scenario": {
+    "id": "custom-shelf-delivery-signoff",
+    "label_zh": "定制架子送货验收",
+    "goal_zh": "检查宽度和门的开启空间，确认符合约定要求并在验收单上签名"
+  },
+  "participants": [
+    "April",
+    "Lewis"
+  ],
+  "context_zh": "虚构家具送货场景中，顾客检查定制架子后完成签收。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-28-s01",
+      "speaker": "April",
+      "text": "Before I sign, can we check that the shelf is exactly eighty centimetres wide?"
+    },
+    {
+      "id": "p09-a-28-s02",
+      "speaker": "Lewis",
+      "text": "Here is the tape measure. It shows eighty, as ordered."
+    },
+    {
+      "id": "p09-a-28-s03",
+      "speaker": "April",
+      "text": "And the cupboard door opens fully beside it. That was my other concern."
+    },
+    {
+      "id": "p09-a-28-s04",
+      "speaker": "Lewis",
+      "text": "Does it satisfy the requirements we agreed on?"
+    },
+    {
+      "id": "p09-a-28-s05",
+      "speaker": "April",
+      "text": "Yes. I am satisfied with the size and the finish."
+    },
+    {
+      "id": "p09-a-28-s06",
+      "speaker": "Lewis",
+      "text": "Then I need your signature on this delivery inspection form, beside today's date."
+    },
+    {
+      "id": "p09-a-28-s07",
+      "speaker": "April",
+      "text": "Here you are. I have signed it after the width check."
+    },
+    {
+      "id": "p09-a-28-s08",
+      "speaker": "Lewis",
+      "text": "Thank you. This copy is yours."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c4a426aa5c927201",
+      "lemma": "satisfied",
+      "pos": "adj.",
+      "sense_zh": "满意的",
+      "sentence_ids": [
+        "p09-a-28-s05"
+      ],
+      "forms": [
+        "satisfied"
+      ],
+      "sense_id": "sense-staged-ox-c4a426aa5c927201-p09-a-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-039d3e7fd7b6944a",
+      "lemma": "satisfy",
+      "pos": "v.",
+      "sense_zh": "满足要求",
+      "sentence_ids": [
+        "p09-a-28-s04"
+      ],
+      "forms": [
+        "satisfy"
+      ],
+      "sense_id": "sense-staged-ox-039d3e7fd7b6944a-p09-a-28",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9dc318b0c4b878f7",
+      "lemma": "signature",
+      "pos": "n.",
+      "sense_zh": "签名",
+      "sentence_ids": [
+        "p09-a-28-s06"
+      ],
+      "forms": [
+        "signature"
+      ],
+      "sense_id": "sense-staged-ox-9dc318b0c4b878f7-p09-a-28",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p09-c-12",
+  "title_zh": "核对工厂岗位的工资与人数信息",
+  "topic_id": "work",
+  "scenario": {
+    "id": "factory-weekly-pay-inquiry",
+    "label_zh": "核对招聘工资和员工人数图表",
+    "goal_zh": "区分基本周薪和加班报酬，澄清员工人数图不是工资增长图并决定索取岗位说明"
+  },
+  "participants": [
+    "Finn",
+    "Rosa"
+  ],
+  "context_zh": "虚构工厂招聘咨询，求职者询问装配岗位的信息，不构成实际工作要约。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-12-s01",
+      "speaker": "Finn",
+      "text": "For the assembly job at your factory, is the weekly wage on this poster the basic pay, or does it include overtime?"
+    },
+    {
+      "id": "p09-c-12-s02",
+      "speaker": "Rosa",
+      "text": "It's the basic pay for the stated hours. Overtime is listed separately in the job description."
+    },
+    {
+      "id": "p09-c-12-s03",
+      "speaker": "Finn",
+      "text": "The line on this chart goes upward quite sharply. Does that show pay increasing?"
+    },
+    {
+      "id": "p09-c-12-s04",
+      "speaker": "Rosa",
+      "text": "No. It shows the size of our workforce over five years, not anyone's pay."
+    },
+    {
+      "id": "p09-c-12-s05",
+      "speaker": "Finn",
+      "text": "Thanks for explaining. Could I read about training and safety in the workplace before I apply?"
+    },
+    {
+      "id": "p09-c-12-s06",
+      "speaker": "Rosa",
+      "text": "Of course. I'll send you the full job description, including the hours and pay details."
+    },
+    {
+      "id": "p09-c-12-s07",
+      "speaker": "Finn",
+      "text": "Please do. I'll read that before deciding whether to apply."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1b02e3d2c8477ff4",
+      "lemma": "weekly",
+      "pos": "adj.",
+      "sense_zh": "每周的",
+      "sentence_ids": [
+        "p09-c-12-s01"
+      ],
+      "forms": [
+        "weekly"
+      ],
+      "sense_id": "sense-staged-ox-1b02e3d2c8477ff4-p09-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d184394b23fae0b4",
+      "lemma": "wage",
+      "pos": "n.",
+      "sense_zh": "工资",
+      "sentence_ids": [
+        "p09-c-12-s01"
+      ],
+      "forms": [
+        "wage"
+      ],
+      "sense_id": "sense-staged-ox-d184394b23fae0b4-p09-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e5411b2918b4435f",
+      "lemma": "upward",
+      "pos": "adv.",
+      "sense_zh": "向上",
+      "sentence_ids": [
+        "p09-c-12-s03"
+      ],
+      "forms": [
+        "upward"
+      ],
+      "sense_id": "sense-staged-ox-e5411b2918b4435f-p09-c-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a9a27e343546cf07",
+      "lemma": "workforce",
+      "pos": "n.",
+      "sense_zh": "全体员工；劳动力",
+      "sentence_ids": [
+        "p09-c-12-s04"
+      ],
+      "forms": [
+        "workforce"
+      ],
+      "sense_id": "sense-staged-ox-a9a27e343546cf07-p09-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-39bb5bc8adbe9011",
+      "lemma": "workplace",
+      "pos": "n.",
+      "sense_zh": "工作场所",
+      "sentence_ids": [
+        "p09-c-12-s05"
+      ],
+      "forms": [
+        "workplace"
+      ],
+      "sense_id": "sense-staged-ox-39bb5bc8adbe9011-p09-c-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

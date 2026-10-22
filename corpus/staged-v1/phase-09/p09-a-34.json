@@ -1,0 +1,89 @@
+{
+  "id": "p09-a-34",
+  "title_zh": "听朋友诉说咖啡馆停业并约定陪同取物",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "unexpected-cafe-closure-support",
+    "label_zh": "突发店铺关闭后的陪伴",
+    "goal_zh": "听取朋友因家庭咖啡馆突然停业而震惊的感受，约定周六陪同取回个人物品"
+  },
+  "participants": [
+    "Lena",
+    "Owen"
+  ],
+  "context_zh": "朋友谈论虚构家庭咖啡馆停业带来的失落，没有真实商业指控或法律意见。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-34-s01",
+      "speaker": "Lena",
+      "text": "My parents closed the cafe yesterday. They had been considering it, but I thought we had another month."
+    },
+    {
+      "id": "p09-a-34-s02",
+      "speaker": "Owen",
+      "text": "That must have been a shock, especially after spending so much time there."
+    },
+    {
+      "id": "p09-a-34-s03",
+      "speaker": "Lena",
+      "text": "I am still shocked by how quickly it happened. My sketchbooks are all in the back room."
+    },
+    {
+      "id": "p09-a-34-s04",
+      "speaker": "Owen",
+      "text": "Would you like company when you collect them? We do not have to talk about the closure if you do not want to."
+    },
+    {
+      "id": "p09-a-34-s05",
+      "speaker": "Lena",
+      "text": "Yes, please. My parents will let me in on Saturday morning."
+    },
+    {
+      "id": "p09-a-34-s06",
+      "speaker": "Owen",
+      "text": "Then I'll meet you outside at ten on Saturday and help carry your things."
+    },
+    {
+      "id": "p09-a-34-s07",
+      "speaker": "Lena",
+      "text": "Thank you. Ten works, and having someone there will make it easier."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-260b7259898f2b62",
+      "lemma": "shocked",
+      "pos": "adj.",
+      "sense_zh": "感到震惊的",
+      "sentence_ids": [
+        "p09-a-34-s03"
+      ],
+      "forms": [
+        "shocked"
+      ],
+      "sense_id": "sense-staged-ox-260b7259898f2b62-p09-a-34",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-993e87e399a6d985",
+      "lemma": "shock",
+      "pos": "n.",
+      "sense_zh": "令人震惊的经历或感受",
+      "sentence_ids": [
+        "p09-a-34-s02"
+      ],
+      "forms": [
+        "shock"
+      ],
+      "sense_id": "sense-staged-ox-993e87e399a6d985-p09-a-34",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

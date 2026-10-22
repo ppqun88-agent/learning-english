@@ -1,0 +1,116 @@
+{
+  "id": "p09-b-08",
+  "title_zh": "约好周四午间练习困难乐段",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "rehearsal-slot-small-restart",
+    "label_zh": "约好周四午间练习困难乐段",
+    "goal_zh": "回应排练失误后的挫败感，并约定周四午间进行十五分钟的局部练习"
+  },
+  "participants": [
+    "Dylan",
+    "Inez"
+  ],
+  "context_zh": "业余乐队排练后，演奏者与队友商量短时间练习。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-08-s01",
+      "speaker": "Dylan",
+      "text": "I somehow lost my place in the last verse, even though I knew it yesterday."
+    },
+    {
+      "id": "p09-b-08-s02",
+      "speaker": "Inez",
+      "text": "I noticed, but the opening sounded super. Don't throw away the whole performance because of one verse."
+    },
+    {
+      "id": "p09-b-08-s03",
+      "speaker": "Dylan",
+      "text": "Could we go through that bit together sometime this week?"
+    },
+    {
+      "id": "p09-b-08-s04",
+      "speaker": "Inez",
+      "text": "I can spare fifteen minutes on Thursday at lunch. Would that work?"
+    },
+    {
+      "id": "p09-b-08-s05",
+      "speaker": "Dylan",
+      "text": "Yes. Let's start at twelve thirty and practise only the change into the last verse."
+    },
+    {
+      "id": "p09-b-08-s06",
+      "speaker": "Inez",
+      "text": "Deal. Bring your marked copy, and we'll take it slowly."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c366ac98f076c9c4",
+      "lemma": "somehow",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-c366ac98f076c9c4-p09-b-08",
+      "sense_zh": "不知怎么地",
+      "sentence_ids": [
+        "p09-b-08-s01"
+      ],
+      "forms": [
+        "somehow"
+      ]
+    },
+    {
+      "target_id": "ox-e830b4bda8d5dcd8",
+      "lemma": "super",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-e830b4bda8d5dcd8-p09-b-08",
+      "sense_zh": "极好的",
+      "sentence_ids": [
+        "p09-b-08-s02"
+      ],
+      "forms": [
+        "super"
+      ]
+    },
+    {
+      "target_id": "ox-33a9479419c06e3f",
+      "lemma": "sometime",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-33a9479419c06e3f-p09-b-08",
+      "sense_zh": "在某个未确定的时间",
+      "sentence_ids": [
+        "p09-b-08-s03"
+      ],
+      "forms": [
+        "sometime"
+      ]
+    },
+    {
+      "target_id": "ox-844962eab8c86725",
+      "lemma": "spare",
+      "pos": "v.",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-844962eab8c86725-p09-b-08",
+      "sense_zh": "抽出（时间）",
+      "sentence_ids": [
+        "p09-b-08-s04"
+      ],
+      "forms": [
+        "spare"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,126 @@
+{
+  "id": "p09-a-12",
+  "title_zh": "确认气流演示的操作与入场限制",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "workshop-airflow-access-rules",
+    "label_zh": "工作坊气流设备与进入规则",
+    "goal_zh": "澄清设备旋钮的用途，依据课堂给定规则决定由讲师操作并把观众留在标线外"
+  },
+  "participants": [
+    "Theo",
+    "Mei"
+  ],
+  "context_zh": "虚构科学工作坊筹备中，两人对照教师提供的设备及场地说明，不提供实际设备操作指导。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-12-s01",
+      "speaker": "Theo",
+      "text": "Does this dial regulate the flow of air through the demonstration tube?"
+    },
+    {
+      "id": "p09-a-12-s02",
+      "speaker": "Mei",
+      "text": "That is what the equipment sheet says. The tutor will operate it during the demonstration."
+    },
+    {
+      "id": "p09-a-12-s03",
+      "speaker": "Theo",
+      "text": "Can visitors stand beside the table?"
+    },
+    {
+      "id": "p09-a-12-s04",
+      "speaker": "Mei",
+      "text": "No. The safety regulation on this room sheet requires a clear space around the equipment."
+    },
+    {
+      "id": "p09-a-12-s05",
+      "speaker": "Theo",
+      "text": "So we need to restrict access to the marked area, not close the whole room."
+    },
+    {
+      "id": "p09-a-12-s06",
+      "speaker": "Mei",
+      "text": "Exactly. The restriction applies to the area inside the line. Visitors can watch from the seats outside it."
+    },
+    {
+      "id": "p09-a-12-s07",
+      "speaker": "Theo",
+      "text": "Then I'll put the seats beyond the line and leave the controls to the tutor."
+    },
+    {
+      "id": "p09-a-12-s08",
+      "speaker": "Mei",
+      "text": "Agreed. We will explain that arrangement when the group arrives."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9ccebf09b81f05bb",
+      "lemma": "regulate",
+      "pos": "v.",
+      "sense_zh": "调节；控制流量",
+      "sentence_ids": [
+        "p09-a-12-s01"
+      ],
+      "forms": [
+        "regulate"
+      ],
+      "sense_id": "sense-staged-ox-9ccebf09b81f05bb-p09-a-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-633a30294c53004b",
+      "lemma": "regulation",
+      "pos": "n.",
+      "sense_zh": "规章；规定",
+      "sentence_ids": [
+        "p09-a-12-s04"
+      ],
+      "forms": [
+        "regulation"
+      ],
+      "sense_id": "sense-staged-ox-633a30294c53004b-p09-a-12",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b42954166c94c68e",
+      "lemma": "restrict",
+      "pos": "v.",
+      "sense_zh": "限制进入",
+      "sentence_ids": [
+        "p09-a-12-s05"
+      ],
+      "forms": [
+        "restrict"
+      ],
+      "sense_id": "sense-staged-ox-b42954166c94c68e-p09-a-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-57ceba431aa19113",
+      "lemma": "restriction",
+      "pos": "n.",
+      "sense_zh": "限制",
+      "sentence_ids": [
+        "p09-a-12-s06"
+      ],
+      "forms": [
+        "restriction"
+      ],
+      "sense_id": "sense-staged-ox-57ceba431aa19113-p09-a-12",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

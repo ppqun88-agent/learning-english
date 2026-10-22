@@ -1,0 +1,69 @@
+{
+  "id": "p09-b-31",
+  "title_zh": "约定先核实篮子纹样的代表范围",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "museum-tribal-attribution-check",
+    "label_zh": "约定先核实篮子纹样的代表范围",
+    "goal_zh": "核对虚构目录中的制作者归属，并约定在确认前不把一个篮子的纹样推广到整个部族"
+  },
+  "participants": [
+    "Carmen",
+    "Dr Bell"
+  ],
+  "context_zh": "博物馆课程使用虚构部族与物品目录训练标签写作，避免把个体作品当作整个群体的统一特征。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-31-s01",
+      "speaker": "Carmen",
+      "text": "The catalogue says this basket was made by a member of the Aruni tribe. Can I call the pattern a typical Aruni design?"
+    },
+    {
+      "id": "p09-b-31-s02",
+      "speaker": "Dr Bell",
+      "text": "Not from that information alone. Does the catalogue say whether other makers used the same pattern?"
+    },
+    {
+      "id": "p09-b-31-s03",
+      "speaker": "Carmen",
+      "text": "No. It gives the maker's name, says they're Aruni and records where the basket was collected. It doesn't mention patterns used by other makers."
+    },
+    {
+      "id": "p09-b-31-s04",
+      "speaker": "Dr Bell",
+      "text": "Then keep those details. We should ask the curator what evidence there is for a wider claim."
+    },
+    {
+      "id": "p09-b-31-s05",
+      "speaker": "Carmen",
+      "text": "I'll do that. Until we have an answer, the label will describe this basket, not the whole tribe."
+    },
+    {
+      "id": "p09-b-31-s06",
+      "speaker": "Dr Bell",
+      "text": "Exactly. A precise label can still be interesting without claiming more than we know."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-5c4b493bf78f65b7",
+      "lemma": "tribe",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-5c4b493bf78f65b7-p09-b-31",
+      "sense_zh": "部族；部落",
+      "sentence_ids": [
+        "p09-b-31-s01",
+        "p09-b-31-s05"
+      ],
+      "forms": [
+        "tribe"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

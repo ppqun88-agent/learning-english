@@ -1,0 +1,105 @@
+{
+  "id": "p09-a-33",
+  "title_zh": "不把未回复当拒绝并约定简短询问",
+  "topic_id": "relationships",
+  "scenario": {
+    "id": "sibling-visit-message-interpretation",
+    "label_zh": "兄弟姐妹探访未回复的理解",
+    "goal_zh": "承认未能确认探访的遗憾，不把沉默解读为拒绝，并决定发一条不催促的询问信息"
+  },
+  "participants": [
+    "Robin",
+    "Jae"
+  ],
+  "context_zh": "朋友讨论一位成年家人迟迟未回复探访安排的情况。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-33-s01",
+      "speaker": "Robin",
+      "text": "Alex is my only sibling, and I really wanted to visit this weekend. There is still no reply."
+    },
+    {
+      "id": "p09-a-33-s02",
+      "speaker": "Jae",
+      "text": "It is a shame you cannot make a plan yet. How long has it been?"
+    },
+    {
+      "id": "p09-a-33-s03",
+      "speaker": "Robin",
+      "text": "Two days. I keep reading the silence as a sign that Alex does not want me there."
+    },
+    {
+      "id": "p09-a-33-s04",
+      "speaker": "Jae",
+      "text": "It could mean many things. Have you sent a simple question about whether this weekend works?"
+    },
+    {
+      "id": "p09-a-33-s05",
+      "speaker": "Robin",
+      "text": "Not really. My message was a long list of possible plans."
+    },
+    {
+      "id": "p09-a-33-s06",
+      "speaker": "Jae",
+      "text": "You could ask once, without asking for an immediate answer, and leave the weekend open for now."
+    },
+    {
+      "id": "p09-a-33-s07",
+      "speaker": "Robin",
+      "text": "I'll do that: one short message asking whether a visit would work, and no more planning until I hear back."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0d09982b5f7b7bc6",
+      "lemma": "sibling",
+      "pos": "n.",
+      "sense_zh": "兄弟或姐妹",
+      "sentence_ids": [
+        "p09-a-33-s01"
+      ],
+      "forms": [
+        "sibling"
+      ],
+      "sense_id": "sense-staged-ox-0d09982b5f7b7bc6-p09-a-33",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-25f7328312e64679",
+      "lemma": "shame",
+      "pos": "n.",
+      "sense_zh": "令人遗憾的事",
+      "sentence_ids": [
+        "p09-a-33-s02"
+      ],
+      "forms": [
+        "shame"
+      ],
+      "sense_id": "sense-staged-ox-25f7328312e64679-p09-a-33",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0c0c50332cf81be4",
+      "lemma": "silence",
+      "pos": "n.",
+      "sense_zh": "没有回应；沉默",
+      "sentence_ids": [
+        "p09-a-33-s03"
+      ],
+      "forms": [
+        "silence"
+      ],
+      "sense_id": "sense-staged-ox-0c0c50332cf81be4-p09-a-33",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

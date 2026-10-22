@@ -1,0 +1,105 @@
+{
+  "id": "p09-a-26",
+  "title_zh": "发现新桌面划痕后约定店方查看",
+  "topic_id": "services",
+  "scenario": {
+    "id": "table-surface-scratch-inspection",
+    "label_zh": "新桌面划痕检查安排",
+    "goal_zh": "描述划痕和桌脚情况，同意停止擦拭，并约定发送照片后由店方安排检查"
+  },
+  "participants": [
+    "Mabel",
+    "Anton"
+  ],
+  "context_zh": "顾客致电家具店说明刚送到的新桌子出现痕迹。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-26-s01",
+      "speaker": "Mabel",
+      "text": "There is a scratch across the top of the table that arrived this morning."
+    },
+    {
+      "id": "p09-a-26-s02",
+      "speaker": "Anton",
+      "text": "I am sorry to hear that. Is there any damage to the legs?"
+    },
+    {
+      "id": "p09-a-26-s03",
+      "speaker": "Mabel",
+      "text": "The legs look fine, and all four rubber feet are in place. It is just the top."
+    },
+    {
+      "id": "p09-a-26-s04",
+      "speaker": "Anton",
+      "text": "Have you tried to rub the mark with anything?"
+    },
+    {
+      "id": "p09-a-26-s05",
+      "speaker": "Mabel",
+      "text": "Only a dry cloth, very lightly. It did not change."
+    },
+    {
+      "id": "p09-a-26-s06",
+      "speaker": "Anton",
+      "text": "Please leave it as it is and send us a clear photo. I will arrange for our service team to inspect it."
+    },
+    {
+      "id": "p09-a-26-s07",
+      "speaker": "Mabel",
+      "text": "All right. I'll stop wiping it and send photos of the mark and the whole table."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-b6cb191ad0cb6146",
+      "lemma": "rub",
+      "pos": "v.",
+      "sense_zh": "擦；摩擦",
+      "sentence_ids": [
+        "p09-a-26-s04"
+      ],
+      "forms": [
+        "rub"
+      ],
+      "sense_id": "sense-staged-ox-b6cb191ad0cb6146-p09-a-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2524f658b4487873",
+      "lemma": "rubber",
+      "pos": "adj.",
+      "sense_zh": "橡胶制的",
+      "sentence_ids": [
+        "p09-a-26-s03"
+      ],
+      "forms": [
+        "rubber"
+      ],
+      "sense_id": "sense-staged-ox-2524f658b4487873-p09-a-26",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b9c185ae4f6734ad",
+      "lemma": "scratch",
+      "pos": "n.",
+      "sense_zh": "划痕",
+      "sentence_ids": [
+        "p09-a-26-s01"
+      ],
+      "forms": [
+        "scratch"
+      ],
+      "sense_id": "sense-staged-ox-b9c185ae4f6734ad-p09-a-26",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

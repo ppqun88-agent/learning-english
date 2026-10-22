@@ -1,0 +1,137 @@
+{
+  "id": "p09-c-20",
+  "title_zh": "肯定打完全场的进步并选择传球练习",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "team-season-progress-next-practice",
+    "label_zh": "承认进步并针对薄弱点选择下一次训练",
+    "goal_zh": "区分比赛输赢和个人进步，指出传球薄弱点并约定下次先练传球"
+  },
+  "participants": [
+    "Ada",
+    "Marcus"
+  ],
+  "context_zh": "教练与成年业余球员复盘一场比赛。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-20-s01",
+      "speaker": "Ada",
+      "text": "We didn't get a victory, so it feels as if the whole month was wasted."
+    },
+    {
+      "id": "p09-c-20-s02",
+      "speaker": "Marcus",
+      "text": "You played the full match for the first time. That's an accomplishment, even though we lost."
+    },
+    {
+      "id": "p09-c-20-s03",
+      "speaker": "Ada",
+      "text": "My passing is still a weakness. I gave the ball away three times."
+    },
+    {
+      "id": "p09-c-20-s04",
+      "speaker": "Marcus",
+      "text": "Then it would be wise to practise short passes before we add more shooting drills."
+    },
+    {
+      "id": "p09-c-20-s05",
+      "speaker": "Ada",
+      "text": "My old coach's favourite piece of wisdom was, 'Work on what the match shows you.' I suppose that's what you're saying."
+    },
+    {
+      "id": "p09-c-20-s06",
+      "speaker": "Marcus",
+      "text": "Exactly. Shall we spend the first ten minutes on passing next time?"
+    },
+    {
+      "id": "p09-c-20-s07",
+      "speaker": "Ada",
+      "text": "Yes. I can be pleased that I finished and still work on that."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-59573f2615b1f2d1",
+      "lemma": "victory",
+      "pos": "n.",
+      "sense_zh": "胜利",
+      "sentence_ids": [
+        "p09-c-20-s01"
+      ],
+      "forms": [
+        "victory"
+      ],
+      "sense_id": "sense-staged-ox-59573f2615b1f2d1-p09-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-904236d5898cf4f7",
+      "lemma": "accomplishment",
+      "pos": "n.",
+      "sense_zh": "成就；完成的事情",
+      "sentence_ids": [
+        "p09-c-20-s02"
+      ],
+      "forms": [
+        "accomplishment"
+      ],
+      "sense_id": "sense-staged-ox-904236d5898cf4f7-p09-c-20",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-3cd09742c0b81c36",
+      "lemma": "weakness",
+      "pos": "n.",
+      "sense_zh": "弱点",
+      "sentence_ids": [
+        "p09-c-20-s03"
+      ],
+      "forms": [
+        "weakness"
+      ],
+      "sense_id": "sense-staged-ox-3cd09742c0b81c36-p09-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-ddeb6e2304d2a293",
+      "lemma": "wise",
+      "pos": "adj.",
+      "sense_zh": "明智的",
+      "sentence_ids": [
+        "p09-c-20-s04"
+      ],
+      "forms": [
+        "wise"
+      ],
+      "sense_id": "sense-staged-ox-ddeb6e2304d2a293-p09-c-20",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a0849bf7afac18fd",
+      "lemma": "wisdom",
+      "pos": "n.",
+      "sense_zh": "智慧；有益的经验之谈",
+      "sentence_ids": [
+        "p09-c-20-s05"
+      ],
+      "forms": [
+        "wisdom"
+      ],
+      "sense_id": "sense-staged-ox-a0849bf7afac18fd-p09-c-20",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

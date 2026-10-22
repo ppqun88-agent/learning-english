@@ -1,0 +1,142 @@
+{
+  "id": "p09-b-20",
+  "title_zh": "选定去观景台的平缓湖边路线",
+  "topic_id": "travel",
+  "scenario": {
+    "id": "woodland-viewpoint-route-choice",
+    "label_zh": "选定去观景台的平缓湖边路线",
+    "goal_zh": "比较两条路线的坡度和长度，并选定较长但平缓的湖边路线"
+  },
+  "participants": [
+    "Greta",
+    "Owen"
+  ],
+  "context_zh": "游客向步道工作人员询问到湖边观景台的路线。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-20-s01",
+      "speaker": "Greta",
+      "text": "Does the short route to the viewpoint go up that slope?"
+    },
+    {
+      "id": "p09-b-20-s02",
+      "speaker": "Owen",
+      "text": "Yes. It's quite steep near the top. The lakeside route is longer but mostly level."
+    },
+    {
+      "id": "p09-b-20-s03",
+      "speaker": "Greta",
+      "text": "Do the trees surround the whole lake? I'd like to see the surrounding hills, not just the woods."
+    },
+    {
+      "id": "p09-b-20-s04",
+      "speaker": "Owen",
+      "text": "There are trees on three sides. The viewpoint faces the open side, so both routes end with the same view."
+    },
+    {
+      "id": "p09-b-20-s05",
+      "speaker": "Greta",
+      "text": "How much longer is the lakeside route?"
+    },
+    {
+      "id": "p09-b-20-s06",
+      "speaker": "Owen",
+      "text": "About twenty minutes. There's one long stretch beside the water before it turns towards the viewpoint."
+    },
+    {
+      "id": "p09-b-20-s07",
+      "speaker": "Greta",
+      "text": "Then we'll take that route. We have time, and I'd rather avoid the climb."
+    },
+    {
+      "id": "p09-b-20-s08",
+      "speaker": "Owen",
+      "text": "Follow the blue signs from this gate. They'll keep you on the lakeside path."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4c0fe14e1d5d96cd",
+      "lemma": "slope",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-4c0fe14e1d5d96cd-p09-b-20",
+      "sense_zh": "斜坡",
+      "sentence_ids": [
+        "p09-b-20-s01"
+      ],
+      "forms": [
+        "slope"
+      ]
+    },
+    {
+      "target_id": "ox-8f1cae45ba8cba67",
+      "lemma": "steep",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-8f1cae45ba8cba67-p09-b-20",
+      "sense_zh": "陡峭的",
+      "sentence_ids": [
+        "p09-b-20-s02"
+      ],
+      "forms": [
+        "steep"
+      ]
+    },
+    {
+      "target_id": "ox-0b37a92e2934fac2",
+      "lemma": "surround",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-0b37a92e2934fac2-p09-b-20",
+      "sense_zh": "环绕",
+      "sentence_ids": [
+        "p09-b-20-s03"
+      ],
+      "forms": [
+        "surround"
+      ]
+    },
+    {
+      "target_id": "ox-82033a03e40cb5e2",
+      "lemma": "surrounding",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-82033a03e40cb5e2-p09-b-20",
+      "sense_zh": "周围的",
+      "sentence_ids": [
+        "p09-b-20-s03"
+      ],
+      "forms": [
+        "surrounding"
+      ]
+    },
+    {
+      "target_id": "ox-b343ad6045f2e5cc",
+      "lemma": "stretch",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-b343ad6045f2e5cc-p09-b-20",
+      "sense_zh": "一段路程或区域",
+      "sentence_ids": [
+        "p09-b-20-s06"
+      ],
+      "forms": [
+        "stretch"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

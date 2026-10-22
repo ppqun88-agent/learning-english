@@ -1,0 +1,153 @@
+{
+  "id": "p09-a-06",
+  "title_zh": "为虚构商店案例选择短期营业方案",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fictional-shop-revenue-reduction-plan",
+    "label_zh": "虚构零售案例的收入变化",
+    "goal_zh": "区分营业收入与利润，依据课堂数据选择短期缩短晚间营业的方案"
+  },
+  "participants": [
+    "Aisha",
+    "Ben"
+  ],
+  "context_zh": "商科课堂中的两名学生分析虚构零售商店，不是在提供经营或投资建议。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-06-s01",
+      "speaker": "Aisha",
+      "text": "In this scenario, a recession has reduced spending in the town. What does that mean for our shop?"
+    },
+    {
+      "id": "p09-a-06-s02",
+      "speaker": "Ben",
+      "text": "Retail is the only sector shown here. The case does not give us figures for restaurants or factories."
+    },
+    {
+      "id": "p09-a-06-s03",
+      "speaker": "Aisha",
+      "text": "The table shows a twenty percent reduction in revenue. Is that the same as a twenty percent fall in profit?"
+    },
+    {
+      "id": "p09-a-06-s04",
+      "speaker": "Ben",
+      "text": "No. Revenue is money from sales before costs. We need the cost page to work out profit."
+    },
+    {
+      "id": "p09-a-06-s05",
+      "speaker": "Aisha",
+      "text": "Here it is. The late opening hours cost more to run than they bring in."
+    },
+    {
+      "id": "p09-a-06-s06",
+      "speaker": "Ben",
+      "text": "Then, for our short-term plan, shall we close at six instead of eight and review the figures after a month?"
+    },
+    {
+      "id": "p09-a-06-s07",
+      "speaker": "Aisha",
+      "text": "Yes. We can explain that choice using the late-evening figures, rather than claiming every shop should do it."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0050329ed1e872c6",
+      "lemma": "recession",
+      "pos": "n.",
+      "sense_zh": "经济衰退",
+      "sentence_ids": [
+        "p09-a-06-s01"
+      ],
+      "forms": [
+        "recession"
+      ],
+      "sense_id": "sense-staged-ox-0050329ed1e872c6-p09-a-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fe83ee033fb89732",
+      "lemma": "retail",
+      "pos": "n.",
+      "sense_zh": "零售业",
+      "sentence_ids": [
+        "p09-a-06-s02"
+      ],
+      "forms": [
+        "retail"
+      ],
+      "sense_id": "sense-staged-ox-fe83ee033fb89732-p09-a-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-43e152fe901278d6",
+      "lemma": "revenue",
+      "pos": "n.",
+      "sense_zh": "营业收入",
+      "sentence_ids": [
+        "p09-a-06-s03"
+      ],
+      "forms": [
+        "revenue"
+      ],
+      "sense_id": "sense-staged-ox-43e152fe901278d6-p09-a-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e3989938e7da5a04",
+      "lemma": "reduction",
+      "pos": "n.",
+      "sense_zh": "减少；下降",
+      "sentence_ids": [
+        "p09-a-06-s03"
+      ],
+      "forms": [
+        "reduction"
+      ],
+      "sense_id": "sense-staged-ox-e3989938e7da5a04-p09-a-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-eb20c8cb31063562",
+      "lemma": "short-term",
+      "pos": "adj.",
+      "sense_zh": "短期的",
+      "sentence_ids": [
+        "p09-a-06-s06"
+      ],
+      "forms": [
+        "short-term"
+      ],
+      "sense_id": "sense-staged-ox-eb20c8cb31063562-p09-a-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cb4716b94a640dc8",
+      "lemma": "scenario",
+      "pos": "n.",
+      "sense_zh": "设定的情境",
+      "sentence_ids": [
+        "p09-a-06-s01"
+      ],
+      "forms": [
+        "scenario"
+      ],
+      "sense_id": "sense-staged-ox-cb4716b94a640dc8-p09-a-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

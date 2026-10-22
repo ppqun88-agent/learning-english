@@ -1,0 +1,121 @@
+{
+  "id": "p09-c-15",
+  "title_zh": "把停车调查结论限定为受访者意见",
+  "topic_id": "reasoning",
+  "scenario": {
+    "id": "neighbour-survey-viewpoint-limits",
+    "label_zh": "把广泛支持结论限定为已访谈者观点",
+    "goal_zh": "商定删除无法支持的普遍赞同说法，报告已访谈者观点并补充招募方式"
+  },
+  "participants": [
+    "Cora",
+    "Ben"
+  ],
+  "context_zh": "两名社区研究志愿者核对小规模访谈的摘要。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-15-s01",
+      "speaker": "Cora",
+      "text": "My draft says there's universal support for removing the parking spaces."
+    },
+    {
+      "id": "p09-c-15-s02",
+      "speaker": "Ben",
+      "text": "We spoke to eight people at a cycling event. That's one viewpoint, not the whole neighbourhood."
+    },
+    {
+      "id": "p09-c-15-s03",
+      "speaker": "Cora",
+      "text": "Could I say support is widespread instead?"
+    },
+    {
+      "id": "p09-c-15-s04",
+      "speaker": "Ben",
+      "text": "We don't know that either. The idea may be widely discussed, but discussion isn't agreement."
+    },
+    {
+      "id": "p09-c-15-s05",
+      "speaker": "Cora",
+      "text": "Then I'll write that all eight people we interviewed supported it, and explain where we found them."
+    },
+    {
+      "id": "p09-c-15-s06",
+      "speaker": "Ben",
+      "text": "Yes. Add that we haven't yet heard from drivers or nearby shop owners."
+    },
+    {
+      "id": "p09-c-15-s07",
+      "speaker": "Cora",
+      "text": "Agreed. I'll remove the broad claim and keep those limits visible."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9fa8d1f52ca08229",
+      "lemma": "universal",
+      "pos": "adj.",
+      "sense_zh": "全体一致的；普遍的",
+      "sentence_ids": [
+        "p09-c-15-s01"
+      ],
+      "forms": [
+        "universal"
+      ],
+      "sense_id": "sense-staged-ox-9fa8d1f52ca08229-p09-c-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-cce8eb59f02d784b",
+      "lemma": "viewpoint",
+      "pos": "n.",
+      "sense_zh": "观点；看法",
+      "sentence_ids": [
+        "p09-c-15-s02"
+      ],
+      "forms": [
+        "viewpoint"
+      ],
+      "sense_id": "sense-staged-ox-cce8eb59f02d784b-p09-c-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bc1c869e57346b6f",
+      "lemma": "widespread",
+      "pos": "adj.",
+      "sense_zh": "广泛存在的",
+      "sentence_ids": [
+        "p09-c-15-s03"
+      ],
+      "forms": [
+        "widespread"
+      ],
+      "sense_id": "sense-staged-ox-bc1c869e57346b6f-p09-c-15",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-be9fd1f4cdfbd1e8",
+      "lemma": "widely",
+      "pos": "adv.",
+      "sense_zh": "广泛地",
+      "sentence_ids": [
+        "p09-c-15-s04"
+      ],
+      "forms": [
+        "widely"
+      ],
+      "sense_id": "sense-staged-ox-be9fd1f4cdfbd1e8-p09-c-15",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

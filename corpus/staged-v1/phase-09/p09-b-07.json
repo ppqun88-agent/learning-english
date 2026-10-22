@@ -1,0 +1,122 @@
+{
+  "id": "p09-b-07",
+  "title_zh": "约定缩小咖啡馆海报的环保宣传范围",
+  "topic_id": "work",
+  "scenario": {
+    "id": "solar-promotion-claim-scope",
+    "label_zh": "约定缩小咖啡馆海报的环保宣传范围",
+    "goal_zh": "确认整体环保宣传缺乏依据，并约定删去该宣传、只保留已核实的太阳能热水信息"
+  },
+  "participants": [
+    "Selma",
+    "Ravi"
+  ],
+  "context_zh": "文案人员与咖啡馆经理检查一张虚构门店海报，不对真实产品作环保认证。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-07-s01",
+      "speaker": "Selma",
+      "text": "The new slogan is 'A completely sustainable café'. Can we support that?"
+    },
+    {
+      "id": "p09-b-07-s02",
+      "speaker": "Ravi",
+      "text": "We've installed solar panels to heat water, but we haven't assessed our deliveries or packaging."
+    },
+    {
+      "id": "p09-b-07-s03",
+      "speaker": "Selma",
+      "text": "Then 'completely' is a problem. I don't want us to become another so-called green business that can't explain its claims."
+    },
+    {
+      "id": "p09-b-07-s04",
+      "speaker": "Ravi",
+      "text": "Could we just say we use solar energy to heat water? The installation report confirms that."
+    },
+    {
+      "id": "p09-b-07-s05",
+      "speaker": "Selma",
+      "text": "Yes. That describes one specific change without making a claim about the whole café."
+    },
+    {
+      "id": "p09-b-07-s06",
+      "speaker": "Ravi",
+      "text": "Let's use that wording and leave out the broader slogan."
+    },
+    {
+      "id": "p09-b-07-s07",
+      "speaker": "Selma",
+      "text": "Agreed. I'll make the change before the poster goes to print."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-1b6f99e97db98ccf",
+      "lemma": "slogan",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-1b6f99e97db98ccf-p09-b-07",
+      "sense_zh": "宣传标语",
+      "sentence_ids": [
+        "p09-b-07-s01"
+      ],
+      "forms": [
+        "slogan"
+      ]
+    },
+    {
+      "target_id": "ox-5bdfc95074081d52",
+      "lemma": "sustainable",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-5bdfc95074081d52-p09-b-07",
+      "sense_zh": "可持续的；不破坏环境资源的",
+      "sentence_ids": [
+        "p09-b-07-s01"
+      ],
+      "forms": [
+        "sustainable"
+      ]
+    },
+    {
+      "target_id": "ox-84618146ba2edebf",
+      "lemma": "solar",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-84618146ba2edebf-p09-b-07",
+      "sense_zh": "太阳能的",
+      "sentence_ids": [
+        "p09-b-07-s02",
+        "p09-b-07-s04"
+      ],
+      "forms": [
+        "solar"
+      ]
+    },
+    {
+      "target_id": "ox-c24e2810df6b8bd8",
+      "lemma": "so-called",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-c24e2810df6b8bd8-p09-b-07",
+      "sense_zh": "所谓的（表示怀疑其名实相符）",
+      "sentence_ids": [
+        "p09-b-07-s03"
+      ],
+      "forms": [
+        "so-called"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

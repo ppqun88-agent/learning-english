@@ -1,0 +1,141 @@
+{
+  "id": "p09-b-19",
+  "title_zh": "约好检查鱼缸旁漏水的水龙头",
+  "topic_id": "services",
+  "scenario": {
+    "id": "aquarium-service-tap-inspection",
+    "label_zh": "约好检查鱼缸旁漏水的水龙头",
+    "goal_zh": "说明鱼缸旁供水龙头及临时接水安排，并约定维修人员到场检查而不自行拆修"
+  },
+  "participants": [
+    "Amir",
+    "Tessa"
+  ],
+  "context_zh": "水族店工作人员向维修服务说明龙头漏水；鱼缸本身的水温没有变化。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-19-s01",
+      "speaker": "Amir",
+      "text": "The tap above our service sink is dripping again. It's beside the display tank."
+    },
+    {
+      "id": "p09-b-19-s02",
+      "speaker": "Tessa",
+      "text": "Has anything changed in the tank itself?"
+    },
+    {
+      "id": "p09-b-19-s03",
+      "speaker": "Amir",
+      "text": "No. The temperature is stable, and the display system is running normally. The leak is just from that tap."
+    },
+    {
+      "id": "p09-b-19-s04",
+      "speaker": "Tessa",
+      "text": "Can you describe what's underneath it?"
+    },
+    {
+      "id": "p09-b-19-s05",
+      "speaker": "Amir",
+      "text": "There's a temporary container in the sink to catch the drips. We've closed that work area temporarily so nobody knocks it over."
+    },
+    {
+      "id": "p09-b-19-s06",
+      "speaker": "Tessa",
+      "text": "I'll come at three to inspect the tap. Please leave the fitting intact so I can see where it's leaking."
+    },
+    {
+      "id": "p09-b-19-s07",
+      "speaker": "Amir",
+      "text": "Three works. We'll leave the area closed and won't try to take the tap apart."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7c88b3de04202edb",
+      "lemma": "tap",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-7c88b3de04202edb-p09-b-19",
+      "sense_zh": "水龙头",
+      "sentence_ids": [
+        "p09-b-19-s01",
+        "p09-b-19-s03",
+        "p09-b-19-s06",
+        "p09-b-19-s07"
+      ],
+      "forms": [
+        "tap"
+      ]
+    },
+    {
+      "target_id": "ox-30012def56552538",
+      "lemma": "tank",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-30012def56552538-p09-b-19",
+      "sense_zh": "水箱；鱼缸",
+      "sentence_ids": [
+        "p09-b-19-s01",
+        "p09-b-19-s02"
+      ],
+      "forms": [
+        "tank"
+      ]
+    },
+    {
+      "target_id": "ox-e72b916bc4b6523e",
+      "lemma": "stable",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-e72b916bc4b6523e-p09-b-19",
+      "sense_zh": "稳定的",
+      "sentence_ids": [
+        "p09-b-19-s03"
+      ],
+      "forms": [
+        "stable"
+      ]
+    },
+    {
+      "target_id": "ox-d01c6378b9432a29",
+      "lemma": "temporary",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-d01c6378b9432a29-p09-b-19",
+      "sense_zh": "临时的",
+      "sentence_ids": [
+        "p09-b-19-s05"
+      ],
+      "forms": [
+        "temporary"
+      ]
+    },
+    {
+      "target_id": "ox-eede54104245a8ca",
+      "lemma": "temporarily",
+      "pos": "adv.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-eede54104245a8ca-p09-b-19",
+      "sense_zh": "暂时地",
+      "sentence_ids": [
+        "p09-b-19-s05"
+      ],
+      "forms": [
+        "temporarily"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,101 @@
+{
+  "id": "p09-b-03",
+  "title_zh": "约定更正人体展台的两张标签",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "anatomy-display-source-labels",
+    "label_zh": "约定更正人体展台的两张标签",
+    "goal_zh": "依据课本区分头骨模型与组织图片，并约定更正两张展台标签"
+  },
+  "participants": [
+    "Lina",
+    "Mr Cole"
+  ],
+  "context_zh": "学生和教师为课堂人体展台核对模型及图片的名称。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-03-s01",
+      "speaker": "Lina",
+      "text": "I've labelled this whole model 'brain'. Is that right?"
+    },
+    {
+      "id": "p09-b-03-s02",
+      "speaker": "Mr Cole",
+      "text": "Look at the picture in your textbook. The hard outer part is the skull; the brain would sit inside it."
+    },
+    {
+      "id": "p09-b-03-s03",
+      "speaker": "Lina",
+      "text": "So the model shows the skull, not the brain. And I've labelled this photograph 'a whole muscle'. Is that right?"
+    },
+    {
+      "id": "p09-b-03-s04",
+      "speaker": "Mr Cole",
+      "text": "Its caption says 'muscle tissue'. It's a close-up photograph, not a picture of a whole muscle."
+    },
+    {
+      "id": "p09-b-03-s05",
+      "speaker": "Lina",
+      "text": "I'll change the model label to 'skull' and copy the photograph's caption exactly."
+    },
+    {
+      "id": "p09-b-03-s06",
+      "speaker": "Mr Cole",
+      "text": "Good. Add the textbook page number underneath so visitors can find the explanation."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2936e9c89e257efd",
+      "lemma": "textbook",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-2936e9c89e257efd-p09-b-03",
+      "sense_zh": "教科书",
+      "sentence_ids": [
+        "p09-b-03-s02"
+      ],
+      "forms": [
+        "textbook"
+      ]
+    },
+    {
+      "target_id": "ox-66dbc3d118e8e81e",
+      "lemma": "skull",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-66dbc3d118e8e81e-p09-b-03",
+      "sense_zh": "头骨",
+      "sentence_ids": [
+        "p09-b-03-s02",
+        "p09-b-03-s03"
+      ],
+      "forms": [
+        "skull"
+      ]
+    },
+    {
+      "target_id": "ox-971fcdd171896ca5",
+      "lemma": "tissue",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-971fcdd171896ca5-p09-b-03",
+      "sense_zh": "组织（构成生物身体的细胞群）",
+      "sentence_ids": [
+        "p09-b-03-s04"
+      ],
+      "forms": [
+        "tissue"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "id": "p09-a-09",
+  "title_zh": "商定由队长赛后向裁判询问",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "football-referee-protest-boundary",
+    "label_zh": "足球赛后异议沟通边界",
+    "goal_zh": "听取对判罚的不满，约定不与对手争执而由队长赛后私下询问裁判"
+  },
+  "participants": [
+    "Tom",
+    "Rafi"
+  ],
+  "context_zh": "业余足球比赛暂停时，队长劝队员避免现场争吵。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-09-s01",
+      "speaker": "Tom",
+      "text": "The referee gave them the ball again. Their player touched it last."
+    },
+    {
+      "id": "p09-a-09-s02",
+      "speaker": "Rafi",
+      "text": "I saw it differently, but arguing now will not help us play."
+    },
+    {
+      "id": "p09-a-09-s03",
+      "speaker": "Tom",
+      "text": "The rival captain is smiling at me. He knows what happened."
+    },
+    {
+      "id": "p09-a-09-s04",
+      "speaker": "Rafi",
+      "text": "You don't know what he is thinking. Try to resist the temptation to shout at him."
+    },
+    {
+      "id": "p09-a-09-s05",
+      "speaker": "Tom",
+      "text": "Will you ask about the decision after the match?"
+    },
+    {
+      "id": "p09-a-09-s06",
+      "speaker": "Rafi",
+      "text": "Yes. As captain, I'll speak to the referee privately. For now, let's get back into position."
+    },
+    {
+      "id": "p09-a-09-s07",
+      "speaker": "Tom",
+      "text": "All right. I'll leave it with you and focus on the game."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c7f034a9bc8570a7",
+      "lemma": "referee",
+      "pos": "n.",
+      "sense_zh": "裁判",
+      "sentence_ids": [
+        "p09-a-09-s01"
+      ],
+      "forms": [
+        "referee"
+      ],
+      "sense_id": "sense-staged-ox-c7f034a9bc8570a7-p09-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-287be356b8cf220f",
+      "lemma": "rival",
+      "pos": "adj.",
+      "sense_zh": "竞争对手的",
+      "sentence_ids": [
+        "p09-a-09-s03"
+      ],
+      "forms": [
+        "rival"
+      ],
+      "sense_id": "sense-staged-ox-287be356b8cf220f-p09-a-09",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-5d0edca512950190",
+      "lemma": "resist",
+      "pos": "v.",
+      "sense_zh": "克制；抵制",
+      "sentence_ids": [
+        "p09-a-09-s04"
+      ],
+      "forms": [
+        "resist"
+      ],
+      "sense_id": "sense-staged-ox-5d0edca512950190-p09-a-09",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-01",
+  "title_zh": "约定隔离会堂入口台阶并检查扶手底座",
+  "topic_id": "community",
+  "scenario": {
+    "id": "heritage-step-handrail-repair-scope",
+    "label_zh": "会堂入口台阶隔离与扶手底座检查安排",
+    "goal_zh": "讨论加固扶手底座与重建整个入口的可能性，约定先隔离入口台阶再请维修人员检查扶手底座"
+  },
+  "participants": [
+    "Jamie",
+    "Lin"
+  ],
+  "context_zh": "社区旧会堂的管理员与维修协调员检查入口台阶。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-01-s01",
+      "speaker": "Jamie",
+      "text": "The rail moves when I put my hand on it. We should close these steps."
+    },
+    {
+      "id": "p09-a-01-s02",
+      "speaker": "Lin",
+      "text": "Yes. We may be able to reinforce the base, but someone needs to inspect it first."
+    },
+    {
+      "id": "p09-a-01-s03",
+      "speaker": "Jamie",
+      "text": "Do you think we will have to rebuild the whole entrance?"
+    },
+    {
+      "id": "p09-a-01-s04",
+      "speaker": "Lin",
+      "text": "I can't tell from here. The other entrance is open, so there is no need to guess."
+    },
+    {
+      "id": "p09-a-01-s05",
+      "speaker": "Jamie",
+      "text": "I'll secure the temporary barrier across these steps and put up a sign."
+    },
+    {
+      "id": "p09-a-01-s06",
+      "speaker": "Lin",
+      "text": "Good. Once that's done, I'll ask our repair team to inspect the base and explain the options."
+    },
+    {
+      "id": "p09-a-01-s07",
+      "speaker": "Jamie",
+      "text": "Agreed. We won't reopen this entrance until they say it's ready."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-2468bc42e8ded047",
+      "lemma": "rail",
+      "pos": "n.",
+      "sense_zh": "栏杆；扶手",
+      "sentence_ids": [
+        "p09-a-01-s01"
+      ],
+      "forms": [
+        "rail"
+      ],
+      "sense_id": "sense-staged-ox-2468bc42e8ded047-p09-a-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-bb93d642f6a46074",
+      "lemma": "rebuild",
+      "pos": "v.",
+      "sense_zh": "重建",
+      "sentence_ids": [
+        "p09-a-01-s03"
+      ],
+      "forms": [
+        "rebuild"
+      ],
+      "sense_id": "sense-staged-ox-bb93d642f6a46074-p09-a-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a3d5d31c0027c6e8",
+      "lemma": "reinforce",
+      "pos": "v.",
+      "sense_zh": "加固",
+      "sentence_ids": [
+        "p09-a-01-s02"
+      ],
+      "forms": [
+        "reinforce"
+      ],
+      "sense_id": "sense-staged-ox-a3d5d31c0027c6e8-p09-a-01",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-565f87a3eff3612b",
+      "lemma": "secure",
+      "pos": "v.",
+      "sense_zh": "把某物固定牢靠",
+      "sentence_ids": [
+        "p09-a-01-s05"
+      ],
+      "forms": [
+        "secure"
+      ],
+      "sense_id": "sense-staged-ox-565f87a3eff3612b-p09-a-01",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 2
+}

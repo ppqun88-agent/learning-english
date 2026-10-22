@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-23",
+  "title_zh": "调整虚构劫案短剧的声音提示",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "fictional-robbery-scene-sound-cue",
+    "label_zh": "虚构劫案戏剧声效排练",
+    "goal_zh": "用低音量台外呼喊提示劫案情节，约定演员听到呼喊后转身而不用突发巨响"
+  },
+  "participants": [
+    "Rosa",
+    "Dylan"
+  ],
+  "context_zh": "成年人排练虚构舞台短剧，只讨论叙事声音与表演提示，不演练真实犯罪。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-23-s01",
+      "speaker": "Rosa",
+      "text": "The script says two characters rob a shop, but the audience never sees the shop. How will they know what happened?"
+    },
+    {
+      "id": "p09-a-23-s02",
+      "speaker": "Dylan",
+      "text": "The next line mentions the robbery. Before that, a scream comes from offstage."
+    },
+    {
+      "id": "p09-a-23-s03",
+      "speaker": "Rosa",
+      "text": "The sound recording is so loud that it will scare people rather than help them follow the story."
+    },
+    {
+      "id": "p09-a-23-s04",
+      "speaker": "Dylan",
+      "text": "Then use a brief live cry at a lower volume. No sudden bang."
+    },
+    {
+      "id": "p09-a-23-s05",
+      "speaker": "Rosa",
+      "text": "And I turn toward the side door when I hear it?"
+    },
+    {
+      "id": "p09-a-23-s06",
+      "speaker": "Dylan",
+      "text": "Yes. Wait for the cry, turn, and then deliver your line."
+    },
+    {
+      "id": "p09-a-23-s07",
+      "speaker": "Rosa",
+      "text": "All right. Let us practise from the moment before the cry, with that quieter cue."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d8389b33cc03d226",
+      "lemma": "rob",
+      "pos": "v.",
+      "sense_zh": "抢劫",
+      "sentence_ids": [
+        "p09-a-23-s01"
+      ],
+      "forms": [
+        "rob"
+      ],
+      "sense_id": "sense-staged-ox-d8389b33cc03d226-p09-a-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f87946dc92d9bb25",
+      "lemma": "robbery",
+      "pos": "n.",
+      "sense_zh": "抢劫事件",
+      "sentence_ids": [
+        "p09-a-23-s02"
+      ],
+      "forms": [
+        "robbery"
+      ],
+      "sense_id": "sense-staged-ox-f87946dc92d9bb25-p09-a-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-00b6a2ad76acb7f1",
+      "lemma": "scream",
+      "pos": "n.",
+      "sense_zh": "尖叫声",
+      "sentence_ids": [
+        "p09-a-23-s02"
+      ],
+      "forms": [
+        "scream"
+      ],
+      "sense_id": "sense-staged-ox-00b6a2ad76acb7f1-p09-a-23",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4d649f567cd0d868",
+      "lemma": "scare",
+      "pos": "v.",
+      "sense_zh": "使惊恐；吓到",
+      "sentence_ids": [
+        "p09-a-23-s03"
+      ],
+      "forms": [
+        "scare"
+      ],
+      "sense_id": "sense-staged-ox-4d649f567cd0d868-p09-a-23",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

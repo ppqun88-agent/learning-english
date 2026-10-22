@@ -1,0 +1,105 @@
+{
+  "id": "p09-c-21",
+  "title_zh": "区分学院收件通知与录取通知",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "academy-admission-acceptance-check",
+    "label_zh": "区分申请收件与录取并索取确认",
+    "goal_zh": "核对邮件只证明申请已收到，确认录取另行通知并索取预计决定时间"
+  },
+  "participants": [
+    "Rowan",
+    "Mina"
+  ],
+  "context_zh": "虚构艺术学院申请咨询，不代表真实录取流程。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-21-s01",
+      "speaker": "Rowan",
+      "text": "I received a message from the academy saying my application is complete. Is that an acceptance letter?"
+    },
+    {
+      "id": "p09-c-21-s02",
+      "speaker": "Mina",
+      "text": "No. It confirms we've received the required documents. The admission decision comes in a separate message."
+    },
+    {
+      "id": "p09-c-21-s03",
+      "speaker": "Rowan",
+      "text": "Then I shouldn't make travel plans yet."
+    },
+    {
+      "id": "p09-c-21-s04",
+      "speaker": "Mina",
+      "text": "That's right. This message doesn't offer you a place."
+    },
+    {
+      "id": "p09-c-21-s05",
+      "speaker": "Rowan",
+      "text": "Can you tell me when decisions are expected? I can't find a date in it."
+    },
+    {
+      "id": "p09-c-21-s06",
+      "speaker": "Mina",
+      "text": "I'll ask the admissions team to send you the current timetable."
+    },
+    {
+      "id": "p09-c-21-s07",
+      "speaker": "Rowan",
+      "text": "Thank you. I'll wait for that and the actual decision before arranging the journey."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-8454a46bc8db6c32",
+      "lemma": "academy",
+      "pos": "n.",
+      "sense_zh": "专门学院",
+      "sentence_ids": [
+        "p09-c-21-s01"
+      ],
+      "forms": [
+        "academy"
+      ],
+      "sense_id": "sense-staged-ox-8454a46bc8db6c32-p09-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4ac90fd4fe2434ea",
+      "lemma": "acceptance",
+      "pos": "n.",
+      "sense_zh": "接纳；录取",
+      "sentence_ids": [
+        "p09-c-21-s01"
+      ],
+      "forms": [
+        "acceptance"
+      ],
+      "sense_id": "sense-staged-ox-4ac90fd4fe2434ea-p09-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-468124c7688381f0",
+      "lemma": "admission",
+      "pos": "n.",
+      "sense_zh": "准许入学；录取",
+      "sentence_ids": [
+        "p09-c-21-s02"
+      ],
+      "forms": [
+        "admission"
+      ],
+      "sense_id": "sense-staged-ox-468124c7688381f0-p09-c-21",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "id": "p09-b-13",
+  "title_zh": "暂缓购买网球赛门票以等候天气更新",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "tournament-weather-ticket-inquiry",
+    "label_zh": "暂缓购买网球赛门票以等候天气更新",
+    "goal_zh": "核对赛事因天气暂停时的观众安排，并决定暂不付款购票、等待天气更新"
+  },
+  "participants": [
+    "Milo",
+    "Receptionist Jo"
+  ],
+  "context_zh": "虚构网球赛事售票咨询：访客询问观众票及恶劣天气安排。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-13-s01",
+      "speaker": "Milo",
+      "text": "Is this tennis tournament suitable for someone who's never watched a sporting event in person?"
+    },
+    {
+      "id": "p09-b-13-s02",
+      "speaker": "Receptionist Jo",
+      "text": "Certainly. A spectator ticket gives you access to the outdoor courts and the covered seating area."
+    },
+    {
+      "id": "p09-b-13-s03",
+      "speaker": "Milo",
+      "text": "The final looks spectacular in the photographs. But what happens if there's heavy rain?"
+    },
+    {
+      "id": "p09-b-13-s04",
+      "speaker": "Receptionist Jo",
+      "text": "The officials may suspend play. Spectators can wait in the covered area, but we can't promise when play will resume."
+    },
+    {
+      "id": "p09-b-13-s05",
+      "speaker": "Milo",
+      "text": "So buying a ticket doesn't guarantee I'll see a full match tomorrow."
+    },
+    {
+      "id": "p09-b-13-s06",
+      "speaker": "Receptionist Jo",
+      "text": "That's right. The weather update will be posted at six this evening. You haven't paid for the ticket yet."
+    },
+    {
+      "id": "p09-b-13-s07",
+      "speaker": "Milo",
+      "text": "Then I'll wait for that update before deciding whether to buy."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-4e1051d274aca8b2",
+      "lemma": "tournament",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-4e1051d274aca8b2-p09-b-13",
+      "sense_zh": "锦标赛；联赛",
+      "sentence_ids": [
+        "p09-b-13-s01"
+      ],
+      "forms": [
+        "tournament"
+      ]
+    },
+    {
+      "target_id": "ox-9f9c09c818acc300",
+      "lemma": "sporting",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-9f9c09c818acc300-p09-b-13",
+      "sense_zh": "体育运动的",
+      "sentence_ids": [
+        "p09-b-13-s01"
+      ],
+      "forms": [
+        "sporting"
+      ]
+    },
+    {
+      "target_id": "ox-cfeacedd04647f73",
+      "lemma": "spectator",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-cfeacedd04647f73-p09-b-13",
+      "sense_zh": "观众",
+      "sentence_ids": [
+        "p09-b-13-s02"
+      ],
+      "forms": [
+        "spectator"
+      ]
+    },
+    {
+      "target_id": "ox-9ec76bbf55821a16",
+      "lemma": "spectacular",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-9ec76bbf55821a16-p09-b-13",
+      "sense_zh": "壮观的；精彩的",
+      "sentence_ids": [
+        "p09-b-13-s03"
+      ],
+      "forms": [
+        "spectacular"
+      ]
+    },
+    {
+      "target_id": "ox-77efd6f6f02dcb95",
+      "lemma": "suspend",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-77efd6f6f02dcb95-p09-b-13",
+      "sense_zh": "暂停",
+      "sentence_ids": [
+        "p09-b-13-s04"
+      ],
+      "forms": [
+        "suspend"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

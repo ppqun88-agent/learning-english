@@ -1,0 +1,153 @@
+{
+  "id": "p09-b-09",
+  "title_zh": "选定传感器演示的离线试验范围",
+  "topic_id": "work",
+  "scenario": {
+    "id": "sensor-demo-offline-trial",
+    "label_zh": "选定传感器演示的离线试验范围",
+    "goal_zh": "区分技术功能与演示需要，并约定先测试本地记录和指示灯而不联网"
+  },
+  "participants": [
+    "Cleo",
+    "Anders"
+  ],
+  "context_zh": "两位设计师商量虚构低压传感器演示的测试范围，不提供安全关键系统操作建议。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-09-s01",
+      "speaker": "Cleo",
+      "text": "This version is quite sophisticated. It can transmit readings to a phone as well as save them locally."
+    },
+    {
+      "id": "p09-b-09-s02",
+      "speaker": "Anders",
+      "text": "Do we need every technological feature for Friday's demonstration?"
+    },
+    {
+      "id": "p09-b-09-s03",
+      "speaker": "Cleo",
+      "text": "Probably not. We're still doing basic testing, and the wireless link isn't reliable yet."
+    },
+    {
+      "id": "p09-b-09-s04",
+      "speaker": "Anders",
+      "text": "Let's keep the first trial offline. Can the sensor record a change and trigger the little indicator light without the phone?"
+    },
+    {
+      "id": "p09-b-09-s05",
+      "speaker": "Cleo",
+      "text": "Yes. We can check the saved reading against the value on the display."
+    },
+    {
+      "id": "p09-b-09-s06",
+      "speaker": "Anders",
+      "text": "That's a clear test. Let's use only those two functions and leave the wireless link off."
+    },
+    {
+      "id": "p09-b-09-s07",
+      "speaker": "Cleo",
+      "text": "Agreed. I'll write down the results before we decide whether to add the phone connection."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-c9cbdc56ea652f17",
+      "lemma": "sophisticated",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-c9cbdc56ea652f17-p09-b-09",
+      "sense_zh": "复杂而先进的",
+      "sentence_ids": [
+        "p09-b-09-s01"
+      ],
+      "forms": [
+        "sophisticated"
+      ]
+    },
+    {
+      "target_id": "ox-cd8d5900f7b79aef",
+      "lemma": "transmit",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-cd8d5900f7b79aef-p09-b-09",
+      "sense_zh": "传送（信号或信息）",
+      "sentence_ids": [
+        "p09-b-09-s01"
+      ],
+      "forms": [
+        "transmit"
+      ]
+    },
+    {
+      "target_id": "ox-07608f8802e5e1ee",
+      "lemma": "technological",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-07608f8802e5e1ee-p09-b-09",
+      "sense_zh": "技术的",
+      "sentence_ids": [
+        "p09-b-09-s02"
+      ],
+      "forms": [
+        "technological"
+      ]
+    },
+    {
+      "target_id": "ox-8cebdd2c950a6e35",
+      "lemma": "testing",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-8cebdd2c950a6e35-p09-b-09",
+      "sense_zh": "测试",
+      "sentence_ids": [
+        "p09-b-09-s03"
+      ],
+      "forms": [
+        "testing"
+      ]
+    },
+    {
+      "target_id": "ox-579cdb41234ba22c",
+      "lemma": "trial",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-579cdb41234ba22c-p09-b-09",
+      "sense_zh": "试验；试用",
+      "sentence_ids": [
+        "p09-b-09-s04"
+      ],
+      "forms": [
+        "trial"
+      ]
+    },
+    {
+      "target_id": "ox-37ddc7ea2fadba61",
+      "lemma": "trigger",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-37ddc7ea2fadba61-p09-b-09",
+      "sense_zh": "触发；引发",
+      "sentence_ids": [
+        "p09-b-09-s04"
+      ],
+      "forms": [
+        "trigger"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

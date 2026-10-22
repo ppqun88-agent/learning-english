@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-05",
+  "title_zh": "换位置试听后决定保留旧收音机",
+  "topic_id": "services",
+  "scenario": {
+    "id": "radio-receiver-reception-check",
+    "label_zh": "旧收音机信号试听",
+    "goal_zh": "比较不同位置的接收效果，决定保留设备并仅在杂音再次出现时联系店员"
+  },
+  "participants": [
+    "Marta",
+    "Joel"
+  ],
+  "context_zh": "顾客带旧收音机到维修店，店员与她一起试听。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-05-s01",
+      "speaker": "Marta",
+      "text": "I bought this radio receiver here last year. Do you recall showing me how to tune it?"
+    },
+    {
+      "id": "p09-a-05-s02",
+      "speaker": "Joel",
+      "text": "I do. What has changed?"
+    },
+    {
+      "id": "p09-a-05-s03",
+      "speaker": "Marta",
+      "text": "The signal is relatively weak in my kitchen compared with the bedroom."
+    },
+    {
+      "id": "p09-a-05-s04",
+      "speaker": "Joel",
+      "text": "Let's try it away from the metal shelf. There, can you hear the station now?"
+    },
+    {
+      "id": "p09-a-05-s05",
+      "speaker": "Marta",
+      "text": "Yes, that's remarkably clear. The kitchen radio sits right beside a large metal cabinet."
+    },
+    {
+      "id": "p09-a-05-s06",
+      "speaker": "Joel",
+      "text": "Try another position at home before paying for a repair. If the noise returns, bring it back."
+    },
+    {
+      "id": "p09-a-05-s07",
+      "speaker": "Marta",
+      "text": "I will. I'll keep this one and contact you if moving it doesn't solve the problem at home."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-be19e60c37fe05c9",
+      "lemma": "recall",
+      "pos": "v.",
+      "sense_zh": "记得；回想起",
+      "sentence_ids": [
+        "p09-a-05-s01"
+      ],
+      "forms": [
+        "recall"
+      ],
+      "sense_id": "sense-staged-ox-be19e60c37fe05c9-p09-a-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f6d28943437b3ca4",
+      "lemma": "receiver",
+      "pos": "n.",
+      "sense_zh": "无线电接收机",
+      "sentence_ids": [
+        "p09-a-05-s01"
+      ],
+      "forms": [
+        "receiver"
+      ],
+      "sense_id": "sense-staged-ox-f6d28943437b3ca4-p09-a-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-022e7d3feaee52c9",
+      "lemma": "relatively",
+      "pos": "adv.",
+      "sense_zh": "相对而言",
+      "sentence_ids": [
+        "p09-a-05-s03"
+      ],
+      "forms": [
+        "relatively"
+      ],
+      "sense_id": "sense-staged-ox-022e7d3feaee52c9-p09-a-05",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92855aed1f418ee4",
+      "lemma": "remarkably",
+      "pos": "adv.",
+      "sense_zh": "非常；出乎意料地",
+      "sentence_ids": [
+        "p09-a-05-s05"
+      ],
+      "forms": [
+        "remarkably"
+      ],
+      "sense_id": "sense-staged-ox-92855aed1f418ee4-p09-a-05",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

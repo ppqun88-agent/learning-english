@@ -1,0 +1,122 @@
+{
+  "id": "p09-b-12",
+  "title_zh": "决定先阅读条款再完成课程申请",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "course-application-status-terms",
+    "label_zh": "决定先阅读条款再完成课程申请",
+    "goal_zh": "核对申请仍是草稿及需要补充的材料，并决定先阅读条款再提交"
+  },
+  "participants": [
+    "Elena",
+    "Noah"
+  ],
+  "context_zh": "虚构课程平台咨询：申请人与工作人员核对草稿状态，不实际提交任何申请。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-12-s01",
+      "speaker": "Elena",
+      "text": "My application status says 'draft'. Does that mean you've received it?"
+    },
+    {
+      "id": "p09-b-12-s02",
+      "speaker": "Noah",
+      "text": "Not yet. You still need to submit it. I can help you check what's missing."
+    },
+    {
+      "id": "p09-b-12-s03",
+      "speaker": "Elena",
+      "text": "The form asks me to specify which evening I can attend. Can I choose both?"
+    },
+    {
+      "id": "p09-b-12-s04",
+      "speaker": "Noah",
+      "text": "Yes, if both work for you. You also need to attach the short writing sample listed below that question."
+    },
+    {
+      "id": "p09-b-12-s05",
+      "speaker": "Elena",
+      "text": "I have the sample ready, but I haven't read the course terms. Is the button below them the final step?"
+    },
+    {
+      "id": "p09-b-12-s06",
+      "speaker": "Noah",
+      "text": "Yes. Please read those first. You can leave the application as a draft while you decide."
+    },
+    {
+      "id": "p09-b-12-s07",
+      "speaker": "Elena",
+      "text": "I'll do that, then add my available evenings and the sample. I won't submit it until I've read everything."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-f494e29978474900",
+      "lemma": "status",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-f494e29978474900-p09-b-12",
+      "sense_zh": "状态",
+      "sentence_ids": [
+        "p09-b-12-s01"
+      ],
+      "forms": [
+        "status"
+      ]
+    },
+    {
+      "target_id": "ox-2d1c63e9dc27a5e0",
+      "lemma": "submit",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-2d1c63e9dc27a5e0-p09-b-12",
+      "sense_zh": "提交",
+      "sentence_ids": [
+        "p09-b-12-s02",
+        "p09-b-12-s07"
+      ],
+      "forms": [
+        "submit"
+      ]
+    },
+    {
+      "target_id": "ox-40e8f81961a611dd",
+      "lemma": "specify",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-40e8f81961a611dd-p09-b-12",
+      "sense_zh": "明确说明",
+      "sentence_ids": [
+        "p09-b-12-s03"
+      ],
+      "forms": [
+        "specify"
+      ]
+    },
+    {
+      "target_id": "ox-73fdd40a909abe25",
+      "lemma": "terms",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-73fdd40a909abe25-p09-b-12",
+      "sense_zh": "条款；条件",
+      "sentence_ids": [
+        "p09-b-12-s05"
+      ],
+      "forms": [
+        "terms"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

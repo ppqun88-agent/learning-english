@@ -1,0 +1,89 @@
+{
+  "id": "p09-a-18",
+  "title_zh": "调换预约并解决共用录音室冲突",
+  "topic_id": "work",
+  "scenario": {
+    "id": "shared-studio-booking-dispute-resolution",
+    "label_zh": "共用录音室重复预约处理",
+    "goal_zh": "查明两份日历造成的冲突，调换预约时段并在共用日历中确认更新"
+  },
+  "participants": [
+    "Zoe",
+    "Ian"
+  ],
+  "context_zh": "两位同事发现录音室被同时安排了两项工作。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-18-s01",
+      "speaker": "Zoe",
+      "text": "We both have the studio at two. How can we resolve this without cancelling either recording?"
+    },
+    {
+      "id": "p09-a-18-s02",
+      "speaker": "Ian",
+      "text": "I booked on the wall calendar. You used the online one, so we never saw each other."
+    },
+    {
+      "id": "p09-a-18-s03",
+      "speaker": "Zoe",
+      "text": "My guest can come at four instead. Would you be able to finish by then?"
+    },
+    {
+      "id": "p09-a-18-s04",
+      "speaker": "Ian",
+      "text": "Yes. If you take four to five and I keep two to three, that would settle it."
+    },
+    {
+      "id": "p09-a-18-s05",
+      "speaker": "Zoe",
+      "text": "That works for my guest; she has already offered four as an alternative. I'll change my booking now."
+    },
+    {
+      "id": "p09-a-18-s06",
+      "speaker": "Ian",
+      "text": "I am looking at the online calendar. Yes, yours is now at four, and mine is at two."
+    },
+    {
+      "id": "p09-a-18-s07",
+      "speaker": "Zoe",
+      "text": "Great. I will mark the wall calendar as out of use so that we both use the online one from now on."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-51e799b9cc454e0a",
+      "lemma": "resolve",
+      "pos": "v.",
+      "sense_zh": "解决问题或冲突",
+      "sentence_ids": [
+        "p09-a-18-s01"
+      ],
+      "forms": [
+        "resolve"
+      ],
+      "sense_id": "sense-staged-ox-51e799b9cc454e0a-p09-a-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-18a0e804596d7add",
+      "lemma": "settle",
+      "pos": "v.",
+      "sense_zh": "解决争议；使问题得到处理",
+      "sentence_ids": [
+        "p09-a-18-s04"
+      ],
+      "forms": [
+        "settle"
+      ],
+      "sense_id": "sense-staged-ox-18a0e804596d7add-p09-a-18",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

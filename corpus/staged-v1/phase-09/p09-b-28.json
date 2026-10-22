@@ -1,0 +1,121 @@
+{
+  "id": "p09-b-28",
+  "title_zh": "约定删除虚构报道中未经证实的身份标签",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "fiction-news-terrorism-label-check",
+    "label_zh": "约定删除虚构报道中未经证实的身份标签",
+    "goal_zh": "区分图片说明中的军队位置与袭击归责，并约定删除没有证据支持的恐怖主义标签"
+  },
+  "participants": [
+    "Mina",
+    "Tutor Ellis"
+  ],
+  "context_zh": "课堂使用完全虚构的地图、图片与报道片段练习核对证据，不涉及现实政治事件。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-28-s01",
+      "speaker": "Mina",
+      "text": "I've labelled the rider in this picture a terrorist. The exercise says there was an attack nearby."
+    },
+    {
+      "id": "p09-b-28-s02",
+      "speaker": "Tutor Ellis",
+      "text": "Does any of the material identify that rider as taking part in the attack?"
+    },
+    {
+      "id": "p09-b-28-s03",
+      "speaker": "Mina",
+      "text": "No. The caption only identifies a cavalry troop in the northern territory."
+    },
+    {
+      "id": "p09-b-28-s04",
+      "speaker": "Tutor Ellis",
+      "text": "Then a location isn't evidence of responsibility. And the background note says the investigators haven't established a motive."
+    },
+    {
+      "id": "p09-b-28-s05",
+      "speaker": "Mina",
+      "text": "So I can't describe the incident as terrorism on the basis of this picture."
+    },
+    {
+      "id": "p09-b-28-s06",
+      "speaker": "Tutor Ellis",
+      "text": "Correct. Report what the exercise actually gives you, and keep the unknowns visible."
+    },
+    {
+      "id": "p09-b-28-s07",
+      "speaker": "Mina",
+      "text": "I'll remove that label from the rider and the claim about the incident. I'll keep the caption's location and say responsibility hasn't been established."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-bb0668a1a0dec5df",
+      "lemma": "terrorist",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-bb0668a1a0dec5df-p09-b-28",
+      "sense_zh": "恐怖分子",
+      "sentence_ids": [
+        "p09-b-28-s01"
+      ],
+      "forms": [
+        "terrorist"
+      ]
+    },
+    {
+      "target_id": "ox-aef6a3b201de1b5e",
+      "lemma": "troop",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-aef6a3b201de1b5e-p09-b-28",
+      "sense_zh": "一队骑兵",
+      "sentence_ids": [
+        "p09-b-28-s03"
+      ],
+      "forms": [
+        "troop"
+      ]
+    },
+    {
+      "target_id": "ox-d9dee9e6a4df41b5",
+      "lemma": "territory",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-d9dee9e6a4df41b5-p09-b-28",
+      "sense_zh": "地区；领土",
+      "sentence_ids": [
+        "p09-b-28-s03"
+      ],
+      "forms": [
+        "territory"
+      ]
+    },
+    {
+      "target_id": "ox-3d14d94a550cfe93",
+      "lemma": "terrorism",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-3d14d94a550cfe93-p09-b-28",
+      "sense_zh": "恐怖主义；恐怖活动",
+      "sentence_ids": [
+        "p09-b-28-s05"
+      ],
+      "forms": [
+        "terrorism"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

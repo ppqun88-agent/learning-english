@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-32",
+  "title_zh": "为街边拍摄选定不挡通行的机位",
+  "topic_id": "work",
+  "scenario": {
+    "id": "film-sidewalk-lighting-position",
+    "label_zh": "街边外景拍摄光线与通道确认",
+    "goal_zh": "核对演员即将到场及开拍安排，选定阴影较少且不占人行道的拍摄位置"
+  },
+  "participants": [
+    "Nico",
+    "Tara"
+  ],
+  "context_zh": "虚构摄制组在获准使用的店铺前院内准备外景，保持公共通道畅通。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-32-s01",
+      "speaker": "Nico",
+      "text": "The actors will be here shortly. Is everything ready for today's shooting?"
+    },
+    {
+      "id": "p09-a-32-s02",
+      "speaker": "Tara",
+      "text": "Almost. That tree casts a shadow over the doorway, so their faces will be dark."
+    },
+    {
+      "id": "p09-a-32-s03",
+      "speaker": "Nico",
+      "text": "Could we move the camera onto the sidewalk and film from there?"
+    },
+    {
+      "id": "p09-a-32-s04",
+      "speaker": "Tara",
+      "text": "No, that would block people. Our marked filming area is inside the forecourt."
+    },
+    {
+      "id": "p09-a-32-s05",
+      "speaker": "Nico",
+      "text": "What about this corner, still inside the marks? The doorway looks brighter from here."
+    },
+    {
+      "id": "p09-a-32-s06",
+      "speaker": "Tara",
+      "text": "Yes, the doorway is clearly lit on the monitor. Let us use that position and keep the public path clear."
+    },
+    {
+      "id": "p09-a-32-s07",
+      "speaker": "Nico",
+      "text": "Agreed. I'll secure the camera here, then we can begin once the actors have rehearsed the entrance."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7c16e7039ca61635",
+      "lemma": "shooting",
+      "pos": "n.",
+      "sense_zh": "影片拍摄",
+      "sentence_ids": [
+        "p09-a-32-s01"
+      ],
+      "forms": [
+        "shooting"
+      ],
+      "sense_id": "sense-staged-ox-7c16e7039ca61635-p09-a-32",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a4c55c3c05acbd94",
+      "lemma": "shortly",
+      "pos": "adv.",
+      "sense_zh": "不久；马上",
+      "sentence_ids": [
+        "p09-a-32-s01"
+      ],
+      "forms": [
+        "shortly"
+      ],
+      "sense_id": "sense-staged-ox-a4c55c3c05acbd94-p09-a-32",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-9555b1413b019b8b",
+      "lemma": "shadow",
+      "pos": "n.",
+      "sense_zh": "阴影",
+      "sentence_ids": [
+        "p09-a-32-s02"
+      ],
+      "forms": [
+        "shadow"
+      ],
+      "sense_id": "sense-staged-ox-9555b1413b019b8b-p09-a-32",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-fa3ed382b9870b21",
+      "lemma": "sidewalk",
+      "pos": "n.",
+      "sense_zh": "人行道",
+      "sentence_ids": [
+        "p09-a-32-s03"
+      ],
+      "forms": [
+        "sidewalk"
+      ],
+      "sense_id": "sense-staged-ox-fa3ed382b9870b21-p09-a-32",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

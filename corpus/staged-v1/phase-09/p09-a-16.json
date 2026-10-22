@@ -1,0 +1,121 @@
+{
+  "id": "p09-a-16",
+  "title_zh": "向保护区报告近岸受伤鸟并等候",
+  "topic_id": "nature",
+  "scenario": {
+    "id": "coastal-reserve-bird-rescue-call",
+    "label_zh": "海岸保护区受伤鸟求助",
+    "goal_zh": "说明受伤鸟的位置，获得保护区派员处理的承诺并决定留在步道上等候"
+  },
+  "participants": [
+    "Ellie",
+    "Warden"
+  ],
+  "context_zh": "游客致电虚构海岸保护区的工作人员报告可见的受伤鸟。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-16-s01",
+      "speaker": "Ellie",
+      "text": "I am in the coastal reserve, near the wooden viewing platform. There is a bird dragging one wing."
+    },
+    {
+      "id": "p09-a-16-s02",
+      "speaker": "Warden",
+      "text": "Is it on the shore or farther out in the water?"
+    },
+    {
+      "id": "p09-a-16-s03",
+      "speaker": "Ellie",
+      "text": "In the shallow water beside the red marker, about two metres from the shore."
+    },
+    {
+      "id": "p09-a-16-s04",
+      "speaker": "Warden",
+      "text": "Thank you. Our rescue team is nearby. I will send them to the platform."
+    },
+    {
+      "id": "p09-a-16-s05",
+      "speaker": "Ellie",
+      "text": "Should I go closer so I can show them?"
+    },
+    {
+      "id": "p09-a-16-s06",
+      "speaker": "Warden",
+      "text": "Please stay on the path. The red marker gives us a clear location, and the team will meet you there."
+    },
+    {
+      "id": "p09-a-16-s07",
+      "speaker": "Ellie",
+      "text": "Understood. I'll wait on the path by the platform and point it out when they arrive."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-156383bc1786961b",
+      "lemma": "rescue",
+      "pos": "n.",
+      "sense_zh": "救助；营救工作",
+      "sentence_ids": [
+        "p09-a-16-s04"
+      ],
+      "forms": [
+        "rescue"
+      ],
+      "sense_id": "sense-staged-ox-156383bc1786961b-p09-a-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-23230f2c1dbb77fa",
+      "lemma": "reserve",
+      "pos": "n.",
+      "sense_zh": "自然保护区",
+      "sentence_ids": [
+        "p09-a-16-s01"
+      ],
+      "forms": [
+        "reserve"
+      ],
+      "sense_id": "sense-staged-ox-23230f2c1dbb77fa-p09-a-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f335733d44be7092",
+      "lemma": "shallow",
+      "pos": "adj.",
+      "sense_zh": "水浅的",
+      "sentence_ids": [
+        "p09-a-16-s03"
+      ],
+      "forms": [
+        "shallow"
+      ],
+      "sense_id": "sense-staged-ox-f335733d44be7092-p09-a-16",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-53cd4f29f3e4644f",
+      "lemma": "shore",
+      "pos": "n.",
+      "sense_zh": "岸边",
+      "sentence_ids": [
+        "p09-a-16-s02"
+      ],
+      "forms": [
+        "shore"
+      ],
+      "sense_id": "sense-staged-ox-53cd4f29f3e4644f-p09-a-16",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

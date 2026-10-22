@@ -1,0 +1,105 @@
+{
+  "id": "p09-a-07",
+  "title_zh": "从备份找回录音并试听核对",
+  "topic_id": "work",
+  "scenario": {
+    "id": "deleted-recording-backup-recovery",
+    "label_zh": "误删录音的备份恢复",
+    "goal_zh": "从昨日备份恢复误删录音，并通过播放开头与结尾核对文件内容"
+  },
+  "participants": [
+    "Mina",
+    "Omar"
+  ],
+  "context_zh": "工作室同事使用本地项目备份找回误删的访谈录音。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-07-s01",
+      "speaker": "Mina",
+      "text": "I deleted the interview recording by mistake. Can we recover it?"
+    },
+    {
+      "id": "p09-a-07-s02",
+      "speaker": "Omar",
+      "text": "There is a backup from yesterday. I can restore the file to a separate folder so we do not overwrite anything."
+    },
+    {
+      "id": "p09-a-07-s03",
+      "speaker": "Mina",
+      "text": "Please do. The file should start with Rosa introducing herself."
+    },
+    {
+      "id": "p09-a-07-s04",
+      "speaker": "Omar",
+      "text": "The recovery has finished. Here is the file; let us play the beginning."
+    },
+    {
+      "id": "p09-a-07-s05",
+      "speaker": "Mina",
+      "text": "That's Rosa's introduction. Now check the end, where she thanks the volunteers."
+    },
+    {
+      "id": "p09-a-07-s06",
+      "speaker": "Omar",
+      "text": "I can hear that too. The recording runs for the full eighteen minutes."
+    },
+    {
+      "id": "p09-a-07-s07",
+      "speaker": "Mina",
+      "text": "Good, we've got the right recording back. I'll copy this checked version into the project folder."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-0ff3eedda62d6da7",
+      "lemma": "recover",
+      "pos": "v.",
+      "sense_zh": "找回遗失或删除的数据",
+      "sentence_ids": [
+        "p09-a-07-s01"
+      ],
+      "forms": [
+        "recover"
+      ],
+      "sense_id": "sense-staged-ox-0ff3eedda62d6da7-p09-a-07",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-e9b72c5c589830e9",
+      "lemma": "recovery",
+      "pos": "n.",
+      "sense_zh": "数据恢复",
+      "sentence_ids": [
+        "p09-a-07-s04"
+      ],
+      "forms": [
+        "recovery"
+      ],
+      "sense_id": "sense-staged-ox-e9b72c5c589830e9-p09-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-638f67b12b3d24a6",
+      "lemma": "restore",
+      "pos": "v.",
+      "sense_zh": "从备份恢复文件",
+      "sentence_ids": [
+        "p09-a-07-s02"
+      ],
+      "forms": [
+        "restore"
+      ],
+      "sense_id": "sense-staged-ox-638f67b12b3d24a6-p09-a-07",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

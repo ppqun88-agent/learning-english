@@ -1,0 +1,95 @@
+{
+  "id": "p09-a-21",
+  "title_zh": "选定慢曲并约定先拍节奏",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "rhythm-workshop-piece-selection",
+    "label_zh": "初学音乐工作坊选曲",
+    "goal_zh": "按初学者的节奏困难选择慢曲，约定先拍节奏再使用乐器"
+  },
+  "participants": [
+    "Kian",
+    "Sophie"
+  ],
+  "context_zh": "音乐工作坊学生与老师从现有曲目中选择练习材料。",
+  "author": "author-phase09-a",
+  "sentences": [
+    {
+      "id": "p09-a-21-s01",
+      "speaker": "Kian",
+      "text": "I can find the notes, but I lose the rhythm as soon as the others start playing."
+    },
+    {
+      "id": "p09-a-21-s02",
+      "speaker": "Sophie",
+      "text": "We have a selection of slower pieces here. Which one do you already know?"
+    },
+    {
+      "id": "p09-a-21-s03",
+      "speaker": "Kian",
+      "text": "The song on the blue page. Could we select that one for today?"
+    },
+    {
+      "id": "p09-a-21-s04",
+      "speaker": "Sophie",
+      "text": "Yes. We can put the instruments down and clap the beat together first."
+    },
+    {
+      "id": "p09-a-21-s05",
+      "speaker": "Kian",
+      "text": "That would help. Let us do the blue-page song, then add the instruments when I can keep the beat."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-9353042dc36afddf",
+      "lemma": "rhythm",
+      "pos": "n.",
+      "sense_zh": "节奏",
+      "sentence_ids": [
+        "p09-a-21-s01"
+      ],
+      "forms": [
+        "rhythm"
+      ],
+      "sense_id": "sense-staged-ox-9353042dc36afddf-p09-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-f8f7d491846f7e4c",
+      "lemma": "selection",
+      "pos": "n.",
+      "sense_zh": "可供选择的一组事物",
+      "sentence_ids": [
+        "p09-a-21-s02"
+      ],
+      "forms": [
+        "selection"
+      ],
+      "sense_id": "sense-staged-ox-f8f7d491846f7e4c-p09-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-90dec4a26a8fa0d3",
+      "lemma": "select",
+      "pos": "v.",
+      "sense_zh": "选择",
+      "sentence_ids": [
+        "p09-a-21-s03"
+      ],
+      "forms": [
+        "select"
+      ],
+      "sense_id": "sense-staged-ox-90dec4a26a8fa0d3-p09-a-21",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

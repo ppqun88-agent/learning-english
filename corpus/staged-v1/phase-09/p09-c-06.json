@@ -1,0 +1,137 @@
+{
+  "id": "p09-c-06",
+  "title_zh": "报告车站伤情并等候接线员指示",
+  "topic_id": "health",
+  "scenario": {
+    "id": "fictional-station-injury-call",
+    "label_zh": "向接线员报告可见伤情并等候指示",
+    "goal_zh": "向接线员说明伤者的位置和可见伤情，承认不清楚事发经过并留在线上"
+  },
+  "participants": [
+    "Anika",
+    "Dispatcher"
+  ],
+  "context_zh": "虚构急救通话语言练习，不代替真实急救指导。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-06-s01",
+      "speaker": "Anika",
+      "text": "I need urgent help at the east entrance of Bell Street station. A man is lying beside the ticket machine."
+    },
+    {
+      "id": "p09-c-06-s02",
+      "speaker": "Dispatcher",
+      "text": "Tell me what you can see, and stay on the line."
+    },
+    {
+      "id": "p09-c-06-s03",
+      "speaker": "Anika",
+      "text": "He appears unconscious. He hasn't answered when I've spoken to him."
+    },
+    {
+      "id": "p09-c-06-s04",
+      "speaker": "Dispatcher",
+      "text": "Did you see what happened?"
+    },
+    {
+      "id": "p09-c-06-s05",
+      "speaker": "Anika",
+      "text": "No. I'm not a witness to what happened. I arrived a moment ago, and I can see a wound on his wrist."
+    },
+    {
+      "id": "p09-c-06-s06",
+      "speaker": "Dispatcher",
+      "text": "Thank you. I've recorded the location and what you've told me. I'll ask you some more questions now."
+    },
+    {
+      "id": "p09-c-06-s07",
+      "speaker": "Anika",
+      "text": "I'm here, and I'll stay on the line."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ce6eba4862586332",
+      "lemma": "urgent",
+      "pos": "adj.",
+      "sense_zh": "紧急的",
+      "sentence_ids": [
+        "p09-c-06-s01"
+      ],
+      "forms": [
+        "urgent"
+      ],
+      "sense_id": "sense-staged-ox-ce6eba4862586332-p09-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-70e63d4ceef9e542",
+      "lemma": "unconscious",
+      "pos": "adj.",
+      "sense_zh": "失去知觉的",
+      "sentence_ids": [
+        "p09-c-06-s03"
+      ],
+      "forms": [
+        "unconscious"
+      ],
+      "sense_id": "sense-staged-ox-70e63d4ceef9e542-p09-c-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-8d1e3c63f8ca954f",
+      "lemma": "witness",
+      "pos": "n.",
+      "sense_zh": "目击者",
+      "sentence_ids": [
+        "p09-c-06-s05"
+      ],
+      "forms": [
+        "witness"
+      ],
+      "sense_id": "sense-staged-ox-8d1e3c63f8ca954f-p09-c-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-54fbfc9473cbb059",
+      "lemma": "wound",
+      "pos": "n.",
+      "sense_zh": "伤口",
+      "sentence_ids": [
+        "p09-c-06-s05"
+      ],
+      "forms": [
+        "wound"
+      ],
+      "sense_id": "sense-staged-ox-54fbfc9473cbb059-p09-c-06",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-b0269353a893d620",
+      "lemma": "wrist",
+      "pos": "n.",
+      "sense_zh": "手腕",
+      "sentence_ids": [
+        "p09-c-06-s05"
+      ],
+      "forms": [
+        "wrist"
+      ],
+      "sense_id": "sense-staged-ox-b0269353a893d620-p09-c-06",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

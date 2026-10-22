@@ -1,0 +1,116 @@
+{
+  "id": "p09-c-11",
+  "title_zh": "调整展板边框并核对竖直位置",
+  "topic_id": "work",
+  "scenario": {
+    "id": "exhibition-panel-frame-alignment",
+    "label_zh": "调整展板边框并核对竖直位置",
+    "goal_zh": "将铝制边框与标线对齐，检查调整后的竖直位置并确认保留"
+  },
+  "participants": [
+    "Pia",
+    "Dev"
+  ],
+  "context_zh": "展览布置人员在安装前试摆轻质展示板。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-11-s01",
+      "speaker": "Pia",
+      "text": "This aluminium frame is lighter than the old one, but it looks crooked."
+    },
+    {
+      "id": "p09-c-11-s02",
+      "speaker": "Dev",
+      "text": "The printed border may be misleading us. Let's align the frame with the pencil marks on the backing board."
+    },
+    {
+      "id": "p09-c-11-s03",
+      "speaker": "Pia",
+      "text": "I've moved it to the marks. Could you check the left edge with the level?"
+    },
+    {
+      "id": "p09-c-11-s04",
+      "speaker": "Dev",
+      "text": "It's vertical now. The bubble is in the middle."
+    },
+    {
+      "id": "p09-c-11-s05",
+      "speaker": "Pia",
+      "text": "How does the alignment look from the doorway?"
+    },
+    {
+      "id": "p09-c-11-s06",
+      "speaker": "Dev",
+      "text": "Straight. Keep it there, and I'll mark the fixing points before we take it down."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-65364d2f33f44a28",
+      "lemma": "aluminium",
+      "pos": "n.",
+      "sense_zh": "铝",
+      "sentence_ids": [
+        "p09-c-11-s01"
+      ],
+      "forms": [
+        "aluminium"
+      ],
+      "sense_id": "sense-staged-ox-65364d2f33f44a28-p09-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-a4d407cd7c3e9e8d",
+      "lemma": "align",
+      "pos": "v.",
+      "sense_zh": "使对齐",
+      "sentence_ids": [
+        "p09-c-11-s02"
+      ],
+      "forms": [
+        "align"
+      ],
+      "sense_id": "sense-staged-ox-a4d407cd7c3e9e8d-p09-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d54c816dc2ed0ce8",
+      "lemma": "vertical",
+      "pos": "adj.",
+      "sense_zh": "竖直的",
+      "sentence_ids": [
+        "p09-c-11-s04"
+      ],
+      "forms": [
+        "vertical"
+      ],
+      "sense_id": "sense-staged-ox-d54c816dc2ed0ce8-p09-c-11",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-17284882f7c8f0bd",
+      "lemma": "alignment",
+      "pos": "n.",
+      "sense_zh": "对齐状态",
+      "sentence_ids": [
+        "p09-c-11-s05"
+      ],
+      "forms": [
+        "alignment"
+      ],
+      "sense_id": "sense-staged-ox-17284882f7c8f0bd-p09-c-11",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

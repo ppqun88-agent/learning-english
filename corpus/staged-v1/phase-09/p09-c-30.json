@@ -1,0 +1,100 @@
+{
+  "id": "p09-c-30",
+  "title_zh": "发现台灯电线露出后约定送检",
+  "topic_id": "home",
+  "scenario": {
+    "id": "display-lamp-cable-inspection",
+    "label_zh": "看到灯线问题后停止调整并约定送检",
+    "goal_zh": "说明抬灯罩时发现电线可见，确认灯已拔电并决定不再调整而交维修店检查"
+  },
+  "participants": [
+    "Yara",
+    "Cole"
+  ],
+  "context_zh": "合住者讨论一盏已拔电的旧台灯，不进行电气维修。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-30-s01",
+      "speaker": "Yara",
+      "text": "I tilted the shade upwards, and now a wire is visible behind the fitting."
+    },
+    {
+      "id": "p09-c-30-s02",
+      "speaker": "Cole",
+      "text": "Is the lamp still plugged in?"
+    },
+    {
+      "id": "p09-c-30-s03",
+      "speaker": "Yara",
+      "text": "No. I unplugged it before moving it. I haven't touched the wire."
+    },
+    {
+      "id": "p09-c-30-s04",
+      "speaker": "Cole",
+      "text": "Let's leave it as it is rather than try to push anything back."
+    },
+    {
+      "id": "p09-c-30-s05",
+      "speaker": "Yara",
+      "text": "Agreed. I'll take it to the repair shop and ask them to inspect it."
+    },
+    {
+      "id": "p09-c-30-s06",
+      "speaker": "Cole",
+      "text": "I'll use the other lamp tonight. We don't need to test this one ourselves."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-ba665a4154fe80db",
+      "lemma": "upwards",
+      "pos": "adv.",
+      "sense_zh": "向上",
+      "sentence_ids": [
+        "p09-c-30-s01"
+      ],
+      "forms": [
+        "upwards"
+      ],
+      "sense_id": "sense-staged-ox-ba665a4154fe80db-p09-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-92da32abf4fdf25c",
+      "lemma": "wire",
+      "pos": "n.",
+      "sense_zh": "电线",
+      "sentence_ids": [
+        "p09-c-30-s01"
+      ],
+      "forms": [
+        "wire"
+      ],
+      "sense_id": "sense-staged-ox-92da32abf4fdf25c-p09-c-30",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-0870653c1da53c6c",
+      "lemma": "visible",
+      "pos": "adj.",
+      "sense_zh": "看得见的",
+      "sentence_ids": [
+        "p09-c-30-s01"
+      ],
+      "forms": [
+        "visible"
+      ],
+      "sense_id": "sense-staged-ox-0870653c1da53c6c-p09-c-30",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

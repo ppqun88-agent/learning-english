@@ -1,0 +1,137 @@
+{
+  "id": "p09-b-04",
+  "title_zh": "分工处理咖啡馆洒落的饮料",
+  "topic_id": "work",
+  "scenario": {
+    "id": "cafe-spill-clearance-plan",
+    "label_zh": "分工处理咖啡馆洒落的饮料",
+    "goal_zh": "隔开洒落饮料的区域，并约定清理后等地面干燥再恢复通行"
+  },
+  "participants": [
+    "Nico",
+    "Leena"
+  ],
+  "context_zh": "咖啡馆两位工作人员处理一杯洒在桌面和地板上的饮料。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-04-s01",
+      "speaker": "Nico",
+      "text": "I saw a customer spill a drink by table four. I've put the barrier across the aisle."
+    },
+    {
+      "id": "p09-b-04-s02",
+      "speaker": "Leena",
+      "text": "Good. Someone could slip on that. Is there any broken glass?"
+    },
+    {
+      "id": "p09-b-04-s03",
+      "speaker": "Nico",
+      "text": "No, it was a paper cup. Could you slide the empty tray towards me so I can clear the table?"
+    },
+    {
+      "id": "p09-b-04-s04",
+      "speaker": "Leena",
+      "text": "Here you are. The tabletop is sticky too."
+    },
+    {
+      "id": "p09-b-04-s05",
+      "speaker": "Nico",
+      "text": "I'll wipe it. Can you sweep up the dry crumbs first, then mop the drink off the floor?"
+    },
+    {
+      "id": "p09-b-04-s06",
+      "speaker": "Leena",
+      "text": "Yes. I'll keep the barrier there until the floor is dry."
+    },
+    {
+      "id": "p09-b-04-s07",
+      "speaker": "Nico",
+      "text": "Thanks. I'll check it with you before we let customers through again."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7194eec84ee19d8e",
+      "lemma": "spill",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-7194eec84ee19d8e-p09-b-04",
+      "sense_zh": "使液体洒出",
+      "sentence_ids": [
+        "p09-b-04-s01"
+      ],
+      "forms": [
+        "spill"
+      ]
+    },
+    {
+      "target_id": "ox-e302855716adfebe",
+      "lemma": "slip",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-e302855716adfebe-p09-b-04",
+      "sense_zh": "滑倒；打滑",
+      "sentence_ids": [
+        "p09-b-04-s02"
+      ],
+      "forms": [
+        "slip"
+      ]
+    },
+    {
+      "target_id": "ox-8173ecb87b9cbbdf",
+      "lemma": "slide",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-8173ecb87b9cbbdf-p09-b-04",
+      "sense_zh": "使平稳滑动",
+      "sentence_ids": [
+        "p09-b-04-s03"
+      ],
+      "forms": [
+        "slide"
+      ]
+    },
+    {
+      "target_id": "ox-26a1687d15f8b840",
+      "lemma": "sticky",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-26a1687d15f8b840-p09-b-04",
+      "sense_zh": "黏的",
+      "sentence_ids": [
+        "p09-b-04-s04"
+      ],
+      "forms": [
+        "sticky"
+      ]
+    },
+    {
+      "target_id": "ox-0e093c67a3c0dff3",
+      "lemma": "sweep",
+      "pos": "v.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-0e093c67a3c0dff3-p09-b-04",
+      "sense_zh": "清扫",
+      "sentence_ids": [
+        "p09-b-04-s05"
+      ],
+      "forms": [
+        "sweep"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

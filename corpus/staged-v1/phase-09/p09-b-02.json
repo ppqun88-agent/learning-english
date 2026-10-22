@@ -1,0 +1,121 @@
+{
+  "id": "p09-b-02",
+  "title_zh": "约好先检查金属椅子再报价",
+  "topic_id": "services",
+  "scenario": {
+    "id": "metal-chair-specialist-inspection",
+    "label_zh": "约好先检查金属椅子再报价",
+    "goal_zh": "说明金属椅子的折叠故障，并约定由专业人员检查后再提供维修报价"
+  },
+  "participants": [
+    "Jonah",
+    "Farah"
+  ],
+  "context_zh": "顾客与修理店接待员讨论一把折叠椅，不自行进行结构性维修。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-02-s01",
+      "speaker": "Jonah",
+      "text": "The frame is steel, but the seat folds up. Can your shop repair this kind of chair?"
+    },
+    {
+      "id": "p09-b-02-s02",
+      "speaker": "Farah",
+      "text": "Yes. We have a specialist in metal furniture. What's wrong with it?"
+    },
+    {
+      "id": "p09-b-02-s03",
+      "speaker": "Jonah",
+      "text": "The folding joint is stiff. I'm worried I'll break it if I force it."
+    },
+    {
+      "id": "p09-b-02-s04",
+      "speaker": "Farah",
+      "text": "Leave it as it is. Our repairer is skilled at working on old joints, but she'll need to see it first."
+    },
+    {
+      "id": "p09-b-02-s05",
+      "speaker": "Jonah",
+      "text": "Can I bring it in tomorrow and get a price before any work starts?"
+    },
+    {
+      "id": "p09-b-02-s06",
+      "speaker": "Farah",
+      "text": "Certainly. Bring it after ten. We'll inspect it, then call you with a quote."
+    },
+    {
+      "id": "p09-b-02-s07",
+      "speaker": "Jonah",
+      "text": "Good. Please don't start the repair until I've agreed to that quote."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d712974fdc145d5a",
+      "lemma": "steel",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-d712974fdc145d5a-p09-b-02",
+      "sense_zh": "钢",
+      "sentence_ids": [
+        "p09-b-02-s01"
+      ],
+      "forms": [
+        "steel"
+      ]
+    },
+    {
+      "target_id": "ox-f496c81d0f6c1220",
+      "lemma": "specialist",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-f496c81d0f6c1220-p09-b-02",
+      "sense_zh": "专业人员",
+      "sentence_ids": [
+        "p09-b-02-s02"
+      ],
+      "forms": [
+        "specialist"
+      ]
+    },
+    {
+      "target_id": "ox-819f5d8f1c2cc296",
+      "lemma": "stiff",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-819f5d8f1c2cc296-p09-b-02",
+      "sense_zh": "难以活动的；不灵活的",
+      "sentence_ids": [
+        "p09-b-02-s03"
+      ],
+      "forms": [
+        "stiff"
+      ]
+    },
+    {
+      "target_id": "ox-5c20b7e8ebb93138",
+      "lemma": "skilled",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-5c20b7e8ebb93138-p09-b-02",
+      "sense_zh": "熟练的；有技能的",
+      "sentence_ids": [
+        "p09-b-02-s04"
+      ],
+      "forms": [
+        "skilled"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

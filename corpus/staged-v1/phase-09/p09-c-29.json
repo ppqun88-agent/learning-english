@@ -1,0 +1,121 @@
+{
+  "id": "p09-c-29",
+  "title_zh": "商定缺课学生的补课任务调整",
+  "topic_id": "learning",
+  "scenario": {
+    "id": "teen-class-absence-adjustment",
+    "label_zh": "为缺课学生调整补课任务",
+    "goal_zh": "核对缺课范围，决定先与学生私下商量缩小补做任务并延后提交"
+  },
+  "participants": [
+    "Helen",
+    "Samir"
+  ],
+  "context_zh": "虚构中学中，家长与教师讨论十六岁学生的缺课安排。",
+  "author": "author-phase09-c",
+  "sentences": [
+    {
+      "id": "p09-c-29-s01",
+      "speaker": "Helen",
+      "text": "Maya was absent on Monday and Tuesday. She's worried that she has to redo every classroom activity."
+    },
+    {
+      "id": "p09-c-29-s02",
+      "speaker": "Samir",
+      "text": "Her absence means she missed the demonstration, but not the start of a new topic. A small adjustment should be enough."
+    },
+    {
+      "id": "p09-c-29-s03",
+      "speaker": "Helen",
+      "text": "As an adolescent, she wants to manage this herself. Could you discuss the plan with her rather than announce it to the class?"
+    },
+    {
+      "id": "p09-c-29-s04",
+      "speaker": "Samir",
+      "text": "Of course. I'll ask her to watch the demonstration recording and complete just the two related questions."
+    },
+    {
+      "id": "p09-c-29-s05",
+      "speaker": "Helen",
+      "text": "Could she hand them in on Friday instead of tomorrow?"
+    },
+    {
+      "id": "p09-c-29-s06",
+      "speaker": "Samir",
+      "text": "Yes. I'll offer that deadline when I speak to her privately today."
+    },
+    {
+      "id": "p09-c-29-s07",
+      "speaker": "Helen",
+      "text": "Thank you. I'll let her know you'll talk with her, not that every detail has already been settled for her."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-7cf4c5fc216c3828",
+      "lemma": "absent",
+      "pos": "adj.",
+      "sense_zh": "缺席的",
+      "sentence_ids": [
+        "p09-c-29-s01"
+      ],
+      "forms": [
+        "absent"
+      ],
+      "sense_id": "sense-staged-ox-7cf4c5fc216c3828-p09-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-d65d1a771972231f",
+      "lemma": "absence",
+      "pos": "n.",
+      "sense_zh": "缺席",
+      "sentence_ids": [
+        "p09-c-29-s02"
+      ],
+      "forms": [
+        "absence"
+      ],
+      "sense_id": "sense-staged-ox-d65d1a771972231f-p09-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-4eda9da3fa884a10",
+      "lemma": "adjustment",
+      "pos": "n.",
+      "sense_zh": "调整",
+      "sentence_ids": [
+        "p09-c-29-s02"
+      ],
+      "forms": [
+        "adjustment"
+      ],
+      "sense_id": "sense-staged-ox-4eda9da3fa884a10-p09-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    },
+    {
+      "target_id": "ox-2db83cafc2cdf148",
+      "lemma": "adolescent",
+      "pos": "n.",
+      "sense_zh": "青少年",
+      "sentence_ids": [
+        "p09-c-29-s03"
+      ],
+      "forms": [
+        "adolescent"
+      ],
+      "sense_id": "sense-staged-ox-2db83cafc2cdf148-p09-c-29",
+      "cefr": "C1",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736"
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}

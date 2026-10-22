@@ -1,0 +1,121 @@
+{
+  "id": "p09-b-24",
+  "title_zh": "选定柔和色调的肖像画作为礼物",
+  "topic_id": "leisure",
+  "scenario": {
+    "id": "portrait-colour-stroke-choice",
+    "label_zh": "选定柔和色调的肖像画作为礼物",
+    "goal_zh": "比较两幅肖像的色调和笔触，并选定柔和版本送给母亲"
+  },
+  "participants": [
+    "Sofia",
+    "Cal"
+  ],
+  "context_zh": "画廊访客与朋友比较同一人物的两幅肖像版画。",
+  "author": "author-phase09-b",
+  "sentences": [
+    {
+      "id": "p09-b-24-s01",
+      "speaker": "Sofia",
+      "text": "The red version is striking. You notice it as soon as you enter the room."
+    },
+    {
+      "id": "p09-b-24-s02",
+      "speaker": "Cal",
+      "text": "It is, but your mother's room is quite restful. Look at the softer tone of this blue one."
+    },
+    {
+      "id": "p09-b-24-s03",
+      "speaker": "Sofia",
+      "text": "I love the way one stroke of the brush suggests the whole shoulder. Is that detail in both versions?"
+    },
+    {
+      "id": "p09-b-24-s04",
+      "speaker": "Cal",
+      "text": "Yes. They're prints from the same drawing, with different colours added."
+    },
+    {
+      "id": "p09-b-24-s05",
+      "speaker": "Sofia",
+      "text": "The red one is stunning on this wall, but I think Mum would live more happily with the blue one."
+    },
+    {
+      "id": "p09-b-24-s06",
+      "speaker": "Cal",
+      "text": "Then choose the blue. A present doesn't have to be the boldest thing in the gallery."
+    },
+    {
+      "id": "p09-b-24-s07",
+      "speaker": "Sofia",
+      "text": "You're right. That's the one I'll ask the assistant for."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ox-d6d44145bca1cb01",
+      "lemma": "striking",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-d6d44145bca1cb01-p09-b-24",
+      "sense_zh": "引人注目的",
+      "sentence_ids": [
+        "p09-b-24-s01"
+      ],
+      "forms": [
+        "striking"
+      ]
+    },
+    {
+      "target_id": "ox-0614660ad213de7d",
+      "lemma": "tone",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford3000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-0614660ad213de7d-p09-b-24",
+      "sense_zh": "色调",
+      "sentence_ids": [
+        "p09-b-24-s02"
+      ],
+      "forms": [
+        "tone"
+      ]
+    },
+    {
+      "target_id": "ox-785f001ca9cc2243",
+      "lemma": "stroke",
+      "pos": "n.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-785f001ca9cc2243-p09-b-24",
+      "sense_zh": "一笔；笔画",
+      "sentence_ids": [
+        "p09-b-24-s03"
+      ],
+      "forms": [
+        "stroke"
+      ]
+    },
+    {
+      "target_id": "ox-064984474e8681fe",
+      "lemma": "stunning",
+      "pos": "adj.",
+      "cefr": "B2",
+      "list": "Oxford5000",
+      "source_commit": "3043da14627ed3c6168b598479bc110ce6b34736",
+      "sense_id": "sense-staged-ox-064984474e8681fe-p09-b-24",
+      "sense_zh": "极美的；令人惊艳的",
+      "sentence_ids": [
+        "p09-b-24-s05"
+      ],
+      "forms": [
+        "stunning"
+      ]
+    }
+  ],
+  "scope_version": "oxford-remaining-staged-v1",
+  "content_version": 1
+}
